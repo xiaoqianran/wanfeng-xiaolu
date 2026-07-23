@@ -1005,3 +1005,4 @@
 {"round":1005,"status":"completed","type":"assets","scope":"ui","goal":"Integrate season art pack and badges","outcome":"spring/autumn/winter/dusk + badges preloaded","commit":"assets(ui): R1005 season art pack and achievement badges integrated","at":"2026-07-24T04:11:21+08:00"}
 {"round":1006,"status":"completed","type":"test","scope":"core","goal":"Season achievement and art unit coverage","outcome":"19 tests green","commit":"test(core): R1006 season achievement and season-art unit coverage","at":"2026-07-24T04:11:21+08:00"}
 {"round":1007,"status":"completed","type":"feat","scope":"album","goal":"Add journal template #50","outcome":"Journal templates=50","commit":"feat(album): R1007 Add journal template #50","at":"2026-07-23T20:12:07.350Z"}
+{"round":1008,"status":"completed","type":"feat","scope":"shop","goal":"Add secret recipe stub #50","outcome":"Recipes=50","commit":"feat(shop): R1008 Add secret recipe stub #50","at":"2026-07-23T20:12:07.400Z"}
