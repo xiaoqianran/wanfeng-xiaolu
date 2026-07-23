@@ -819,3 +819,4 @@
 | 812 | completed | feat | Add flavor or base option #40 | Flavor fl_chamomile_0812 | `feat(shop): R0812 Add flavor or base option #40` |
 | 813 | completed | feat | UI copy toast string #40 | UI toasts=41 | `feat(ui): R0813 UI copy toast string #40` |
 | 814 | completed | feat | Season palette note #40 | Season palette winter_0814 | `feat(season): R0814 Season palette note #40` |
+| 815 | completed | assets | Asset slot registration #40 | Asset slot assets/walk/slot_0815.png | `assets(manifest): R0815 Asset slot registration #40` |

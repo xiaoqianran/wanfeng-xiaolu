@@ -812,3 +812,4 @@
 {"round":812,"status":"completed","type":"feat","scope":"shop","goal":"Add flavor or base option #40","outcome":"Flavor fl_chamomile_0812","commit":"feat(shop): R0812 Add flavor or base option #40","at":"2026-07-23T19:50:16.551Z"}
 {"round":813,"status":"completed","type":"feat","scope":"ui","goal":"UI copy toast string #40","outcome":"UI toasts=41","commit":"feat(ui): R0813 UI copy toast string #40","at":"2026-07-23T19:50:16.588Z"}
 {"round":814,"status":"completed","type":"feat","scope":"season","goal":"Season palette note #40","outcome":"Season palette winter_0814","commit":"feat(season): R0814 Season palette note #40","at":"2026-07-23T19:50:16.614Z"}
+{"round":815,"status":"completed","type":"assets","scope":"manifest","goal":"Asset slot registration #40","outcome":"Asset slot assets/walk/slot_0815.png","commit":"assets(manifest): R0815 Asset slot registration #40","at":"2026-07-23T19:50:16.645Z"}
