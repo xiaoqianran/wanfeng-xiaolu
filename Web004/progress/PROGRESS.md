@@ -61,3 +61,4 @@
 | 54 | completed | feat | Ship dialogue line into runtime #4 | dialogues=56 | `feat(content): R0054 Ship dialogue line into runtime #4` |
 | 55 | completed | feat | Ship journal template into runtime #4 | journal templates=57 | `feat(album): R0055 Ship journal template into runtime #4` |
 | 56 | completed | feat | Ship secret recipe into runtime #4 | secret recipes=57 | `feat(shop): R0056 Ship secret recipe into runtime #4` |
+| 57 | completed | feat | Ship achievement milestone into runtime #4 | achievements=57 | `feat(meta): R0057 Ship achievement milestone into runtime #4` |
