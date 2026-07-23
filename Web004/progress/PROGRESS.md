@@ -531,3 +531,4 @@
 | 524 | completed | feat | Add garden care whisper #26 | Garden msg #27 | `feat(garden): R0524 Add garden care whisper #26` |
 | 525 | completed | feat | Add shop tip #26 | Shop tip #27 | `feat(shop): R0525 Add shop tip #26` |
 | 526 | completed | feat | Tune walk ambient note #26 | Walk ambient #26 | `feat(walk): R0526 Tune walk ambient note #26` |
+| 527 | completed | feat | Add journal template #26 | Journal templates=26 | `feat(album): R0527 Add journal template #26` |
