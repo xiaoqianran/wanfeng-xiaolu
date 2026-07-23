@@ -88,3 +88,4 @@
 | 81 | completed | feat | Ship achievement milestone into runtime #6 | achievements=59 | `feat(meta): R0081 Ship achievement milestone into runtime #6` |
 | 82 | completed | style | Ship CSS accent token used by app shell #6 | CSS --r-accent hue=314 wired to brand/primary | `style(ui): R0082 Ship CSS accent token used by app shell #6` |
 | 83 | completed | feat | Ship plantable seed linkage into runtime #6 | plant link plant_rose_0083 harvest=seed_rose_0083 | `feat(content): R0083 Ship plantable seed linkage into runtime #6` |
+| 84 | completed | assets | Wire real stage art reference into runtime manifest #6 | live art assets/ui/live_0084.jpg from assets/seasons/spring.jpg (≥1KB) | `assets(ui): R0084 Wire real stage art reference into runtime manifest #6` |
