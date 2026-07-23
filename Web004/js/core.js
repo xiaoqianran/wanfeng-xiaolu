@@ -586,6 +586,12 @@
     { id: "path_atlas", name: "小路图鉴手", desc: "走过 15 种小路主题", check: function (s) {
       return Object.keys(s._themesTouched || {}).length >= 15;
     } },
+    { id: "peach_sill", name: "蜜桃窗台", desc: "发现蜜桃瓣", check: function (s) {
+      return !!(s.discovered && s.discovered.peach);
+    } },
+    { id: "lantern_bridge_walker", name: "灯桥旅人", desc: "走过灯桥夜步", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.lantern_bridge);
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
     { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },

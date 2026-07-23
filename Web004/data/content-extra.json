@@ -2406,6 +2406,13 @@
       "emoji": "💜",
       "kind": "风味",
       "seed": "seaLavenderPot"
+    },
+    "peach": {
+      "id": "peach",
+      "name": "蜜桃瓣",
+      "emoji": "🍑",
+      "kind": "风味",
+      "seed": "peachPot"
     }
   },
   "plants": {
@@ -4394,6 +4401,17 @@
       ],
       "harvest": "sea_lavender",
       "days": 3
+    },
+    "peachPot": {
+      "id": "peachPot",
+      "name": "蜜桃",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍑"
+      ],
+      "harvest": "peach",
+      "days": 3
     }
   },
   "cups": [
@@ -5308,6 +5326,16 @@
       "tags": [
         "花香",
         "清爽"
+      ]
+    },
+    {
+      "id": "peach",
+      "name": "蜜桃",
+      "emoji": "🍑",
+      "need": "peach",
+      "tags": [
+        "甜蜜",
+        "果香"
       ]
     }
   ],
@@ -6642,6 +6670,21 @@
         "mint",
         "hibiscus",
         "plain"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "切桃的孩子",
+      "avatar": "🍑",
+      "wish": "要甜！蜜桃或蜜，装饰也要好看。",
+      "tags": [
+        "甜蜜"
+      ],
+      "flavors": [
+        "peach",
+        "honey",
+        "berry",
+        "cardamom"
       ],
       "wantTopping": true
     }
