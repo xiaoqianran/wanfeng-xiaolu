@@ -2352,5 +2352,28 @@ test("peach plantable lantern_bridge 38 themes", () => {
   assert.ok(man.includes("灯桥夜步"));
 });
 
+
+test("pine_needle plantable pine_ridge 39 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.pine_needle && j.plants.pineNeedlePot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  s.bag.pine_needle = 1;
+  assert.ok(core.plantSeed(s, 0, "pine_needle", cat).ok);
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "pine_ridge"));
+  assert.ok(themes.length >= 39);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("pine_ridge"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "松针清茶"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "pine_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("松脊晚风"));
+  const walk = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "walk-config.json"), "utf8"));
+  assert.ok((walk.ambient || []).length >= 40);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
