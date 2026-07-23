@@ -2669,5 +2669,35 @@
     "id": "ev_continue_plum",
     "title": "继续走·又见李花",
     "body": "第二次走短径，花更稀，香更淡。"
+  },
+  {
+    "id": "ev_mulberry",
+    "title": "桑葚窗台",
+    "body": "桑葚的颜色比想象中更深。你把它种在角落。"
+  },
+  {
+    "id": "ev_mulberry_lane",
+    "title": "桑荫小径",
+    "body": "树荫把路压得很凉。你放慢脚步。"
+  },
+  {
+    "id": "ev_variety_sill",
+    "title": "多样窗台",
+    "body": "窗台上的植物越来越多时，浇水也像在点名。"
+  },
+  {
+    "id": "ev_mulberry_guest",
+    "title": "采桑的人",
+    "body": "她说桑葚要新鲜。你点头，少放了半勺。"
+  },
+  {
+    "id": "ev_purple_hand",
+    "title": "紫手指",
+    "body": "果汁把指尖染紫了，洗了三遍还淡淡的。"
+  },
+  {
+    "id": "ev_continue_mulberry",
+    "title": "继续走·又见桑荫",
+    "body": "第二次走桑荫，叶更密，光更碎。"
   }
 ]
