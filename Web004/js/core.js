@@ -489,6 +489,12 @@
       addItem(state, def.harvest, n);
       state.hearts = (state.hearts || 0) + 1;
       state.coins = (state.coins || 0) + ECONOMY.harvestCoins;
+      var gift = null;
+      if (pot.mood > 85) {
+        var extras = ["petal", "clover", "maple", "stone"];
+        gift = extras[Math.floor((pot.mood + (pot.water || 0)) % extras.length)];
+        addItem(state, gift, 1);
+      }
       if (!state.stats) state.stats = {};
       state.stats.plantsHarvested = (state.stats.plantsHarvested || 0) + 1;
       pot.growth = def.days * 0.4;
@@ -496,7 +502,7 @@
       pot.sun = 30;
       pot.mood = 40;
       pot.tendedAt = Date.now();
-      return { ok: true, harvested: def.harvest, count: n };
+      return { ok: true, harvested: def.harvest, count: n, gift: gift };
     } else {
       return { ok: false, reason: "bad_act" };
     }

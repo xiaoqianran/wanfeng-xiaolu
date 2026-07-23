@@ -1093,6 +1093,12 @@
       Core.appendJournal(state, "收获了 " + (ITEMS[def.harvest].name || def.name) + "。");
       toast(`🌼 收获 ${ITEMS[def.harvest].emoji} ${ITEMS[def.harvest].name} ×${n}`);
       sfx("harvest");
+      if (pot.mood > 85) {
+        const extras = ["petal", "clover", "maple", "stone"];
+        const gift = extras[Math.floor((pot.mood + pot.water) % extras.length)];
+        addItem(gift, 1);
+        toast("✨ 心情好到送了 " + (ITEMS[gift] ? ITEMS[gift].emoji + ITEMS[gift].name : gift));
+      }
       // 植物回到抽枝，可继续养
       pot.growth = PLANTS[pot.plantId].days * 0.4;
       pot.water = 30;
