@@ -503,3 +503,4 @@
 | 496 | completed | test | Regression assertion pack #24 | Test pack size=26 | `test(core): R0496 Regression assertion pack #24` |
 | 497 | completed | feat | Path theme fragment #24 | Path themes=29 | `feat(walk): R0497 Path theme fragment #24` |
 | 498 | completed | feat | Topping or cup option #24 | Topping top_r0498 | `feat(content): R0498 Topping or cup option #24` |
+| 499 | completed | docs | Stage milestone summary #24 | Stage doc stage-10.md | `docs(progress): R0499 Stage milestone summary #24` |
