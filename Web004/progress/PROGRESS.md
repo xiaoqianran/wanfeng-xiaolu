@@ -26,3 +26,4 @@
 | 19 | completed | docs | Stage milestone summary #0 | Stage doc stage-01.md | `docs(progress): R0019 Stage milestone summary #0` |
 | 20 | completed | refactor | Catalog integrity pass #0 | Integrity items=1 customers=0 | `refactor(core): R0020 Catalog integrity pass #0` |
 | 21 | completed | feat | Add collectible item batch #1 | Item cocoa_r0021 added | `feat(content): R0021 Add collectible item batch #1` |
+| 22 | completed | feat | Add customer persona #1 | Customer 夜跑爱好者·22 | `feat(shop): R0022 Add customer persona #1` |
