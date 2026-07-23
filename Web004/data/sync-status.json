@@ -6,7 +6,7 @@
   "gardenMessages": 67,
   "shopTips": 67,
   "walkAmbient": 66,
-  "achievements": 66,
+  "achievements": 67,
   "recipes": 67,
   "files": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "path": "js/game-data.js",
-      "bytes": 40882
+      "bytes": 40964
     }
   ]
 }
