@@ -629,3 +629,4 @@
 | 622 | completed | style | Ship CSS accent token used by app shell #51 | CSS --r-accent hue=134 wired to brand/primary | `style(ui): R0622 Ship CSS accent token used by app shell #51` |
 | 623 | completed | feat | Ship plantable seed linkage into runtime #51 | plant link plant_rose_0623 harvest=seed_rose_0623 | `feat(content): R0623 Ship plantable seed linkage into runtime #51` |
 | 624 | completed | assets | Wire real stage art reference into runtime manifest #51 | live art assets/ui/live_0624.jpg from assets/shop/night-window.jpg (≥1KB) | `assets(ui): R0624 Wire real stage art reference into runtime manifest #51` |
+| 625 | completed | feat | Ship collectible + runtime catalog item #52 | Runtime item coconut_r0625 | `feat(content): R0625 Ship collectible + runtime catalog item #52` |
