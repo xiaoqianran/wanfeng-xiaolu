@@ -341,3 +341,4 @@
 | 334 | completed | style | Ship CSS accent token used by app shell #27 | CSS --r-accent hue=278 wired to brand/primary | `style(ui): R0334 Ship CSS accent token used by app shell #27` |
 | 335 | completed | feat | Ship plantable seed linkage into runtime #27 | plant link plant_mango_0335 harvest=seed_mango_0335 | `feat(content): R0335 Ship plantable seed linkage into runtime #27` |
 | 336 | completed | assets | Wire real stage art reference into runtime manifest #27 | live art assets/garden/live_0336.jpg from assets/shop/soda-hero.jpg (≥1KB) | `assets(ui): R0336 Wire real stage art reference into runtime manifest #27` |
+| 337 | completed | feat | Ship collectible + runtime catalog item #28 | Runtime item hibiscus_r0337 | `feat(content): R0337 Ship collectible + runtime catalog item #28` |
