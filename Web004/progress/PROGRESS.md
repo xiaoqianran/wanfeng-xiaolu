@@ -919,3 +919,4 @@
 | 912 | completed | assets | Wire real stage art reference into runtime manifest #75 | live art assets/shop/live_0912.jpg from assets/shop/cups-set.jpg (≥1KB) | `assets(ui): R0912 Wire real stage art reference into runtime manifest #75` |
 | 913 | completed | feat | Ship collectible + runtime catalog item #76 | Runtime item osmanthus_r0913 | `feat(content): R0913 Ship collectible + runtime catalog item #76` |
 | 914 | completed | feat | Ship customer persona into runtime #76 | Runtime customer 弹尤克里里的人·914 | `feat(shop): R0914 Ship customer persona into runtime #76` |
+| 915 | completed | feat | Ship walk ambient + pathWidth into runtime #76 | walk pathWidth=3315 ambient=120 | `feat(walk): R0915 Ship walk ambient + pathWidth into runtime #76` |
