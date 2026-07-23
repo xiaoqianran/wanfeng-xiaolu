@@ -662,5 +662,14 @@ test("high mood harvest can include gift field in core", () => {
   if (h.gift) assert.ok(s.bag[h.gift] >= 1);
 });
 
+test("curated collectibles seashell pinecone ship in content-extra", () => {
+  const code = fs.readFileSync(path.join(__dirname, "..", "js", "content-extra.js"), "utf8");
+  assert.ok(code.includes("seashell") && code.includes("pinecone"));
+  assert.ok(code.includes("细纹贝壳"));
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.seashell && j.items.star_sand);
+  assert.ok((j.flavors || []).some((f) => f.id === "tea_leaf"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

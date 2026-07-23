@@ -2063,6 +2063,48 @@
       "kind": "种子",
       "seed": "plant_pear_1019",
       "round": 1019
+    },
+    "seashell": {
+      "id": "seashell",
+      "name": "细纹贝壳",
+      "emoji": "🐚",
+      "kind": "收藏",
+      "seed": null
+    },
+    "pinecone": {
+      "id": "pinecone",
+      "name": "小松果",
+      "emoji": "🌰",
+      "kind": "收藏",
+      "seed": null
+    },
+    "ribbon": {
+      "id": "ribbon",
+      "name": "浅色丝带",
+      "emoji": "🎀",
+      "kind": "装饰",
+      "seed": null
+    },
+    "tea_leaf": {
+      "id": "tea_leaf",
+      "name": "野茶芽",
+      "emoji": "🍃",
+      "kind": "风味",
+      "seed": null
+    },
+    "star_sand": {
+      "id": "star_sand",
+      "name": "星砂",
+      "emoji": "✨",
+      "kind": "装饰",
+      "seed": null
+    },
+    "river_pebble": {
+      "id": "river_pebble",
+      "name": "河光石",
+      "emoji": "🪨",
+      "kind": "收藏",
+      "seed": null
     }
   },
   "plants": {
@@ -4289,6 +4331,16 @@
         "果香"
       ],
       "round": 1052
+    },
+    {
+      "id": "tea_leaf",
+      "name": "野茶芽",
+      "emoji": "🍃",
+      "need": "tea_leaf",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
     }
   ],
   "toppings": [
@@ -4667,6 +4719,18 @@
       "name": "软羽一撇",
       "emoji": "🪶",
       "need": null
+    },
+    {
+      "id": "ribbon_tie",
+      "name": "丝带结",
+      "emoji": "🎀",
+      "need": "ribbon"
+    },
+    {
+      "id": "star_dust",
+      "name": "星砂点",
+      "emoji": "✨",
+      "need": "star_sand"
     }
   ],
   "customers": [
