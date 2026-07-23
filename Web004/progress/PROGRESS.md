@@ -985,3 +985,4 @@
 | 978 | completed | feat | Topping or cup option #48 | Topping top_r0978 | `feat(content): R0978 Topping or cup option #48` |
 | 979 | completed | docs | Stage milestone summary #48 | Stage doc stage-20.md | `docs(progress): R0979 Stage milestone summary #48` |
 | 980 | completed | refactor | Catalog integrity pass #48 | Integrity items=97 customers=48 | `refactor(core): R0980 Catalog integrity pass #48` |
+| 981 | completed | feat | Add collectible item batch #49 | Item cocoa_r0981 added | `feat(content): R0981 Add collectible item batch #49` |
