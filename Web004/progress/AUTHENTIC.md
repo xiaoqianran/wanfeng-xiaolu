@@ -260,3 +260,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0261 | completed | docs | 手册贴纸 | USER_MANUAL stickers | `docs(manual): A0261 手册同步小路贴纸与续作卡` |
 | A0262 | completed | feat | 莳萝养成 | dill plant+flavor+recipe+customer | `feat(garden): A0262 莳萝可种植与田园陶配方` |
 | A0263 | completed | test | 莳萝回归 | 136 tests pass | `feat(garden): A0262 莳萝可种植与田园陶配方` |
+| A0264 | completed | content | 事件至319则 | 319 unique evening events | `content(events): A0264 事件三一九则与莳萝贴纸来信` |
+| A0265 | completed | content | 莳萝贴纸信 | mail 52 | `content(events): A0264 事件三一九则与莳萝贴纸来信` |
