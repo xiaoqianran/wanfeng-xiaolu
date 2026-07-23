@@ -712,3 +712,4 @@
 | 705 | completed | feat | Ship achievement milestone into runtime #58 | achievements=111 | `feat(meta): R0705 Ship achievement milestone into runtime #58` |
 | 706 | completed | style | Ship CSS accent token used by app shell #58 | CSS --r-accent hue=122 wired to brand/primary | `style(ui): R0706 Ship CSS accent token used by app shell #58` |
 | 707 | completed | feat | Ship plantable seed linkage into runtime #58 | plant link plant_orange_0707 harvest=seed_orange_0707 | `feat(content): R0707 Ship plantable seed linkage into runtime #58` |
+| 708 | completed | assets | Wire real stage art reference into runtime manifest #58 | live art assets/album/live_0708.jpg from assets/garden/windowsill.jpg (≥1KB) | `assets(ui): R0708 Wire real stage art reference into runtime manifest #58` |
