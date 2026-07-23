@@ -169,3 +169,4 @@
 | 162 | completed | feat | Add customer persona #8 | Customer 滑板少年·162 | `feat(shop): R0162 Add customer persona #8` |
 | 163 | completed | feat | Add dialogue line #8 | Dialogue count=8 | `feat(content): R0163 Add dialogue line #8` |
 | 164 | completed | feat | Add garden care whisper #8 | Garden msg #9 | `feat(garden): R0164 Add garden care whisper #8` |
+| 165 | completed | feat | Add shop tip #8 | Shop tip #9 | `feat(shop): R0165 Add shop tip #8` |
