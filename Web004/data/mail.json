@@ -810,5 +810,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_longan",
+    "title": "龙眼两颗",
+    "body": "剥龙眼的阿婆来信：新鲜最好。给你两颗，别放太久。",
+    "effect": {
+      "items": {
+        "longan": 2
+      },
+      "coins": 2
+    }
   }
 ]
