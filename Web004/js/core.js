@@ -111,6 +111,7 @@
         tutorialDone: false,
         weatherFx: true,
         ambience: false,
+        quietShop: false,
       },
       pathThemeId: "maple_lane",
       serveStreak: 0,
@@ -179,9 +180,11 @@
       tutorialDone: false,
       weatherFx: true,
       ambience: false,
+      quietShop: false,
     };
     if (state.settings.ambience === undefined) state.settings.ambience = false;
     if (state.settings.weatherFx === undefined) state.settings.weatherFx = true;
+    if (state.settings.quietShop === undefined) state.settings.quietShop = false;
     return state.settings;
   }
 
@@ -701,6 +704,7 @@
       data.pathThemeId = data.pathThemeId || "maple_lane";
       if (data.settings && data.settings.weatherFx === undefined) data.settings.weatherFx = true;
       if (data.settings && data.settings.ambience === undefined) data.settings.ambience = false;
+      if (data.settings && data.settings.quietShop === undefined) data.settings.quietShop = false;
       data.daily = data.daily || null;
     }
     data.version = VERSION;

@@ -178,6 +178,8 @@
     if (tips) tips.checked = st.showTips !== false;
     if (weather) weather.checked = st.weatherFx !== false;
     if (ambience) ambience.checked = !!st.ambience;
+    const quiet = document.getElementById("set-quiet-shop");
+    if (quiet) quiet.checked = !!st.quietShop;
     if (AudioFx.setAmbience) {
       AudioFx.setAmbience(!!st.ambience, st.sound !== false);
     }
@@ -1263,10 +1265,16 @@
     const c = state.customer;
     document.getElementById("customer-avatar").textContent = c.avatar;
     document.getElementById("customer-name").textContent = c.name;
-    document.getElementById("customer-wish").textContent = c.wish;
+    let wishText = c.wish;
+    if (Core.getSettings(state).quietShop) {
+      const tag = (c.tags && c.tags[0]) || "清爽";
+      wishText = "想喝点" + tag + "的就好。";
+    }
+    document.getElementById("customer-wish").textContent = wishText;
     const aff = (state.customerAffinity && state.customerAffinity[c.name]) || 0;
     if (aff > 0) {
-      document.getElementById("customer-wish").textContent = c.wish + "（熟悉度 " + aff + "）";
+      document.getElementById("customer-wish").textContent =
+        document.getElementById("customer-wish").textContent + "（熟悉度 " + aff + "）";
     }
     const tags = document.getElementById("customer-tags");
     tags.innerHTML = c.tags
@@ -1616,6 +1624,7 @@
     const tips = document.getElementById("set-tips");
     const weather = document.getElementById("set-weather");
     const ambience = document.getElementById("set-ambience");
+    const quietShop = document.getElementById("set-quiet-shop");
     const bind = (el, key) => {
       if (!el) return;
       el.addEventListener("change", () => {
@@ -1625,6 +1634,7 @@
         if (key === "showTips") patch.showTips = !!el.checked;
         if (key === "weatherFx") patch.weatherFx = !!el.checked;
         if (key === "ambience") patch.ambience = !!el.checked;
+        if (key === "quietShop") patch.quietShop = !!el.checked;
         Core.updateSettings(state, patch);
         applySettingsToDom();
         save();
@@ -1638,6 +1648,7 @@
     bind(tips, "showTips");
     bind(weather, "weatherFx");
     bind(ambience, "ambience");
+    bind(quietShop, "quietShop");
 
     const newDayBtn = document.getElementById("btn-soft-newday");
     if (newDayBtn) {

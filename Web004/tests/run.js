@@ -870,5 +870,16 @@ test("rest button and restLines ship", () => {
   assert.ok(gd.includes("restLines"));
 });
 
+test("quietShop setting defaults false", () => {
+  const s = core.defaultState();
+  assert.strictEqual(core.getSettings(s).quietShop, false);
+  core.updateSettings(s, { quietShop: true });
+  assert.strictEqual(core.getSettings(s).quietShop, true);
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("set-quiet-shop"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("quietShop"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
