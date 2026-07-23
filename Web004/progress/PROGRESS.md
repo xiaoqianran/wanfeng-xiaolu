@@ -972,3 +972,4 @@
 | 965 | completed | feat | Add shop tip #48 | Shop tip #49 | `feat(shop): R0965 Add shop tip #48` |
 | 966 | completed | feat | Tune walk ambient note #48 | Walk ambient #48 | `feat(walk): R0966 Tune walk ambient note #48` |
 | 967 | completed | feat | Add journal template #48 | Journal templates=48 | `feat(album): R0967 Add journal template #48` |
+| 968 | completed | feat | Add secret recipe stub #48 | Recipes=48 | `feat(shop): R0968 Add secret recipe stub #48` |
