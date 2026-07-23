@@ -90,6 +90,7 @@
       hearts: 0,
       bag: { lemon: 2, mint: 1, berry: 1 },
       discovered: { lemon: true, mint: true, berry: true },
+      potSlots: n,
       pots: pots,
       drinksMade: {},
       pathsWalked: 0,
@@ -270,8 +271,22 @@
   }
 
   /** Demo mode: seed a showcase state without combat */
+  function unlockPotSlot(state, cost) {
+    cost = cost == null ? 25 : cost;
+    var slots = state.potSlots || (state.pots && state.pots.length) || 4;
+    if (slots >= 6) return { ok: false, reason: "max" };
+    if ((state.coins || 0) < cost) return { ok: false, reason: "coins" };
+    state.coins -= cost;
+    state.potSlots = slots + 1;
+    if (!state.pots) state.pots = [];
+    while (state.pots.length < state.potSlots) state.pots.push(emptyPot());
+    appendJournal(state, "窗台多了一只空花盆。");
+    return { ok: true, potSlots: state.potSlots, cost: cost };
+  }
+
   function createDemoState() {
-    var s = defaultState(4);
+    var s = defaultState(5);
+    s.potSlots = 5;
     s.coins = 48;
     s.hearts = 6;
     s.pathsWalked = 3;
@@ -686,6 +701,7 @@
     evaluateDailyGoals: evaluateDailyGoals,
     claimDailyReward: claimDailyReward,
     createDemoState: createDemoState,
+    unlockPotSlot: unlockPotSlot,
     ECONOMY: ECONOMY,
     DEFAULT_PATH_THEMES: DEFAULT_PATH_THEMES,
     getPathTheme: getPathTheme,

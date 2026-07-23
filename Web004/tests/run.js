@@ -443,6 +443,25 @@ test("ECONOMY constants drive scoreDrink coins", () => {
   assert.strictEqual(r.coins, core.ECONOMY.serveBase + Math.floor(r.score * core.ECONOMY.serveScoreMul));
 });
 
+test("unlockPotSlot spends coins and adds pot", () => {
+  const s = core.defaultState(4);
+  s.coins = 30;
+  const r = core.unlockPotSlot(s, 25);
+  assert.ok(r.ok);
+  assert.strictEqual(s.potSlots, 5);
+  assert.strictEqual(s.pots.length, 5);
+  assert.strictEqual(s.coins, 5);
+  const r2 = core.unlockPotSlot(s, 25);
+  assert.strictEqual(r2.ok, false);
+});
+
+test("album recipes tab markup present", () => {
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes('data-tab="recipes"'));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes('tab === "recipes"'));
+});
+
 test("path themes unique and setPathTheme/buildSpawnList work", () => {
   const themes = JSON.parse(
     fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8")

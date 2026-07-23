@@ -864,6 +864,38 @@
       });
     }
 
+    // pot unlock control
+    let unlockRow = document.getElementById("pot-unlock-row");
+    if (!unlockRow) {
+      unlockRow = document.createElement("div");
+      unlockRow.id = "pot-unlock-row";
+      unlockRow.className = "action-row";
+      const side = document.querySelector(".garden-side");
+      if (side) side.appendChild(unlockRow);
+    }
+    const slots = state.potSlots || state.pots.length;
+    if (slots < 6) {
+      unlockRow.hidden = false;
+      unlockRow.innerHTML = `<button type="button" class="soft-btn accent" id="btn-unlock-pot">🪴 扩展窗台（25 金币）· 当前 ${slots}/6</button>`;
+      const b = document.getElementById("btn-unlock-pot");
+      if (b) {
+        b.addEventListener("click", () => {
+          const r = Core.unlockPotSlot(state, 25);
+          if (!r.ok) {
+            toast(r.reason === "coins" ? "金币还不够扩展窗台" : "窗台已经够用啦");
+            return;
+          }
+          save();
+          refreshResources();
+          renderGarden();
+          toast("🪴 新花盆就位了");
+          sfx("ui");
+        });
+      }
+    } else {
+      unlockRow.hidden = true;
+    }
+
     renderPlantDetail();
   }
 
@@ -1230,6 +1262,25 @@
   function renderAlbum(tab) {
     const grid = document.getElementById("album-grid");
     grid.innerHTML = "";
+
+    if (tab === "recipes") {
+      if (!secretRecipes.length) {
+        grid.innerHTML =
+          '<div class="album-card"><div class="emoji">📜</div><div class="name">还没有秘密</div><div class="meta">做出特别搭配后会出现在这里</div></div>';
+        return;
+      }
+      secretRecipes.forEach((r) => {
+        const key = [r.cup, r.base, r.flavor, r.topping || "none"].join("-");
+        const made = !!(state.drinksMade && state.drinksMade[key]);
+        const card = document.createElement("div");
+        card.className = "album-card" + (made ? " done" : " locked");
+        card.innerHTML = made
+          ? `<div class="emoji">📜</div><div class="name">${r.name || "秘密汽水"}</div><div class="meta">${r.cup}/${r.base}/${r.flavor}${r.topping && r.topping !== "none" ? "/" + r.topping : ""} · 已解锁</div>`
+          : `<div class="emoji">❔</div><div class="name">未发现的配方</div><div class="meta">提示：试试 ${r.flavor || "?"} 风味</div>`;
+        grid.appendChild(card);
+      });
+      return;
+    }
 
     if (tab === "items") {
       Object.values(ITEMS).forEach((it) => {
