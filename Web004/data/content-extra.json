@@ -2336,6 +2336,20 @@
       "emoji": "🫚",
       "kind": "风味",
       "seed": "gingerPot"
+    },
+    "cardamom": {
+      "id": "cardamom",
+      "name": "豆蔻",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "cardamomPot"
+    },
+    "apple_leaf": {
+      "id": "apple_leaf",
+      "name": "苹果叶",
+      "emoji": "🍃",
+      "kind": "装饰",
+      "seed": null
     }
   },
   "plants": {
@@ -4236,6 +4250,17 @@
       ],
       "harvest": "ginger",
       "days": 3
+    },
+    "cardamomPot": {
+      "id": "cardamomPot",
+      "name": "豆蔻",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "cardamom",
+      "days": 3
     }
   },
   "cups": [
@@ -5070,6 +5095,16 @@
       "tags": [
         "草本",
         "温柔"
+      ]
+    },
+    {
+      "id": "cardamom",
+      "name": "豆蔻",
+      "emoji": "🟢",
+      "need": "cardamom",
+      "tags": [
+        "草本",
+        "甜蜜"
       ]
     }
   ],
@@ -6283,6 +6318,21 @@
         "honey",
         "tea_leaf",
         "yuzu"
+      ]
+    },
+    {
+      "name": "烤苹果的人",
+      "avatar": "🍎",
+      "wish": "豆蔻或蜜，甜暖一点，像烤箱刚开。",
+      "tags": [
+        "甜蜜",
+        "温柔"
+      ],
+      "flavors": [
+        "cardamom",
+        "honey",
+        "peach",
+        "apple_leaf"
       ]
     }
   ],

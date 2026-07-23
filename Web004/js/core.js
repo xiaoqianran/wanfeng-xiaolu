@@ -523,6 +523,12 @@
     { id: "rain_walker", name: "雨园旅人", desc: "走过雨园慢径", check: function (s) {
       return !!(s._themesTouched && s._themesTouched.rain_garden);
     } },
+    { id: "cardamom_sill", name: "豆蔻窗台", desc: "发现豆蔻", check: function (s) {
+      return !!(s.discovered && s.discovered.cardamom);
+    } },
+    { id: "orchard_walker", name: "果园旅人", desc: "走过果园暮色", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.orchard_dusk);
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
     { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },
@@ -1018,7 +1024,7 @@
       score += 0.5;
       notes.push("夏日清爽");
     }
-    if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel")) {
+    if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel" || flavorDef.id === "cardamom" || flavorDef.id === "ginger" || flavorDef.id === "calendula")) {
       score += 0.5;
       notes.push("秋日温甜");
     }
