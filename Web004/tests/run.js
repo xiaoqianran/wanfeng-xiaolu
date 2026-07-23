@@ -1705,5 +1705,24 @@ test("dill plantable and 莳萝田园陶 recipe", () => {
   assert.ok(recipes.some((r) => r.name === "莳萝田园陶"));
 });
 
+
+test("upgradeWateringCan expands max to 8", () => {
+  const s = core.defaultState();
+  s.coins = 100;
+  const a = core.upgradeWateringCan(s, 20);
+  assert.ok(a.ok);
+  assert.ok(core.getWateringCan(s).max >= 6);
+  while (core.getWateringCan(s).max < 8) {
+    s.coins = 100;
+    const r = core.upgradeWateringCan(s, 20);
+    assert.ok(r.ok);
+  }
+  s.coins = 100;
+  const fail = core.upgradeWateringCan(s, 20);
+  assert.strictEqual(fail.ok, false);
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("btn-upgrade-can"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

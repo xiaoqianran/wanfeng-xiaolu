@@ -573,6 +573,19 @@
   }
 
   /** Soft charge from path walks / bench — no combat, no drain death */
+
+  function upgradeWateringCan(state, cost) {
+    cost = cost == null ? 20 : cost;
+    var can = getWateringCan(state);
+    if ((can.max || 5) >= 8) return { ok: false, reason: "max" };
+    if ((state.coins || 0) < cost) return { ok: false, reason: "coins" };
+    state.coins -= cost;
+    can.max = (can.max || 5) + 1;
+    can.charge = Math.min(can.max, (can.charge || 0) + 1);
+    appendJournal(state, "水壶变大了一点，能多装一格水。");
+    return { ok: true, max: can.max, cost: cost };
+  }
+
   function chargeWateringCan(state, n) {
     n = n == null ? 1 : n;
     var can = getWateringCan(state);
@@ -1207,6 +1220,7 @@
     buildSpawnList: buildSpawnList,
     recallGuestCraft: recallGuestCraft,
     claimFirstWalkBonus: claimFirstWalkBonus,
+    upgradeWateringCan: upgradeWateringCan,
     checkPathMilestones: checkPathMilestones,
     PATH_MILESTONES: PATH_MILESTONES,
   };

@@ -1571,7 +1571,26 @@
     });
   })();
 
-  (function wireWateringCan() {
+  
+  (function wireUpgradeCan() {
+    const btn = document.getElementById("btn-upgrade-can");
+    if (!btn || btn._wired) return;
+    btn._wired = true;
+    btn.addEventListener("click", () => {
+      const r = Core.upgradeWateringCan(state, 20);
+      if (!r.ok) {
+        toast(r.reason === "coins" ? "金币还不够扩水壶" : "水壶已经够大啦");
+        return;
+      }
+      save();
+      refreshResources();
+      renderGarden();
+      toast("🪣 水壶容量 " + r.max + " 格");
+      sfx("unlock");
+    });
+  })();
+
+(function wireWateringCan() {
     const btn = document.getElementById("btn-watering-can");
     if (!btn || btn._wired) return;
     btn._wired = true;
