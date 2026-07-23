@@ -1,49 +1,21 @@
-# 测试报告
+# 测试报告 · 晚风小路（真实运行）
 
-- 时间：2026-07-23T20:49:25.295652+00:00
-- 命令：`cd Web004 && node tests/run.js`
-- 结果：真实运行输出如下
+- 时间：2026-07-23T22:03:49.954971+00:00
+- 命令：`cd Web004 && node tests/run.js && node tools/quality-gate.js`
+- 结果：**120 passed, 0 failed**
+- quality-gate：**PASS**
+- authentic-rounds.jsonl：**187** 行 authentic
+- 模板刷轮引擎：DISABLED（`tools/run-rounds.js` 退出码 2）
 
-```
-晚风小路 unit tests (shipped js/core.js)
+## 覆盖要点
+- 核心经济/种植/出杯/存档 migrate
+- 季节评分、熟悉度、水壶、常客、速写、常走主题
+- 路径主题唯一性、晚间事件唯一性（≥150，现 202+）
+- 内容-extra 与 JSON 同步
+- 反战斗文案、反 #N 模板标题
 
-  ✓ defaultState has bag, pots, no combat fields
-  ✓ addItem/takeItem/hasItem/bagCount
-  ✓ plantSeed and tend growth/harvest
-  ✓ scoreDrink rewards matching customer prefs
-  ✓ serveDrink consumes materials and records drinksMade
-  ✓ serialize/deserialize roundtrip preserves bag
-  ✓ settleOfflineGrowth advances plant growth
-  ✓ mergeCatalog adds extra items
-  ✓ assertNoCombat rejects combat copy
-  ✓ discovery tracks first pickup
-  ✓ index.html uses relative script/style and loads core
-  ✓ extra craft fixtures from iteration rounds exercise scoreDrink
-  ✓ extra bag ops mutate shipped state
-  ✓ asset hero/garden/shop images exist on disk
-  ✓ content-extra.js defines WanfengExtra for file:// merge
-  ✓ advanceSeason cycles and journals
-  ✓ evaluateAchievements unlocks first_walk
-  ✓ season art paths exist for all seasons
-  ✓ index wires season achievements journal screens
-  ✓ game-data.js is loaded bundle matching data configs
-  ✓ content-extra.js stays in sync with content-extra.json items
-  ✓ game.js consumes WanfengGameData configs
-  ✓ no 1x1 placeholder PNGs claimed as live stage art in manifest
-  ✓ settings update and export/import save roundtrip
-  ✓ audio module exports play without throwing when silent
-  ✓ settings and tutorial markup ship in index
-  ✓ daily goals evaluate and claim reward once
-  ✓ createDemoState seeds showcase without combat fields
-  ✓ no live_ duplicate art files remain
-  ✓ unique UI icons exist with distinct byte sizes
-  ✓ garden/walk/shop copy has no round-id spam pattern
-  ✓ template spam engine is disabled
-  ✓ evening events data is unique and loaded in game-data
-  ✓ authentic ledger exists and is source of truth format
+## 未覆盖 / 已知限制
+- Playwright 浏览器自动化不稳定（见 known_failures）
+- 图像生成 API 间歇不可用
 
-Result: 34 passed, 0 failed
-
-```
-
-未进行伪造的用户调研或帧率测试；浏览器截图若环境无 Playwright 则见 browser-unavailable 记录。
+数据为真实本机 Node 运行结果，非捏造。
