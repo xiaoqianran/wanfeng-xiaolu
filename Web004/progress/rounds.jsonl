@@ -598,3 +598,4 @@
 {"round":598,"status":"completed","type":"feat","scope":"content","goal":"Topping or cup option #29","outcome":"Topping top_r0598","commit":"feat(content): R0598 Topping or cup option #29","at":"2026-07-23T19:50:07.833Z"}
 {"round":599,"status":"completed","type":"docs","scope":"progress","goal":"Stage milestone summary #29","outcome":"Stage doc stage-12.md","commit":"docs(progress): R0599 Stage milestone summary #29","at":"2026-07-23T19:50:07.866Z"}
 {"round":600,"status":"completed","type":"refactor","scope":"core","goal":"Catalog integrity pass #29","outcome":"Integrity items=59 customers=29","commit":"refactor(core): R0600 Catalog integrity pass #29","at":"2026-07-23T19:50:07.890Z"}
+{"round":601,"status":"completed","type":"feat","scope":"content","goal":"Add collectible item batch #30","outcome":"Item lavender_r0601 added","commit":"feat(content): R0601 Add collectible item batch #30","at":"2026-07-23T19:50:07.962Z"}
