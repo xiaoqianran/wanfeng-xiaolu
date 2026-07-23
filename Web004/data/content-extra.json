@@ -2518,6 +2518,13 @@
       "emoji": "🟢",
       "kind": "风味",
       "seed": "olivePot"
+    },
+    "hawthorn": {
+      "id": "hawthorn",
+      "name": "山楂",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "hawthornPot"
     }
   },
   "plants": {
@@ -4671,6 +4678,17 @@
       ],
       "harvest": "olive",
       "days": 3
+    },
+    "hawthornPot": {
+      "id": "hawthornPot",
+      "name": "山楂",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "hawthorn",
+      "days": 3
     }
   },
   "cups": [
@@ -5735,6 +5753,16 @@
       "tags": [
         "清爽",
         "草本"
+      ]
+    },
+    {
+      "id": "hawthorn",
+      "name": "山楂",
+      "emoji": "🔴",
+      "need": "hawthorn",
+      "tags": [
+        "果香",
+        "清爽"
       ]
     }
   ],
@@ -7300,6 +7328,22 @@
         "thyme",
         "mint"
       ]
+    },
+    {
+      "name": "串山楂的小贩",
+      "avatar": "🍡",
+      "wish": "山楂或蜜，酸甜清爽，装饰要好看。",
+      "tags": [
+        "清爽",
+        "甜蜜"
+      ],
+      "flavors": [
+        "hawthorn",
+        "honey",
+        "yangmei",
+        "berry"
+      ],
+      "wantTopping": true
     }
   ],
   "dialogues": [
