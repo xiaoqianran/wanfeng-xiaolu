@@ -192,3 +192,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0193 | completed | content | 季节提示与客人 | season tips 6/season; 36 customers | `content(world): A0193 季节提示与两位新客人` |
 | A0194 | completed | test | 季节客人回归 | 120 tests pass | `content(world): A0193 季节提示与两位新客人` |
 | A0195 | completed | docs | 真实测试报告 | TEST_REPORT 120 pass | `docs(test): A0195 真实 120 测与质量门禁报告` |
+| A0196 | completed | feat | 柚子风味 | yuzu+柚子雨檐+撑伞的诗人 | `feat(shop): A0196 柚子风味与柚子雨檐配方` |
+| A0197 | completed | test | 柚子回归 | 121 tests pass | `feat(shop): A0196 柚子风味与柚子雨檐配方` |
