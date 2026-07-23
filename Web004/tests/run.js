@@ -1535,5 +1535,55 @@ test("snow and star-path icons unique sizes", () => {
   assert.ok(html.includes("icon-star-path.png"));
 });
 
+
+test("harvest memory bonus and recallGuestCraft", () => {
+  const s = core.defaultState();
+  core.addItem(s, "mint", 1);
+  core.plantSeed(s, 0, "mint");
+  // force ready
+  s.pots[0].growth = 99;
+  s.pots[0].mood = 80;
+  const h1 = core.tend(s, 0, "harvest");
+  assert.ok(h1.ok);
+  assert.strictEqual(s.pots[0].harvestCount, 1);
+  s.pots[0].growth = 99;
+  s.pots[0].mood = 80;
+  core.tend(s, 0, "harvest");
+  s.pots[0].growth = 99;
+  s.pots[0].mood = 80;
+  const h3 = core.tend(s, 0, "harvest");
+  assert.ok(h3.ok && h3.memoryBonus);
+  assert.ok((s.stats.memoryHarvests || 0) >= 1);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "root_memory"));
+
+  const s2 = core.defaultState();
+  s2.bag = { mint: 4, petal: 2 };
+  const cust = { name: "测试客人", tags: ["清爽"], flavors: ["mint"] };
+  const craft = { cup: "tall", base: "soda", flavor: "mint", topping: "none" };
+  const a = core.serveDrink(s2, cust, craft);
+  assert.ok(a.ok);
+  core.addItem(s2, "mint", 1);
+  const b = core.serveDrink(s2, cust, craft);
+  assert.ok(b.ok && b.repeated);
+  assert.ok((s2.stats.repeatOrders || 0) >= 1);
+  const rec = core.recallGuestCraft(s2, "测试客人");
+  assert.ok(rec.ok && rec.craft.flavor === "mint");
+});
+
+test("dawn_bridge theme and recall UI ship", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "dawn_bridge"));
+  assert.ok(themes.length >= 17);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("dawn_bridge") && game.includes("memoryBonus"));
+  assert.ok(game.includes("recallGuestCraft") || game.includes("btn-recall-order"));
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("btn-recall-order"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "晨桥柚茶"));
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.loquat_leaf);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
