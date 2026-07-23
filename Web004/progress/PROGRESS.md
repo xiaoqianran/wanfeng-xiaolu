@@ -975,3 +975,4 @@
 | 968 | completed | feat | Add secret recipe stub #48 | Recipes=48 | `feat(shop): R0968 Add secret recipe stub #48` |
 | 969 | completed | feat | Add achievement definition #48 | Achievements=48 | `feat(meta): R0969 Add achievement definition #48` |
 | 970 | completed | style | CSS micro polish token #48 | CSS token hue=290 | `style(ui): R0970 CSS micro polish token #48` |
+| 971 | completed | feat | Add plantable linkage #48 | Plant link plant_pine_0971 | `feat(content): R0971 Add plantable linkage #48` |
