@@ -988,3 +988,4 @@
 | 981 | completed | feat | Add collectible item batch #49 | Item cocoa_r0981 added | `feat(content): R0981 Add collectible item batch #49` |
 | 982 | completed | feat | Add customer persona #49 | Customer 夜跑爱好者·982 | `feat(shop): R0982 Add customer persona #49` |
 | 983 | completed | feat | Add dialogue line #49 | Dialogue count=49 | `feat(content): R0983 Add dialogue line #49` |
+| 984 | completed | feat | Add garden care whisper #49 | Garden msg #50 | `feat(garden): R0984 Add garden care whisper #49` |
