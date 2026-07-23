@@ -73,3 +73,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0073 | completed | feat | 连胜招待奖励 | serveStreak >=3 small coin bonus | `feat(shop): A0073 连胜招待小奖励 serveStreak` |
 | A0074 | completed | feat | 盆栽照料提示 | low water/sun/mood hints in plant detail | `feat(garden): A0074 盆栽缺水缺日照心情提示` |
 | A0075 | completed | content | 十五封独特来信 | 15 unique mail letters | `content(mail): A0075 信箱扩充至十五封独特来信` |
+| A0076 | completed | feat | Escape与快捷键 | Escape home; b bag; m mail | `feat(input): A0076 Escape 回主页与背包信箱快捷键` |
+| A0077 | completed | feat | HUD 主题名 | canvas HUD shows path theme name | `feat(walk): A0077 小路 HUD 显示当前主题名` |
+| A0078 | completed | docs | 底噪设计文档 | AUDIO_DESIGN ambience section | `docs(audio): A0078 补充环境底噪设计说明` |
+| A0079 | completed | content | 手帐范文至13则 | unique titles including 码头笔记 | `content(journal): A0079 手帐范文扩充至十三则` |
