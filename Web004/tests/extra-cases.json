@@ -366,5 +366,13 @@
       "add": "stone",
       "n": 1
     }
+  },
+  {
+    "round": 896,
+    "name": "pack_0896",
+    "bagOp": {
+      "add": "stone",
+      "n": 3
+    }
   }
 ]
