@@ -854,6 +854,24 @@
         }
         ctx.stroke();
       }
+    } else if (themeId === "snow_lantern") {
+      // soft snow flakes + warm lantern dots
+      ctx.fillStyle = "rgba(255,255,255,0.55)";
+      for (let i = 0; i < 20; i++) {
+        const x = ((i * 53 + time * 0.3) % (w + 10)) - 5;
+        const y = ((i * 41 + time * 0.45) % h);
+        ctx.beginPath();
+        ctx.arc(x, y, 1.2, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      for (let i = 0; i < 5; i++) {
+        const x = 50 + i * (w / 5);
+        const y = 40 + (i % 2) * 14;
+        ctx.fillStyle = "rgba(255,180,100,0.3)";
+        ctx.beginPath();
+        ctx.ellipse(x, y, 7, 10, 0, 0, Math.PI * 2);
+        ctx.fill();
+      }
     }
   }
 

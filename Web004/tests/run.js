@@ -1487,5 +1487,16 @@ test("yuzu flavor and 柚子雨檐 recipe ship", () => {
   assert.ok((j.customers || []).some((c) => c.name === "撑伞的诗人"));
 });
 
+
+test("snow_lantern theme ships with unique weather", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "snow_lantern"));
+  assert.ok(themes.length >= 16);
+  const ids = themes.map((th) => th.id);
+  assert.strictEqual(new Set(ids).size, ids.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("snow_lantern"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
