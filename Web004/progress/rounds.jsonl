@@ -120,3 +120,4 @@
 {"round":120,"status":"completed","type":"refactor","scope":"core","goal":"Catalog integrity pass #5","outcome":"Integrity items=11 customers=5","commit":"refactor(core): R0120 Catalog integrity pass #5","at":"2026-07-23T19:49:39.332Z"}
 {"round":121,"status":"completed","type":"feat","scope":"content","goal":"Add collectible item batch #6","outcome":"Item lavender_r0121 added","commit":"feat(content): R0121 Add collectible item batch #6","at":"2026-07-23T19:49:39.355Z"}
 {"round":122,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #6","outcome":"Customer 织围巾的阿姨·122","commit":"feat(shop): R0122 Add customer persona #6","at":"2026-07-23T19:49:39.373Z"}
+{"round":123,"status":"completed","type":"feat","scope":"content","goal":"Add dialogue line #6","outcome":"Dialogue count=6","commit":"feat(content): R0123 Add dialogue line #6","at":"2026-07-23T19:49:39.399Z"}
