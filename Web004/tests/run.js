@@ -1084,5 +1084,27 @@ test("book_yard theme and bench/note UI ship", () => {
   assert.ok(recipes.some((r) => r.name === "桂花竹节晚风"));
 });
 
+test("evening events expanded unique and shop/garden icons unique", () => {
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.length >= 85);
+  const titles = events.map((e) => e.title || e.id);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  events.forEach((e) => {
+    assert.ok((e.body || "").length > 12);
+    assert.ok(!/#\d{2,}/.test((e.title || "") + (e.body || "")));
+  });
+  const files = ["icon-shop.png", "icon-garden.png", "icon-bag.png"].map((f) =>
+    path.join(__dirname, "..", "assets", "ui", f)
+  );
+  const sizes = files.map((f) => {
+    assert.ok(fs.existsSync(f), f);
+    return fs.statSync(f).size;
+  });
+  assert.ok(sizes.every((n) => n > 100));
+  assert.strictEqual(new Set(sizes).size, sizes.length);
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("icon-shop.png") && html.includes("icon-garden.png") && html.includes("icon-bag.png"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
