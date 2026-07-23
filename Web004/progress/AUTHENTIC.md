@@ -281,3 +281,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0282 | completed | feat | 茴香风味 | fennel item+flavor+recipe autumn score | `feat(shop): A0282 茴香风味与手册今日特调` |
 | A0283 | completed | docs | 手册特调 | USER_MANUAL daily special + moon_well | `feat(shop): A0282 茴香风味与手册今日特调` |
 | A0284 | completed | test | 茴香特调回归 | 142 tests pass | `feat(shop): A0282 茴香风味与手册今日特调` |
+| A0285 | completed | feat | 芦苇岸径主题 | reed_bank 22nd + reed FX | `feat(walk): A0285 芦苇岸径主题与事件三四八则` |
+| A0286 | completed | content | 事件至348则 | 348 unique evening events | `feat(walk): A0285 芦苇岸径主题与事件三四八则` |
+| A0287 | completed | test | 芦苇主题回归 | 143 tests pass | `feat(walk): A0285 芦苇岸径主题与事件三四八则` |

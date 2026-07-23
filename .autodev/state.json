@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 283,
+  "current_round": 286,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 277,
-  "authentic_game_integrated_rounds": 198,
+  "authentic_rounds_completed": 280,
+  "authentic_game_integrated_rounds": 200,
   "template_spam_archived": true,
   "current_milestone": "authentic rebuild A012x",
-  "current_task_id": "A0285-next",
-  "last_completed_task_id": "A0284",
-  "last_commit": "62175ea",
+  "current_task_id": "A0288-next",
+  "last_completed_task_id": "A0287",
+  "last_commit": "b371166",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "142 passed, 0 failed",
+  "last_test_summary": "143 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~723) multi-session"
+    "gap to 1000 authentic (~720) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -34,6 +34,6 @@
     "album harvest memory display",
     "help docs memory/recall"
   ],
-  "resume_instructions": "Continue A0285+. Spam DISABLED. Gap ~723. authentic-rounds.jsonl SoT.",
-  "updated_at": "2026-07-23T22:36:50.632136+00:00"
+  "resume_instructions": "Continue A0288+. Spam DISABLED. Gap ~720. authentic-rounds.jsonl SoT.",
+  "updated_at": "2026-07-23T22:37:38.872368+00:00"
 }
