@@ -14,5 +14,13 @@
     "flavors": [
       "honey"
     ]
+  },
+  {
+    "round": 16,
+    "name": "pack_0016",
+    "bagOp": {
+      "add": "stone",
+      "n": 2
+    }
   }
 ]
