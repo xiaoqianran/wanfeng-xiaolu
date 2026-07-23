@@ -1,22 +1,21 @@
-# Current task A0187+
+# Resume · A0210+
 
-## Status snapshot
-- authentic_rounds_completed: 179 / 1000
-- authentic_game_integrated: 141
-- tests: 118 passed
-- quality-gate: PASS
-- spam engine: DISABLED (run-rounds.js exits 2)
-- HEAD: see git log
+## Snapshot
+- authentic: **202 / 1000** (gap ~798)
+- game_integrated: **155**
+- tests: **123 passed**
+- quality-gate: **PASS**
+- spam: DISABLED
+- HEAD: see `git log -1`
 
-## Three pillars (all playable)
-1. Garden: tend, rest, can, note, snap, seasons, plants (lavender, camellia, rosemary, lilac, osmanthus, bluebell, chamomile, sage…)
-2. Walk: 15 path themes + weather FX, bench, evening events 182
-3. Shop: craft, affinity, pin, shelf, recipes, season score
+## Three pillars playable
+1. **Garden** — tend/rest/can/note/snap/season/plants
+2. **Walk** — 16 themes + FX, bench, favorite path, 232 events
+3. **Shop** — craft, affinity, pin, shelf, 32 recipes, 38 customers
 
-## Next A0187+
-Continue authentic ~30min increments; no template spam.
+## Next
+Continue authentic ~30min increments only (no template spam).
 
-## Verify
 ```
 cd Web004 && node tests/run.js && node tools/quality-gate.js
 ```
