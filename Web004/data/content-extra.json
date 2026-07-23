@@ -6450,6 +6450,87 @@
         "plain"
       ],
       "round": 1022
+    },
+    {
+      "name": "折纸的少年",
+      "avatar": "🦢",
+      "wish": "想要清爽一点，最好有气泡。",
+      "tags": [
+        "清爽"
+      ],
+      "flavors": [
+        "mint",
+        "plain",
+        "lemon"
+      ]
+    },
+    {
+      "name": "晒被子的阿姨",
+      "avatar": "🛏️",
+      "wish": "甜蜜的茶底就很好。",
+      "tags": [
+        "甜蜜",
+        "温柔"
+      ],
+      "flavors": [
+        "honey",
+        "jasmine",
+        "peach"
+      ]
+    },
+    {
+      "name": "夜钓归来的人",
+      "avatar": "🎣",
+      "wish": "来点果香，解解困。",
+      "tags": [
+        "果香"
+      ],
+      "flavors": [
+        "berry",
+        "peach",
+        "plain"
+      ]
+    },
+    {
+      "name": "图书馆闭馆员",
+      "avatar": "🔑",
+      "wish": "花香或草本，安静地喝。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "jasmine",
+        "mint",
+        "plain"
+      ]
+    },
+    {
+      "name": "滑旱冰的女孩",
+      "avatar": "🛼",
+      "wish": "越清爽越好，装饰随意。",
+      "tags": [
+        "清爽"
+      ],
+      "flavors": [
+        "mint",
+        "berry",
+        "lemon"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "修音箱的老师傅",
+      "avatar": "🔧",
+      "wish": "田园一点的就行。",
+      "tags": [
+        "田园"
+      ],
+      "flavors": [
+        "honey",
+        "plain",
+        "peach"
+      ]
     }
   ],
   "dialogues": [
