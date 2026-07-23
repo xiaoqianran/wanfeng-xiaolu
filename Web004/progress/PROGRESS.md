@@ -724,3 +724,4 @@
 | 717 | completed | feat | Path theme fragment #35 | Path themes=40 | `feat(walk): R0717 Path theme fragment #35` |
 | 718 | completed | feat | Topping or cup option #35 | Topping top_r0718 | `feat(content): R0718 Topping or cup option #35` |
 | 719 | completed | docs | Stage milestone summary #35 | Stage doc stage-15.md | `docs(progress): R0719 Stage milestone summary #35` |
+| 720 | completed | refactor | Catalog integrity pass #35 | Integrity items=71 customers=35 | `refactor(core): R0720 Catalog integrity pass #35` |
