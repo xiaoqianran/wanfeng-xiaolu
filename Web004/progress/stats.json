@@ -1,8 +1,8 @@
 {
   "targetRounds": 1000,
-  "lastUpdate": "2026-07-23T20:29:47.984Z",
-  "completed": 300,
-  "lastGoal": "Wire real stage art reference into runtime manifest #24",
+  "lastUpdate": "2026-07-23T20:29:48.071Z",
+  "completed": 301,
+  "lastGoal": "Ship collectible + runtime catalog item #25",
   "integrated": true,
   "contentItems": 150
 }
