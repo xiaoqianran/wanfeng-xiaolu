@@ -711,5 +711,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_pine",
+    "title": "一包松针",
+    "body": "登高的人来信：新采的松针更香。给你一小包，别闷着。",
+    "effect": {
+      "items": {
+        "pine_needle": 2
+      },
+      "coins": 2
+    }
   }
 ]

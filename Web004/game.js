@@ -1328,6 +1328,29 @@ function renderJournal() {
       ctx.moveTo(w * 0.1, h * 0.55);
       ctx.quadraticCurveTo(w * 0.5, h * 0.42, w * 0.9, h * 0.55);
       ctx.stroke();
+    } else if (themeId === "pine_ridge") {
+      // soft pine silhouettes + needle drift
+      ctx.strokeStyle = "rgba(40,70,50,0.3)";
+      ctx.lineWidth = 2;
+      for (let i = 0; i < 9; i++) {
+        const x = 30 + i * (w / 9);
+        ctx.beginPath();
+        ctx.moveTo(x, h * 0.75);
+        ctx.lineTo(x - 8, h * 0.45);
+        ctx.lineTo(x + 8, h * 0.45);
+        ctx.closePath();
+        ctx.stroke();
+      }
+      ctx.fillStyle = "rgba(90,120,80,0.4)";
+      for (let i = 0; i < 16; i++) {
+        const x = (i * 59 + time * 0.4) % w;
+        const y = (i * 37 + time * 0.6) % (h * 0.7);
+        ctx.save();
+        ctx.translate(x, y);
+        ctx.rotate(Math.sin(time * 0.03 + i));
+        ctx.fillRect(-4, -1, 8, 2);
+        ctx.restore();
+      }
     }
   }
 
@@ -2289,7 +2312,7 @@ function renderJournal() {
     if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel" || flavorDef.id === "cardamom" || flavorDef.id === "ginger" || flavorDef.id === "calendula" || flavorDef.id === "chrysanthemum" || flavorDef.id === "hibiscus")) {
       score += 0.5; notes.push("秋日温甜");
     }
-    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey")) {
+    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum")) {
       score += 0.5; notes.push("冬日暖茶");
     }
     if (season === "dusk" && topDef && topDef.id !== "none") { score += 0.25; notes.push("黄昏点缀"); }
