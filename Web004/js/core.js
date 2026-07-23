@@ -13,7 +13,18 @@
 
   const SAVE_KEY = "wanfeng-xiaolu-v1";
   const VERSION = 3;
-  var ECONOMY = { serveBase: 5, serveScoreMul: 2, harvestCoins: 4, pathBonus: 3, dailyRewardCoins: 10, dailyRewardHearts: 1, potUnlockCost: 25, affinityBonusThreshold: 3 };
+  var ECONOMY = {
+    serveBase: 5,
+    serveScoreMul: 2,
+    harvestCoins: 4,
+    pathBonus: 3,
+    dailyRewardCoins: 10,
+    dailyRewardHearts: 1,
+    potUnlockCost: 25,
+    affinityBonusThreshold: 3,
+    wateringCanMax: 5,
+    wateringCanBonus: 12,
+  };
 
   const DEFAULT_ITEMS = {
     maple: { id: "maple", name: "枫叶", emoji: "🍁", kind: "装饰", seed: null },
@@ -373,6 +384,7 @@
     { id: "pot_scribe", name: "花盆便签", desc: "给植物写下 2 句便签", check: function (s) { return (s.stats && s.stats.potNotes || 0) >= 2; } },
     { id: "bench_sitter", name: "长椅旅人", desc: "在小路长椅歇脚 3 次", check: function (s) { return (s.stats && s.stats.benchSits || 0) >= 3; } },
     { id: "theme_collector", name: "十路旅人", desc: "切换过 5 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 5; } },
+    { id: "can_gardener", name: "小水壶园丁", desc: "用水壶浇灌 5 次", check: function (s) { return (s.stats && s.stats.canWaters || 0) >= 5; } },
   ];
 
   function advanceSeason(state) {
@@ -525,8 +537,97 @@
       heartsGain = 1;
       state.hearts = (state.hearts || 0) + 1;
     }
+    // walking/sitting also drips a bit into the watering can
+    chargeWateringCan(state, 1);
     appendJournal(state, "在小路边的长椅上歇了歇脚。");
     return { ok: true, sits: state.stats.benchSits, hearts: heartsGain };
+  }
+
+  function getWateringCan(state) {
+    if (!state.wateringCan || typeof state.wateringCan.charge !== "number") {
+      state.wateringCan = { charge: 2, max: ECONOMY.wateringCanMax || 5 };
+    }
+    if (state.wateringCan.max == null) state.wateringCan.max = ECONOMY.wateringCanMax || 5;
+    return state.wateringCan;
+  }
+
+  /** Soft charge from path walks / bench — no combat, no drain death */
+  function chargeWateringCan(state, n) {
+    n = n == null ? 1 : n;
+    var can = getWateringCan(state);
+    var before = can.charge;
+    can.charge = Math.min(can.max, can.charge + n);
+    return { ok: true, charge: can.charge, gained: can.charge - before, full: can.charge >= can.max };
+  }
+
+  /**
+   * Use watering can on a pot: spends 1 charge, extra water soft bonus.
+   * Falls back to normal water if empty (still ok, just no bonus).
+   */
+  function useWateringCan(state, potIndex, plants) {
+    plants = plants || DEFAULT_PLANTS;
+    var pot = state.pots && state.pots[potIndex];
+    if (!pot || !pot.plantId) return { ok: false, reason: "empty" };
+    var can = getWateringCan(state);
+    var bonus = 0;
+    var used = false;
+    if (can.charge >= 1) {
+      can.charge -= 1;
+      bonus = ECONOMY.wateringCanBonus || 12;
+      used = true;
+    }
+    // apply base water via tend path fields
+    pot.water = Math.min(100, pot.water + 28 + bonus);
+    var season = state.season || "dusk";
+    var seasonNote = null;
+    if (season === "autumn") {
+      pot.water = Math.min(100, pot.water + 6);
+      pot.mood = Math.min(100, pot.mood + 4);
+      seasonNote = "秋水温柔";
+    }
+    var care = (pot.water + pot.sun + pot.mood) / 300;
+    pot.growth += 0.35 + care * 0.55 + (used ? 0.05 : 0);
+    pot.water = Math.max(0, pot.water - 6);
+    pot.sun = Math.max(0, pot.sun - 5);
+    pot.mood = Math.max(0, pot.mood - 4);
+    pot.tendedAt = Date.now();
+    if (!state.stats) state.stats = {};
+    state.stats.canWaters = (state.stats.canWaters || 0) + (used ? 1 : 0);
+    state._tendsToday = (state._tendsToday || 0) + 1;
+    return {
+      ok: true,
+      usedCan: used,
+      bonus: bonus,
+      charge: can.charge,
+      growth: pot.growth,
+      seasonNote: seasonNote,
+    };
+  }
+
+  /** Soft hint: how many secret recipe slots match current craft */
+  function recipeMatchHint(craft, recipes) {
+    recipes = recipes || [];
+    craft = craft || {};
+    if (!craft.cup || !craft.base || !craft.flavor) {
+      return { matches: 0, close: [], perfect: null };
+    }
+    var close = [];
+    var perfect = null;
+    for (var i = 0; i < recipes.length; i++) {
+      var r = recipes[i];
+      if (!r) continue;
+      var score = 0;
+      if (r.cup === craft.cup) score++;
+      if (r.base === craft.base) score++;
+      if (r.flavor === craft.flavor) score++;
+      if ((r.topping || "none") === (craft.topping || "none")) score++;
+      if (score === 4) {
+        perfect = r;
+      } else if (score >= 3) {
+        close.push({ name: r.name, score: score });
+      }
+    }
+    return { matches: close.length + (perfect ? 1 : 0), close: close, perfect: perfect };
   }
 
   function tend(state, potIndex, act, plants) {
@@ -890,6 +991,10 @@
     renamePlant: renamePlant,
     setPotNote: setPotNote,
     sitBench: sitBench,
+    getWateringCan: getWateringCan,
+    chargeWateringCan: chargeWateringCan,
+    useWateringCan: useWateringCan,
+    recipeMatchHint: recipeMatchHint,
     tend: tend,
     settleOfflineGrowth: settleOfflineGrowth,
     scoreDrink: scoreDrink,

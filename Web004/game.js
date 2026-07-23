@@ -774,6 +774,15 @@
         ctx.fillRect(-5, -3, 10, 6);
         ctx.restore();
       }
+    } else if (themeId === "plum_grove") {
+      for (let i = 0; i < 12; i++) {
+        const x = ((i * 71 + time * 0.28) % (w + 24)) - 12;
+        const y = ((i * 39 + time * 0.2) % (h * 0.65));
+        ctx.fillStyle = i % 2 === 0 ? "rgba(240,170,190,0.4)" : "rgba(255,220,230,0.35)";
+        ctx.beginPath();
+        ctx.ellipse(x, y, 3.5, 2.2, Math.sin(time * 0.03 + i), 0, Math.PI * 2);
+        ctx.fill();
+      }
     }
   }
 
@@ -1006,6 +1015,7 @@
     state.pathsWalked++;
     state.coins += (Core.ECONOMY && Core.ECONOMY.pathBonus) || 3;
     Core.appendJournal(state, "又走完一段小路，口袋轻响。");
+    const canR = Core.chargeWateringCan(state, 1);
     const ev = applyEveningEvent();
     checkAchievements();
     Core.evaluateDailyGoals(state);
@@ -1016,7 +1026,7 @@
     if (ev) {
       toast("📖 " + ev.title + " — " + (ev.body || "").slice(0, 28) + "…");
     } else {
-      toast("✨ 晚风换了一条小路，送你 2 枚金币");
+      toast("✨ 晚风换了一条小路，送你 2 枚金币" + (canR.full ? " · 水壶满了" : ""));
     }
     if (walkRunning) resizeWalk();
   });
@@ -1181,6 +1191,11 @@
     `;
     actions.hidden = false;
     harvestBtn.hidden = !isReady(pot);
+    const can = Core.getWateringCan(state);
+    const canStatus = document.getElementById("watering-can-status");
+    if (canStatus) {
+      canStatus.textContent = "水壶：" + can.charge + " / " + can.max + (can.charge >= can.max ? " · 满了" : " · 散步可蓄水");
+    }
   }
 
   function plantSeed(itemId) {
@@ -1364,6 +1379,36 @@
     });
   })();
 
+  (function wireWateringCan() {
+    const btn = document.getElementById("btn-watering-can");
+    if (!btn || btn._wired) return;
+    btn._wired = true;
+    btn.addEventListener("click", () => {
+      const pot = state.pots[state.selectedPot];
+      if (!pot || !pot.plantId) {
+        toast("先选一盆有植物的花盆");
+        return;
+      }
+      const r = Core.useWateringCan(state, state.selectedPot, PLANTS);
+      if (!r.ok) {
+        toast("这盆现在浇不了");
+        return;
+      }
+      checkAchievements();
+      Core.evaluateDailyGoals(state);
+      save();
+      renderGarden();
+      refreshResources();
+      if (r.usedCan) {
+        toast("🪣 水壶浇灌 +" + r.bonus + " 水分 · 剩余 " + r.charge + (r.seasonNote ? " · " + r.seasonNote : ""));
+        sfx("water");
+      } else {
+        toast("🪣 水壶空了，改用手浇 · 去小路蓄水吧");
+        sfx("water");
+      }
+    });
+  })();
+
   document.getElementById("plant-actions").addEventListener("click", (e) => {
     const btn = e.target.closest("[data-act]");
     if (!btn) return;
@@ -1482,7 +1527,14 @@
     if (cupDef && baseDef && flavorDef) {
       const parts = [flavorDef.name, baseDef.name.replace(/底|水/, "")];
       if (topDef && topDef.id !== "none") parts.push(topDef.name);
-      nameEl.textContent = parts.join("·") + "汽水";
+      let title = parts.join("·") + "汽水";
+      const hint = Core.recipeMatchHint(state.craft, secretRecipes);
+      if (hint.perfect) {
+        title += " · ✨ 像一本秘密配方";
+      } else if (hint.close && hint.close.length) {
+        title += " · 隐约接近某道配方";
+      }
+      nameEl.textContent = title;
       serveBtn.disabled = false;
     } else {
       nameEl.textContent = "选齐杯型、基底和风味吧";
