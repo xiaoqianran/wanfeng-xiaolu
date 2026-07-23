@@ -1120,6 +1120,26 @@ function renderJournal() {
         );
         ctx.stroke();
       }
+    } else if (themeId === "rain_garden") {
+      // soft diagonal rain + puddle glints
+      ctx.strokeStyle = "rgba(180,200,220,0.28)";
+      ctx.lineWidth = 1;
+      for (let i = 0; i < 40; i++) {
+        const x = (i * 37 + time * 2.2) % (w + 20) - 10;
+        const y = (i * 53 + time * 3.5) % (h + 20) - 10;
+        ctx.beginPath();
+        ctx.moveTo(x, y);
+        ctx.lineTo(x - 4, y + 14);
+        ctx.stroke();
+      }
+      ctx.fillStyle = "rgba(160,190,200,0.2)";
+      for (let i = 0; i < 6; i++) {
+        const x = 30 + i * (w / 6);
+        const y = h * 0.72 + Math.sin(time * 0.05 + i) * 2;
+        ctx.beginPath();
+        ctx.ellipse(x, y, 18, 5, 0, 0, Math.PI * 2);
+        ctx.fill();
+      }
     }
   }
 
@@ -2072,7 +2092,7 @@ function renderJournal() {
     if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel")) {
       score += 0.5; notes.push("秋日温甜");
     }
-    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu")) {
+    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey")) {
       score += 0.5; notes.push("冬日暖茶");
     }
     if (season === "dusk" && topDef && topDef.id !== "none") { score += 0.25; notes.push("黄昏点缀"); }
@@ -2369,14 +2389,25 @@ function renderJournal() {
 
     if (tab === "memories") {
       const st = state.stats || {};
+      const stickers = Object.keys(state.pathStickers || {});
       const summary = document.createElement("div");
       summary.className = "album-card memory-summary";
       summary.innerHTML = `
         <div class="emoji">📖</div>
         <div class="name">小路回忆</div>
-        <div class="meta">窗台速写 ${st.potSnaps || 0} · 熟土收获 ${st.memoryHarvests || 0} · 花盆便签 ${st.potNotes || 0} · 长椅 ${st.benchSits || 0}</div>
+        <div class="meta">窗台速写 ${st.potSnaps || 0} · 熟土收获 ${st.memoryHarvests || 0} · 花盆便签 ${st.potNotes || 0} · 长椅 ${st.benchSits || 0} · 晨露 ${st.morningDews || 0}</div>
       `;
       grid.appendChild(summary);
+      if (stickers.length) {
+        const stCard = document.createElement("div");
+        stCard.className = "album-card done";
+        stCard.innerHTML = `
+          <div class="emoji">🏷️</div>
+          <div class="name">小路贴纸</div>
+          <div class="meta">${stickers.map((id) => (state.pathStickers[id] && state.pathStickers[id].name) || id).join(" · ")}</div>
+        `;
+        grid.appendChild(stCard);
+      }
       const snaps = (state.potSnaps || []).slice().reverse();
       if (!snaps.length) {
         const empty = document.createElement("div");

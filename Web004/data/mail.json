@@ -601,5 +601,16 @@
       "hearts": 1,
       "coins": 3
     }
+  },
+  {
+    "id": "mail_ginger",
+    "title": "干姜两片",
+    "body": "煮姜茶的阿姨来信：晒干的姜更耐放。给你两片，记得小火。",
+    "effect": {
+      "items": {
+        "ginger": 2
+      },
+      "hearts": 1
+    }
   }
 ]
