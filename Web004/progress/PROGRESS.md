@@ -509,3 +509,4 @@
 | 502 | completed | feat | Add customer persona #25 | Customer 夜跑爱好者·502 | `feat(shop): R0502 Add customer persona #25` |
 | 503 | completed | feat | Add dialogue line #25 | Dialogue count=25 | `feat(content): R0503 Add dialogue line #25` |
 | 504 | completed | feat | Add garden care whisper #25 | Garden msg #26 | `feat(garden): R0504 Add garden care whisper #25` |
+| 505 | completed | feat | Add shop tip #25 | Shop tip #26 | `feat(shop): R0505 Add shop tip #25` |
