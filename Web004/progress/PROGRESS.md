@@ -450,3 +450,4 @@
 | 443 | completed | feat | Add dialogue line #22 | Dialogue count=22 | `feat(content): R0443 Add dialogue line #22` |
 | 444 | completed | feat | Add garden care whisper #22 | Garden msg #23 | `feat(garden): R0444 Add garden care whisper #22` |
 | 445 | completed | feat | Add shop tip #22 | Shop tip #23 | `feat(shop): R0445 Add shop tip #22` |
+| 446 | completed | feat | Tune walk ambient note #22 | Walk ambient #22 | `feat(walk): R0446 Tune walk ambient note #22` |
