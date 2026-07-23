@@ -409,3 +409,4 @@
 | 402 | completed | feat | Ship dialogue line into runtime #33 | dialogues=85 | `feat(content): R0402 Ship dialogue line into runtime #33` |
 | 403 | completed | feat | Ship journal template into runtime #33 | journal templates=86 | `feat(album): R0403 Ship journal template into runtime #33` |
 | 404 | completed | feat | Ship secret recipe into runtime #33 | secret recipes=86 | `feat(shop): R0404 Ship secret recipe into runtime #33` |
+| 405 | completed | feat | Ship achievement milestone into runtime #33 | achievements=86 | `feat(meta): R0405 Ship achievement milestone into runtime #33` |
