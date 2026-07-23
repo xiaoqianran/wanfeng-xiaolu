@@ -22,6 +22,7 @@
         </div>
       </div>
       <div class="resources">
+        <span class="pill" title="季节" id="pill-season"><i>🌅</i><b id="res-season">黄昏</b></span>
         <span class="pill" title="金币"><i>🪙</i><b id="res-coins">0</b></span>
         <span class="pill" title="好心情"><i>💛</i><b id="res-hearts">0</b></span>
         <span class="pill" title="背包物品"><i>🧺</i><b id="res-bag">0</b></span>
@@ -54,8 +55,13 @@
           </div>
         </div>
         <div class="home-copy">
-          <h2>今天的晚风很温柔</h2>
-          <p>沿着小路散步收集灵感，在窗台照料小植物，再为路过的人调制一杯汽水吧。</p>
+          <h2 id="home-title">今天的晚风很温柔</h2>
+          <p id="home-blurb">沿着小路散步收集灵感，在窗台照料小植物，再为路过的人调制一杯汽水吧。</p>
+          <div class="home-actions">
+            <button type="button" class="soft-btn" id="btn-next-season">🍃 换个季节散步</button>
+            <button type="button" class="soft-btn" data-go="journal">📓 今日手帐</button>
+            <button type="button" class="soft-btn" data-go="achievements">✨ 温柔成就</button>
+          </div>
         </div>
         <div class="nav-cards">
           <button class="nav-card" data-go="walk">
@@ -79,6 +85,28 @@
             <span class="nav-desc">收集记录 · 解锁配方</span>
           </button>
         </div>
+      </section>
+
+      <!-- 手帐 -->
+      <section class="screen" id="screen-journal" data-screen="journal">
+        <div class="panel-head">
+          <button class="back-btn" data-go="home">← 回小院</button>
+          <h2>今日手帐</h2>
+          <span class="hint">慢慢写下的小日子</span>
+        </div>
+        <img class="scene-banner" src="assets/album/diary-cover.jpg" alt="手帐" width="1100" height="140" />
+        <div class="journal-list" id="journal-list"></div>
+      </section>
+
+      <!-- 成就 -->
+      <section class="screen" id="screen-achievements" data-screen="achievements">
+        <div class="panel-head">
+          <button class="back-btn" data-go="home">← 回小院</button>
+          <h2>温柔成就</h2>
+          <span class="hint">没有排名，只有纪念</span>
+        </div>
+        <img class="scene-banner" src="assets/garden/empty-pot.jpg" alt="成就" width="1100" height="140" />
+        <div class="album-grid" id="achievements-grid"></div>
       </section>
 
       <!-- 散步 -->
@@ -210,6 +238,15 @@
   </div>
 
   <div class="toast-stack" id="toast-stack"></div>
+  <!-- season art preloads (file:// safe relative paths) -->
+  <div class="sr-only" aria-hidden="true">
+    <img src="assets/seasons/dusk.jpg" alt="" width="1" height="1" />
+    <img src="assets/seasons/spring.jpg" alt="" width="1" height="1" />
+    <img src="assets/seasons/summer.jpg" alt="" width="1" height="1" />
+    <img src="assets/seasons/autumn.jpg" alt="" width="1" height="1" />
+    <img src="assets/seasons/winter.jpg" alt="" width="1" height="1" />
+    <img src="assets/ui/achievements-badges.jpg" alt="" width="1" height="1" />
+  </div>
   <script src="js/core.js"></script>
   <script src="js/content-extra.js"></script>
   <script src="game.js"></script>

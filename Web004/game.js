@@ -116,6 +116,13 @@
     addItem,
     hasItem,
     takeItem,
+    advanceSeason: () => {
+      Core.advanceSeason(state);
+      checkAchievements();
+      save();
+      refreshResources();
+      return state.season;
+    },
   };
 
   function toast(msg) {
@@ -134,6 +141,35 @@
     document.getElementById("res-coins").textContent = state.coins;
     document.getElementById("res-hearts").textContent = state.hearts;
     document.getElementById("res-bag").textContent = bagCount();
+    const seasonEl = document.getElementById("res-season");
+    if (seasonEl) {
+      seasonEl.textContent = Core.SEASON_LABELS[state.season] || state.season || "黄昏";
+    }
+    applySeasonArt();
+  }
+
+  function applySeasonArt() {
+    const art = Core.SEASON_ART[state.season] || Core.SEASON_ART.dusk;
+    const hero = document.querySelector(".hero-art");
+    if (hero && art) hero.src = art;
+    const walkBanner = document.querySelector("#screen-walk .scene-banner");
+    if (walkBanner && art) walkBanner.src = art;
+    const title = document.getElementById("home-title");
+    if (title) {
+      const label = Core.SEASON_LABELS[state.season] || "黄昏";
+      title.textContent = label + "的风也很温柔";
+    }
+  }
+
+  function checkAchievements(silent) {
+    const newly = Core.evaluateAchievements(state);
+    if (newly.length) {
+      save();
+      if (!silent) {
+        newly.forEach((a) => toast("✨ 成就：" + a.name));
+      }
+    }
+    return newly;
   }
 
   // ---------- 导航 ----------
@@ -146,7 +182,39 @@
     if (screen === "garden") renderGarden();
     if (screen === "shop") renderShop();
     if (screen === "album") renderAlbum(currentAlbumTab);
+    if (screen === "journal") renderJournal();
+    if (screen === "achievements") renderAchievements();
     if (screen !== "walk") stopWalk();
+  }
+
+  function renderJournal() {
+    const box = document.getElementById("journal-list");
+    if (!box) return;
+    const entries = (state.journal || []).slice().reverse();
+    if (!entries.length) {
+      box.innerHTML = '<div class="journal-card"><p class="muted">还没有写下什么。去散散步、浇浇水、做一杯汽水吧。</p></div>';
+      return;
+    }
+    box.innerHTML = entries
+      .map((e) => {
+        const season = Core.SEASON_LABELS[e.season] || e.season || "";
+        return `<article class="journal-card"><div class="meta">第 ${e.day || "?"} 天 · ${season}</div><p>${e.text}</p></article>`;
+      })
+      .join("");
+  }
+
+  function renderAchievements() {
+    const grid = document.getElementById("achievements-grid");
+    if (!grid) return;
+    checkAchievements(true);
+    grid.innerHTML = Core.DEFAULT_ACHIEVEMENTS.map((a) => {
+      const done = !!(state.achievements && state.achievements[a.id]);
+      return `<div class="album-card ${done ? "done" : "locked"}">
+        <div class="emoji">${done ? "✨" : "☁️"}</div>
+        <div class="name">${a.name}</div>
+        <div class="meta">${done ? "已达成 · " + a.desc : a.desc}</div>
+      </div>`;
+    }).join("");
   }
 
   document.querySelectorAll("[data-go]").forEach((btn) => {
@@ -501,12 +569,25 @@
   document.getElementById("btn-new-path").addEventListener("click", () => {
     state.pathsWalked++;
     state.coins += 2;
+    Core.appendJournal(state, "又走完一段小路，口袋轻响。");
+    checkAchievements();
     save();
     refreshResources();
     world = makeWorld(2000 + state.pathsWalked * 131 + Date.now() % 1000);
     toast("✨ 晚风换了一条小路，送你 2 枚金币");
     if (walkRunning) resizeWalk();
   });
+
+  const btnSeason = document.getElementById("btn-next-season");
+  if (btnSeason) {
+    btnSeason.addEventListener("click", () => {
+      const s = Core.advanceSeason(state);
+      checkAchievements();
+      save();
+      refreshResources();
+      toast("🍃 季节轻轻换成了 " + (Core.SEASON_LABELS[s] || s));
+    });
+  }
 
   // ---------- 盆栽 ----------
   function growthStage(pot) {
@@ -641,12 +722,16 @@
       addItem(def.harvest, n);
       state.hearts += 1;
       state.coins += 3;
+      if (!state.stats) state.stats = {};
+      state.stats.plantsHarvested = (state.stats.plantsHarvested || 0) + 1;
+      Core.appendJournal(state, "收获了 " + (ITEMS[def.harvest].name || def.name) + "。");
       toast(`🌼 收获 ${ITEMS[def.harvest].emoji} ${ITEMS[def.harvest].name} ×${n}`);
       // 植物回到抽枝，可继续养
       pot.growth = PLANTS[pot.plantId].days * 0.4;
       pot.water = 30;
       pot.sun = 30;
       pot.mood = 40;
+      checkAchievements();
       save();
       refreshResources();
       renderGarden();
@@ -841,6 +926,10 @@
     const hearts = score >= 3 ? 1 : 0;
     state.coins += coins;
     state.hearts += hearts;
+    if (!state.stats) state.stats = {};
+    state.stats.drinksServed = (state.stats.drinksServed || 0) + 1;
+    Core.appendJournal(state, "为 " + (state.customer && state.customer.name ? state.customer.name : "客人") + " 调制了一杯汽水。");
+    checkAchievements();
 
     const drinkKey = [cup, base, flavor, topping || "none"].join("-");
     state.drinksMade[drinkKey] = (state.drinksMade[drinkKey] || 0) + 1;
