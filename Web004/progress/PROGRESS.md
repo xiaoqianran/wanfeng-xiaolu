@@ -312,3 +312,4 @@
 | 305 | completed | feat | Ship shop tip + perfectBonus into runtime #25 | shop tips=78 perfectBonus=4 | `feat(shop): R0305 Ship shop tip + perfectBonus into runtime #25` |
 | 306 | completed | feat | Ship dialogue line into runtime #25 | dialogues=77 | `feat(content): R0306 Ship dialogue line into runtime #25` |
 | 307 | completed | feat | Ship journal template into runtime #25 | journal templates=78 | `feat(album): R0307 Ship journal template into runtime #25` |
+| 308 | completed | feat | Ship secret recipe into runtime #25 | secret recipes=78 | `feat(shop): R0308 Ship secret recipe into runtime #25` |
