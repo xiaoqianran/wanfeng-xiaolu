@@ -180,3 +180,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0181 | completed | audio | 水壶常客速写音效 | can/pin/snap WebAudio kinds | `audio(feedback): A0181 水壶常客速写音效` |
 | A0182 | completed | test | 新音效回归 | 117 tests pass | `audio(feedback): A0181 水壶常客速写音效` |
 | A0183 | completed | docs | 音效设计同步 | AUDIO_DESIGN can/pin/snap | `docs(audio): A0183 记录水壶常客速写合成音效` |
+| A0184 | completed | feat | 鼠尾草养成 | sage plant+flavor+recipe+customer | `feat(garden): A0184 鼠尾草可种植与药草田园罐` |
+| A0185 | completed | test | 鼠尾草回归 | 118 tests pass | `feat(garden): A0184 鼠尾草可种植与药草田园罐` |
