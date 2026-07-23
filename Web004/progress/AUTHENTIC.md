@@ -171,3 +171,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0172 | completed | test | 石庭成就回归 | 114 tests pass | `feat(walk): A0170 石庭慢转主题与新成就` |
 | A0173 | completed | content | 事件至157则 | 157 unique hand-authored events | `content(events): A0173 晚间 vignette 至一五七则` |
 | A0174 | completed | test | 150+事件回归 | 115 tests pass | `content(events): A0173 晚间 vignette 至一五七则` |
+| A0175 | completed | feat | 抹茶风味 | matcha item+flavor+recipe+customer | `feat(shop): A0175 抹茶风味与竹影抹茶配方` |
+| A0176 | completed | test | 抹茶回归 | 116 tests pass | `feat(shop): A0175 抹茶风味与竹影抹茶配方` |
