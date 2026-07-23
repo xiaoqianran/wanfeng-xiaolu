@@ -233,3 +233,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0234 | completed | test | 云台主题回归 | 129 tests pass | `feat(walk): A0232 云台慢坡主题与云影特效` |
 | A0235 | completed | content | 文案信箱扩充 | tips 32 mail 49 dialogues 28 | `content(world): A0235 文案信箱与手册同步云台` |
 | A0236 | completed | docs | 手册云台 | USER_MANUAL cloud_pass | `content(world): A0235 文案信箱与手册同步云台` |
+| A0237 | completed | feat | 今日第一脚奖励 | claimFirstWalkBonus once/day + early_walker | `feat(walk): A0237 今日第一脚出门奖励与砚台石` |
+| A0238 | completed | content | 小砚台石 | ink_stone collectible book_yard bias | `feat(walk): A0237 今日第一脚出门奖励与砚台石` |
+| A0239 | completed | test | 第一脚回归 | 130 tests pass | `feat(walk): A0237 今日第一脚出门奖励与砚台石` |
