@@ -675,3 +675,4 @@
 | 668 | completed | feat | Add secret recipe stub #33 | Recipes=33 | `feat(shop): R0668 Add secret recipe stub #33` |
 | 669 | completed | feat | Add achievement definition #33 | Achievements=33 | `feat(meta): R0669 Add achievement definition #33` |
 | 670 | completed | style | CSS micro polish token #33 | CSS token hue=230 | `style(ui): R0670 CSS micro polish token #33` |
+| 671 | completed | feat | Add plantable linkage #33 | Plant link plant_pine_0671 | `feat(content): R0671 Add plantable linkage #33` |
