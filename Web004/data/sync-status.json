@@ -2,7 +2,7 @@
   "contentItems": 219,
   "plants": 116,
   "customers": 115,
-  "dialogues": 114,
+  "dialogues": 115,
   "gardenMessages": 116,
   "shopTips": 116,
   "walkAmbient": 115,
@@ -11,11 +11,11 @@
   "files": [
     {
       "path": "js/content-extra.js",
-      "bytes": 79380
+      "bytes": 79442
     },
     {
       "path": "js/game-data.js",
-      "bytes": 69296
+      "bytes": 69358
     }
   ]
 }
