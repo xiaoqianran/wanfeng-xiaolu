@@ -523,3 +523,4 @@
 | 516 | completed | test | Regression assertion pack #25 | Test pack size=27 | `test(core): R0516 Regression assertion pack #25` |
 | 517 | completed | feat | Path theme fragment #25 | Path themes=30 | `feat(walk): R0517 Path theme fragment #25` |
 | 518 | completed | feat | Topping or cup option #25 | Topping top_r0518 | `feat(content): R0518 Topping or cup option #25` |
+| 519 | completed | docs | Stage milestone summary #25 | Stage doc stage-11.md | `docs(progress): R0519 Stage milestone summary #25` |
