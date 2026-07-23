@@ -607,3 +607,4 @@
 | 600 | completed | refactor | Catalog integrity pass #29 | Integrity items=59 customers=29 | `refactor(core): R0600 Catalog integrity pass #29` |
 | 601 | completed | feat | Add collectible item batch #30 | Item lavender_r0601 added | `feat(content): R0601 Add collectible item batch #30` |
 | 602 | completed | feat | Add customer persona #30 | Customer 织围巾的阿姨·602 | `feat(shop): R0602 Add customer persona #30` |
+| 603 | completed | feat | Add dialogue line #30 | Dialogue count=30 | `feat(content): R0603 Add dialogue line #30` |
