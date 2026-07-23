@@ -118,3 +118,9 @@
 - 主题 44 · 测试 176 pass
 - 静物：晨露/邻盆/多样/对调/大量可种植 · 散步：44 主题+小路图鉴 · 小店：钉配方/开店清静/收摊
 - `cd Web004 && node tests/run.js && node tools/quality-gate.js`
+
+## 执行锚点 A0407
+- authentic **399+** / 1000 approaching mid-400
+- spam DISABLED
+- themes 45 · tests 177 pass
+- Continue unique garden/walk/shop only

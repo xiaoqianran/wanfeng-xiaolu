@@ -12,3 +12,10 @@
 | A8 | 水壶蓄水、常客标记、窗台速写属于静物养成/社交软反馈，不引入战斗或失败 | 本会话 A0121–A0155 设计 | 高 |
 | A9 | 小路主题可持续扩充至十余种，各配独特天气粒子与拾取偏置 | path-themes 数据驱动 | 高 |
 | A10 | content-extra 中 `*_r####` / `seed_*` 模板条目保留但不在图鉴主列表展示 | album filter 实现 | 中 |
+
+
+## 2026-07-24 authentic rebuild
+- Only `Web004/progress/authentic-rounds.jsonl` counts toward the 1000-round goal.
+- `tools/run-rounds.js` is permanently DISABLED (template spam rejected by skeptic).
+- Event bodies must be >12 unique characters; no `#N` template vignettes.
+- Path themes and plantable herbs must be unique player-facing content with tests.
