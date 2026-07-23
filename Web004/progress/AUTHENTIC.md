@@ -257,3 +257,4 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0258 | completed | docs | 路线图锚点249 | ROADMAP A0257 anchor | `content(events): A0257 海盐 vignette 与路线图锚点` |
 | A0259 | completed | feat | 小路里程贴纸 | PATH_MILESTONES 5/15/30/50 stickers | `feat(walk): A0259 小路里程贴纸 5/15/30/50` |
 | A0260 | completed | test | 贴纸回归 | 135 tests pass | `feat(walk): A0259 小路里程贴纸 5/15/30/50` |
+| A0261 | completed | docs | 手册贴纸 | USER_MANUAL stickers | `docs(manual): A0261 手册同步小路贴纸与续作卡` |
