@@ -744,5 +744,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_blueberry",
+    "title": "干蓝莓",
+    "body": "画蓝莓的人来信：干果也能入杯。给你一小把。",
+    "effect": {
+      "items": {
+        "blueberry": 2
+      },
+      "coins": 2
+    }
   }
 ]
