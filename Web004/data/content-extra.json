@@ -4309,6 +4309,10 @@
     {
       "round": 282,
       "text": "今天的路特别柔软。（R0282）"
+    },
+    {
+      "round": 294,
+      "text": "汽水的气泡像小星星。（R0294）"
     }
   ],
   "seasons": [
@@ -4377,7 +4381,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 290,
+    "expandedRounds": 294,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
