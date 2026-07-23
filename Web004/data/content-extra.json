@@ -2532,6 +2532,13 @@
       "emoji": "🥭",
       "kind": "风味",
       "seed": "mangoPot"
+    },
+    "pineapple": {
+      "id": "pineapple",
+      "name": "菠萝",
+      "emoji": "🍍",
+      "kind": "风味",
+      "seed": "pineapplePot"
     }
   },
   "plants": {
@@ -4707,6 +4714,17 @@
       ],
       "harvest": "mango",
       "days": 3
+    },
+    "pineapplePot": {
+      "id": "pineapplePot",
+      "name": "菠萝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍍"
+      ],
+      "harvest": "pineapple",
+      "days": 3
     }
   },
   "cups": [
@@ -5790,6 +5808,16 @@
       "need": "mango",
       "tags": [
         "甜蜜",
+        "果香"
+      ]
+    },
+    {
+      "id": "pineapple",
+      "name": "菠萝",
+      "emoji": "🍍",
+      "need": "pineapple",
+      "tags": [
+        "清爽",
         "果香"
       ]
     }
@@ -7386,6 +7414,22 @@
         "honey",
         "peach",
         "litchi"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "切菠萝的人",
+      "avatar": "🍍",
+      "wish": "菠萝或蜜，清爽酸甜，气泡更好。",
+      "tags": [
+        "清爽",
+        "果香"
+      ],
+      "flavors": [
+        "pineapple",
+        "honey",
+        "mango",
+        "mint"
       ],
       "wantTopping": true
     }
