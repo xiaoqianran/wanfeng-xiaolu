@@ -185,3 +185,4 @@
 | 178 | completed | feat | Topping or cup option #8 | Topping top_r0178 | `feat(content): R0178 Topping or cup option #8` |
 | 179 | completed | docs | Stage milestone summary #8 | Stage doc stage-04.md | `docs(progress): R0179 Stage milestone summary #8` |
 | 180 | completed | refactor | Catalog integrity pass #8 | Integrity items=17 customers=8 | `refactor(core): R0180 Catalog integrity pass #8` |
+| 181 | completed | feat | Add collectible item batch #9 | Item lavender_r0181 added | `feat(content): R0181 Add collectible item batch #9` |
