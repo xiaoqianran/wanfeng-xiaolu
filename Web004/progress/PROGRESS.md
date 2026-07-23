@@ -208,3 +208,4 @@
 | 201 | completed | feat | Add collectible item batch #10 | Item cocoa_r0201 added | `feat(content): R0201 Add collectible item batch #10` |
 | 202 | completed | feat | Add customer persona #10 | Customer 夜跑爱好者·202 | `feat(shop): R0202 Add customer persona #10` |
 | 203 | completed | feat | Add dialogue line #10 | Dialogue count=10 | `feat(content): R0203 Add dialogue line #10` |
+| 204 | completed | feat | Add garden care whisper #10 | Garden msg #11 | `feat(garden): R0204 Add garden care whisper #10` |
