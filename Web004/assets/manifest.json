@@ -107,7 +107,8 @@
     "assets/garden/live_0456.jpg",
     "assets/album/live_0468.jpg",
     "assets/walk/live_0480.jpg",
-    "assets/shop/live_0492.jpg"
+    "assets/shop/live_0492.jpg",
+    "assets/ui/live_0504.jpg"
   ],
   "stages": {
     "home": [
@@ -396,6 +397,12 @@
         "path": "assets/ui/live_0444.jpg",
         "status": "live",
         "source": "assets/garden/windowsill.jpg"
+      },
+      {
+        "round": 504,
+        "path": "assets/ui/live_0504.jpg",
+        "status": "live",
+        "source": "assets/seasons/autumn.jpg"
       }
     ]
   },
