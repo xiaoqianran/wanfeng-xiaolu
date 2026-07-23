@@ -1255,6 +1255,14 @@
       "kind": "种子",
       "seed": "plant_orange_0347",
       "round": 347
+    },
+    "grape_r0349": {
+      "id": "grape_r0349",
+      "name": "葡萄·349",
+      "emoji": "🍇",
+      "kind": "风味",
+      "seed": null,
+      "round": 349
     }
   },
   "plants": {
@@ -4573,7 +4581,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 347,
+    "expandedRounds": 349,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
