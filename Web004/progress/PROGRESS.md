@@ -370,3 +370,4 @@
 | 363 | completed | feat | Add dialogue line #18 | Dialogue count=18 | `feat(content): R0363 Add dialogue line #18` |
 | 364 | completed | feat | Add garden care whisper #18 | Garden msg #19 | `feat(garden): R0364 Add garden care whisper #18` |
 | 365 | completed | feat | Add shop tip #18 | Shop tip #19 | `feat(shop): R0365 Add shop tip #18` |
+| 366 | completed | feat | Tune walk ambient note #18 | Walk ambient #18 | `feat(walk): R0366 Tune walk ambient note #18` |
