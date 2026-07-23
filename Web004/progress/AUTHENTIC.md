@@ -327,3 +327,4 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0328 | completed | feat | 荷塘浅步 | lotus_pond 26th + FX | feat(walk): A0328 荷塘浅步主题与荷叶特效 |
 | A0329 | completed | content | 紫花荷塘事件配方 | events+recipes | content(events): A0329 紫罗兰荷塘 vignette 与配方 |
 | A0330 | completed | test | 回归手册 | 158 pass | test(docs): A0330 紫罗兰荷塘回归与手册 |
+| A0331 | completed | fix | 春日紫罗兰评分 | violet spring bonus | fix(shop): A0331 春日评分纳入紫罗兰 |
