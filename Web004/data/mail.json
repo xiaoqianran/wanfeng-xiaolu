@@ -821,5 +821,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_litchi",
+    "title": "荔枝两颗",
+    "body": "剥荔枝的孩子来信：新鲜最好。给你两颗，别放太久。",
+    "effect": {
+      "items": {
+        "litchi": 2
+      },
+      "coins": 2
+    }
   }
 ]
