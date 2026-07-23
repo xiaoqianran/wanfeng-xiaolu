@@ -54,3 +54,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0054 | completed | feat | 演示模式操作提示 | toast 1-4 nav after demo load | `feat(demo): A0054 演示模式快捷键提示与导航指引` |
 | A0055 | completed | fix | 过滤模板客人名 | drop names matching ·digits spam | `feat(demo): A0054 演示模式快捷键提示与导航指引` |
 | A0056 | completed | content | 独特小店提示 | 10 unique tipMessages | `content(shop): A0056 十则独特小店提示替换刷轮文案` |
+| A0057 | completed | feat | 草甸花粉特效 | drawWeather meadow pollen ellipses | `feat(walk): A0057 草甸主题花粉飘落天气特效` |
+| A0058 | completed | docs | CLAUDE.md 接手说明 | agent recovery guide at repo root | `docs(agents): A0058 添加 CLAUDE.md 接手说明` |
+| A0059 | completed | fix | 清除模板客人 | purged ·N names; 5 unique customers; 11 total | `fix(content): A0059 清除模板客人并加入五位独特新客人` |

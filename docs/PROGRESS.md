@@ -2,12 +2,11 @@
 
 | 字段 | 值 |
 |------|-----|
-| Authentic | **34** / 1000 |
-| Game-integrated | **30** |
-| 测试 | 49 passed |
-| 刷轮 | DISABLED + archived |
+| Authentic | **53** / 1000 |
+| Game-integrated | **47** |
+| 测试 | 62 passed |
+| 刷轮引擎 | DISABLED |
 
-## 最近 authentic 功能
-帮助页、经济常数、手帐范文、音效扩展、信箱、足迹统计、小路主题、配方图鉴、植物小名等。
+最近：天气开关、秘密配方、收获礼物、独特收集物、信箱、足迹、季节加成、新一天、草甸主题、过滤刷客人等。
 
-恢复：`.autodev/state.json` → A0041+
+恢复：A0060+ · `.autodev/state.json`
