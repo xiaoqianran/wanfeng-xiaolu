@@ -431,3 +431,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0432 | completed | feat | 换路手帐芒果 | firstThemeVisits+mangoPot | feat(walk): A0432 换路手帐与芒果可种植 |
 | A0433 | completed | feat | 芒果树荫 | mango_shade 54th | feat(walk): A0433 芒果树荫主题与金果特效 |
 | A0434 | completed | test | 回归手册 | 186 pass | test(docs): A0434 换路手帐芒果回归 |
+| A0435 | completed | feat | 菠萝可种植 | pineapplePot | feat(garden): A0435 菠萝可种植窗台 |
+| A0436 | completed | feat | 沙丘晚风 | sand_dune 55th | feat(walk): A0436 沙丘晚风主题与沙纹特效 |
+| A0437 | completed | test | 回归手册 | 187 pass | test(docs): A0437 菠萝沙丘回归与手册 |
