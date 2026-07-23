@@ -460,3 +460,4 @@
 | 453 | completed | feat | UI copy toast string #22 | UI toasts=23 | `feat(ui): R0453 UI copy toast string #22` |
 | 454 | completed | feat | Season palette note #22 | Season palette winter_0454 | `feat(season): R0454 Season palette note #22` |
 | 455 | completed | assets | Asset slot registration #22 | Asset slot assets/walk/slot_0455.png | `assets(manifest): R0455 Asset slot registration #22` |
+| 456 | completed | test | Regression assertion pack #22 | Test pack size=24 | `test(core): R0456 Regression assertion pack #22` |
