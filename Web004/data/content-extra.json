@@ -711,6 +711,14 @@
       "kind": "种子",
       "seed": "plant_cocoa_0891",
       "round": 891
+    },
+    "lavender_r0901": {
+      "id": "lavender_r0901",
+      "name": "薰衣草·901",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": null,
+      "round": 901
     }
   },
   "plants": {
@@ -2837,7 +2845,7 @@
     "theme_0897"
   ],
   "meta": {
-    "expandedRounds": 900,
+    "expandedRounds": 901,
     "lastIntegrityRound": 900,
     "itemCount": 89,
     "customerCount": 44
