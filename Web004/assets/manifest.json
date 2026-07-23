@@ -18,7 +18,8 @@
     "assets/walk/slot_0315.png",
     "assets/walk/slot_0335.png",
     "assets/walk/slot_0355.png",
-    "assets/walk/slot_0375.png"
+    "assets/walk/slot_0375.png",
+    "assets/walk/slot_0395.png"
   ],
   "stages": {
     "bootstrap": [
@@ -122,6 +123,11 @@
       {
         "round": 375,
         "path": "assets/walk/slot_0375.png",
+        "status": "reserved"
+      },
+      {
+        "round": 395,
+        "path": "assets/walk/slot_0395.png",
         "status": "reserved"
       }
     ]

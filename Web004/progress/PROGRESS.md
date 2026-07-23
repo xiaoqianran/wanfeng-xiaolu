@@ -399,3 +399,4 @@
 | 392 | completed | feat | Add flavor or base option #19 | Flavor fl_chamomile_0392 | `feat(shop): R0392 Add flavor or base option #19` |
 | 393 | completed | feat | UI copy toast string #19 | UI toasts=20 | `feat(ui): R0393 UI copy toast string #19` |
 | 394 | completed | feat | Season palette note #19 | Season palette winter_0394 | `feat(season): R0394 Season palette note #19` |
+| 395 | completed | assets | Asset slot registration #19 | Asset slot assets/walk/slot_0395.png | `assets(manifest): R0395 Asset slot registration #19` |
