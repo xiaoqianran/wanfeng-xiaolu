@@ -893,3 +893,4 @@
 | 886 | completed | feat | Tune walk ambient note #44 | Walk ambient #44 | `feat(walk): R0886 Tune walk ambient note #44` |
 | 887 | completed | feat | Add journal template #44 | Journal templates=44 | `feat(album): R0887 Add journal template #44` |
 | 888 | completed | feat | Add secret recipe stub #44 | Recipes=44 | `feat(shop): R0888 Add secret recipe stub #44` |
+| 889 | completed | feat | Add achievement definition #44 | Achievements=44 | `feat(meta): R0889 Add achievement definition #44` |
