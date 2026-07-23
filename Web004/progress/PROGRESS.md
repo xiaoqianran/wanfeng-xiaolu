@@ -993,3 +993,4 @@
 | 986 | completed | feat | Ship customer persona into runtime #82 | Runtime customer 采风记者·986 | `feat(shop): R0986 Ship customer persona into runtime #82` |
 | 987 | completed | feat | Ship walk ambient + pathWidth into runtime #82 | walk pathWidth=3387 ambient=120 | `feat(walk): R0987 Ship walk ambient + pathWidth into runtime #82` |
 | 988 | completed | feat | Ship garden care whisper into runtime #82 | garden messages=120 careBonus=1.05 | `feat(garden): R0988 Ship garden care whisper into runtime #82` |
+| 989 | completed | feat | Ship shop tip + perfectBonus into runtime #82 | shop tips=120 perfectBonus=4 | `feat(shop): R0989 Ship shop tip + perfectBonus into runtime #82` |
