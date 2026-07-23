@@ -1,23 +1,19 @@
-# 项目进度摘要
+# 项目进度摘要（诚实口径）
 
 | 字段 | 值 |
 |------|-----|
 | 游戏 | 晚风小路 |
-| 可运行入口 | `Web004/index.html` |
-| Integrated 轮次 | 见 `Web004/progress/rounds.jsonl` |
-| 单测 | `cd Web004 && node tests/run.js` |
-| 控制面 | `.autodev/state.json` |
+| 入口 | `Web004/index.html` |
+| **Authentic 轮次（验收账本）** | `Web004/progress/authentic-rounds.jsonl` |
+| 模板刷轮 | 已归档且**不计入**（`progress/archive/`） |
+| 单测 | `cd Web004 && node tests/run.js`（当前 34 passed） |
 
-## 最近工作
+## 已完成实质功能
+- 散步 / 盆栽 / 汽水 / 图鉴 / 季节 / 手帐 / 成就
+- 设置、引导、存档导入导出、WebAudio
+- 今日小目标、演示模式、晚间事件
+- 独特文案库；删除 live_ 复制图；反刷轮测试
 
-- 纯逻辑 core + 运行时 data 同步
-- 季节 / 手帐 / 成就
-- 删除 1×1 占位图；live 艺术接入
-- 控制面 docs + autodev 初始化
-
-## 下一优先
-
-1. 新手引导与设置页  
-2. WebAudio 轻反馈  
-3. 存档导出/导入  
-4. 答辩演示清单  
+## 未完成（诚实）
+- authentic 轮次数量 **远低于 1000**（每轮需真实 20–40 分钟工作量）
+- 需跨会话持续 A0009+ 实质开发
