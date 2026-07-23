@@ -746,5 +746,15 @@ test("settings has copy-save control and pot labels use nickname", () => {
   assert.ok(game.includes("clipboard") || game.includes("writeText"));
 });
 
+test("secret recipes include 陶碗野茶 and bag sort ships", () => {
+  const r = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(r.some((x) => x.name === "陶碗野茶"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("kindOrder"));
+  const meta = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "meta.json"), "utf8"));
+  assert.strictEqual(meta.combat, false);
+  assert.ok(meta.systems.includes("mail"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
