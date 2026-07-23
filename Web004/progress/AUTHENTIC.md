@@ -403,3 +403,4 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0404 | completed | feat | 柿子可种植 | persimmonPot | feat(garden): A0404 柿子可种植窗台 |
 | A0405 | completed | feat | 秋坡与事件加长 | autumn_slope 45th + body length | feat(walk): A0405 秋坡慢步与事件正文加长 |
 | A0406 | completed | test | 回归手册 | 177 pass | test(docs): A0406 柿子秋坡回归与手册 |
+| A0407 | completed | content | 独特店语窗台文案 | shop tips+garden msgs | content(world): A0407 秋坡店语与窗台絮语 |
