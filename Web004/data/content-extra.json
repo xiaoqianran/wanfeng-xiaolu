@@ -2392,6 +2392,13 @@
       "emoji": "🌼",
       "kind": "风味",
       "seed": "chrysanthemumPot"
+    },
+    "jasmine": {
+      "id": "jasmine",
+      "name": "茉莉",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "jasminePot"
     }
   },
   "plants": {
@@ -4358,6 +4365,17 @@
       ],
       "harvest": "chrysanthemum",
       "days": 3
+    },
+    "jasminePot": {
+      "id": "jasminePot",
+      "name": "茉莉",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "jasmine",
+      "days": 2
     }
   },
   "cups": [
@@ -5249,6 +5267,16 @@
       "name": "菊花",
       "emoji": "🌼",
       "need": "chrysanthemum",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "jasmine",
+      "name": "茉莉",
+      "emoji": "🤍",
+      "need": "jasmine",
       "tags": [
         "花香",
         "温柔"
@@ -6556,6 +6584,21 @@
         "tea_leaf",
         "honey",
         "chamomile"
+      ]
+    },
+    {
+      "name": "薰香的女孩",
+      "avatar": "🤍",
+      "wish": "茉莉或桂花，花香温柔，暖杯更好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "jasmine",
+        "osmanthus",
+        "chamomile",
+        "rose_petal"
       ]
     }
   ],

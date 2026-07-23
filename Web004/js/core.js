@@ -568,6 +568,15 @@
     { id: "chrys_walker", name: "菊圃旅人", desc: "走过菊圃晚径", check: function (s) {
       return !!(s._themesTouched && s._themesTouched.chrys_garden);
     } },
+    { id: "jasmine_sill", name: "茉莉窗台", desc: "发现茉莉", check: function (s) {
+      return !!(s.discovered && s.discovered.jasmine);
+    } },
+    { id: "osmanthus_walker", name: "桂院旅人", desc: "走过桂花小院", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.osmanthus_court);
+    } },
+    { id: "shop_closer", name: "温柔收摊", desc: "收摊记录 3 次", check: function (s) {
+      return (s.stats && s.stats.shopCloses || 0) >= 3;
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
     { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },
@@ -1239,6 +1248,26 @@
     return { ok: true, itemId: itemId };
   }
 
+  /** Soft end-of-day shop close: journal a calm summary (no fail state) */
+  function closeShopDay(state, now) {
+    now = now || Date.now();
+    var dk = dayKey(now);
+    if (state._closedShopDay === dk) return { ok: false, reason: "already" };
+    state._closedShopDay = dk;
+    var served = state._servesToday || 0;
+    var tip = (state.tipJar && state.tipJar.coins) || 0;
+    var line =
+      "收摊了。今天出杯 " +
+      served +
+      "，小费罐 " +
+      tip +
+      "/10。灯先留一盏。";
+    appendJournal(state, line);
+    if (!state.stats) state.stats = {};
+    state.stats.shopCloses = (state.stats.shopCloses || 0) + 1;
+    return { ok: true, line: line, served: served };
+  }
+
   /** Soft pin a secret recipe id for one-tap craft recall (no combat) */
   function pinRecipe(state, recipeId) {
     recipeId = String(recipeId || "").trim();
@@ -1544,6 +1573,7 @@ function recallGuestCraft(state, guestName) {
     getTopGuests: getTopGuests,
     pinRecipe: pinRecipe,
     getPinnedRecipe: getPinnedRecipe,
+    closeShopDay: closeShopDay,
     claimFirstWalkBonus: claimFirstWalkBonus,
     upgradeWateringCan: upgradeWateringCan,
     checkPathMilestones: checkPathMilestones,
