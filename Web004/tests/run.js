@@ -1629,5 +1629,16 @@ test("claimFirstWalkBonus once per day", () => {
   assert.ok(j.items.ink_stone);
 });
 
+
+test("new customers and 云台花香罐 recipe ship", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok((j.customers || []).some((c) => c.name === "晨练的阿姨"));
+  assert.ok((j.customers || []).some((c) => c.name === "云台写生的学生"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "云台花香罐"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("pot.nickname") && game.includes("说了会儿话"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

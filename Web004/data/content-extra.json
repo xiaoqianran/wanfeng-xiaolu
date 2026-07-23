@@ -5720,6 +5720,36 @@
         "plain"
       ],
       "wantTopping": false
+    },
+    {
+      "name": "晨练的阿姨",
+      "avatar": "🏃",
+      "wish": "清爽一点，紫苏或青柠，最好不要太甜。",
+      "tags": [
+        "清爽"
+      ],
+      "flavors": [
+        "perilla",
+        "mint",
+        "lemon",
+        "plain"
+      ]
+    },
+    {
+      "name": "云台写生的学生",
+      "avatar": "🎨",
+      "wish": "花香清爽都行，像坡顶的风。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "jasmine",
+        "honeysuckle",
+        "perilla",
+        "plain"
+      ],
+      "wantTopping": true
     }
   ],
   "dialogues": [

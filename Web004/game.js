@@ -1419,6 +1419,9 @@
         pot.growth += 0.05;
         seasonNote = "春语轻声";
       }
+      if (pot.nickname) {
+        Core.appendJournal(state, "对「" + pot.nickname + "」说了会儿话。");
+      }
       toast((gardenMsg ? "💬 " + gardenMsg : "💬 「今天也慢慢长大吧」") + (seasonNote ? " · " + seasonNote : ""));
     } else if (act === "rest") {
       pot.mood = Math.min(100, pot.mood + 18 * careBonus);
