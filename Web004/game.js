@@ -977,6 +977,27 @@ function renderJournal() {
         ctx.quadraticCurveTo(x + 4, h * 0.6, x - 2, h * 0.78);
         ctx.stroke();
       }
+    } else if (themeId === "star_dock") {
+      // water glints + stars
+      ctx.fillStyle = "rgba(255,250,220,0.7)";
+      for (let i = 0; i < 16; i++) {
+        const x = (i * 57) % w;
+        const y = (i * 37) % (h * 0.4);
+        const tw = 0.4 + 0.6 * Math.abs(Math.sin(time * 0.05 + i));
+        ctx.globalAlpha = tw;
+        ctx.beginPath();
+        ctx.arc(x, y, 1.2, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+      ctx.strokeStyle = "rgba(180,200,220,0.2)";
+      for (let i = 0; i < 4; i++) {
+        const y = h * 0.75 + Math.sin(time * 0.04 + i) * 2;
+        ctx.beginPath();
+        ctx.moveTo(0, y + i * 4);
+        ctx.quadraticCurveTo(w * 0.5, y + i * 4 + 3, w, y + i * 4);
+        ctx.stroke();
+      }
     }
   }
 

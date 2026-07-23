@@ -1898,5 +1898,15 @@ test("pinBagItem stores preferred bag item", () => {
   assert.ok(game.includes("pinBagItem") || game.includes("pinnedBagItem"));
 });
 
+
+test("star_dock theme among 23 unique themes", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "star_dock"));
+  assert.ok(themes.length >= 23);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("star_dock"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
