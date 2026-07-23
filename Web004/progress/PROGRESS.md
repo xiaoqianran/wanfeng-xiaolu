@@ -403,3 +403,4 @@
 | 396 | completed | assets | Wire real stage art reference into runtime manifest #32 | live art assets/garden/live_0396.jpg from assets/seasons/dusk.jpg (≥1KB) | `assets(ui): R0396 Wire real stage art reference into runtime manifest #32` |
 | 397 | completed | feat | Ship collectible + runtime catalog item #33 | Runtime item hibiscus_r0397 | `feat(content): R0397 Ship collectible + runtime catalog item #33` |
 | 398 | completed | feat | Ship customer persona into runtime #33 | Runtime customer 烘焙店员·398 | `feat(shop): R0398 Ship customer persona into runtime #33` |
+| 399 | completed | feat | Ship walk ambient + pathWidth into runtime #33 | walk pathWidth=3399 ambient=85 | `feat(walk): R0399 Ship walk ambient + pathWidth into runtime #33` |
