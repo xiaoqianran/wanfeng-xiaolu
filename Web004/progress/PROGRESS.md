@@ -10,3 +10,4 @@
 | 3 | completed | test | Expand unit coverage for craft edge cases | Recorded craft fixture #1 | `test(core): R0003 Expand unit coverage for craft edge cases` |
 | 4 | completed | feat | Load content-extra catalog in runtime data layer | Catalog loader marker written | `feat(ui): R0004 Load content-extra catalog in runtime data layer` |
 | 5 | completed | assets | Register asset manifest schema and placeholders | Asset manifest bootstrap slots registered | `assets(ui): R0005 Register asset manifest schema and placeholders` |
+| 6 | completed | docs | Bootstrap live progress table header stats | Progress stats header refreshed | `docs(progress): R0006 Bootstrap live progress table header stats` |

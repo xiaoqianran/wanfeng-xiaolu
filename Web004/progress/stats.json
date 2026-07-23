@@ -1,5 +1,6 @@
 {
-  "completed": 5,
-  "lastUpdate": "2026-07-23T19:49:23.349Z",
-  "lastGoal": "Register asset manifest schema and placeholders"
+  "targetRounds": 1000,
+  "lastUpdate": "2026-07-23T19:49:23.435Z",
+  "completed": 6,
+  "lastGoal": "Bootstrap live progress table header stats"
 }
