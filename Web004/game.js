@@ -1586,7 +1586,25 @@
   })();
 
   
-  (function wireUpgradeCan() {
+  
+  (function wireFavCup() {
+    const btn = document.getElementById("btn-fav-cup");
+    if (!btn || btn._wired) return;
+    btn._wired = true;
+    btn.addEventListener("click", () => {
+      const cup = state.craft && state.craft.cup;
+      if (!cup) { toast("先选一个杯型"); return; }
+      const r = Core.setFavoriteCup(state, cup);
+      if (!r.ok) return;
+      save();
+      const lab = document.getElementById("fav-cup-label");
+      if (lab) lab.textContent = "常用：" + cup;
+      toast("★ 常用杯型已记下");
+      sfx("pin");
+    });
+  })();
+
+(function wireUpgradeCan() {
     const btn = document.getElementById("btn-upgrade-can");
     if (!btn || btn._wired) return;
     btn._wired = true;
@@ -1690,7 +1708,10 @@
       })
       .join("");
 
+    if (!state.craft.cup && state.favoriteCupId) state.craft.cup = state.favoriteCupId;
     renderChoices("cups", CUPS, "cup", () => true);
+    const favLab = document.getElementById("fav-cup-label");
+    if (favLab) favLab.textContent = state.favoriteCupId ? ("常用：" + state.favoriteCupId) : "";
     renderChoices("bases", BASES, "base", (b) => !b.need || hasItem(b.need));
     renderChoices("flavors", FLAVORS, "flavor", (f) => !f.need || hasItem(f.need));
     renderChoices("toppings", TOPPINGS, "topping", (t) => !t.need || hasItem(t.need));

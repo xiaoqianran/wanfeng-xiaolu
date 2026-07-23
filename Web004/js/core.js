@@ -1004,7 +1004,16 @@
   }
 
   /** Apply last remembered craft for a guest name into craft object */
-  function recallGuestCraft(state, guestName) {
+  
+  function setFavoriteCup(state, cupId) {
+    cupId = String(cupId || "").trim();
+    if (!cupId) return { ok: false, reason: "empty" };
+    state.favoriteCupId = cupId;
+    appendJournal(state, "记下常用杯型：「" + cupId + "」。");
+    return { ok: true, cupId: cupId };
+  }
+
+function recallGuestCraft(state, guestName) {
     if (!guestName || !state.lastCraftByGuest || !state.lastCraftByGuest[guestName]) {
       return { ok: false, reason: "none" };
     }
@@ -1219,6 +1228,7 @@
     favoritePathTheme: favoritePathTheme,
     buildSpawnList: buildSpawnList,
     recallGuestCraft: recallGuestCraft,
+    setFavoriteCup: setFavoriteCup,
     claimFirstWalkBonus: claimFirstWalkBonus,
     upgradeWateringCan: upgradeWateringCan,
     checkPathMilestones: checkPathMilestones,

@@ -1734,5 +1734,17 @@ test("cicada_grove theme among 20 unique path themes", () => {
   assert.ok(game.includes("cicada_grove"));
 });
 
+
+test("setFavoriteCup and fav-cup UI", () => {
+  const s = core.defaultState();
+  const r = core.setFavoriteCup(s, "mug");
+  assert.ok(r.ok);
+  assert.strictEqual(s.favoriteCupId, "mug");
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("btn-fav-cup"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("setFavoriteCup") || game.includes("favoriteCupId"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
