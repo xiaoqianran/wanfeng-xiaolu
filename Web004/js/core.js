@@ -493,6 +493,12 @@
       var aff = s.customerAffinity || {};
       return Object.keys(aff).some(function (k) { return (aff[k] || 0) >= 3; });
     } },
+    { id: "violet_sill", name: "紫花窗台", desc: "发现紫罗兰", check: function (s) {
+      return !!(s.discovered && s.discovered.violet);
+    } },
+    { id: "lotus_walker", name: "荷塘旅人", desc: "走过荷塘浅步", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.lotus_pond);
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
     { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },
@@ -969,7 +975,7 @@
     }
     // soft seasonal affinity (optional catalogs.season)
     var season = catalogs.season || customer.season;
-    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || baseDef.id === "floral_tea")) {
+    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || baseDef.id === "floral_tea")) {
       score += 0.5;
       notes.push("春日花香");
     }

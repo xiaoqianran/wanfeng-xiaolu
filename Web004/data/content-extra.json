@@ -2301,6 +2301,20 @@
       "emoji": "🌿",
       "kind": "风味",
       "seed": "corianderPot"
+    },
+    "violet": {
+      "id": "violet",
+      "name": "紫罗兰",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "violetPot"
+    },
+    "lotus_seed": {
+      "id": "lotus_seed",
+      "name": "莲子",
+      "emoji": "🪷",
+      "kind": "收藏",
+      "seed": null
     }
   },
   "plants": {
@@ -4157,6 +4171,17 @@
       ],
       "harvest": "coriander",
       "days": 2
+    },
+    "violetPot": {
+      "id": "violetPot",
+      "name": "紫罗兰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "violet",
+      "days": 3
     }
   },
   "cups": [
@@ -4951,6 +4976,16 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "violet",
+      "name": "紫罗兰",
+      "emoji": "💜",
+      "need": "violet",
+      "tags": [
+        "花香",
+        "温柔"
       ]
     }
   ],
@@ -6074,6 +6109,37 @@
         "plain"
       ],
       "wantTopping": true
+    },
+    {
+      "name": "采紫花的女孩",
+      "avatar": "👧",
+      "wish": "花香温柔，紫罗兰最好，杯子可以漂亮一点。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "violet",
+        "lilac",
+        "jasmine",
+        "chamomile"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "观荷的老人",
+      "avatar": "🪷",
+      "wish": "茶底清淡，像荷叶上的水。",
+      "tags": [
+        "温柔",
+        "清爽"
+      ],
+      "flavors": [
+        "tea_leaf",
+        "violet",
+        "matcha",
+        "plain"
+      ]
     }
   ],
   "dialogues": [
