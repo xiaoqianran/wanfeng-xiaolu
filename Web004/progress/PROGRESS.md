@@ -50,3 +50,4 @@
 | 43 | completed | feat | Add dialogue line #2 | Dialogue count=2 | `feat(content): R0043 Add dialogue line #2` |
 | 44 | completed | feat | Add garden care whisper #2 | Garden msg #3 | `feat(garden): R0044 Add garden care whisper #2` |
 | 45 | completed | feat | Add shop tip #2 | Shop tip #3 | `feat(shop): R0045 Add shop tip #2` |
+| 46 | completed | feat | Tune walk ambient note #2 | Walk ambient #2 | `feat(walk): R0046 Tune walk ambient note #2` |
