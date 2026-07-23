@@ -211,3 +211,4 @@
 | 204 | completed | feat | Add garden care whisper #10 | Garden msg #11 | `feat(garden): R0204 Add garden care whisper #10` |
 | 205 | completed | feat | Add shop tip #10 | Shop tip #11 | `feat(shop): R0205 Add shop tip #10` |
 | 206 | completed | feat | Tune walk ambient note #10 | Walk ambient #10 | `feat(walk): R0206 Tune walk ambient note #10` |
+| 207 | completed | feat | Add journal template #10 | Journal templates=10 | `feat(album): R0207 Add journal template #10` |
