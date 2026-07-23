@@ -169,3 +169,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0170 | completed | feat | 石庭慢转主题 | stone_garden 15th + rake FX | `feat(walk): A0170 石庭慢转主题与新成就` |
 | A0171 | completed | feat | 新成就 | discover_15 pin_host achievements | `feat(walk): A0170 石庭慢转主题与新成就` |
 | A0172 | completed | test | 石庭成就回归 | 114 tests pass | `feat(walk): A0170 石庭慢转主题与新成就` |
+| A0173 | completed | content | 事件至157则 | 157 unique hand-authored events | `content(events): A0173 晚间 vignette 至一五七则` |
+| A0174 | completed | test | 150+事件回归 | 115 tests pass | `content(events): A0173 晚间 vignette 至一五七则` |
