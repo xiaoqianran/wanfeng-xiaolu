@@ -655,6 +655,15 @@
     { id: "plant_fav", name: "最想照料", desc: "标记一盆最想照料的植物", check: function (s) {
       return !!(s.favoritePlantId);
     } },
+    { id: "yangmei_sill", name: "杨梅窗台", desc: "发现杨梅", check: function (s) {
+      return !!(s.discovered && s.discovered.yangmei);
+    } },
+    { id: "pavilion_walker", name: "雨亭旅人", desc: "走过雨亭慢歇", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.rain_pavilion);
+    } },
+    { id: "morning_gardener", name: "晨间园丁", desc: "完成 5 次晨间首次照料", check: function (s) {
+      return (s.stats && s.stats.morningTends || 0) >= 5;
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
     { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },
@@ -1048,6 +1057,20 @@
 
     var care = (pot.water + pot.sun + pot.mood) / 300;
     pot.growth += 0.35 + care * 0.55;
+    // Soft morning first-tend of the day: soil feels cooler, mood gentler
+    if (!state.stats) state.stats = {};
+    var dayK = dayKey(Date.now());
+    if (state._tendDayKey !== dayK) {
+      state._tendDayKey = dayK;
+      state._tendsToday = 0;
+    }
+    state._tendsToday = (state._tendsToday || 0) + 1;
+    if (state._tendsToday === 1) {
+      pot.mood = Math.min(100, pot.mood + 4);
+      pot.water = Math.min(100, pot.water + 3);
+      if (!seasonNote) seasonNote = "晨间照料";
+      state.stats.morningTends = (state.stats.morningTends || 0) + 1;
+    }
     // 黄昏轻柔成长：几乎不催，只多一点心情
     if (season === "dusk" && !seasonNote) {
       pot.mood = Math.min(100, pot.mood + 3);
@@ -1178,7 +1201,7 @@
       score += 0.5;
       notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5;
       notes.push("夏日清爽");
     }

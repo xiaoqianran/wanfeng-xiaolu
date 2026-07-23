@@ -2483,6 +2483,13 @@
       "emoji": "🔴",
       "kind": "风味",
       "seed": "pomegranatePot"
+    },
+    "yangmei": {
+      "id": "yangmei",
+      "name": "杨梅",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "yangmeiPot"
     }
   },
   "plants": {
@@ -4581,6 +4588,17 @@
       ],
       "harvest": "pomegranate",
       "days": 3
+    },
+    "yangmeiPot": {
+      "id": "yangmeiPot",
+      "name": "杨梅",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "yangmei",
+      "days": 3
     }
   },
   "cups": [
@@ -5592,6 +5610,16 @@
       "name": "石榴",
       "emoji": "🔴",
       "need": "pomegranate",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "yangmei",
+      "name": "杨梅",
+      "emoji": "🔴",
+      "need": "yangmei",
       "tags": [
         "果香",
         "清爽"
@@ -7082,6 +7110,22 @@
         "honey",
         "berry",
         "hibiscus"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "摘杨梅的少年",
+      "avatar": "🧺",
+      "wish": "杨梅或蜜，酸甜清爽，气泡更好。",
+      "tags": [
+        "清爽",
+        "果香"
+      ],
+      "flavors": [
+        "yangmei",
+        "honey",
+        "mint",
+        "berry"
       ],
       "wantTopping": true
     }
