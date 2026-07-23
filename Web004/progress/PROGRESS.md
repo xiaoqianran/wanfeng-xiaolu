@@ -432,3 +432,4 @@
 | 425 | completed | feat | Add shop tip #21 | Shop tip #22 | `feat(shop): R0425 Add shop tip #21` |
 | 426 | completed | feat | Tune walk ambient note #21 | Walk ambient #21 | `feat(walk): R0426 Tune walk ambient note #21` |
 | 427 | completed | feat | Add journal template #21 | Journal templates=21 | `feat(album): R0427 Add journal template #21` |
+| 428 | completed | feat | Add secret recipe stub #21 | Recipes=21 | `feat(shop): R0428 Add secret recipe stub #21` |
