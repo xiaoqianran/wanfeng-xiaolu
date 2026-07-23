@@ -5602,6 +5602,20 @@
         "mint",
         "plain"
       ]
+    },
+    {
+      "name": "堆小雪人的孩子",
+      "avatar": "⛄",
+      "wish": "甜的！蜜或桃！最好有好看的装饰！",
+      "tags": [
+        "甜蜜"
+      ],
+      "flavors": [
+        "honey",
+        "peach",
+        "berry"
+      ],
+      "wantTopping": true
     }
   ],
   "dialogues": [
