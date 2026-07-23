@@ -68,3 +68,8 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0068 | completed | content | 三则新秘密配方 | 陶碗野茶 细长星砂 蜜水丝带 | `content(shop): A0068 陶碗野茶等三则新秘密配方` |
 | A0069 | completed | docs | meta 系统清单 | meta.json systems + saveVersion 3 | `docs(meta): A0069 更新 meta 系统清单与存档版本` |
 | A0070 | completed | feat | 背包分类排序 | kindOrder sort in renderBag | `feat(bag): A0070 背包按物品种类排序展示` |
+| A0071 | completed | audio | 环境底噪开关 | WebAudio pad + settings.ambience | `audio(ambience): A0071 可选 WebAudio 环境底噪与设置开关` |
+| A0072 | completed | feat | 季节专属小店提示 | season-tips.json per season | `feat(shop): A0072 季节专属小店提示文案` |
+| A0073 | completed | feat | 连胜招待奖励 | serveStreak >=3 small coin bonus | `feat(shop): A0073 连胜招待小奖励 serveStreak` |
+| A0074 | completed | feat | 盆栽照料提示 | low water/sun/mood hints in plant detail | `feat(garden): A0074 盆栽缺水缺日照心情提示` |
+| A0075 | completed | content | 十五封独特来信 | 15 unique mail letters | `content(mail): A0075 信箱扩充至十五封独特来信` |
