@@ -898,5 +898,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_kumquat",
+    "title": "金桔两颗",
+    "body": "腌金桔的阿姨来信：整颗好吃。给你两颗，别放太久。",
+    "effect": {
+      "items": {
+        "kumquat": 2
+      },
+      "coins": 2
+    }
   }
 ]

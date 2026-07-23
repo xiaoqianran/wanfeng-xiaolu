@@ -1654,6 +1654,18 @@ function renderJournal() {
         ctx.closePath();
         ctx.fill();
       }
+    } else if (themeId === "kumquat_hedge") {
+      // hedge wall + orange fruit dots
+      ctx.fillStyle = "rgba(50,80,40,0.2)";
+      ctx.fillRect(0, h * 0.35, w, h * 0.2);
+      ctx.fillStyle = "rgba(230,140,30,0.55)";
+      for (let i = 0; i < 20; i++) {
+        const x = 20 + (i * 42 + Math.sin(time * 0.02 + i) * 3) % (w - 40);
+        const y = h * 0.4 + ((i * 13) % 30);
+        ctx.beginPath();
+        ctx.arc(x, y, 3, 0, Math.PI * 2);
+        ctx.fill();
+      }
     }
   }
 
@@ -2643,7 +2655,7 @@ function renderJournal() {
     if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel" || flavorDef.id === "cardamom" || flavorDef.id === "ginger" || flavorDef.id === "calendula" || flavorDef.id === "chrysanthemum" || flavorDef.id === "hibiscus" || flavorDef.id === "plum" || flavorDef.id === "grape" || flavorDef.id === "mulberry" || flavorDef.id === "persimmon" || flavorDef.id === "fig" || flavorDef.id === "longan" || flavorDef.id === "hawthorn")) {
       score += 0.5; notes.push("秋日温甜");
     }
-    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum")) {
+    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat")) {
       score += 0.5; notes.push("冬日暖茶");
     }
     if (season === "dusk" && topDef && topDef.id !== "none") { score += 0.25; notes.push("黄昏点缀"); }
