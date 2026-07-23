@@ -1221,6 +1221,29 @@ function renderJournal() {
         ctx.fill();
       }
       ctx.globalAlpha = 1;
+    } else if (themeId === "night_pond") {
+      // dark water sheen + soft firefly dots
+      ctx.fillStyle = "rgba(30,50,70,0.25)";
+      ctx.beginPath();
+      ctx.ellipse(w * 0.5, h * 0.72, w * 0.4, h * 0.12, 0, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.strokeStyle = "rgba(120,160,180,0.2)";
+      for (let i = 0; i < 3; i++) {
+        const y = h * 0.68 + i * 6 + Math.sin(time * 0.04 + i) * 1.5;
+        ctx.beginPath();
+        ctx.ellipse(w * 0.5, y, w * 0.35 - i * 10, 8, 0, 0, Math.PI * 2);
+        ctx.stroke();
+      }
+      ctx.fillStyle = "rgba(255,240,160,0.7)";
+      for (let i = 0; i < 12; i++) {
+        const x = (i * 71 + Math.sin(time * 0.05 + i) * 20) % w;
+        const y = h * 0.25 + ((i * 39) % (h * 0.4));
+        ctx.globalAlpha = 0.3 + 0.5 * Math.abs(Math.sin(time * 0.06 + i));
+        ctx.beginPath();
+        ctx.arc(x, y, 1.4, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
     }
   }
 
@@ -2176,7 +2199,7 @@ function renderJournal() {
     if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || flavorDef.id === "rose_petal" || flavorDef.id === "elderflower" || baseDef.id === "floral_tea")) {
       score += 0.5; notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5; notes.push("夏日清爽");
     }
     if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel" || flavorDef.id === "cardamom" || flavorDef.id === "ginger" || flavorDef.id === "calendula")) {

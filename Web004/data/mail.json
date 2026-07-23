@@ -656,5 +656,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_hibiscus",
+    "title": "洛神干花",
+    "body": "煮洛神的阿婆来信：干花耐放。给你一小把，冷水也行。",
+    "effect": {
+      "items": {
+        "hibiscus": 2
+      },
+      "hearts": 1
+    }
   }
 ]
