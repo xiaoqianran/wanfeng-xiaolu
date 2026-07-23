@@ -100,3 +100,4 @@
 | 93 | completed | feat | UI copy toast string #4 | UI toasts=5 | `feat(ui): R0093 UI copy toast string #4` |
 | 94 | completed | feat | Season palette note #4 | Season palette winter_0094 | `feat(season): R0094 Season palette note #4` |
 | 95 | completed | assets | Asset slot registration #4 | Asset slot assets/walk/slot_0095.png | `assets(manifest): R0095 Asset slot registration #4` |
+| 96 | completed | test | Regression assertion pack #4 | Test pack size=6 | `test(core): R0096 Regression assertion pack #4` |
