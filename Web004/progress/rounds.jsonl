@@ -819,3 +819,4 @@
 {"round":819,"status":"completed","type":"docs","scope":"progress","goal":"Stage milestone summary #40","outcome":"Stage doc stage-17.md","commit":"docs(progress): R0819 Stage milestone summary #40","at":"2026-07-23T19:50:16.760Z"}
 {"round":820,"status":"completed","type":"refactor","scope":"core","goal":"Catalog integrity pass #40","outcome":"Integrity items=81 customers=40","commit":"refactor(core): R0820 Catalog integrity pass #40","at":"2026-07-23T19:50:16.786Z"}
 {"round":821,"status":"completed","type":"feat","scope":"content","goal":"Add collectible item batch #41","outcome":"Item pine_r0821 added","commit":"feat(content): R0821 Add collectible item batch #41","at":"2026-07-23T19:50:16.814Z"}
+{"round":822,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #41","outcome":"Customer 滑板少年·822","commit":"feat(shop): R0822 Add customer persona #41","at":"2026-07-23T19:50:16.861Z"}
