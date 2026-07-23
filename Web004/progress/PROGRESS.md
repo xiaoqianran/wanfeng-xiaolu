@@ -1053,3 +1053,4 @@
 | 1046 | completed | feat | Tune walk ambient note #52 | Walk ambient #51 | `feat(walk): R1046 Tune walk ambient note #52` |
 | 1047 | completed | feat | Add journal template #52 | Journal templates=52 | `feat(album): R1047 Add journal template #52` |
 | 1048 | completed | feat | Add secret recipe stub #52 | Recipes=52 | `feat(shop): R1048 Add secret recipe stub #52` |
+| 1049 | completed | feat | Add achievement definition #52 | Achievements=52 | `feat(meta): R1049 Add achievement definition #52` |
