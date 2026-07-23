@@ -529,3 +529,4 @@
 | 522 | completed | feat | Ship dialogue line into runtime #43 | dialogues=95 | `feat(content): R0522 Ship dialogue line into runtime #43` |
 | 523 | completed | feat | Ship journal template into runtime #43 | journal templates=96 | `feat(album): R0523 Ship journal template into runtime #43` |
 | 524 | completed | feat | Ship secret recipe into runtime #43 | secret recipes=96 | `feat(shop): R0524 Ship secret recipe into runtime #43` |
+| 525 | completed | feat | Ship achievement milestone into runtime #43 | achievements=96 | `feat(meta): R0525 Ship achievement milestone into runtime #43` |
