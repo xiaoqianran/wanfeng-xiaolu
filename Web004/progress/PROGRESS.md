@@ -1013,3 +1013,4 @@
 | 1006 | completed | test | Season achievement and art unit coverage | 19 tests green | `test(core): R1006 season achievement and season-art unit coverage` |
 | 1007 | completed | feat | Add journal template #50 | Journal templates=50 | `feat(album): R1007 Add journal template #50` |
 | 1008 | completed | feat | Add secret recipe stub #50 | Recipes=50 | `feat(shop): R1008 Add secret recipe stub #50` |
+| 1009 | completed | feat | Add achievement definition #50 | Achievements=50 | `feat(meta): R1009 Add achievement definition #50` |
