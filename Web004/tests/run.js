@@ -1640,5 +1640,17 @@ test("new customers and 云台花香罐 recipe ship", () => {
   assert.ok(game.includes("pot.nickname") && game.includes("说了会儿话"));
 });
 
+
+test("thyme plantable and 百里香田园罐", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.thyme && j.plants.thymePot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants });
+  const s = core.defaultState();
+  s.bag.thyme = 1;
+  assert.ok(core.plantSeed(s, 0, "thyme", cat).ok);
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "百里香田园罐"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

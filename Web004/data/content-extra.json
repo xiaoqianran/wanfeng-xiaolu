@@ -2238,6 +2238,13 @@
       "emoji": "⬛",
       "kind": "收藏",
       "seed": null
+    },
+    "thyme": {
+      "id": "thyme",
+      "name": "百里香",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "thymePot"
     }
   },
   "plants": {
@@ -4017,6 +4024,17 @@
       ],
       "harvest": "perilla",
       "days": 2
+    },
+    "thymePot": {
+      "id": "thymePot",
+      "name": "百里香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "thyme",
+      "days": 3
     }
   },
   "cups": [
@@ -4741,6 +4759,16 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "thyme",
+      "name": "百里香",
+      "emoji": "🌿",
+      "need": "thyme",
+      "tags": [
+        "草本",
+        "田园"
       ]
     }
   ],
