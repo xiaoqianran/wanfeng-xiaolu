@@ -2649,5 +2649,25 @@
     "id": "ev_continue_pine",
     "title": "继续走·又见松脊",
     "body": "第二次上脊，云更低，风更熟。"
+  },
+  {
+    "id": "ev_plum",
+    "title": "李子窗台",
+    "body": "李子苗的叶子是圆的。你浇水时放轻了手。"
+  },
+  {
+    "id": "ev_plum_guest",
+    "title": "晒李子的人",
+    "body": "阿姨说李子要酸一点才好吃。你点头。"
+  },
+  {
+    "id": "ev_plum_petal",
+    "title": "李花粉",
+    "body": "花粉沾在袖口，像不肯走的小云。"
+  },
+  {
+    "id": "ev_continue_plum",
+    "title": "继续走·又见李花",
+    "body": "第二次走短径，花更稀，香更淡。"
   }
 ]
