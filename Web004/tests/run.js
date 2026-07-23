@@ -2541,5 +2541,37 @@ test("fig plantable fig_terrace 46 themes", () => {
   assert.ok(man.includes("无花果台"));
 });
 
+
+test("setFavoritePlant pomegranate_court 47 themes", () => {
+  const s = core.defaultState();
+  core.addItem(s, "mint", 1);
+  assert.ok(core.plantSeed(s, 0, "mint").ok);
+  const r = core.setFavoritePlant(s, s.pots[0].plantId);
+  assert.ok(r.ok);
+  assert.strictEqual(s.favoritePlantId, s.pots[0].plantId);
+  const t = core.tend(s, 0, "talk");
+  assert.ok(t.ok);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "plant_fav"));
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("btn-fav-plant"));
+
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.pomegranate && j.plants.pomegranatePot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s2 = core.defaultState();
+  s2.bag.pomegranate = 1;
+  assert.ok(core.plantSeed(s2, 0, "pomegranate", cat).ok);
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "pomegranate_court"));
+  assert.ok(themes.length >= 47);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("pomegranate_court") && game.includes("setFavoritePlant"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "石榴汽泡"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("石榴小院") && man.includes("最想照料"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
