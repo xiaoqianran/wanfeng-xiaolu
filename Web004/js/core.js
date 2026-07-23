@@ -538,6 +538,15 @@
     { id: "recipe_pinner", name: "配方钉选", desc: "钉住一份秘密配方", check: function (s) {
       return !!(s.pinnedRecipeId);
     } },
+    { id: "marjoram_sill", name: "马郁兰窗台", desc: "发现马郁兰", check: function (s) {
+      return !!(s.discovered && s.discovered.marjoram);
+    } },
+    { id: "cliff_walker", name: "崖边旅人", desc: "走过崖边慢径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.cliff_path);
+    } },
+    { id: "companion_gardener", name: "邻盆园丁", desc: "在邻盆作伴时照料 5 次", check: function (s) {
+      return (s.stats && s.stats.companionTends || 0) >= 5;
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
     { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },
@@ -936,11 +945,24 @@
       pot.mood = Math.min(100, pot.mood + 3);
       seasonNote = "暮色静养";
     }
+    // Soft companion sill: two+ planted pots feel a little less lonely
+    var planted = 0;
+    for (var pi = 0; pi < (state.pots || []).length; pi++) {
+      if (state.pots[pi] && state.pots[pi].plantId) planted += 1;
+    }
+    var companion = false;
+    if (planted >= 2) {
+      pot.mood = Math.min(100, pot.mood + 3);
+      companion = true;
+      if (!seasonNote) seasonNote = "邻盆作伴";
+      if (!state.stats) state.stats = {};
+      state.stats.companionTends = (state.stats.companionTends || 0) + 1;
+    }
     pot.water = Math.max(0, pot.water - 6);
     pot.sun = Math.max(0, pot.sun - 5);
     pot.mood = Math.max(0, pot.mood - 4);
     pot.tendedAt = Date.now();
-    return { ok: true, growth: pot.growth, seasonNote: seasonNote };
+    return { ok: true, growth: pot.growth, seasonNote: seasonNote, companion: companion };
   }
 
   function settleOfflineGrowth(state, now, plants) {
@@ -1029,7 +1051,7 @@
       score += 0.5;
       notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5;
       notes.push("夏日清爽");
     }

@@ -2357,6 +2357,13 @@
       "emoji": "🌹",
       "kind": "风味",
       "seed": "rosePot"
+    },
+    "marjoram": {
+      "id": "marjoram",
+      "name": "马郁兰",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "marjoramPot"
     }
   },
   "plants": {
@@ -4279,6 +4286,17 @@
       ],
       "harvest": "rose_petal",
       "days": 3
+    },
+    "marjoramPot": {
+      "id": "marjoramPot",
+      "name": "马郁兰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "marjoram",
+      "days": 2
     }
   },
   "cups": [
@@ -5132,6 +5150,16 @@
       "need": "rose_petal",
       "tags": [
         "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "marjoram",
+      "name": "马郁兰",
+      "emoji": "🌿",
+      "need": "marjoram",
+      "tags": [
+        "草本",
         "温柔"
       ]
     }
@@ -6376,6 +6404,21 @@
         "lilac",
         "violet",
         "jasmine"
+      ]
+    },
+    {
+      "name": "做披萨的厨子",
+      "avatar": "🍕",
+      "wish": "马郁兰或罗勒，草本一点，装饰随意。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "marjoram",
+        "basil",
+        "thyme",
+        "mint"
       ]
     }
   ],
