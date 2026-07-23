@@ -301,3 +301,4 @@
 {"round":301,"status":"completed","type":"feat","scope":"content","goal":"Add collectible item batch #15","outcome":"Item lavender_r0301 added","commit":"feat(content): R0301 Add collectible item batch #15","at":"2026-07-23T19:49:52.703Z"}
 {"round":302,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #15","outcome":"Customer 织围巾的阿姨·302","commit":"feat(shop): R0302 Add customer persona #15","at":"2026-07-23T19:49:52.725Z"}
 {"round":303,"status":"completed","type":"feat","scope":"content","goal":"Add dialogue line #15","outcome":"Dialogue count=15","commit":"feat(content): R0303 Add dialogue line #15","at":"2026-07-23T19:49:52.749Z"}
+{"round":304,"status":"completed","type":"feat","scope":"garden","goal":"Add garden care whisper #15","outcome":"Garden msg #16","commit":"feat(garden): R0304 Add garden care whisper #15","at":"2026-07-23T19:49:52.769Z"}
