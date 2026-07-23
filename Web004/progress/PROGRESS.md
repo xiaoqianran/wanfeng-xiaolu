@@ -128,3 +128,4 @@
 | 121 | completed | feat | Add collectible item batch #6 | Item lavender_r0121 added | `feat(content): R0121 Add collectible item batch #6` |
 | 122 | completed | feat | Add customer persona #6 | Customer 织围巾的阿姨·122 | `feat(shop): R0122 Add customer persona #6` |
 | 123 | completed | feat | Add dialogue line #6 | Dialogue count=6 | `feat(content): R0123 Add dialogue line #6` |
+| 124 | completed | feat | Add garden care whisper #6 | Garden msg #7 | `feat(garden): R0124 Add garden care whisper #6` |
