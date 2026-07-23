@@ -380,3 +380,4 @@
 | 373 | completed | feat | UI copy toast string #18 | UI toasts=19 | `feat(ui): R0373 UI copy toast string #18` |
 | 374 | completed | feat | Season palette note #18 | Season palette winter_0374 | `feat(season): R0374 Season palette note #18` |
 | 375 | completed | assets | Asset slot registration #18 | Asset slot assets/walk/slot_0375.png | `assets(manifest): R0375 Asset slot registration #18` |
+| 376 | completed | test | Regression assertion pack #18 | Test pack size=20 | `test(core): R0376 Regression assertion pack #18` |
