@@ -285,3 +285,4 @@
 | 278 | completed | feat | Ship customer persona into runtime #23 | Runtime customer 烘焙店员·278 | `feat(shop): R0278 Ship customer persona into runtime #23` |
 | 279 | completed | feat | Ship walk ambient + pathWidth into runtime #23 | walk pathWidth=3279 ambient=75 | `feat(walk): R0279 Ship walk ambient + pathWidth into runtime #23` |
 | 280 | completed | feat | Ship garden care whisper into runtime #23 | garden messages=76 careBonus=1.05 | `feat(garden): R0280 Ship garden care whisper into runtime #23` |
+| 281 | completed | feat | Ship shop tip + perfectBonus into runtime #23 | shop tips=76 perfectBonus=4 | `feat(shop): R0281 Ship shop tip + perfectBonus into runtime #23` |
