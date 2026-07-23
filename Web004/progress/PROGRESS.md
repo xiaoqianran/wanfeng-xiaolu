@@ -83,3 +83,4 @@
 | 76 | completed | test | Regression assertion pack #3 | Test pack size=5 | `test(core): R0076 Regression assertion pack #3` |
 | 77 | completed | feat | Path theme fragment #3 | Path themes=8 | `feat(walk): R0077 Path theme fragment #3` |
 | 78 | completed | feat | Topping or cup option #3 | Topping top_r0078 | `feat(content): R0078 Topping or cup option #3` |
+| 79 | completed | docs | Stage milestone summary #3 | Stage doc stage-02.md | `docs(progress): R0079 Stage milestone summary #3` |
