@@ -7,3 +7,4 @@
 {"round":7,"status":"completed","type":"feat","scope":"walk","goal":"Externalize walk spawn config","outcome":"Walk pathWidth=3207","commit":"feat(walk): R0007 Externalize walk spawn config","at":"2026-07-23T19:49:23.537Z"}
 {"round":8,"status":"completed","type":"feat","scope":"garden","goal":"Externalize garden care messages","outcome":"Garden messages=1","commit":"feat(garden): R0008 Externalize garden care messages","at":"2026-07-23T19:49:23.596Z"}
 {"round":9,"status":"completed","type":"feat","scope":"shop","goal":"Externalize shop tip messages","outcome":"Shop tips=1","commit":"feat(shop): R0009 Externalize shop tip messages","at":"2026-07-23T19:49:23.655Z"}
+{"round":10,"status":"completed","type":"style","scope":"ui","goal":"Add expansions.css hook for progressive polish","outcome":"CSS expansion hook appended","commit":"style(ui): R0010 Add expansions.css hook for progressive polish","at":"2026-07-23T19:49:23.730Z"}
