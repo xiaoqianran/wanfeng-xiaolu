@@ -913,3 +913,4 @@
 | 906 | completed | feat | Tune walk ambient note #45 | Walk ambient #45 | `feat(walk): R0906 Tune walk ambient note #45` |
 | 907 | completed | feat | Add journal template #45 | Journal templates=45 | `feat(album): R0907 Add journal template #45` |
 | 908 | completed | feat | Add secret recipe stub #45 | Recipes=45 | `feat(shop): R0908 Add secret recipe stub #45` |
+| 909 | completed | feat | Add achievement definition #45 | Achievements=45 | `feat(meta): R0909 Add achievement definition #45` |
