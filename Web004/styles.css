@@ -929,6 +929,11 @@ body.reduce-motion *::after {
 .album-card .emoji { font-size: 2rem; }
 .album-card .name { font-weight: 500; font-size: 0.95rem; }
 .album-card .meta { font-size: 0.78rem; color: var(--muted); }
+.album-card.memory-summary {
+  grid-column: 1 / -1;
+  background: linear-gradient(135deg, rgba(180, 200, 160, 0.18), rgba(200, 180, 160, 0.12));
+  border-style: dashed;
+}
 
 /* ===== Footer & Toast ===== */
 .footer {

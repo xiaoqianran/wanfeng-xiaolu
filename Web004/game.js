@@ -998,6 +998,30 @@ function renderJournal() {
         ctx.quadraticCurveTo(w * 0.5, y + i * 4 + 3, w, y + i * 4);
         ctx.stroke();
       }
+    } else if (themeId === "moss_steps") {
+      // soft stepped terraces + moss glints
+      ctx.fillStyle = "rgba(70,100,70,0.12)";
+      for (let i = 0; i < 5; i++) {
+        const y = h * 0.48 + i * (h * 0.07);
+        const inset = i * 18;
+        ctx.beginPath();
+        ctx.moveTo(inset, y);
+        ctx.lineTo(w - inset, y);
+        ctx.lineTo(w - inset - 10, y + h * 0.055);
+        ctx.lineTo(inset + 10, y + h * 0.055);
+        ctx.closePath();
+        ctx.fill();
+      }
+      ctx.fillStyle = "rgba(120,180,100,0.35)";
+      for (let i = 0; i < 18; i++) {
+        const x = (i * 53 + Math.sin(time * 0.02 + i) * 4) % w;
+        const y = h * 0.52 + ((i * 29) % (h * 0.35));
+        ctx.globalAlpha = 0.25 + 0.35 * Math.abs(Math.sin(time * 0.03 + i));
+        ctx.beginPath();
+        ctx.ellipse(x, y, 3.5, 2, 0, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
     }
   }
 
@@ -2211,6 +2235,54 @@ function renderJournal() {
         card.innerHTML = made
           ? `<div class="emoji">📜</div><div class="name">${r.name || "秘密汽水"}</div><div class="meta">${r.cup}/${r.base}/${r.flavor}${r.topping && r.topping !== "none" ? "/" + r.topping : ""} · 已解锁</div>`
           : `<div class="emoji">❔</div><div class="name">未发现的配方</div><div class="meta">提示：试试 ${r.flavor || "?"} 风味</div>`;
+        grid.appendChild(card);
+      });
+      return;
+    }
+
+    if (tab === "memories") {
+      const st = state.stats || {};
+      const summary = document.createElement("div");
+      summary.className = "album-card memory-summary";
+      summary.innerHTML = `
+        <div class="emoji">📖</div>
+        <div class="name">小路回忆</div>
+        <div class="meta">窗台速写 ${st.potSnaps || 0} · 熟土收获 ${st.memoryHarvests || 0} · 花盆便签 ${st.potNotes || 0} · 长椅 ${st.benchSits || 0}</div>
+      `;
+      grid.appendChild(summary);
+      const snaps = (state.potSnaps || []).slice().reverse();
+      if (!snaps.length) {
+        const empty = document.createElement("div");
+        empty.className = "album-card";
+        empty.innerHTML =
+          '<div class="emoji">📷</div><div class="name">还没有速写</div><div class="meta">在窗台点「窗台速写」，把盆栽记下来</div>';
+        grid.appendChild(empty);
+      } else {
+        snaps.forEach((c) => {
+          const card = document.createElement("div");
+          card.className = "album-card done";
+          const day = c.day != null ? "第" + c.day + "天" : "";
+          const season = c.season || "";
+          const note = c.note ? " · 「" + c.note + "」" : "";
+          card.innerHTML = `
+            <div class="emoji">${c.emoji || "🪴"}</div>
+            <div class="name">${c.name || "窗台"}</div>
+            <div class="meta">${day}${season ? " · " + season : ""} · 心情 ${c.mood != null ? c.mood : "?"}${note}</div>
+          `;
+          grid.appendChild(card);
+        });
+      }
+      // pot harvest memory from current sill
+      (state.pots || []).forEach((pot, i) => {
+        if (!pot.plantId || !(pot.harvestCount > 0)) return;
+        const def = PLANTS[pot.plantId] || {};
+        const card = document.createElement("div");
+        card.className = "album-card" + (pot.harvestCount >= 3 ? " done" : "");
+        card.innerHTML = `
+          <div class="emoji">${(def.emoji && def.emoji[2]) || "🪴"}</div>
+          <div class="name">${pot.nickname || def.name || "花盆"} · 熟土</div>
+          <div class="meta">花盆 #${i + 1} · 收获 ${pot.harvestCount} 次${pot.harvestCount >= 3 ? " · 记忆加成中" : ""}</div>
+        `;
         grid.appendChild(card);
       });
       return;
