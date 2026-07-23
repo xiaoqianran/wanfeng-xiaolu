@@ -807,3 +807,4 @@
 | 800 | completed | refactor | Catalog integrity pass #39 | Integrity items=79 customers=39 | `refactor(core): R0800 Catalog integrity pass #39` |
 | 801 | completed | feat | Add collectible item batch #40 | Item cocoa_r0801 added | `feat(content): R0801 Add collectible item batch #40` |
 | 802 | completed | feat | Add customer persona #40 | Customer 夜跑爱好者·802 | `feat(shop): R0802 Add customer persona #40` |
+| 803 | completed | feat | Add dialogue line #40 | Dialogue count=40 | `feat(content): R0803 Add dialogue line #40` |
