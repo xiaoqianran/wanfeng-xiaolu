@@ -97,7 +97,8 @@
     "assets/shop/live_0972.jpg",
     "assets/ui/live_0984.jpg",
     "assets/garden/live_0996.jpg",
-    "assets/album/live_1008.jpg"
+    "assets/album/live_1008.jpg",
+    "assets/walk/live_1020.jpg"
   ],
   "stages": {
     "home": [
@@ -201,6 +202,12 @@
         "path": "assets/walk/live_0960.jpg",
         "status": "live",
         "source": "assets/items/collectibles-sheet.jpg"
+      },
+      {
+        "round": 1020,
+        "path": "assets/walk/live_1020.jpg",
+        "status": "live",
+        "source": "assets/shop/night-window.jpg"
       }
     ],
     "garden": [
