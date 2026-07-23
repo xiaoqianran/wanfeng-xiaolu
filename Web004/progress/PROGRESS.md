@@ -493,3 +493,4 @@
 | 486 | completed | feat | Tune walk ambient note #24 | Walk ambient #24 | `feat(walk): R0486 Tune walk ambient note #24` |
 | 487 | completed | feat | Add journal template #24 | Journal templates=24 | `feat(album): R0487 Add journal template #24` |
 | 488 | completed | feat | Add secret recipe stub #24 | Recipes=24 | `feat(shop): R0488 Add secret recipe stub #24` |
+| 489 | completed | feat | Add achievement definition #24 | Achievements=24 | `feat(meta): R0489 Add achievement definition #24` |
