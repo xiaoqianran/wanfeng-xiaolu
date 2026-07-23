@@ -700,3 +700,4 @@
 | 693 | completed | feat | UI copy toast string #34 | UI toasts=35 | `feat(ui): R0693 UI copy toast string #34` |
 | 694 | completed | feat | Season palette note #34 | Season palette winter_0694 | `feat(season): R0694 Season palette note #34` |
 | 695 | completed | assets | Asset slot registration #34 | Asset slot assets/walk/slot_0695.png | `assets(manifest): R0695 Asset slot registration #34` |
+| 696 | completed | test | Regression assertion pack #34 | Test pack size=36 | `test(core): R0696 Regression assertion pack #34` |
