@@ -158,9 +158,11 @@
     const sound = document.getElementById("set-sound");
     const motion = document.getElementById("set-motion");
     const tips = document.getElementById("set-tips");
+    const weather = document.getElementById("set-weather");
     if (sound) sound.checked = st.sound !== false;
     if (motion) motion.checked = !!st.reduceMotion;
     if (tips) tips.checked = st.showTips !== false;
+    if (weather) weather.checked = st.weatherFx !== false;
   }
 
   function refreshDailyUI() {
@@ -673,7 +675,10 @@
     });
     ctx.fillStyle = sky;
     ctx.fillRect(0, 0, w, h);
-    drawWeather(ctx, w, h, world.themeId, world.time);
+    const stFx = Core.getSettings(state);
+    if (stFx.weatherFx !== false && !stFx.reduceMotion) {
+      drawWeather(ctx, w, h, world.themeId, world.time);
+    }
 
     // 太阳
     const sunX = w * 0.78;
@@ -1497,6 +1502,7 @@
     const sound = document.getElementById("set-sound");
     const motion = document.getElementById("set-motion");
     const tips = document.getElementById("set-tips");
+    const weather = document.getElementById("set-weather");
     const bind = (el, key) => {
       if (!el) return;
       el.addEventListener("change", () => {
@@ -1504,6 +1510,7 @@
         if (key === "sound") patch.sound = !!el.checked;
         if (key === "reduceMotion") patch.reduceMotion = !!el.checked;
         if (key === "showTips") patch.showTips = !!el.checked;
+        if (key === "weatherFx") patch.weatherFx = !!el.checked;
         Core.updateSettings(state, patch);
         applySettingsToDom();
         save();
@@ -1515,6 +1522,7 @@
     bind(sound, "sound");
     bind(motion, "reduceMotion");
     bind(tips, "showTips");
+    bind(weather, "weatherFx");
 
     const newDayBtn = document.getElementById("btn-soft-newday");
     if (newDayBtn) {

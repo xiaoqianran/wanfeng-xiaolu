@@ -1,17 +1,13 @@
-# Current task A0035
+# A0048
 
 ## Goal
-In-game help screen summarizing controls + link content to USER_MANUAL; polish manual.
+设置中增加「主题天气特效」开关，控制 drawWeather 显示；写入 settings 与 reduceMotion 联动。
 
 ## Files
-- Web004/index.html (help screen)
-- Web004/game.js (render if needed)
-- Web004/styles.css
-- docs/USER_MANUAL.md
+- Web004/js/core.js (settings default)
+- Web004/game.js (drawWeather gate + settings UI wire)
+- Web004/index.html (checkbox)
 - Web004/tests/run.js
 
 ## Test
 cd Web004 && node tests/run.js && node tools/quality-gate.js
-
-## Rollback
-git revert

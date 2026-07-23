@@ -618,5 +618,24 @@ test("softNewDay refreshes daily and keeps bag", () => {
   assert.ok(s.daily && s.daily.goalIds.length === 3);
 });
 
+test("weatherFx setting defaults true and can disable", () => {
+  const s = core.defaultState();
+  assert.strictEqual(core.getSettings(s).weatherFx, true);
+  core.updateSettings(s, { weatherFx: false });
+  assert.strictEqual(core.getSettings(s).weatherFx, false);
+  const raw = core.exportSave(s);
+  const back = core.importSave(raw);
+  assert.ok(back.ok);
+  assert.strictEqual(back.state.settings.weatherFx, false);
+});
+
+test("settings markup includes weather toggle", () => {
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes('id="set-weather"'));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("weatherFx"));
+  assert.ok(game.includes("stFx.weatherFx"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

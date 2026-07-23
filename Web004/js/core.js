@@ -109,6 +109,7 @@
         reduceMotion: false,
         showTips: true,
         tutorialDone: false,
+        weatherFx: true,
       },
       pathThemeId: "maple_lane",
       _seasonsTouched: { dusk: true },
@@ -174,6 +175,7 @@
       reduceMotion: false,
       showTips: true,
       tutorialDone: false,
+      weatherFx: true,
     };
     return state.settings;
   }
@@ -651,6 +653,7 @@
     if (v < 3) {
       data.potSlots = data.potSlots || (data.pots && data.pots.length) || 4;
       data.pathThemeId = data.pathThemeId || "maple_lane";
+      if (data.settings && data.settings.weatherFx === undefined) data.settings.weatherFx = true;
       data.daily = data.daily || null;
     }
     data.version = VERSION;
