@@ -662,3 +662,4 @@
 | 655 | completed | assets | Asset slot registration #32 | Asset slot assets/walk/slot_0655.png | `assets(manifest): R0655 Asset slot registration #32` |
 | 656 | completed | test | Regression assertion pack #32 | Test pack size=34 | `test(core): R0656 Regression assertion pack #32` |
 | 657 | completed | feat | Path theme fragment #32 | Path themes=37 | `feat(walk): R0657 Path theme fragment #32` |
+| 658 | completed | feat | Topping or cup option #32 | Topping top_r0658 | `feat(content): R0658 Topping or cup option #32` |
