@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 134,
+  "current_round": 138,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 128,
-  "authentic_game_integrated_rounds": 109,
+  "authentic_rounds_completed": 132,
+  "authentic_game_integrated_rounds": 112,
   "template_spam_archived": true,
   "current_milestone": "authentic rebuild A012x",
-  "current_task_id": "A0136-next",
-  "last_completed_task_id": "A0135",
-  "last_commit": "37d70b4",
+  "current_task_id": "A0140-next",
+  "last_completed_task_id": "A0139",
+  "last_commit": "c77b930",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "102 passed, 0 failed",
+  "last_test_summary": "103 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~872) multi-session"
+    "gap to 1000 authentic (~868) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -29,11 +29,11 @@
     "spam engine disabled"
   ],
   "next_candidate_tasks": [
-    "walk collect sound polish",
-    "plant mood emoji stage",
-    "shop quiet tips bank",
-    "more unique mail"
+    "more unique evening to 120",
+    "plant emoji mood face",
+    "shop favorite pin",
+    "path collectible sparkle"
   ],
-  "resume_instructions": "Continue A0136+. Spam DISABLED. Gap ~872.",
-  "updated_at": "2026-07-23T21:46:36.181254+00:00"
+  "resume_instructions": "Continue A0140+. authentic-rounds.jsonl SoT. Spam DISABLED. Gap ~868. Three pillars.",
+  "updated_at": "2026-07-23T21:47:37.284651+00:00"
 }

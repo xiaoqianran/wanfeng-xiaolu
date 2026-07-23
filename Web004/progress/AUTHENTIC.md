@@ -132,3 +132,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0133 | completed | content | 新客人与雾桥配方 | 27 customers; 雾桥薄荷罐 | `feat(walk): A0132 雾桥轻步主题与三位新客人` |
 | A0134 | completed | content | 事件至99则 | 99 unique evening events | `feat(walk): A0132 雾桥轻步主题与三位新客人` |
 | A0135 | completed | test | 雾桥回归 | 102 tests pass | `feat(walk): A0132 雾桥轻步主题与三位新客人` |
+| A0136 | completed | feat | 汽水按次数排序 | drinksMade sorted desc in album | `feat(shop): A0136 汽水图鉴按次数排序与水壶浇灌文案` |
+| A0137 | completed | content | 水壶浇灌文案 | canLines 4 unique lines | `feat(shop): A0136 汽水图鉴按次数排序与水壶浇灌文案` |
+| A0138 | completed | content | 信箱配方对话扩充 | mail 33; recipes 24; walk ambient 22 | `feat(shop): A0136 汽水图鉴按次数排序与水壶浇灌文案` |
+| A0139 | completed | test | canLines回归 | 103 tests pass | `feat(shop): A0136 汽水图鉴按次数排序与水壶浇灌文案` |
