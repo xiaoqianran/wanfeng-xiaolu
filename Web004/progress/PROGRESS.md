@@ -414,3 +414,4 @@
 | 407 | completed | feat | Ship plantable seed linkage into runtime #33 | plant link plant_orange_0407 harvest=seed_orange_0407 | `feat(content): R0407 Ship plantable seed linkage into runtime #33` |
 | 408 | completed | assets | Wire real stage art reference into runtime manifest #33 | live art assets/album/live_0408.jpg from assets/album/journal-open.jpg (≥1KB) | `assets(ui): R0408 Wire real stage art reference into runtime manifest #33` |
 | 409 | completed | feat | Ship collectible + runtime catalog item #34 | Runtime item grape_r0409 | `feat(content): R0409 Ship collectible + runtime catalog item #34` |
+| 410 | completed | feat | Ship customer persona into runtime #34 | Runtime customer 图书馆员·410 | `feat(shop): R0410 Ship customer persona into runtime #34` |
