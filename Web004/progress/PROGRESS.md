@@ -477,3 +477,4 @@
 | 470 | completed | style | CSS micro polish token #23 | CSS token hue=70 | `style(ui): R0470 CSS micro polish token #23` |
 | 471 | completed | feat | Add plantable linkage #23 | Plant link plant_cocoa_0471 | `feat(content): R0471 Add plantable linkage #23` |
 | 472 | completed | feat | Add flavor or base option #23 | Flavor fl_matcha_0472 | `feat(shop): R0472 Add flavor or base option #23` |
+| 473 | completed | feat | UI copy toast string #23 | UI toasts=24 | `feat(ui): R0473 UI copy toast string #23` |
