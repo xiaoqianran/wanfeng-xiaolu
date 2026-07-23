@@ -856,3 +856,4 @@
 | 849 | completed | feat | Add achievement definition #42 | Achievements=42 | `feat(meta): R0849 Add achievement definition #42` |
 | 850 | completed | style | CSS micro polish token #42 | CSS token hue=50 | `style(ui): R0850 CSS micro polish token #42` |
 | 851 | completed | feat | Add plantable linkage #42 | Plant link plant_pine_0851 | `feat(content): R0851 Add plantable linkage #42` |
+| 852 | completed | feat | Add flavor or base option #42 | Flavor fl_shell_0852 | `feat(shop): R0852 Add flavor or base option #42` |
