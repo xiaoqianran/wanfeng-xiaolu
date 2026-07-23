@@ -550,5 +550,25 @@
       },
       "coins": 3
     }
+  },
+  {
+    "id": "mail_violet",
+    "title": "一束紫",
+    "body": "采紫花的女孩来信：把花晒干也能入汽水。附上两朵，别急着用完。",
+    "effect": {
+      "items": {
+        "violet": 2
+      },
+      "hearts": 1
+    }
+  },
+  {
+    "id": "mail_lotus",
+    "title": "塘边字条",
+    "body": "观荷的老人来信：浅步就好，荷叶会记住脚步轻的人。",
+    "effect": {
+      "coins": 3,
+      "hearts": 1
+    }
   }
 ]

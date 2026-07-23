@@ -1045,6 +1045,28 @@ function renderJournal() {
         ctx.fillRect(-4, -2.5, 8, 5);
         ctx.restore();
       }
+    } else if (themeId === "lotus_pond") {
+      // soft lily pads + water rings
+      ctx.fillStyle = "rgba(60,120,90,0.28)";
+      for (let i = 0; i < 8; i++) {
+        const x = 40 + i * (w / 8) + Math.sin(time * 0.02 + i) * 6;
+        const y = h * 0.62 + (i % 2) * 18;
+        ctx.beginPath();
+        ctx.ellipse(x, y, 16, 8, 0, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.strokeStyle = "rgba(180,220,230,0.25)";
+      ctx.lineWidth = 1.5;
+      for (let i = 0; i < 4; i++) {
+        const x = w * (0.25 + i * 0.18);
+        const y = h * 0.7;
+        const r = 8 + (time * 0.4 + i * 12) % 28;
+        ctx.globalAlpha = 0.35 * (1 - r / 40);
+        ctx.beginPath();
+        ctx.ellipse(x, y, r * 1.6, r * 0.55, 0, 0, Math.PI * 2);
+        ctx.stroke();
+      }
+      ctx.globalAlpha = 1;
     }
   }
 
