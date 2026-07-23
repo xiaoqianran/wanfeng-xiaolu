@@ -646,6 +646,15 @@
     { id: "fig_walker", name: "果台旅人", desc: "走过无花果台", check: function (s) {
       return !!(s._themesTouched && s._themesTouched.fig_terrace);
     } },
+    { id: "pom_sill", name: "石榴窗台", desc: "发现石榴籽", check: function (s) {
+      return !!(s.discovered && s.discovered.pomegranate);
+    } },
+    { id: "pom_walker", name: "石榴院旅人", desc: "走过石榴小院", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.pomegranate_court);
+    } },
+    { id: "plant_fav", name: "最想照料", desc: "标记一盆最想照料的植物", check: function (s) {
+      return !!(s.favoritePlantId);
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
     { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },
@@ -1071,6 +1080,11 @@
       if (!state.stats) state.stats = {};
       state.stats.varietyTends = (state.stats.varietyTends || 0) + 1;
     }
+    // Soft favorite plant: tending marked plant feels a little warmer
+    if (state.favoritePlantId && pot.plantId === state.favoritePlantId) {
+      pot.mood = Math.min(100, pot.mood + 2);
+      if (!seasonNote) seasonNote = "最想照料";
+    }
     pot.water = Math.max(0, pot.water - 6);
     pot.sun = Math.max(0, pot.sun - 5);
     pot.mood = Math.max(0, pot.mood - 4);
@@ -1164,7 +1178,7 @@
       score += 0.5;
       notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5;
       notes.push("夏日清爽");
     }
@@ -1329,6 +1343,17 @@
     state.pinnedBagItem = itemId;
     appendJournal(state, "把「" + itemId + "」钉在竹篮最上面。");
     return { ok: true, itemId: itemId };
+  }
+
+  /** Soft favorite plant id for sill preference (still-life, no combat) */
+  function setFavoritePlant(state, plantId) {
+    plantId = String(plantId || "").trim();
+    if (!plantId) return { ok: false, reason: "empty" };
+    state.favoritePlantId = plantId;
+    if (!state.stats) state.stats = {};
+    state.stats.plantFavs = (state.stats.plantFavs || 0) + 1;
+    appendJournal(state, "把「" + plantId + "」记成窗台最想照料的那盆。");
+    return { ok: true, plantId: plantId };
   }
 
   /** Soft end-of-day shop close: journal a calm summary (no fail state) */
@@ -1657,6 +1682,7 @@ function recallGuestCraft(state, guestName) {
     pinRecipe: pinRecipe,
     getPinnedRecipe: getPinnedRecipe,
     closeShopDay: closeShopDay,
+    setFavoritePlant: setFavoritePlant,
     claimFirstWalkBonus: claimFirstWalkBonus,
     upgradeWateringCan: upgradeWateringCan,
     checkPathMilestones: checkPathMilestones,

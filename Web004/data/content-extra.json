@@ -2476,6 +2476,13 @@
       "emoji": "🫒",
       "kind": "风味",
       "seed": "figPot"
+    },
+    "pomegranate": {
+      "id": "pomegranate",
+      "name": "石榴籽",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "pomegranatePot"
     }
   },
   "plants": {
@@ -4563,6 +4570,17 @@
       ],
       "harvest": "fig",
       "days": 3
+    },
+    "pomegranatePot": {
+      "id": "pomegranatePot",
+      "name": "石榴",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "pomegranate",
+      "days": 3
     }
   },
   "cups": [
@@ -5567,6 +5585,16 @@
       "tags": [
         "甜蜜",
         "果香"
+      ]
+    },
+    {
+      "id": "pomegranate",
+      "name": "石榴",
+      "emoji": "🔴",
+      "need": "pomegranate",
+      "tags": [
+        "果香",
+        "清爽"
       ]
     }
   ],
@@ -7040,6 +7068,22 @@
         "peach",
         "persimmon"
       ]
+    },
+    {
+      "name": "剥石榴的女孩",
+      "avatar": "🔴",
+      "wish": "石榴或蜜，清爽酸甜，装饰要亮。",
+      "tags": [
+        "清爽",
+        "果香"
+      ],
+      "flavors": [
+        "pomegranate",
+        "honey",
+        "berry",
+        "hibiscus"
+      ],
+      "wantTopping": true
     }
   ],
   "dialogues": [
