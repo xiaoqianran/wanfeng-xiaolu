@@ -101,3 +101,10 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0101 | completed | content | 配方事件季节提示 | 巷尾迷迭 花市蜜语; 82 events; season tips | `content(world): A0101 巷尾配方晚间事件与季节提示` |
 | A0103 | completed | chore | 同步运行时 | game-data sync flower_alley recipes mail events | `chore(data): A0103 同步运行时 game-data 与 sync-status` |
 | A0104 | completed | test | 回归测试 | 90 tests pass season affinity rosemary flower_alley | `test(core): A0104 季节熟悉度迷迭香与花市主题回归` |
+| A0105 | completed | feat | 花盆便签 | setPotNote + pot_scribe achievement + UI | `feat(garden): A0105 花盆便签与小路长椅歇脚` |
+| A0106 | completed | feat | 长椅歇脚 | sitBench every 3rd sit +heart; bench_sitter | `feat(garden): A0105 花盆便签与小路长椅歇脚` |
+| A0107 | completed | content | 新客人与桂花 | 20 customers; osmanthus; bamboo/paper cups | `content(shop): A0106 五位新客人与桂花橙皮竹节杯` |
+| A0108 | completed | feat | 旧书庭院主题 | book_yard 10th theme + paper FX | `feat(walk): A0107 旧书庭院主题与桂花配方手帐` |
+| A0109 | completed | content | 桂花配方 | 桂花竹节晚风 橙皮迷迭气泡 | `feat(walk): A0107 旧书庭院主题与桂花配方手帐` |
+| A0110 | completed | feat | 足迹熟悉客人榜 | top affinity + bench/note counts in stats | `feat(garden): A0105 花盆便签与小路长椅歇脚` |
+| A0111 | completed | test | 便签庭院回归 | 93 tests pass | `test(core): A0108 便签长椅桂花庭院回归测试` |
