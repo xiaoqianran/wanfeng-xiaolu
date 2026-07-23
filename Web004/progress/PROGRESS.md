@@ -690,3 +690,4 @@
 | 683 | completed | feat | Ship plantable seed linkage into runtime #56 | plant link plant_rose_0683 harvest=seed_rose_0683 | `feat(content): R0683 Ship plantable seed linkage into runtime #56` |
 | 684 | completed | assets | Wire real stage art reference into runtime manifest #56 | live art assets/ui/live_0684.jpg from assets/scenes/walk-path.jpg (≥1KB) | `assets(ui): R0684 Wire real stage art reference into runtime manifest #56` |
 | 685 | completed | feat | Ship collectible + runtime catalog item #57 | Runtime item coconut_r0685 | `feat(content): R0685 Ship collectible + runtime catalog item #57` |
+| 686 | completed | feat | Ship customer persona into runtime #57 | Runtime customer 采风记者·686 | `feat(shop): R0686 Ship customer persona into runtime #57` |
