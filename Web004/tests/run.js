@@ -2054,5 +2054,41 @@ test("swapPots rearranges sill and calendula wind_chime ship", () => {
   assert.ok(man.includes("风铃廊") && man.includes("对调"));
 });
 
+
+test("morning dew after long offline and lemon_balm tea_terrace", () => {
+  const s = core.defaultState();
+  core.addItem(s, "mint", 1);
+  assert.ok(core.plantSeed(s, 0, "mint").ok);
+  const waterBefore = s.pots[0].water;
+  const moodBefore = s.pots[0].mood;
+  s.pots[0].tendedAt = Date.now() - 7 * 3600000;
+  const r = core.settleOfflineGrowth(s, Date.now());
+  assert.ok(r && r.dewCount >= 1);
+  assert.ok((s.stats.morningDews || 0) >= 1);
+  // dew partially restores after decay
+  assert.ok(s.pots[0].water > 0 && s.pots[0].mood > 0);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "dew_keeper"));
+
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.lemon_balm && j.plants.lemonBalmPot);
+  assert.ok((j.flavors || []).some((f) => f.id === "lemon_balm"));
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s2 = core.defaultState();
+  s2.bag.lemon_balm = 1;
+  assert.ok(core.plantSeed(s2, 0, "lemon_balm", cat).ok);
+
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "tea_terrace"));
+  assert.ok(themes.length >= 28);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("tea_terrace"));
+  assert.ok(game.includes("favoritePathThemeId") && game.includes("1.25"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "香蜂草茶台"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("晨露") && man.includes("茶台慢坡"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
