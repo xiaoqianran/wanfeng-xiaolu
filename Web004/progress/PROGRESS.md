@@ -645,3 +645,4 @@
 | 638 | completed | feat | Topping or cup option #31 | Topping top_r0638 | `feat(content): R0638 Topping or cup option #31` |
 | 639 | completed | docs | Stage milestone summary #31 | Stage doc stage-13.md | `docs(progress): R0639 Stage milestone summary #31` |
 | 640 | completed | refactor | Catalog integrity pass #31 | Integrity items=63 customers=31 | `refactor(core): R0640 Catalog integrity pass #31` |
+| 641 | completed | feat | Add collectible item batch #32 | Item pine_r0641 added | `feat(content): R0641 Add collectible item batch #32` |
