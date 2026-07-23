@@ -122,7 +122,8 @@
     "assets/garden/live_0636.jpg",
     "assets/album/live_0648.jpg",
     "assets/walk/live_0660.jpg",
-    "assets/shop/live_0672.jpg"
+    "assets/shop/live_0672.jpg",
+    "assets/ui/live_0684.jpg"
   ],
   "stages": {
     "home": [
@@ -501,6 +502,12 @@
         "path": "assets/ui/live_0624.jpg",
         "status": "live",
         "source": "assets/shop/night-window.jpg"
+      },
+      {
+        "round": 684,
+        "path": "assets/ui/live_0684.jpg",
+        "status": "live",
+        "source": "assets/scenes/walk-path.jpg"
       }
     ]
   },
