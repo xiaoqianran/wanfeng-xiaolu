@@ -1277,7 +1277,10 @@
         document.getElementById("customer-wish").textContent + "（熟悉度 " + aff + "）";
     }
     const tags = document.getElementById("customer-tags");
-    tags.innerHTML = c.tags
+    const tagList = Core.getSettings(state).quietShop
+      ? [(c.tags && c.tags[0]) || "清爽"]
+      : (c.tags || []);
+    tags.innerHTML = tagList
       .map((t) => {
         const cls = ["果香", "甜蜜", "花香", "草本"].includes(t)
           ? "tag flavor"
