@@ -854,5 +854,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_mango",
+    "title": "芒果干",
+    "body": "切芒果的厨子来信：晒干也能入杯。给你一小包。",
+    "effect": {
+      "items": {
+        "mango": 2
+      },
+      "coins": 2
+    }
   }
 ]
