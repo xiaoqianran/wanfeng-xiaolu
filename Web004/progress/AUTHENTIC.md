@@ -77,3 +77,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0077 | completed | feat | HUD 主题名 | canvas HUD shows path theme name | `feat(walk): A0077 小路 HUD 显示当前主题名` |
 | A0078 | completed | docs | 底噪设计文档 | AUDIO_DESIGN ambience section | `docs(audio): A0078 补充环境底噪设计说明` |
 | A0079 | completed | content | 手帐范文至13则 | unique titles including 码头笔记 | `content(journal): A0079 手帐范文扩充至十三则` |
+| A0080 | completed | fix | 演示存档设置字段 | createDemoState weatherFx+ambience | `fix(demo): A0080 演示存档补齐 weatherFx 与 ambience 设置字段` |
+| A0081 | completed | feat | 灯笼小巷主题 | 7th path theme + lantern glow FX | `feat(walk): A0081 灯笼小巷主题与暖光特效` |
+| A0082 | completed | content | 四位独特新客人 | 卖灯笼的阿婆等 15 customers total | `content(shop): A0082 四位独特新客人写入运行时` |

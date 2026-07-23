@@ -2,11 +2,11 @@
 
 | 字段 | 值 |
 |------|-----|
-| Authentic | **64** / 1000 |
-| Game-integrated | **56** |
-| 测试 | 65 passed |
+| Authentic | **76** / 1000 |
+| Game-integrated | **67** |
+| 测试 | 74 passed |
 | 刷轮 | DISABLED |
 
-最近：日礼、野茶丛、码头主题、天气开关、秘密配方、收获礼物、信箱、足迹、剪贴板存档、背包排序。
+最近：环境底噪、季节提示、连胜奖励、日礼、码头/灯笼主题、信箱、剪贴板存档、背包排序。
 
-恢复：A0071+ · `.autodev/state.json`
+恢复：A0083+ · `.autodev/state.json`
