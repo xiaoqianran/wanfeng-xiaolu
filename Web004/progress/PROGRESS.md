@@ -583,3 +583,4 @@
 | 576 | completed | test | Regression assertion pack #28 | Test pack size=30 | `test(core): R0576 Regression assertion pack #28` |
 | 577 | completed | feat | Path theme fragment #28 | Path themes=33 | `feat(walk): R0577 Path theme fragment #28` |
 | 578 | completed | feat | Topping or cup option #28 | Topping top_r0578 | `feat(content): R0578 Topping or cup option #28` |
+| 579 | completed | docs | Stage milestone summary #28 | Stage doc stage-12.md | `docs(progress): R0579 Stage milestone summary #28` |
