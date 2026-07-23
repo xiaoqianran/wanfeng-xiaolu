@@ -457,3 +457,4 @@
 | 450 | completed | feat | Ship dialogue line into runtime #37 | dialogues=89 | `feat(content): R0450 Ship dialogue line into runtime #37` |
 | 451 | completed | feat | Ship journal template into runtime #37 | journal templates=90 | `feat(album): R0451 Ship journal template into runtime #37` |
 | 452 | completed | feat | Ship secret recipe into runtime #37 | secret recipes=90 | `feat(shop): R0452 Ship secret recipe into runtime #37` |
+| 453 | completed | feat | Ship achievement milestone into runtime #37 | achievements=90 | `feat(meta): R0453 Ship achievement milestone into runtime #37` |
