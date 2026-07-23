@@ -685,6 +685,15 @@
     { id: "loquat_walker", name: "枇杷巷旅人", desc: "走过枇杷巷", check: function (s) {
       return !!(s._themesTouched && s._themesTouched.loquat_lane);
     } },
+    { id: "olive_sill", name: "橄榄窗台", desc: "发现橄榄", check: function (s) {
+      return !!(s.discovered && s.discovered.olive);
+    } },
+    { id: "olive_walker", name: "橄榄坡旅人", desc: "走过橄榄坡", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.olive_grove);
+    } },
+    { id: "guest_scribe", name: "客人便签", desc: "为客人写下 2 条便签", check: function (s) {
+      return (s.stats && s.stats.guestNotes || 0) >= 2;
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
     { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },
@@ -1222,7 +1231,7 @@
       score += 0.5;
       notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || flavorDef.id === "litchi" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || flavorDef.id === "litchi" || flavorDef.id === "olive" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5;
       notes.push("夏日清爽");
     }
@@ -1387,6 +1396,20 @@
     state.pinnedBagItem = itemId;
     appendJournal(state, "把「" + itemId + "」钉在竹篮最上面。");
     return { ok: true, itemId: itemId };
+  }
+
+  /** Soft sticky note for a guest name (shop memory, no combat) */
+  function setGuestNote(state, guestName, note) {
+    guestName = String(guestName || "").trim();
+    note = String(note || "").trim().slice(0, 40);
+    if (!guestName) return { ok: false, reason: "empty_name" };
+    if (!note) return { ok: false, reason: "empty_note" };
+    if (!state.guestNotes) state.guestNotes = {};
+    state.guestNotes[guestName] = note;
+    if (!state.stats) state.stats = {};
+    state.stats.guestNotes = (state.stats.guestNotes || 0) + 1;
+    appendJournal(state, "给客人「" + guestName + "」贴了便签。");
+    return { ok: true, guestName: guestName, note: note };
   }
 
   /** Soft favorite plant id for sill preference (still-life, no combat) */
@@ -1727,6 +1750,7 @@ function recallGuestCraft(state, guestName) {
     getPinnedRecipe: getPinnedRecipe,
     closeShopDay: closeShopDay,
     setFavoritePlant: setFavoritePlant,
+    setGuestNote: setGuestNote,
     claimFirstWalkBonus: claimFirstWalkBonus,
     upgradeWateringCan: upgradeWateringCan,
     checkPathMilestones: checkPathMilestones,

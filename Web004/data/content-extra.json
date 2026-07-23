@@ -2511,6 +2511,13 @@
       "emoji": "🟠",
       "kind": "风味",
       "seed": "loquatPot"
+    },
+    "olive": {
+      "id": "olive",
+      "name": "橄榄",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "olivePot"
     }
   },
   "plants": {
@@ -4653,6 +4660,17 @@
       ],
       "harvest": "loquat",
       "days": 3
+    },
+    "olivePot": {
+      "id": "olivePot",
+      "name": "橄榄",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "olive",
+      "days": 3
     }
   },
   "cups": [
@@ -5707,6 +5725,16 @@
       "tags": [
         "果香",
         "温柔"
+      ]
+    },
+    {
+      "id": "olive",
+      "name": "橄榄",
+      "emoji": "🟢",
+      "need": "olive",
+      "tags": [
+        "清爽",
+        "草本"
       ]
     }
   ],
@@ -7256,6 +7284,21 @@
         "honey",
         "tea_leaf",
         "peach"
+      ]
+    },
+    {
+      "name": "腌橄榄的厨子",
+      "avatar": "🫙",
+      "wish": "橄榄或草本，清爽一点，田园杯子更好。",
+      "tags": [
+        "清爽",
+        "草本"
+      ],
+      "flavors": [
+        "olive",
+        "basil",
+        "thyme",
+        "mint"
       ]
     }
   ],
