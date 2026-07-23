@@ -528,3 +528,4 @@
 | 521 | completed | feat | Add collectible item batch #26 | Item pine_r0521 added | `feat(content): R0521 Add collectible item batch #26` |
 | 522 | completed | feat | Add customer persona #26 | Customer 滑板少年·522 | `feat(shop): R0522 Add customer persona #26` |
 | 523 | completed | feat | Add dialogue line #26 | Dialogue count=26 | `feat(content): R0523 Add dialogue line #26` |
+| 524 | completed | feat | Add garden care whisper #26 | Garden msg #27 | `feat(garden): R0524 Add garden care whisper #26` |
