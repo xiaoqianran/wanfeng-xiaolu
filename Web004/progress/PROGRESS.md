@@ -790,3 +790,4 @@
 | 783 | completed | feat | Add dialogue line #39 | Dialogue count=39 | `feat(content): R0783 Add dialogue line #39` |
 | 784 | completed | feat | Add garden care whisper #39 | Garden msg #40 | `feat(garden): R0784 Add garden care whisper #39` |
 | 785 | completed | feat | Add shop tip #39 | Shop tip #40 | `feat(shop): R0785 Add shop tip #39` |
+| 786 | completed | feat | Tune walk ambient note #39 | Walk ambient #39 | `feat(walk): R0786 Tune walk ambient note #39` |
