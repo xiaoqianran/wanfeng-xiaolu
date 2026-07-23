@@ -382,3 +382,4 @@
 | 375 | completed | assets | Asset slot registration #18 | Asset slot assets/walk/slot_0375.png | `assets(manifest): R0375 Asset slot registration #18` |
 | 376 | completed | test | Regression assertion pack #18 | Test pack size=20 | `test(core): R0376 Regression assertion pack #18` |
 | 377 | completed | feat | Path theme fragment #18 | Path themes=23 | `feat(walk): R0377 Path theme fragment #18` |
+| 378 | completed | feat | Topping or cup option #18 | Topping top_r0378 | `feat(content): R0378 Topping or cup option #18` |
