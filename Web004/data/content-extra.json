@@ -559,6 +559,14 @@
       "kind": "收藏",
       "seed": null,
       "round": 701
+    },
+    "seed_cocoa_0711": {
+      "id": "seed_cocoa_0711",
+      "name": "可可种子",
+      "emoji": "🍫",
+      "kind": "种子",
+      "seed": "plant_cocoa_0711",
+      "round": 711
     }
   },
   "plants": {
@@ -981,6 +989,18 @@
       "harvest": "seed_lavender_0691",
       "days": 5,
       "round": 691
+    },
+    "plant_cocoa_0711": {
+      "id": "plant_cocoa_0711",
+      "name": "可可盆栽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍫"
+      ],
+      "harvest": "seed_cocoa_0711",
+      "days": 5,
+      "round": 711
     }
   },
   "cups": [],
@@ -2232,7 +2252,7 @@
     "theme_0697"
   ],
   "meta": {
-    "expandedRounds": 703,
+    "expandedRounds": 711,
     "lastIntegrityRound": 700,
     "itemCount": 69,
     "customerCount": 34

@@ -715,3 +715,4 @@
 | 708 | completed | feat | Add secret recipe stub #35 | Recipes=35 | `feat(shop): R0708 Add secret recipe stub #35` |
 | 709 | completed | feat | Add achievement definition #35 | Achievements=35 | `feat(meta): R0709 Add achievement definition #35` |
 | 710 | completed | style | CSS micro polish token #35 | CSS token hue=190 | `style(ui): R0710 CSS micro polish token #35` |
+| 711 | completed | feat | Add plantable linkage #35 | Plant link plant_cocoa_0711 | `feat(content): R0711 Add plantable linkage #35` |
