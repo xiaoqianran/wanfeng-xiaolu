@@ -306,3 +306,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0307 | completed | test | 礼物池回归 | 149 tests pass | `balance(garden): A0306 高心情收获礼物池扩沿海物` |
 | A0308 | completed | feat | 竹篮置顶 | pinBagItem + sort + click UI | `feat(bag): A0308 竹篮物品置顶钉选` |
 | A0309 | completed | test | 置顶回归 | 150 tests pass | `feat(bag): A0308 竹篮物品置顶钉选` |
+| A0310 | completed | docs | 手册竹篮置顶 | USER_MANUAL bag pin | `docs(manual): A0310 手册竹篮置顶与相关事件` |
+| A0311 | completed | content | 置顶事件 | bag pin vignettes | `docs(manual): A0310 手册竹篮置顶与相关事件` |
