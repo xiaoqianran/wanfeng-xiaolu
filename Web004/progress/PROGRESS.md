@@ -664,3 +664,4 @@
 | 657 | completed | feat | Path theme fragment #32 | Path themes=37 | `feat(walk): R0657 Path theme fragment #32` |
 | 658 | completed | feat | Topping or cup option #32 | Topping top_r0658 | `feat(content): R0658 Topping or cup option #32` |
 | 659 | completed | docs | Stage milestone summary #32 | Stage doc stage-14.md | `docs(progress): R0659 Stage milestone summary #32` |
+| 660 | completed | refactor | Catalog integrity pass #32 | Integrity items=65 customers=32 | `refactor(core): R0660 Catalog integrity pass #32` |
