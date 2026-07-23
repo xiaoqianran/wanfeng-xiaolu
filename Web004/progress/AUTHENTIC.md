@@ -416,3 +416,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0417 | completed | feat | 龙眼可种植 | longanPot | feat(garden): A0417 龙眼可种植窗台 |
 | A0418 | completed | feat | 露径慢步 | dew_path 49th | feat(walk): A0418 露径慢步主题与露珠特效 |
 | A0419 | completed | test | 回归手册 | 181 pass | test(docs): A0419 龙眼露径回归与手册 |
+| A0420 | completed | feat | 荔枝与五十路 | litchiPot+path_fifty | feat(garden): A0420 荔枝可种植与五十路成就 |
+| A0421 | completed | feat | 荔枝林径第50条 | litchi_grove 50th unique theme | feat(walk): A0421 荔枝林径主题（第50条小路） |
+| A0422 | completed | test | 五十路回归 | 182 pass 50 themes | test(docs): A0422 五十小路里程碑回归 |
