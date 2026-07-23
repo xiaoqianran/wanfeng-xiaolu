@@ -911,5 +911,24 @@ test("new achievements and camellia/lavender style items exist", () => {
   assert.ok(j.items.camellia && j.plants.camelliaPot);
 });
 
+test("unique mail/rest/help icons exist with distinct sizes", () => {
+  const files = ["icon-mail.png", "icon-rest.png", "icon-help.png"].map((f) =>
+    path.join(__dirname, "..", "assets", "ui", f)
+  );
+  const sizes = files.map((f) => {
+    assert.ok(fs.existsSync(f), f);
+    return fs.statSync(f).size;
+  });
+  assert.ok(sizes.every((n) => n > 100));
+  assert.strictEqual(new Set(sizes).size, sizes.length);
+});
+
+test("camellia and secret 山茶蜜语 ship", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.camellia);
+  const r = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(r.some((x) => x.name === "山茶蜜语" || x.name === "雨檐野茶"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
