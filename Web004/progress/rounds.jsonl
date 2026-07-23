@@ -79,3 +79,4 @@
 {"round":79,"status":"completed","type":"docs","scope":"progress","goal":"Stage milestone summary #3","outcome":"Stage doc stage-02.md","commit":"docs(progress): R0079 Stage milestone summary #3","at":"2026-07-23T19:49:38.365Z"}
 {"round":80,"status":"completed","type":"refactor","scope":"core","goal":"Catalog integrity pass #3","outcome":"Integrity items=7 customers=3","commit":"refactor(core): R0080 Catalog integrity pass #3","at":"2026-07-23T19:49:38.384Z"}
 {"round":81,"status":"completed","type":"feat","scope":"content","goal":"Add collectible item batch #4","outcome":"Item cocoa_r0081 added","commit":"feat(content): R0081 Add collectible item batch #4","at":"2026-07-23T19:49:38.402Z"}
+{"round":82,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #4","outcome":"Customer 夜跑爱好者·82","commit":"feat(shop): R0082 Add customer persona #4","at":"2026-07-23T19:49:38.456Z"}
