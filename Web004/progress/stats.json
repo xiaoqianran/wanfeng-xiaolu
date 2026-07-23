@@ -1,8 +1,8 @@
 {
   "targetRounds": 1000,
-  "lastUpdate": "2026-07-23T20:30:34.605Z",
-  "completed": 945,
-  "lastGoal": "Ship achievement milestone into runtime #78",
+  "lastUpdate": "2026-07-23T20:30:34.654Z",
+  "completed": 946,
+  "lastGoal": "Ship CSS accent token used by app shell #78",
   "integrated": true,
   "contentItems": 246
 }
