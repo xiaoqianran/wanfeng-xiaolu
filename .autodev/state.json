@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 427,
+  "current_round": 430,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 421,
-  "authentic_game_integrated_rounds": 298,
+  "authentic_rounds_completed": 424,
+  "authentic_game_integrated_rounds": 300,
   "template_spam_archived": true,
-  "current_milestone": "authentic rebuild A0426+",
-  "current_task_id": "A0429-next",
-  "last_completed_task_id": "A0428",
+  "current_milestone": "authentic rebuild A0429+",
+  "current_task_id": "A0432-next",
+  "last_completed_task_id": "A0431",
   "last_commit": "pending",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "184 passed, 0 failed",
+  "last_test_summary": "185 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~579) multi-session"
+    "gap to 1000 authentic (~576) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -34,6 +34,6 @@
     "audio feedback",
     "UI polish"
   ],
-  "resume_instructions": "Continue A0429+. Spam DISABLED. Gap ~579. Themes 52.",
-  "updated_at": "2026-07-23T23:42:34.066760+00:00"
+  "resume_instructions": "Continue A0432+. Spam DISABLED. Gap ~576. Themes 53.",
+  "updated_at": "2026-07-23T23:44:21.110425+00:00"
 }

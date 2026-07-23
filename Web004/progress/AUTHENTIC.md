@@ -425,3 +425,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0426 | completed | feat | 客人便签橄榄 | setGuestNote+olivePot | feat(shop): A0426 客人便签与橄榄可种植 |
 | A0427 | completed | feat | 橄榄坡 | olive_grove 52nd + note UI | feat(walk): A0427 橄榄坡主题与便签 UI |
 | A0428 | completed | test | 回归手册 | 184 pass | test(docs): A0428 客人便签橄榄坡回归 |
+| A0429 | completed | feat | 山楂可种植 | hawthornPot | feat(garden): A0429 山楂可种植窗台 |
+| A0430 | completed | feat | 山楂短径 | hawthorn_path 53rd | feat(walk): A0430 山楂短径主题与串果特效 |
+| A0431 | completed | test | 回归手册 | 185 pass | test(docs): A0431 山楂短径回归与手册 |
