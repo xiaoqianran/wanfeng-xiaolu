@@ -13,7 +13,7 @@
 
   const SAVE_KEY = "wanfeng-xiaolu-v1";
   const VERSION = 3;
-  var ECONOMY = { serveBase: 5, serveScoreMul: 2, harvestCoins: 4, pathBonus: 3, dailyRewardCoins: 10, dailyRewardHearts: 1 };
+  var ECONOMY = { serveBase: 5, serveScoreMul: 2, harvestCoins: 4, pathBonus: 3, dailyRewardCoins: 10, dailyRewardHearts: 1, potUnlockCost: 25, affinityBonusThreshold: 3 };
 
   const DEFAULT_ITEMS = {
     maple: { id: "maple", name: "枫叶", emoji: "🍁", kind: "装饰", seed: null },
@@ -272,7 +272,7 @@
 
   /** Demo mode: seed a showcase state without combat */
   function unlockPotSlot(state, cost) {
-    cost = cost == null ? 25 : cost;
+    cost = cost == null ? (ECONOMY.potUnlockCost || 25) : cost;
     var slots = state.potSlots || (state.pots && state.pots.length) || 4;
     if (slots >= 6) return { ok: false, reason: "max" };
     if ((state.coins || 0) < cost) return { ok: false, reason: "coins" };

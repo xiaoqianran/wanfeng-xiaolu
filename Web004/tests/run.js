@@ -549,5 +549,27 @@ test("in-game help screen ships with controls summary", () => {
   assert.ok(man.includes("今日小目标"));
 });
 
+test("ECONOMY.potUnlockCost used by unlockPotSlot default", () => {
+  const s = core.defaultState(4);
+  s.coins = core.ECONOMY.potUnlockCost;
+  const r = core.unlockPotSlot(s);
+  assert.ok(r.ok);
+  assert.strictEqual(s.coins, 0);
+  assert.strictEqual(r.cost, core.ECONOMY.potUnlockCost);
+});
+
+test("journal templates are unique without round-id spam", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "journal-templates.json"), "utf8"));
+  assert.ok(j.length >= 6);
+  const titles = j.map((x) => x.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  j.forEach((x) => {
+    assert.ok(x.body && x.body.length > 6);
+    assert.ok(!/#\d{2,}/.test(x.title + x.body));
+  });
+  const gd = fs.readFileSync(path.join(__dirname, "..", "js", "game-data.js"), "utf8");
+  assert.ok(gd.includes("暮色入册") || gd.includes("窗台备忘"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
