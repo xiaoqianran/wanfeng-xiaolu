@@ -2573,5 +2573,44 @@ test("setFavoritePlant pomegranate_court 47 themes", () => {
   assert.ok(man.includes("石榴小院") && man.includes("最想照料"));
 });
 
+
+test("morningTend yangmei rain_pavilion 48 themes", () => {
+  const s = core.defaultState();
+  core.addItem(s, "mint", 1);
+  assert.ok(core.plantSeed(s, 0, "mint").ok);
+  const mood0 = s.pots[0].mood;
+  const t1 = core.tend(s, 0, "water");
+  assert.ok(t1.ok);
+  assert.ok((s.stats.morningTends || 0) >= 1);
+  assert.ok(s.pots[0].mood >= mood0 - 5); // net after tend decay still soft
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "morning_gardener"));
+
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.yangmei && j.plants.yangmeiPot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s2 = core.defaultState();
+  s2.bag.yangmei = 1;
+  assert.ok(core.plantSeed(s2, 0, "yangmei", cat).ok);
+
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "rain_pavilion"));
+  assert.ok(themes.length >= 48);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("rain_pavilion"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "杨梅汽泡"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "pavilion_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("雨亭慢歇") && man.includes("晨间照料"));
+  // evening titles unique and long enough
+  const ev = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.strictEqual(new Set(ev.map((e) => e.title)).size, ev.length);
+  ev.forEach((e) => assert.ok((e.body || "").length > 12));
+  // spam disabled
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
