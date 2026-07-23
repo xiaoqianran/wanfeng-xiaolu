@@ -731,7 +731,7 @@
 
   document.getElementById("btn-new-path").addEventListener("click", () => {
     state.pathsWalked++;
-    state.coins += 2;
+    state.coins += (Core.ECONOMY && Core.ECONOMY.pathBonus) || 3;
     Core.appendJournal(state, "又走完一段小路，口袋轻响。");
     const ev = applyEveningEvent();
     checkAchievements();

@@ -12,7 +12,8 @@
   "use strict";
 
   const SAVE_KEY = "wanfeng-xiaolu-v1";
-  const VERSION = 2;
+  const VERSION = 3;
+  var ECONOMY = { serveBase: 5, serveScoreMul: 2, harvestCoins: 4, pathBonus: 3, dailyRewardCoins: 10, dailyRewardHearts: 1 };
 
   const DEFAULT_ITEMS = {
     maple: { id: "maple", name: "枫叶", emoji: "🍁", kind: "装饰", seed: null },
@@ -208,10 +209,10 @@
     if (!ev.allDone) return { ok: false, reason: "incomplete" };
     if (ev.daily.claimed) return { ok: false, reason: "claimed" };
     ev.daily.claimed = true;
-    state.coins = (state.coins || 0) + 8;
-    state.hearts = (state.hearts || 0) + 1;
+    state.coins = (state.coins || 0) + ECONOMY.dailyRewardCoins;
+    state.hearts = (state.hearts || 0) + ECONOMY.dailyRewardHearts;
     appendJournal(state, "完成了今日的温柔小目标。");
-    return { ok: true, coins: 8, hearts: 1 };
+    return { ok: true, coins: ECONOMY.dailyRewardCoins, hearts: ECONOMY.dailyRewardHearts };
   }
 
   /** Demo mode: seed a showcase state without combat */
@@ -393,7 +394,7 @@
       var n = 1 + (pot.mood > 70 ? 1 : 0);
       addItem(state, def.harvest, n);
       state.hearts = (state.hearts || 0) + 1;
-      state.coins = (state.coins || 0) + 3;
+      state.coins = (state.coins || 0) + ECONOMY.harvestCoins;
       if (!state.stats) state.stats = {};
       state.stats.plantsHarvested = (state.stats.plantsHarvested || 0) + 1;
       pot.growth = def.days * 0.4;
@@ -488,7 +489,7 @@
     }
 
     score = Math.min(5, score);
-    var coins = 4 + Math.floor(score * 2);
+    var coins = ECONOMY.serveBase + Math.floor(score * ECONOMY.serveScoreMul);
     var hearts = score >= 3 ? 1 : 0;
     return { score: score, notes: notes, coins: coins, hearts: hearts };
   }
@@ -631,5 +632,6 @@
     evaluateDailyGoals: evaluateDailyGoals,
     claimDailyReward: claimDailyReward,
     createDemoState: createDemoState,
+    ECONOMY: ECONOMY,
   };
 });
