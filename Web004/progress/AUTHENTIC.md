@@ -360,3 +360,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0361 | completed | feat | 夜荷池 | night_pond 34th | feat(walk): A0361 夜荷池主题与池光萤点 |
 | A0362 | completed | content | 洛神夜荷内容 | events+recipes | content(events): A0362 洛神夜荷 vignette 与配方 |
 | A0363 | completed | test | 回归手册 | 166 pass spam DISABLED | test(docs): A0363 洛神夜荷回归与手册 |
+| A0364 | completed | feat | 菊花可种植 | chrysanthemumPot | feat(garden): A0364 菊花可种植窗台 |
+| A0365 | completed | feat | 菊圃晚径 | chrys_garden 35th | feat(walk): A0365 菊圃晚径主题与菊影特效 |
+| A0366 | completed | content | 菊花内容 | events+recipes | content(events): A0366 菊花菊圃 vignette 与配方 |
+| A0367 | completed | test | 回归手册 | 167 pass | test(docs): A0367 菊花菊圃回归与手册 |
