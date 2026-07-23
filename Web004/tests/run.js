@@ -2025,5 +2025,34 @@ test("violet plantable and lotus_pond among 26 themes", () => {
   assert.ok(man.includes("荷塘浅步"));
 });
 
+
+test("swapPots rearranges sill and calendula wind_chime ship", () => {
+  const s = core.defaultState();
+  core.addItem(s, "mint", 1);
+  core.plantSeed(s, 0, "mint");
+  core.addItem(s, "lavender_bud", 1);
+  // plant second if lavender plantable else just swap empty structure
+  s.pots[0].nickname = "A";
+  s.pots[1].nickname = "B";
+  s.pots[1].plantId = s.pots[0].plantId;
+  const r = core.swapPots(s, 0, 1);
+  assert.ok(r.ok);
+  assert.strictEqual(s.pots[0].nickname, "B");
+  assert.strictEqual(s.pots[1].nickname, "A");
+  assert.ok((s.stats.potSwaps || 0) >= 1);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "sill_arranger"));
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("btn-pot-swap"));
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.calendula && j.plants.calendulaPot);
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "wind_chime"));
+  assert.ok(themes.length >= 27);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("wind_chime") && game.includes("swapPots"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("风铃廊") && man.includes("对调"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
