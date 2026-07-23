@@ -779,3 +779,4 @@
 | 772 | completed | feat | Ship garden care whisper into runtime #64 | garden messages=117 careBonus=1.05 | `feat(garden): R0772 Ship garden care whisper into runtime #64` |
 | 773 | completed | feat | Ship shop tip + perfectBonus into runtime #64 | shop tips=117 perfectBonus=4 | `feat(shop): R0773 Ship shop tip + perfectBonus into runtime #64` |
 | 774 | completed | feat | Ship dialogue line into runtime #64 | dialogues=116 | `feat(content): R0774 Ship dialogue line into runtime #64` |
+| 775 | completed | feat | Ship journal template into runtime #64 | journal templates=117 | `feat(album): R0775 Ship journal template into runtime #64` |
