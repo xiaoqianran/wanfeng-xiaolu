@@ -1142,5 +1142,46 @@ test("album item filter drops mass template seed ids in game code", () => {
   assert.ok(game.includes("filter((it)") || game.includes("albumKindFilter !=="));
 });
 
+
+test("watering can charge use and recipeMatchHint", () => {
+  const s = core.defaultState();
+  core.addItem(s, "mint", 1);
+  core.plantSeed(s, 0, "mint");
+  const can0 = core.getWateringCan(s);
+  assert.ok(can0.charge >= 0);
+  core.chargeWateringCan(s, 5);
+  assert.ok(core.getWateringCan(s).charge >= can0.charge);
+  const full = core.getWateringCan(s).charge;
+  const r = core.useWateringCan(s, 0);
+  assert.ok(r.ok);
+  assert.ok(r.usedCan);
+  assert.ok(core.getWateringCan(s).charge === full - 1);
+  assert.ok((s.stats.canWaters || 0) >= 1);
+  const hint = core.recipeMatchHint(
+    { cup: "mug", base: "tea", flavor: "honey", topping: "none" },
+    [{ name: "窗台蜜茶", cup: "mug", base: "tea", flavor: "honey", topping: "none" }]
+  );
+  assert.ok(hint.perfect && hint.perfect.name === "窗台蜜茶");
+  const close = core.recipeMatchHint(
+    { cup: "mug", base: "tea", flavor: "honey", topping: "petal" },
+    [{ name: "窗台蜜茶", cup: "mug", base: "tea", flavor: "honey", topping: "none" }]
+  );
+  assert.ok(close.close.length >= 1);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "can_gardener"));
+});
+
+test("plum_grove theme and watering can UI ship", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "plum_grove"));
+  assert.ok(themes.length >= 11);
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("btn-watering-can") && html.includes("watering-can-status"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("useWateringCan") && game.includes("recipeMatchHint"));
+  assert.ok(game.includes("plum_grove"));
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok((j.customers || []).some((c) => c.name === "夜读的图书管理员"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
