@@ -438,5 +438,25 @@
         "loquat_leaf": 2
       }
     }
+  },
+  {
+    "id": "mail_perilla",
+    "title": "紫苏一把",
+    "body": "叶子还脆。字条：泡水、入汽水都行，别一个人吃完。",
+    "effect": {
+      "items": {
+        "perilla": 3
+      },
+      "hearts": 1
+    }
+  },
+  {
+    "id": "mail_dawn",
+    "title": "晨桥明信片",
+    "body": "正面是雾中的桥，背面只写：早。",
+    "effect": {
+      "coins": 2,
+      "hearts": 1
+    }
   }
 ]
