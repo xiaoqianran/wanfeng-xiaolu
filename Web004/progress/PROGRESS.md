@@ -929,3 +929,4 @@
 | 922 | completed | style | Ship CSS accent token used by app shell #76 | CSS --r-accent hue=194 wired to brand/primary | `style(ui): R0922 Ship CSS accent token used by app shell #76` |
 | 923 | completed | feat | Ship plantable seed linkage into runtime #76 | plant link plant_rose_0923 harvest=seed_rose_0923 | `feat(content): R0923 Ship plantable seed linkage into runtime #76` |
 | 924 | completed | assets | Wire real stage art reference into runtime manifest #76 | live art assets/ui/live_0924.jpg from assets/seasons/dusk.jpg (≥1KB) | `assets(ui): R0924 Wire real stage art reference into runtime manifest #76` |
+| 925 | completed | feat | Ship collectible + runtime catalog item #77 | Runtime item coconut_r0925 | `feat(content): R0925 Ship collectible + runtime catalog item #77` |
