@@ -381,3 +381,4 @@
 {"round":381,"status":"completed","type":"feat","scope":"content","goal":"Add collectible item batch #19","outcome":"Item cocoa_r0381 added","commit":"feat(content): R0381 Add collectible item batch #19","at":"2026-07-23T19:49:54.803Z"}
 {"round":382,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #19","outcome":"Customer 夜跑爱好者·382","commit":"feat(shop): R0382 Add customer persona #19","at":"2026-07-23T19:49:54.827Z"}
 {"round":383,"status":"completed","type":"feat","scope":"content","goal":"Add dialogue line #19","outcome":"Dialogue count=19","commit":"feat(content): R0383 Add dialogue line #19","at":"2026-07-23T19:49:54.865Z"}
+{"round":384,"status":"completed","type":"feat","scope":"garden","goal":"Add garden care whisper #19","outcome":"Garden msg #20","commit":"feat(garden): R0384 Add garden care whisper #19","at":"2026-07-23T19:49:54.888Z"}

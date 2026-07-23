@@ -388,3 +388,4 @@
 | 381 | completed | feat | Add collectible item batch #19 | Item cocoa_r0381 added | `feat(content): R0381 Add collectible item batch #19` |
 | 382 | completed | feat | Add customer persona #19 | Customer 夜跑爱好者·382 | `feat(shop): R0382 Add customer persona #19` |
 | 383 | completed | feat | Add dialogue line #19 | Dialogue count=19 | `feat(content): R0383 Add dialogue line #19` |
+| 384 | completed | feat | Add garden care whisper #19 | Garden msg #20 | `feat(garden): R0384 Add garden care whisper #19` |
