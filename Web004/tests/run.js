@@ -1520,5 +1520,20 @@ test("honeysuckle plantable and 金银花雪灯 recipe", () => {
   assert.ok(recipes.some((r) => r.name === "金银花雪灯"));
 });
 
+
+test("snow and star-path icons unique sizes", () => {
+  const files = ["icon-snow.png", "icon-star-path.png"].map((f) =>
+    path.join(__dirname, "..", "assets", "ui", f)
+  );
+  const sizes = files.map((f) => {
+    assert.ok(fs.existsSync(f), f);
+    return fs.statSync(f).size;
+  });
+  assert.ok(sizes.every((n) => n > 80));
+  assert.strictEqual(new Set(sizes).size, sizes.length);
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("icon-star-path.png"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
