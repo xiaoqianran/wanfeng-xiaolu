@@ -171,3 +171,4 @@
 | 164 | completed | feat | Add garden care whisper #8 | Garden msg #9 | `feat(garden): R0164 Add garden care whisper #8` |
 | 165 | completed | feat | Add shop tip #8 | Shop tip #9 | `feat(shop): R0165 Add shop tip #8` |
 | 166 | completed | feat | Tune walk ambient note #8 | Walk ambient #8 | `feat(walk): R0166 Tune walk ambient note #8` |
+| 167 | completed | feat | Add journal template #8 | Journal templates=8 | `feat(album): R0167 Add journal template #8` |
