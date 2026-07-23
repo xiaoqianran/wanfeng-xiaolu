@@ -211,6 +211,69 @@ button:active { transform: scale(0.98); }
   white-space: nowrap;
   border: 0;
 }
+.settings-card { max-width: 520px; margin: 0 auto; }
+.setting-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px dashed var(--line);
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+.setting-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 10px;
+}
+.save-io {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  padding: 10px 12px;
+  font-family: ui-monospace, monospace;
+  font-size: 0.78rem;
+  background: var(--bg-soft);
+  color: var(--ink);
+  resize: vertical;
+}
+.tutorial {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  background: rgba(60, 50, 40, 0.35);
+  display: grid;
+  place-items: center;
+  padding: 16px;
+}
+.tutorial[hidden] { display: none !important; }
+.tutorial-card {
+  width: min(420px, 100%);
+  background: var(--paper);
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  box-shadow: 0 20px 50px rgba(40, 30, 20, 0.18);
+  padding: 22px 20px 16px;
+}
+.tutorial-card h3 {
+  font-family: var(--display);
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.tutorial-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 16px;
+}
+body.reduce-motion *,
+body.reduce-motion *::before,
+body.reduce-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+}
 .sky { position: absolute; inset: 0 0 40% 0; }
 .sun {
   position: absolute;

@@ -136,6 +136,24 @@
     return ok;
   }
 
+  const AudioFx = globalThis.WanfengAudio || { play: () => false };
+
+  function sfx(kind) {
+    const st = Core.getSettings(state);
+    return AudioFx.play(kind, st.sound !== false);
+  }
+
+  function applySettingsToDom() {
+    const st = Core.getSettings(state);
+    document.body.classList.toggle("reduce-motion", !!st.reduceMotion);
+    const sound = document.getElementById("set-sound");
+    const motion = document.getElementById("set-motion");
+    const tips = document.getElementById("set-tips");
+    if (sound) sound.checked = st.sound !== false;
+    if (motion) motion.checked = !!st.reduceMotion;
+    if (tips) tips.checked = st.showTips !== false;
+  }
+
   // expose for debugging / tests in browser
   globalThis.WanfengGame = {
     getState: () => state,
@@ -143,6 +161,7 @@
     addItem,
     hasItem,
     takeItem,
+    sfx,
     advanceSeason: () => {
       Core.advanceSeason(state);
       checkAchievements();
@@ -216,7 +235,13 @@
     if (screen === "album") renderAlbum(currentAlbumTab);
     if (screen === "journal") renderJournal();
     if (screen === "achievements") renderAchievements();
+    if (screen === "settings") {
+      applySettingsToDom();
+      const msg = document.getElementById("settings-msg");
+      if (msg) msg.textContent = "";
+    }
     if (screen !== "walk") stopWalk();
+    sfx("ui");
   }
 
   function renderJournal() {
@@ -416,6 +441,7 @@
         const def = ITEMS[it.id];
         showPickup(`${def.emoji} 捡到了 ${def.name}`);
         toast(`${def.emoji} 背包 +1 ${def.name}`);
+        sfx("pickup");
         // 种子提示
         if (def.seed && PLANTS[def.seed]) {
           // 收集物本身可种
@@ -784,6 +810,7 @@
     if (act === "water") {
       pot.water = Math.min(100, pot.water + 28 * careBonus);
       toast(gardenMsg ? "💧 " + gardenMsg : "💧 浇了一小壶水");
+      sfx("water");
     } else if (act === "sun") {
       pot.sun = Math.min(100, pot.sun + 28 * careBonus);
       toast(gardenMsg ? "☀️ " + gardenMsg : "☀️ 把花盆挪到了阳光里");
@@ -1043,6 +1070,7 @@
     const reaction = reactions[Math.min(reactions.length - 1, Math.floor(score))];
     msgEl.textContent = `${reaction}  +${coins} 金币${hearts ? " · +1 好心情" : ""}${notes.length ? "（" + notes.join("，") + "）" : ""}`;
     toast(`🥂 客人很满意 · +${coins} 🪙`);
+    sfx("serve");
 
     // 重置部分配方，换客人
     state.craft = { cup: state.craft.cup, base: null, flavor: null, topping: null };
@@ -1144,9 +1172,132 @@
     save();
   }
 
+  // ---------- 设置 / 存档 / 引导 ----------
+  function wireSettings() {
+    const sound = document.getElementById("set-sound");
+    const motion = document.getElementById("set-motion");
+    const tips = document.getElementById("set-tips");
+    const bind = (el, key) => {
+      if (!el) return;
+      el.addEventListener("change", () => {
+        const patch = {};
+        if (key === "sound") patch.sound = !!el.checked;
+        if (key === "reduceMotion") patch.reduceMotion = !!el.checked;
+        if (key === "showTips") patch.showTips = !!el.checked;
+        Core.updateSettings(state, patch);
+        applySettingsToDom();
+        save();
+        sfx("ui");
+        const msg = document.getElementById("settings-msg");
+        if (msg) msg.textContent = "已保存设置";
+      });
+    };
+    bind(sound, "sound");
+    bind(motion, "reduceMotion");
+    bind(tips, "showTips");
+
+    const exportBtn = document.getElementById("btn-export-save");
+    const importBtn = document.getElementById("btn-import-save");
+    const io = document.getElementById("save-io");
+    if (exportBtn && io) {
+      exportBtn.addEventListener("click", () => {
+        io.value = Core.exportSave(state);
+        const msg = document.getElementById("settings-msg");
+        if (msg) msg.textContent = "已导出到文本框，可复制保存。";
+        sfx("ui");
+      });
+    }
+    if (importBtn && io) {
+      importBtn.addEventListener("click", () => {
+        const r = Core.importSave(io.value.trim());
+        const msg = document.getElementById("settings-msg");
+        if (!r.ok) {
+          if (msg) msg.textContent = "导入失败：存档格式不对。";
+          return;
+        }
+        state = r.state;
+        if (!state.customer) state.customer = randomCustomer();
+        save();
+        refreshResources();
+        applySettingsToDom();
+        if (msg) msg.textContent = "导入成功，继续温柔的日常吧。";
+        toast("存档已导入");
+        sfx("ui");
+      });
+    }
+  }
+
+  const TUTORIAL_STEPS = [
+    { title: "欢迎来到晚风小路", body: "这里没有倒计时，也没有失败——只有散步、盆栽和汽水。" },
+    { title: "晚风小路", body: "用左右按钮或方向键走走看，靠近发光的小东西就能捡起来。" },
+    { title: "窗台盆栽", body: "把种子种进空花盆，浇水、日照、说说话，成熟后可以收获。" },
+    { title: "青柠汽水铺", body: "按客人的心情搭配杯型、基底、风味和装饰。做错了也没关系。" },
+  ];
+  let tutIndex = 0;
+
+  function showTutorial(force) {
+    const st = Core.getSettings(state);
+    if (!force && st.tutorialDone) return;
+    const box = document.getElementById("tutorial");
+    if (!box) return;
+    tutIndex = 0;
+    renderTutorialStep();
+    box.hidden = false;
+  }
+
+  function renderTutorialStep() {
+    const step = TUTORIAL_STEPS[tutIndex] || TUTORIAL_STEPS[0];
+    const title = document.getElementById("tut-title");
+    const body = document.getElementById("tut-body");
+    const meta = document.getElementById("tut-step");
+    const next = document.getElementById("tut-next");
+    if (title) title.textContent = step.title;
+    if (body) body.textContent = step.body;
+    if (meta) meta.textContent = tutIndex + 1 + " / " + TUTORIAL_STEPS.length;
+    if (next) next.textContent = tutIndex >= TUTORIAL_STEPS.length - 1 ? "开始吧" : "下一步";
+  }
+
+  function hideTutorial(done) {
+    const box = document.getElementById("tutorial");
+    if (box) box.hidden = true;
+    if (done) {
+      Core.updateSettings(state, { tutorialDone: true });
+      save();
+    }
+  }
+
+  function wireTutorial() {
+    const next = document.getElementById("tut-next");
+    const skip = document.getElementById("tut-skip");
+    const replay = document.getElementById("btn-replay-tutorial");
+    if (next) {
+      next.addEventListener("click", () => {
+        if (tutIndex >= TUTORIAL_STEPS.length - 1) {
+          hideTutorial(true);
+          toast("晚风等你来散步");
+          return;
+        }
+        tutIndex++;
+        renderTutorialStep();
+        sfx("ui");
+      });
+    }
+    if (skip) skip.addEventListener("click", () => hideTutorial(true));
+    if (replay) {
+      replay.addEventListener("click", () => {
+        go("home");
+        showTutorial(true);
+      });
+    }
+  }
+
   // ---------- 启动 ----------
   settleOfflineGrowth();
   refreshResources();
+  applySettingsToDom();
+  wireSettings();
+  wireTutorial();
+  showTutorial(false);
 
   // soft ambient dialogue on home (from game-data dialogues)
   if (DIALOGUES.length) {
@@ -1157,20 +1308,21 @@
     }
   }
   // random tip toast from ui-copy
-  if (uiCopy.tips && uiCopy.tips.length && Math.random() < 0.35) {
+  const st0 = Core.getSettings(state);
+  if (st0.showTips !== false && uiCopy.tips && uiCopy.tips.length && Math.random() < 0.35) {
     const tip = uiCopy.tips[Math.floor(Math.random() * uiCopy.tips.length)];
     setTimeout(() => toast("💡 " + tip), 600);
   }
 
   // decorate garden with plant art if present
-  const gardenBanner = document.querySelector('#screen-garden .scene-banner');
+  const gardenBanner = document.querySelector("#screen-garden .scene-banner");
   if (gardenBanner) {
     gardenBanner.insertAdjacentHTML(
       "afterend",
       '<div class="art-row"><img src="assets/plants/mint-stages.jpg" alt="盆栽生长" class="art-thumb"/><img src="assets/ui/garden-actions.jpg" alt="照料动作" class="art-thumb"/></div>'
     );
   }
-  const shopBanner = document.querySelector('#screen-shop .scene-banner');
+  const shopBanner = document.querySelector("#screen-shop .scene-banner");
   if (shopBanner) {
     shopBanner.insertAdjacentHTML(
       "afterend",

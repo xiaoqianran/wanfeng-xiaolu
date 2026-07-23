@@ -293,5 +293,34 @@ test("no 1x1 placeholder PNGs claimed as live stage art in manifest", () => {
   });
 });
 
+test("settings update and export/import save roundtrip", () => {
+  const s = core.defaultState();
+  core.updateSettings(s, { sound: false, reduceMotion: true });
+  assert.strictEqual(core.getSettings(s).sound, false);
+  assert.strictEqual(core.getSettings(s).reduceMotion, true);
+  core.addItem(s, "maple", 4);
+  const raw = core.exportSave(s);
+  const back = core.importSave(raw);
+  assert.ok(back.ok);
+  assert.strictEqual(back.state.bag.maple, 4);
+  assert.strictEqual(back.state.settings.sound, false);
+});
+
+test("audio module exports play without throwing when silent", () => {
+  const audio = require(path.join(__dirname, "..", "js", "audio.js"));
+  assert.strictEqual(typeof audio.play, "function");
+  // no AudioContext in node — should return false, not throw
+  assert.strictEqual(audio.play("pickup", false), false);
+  assert.strictEqual(audio.play("pickup", true), false);
+});
+
+test("settings and tutorial markup ship in index", () => {
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes('id="screen-settings"'));
+  assert.ok(html.includes('id="tutorial"'));
+  assert.ok(html.includes("js/audio.js"));
+  assert.ok(html.includes("btn-export-save"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

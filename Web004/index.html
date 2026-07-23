@@ -61,6 +61,7 @@
             <button type="button" class="soft-btn" id="btn-next-season">🍃 换个季节散步</button>
             <button type="button" class="soft-btn" data-go="journal">📓 今日手帐</button>
             <button type="button" class="soft-btn" data-go="achievements">✨ 温柔成就</button>
+            <button type="button" class="soft-btn" data-go="settings">⚙️ 设置</button>
           </div>
         </div>
         <div class="nav-cards">
@@ -107,6 +108,27 @@
         </div>
         <img class="scene-banner" src="assets/garden/empty-pot.jpg" alt="成就" width="1100" height="140" />
         <div class="album-grid" id="achievements-grid"></div>
+      </section>
+
+      <!-- 设置 -->
+      <section class="screen" id="screen-settings" data-screen="settings">
+        <div class="panel-head">
+          <button class="back-btn" data-go="home">← 回小院</button>
+          <h2>设置</h2>
+          <span class="hint">按你喜欢的节奏来</span>
+        </div>
+        <div class="settings-card side-card">
+          <label class="setting-row"><input type="checkbox" id="set-sound" /> 轻音效反馈</label>
+          <label class="setting-row"><input type="checkbox" id="set-motion" /> 减少动效</label>
+          <label class="setting-row"><input type="checkbox" id="set-tips" /> 显示小提示</label>
+          <div class="setting-actions">
+            <button type="button" class="soft-btn" id="btn-export-save">导出存档</button>
+            <button type="button" class="soft-btn" id="btn-import-save">导入存档</button>
+            <button type="button" class="soft-btn" id="btn-replay-tutorial">再看一遍引导</button>
+          </div>
+          <textarea id="save-io" class="save-io" rows="5" placeholder="存档 JSON 会显示在这里…" aria-label="存档文本"></textarea>
+          <p class="muted" id="settings-msg"></p>
+        </div>
       </section>
 
       <!-- 散步 -->
@@ -238,6 +260,20 @@
   </div>
 
   <div class="toast-stack" id="toast-stack"></div>
+
+  <!-- 首次引导 -->
+  <div id="tutorial" class="tutorial" hidden>
+    <div class="tutorial-card" role="dialog" aria-modal="true" aria-labelledby="tut-title">
+      <h3 id="tut-title">欢迎来到晚风小路</h3>
+      <p id="tut-body">这里没有倒计时，也没有失败——只有散步、盆栽和汽水。</p>
+      <div class="tutorial-actions">
+        <button type="button" class="ghost-btn" id="tut-skip">跳过</button>
+        <button type="button" class="primary-btn" id="tut-next">下一步</button>
+      </div>
+      <p class="muted center" id="tut-step">1 / 4</p>
+    </div>
+  </div>
+
   <!-- season art preloads (file:// safe relative paths) -->
   <div class="sr-only" aria-hidden="true">
     <img src="assets/seasons/dusk.jpg" alt="" width="1" height="1" />
@@ -250,6 +286,7 @@
   <script src="js/core.js"></script>
   <script src="js/content-extra.js"></script>
   <script src="js/game-data.js"></script>
+  <script src="js/audio.js"></script>
   <script src="game.js"></script>
 </body>
 </html>

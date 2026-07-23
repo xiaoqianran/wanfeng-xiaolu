@@ -102,7 +102,42 @@
       stats: { itemsPicked: 0, drinksServed: 0, plantsHarvested: 0, seasonsSeen: 1 },
       achievements: {},
       seasonIndex: 0,
+      settings: {
+        sound: true,
+        reduceMotion: false,
+        showTips: true,
+        tutorialDone: false,
+      },
+      _seasonsTouched: { dusk: true },
     };
+  }
+
+  function getSettings(state) {
+    state.settings = state.settings || {
+      sound: true,
+      reduceMotion: false,
+      showTips: true,
+      tutorialDone: false,
+    };
+    return state.settings;
+  }
+
+  function updateSettings(state, patch) {
+    var s = getSettings(state);
+    Object.keys(patch || {}).forEach(function (k) {
+      s[k] = patch[k];
+    });
+    return s;
+  }
+
+  function exportSave(state) {
+    return serialize(state);
+  }
+
+  function importSave(raw) {
+    var data = deserialize(raw);
+    if (!data) return { ok: false, reason: "invalid" };
+    return { ok: true, state: data };
   }
 
   var SEASON_ORDER = ["dusk", "spring", "summer", "autumn", "winter"];
@@ -493,5 +528,9 @@
     advanceSeason: advanceSeason,
     appendJournal: appendJournal,
     evaluateAchievements: evaluateAchievements,
+    getSettings: getSettings,
+    updateSettings: updateSettings,
+    exportSave: exportSave,
+    importSave: importSave,
   };
 });
