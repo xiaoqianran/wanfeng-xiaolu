@@ -468,3 +468,4 @@
 | 461 | completed | feat | Add collectible item batch #23 | Item pine_r0461 added | `feat(content): R0461 Add collectible item batch #23` |
 | 462 | completed | feat | Add customer persona #23 | Customer 滑板少年·462 | `feat(shop): R0462 Add customer persona #23` |
 | 463 | completed | feat | Add dialogue line #23 | Dialogue count=23 | `feat(content): R0463 Add dialogue line #23` |
+| 464 | completed | feat | Add garden care whisper #23 | Garden msg #24 | `feat(garden): R0464 Add garden care whisper #23` |
