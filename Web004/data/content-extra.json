@@ -2399,6 +2399,13 @@
       "emoji": "🤍",
       "kind": "风味",
       "seed": "jasminePot"
+    },
+    "sea_lavender": {
+      "id": "sea_lavender",
+      "name": "补血草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "seaLavenderPot"
     }
   },
   "plants": {
@@ -4376,6 +4383,17 @@
       ],
       "harvest": "jasmine",
       "days": 2
+    },
+    "seaLavenderPot": {
+      "id": "seaLavenderPot",
+      "name": "补血草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "sea_lavender",
+      "days": 3
     }
   },
   "cups": [
@@ -5280,6 +5298,16 @@
       "tags": [
         "花香",
         "温柔"
+      ]
+    },
+    {
+      "id": "sea_lavender",
+      "name": "补血草",
+      "emoji": "💜",
+      "need": "sea_lavender",
+      "tags": [
+        "花香",
+        "清爽"
       ]
     }
   ],
@@ -6600,6 +6628,22 @@
         "chamomile",
         "rose_petal"
       ]
+    },
+    {
+      "name": "捡浪花的人",
+      "avatar": "🌊",
+      "wish": "清爽花香，补血草或薄荷，装饰贝壳更好。",
+      "tags": [
+        "清爽",
+        "花香"
+      ],
+      "flavors": [
+        "sea_lavender",
+        "mint",
+        "hibiscus",
+        "plain"
+      ],
+      "wantTopping": true
     }
   ],
   "dialogues": [
