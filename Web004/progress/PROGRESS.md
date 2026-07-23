@@ -610,3 +610,4 @@
 | 603 | completed | feat | Add dialogue line #30 | Dialogue count=30 | `feat(content): R0603 Add dialogue line #30` |
 | 604 | completed | feat | Add garden care whisper #30 | Garden msg #31 | `feat(garden): R0604 Add garden care whisper #30` |
 | 605 | completed | feat | Add shop tip #30 | Shop tip #31 | `feat(shop): R0605 Add shop tip #30` |
+| 606 | completed | feat | Tune walk ambient note #30 | Walk ambient #30 | `feat(walk): R0606 Tune walk ambient note #30` |
