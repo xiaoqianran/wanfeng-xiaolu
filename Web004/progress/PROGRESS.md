@@ -1061,3 +1061,4 @@
 | 1054 | completed | feat | Season palette note #52 | Season palette winter_1054 | `feat(season): R1054 Season palette note #52` |
 | 1055 | completed | assets | Asset slot registration #52 | Asset slot assets/walk/slot_1055.png | `assets(manifest): R1055 Asset slot registration #52` |
 | 1056 | completed | test | Regression assertion pack #52 | Test pack size=54 | `test(core): R1056 Regression assertion pack #52` |
+| 1057 | completed | assets | Summer season refresh and journal-open art | summer.jpg + journal-open.jpg | `assets(album): R1057 ...` |
