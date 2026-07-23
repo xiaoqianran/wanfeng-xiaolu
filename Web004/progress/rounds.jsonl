@@ -985,3 +985,4 @@
 {"round":985,"status":"completed","type":"feat","scope":"shop","goal":"Add shop tip #49","outcome":"Shop tip #50","commit":"feat(shop): R0985 Add shop tip #49","at":"2026-07-23T19:50:22.250Z"}
 {"round":986,"status":"completed","type":"feat","scope":"walk","goal":"Tune walk ambient note #49","outcome":"Walk ambient #49","commit":"feat(walk): R0986 Tune walk ambient note #49","at":"2026-07-23T19:50:22.276Z"}
 {"round":987,"status":"completed","type":"feat","scope":"album","goal":"Add journal template #49","outcome":"Journal templates=49","commit":"feat(album): R0987 Add journal template #49","at":"2026-07-23T19:50:22.302Z"}
+{"round":988,"status":"completed","type":"feat","scope":"shop","goal":"Add secret recipe stub #49","outcome":"Recipes=49","commit":"feat(shop): R0988 Add secret recipe stub #49","at":"2026-07-23T19:50:22.329Z"}
