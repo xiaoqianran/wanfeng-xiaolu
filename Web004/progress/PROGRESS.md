@@ -835,3 +835,4 @@
 | 828 | completed | feat | Add secret recipe stub #41 | Recipes=41 | `feat(shop): R0828 Add secret recipe stub #41` |
 | 829 | completed | feat | Add achievement definition #41 | Achievements=41 | `feat(meta): R0829 Add achievement definition #41` |
 | 830 | completed | style | CSS micro polish token #41 | CSS token hue=70 | `style(ui): R0830 CSS micro polish token #41` |
+| 831 | completed | feat | Add plantable linkage #41 | Plant link plant_cocoa_0831 | `feat(content): R0831 Add plantable linkage #41` |
