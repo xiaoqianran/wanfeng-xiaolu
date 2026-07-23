@@ -36,3 +36,4 @@
 | 29 | completed | feat | Add achievement definition #1 | Achievements=1 | `feat(meta): R0029 Add achievement definition #1` |
 | 30 | completed | style | CSS micro polish token #1 | CSS token hue=150 | `style(ui): R0030 CSS micro polish token #1` |
 | 31 | completed | feat | Add plantable linkage #1 | Plant link plant_lavender_0031 | `feat(content): R0031 Add plantable linkage #1` |
+| 32 | completed | feat | Add flavor or base option #1 | Flavor fl_chamomile_0032 | `feat(shop): R0032 Add flavor or base option #1` |
