@@ -947,3 +947,4 @@
 {"round":947,"status":"completed","type":"feat","scope":"album","goal":"Add journal template #47","outcome":"Journal templates=47","commit":"feat(album): R0947 Add journal template #47","at":"2026-07-23T19:50:20.972Z"}
 {"round":948,"status":"completed","type":"feat","scope":"shop","goal":"Add secret recipe stub #47","outcome":"Recipes=47","commit":"feat(shop): R0948 Add secret recipe stub #47","at":"2026-07-23T19:50:21.009Z"}
 {"round":949,"status":"completed","type":"feat","scope":"meta","goal":"Add achievement definition #47","outcome":"Achievements=47","commit":"feat(meta): R0949 Add achievement definition #47","at":"2026-07-23T19:50:21.036Z"}
+{"round":950,"status":"completed","type":"style","scope":"ui","goal":"CSS micro polish token #47","outcome":"CSS token hue=310","commit":"style(ui): R0950 CSS micro polish token #47","at":"2026-07-23T19:50:21.063Z"}
