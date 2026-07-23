@@ -284,3 +284,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0285 | completed | feat | 芦苇岸径主题 | reed_bank 22nd + reed FX | `feat(walk): A0285 芦苇岸径主题与事件三四八则` |
 | A0286 | completed | content | 事件至348则 | 348 unique evening events | `feat(walk): A0285 芦苇岸径主题与事件三四八则` |
 | A0287 | completed | test | 芦苇主题回归 | 143 tests pass | `feat(walk): A0285 芦苇岸径主题与事件三四八则` |
+| A0288 | completed | feat | 香茅养成 | lemongrass plant+flavor+2 recipes | `feat(garden): A0288 香茅可种植与两道香茅配方` |
+| A0289 | completed | test | 香茅回归 | 144 tests pass | `feat(garden): A0288 香茅可种植与两道香茅配方` |
