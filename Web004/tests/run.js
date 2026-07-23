@@ -1398,5 +1398,17 @@ test("stone_garden theme and new achievements", () => {
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "pin_host"));
 });
 
+
+test("evening events past 150 unique", () => {
+  const ev = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(ev.length >= 150);
+  assert.strictEqual(new Set(ev.map((e) => e.title)).size, ev.length);
+  assert.strictEqual(new Set(ev.map((e) => e.id).filter(Boolean)).size, ev.filter((e) => e.id).length);
+  ev.forEach((e) => {
+    assert.ok((e.body || "").length > 12);
+    assert.ok(!/#\d{2,}|晚风碎片 #|窗台絮语 #/.test((e.title || "") + (e.body || "")));
+  });
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
