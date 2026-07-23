@@ -569,3 +569,4 @@
 | 562 | completed | feat | Add customer persona #28 | Customer 夜跑爱好者·562 | `feat(shop): R0562 Add customer persona #28` |
 | 563 | completed | feat | Add dialogue line #28 | Dialogue count=28 | `feat(content): R0563 Add dialogue line #28` |
 | 564 | completed | feat | Add garden care whisper #28 | Garden msg #29 | `feat(garden): R0564 Add garden care whisper #28` |
+| 565 | completed | feat | Add shop tip #28 | Shop tip #29 | `feat(shop): R0565 Add shop tip #28` |
