@@ -706,3 +706,4 @@
 | 699 | completed | docs | Stage milestone summary #34 | Stage doc stage-14.md | `docs(progress): R0699 Stage milestone summary #34` |
 | 700 | completed | refactor | Catalog integrity pass #34 | Integrity items=69 customers=34 | `refactor(core): R0700 Catalog integrity pass #34` |
 | 701 | completed | feat | Add collectible item batch #35 | Item pine_r0701 added | `feat(content): R0701 Add collectible item batch #35` |
+| 702 | completed | feat | Add customer persona #35 | Customer 滑板少年·702 | `feat(shop): R0702 Add customer persona #35` |
