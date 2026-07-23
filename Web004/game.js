@@ -56,9 +56,17 @@
     const rest = TOPPINGS.filter((t) => !baseIds.has(t.id)).slice(-8);
     TOPPINGS = base.concat(rest);
   }
-  let CUSTOMERS = catalog.customers.slice();
-  if (CUSTOMERS.length > 24) {
-    CUSTOMERS = Core.DEFAULT_CUSTOMERS.concat(CUSTOMERS.slice(-16));
+  let CUSTOMERS = catalog.customers.slice().filter(function (c) {
+    // drop mass-template names like "骑车的大学生·123"
+    return c && c.name && !/·\d+$/.test(c.name) && !/#\d+/.test(c.name || "");
+  });
+  if (CUSTOMERS.length < 8) {
+    CUSTOMERS = Core.DEFAULT_CUSTOMERS.concat(CUSTOMERS);
+  }
+  if (CUSTOMERS.length > 32) {
+    CUSTOMERS = Core.DEFAULT_CUSTOMERS.concat(CUSTOMERS.filter(function (c) {
+      return !Core.DEFAULT_CUSTOMERS.some(function (d) { return d.name === c.name; });
+    }).slice(-24));
   }
 
   // Live config from data/* via game-data.js (file:// safe)
@@ -1684,6 +1692,7 @@
       refreshDailyUI();
       applySettingsToDom();
       toast("🎬 已进入演示模式");
+      setTimeout(() => toast("提示：1小路 2盆栽 3汽水 4图鉴"), 900);
       go("home");
     });
   }
