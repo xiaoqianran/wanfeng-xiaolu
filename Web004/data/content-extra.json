@@ -5834,6 +5834,21 @@
         "thyme",
         "mint"
       ]
+    },
+    {
+      "name": "树荫下棋的老人",
+      "avatar": "♟️",
+      "wish": "茶底草本，慢慢喝，棋还没下完。",
+      "tags": [
+        "温柔",
+        "草本"
+      ],
+      "flavors": [
+        "tea_leaf",
+        "thyme",
+        "dill",
+        "mint"
+      ]
     }
   ],
   "dialogues": [
