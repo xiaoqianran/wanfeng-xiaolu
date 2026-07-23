@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>晚风小路 · 小清新日常</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="css/expansions.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="app">
+    <!-- 顶栏资源 -->
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">🍃</span>
+        <div>
+          <h1>晚风小路</h1>
+          <p class="subtitle">散步 · 盆栽 · 汽水铺</p>
+        </div>
+      </div>
+      <div class="resources">
+        <span class="pill" title="金币"><i>🪙</i><b id="res-coins">0</b></span>
+        <span class="pill" title="好心情"><i>💛</i><b id="res-hearts">0</b></span>
+        <span class="pill" title="背包物品"><i>🧺</i><b id="res-bag">0</b></span>
+      </div>
+    </header>
+
+    <!-- 主内容区 -->
+    <main id="screens">
+      <!-- 主页：小院 -->
+      <section class="screen active" id="screen-home" data-screen="home">
+        <div class="home-hero home-hero--art">
+          <img class="hero-art" src="assets/scenes/hero-dusk.jpg" alt="晚风小路黄昏景色" width="1100" height="240" />
+          <div class="sky">
+            <div class="sun"></div>
+            <div class="cloud c1"></div>
+            <div class="cloud c2"></div>
+          </div>
+          <div class="yard">
+            <div class="hill"></div>
+            <div class="path-preview"></div>
+            <div class="house">
+              <div class="roof"></div>
+              <div class="wall">
+                <div class="window glow"></div>
+                <div class="door"></div>
+              </div>
+            </div>
+            <div class="tree left-tree">🌳</div>
+            <div class="tree right-tree">🌲</div>
+          </div>
+        </div>
+        <div class="home-copy">
+          <h2>今天的晚风很温柔</h2>
+          <p>沿着小路散步收集灵感，在窗台照料小植物，再为路过的人调制一杯汽水吧。</p>
+        </div>
+        <div class="nav-cards">
+          <button class="nav-card" data-go="walk">
+            <span class="nav-emoji">🌅</span>
+            <span class="nav-title">晚风小路</span>
+            <span class="nav-desc">散步 · 拾取落叶与野果</span>
+          </button>
+          <button class="nav-card" data-go="garden">
+            <span class="nav-emoji">🪴</span>
+            <span class="nav-title">窗台盆栽</span>
+            <span class="nav-desc">浇水 · 日照 · 静静生长</span>
+          </button>
+          <button class="nav-card" data-go="shop">
+            <span class="nav-emoji">🍋</span>
+            <span class="nav-title">青柠汽水铺</span>
+            <span class="nav-desc">搭配 · 做给温柔的客人</span>
+          </button>
+          <button class="nav-card" data-go="album">
+            <span class="nav-emoji">📖</span>
+            <span class="nav-title">图鉴日记</span>
+            <span class="nav-desc">收集记录 · 解锁配方</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- 散步 -->
+      <section class="screen" id="screen-walk" data-screen="walk">
+        <div class="panel-head">
+          <button class="back-btn" data-go="home">← 回小院</button>
+          <h2>晚风小路</h2>
+          <span class="hint" id="walk-hint">轻点左右或用方向键走走看</span>
+        </div>
+        <div class="walk-stage" id="walk-stage">
+          <canvas id="walk-canvas" width="900" height="420"></canvas>
+          <div class="walk-ui">
+            <div class="walk-controls">
+              <button type="button" id="btn-left" aria-label="向左">◀</button>
+              <button type="button" id="btn-right" aria-label="向右">▶</button>
+            </div>
+            <div class="pickup-toast" id="pickup-toast" hidden></div>
+          </div>
+        </div>
+        <div class="walk-footer">
+          <p>沿路会遇到落叶、花瓣、野果与小石头。捡起来，可以种在窗台，也可以做成汽水。</p>
+          <button class="primary-btn" id="btn-new-path">再走一段新路 ✨</button>
+        </div>
+      </section>
+
+      <!-- 盆栽 -->
+      <section class="screen" id="screen-garden" data-screen="garden">
+        <div class="panel-head">
+          <button class="back-btn" data-go="home">← 回小院</button>
+          <h2>窗台盆栽</h2>
+          <span class="hint">点选花盆，温柔地照顾它们</span>
+        </div>
+        <img class="scene-banner" src="assets/garden/windowsill.jpg" alt="窗台盆栽" width="1100" height="140" />
+        <div class="garden-layout">
+          <div class="windowsill" id="windowsill">
+            <!-- pots rendered by js -->
+          </div>
+          <aside class="garden-side">
+            <div class="side-card" id="plant-detail">
+              <h3>选择一盆小植物</h3>
+              <p class="muted">点一下窗台上的花盆吧</p>
+            </div>
+            <div class="side-card">
+              <h3>可种植子</h3>
+              <div class="seed-list" id="seed-list"></div>
+            </div>
+            <div class="action-row" id="plant-actions" hidden>
+              <button class="soft-btn" data-act="water">💧 浇水</button>
+              <button class="soft-btn" data-act="sun">☀️ 日照</button>
+              <button class="soft-btn" data-act="talk">💬 说说话</button>
+              <button class="soft-btn accent" data-act="harvest" id="btn-harvest" hidden>🌼 收获</button>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- 汽水铺 -->
+      <section class="screen" id="screen-shop" data-screen="shop">
+        <div class="panel-head">
+          <button class="back-btn" data-go="home">← 回小院</button>
+          <h2>青柠汽水铺</h2>
+          <span class="hint">没有倒计时，慢慢做就好</span>
+        </div>
+        <img class="scene-banner" src="assets/shop/soda-hero.jpg" alt="青柠汽水" width="1100" height="140" />
+        <div class="shop-layout">
+          <div class="customer-card" id="customer-card">
+            <div class="customer-avatar" id="customer-avatar">🙂</div>
+            <div class="customer-body">
+              <h3 id="customer-name">一位路过的客人</h3>
+              <p id="customer-wish">想喝点清爽的……</p>
+              <div class="tags" id="customer-tags"></div>
+            </div>
+            <button class="ghost-btn" id="btn-skip-customer">下一位客人</button>
+          </div>
+
+          <div class="craft-board">
+            <div class="craft-col">
+              <h3>① 杯型</h3>
+              <div class="choice-grid" id="cups"></div>
+            </div>
+            <div class="craft-col">
+              <h3>② 基底</h3>
+              <div class="choice-grid" id="bases"></div>
+            </div>
+            <div class="craft-col">
+              <h3>③ 风味</h3>
+              <div class="choice-grid" id="flavors"></div>
+            </div>
+            <div class="craft-col">
+              <h3>④ 装饰</h3>
+              <div class="choice-grid" id="toppings"></div>
+            </div>
+          </div>
+
+          <div class="drink-preview">
+            <div class="glass" id="drink-glass">
+              <div class="liquid" id="drink-liquid"></div>
+              <div class="bubbles" id="drink-bubbles"></div>
+              <div class="topping-layer" id="drink-topping"></div>
+            </div>
+            <p class="drink-name" id="drink-name">未命名汽水</p>
+            <button class="primary-btn" id="btn-serve" disabled>端给客人 🥂</button>
+            <p class="muted center" id="serve-msg"></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 图鉴 -->
+      <section class="screen" id="screen-album" data-screen="album">
+        <div class="panel-head">
+          <button class="back-btn" data-go="home">← 回小院</button>
+          <h2>图鉴日记</h2>
+          <span class="hint">散步遇见的，都会记在这里</span>
+        </div>
+        <div class="album-tabs">
+          <button class="tab active" data-tab="items">收集物</button>
+          <button class="tab" data-tab="plants">盆栽</button>
+          <button class="tab" data-tab="drinks">汽水</button>
+        </div>
+        <div class="album-grid" id="album-grid"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>纯静物养成 · 散步收集 · 小店搭配 · 没有打斗，只有晚风</span>
+    </footer>
+  </div>
+
+  <div class="toast-stack" id="toast-stack"></div>
+  <script src="js/core.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

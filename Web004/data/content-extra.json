@@ -1,0 +1,13 @@
+{
+  "items": {},
+  "plants": {},
+  "cups": [],
+  "bases": [],
+  "flavors": [],
+  "toppings": [],
+  "customers": [],
+  "dialogues": [],
+  "seasons": ["dusk", "spring", "summer", "autumn", "winter"],
+  "pathThemes": ["maple_lane", "riverside", "bamboo", "starlight"],
+  "meta": { "expandedRounds": 0 }
+}

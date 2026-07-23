@@ -1,0 +1,12 @@
+{
+  "name": "wanfeng-xiaolu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "晚风小路 · 小清新日常网页游戏（毕业设计）",
+  "scripts": {
+    "test": "node tests/run.js",
+    "progress:count": "node tools/progress-stats.js",
+    "round": "node tools/run-rounds.js",
+    "verify": "node tools/verify-all.js"
+  }
+}
