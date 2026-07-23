@@ -344,3 +344,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0345 | completed | feat | 果园暮色 | orchard_dusk 30th | feat(walk): A0345 果园暮色主题与落叶特效 |
 | A0346 | completed | content | 豆蔻果园内容 | events+recipe | content(events): A0346 豆蔻果园 vignette 与配方 |
 | A0347 | completed | test | 回归防刷轮 | 162 pass spam DISABLED | test(docs): A0347 果园文案回归与手册 |
+| A0348 | completed | feat | 钉住配方与玫瑰 | pinRecipe+rosePot | feat(shop): A0348 钉住配方与玫瑰可种植 |
+| A0349 | completed | feat | 玫瑰短巷 | rose_lane 31st + pin UI | feat(walk): A0349 玫瑰短巷与配方钉选 UI |
+| A0350 | completed | content | 玫瑰内容 | events+recipes | content(events): A0350 玫瑰短巷 vignette 与配方 |
+| A0351 | completed | test | 回归手册 | 163 pass | test(docs): A0351 玫瑰钉配方回归与手册 |
