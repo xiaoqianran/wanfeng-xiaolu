@@ -2349,5 +2349,35 @@
     "id": "ev_continue_rain",
     "title": "继续走·又见雨园",
     "body": "第二次走进雨园，雨停了，青苔还没干。"
+  },
+  {
+    "id": "ev_cardamom",
+    "title": "豆蔻粒",
+    "body": "豆蔻很小，气味却很大。你把它种下，土立刻香了一点。"
+  },
+  {
+    "id": "ev_orchard_dusk",
+    "title": "果园暮色",
+    "body": "果园的光是橘色的。你没有摘果子，只捡了两片叶子。"
+  },
+  {
+    "id": "ev_apple_leaf",
+    "title": "苹果叶",
+    "body": "叶子边缘卷着，像还记得风的方向。"
+  },
+  {
+    "id": "ev_unique_ambient",
+    "title": "认得的路",
+    "body": "你开始能分辨哪一段风是果园的，哪一段是雨园的。"
+  },
+  {
+    "id": "ev_shop_tip_soft",
+    "title": "靠窗的人",
+    "body": "客人说下次还想坐靠窗。你把杯子洗得更轻一点。"
+  },
+  {
+    "id": "ev_continue_orchard",
+    "title": "继续走·又见果园",
+    "body": "第二次走进果园，暮色更短，气味更熟。"
   }
 ]
