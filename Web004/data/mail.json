@@ -343,5 +343,32 @@
       "coins": 2,
       "hearts": 1
     }
+  },
+  {
+    "id": "mail_matcha",
+    "title": "一小袋抹茶",
+    "body": "字条：打匀了喝，不要着急。也可以撒在汽水上试试。",
+    "effect": {
+      "items": {
+        "matcha": 2
+      }
+    }
+  },
+  {
+    "id": "mail_stone",
+    "title": "石庭明信片",
+    "body": "正面是沙纹，背面写：慢转一圈，世界也转。",
+    "effect": {
+      "hearts": 1,
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snap2",
+    "title": "空白速写本",
+    "body": "没有画，只有味道：铅笔和一点点土。",
+    "effect": {
+      "hearts": 2
+    }
   }
 ]
