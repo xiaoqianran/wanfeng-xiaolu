@@ -1142,6 +1142,7 @@
     world = makeWorld(2000 + state.pathsWalked * 131 + Date.now() % 1000);
     if (first && first.ok) {
       toast("🌅 今日第一脚 · +2 🪙 +1 💛 · 水壶 +1");
+      sfx("unlock");
     } else if (ev) {
       toast("📖 " + ev.title + " — " + (ev.body || "").slice(0, 28) + "…");
     } else {

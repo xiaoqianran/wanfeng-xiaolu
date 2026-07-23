@@ -39,3 +39,10 @@ BGM 提示词：soft dusk ambient pad, no melody hook, low volume, loopable 60s,
 | 窗台速写 | snap | 短 square，模拟轻快门 |
 
 全部为 WebAudio 合成，无外部采样版权依赖。
+
+## 增补（A0249）
+| 动作 | 实现 | 说明 |
+|------|------|------|
+| 今日第一脚 | 复用 theme/unlock 短音 | 首次出门 toast 时播放 unlock |
+| 熟土收获 | harvest | 记忆加成时仍用 harvest |
+| 老样子复刻 | ui | 填入配方时轻点 |
