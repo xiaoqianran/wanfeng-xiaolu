@@ -909,5 +909,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_passion",
+    "title": "百香果两颗",
+    "body": "刮百香果的厨子来信：新鲜最好。给你两颗，别放太久。",
+    "effect": {
+      "items": {
+        "passion_fruit": 2
+      },
+      "coins": 2
+    }
   }
 ]
