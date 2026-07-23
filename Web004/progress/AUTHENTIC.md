@@ -51,3 +51,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0051 | completed | feat | 六种独特收集物 | seashell pinecone ribbon tea_leaf star_sand river_pebble | `feat(content): A0051 六种独特收集物与野茶芽风味` |
 | A0052 | completed | feat | 说话专属文案 | talkLines pool for talk action | `feat(garden): A0052 说话专属文案库 talkLines` |
 | A0053 | completed | feat | 设置页版本元信息 | build-meta VERSION + theme | `feat(settings): A0053 设置页显示存档版本与主题元信息` |
+| A0054 | completed | feat | 演示模式操作提示 | toast 1-4 nav after demo load | `feat(demo): A0054 演示模式快捷键提示与导航指引` |
+| A0055 | completed | fix | 过滤模板客人名 | drop names matching ·digits spam | `feat(demo): A0054 演示模式快捷键提示与导航指引` |
+| A0056 | completed | content | 独特小店提示 | 10 unique tipMessages | `content(shop): A0056 十则独特小店提示替换刷轮文案` |
