@@ -688,3 +688,4 @@
 {"round":688,"status":"completed","type":"feat","scope":"shop","goal":"Add secret recipe stub #34","outcome":"Recipes=34","commit":"feat(shop): R0688 Add secret recipe stub #34","at":"2026-07-23T19:50:10.667Z"}
 {"round":689,"status":"completed","type":"feat","scope":"meta","goal":"Add achievement definition #34","outcome":"Achievements=34","commit":"feat(meta): R0689 Add achievement definition #34","at":"2026-07-23T19:50:10.691Z"}
 {"round":690,"status":"completed","type":"style","scope":"ui","goal":"CSS micro polish token #34","outcome":"CSS token hue=210","commit":"style(ui): R0690 CSS micro polish token #34","at":"2026-07-23T19:50:10.715Z"}
+{"round":691,"status":"completed","type":"feat","scope":"content","goal":"Add plantable linkage #34","outcome":"Plant link plant_lavender_0691","commit":"feat(content): R0691 Add plantable linkage #34","at":"2026-07-23T19:50:10.744Z"}
