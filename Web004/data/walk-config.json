@@ -3,5 +3,10 @@
     "maple": 1.01
   },
   "pathWidth": 3207,
-  "ambient": []
+  "ambient": [
+    {
+      "round": 26,
+      "note": "虫鸣片段 #26"
+    }
+  ]
 }
