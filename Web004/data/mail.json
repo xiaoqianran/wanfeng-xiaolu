@@ -788,5 +788,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_pom",
+    "title": "石榴籽一包",
+    "body": "剥石榴的女孩来信：籽要新鲜。给你一小包，别放潮。",
+    "effect": {
+      "items": {
+        "pomegranate": 2
+      },
+      "coins": 2
+    }
   }
 ]

@@ -1460,6 +1460,21 @@ function renderJournal() {
         ctx.ellipse(x, y, 14, 8, 0, 0, Math.PI * 2);
         ctx.fill();
       }
+    } else if (themeId === "pomegranate_court") {
+      // courtyard walls + red seed sparkles
+      ctx.fillStyle = "rgba(80,40,50,0.1)";
+      ctx.fillRect(0, 0, w * 0.12, h);
+      ctx.fillRect(w * 0.88, 0, w * 0.12, h);
+      ctx.fillStyle = "rgba(180,40,50,0.5)";
+      for (let i = 0; i < 16; i++) {
+        const x = w * 0.2 + ((i * 47 + time * 0.3) % (w * 0.6));
+        const y = h * 0.35 + ((i * 29) % (h * 0.4));
+        ctx.globalAlpha = 0.3 + 0.4 * Math.abs(Math.sin(time * 0.05 + i));
+        ctx.beginPath();
+        ctx.arc(x, y, 2, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
     }
   }
 
@@ -2142,6 +2157,29 @@ function renderJournal() {
     });
   })();
 
+  (function wireFavPlant() {
+    const btn = document.getElementById("btn-fav-plant");
+    if (!btn || btn._wired) return;
+    btn._wired = true;
+    btn.addEventListener("click", () => {
+      const pot = state.pots[state.selectedPot];
+      if (!pot || !pot.plantId) {
+        toast("先选一盆有植物的花盆");
+        return;
+      }
+      const r = Core.setFavoritePlant(state, pot.plantId);
+      if (!r.ok) {
+        toast("没能标记");
+        return;
+      }
+      checkAchievements();
+      save();
+      renderGarden();
+      toast("★ 已记成最想照料的植物");
+      sfx("pin");
+    });
+  })();
+
   
   
   (function wireFavCup() {
@@ -2415,7 +2453,7 @@ function renderJournal() {
     if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || flavorDef.id === "rose_petal" || flavorDef.id === "elderflower" || baseDef.id === "floral_tea")) {
       score += 0.5; notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5; notes.push("夏日清爽");
     }
     if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel" || flavorDef.id === "cardamom" || flavorDef.id === "ginger" || flavorDef.id === "calendula" || flavorDef.id === "chrysanthemum" || flavorDef.id === "hibiscus" || flavorDef.id === "plum" || flavorDef.id === "grape" || flavorDef.id === "mulberry" || flavorDef.id === "persimmon" || flavorDef.id === "fig")) {
