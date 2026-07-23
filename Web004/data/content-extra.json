@@ -2455,6 +2455,13 @@
       "emoji": "🫐",
       "kind": "风味",
       "seed": "blueberryPot"
+    },
+    "grape": {
+      "id": "grape",
+      "name": "葡萄",
+      "emoji": "🍇",
+      "kind": "风味",
+      "seed": "grapePot"
     }
   },
   "plants": {
@@ -4509,6 +4516,17 @@
       ],
       "harvest": "blueberry",
       "days": 3
+    },
+    "grapePot": {
+      "id": "grapePot",
+      "name": "葡萄",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍇"
+      ],
+      "harvest": "grape",
+      "days": 3
     }
   },
   "cups": [
@@ -5483,6 +5501,16 @@
       "tags": [
         "果香",
         "清爽"
+      ]
+    },
+    {
+      "id": "grape",
+      "name": "葡萄",
+      "emoji": "🍇",
+      "need": "grape",
+      "tags": [
+        "果香",
+        "甜蜜"
       ]
     }
   ],
@@ -6911,6 +6939,21 @@
         "mulberry"
       ],
       "wantTopping": true
+    },
+    {
+      "name": "酿果汁的人",
+      "avatar": "🍇",
+      "wish": "葡萄或蜜，甜一点，暖杯也行。",
+      "tags": [
+        "甜蜜",
+        "果香"
+      ],
+      "flavors": [
+        "grape",
+        "honey",
+        "mulberry",
+        "blueberry"
+      ]
     }
   ],
   "dialogues": [
