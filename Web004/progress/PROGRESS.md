@@ -595,3 +595,4 @@
 | 588 | completed | assets | Wire real stage art reference into runtime manifest #48 | live art assets/album/live_0588.jpg from assets/ui/achievements-badges.jpg (≥1KB) | `assets(ui): R0588 Wire real stage art reference into runtime manifest #48` |
 | 589 | completed | feat | Ship collectible + runtime catalog item #49 | Runtime item grape_r0589 | `feat(content): R0589 Ship collectible + runtime catalog item #49` |
 | 590 | completed | feat | Ship customer persona into runtime #49 | Runtime customer 图书馆员·590 | `feat(shop): R0590 Ship customer persona into runtime #49` |
+| 591 | completed | feat | Ship walk ambient + pathWidth into runtime #49 | walk pathWidth=3391 ambient=101 | `feat(walk): R0591 Ship walk ambient + pathWidth into runtime #49` |
