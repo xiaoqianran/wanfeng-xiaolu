@@ -391,3 +391,4 @@
 | 384 | completed | feat | Add garden care whisper #19 | Garden msg #20 | `feat(garden): R0384 Add garden care whisper #19` |
 | 385 | completed | feat | Add shop tip #19 | Shop tip #20 | `feat(shop): R0385 Add shop tip #19` |
 | 386 | completed | feat | Tune walk ambient note #19 | Walk ambient #19 | `feat(walk): R0386 Tune walk ambient note #19` |
+| 387 | completed | feat | Add journal template #19 | Journal templates=19 | `feat(album): R0387 Add journal template #19` |
