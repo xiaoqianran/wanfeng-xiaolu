@@ -2007,6 +2007,14 @@
       "kind": "风味",
       "seed": null,
       "round": 973
+    },
+    "seed_rose_0983": {
+      "id": "seed_rose_0983",
+      "name": "玫瑰瓣种子",
+      "emoji": "🌹",
+      "kind": "种子",
+      "seed": "plant_rose_0983",
+      "round": 983
     }
   },
   "plants": {
@@ -3617,6 +3625,18 @@
       "harvest": "seed_feather_0971",
       "days": 5,
       "round": 971
+    },
+    "plant_rose_0983": {
+      "id": "plant_rose_0983",
+      "name": "玫瑰瓣盆栽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌹"
+      ],
+      "harvest": "seed_rose_0983",
+      "days": 5,
+      "round": 983
     }
   },
   "cups": [],
@@ -6850,7 +6870,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 978,
+    "expandedRounds": 983,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
