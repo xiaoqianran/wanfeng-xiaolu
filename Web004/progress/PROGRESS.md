@@ -299,3 +299,4 @@
 | 292 | completed | feat | Add flavor or base option #14 | Flavor fl_matcha_0292 | `feat(shop): R0292 Add flavor or base option #14` |
 | 293 | completed | feat | UI copy toast string #14 | UI toasts=15 | `feat(ui): R0293 UI copy toast string #14` |
 | 294 | completed | feat | Season palette note #14 | Season palette winter_0294 | `feat(season): R0294 Season palette note #14` |
+| 295 | completed | assets | Asset slot registration #14 | Asset slot assets/walk/slot_0295.png | `assets(manifest): R0295 Asset slot registration #14` |
