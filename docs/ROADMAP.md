@@ -25,3 +25,10 @@
 - 下一轮：A0129+
 - 真实完成：121/1000
 - 策略：仅 authentic 轮次计入；spam 永久禁用
+
+## 执行锚点 2026-07-24（会话末）
+- authentic **208 / 1000**（SoT: Web004/progress/authentic-rounds.jsonl）
+- 下一轮 **A0216+**
+- spam 引擎 **DISABLED**
+- 三大系统：静物养成 / 散步收集 / 小店搭配 均可玩且持续扩内容
+- 验证：`cd Web004 && node tests/run.js && node tools/quality-gate.js` → 124 pass / QG PASS
