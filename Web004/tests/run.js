@@ -1908,5 +1908,56 @@ test("star_dock theme among 23 unique themes", () => {
   assert.ok(game.includes("star_dock"));
 });
 
+
+test("fennel and bergamot plantable on sill", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.fennel && j.items.fennel.seed === "fennelPot");
+  assert.ok(j.plants.fennelPot && j.plants.fennelPot.harvest === "fennel");
+  assert.ok(j.items.bergamot && j.items.bergamot.seed === "bergamotPot");
+  assert.ok(j.plants.bergamotPot && j.plants.bergamotPot.harvest === "bergamot");
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants });
+  const s = core.defaultState();
+  s.bag.fennel = 1;
+  assert.ok(core.plantSeed(s, 0, "fennel", cat).ok);
+  assert.strictEqual(s.pots[0].plantId, "fennelPot");
+  s.bag.bergamot = 1;
+  assert.ok(core.plantSeed(s, 1, "bergamot", cat).ok);
+  assert.strictEqual(s.pots[1].plantId, "bergamotPot");
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "青苔茴香苏打"));
+  assert.ok(recipes.some((r) => r.name === "佛手柑窗台茶"));
+});
+
+
+test("moss_steps theme FX and 24 unique themes", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "moss_steps"));
+  assert.ok(themes.length >= 24);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const moss = themes.find((th) => th.id === "moss_steps");
+  assert.ok(moss.bias && moss.bias.moss >= 2);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("moss_steps"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "moss_walker"));
+  const s = core.defaultState();
+  s._themesTouched = { moss_steps: true };
+  const newly = core.evaluateAchievements(s);
+  assert.ok(newly.some((a) => a.id === "moss_walker") || s.achievements.moss_walker);
+});
+
+
+test("album memories tab ships with potSnaps wall", () => {
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes('data-tab="memories"'));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes('tab === "memories"') || game.includes("tab === 'memories'"));
+  assert.ok(game.includes("memory-summary") || game.includes("小路回忆"));
+  const css = fs.readFileSync(path.join(__dirname, "..", "styles.css"), "utf8");
+  assert.ok(css.includes("memory-summary"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "memory_keeper"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("青苔石阶") && man.includes("回忆"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
