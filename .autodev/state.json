@@ -4,16 +4,16 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 7,
+  "current_round": 12,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 6,
-  "authentic_game_integrated_rounds": 4,
+  "authentic_rounds_completed": 9,
+  "authentic_game_integrated_rounds": 6,
   "template_spam_archived": true,
   "template_spam_count_archived": 1020,
   "current_milestone": "authentic rebuild after skeptic",
   "current_task_id": "T-continue-authentic",
   "last_completed_task_id": "A0006-evening-events",
-  "last_commit": "c31f9e8",
+  "last_commit": "07123ca",
   "last_verified_build": "file:// Web004/index.html",
   "last_test_summary": "34 passed, 0 failed",
   "core_loop_status": "playable",
@@ -38,6 +38,6 @@
     "performance smoke",
     "unique generated art when API recovers"
   ],
-  "resume_instructions": "Read Web004/progress/AUTHENTIC.md and authentic-rounds.jsonl (NOT rounds.jsonl spam). authentic_game_integrated_rounds is the honest count. Do NOT re-enable tools/run-rounds.js spam. Continue A0009+ with real systems/content/art. Tests: cd Web004 && node tests/run.js",
-  "updated_at": "2026-07-23T20:48:46.762581+00:00"
+  "resume_instructions": "AUTHENTIC ONLY: Web004/progress/authentic-rounds.jsonl. Spam archived. Continue A0014+ real features. Tests: cd Web004 && node tests/run.js. Target 1000 authentic still open.",
+  "updated_at": "2026-07-23T20:50:07.668000+00:00"
 }
