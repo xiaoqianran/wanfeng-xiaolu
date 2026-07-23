@@ -2560,6 +2560,13 @@
       "emoji": "🟠",
       "kind": "风味",
       "seed": "kumquatPot"
+    },
+    "passion_fruit": {
+      "id": "passion_fruit",
+      "name": "百香果",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "passionFruitPot"
     }
   },
   "plants": {
@@ -4779,6 +4786,17 @@
       ],
       "harvest": "kumquat",
       "days": 2
+    },
+    "passionFruitPot": {
+      "id": "passionFruitPot",
+      "name": "百香果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "passion_fruit",
+      "days": 3
     }
   },
   "cups": [
@@ -5903,6 +5921,16 @@
       "tags": [
         "清爽",
         "果香"
+      ]
+    },
+    {
+      "id": "passion_fruit",
+      "name": "百香果",
+      "emoji": "🟣",
+      "need": "passion_fruit",
+      "tags": [
+        "果香",
+        "清爽"
       ]
     }
   ],
@@ -7562,6 +7590,22 @@
         "yuzu",
         "tea_leaf"
       ]
+    },
+    {
+      "name": "刮百香果的厨子",
+      "avatar": "🥄",
+      "wish": "百香果或蜜，酸一点，清爽最好，装饰随意。",
+      "tags": [
+        "清爽",
+        "果香"
+      ],
+      "flavors": [
+        "passion_fruit",
+        "honey",
+        "mint",
+        "pineapple"
+      ],
+      "wantTopping": true
     }
   ],
   "dialogues": [
