@@ -3403,6 +3403,19 @@
         "plain"
       ],
       "round": 98
+    },
+    {
+      "name": "图书馆员·110",
+      "avatar": "📚",
+      "wish": "想要一点温柔的味道。",
+      "tags": [
+        "温柔"
+      ],
+      "flavors": [
+        "jasmine",
+        "plain"
+      ],
+      "round": 110
     }
   ],
   "dialogues": [
@@ -3713,7 +3726,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 109,
+    "expandedRounds": 110,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
