@@ -738,3 +738,4 @@
 | 731 | completed | feat | Ship plantable seed linkage into runtime #60 | plant link plant_feather_0731 harvest=seed_feather_0731 | `feat(content): R0731 Ship plantable seed linkage into runtime #60` |
 | 732 | completed | assets | Wire real stage art reference into runtime manifest #60 | live art assets/shop/live_0732.jpg from assets/shop/soda-hero.jpg (≥1KB) | `assets(ui): R0732 Wire real stage art reference into runtime manifest #60` |
 | 733 | completed | feat | Ship collectible + runtime catalog item #61 | Runtime item osmanthus_r0733 | `feat(content): R0733 Ship collectible + runtime catalog item #61` |
+| 734 | completed | feat | Ship customer persona into runtime #61 | Runtime customer 弹尤克里里的人·734 | `feat(shop): R0734 Ship customer persona into runtime #61` |
