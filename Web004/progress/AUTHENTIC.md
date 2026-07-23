@@ -388,3 +388,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0389 | completed | feat | 桑荫小径 | mulberry_lane 41st | feat(walk): A0389 桑荫小径主题与树荫特效 |
 | A0390 | completed | content | 桑荫内容 | events+recipe | content(events): A0390 桑荫 vignette 与桑葚蜜罐 |
 | A0391 | completed | test | 回归手册 | 173 pass | test(docs): A0391 多样窗台桑荫回归与手册 |
+| A0392 | completed | feat | 草莓可种植 | strawberryPot | feat(garden): A0392 草莓可种植窗台 |
+| A0393 | completed | feat | 莓田慢步 | berry_patch 42nd | feat(walk): A0393 莓田慢步主题与田垄特效 |
+| A0394 | completed | content | 莓田内容 | events+recipes | content(events): A0394 莓田 vignette 与草莓配方 |
+| A0395 | completed | test | 回归手册 | 174 pass | test(docs): A0395 草莓莓田回归与手册 |

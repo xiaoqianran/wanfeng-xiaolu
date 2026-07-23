@@ -96,3 +96,10 @@
 - spam DISABLED
 - 主题 **40** · 测试 172 pass
 - `cd Web004 && node tests/run.js && node tools/quality-gate.js`
+
+## 执行锚点 A0395
+- authentic **388** / 1000
+- 下一轮 A0396+
+- spam DISABLED
+- 主题 42 · 测试 174 pass
+- `cd Web004 && node tests/run.js && node tools/quality-gate.js`
