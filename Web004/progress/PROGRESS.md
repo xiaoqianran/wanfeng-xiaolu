@@ -614,3 +614,4 @@
 | 607 | completed | feat | Add journal template #30 | Journal templates=30 | `feat(album): R0607 Add journal template #30` |
 | 608 | completed | feat | Add secret recipe stub #30 | Recipes=30 | `feat(shop): R0608 Add secret recipe stub #30` |
 | 609 | completed | feat | Add achievement definition #30 | Achievements=30 | `feat(meta): R0609 Add achievement definition #30` |
+| 610 | completed | style | CSS micro polish token #30 | CSS token hue=290 | `style(ui): R0610 CSS micro polish token #30` |
