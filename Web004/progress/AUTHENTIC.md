@@ -173,3 +173,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0174 | completed | test | 150+事件回归 | 115 tests pass | `content(events): A0173 晚间 vignette 至一五七则` |
 | A0175 | completed | feat | 抹茶风味 | matcha item+flavor+recipe+customer | `feat(shop): A0175 抹茶风味与竹影抹茶配方` |
 | A0176 | completed | test | 抹茶回归 | 116 tests pass | `feat(shop): A0175 抹茶风味与竹影抹茶配方` |
+| A0177 | completed | docs | 假设GDD同步 | ASSUMPTIONS A8-10 + GDD systems | `docs(gdd): A0177 假设与 GDD 同步水壶常客速写` |
+| A0178 | completed | content | 抹茶石庭信 | mail 40 unique letters | `docs(gdd): A0177 假设与 GDD 同步水壶常客速写` |
