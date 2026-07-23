@@ -1464,5 +1464,18 @@ test("favoritePathTheme and moss collectible ship", () => {
   assert.ok(j.items.moss);
 });
 
+
+test("season tips expanded and customers 36 unique", () => {
+  const tips = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "season-tips.json"), "utf8"));
+  ["spring", "summer", "autumn", "winter", "dusk"].forEach((k) => {
+    assert.ok(Array.isArray(tips[k]) && tips[k].length >= 4, k);
+    tips[k].forEach((line) => assert.ok(line.length > 6 && !/#\d+/.test(line)));
+  });
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const names = (j.customers || []).map((c) => c.name);
+  assert.ok(names.length >= 34);
+  assert.strictEqual(new Set(names).size, names.length);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

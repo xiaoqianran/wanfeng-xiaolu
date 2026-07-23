@@ -5539,6 +5539,37 @@
         "rosemary",
         "honey"
       ]
+    },
+    {
+      "name": "画沙纹的人",
+      "avatar": "🖌️",
+      "wish": "茶底清淡，像石庭的安静。",
+      "tags": [
+        "温柔",
+        "清爽"
+      ],
+      "flavors": [
+        "matcha",
+        "tea_leaf",
+        "plain",
+        "mint"
+      ]
+    },
+    {
+      "name": "收集青苔的孩子",
+      "avatar": "🧒",
+      "wish": "随便什么，最好有一点点绿。",
+      "tags": [
+        "清爽",
+        "田园"
+      ],
+      "flavors": [
+        "matcha",
+        "mint",
+        "sage",
+        "plain"
+      ],
+      "wantTopping": true
     }
   ],
   "dialogues": [
