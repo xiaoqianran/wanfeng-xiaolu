@@ -111,3 +111,9 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0112 | completed | content | 晚间事件至90则 | 90 unique vignettes + shop tips dialogues | `content(world): A0112 晚间事件至九十则与小店对话提示` |
 | A0113 | completed | art | 三大系统导航图标 | unique shop/garden/bag PNGs wired | `art(ui): A0113 汽水铺盆栽竹篮独特程序化图标` |
 | A0114 | completed | test | 事件与图标回归 | 94 tests pass | `test(content): A0114 事件唯一性与导航图标回归` |
+| A0115 | completed | feat | 收集物种类筛选 | kind chips + spam id filter | `feat(album): A0115 收集物种类筛选与展示架季节色` |
+| A0116 | completed | feat | 今日展示架 | shelfDrinks last 3 cups UI | `feat(album): A0115 收集物种类筛选与展示架季节色` |
+| A0117 | completed | feat | 花盆季节色调 | season-* class on pot slots | `feat(album): A0115 收集物种类筛选与展示架季节色` |
+| A0118 | completed | feat | 便签长椅日目标 | pot_note_day bench_once goals | `feat(daily): A0116 日目标支持便签与长椅歇脚` |
+| A0119 | completed | feat | 丁香养成 | lilac plant flavor recipe mail | `feat(garden): A0117 丁香可种植与丁香暮色配方` |
+| A0120 | completed | test | 筛选展示架回归 | 97 tests pass | `test(album): A0118 图鉴筛选展示架丁香回归` |
