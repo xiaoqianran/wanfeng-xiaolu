@@ -202,3 +202,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0203 | completed | test | 雪灯回归 | 122 tests pass | `feat(walk): A0202 雪灯小径主题与雪花灯笼特效` |
 | A0204 | completed | docs | 手册十六主题 | USER_MANUAL all 16 themes listed | `docs(manual): A0204 手册补全十六主题与雪灯事件` |
 | A0205 | completed | content | 雪灯事件 | 217 evening events | `docs(manual): A0204 手册补全十六主题与雪灯事件` |
+| A0206 | completed | feat | 雪灯与常走成就 | snow_walker fav_path achievements | `feat(meta): A0206 雪灯旅人与常走小路成就` |
+| A0207 | completed | test | 新成就回归 | 123 tests pass | `feat(meta): A0206 雪灯旅人与常走小路成就` |
