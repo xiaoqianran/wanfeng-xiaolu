@@ -211,3 +211,4 @@
 | 204 | completed | assets | Wire real stage art reference into runtime manifest #16 | live art assets/ui/live_0204.jpg from assets/shop/soda-hero.jpg (≥1KB) | `assets(ui): R0204 Wire real stage art reference into runtime manifest #16` |
 | 205 | completed | feat | Ship collectible + runtime catalog item #17 | Runtime item coconut_r0205 | `feat(content): R0205 Ship collectible + runtime catalog item #17` |
 | 206 | completed | feat | Ship customer persona into runtime #17 | Runtime customer 采风记者·206 | `feat(shop): R0206 Ship customer persona into runtime #17` |
+| 207 | completed | feat | Ship walk ambient + pathWidth into runtime #17 | walk pathWidth=3207 ambient=69 | `feat(walk): R0207 Ship walk ambient + pathWidth into runtime #17` |
