@@ -1746,5 +1746,52 @@ test("setFavoriteCup and fav-cup UI", () => {
   assert.ok(game.includes("setFavoriteCup") || game.includes("favoriteCupId"));
 });
 
+
+test("getDailySpecial is stable per day and scores match", () => {
+  const s = core.defaultState();
+  s.season = "summer";
+  const day = new Date(2026, 6, 24, 12, 0, 0).getTime();
+  const a = core.getDailySpecial(s, day);
+  const b = core.getDailySpecial(s, day);
+  assert.strictEqual(a.flavor, b.flavor);
+  assert.ok(a.label && a.hint.indexOf(a.label) >= 0);
+  const craft = { cup: "tall", base: "soda", flavor: a.flavor, topping: "none" };
+  // ensure flavor exists in catalogs for scoreDrink
+  const flavors = [{ id: a.flavor, name: a.label, tags: ["清爽"] }, { id: "plain", name: "原味", tags: ["清爽"] }];
+  const hit = core.scoreDrink(
+    { tags: ["清爽"], flavors: ["plain"] },
+    craft,
+    {
+      season: "summer",
+      dailySpecial: a,
+      cups: [{ id: "tall", vibe: "清爽" }],
+      bases: [{ id: "soda", vibe: "清爽" }],
+      flavors: flavors,
+      toppings: [{ id: "none" }],
+    }
+  );
+  assert.ok(hit.notes.some((n) => n.indexOf("特调") >= 0));
+  assert.ok(hit.dailySpecial);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((x) => x.id === "daily_specialist"));
+});
+
+test("moon_well theme and basil plantable", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "moon_well"));
+  assert.ok(themes.length >= 21);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("moon_well") && game.includes("getDailySpecial"));
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("daily-special-hint"));
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.basil && j.plants.basilPot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants });
+  const s = core.defaultState();
+  s.bag.basil = 1;
+  assert.ok(core.plantSeed(s, 0, "basil", cat).ok);
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "月井罗勒苏打"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
