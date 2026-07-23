@@ -922,3 +922,4 @@
 {"round":922,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #46","outcome":"Customer 夜跑爱好者·922","commit":"feat(shop): R0922 Add customer persona #46","at":"2026-07-23T19:50:20.168Z"}
 {"round":923,"status":"completed","type":"feat","scope":"content","goal":"Add dialogue line #46","outcome":"Dialogue count=46","commit":"feat(content): R0923 Add dialogue line #46","at":"2026-07-23T19:50:20.195Z"}
 {"round":924,"status":"completed","type":"feat","scope":"garden","goal":"Add garden care whisper #46","outcome":"Garden msg #47","commit":"feat(garden): R0924 Add garden care whisper #46","at":"2026-07-23T19:50:20.222Z"}
+{"round":925,"status":"completed","type":"feat","scope":"shop","goal":"Add shop tip #46","outcome":"Shop tip #47","commit":"feat(shop): R0925 Add shop tip #46","at":"2026-07-23T19:50:20.259Z"}
