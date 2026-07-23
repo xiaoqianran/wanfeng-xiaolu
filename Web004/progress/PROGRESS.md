@@ -462,3 +462,4 @@
 | 455 | completed | feat | Ship plantable seed linkage into runtime #37 | plant link plant_mango_0455 harvest=seed_mango_0455 | `feat(content): R0455 Ship plantable seed linkage into runtime #37` |
 | 456 | completed | assets | Wire real stage art reference into runtime manifest #37 | live art assets/garden/live_0456.jpg from assets/ui/achievements-badges.jpg (≥1KB) | `assets(ui): R0456 Wire real stage art reference into runtime manifest #37` |
 | 457 | completed | feat | Ship collectible + runtime catalog item #38 | Runtime item hibiscus_r0457 | `feat(content): R0457 Ship collectible + runtime catalog item #38` |
+| 458 | completed | feat | Ship customer persona into runtime #38 | Runtime customer 烘焙店员·458 | `feat(shop): R0458 Ship customer persona into runtime #38` |
