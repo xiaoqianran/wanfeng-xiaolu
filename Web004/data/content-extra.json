@@ -311,6 +311,14 @@
       "kind": "种子",
       "seed": "plant_lavender_0391",
       "round": 391
+    },
+    "pine_r0401": {
+      "id": "pine_r0401",
+      "name": "松针·401",
+      "emoji": "🌲",
+      "kind": "收藏",
+      "seed": null,
+      "round": 401
     }
   },
   "plants": {
@@ -1262,7 +1270,7 @@
     "theme_0397"
   ],
   "meta": {
-    "expandedRounds": 400,
+    "expandedRounds": 401,
     "lastIntegrityRound": 400,
     "itemCount": 39,
     "customerCount": 19
