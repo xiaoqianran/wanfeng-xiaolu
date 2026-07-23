@@ -733,5 +733,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_strawberry",
+    "title": "干草莓片",
+    "body": "摘草莓的孩子来信：晒干也能入杯。给你两片。",
+    "effect": {
+      "items": {
+        "strawberry": 2
+      },
+      "coins": 2
+    }
   }
 ]
