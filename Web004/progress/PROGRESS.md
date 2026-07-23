@@ -66,3 +66,4 @@
 | 59 | completed | docs | Stage milestone summary #2 | Stage doc stage-02.md | `docs(progress): R0059 Stage milestone summary #2` |
 | 60 | completed | refactor | Catalog integrity pass #2 | Integrity items=5 customers=2 | `refactor(core): R0060 Catalog integrity pass #2` |
 | 61 | completed | feat | Add collectible item batch #3 | Item lavender_r0061 added | `feat(content): R0061 Add collectible item batch #3` |
+| 62 | completed | feat | Add customer persona #3 | Customer 织围巾的阿姨·62 | `feat(shop): R0062 Add customer persona #3` |
