@@ -340,3 +340,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0341 | completed | feat | 雨园慢径 | rain_garden 29th + sticker memory | feat(walk): A0341 雨园慢径与回忆贴纸墙 |
 | A0342 | completed | content | 姜雨园内容 | events+recipes | content(events): A0342 姜雨园 vignette 与配方 |
 | A0343 | completed | test | 回归手册 | 161 pass | test(docs): A0343 姜雨园回归与手册 |
+| A0344 | completed | feat | 独特文案与豆蔻 | unique ambient/garden/shop + cardamom | feat(content): A0344 独特文案库与豆蔻可种植 |
+| A0345 | completed | feat | 果园暮色 | orchard_dusk 30th | feat(walk): A0345 果园暮色主题与落叶特效 |
+| A0346 | completed | content | 豆蔻果园内容 | events+recipe | content(events): A0346 豆蔻果园 vignette 与配方 |
+| A0347 | completed | test | 回归防刷轮 | 162 pass spam DISABLED | test(docs): A0347 果园文案回归与手册 |

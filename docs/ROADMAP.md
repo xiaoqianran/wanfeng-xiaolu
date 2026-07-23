@@ -52,3 +52,9 @@
 - 三大系统：茴香/佛手柑窗台 · 青苔石阶 · 图鉴回忆 · 小店配方
 - `cd Web004 && node tests/run.js && node tools/quality-gate.js` → 154 pass
 
+## 执行锚点 A0347
+- authentic **340** / 1000
+- 下一轮 A0348+
+- spam DISABLED（run-rounds.js 永久禁用）
+- 主题 30 · 测试 162 pass
+- `cd Web004 && node tests/run.js && node tools/quality-gate.js`
