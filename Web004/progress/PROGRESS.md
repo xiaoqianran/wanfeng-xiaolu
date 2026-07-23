@@ -966,3 +966,4 @@
 | 959 | completed | feat | Ship plantable seed linkage into runtime #79 | plant link plant_pear_0959 harvest=seed_pear_0959 | `feat(content): R0959 Ship plantable seed linkage into runtime #79` |
 | 960 | completed | assets | Wire real stage art reference into runtime manifest #79 | live art assets/walk/live_0960.jpg from assets/items/collectibles-sheet.jpg (≥1KB) | `assets(ui): R0960 Wire real stage art reference into runtime manifest #79` |
 | 961 | completed | feat | Ship collectible + runtime catalog item #80 | Runtime item lavender_r0961 | `feat(content): R0961 Ship collectible + runtime catalog item #80` |
+| 962 | completed | feat | Ship customer persona into runtime #80 | Runtime customer 织围巾的阿姨·962 | `feat(shop): R0962 Ship customer persona into runtime #80` |
