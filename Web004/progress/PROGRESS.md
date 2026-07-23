@@ -273,3 +273,4 @@
 | 266 | completed | feat | Tune walk ambient note #13 | Walk ambient #13 | `feat(walk): R0266 Tune walk ambient note #13` |
 | 267 | completed | feat | Add journal template #13 | Journal templates=13 | `feat(album): R0267 Add journal template #13` |
 | 268 | completed | feat | Add secret recipe stub #13 | Recipes=13 | `feat(shop): R0268 Add secret recipe stub #13` |
+| 269 | completed | feat | Add achievement definition #13 | Achievements=13 | `feat(meta): R0269 Add achievement definition #13` |
