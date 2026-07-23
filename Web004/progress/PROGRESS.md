@@ -232,3 +232,4 @@
 | 225 | completed | feat | Add shop tip #11 | Shop tip #12 | `feat(shop): R0225 Add shop tip #11` |
 | 226 | completed | feat | Tune walk ambient note #11 | Walk ambient #11 | `feat(walk): R0226 Tune walk ambient note #11` |
 | 227 | completed | feat | Add journal template #11 | Journal templates=11 | `feat(album): R0227 Add journal template #11` |
+| 228 | completed | feat | Add secret recipe stub #11 | Recipes=11 | `feat(shop): R0228 Add secret recipe stub #11` |
