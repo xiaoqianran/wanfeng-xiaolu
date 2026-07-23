@@ -547,6 +547,15 @@
     { id: "companion_gardener", name: "邻盆园丁", desc: "在邻盆作伴时照料 5 次", check: function (s) {
       return (s.stats && s.stats.companionTends || 0) >= 5;
     } },
+    { id: "elder_sill", name: "接骨木窗台", desc: "发现接骨木花", check: function (s) {
+      return !!(s.discovered && s.discovered.elderflower);
+    } },
+    { id: "willow_walker", name: "柳岸旅人", desc: "走过柳岸轻步", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.willow_bank);
+    } },
+    { id: "open_calm_host", name: "清静店主", desc: "开店清静加成累计 5 次", check: function (s) {
+      return (s.stats && s.stats.openCalmServes || 0) >= 5;
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
     { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },
@@ -1047,7 +1056,7 @@
     }
     // soft seasonal affinity (optional catalogs.season)
     var season = catalogs.season || customer.season;
-    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || flavorDef.id === "rose_petal" || baseDef.id === "floral_tea")) {
+    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || flavorDef.id === "rose_petal" || flavorDef.id === "elderflower" || baseDef.id === "floral_tea")) {
       score += 0.5;
       notes.push("春日花香");
     }
@@ -1167,6 +1176,21 @@
     }
     if (!state.stats) state.stats = {};
     state.stats.drinksServed = (state.stats.drinksServed || 0) + 1;
+    // Soft first cups of the day: opening calm, not a pressure system
+    if (!state.stats) state.stats = {};
+    var dayK = dayKey(Date.now());
+    if (state._serveDayKey !== dayK) {
+      state._serveDayKey = dayK;
+      state._servesToday = 0;
+    }
+    state._servesToday = (state._servesToday || 0) + 1;
+    var openCalm = false;
+    if (state._servesToday <= 3 && result.score >= 2) {
+      openCalm = true;
+      result.coins = (result.coins || 0) + 1;
+      result.notes = (result.notes || []).concat(["开店清静"]);
+      state.stats.openCalmServes = (state.stats.openCalmServes || 0) + 1;
+    }
     if (result.score >= 3) {
       state.serveStreak = (state.serveStreak || 0) + 1;
       addTipJar(state, 1);
@@ -1186,6 +1210,7 @@
       drinkKey: drinkKey,
       serveStreak: state.serveStreak || 0,
       repeated: repeated,
+      openCalm: openCalm,
     };
   }
 

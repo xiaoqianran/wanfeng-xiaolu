@@ -2364,6 +2364,20 @@
       "emoji": "🌿",
       "kind": "风味",
       "seed": "marjoramPot"
+    },
+    "elderflower": {
+      "id": "elderflower",
+      "name": "接骨木花",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "elderflowerPot"
+    },
+    "willow_catkin": {
+      "id": "willow_catkin",
+      "name": "柳絮",
+      "emoji": "🤍",
+      "kind": "装饰",
+      "seed": null
     }
   },
   "plants": {
@@ -4297,6 +4311,17 @@
       ],
       "harvest": "marjoram",
       "days": 2
+    },
+    "elderflowerPot": {
+      "id": "elderflowerPot",
+      "name": "接骨木花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "elderflower",
+      "days": 3
     }
   },
   "cups": [
@@ -5161,6 +5186,16 @@
       "tags": [
         "草本",
         "温柔"
+      ]
+    },
+    {
+      "id": "elderflower",
+      "name": "接骨木花",
+      "emoji": "🤍",
+      "need": "elderflower",
+      "tags": [
+        "花香",
+        "清爽"
       ]
     }
   ],
@@ -6420,6 +6455,22 @@
         "thyme",
         "mint"
       ]
+    },
+    {
+      "name": "采接骨木的姑娘",
+      "avatar": "🤍",
+      "wish": "花香清爽，接骨木花最好，气泡也行。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "elderflower",
+        "honeysuckle",
+        "jasmine",
+        "plain"
+      ],
+      "wantTopping": true
     }
   ],
   "dialogues": [
