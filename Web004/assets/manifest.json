@@ -69,7 +69,8 @@
     "assets/walk/slot_1055.png",
     "assets/shop/live_0012.jpg",
     "assets/ui/live_0024.jpg",
-    "assets/garden/live_0036.jpg"
+    "assets/garden/live_0036.jpg",
+    "assets/album/live_0048.jpg"
   ],
   "stages": {
     "home": [
@@ -118,7 +119,13 @@
       }
     ],
     "album": [
-      "assets/album/diary-cover.jpg"
+      "assets/album/diary-cover.jpg",
+      {
+        "round": 48,
+        "path": "assets/album/live_0048.jpg",
+        "status": "live",
+        "source": "assets/garden/windowsill.jpg"
+      }
     ],
     "items": [
       "assets/items/collectibles-sheet.jpg",
