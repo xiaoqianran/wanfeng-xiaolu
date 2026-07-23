@@ -751,3 +751,4 @@
 | 744 | completed | feat | Add garden care whisper #37 | Garden msg #38 | `feat(garden): R0744 Add garden care whisper #37` |
 | 745 | completed | feat | Add shop tip #37 | Shop tip #38 | `feat(shop): R0745 Add shop tip #37` |
 | 746 | completed | feat | Tune walk ambient note #37 | Walk ambient #37 | `feat(walk): R0746 Tune walk ambient note #37` |
+| 747 | completed | feat | Add journal template #37 | Journal templates=37 | `feat(album): R0747 Add journal template #37` |
