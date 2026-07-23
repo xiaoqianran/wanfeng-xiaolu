@@ -372,3 +372,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0373 | completed | feat | 小路图鉴与海边 | paths tab+seaside_dusk 37th | feat(album): A0373 小路图鉴页与海边暮色 |
 | A0374 | completed | content | 海边内容 | events+recipe | content(events): A0374 海边补血草 vignette 与配方 |
 | A0375 | completed | test | 回归手册 | 169 pass | test(docs): A0375 小路图鉴海边回归与手册 |
+| A0376 | completed | feat | 蜜桃可种植 | peachPot | feat(garden): A0376 蜜桃可种植窗台 |
+| A0377 | completed | feat | 灯桥夜步 | lantern_bridge 38th | feat(walk): A0377 灯桥夜步主题与灯笼光晕 |
+| A0378 | completed | content | 蜜桃灯桥内容 | events+recipes | content(events): A0378 蜜桃灯桥 vignette 与配方 |
+| A0379 | completed | test | 回归手册 | 170 pass | test(docs): A0379 蜜桃灯桥回归与手册 |
