@@ -1049,3 +1049,4 @@
 | 1042 | completed | feat | Add customer persona #52 | Customer 夜跑爱好者·1042 | `feat(shop): R1042 Add customer persona #52` |
 | 1043 | completed | feat | Add dialogue line #52 | Dialogue count=51 | `feat(content): R1043 Add dialogue line #52` |
 | 1044 | completed | feat | Add garden care whisper #52 | Garden msg #52 | `feat(garden): R1044 Add garden care whisper #52` |
+| 1045 | completed | feat | Add shop tip #52 | Shop tip #52 | `feat(shop): R1045 Add shop tip #52` |
