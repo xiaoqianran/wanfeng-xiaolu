@@ -288,3 +288,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0289 | completed | test | 香茅回归 | 144 tests pass | `feat(garden): A0288 香茅可种植与两道香茅配方` |
 | A0290 | completed | content | 香茅事件355 | 355 unique evening events | `content(events): A0290 香茅事件与手册芦苇岸` |
 | A0291 | completed | docs | 手册芦苇 | USER_MANUAL reed_bank | `content(events): A0290 香茅事件与手册芦苇岸` |
+| A0292 | completed | feat | 发现型成就 | coastal_set herb_garden achievements | `feat(meta): A0292 潮湾三件套与草本窗台成就` |
+| A0293 | completed | content | 手帐特调文案 | journal 40 dialogues 32 | `feat(meta): A0292 潮湾三件套与草本窗台成就` |
+| A0294 | completed | test | 成就回归 | 145 tests pass | `feat(meta): A0292 潮湾三件套与草本窗台成就` |
