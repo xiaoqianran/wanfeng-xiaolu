@@ -470,6 +470,8 @@
       var d = s.discovered || {};
       return !!(d.basil && d.lemongrass && d.dill && d.thyme);
     } },
+    { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
+    { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
   ];
 
   function advanceSeason(state) {

@@ -2280,6 +2280,13 @@
       "emoji": "🌾",
       "kind": "风味",
       "seed": "lemongrassPot"
+    },
+    "driftwood": {
+      "id": "driftwood",
+      "name": "浮木片",
+      "emoji": "🪵",
+      "kind": "收藏",
+      "seed": null
     }
   },
   "plants": {

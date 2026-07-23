@@ -1844,5 +1844,18 @@ test("coastal_set and herb_garden achievements", () => {
   assert.ok(n2.some((a) => a.id === "herb_garden") || s2.achievements.herb_garden);
 });
 
+
+test("path_catalog achievement and driftwood item", () => {
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "path_catalog"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "specialist_hand"));
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.driftwood);
+  const s = core.defaultState();
+  s._themesTouched = {};
+  for (let i = 0; i < 10; i++) s._themesTouched["t" + i] = true;
+  const n = core.evaluateAchievements(s);
+  assert.ok(n.some((a) => a.id === "path_catalog") || s.achievements.path_catalog);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

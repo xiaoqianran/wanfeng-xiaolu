@@ -163,7 +163,8 @@
       "honey": 1.2,
       "maple": 0.5,
       "yuzu": 1.8,
-      "salt_crystal": 1.8
+      "salt_crystal": 1.8,
+      "driftwood": 1.5
     },
     "ambient": [
       "远处有船灯一闪一闪。",
@@ -533,7 +534,8 @@
       "mint": 1.2,
       "honey": 0.7,
       "salt_crystal": 2.2,
-      "dill": 1.3
+      "dill": 1.3,
+      "driftwood": 2.0
     },
     "ambient": [
       "退潮留下的水洼像一面面小镜子。",
@@ -618,7 +620,8 @@
       "dill": 1.8,
       "stone": 1.4,
       "honey": 1.1,
-      "lemongrass": 2.3
+      "lemongrass": 2.3,
+      "driftwood": 1.5
     },
     "ambient": [
       "芦苇互相轻碰，像在鼓掌。",
