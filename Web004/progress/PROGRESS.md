@@ -331,3 +331,4 @@
 | 324 | completed | assets | Wire real stage art reference into runtime manifest #26 | live art assets/ui/live_0324.jpg from assets/ui/achievements-badges.jpg (≥1KB) | `assets(ui): R0324 Wire real stage art reference into runtime manifest #26` |
 | 325 | completed | feat | Ship collectible + runtime catalog item #27 | Runtime item coconut_r0325 | `feat(content): R0325 Ship collectible + runtime catalog item #27` |
 | 326 | completed | feat | Ship customer persona into runtime #27 | Runtime customer 采风记者·326 | `feat(shop): R0326 Ship customer persona into runtime #27` |
+| 327 | completed | feat | Ship walk ambient + pathWidth into runtime #27 | walk pathWidth=3327 ambient=79 | `feat(walk): R0327 Ship walk ambient + pathWidth into runtime #27` |
