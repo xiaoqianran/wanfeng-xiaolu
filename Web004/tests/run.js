@@ -2279,5 +2279,35 @@ test("chrysanthemum plantable and chrys_garden 35 themes", () => {
   assert.ok(man.includes("菊圃晚径"));
 });
 
+
+test("closeShopDay jasmine osmanthus_court", () => {
+  const s = core.defaultState();
+  s._servesToday = 2;
+  const r = core.closeShopDay(s);
+  assert.ok(r.ok && r.line);
+  assert.ok((s.stats.shopCloses || 0) >= 1);
+  const r2 = core.closeShopDay(s);
+  assert.ok(!r2.ok && r2.reason === "already");
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "shop_closer"));
+
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.jasmine && j.plants.jasminePot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s2 = core.defaultState();
+  s2.bag.jasmine = 1;
+  assert.ok(core.plantSeed(s2, 0, "jasmine", cat).ok);
+
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "osmanthus_court"));
+  assert.ok(themes.length >= 36);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("btn-close-shop"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("osmanthus_court") && game.includes("closeShopDay"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("桂花小院") && man.includes("温柔收摊"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
