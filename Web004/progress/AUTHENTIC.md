@@ -272,3 +272,4 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0273 | completed | content | 蝉林内容 | customer+recipe+329 events | `content(world): A0273 蝉林客人配方与事件三二九则` |
 | A0274 | completed | feat | 常用杯型 | setFavoriteCup + UI auto-select | `feat(shop): A0274 常用杯型记忆` |
 | A0275 | completed | test | 常用杯回归 | 139 tests pass | `feat(shop): A0274 常用杯型记忆` |
+| A0276 | completed | docs | 手册常用杯 | USER_MANUAL cup | `docs(manual): A0276 手册同步常用杯与续作卡` |
