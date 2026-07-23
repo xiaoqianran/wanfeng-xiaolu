@@ -668,3 +668,4 @@
 | 661 | completed | feat | Add collectible item batch #33 | Item lavender_r0661 added | `feat(content): R0661 Add collectible item batch #33` |
 | 662 | completed | feat | Add customer persona #33 | Customer 织围巾的阿姨·662 | `feat(shop): R0662 Add customer persona #33` |
 | 663 | completed | feat | Add dialogue line #33 | Dialogue count=33 | `feat(content): R0663 Add dialogue line #33` |
+| 664 | completed | feat | Add garden care whisper #33 | Garden msg #34 | `feat(garden): R0664 Add garden care whisper #33` |
