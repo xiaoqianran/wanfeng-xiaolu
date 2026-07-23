@@ -4,33 +4,34 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 1002,
+  "current_round": 1025,
   "target_rounds": 1000,
-  "integrated_rounds_completed": 1001,
-  "current_milestone": "UI/UX polish + control plane",
-  "current_task_id": "T-settings-tutorial",
-  "last_completed_task_id": "T-manifest-cleanup",
-  "last_commit": "604c8e4",
+  "integrated_rounds_completed": 1024,
+  "current_milestone": "UI/UX polish + demo readiness",
+  "current_task_id": "T-demo-polish",
+  "last_completed_task_id": "T-audio-cues",
+  "last_commit": "",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "23 passed, 0 failed (node tests/run.js)",
+  "last_test_summary": "26 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [],
   "known_failures": [
-    "image_gen API intermittently unavailable",
-    "playwright node module not reliably requireable for screenshots"
+    "image_gen API intermittently unavailable — art backlog used",
+    "playwright node require unreliable — browser screenshot fallback logged"
   ],
   "important_decisions": [
     "cozy no-combat",
     "file:// plain scripts",
-    "integrated rounds only"
+    "integrated rounds only",
+    "settings+tutorial+webaudio shipped"
   ],
   "next_candidate_tasks": [
-    "settings panel",
-    "first-run tutorial",
-    "soft audio cues",
-    "save export/import"
+    "demo script for thesis defense",
+    "keyboard a11y pass",
+    "balance soft economy",
+    "more seasonal content"
   ],
-  "resume_instructions": "cd /root/workspace/wk1; read .autodev/state.json and Web004/progress/rounds.jsonl; run Web004 tests; continue next backlog item with Alibaba commit R#### on shipped files only.",
-  "updated_at": "2026-07-24T00:00:00Z"
+  "resume_instructions": "cd /root/workspace/wk1; cat .autodev/state.json; cd Web004 && node tests/run.js; continue from Web004/progress/rounds.jsonl max round+1 using tools/run-rounds.js only for shipped sync, or implement backlog items with Alibaba R#### commits on Web004 runtime files.",
+  "updated_at": "2026-07-24T12:00:00Z"
 }

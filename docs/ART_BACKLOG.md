@@ -9,3 +9,5 @@
 | ART-05 | 设置齿轮图标 | 1:1 | soft ceramic gear icon | 待生成/CSS 替代 |
 
 生图失败时：使用 CSS/emoji/已有 JPG，不阻塞功能。
+
+| ART-06 | 设置页插图 | 4:3 | soft pastel settings panel | API failed 2026-07-24 |
