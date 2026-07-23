@@ -173,3 +173,4 @@
 | 166 | completed | feat | Tune walk ambient note #8 | Walk ambient #8 | `feat(walk): R0166 Tune walk ambient note #8` |
 | 167 | completed | feat | Add journal template #8 | Journal templates=8 | `feat(album): R0167 Add journal template #8` |
 | 168 | completed | feat | Add secret recipe stub #8 | Recipes=8 | `feat(shop): R0168 Add secret recipe stub #8` |
+| 169 | completed | feat | Add achievement definition #8 | Achievements=8 | `feat(meta): R0169 Add achievement definition #8` |
