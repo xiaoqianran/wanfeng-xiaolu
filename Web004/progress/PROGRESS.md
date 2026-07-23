@@ -271,3 +271,4 @@
 | 264 | completed | assets | Wire real stage art reference into runtime manifest #21 | live art assets/ui/live_0264.jpg from assets/seasons/dusk.jpg (≥1KB) | `assets(ui): R0264 Wire real stage art reference into runtime manifest #21` |
 | 265 | completed | feat | Ship collectible + runtime catalog item #22 | Runtime item coconut_r0265 | `feat(content): R0265 Ship collectible + runtime catalog item #22` |
 | 266 | completed | feat | Ship customer persona into runtime #22 | Runtime customer 采风记者·266 | `feat(shop): R0266 Ship customer persona into runtime #22` |
+| 267 | completed | feat | Ship walk ambient + pathWidth into runtime #22 | walk pathWidth=3267 ambient=74 | `feat(walk): R0267 Ship walk ambient + pathWidth into runtime #22` |
