@@ -483,6 +483,16 @@
     { id: "memory_keeper", name: "回忆保管员", desc: "图鉴回忆页攒下 2 张速写", check: function (s) {
       return (s.stats && s.stats.potSnaps || 0) >= 2;
     } },
+    { id: "coriander_sill", name: "香菜窗台", desc: "发现香菜", check: function (s) {
+      return !!(s.discovered && s.discovered.coriander);
+    } },
+    { id: "ink_walker", name: "墨香旅人", desc: "走过墨香小院", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.ink_courtyard);
+    } },
+    { id: "regular_host", name: "常客东道", desc: "与同一位客人熟悉度达到 3", check: function (s) {
+      var aff = s.customerAffinity || {};
+      return Object.keys(aff).some(function (k) { return (aff[k] || 0) >= 3; });
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
     { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },
@@ -963,7 +973,7 @@
       score += 0.5;
       notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5;
       notes.push("夏日清爽");
     }
@@ -1112,6 +1122,23 @@
     state.pinnedBagItem = itemId;
     appendJournal(state, "把「" + itemId + "」钉在竹篮最上面。");
     return { ok: true, itemId: itemId };
+  }
+
+  /** Soft shop board: top guests by affinity warmth (no ranking pressure) */
+  function getTopGuests(state, limit) {
+    limit = limit == null ? 3 : limit;
+    var aff = (state && state.customerAffinity) || {};
+    return Object.keys(aff)
+      .map(function (name) {
+        return { name: name, affinity: aff[name] || 0 };
+      })
+      .filter(function (g) {
+        return g.affinity > 0;
+      })
+      .sort(function (a, b) {
+        return b.affinity - a.affinity;
+      })
+      .slice(0, Math.max(0, limit));
   }
 
 function addTipJar(state, coins) {
@@ -1357,6 +1384,7 @@ function recallGuestCraft(state, guestName) {
     setFavoriteCup: setFavoriteCup,
     addTipJar: addTipJar,
     pinBagItem: pinBagItem,
+    getTopGuests: getTopGuests,
     claimFirstWalkBonus: claimFirstWalkBonus,
     upgradeWateringCan: upgradeWateringCan,
     checkPathMilestones: checkPathMilestones,

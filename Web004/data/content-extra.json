@@ -2294,6 +2294,13 @@
       "emoji": "🍊",
       "kind": "风味",
       "seed": "bergamotPot"
+    },
+    "coriander": {
+      "id": "coriander",
+      "name": "香菜",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "corianderPot"
     }
   },
   "plants": {
@@ -4139,6 +4146,17 @@
       ],
       "harvest": "bergamot",
       "days": 3
+    },
+    "corianderPot": {
+      "id": "corianderPot",
+      "name": "香菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "coriander",
+      "days": 2
     }
   },
   "cups": [
@@ -4922,6 +4940,16 @@
       "need": "bergamot",
       "tags": [
         "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "coriander",
+      "name": "香菜",
+      "emoji": "🌿",
+      "need": "coriander",
+      "tags": [
+        "草本",
         "清爽"
       ]
     }
@@ -5999,6 +6027,53 @@
         "mint",
         "tea_leaf"
       ]
+    },
+    {
+      "name": "包饺子的阿姨",
+      "avatar": "🥟",
+      "wish": "香菜或多一点草本，清爽就好，别太甜。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "coriander",
+        "basil",
+        "dill",
+        "mint"
+      ],
+      "wantTopping": false
+    },
+    {
+      "name": "临摹碑帖的人",
+      "avatar": "🖋️",
+      "wish": "茶底安静，像墨未干。佛手柑或抹茶都行。",
+      "tags": [
+        "温柔",
+        "清爽"
+      ],
+      "flavors": [
+        "tea_leaf",
+        "bergamot",
+        "matcha",
+        "plain"
+      ]
+    },
+    {
+      "name": "晒纸的匠人",
+      "avatar": "📜",
+      "wish": "清淡一点，最好有一点点草香。",
+      "tags": [
+        "清爽",
+        "田园"
+      ],
+      "flavors": [
+        "coriander",
+        "sage",
+        "mint",
+        "plain"
+      ],
+      "wantTopping": true
     }
   ],
   "dialogues": [
