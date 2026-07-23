@@ -5413,6 +5413,50 @@
         "jasmine",
         "plain"
       ]
+    },
+    {
+      "name": "卖糖纸的女孩",
+      "avatar": "🎀",
+      "wish": "要甜，要亮，装饰最好有糖纸那种反光。",
+      "tags": [
+        "甜蜜",
+        "清爽"
+      ],
+      "flavors": [
+        "honey",
+        "berry",
+        "peach"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "收摊的笛手",
+      "avatar": "🎼",
+      "wish": "茶底温柔，花香就好，让我把最后一段吹完。",
+      "tags": [
+        "温柔",
+        "花香"
+      ],
+      "flavors": [
+        "jasmine",
+        "chamomile",
+        "lilac"
+      ]
+    },
+    {
+      "name": "夜班司机",
+      "avatar": "🚕",
+      "wish": "提神清爽，薄荷或迷迭香都行。",
+      "tags": [
+        "清爽",
+        "草本"
+      ],
+      "flavors": [
+        "mint",
+        "rosemary",
+        "bluebell",
+        "plain"
+      ]
     }
   ],
   "dialogues": [

@@ -1375,5 +1375,17 @@ test("bag rare tag and ambient expansion ship", () => {
   assert.ok(j.some((x) => x.title === "夜市尾声" || x.title === "纸鹤"));
 });
 
+
+test("customers expand past 30 unique names", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const names = (j.customers || []).map((c) => c.name);
+  assert.ok(names.length >= 30);
+  assert.strictEqual(new Set(names).size, names.length);
+  names.forEach((n) => assert.ok(!/·\d+$/.test(n)));
+  assert.ok(names.includes("卖糖纸的女孩") || names.includes("夜班司机"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "夜班薄荷高杯"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
