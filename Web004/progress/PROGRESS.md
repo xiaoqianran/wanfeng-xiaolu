@@ -131,3 +131,4 @@
 | 124 | completed | feat | Ship garden care whisper into runtime #10 | garden messages=63 careBonus=1.05 | `feat(garden): R0124 Ship garden care whisper into runtime #10` |
 | 125 | completed | feat | Ship shop tip + perfectBonus into runtime #10 | shop tips=63 perfectBonus=4 | `feat(shop): R0125 Ship shop tip + perfectBonus into runtime #10` |
 | 126 | completed | feat | Ship dialogue line into runtime #10 | dialogues=62 | `feat(content): R0126 Ship dialogue line into runtime #10` |
+| 127 | completed | feat | Ship journal template into runtime #10 | journal templates=63 | `feat(album): R0127 Ship journal template into runtime #10` |
