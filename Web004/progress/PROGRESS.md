@@ -1002,3 +1002,4 @@
 | 995 | completed | assets | Asset slot registration #49 | Asset slot assets/walk/slot_0995.png | `assets(manifest): R0995 Asset slot registration #49` |
 | 996 | completed | test | Regression assertion pack #49 | Test pack size=51 | `test(core): R0996 Regression assertion pack #49` |
 | 997 | completed | feat | Path theme fragment #49 | Path themes=54 | `feat(walk): R0997 Path theme fragment #49` |
+| 998 | completed | feat | Topping or cup option #49 | Topping top_r0998 | `feat(content): R0998 Topping or cup option #49` |
