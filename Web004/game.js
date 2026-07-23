@@ -379,6 +379,7 @@
       <article class="journal-card" style="margin-top:12px"><div class="meta">足迹</div>
       <p>走过小路 ${state.pathsWalked||0} 段 · 拾取 ${st.itemsPicked||0} · 收获 ${st.plantsHarvested||0} · 招待 ${st.drinksServed||0}</p>
       <p>发现收集物 ${disc} · 汽水配方 ${drinks} · 来信 ${mailN} · 熟悉客人 ${aff} · 主题足迹 ${themesN}</p>
+      <p>常走小路 ${state.favoritePathThemeId||"未标记"} · 秘密配方解锁 ${(() => { const n=(typeof secretRecipes!=="undefined"?secretRecipes:[]).filter(r=>r&&state.drinksMade&&state.drinksMade[[r.cup,r.base,r.flavor,r.topping||"none"].join("-")]).length; return n; })()}/${(typeof secretRecipes!=="undefined"?secretRecipes:[]).length||0}</p>
       <p>季节 ${Core.SEASON_LABELS[state.season]||state.season||"黄昏"} · 主题 ${state.pathThemeId||"maple_lane"} · 花盆 ${(state.potSlots||state.pots.length)} </p>
       <p>长椅歇脚 ${st.benchSits||0} · 花盆便签 ${st.potNotes||0} · 窗台速写 ${st.potSnaps||0}</p>
       ${(() => {
