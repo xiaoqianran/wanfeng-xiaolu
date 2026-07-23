@@ -79,3 +79,4 @@
 | 72 | completed | assets | Wire real stage art reference into runtime manifest #5 | live art assets/shop/live_0072.jpg from assets/shop/soda-hero.jpg (≥1KB) | `assets(ui): R0072 Wire real stage art reference into runtime manifest #5` |
 | 73 | completed | feat | Ship collectible + runtime catalog item #6 | Runtime item osmanthus_r0073 | `feat(content): R0073 Ship collectible + runtime catalog item #6` |
 | 74 | completed | feat | Ship customer persona into runtime #6 | Runtime customer 弹尤克里里的人·74 | `feat(shop): R0074 Ship customer persona into runtime #6` |
+| 75 | completed | feat | Ship walk ambient + pathWidth into runtime #6 | walk pathWidth=3275 ambient=58 | `feat(walk): R0075 Ship walk ambient + pathWidth into runtime #6` |
