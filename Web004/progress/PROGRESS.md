@@ -965,3 +965,4 @@
 | 958 | completed | feat | Topping or cup option #47 | Topping top_r0958 | `feat(content): R0958 Topping or cup option #47` |
 | 959 | completed | docs | Stage milestone summary #47 | Stage doc stage-20.md | `docs(progress): R0959 Stage milestone summary #47` |
 | 960 | completed | refactor | Catalog integrity pass #47 | Integrity items=95 customers=47 | `refactor(core): R0960 Catalog integrity pass #47` |
+| 961 | completed | feat | Add collectible item batch #48 | Item lavender_r0961 added | `feat(content): R0961 Add collectible item batch #48` |
