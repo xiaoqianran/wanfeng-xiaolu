@@ -1269,5 +1269,18 @@ test("pinCustomer pickCustomerWithPin and mood-face ship", () => {
   assert.ok(ev.length >= 100);
 });
 
+
+test("firefly_field theme and star sand recipe ship", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "firefly_field"));
+  assert.ok(themes.length >= 13);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("firefly_field"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "萤坡星砂苏打"));
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok((j.customers || []).some((c) => c.name === "追萤火的少年"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

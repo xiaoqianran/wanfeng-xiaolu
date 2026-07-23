@@ -797,6 +797,18 @@
         ctx.ellipse(w * 0.5, y, w * 0.55, 16, 0, 0, Math.PI * 2);
         ctx.fill();
       }
+    } else if (themeId === "firefly_field") {
+      ctx.fillStyle = "rgba(220,255,160,0.75)";
+      for (let i = 0; i < 16; i++) {
+        const x = (i * 59 + Math.sin(time * 0.04 + i) * 20 + time * 0.15) % w;
+        const y = h * 0.4 + ((i * 37 + time * 0.25) % (h * 0.45));
+        const tw = 0.35 + 0.65 * Math.abs(Math.sin(time * 0.08 + i));
+        ctx.globalAlpha = tw;
+        ctx.beginPath();
+        ctx.arc(x, y, 1.5 + tw, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
     }
   }
 

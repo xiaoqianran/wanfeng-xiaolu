@@ -5336,6 +5336,20 @@
         "peach",
         "tea_leaf"
       ]
+    },
+    {
+      "name": "追萤火的少年",
+      "avatar": "🧒",
+      "wish": "要好看的装饰！最好亮一点的。",
+      "tags": [
+        "清爽"
+      ],
+      "flavors": [
+        "plain",
+        "mint",
+        "berry"
+      ],
+      "wantTopping": true
     }
   ],
   "dialogues": [
