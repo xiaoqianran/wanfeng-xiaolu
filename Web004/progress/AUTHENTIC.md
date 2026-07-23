@@ -225,3 +225,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0226 | completed | content | 枇杷叶与配方 | loquat_leaf + 晨桥柚茶 熟土蜜桃罐 | `feat(walk): A0224 晨桥薄雾主题与枇杷叶` |
 | A0227 | completed | content | 熟土老样子事件 | 275 events + memory mail | `feat(walk): A0224 晨桥薄雾主题与枇杷叶` |
 | A0228 | completed | test | 记忆复刻回归 | 127 tests pass | `test(core): A0225 熟土记忆与复刻配方回归` |
+| A0229 | completed | feat | 紫苏养成 | perilla plant+flavor+recipe+customer | `feat(garden): A0229 紫苏可种植与手册同步熟土老样子` |
+| A0230 | completed | docs | 手册熟土老样子 | USER_MANUAL memory+recall+dawn | `feat(garden): A0229 紫苏可种植与手册同步熟土老样子` |
+| A0231 | completed | test | 紫苏手册回归 | 128 tests pass | `feat(garden): A0229 紫苏可种植与手册同步熟土老样子` |
