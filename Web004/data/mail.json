@@ -667,5 +667,16 @@
       },
       "hearts": 1
     }
+  },
+  {
+    "id": "mail_chrys",
+    "title": "干菊两朵",
+    "body": "赏菊的老人来信：干菊也能泡。给你两朵，别烫太久。",
+    "effect": {
+      "items": {
+        "chrysanthemum": 2
+      },
+      "coins": 2
+    }
   }
 ]
