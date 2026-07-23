@@ -2427,6 +2427,20 @@
       "emoji": "🟣",
       "kind": "风味",
       "seed": "plumPot"
+    },
+    "mulberry": {
+      "id": "mulberry",
+      "name": "桑葚",
+      "emoji": "🫐",
+      "kind": "风味",
+      "seed": "mulberryPot"
+    },
+    "leaf": {
+      "id": "leaf",
+      "name": "绿叶",
+      "emoji": "🍃",
+      "kind": "装饰",
+      "seed": null
     }
   },
   "plants": {
@@ -4448,6 +4462,17 @@
       ],
       "harvest": "plum",
       "days": 3
+    },
+    "mulberryPot": {
+      "id": "mulberryPot",
+      "name": "桑葚",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🫐"
+      ],
+      "harvest": "mulberry",
+      "days": 3
     }
   },
   "cups": [
@@ -5389,6 +5414,16 @@
       "name": "李子",
       "emoji": "🟣",
       "need": "plum",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "mulberry",
+      "name": "桑葚",
+      "emoji": "🫐",
+      "need": "mulberry",
       "tags": [
         "果香",
         "甜蜜"
@@ -6773,6 +6808,22 @@
         "peach",
         "berry"
       ]
+    },
+    {
+      "name": "采桑的女孩",
+      "avatar": "🫐",
+      "wish": "桑葚或蜜，甜一点，颜色最好深一点。",
+      "tags": [
+        "甜蜜",
+        "果香"
+      ],
+      "flavors": [
+        "mulberry",
+        "honey",
+        "berry",
+        "plum"
+      ],
+      "wantTopping": true
     }
   ],
   "dialogues": [

@@ -607,6 +607,15 @@
     { id: "path_explorer", name: "四十路旅人", desc: "走过 20 种小路主题", check: function (s) {
       return Object.keys(s._themesTouched || {}).length >= 20;
     } },
+    { id: "mulberry_sill", name: "桑葚窗台", desc: "发现桑葚", check: function (s) {
+      return !!(s.discovered && s.discovered.mulberry);
+    } },
+    { id: "mulberry_walker", name: "桑荫旅人", desc: "走过桑荫小径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.mulberry_lane);
+    } },
+    { id: "variety_gardener", name: "多样园丁", desc: "多样窗台照料 5 次", check: function (s) {
+      return (s.stats && s.stats.varietyTends || 0) >= 5;
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
     { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },
@@ -1007,8 +1016,12 @@
     }
     // Soft companion sill: two+ planted pots feel a little less lonely
     var planted = 0;
+    var kinds = {};
     for (var pi = 0; pi < (state.pots || []).length; pi++) {
-      if (state.pots[pi] && state.pots[pi].plantId) planted += 1;
+      if (state.pots[pi] && state.pots[pi].plantId) {
+        planted += 1;
+        kinds[state.pots[pi].plantId] = true;
+      }
     }
     var companion = false;
     if (planted >= 2) {
@@ -1018,11 +1031,21 @@
       if (!state.stats) state.stats = {};
       state.stats.companionTends = (state.stats.companionTends || 0) + 1;
     }
+    // Soft variety sill: 3+ different plant kinds — soft mood for diversity
+    var variety = false;
+    var kindCount = Object.keys(kinds).length;
+    if (kindCount >= 3) {
+      pot.mood = Math.min(100, pot.mood + 2);
+      variety = true;
+      if (!seasonNote || seasonNote === "邻盆作伴") seasonNote = "多样窗台";
+      if (!state.stats) state.stats = {};
+      state.stats.varietyTends = (state.stats.varietyTends || 0) + 1;
+    }
     pot.water = Math.max(0, pot.water - 6);
     pot.sun = Math.max(0, pot.sun - 5);
     pot.mood = Math.max(0, pot.mood - 4);
     pot.tendedAt = Date.now();
-    return { ok: true, growth: pot.growth, seasonNote: seasonNote, companion: companion };
+    return { ok: true, growth: pot.growth, seasonNote: seasonNote, companion: companion, variety: variety };
   }
 
   function settleOfflineGrowth(state, now, plants) {
@@ -1111,7 +1134,7 @@
       score += 0.5;
       notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5;
       notes.push("夏日清爽");
     }
