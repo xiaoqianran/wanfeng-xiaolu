@@ -865,3 +865,4 @@
 | 858 | completed | feat | Topping or cup option #42 | Topping top_r0858 | `feat(content): R0858 Topping or cup option #42` |
 | 859 | completed | docs | Stage milestone summary #42 | Stage doc stage-18.md | `docs(progress): R0859 Stage milestone summary #42` |
 | 860 | completed | refactor | Catalog integrity pass #42 | Integrity items=85 customers=42 | `refactor(core): R0860 Catalog integrity pass #42` |
+| 861 | completed | feat | Add collectible item batch #43 | Item cocoa_r0861 added | `feat(content): R0861 Add collectible item batch #43` |
