@@ -4,17 +4,17 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 82,
+  "current_round": 89,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 76,
-  "authentic_game_integrated_rounds": 67,
+  "authentic_rounds_completed": 83,
+  "authentic_game_integrated_rounds": 74,
   "template_spam_archived": true,
   "current_milestone": "authentic rebuild A004x",
   "current_task_id": "A0054-next",
-  "last_completed_task_id": "A0082",
-  "last_commit": "8175728",
+  "last_completed_task_id": "A0089",
+  "last_commit": "efe20c1",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "74 passed, 0 failed",
+  "last_test_summary": "79 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
@@ -34,6 +34,6 @@
     "more unique mail",
     "canvas reduced-motion"
   ],
-  "resume_instructions": "Continue A0083+. authentic-rounds.jsonl SoT. Spam DISABLED. cd Web004 && node tests/run.js && node tools/quality-gate.js. Gap ~918 authentic remain.",
-  "updated_at": "2026-07-23T21:21:11.833856+00:00"
+  "resume_instructions": "Continue A0090+. authentic-rounds.jsonl SoT. Spam DISABLED. cd Web004 && node tests/run.js && node tools/quality-gate.js. Gap ~911 authentic.",
+  "updated_at": "2026-07-23T21:24:45.161662+00:00"
 }

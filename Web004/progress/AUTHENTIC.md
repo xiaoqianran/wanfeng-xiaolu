@@ -80,3 +80,10 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0080 | completed | fix | 演示存档设置字段 | createDemoState weatherFx+ambience | `fix(demo): A0080 演示存档补齐 weatherFx 与 ambience 设置字段` |
 | A0081 | completed | feat | 灯笼小巷主题 | 7th path theme + lantern glow FX | `feat(walk): A0081 灯笼小巷主题与暖光特效` |
 | A0082 | completed | content | 四位独特新客人 | 卖灯笼的阿婆等 15 customers total | `content(shop): A0082 四位独特新客人写入运行时` |
+| A0083 | completed | feat | 植物歇一歇 | tend rest + restLines | `feat(garden): A0083 植物歇一歇恢复心情几乎不催长` |
+| A0084 | completed | feat | 安静模式 | quietShop simplifies wish | `feat(shop): A0084 汽水铺安静模式简化客人需求` |
+| A0085 | completed | content | 77则晚间事件 | 77 unique vignettes | `content(events): A0085 晚间事件扩充至七十七则独特 vignette` |
+| A0086 | completed | feat | 安静模式单标签 | single tag when quietShop | `feat(shop): A0086 安静模式只显示单一需求标签` |
+| A0087 | completed | feat | 薰衣草种植 | lavender_bud + lavenderPot | `feat(garden): A0087 薰衣草蕾可拾取种植与花香风味` |
+| A0088 | completed | feat | 屋檐听雨主题 | rain_eaves 8th theme + rain FX | `feat(walk): A0088 屋檐听雨主题与细雨特效` |
+| A0089 | completed | feat | 出杯星级反馈 | scoreStars toast | `feat(shop): A0089 出杯结果星级软反馈` |
