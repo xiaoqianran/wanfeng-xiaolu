@@ -2217,6 +2217,13 @@
       "emoji": "🌸",
       "kind": "风味",
       "seed": "honeysucklePot"
+    },
+    "loquat_leaf": {
+      "id": "loquat_leaf",
+      "name": "枇杷叶",
+      "emoji": "🍃",
+      "kind": "装饰",
+      "seed": null
     }
   },
   "plants": {
@@ -5114,6 +5121,12 @@
       "name": "糖纸",
       "emoji": "🍬",
       "need": "candy_wrap"
+    },
+    {
+      "id": "loquat_top",
+      "name": "枇杷叶",
+      "emoji": "🍃",
+      "need": "loquat_leaf"
     }
   ],
   "customers": [

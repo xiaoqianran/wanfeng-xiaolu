@@ -420,5 +420,23 @@
       "coins": 2,
       "hearts": 1
     }
+  },
+  {
+    "id": "mail_memory",
+    "title": "关于熟土",
+    "body": "有人写道：花盆养久了，也会记得你的浇水节奏。",
+    "effect": {
+      "hearts": 2
+    }
+  },
+  {
+    "id": "mail_loquat",
+    "title": "枇杷叶两片",
+    "body": "夹在信纸里，还带着一点涩香。",
+    "effect": {
+      "items": {
+        "loquat_leaf": 2
+      }
+    }
   }
 ]
