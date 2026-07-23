@@ -82,7 +82,8 @@
     "assets/garden/live_0156.jpg",
     "assets/album/live_0168.jpg",
     "assets/walk/live_0180.jpg",
-    "assets/shop/live_0192.jpg"
+    "assets/shop/live_0192.jpg",
+    "assets/ui/live_0204.jpg"
   ],
   "stages": {
     "home": [
@@ -221,6 +222,12 @@
         "path": "assets/ui/live_0144.jpg",
         "status": "live",
         "source": "assets/album/journal-open.jpg"
+      },
+      {
+        "round": 204,
+        "path": "assets/ui/live_0204.jpg",
+        "status": "live",
+        "source": "assets/shop/soda-hero.jpg"
       }
     ]
   },
