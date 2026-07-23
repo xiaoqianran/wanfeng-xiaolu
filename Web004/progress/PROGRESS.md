@@ -54,3 +54,4 @@
 | 47 | completed | feat | Ship plantable seed linkage into runtime #3 | plant link plant_orange_0047 harvest=seed_orange_0047 | `feat(content): R0047 Ship plantable seed linkage into runtime #3` |
 | 48 | completed | assets | Wire real stage art reference into runtime manifest #3 | live art assets/album/live_0048.jpg from assets/garden/windowsill.jpg (≥1KB) | `assets(ui): R0048 Wire real stage art reference into runtime manifest #3` |
 | 49 | completed | feat | Ship collectible + runtime catalog item #4 | Runtime item grape_r0049 | `feat(content): R0049 Ship collectible + runtime catalog item #4` |
+| 50 | completed | feat | Ship customer persona into runtime #4 | Runtime customer 图书馆员·50 | `feat(shop): R0050 Ship customer persona into runtime #4` |
