@@ -411,3 +411,4 @@
 | 404 | completed | feat | Add garden care whisper #20 | Garden msg #21 | `feat(garden): R0404 Add garden care whisper #20` |
 | 405 | completed | feat | Add shop tip #20 | Shop tip #21 | `feat(shop): R0405 Add shop tip #20` |
 | 406 | completed | feat | Tune walk ambient note #20 | Walk ambient #20 | `feat(walk): R0406 Tune walk ambient note #20` |
+| 407 | completed | feat | Add journal template #20 | Journal templates=20 | `feat(album): R0407 Add journal template #20` |
