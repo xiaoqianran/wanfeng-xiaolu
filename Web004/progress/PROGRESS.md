@@ -1017,3 +1017,4 @@
 | 1010 | completed | style | CSS micro polish token #50 | CSS token hue=250 | `style(ui): R1010 CSS micro polish token #50` |
 | 1011 | completed | feat | Add plantable linkage #50 | Plant link plant_cocoa_1011 | `feat(content): R1011 Add plantable linkage #50` |
 | 1012 | completed | feat | Add flavor or base option #50 | Flavor fl_matcha_1012 | `feat(shop): R1012 Add flavor or base option #50` |
+| 1013 | completed | feat | UI copy toast string #50 | UI toasts=51 | `feat(ui): R1013 UI copy toast string #50` |
