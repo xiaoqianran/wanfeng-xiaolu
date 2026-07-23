@@ -160,3 +160,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0161 | completed | content | 事件至134则 | 134 unique evening events | `content(world): A0161 夜市糖纸纸鹤与事件一三四则` |
 | A0162 | completed | content | 糖纸纸鹤收集 | candy_wrap paper_crane + recipe | `content(world): A0161 夜市糖纸纸鹤与事件一三四则` |
 | A0163 | completed | test | 糖纸事件回归 | 111 tests pass | `content(world): A0161 夜市糖纸纸鹤与事件一三四则` |
+| A0164 | completed | feat | 小珍藏标签 | rare collectible tag in bag UI | `feat(bag): A0164 小珍藏标签与散步氛围扩充` |
+| A0165 | completed | content | 氛围手帐扩充 | ambient 27 + journal night market | `feat(bag): A0164 小珍藏标签与散步氛围扩充` |
+| A0166 | completed | test | 珍藏标签回归 | 112 tests pass | `feat(bag): A0164 小珍藏标签与散步氛围扩充` |
