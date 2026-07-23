@@ -882,3 +882,4 @@
 | 875 | completed | assets | Asset slot registration #43 | Asset slot assets/walk/slot_0875.png | `assets(manifest): R0875 Asset slot registration #43` |
 | 876 | completed | test | Regression assertion pack #43 | Test pack size=45 | `test(core): R0876 Regression assertion pack #43` |
 | 877 | completed | feat | Path theme fragment #43 | Path themes=48 | `feat(walk): R0877 Path theme fragment #43` |
+| 878 | completed | feat | Topping or cup option #43 | Topping top_r0878 | `feat(content): R0878 Topping or cup option #43` |
