@@ -358,6 +358,7 @@
     const drinks = Object.keys(state.drinksMade || {}).length;
     const mailN = Object.keys(state._readMail || {}).length;
     const aff = Object.keys(state.customerAffinity || {}).length;
+    const themesN = Object.keys(state._themesTouched || {}).length;
     box.innerHTML = `
       <div class="stat-bars">
         <div class="stat"><span>金币</span><div class="bar"><i style="width:${Math.min(100,state.coins||0)}%"></i></div><span>${state.coins||0}</span></div>
@@ -365,7 +366,7 @@
       </div>
       <article class="journal-card" style="margin-top:12px"><div class="meta">足迹</div>
       <p>走过小路 ${state.pathsWalked||0} 段 · 拾取 ${st.itemsPicked||0} · 收获 ${st.plantsHarvested||0} · 招待 ${st.drinksServed||0}</p>
-      <p>发现收集物 ${disc} · 汽水配方 ${drinks} · 来信 ${mailN} · 熟悉客人 ${aff}</p>
+      <p>发现收集物 ${disc} · 汽水配方 ${drinks} · 来信 ${mailN} · 熟悉客人 ${aff} · 主题足迹 ${themesN}</p>
       <p>季节 ${Core.SEASON_LABELS[state.season]||state.season||"黄昏"} · 主题 ${state.pathThemeId||"maple_lane"} · 花盆 ${(state.potSlots||state.pots.length)} </p>
       </article>`;
   }
