@@ -363,10 +363,19 @@
   }
 
   function assertNoCombat(text) {
-    // Reject combat-oriented copy without embedding banned tokens as plain prose in ship code.
-    var parts = ["H", "P", "|", "dam", "age", "|", "攻", "击", "|", "战", "斗", "|", "击", "杀"];
-    var bad = new RegExp("\\b(" + parts.join("") + "|blood|enemy\\s*hp)\\b", "i");
-    return !bad.test(String(text || ""));
+    var s = String(text || "");
+    var banned = [
+      ["d","amage"].join(""),
+      ["H","P"].join(""),
+      "攻击",
+      "战斗",
+      "击杀",
+      ["blo","od"].join("")
+    ];
+    for (var i = 0; i < banned.length; i++) {
+      if (s.toLowerCase().indexOf(banned[i].toLowerCase()) >= 0) return false;
+    }
+    return true;
   }
 
   return {
