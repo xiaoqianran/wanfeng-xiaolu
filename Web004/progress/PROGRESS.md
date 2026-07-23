@@ -499,3 +499,4 @@
 | 492 | completed | feat | Add flavor or base option #24 | Flavor fl_shell_0492 | `feat(shop): R0492 Add flavor or base option #24` |
 | 493 | completed | feat | UI copy toast string #24 | UI toasts=25 | `feat(ui): R0493 UI copy toast string #24` |
 | 494 | completed | feat | Season palette note #24 | Season palette winter_0494 | `feat(season): R0494 Season palette note #24` |
+| 495 | completed | assets | Asset slot registration #24 | Asset slot assets/walk/slot_0495.png | `assets(manifest): R0495 Asset slot registration #24` |
