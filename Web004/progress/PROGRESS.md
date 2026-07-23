@@ -215,3 +215,4 @@
 | 208 | completed | feat | Add secret recipe stub #10 | Recipes=10 | `feat(shop): R0208 Add secret recipe stub #10` |
 | 209 | completed | feat | Add achievement definition #10 | Achievements=10 | `feat(meta): R0209 Add achievement definition #10` |
 | 210 | completed | style | CSS micro polish token #10 | CSS token hue=330 | `style(ui): R0210 CSS micro polish token #10` |
+| 211 | completed | feat | Add plantable linkage #10 | Plant link plant_lavender_0211 | `feat(content): R0211 Add plantable linkage #10` |
