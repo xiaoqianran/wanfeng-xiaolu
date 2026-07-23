@@ -2539,6 +2539,13 @@
       "emoji": "🍍",
       "kind": "风味",
       "seed": "pineapplePot"
+    },
+    "coconut": {
+      "id": "coconut",
+      "name": "椰子",
+      "emoji": "🥥",
+      "kind": "风味",
+      "seed": "coconutPot"
     }
   },
   "plants": {
@@ -4725,6 +4732,17 @@
       ],
       "harvest": "pineapple",
       "days": 3
+    },
+    "coconutPot": {
+      "id": "coconutPot",
+      "name": "椰子",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🥥"
+      ],
+      "harvest": "coconut",
+      "days": 4
     }
   },
   "cups": [
@@ -5819,6 +5837,16 @@
       "tags": [
         "清爽",
         "果香"
+      ]
+    },
+    {
+      "id": "coconut",
+      "name": "椰子",
+      "emoji": "🥥",
+      "need": "coconut",
+      "tags": [
+        "清爽",
+        "甜蜜"
       ]
     }
   ],
@@ -7432,6 +7460,21 @@
         "mint"
       ],
       "wantTopping": true
+    },
+    {
+      "name": "喝椰水的旅人",
+      "avatar": "🥥",
+      "wish": "椰子或蜜，清爽一点，暖杯也行。",
+      "tags": [
+        "清爽",
+        "甜蜜"
+      ],
+      "flavors": [
+        "coconut",
+        "honey",
+        "pineapple",
+        "mint"
+      ]
     }
   ],
   "dialogues": [
