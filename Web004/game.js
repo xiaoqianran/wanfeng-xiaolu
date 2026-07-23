@@ -1533,6 +1533,19 @@ function renderJournal() {
         ctx.arc(x, y, 3, 0, Math.PI * 2);
         ctx.fill();
       }
+    } else if (themeId === "loquat_lane") {
+      // warm yellow fruit glows + soft alley walls
+      ctx.fillStyle = "rgba(80,70,40,0.1)";
+      ctx.fillRect(0, 0, w * 0.1, h);
+      ctx.fillRect(w * 0.9, 0, w * 0.1, h);
+      ctx.fillStyle = "rgba(220,160,40,0.45)";
+      for (let i = 0; i < 12; i++) {
+        const x = w * 0.2 + (i * 50 + Math.sin(time * 0.03 + i) * 5) % (w * 0.6);
+        const y = h * 0.4 + ((i * 27) % 50);
+        ctx.beginPath();
+        ctx.arc(x, y, 4, 0, Math.PI * 2);
+        ctx.fill();
+      }
     }
   }
 
@@ -2508,7 +2521,7 @@ function renderJournal() {
       notes.push("杯子选得好");
     }
     const season = state.season || "dusk";
-    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || flavorDef.id === "rose_petal" || flavorDef.id === "elderflower" || baseDef.id === "floral_tea")) {
+    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || flavorDef.id === "rose_petal" || flavorDef.id === "elderflower" || flavorDef.id === "loquat" || baseDef.id === "floral_tea")) {
       score += 0.5; notes.push("春日花香");
     }
     if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || flavorDef.id === "litchi" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
