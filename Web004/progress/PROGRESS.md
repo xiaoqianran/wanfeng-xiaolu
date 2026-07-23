@@ -870,3 +870,4 @@
 | 863 | completed | feat | Ship plantable seed linkage into runtime #71 | plant link plant_rose_0863 harvest=seed_rose_0863 | `feat(content): R0863 Ship plantable seed linkage into runtime #71` |
 | 864 | completed | assets | Wire real stage art reference into runtime manifest #71 | live art assets/ui/live_0864.jpg from assets/shop/soda-hero.jpg (≥1KB) | `assets(ui): R0864 Wire real stage art reference into runtime manifest #71` |
 | 865 | completed | feat | Ship collectible + runtime catalog item #72 | Runtime item coconut_r0865 | `feat(content): R0865 Ship collectible + runtime catalog item #72` |
+| 866 | completed | feat | Ship customer persona into runtime #72 | Runtime customer 采风记者·866 | `feat(shop): R0866 Ship customer persona into runtime #72` |
