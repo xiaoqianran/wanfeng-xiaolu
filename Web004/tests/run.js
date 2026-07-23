@@ -689,5 +689,19 @@ test("build-meta shows version in settings", () => {
   assert.ok(game.includes("build-meta") && game.includes("Core.VERSION"));
 });
 
+test("game filters template customer names with middle-dot digits", () => {
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("·\\d+$") || game.includes("·\d+$") || game.indexOf("·") >= 0 && game.includes("filter"));
+  assert.ok(game.includes("CUSTOMERS") && game.includes("filter"));
+});
+
+test("shop tipMessages are unique without round spam", () => {
+  const s = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok((s.tipMessages || []).length >= 6);
+  const set = new Set(s.tipMessages);
+  assert.strictEqual(set.size, s.tipMessages.length);
+  s.tipMessages.forEach((m) => assert.ok(!/#\d+|小店低语 #/.test(m)));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
