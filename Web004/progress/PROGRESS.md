@@ -328,3 +328,4 @@
 | 321 | completed | feat | Add collectible item batch #16 | Item cocoa_r0321 added | `feat(content): R0321 Add collectible item batch #16` |
 | 322 | completed | feat | Add customer persona #16 | Customer 夜跑爱好者·322 | `feat(shop): R0322 Add customer persona #16` |
 | 323 | completed | feat | Add dialogue line #16 | Dialogue count=16 | `feat(content): R0323 Add dialogue line #16` |
+| 324 | completed | feat | Add garden care whisper #16 | Garden msg #17 | `feat(garden): R0324 Add garden care whisper #16` |
