@@ -1559,5 +1559,80 @@
     "id": "ev_next_path",
     "title": "下一条路",
     "body": "你还不知道明天走哪条，但星标还在。"
+  },
+  {
+    "id": "ev_clay_cup",
+    "title": "粗陶温",
+    "body": "粗陶杯握在手里，田园的温度比灯还稳。"
+  },
+  {
+    "id": "ev_enamel_chip",
+    "title": "搪瓷小磕",
+    "body": "杯沿有一点旧磕，像它也走过很多路。"
+  },
+  {
+    "id": "ev_recipe_clay",
+    "title": "粗陶配方",
+    "body": "卡片上画了粗陶与一朵浅黄花。"
+  },
+  {
+    "id": "ev_star_icon",
+    "title": "星标图标",
+    "body": "按钮上的小星亮了一下，像在眨眼。"
+  },
+  {
+    "id": "ev_snow_icon",
+    "title": "雪的记号",
+    "body": "资源栏没有雪，但主题里有。"
+  },
+  {
+    "id": "ev_shop_clay",
+    "title": "田园出杯",
+    "body": "客人说：这杯子像从窗台端过来的。"
+  },
+  {
+    "id": "ev_warm_enamel",
+    "title": "搪瓷暖",
+    "body": "蜜柚在搪瓷里更黄，像小太阳。"
+  },
+  {
+    "id": "ev_path_pick3",
+    "title": "又选主题",
+    "body": "你在十六个主题里绕了一圈，最后选了熟悉的。"
+  },
+  {
+    "id": "ev_bag_rare2",
+    "title": "珍藏名单",
+    "body": "小珍藏越来越长，像一份温柔的名单。"
+  },
+  {
+    "id": "ev_day_gift",
+    "title": "日礼",
+    "body": "完成小目标后，日礼是一片青苔。"
+  },
+  {
+    "id": "ev_soft_214",
+    "title": "继续走",
+    "body": "数字到了二百多，路还是同一条晚风。"
+  },
+  {
+    "id": "ev_plant_list",
+    "title": "可种名单",
+    "body": "种子列表越来越热闹，窗台还装得下。"
+  },
+  {
+    "id": "ev_guest_enamel",
+    "title": "搪瓷客人",
+    "body": "他指名要搪瓷杯，说像小时候。"
+  },
+  {
+    "id": "ev_close_soft",
+    "title": "收工",
+    "body": "展示架三杯影子，够写进手帐了。"
+  },
+  {
+    "id": "ev_next_morning",
+    "title": "明天",
+    "body": "水壶满着，等待明天的第一格蓄水。"
   }
 ]
