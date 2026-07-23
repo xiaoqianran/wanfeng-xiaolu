@@ -84,3 +84,8 @@
 :root{--r-accent:hsl(110 38% 62%);--r-accent-soft:hsl(110 40% 92%);}
 .brand-mark{box-shadow:0 4px 14px color-mix(in srgb, var(--r-accent) 35%, transparent);}
 .primary-btn{background:linear-gradient(135deg,var(--r-accent),var(--sage-deep,#5f9a72));}
+
+/* R0082 shipped accent — used by .brand-mark / .primary-btn via --r-accent */
+:root{--r-accent:hsl(314 38% 62%);--r-accent-soft:hsl(314 40% 92%);}
+.brand-mark{box-shadow:0 4px 14px color-mix(in srgb, var(--r-accent) 35%, transparent);}
+.primary-btn{background:linear-gradient(135deg,var(--r-accent),var(--sage-deep,#5f9a72));}
