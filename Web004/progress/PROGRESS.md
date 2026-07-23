@@ -105,3 +105,4 @@
 | 98 | completed | feat | Ship customer persona into runtime #8 | Runtime customer 烘焙店员·98 | `feat(shop): R0098 Ship customer persona into runtime #8` |
 | 99 | completed | feat | Ship walk ambient + pathWidth into runtime #8 | walk pathWidth=3299 ambient=60 | `feat(walk): R0099 Ship walk ambient + pathWidth into runtime #8` |
 | 100 | completed | feat | Ship garden care whisper into runtime #8 | garden messages=61 careBonus=1.05 | `feat(garden): R0100 Ship garden care whisper into runtime #8` |
+| 101 | completed | feat | Ship shop tip + perfectBonus into runtime #8 | shop tips=61 perfectBonus=4 | `feat(shop): R0101 Ship shop tip + perfectBonus into runtime #8` |
