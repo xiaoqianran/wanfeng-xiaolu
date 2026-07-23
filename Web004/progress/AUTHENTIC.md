@@ -356,3 +356,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0357 | completed | feat | 柳岸轻步 | willow_bank 33rd | feat(walk): A0357 柳岸轻步主题与柳絮特效 |
 | A0358 | completed | content | 接骨木柳岸内容 | events+recipes | content(events): A0358 接骨木柳岸 vignette 与配方 |
 | A0359 | completed | test | 回归手册 | 165 pass | test(docs): A0359 开店清静柳岸回归与手册 |
+| A0360 | completed | feat | 洛神花可种植 | hibiscusPot+achievements | feat(garden): A0360 洛神花可种植窗台 |
+| A0361 | completed | feat | 夜荷池 | night_pond 34th | feat(walk): A0361 夜荷池主题与池光萤点 |
+| A0362 | completed | content | 洛神夜荷内容 | events+recipes | content(events): A0362 洛神夜荷 vignette 与配方 |
+| A0363 | completed | test | 回归手册 | 166 pass spam DISABLED | test(docs): A0363 洛神夜荷回归与手册 |

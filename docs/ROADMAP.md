@@ -66,3 +66,11 @@
 - 主题 32 · 测试 164 pass
 - 三大系统：邻盆/晨露/对调 · 32 小路 · 钉配方/常客板
 - `cd Web004 && node tests/run.js && node tools/quality-gate.js`
+
+## 执行锚点 A0363
+- authentic **356** / 1000（SoT: authentic-rounds.jsonl）
+- 下一轮 A0364+
+- spam DISABLED
+- 主题 34 · 测试 166 pass
+- 静物：晨露/邻盆/对调/多种草本 · 散步：34 主题 · 小店：钉配方/开店清静/常客板
+- `cd Web004 && node tests/run.js && node tools/quality-gate.js`
