@@ -61,8 +61,11 @@
             <button type="button" class="soft-btn" id="btn-next-season">🍃 换个季节散步</button>
             <button type="button" class="soft-btn" data-go="journal">📓 今日手帐</button>
             <button type="button" class="soft-btn" data-go="achievements">✨ 温柔成就</button>
-            <button type="button" class="soft-btn" data-go="settings">⚙️ 设置</button>
+            <button type="button" class="soft-btn" data-go="settings"><img src="assets/ui/icon-settings.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 设置</button>
+            <button type="button" class="soft-btn" data-go="daily"><img src="assets/ui/icon-daily.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 今日小目标</button>
+            <button type="button" class="soft-btn" id="btn-demo-mode"><img src="assets/ui/icon-demo.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 演示模式</button>
           </div>
+          <div id="daily-preview" class="accent-chip" hidden></div>
         </div>
         <div class="nav-cards">
           <button class="nav-card" data-go="walk">
@@ -110,8 +113,25 @@
         <div class="album-grid" id="achievements-grid"></div>
       </section>
 
+      <!-- 今日目标 -->
+      <section class="screen" id="screen-daily" data-screen="daily" aria-label="今日小目标">
+        <div class="panel-head">
+          <button class="back-btn" data-go="home" type="button">← 回小院</button>
+          <h2>今日小目标</h2>
+          <span class="hint">做不到也没关系，明天又是新的晚风</span>
+        </div>
+        <div class="side-card" style="max-width:560px;margin:0 auto">
+          <p class="muted" id="daily-date"></p>
+          <div id="daily-list" class="journal-list"></div>
+          <div class="setting-actions">
+            <button type="button" class="primary-btn" id="btn-claim-daily" disabled>领取今日温柔奖励</button>
+          </div>
+          <p class="muted" id="daily-msg"></p>
+        </div>
+      </section>
+
       <!-- 设置 -->
-      <section class="screen" id="screen-settings" data-screen="settings">
+      <section class="screen" id="screen-settings" data-screen="settings" aria-label="设置">
         <div class="panel-head">
           <button class="back-btn" data-go="home">← 回小院</button>
           <h2>设置</h2>

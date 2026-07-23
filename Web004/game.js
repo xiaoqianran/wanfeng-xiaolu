@@ -154,6 +154,37 @@
     if (tips) tips.checked = st.showTips !== false;
   }
 
+  function refreshDailyUI() {
+    Core.ensureDailyGoals(state);
+    const ev = Core.evaluateDailyGoals(state);
+    const list = document.getElementById("daily-list");
+    const dateEl = document.getElementById("daily-date");
+    const claim = document.getElementById("btn-claim-daily");
+    const msg = document.getElementById("daily-msg");
+    const preview = document.getElementById("daily-preview");
+    if (dateEl) dateEl.textContent = "日期 " + (ev.daily.key || "");
+    if (list) {
+      list.innerHTML = (ev.daily.goalIds || [])
+        .map((id) => {
+          const def = Core.DAILY_GOAL_DEFS.find((d) => d.id === id) || { name: id, desc: "" };
+          const done = !!ev.daily.completed[id];
+          return `<article class="journal-card"><div class="meta">${done ? "已完成" : "进行中"}</div><p><strong>${def.name}</strong> — ${def.desc}</p></article>`;
+        })
+        .join("");
+    }
+    if (claim) {
+      claim.disabled = !ev.allDone || !!ev.daily.claimed;
+      claim.textContent = ev.daily.claimed ? "今日奖励已领取" : "领取今日温柔奖励";
+    }
+    if (msg && !ev.daily.claimed) msg.textContent = ev.allDone ? "全部完成啦，可以领取奖励。" : "慢慢来，没有惩罚。";
+    if (preview) {
+      const doneN = (ev.daily.goalIds || []).filter((id) => ev.daily.completed[id]).length;
+      const total = (ev.daily.goalIds || []).length || 3;
+      preview.hidden = false;
+      preview.textContent = `今日小目标 ${doneN}/${total}`;
+    }
+  }
+
   // expose for debugging / tests in browser
   globalThis.WanfengGame = {
     getState: () => state,
@@ -240,6 +271,7 @@
       const msg = document.getElementById("settings-msg");
       if (msg) msg.textContent = "";
     }
+    if (screen === "daily") refreshDailyUI();
     if (screen !== "walk") stopWalk();
     sfx("ui");
   }
@@ -807,6 +839,9 @@
         ? gardenCfg.messages[Math.floor(Math.random() * gardenCfg.messages.length)]
         : null;
 
+    if (act === "water" || act === "sun" || act === "talk") {
+      state._tendsToday = (state._tendsToday || 0) + 1;
+    }
     if (act === "water") {
       pot.water = Math.min(100, pot.water + 28 * careBonus);
       toast(gardenMsg ? "💧 " + gardenMsg : "💧 浇了一小壶水");
@@ -1291,9 +1326,55 @@
     }
   }
 
+  // daily reward + demo
+  const claimBtn = document.getElementById("btn-claim-daily");
+  if (claimBtn) {
+    claimBtn.addEventListener("click", () => {
+      const r = Core.claimDailyReward(state);
+      const msg = document.getElementById("daily-msg");
+      if (!r.ok) {
+        if (msg) msg.textContent = r.reason === "claimed" ? "已经领过啦。" : "还没全部完成哦。";
+        return;
+      }
+      save();
+      refreshResources();
+      refreshDailyUI();
+      if (msg) msg.textContent = `领取成功：+${r.coins} 金币，+${r.hearts} 好心情`;
+      toast("☀️ 今日小目标完成");
+      sfx("serve");
+    });
+  }
+  const demoBtn = document.getElementById("btn-demo-mode");
+  if (demoBtn) {
+    demoBtn.addEventListener("click", () => {
+      if (!confirm("载入演示存档？当前进度会写入演示状态（可用导出备份）。")) return;
+      state = Core.createDemoState();
+      state.customer = randomCustomer();
+      save();
+      refreshResources();
+      refreshDailyUI();
+      applySettingsToDom();
+      toast("🎬 已进入演示模式");
+      go("home");
+    });
+  }
+
+  // keyboard: 1-4 quick nav from home
+  window.addEventListener("keydown", (e) => {
+    if (e.target && (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA")) return;
+    const map = { "1": "walk", "2": "garden", "3": "shop", "4": "album" };
+    if (map[e.key]) {
+      go(map[e.key]);
+      e.preventDefault();
+    }
+  });
+
   // ---------- 启动 ----------
   settleOfflineGrowth();
+  Core.ensureDailyGoals(state);
+  Core.evaluateDailyGoals(state);
   refreshResources();
+  refreshDailyUI();
   applySettingsToDom();
   wireSettings();
   wireTutorial();

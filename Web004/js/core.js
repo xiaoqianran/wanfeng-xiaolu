@@ -140,6 +140,99 @@
     return { ok: true, state: data };
   }
 
+  /** Soft daily goals — no punishment if incomplete */
+  var DAILY_GOAL_DEFS = [
+    { id: "walk_once", name: "沿小路走一段", desc: "完成一次「再走一段新路」", check: function (s, p) { return (s.pathsWalked || 0) > (p.pathsWalked || 0); } },
+    { id: "pick_three", name: "拾取三件小物", desc: "今日累计拾取 3 件", check: function (s, p) { return ((s.stats && s.stats.itemsPicked) || 0) >= ((p.itemsPicked || 0) + 3); } },
+    { id: "tend_plant", name: "照料一株植物", desc: "浇水、日照或说说话一次", check: function (s, p) { return (s._tendsToday || 0) >= 1; } },
+    { id: "serve_one", name: "招待一位客人", desc: "成功端出一杯汽水", check: function (s, p) { return ((s.stats && s.stats.drinksServed) || 0) > (p.drinksServed || 0); } },
+    { id: "journal_day", name: "留下一行手帐", desc: "任意行为写入手帐", check: function (s, p) { return (s.journal || []).length > (p.journalLen || 0); } },
+  ];
+
+  function dayKey(ts) {
+    var d = new Date(ts || Date.now());
+    return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+  }
+
+  function ensureDailyGoals(state, now) {
+    now = now || Date.now();
+    var key = dayKey(now);
+    if (!state.daily || state.daily.key !== key) {
+      // pick 3 stable goals from defs using date hash
+      var seed = 0;
+      for (var i = 0; i < key.length; i++) seed = (seed * 31 + key.charCodeAt(i)) >>> 0;
+      var picks = [];
+      var used = {};
+      var n = 0;
+      while (picks.length < 3 && n < 20) {
+        var idx = (seed + n * 17) % DAILY_GOAL_DEFS.length;
+        n++;
+        if (used[idx]) continue;
+        used[idx] = true;
+        picks.push(DAILY_GOAL_DEFS[idx].id);
+      }
+      state.daily = {
+        key: key,
+        goalIds: picks,
+        baseline: {
+          pathsWalked: state.pathsWalked || 0,
+          itemsPicked: (state.stats && state.stats.itemsPicked) || 0,
+          drinksServed: (state.stats && state.stats.drinksServed) || 0,
+          journalLen: (state.journal || []).length,
+        },
+        completed: {},
+        claimed: false,
+      };
+      state._tendsToday = 0;
+    }
+    return state.daily;
+  }
+
+  function evaluateDailyGoals(state) {
+    var daily = ensureDailyGoals(state);
+    var newly = [];
+    daily.goalIds.forEach(function (id) {
+      if (daily.completed[id]) return;
+      var def = DAILY_GOAL_DEFS.filter(function (d) { return d.id === id; })[0];
+      if (!def) return;
+      if (def.check(state, daily.baseline || {})) {
+        daily.completed[id] = true;
+        newly.push(def);
+      }
+    });
+    return { daily: daily, newly: newly, allDone: daily.goalIds.every(function (id) { return daily.completed[id]; }) };
+  }
+
+  function claimDailyReward(state) {
+    var ev = evaluateDailyGoals(state);
+    if (!ev.allDone) return { ok: false, reason: "incomplete" };
+    if (ev.daily.claimed) return { ok: false, reason: "claimed" };
+    ev.daily.claimed = true;
+    state.coins = (state.coins || 0) + 8;
+    state.hearts = (state.hearts || 0) + 1;
+    appendJournal(state, "完成了今日的温柔小目标。");
+    return { ok: true, coins: 8, hearts: 1 };
+  }
+
+  /** Demo mode: seed a showcase state without combat */
+  function createDemoState() {
+    var s = defaultState(4);
+    s.coins = 48;
+    s.hearts = 6;
+    s.pathsWalked = 3;
+    s.bag = { lemon: 4, mint: 3, berry: 3, petal: 2, maple: 2, honey: 2, peach: 1, jasmine: 1, clover: 1 };
+    s.discovered = {};
+    Object.keys(s.bag).forEach(function (k) { s.discovered[k] = true; });
+    s.pots[0] = { plantId: "mintPlant", water: 70, sun: 65, mood: 80, growth: 2.2, tendedAt: Date.now() };
+    s.pots[1] = { plantId: "lemonTree", water: 50, sun: 55, mood: 60, growth: 3.5, tendedAt: Date.now() };
+    s.stats = { itemsPicked: 20, drinksServed: 5, plantsHarvested: 2, seasonsSeen: 3 };
+    s.settings = { sound: true, reduceMotion: false, showTips: true, tutorialDone: true };
+    s.demo = true;
+    appendJournal(s, "演示存档：展示散步、盆栽与汽水的温柔日常。");
+    ensureDailyGoals(s);
+    return s;
+  }
+
   var SEASON_ORDER = ["dusk", "spring", "summer", "autumn", "winter"];
   var SEASON_LABELS = {
     dusk: "黄昏",
@@ -532,5 +625,11 @@
     updateSettings: updateSettings,
     exportSave: exportSave,
     importSave: importSave,
+    DAILY_GOAL_DEFS: DAILY_GOAL_DEFS,
+    dayKey: dayKey,
+    ensureDailyGoals: ensureDailyGoals,
+    evaluateDailyGoals: evaluateDailyGoals,
+    claimDailyReward: claimDailyReward,
+    createDemoState: createDemoState,
   };
 });
