@@ -101,3 +101,4 @@
 | 94 | completed | style | Ship CSS accent token used by app shell #7 | CSS --r-accent hue=158 wired to brand/primary | `style(ui): R0094 Ship CSS accent token used by app shell #7` |
 | 95 | completed | feat | Ship plantable seed linkage into runtime #7 | plant link plant_mango_0095 harvest=seed_mango_0095 | `feat(content): R0095 Ship plantable seed linkage into runtime #7` |
 | 96 | completed | assets | Wire real stage art reference into runtime manifest #7 | live art assets/garden/live_0096.jpg from assets/shop/night-window.jpg (≥1KB) | `assets(ui): R0096 Wire real stage art reference into runtime manifest #7` |
+| 97 | completed | feat | Ship collectible + runtime catalog item #8 | Runtime item hibiscus_r0097 | `feat(content): R0097 Ship collectible + runtime catalog item #8` |
