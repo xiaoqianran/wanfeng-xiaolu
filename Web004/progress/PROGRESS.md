@@ -908,3 +908,4 @@
 | 901 | completed | feat | Add collectible item batch #45 | Item lavender_r0901 added | `feat(content): R0901 Add collectible item batch #45` |
 | 902 | completed | feat | Add customer persona #45 | Customer 织围巾的阿姨·902 | `feat(shop): R0902 Add customer persona #45` |
 | 903 | completed | feat | Add dialogue line #45 | Dialogue count=45 | `feat(content): R0903 Add dialogue line #45` |
+| 904 | completed | feat | Add garden care whisper #45 | Garden msg #46 | `feat(garden): R0904 Add garden care whisper #45` |
