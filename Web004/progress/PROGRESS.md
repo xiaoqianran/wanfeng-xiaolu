@@ -895,3 +895,4 @@
 | 888 | completed | assets | Wire real stage art reference into runtime manifest #73 | live art assets/album/live_0888.jpg from assets/shop/night-window.jpg (≥1KB) | `assets(ui): R0888 Wire real stage art reference into runtime manifest #73` |
 | 889 | completed | feat | Ship collectible + runtime catalog item #74 | Runtime item grape_r0889 | `feat(content): R0889 Ship collectible + runtime catalog item #74` |
 | 890 | completed | feat | Ship customer persona into runtime #74 | Runtime customer 图书馆员·890 | `feat(shop): R0890 Ship customer persona into runtime #74` |
+| 891 | completed | feat | Ship walk ambient + pathWidth into runtime #74 | walk pathWidth=3291 ambient=120 | `feat(walk): R0891 Ship walk ambient + pathWidth into runtime #74` |
