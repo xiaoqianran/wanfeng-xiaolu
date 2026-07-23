@@ -964,3 +964,4 @@
 | 957 | completed | feat | Path theme fragment #47 | Path themes=52 | `feat(walk): R0957 Path theme fragment #47` |
 | 958 | completed | feat | Topping or cup option #47 | Topping top_r0958 | `feat(content): R0958 Topping or cup option #47` |
 | 959 | completed | docs | Stage milestone summary #47 | Stage doc stage-20.md | `docs(progress): R0959 Stage milestone summary #47` |
+| 960 | completed | refactor | Catalog integrity pass #47 | Integrity items=95 customers=47 | `refactor(core): R0960 Catalog integrity pass #47` |
