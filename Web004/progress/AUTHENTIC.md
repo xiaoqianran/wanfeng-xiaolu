@@ -209,3 +209,4 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0210 | completed | docs | 续作状态卡 | resume at 202 | `docs(autodev): A0210 续作说明 authentic 202` |
 | A0211 | completed | feat | 金银花养成 | honeysuckle plant+flavor+recipe | `feat(garden): A0211 金银花可种植与金银花雪灯配方` |
 | A0212 | completed | test | 金银花回归 | 124 tests pass | `feat(garden): A0211 金银花可种植与金银花雪灯配方` |
+| A0213 | completed | content | 事件至252则 | 252 unique events | `content(events): A0213 晚间 vignette 至二五二则` |
