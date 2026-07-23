@@ -21,3 +21,4 @@
 | 14 | completed | feat | Ship customer persona into runtime #1 | Runtime customer 弹尤克里里的人·14 | `feat(shop): R0014 Ship customer persona into runtime #1` |
 | 15 | completed | feat | Ship walk ambient + pathWidth into runtime #1 | walk pathWidth=3215 ambient=53 | `feat(walk): R0015 Ship walk ambient + pathWidth into runtime #1` |
 | 16 | completed | feat | Ship garden care whisper into runtime #1 | garden messages=54 careBonus=1.05 | `feat(garden): R0016 Ship garden care whisper into runtime #1` |
+| 17 | completed | feat | Ship shop tip + perfectBonus into runtime #1 | shop tips=54 perfectBonus=4 | `feat(shop): R0017 Ship shop tip + perfectBonus into runtime #1` |
