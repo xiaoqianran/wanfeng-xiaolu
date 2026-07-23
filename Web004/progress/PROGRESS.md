@@ -583,3 +583,4 @@
 | 576 | completed | assets | Wire real stage art reference into runtime manifest #47 | live art assets/garden/live_0576.jpg from assets/garden/windowsill.jpg (≥1KB) | `assets(ui): R0576 Wire real stage art reference into runtime manifest #47` |
 | 577 | completed | feat | Ship collectible + runtime catalog item #48 | Runtime item hibiscus_r0577 | `feat(content): R0577 Ship collectible + runtime catalog item #48` |
 | 578 | completed | feat | Ship customer persona into runtime #48 | Runtime customer 烘焙店员·578 | `feat(shop): R0578 Ship customer persona into runtime #48` |
+| 579 | completed | feat | Ship walk ambient + pathWidth into runtime #48 | walk pathWidth=3379 ambient=100 | `feat(walk): R0579 Ship walk ambient + pathWidth into runtime #48` |
