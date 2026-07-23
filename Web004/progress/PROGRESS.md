@@ -979,3 +979,4 @@
 | 972 | completed | assets | Wire real stage art reference into runtime manifest #80 | live art assets/shop/live_0972.jpg from assets/garden/windowsill.jpg (≥1KB) | `assets(ui): R0972 Wire real stage art reference into runtime manifest #80` |
 | 973 | completed | feat | Ship collectible + runtime catalog item #81 | Runtime item osmanthus_r0973 | `feat(content): R0973 Ship collectible + runtime catalog item #81` |
 | 974 | completed | feat | Ship customer persona into runtime #81 | Runtime customer 弹尤克里里的人·974 | `feat(shop): R0974 Ship customer persona into runtime #81` |
+| 975 | completed | feat | Ship walk ambient + pathWidth into runtime #81 | walk pathWidth=3375 ambient=120 | `feat(walk): R0975 Ship walk ambient + pathWidth into runtime #81` |
