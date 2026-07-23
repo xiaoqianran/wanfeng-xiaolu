@@ -286,3 +286,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0287 | completed | test | 芦苇主题回归 | 143 tests pass | `feat(walk): A0285 芦苇岸径主题与事件三四八则` |
 | A0288 | completed | feat | 香茅养成 | lemongrass plant+flavor+2 recipes | `feat(garden): A0288 香茅可种植与两道香茅配方` |
 | A0289 | completed | test | 香茅回归 | 144 tests pass | `feat(garden): A0288 香茅可种植与两道香茅配方` |
+| A0290 | completed | content | 香茅事件355 | 355 unique evening events | `content(events): A0290 香茅事件与手册芦苇岸` |
+| A0291 | completed | docs | 手册芦苇 | USER_MANUAL reed_bank | `content(events): A0290 香茅事件与手册芦苇岸` |
