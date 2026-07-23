@@ -385,6 +385,7 @@
     { id: "bench_sitter", name: "长椅旅人", desc: "在小路长椅歇脚 3 次", check: function (s) { return (s.stats && s.stats.benchSits || 0) >= 3; } },
     { id: "theme_collector", name: "十路旅人", desc: "切换过 5 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 5; } },
     { id: "can_gardener", name: "小水壶园丁", desc: "用水壶浇灌 5 次", check: function (s) { return (s.stats && s.stats.canWaters || 0) >= 5; } },
+    { id: "sill_photographer", name: "窗台速写", desc: "拍下 3 张盆栽速写", check: function (s) { return (s.stats && s.stats.potSnaps || 0) >= 3; } },
   ];
 
   function advanceSeason(state) {
@@ -964,6 +965,32 @@
     return { ok: true, prev: prev };
   }
 
+  /** Soft windowsill snapshot — still-life memory card, no combat */
+  function snapshotPot(state, potIndex, plants) {
+    plants = plants || DEFAULT_PLANTS;
+    var pot = state.pots && state.pots[potIndex];
+    if (!pot || !pot.plantId) return { ok: false, reason: "empty" };
+    var def = plants[pot.plantId] || { name: pot.plantId, emoji: ["🪴"] };
+    var stage = growthStage(pot, plants);
+    var card = {
+      at: Date.now(),
+      day: state.day || 1,
+      season: state.season || "dusk",
+      plantId: pot.plantId,
+      name: pot.nickname || def.name,
+      emoji: (def.emoji && def.emoji[stage]) || "🪴",
+      mood: Math.round(pot.mood || 0),
+      note: pot.note || "",
+    };
+    if (!state.potSnaps) state.potSnaps = [];
+    state.potSnaps.push(card);
+    if (state.potSnaps.length > 12) state.potSnaps = state.potSnaps.slice(-12);
+    if (!state.stats) state.stats = {};
+    state.stats.potSnaps = (state.stats.potSnaps || 0) + 1;
+    appendJournal(state, "给「" + card.name + "」拍了一张窗台速写。");
+    return { ok: true, card: card };
+  }
+
   function pickCustomerWithPin(state, customers, rng) {
     customers = customers || DEFAULT_CUSTOMERS;
     rng = rng || Math.random;
@@ -1036,6 +1063,7 @@
     pinCustomer: pinCustomer,
     unpinCustomer: unpinCustomer,
     pickCustomerWithPin: pickCustomerWithPin,
+    snapshotPot: snapshotPot,
     assertNoCombat: assertNoCombat,
     advanceSeason: advanceSeason,
     appendJournal: appendJournal,

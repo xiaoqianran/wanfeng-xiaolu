@@ -315,5 +315,33 @@
       },
       "hearts": 1
     }
+  },
+  {
+    "id": "mail_firefly",
+    "title": "萤火瓶（空的）",
+    "body": "瓶子是空的，字条写：光要自己带回家。",
+    "effect": {
+      "hearts": 2
+    }
+  },
+  {
+    "id": "mail_chamomile2",
+    "title": "再一包甘菊",
+    "body": "这次更干一点，适合夜里慢慢泡。",
+    "effect": {
+      "items": {
+        "chamomile": 1,
+        "honey": 1
+      }
+    }
+  },
+  {
+    "id": "mail_pin",
+    "title": "常客杯垫",
+    "body": "软木杯垫边缘写着小字：留给还要再来的人。",
+    "effect": {
+      "coins": 2,
+      "hearts": 1
+    }
   }
 ]

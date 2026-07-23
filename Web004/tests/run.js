@@ -1326,5 +1326,21 @@ test("chamomile plantable and 甘菊暖夜 recipe", () => {
   assert.ok((j.customers || []).some((c) => c.name === "失眠的插画师"));
 });
 
+
+test("snapshotPot still-life memory and UI", () => {
+  const s = core.defaultState();
+  core.addItem(s, "mint", 1);
+  core.plantSeed(s, 0, "mint");
+  const r = core.snapshotPot(s, 0);
+  assert.ok(r.ok && r.card);
+  assert.ok((s.potSnaps || []).length >= 1);
+  assert.ok((s.stats.potSnaps || 0) >= 1);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "sill_photographer"));
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("btn-pot-snap"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("snapshotPot"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

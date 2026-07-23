@@ -373,7 +373,12 @@
       <p>走过小路 ${state.pathsWalked||0} 段 · 拾取 ${st.itemsPicked||0} · 收获 ${st.plantsHarvested||0} · 招待 ${st.drinksServed||0}</p>
       <p>发现收集物 ${disc} · 汽水配方 ${drinks} · 来信 ${mailN} · 熟悉客人 ${aff} · 主题足迹 ${themesN}</p>
       <p>季节 ${Core.SEASON_LABELS[state.season]||state.season||"黄昏"} · 主题 ${state.pathThemeId||"maple_lane"} · 花盆 ${(state.potSlots||state.pots.length)} </p>
-      <p>长椅歇脚 ${st.benchSits||0} · 花盆便签 ${st.potNotes||0}</p>
+      <p>长椅歇脚 ${st.benchSits||0} · 花盆便签 ${st.potNotes||0} · 窗台速写 ${st.potSnaps||0}</p>
+      ${(() => {
+        const snaps = (state.potSnaps || []).slice(-4).reverse();
+        if (!snaps.length) return "";
+        return "<p>最近速写：" + snaps.map((c) => (c.emoji || "🪴") + (c.name || "")).join(" · ") + "</p>";
+      })()}
       ${(() => {
         const pairs = Object.entries(state.customerAffinity || {}).sort((a,b)=>b[1]-a[1]).slice(0,5);
         if (!pairs.length) return "";
@@ -1407,6 +1412,23 @@
       save();
       renderGarden();
       toast("📝 便签贴好了");
+      sfx("ui");
+    });
+  })();
+
+  (function wirePotSnap() {
+    const btn = document.getElementById("btn-pot-snap");
+    if (!btn || btn._wired) return;
+    btn._wired = true;
+    btn.addEventListener("click", () => {
+      const r = Core.snapshotPot(state, state.selectedPot, PLANTS);
+      if (!r.ok) {
+        toast("先选一盆有植物的花盆");
+        return;
+      }
+      checkAchievements();
+      save();
+      toast("📷 速写好了：" + r.card.emoji + " " + r.card.name + " · 心情 " + r.card.mood);
       sfx("ui");
     });
   })();
