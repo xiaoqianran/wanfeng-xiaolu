@@ -5208,6 +5208,49 @@
         "lavender_bud",
         "plain"
       ]
+    },
+    {
+      "name": "折纸船的孩子",
+      "avatar": "⛵",
+      "wish": "要清爽一点的，装饰可以像小船。",
+      "tags": [
+        "清爽"
+      ],
+      "flavors": [
+        "mint",
+        "lemon",
+        "plain"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "夜读的图书管理员",
+      "avatar": "📕",
+      "wish": "茶底花香最好，像翻旧书的味道。",
+      "tags": [
+        "温柔",
+        "花香"
+      ],
+      "flavors": [
+        "jasmine",
+        "lilac",
+        "tea_leaf",
+        "osmanthus"
+      ]
+    },
+    {
+      "name": "早市收摊的阿姨",
+      "avatar": "🧺",
+      "wish": "甜一点也没关系，桃或蜜都行。",
+      "tags": [
+        "甜蜜",
+        "田园"
+      ],
+      "flavors": [
+        "honey",
+        "peach",
+        "berry"
+      ]
     }
   ],
   "dialogues": [
