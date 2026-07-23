@@ -835,3 +835,4 @@
 | 828 | completed | assets | Wire real stage art reference into runtime manifest #68 | live art assets/album/live_0828.jpg from assets/items/collectibles-sheet.jpg (≥1KB) | `assets(ui): R0828 Wire real stage art reference into runtime manifest #68` |
 | 829 | completed | feat | Ship collectible + runtime catalog item #69 | Runtime item grape_r0829 | `feat(content): R0829 Ship collectible + runtime catalog item #69` |
 | 830 | completed | feat | Ship customer persona into runtime #69 | Runtime customer 图书馆员·830 | `feat(shop): R0830 Ship customer persona into runtime #69` |
+| 831 | completed | feat | Ship walk ambient + pathWidth into runtime #69 | walk pathWidth=3231 ambient=120 | `feat(walk): R0831 Ship walk ambient + pathWidth into runtime #69` |
