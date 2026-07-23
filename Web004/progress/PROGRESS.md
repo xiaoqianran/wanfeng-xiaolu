@@ -548,3 +548,4 @@
 | 541 | completed | feat | Add collectible item batch #27 | Item lavender_r0541 added | `feat(content): R0541 Add collectible item batch #27` |
 | 542 | completed | feat | Add customer persona #27 | Customer 织围巾的阿姨·542 | `feat(shop): R0542 Add customer persona #27` |
 | 543 | completed | feat | Add dialogue line #27 | Dialogue count=27 | `feat(content): R0543 Add dialogue line #27` |
+| 544 | completed | feat | Add garden care whisper #27 | Garden msg #28 | `feat(garden): R0544 Add garden care whisper #27` |
