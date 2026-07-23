@@ -1029,3 +1029,4 @@
 | 1022 | completed | feat | Add customer persona #51 | Customer 织围巾的阿姨·1022 | `feat(shop): R1022 Add customer persona #51` |
 | 1023 | completed | feat | Add dialogue line #51 | Dialogue count=50 | `feat(content): R1023 Add dialogue line #51` |
 | 1024 | completed | feat | Add garden care whisper #51 | Garden msg #51 | `feat(garden): R1024 Add garden care whisper #51` |
+| 1025 | completed | feat | Add shop tip #51 | Shop tip #51 | `feat(shop): R1025 Add shop tip #51` |
