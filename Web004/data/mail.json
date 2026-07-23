@@ -507,5 +507,16 @@
     "effect": {
       "coins": 2
     }
+  },
+  {
+    "id": "mail_lemongrass",
+    "title": "香茅一捆",
+    "body": "晒干了。字条：煮水或入汽水都行。",
+    "effect": {
+      "items": {
+        "lemongrass": 2
+      },
+      "hearts": 1
+    }
   }
 ]
