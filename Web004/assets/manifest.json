@@ -68,7 +68,8 @@
     "assets/walk/slot_1035.png",
     "assets/walk/slot_1055.png",
     "assets/shop/live_0012.jpg",
-    "assets/ui/live_0024.jpg"
+    "assets/ui/live_0024.jpg",
+    "assets/garden/live_0036.jpg"
   ],
   "stages": {
     "home": [
@@ -96,7 +97,13 @@
     "garden": [
       "assets/garden/windowsill.jpg",
       "assets/plants/mint-stages.jpg",
-      "assets/ui/garden-actions.jpg"
+      "assets/ui/garden-actions.jpg",
+      {
+        "round": 36,
+        "path": "assets/garden/live_0036.jpg",
+        "status": "live",
+        "source": "assets/items/collectibles-sheet.jpg"
+      }
     ],
     "shop": [
       "assets/shop/soda-hero.jpg",
