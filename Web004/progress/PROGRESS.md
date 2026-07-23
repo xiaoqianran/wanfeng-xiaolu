@@ -158,3 +158,4 @@
 | 151 | completed | feat | Ship journal template into runtime #12 | journal templates=65 | `feat(album): R0151 Ship journal template into runtime #12` |
 | 152 | completed | feat | Ship secret recipe into runtime #12 | secret recipes=65 | `feat(shop): R0152 Ship secret recipe into runtime #12` |
 | 153 | completed | feat | Ship achievement milestone into runtime #12 | achievements=65 | `feat(meta): R0153 Ship achievement milestone into runtime #12` |
+| 154 | completed | style | Ship CSS accent token used by app shell #12 | CSS --r-accent hue=98 wired to brand/primary | `style(ui): R0154 Ship CSS accent token used by app shell #12` |
