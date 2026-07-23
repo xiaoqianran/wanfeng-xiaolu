@@ -348,3 +348,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0349 | completed | feat | 玫瑰短巷 | rose_lane 31st + pin UI | feat(walk): A0349 玫瑰短巷与配方钉选 UI |
 | A0350 | completed | content | 玫瑰内容 | events+recipes | content(events): A0350 玫瑰短巷 vignette 与配方 |
 | A0351 | completed | test | 回归手册 | 163 pass | test(docs): A0351 玫瑰钉配方回归与手册 |
+| A0352 | completed | feat | 邻盆作伴马郁兰 | companionTends+marjoramPot | feat(garden): A0352 邻盆作伴与马郁兰 |
+| A0353 | completed | feat | 崖边慢径 | cliff_path 32nd | feat(walk): A0353 崖边慢径主题与风痕特效 |
+| A0354 | completed | content | 马郁兰崖边内容 | events+recipe | content(events): A0354 马郁兰崖边 vignette 与配方 |
+| A0355 | completed | test | 回归手册 | 164 pass | test(docs): A0355 邻盆崖边回归与手册 |
