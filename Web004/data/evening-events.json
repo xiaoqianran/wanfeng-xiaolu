@@ -2699,5 +2699,35 @@
     "id": "ev_continue_mulberry",
     "title": "继续走·又见桑荫",
     "body": "第二次走桑荫，叶更密，光更碎。"
+  },
+  {
+    "id": "ev_strawberry",
+    "title": "草莓窗台",
+    "body": "草莓花很小，像还没决定要不要结果。你浇了一点水。"
+  },
+  {
+    "id": "ev_berry_patch",
+    "title": "莓田慢步",
+    "body": "田垄把晚风切成一条一条。你走得很慢。"
+  },
+  {
+    "id": "ev_straw_guest",
+    "title": "摘草莓的人",
+    "body": "孩子说要甜。你多放了半勺草莓。"
+  },
+  {
+    "id": "ev_red_finger",
+    "title": "红手指",
+    "body": "果汁把指尖染红了，像没有洗干净的晚霞。"
+  },
+  {
+    "id": "ev_berry_sweet",
+    "title": "田里的甜",
+    "body": "甜味不是从杯子里来的，是从土里来的。"
+  },
+  {
+    "id": "ev_continue_berry",
+    "title": "继续走·又见莓田",
+    "body": "第二次走莓田，叶更密，果更红。"
   }
 ]
