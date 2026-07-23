@@ -255,3 +255,4 @@
 | 248 | completed | feat | Ship secret recipe into runtime #20 | secret recipes=73 | `feat(shop): R0248 Ship secret recipe into runtime #20` |
 | 249 | completed | feat | Ship achievement milestone into runtime #20 | achievements=73 | `feat(meta): R0249 Ship achievement milestone into runtime #20` |
 | 250 | completed | style | Ship CSS accent token used by app shell #20 | CSS --r-accent hue=290 wired to brand/primary | `style(ui): R0250 Ship CSS accent token used by app shell #20` |
+| 251 | completed | feat | Ship plantable seed linkage into runtime #20 | plant link plant_feather_0251 harvest=seed_feather_0251 | `feat(content): R0251 Ship plantable seed linkage into runtime #20` |
