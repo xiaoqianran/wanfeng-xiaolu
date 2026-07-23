@@ -370,5 +370,35 @@
     "effect": {
       "hearts": 2
     }
+  },
+  {
+    "id": "mail_fav_path",
+    "title": "常走的那条",
+    "body": "地图上有人画了一颗星，正好落在你家常走的主题上。",
+    "effect": {
+      "hearts": 1,
+      "coins": 1
+    }
+  },
+  {
+    "id": "mail_moss",
+    "title": "青苔标本",
+    "body": "压在信纸里，还带着一点潮。",
+    "effect": {
+      "items": {
+        "moss": 1
+      },
+      "hearts": 1
+    }
+  },
+  {
+    "id": "mail_sage",
+    "title": "鼠尾草一束",
+    "body": "晒干了，香气还在。字条：煮水也行，种也行。",
+    "effect": {
+      "items": {
+        "sage": 2
+      }
+    }
   }
 ]
