@@ -352,3 +352,4 @@
 | 345 | completed | feat | Add shop tip #17 | Shop tip #18 | `feat(shop): R0345 Add shop tip #17` |
 | 346 | completed | feat | Tune walk ambient note #17 | Walk ambient #17 | `feat(walk): R0346 Tune walk ambient note #17` |
 | 347 | completed | feat | Add journal template #17 | Journal templates=17 | `feat(album): R0347 Add journal template #17` |
+| 348 | completed | feat | Add secret recipe stub #17 | Recipes=17 | `feat(shop): R0348 Add secret recipe stub #17` |
