@@ -368,3 +368,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0369 | completed | feat | 桂花小院 | osmanthus_court 36th + close UI | feat(walk): A0369 桂花小院主题与收摊按钮 |
 | A0370 | completed | content | 桂院内容 | events+recipes | content(events): A0370 桂院茉莉 vignette 与配方 |
 | A0371 | completed | test | 回归手册 | 168 pass | test(docs): A0371 收摊桂院回归与手册 |
+| A0372 | completed | feat | 补血草与图鉴成就 | seaLavenderPot+path_atlas | feat(garden): A0372 补血草可种植与小路图鉴成就 |
+| A0373 | completed | feat | 小路图鉴与海边 | paths tab+seaside_dusk 37th | feat(album): A0373 小路图鉴页与海边暮色 |
+| A0374 | completed | content | 海边内容 | events+recipe | content(events): A0374 海边补血草 vignette 与配方 |
+| A0375 | completed | test | 回归手册 | 169 pass | test(docs): A0375 小路图鉴海边回归与手册 |
