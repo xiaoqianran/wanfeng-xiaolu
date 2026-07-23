@@ -887,5 +887,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_starfruit",
+    "title": "杨桃干片",
+    "body": "切杨桃的女孩来信：晒干也能入杯。给你几片。",
+    "effect": {
+      "items": {
+        "starfruit": 2
+      },
+      "coins": 2
+    }
   }
 ]
