@@ -368,6 +368,12 @@
       <p>走过小路 ${state.pathsWalked||0} 段 · 拾取 ${st.itemsPicked||0} · 收获 ${st.plantsHarvested||0} · 招待 ${st.drinksServed||0}</p>
       <p>发现收集物 ${disc} · 汽水配方 ${drinks} · 来信 ${mailN} · 熟悉客人 ${aff} · 主题足迹 ${themesN}</p>
       <p>季节 ${Core.SEASON_LABELS[state.season]||state.season||"黄昏"} · 主题 ${state.pathThemeId||"maple_lane"} · 花盆 ${(state.potSlots||state.pots.length)} </p>
+      <p>长椅歇脚 ${st.benchSits||0} · 花盆便签 ${st.potNotes||0}</p>
+      ${(() => {
+        const pairs = Object.entries(state.customerAffinity || {}).sort((a,b)=>b[1]-a[1]).slice(0,5);
+        if (!pairs.length) return "";
+        return "<p>常来的客人：" + pairs.map(([n,v]) => n + "×" + v).join(" · ") + "</p>";
+      })()}
       </article>`;
   }
 
@@ -756,6 +762,18 @@
         ctx.fill();
         ctx.restore();
       }
+    } else if (themeId === "book_yard") {
+      // soft floating paper flecks
+      ctx.fillStyle = "rgba(232, 220, 200, 0.35)";
+      for (let i = 0; i < 10; i++) {
+        const x = ((i * 83 + time * 0.18) % (w + 20)) - 10;
+        const y = 20 + ((i * 47 + time * 0.12) % (h * 0.5));
+        ctx.save();
+        ctx.translate(x, y);
+        ctx.rotate(Math.sin(time * 0.02 + i) * 0.4);
+        ctx.fillRect(-5, -3, 10, 6);
+        ctx.restore();
+      }
     }
   }
 
@@ -1003,6 +1021,22 @@
     if (walkRunning) resizeWalk();
   });
 
+  const btnSitBench = document.getElementById("btn-sit-bench");
+  if (btnSitBench) {
+    btnSitBench.addEventListener("click", () => {
+      const r = Core.sitBench(state);
+      checkAchievements();
+      save();
+      refreshResources();
+      if (r.hearts) {
+        toast("🪑 歇够三回了，好心情 +1");
+      } else {
+        toast("🪑 风停了一会儿，脚也轻了");
+      }
+      sfx("ui");
+    });
+  }
+
   const btnSeason = document.getElementById("btn-next-season");
   if (btnSeason) {
     btnSeason.addEventListener("click", () => {
@@ -1127,6 +1161,9 @@
     const stage = growthStage(pot);
     const stageName = ["幼芽", "抽枝", "成熟"][stage];
     const nick = pot.nickname ? `「${pot.nickname}」` : '';
+    const noteLine = pot.note
+      ? `<p class="muted" style="margin-top:8px">📝 便签：「${pot.note}」</p>`
+      : "";
     detail.innerHTML = `
       <h3>${def.emoji[stage]} ${def.name} ${nick}</h3>
       <p class="muted">阶段：${stageName} · 生长 ${Math.min(pot.growth, def.days).toFixed(1)} / ${def.days}</p>
@@ -1135,7 +1172,8 @@
         <div class="stat"><span>日照</span><div class="bar sun"><i style="width:${pot.sun}%"></i></div><span>${Math.round(pot.sun)}</span></div>
         <div class="stat"><span>心情</span><div class="bar mood"><i style="width:${pot.mood}%"></i></div><span>${Math.round(pot.mood)}</span></div>
       </div>
-      <p class="muted" style="margin-top:10px">浇水、日照、说说话，都会让它慢慢长大。没有枯死，只有慢慢等。</p>
+      ${noteLine}
+      <p class="muted" style="margin-top:10px">浇水、日照、说说话，都会让它慢慢长大。没有枯死，只有慢慢等。季节不同，照料会有一点点不一样。</p>
       ${pot.water < 25 ? '<p class="muted">💧 土壤有点干，也许想喝一口水。</p>' : ''}
       ${pot.sun < 25 ? '<p class="muted">☁️ 有点想晒太阳。</p>' : ''}
       ${pot.mood < 30 ? '<p class="muted">想听你说说话。</p>' : ''}
@@ -1296,6 +1334,31 @@
       save();
       renderGarden();
       toast("✏️ 以后就叫「" + r.nickname + "」啦");
+      sfx("ui");
+    });
+  })();
+
+  (function wirePotNote() {
+    const btn = document.getElementById("btn-pot-note");
+    if (!btn || btn._wired) return;
+    btn._wired = true;
+    btn.addEventListener("click", () => {
+      const pot = state.pots[state.selectedPot];
+      if (!pot || !pot.plantId) {
+        toast("先选一盆有植物的花盆");
+        return;
+      }
+      const note = prompt("写一句不超过40字的便签：", pot.note || "");
+      if (note == null) return;
+      const r = Core.setPotNote(state, state.selectedPot, note);
+      if (!r.ok) {
+        toast(r.reason === "empty_note" ? "便签是空的" : "先种点什么吧");
+        return;
+      }
+      checkAchievements();
+      save();
+      renderGarden();
+      toast("📝 便签贴好了");
       sfx("ui");
     });
   })();

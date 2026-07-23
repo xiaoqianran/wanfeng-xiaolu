@@ -366,6 +366,9 @@
     { id: "gentle_rest", name: "陪它歇歇", desc: "让植物休息 3 次", check: function (s) { return (s.stats && s.stats.rests || 0) >= 3; } },
     { id: "theme_walker", name: "多路旅人", desc: "切换过 3 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 3; } },
     { id: "mail_reader", name: "拆信人", desc: "读过 3 封来信", check: function (s) { return Object.keys(s._readMail || {}).length >= 3; } },
+    { id: "pot_scribe", name: "花盆便签", desc: "给植物写下 2 句便签", check: function (s) { return (s.stats && s.stats.potNotes || 0) >= 2; } },
+    { id: "bench_sitter", name: "长椅旅人", desc: "在小路长椅歇脚 3 次", check: function (s) { return (s.stats && s.stats.benchSits || 0) >= 3; } },
+    { id: "theme_collector", name: "十路旅人", desc: "切换过 5 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 5; } },
   ];
 
   function advanceSeason(state) {
@@ -493,6 +496,33 @@
     pot.nickname = name;
     appendJournal(state, "给植物取名：「" + name + "」。");
     return { ok: true, nickname: name };
+  }
+
+  /** Soft note on a pot — pure still-life journaling, no combat */
+  function setPotNote(state, potIndex, note) {
+    var pot = state.pots && state.pots[potIndex];
+    if (!pot || !pot.plantId) return { ok: false, reason: "empty" };
+    note = String(note || "").trim().slice(0, 40);
+    if (!note) return { ok: false, reason: "empty_note" };
+    pot.note = note;
+    if (!state.stats) state.stats = {};
+    state.stats.potNotes = (state.stats.potNotes || 0) + 1;
+    appendJournal(state, "在花盆边写下一句：「" + note + "」。");
+    return { ok: true, note: note };
+  }
+
+  /** Pathside bench rest: soft recovery, no combat, tiny heart chance via streak */
+  function sitBench(state) {
+    state = state || {};
+    if (!state.stats) state.stats = {};
+    state.stats.benchSits = (state.stats.benchSits || 0) + 1;
+    var heartsGain = 0;
+    if ((state.stats.benchSits % 3) === 0) {
+      heartsGain = 1;
+      state.hearts = (state.hearts || 0) + 1;
+    }
+    appendJournal(state, "在小路边的长椅上歇了歇脚。");
+    return { ok: true, sits: state.stats.benchSits, hearts: heartsGain };
   }
 
   function tend(state, potIndex, act, plants) {
@@ -854,6 +884,8 @@
     isReady: isReady,
     plantSeed: plantSeed,
     renamePlant: renamePlant,
+    setPotNote: setPotNote,
+    sitBench: sitBench,
     tend: tend,
     settleOfflineGrowth: settleOfflineGrowth,
     scoreDrink: scoreDrink,

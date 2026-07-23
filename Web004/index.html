@@ -185,11 +185,11 @@
           </article>
           <article class="journal-card">
             <div class="meta">晚风小路</div>
-            <p>用屏幕左右按钮或键盘方向键 / <kbd>A</kbd> <kbd>D</kbd> 走动。靠近发光的小东西会自动拾取。上方可切换枫径、河畔、竹影、星光四种主题（影响天空与拾取倾向）。点「再走一段新路」会遇到晚间小事件。</p>
+            <p>用屏幕左右按钮或键盘方向键 / <kbd>A</kbd> <kbd>D</kbd> 走动。靠近发光的小东西会自动拾取。上方可切换小路主题（影响天空与拾取倾向）。点「再走一段新路」会遇到晚间小事件；「长椅歇脚」可安静地坐一会儿。</p>
           </article>
           <article class="journal-card">
             <div class="meta">窗台盆栽</div>
-            <p>选空花盆 → 从种子列表种植 → 浇水 / 日照 / 说说话。成熟后可收获。可给植物取小名；金币够时可扩展花盆位（最多 6）。</p>
+            <p>选空花盆 → 从种子列表种植 → 浇水 / 日照 / 说说话 / 歇一歇。成熟后可收获。可取小名、写便签；金币够时可扩展花盆位（最多 6）。照料会随季节有轻微软加成。</p>
           </article>
           <article class="journal-card">
             <div class="meta">青柠汽水铺</div>
@@ -252,7 +252,10 @@
         </div>
         <div class="walk-footer">
           <p>沿路会遇到落叶、花瓣、野果与小石头。捡起来，可以种在窗台，也可以做成汽水。</p>
-          <button class="primary-btn" id="btn-new-path">再走一段新路 ✨</button>
+          <div class="action-row walk-actions">
+            <button class="primary-btn" id="btn-new-path">再走一段新路 ✨</button>
+            <button class="soft-btn" type="button" id="btn-sit-bench">🪑 长椅歇脚</button>
+          </div>
         </div>
       </section>
 
@@ -282,6 +285,7 @@
               <button class="soft-btn" data-act="sun">☀️ 日照</button>
               <button class="soft-btn" data-act="talk">💬 说说话</button>
               <button class="soft-btn" data-act="rest">😴 歇一歇</button>
+              <button class="soft-btn" id="btn-pot-note" type="button">📝 写便签</button>
               <button class="soft-btn accent" data-act="harvest" id="btn-harvest" hidden>🌼 收获</button>
             </div>
           </aside>
