@@ -95,7 +95,8 @@
     "assets/shop/live_0312.jpg",
     "assets/ui/live_0324.jpg",
     "assets/garden/live_0336.jpg",
-    "assets/album/live_0348.jpg"
+    "assets/album/live_0348.jpg",
+    "assets/walk/live_0360.jpg"
   ],
   "stages": {
     "home": [
@@ -148,6 +149,12 @@
         "path": "assets/walk/live_0300.jpg",
         "status": "live",
         "source": "assets/items/collectibles-sheet.jpg"
+      },
+      {
+        "round": 360,
+        "path": "assets/walk/live_0360.jpg",
+        "status": "live",
+        "source": "assets/shop/night-window.jpg"
       }
     ],
     "garden": [
