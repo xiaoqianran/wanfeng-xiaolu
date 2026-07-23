@@ -598,3 +598,4 @@
 | 591 | completed | feat | Add plantable linkage #29 | Plant link plant_cocoa_0591 | `feat(content): R0591 Add plantable linkage #29` |
 | 592 | completed | feat | Add flavor or base option #29 | Flavor fl_matcha_0592 | `feat(shop): R0592 Add flavor or base option #29` |
 | 593 | completed | feat | UI copy toast string #29 | UI toasts=30 | `feat(ui): R0593 UI copy toast string #29` |
+| 594 | completed | feat | Season palette note #29 | Season palette winter_0594 | `feat(season): R0594 Season palette note #29` |

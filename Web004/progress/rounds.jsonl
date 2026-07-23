@@ -591,3 +591,4 @@
 {"round":591,"status":"completed","type":"feat","scope":"content","goal":"Add plantable linkage #29","outcome":"Plant link plant_cocoa_0591","commit":"feat(content): R0591 Add plantable linkage #29","at":"2026-07-23T19:50:07.624Z"}
 {"round":592,"status":"completed","type":"feat","scope":"shop","goal":"Add flavor or base option #29","outcome":"Flavor fl_matcha_0592","commit":"feat(shop): R0592 Add flavor or base option #29","at":"2026-07-23T19:50:07.661Z"}
 {"round":593,"status":"completed","type":"feat","scope":"ui","goal":"UI copy toast string #29","outcome":"UI toasts=30","commit":"feat(ui): R0593 UI copy toast string #29","at":"2026-07-23T19:50:07.688Z"}
+{"round":594,"status":"completed","type":"feat","scope":"season","goal":"Season palette note #29","outcome":"Season palette winter_0594","commit":"feat(season): R0594 Season palette note #29","at":"2026-07-23T19:50:07.717Z"}
