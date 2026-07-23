@@ -365,3 +365,4 @@
 | 358 | completed | feat | Topping or cup option #17 | Topping top_r0358 | `feat(content): R0358 Topping or cup option #17` |
 | 359 | completed | docs | Stage milestone summary #17 | Stage doc stage-08.md | `docs(progress): R0359 Stage milestone summary #17` |
 | 360 | completed | refactor | Catalog integrity pass #17 | Integrity items=35 customers=17 | `refactor(core): R0360 Catalog integrity pass #17` |
+| 361 | completed | feat | Add collectible item batch #18 | Item lavender_r0361 added | `feat(content): R0361 Add collectible item batch #18` |
