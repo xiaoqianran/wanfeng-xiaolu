@@ -702,3 +702,4 @@
 | 695 | completed | assets | Asset slot registration #34 | Asset slot assets/walk/slot_0695.png | `assets(manifest): R0695 Asset slot registration #34` |
 | 696 | completed | test | Regression assertion pack #34 | Test pack size=36 | `test(core): R0696 Regression assertion pack #34` |
 | 697 | completed | feat | Path theme fragment #34 | Path themes=39 | `feat(walk): R0697 Path theme fragment #34` |
+| 698 | completed | feat | Topping or cup option #34 | Topping top_r0698 | `feat(content): R0698 Topping or cup option #34` |
