@@ -428,3 +428,4 @@
 | 421 | completed | feat | Add collectible item batch #21 | Item lavender_r0421 added | `feat(content): R0421 Add collectible item batch #21` |
 | 422 | completed | feat | Add customer persona #21 | Customer 织围巾的阿姨·422 | `feat(shop): R0422 Add customer persona #21` |
 | 423 | completed | feat | Add dialogue line #21 | Dialogue count=21 | `feat(content): R0423 Add dialogue line #21` |
+| 424 | completed | feat | Add garden care whisper #21 | Garden msg #22 | `feat(garden): R0424 Add garden care whisper #21` |
