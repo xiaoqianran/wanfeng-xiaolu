@@ -937,3 +937,19 @@ body.reduce-motion *::after {
   box-shadow: inset 0 0 0 1px var(--r-accent, var(--sage));
 }
 .theme-desc { margin: 0 0 12px; min-height: 1.4em; }
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 8px;
+  z-index: 100;
+  background: var(--paper);
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+}
+.skip-link:focus {
+  left: 12px;
+  outline: none;
+  box-shadow: var(--focus-ring, 0 0 0 3px rgba(126,179,154,0.45));
+}
