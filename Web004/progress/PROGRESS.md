@@ -864,3 +864,4 @@
 | 857 | completed | feat | Path theme fragment #42 | Path themes=47 | `feat(walk): R0857 Path theme fragment #42` |
 | 858 | completed | feat | Topping or cup option #42 | Topping top_r0858 | `feat(content): R0858 Topping or cup option #42` |
 | 859 | completed | docs | Stage milestone summary #42 | Stage doc stage-18.md | `docs(progress): R0859 Stage milestone summary #42` |
+| 860 | completed | refactor | Catalog integrity pass #42 | Integrity items=85 customers=42 | `refactor(core): R0860 Catalog integrity pass #42` |
