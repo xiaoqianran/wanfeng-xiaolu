@@ -932,3 +932,4 @@
 | 925 | completed | feat | Add shop tip #46 | Shop tip #47 | `feat(shop): R0925 Add shop tip #46` |
 | 926 | completed | feat | Tune walk ambient note #46 | Walk ambient #46 | `feat(walk): R0926 Tune walk ambient note #46` |
 | 927 | completed | feat | Add journal template #46 | Journal templates=46 | `feat(album): R0927 Add journal template #46` |
+| 928 | completed | feat | Add secret recipe stub #46 | Recipes=46 | `feat(shop): R0928 Add secret recipe stub #46` |

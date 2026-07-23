@@ -925,3 +925,4 @@
 {"round":925,"status":"completed","type":"feat","scope":"shop","goal":"Add shop tip #46","outcome":"Shop tip #47","commit":"feat(shop): R0925 Add shop tip #46","at":"2026-07-23T19:50:20.259Z"}
 {"round":926,"status":"completed","type":"feat","scope":"walk","goal":"Tune walk ambient note #46","outcome":"Walk ambient #46","commit":"feat(walk): R0926 Tune walk ambient note #46","at":"2026-07-23T19:50:20.322Z"}
 {"round":927,"status":"completed","type":"feat","scope":"album","goal":"Add journal template #46","outcome":"Journal templates=46","commit":"feat(album): R0927 Add journal template #46","at":"2026-07-23T19:50:20.355Z"}
+{"round":928,"status":"completed","type":"feat","scope":"shop","goal":"Add secret recipe stub #46","outcome":"Recipes=46","commit":"feat(shop): R0928 Add secret recipe stub #46","at":"2026-07-23T19:50:20.380Z"}
