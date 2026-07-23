@@ -62,3 +62,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0062 | completed | perf | 减少动效关闭拾取浮动 | bob=0 when reduceMotion | `perf(walk): A0062 减少动效时关闭拾取物浮动` |
 | A0063 | completed | feat | 码头薄暮主题 | harbor theme + wave weather FX | `feat(walk): A0063 码头薄暮主题与潮波特效` |
 | A0064 | completed | docs | README 功能与进度说明 | feature list + authentic progress pointer | `docs(readme): A0064 更新功能列表与诚实进度说明` |
+| A0065 | completed | feat | 花盆显示小名 | pot label includes nickname | `feat(garden): A0065 花盆标签显示植物小名` |
+| A0066 | completed | feat | 剪贴板复制存档 | btn-copy-save clipboard API | `feat(settings): A0066 存档一键复制到剪贴板` |
+| A0067 | completed | docs | GDD 扩展系统 | document themes mail daily etc | `docs(gdd): A0067 补充扩展系统说明` |
