@@ -444,3 +444,4 @@
 | 437 | completed | feat | Ship shop tip + perfectBonus into runtime #36 | shop tips=89 perfectBonus=4 | `feat(shop): R0437 Ship shop tip + perfectBonus into runtime #36` |
 | 438 | completed | feat | Ship dialogue line into runtime #36 | dialogues=88 | `feat(content): R0438 Ship dialogue line into runtime #36` |
 | 439 | completed | feat | Ship journal template into runtime #36 | journal templates=89 | `feat(album): R0439 Ship journal template into runtime #36` |
+| 440 | completed | feat | Ship secret recipe into runtime #36 | secret recipes=89 | `feat(shop): R0440 Ship secret recipe into runtime #36` |
