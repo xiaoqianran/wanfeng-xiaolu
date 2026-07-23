@@ -1959,5 +1959,49 @@ test("album memories tab ships with potSnaps wall", () => {
   assert.ok(man.includes("青苔石阶") && man.includes("回忆"));
 });
 
+
+test("coriander plantable and 香菜田园罐 recipe", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.coriander && j.items.coriander.seed === "corianderPot");
+  assert.ok(j.plants.corianderPot);
+  assert.ok((j.flavors || []).some((f) => f.id === "coriander"));
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  s.bag.coriander = 1;
+  assert.ok(core.plantSeed(s, 0, "coriander", cat).ok);
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "香菜田园罐"));
+  assert.ok((j.customers || []).some((c) => c.name === "包饺子的阿姨"));
+});
+
+
+test("ink_courtyard theme among 25 unique themes", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "ink_courtyard"));
+  assert.ok(themes.length >= 25);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("ink_courtyard"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "ink_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("墨香小院"));
+});
+
+
+test("getTopGuests board and regular_host achievement", () => {
+  const s = core.defaultState();
+  s.customerAffinity = { 包饺子的阿姨: 4, 临摹碑帖的人: 2, 路人甲: 1 };
+  const top = core.getTopGuests(s, 2);
+  assert.strictEqual(top.length, 2);
+  assert.strictEqual(top[0].name, "包饺子的阿姨");
+  assert.ok(top[0].affinity >= 4);
+  const newly = core.evaluateAchievements(s);
+  assert.ok(newly.some((a) => a.id === "regular_host") || s.achievements.regular_host);
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("guest-board"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("getTopGuests") || game.includes("guest-board"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
