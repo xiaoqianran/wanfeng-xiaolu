@@ -1282,5 +1282,20 @@ test("firefly_field theme and star sand recipe ship", () => {
   assert.ok((j.customers || []).some((c) => c.name === "追萤火的少年"));
 });
 
+
+test("evening events past 110 unique hand authored", () => {
+  const ev = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(ev.length >= 110);
+  const titles = ev.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const ids = ev.map((e) => e.id).filter(Boolean);
+  assert.strictEqual(new Set(ids).size, ids.length);
+  ev.forEach((e) => {
+    assert.ok((e.body || "").length > 12);
+    assert.ok(!/#\d{2,}/.test((e.title || "") + (e.body || "")));
+    assert.ok(!/晚风碎片 #|窗台絮语 #/.test((e.title || "") + (e.body || "")));
+  });
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
