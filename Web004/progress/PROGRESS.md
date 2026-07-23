@@ -110,3 +110,4 @@
 | 103 | completed | feat | Add dialogue line #5 | Dialogue count=5 | `feat(content): R0103 Add dialogue line #5` |
 | 104 | completed | feat | Add garden care whisper #5 | Garden msg #6 | `feat(garden): R0104 Add garden care whisper #5` |
 | 105 | completed | feat | Add shop tip #5 | Shop tip #6 | `feat(shop): R0105 Add shop tip #5` |
+| 106 | completed | feat | Tune walk ambient note #5 | Walk ambient #5 | `feat(walk): R0106 Tune walk ambient note #5` |
