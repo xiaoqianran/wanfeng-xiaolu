@@ -315,3 +315,4 @@
 | 308 | completed | feat | Add secret recipe stub #15 | Recipes=15 | `feat(shop): R0308 Add secret recipe stub #15` |
 | 309 | completed | feat | Add achievement definition #15 | Achievements=15 | `feat(meta): R0309 Add achievement definition #15` |
 | 310 | completed | style | CSS micro polish token #15 | CSS token hue=230 | `style(ui): R0310 CSS micro polish token #15` |
+| 311 | completed | feat | Add plantable linkage #15 | Plant link plant_pine_0311 | `feat(content): R0311 Add plantable linkage #15` |
