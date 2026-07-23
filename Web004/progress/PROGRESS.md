@@ -679,3 +679,4 @@
 | 672 | completed | assets | Wire real stage art reference into runtime manifest #55 | live art assets/shop/live_0672.jpg from assets/album/journal-open.jpg (≥1KB) | `assets(ui): R0672 Wire real stage art reference into runtime manifest #55` |
 | 673 | completed | feat | Ship collectible + runtime catalog item #56 | Runtime item osmanthus_r0673 | `feat(content): R0673 Ship collectible + runtime catalog item #56` |
 | 674 | completed | feat | Ship customer persona into runtime #56 | Runtime customer 弹尤克里里的人·674 | `feat(shop): R0674 Ship customer persona into runtime #56` |
+| 675 | completed | feat | Ship walk ambient + pathWidth into runtime #56 | walk pathWidth=3275 ambient=108 | `feat(walk): R0675 Ship walk ambient + pathWidth into runtime #56` |
