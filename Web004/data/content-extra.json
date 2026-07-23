@@ -247,6 +247,14 @@
       "kind": "种子",
       "seed": "plant_pine_0311",
       "round": 311
+    },
+    "cocoa_r0321": {
+      "id": "cocoa_r0321",
+      "name": "可可·321",
+      "emoji": "🍫",
+      "kind": "风味",
+      "seed": null,
+      "round": 321
     }
   },
   "plants": {
@@ -1010,7 +1018,7 @@
     "theme_0317"
   ],
   "meta": {
-    "expandedRounds": 320,
+    "expandedRounds": 321,
     "lastIntegrityRound": 320,
     "itemCount": 31,
     "customerCount": 15
