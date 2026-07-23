@@ -1046,3 +1046,4 @@
 | 1039 | completed | docs | Stage milestone summary #51 | Stage doc stage-21.md | `docs(progress): R1039 Stage milestone summary #51` |
 | 1040 | completed | refactor | Catalog integrity pass #51 | Integrity items=102 customers=50 | `refactor(core): R1040 Catalog integrity pass #51` |
 | 1041 | completed | feat | Add collectible item batch #52 | Item cocoa_r1041 added | `feat(content): R1041 Add collectible item batch #52` |
+| 1042 | completed | feat | Add customer persona #52 | Customer 夜跑爱好者·1042 | `feat(shop): R1042 Add customer persona #52` |
