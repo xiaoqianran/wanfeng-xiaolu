@@ -1,8 +1,8 @@
 {
   "spawnBias": {
-    "maple": 1
+    "maple": 1.2
   },
-  "pathWidth": 3375,
+  "pathWidth": 3387,
   "ambient": [
     {
       "round": 26,
@@ -335,6 +335,10 @@
     {
       "round": 375,
       "note": "晚风碎片 #375"
+    },
+    {
+      "round": 387,
+      "note": "晚风碎片 #387"
     }
   ]
 }
