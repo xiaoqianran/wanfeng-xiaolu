@@ -249,6 +249,11 @@
     document.getElementById("res-coins").textContent = state.coins;
     document.getElementById("res-hearts").textContent = state.hearts;
     document.getElementById("res-bag").textContent = bagCount();
+    const canEl = document.getElementById("res-can");
+    if (canEl) {
+      const can = Core.getWateringCan(state);
+      canEl.textContent = can.charge + "/" + can.max;
+    }
     const seasonEl = document.getElementById("res-season");
     if (seasonEl) {
       seasonEl.textContent = Core.SEASON_LABELS[state.season] || state.season || "黄昏";
@@ -1576,7 +1581,7 @@
     if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || baseDef.id === "floral_tea")) {
       score += 0.5; notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5; notes.push("夏日清爽");
     }
     if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf")) {
