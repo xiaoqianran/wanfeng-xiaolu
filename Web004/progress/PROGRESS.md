@@ -1016,3 +1016,4 @@
 | 1009 | completed | feat | Add achievement definition #50 | Achievements=50 | `feat(meta): R1009 Add achievement definition #50` |
 | 1010 | completed | style | CSS micro polish token #50 | CSS token hue=250 | `style(ui): R1010 CSS micro polish token #50` |
 | 1011 | completed | feat | Add plantable linkage #50 | Plant link plant_cocoa_1011 | `feat(content): R1011 Add plantable linkage #50` |
+| 1012 | completed | feat | Add flavor or base option #50 | Flavor fl_matcha_1012 | `feat(shop): R1012 Add flavor or base option #50` |
