@@ -692,3 +692,4 @@
 | 685 | completed | feat | Add shop tip #34 | Shop tip #35 | `feat(shop): R0685 Add shop tip #34` |
 | 686 | completed | feat | Tune walk ambient note #34 | Walk ambient #34 | `feat(walk): R0686 Tune walk ambient note #34` |
 | 687 | completed | feat | Add journal template #34 | Journal templates=34 | `feat(album): R0687 Add journal template #34` |
+| 688 | completed | feat | Add secret recipe stub #34 | Recipes=34 | `feat(shop): R0688 Add secret recipe stub #34` |
