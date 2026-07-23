@@ -2729,5 +2729,35 @@
     "id": "ev_continue_berry",
     "title": "继续走·又见莓田",
     "body": "第二次走莓田，叶更密，果更红。"
+  },
+  {
+    "id": "ev_blueberry",
+    "title": "蓝莓窗台",
+    "body": "蓝莓的叶子是硬的。你浇水时放轻了手。"
+  },
+  {
+    "id": "ev_fog_meadow",
+    "title": "雾草甸",
+    "body": "雾里的路比看起来更软。你把脚步放慢。"
+  },
+  {
+    "id": "ev_blue_guest",
+    "title": "画蓝莓的人",
+    "body": "她说颜色对了，味道就会跟着对。"
+  },
+  {
+    "id": "ev_fog_hand",
+    "title": "雾手",
+    "body": "你伸出手，雾从指缝穿过，什么也没留下。"
+  },
+  {
+    "id": "ev_meadow_quiet",
+    "title": "草甸静",
+    "body": "虫鸣忽然齐了一拍，又散开。"
+  },
+  {
+    "id": "ev_continue_fog",
+    "title": "继续走·又见雾草甸",
+    "body": "第二次走雾草甸，雾更淡，草更绿。"
   }
 ]
