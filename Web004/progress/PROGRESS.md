@@ -847,3 +847,4 @@
 | 840 | completed | assets | Wire real stage art reference into runtime manifest #69 | live art assets/walk/live_0840.jpg from assets/garden/windowsill.jpg (≥1KB) | `assets(ui): R0840 Wire real stage art reference into runtime manifest #69` |
 | 841 | completed | feat | Ship collectible + runtime catalog item #70 | Runtime item lavender_r0841 | `feat(content): R0841 Ship collectible + runtime catalog item #70` |
 | 842 | completed | feat | Ship customer persona into runtime #70 | Runtime customer 织围巾的阿姨·842 | `feat(shop): R0842 Ship customer persona into runtime #70` |
+| 843 | completed | feat | Ship walk ambient + pathWidth into runtime #70 | walk pathWidth=3243 ambient=120 | `feat(walk): R0843 Ship walk ambient + pathWidth into runtime #70` |
