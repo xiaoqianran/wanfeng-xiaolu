@@ -256,7 +256,7 @@
     if (newly.length) {
       save();
       if (!silent) {
-        newly.forEach((a) => toast("✨ 成就：" + a.name));
+        newly.forEach((a) => { toast("✨ 成就：" + a.name); sfx("achieve"); });
       }
     }
     return newly;
@@ -307,7 +307,7 @@
         world = makeWorld(3000 + state.pathsWalked * 17 + Date.now() % 500);
         if (walkRunning) resizeWalk();
         toast((th.emoji || "") + " 小路换成了「" + th.name + "」");
-        sfx("ui");
+        sfx("theme");
       });
       box.appendChild(btn);
     });
@@ -925,7 +925,7 @@
           refreshResources();
           renderGarden();
           toast("🪴 新花盆就位了");
-          sfx("ui");
+          sfx("unlock");
         });
       }
     } else {
@@ -1021,6 +1021,7 @@
       state.stats.plantsHarvested = (state.stats.plantsHarvested || 0) + 1;
       Core.appendJournal(state, "收获了 " + (ITEMS[def.harvest].name || def.name) + "。");
       toast(`🌼 收获 ${ITEMS[def.harvest].emoji} ${ITEMS[def.harvest].name} ×${n}`);
+      sfx("harvest");
       // 植物回到抽枝，可继续养
       pot.growth = PLANTS[pot.plantId].days * 0.4;
       pot.water = 30;
