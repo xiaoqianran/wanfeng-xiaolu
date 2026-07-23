@@ -400,5 +400,25 @@
         "sage": 2
       }
     }
+  },
+  {
+    "id": "mail_honeysuckle",
+    "title": "一包金银花",
+    "body": "字条：凉茶也可以，汽水也可以，开心就好。",
+    "effect": {
+      "items": {
+        "honeysuckle": 2
+      },
+      "hearts": 1
+    }
+  },
+  {
+    "id": "mail_snow",
+    "title": "雪灯速写卡",
+    "body": "画了两盏灯笼和一点雪点。背面：常走。",
+    "effect": {
+      "coins": 2,
+      "hearts": 1
+    }
   }
 ]
