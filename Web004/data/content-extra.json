@@ -37,7 +37,15 @@
       "round": 12
     }
   ],
-  "toppings": [],
+  "toppings": [
+    {
+      "id": "top_r0018",
+      "name": "装饰·18",
+      "emoji": "✨",
+      "need": null,
+      "round": 18
+    }
+  ],
   "customers": [],
   "dialogues": [],
   "seasons": [
@@ -55,6 +63,6 @@
     "theme_0017"
   ],
   "meta": {
-    "expandedRounds": 17
+    "expandedRounds": 18
   }
 }
