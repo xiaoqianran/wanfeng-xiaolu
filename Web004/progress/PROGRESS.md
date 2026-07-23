@@ -196,3 +196,4 @@
 | 189 | completed | feat | Add achievement definition #9 | Achievements=9 | `feat(meta): R0189 Add achievement definition #9` |
 | 190 | completed | style | CSS micro polish token #9 | CSS token hue=350 | `style(ui): R0190 CSS micro polish token #9` |
 | 191 | completed | feat | Add plantable linkage #9 | Plant link plant_pine_0191 | `feat(content): R0191 Add plantable linkage #9` |
+| 192 | completed | feat | Add flavor or base option #9 | Flavor fl_shell_0192 | `feat(shop): R0192 Add flavor or base option #9` |
