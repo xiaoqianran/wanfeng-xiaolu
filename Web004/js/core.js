@@ -328,7 +328,7 @@
     s.pots[0] = { plantId: "mintPlant", water: 70, sun: 65, mood: 80, growth: 2.2, tendedAt: Date.now() };
     s.pots[1] = { plantId: "lemonTree", water: 50, sun: 55, mood: 60, growth: 3.5, tendedAt: Date.now() };
     s.stats = { itemsPicked: 20, drinksServed: 5, plantsHarvested: 2, seasonsSeen: 3 };
-    s.settings = { sound: true, reduceMotion: false, showTips: true, tutorialDone: true };
+    s.settings = { sound: true, reduceMotion: false, showTips: true, tutorialDone: true, weatherFx: true, ambience: false };
     s.demo = true;
     appendJournal(s, "演示存档：展示散步、盆栽与汽水的温柔日常。");
     ensureDailyGoals(s);
