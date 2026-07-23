@@ -444,10 +444,16 @@
       grid.innerHTML = '<div class="album-card"><div class="emoji">🧺</div><div class="name">还是空的</div><div class="meta">去小路逛逛吧</div></div>';
       return;
     }
+    const rareIds = new Set([
+      "star_sand", "paper_crane", "candy_wrap", "seashell", "wheat_ear",
+      "camellia", "lilac", "chamomile", "bluebell", "rosemary", "osmanthus",
+    ]);
     grid.innerHTML = entries
       .map((id) => {
         const it = ITEMS[id] || { emoji: "?", name: id, kind: "" };
-        return `<div class="album-card"><div class="emoji">${it.emoji || "?"}</div><div class="name">${it.name || id}</div><div class="meta">${it.kind || ""} · ×${state.bag[id]}</div></div>`;
+        const n = state.bag[id];
+        const rare = rareIds.has(id) ? " · 小珍藏" : "";
+        return `<div class="album-card"><div class="emoji">${it.emoji || "?"}</div><div class="name">${it.name || id}</div><div class="meta">${it.kind || ""} · ×${n}${rare}</div></div>`;
       })
       .join("");
   }

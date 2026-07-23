@@ -1364,5 +1364,16 @@ test("candy_wrap paper_crane and night market recipe", () => {
   assert.strictEqual(new Set(ev.map((e) => e.title)).size, ev.length);
 });
 
+
+test("bag rare tag and ambient expansion ship", () => {
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("小珍藏") && game.includes("rareIds"));
+  const walk = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "walk-config.json"), "utf8"));
+  assert.ok((walk.ambient || []).length >= 20);
+  walk.ambient.forEach((a) => assert.ok(!/#\d+/.test(a)));
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "journal-templates.json"), "utf8"));
+  assert.ok(j.some((x) => x.title === "夜市尾声" || x.title === "纸鹤"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
