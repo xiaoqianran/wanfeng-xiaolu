@@ -44,3 +44,11 @@
 - 下一轮 A0304+
 - spam DISABLED
 - `cd Web004 && node tests/run.js && node tools/quality-gate.js`
+
+## 执行锚点 A0321
+- authentic **314** / 1000
+- 下一轮 A0322+
+- spam DISABLED
+- 三大系统：茴香/佛手柑窗台 · 青苔石阶 · 图鉴回忆 · 小店配方
+- `cd Web004 && node tests/run.js && node tools/quality-gate.js` → 154 pass
+

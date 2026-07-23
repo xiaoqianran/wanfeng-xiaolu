@@ -312,3 +312,9 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0313 | completed | test | 星码头回归 | 151 tests pass | `feat(walk): A0312 星码头主题与星河特效` |
 | A0314 | completed | docs | 手册星码头 | USER_MANUAL star_dock | `docs(manual): A0314 手册星码头与码头事件` |
 | A0315 | completed | content | 星码头事件 | star_dock vignettes | `docs(manual): A0314 手册星码头与码头事件` |
+| A0316 | completed | feat | 茴香佛手柑可种植 | fennelPot+bergamotPot+achievements | feat(garden): A0316 茴香与佛手柑可种植窗台 |
+| A0317 | completed | feat | 图鉴回忆页 | memories tab + potSnaps wall + moss FX | feat(album): A0317 图鉴回忆页与熟土墙 |
+| A0318 | completed | feat | 青苔石阶主题 | moss_steps 24th theme + bias | feat(walk): A0318 青苔石阶主题（第24条小路） |
+| A0319 | completed | content | 青苔茴香事件配方 | 6 events + 2 recipes | content(events): A0319 青苔茴香 vignette 与秘密配方 |
+| A0320 | completed | test | 茴香石阶回忆回归 | 154 tests pass | test(core): A0320 茴香石阶回忆回归 |
+| A0321 | completed | docs | 手册青苔回忆 | USER_MANUAL moss_steps+memories | docs(manual): A0321 手册青苔石阶与图鉴回忆 |

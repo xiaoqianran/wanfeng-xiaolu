@@ -1,3 +1,14 @@
+# 进度 · 晚风小路
+
+- **真实轮次：314 / 1000**（缺口 ~686）
+- 游戏集成：219
+- 测试：154 passed · quality-gate PASS
+- spam：DISABLED
+- HEAD：1d38325
+- 主题：24（含青苔石阶）
+- 下一轮：A0322+
+- 本批：A0316–A0321 茴香/佛手柑可种植 · 图鉴回忆页 · moss_steps · 事件配方
+
 # 晚风小路 · 游戏开发进度表（集成回合）
 
 > 仅记录 **integrated=true** 回合：每轮改动 shipped 运行时并同步 js/content-extra.js + js/game-data.js。
