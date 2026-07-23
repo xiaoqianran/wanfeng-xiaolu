@@ -188,3 +188,4 @@
 | 181 | completed | feat | Add collectible item batch #9 | Item lavender_r0181 added | `feat(content): R0181 Add collectible item batch #9` |
 | 182 | completed | feat | Add customer persona #9 | Customer 织围巾的阿姨·182 | `feat(shop): R0182 Add customer persona #9` |
 | 183 | completed | feat | Add dialogue line #9 | Dialogue count=9 | `feat(content): R0183 Add dialogue line #9` |
+| 184 | completed | feat | Add garden care whisper #9 | Garden msg #10 | `feat(garden): R0184 Add garden care whisper #9` |
