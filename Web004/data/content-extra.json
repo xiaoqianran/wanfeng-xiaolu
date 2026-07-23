@@ -863,6 +863,14 @@
       "kind": "种子",
       "seed": "plant_rose_0023",
       "round": 23
+    },
+    "coconut_r0025": {
+      "id": "coconut_r0025",
+      "name": "椰果·25",
+      "emoji": "🥥",
+      "kind": "风味",
+      "seed": null,
+      "round": 25
     }
   },
   "plants": {
@@ -3398,7 +3406,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 23,
+    "expandedRounds": 25,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
