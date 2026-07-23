@@ -22,3 +22,4 @@
 {"round":22,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #1","outcome":"Customer 夜跑爱好者·22","commit":"feat(shop): R0022 Add customer persona #1","at":"2026-07-23T19:49:24.058Z"}
 {"round":23,"status":"completed","type":"feat","scope":"content","goal":"Add dialogue line #1","outcome":"Dialogue count=1","commit":"feat(content): R0023 Add dialogue line #1","at":"2026-07-23T19:49:24.076Z"}
 {"round":24,"status":"completed","type":"feat","scope":"garden","goal":"Add garden care whisper #1","outcome":"Garden msg #2","commit":"feat(garden): R0024 Add garden care whisper #1","at":"2026-07-23T19:49:24.110Z"}
+{"round":25,"status":"completed","type":"feat","scope":"shop","goal":"Add shop tip #1","outcome":"Shop tip #2","commit":"feat(shop): R0025 Add shop tip #1","at":"2026-07-23T19:49:24.127Z"}

@@ -29,3 +29,4 @@
 | 22 | completed | feat | Add customer persona #1 | Customer 夜跑爱好者·22 | `feat(shop): R0022 Add customer persona #1` |
 | 23 | completed | feat | Add dialogue line #1 | Dialogue count=1 | `feat(content): R0023 Add dialogue line #1` |
 | 24 | completed | feat | Add garden care whisper #1 | Garden msg #2 | `feat(garden): R0024 Add garden care whisper #1` |
+| 25 | completed | feat | Add shop tip #1 | Shop tip #2 | `feat(shop): R0025 Add shop tip #1` |
