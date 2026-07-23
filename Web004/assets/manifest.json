@@ -105,7 +105,8 @@
     "assets/shop/live_0432.jpg",
     "assets/ui/live_0444.jpg",
     "assets/garden/live_0456.jpg",
-    "assets/album/live_0468.jpg"
+    "assets/album/live_0468.jpg",
+    "assets/walk/live_0480.jpg"
   ],
   "stages": {
     "home": [
@@ -170,6 +171,12 @@
         "path": "assets/walk/live_0420.jpg",
         "status": "live",
         "source": "assets/scenes/walk-path.jpg"
+      },
+      {
+        "round": 480,
+        "path": "assets/walk/live_0480.jpg",
+        "status": "live",
+        "source": "assets/seasons/spring.jpg"
       }
     ],
     "garden": [
