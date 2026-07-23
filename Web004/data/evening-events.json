@@ -124,5 +124,76 @@
       },
       "hearts": 1
     }
+  },
+  {
+    "id": "kite_string",
+    "title": "风筝线",
+    "body": "线缠在树枝上，解下来时你觉得自己也轻了一点。",
+    "effect": {
+      "hearts": 1
+    }
+  },
+  {
+    "id": "dew_glass",
+    "title": "露水杯子",
+    "body": "谁把玻璃杯倒扣在草上，收集了一小洼清亮。",
+    "effect": {
+      "items": {
+        "mint": 1
+      },
+      "coins": 1
+    }
+  },
+  {
+    "id": "chalk_map",
+    "title": "粉笔地图",
+    "body": "地上画着歪歪扭扭的箭头，尽头是你家窗台。",
+    "effect": {
+      "coins": 2
+    }
+  },
+  {
+    "id": "lavender_scent",
+    "title": "淡得几乎没有的香",
+    "body": "你不能确定是薰衣草还是衣服上的皂香。",
+    "effect": {
+      "items": {
+        "petal": 1
+      },
+      "hearts": 1
+    }
+  },
+  {
+    "id": "closed_shop",
+    "title": "打烊之后",
+    "body": "卷帘门只留一条缝，里面还亮着一盏很暖的灯。",
+    "effect": {
+      "coins": 1,
+      "hearts": 1
+    }
+  },
+  {
+    "id": "train_whistle",
+    "title": "很远的汽笛",
+    "body": "像有人把远方折起来，轻轻敲了你一下。",
+    "effect": {
+      "hearts": 1
+    }
+  },
+  {
+    "id": "shared_song",
+    "title": "两个人的哼唱",
+    "body": "前后两个陌生人哼着同一句，都不好意思承认。",
+    "effect": {
+      "coins": 2
+    }
+  },
+  {
+    "id": "empty_swing",
+    "title": "空秋千",
+    "body": "还在轻轻晃，坐过的人已经走远。",
+    "effect": {
+      "hearts": 1
+    }
   }
 ]
