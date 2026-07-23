@@ -1663,7 +1663,7 @@
   // keyboard: 1-4 quick nav from home
   window.addEventListener("keydown", (e) => {
     if (e.target && (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA")) return;
-    const map = { "1": "walk", "2": "garden", "3": "shop", "4": "album" };
+    const map = { "1": "walk", "2": "garden", "3": "shop", "4": "album", "?": "help", "/": "help", "h": "help", "H": "help" };
     if (map[e.key]) {
       go(map[e.key]);
       e.preventDefault();
