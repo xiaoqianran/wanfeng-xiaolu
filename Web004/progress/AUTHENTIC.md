@@ -200,3 +200,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0201 | completed | content | 文案同步新系统 | journal/dialogue/tips | `content(copy): A0201 柚子雨常走配方文案扩充` |
 | A0202 | completed | feat | 雪灯小径主题 | snow_lantern 16th + snow/lantern FX | `feat(walk): A0202 雪灯小径主题与雪花灯笼特效` |
 | A0203 | completed | test | 雪灯回归 | 122 tests pass | `feat(walk): A0202 雪灯小径主题与雪花灯笼特效` |
+| A0204 | completed | docs | 手册十六主题 | USER_MANUAL all 16 themes listed | `docs(manual): A0204 手册补全十六主题与雪灯事件` |
+| A0205 | completed | content | 雪灯事件 | 217 evening events | `docs(manual): A0204 手册补全十六主题与雪灯事件` |
