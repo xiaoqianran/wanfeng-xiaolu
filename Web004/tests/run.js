@@ -703,5 +703,20 @@ test("shop tipMessages are unique without round spam", () => {
   s.tipMessages.forEach((m) => assert.ok(!/#\d+|小店低语 #/.test(m)));
 });
 
+test("meadow theme exists and has weather branch", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "meadow"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes('themeId === "meadow"') || game.includes("meadow"));
+});
+
+test("content-extra customers have no middle-dot round spam names", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  (j.customers || []).forEach((c) => {
+    assert.ok(c.name);
+    assert.ok(!/·\d+$/.test(c.name), c.name);
+  });
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

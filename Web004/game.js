@@ -667,6 +667,15 @@
         const x = (i * w) / 8 + Math.sin(time * 0.02 + i) * 4;
         ctx.fillRect(x, 0, 10, h * 0.7);
       }
+    } else if (themeId === "meadow") {
+      ctx.fillStyle = "rgba(255, 240, 180, 0.35)";
+      for (let i = 0; i < 10; i++) {
+        const x = (i * 89 + time * 0.15) % w;
+        const y = h * 0.55 + Math.sin(time * 0.03 + i) * 6;
+        ctx.beginPath();
+        ctx.ellipse(x, y, 3, 5, 0, 0, Math.PI * 2);
+        ctx.fill();
+      }
     }
   }
 
