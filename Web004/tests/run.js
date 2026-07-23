@@ -588,5 +588,13 @@ test("mail data unique and screen ships", () => {
   assert.ok(game.includes("openOneMail"));
 });
 
+test("stats screen ships", () => {
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes('id="screen-stats"'));
+  assert.ok(html.includes('data-go="stats"'));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("function renderStats"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

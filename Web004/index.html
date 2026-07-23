@@ -66,6 +66,7 @@
             <button type="button" class="soft-btn" data-go="settings"><img src="assets/ui/icon-settings.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 设置</button>
             <button type="button" class="soft-btn" data-go="help">❓ 怎么玩</button>
             <button type="button" class="soft-btn" data-go="mail">✉️ 信箱</button>
+            <button type="button" class="soft-btn" data-go="stats">📊 足迹</button>
             <button type="button" class="soft-btn" data-go="daily"><img src="assets/ui/icon-daily.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 今日小目标</button>
             <button type="button" class="soft-btn" id="btn-demo-mode"><img src="assets/ui/icon-demo.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 演示模式</button>
           </div>
@@ -158,6 +159,16 @@
           </div>
           <p class="muted" id="mail-msg"></p>
         </div>
+      </section>
+
+      
+      <section class="screen" id="screen-stats" data-screen="stats" aria-label="足迹">
+        <div class="panel-head">
+          <button class="back-btn" data-go="home" type="button">← 回小院</button>
+          <h2>温柔足迹</h2>
+          <span class="hint">只是记录，不是排行榜</span>
+        </div>
+        <div class="side-card" style="max-width:520px;margin:0 auto" id="stats-body"></div>
       </section>
 
       <!-- 怎么玩 -->
