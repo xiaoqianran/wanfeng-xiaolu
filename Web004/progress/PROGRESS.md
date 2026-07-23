@@ -141,3 +141,4 @@
 | 134 | completed | feat | Ship customer persona into runtime #11 | Runtime customer 弹尤克里里的人·134 | `feat(shop): R0134 Ship customer persona into runtime #11` |
 | 135 | completed | feat | Ship walk ambient + pathWidth into runtime #11 | walk pathWidth=3335 ambient=63 | `feat(walk): R0135 Ship walk ambient + pathWidth into runtime #11` |
 | 136 | completed | feat | Ship garden care whisper into runtime #11 | garden messages=64 careBonus=1.05 | `feat(garden): R0136 Ship garden care whisper into runtime #11` |
+| 137 | completed | feat | Ship shop tip + perfectBonus into runtime #11 | shop tips=64 perfectBonus=4 | `feat(shop): R0137 Ship shop tip + perfectBonus into runtime #11` |
