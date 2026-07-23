@@ -1093,7 +1093,16 @@
   
   
   /** Soft tip jar: spare coins become hearts when jar fills (no combat) */
-  function addTipJar(state, coins) {
+  
+  function pinBagItem(state, itemId) {
+    itemId = String(itemId || "").trim();
+    if (!itemId) return { ok: false, reason: "empty" };
+    state.pinnedBagItem = itemId;
+    appendJournal(state, "把「" + itemId + "」钉在竹篮最上面。");
+    return { ok: true, itemId: itemId };
+  }
+
+function addTipJar(state, coins) {
     coins = coins == null ? 1 : coins;
     if (!state.tipJar) state.tipJar = { coins: 0 };
     state.tipJar.coins = (state.tipJar.coins || 0) + coins;
@@ -1335,6 +1344,7 @@ function recallGuestCraft(state, guestName) {
     recallGuestCraft: recallGuestCraft,
     setFavoriteCup: setFavoriteCup,
     addTipJar: addTipJar,
+    pinBagItem: pinBagItem,
     claimFirstWalkBonus: claimFirstWalkBonus,
     upgradeWateringCan: upgradeWateringCan,
     checkPathMilestones: checkPathMilestones,

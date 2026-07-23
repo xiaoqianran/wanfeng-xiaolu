@@ -443,6 +443,8 @@
     const entries = Object.keys(state.bag || {})
       .filter((id) => (state.bag[id] || 0) > 0)
       .sort((a, b) => {
+        if (state.pinnedBagItem === a) return -1;
+        if (state.pinnedBagItem === b) return 1;
         const ka = kindOrder[(ITEMS[a] && ITEMS[a].kind) || ""] || 9;
         const kb = kindOrder[(ITEMS[b] && ITEMS[b].kind) || ""] || 9;
         if (ka !== kb) return ka - kb;
@@ -461,12 +463,31 @@
         const it = ITEMS[id] || { emoji: "?", name: id, kind: "" };
         const n = state.bag[id];
         const rare = rareIds.has(id) ? " · 小珍藏" : "";
-        return `<div class="album-card"><div class="emoji">${it.emoji || "?"}</div><div class="name">${it.name || id}</div><div class="meta">${it.kind || ""} · ×${n}${rare}</div></div>`;
+        const pin = state.pinnedBagItem === id ? " · 📌置顶" : "";
+        return `<div class="album-card" data-item="${id}"><div class="emoji">${it.emoji || "?"}</div><div class="name">${it.name || id}</div><div class="meta">${it.kind || ""} · ×${n}${rare}${pin}</div></div>`;
       })
       .join("");
   }
 
-  function renderJournal() {
+  
+  (function wireBagPin() {
+    const grid = document.getElementById("bag-grid");
+    if (!grid || grid._pinWired) return;
+    grid._pinWired = true;
+    grid.addEventListener("click", (e) => {
+      const card = e.target.closest("[data-item]");
+      if (!card) return;
+      const id = card.getAttribute("data-item");
+      if (!id || !Core.pinBagItem) return;
+      Core.pinBagItem(state, id);
+      save();
+      renderBag();
+      toast("📌 已置顶 " + ((ITEMS[id] && ITEMS[id].name) || id));
+      sfx("pin");
+    });
+  })();
+
+function renderJournal() {
     const box = document.getElementById("journal-list");
     if (!box) return;
     const entries = (state.journal || []).slice().reverse();

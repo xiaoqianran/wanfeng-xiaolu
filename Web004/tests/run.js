@@ -1888,5 +1888,15 @@ test("high mood harvest gift pool includes coastal items", () => {
   assert.ok(game.includes("moss") && game.includes("driftwood"));
 });
 
+
+test("pinBagItem stores preferred bag item", () => {
+  const s = core.defaultState();
+  const r = core.pinBagItem(s, "mint");
+  assert.ok(r.ok);
+  assert.strictEqual(s.pinnedBagItem, "mint");
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("pinBagItem") || game.includes("pinnedBagItem"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
