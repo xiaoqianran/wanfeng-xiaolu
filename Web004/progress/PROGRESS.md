@@ -811,3 +811,4 @@
 | 804 | completed | assets | Wire real stage art reference into runtime manifest #66 | live art assets/ui/live_0804.jpg from assets/album/journal-open.jpg (≥1KB) | `assets(ui): R0804 Wire real stage art reference into runtime manifest #66` |
 | 805 | completed | feat | Ship collectible + runtime catalog item #67 | Runtime item coconut_r0805 | `feat(content): R0805 Ship collectible + runtime catalog item #67` |
 | 806 | completed | feat | Ship customer persona into runtime #67 | Runtime customer 采风记者·806 | `feat(shop): R0806 Ship customer persona into runtime #67` |
+| 807 | completed | feat | Ship walk ambient + pathWidth into runtime #67 | walk pathWidth=3207 ambient=119 | `feat(walk): R0807 Ship walk ambient + pathWidth into runtime #67` |
