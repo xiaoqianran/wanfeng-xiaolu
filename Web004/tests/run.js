@@ -1040,5 +1040,49 @@ test("game scoreDrink wires favoriteFlavor and affinity", () => {
   assert.ok(game.includes("秋水温柔") || game.includes("seasonNote"));
 });
 
+test("setPotNote and sitBench soft systems", () => {
+  const s = core.defaultState();
+  core.addItem(s, "mint", 1);
+  core.plantSeed(s, 0, "mint");
+  const n = core.setPotNote(s, 0, "慢慢长大");
+  assert.ok(n.ok);
+  assert.strictEqual(s.pots[0].note, "慢慢长大");
+  assert.ok((s.stats.potNotes || 0) >= 1);
+  const b1 = core.sitBench(s);
+  const b2 = core.sitBench(s);
+  const b3 = core.sitBench(s);
+  assert.ok(b1.ok && b2.ok && b3.ok);
+  assert.strictEqual(s.stats.benchSits, 3);
+  assert.ok(b3.hearts >= 1);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "pot_scribe"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "bench_sitter"));
+});
+
+test("osmanthus plantable and new customers/cups ship", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.osmanthus && j.plants.osmanthusPot);
+  assert.ok((j.flavors || []).some((f) => f.id === "osmanthus"));
+  assert.ok((j.cups || []).some((c) => c.id === "bamboo"));
+  assert.ok((j.customers || []).some((c) => c.name === "卖糖画的叔叔"));
+  assert.ok((j.customers || []).some((c) => c.name === "练小提琴的女孩"));
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants });
+  const s = core.defaultState();
+  s.bag.osmanthus = 1;
+  assert.ok(core.plantSeed(s, 0, "osmanthus", cat).ok);
+});
+
+test("book_yard theme and bench/note UI ship", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "book_yard"));
+  assert.ok(themes.length >= 10);
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("btn-sit-bench") && html.includes("btn-pot-note"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("sitBench") && game.includes("setPotNote"));
+  assert.ok(game.includes("book_yard"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "桂花竹节晚风"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
