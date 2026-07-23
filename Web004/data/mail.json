@@ -458,5 +458,16 @@
       "coins": 2,
       "hearts": 1
     }
+  },
+  {
+    "id": "mail_thyme",
+    "title": "百里香一小捆",
+    "body": "晒干了，香气还在绳结里。",
+    "effect": {
+      "items": {
+        "thyme": 2
+      },
+      "hearts": 1
+    }
   }
 ]
