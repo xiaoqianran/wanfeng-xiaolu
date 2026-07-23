@@ -471,6 +471,18 @@
       var d = s.discovered || {};
       return !!(d.basil && d.lemongrass && d.dill && d.thyme);
     } },
+    { id: "fennel_sill", name: "茴香窗台", desc: "发现茴香并可种植", check: function (s) {
+      return !!(s.discovered && s.discovered.fennel);
+    } },
+    { id: "bergamot_sill", name: "佛手柑窗台", desc: "发现佛手柑并可种植", check: function (s) {
+      return !!(s.discovered && s.discovered.bergamot);
+    } },
+    { id: "moss_walker", name: "青苔旅人", desc: "走过青苔石阶", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.moss_steps);
+    } },
+    { id: "memory_keeper", name: "回忆保管员", desc: "图鉴回忆页攒下 2 张速写", check: function (s) {
+      return (s.stats && s.stats.potSnaps || 0) >= 2;
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
     { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },
