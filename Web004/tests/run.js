@@ -1508,5 +1508,17 @@ test("snow_walker and fav_path achievements exist", () => {
   assert.ok(newly.some((a) => a.id === "snow_walker") || s.achievements.snow_walker);
 });
 
+
+test("honeysuckle plantable and 金银花雪灯 recipe", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.honeysuckle && j.plants.honeysucklePot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants });
+  const s = core.defaultState();
+  s.bag.honeysuckle = 1;
+  assert.ok(core.plantSeed(s, 0, "honeysuckle", cat).ok);
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "金银花雪灯"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

@@ -127,7 +127,8 @@
       "wheat_ear": 2.4,
       "bluebell": 2.2,
       "chamomile": 1.8,
-      "sage": 2.3
+      "sage": 2.3,
+      "honeysuckle": 1.6
     },
     "ambient": [
       "草浪一阵一阵推过来。",
@@ -436,7 +437,8 @@
       "yuzu": 2,
       "maple": 1.5,
       "petal": 1.2,
-      "stone": 1
+      "stone": 1,
+      "honeysuckle": 1.8
     },
     "ambient": [
       "细雪落在灯笼顶，像撒了一层糖。",

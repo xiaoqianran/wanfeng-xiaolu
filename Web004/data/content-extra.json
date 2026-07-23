@@ -2210,6 +2210,13 @@
       "emoji": "🍋",
       "kind": "风味",
       "seed": null
+    },
+    "honeysuckle": {
+      "id": "honeysuckle",
+      "name": "金银花",
+      "emoji": "🌸",
+      "kind": "风味",
+      "seed": "honeysucklePot"
     }
   },
   "plants": {
@@ -3967,6 +3974,17 @@
       ],
       "harvest": "sage",
       "days": 3
+    },
+    "honeysucklePot": {
+      "id": "honeysucklePot",
+      "name": "金银花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌸"
+      ],
+      "harvest": "honeysuckle",
+      "days": 4
     }
   },
   "cups": [
@@ -4659,6 +4677,16 @@
       "tags": [
         "清爽",
         "果香"
+      ]
+    },
+    {
+      "id": "honeysuckle",
+      "name": "金银花",
+      "emoji": "🌸",
+      "need": "honeysuckle",
+      "tags": [
+        "花香",
+        "清爽"
       ]
     }
   ],
