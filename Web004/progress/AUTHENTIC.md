@@ -42,3 +42,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0042 | completed | content | 十封独特来信 | 10 unique mail letters in runtime | `content(mail): A0042 信箱扩充至十封独特来信` |
 | A0043 | completed | feat | 软刷新新的一天 | softNewDay keeps bag resets daily goals | `feat(meta): A0043 迎来新的一天刷新日目标并保留背包` |
 | A0044 | completed | feat | 草甸慢坡主题 | 5th path theme meadow with unique sky/bias | `feat(walk): A0044 新增草甸慢坡小路主题` |
+| A0045 | completed | docs | 最终发布检查清单 | FINAL_RELEASE_CHECKLIST in progress | `docs(release): A0045 最终发布检查清单（进行中）` |
+| A0046 | completed | feat | 帮助快捷键 | ?/H open help screen | `feat(input): A0046 问号与 H 键打开怎么玩` |
+| A0047 | completed | content | 67则晚间事件 | 67 unique titles; body length fixed | `content(events): A0047 晚间事件扩充至六十七则并修文案长度` |
