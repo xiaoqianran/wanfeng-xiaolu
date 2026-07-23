@@ -213,5 +213,8 @@
       "sky": "#c18387",
       "ground": "#1b4a67"
     }
+  },
+  "stageBanners": {
+    "shop": "assets/shop/live_0012.jpg"
   }
 }

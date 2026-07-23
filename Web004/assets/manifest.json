@@ -66,7 +66,8 @@
     "assets/walk/slot_0995.png",
     "assets/walk/slot_1015.png",
     "assets/walk/slot_1035.png",
-    "assets/walk/slot_1055.png"
+    "assets/walk/slot_1055.png",
+    "assets/shop/live_0012.jpg"
   ],
   "stages": {
     "home": [
@@ -100,7 +101,13 @@
       "assets/shop/soda-hero.jpg",
       "assets/shop/berry-soda.jpg",
       "assets/shop/customers-sheet.jpg",
-      "assets/shop/cups-set.jpg"
+      "assets/shop/cups-set.jpg",
+      {
+        "round": 12,
+        "path": "assets/shop/live_0012.jpg",
+        "status": "live",
+        "source": "assets/album/journal-open.jpg"
+      }
     ],
     "album": [
       "assets/album/diary-cover.jpg"
