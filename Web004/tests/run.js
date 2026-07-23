@@ -2090,5 +2090,27 @@ test("morning dew after long offline and lemon_balm tea_terrace", () => {
   assert.ok(man.includes("晨露") && man.includes("茶台慢坡"));
 });
 
+
+test("ginger plantable rain_garden and memory stickers", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.ginger && j.plants.gingerPot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  s.bag.ginger = 1;
+  assert.ok(core.plantSeed(s, 0, "ginger", cat).ok);
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "rain_garden"));
+  assert.ok(themes.length >= 29);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("rain_garden"));
+  assert.ok(game.includes("pathStickers") && game.includes("小路贴纸"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "暖姜蜜茶"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "rain_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("雨园慢径"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
