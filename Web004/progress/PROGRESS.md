@@ -415,3 +415,4 @@
 | 408 | completed | assets | Wire real stage art reference into runtime manifest #33 | live art assets/album/live_0408.jpg from assets/album/journal-open.jpg (≥1KB) | `assets(ui): R0408 Wire real stage art reference into runtime manifest #33` |
 | 409 | completed | feat | Ship collectible + runtime catalog item #34 | Runtime item grape_r0409 | `feat(content): R0409 Ship collectible + runtime catalog item #34` |
 | 410 | completed | feat | Ship customer persona into runtime #34 | Runtime customer 图书馆员·410 | `feat(shop): R0410 Ship customer persona into runtime #34` |
+| 411 | completed | feat | Ship walk ambient + pathWidth into runtime #34 | walk pathWidth=3211 ambient=86 | `feat(walk): R0411 Ship walk ambient + pathWidth into runtime #34` |
