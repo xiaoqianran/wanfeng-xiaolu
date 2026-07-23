@@ -164,3 +164,4 @@
 | 157 | completed | feat | Path theme fragment #7 | Path themes=12 | `feat(walk): R0157 Path theme fragment #7` |
 | 158 | completed | feat | Topping or cup option #7 | Topping top_r0158 | `feat(content): R0158 Topping or cup option #7` |
 | 159 | completed | docs | Stage milestone summary #7 | Stage doc stage-04.md | `docs(progress): R0159 Stage milestone summary #7` |
+| 160 | completed | refactor | Catalog integrity pass #7 | Integrity items=15 customers=7 | `refactor(core): R0160 Catalog integrity pass #7` |
