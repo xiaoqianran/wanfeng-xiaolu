@@ -667,6 +667,16 @@
         const x = (i * w) / 8 + Math.sin(time * 0.02 + i) * 4;
         ctx.fillRect(x, 0, 10, h * 0.7);
       }
+    } else if (themeId === "harbor") {
+      ctx.strokeStyle = "rgba(180,200,220,0.25)";
+      ctx.lineWidth = 1;
+      for (let i = 0; i < 6; i++) {
+        const y = h * 0.72 + Math.sin(time * 0.04 + i) * 3;
+        ctx.beginPath();
+        ctx.moveTo(0, y + i * 3);
+        ctx.quadraticCurveTo(w * 0.5, y + i * 3 + 4, w, y + i * 3);
+        ctx.stroke();
+      }
     } else if (themeId === "meadow") {
       ctx.fillStyle = "rgba(255, 240, 180, 0.35)";
       for (let i = 0; i < 10; i++) {
@@ -776,7 +786,7 @@
       if (it.taken) continue;
       const ix = it.x - cam;
       if (ix < -40 || ix > w + 40) continue;
-      const bob = Math.sin(world.time * 0.05 + it.bob) * 4;
+      const bob = (Core.getSettings(state).reduceMotion ? 0 : Math.sin(world.time * 0.05 + it.bob) * 4);
       const def = ITEMS[it.id];
       // 光晕
       ctx.fillStyle = "rgba(255, 250, 220, 0.35)";
