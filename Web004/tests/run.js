@@ -1724,5 +1724,15 @@ test("upgradeWateringCan expands max to 8", () => {
   assert.ok(html.includes("btn-upgrade-can"));
 });
 
+
+test("cicada_grove theme among 20 unique path themes", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "cicada_grove"));
+  assert.ok(themes.length >= 20);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("cicada_grove"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

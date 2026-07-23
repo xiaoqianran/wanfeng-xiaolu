@@ -911,6 +911,20 @@
         ctx.ellipse(cx, cy, r, r * 0.35, 0, 0, Math.PI * 2);
         ctx.stroke();
       }
+    } else if (themeId === "cicada_grove") {
+      // soft leaf flecks drifting
+      ctx.fillStyle = "rgba(120,160,80,0.35)";
+      for (let i = 0; i < 12; i++) {
+        const x = ((i * 71 + time * 0.35) % (w + 20)) - 10;
+        const y = 30 + ((i * 47 + time * 0.2) % (h * 0.55));
+        ctx.save();
+        ctx.translate(x, y);
+        ctx.rotate(Math.sin(time * 0.03 + i) * 0.8);
+        ctx.beginPath();
+        ctx.ellipse(0, 0, 5, 2.5, 0, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.restore();
+      }
     }
   }
 
