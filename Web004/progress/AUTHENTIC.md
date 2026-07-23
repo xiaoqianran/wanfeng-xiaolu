@@ -410,3 +410,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0411 | completed | feat | 最想照料与石榴 | setFavoritePlant+pomegranatePot | feat(garden): A0411 最想照料与石榴可种植 |
 | A0412 | completed | feat | 石榴小院 | pomegranate_court 47th + fav UI | feat(walk): A0412 石榴小院与最想照料 UI |
 | A0413 | completed | test | 回归手册 | 179 pass | test(docs): A0413 石榴最想照料回归与手册 |
+| A0414 | completed | feat | 晨间照料杨梅 | morningTends+yangmeiPot | feat(garden): A0414 晨间照料与杨梅可种植 |
+| A0415 | completed | feat | 雨亭慢歇 | rain_pavilion 48th | feat(walk): A0415 雨亭慢歇主题与亭檐雨滴 |
+| A0416 | completed | test | 回归手册 | 180 pass spam DISABLED | test(docs): A0416 晨间雨亭杨梅回归与手册 |
