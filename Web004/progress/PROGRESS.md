@@ -547,3 +547,4 @@
 | 540 | completed | assets | Wire real stage art reference into runtime manifest #44 | live art assets/walk/live_0540.jpg from assets/album/journal-open.jpg (≥1KB) | `assets(ui): R0540 Wire real stage art reference into runtime manifest #44` |
 | 541 | completed | feat | Ship collectible + runtime catalog item #45 | Runtime item lavender_r0541 | `feat(content): R0541 Ship collectible + runtime catalog item #45` |
 | 542 | completed | feat | Ship customer persona into runtime #45 | Runtime customer 织围巾的阿姨·542 | `feat(shop): R0542 Ship customer persona into runtime #45` |
+| 543 | completed | feat | Ship walk ambient + pathWidth into runtime #45 | walk pathWidth=3343 ambient=97 | `feat(walk): R0543 Ship walk ambient + pathWidth into runtime #45` |
