@@ -869,3 +869,4 @@
 | 862 | completed | feat | Add customer persona #43 | Customer 夜跑爱好者·862 | `feat(shop): R0862 Add customer persona #43` |
 | 863 | completed | feat | Add dialogue line #43 | Dialogue count=43 | `feat(content): R0863 Add dialogue line #43` |
 | 864 | completed | feat | Add garden care whisper #43 | Garden msg #44 | `feat(garden): R0864 Add garden care whisper #43` |
+| 865 | completed | feat | Add shop tip #43 | Shop tip #44 | `feat(shop): R0865 Add shop tip #43` |
