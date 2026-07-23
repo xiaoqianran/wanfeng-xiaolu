@@ -192,3 +192,4 @@
 | 185 | completed | feat | Add shop tip #9 | Shop tip #10 | `feat(shop): R0185 Add shop tip #9` |
 | 186 | completed | feat | Tune walk ambient note #9 | Walk ambient #9 | `feat(walk): R0186 Tune walk ambient note #9` |
 | 187 | completed | feat | Add journal template #9 | Journal templates=9 | `feat(album): R0187 Add journal template #9` |
+| 188 | completed | feat | Add secret recipe stub #9 | Recipes=9 | `feat(shop): R0188 Add secret recipe stub #9` |

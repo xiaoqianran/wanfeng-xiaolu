@@ -185,3 +185,4 @@
 {"round":185,"status":"completed","type":"feat","scope":"shop","goal":"Add shop tip #9","outcome":"Shop tip #10","commit":"feat(shop): R0185 Add shop tip #9","at":"2026-07-23T19:49:40.809Z"}
 {"round":186,"status":"completed","type":"feat","scope":"walk","goal":"Tune walk ambient note #9","outcome":"Walk ambient #9","commit":"feat(walk): R0186 Tune walk ambient note #9","at":"2026-07-23T19:49:40.833Z"}
 {"round":187,"status":"completed","type":"feat","scope":"album","goal":"Add journal template #9","outcome":"Journal templates=9","commit":"feat(album): R0187 Add journal template #9","at":"2026-07-23T19:49:40.867Z"}
+{"round":188,"status":"completed","type":"feat","scope":"shop","goal":"Add secret recipe stub #9","outcome":"Recipes=9","commit":"feat(shop): R0188 Add secret recipe stub #9","at":"2026-07-23T19:49:40.890Z"}
