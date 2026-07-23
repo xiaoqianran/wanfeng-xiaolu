@@ -2589,5 +2589,35 @@
     "id": "ev_continue_sea",
     "title": "继续走·又见海边",
     "body": "第二次到海边，浪声换了节奏，沙还是软的。"
+  },
+  {
+    "id": "ev_peach_pot",
+    "title": "蜜桃窗台",
+    "body": "蜜桃苗比想象中更绿。你浇了一点水，空气甜了一点点。"
+  },
+  {
+    "id": "ev_lantern_bridge",
+    "title": "灯桥夜步",
+    "body": "桥上的灯把木板照成暖色。你放慢脚步，让影子跟上。"
+  },
+  {
+    "id": "ev_peach_guest",
+    "title": "切桃的孩子",
+    "body": "他说要甜。你把蜜桃多放了半勺。"
+  },
+  {
+    "id": "ev_bridge_light",
+    "title": "桥灯",
+    "body": "最中间那盏灯最亮，像故意留给晚归的人。"
+  },
+  {
+    "id": "ev_candy_bridge",
+    "title": "糖纸桥",
+    "body": "风把糖纸吹到桥缝里，你蹲下来捡起。"
+  },
+  {
+    "id": "ev_continue_bridge",
+    "title": "继续走·又见灯桥",
+    "body": "第二次上桥，灯少了一盏，夜却更安静。"
   }
 ]
