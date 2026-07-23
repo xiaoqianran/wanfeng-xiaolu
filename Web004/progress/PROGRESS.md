@@ -306,3 +306,4 @@
 | 299 | completed | docs | Stage milestone summary #14 | Stage doc stage-06.md | `docs(progress): R0299 Stage milestone summary #14` |
 | 300 | completed | refactor | Catalog integrity pass #14 | Integrity items=29 customers=14 | `refactor(core): R0300 Catalog integrity pass #14` |
 | 301 | completed | feat | Add collectible item batch #15 | Item lavender_r0301 added | `feat(content): R0301 Add collectible item batch #15` |
+| 302 | completed | feat | Add customer persona #15 | Customer 织围巾的阿姨·302 | `feat(shop): R0302 Add customer persona #15` |

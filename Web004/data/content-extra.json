@@ -866,6 +866,19 @@
         "plain"
       ],
       "round": 282
+    },
+    {
+      "name": "织围巾的阿姨·302",
+      "avatar": "🧶",
+      "wish": "想要一点温柔的味道。",
+      "tags": [
+        "温柔"
+      ],
+      "flavors": [
+        "honey",
+        "plain"
+      ],
+      "round": 302
     }
   ],
   "dialogues": [
@@ -955,7 +968,7 @@
     "theme_0297"
   ],
   "meta": {
-    "expandedRounds": 301,
+    "expandedRounds": 302,
     "lastIntegrityRound": 300,
     "itemCount": 29,
     "customerCount": 14
