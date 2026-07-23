@@ -7,7 +7,7 @@
   "shopTips": 118,
   "walkAmbient": 117,
   "achievements": 117,
-  "recipes": 117,
+  "recipes": 118,
   "files": [
     {
       "path": "js/content-extra.js",
@@ -15,7 +15,7 @@
     },
     {
       "path": "js/game-data.js",
-      "bytes": 70613
+      "bytes": 70715
     }
   ]
 }
