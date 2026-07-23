@@ -102,6 +102,12 @@
 
   function pathSpawnsForTheme(theme) {
     const bias = Object.assign({}, walkCfg.spawnBias || {}, (theme && theme.bias) || {});
+    // Soft familiar-path boost: favorite route slightly favors its own bias keys
+    if (theme && state.favoritePathThemeId && theme.id === state.favoritePathThemeId) {
+      Object.keys(theme.bias || {}).forEach((k) => {
+        bias[k] = (bias[k] || 1) * 1.25;
+      });
+    }
     return Core.buildSpawnList(baseItemIds(), bias, 80);
   }
 
@@ -1092,6 +1098,28 @@ function renderJournal() {
         ctx.fill();
       }
       ctx.globalAlpha = 1;
+    } else if (themeId === "tea_terrace") {
+      // stone terrace bands + soft steam wisps
+      ctx.fillStyle = "rgba(90,100,80,0.14)";
+      for (let i = 0; i < 4; i++) {
+        const y = h * 0.55 + i * 16;
+        ctx.fillRect(w * 0.15, y, w * 0.7, 10);
+      }
+      ctx.strokeStyle = "rgba(220,230,210,0.28)";
+      ctx.lineWidth = 1.5;
+      for (let i = 0; i < 5; i++) {
+        const x = w * 0.3 + i * (w * 0.1);
+        const baseY = h * 0.48;
+        ctx.beginPath();
+        ctx.moveTo(x, baseY);
+        ctx.quadraticCurveTo(
+          x + Math.sin(time * 0.04 + i) * 8,
+          baseY - 20 - (time * 0.3 + i * 5) % 18,
+          x + 4,
+          baseY - 35 - (time * 0.2 + i) % 10
+        );
+        ctx.stroke();
+      }
     }
   }
 
@@ -2038,7 +2066,7 @@ function renderJournal() {
     if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || baseDef.id === "floral_tea")) {
       score += 0.5; notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5; notes.push("夏日清爽");
     }
     if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel")) {
@@ -2450,20 +2478,14 @@ function renderJournal() {
     }
   }
 
-  // 离线时盆栽缓慢变化（打开时结算）
+  // 离线时盆栽缓慢变化（打开时结算，含晨露）
   function settleOfflineGrowth() {
-    const now = Date.now();
-    state.pots.forEach((pot) => {
-      if (!pot.plantId || !pot.tendedAt) return;
-      const hours = Math.min(12, (now - pot.tendedAt) / 3600000);
-      if (hours < 0.15) return;
-      const care = (pot.water + pot.sun + pot.mood) / 300;
-      pot.growth += hours * (0.15 + care * 0.2);
-      pot.water = Math.max(0, pot.water - hours * 4);
-      pot.sun = Math.max(0, pot.sun - hours * 3);
-      pot.mood = Math.max(10, pot.mood - hours * 2);
-      pot.tendedAt = now;
-    });
+    const r = Core.settleOfflineGrowth(state, Date.now(), PLANTS);
+    if (r && r.state) state = r.state;
+    if (r && r.dewCount > 0) {
+      toast("💧 晨露轻润了 " + r.dewCount + " 盆植物");
+      checkAchievements();
+    }
     save();
   }
 

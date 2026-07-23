@@ -581,5 +581,25 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_lemon_balm",
+    "title": "一束香蜂草",
+    "body": "晒茶的阿公来信：香蜂草晒半干最好。给你两把，记得透气。",
+    "effect": {
+      "items": {
+        "lemon_balm": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tea_terrace",
+    "title": "茶台空位",
+    "body": "练琴的邻居来信：坡顶茶台空着，适合慢慢坐。别急着回去。",
+    "effect": {
+      "hearts": 1,
+      "coins": 3
+    }
   }
 ]
