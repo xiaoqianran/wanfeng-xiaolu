@@ -625,3 +625,4 @@
 | 618 | completed | feat | Topping or cup option #30 | Topping top_r0618 | `feat(content): R0618 Topping or cup option #30` |
 | 619 | completed | docs | Stage milestone summary #30 | Stage doc stage-13.md | `docs(progress): R0619 Stage milestone summary #30` |
 | 620 | completed | refactor | Catalog integrity pass #30 | Integrity items=61 customers=30 | `refactor(core): R0620 Catalog integrity pass #30` |
+| 621 | completed | feat | Add collectible item batch #31 | Item cocoa_r0621 added | `feat(content): R0621 Add collectible item batch #31` |
