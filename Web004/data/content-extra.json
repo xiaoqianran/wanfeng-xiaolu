@@ -2329,6 +2329,13 @@
       "emoji": "🍋",
       "kind": "风味",
       "seed": "lemonBalmPot"
+    },
+    "ginger": {
+      "id": "ginger",
+      "name": "姜片",
+      "emoji": "🫚",
+      "kind": "风味",
+      "seed": "gingerPot"
     }
   },
   "plants": {
@@ -4218,6 +4225,17 @@
       ],
       "harvest": "lemon_balm",
       "days": 2
+    },
+    "gingerPot": {
+      "id": "gingerPot",
+      "name": "姜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🫚"
+      ],
+      "harvest": "ginger",
+      "days": 3
     }
   },
   "cups": [
@@ -5042,6 +5060,16 @@
       "tags": [
         "清爽",
         "草本"
+      ]
+    },
+    {
+      "id": "ginger",
+      "name": "姜",
+      "emoji": "🫚",
+      "need": "ginger",
+      "tags": [
+        "草本",
+        "温柔"
       ]
     }
   ],
@@ -6240,6 +6268,21 @@
         "mint",
         "yuzu",
         "plain"
+      ]
+    },
+    {
+      "name": "煮姜茶的阿姨",
+      "avatar": "🍵",
+      "wish": "暖一点，姜或蜜都行，冬夜更好。",
+      "tags": [
+        "温柔",
+        "草本"
+      ],
+      "flavors": [
+        "ginger",
+        "honey",
+        "tea_leaf",
+        "yuzu"
       ]
     }
   ],

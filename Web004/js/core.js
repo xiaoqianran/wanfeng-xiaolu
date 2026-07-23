@@ -517,6 +517,12 @@
     { id: "tea_walker", name: "茶台旅人", desc: "走过茶台慢坡", check: function (s) {
       return !!(s._themesTouched && s._themesTouched.tea_terrace);
     } },
+    { id: "ginger_sill", name: "姜香窗台", desc: "发现姜片", check: function (s) {
+      return !!(s.discovered && s.discovered.ginger);
+    } },
+    { id: "rain_walker", name: "雨园旅人", desc: "走过雨园慢径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.rain_garden);
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
     { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },
@@ -1016,7 +1022,7 @@
       score += 0.5;
       notes.push("秋日温甜");
     }
-    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu")) {
+    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey")) {
       score += 0.5;
       notes.push("冬日暖茶");
     }
