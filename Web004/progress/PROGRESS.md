@@ -831,3 +831,4 @@
 | 824 | completed | feat | Add garden care whisper #41 | Garden msg #42 | `feat(garden): R0824 Add garden care whisper #41` |
 | 825 | completed | feat | Add shop tip #41 | Shop tip #42 | `feat(shop): R0825 Add shop tip #41` |
 | 826 | completed | feat | Tune walk ambient note #41 | Walk ambient #41 | `feat(walk): R0826 Tune walk ambient note #41` |
+| 827 | completed | feat | Add journal template #41 | Journal templates=41 | `feat(album): R0827 Add journal template #41` |
