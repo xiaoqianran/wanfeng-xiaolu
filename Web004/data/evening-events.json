@@ -195,5 +195,279 @@
     "effect": {
       "hearts": 1
     }
+  },
+  {
+    "id": "vignette_2_21_0",
+    "title": "河灯",
+    "body": "有人把小纸灯放进水沟，灯芯偏了，光却很正。",
+    "effect": {
+      "coins": 1
+    }
+  },
+  {
+    "id": "vignette_3_23_1",
+    "title": "旧围巾",
+    "body": "篱笆上挂着一条洗得发白的围巾，还带着太阳味道。",
+    "effect": {
+      "coins": 2
+    }
+  },
+  {
+    "id": "vignette_3_18_2",
+    "title": "半扇窗",
+    "body": "二楼的窗只开一半，传出很轻的碗筷声。",
+    "effect": {
+      "hearts": 1,
+      "coins": 1
+    }
+  },
+  {
+    "id": "vignette_2_18_3",
+    "title": "糖纸",
+    "body": "路边糖纸被风吹成小船，停在鞋印旁边。",
+    "effect": {
+      "items": {
+        "petal": 1
+      }
+    }
+  },
+  {
+    "id": "vignette_4_18_4",
+    "title": "蝉的间歇",
+    "body": "蝉声忽然断掉，世界像被轻轻按了静音。",
+    "effect": {
+      "items": {
+        "maple": 1
+      }
+    }
+  },
+  {
+    "id": "vignette_4_20_5",
+    "title": "湿润的木",
+    "body": "桥栏摸起来有一点潮，像刚下过想象中的雨。",
+    "effect": {
+      "items": {
+        "mint": 1
+      }
+    }
+  },
+  {
+    "id": "vignette_2_20_6",
+    "title": "远犬",
+    "body": "狗叫了两声又停住，像只是确认你还在路上。",
+    "effect": {
+      "items": {
+        "berry": 1
+      }
+    }
+  },
+  {
+    "id": "vignette_5_18_7",
+    "title": "蜂箱的味道",
+    "body": "空气里有一点蜜，说不清是花还是记忆。",
+    "effect": {
+      "hearts": 1
+    }
+  },
+  {
+    "id": "vignette_3_18_8",
+    "title": "折叠椅",
+    "body": "有人在田埂放了折叠椅，座面还是暖的。",
+    "effect": {
+      "coins": 1
+    }
+  },
+  {
+    "id": "vignette_5_19_9",
+    "title": "未写完的信",
+    "body": "信纸被压在石头下，只看见开头的亲爱的。",
+    "effect": {
+      "coins": 2
+    }
+  },
+  {
+    "id": "vignette_4_20_10",
+    "title": "青石台阶",
+    "body": "台阶被磨得很光，你放慢脚步，怕惊动岁月。",
+    "effect": {
+      "hearts": 1,
+      "coins": 1
+    }
+  },
+  {
+    "id": "vignette_5_16_11",
+    "title": "风中的衣架",
+    "body": "衣架空转一圈，像在练习明天的风。",
+    "effect": {
+      "items": {
+        "petal": 1
+      }
+    }
+  },
+  {
+    "id": "vignette_2_13_12",
+    "title": "薄雾",
+    "body": "雾只到脚踝，像地面在呼吸。",
+    "effect": {
+      "items": {
+        "maple": 1
+      }
+    }
+  },
+  {
+    "id": "vignette_2_14_13",
+    "title": "铜铃",
+    "body": "店门铜铃旧了，声音却仍然清。",
+    "effect": {
+      "items": {
+        "mint": 1
+      }
+    }
+  },
+  {
+    "id": "vignette_5_21_14",
+    "title": "捡回的纽扣",
+    "body": "你捡起一颗木纽扣，决定明天缝到谁的故事里。",
+    "effect": {
+      "items": {
+        "berry": 1
+      }
+    }
+  },
+  {
+    "id": "vignette_4_19_15",
+    "title": "月光预习",
+    "body": "天还没全黑，月亮已经来预习今晚的位置。",
+    "effect": {
+      "hearts": 1
+    }
+  },
+  {
+    "id": "vignette_5_21_16",
+    "title": "浅浅的足迹",
+    "body": "足迹并排两行，后来变成一行，再后来没有了。",
+    "effect": {
+      "coins": 1
+    }
+  },
+  {
+    "id": "vignette_3_20_17",
+    "title": "柠檬筐",
+    "body": "谁家门口的筐里滚出一颗青柠，你帮它归队。",
+    "effect": {
+      "coins": 2
+    }
+  },
+  {
+    "id": "vignette_3_20_18",
+    "title": "阁楼缝",
+    "body": "阁楼板缝漏出一线黄，像有人在读很厚的书。",
+    "effect": {
+      "hearts": 1,
+      "coins": 1
+    }
+  },
+  {
+    "id": "vignette_5_16_19",
+    "title": "静静的喷泉",
+    "body": "喷泉坏了很久，石缘却被摸得很亮。",
+    "effect": {
+      "items": {
+        "petal": 1
+      }
+    }
+  },
+  {
+    "id": "vignette_4_19_20",
+    "title": "鸟的对话",
+    "body": "两只鸟争论什么，最后一起飞向同一棵树。",
+    "effect": {
+      "items": {
+        "maple": 1
+      }
+    }
+  },
+  {
+    "id": "vignette_6_17_21",
+    "title": "被遗忘的手套",
+    "body": "手套只有一只，掌心向上，像在等人。",
+    "effect": {
+      "items": {
+        "mint": 1
+      }
+    }
+  },
+  {
+    "id": "vignette_6_17_22",
+    "title": "粉笔画的太阳",
+    "body": "墙上的太阳笑得很丑，却让你也想笑。",
+    "effect": {
+      "items": {
+        "berry": 1
+      }
+    }
+  },
+  {
+    "id": "vignette_4_15_23",
+    "title": "仓库门缝",
+    "body": "门缝里有干草香，像夏天被封存。",
+    "effect": {
+      "hearts": 1
+    }
+  },
+  {
+    "id": "vignette_5_17_24",
+    "title": "铁轨外的花",
+    "body": "花开在不该开的地方，开得理直气壮。",
+    "effect": {
+      "coins": 1
+    }
+  },
+  {
+    "id": "vignette_6_15_25",
+    "title": "卖花人的空车",
+    "body": "车走了，花瓣还在，路变得更软。",
+    "effect": {
+      "coins": 2
+    }
+  },
+  {
+    "id": "vignette_5_18_26",
+    "title": "井盖上的热",
+    "body": "井盖余温还在，像大地刚喝过一口热汤。",
+    "effect": {
+      "hearts": 1,
+      "coins": 1
+    }
+  },
+  {
+    "id": "vignette_4_16_27",
+    "title": "廊桥回声",
+    "body": "你的脚步在廊桥下变成更小的自己。",
+    "effect": {
+      "items": {
+        "petal": 1
+      }
+    }
+  },
+  {
+    "id": "vignette_4_15_28",
+    "title": "夜间菜园",
+    "body": "菜叶在夜里更绿一点，绿得安静。",
+    "effect": {
+      "items": {
+        "maple": 1
+      }
+    }
+  },
+  {
+    "id": "vignette_6_14_29",
+    "title": "最后一班车灯",
+    "body": "车灯扫过树干，又把暗还回来。",
+    "effect": {
+      "items": {
+        "mint": 1
+      }
+    }
   }
 ]

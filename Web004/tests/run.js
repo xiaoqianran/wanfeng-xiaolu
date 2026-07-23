@@ -436,5 +436,12 @@ test("authentic ledger exists and is source of truth format", () => {
   });
 });
 
+test("ECONOMY constants drive scoreDrink coins", () => {
+  const c = { tags: ["清爽"], flavors: ["mint"] };
+  const r = core.scoreDrink(c, { cup: "tall", base: "soda", flavor: "mint", topping: "none" });
+  assert.ok(r.coins >= core.ECONOMY.serveBase);
+  assert.strictEqual(r.coins, core.ECONOMY.serveBase + Math.floor(r.score * core.ECONOMY.serveScoreMul));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
