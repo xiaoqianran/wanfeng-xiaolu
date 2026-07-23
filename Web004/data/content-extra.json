@@ -975,6 +975,14 @@
       "kind": "风味",
       "seed": null,
       "round": 109
+    },
+    "seed_pear_0119": {
+      "id": "seed_pear_0119",
+      "name": "雪梨种子",
+      "emoji": "🍐",
+      "kind": "种子",
+      "seed": "plant_pear_0119",
+      "round": 119
     }
   },
   "plants": {
@@ -1721,6 +1729,18 @@
       "harvest": "seed_orange_0107",
       "days": 5,
       "round": 107
+    },
+    "plant_pear_0119": {
+      "id": "plant_pear_0119",
+      "name": "雪梨盆栽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍐"
+      ],
+      "harvest": "seed_pear_0119",
+      "days": 5,
+      "round": 119
     }
   },
   "cups": [],
@@ -3730,7 +3750,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 114,
+    "expandedRounds": 119,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
