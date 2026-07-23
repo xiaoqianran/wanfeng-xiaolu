@@ -948,3 +948,4 @@
 | 941 | completed | feat | Ship shop tip + perfectBonus into runtime #78 | shop tips=120 perfectBonus=4 | `feat(shop): R0941 Ship shop tip + perfectBonus into runtime #78` |
 | 942 | completed | feat | Ship dialogue line into runtime #78 | dialogues=130 | `feat(content): R0942 Ship dialogue line into runtime #78` |
 | 943 | completed | feat | Ship journal template into runtime #78 | journal templates=120 | `feat(album): R0943 Ship journal template into runtime #78` |
+| 944 | completed | feat | Ship secret recipe into runtime #78 | secret recipes=120 | `feat(shop): R0944 Ship secret recipe into runtime #78` |
