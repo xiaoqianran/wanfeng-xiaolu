@@ -553,3 +553,4 @@
 | 546 | completed | feat | Tune walk ambient note #27 | Walk ambient #27 | `feat(walk): R0546 Tune walk ambient note #27` |
 | 547 | completed | feat | Add journal template #27 | Journal templates=27 | `feat(album): R0547 Add journal template #27` |
 | 548 | completed | feat | Add secret recipe stub #27 | Recipes=27 | `feat(shop): R0548 Add secret recipe stub #27` |
+| 549 | completed | feat | Add achievement definition #27 | Achievements=27 | `feat(meta): R0549 Add achievement definition #27` |
