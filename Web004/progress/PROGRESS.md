@@ -341,3 +341,4 @@
 | 334 | completed | feat | Season palette note #16 | Season palette winter_0334 | `feat(season): R0334 Season palette note #16` |
 | 335 | completed | assets | Asset slot registration #16 | Asset slot assets/walk/slot_0335.png | `assets(manifest): R0335 Asset slot registration #16` |
 | 336 | completed | test | Regression assertion pack #16 | Test pack size=18 | `test(core): R0336 Regression assertion pack #16` |
+| 337 | completed | feat | Path theme fragment #16 | Path themes=21 | `feat(walk): R0337 Path theme fragment #16` |
