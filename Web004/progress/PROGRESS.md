@@ -843,3 +843,4 @@
 | 836 | completed | test | Regression assertion pack #41 | Test pack size=43 | `test(core): R0836 Regression assertion pack #41` |
 | 837 | completed | feat | Path theme fragment #41 | Path themes=46 | `feat(walk): R0837 Path theme fragment #41` |
 | 838 | completed | feat | Topping or cup option #41 | Topping top_r0838 | `feat(content): R0838 Topping or cup option #41` |
+| 839 | completed | docs | Stage milestone summary #41 | Stage doc stage-17.md | `docs(progress): R0839 Stage milestone summary #41` |
