@@ -128,3 +128,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0129 | completed | feat | 顶栏水壶格 | res-can charge/max in topbar | `feat(hud): A0129 顶栏显示水壶蓄水格` |
 | A0130 | completed | feat | 风铃草与麦穗 | bluebell+wheat+麦田风铃 recipe | `feat(garden): A0130 风铃草麦穗与麦田风铃配方` |
 | A0131 | completed | test | 风铃草回归 | 101 tests pass | `test(garden): A0131 风铃草水壶顶栏回归` |
+| A0132 | completed | feat | 雾桥轻步主题 | mist_bridge 12th theme + fog FX | `feat(walk): A0132 雾桥轻步主题与三位新客人` |
+| A0133 | completed | content | 新客人与雾桥配方 | 27 customers; 雾桥薄荷罐 | `feat(walk): A0132 雾桥轻步主题与三位新客人` |
+| A0134 | completed | content | 事件至99则 | 99 unique evening events | `feat(walk): A0132 雾桥轻步主题与三位新客人` |
+| A0135 | completed | test | 雾桥回归 | 102 tests pass | `feat(walk): A0132 雾桥轻步主题与三位新客人` |
