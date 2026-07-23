@@ -677,3 +677,4 @@
 | 670 | completed | style | Ship CSS accent token used by app shell #55 | CSS --r-accent hue=230 wired to brand/primary | `style(ui): R0670 Ship CSS accent token used by app shell #55` |
 | 671 | completed | feat | Ship plantable seed linkage into runtime #55 | plant link plant_feather_0671 harvest=seed_feather_0671 | `feat(content): R0671 Ship plantable seed linkage into runtime #55` |
 | 672 | completed | assets | Wire real stage art reference into runtime manifest #55 | live art assets/shop/live_0672.jpg from assets/album/journal-open.jpg (≥1KB) | `assets(ui): R0672 Wire real stage art reference into runtime manifest #55` |
+| 673 | completed | feat | Ship collectible + runtime catalog item #56 | Runtime item osmanthus_r0673 | `feat(content): R0673 Ship collectible + runtime catalog item #56` |
