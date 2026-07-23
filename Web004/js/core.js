@@ -402,6 +402,8 @@
     { id: "pin_host", name: "记得你", desc: "标记过一位常客", check: function (s) { return !!(s.pinnedCustomer); } },
     { id: "snow_walker", name: "雪灯旅人", desc: "走过雪灯小径", check: function (s) { return !!(s._themesTouched && s._themesTouched.snow_lantern); } },
     { id: "fav_path", name: "有常走的路", desc: "标记一条常走小路", check: function (s) { return !!(s.favoritePathThemeId); } },
+    { id: "root_memory", name: "熟土记忆", desc: "在同一花盆收获满 3 次（记忆加成）", check: function (s) { return (s.stats && s.stats.memoryHarvests || 0) >= 1; } },
+    { id: "order_keeper", name: "记得口味", desc: "为常客复刻上次配方 1 次", check: function (s) { return (s.stats && s.stats.repeatOrders || 0) >= 1; } },
   ];
 
   function advanceSeason(state) {
@@ -699,9 +701,13 @@
       if (!isReady(pot, plants)) return { ok: false, reason: "not_ready" };
       var def = plants[pot.plantId];
       var n = 1 + (pot.mood > 70 ? 1 : 0);
+      // Soft pot memory: same pot harvested many times feels "known"
+      pot.harvestCount = (pot.harvestCount || 0) + 1;
+      var memoryBonus = pot.harvestCount >= 3;
+      if (memoryBonus) n += 1;
       addItem(state, def.harvest, n);
       state.hearts = (state.hearts || 0) + 1;
-      state.coins = (state.coins || 0) + ECONOMY.harvestCoins;
+      state.coins = (state.coins || 0) + ECONOMY.harvestCoins + (memoryBonus ? 1 : 0);
       var gift = null;
       if (pot.mood > 85) {
         var extras = ["petal", "clover", "maple", "stone"];
@@ -710,12 +716,21 @@
       }
       if (!state.stats) state.stats = {};
       state.stats.plantsHarvested = (state.stats.plantsHarvested || 0) + 1;
+      if (memoryBonus) state.stats.memoryHarvests = (state.stats.memoryHarvests || 0) + 1;
       pot.growth = def.days * 0.4;
       pot.water = 30;
       pot.sun = 30;
-      pot.mood = 40;
+      // Known pots start a bit happier after harvest cycle
+      pot.mood = memoryBonus ? 48 : 40;
       pot.tendedAt = Date.now();
-      return { ok: true, harvested: def.harvest, count: n, gift: gift };
+      return {
+        ok: true,
+        harvested: def.harvest,
+        count: n,
+        gift: gift,
+        harvestCount: pot.harvestCount,
+        memoryBonus: memoryBonus,
+      };
     } else {
       return { ok: false, reason: "bad_act" };
     }
@@ -886,11 +901,26 @@
     }
 
     var result = scoreDrink(customer, craft, catalogs);
+    // Soft repeat-order memory for known guests
+    var cname = customer && customer.name ? customer.name : null;
+    var drinkKey = [craft.cup, craft.base, craft.flavor, craft.topping || "none"].join("-");
+    var repeated = false;
+    if (cname && state.lastCraftByGuest && state.lastCraftByGuest[cname] === drinkKey) {
+      repeated = true;
+      result.score = Math.min(5, (result.score || 0) + 0.25);
+      result.notes = (result.notes || []).concat(["还是老样子"]);
+      result.coins = (result.coins || 0) + 1;
+      if (!state.stats) state.stats = {};
+      state.stats.repeatOrders = (state.stats.repeatOrders || 0) + 1;
+    }
     state.coins = (state.coins || 0) + result.coins;
     state.hearts = (state.hearts || 0) + result.hearts;
     if (!state.drinksMade) state.drinksMade = {};
-    var drinkKey = [craft.cup, craft.base, craft.flavor, craft.topping || "none"].join("-");
     state.drinksMade[drinkKey] = (state.drinksMade[drinkKey] || 0) + 1;
+    if (cname) {
+      if (!state.lastCraftByGuest) state.lastCraftByGuest = {};
+      state.lastCraftByGuest[cname] = drinkKey;
+    }
     if (!state.stats) state.stats = {};
     state.stats.drinksServed = (state.stats.drinksServed || 0) + 1;
     if (result.score >= 3) {
@@ -905,7 +935,33 @@
       result.notes = (result.notes || []).concat(["连胜小奖励"]);
       result.coins = (result.coins || 0) + streakBonus;
     }
-    return { ok: true, result: result, drinkKey: drinkKey, serveStreak: state.serveStreak || 0 };
+    return {
+      ok: true,
+      result: result,
+      drinkKey: drinkKey,
+      serveStreak: state.serveStreak || 0,
+      repeated: repeated,
+    };
+  }
+
+  /** Apply last remembered craft for a guest name into craft object */
+  function recallGuestCraft(state, guestName) {
+    if (!guestName || !state.lastCraftByGuest || !state.lastCraftByGuest[guestName]) {
+      return { ok: false, reason: "none" };
+    }
+    var key = state.lastCraftByGuest[guestName];
+    var parts = String(key).split("-");
+    if (parts.length < 3) return { ok: false, reason: "bad" };
+    return {
+      ok: true,
+      craft: {
+        cup: parts[0],
+        base: parts[1],
+        flavor: parts[2],
+        topping: parts[3] || "none",
+      },
+      drinkKey: key,
+    };
   }
 
   function serialize(state) {
@@ -1103,5 +1159,6 @@
     setPathTheme: setPathTheme,
     favoritePathTheme: favoritePathTheme,
     buildSpawnList: buildSpawnList,
+    recallGuestCraft: recallGuestCraft,
   };
 });

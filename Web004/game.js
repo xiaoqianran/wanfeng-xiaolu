@@ -872,6 +872,20 @@
         ctx.ellipse(x, y, 7, 10, 0, 0, Math.PI * 2);
         ctx.fill();
       }
+    } else if (themeId === "dawn_bridge") {
+      // soft horizontal mist bands + warm horizon glow
+      const glow = ctx.createLinearGradient(0, h * 0.35, 0, h * 0.7);
+      glow.addColorStop(0, "rgba(255,180,120,0.12)");
+      glow.addColorStop(1, "rgba(255,200,150,0)");
+      ctx.fillStyle = glow;
+      ctx.fillRect(0, h * 0.3, w, h * 0.4);
+      ctx.fillStyle = "rgba(230,235,240,0.12)";
+      for (let i = 0; i < 4; i++) {
+        const y = h * 0.5 + i * 14 + Math.sin(time * 0.02 + i) * 3;
+        ctx.beginPath();
+        ctx.ellipse(w * 0.5, y, w * 0.48, 12, 0, 0, Math.PI * 2);
+        ctx.fill();
+      }
     }
   }
 
@@ -1287,9 +1301,14 @@
     const noteLine = pot.note
       ? `<p class="muted" style="margin-top:8px">📝 便签：「${pot.note}」</p>`
       : "";
+    const memLine =
+      (pot.harvestCount || 0) > 0
+        ? `<p class="muted">熟土记忆：已收获 ${pot.harvestCount} 次${pot.harvestCount >= 3 ? " · 加成中" : ""}</p>`
+        : "";
     detail.innerHTML = `
       <h3>${def.emoji[stage]} ${def.name} ${nick}</h3>
       <p class="muted">阶段：${stageName} · 生长 ${Math.min(pot.growth, def.days).toFixed(1)} / ${def.days}</p>
+      ${memLine}
       <div class="stat-bars">
         <div class="stat"><span>水分</span><div class="bar"><i style="width:${pot.water}%"></i></div><span>${Math.round(pot.water)}</span></div>
         <div class="stat"><span>日照</span><div class="bar sun"><i style="width:${pot.sun}%"></i></div><span>${Math.round(pot.sun)}</span></div>
@@ -1406,14 +1425,21 @@
     } else if (act === "harvest") {
       if (!isReady(pot)) return;
       const def = PLANTS[pot.plantId];
-      const n = 1 + (pot.mood > 70 ? 1 : 0);
+      pot.harvestCount = (pot.harvestCount || 0) + 1;
+      const memoryBonus = pot.harvestCount >= 3;
+      let n = 1 + (pot.mood > 70 ? 1 : 0) + (memoryBonus ? 1 : 0);
       addItem(def.harvest, n);
       state.hearts += 1;
-      state.coins += 3;
+      state.coins += 3 + (memoryBonus ? 1 : 0);
       if (!state.stats) state.stats = {};
       state.stats.plantsHarvested = (state.stats.plantsHarvested || 0) + 1;
-      Core.appendJournal(state, "收获了 " + (ITEMS[def.harvest].name || def.name) + "。");
-      toast(`🌼 收获 ${ITEMS[def.harvest].emoji} ${ITEMS[def.harvest].name} ×${n}`);
+      if (memoryBonus) state.stats.memoryHarvests = (state.stats.memoryHarvests || 0) + 1;
+      Core.appendJournal(state, "收获了 " + (ITEMS[def.harvest].name || def.name) + (memoryBonus ? "（熟土记忆）" : "") + "。");
+      toast(
+        `🌼 收获 ${ITEMS[def.harvest].emoji} ${ITEMS[def.harvest].name} ×${n}` +
+          (memoryBonus ? " · 熟土记忆" : "") +
+          (pot.harvestCount ? " · 第" + pot.harvestCount + "次" : "")
+      );
       sfx("harvest");
       if (pot.mood > 85) {
         const extras = ["petal", "clover", "maple", "stone"];
@@ -1425,7 +1451,7 @@
       pot.growth = PLANTS[pot.plantId].days * 0.4;
       pot.water = 30;
       pot.sun = 30;
-      pot.mood = 40;
+      pot.mood = memoryBonus ? 48 : 40;
       checkAchievements();
       save();
       refreshResources();
@@ -1837,6 +1863,17 @@
     if (score >= 3) {
       state.customerAffinity[cname] = (state.customerAffinity[cname] || 0) + 1;
     }
+    // 记住每位客人上次配方，便于「还是老样子」
+    if (!state.lastCraftByGuest) state.lastCraftByGuest = {};
+    const prevKey = state.lastCraftByGuest[cname];
+    if (prevKey && prevKey === drinkKey) {
+      if (!state.stats) state.stats = {};
+      state.stats.repeatOrders = (state.stats.repeatOrders || 0) + 1;
+      state.coins += 1;
+      notes.push("还是老样子");
+      toast("🔁 老样子 · 小费 +1");
+    }
+    state.lastCraftByGuest[cname] = drinkKey;
 
     // 今日展示架：保留最近 3 杯影子
     if (!state.shelfDrinks) state.shelfDrinks = [];
@@ -1869,6 +1906,23 @@
     renderShop();
     toast("下一位客人走来了");
   });
+
+  const btnRecall = document.getElementById("btn-recall-order");
+  if (btnRecall) {
+    btnRecall.addEventListener("click", () => {
+      const name = state.customer && state.customer.name;
+      const r = Core.recallGuestCraft(state, name);
+      if (!r.ok) {
+        toast("还没有这位客人的上次配方");
+        return;
+      }
+      state.craft = Object.assign({}, r.craft);
+      save();
+      renderShop();
+      toast("🔁 已填入「" + name + "」上次的搭配");
+      sfx("ui");
+    });
+  }
 
   const btnPin = document.getElementById("btn-pin-customer");
   if (btnPin) {
