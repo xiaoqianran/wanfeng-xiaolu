@@ -2112,5 +2112,35 @@ test("ginger plantable rain_garden and memory stickers", () => {
   assert.ok(man.includes("雨园慢径"));
 });
 
+
+test("cardamom orchard_dusk and unique ambient banks", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.cardamom && j.plants.cardamomPot && j.items.apple_leaf);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  s.bag.cardamom = 1;
+  assert.ok(core.plantSeed(s, 0, "cardamom", cat).ok);
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "orchard_dusk"));
+  assert.ok(themes.length >= 30);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const walk = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "walk-config.json"), "utf8"));
+  assert.ok((walk.ambient || []).length >= 30);
+  // no template "#N" ambient spam
+  const ambText = (walk.ambient || []).map((a) => (typeof a === "string" ? a : a.note || "")).join("\n");
+  assert.ok(!/碎片 #\d|絮语 #\d/.test(ambText));
+  const garden = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "garden-config.json"), "utf8"));
+  assert.ok((garden.messages || []).length >= 28);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("orchard_dusk"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "豆蔻暖蜜"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("果园暮色"));
+  // spam engine still disabled
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
