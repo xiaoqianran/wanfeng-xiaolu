@@ -462,6 +462,16 @@ test("album recipes tab markup present", () => {
   assert.ok(game.includes('tab === "recipes"'));
 });
 
+test("scoreDrink favoriteFlavor soft bonus", () => {
+  const craft = { cup: "mug", base: "tea", flavor: "honey", topping: "none" };
+  const baseC = { tags: ["温柔"], flavors: ["jasmine"] };
+  const favC = { tags: ["温柔"], flavors: ["jasmine"], favoriteFlavor: "honey" };
+  const a = core.scoreDrink(baseC, craft);
+  const b = core.scoreDrink(favC, craft);
+  assert.ok(b.score >= a.score);
+  assert.ok(b.notes.some((n) => n.indexOf("记得") >= 0));
+});
+
 test("path themes unique and setPathTheme/buildSpawnList work", () => {
   const themes = JSON.parse(
     fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8")

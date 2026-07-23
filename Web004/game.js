@@ -422,7 +422,8 @@
         ? ambPool[Math.floor(rand() * ambPool.length)]
         : null;
 
-    for (let i = 0; i < 28; i++) {
+    const ITEM_CAP = (typeof navigator !== "undefined" && navigator.hardwareConcurrency && navigator.hardwareConcurrency <= 2) ? 18 : 28;
+    for (let i = 0; i < ITEM_CAP; i++) {
       const id = spawns[Math.floor(rand() * spawns.length)] || "maple";
       if (!ITEMS[id]) continue;
       items.push({
@@ -1017,7 +1018,11 @@
   // ---------- 汽水铺 ----------
   function randomCustomer() {
     const c = CUSTOMERS[Math.floor(Math.random() * CUSTOMERS.length)];
-    return { ...c, id: Date.now() };
+    const next = { ...c, id: Date.now() };
+    if (state.lastServedFlavor && Math.random() < 0.35) {
+      next.favoriteFlavor = state.lastServedFlavor;
+    }
+    return next;
   }
 
   function renderShop() {
@@ -1227,6 +1232,7 @@
     msgEl.textContent = `${reaction}  +${coins} 金币${hearts ? " · +1 好心情" : ""}${notes.length ? "（" + notes.join("，") + "）" : ""}`;
     toast(`🥂 客人很满意 · +${coins} 🪙`);
     sfx("serve");
+    state.lastServedFlavor = flavor;
 
     // 重置部分配方，换客人
     state.craft = { cup: state.craft.cup, base: null, flavor: null, topping: null };
