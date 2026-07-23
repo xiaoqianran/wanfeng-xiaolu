@@ -153,3 +153,4 @@
 | 146 | completed | feat | Tune walk ambient note #7 | Walk ambient #7 | `feat(walk): R0146 Tune walk ambient note #7` |
 | 147 | completed | feat | Add journal template #7 | Journal templates=7 | `feat(album): R0147 Add journal template #7` |
 | 148 | completed | feat | Add secret recipe stub #7 | Recipes=7 | `feat(shop): R0148 Add secret recipe stub #7` |
+| 149 | completed | feat | Add achievement definition #7 | Achievements=7 | `feat(meta): R0149 Add achievement definition #7` |
