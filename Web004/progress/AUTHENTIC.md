@@ -36,3 +36,4 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0036 | completed | balance | potUnlockCost 经济常数 | ECONOMY.potUnlockCost + unit test | `balance(economy): A0036 potUnlockCost 纳入 ECONOMY 并补测试` |
 | A0037 | completed | content | 独特手帐范文 | 8 unique journal templates no #N | `content(journal): A0037 去模板化手帐范文八则` |
 | A0038 | completed | audio | 扩展音效与音频设计 | harvest/unlock/theme/achieve sfx + AUDIO_DESIGN.md | `audio(feedback): A0038 收获解锁主题成就音效与音频设计文档` |
+| A0039 | completed | feat | 温柔信箱 | mail.json + openOneMail + screen-mail | `feat(mail): A0039 温柔信箱系统与独特来信` |
