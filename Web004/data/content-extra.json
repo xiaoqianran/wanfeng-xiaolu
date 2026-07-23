@@ -2469,6 +2469,13 @@
       "emoji": "🟠",
       "kind": "风味",
       "seed": "persimmonPot"
+    },
+    "fig": {
+      "id": "fig",
+      "name": "无花果",
+      "emoji": "🫒",
+      "kind": "风味",
+      "seed": "figPot"
     }
   },
   "plants": {
@@ -4545,6 +4552,17 @@
       ],
       "harvest": "persimmon",
       "days": 3
+    },
+    "figPot": {
+      "id": "figPot",
+      "name": "无花果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🫒"
+      ],
+      "harvest": "fig",
+      "days": 3
     }
   },
   "cups": [
@@ -5536,6 +5554,16 @@
       "name": "柿子",
       "emoji": "🟠",
       "need": "persimmon",
+      "tags": [
+        "甜蜜",
+        "果香"
+      ]
+    },
+    {
+      "id": "fig",
+      "name": "无花果",
+      "emoji": "🫒",
+      "need": "fig",
       "tags": [
         "甜蜜",
         "果香"
@@ -6996,6 +7024,21 @@
         "honey",
         "peach",
         "tea_leaf"
+      ]
+    },
+    {
+      "name": "晒无花果的人",
+      "avatar": "🫒",
+      "wish": "无花果或蜜，甜一点，暖杯更好。",
+      "tags": [
+        "甜蜜",
+        "温柔"
+      ],
+      "flavors": [
+        "fig",
+        "honey",
+        "peach",
+        "persimmon"
       ]
     }
   ],
