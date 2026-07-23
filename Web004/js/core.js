@@ -499,6 +499,15 @@
     { id: "lotus_walker", name: "荷塘旅人", desc: "走过荷塘浅步", check: function (s) {
       return !!(s._themesTouched && s._themesTouched.lotus_pond);
     } },
+    { id: "sill_arranger", name: "窗台整理", desc: "对调花盆 2 次", check: function (s) {
+      return (s.stats && s.stats.potSwaps || 0) >= 2;
+    } },
+    { id: "calendula_sill", name: "金盏窗台", desc: "发现金盏花", check: function (s) {
+      return !!(s.discovered && s.discovered.calendula);
+    } },
+    { id: "chime_walker", name: "风铃旅人", desc: "走过风铃廊", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wind_chime);
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
     { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },
@@ -975,7 +984,7 @@
     }
     // soft seasonal affinity (optional catalogs.season)
     var season = catalogs.season || customer.season;
-    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || baseDef.id === "floral_tea")) {
+    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || baseDef.id === "floral_tea")) {
       score += 0.5;
       notes.push("春日花香");
     }
@@ -1262,6 +1271,24 @@ function recallGuestCraft(state, guestName) {
     return { ok: true, prev: prev };
   }
 
+  /** Soft rearrange: swap two sill pots (still-life, no combat) */
+  function swapPots(state, a, b) {
+    if (!state.pots || !state.pots.length) return { ok: false, reason: "empty" };
+    a = a | 0;
+    b = b | 0;
+    if (a === b) return { ok: false, reason: "same" };
+    if (a < 0 || b < 0 || a >= state.pots.length || b >= state.pots.length) {
+      return { ok: false, reason: "range" };
+    }
+    var tmp = state.pots[a];
+    state.pots[a] = state.pots[b];
+    state.pots[b] = tmp;
+    if (!state.stats) state.stats = {};
+    state.stats.potSwaps = (state.stats.potSwaps || 0) + 1;
+    appendJournal(state, "把窗台花盆轻轻对调了一下。");
+    return { ok: true, a: a, b: b };
+  }
+
   /** Soft windowsill snapshot — still-life memory card, no combat */
   function snapshotPot(state, potIndex, plants) {
     plants = plants || DEFAULT_PLANTS;
@@ -1361,6 +1388,7 @@ function recallGuestCraft(state, guestName) {
     unpinCustomer: unpinCustomer,
     pickCustomerWithPin: pickCustomerWithPin,
     snapshotPot: snapshotPot,
+    swapPots: swapPots,
     assertNoCombat: assertNoCombat,
     advanceSeason: advanceSeason,
     appendJournal: appendJournal,

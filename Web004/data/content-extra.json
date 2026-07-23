@@ -2315,6 +2315,13 @@
       "emoji": "🪷",
       "kind": "收藏",
       "seed": null
+    },
+    "calendula": {
+      "id": "calendula",
+      "name": "金盏花",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "calendulaPot"
     }
   },
   "plants": {
@@ -4182,6 +4189,17 @@
       ],
       "harvest": "violet",
       "days": 3
+    },
+    "calendulaPot": {
+      "id": "calendulaPot",
+      "name": "金盏花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "calendula",
+      "days": 2
     }
   },
   "cups": [
@@ -4986,6 +5004,16 @@
       "tags": [
         "花香",
         "温柔"
+      ]
+    },
+    {
+      "id": "calendula",
+      "name": "金盏花",
+      "emoji": "🧡",
+      "need": "calendula",
+      "tags": [
+        "花香",
+        "田园"
       ]
     }
   ],
@@ -6140,6 +6168,22 @@
         "matcha",
         "plain"
       ]
+    },
+    {
+      "name": "编花环的孩子",
+      "avatar": "🧒",
+      "wish": "金盏花或蜜，甜一点，装饰要亮。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "calendula",
+        "honey",
+        "peach",
+        "berry"
+      ],
+      "wantTopping": true
     }
   ],
   "dialogues": [
