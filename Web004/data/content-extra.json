@@ -2378,6 +2378,13 @@
       "emoji": "🤍",
       "kind": "装饰",
       "seed": null
+    },
+    "hibiscus": {
+      "id": "hibiscus",
+      "name": "洛神花",
+      "emoji": "🌺",
+      "kind": "风味",
+      "seed": "hibiscusPot"
     }
   },
   "plants": {
@@ -4322,6 +4329,17 @@
       ],
       "harvest": "elderflower",
       "days": 3
+    },
+    "hibiscusPot": {
+      "id": "hibiscusPot",
+      "name": "洛神花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌺"
+      ],
+      "harvest": "hibiscus",
+      "days": 3
     }
   },
   "cups": [
@@ -5193,6 +5211,16 @@
       "name": "接骨木花",
       "emoji": "🤍",
       "need": "elderflower",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "hibiscus",
+      "name": "洛神花",
+      "emoji": "🌺",
+      "need": "hibiscus",
       "tags": [
         "花香",
         "清爽"
@@ -6471,6 +6499,21 @@
         "plain"
       ],
       "wantTopping": true
+    },
+    {
+      "name": "煮洛神的阿婆",
+      "avatar": "🌺",
+      "wish": "洛神或蜜，酸甜一点，暖杯更好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "hibiscus",
+        "honey",
+        "berry",
+        "rose_petal"
+      ]
     }
   ],
   "dialogues": [
