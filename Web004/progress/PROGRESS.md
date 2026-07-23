@@ -1005,3 +1005,4 @@
 | 998 | completed | feat | Topping or cup option #49 | Topping top_r0998 | `feat(content): R0998 Topping or cup option #49` |
 | 999 | completed | docs | Stage milestone summary #49 | Stage doc stage-20.md | `docs(progress): R0999 Stage milestone summary #49` |
 | 1000 | completed | refactor | Catalog integrity pass #49 | Integrity items=99 customers=49 | `refactor(core): R1000 Catalog integrity pass #49` |
+| 1001 | completed | feat | Integrate generated art + content-extra.js runtime + verify suite | Shipped file:// content merge and multi-stage art | `feat(ui): R1001 integrate generated art, content-extra runtime, verification tools` |
