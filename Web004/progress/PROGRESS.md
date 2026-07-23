@@ -224,3 +224,4 @@
 | 217 | completed | feat | Ship collectible + runtime catalog item #18 | Runtime item hibiscus_r0217 | `feat(content): R0217 Ship collectible + runtime catalog item #18` |
 | 218 | completed | feat | Ship customer persona into runtime #18 | Runtime customer 烘焙店员·218 | `feat(shop): R0218 Ship customer persona into runtime #18` |
 | 219 | completed | feat | Ship walk ambient + pathWidth into runtime #18 | walk pathWidth=3219 ambient=70 | `feat(walk): R0219 Ship walk ambient + pathWidth into runtime #18` |
+| 220 | completed | feat | Ship garden care whisper into runtime #18 | garden messages=71 careBonus=1.05 | `feat(garden): R0220 Ship garden care whisper into runtime #18` |
