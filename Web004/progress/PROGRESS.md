@@ -536,3 +536,4 @@
 | 529 | completed | feat | Add achievement definition #26 | Achievements=26 | `feat(meta): R0529 Add achievement definition #26` |
 | 530 | completed | style | CSS micro polish token #26 | CSS token hue=10 | `style(ui): R0530 CSS micro polish token #26` |
 | 531 | completed | feat | Add plantable linkage #26 | Plant link plant_cocoa_0531 | `feat(content): R0531 Add plantable linkage #26` |
+| 532 | completed | feat | Add flavor or base option #26 | Flavor fl_matcha_0532 | `feat(shop): R0532 Add flavor or base option #26` |
