@@ -560,3 +560,4 @@
 {"round":560,"status":"completed","type":"refactor","scope":"core","goal":"Catalog integrity pass #27","outcome":"Integrity items=55 customers=27","commit":"refactor(core): R0560 Catalog integrity pass #27","at":"2026-07-23T19:50:06.735Z"}
 {"round":561,"status":"completed","type":"feat","scope":"content","goal":"Add collectible item batch #28","outcome":"Item cocoa_r0561 added","commit":"feat(content): R0561 Add collectible item batch #28","at":"2026-07-23T19:50:06.761Z"}
 {"round":562,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #28","outcome":"Customer 夜跑爱好者·562","commit":"feat(shop): R0562 Add customer persona #28","at":"2026-07-23T19:50:06.787Z"}
+{"round":563,"status":"completed","type":"feat","scope":"content","goal":"Add dialogue line #28","outcome":"Dialogue count=28","commit":"feat(content): R0563 Add dialogue line #28","at":"2026-07-23T19:50:06.811Z"}

@@ -567,3 +567,4 @@
 | 560 | completed | refactor | Catalog integrity pass #27 | Integrity items=55 customers=27 | `refactor(core): R0560 Catalog integrity pass #27` |
 | 561 | completed | feat | Add collectible item batch #28 | Item cocoa_r0561 added | `feat(content): R0561 Add collectible item batch #28` |
 | 562 | completed | feat | Add customer persona #28 | Customer 夜跑爱好者·562 | `feat(shop): R0562 Add customer persona #28` |
+| 563 | completed | feat | Add dialogue line #28 | Dialogue count=28 | `feat(content): R0563 Add dialogue line #28` |
