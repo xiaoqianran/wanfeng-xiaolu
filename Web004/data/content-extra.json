@@ -2231,6 +2231,13 @@
       "emoji": "🍃",
       "kind": "风味",
       "seed": "perillaPot"
+    },
+    "ink_stone": {
+      "id": "ink_stone",
+      "name": "小砚台石",
+      "emoji": "⬛",
+      "kind": "收藏",
+      "seed": null
     }
   },
   "plants": {

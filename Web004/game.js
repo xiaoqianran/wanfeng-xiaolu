@@ -454,7 +454,7 @@
     }
     const rareIds = new Set([
       "star_sand", "paper_crane", "candy_wrap", "seashell", "wheat_ear",
-      "camellia", "lilac", "chamomile", "bluebell", "rosemary", "osmanthus", "honeysuckle", "sage", "yuzu", "matcha", "moss",
+      "camellia", "lilac", "chamomile", "bluebell", "rosemary", "osmanthus", "honeysuckle", "sage", "yuzu", "matcha", "moss", "ink_stone", "loquat_leaf", "perilla",
     ]);
     grid.innerHTML = entries
       .map((id) => {
@@ -1132,6 +1132,7 @@
     state.coins += (Core.ECONOMY && Core.ECONOMY.pathBonus) || 3;
     Core.appendJournal(state, "又走完一段小路，口袋轻响。");
     const canR = Core.chargeWateringCan(state, 1);
+    const first = Core.claimFirstWalkBonus ? Core.claimFirstWalkBonus(state) : { ok: false };
     const ev = applyEveningEvent();
     checkAchievements();
     Core.evaluateDailyGoals(state);
@@ -1139,7 +1140,9 @@
     refreshResources();
     refreshDailyUI();
     world = makeWorld(2000 + state.pathsWalked * 131 + Date.now() % 1000);
-    if (ev) {
+    if (first && first.ok) {
+      toast("🌅 今日第一脚 · +2 🪙 +1 💛 · 水壶 +1");
+    } else if (ev) {
       toast("📖 " + ev.title + " — " + (ev.body || "").slice(0, 28) + "…");
     } else {
       toast("✨ 晚风换了一条小路，送你 2 枚金币" + (canR.full ? " · 水壶满了" : ""));

@@ -1610,5 +1610,24 @@ test("cloud_pass theme and 18 path themes unique", () => {
   assert.ok(game.includes("cloud_pass"));
 });
 
+
+test("claimFirstWalkBonus once per day", () => {
+  const s = core.defaultState();
+  // Use fixed local-noon timestamps so dayKey is stable across TZ
+  const day1 = new Date(2026, 6, 24, 12, 0, 0).getTime();
+  const day1b = new Date(2026, 6, 24, 20, 0, 0).getTime();
+  const day2 = new Date(2026, 6, 25, 12, 0, 0).getTime();
+  const a = core.claimFirstWalkBonus(s, day1);
+  assert.ok(a.ok);
+  assert.ok((s.stats.firstWalks || 0) >= 1);
+  const b = core.claimFirstWalkBonus(s, day1b);
+  assert.strictEqual(b.ok, false);
+  const c = core.claimFirstWalkBonus(s, day2);
+  assert.ok(c.ok);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "early_walker"));
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.ink_stone);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

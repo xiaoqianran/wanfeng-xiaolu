@@ -272,7 +272,8 @@
       "maple": 1.4,
       "petal": 1.2,
       "honey": 1.1,
-      "osmanthus": 1.6
+      "osmanthus": 1.6,
+      "ink_stone": 2.4
     },
     "ambient": [
       "有人在翻书，风替他翻到下一页。",
@@ -495,7 +496,8 @@
       "honeysuckle": 1.9,
       "perilla": 1.8,
       "clover": 1.6,
-      "petal": 1.5
+      "petal": 1.5,
+      "ink_stone": 1.2
     },
     "ambient": [
       "云影从脚边滑过，像有人把光关掉又打开。",

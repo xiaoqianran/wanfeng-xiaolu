@@ -404,6 +404,7 @@
     { id: "fav_path", name: "有常走的路", desc: "标记一条常走小路", check: function (s) { return !!(s.favoritePathThemeId); } },
     { id: "root_memory", name: "熟土记忆", desc: "在同一花盆收获满 3 次（记忆加成）", check: function (s) { return (s.stats && s.stats.memoryHarvests || 0) >= 1; } },
     { id: "order_keeper", name: "记得口味", desc: "为常客复刻上次配方 1 次", check: function (s) { return (s.stats && s.stats.repeatOrders || 0) >= 1; } },
+    { id: "early_walker", name: "今日第一脚", desc: "领取 3 次今日首次出门奖励", check: function (s) { return (s.stats && s.stats.firstWalks || 0) >= 3; } },
   ];
 
   function advanceSeason(state) {
@@ -577,6 +578,25 @@
     var before = can.charge;
     can.charge = Math.min(can.max, can.charge + n);
     return { ok: true, charge: can.charge, gained: can.charge - before, full: can.charge >= can.max };
+  }
+
+  /**
+   * Soft first-walk-of-day bonus: first new path after daily key
+   * grants tiny hearts/coins once — pure cozy, no combat.
+   */
+  function claimFirstWalkBonus(state, now) {
+    now = now || Date.now();
+    var key = dayKey(now);
+    if (!state._firstWalk) state._firstWalk = {};
+    if (state._firstWalk[key]) return { ok: false, reason: "claimed" };
+    state._firstWalk[key] = true;
+    state.coins = (state.coins || 0) + 2;
+    state.hearts = (state.hearts || 0) + 1;
+    chargeWateringCan(state, 1);
+    if (!state.stats) state.stats = {};
+    state.stats.firstWalks = (state.stats.firstWalks || 0) + 1;
+    appendJournal(state, "今天第一次出门，晚风先送了一点小心意。");
+    return { ok: true, coins: 2, hearts: 1 };
   }
 
   /**
@@ -1160,5 +1180,6 @@
     favoritePathTheme: favoritePathTheme,
     buildSpawnList: buildSpawnList,
     recallGuestCraft: recallGuestCraft,
+    claimFirstWalkBonus: claimFirstWalkBonus,
   };
 });
