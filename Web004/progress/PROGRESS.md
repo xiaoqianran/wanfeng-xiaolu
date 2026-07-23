@@ -53,3 +53,4 @@
 | 46 | completed | feat | Tune walk ambient note #2 | Walk ambient #2 | `feat(walk): R0046 Tune walk ambient note #2` |
 | 47 | completed | feat | Add journal template #2 | Journal templates=2 | `feat(album): R0047 Add journal template #2` |
 | 48 | completed | feat | Add secret recipe stub #2 | Recipes=2 | `feat(shop): R0048 Add secret recipe stub #2` |
+| 49 | completed | feat | Add achievement definition #2 | Achievements=2 | `feat(meta): R0049 Add achievement definition #2` |
