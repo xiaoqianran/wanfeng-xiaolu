@@ -106,3 +106,4 @@
 | 99 | completed | docs | Stage milestone summary #4 | Stage doc stage-02.md | `docs(progress): R0099 Stage milestone summary #4` |
 | 100 | completed | refactor | Catalog integrity pass #4 | Integrity items=9 customers=4 | `refactor(core): R0100 Catalog integrity pass #4` |
 | 101 | completed | feat | Add collectible item batch #5 | Item pine_r0101 added | `feat(content): R0101 Add collectible item batch #5` |
+| 102 | completed | feat | Add customer persona #5 | Customer 滑板少年·102 | `feat(shop): R0102 Add customer persona #5` |
