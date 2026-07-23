@@ -1010,3 +1010,4 @@
 | 1003 | completed | feat | 设置页+首次引导+存档导入导出 | screen-settings tutorial export/import core settings | `feat(settings): R1003 设置页首次引导与存档导出导入` |
 | 1004 | completed | audio | WebAudio 轻反馈 | js/audio.js pickup/water/serve/ui cues | `audio(feedback): R1004 WebAudio 轻反馈并尊重静音设置` |
 | 1005 | completed | feat | Ship achievement milestone into runtime #83 | achievements=120 | `feat(meta): R1005 Ship achievement milestone into runtime #83` |
+| 1006 | completed | style | Ship CSS accent token used by app shell #83 | CSS --r-accent hue=182 wired to brand/primary | `style(ui): R1006 Ship CSS accent token used by app shell #83` |
