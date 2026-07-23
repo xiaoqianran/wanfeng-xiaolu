@@ -3,48 +3,126 @@
     "id": "lamp_first",
     "title": "第一盏灯",
     "body": "篱笆外的路灯比平时早亮了一点。你站了一会儿，把口袋里的枫叶夹进图鉴。",
-    "effect": { "hearts": 1 }
+    "effect": {
+      "hearts": 1
+    }
   },
   {
     "id": "shared_umbrella",
     "title": "忘在这里的伞",
     "body": "门廊靠着一把淡绿的伞。纸条写着：雨停了再还也没关系。",
-    "effect": { "coins": 2 }
+    "effect": {
+      "coins": 2
+    }
   },
   {
     "id": "cat_visit",
     "title": "过路的猫",
     "body": "橘猫在窗台外跳一下又离开，留下一点绒毛。你决定明天多种一盆薄荷。",
-    "effect": { "items": { "mint": 1 } }
+    "effect": {
+      "items": {
+        "mint": 1
+      }
+    }
   },
   {
     "id": "postcard",
     "title": "没有地址的明信片",
     "body": "画面是一条陌生的小路。背面只写：风也认识你。",
-    "effect": { "hearts": 1, "coins": 1 }
+    "effect": {
+      "hearts": 1,
+      "coins": 1
+    }
   },
   {
     "id": "market_close",
     "title": "收摊的时候",
     "body": "邻家把剩下的青柠塞给你：免得隔夜发苦。",
-    "effect": { "items": { "lemon": 2 } }
+    "effect": {
+      "items": {
+        "lemon": 2
+      }
+    }
   },
   {
     "id": "quiet_score",
     "title": "安静的乐谱",
     "body": "汽水铺抽屉里夹着半页乐谱，没有名字，只有连音线像晚风。",
-    "effect": { "hearts": 1 }
+    "effect": {
+      "hearts": 1
+    }
   },
   {
     "id": "seed_swap",
     "title": "互换的种子",
     "body": "旅人留下三粒不知名的种子，换走你一颗鹅卵石。",
-    "effect": { "items": { "clover": 1, "stone": 1 } }
+    "effect": {
+      "items": {
+        "clover": 1,
+        "stone": 1
+      }
+    }
   },
   {
     "id": "soft_rain",
     "title": "不下的雨",
     "body": "云很厚，却始终没落雨。泥土的味道已经准备好了。",
-    "effect": { "coins": 1 }
+    "effect": {
+      "coins": 1
+    }
+  },
+  {
+    "id": "firefly",
+    "title": "提灯的萤火",
+    "body": "草丛里有两点细光，像有人用很小的力气说你好。",
+    "effect": {
+      "hearts": 1
+    }
+  },
+  {
+    "id": "bread_smell",
+    "title": "烤面包的风",
+    "body": "风里有黄油与麦香。你突然觉得今天的步子可以再慢一点。",
+    "effect": {
+      "coins": 2
+    }
+  },
+  {
+    "id": "bench_note",
+    "title": "长椅上的句子",
+    "body": "有人用粉笔写：坐一会儿也算旅行。",
+    "effect": {
+      "hearts": 1,
+      "coins": 1
+    }
+  },
+  {
+    "id": "berry_spill",
+    "title": "洒落的野莓",
+    "body": "竹篮斜了，几颗莓果滚进草里。你捡回两颗，留下一颗给蚂蚁。",
+    "effect": {
+      "items": {
+        "berry": 2
+      }
+    }
+  },
+  {
+    "id": "bell_far",
+    "title": "很远的铃",
+    "body": "山谷另一头铃响了三下，像有人结束了今天的工作。",
+    "effect": {
+      "coins": 1
+    }
+  },
+  {
+    "id": "paper_boat",
+    "title": "纸船",
+    "body": "水沟里漂着折得不太整齐的纸船，船头夹着一片茉莉。",
+    "effect": {
+      "items": {
+        "jasmine": 1
+      },
+      "hearts": 1
+    }
   }
 ]
