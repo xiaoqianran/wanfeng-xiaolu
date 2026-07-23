@@ -30,3 +30,12 @@ BGM 提示词：soft dusk ambient pad, no melody hook, low volume, loopable 60s,
 - 实现：双正弦 110Hz + 164.81Hz，极低音量增益
 - 关闭总音效时自动停止
 - 无外部文件依赖
+
+## 增补音效（A0181）
+| 动作 | kind | 说明 |
+|------|------|------|
+| 水壶浇灌 | can | 偏低频 sine，比普通浇水更沉 |
+| 常客标记 | pin | 短 triangle，轻确认 |
+| 窗台速写 | snap | 短 square，模拟轻快门 |
+
+全部为 WebAudio 合成，无外部采样版权依赖。
