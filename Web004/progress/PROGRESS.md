@@ -159,3 +159,4 @@
 | 152 | completed | feat | Add flavor or base option #7 | Flavor fl_chamomile_0152 | `feat(shop): R0152 Add flavor or base option #7` |
 | 153 | completed | feat | UI copy toast string #7 | UI toasts=8 | `feat(ui): R0153 UI copy toast string #7` |
 | 154 | completed | feat | Season palette note #7 | Season palette winter_0154 | `feat(season): R0154 Season palette note #7` |
+| 155 | completed | assets | Asset slot registration #7 | Asset slot assets/walk/slot_0155.png | `assets(manifest): R0155 Asset slot registration #7` |
