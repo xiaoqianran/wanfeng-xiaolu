@@ -2657,5 +2657,26 @@ test("litchi plantable litchi_grove 50 unique themes", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+
+test("loquat plantable loquat_lane 51 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.loquat && j.plants.loquatPot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  s.bag.loquat = 1;
+  assert.ok(core.plantSeed(s, 0, "loquat", cat).ok);
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "loquat_lane"));
+  assert.ok(themes.length >= 51);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("loquat_lane"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "枇杷暖蜜"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "loquat_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("枇杷巷"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
