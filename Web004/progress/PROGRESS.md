@@ -935,3 +935,4 @@
 | 928 | completed | feat | Add secret recipe stub #46 | Recipes=46 | `feat(shop): R0928 Add secret recipe stub #46` |
 | 929 | completed | feat | Add achievement definition #46 | Achievements=46 | `feat(meta): R0929 Add achievement definition #46` |
 | 930 | completed | style | CSS micro polish token #46 | CSS token hue=330 | `style(ui): R0930 CSS micro polish token #46` |
+| 931 | completed | feat | Add plantable linkage #46 | Plant link plant_lavender_0931 | `feat(content): R0931 Add plantable linkage #46` |
