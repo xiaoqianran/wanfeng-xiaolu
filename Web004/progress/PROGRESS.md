@@ -937,3 +937,4 @@
 | 930 | completed | style | CSS micro polish token #46 | CSS token hue=330 | `style(ui): R0930 CSS micro polish token #46` |
 | 931 | completed | feat | Add plantable linkage #46 | Plant link plant_lavender_0931 | `feat(content): R0931 Add plantable linkage #46` |
 | 932 | completed | feat | Add flavor or base option #46 | Flavor fl_chamomile_0932 | `feat(shop): R0932 Add flavor or base option #46` |
+| 933 | completed | feat | UI copy toast string #46 | UI toasts=47 | `feat(ui): R0933 UI copy toast string #46` |
