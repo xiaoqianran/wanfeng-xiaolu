@@ -561,3 +561,4 @@
 | 554 | completed | feat | Season palette note #27 | Season palette winter_0554 | `feat(season): R0554 Season palette note #27` |
 | 555 | completed | assets | Asset slot registration #27 | Asset slot assets/walk/slot_0555.png | `assets(manifest): R0555 Asset slot registration #27` |
 | 556 | completed | test | Regression assertion pack #27 | Test pack size=29 | `test(core): R0556 Regression assertion pack #27` |
+| 557 | completed | feat | Path theme fragment #27 | Path themes=32 | `feat(walk): R0557 Path theme fragment #27` |
