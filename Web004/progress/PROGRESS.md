@@ -945,3 +945,4 @@
 | 938 | completed | feat | Topping or cup option #46 | Topping top_r0938 | `feat(content): R0938 Topping or cup option #46` |
 | 939 | completed | docs | Stage milestone summary #46 | Stage doc stage-19.md | `docs(progress): R0939 Stage milestone summary #46` |
 | 940 | completed | refactor | Catalog integrity pass #46 | Integrity items=93 customers=46 | `refactor(core): R0940 Catalog integrity pass #46` |
+| 941 | completed | feat | Add collectible item batch #47 | Item pine_r0941 added | `feat(content): R0941 Add collectible item batch #47` |
