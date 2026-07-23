@@ -125,3 +125,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0126 | completed | docs | 手册同步新系统 | USER_MANUAL watering themes album shelf | `docs(manual): A0126 手册同步水壶主题筛选与展示架` |
 | A0127 | completed | content | 事件至96则 | 96 unique evening events + journal | `content(events): A0127 晚间事件至九十六则与水壶手帐` |
 | A0128 | completed | test | 手册事件回归 | 100 tests pass | `test(docs): A0128 手册与晚间事件回归` |
+| A0129 | completed | feat | 顶栏水壶格 | res-can charge/max in topbar | `feat(hud): A0129 顶栏显示水壶蓄水格` |
+| A0130 | completed | feat | 风铃草与麦穗 | bluebell+wheat+麦田风铃 recipe | `feat(garden): A0130 风铃草麦穗与麦田风铃配方` |
+| A0131 | completed | test | 风铃草回归 | 101 tests pass | `test(garden): A0131 风铃草水壶顶栏回归` |
