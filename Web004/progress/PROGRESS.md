@@ -491,3 +491,4 @@
 | 484 | completed | feat | Add garden care whisper #24 | Garden msg #25 | `feat(garden): R0484 Add garden care whisper #24` |
 | 485 | completed | feat | Add shop tip #24 | Shop tip #25 | `feat(shop): R0485 Add shop tip #24` |
 | 486 | completed | feat | Tune walk ambient note #24 | Walk ambient #24 | `feat(walk): R0486 Tune walk ambient note #24` |
+| 487 | completed | feat | Add journal template #24 | Journal templates=24 | `feat(album): R0487 Add journal template #24` |
