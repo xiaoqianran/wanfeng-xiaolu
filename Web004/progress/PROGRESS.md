@@ -122,3 +122,4 @@
 | 115 | completed | assets | Asset slot registration #5 | Asset slot assets/walk/slot_0115.png | `assets(manifest): R0115 Asset slot registration #5` |
 | 116 | completed | test | Regression assertion pack #5 | Test pack size=7 | `test(core): R0116 Regression assertion pack #5` |
 | 117 | completed | feat | Path theme fragment #5 | Path themes=10 | `feat(walk): R0117 Path theme fragment #5` |
+| 118 | completed | feat | Topping or cup option #5 | Topping top_r0118 | `feat(content): R0118 Topping or cup option #5` |
