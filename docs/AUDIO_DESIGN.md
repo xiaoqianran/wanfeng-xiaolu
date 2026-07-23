@@ -23,3 +23,10 @@
 - 竹林风声床
 
 BGM 提示词：soft dusk ambient pad, no melody hook, low volume, loopable 60s, cozy village evening。
+
+
+## 环境底噪（A0071）
+- 设置项：轻柔环境底噪（合成）
+- 实现：双正弦 110Hz + 164.81Hz，极低音量增益
+- 关闭总音效时自动停止
+- 无外部文件依赖
