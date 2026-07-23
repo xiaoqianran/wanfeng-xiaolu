@@ -1,8 +1,8 @@
 {
   "targetRounds": 1000,
-  "lastUpdate": "2026-07-23T20:30:29.761Z",
-  "completed": 850,
-  "lastGoal": "Ship CSS accent token used by app shell #70",
+  "lastUpdate": "2026-07-23T20:30:29.800Z",
+  "completed": 851,
+  "lastGoal": "Ship plantable seed linkage into runtime #70",
   "integrated": true,
-  "contentItems": 231
+  "contentItems": 232
 }
