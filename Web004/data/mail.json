@@ -645,5 +645,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_elderflower",
+    "title": "接骨木花干",
+    "body": "采接骨木的姑娘来信：晒干也能泡。给你一小包，别放潮。",
+    "effect": {
+      "items": {
+        "elderflower": 2
+      },
+      "coins": 2
+    }
   }
 ]

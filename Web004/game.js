@@ -1199,6 +1199,28 @@ function renderJournal() {
         ctx.ellipse(x, y, 10, 5, 0, 0, Math.PI * 2);
         ctx.fill();
       }
+    } else if (themeId === "willow_bank") {
+      // hanging willow arcs + floating catkins
+      ctx.strokeStyle = "rgba(80,120,70,0.28)";
+      ctx.lineWidth = 1.5;
+      for (let i = 0; i < 10; i++) {
+        const x = 30 + i * (w / 10);
+        const sway = Math.sin(time * 0.04 + i) * 10;
+        ctx.beginPath();
+        ctx.moveTo(x, h * 0.1);
+        ctx.quadraticCurveTo(x + sway, h * 0.35, x + sway * 0.5, h * 0.55);
+        ctx.stroke();
+      }
+      ctx.fillStyle = "rgba(245,245,240,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = (i * 53 + time * 0.5) % w;
+        const y = (i * 37 + time * 0.3) % (h * 0.7);
+        ctx.globalAlpha = 0.35 + 0.35 * Math.abs(Math.sin(time * 0.03 + i));
+        ctx.beginPath();
+        ctx.ellipse(x, y, 3, 2, 0, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
     }
   }
 
@@ -2151,7 +2173,7 @@ function renderJournal() {
       notes.push("杯子选得好");
     }
     const season = state.season || "dusk";
-    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || flavorDef.id === "rose_petal" || baseDef.id === "floral_tea")) {
+    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || flavorDef.id === "rose_petal" || flavorDef.id === "elderflower" || baseDef.id === "floral_tea")) {
       score += 0.5; notes.push("春日花香");
     }
     if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
@@ -2239,6 +2261,19 @@ function renderJournal() {
       coins += 1;
       if (!state.stats) state.stats = {};
       state.stats.dailySpecialHits = (state.stats.dailySpecialHits || 0) + 1;
+    }
+    // Soft open-shop calm: first 3 serves of the day
+    if (!state.stats) state.stats = {};
+    const dayK = Core.dayKey ? Core.dayKey(Date.now()) : String(new Date().toDateString());
+    if (state._serveDayKey !== dayK) {
+      state._serveDayKey = dayK;
+      state._servesToday = 0;
+    }
+    state._servesToday = (state._servesToday || 0) + 1;
+    if (state._servesToday <= 3 && score >= 2) {
+      coins += 1;
+      notes.push("开店清静");
+      state.stats.openCalmServes = (state.stats.openCalmServes || 0) + 1;
     }
     const hearts = score >= 3 ? 1 : 0;
     state.coins += coins;
