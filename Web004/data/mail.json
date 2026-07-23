@@ -843,5 +843,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_hawthorn",
+    "title": "山楂两颗",
+    "body": "串山楂的小贩来信：酸一点好吃。给你两颗，别放太久。",
+    "effect": {
+      "items": {
+        "hawthorn": 2
+      },
+      "coins": 2
+    }
   }
 ]
