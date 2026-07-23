@@ -738,3 +738,4 @@
 | 731 | completed | feat | Add plantable linkage #36 | Plant link plant_pine_0731 | `feat(content): R0731 Add plantable linkage #36` |
 | 732 | completed | feat | Add flavor or base option #36 | Flavor fl_shell_0732 | `feat(shop): R0732 Add flavor or base option #36` |
 | 733 | completed | feat | UI copy toast string #36 | UI toasts=37 | `feat(ui): R0733 UI copy toast string #36` |
+| 734 | completed | feat | Season palette note #36 | Season palette winter_0734 | `feat(season): R0734 Season palette note #36` |
