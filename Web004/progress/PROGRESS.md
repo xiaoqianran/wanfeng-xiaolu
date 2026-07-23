@@ -981,3 +981,4 @@
 | 974 | completed | feat | Ship customer persona into runtime #81 | Runtime customer 弹尤克里里的人·974 | `feat(shop): R0974 Ship customer persona into runtime #81` |
 | 975 | completed | feat | Ship walk ambient + pathWidth into runtime #81 | walk pathWidth=3375 ambient=120 | `feat(walk): R0975 Ship walk ambient + pathWidth into runtime #81` |
 | 976 | completed | feat | Ship garden care whisper into runtime #81 | garden messages=120 careBonus=1.05 | `feat(garden): R0976 Ship garden care whisper into runtime #81` |
+| 977 | completed | feat | Ship shop tip + perfectBonus into runtime #81 | shop tips=120 perfectBonus=4 | `feat(shop): R0977 Ship shop tip + perfectBonus into runtime #81` |
