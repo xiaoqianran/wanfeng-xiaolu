@@ -2553,6 +2553,13 @@
       "emoji": "⭐",
       "kind": "风味",
       "seed": "starfruitPot"
+    },
+    "kumquat": {
+      "id": "kumquat",
+      "name": "金桔",
+      "emoji": "🟠",
+      "kind": "风味",
+      "seed": "kumquatPot"
     }
   },
   "plants": {
@@ -4761,6 +4768,17 @@
       ],
       "harvest": "starfruit",
       "days": 3
+    },
+    "kumquatPot": {
+      "id": "kumquatPot",
+      "name": "金桔",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟠"
+      ],
+      "harvest": "kumquat",
+      "days": 2
     }
   },
   "cups": [
@@ -5872,6 +5890,16 @@
       "name": "杨桃",
       "emoji": "⭐",
       "need": "starfruit",
+      "tags": [
+        "清爽",
+        "果香"
+      ]
+    },
+    {
+      "id": "kumquat",
+      "name": "金桔",
+      "emoji": "🟠",
+      "need": "kumquat",
       "tags": [
         "清爽",
         "果香"
@@ -7519,6 +7547,21 @@
         "mint"
       ],
       "wantTopping": true
+    },
+    {
+      "name": "腌金桔的阿姨",
+      "avatar": "🫙",
+      "wish": "金桔或蜜，清爽酸甜，暖杯更好。",
+      "tags": [
+        "清爽",
+        "甜蜜"
+      ],
+      "flavors": [
+        "kumquat",
+        "honey",
+        "yuzu",
+        "tea_leaf"
+      ]
     }
   ],
   "dialogues": [
