@@ -1038,3 +1038,4 @@
 | 1031 | completed | feat | Add plantable linkage #51 | Plant link plant_pine_1031 | `feat(content): R1031 Add plantable linkage #51` |
 | 1032 | completed | feat | Add flavor or base option #51 | Flavor fl_shell_1032 | `feat(shop): R1032 Add flavor or base option #51` |
 | 1033 | completed | feat | UI copy toast string #51 | UI toasts=52 | `feat(ui): R1033 UI copy toast string #51` |
+| 1034 | completed | feat | Season palette note #51 | Season palette winter_1034 | `feat(season): R1034 Season palette note #51` |
