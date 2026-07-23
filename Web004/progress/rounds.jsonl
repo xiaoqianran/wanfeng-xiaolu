@@ -33,3 +33,4 @@
 {"round":33,"status":"completed","type":"feat","scope":"ui","goal":"UI copy toast string #1","outcome":"UI toasts=2","commit":"feat(ui): R0033 UI copy toast string #1","at":"2026-07-23T19:49:37.189Z"}
 {"round":34,"status":"completed","type":"feat","scope":"season","goal":"Season palette note #1","outcome":"Season palette winter_0034","commit":"feat(season): R0034 Season palette note #1","at":"2026-07-23T19:49:37.211Z"}
 {"round":35,"status":"completed","type":"assets","scope":"manifest","goal":"Asset slot registration #1","outcome":"Asset slot assets/walk/slot_0035.png","commit":"assets(manifest): R0035 Asset slot registration #1","at":"2026-07-23T19:49:37.238Z"}
+{"round":36,"status":"completed","type":"test","scope":"core","goal":"Regression assertion pack #1","outcome":"Test pack size=3","commit":"test(core): R0036 Regression assertion pack #1","at":"2026-07-23T19:49:37.262Z"}
