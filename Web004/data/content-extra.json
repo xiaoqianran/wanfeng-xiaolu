@@ -4698,6 +4698,10 @@
     {
       "round": 390,
       "text": "明天也要慢慢来。（R0390）"
+    },
+    {
+      "round": 402,
+      "text": "今天的路特别柔软。（R0402）"
     }
   ],
   "seasons": [
@@ -4766,7 +4770,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 398,
+    "expandedRounds": 402,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
