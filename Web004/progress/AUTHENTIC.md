@@ -392,3 +392,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0393 | completed | feat | 莓田慢步 | berry_patch 42nd | feat(walk): A0393 莓田慢步主题与田垄特效 |
 | A0394 | completed | content | 莓田内容 | events+recipes | content(events): A0394 莓田 vignette 与草莓配方 |
 | A0395 | completed | test | 回归手册 | 174 pass | test(docs): A0395 草莓莓田回归与手册 |
+| A0396 | completed | feat | 蓝莓可种植 | blueberryPot | feat(garden): A0396 蓝莓可种植窗台 |
+| A0397 | completed | feat | 雾草甸 | fog_meadow 43rd | feat(walk): A0397 雾草甸主题与薄雾特效 |
+| A0398 | completed | content | 雾甸内容 | events+recipe | content(events): A0398 雾甸 vignette 与蓝莓汽泡 |
+| A0399 | completed | test | 回归手册 | 175 pass | test(docs): A0399 蓝莓雾甸回归与手册 |
