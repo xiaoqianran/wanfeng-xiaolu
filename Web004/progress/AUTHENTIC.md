@@ -364,3 +364,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0365 | completed | feat | 菊圃晚径 | chrys_garden 35th | feat(walk): A0365 菊圃晚径主题与菊影特效 |
 | A0366 | completed | content | 菊花内容 | events+recipes | content(events): A0366 菊花菊圃 vignette 与配方 |
 | A0367 | completed | test | 回归手册 | 167 pass | test(docs): A0367 菊花菊圃回归与手册 |
+| A0368 | completed | feat | 温柔收摊茉莉 | closeShopDay+jasminePot | feat(shop): A0368 温柔收摊与茉莉可种植 |
+| A0369 | completed | feat | 桂花小院 | osmanthus_court 36th + close UI | feat(walk): A0369 桂花小院主题与收摊按钮 |
+| A0370 | completed | content | 桂院内容 | events+recipes | content(events): A0370 桂院茉莉 vignette 与配方 |
+| A0371 | completed | test | 回归手册 | 168 pass | test(docs): A0371 收摊桂院回归与手册 |

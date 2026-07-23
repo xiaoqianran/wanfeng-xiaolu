@@ -74,3 +74,10 @@
 - 主题 34 · 测试 166 pass
 - 静物：晨露/邻盆/对调/多种草本 · 散步：34 主题 · 小店：钉配方/开店清静/常客板
 - `cd Web004 && node tests/run.js && node tools/quality-gate.js`
+
+## 执行锚点 A0371
+- authentic **364** / 1000
+- 下一轮 A0372+
+- spam DISABLED
+- 主题 36 · 测试 168 pass
+- `cd Web004 && node tests/run.js && node tools/quality-gate.js`
