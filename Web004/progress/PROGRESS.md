@@ -499,3 +499,4 @@
 | 492 | completed | assets | Wire real stage art reference into runtime manifest #40 | live art assets/shop/live_0492.jpg from assets/shop/night-window.jpg (≥1KB) | `assets(ui): R0492 Wire real stage art reference into runtime manifest #40` |
 | 493 | completed | feat | Ship collectible + runtime catalog item #41 | Runtime item osmanthus_r0493 | `feat(content): R0493 Ship collectible + runtime catalog item #41` |
 | 494 | completed | feat | Ship customer persona into runtime #41 | Runtime customer 弹尤克里里的人·494 | `feat(shop): R0494 Ship customer persona into runtime #41` |
+| 495 | completed | feat | Ship walk ambient + pathWidth into runtime #41 | walk pathWidth=3295 ambient=93 | `feat(walk): R0495 Ship walk ambient + pathWidth into runtime #41` |
