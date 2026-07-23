@@ -688,6 +688,20 @@
         const x = (i * w) / 8 + Math.sin(time * 0.02 + i) * 4;
         ctx.fillRect(x, 0, 10, h * 0.7);
       }
+    } else if (themeId === "lantern_street") {
+      for (let i = 0; i < 7; i++) {
+        const x = 40 + i * (w / 7);
+        const y = 30 + (i % 2) * 12;
+        ctx.fillStyle = "rgba(255, 160, 80, 0.35)";
+        ctx.beginPath();
+        ctx.ellipse(x, y, 6, 9, 0, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.strokeStyle = "rgba(120,60,40,0.3)";
+        ctx.beginPath();
+        ctx.moveTo(x, y + 9);
+        ctx.lineTo(x, y + 18);
+        ctx.stroke();
+      }
     } else if (themeId === "harbor") {
       ctx.strokeStyle = "rgba(180,200,220,0.25)";
       ctx.lineWidth = 1;

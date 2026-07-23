@@ -835,5 +835,16 @@ test("journal templates include 码头笔记", () => {
   assert.ok(j.some((x) => x.title === "码头笔记"));
 });
 
+test("lantern_street theme and new customers ship", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "lantern_street"));
+  assert.ok(themes.length >= 7);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("lantern_street"));
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok((j.customers || []).some((c) => c.name === "卖灯笼的阿婆"));
+  (j.customers || []).forEach((c) => assert.ok(!/·\d+$/.test(c.name)));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
