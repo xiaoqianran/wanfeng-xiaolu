@@ -329,3 +329,4 @@
 {"round":329,"status":"completed","type":"feat","scope":"meta","goal":"Add achievement definition #16","outcome":"Achievements=16","commit":"feat(meta): R0329 Add achievement definition #16","at":"2026-07-23T19:49:53.468Z"}
 {"round":330,"status":"completed","type":"style","scope":"ui","goal":"CSS micro polish token #16","outcome":"CSS token hue=210","commit":"style(ui): R0330 CSS micro polish token #16","at":"2026-07-23T19:49:53.509Z"}
 {"round":331,"status":"completed","type":"feat","scope":"content","goal":"Add plantable linkage #16","outcome":"Plant link plant_lavender_0331","commit":"feat(content): R0331 Add plantable linkage #16","at":"2026-07-23T19:49:53.532Z"}
+{"round":332,"status":"completed","type":"feat","scope":"shop","goal":"Add flavor or base option #16","outcome":"Flavor fl_chamomile_0332","commit":"feat(shop): R0332 Add flavor or base option #16","at":"2026-07-23T19:49:53.562Z"}
