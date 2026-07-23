@@ -2529,5 +2529,35 @@
     "id": "ev_continue_chrys",
     "title": "继续走·又见菊圃",
     "body": "第二次进菊圃，花更多，人更少。"
+  },
+  {
+    "id": "ev_jasmine_pot",
+    "title": "茉莉窗台",
+    "body": "茉莉开得很克制。你浇水时放轻了手。"
+  },
+  {
+    "id": "ev_osmanthus_court",
+    "title": "桂花小院",
+    "body": "小院的桂香把风留住了一会儿。你站着没动。"
+  },
+  {
+    "id": "ev_close_shop",
+    "title": "收摊",
+    "body": "收摊时把最后一只杯子倒扣，像给一天画句号。"
+  },
+  {
+    "id": "ev_jasmine_guest",
+    "title": "薰香的人",
+    "body": "她说茉莉要少放。你点头，只加了一点。"
+  },
+  {
+    "id": "ev_osmanthus_sweet",
+    "title": "桂甜",
+    "body": "桂花甜得不吵，像有人在远处笑。"
+  },
+  {
+    "id": "ev_continue_osmanthus",
+    "title": "继续走·又见桂院",
+    "body": "第二次进桂花小院，香更熟，砖更暖。"
   }
 ]
