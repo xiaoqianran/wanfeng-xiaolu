@@ -728,3 +728,4 @@
 | 721 | completed | feat | Ship collectible + runtime catalog item #60 | Runtime item lavender_r0721 | `feat(content): R0721 Ship collectible + runtime catalog item #60` |
 | 722 | completed | feat | Ship customer persona into runtime #60 | Runtime customer 织围巾的阿姨·722 | `feat(shop): R0722 Ship customer persona into runtime #60` |
 | 723 | completed | feat | Ship walk ambient + pathWidth into runtime #60 | walk pathWidth=3323 ambient=112 | `feat(walk): R0723 Ship walk ambient + pathWidth into runtime #60` |
+| 724 | completed | feat | Ship garden care whisper into runtime #60 | garden messages=113 careBonus=1.05 | `feat(garden): R0724 Ship garden care whisper into runtime #60` |
