@@ -396,3 +396,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0397 | completed | feat | 雾草甸 | fog_meadow 43rd | feat(walk): A0397 雾草甸主题与薄雾特效 |
 | A0398 | completed | content | 雾甸内容 | events+recipe | content(events): A0398 雾甸 vignette 与蓝莓汽泡 |
 | A0399 | completed | test | 回归手册 | 175 pass | test(docs): A0399 蓝莓雾甸回归与手册 |
+| A0400 | completed | feat | 葡萄可种植 | grapePot | feat(garden): A0400 葡萄可种植窗台 |
+| A0401 | completed | feat | 葡萄梯田 | vine_terrace 44th | feat(walk): A0401 葡萄梯田主题与藤架特效 |
+| A0402 | completed | content | 梯田内容 | events+recipe | content(events): A0402 葡萄梯田 vignette 与配方 |
+| A0403 | completed | test | 回归手册 | 176 pass | test(docs): A0403 葡萄梯田回归与手册 |

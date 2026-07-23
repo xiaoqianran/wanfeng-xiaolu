@@ -110,3 +110,11 @@
 - spam DISABLED
 - 主题 43 · 测试 175 pass
 - `cd Web004 && node tests/run.js && node tools/quality-gate.js`
+
+## 执行锚点 A0403（authentic 400 量级）
+- authentic **396** / 1000
+- 下一轮 A0404+
+- spam DISABLED
+- 主题 44 · 测试 176 pass
+- 静物：晨露/邻盆/多样/对调/大量可种植 · 散步：44 主题+小路图鉴 · 小店：钉配方/开店清静/收摊
+- `cd Web004 && node tests/run.js && node tools/quality-gate.js`
