@@ -728,3 +728,4 @@
 {"round":728,"status":"completed","type":"feat","scope":"shop","goal":"Add secret recipe stub #36","outcome":"Recipes=36","commit":"feat(shop): R0728 Add secret recipe stub #36","at":"2026-07-23T19:50:11.958Z"}
 {"round":729,"status":"completed","type":"feat","scope":"meta","goal":"Add achievement definition #36","outcome":"Achievements=36","commit":"feat(meta): R0729 Add achievement definition #36","at":"2026-07-23T19:50:11.981Z"}
 {"round":730,"status":"completed","type":"style","scope":"ui","goal":"CSS micro polish token #36","outcome":"CSS token hue=170","commit":"style(ui): R0730 CSS micro polish token #36","at":"2026-07-23T19:50:12.005Z"}
+{"round":731,"status":"completed","type":"feat","scope":"content","goal":"Add plantable linkage #36","outcome":"Plant link plant_pine_0731","commit":"feat(content): R0731 Add plantable linkage #36","at":"2026-07-23T19:50:12.030Z"}
