@@ -342,6 +342,9 @@ test("daily goals evaluate and claim reward once", () => {
   const claim = core.claimDailyReward(s);
   assert.ok(claim.ok);
   assert.ok(s.coins >= 28);
+  assert.ok(claim.gift);
+  assert.ok(core.DAILY_GIFT_POOL.indexOf(claim.gift) >= 0);
+  assert.ok((s.bag[claim.gift] || 0) >= 1);
   const claim2 = core.claimDailyReward(s);
   assert.strictEqual(claim2.ok, false);
 });

@@ -1683,8 +1683,16 @@
       save();
       refreshResources();
       refreshDailyUI();
-      if (msg) msg.textContent = `领取成功：+${r.coins} 金币，+${r.hearts} 好心情`;
-      toast("☀️ 今日小目标完成");
+      const giftLabel =
+        r.gift && ITEMS[r.gift]
+          ? ITEMS[r.gift].emoji + " " + ITEMS[r.gift].name
+          : r.gift || "";
+      if (msg) {
+        msg.textContent =
+          `领取成功：+${r.coins} 金币，+${r.hearts} 好心情` +
+          (giftLabel ? "，小礼 " + giftLabel : "");
+      }
+      toast("☀️ 今日小目标完成" + (giftLabel ? " · 小礼 " + giftLabel : ""));
       sfx("serve");
     });
   }

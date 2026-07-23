@@ -273,6 +273,8 @@
     return { ok: true, day: state.day, daily: state.daily };
   }
 
+  var DAILY_GIFT_POOL = ["petal", "maple", "clover", "mint", "berry", "stone", "seashell", "pinecone"];
+
   function claimDailyReward(state) {
     var ev = evaluateDailyGoals(state);
     if (!ev.allDone) return { ok: false, reason: "incomplete" };
@@ -280,8 +282,19 @@
     ev.daily.claimed = true;
     state.coins = (state.coins || 0) + ECONOMY.dailyRewardCoins;
     state.hearts = (state.hearts || 0) + ECONOMY.dailyRewardHearts;
-    appendJournal(state, "完成了今日的温柔小目标。");
-    return { ok: true, coins: ECONOMY.dailyRewardCoins, hearts: ECONOMY.dailyRewardHearts };
+    // soft day-end gift: deterministic from day key so not pure RNG spam
+    var key = (ev.daily && ev.daily.key) || dayKey();
+    var sum = 0;
+    for (var i = 0; i < key.length; i++) sum += key.charCodeAt(i);
+    var giftId = DAILY_GIFT_POOL[sum % DAILY_GIFT_POOL.length];
+    addItem(state, giftId, 1);
+    appendJournal(state, "完成了今日的温柔小目标，还收到一份小礼：" + giftId + "。");
+    return {
+      ok: true,
+      coins: ECONOMY.dailyRewardCoins,
+      hearts: ECONOMY.dailyRewardHearts,
+      gift: giftId,
+    };
   }
 
   /** Demo mode: seed a showcase state without combat */
@@ -763,6 +776,7 @@
     ensureDailyGoals: ensureDailyGoals,
     evaluateDailyGoals: evaluateDailyGoals,
     claimDailyReward: claimDailyReward,
+    DAILY_GIFT_POOL: DAILY_GIFT_POOL,
     softNewDay: softNewDay,
     createDemoState: createDemoState,
     unlockPotSlot: unlockPotSlot,
