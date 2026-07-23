@@ -666,3 +666,4 @@
 | 659 | completed | feat | Ship plantable seed linkage into runtime #54 | plant link plant_pear_0659 harvest=seed_pear_0659 | `feat(content): R0659 Ship plantable seed linkage into runtime #54` |
 | 660 | completed | assets | Wire real stage art reference into runtime manifest #54 | live art assets/walk/live_0660.jpg from assets/seasons/dusk.jpg (≥1KB) | `assets(ui): R0660 Wire real stage art reference into runtime manifest #54` |
 | 661 | completed | feat | Ship collectible + runtime catalog item #55 | Runtime item lavender_r0661 | `feat(content): R0661 Ship collectible + runtime catalog item #55` |
+| 662 | completed | feat | Ship customer persona into runtime #55 | Runtime customer 织围巾的阿姨·662 | `feat(shop): R0662 Ship customer persona into runtime #55` |
