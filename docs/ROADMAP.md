@@ -20,3 +20,8 @@
 | 1001+ | 持续打磨与扩展 | 活跃 |
 
 详细逐轮记录见 `Web004/progress/PROGRESS.md` 与 `.autodev/backlog.json`。
+
+## 当前执行锚点（自动更新）
+- 下一轮：A0129+
+- 真实完成：121/1000
+- 策略：仅 authentic 轮次计入；spam 永久禁用

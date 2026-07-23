@@ -122,3 +122,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0123 | completed | feat | 梅影短径主题 | plum_grove 11th theme + petal FX | `feat(walk): A0122 梅影短径主题与新客人配方` |
 | A0124 | completed | content | 新客人与梅径配方 | 24 customers; 梅径丁香 | `feat(walk): A0122 梅影短径主题与新客人配方` |
 | A0125 | completed | test | 水壶梅径回归 | 99 tests pass | `test(garden): A0124 水壶配方提示与梅径回归` |
+| A0126 | completed | docs | 手册同步新系统 | USER_MANUAL watering themes album shelf | `docs(manual): A0126 手册同步水壶主题筛选与展示架` |
+| A0127 | completed | content | 事件至96则 | 96 unique evening events + journal | `content(events): A0127 晚间事件至九十六则与水壶手帐` |
+| A0128 | completed | test | 手册事件回归 | 100 tests pass | `test(docs): A0128 手册与晚间事件回归` |
