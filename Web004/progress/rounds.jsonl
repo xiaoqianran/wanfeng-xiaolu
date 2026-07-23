@@ -128,3 +128,4 @@
 {"round":128,"status":"completed","type":"feat","scope":"shop","goal":"Add secret recipe stub #6","outcome":"Recipes=6","commit":"feat(shop): R0128 Add secret recipe stub #6","at":"2026-07-23T19:49:39.528Z"}
 {"round":129,"status":"completed","type":"feat","scope":"meta","goal":"Add achievement definition #6","outcome":"Achievements=6","commit":"feat(meta): R0129 Add achievement definition #6","at":"2026-07-23T19:49:39.548Z"}
 {"round":130,"status":"completed","type":"style","scope":"ui","goal":"CSS micro polish token #6","outcome":"CSS token hue=50","commit":"style(ui): R0130 CSS micro polish token #6","at":"2026-07-23T19:49:39.567Z"}
+{"round":131,"status":"completed","type":"feat","scope":"content","goal":"Add plantable linkage #6","outcome":"Plant link plant_pine_0131","commit":"feat(content): R0131 Add plantable linkage #6","at":"2026-07-23T19:49:39.585Z"}

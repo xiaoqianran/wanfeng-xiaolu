@@ -135,3 +135,4 @@
 | 128 | completed | feat | Add secret recipe stub #6 | Recipes=6 | `feat(shop): R0128 Add secret recipe stub #6` |
 | 129 | completed | feat | Add achievement definition #6 | Achievements=6 | `feat(meta): R0129 Add achievement definition #6` |
 | 130 | completed | style | CSS micro polish token #6 | CSS token hue=50 | `style(ui): R0130 CSS micro polish token #6` |
+| 131 | completed | feat | Add plantable linkage #6 | Plant link plant_pine_0131 | `feat(content): R0131 Add plantable linkage #6` |
