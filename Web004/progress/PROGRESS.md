@@ -202,3 +202,4 @@
 | 195 | completed | assets | Asset slot registration #9 | Asset slot assets/walk/slot_0195.png | `assets(manifest): R0195 Asset slot registration #9` |
 | 196 | completed | test | Regression assertion pack #9 | Test pack size=11 | `test(core): R0196 Regression assertion pack #9` |
 | 197 | completed | feat | Path theme fragment #9 | Path themes=14 | `feat(walk): R0197 Path theme fragment #9` |
+| 198 | completed | feat | Topping or cup option #9 | Topping top_r0198 | `feat(content): R0198 Topping or cup option #9` |
