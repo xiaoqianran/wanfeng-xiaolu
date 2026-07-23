@@ -177,3 +177,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0178 | completed | content | 抹茶石庭信 | mail 40 unique letters | `docs(gdd): A0177 假设与 GDD 同步水壶常客速写` |
 | A0179 | completed | content | 事件至167则 | 167 unique evening events | `content(world): A0179 事件一六七则与店内花园文案` |
 | A0180 | completed | content | 店内花园文案 | shop tips 24; canLines 7; journal 27 | `content(world): A0179 事件一六七则与店内花园文案` |
+| A0181 | completed | audio | 水壶常客速写音效 | can/pin/snap WebAudio kinds | `audio(feedback): A0181 水壶常客速写音效` |
+| A0182 | completed | test | 新音效回归 | 117 tests pass | `audio(feedback): A0181 水壶常客速写音效` |
