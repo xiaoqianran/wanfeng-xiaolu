@@ -221,3 +221,4 @@
 | 214 | completed | feat | Season palette note #10 | Season palette winter_0214 | `feat(season): R0214 Season palette note #10` |
 | 215 | completed | assets | Asset slot registration #10 | Asset slot assets/walk/slot_0215.png | `assets(manifest): R0215 Asset slot registration #10` |
 | 216 | completed | test | Regression assertion pack #10 | Test pack size=12 | `test(core): R0216 Regression assertion pack #10` |
+| 217 | completed | feat | Path theme fragment #10 | Path themes=15 | `feat(walk): R0217 Path theme fragment #10` |
