@@ -33,3 +33,4 @@
 | 26 | completed | feat | Ship customer persona into runtime #2 | Runtime customer 采风记者·26 | `feat(shop): R0026 Ship customer persona into runtime #2` |
 | 27 | completed | feat | Ship walk ambient + pathWidth into runtime #2 | walk pathWidth=3227 ambient=54 | `feat(walk): R0027 Ship walk ambient + pathWidth into runtime #2` |
 | 28 | completed | feat | Ship garden care whisper into runtime #2 | garden messages=55 careBonus=1.05 | `feat(garden): R0028 Ship garden care whisper into runtime #2` |
+| 29 | completed | feat | Ship shop tip + perfectBonus into runtime #2 | shop tips=55 perfectBonus=4 | `feat(shop): R0029 Ship shop tip + perfectBonus into runtime #2` |
