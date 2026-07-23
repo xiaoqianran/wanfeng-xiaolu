@@ -1879,6 +1879,14 @@
       "kind": "风味",
       "seed": null,
       "round": 865
+    },
+    "seed_mango_0875": {
+      "id": "seed_mango_0875",
+      "name": "芒果种子",
+      "emoji": "🥭",
+      "kind": "种子",
+      "seed": "plant_mango_0875",
+      "round": 875
     }
   },
   "plants": {
@@ -3381,6 +3389,18 @@
       "harvest": "seed_rose_0863",
       "days": 5,
       "round": 863
+    },
+    "plant_mango_0875": {
+      "id": "plant_mango_0875",
+      "name": "芒果盆栽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🥭"
+      ],
+      "harvest": "seed_mango_0875",
+      "days": 5,
+      "round": 875
     }
   },
   "cups": [],
@@ -6461,7 +6481,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 870,
+    "expandedRounds": 875,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
