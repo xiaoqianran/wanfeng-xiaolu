@@ -225,3 +225,4 @@
 | 218 | completed | feat | Topping or cup option #10 | Topping top_r0218 | `feat(content): R0218 Topping or cup option #10` |
 | 219 | completed | docs | Stage milestone summary #10 | Stage doc stage-05.md | `docs(progress): R0219 Stage milestone summary #10` |
 | 220 | completed | refactor | Catalog integrity pass #10 | Integrity items=21 customers=10 | `refactor(core): R0220 Catalog integrity pass #10` |
+| 221 | completed | feat | Add collectible item batch #11 | Item pine_r0221 added | `feat(content): R0221 Add collectible item batch #11` |
