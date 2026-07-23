@@ -48,3 +48,4 @@
 | 41 | completed | feat | Add collectible item batch #2 | Item pine_r0041 added | `feat(content): R0041 Add collectible item batch #2` |
 | 42 | completed | feat | Add customer persona #2 | Customer 滑板少年·42 | `feat(shop): R0042 Add customer persona #2` |
 | 43 | completed | feat | Add dialogue line #2 | Dialogue count=2 | `feat(content): R0043 Add dialogue line #2` |
+| 44 | completed | feat | Add garden care whisper #2 | Garden msg #3 | `feat(garden): R0044 Add garden care whisper #2` |
