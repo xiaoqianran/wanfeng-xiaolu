@@ -3724,7 +3724,41 @@
     }
   },
   "cups": [],
-  "bases": [],
+  "bases": [
+    {
+      "id": "honey_water",
+      "name": "蜜水底",
+      "emoji": "🍯",
+      "need": "honey",
+      "color": [
+        "#f8e8b0",
+        "#e0c868"
+      ],
+      "vibe": "甜蜜"
+    },
+    {
+      "id": "berry_soda",
+      "name": "莓果气泡",
+      "emoji": "🫐",
+      "need": "berry",
+      "color": [
+        "#e8c0d8",
+        "#c878a8"
+      ],
+      "vibe": "果香"
+    },
+    {
+      "id": "floral_tea",
+      "name": "花香茶底",
+      "emoji": "🌼",
+      "need": "jasmine",
+      "color": [
+        "#f0f0d8",
+        "#d8d8a8"
+      ],
+      "vibe": "花香"
+    }
+  ],
   "flavors": [
     {
       "id": "fl_shell_0012",
@@ -4621,6 +4655,18 @@
       "emoji": "✨",
       "need": null,
       "round": 1038
+    },
+    {
+      "id": "dew_drop",
+      "name": "露珠点缀",
+      "emoji": "💧",
+      "need": null
+    },
+    {
+      "id": "feather_soft",
+      "name": "软羽一撇",
+      "emoji": "🪶",
+      "need": null
     }
   ],
   "customers": [

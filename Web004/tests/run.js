@@ -504,5 +504,24 @@ test("path themes unique and setPathTheme/buildSpawnList work", () => {
   assert.ok(game.includes("renderThemePicker") && game.includes("pathSpawnsForTheme"));
 });
 
+test("migrateState fills v3 fields on old save", () => {
+  const raw = JSON.stringify({ coins: 9, bag: { mint: 1 }, pots: [{ plantId: null, water: 0, sun: 0, mood: 0, growth: 0, tendedAt: 0 }] });
+  const s = core.deserialize(raw);
+  assert.ok(s.pathThemeId);
+  assert.ok(s.potSlots >= 1);
+  assert.ok(s.settings);
+  assert.strictEqual(s.version, core.VERSION);
+});
+
+test("content-extra ships extra bases honey_water", () => {
+  const code = fs.readFileSync(path.join(__dirname, "..", "js", "content-extra.js"), "utf8");
+  assert.ok(code.includes("honey_water") || code.includes("berry_soda"));
+});
+
+test("drawWeather exists in game for theme FX", () => {
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("function drawWeather"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

@@ -611,15 +611,33 @@
     return JSON.stringify(state);
   }
 
+  function migrateState(data) {
+    if (!data || typeof data !== "object") return data;
+    var v = data.version || 1;
+    if (v < 2) {
+      data.settings = data.settings || { sound: true, reduceMotion: false, showTips: true, tutorialDone: false };
+      data.season = data.season || "dusk";
+    }
+    if (v < 3) {
+      data.potSlots = data.potSlots || (data.pots && data.pots.length) || 4;
+      data.pathThemeId = data.pathThemeId || "maple_lane";
+      data.daily = data.daily || null;
+    }
+    data.version = VERSION;
+    return data;
+  }
+
   function deserialize(raw) {
     if (!raw) return null;
     var data = typeof raw === "string" ? JSON.parse(raw) : raw;
     if (!data || typeof data !== "object") return null;
+    data = migrateState(data);
     var base = defaultState();
     Object.keys(base).forEach(function (k) {
       if (data[k] === undefined) data[k] = base[k];
     });
     if (!Array.isArray(data.pots) || !data.pots.length) data.pots = base.pots;
+    while (data.pots.length < (data.potSlots || 4)) data.pots.push(emptyPot());
     data.version = VERSION;
     return data;
   }
@@ -689,6 +707,7 @@
     serveDrink: serveDrink,
     serialize: serialize,
     deserialize: deserialize,
+    migrateState: migrateState,
     mergeCatalog: mergeCatalog,
     pickRandomCustomer: pickRandomCustomer,
     assertNoCombat: assertNoCombat,
