@@ -400,3 +400,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0401 | completed | feat | 葡萄梯田 | vine_terrace 44th | feat(walk): A0401 葡萄梯田主题与藤架特效 |
 | A0402 | completed | content | 梯田内容 | events+recipe | content(events): A0402 葡萄梯田 vignette 与配方 |
 | A0403 | completed | test | 回归手册 | 176 pass | test(docs): A0403 葡萄梯田回归与手册 |
+| A0404 | completed | feat | 柿子可种植 | persimmonPot | feat(garden): A0404 柿子可种植窗台 |
+| A0405 | completed | feat | 秋坡与事件加长 | autumn_slope 45th + body length | feat(walk): A0405 秋坡慢步与事件正文加长 |
+| A0406 | completed | test | 回归手册 | 177 pass | test(docs): A0406 柿子秋坡回归与手册 |
