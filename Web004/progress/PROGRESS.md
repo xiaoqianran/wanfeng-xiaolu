@@ -447,3 +447,4 @@
 | 440 | completed | refactor | Catalog integrity pass #21 | Integrity items=43 customers=21 | `refactor(core): R0440 Catalog integrity pass #21` |
 | 441 | completed | feat | Add collectible item batch #22 | Item cocoa_r0441 added | `feat(content): R0441 Add collectible item batch #22` |
 | 442 | completed | feat | Add customer persona #22 | Customer 夜跑爱好者·442 | `feat(shop): R0442 Add customer persona #22` |
+| 443 | completed | feat | Add dialogue line #22 | Dialogue count=22 | `feat(content): R0443 Add dialogue line #22` |
