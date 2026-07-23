@@ -425,3 +425,4 @@
 | 418 | completed | feat | Topping or cup option #20 | Topping top_r0418 | `feat(content): R0418 Topping or cup option #20` |
 | 419 | completed | docs | Stage milestone summary #20 | Stage doc stage-09.md | `docs(progress): R0419 Stage milestone summary #20` |
 | 420 | completed | refactor | Catalog integrity pass #20 | Integrity items=41 customers=20 | `refactor(core): R0420 Catalog integrity pass #20` |
+| 421 | completed | feat | Add collectible item batch #21 | Item lavender_r0421 added | `feat(content): R0421 Add collectible item batch #21` |
