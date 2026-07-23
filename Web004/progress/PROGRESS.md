@@ -12,3 +12,4 @@
 | 5 | completed | assets | Register asset manifest schema and placeholders | Asset manifest bootstrap slots registered | `assets(ui): R0005 Register asset manifest schema and placeholders` |
 | 6 | completed | docs | Bootstrap live progress table header stats | Progress stats header refreshed | `docs(progress): R0006 Bootstrap live progress table header stats` |
 | 7 | completed | feat | Externalize walk spawn config | Walk pathWidth=3207 | `feat(walk): R0007 Externalize walk spawn config` |
+| 8 | completed | feat | Externalize garden care messages | Garden messages=1 | `feat(garden): R0008 Externalize garden care messages` |
