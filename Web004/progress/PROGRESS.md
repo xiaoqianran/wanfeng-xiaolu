@@ -502,3 +502,4 @@
 | 495 | completed | assets | Asset slot registration #24 | Asset slot assets/walk/slot_0495.png | `assets(manifest): R0495 Asset slot registration #24` |
 | 496 | completed | test | Regression assertion pack #24 | Test pack size=26 | `test(core): R0496 Regression assertion pack #24` |
 | 497 | completed | feat | Path theme fragment #24 | Path themes=29 | `feat(walk): R0497 Path theme fragment #24` |
+| 498 | completed | feat | Topping or cup option #24 | Topping top_r0498 | `feat(content): R0498 Topping or cup option #24` |
