@@ -987,3 +987,4 @@
 | 980 | completed | refactor | Catalog integrity pass #48 | Integrity items=97 customers=48 | `refactor(core): R0980 Catalog integrity pass #48` |
 | 981 | completed | feat | Add collectible item batch #49 | Item cocoa_r0981 added | `feat(content): R0981 Add collectible item batch #49` |
 | 982 | completed | feat | Add customer persona #49 | Customer 夜跑爱好者·982 | `feat(shop): R0982 Add customer persona #49` |
+| 983 | completed | feat | Add dialogue line #49 | Dialogue count=49 | `feat(content): R0983 Add dialogue line #49` |
