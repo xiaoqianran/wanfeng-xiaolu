@@ -255,3 +255,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0256 | completed | test | 海盐配方回归 | 134 tests pass | `feat(shop): A0255 海盐晶装饰与潮湾盐汽水` |
 | A0257 | completed | content | 海盐事件 | 309 unique evening events | `content(events): A0257 海盐 vignette 与路线图锚点` |
 | A0258 | completed | docs | 路线图锚点249 | ROADMAP A0257 anchor | `content(events): A0257 海盐 vignette 与路线图锚点` |
+| A0259 | completed | feat | 小路里程贴纸 | PATH_MILESTONES 5/15/30/50 stickers | `feat(walk): A0259 小路里程贴纸 5/15/30/50` |
+| A0260 | completed | test | 贴纸回归 | 135 tests pass | `feat(walk): A0259 小路里程贴纸 5/15/30/50` |
