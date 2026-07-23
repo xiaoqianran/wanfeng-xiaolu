@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 221,
+  "current_round": 227,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 215,
-  "authentic_game_integrated_rounds": 162,
+  "authentic_rounds_completed": 221,
+  "authentic_game_integrated_rounds": 167,
   "template_spam_archived": true,
   "current_milestone": "authentic rebuild A012x",
-  "current_task_id": "A0223-next",
-  "last_completed_task_id": "A0222",
-  "last_commit": "40ca4d4",
+  "current_task_id": "A0229-next",
+  "last_completed_task_id": "A0228",
+  "last_commit": "7447f65",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "125 passed, 0 failed",
+  "last_test_summary": "127 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~785) multi-session"
+    "gap to 1000 authentic (~779) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -29,11 +29,11 @@
     "spam engine disabled"
   ],
   "next_candidate_tasks": [
-    "more path themes",
-    "album snaps tab",
-    "audio can pour",
-    "help pin/snap docs"
+    "more unique plants",
+    "path theme count polish",
+    "album harvest memory display",
+    "help docs memory/recall"
   ],
-  "resume_instructions": "Continue A0223+. Spam DISABLED. Gap ~785. authentic-rounds.jsonl SoT.",
-  "updated_at": "2026-07-23T22:13:37.121120+00:00"
+  "resume_instructions": "Continue A0229+. Spam DISABLED. Gap ~779. authentic-rounds.jsonl SoT. Three pillars.",
+  "updated_at": "2026-07-23T22:17:12.596640+00:00"
 }

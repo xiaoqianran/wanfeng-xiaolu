@@ -1,27 +1,15 @@
-# Resume · A0221+
+# A0223+ authentic increments
 
-## Snapshot
-- authentic: **213 / 1000** (gap ~787)
-- game_integrated: **161**
-- tests: **125 passed**
-- quality-gate: **PASS**
-- spam: DISABLED
-- HEAD: `git log -1`
+## Goal
+Ship real walk/garden/shop player-facing work (~30min units), no template spam.
 
-## Inventory
-- path themes: 16
-- evening events: 252+
-- mail: 45
-- secret recipes: 35
-- customers: 38
+## Plan
+1. A0223: garden "empty pot keep memory" — when harvest cycles, soft memory streak
+2. A0224: walk path "dawn_bridge" theme + FX
+3. A0225: shop guest order sticky note (last craft for pinned guest)
+4. Tests + quality-gate + commits + ledger
 
-## Three pillars
-1. Garden: tend/rest/can/note/snap/season/many plants
-2. Walk: 16 themes+FX, bench, favorite path
-3. Shop: craft, affinity, pin, shelf, recipes, cups
-
-## Next command
+## Verify
 ```
 cd Web004 && node tests/run.js && node tools/quality-gate.js
 ```
-Continue authentic ~30min increments only.

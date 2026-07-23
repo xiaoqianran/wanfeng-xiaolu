@@ -219,3 +219,9 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0220 | completed | test | 图标回归 | 125 tests pass | `art(ui): A0219 雪灯与常走小路独特图标` |
 | A0221 | completed | docs | 续作卡213 | resume 213 | `docs(autodev): A0221 续作卡 authentic 213` |
 | A0222 | completed | content | 事件至267则 | 267 unique events | `content(events): A0222 晚间 vignette 至二六七则` |
+| A0223 | completed | feat | 熟土记忆收获 | harvestCount memoryBonus + root_memory | `feat(garden): A0223 熟土记忆收获加成与常客老样子` |
+| A0224 | completed | feat | 常客老样子复刻 | lastCraftByGuest + recall UI + order_keeper | `feat(garden): A0223 熟土记忆收获加成与常客老样子` |
+| A0225 | completed | feat | 晨桥薄雾主题 | dawn_bridge 17th theme + mist FX | `feat(walk): A0224 晨桥薄雾主题与枇杷叶` |
+| A0226 | completed | content | 枇杷叶与配方 | loquat_leaf + 晨桥柚茶 熟土蜜桃罐 | `feat(walk): A0224 晨桥薄雾主题与枇杷叶` |
+| A0227 | completed | content | 熟土老样子事件 | 275 events + memory mail | `feat(walk): A0224 晨桥薄雾主题与枇杷叶` |
+| A0228 | completed | test | 记忆复刻回归 | 127 tests pass | `test(core): A0225 熟土记忆与复刻配方回归` |
