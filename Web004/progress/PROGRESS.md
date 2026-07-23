@@ -1007,3 +1007,4 @@
 | 1000 | completed | refactor | Catalog integrity pass #49 | Integrity items=99 customers=49 | `refactor(core): R1000 Catalog integrity pass #49` |
 | 1001 | completed | feat | Integrate generated art + content-extra.js runtime + verify suite | Shipped file:// content merge and multi-stage art | `feat(ui): R1001 integrate generated art, content-extra runtime, verification tools` |
 | 1002 | completed | assets | Add empty-pot art and cozy-safe filter | empty-pot.jpg + filter rewrite | `assets(ui): R1002 add empty-pot art and cozy-safe combat filter` |
+| 1003 | completed | feat | Season cycle + journal + achievements in core | advanceSeason/evaluateAchievements shipped | `feat(season): R1003 season cycle journal and achievement pure logic` |
