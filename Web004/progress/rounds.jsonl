@@ -18,3 +18,4 @@
 {"round":18,"status":"completed","type":"feat","scope":"content","goal":"Topping or cup option #0","outcome":"Topping top_r0018","commit":"feat(content): R0018 Topping or cup option #0","at":"2026-07-23T19:49:23.963Z"}
 {"round":19,"status":"completed","type":"docs","scope":"progress","goal":"Stage milestone summary #0","outcome":"Stage doc stage-01.md","commit":"docs(progress): R0019 Stage milestone summary #0","at":"2026-07-23T19:49:23.983Z"}
 {"round":20,"status":"completed","type":"refactor","scope":"core","goal":"Catalog integrity pass #0","outcome":"Integrity items=1 customers=0","commit":"refactor(core): R0020 Catalog integrity pass #0","at":"2026-07-23T19:49:24.003Z"}
+{"round":21,"status":"completed","type":"feat","scope":"content","goal":"Add collectible item batch #1","outcome":"Item cocoa_r0021 added","commit":"feat(content): R0021 Add collectible item batch #1","at":"2026-07-23T19:49:24.022Z"}
