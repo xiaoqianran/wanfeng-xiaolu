@@ -247,3 +247,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0248 | completed | content | 信箱50封 | mail 50 including thyme | `content(events): A0247 事件至三零一则与百里香来信` |
 | A0249 | completed | audio | 第一脚音效 | first walk unlock sfx | `docs(test): A0249 真实测试报告与第一脚音效` |
 | A0250 | completed | docs | 测试报告241 | TEST_REPORT 132 pass authentic 241 | `docs(test): A0249 真实测试报告与第一脚音效` |
+| A0251 | completed | feat | 潮间小湾主题 | tide_pool 19th + ripple FX | `feat(walk): A0251 潮间小湾主题与涟漪特效` |
+| A0252 | completed | test | 潮间主题回归 | 133 tests pass | `feat(walk): A0251 潮间小湾主题与涟漪特效` |
