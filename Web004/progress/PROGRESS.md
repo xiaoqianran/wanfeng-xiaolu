@@ -759,3 +759,4 @@
 | 752 | completed | feat | Ship secret recipe into runtime #62 | secret recipes=115 | `feat(shop): R0752 Ship secret recipe into runtime #62` |
 | 753 | completed | feat | Ship achievement milestone into runtime #62 | achievements=115 | `feat(meta): R0753 Ship achievement milestone into runtime #62` |
 | 754 | completed | style | Ship CSS accent token used by app shell #62 | CSS --r-accent hue=218 wired to brand/primary | `style(ui): R0754 Ship CSS accent token used by app shell #62` |
+| 755 | completed | feat | Ship plantable seed linkage into runtime #62 | plant link plant_mango_0755 harvest=seed_mango_0755 | `feat(content): R0755 Ship plantable seed linkage into runtime #62` |
