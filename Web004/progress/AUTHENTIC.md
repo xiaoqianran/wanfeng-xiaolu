@@ -183,3 +183,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0184 | completed | feat | 鼠尾草养成 | sage plant+flavor+recipe+customer | `feat(garden): A0184 鼠尾草可种植与药草田园罐` |
 | A0185 | completed | test | 鼠尾草回归 | 118 tests pass | `feat(garden): A0184 鼠尾草可种植与药草田园罐` |
 | A0186 | completed | content | 事件至182则 | 182 unique evening events | `content(events): A0186 晚间 vignette 至一八二则` |
+| A0187 | completed | feat | 常走小路标记 | favoritePathTheme UI + core | `feat(walk): A0187 常走小路标记与石庭青苔` |
+| A0188 | completed | content | 青苔收藏 | moss collectible stone_garden bias | `feat(walk): A0187 常走小路标记与石庭青苔` |
+| A0189 | completed | test | 常走青苔回归 | 119 tests pass | `feat(walk): A0187 常走小路标记与石庭青苔` |
