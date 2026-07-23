@@ -243,3 +243,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0244 | completed | test | 客人配方回归 | 131 tests pass | `content(shop): A0242 两位新客人与云台花香罐` |
 | A0245 | completed | feat | 百里香养成 | thyme plant+flavor+recipe | `feat(garden): A0245 百里香可种植与田园罐配方` |
 | A0246 | completed | test | 百里香回归 | 132 tests pass | `feat(garden): A0245 百里香可种植与田园罐配方` |
+| A0247 | completed | content | 事件至301则 | 301 unique evening events | `content(events): A0247 事件至三零一则与百里香来信` |
+| A0248 | completed | content | 信箱50封 | mail 50 including thyme | `content(events): A0247 事件至三零一则与百里香来信` |
