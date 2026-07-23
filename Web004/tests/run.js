@@ -1196,5 +1196,23 @@ test("USER_MANUAL documents watering can and path themes", () => {
   assert.strictEqual(new Set(titles).size, titles.length);
 });
 
+
+test("bluebell plantable wheat topping and topbar can pill", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.bluebell && j.plants.bluebellPot && j.items.wheat_ear);
+  assert.ok((j.flavors || []).some((f) => f.id === "bluebell"));
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants });
+  const s = core.defaultState();
+  s.bag.bluebell = 1;
+  assert.ok(core.plantSeed(s, 0, "bluebell", cat).ok);
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "麦田风铃"));
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes('id="res-can"'));
+  const mail = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "mail.json"), "utf8"));
+  assert.ok(mail.length >= 28);
+  assert.strictEqual(new Set(mail.map((m) => m.id)).size, mail.length);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
