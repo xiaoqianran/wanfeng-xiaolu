@@ -559,3 +559,4 @@
 | 552 | completed | feat | Add flavor or base option #27 | Flavor fl_shell_0552 | `feat(shop): R0552 Add flavor or base option #27` |
 | 553 | completed | feat | UI copy toast string #27 | UI toasts=28 | `feat(ui): R0553 UI copy toast string #27` |
 | 554 | completed | feat | Season palette note #27 | Season palette winter_0554 | `feat(season): R0554 Season palette note #27` |
+| 555 | completed | assets | Asset slot registration #27 | Asset slot assets/walk/slot_0555.png | `assets(manifest): R0555 Asset slot registration #27` |
