@@ -4897,6 +4897,19 @@
         "plain"
       ],
       "round": 554
+    },
+    {
+      "name": "采风记者·566",
+      "avatar": "📷",
+      "wish": "想要一点果香的味道。",
+      "tags": [
+        "果香"
+      ],
+      "flavors": [
+        "peach",
+        "plain"
+      ],
+      "round": 566
     }
   ],
   "dialogues": [
@@ -5359,7 +5372,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 565,
+    "expandedRounds": 566,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
