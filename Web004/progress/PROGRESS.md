@@ -798,3 +798,4 @@
 | 791 | completed | feat | Ship plantable seed linkage into runtime #65 | plant link plant_feather_0791 harvest=seed_feather_0791 | `feat(content): R0791 Ship plantable seed linkage into runtime #65` |
 | 792 | completed | assets | Wire real stage art reference into runtime manifest #65 | live art assets/shop/live_0792.jpg from assets/seasons/dusk.jpg (≥1KB) | `assets(ui): R0792 Wire real stage art reference into runtime manifest #65` |
 | 793 | completed | feat | Ship collectible + runtime catalog item #66 | Runtime item osmanthus_r0793 | `feat(content): R0793 Ship collectible + runtime catalog item #66` |
+| 794 | completed | feat | Ship customer persona into runtime #66 | Runtime customer 弹尤克里里的人·794 | `feat(shop): R0794 Ship customer persona into runtime #66` |
