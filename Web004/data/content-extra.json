@@ -2224,6 +2224,13 @@
       "emoji": "🍃",
       "kind": "装饰",
       "seed": null
+    },
+    "perilla": {
+      "id": "perilla",
+      "name": "紫苏叶",
+      "emoji": "🍃",
+      "kind": "风味",
+      "seed": "perillaPot"
     }
   },
   "plants": {
@@ -3992,6 +3999,17 @@
       ],
       "harvest": "honeysuckle",
       "days": 4
+    },
+    "perillaPot": {
+      "id": "perillaPot",
+      "name": "紫苏",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍃"
+      ],
+      "harvest": "perilla",
+      "days": 2
     }
   },
   "cups": [
@@ -4705,6 +4723,16 @@
       "need": "honeysuckle",
       "tags": [
         "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "perilla",
+      "name": "紫苏",
+      "emoji": "🍃",
+      "need": "perilla",
+      "tags": [
+        "草本",
         "清爽"
       ]
     }
@@ -5669,6 +5697,22 @@
         "berry"
       ],
       "wantTopping": true
+    },
+    {
+      "name": "熬夜写代码的人",
+      "avatar": "💻",
+      "wish": "提神草本，紫苏或薄荷，气泡更好。",
+      "tags": [
+        "清爽",
+        "草本"
+      ],
+      "flavors": [
+        "perilla",
+        "mint",
+        "rosemary",
+        "plain"
+      ],
+      "wantTopping": false
     }
   ],
   "dialogues": [

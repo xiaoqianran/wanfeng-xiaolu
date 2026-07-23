@@ -1585,5 +1585,20 @@ test("dawn_bridge theme and recall UI ship", () => {
   assert.ok(j.items.loquat_leaf);
 });
 
+
+test("perilla plantable and USER_MANUAL memory/recall", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.perilla && j.plants.perillaPot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants });
+  const s = core.defaultState();
+  s.bag.perilla = 1;
+  assert.ok(core.plantSeed(s, 0, "perilla", cat).ok);
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "紫苏晨雾苏打"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("熟土") || man.includes("老样子"));
+  assert.ok(man.includes("晨桥") || man.includes("dawn"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
