@@ -1015,3 +1015,4 @@
 | 1008 | completed | assets | Wire real stage art reference into runtime manifest #83 | live art assets/album/live_1008.jpg from assets/seasons/spring.jpg (≥1KB) | `assets(ui): R1008 Wire real stage art reference into runtime manifest #83` |
 | 1009 | completed | feat | Ship collectible + runtime catalog item #84 | Runtime item grape_r1009 | `feat(content): R1009 Ship collectible + runtime catalog item #84` |
 | 1010 | completed | feat | Ship customer persona into runtime #84 | Runtime customer 图书馆员·1010 | `feat(shop): R1010 Ship customer persona into runtime #84` |
+| 1011 | completed | feat | Ship walk ambient + pathWidth into runtime #84 | walk pathWidth=3211 ambient=120 | `feat(walk): R1011 Ship walk ambient + pathWidth into runtime #84` |
