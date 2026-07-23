@@ -2112,6 +2112,13 @@
       "emoji": "💜",
       "kind": "风味",
       "seed": "lavenderPot"
+    },
+    "camellia": {
+      "id": "camellia",
+      "name": "山茶花瓣",
+      "emoji": "🌺",
+      "kind": "装饰",
+      "seed": "camelliaPot"
     }
   },
   "plants": {
@@ -3792,6 +3799,17 @@
       ],
       "harvest": "lavender_bud",
       "days": 3
+    },
+    "camelliaPot": {
+      "id": "camelliaPot",
+      "name": "山茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌺"
+      ],
+      "harvest": "camellia",
+      "days": 4
     }
   },
   "cups": [
@@ -4783,6 +4801,12 @@
       "name": "星砂点",
       "emoji": "✨",
       "need": "star_sand"
+    },
+    {
+      "id": "camellia_top",
+      "name": "山茶点缀",
+      "emoji": "🌺",
+      "need": "camellia"
     }
   ],
   "customers": [
