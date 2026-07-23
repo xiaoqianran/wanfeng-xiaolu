@@ -788,3 +788,4 @@
 | 781 | completed | feat | Add collectible item batch #39 | Item lavender_r0781 added | `feat(content): R0781 Add collectible item batch #39` |
 | 782 | completed | feat | Add customer persona #39 | Customer 织围巾的阿姨·782 | `feat(shop): R0782 Add customer persona #39` |
 | 783 | completed | feat | Add dialogue line #39 | Dialogue count=39 | `feat(content): R0783 Add dialogue line #39` |
+| 784 | completed | feat | Add garden care whisper #39 | Garden msg #40 | `feat(garden): R0784 Add garden care whisper #39` |
