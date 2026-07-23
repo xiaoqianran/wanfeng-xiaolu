@@ -57,3 +57,4 @@
 | 50 | completed | feat | Ship customer persona into runtime #4 | Runtime customer 图书馆员·50 | `feat(shop): R0050 Ship customer persona into runtime #4` |
 | 51 | completed | feat | Ship walk ambient + pathWidth into runtime #4 | walk pathWidth=3251 ambient=56 | `feat(walk): R0051 Ship walk ambient + pathWidth into runtime #4` |
 | 52 | completed | feat | Ship garden care whisper into runtime #4 | garden messages=57 careBonus=1.05 | `feat(garden): R0052 Ship garden care whisper into runtime #4` |
+| 53 | completed | feat | Ship shop tip + perfectBonus into runtime #4 | shop tips=57 perfectBonus=4 | `feat(shop): R0053 Ship shop tip + perfectBonus into runtime #4` |
