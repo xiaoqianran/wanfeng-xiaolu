@@ -405,6 +405,7 @@
     { id: "root_memory", name: "熟土记忆", desc: "在同一花盆收获满 3 次（记忆加成）", check: function (s) { return (s.stats && s.stats.memoryHarvests || 0) >= 1; } },
     { id: "order_keeper", name: "记得口味", desc: "为常客复刻上次配方 1 次", check: function (s) { return (s.stats && s.stats.repeatOrders || 0) >= 1; } },
     { id: "early_walker", name: "今日第一脚", desc: "领取 3 次今日首次出门奖励", check: function (s) { return (s.stats && s.stats.firstWalks || 0) >= 3; } },
+    { id: "sticker_collector", name: "贴纸收藏", desc: "获得 2 枚小路里程贴纸", check: function (s) { return Object.keys(s.pathStickers || {}).length >= 2; } },
   ];
 
   function advanceSeason(state) {
@@ -597,6 +598,31 @@
     state.stats.firstWalks = (state.stats.firstWalks || 0) + 1;
     appendJournal(state, "今天第一次出门，晚风先送了一点小心意。");
     return { ok: true, coins: 2, hearts: 1 };
+  }
+
+  /** Soft path milestones — stickers at 5/15/30/50 walks, no combat */
+  var PATH_MILESTONES = [
+    { n: 5, id: "m5", name: "五段晚风", coins: 3, hearts: 1 },
+    { n: 15, id: "m15", name: "十五段小路", coins: 5, hearts: 1 },
+    { n: 30, id: "m30", name: "三十次出门", coins: 8, hearts: 2 },
+    { n: 50, id: "m50", name: "五十段温柔", coins: 12, hearts: 2 },
+  ];
+
+  function checkPathMilestones(state) {
+    if (!state.pathStickers) state.pathStickers = {};
+    var walked = state.pathsWalked || 0;
+    var newly = [];
+    for (var i = 0; i < PATH_MILESTONES.length; i++) {
+      var m = PATH_MILESTONES[i];
+      if (walked >= m.n && !state.pathStickers[m.id]) {
+        state.pathStickers[m.id] = { at: Date.now(), name: m.name };
+        state.coins = (state.coins || 0) + m.coins;
+        state.hearts = (state.hearts || 0) + m.hearts;
+        appendJournal(state, "贴上小路贴纸：「" + m.name + "」。");
+        newly.push(m);
+      }
+    }
+    return { ok: true, newly: newly };
   }
 
   /**
@@ -1181,5 +1207,7 @@
     buildSpawnList: buildSpawnList,
     recallGuestCraft: recallGuestCraft,
     claimFirstWalkBonus: claimFirstWalkBonus,
+    checkPathMilestones: checkPathMilestones,
+    PATH_MILESTONES: PATH_MILESTONES,
   };
 });

@@ -1675,5 +1675,23 @@ test("salt_crystal and 潮湾盐汽水 recipe ship", () => {
   assert.ok(recipes.length >= 40);
 });
 
+
+test("checkPathMilestones awards stickers once", () => {
+  const s = core.defaultState();
+  s.pathsWalked = 5;
+  const a = core.checkPathMilestones(s);
+  assert.ok(a.newly.length >= 1);
+  assert.ok(s.pathStickers.m5);
+  const coins1 = s.coins;
+  const b = core.checkPathMilestones(s);
+  assert.strictEqual(b.newly.length, 0);
+  assert.strictEqual(s.coins, coins1);
+  s.pathsWalked = 15;
+  const c = core.checkPathMilestones(s);
+  assert.ok(c.newly.some((m) => m.id === "m15"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "sticker_collector"));
+  assert.ok(core.PATH_MILESTONES.length >= 4);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

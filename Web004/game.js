@@ -381,7 +381,7 @@
       <p>发现收集物 ${disc} · 汽水配方 ${drinks} · 来信 ${mailN} · 熟悉客人 ${aff} · 主题足迹 ${themesN}</p>
       <p>常走小路 ${state.favoritePathThemeId||"未标记"} · 秘密配方解锁 ${(() => { const n=(typeof secretRecipes!=="undefined"?secretRecipes:[]).filter(r=>r&&state.drinksMade&&state.drinksMade[[r.cup,r.base,r.flavor,r.topping||"none"].join("-")]).length; return n; })()}/${(typeof secretRecipes!=="undefined"?secretRecipes:[]).length||0}</p>
       <p>季节 ${Core.SEASON_LABELS[state.season]||state.season||"黄昏"} · 主题 ${state.pathThemeId||"maple_lane"} · 花盆 ${(state.potSlots||state.pots.length)} </p>
-      <p>长椅歇脚 ${st.benchSits||0} · 花盆便签 ${st.potNotes||0} · 窗台速写 ${st.potSnaps||0}</p>
+      <p>小路贴纸 ${Object.keys(state.pathStickers||{}).length} · 长椅歇脚 ${st.benchSits||0} · 花盆便签 ${st.potNotes||0} · 窗台速写 ${st.potSnaps||0}</p>
       ${(() => {
         const snaps = (state.potSnaps || []).slice(-4).reverse();
         if (!snaps.length) return "";
@@ -1145,6 +1145,7 @@
     Core.appendJournal(state, "又走完一段小路，口袋轻响。");
     const canR = Core.chargeWateringCan(state, 1);
     const first = Core.claimFirstWalkBonus ? Core.claimFirstWalkBonus(state) : { ok: false };
+    const miles = Core.checkPathMilestones ? Core.checkPathMilestones(state) : { newly: [] };
     const ev = applyEveningEvent();
     checkAchievements();
     Core.evaluateDailyGoals(state);
@@ -1152,7 +1153,11 @@
     refreshResources();
     refreshDailyUI();
     world = makeWorld(2000 + state.pathsWalked * 131 + Date.now() % 1000);
-    if (first && first.ok) {
+    if (miles.newly && miles.newly.length) {
+      const m = miles.newly[0];
+      toast("🏷️ 小路贴纸「" + m.name + "」· +" + m.coins + " 🪙");
+      sfx("achieve");
+    } else if (first && first.ok) {
       toast("🌅 今日第一脚 · +2 🪙 +1 💛 · 水壶 +1");
       sfx("unlock");
     } else if (ev) {
