@@ -883,3 +883,4 @@
 | 876 | completed | assets | Wire real stage art reference into runtime manifest #72 | live art assets/garden/live_0876.jpg from assets/seasons/spring.jpg (≥1KB) | `assets(ui): R0876 Wire real stage art reference into runtime manifest #72` |
 | 877 | completed | feat | Ship collectible + runtime catalog item #73 | Runtime item hibiscus_r0877 | `feat(content): R0877 Ship collectible + runtime catalog item #73` |
 | 878 | completed | feat | Ship customer persona into runtime #73 | Runtime customer 烘焙店员·878 | `feat(shop): R0878 Ship customer persona into runtime #73` |
+| 879 | completed | feat | Ship walk ambient + pathWidth into runtime #73 | walk pathWidth=3279 ambient=120 | `feat(walk): R0879 Ship walk ambient + pathWidth into runtime #73` |
