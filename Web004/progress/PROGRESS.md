@@ -977,3 +977,4 @@
 | 970 | completed | style | Ship CSS accent token used by app shell #80 | CSS --r-accent hue=290 wired to brand/primary | `style(ui): R0970 Ship CSS accent token used by app shell #80` |
 | 971 | completed | feat | Ship plantable seed linkage into runtime #80 | plant link plant_feather_0971 harvest=seed_feather_0971 | `feat(content): R0971 Ship plantable seed linkage into runtime #80` |
 | 972 | completed | assets | Wire real stage art reference into runtime manifest #80 | live art assets/shop/live_0972.jpg from assets/garden/windowsill.jpg (≥1KB) | `assets(ui): R0972 Wire real stage art reference into runtime manifest #80` |
+| 973 | completed | feat | Ship collectible + runtime catalog item #81 | Runtime item osmanthus_r0973 | `feat(content): R0973 Ship collectible + runtime catalog item #81` |
