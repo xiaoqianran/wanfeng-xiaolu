@@ -375,3 +375,4 @@
 | 368 | completed | feat | Add secret recipe stub #18 | Recipes=18 | `feat(shop): R0368 Add secret recipe stub #18` |
 | 369 | completed | feat | Add achievement definition #18 | Achievements=18 | `feat(meta): R0369 Add achievement definition #18` |
 | 370 | completed | style | CSS micro polish token #18 | CSS token hue=170 | `style(ui): R0370 CSS micro polish token #18` |
+| 371 | completed | feat | Add plantable linkage #18 | Plant link plant_pine_0371 | `feat(content): R0371 Add plantable linkage #18` |
