@@ -722,5 +722,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_mulberry",
+    "title": "干桑葚",
+    "body": "采桑的女孩来信：干桑葚也能入杯。给你一小把。",
+    "effect": {
+      "items": {
+        "mulberry": 2
+      },
+      "coins": 2
+    }
   }
 ]
