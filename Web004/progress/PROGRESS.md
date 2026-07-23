@@ -91,3 +91,4 @@
 | 84 | completed | feat | Add garden care whisper #4 | Garden msg #5 | `feat(garden): R0084 Add garden care whisper #4` |
 | 85 | completed | feat | Add shop tip #4 | Shop tip #5 | `feat(shop): R0085 Add shop tip #4` |
 | 86 | completed | feat | Tune walk ambient note #4 | Walk ambient #4 | `feat(walk): R0086 Tune walk ambient note #4` |
+| 87 | completed | feat | Add journal template #4 | Journal templates=4 | `feat(album): R0087 Add journal template #4` |
