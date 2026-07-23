@@ -1652,5 +1652,19 @@ test("thyme plantable and 百里香田园罐", () => {
   assert.ok(recipes.some((r) => r.name === "百里香田园罐"));
 });
 
+
+test("tide_pool theme unique among 19 themes", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "tide_pool"));
+  assert.ok(themes.length >= 19);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  themes.forEach((th) => {
+    assert.ok(th.name && th.sky && th.sky.length >= 3);
+    (th.ambient || []).forEach((a) => assert.ok(!/#\d{2,}/.test(a)));
+  });
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("tide_pool"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

@@ -899,6 +899,18 @@
         ctx.ellipse(x + 20, y + 4, 28, 12, 0, 0, Math.PI * 2);
         ctx.fill();
       }
+    } else if (themeId === "tide_pool") {
+      // soft ripple rings near ground
+      ctx.strokeStyle = "rgba(180,210,220,0.25)";
+      ctx.lineWidth = 1;
+      for (let i = 0; i < 5; i++) {
+        const cx = 80 + i * (w / 5);
+        const cy = h * 0.72 + Math.sin(time * 0.03 + i) * 4;
+        const r = 8 + (time * 0.4 + i * 12) % 28;
+        ctx.beginPath();
+        ctx.ellipse(cx, cy, r, r * 0.35, 0, 0, Math.PI * 2);
+        ctx.stroke();
+      }
     }
   }
 
