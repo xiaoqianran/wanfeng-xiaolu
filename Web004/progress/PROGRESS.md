@@ -90,3 +90,4 @@
 | 83 | completed | feat | Ship plantable seed linkage into runtime #6 | plant link plant_rose_0083 harvest=seed_rose_0083 | `feat(content): R0083 Ship plantable seed linkage into runtime #6` |
 | 84 | completed | assets | Wire real stage art reference into runtime manifest #6 | live art assets/ui/live_0084.jpg from assets/seasons/spring.jpg (≥1KB) | `assets(ui): R0084 Wire real stage art reference into runtime manifest #6` |
 | 85 | completed | feat | Ship collectible + runtime catalog item #7 | Runtime item coconut_r0085 | `feat(content): R0085 Ship collectible + runtime catalog item #7` |
+| 86 | completed | feat | Ship customer persona into runtime #7 | Runtime customer 采风记者·86 | `feat(shop): R0086 Ship customer persona into runtime #7` |
