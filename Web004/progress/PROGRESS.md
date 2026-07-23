@@ -87,3 +87,4 @@
 | 80 | completed | refactor | Catalog integrity pass #3 | Integrity items=7 customers=3 | `refactor(core): R0080 Catalog integrity pass #3` |
 | 81 | completed | feat | Add collectible item batch #4 | Item cocoa_r0081 added | `feat(content): R0081 Add collectible item batch #4` |
 | 82 | completed | feat | Add customer persona #4 | Customer 夜跑爱好者·82 | `feat(shop): R0082 Add customer persona #4` |
+| 83 | completed | feat | Add dialogue line #4 | Dialogue count=4 | `feat(content): R0083 Add dialogue line #4` |
