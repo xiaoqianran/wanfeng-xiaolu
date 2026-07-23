@@ -511,3 +511,4 @@
 | 504 | completed | assets | Wire real stage art reference into runtime manifest #41 | live art assets/ui/live_0504.jpg from assets/seasons/autumn.jpg (≥1KB) | `assets(ui): R0504 Wire real stage art reference into runtime manifest #41` |
 | 505 | completed | feat | Ship collectible + runtime catalog item #42 | Runtime item coconut_r0505 | `feat(content): R0505 Ship collectible + runtime catalog item #42` |
 | 506 | completed | feat | Ship customer persona into runtime #42 | Runtime customer 采风记者·506 | `feat(shop): R0506 Ship customer persona into runtime #42` |
+| 507 | completed | feat | Ship walk ambient + pathWidth into runtime #42 | walk pathWidth=3307 ambient=94 | `feat(walk): R0507 Ship walk ambient + pathWidth into runtime #42` |
