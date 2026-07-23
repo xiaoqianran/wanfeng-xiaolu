@@ -31,3 +31,4 @@
 | 24 | completed | feat | Add garden care whisper #1 | Garden msg #2 | `feat(garden): R0024 Add garden care whisper #1` |
 | 25 | completed | feat | Add shop tip #1 | Shop tip #2 | `feat(shop): R0025 Add shop tip #1` |
 | 26 | completed | feat | Tune walk ambient note #1 | Walk ambient #1 | `feat(walk): R0026 Tune walk ambient note #1` |
+| 27 | completed | feat | Add journal template #1 | Journal templates=1 | `feat(album): R0027 Add journal template #1` |
