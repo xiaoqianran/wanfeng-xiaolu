@@ -709,3 +709,4 @@
 | 702 | completed | feat | Add customer persona #35 | Customer 滑板少年·702 | `feat(shop): R0702 Add customer persona #35` |
 | 703 | completed | feat | Add dialogue line #35 | Dialogue count=35 | `feat(content): R0703 Add dialogue line #35` |
 | 704 | completed | feat | Add garden care whisper #35 | Garden msg #36 | `feat(garden): R0704 Add garden care whisper #35` |
+| 705 | completed | feat | Add shop tip #35 | Shop tip #36 | `feat(shop): R0705 Add shop tip #35` |
