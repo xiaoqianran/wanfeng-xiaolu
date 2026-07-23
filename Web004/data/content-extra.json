@@ -5250,6 +5250,19 @@
         "plain"
       ],
       "round": 662
+    },
+    {
+      "name": "弹尤克里里的人·674",
+      "avatar": "🎸",
+      "wish": "想要一点清爽的味道。",
+      "tags": [
+        "清爽"
+      ],
+      "flavors": [
+        "berry",
+        "plain"
+      ],
+      "round": 674
     }
   ],
   "dialogues": [
@@ -5748,7 +5761,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 673,
+    "expandedRounds": 674,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
