@@ -54,3 +54,4 @@
 | 47 | completed | feat | Add journal template #2 | Journal templates=2 | `feat(album): R0047 Add journal template #2` |
 | 48 | completed | feat | Add secret recipe stub #2 | Recipes=2 | `feat(shop): R0048 Add secret recipe stub #2` |
 | 49 | completed | feat | Add achievement definition #2 | Achievements=2 | `feat(meta): R0049 Add achievement definition #2` |
+| 50 | completed | style | CSS micro polish token #2 | CSS token hue=130 | `style(ui): R0050 CSS micro polish token #2` |
