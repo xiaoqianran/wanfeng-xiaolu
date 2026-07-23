@@ -785,5 +785,33 @@ test("settings markup includes ambience toggle", () => {
   assert.ok(game.includes("set-ambience") && game.includes("setAmbience"));
 });
 
+test("season-tips unique per season and loaded in game-data", () => {
+  const tips = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "season-tips.json"), "utf8"));
+  ["spring", "summer", "autumn", "winter", "dusk"].forEach((k) => {
+    assert.ok(Array.isArray(tips[k]) && tips[k].length >= 1, k);
+    tips[k].forEach((line) => assert.ok(line.length > 6 && !/#\d+/.test(line)));
+  });
+  const gd = fs.readFileSync(path.join(__dirname, "..", "js", "game-data.js"), "utf8");
+  assert.ok(gd.includes("seasonTips"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("seasonTips"));
+});
+
+test("serveStreak increments on high score serveDrink", () => {
+  const s = core.defaultState();
+  s.bag = { mint: 5, petal: 5 };
+  const customer = { tags: ["清爽"], flavors: ["mint"], wantTopping: true };
+  const craft = { cup: "tall", base: "soda", flavor: "mint", topping: "petal" };
+  let last = null;
+  for (let i = 0; i < 3; i++) {
+    core.addItem(s, "mint", 1);
+    core.addItem(s, "petal", 1);
+    last = core.serveDrink(s, customer, craft);
+    assert.ok(last.ok, JSON.stringify(last));
+  }
+  assert.ok((s.serveStreak || 0) >= 3);
+  assert.ok(last.serveStreak >= 3);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

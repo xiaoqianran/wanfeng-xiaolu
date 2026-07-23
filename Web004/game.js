@@ -79,6 +79,7 @@
   const dataAchievements = GData.achievements || [];
   const eveningEvents = GData.eveningEvents || [];
   const mailLetters = GData.mail || [];
+  const seasonTips = GData.seasonTips || {};
   const PATH_THEMES = (GData.pathThemes && GData.pathThemes.length
     ? GData.pathThemes
     : Core.DEFAULT_PATH_THEMES) || Core.DEFAULT_PATH_THEMES;
@@ -293,7 +294,14 @@
       startWalk();
     }
     if (screen === "garden") renderGarden();
-    if (screen === "shop") renderShop();
+    if (screen === "shop") {
+      renderShop();
+      const tips = seasonTips[state.season] || seasonTips.dusk || [];
+      if (tips.length && Core.getSettings(state).showTips !== false) {
+        const tip = tips[Math.floor(Math.random() * tips.length)];
+        setTimeout(() => toast("🍋 " + tip), 200);
+      }
+    }
     if (screen === "album") renderAlbum(currentAlbumTab);
     if (screen === "journal") renderJournal();
     if (screen === "achievements") renderAchievements();
@@ -1429,7 +1437,14 @@
     ];
     const reaction = reactions[Math.min(reactions.length - 1, Math.floor(score))];
     msgEl.textContent = `${reaction}  +${coins} 金币${hearts ? " · +1 好心情" : ""}${notes.length ? "（" + notes.join("，") + "）" : ""}`;
-    toast(`🥂 客人很满意 · +${coins} 🪙`);
+    const streakNote = (state.serveStreak || 0) >= 3 ? " · 连胜" + state.serveStreak : "";
+    toast(`🥂 客人很满意 · +${coins} 🪙` + streakNote);
+    if (score >= 3) state.serveStreak = (state.serveStreak || 0) + 1;
+    else state.serveStreak = 0;
+    if ((state.serveStreak || 0) >= 3) {
+      state.coins += 2;
+      notes.push("连胜小奖励");
+    }
     sfx("serve");
     state.lastServedFlavor = flavor;
     if (!state.customerAffinity) state.customerAffinity = {};

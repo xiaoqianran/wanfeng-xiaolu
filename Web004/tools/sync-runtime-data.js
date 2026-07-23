@@ -64,6 +64,7 @@ function main() {
     eveningEvents: readJson("data/evening-events.json", []),
     pathThemes: readJson("data/path-themes.json", []),
     mail: readJson("data/mail.json", []),
+    seasonTips: readJson("data/season-tips.json", {}),
     syncedAt: new Date().toISOString(),
   };
 
