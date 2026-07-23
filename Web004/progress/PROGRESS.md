@@ -485,3 +485,4 @@
 | 478 | completed | feat | Topping or cup option #23 | Topping top_r0478 | `feat(content): R0478 Topping or cup option #23` |
 | 479 | completed | docs | Stage milestone summary #23 | Stage doc stage-10.md | `docs(progress): R0479 Stage milestone summary #23` |
 | 480 | completed | refactor | Catalog integrity pass #23 | Integrity items=47 customers=23 | `refactor(core): R0480 Catalog integrity pass #23` |
+| 481 | completed | feat | Add collectible item batch #24 | Item lavender_r0481 added | `feat(content): R0481 Add collectible item batch #24` |
