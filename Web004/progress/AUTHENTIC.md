@@ -323,3 +323,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0324 | completed | feat | 常客小黑板 | guest-board UI + ink FX | feat(shop): A0324 常客小黑板与墨香特效 |
 | A0325 | completed | content | 香菜墨香事件配方 | events+recipes+customers | content(events): A0325 香菜墨香 vignette 与配方 |
 | A0326 | completed | test | 回归与手册 | 157 pass + USER_MANUAL | test(docs): A0326 香菜墨香常客回归与手册 |
+| A0327 | completed | feat | 紫罗兰可种植 | violetPot+lotus_seed+achievements | feat(garden): A0327 紫罗兰可种植窗台 |
+| A0328 | completed | feat | 荷塘浅步 | lotus_pond 26th + FX | feat(walk): A0328 荷塘浅步主题与荷叶特效 |
+| A0329 | completed | content | 紫花荷塘事件配方 | events+recipes | content(events): A0329 紫罗兰荷塘 vignette 与配方 |
+| A0330 | completed | test | 回归手册 | 158 pass | test(docs): A0330 紫罗兰荷塘回归与手册 |

@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 325,
+  "current_round": 329,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 319,
-  "authentic_game_integrated_rounds": 223,
+  "authentic_rounds_completed": 323,
+  "authentic_game_integrated_rounds": 226,
   "template_spam_archived": true,
-  "current_milestone": "authentic rebuild A0322+",
-  "current_task_id": "A0327-next",
-  "last_completed_task_id": "A0326",
+  "current_milestone": "authentic rebuild A0327+",
+  "current_task_id": "A0331-next",
+  "last_completed_task_id": "A0330",
   "last_commit": "pending",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "157 passed, 0 failed",
+  "last_test_summary": "158 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~681) multi-session"
+    "gap to 1000 authentic (~677) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -29,11 +29,11 @@
     "spam engine disabled"
   ],
   "next_candidate_tasks": [
-    "more plants",
+    "more unique plants",
     "path icons",
-    "unique mail batch",
-    "evening events"
+    "mail batch",
+    "shop polish"
   ],
-  "resume_instructions": "Continue A0327+. Spam DISABLED. authentic-rounds.jsonl SoT.",
-  "updated_at": "2026-07-23T22:52:41.496150+00:00"
+  "resume_instructions": "Continue A0331+. Spam DISABLED. authentic-rounds.jsonl SoT.",
+  "updated_at": "2026-07-23T22:54:36.957789+00:00"
 }
