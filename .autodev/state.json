@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 34,
+  "current_round": 40,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 28,
-  "authentic_game_integrated_rounds": 24,
+  "authentic_rounds_completed": 34,
+  "authentic_game_integrated_rounds": 30,
   "template_spam_archived": true,
-  "current_milestone": "authentic rebuild A002x",
-  "current_task_id": "A0028-next",
-  "last_completed_task_id": "A0034",
-  "last_commit": "8ca4c1a",
+  "current_milestone": "authentic rebuild A004x",
+  "current_task_id": "A0041-next",
+  "last_completed_task_id": "A0040",
+  "last_commit": "99d3fb3",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "44 passed, 0 failed",
+  "last_test_summary": "49 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic rounds (~970+) requires multi-session"
+    "gap to 1000 authentic (~960) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -29,11 +29,11 @@
     "spam engine disabled"
   ],
   "next_candidate_tasks": [
-    "more unique content packs",
-    "BGM design doc",
-    "save migration v3",
-    "canvas a11y text"
+    "season recipe soft bonus",
+    "export affinity in save",
+    "more unique mail",
+    "canvas reduced-motion"
   ],
-  "resume_instructions": "Continue A0035+. SoT: Web004/progress/authentic-rounds.jsonl. Tests: cd Web004 && node tests/run.js && node tools/quality-gate.js. Do not enable spam engine. Gap to 1000 authentic remains ~966.",
-  "updated_at": "2026-07-23T21:00:27.467786+00:00"
+  "resume_instructions": "Continue A0041+. SoT: Web004/progress/authentic-rounds.jsonl. Spam DISABLED. cd Web004 && node tests/run.js && node tools/quality-gate.js",
+  "updated_at": "2026-07-23T21:05:09.908657+00:00"
 }

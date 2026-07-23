@@ -2,10 +2,12 @@
 
 | 字段 | 值 |
 |------|-----|
-| Authentic 轮次 | **28**（账本 `Web004/progress/authentic-rounds.jsonl`） |
-| Game-integrated | **24** |
-| 目标 | 1000 authentic |
-| 单测 | 44 passed |
-| 刷轮引擎 | DISABLED |
+| Authentic | **34** / 1000 |
+| Game-integrated | **30** |
+| 测试 | 49 passed |
+| 刷轮 | DISABLED + archived |
 
-最近：小路主题、配方图鉴、花盆扩展、风味记忆、天气特效、存档迁移、植物小名、新客人。
+## 最近 authentic 功能
+帮助页、经济常数、手帐范文、音效扩展、信箱、足迹统计、小路主题、配方图鉴、植物小名等。
+
+恢复：`.autodev/state.json` → A0041+
