@@ -5,3 +5,4 @@
 
 | Round | Status | Type | Goal | Outcome | Commit |
 |------:|--------|------|------|---------|--------|
+| 1 | completed | chore | Initialize gitignore and project meta | Added .gitignore and meta.json | `chore(repo): R0001 Initialize gitignore and project meta` |

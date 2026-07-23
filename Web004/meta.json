@@ -1,0 +1,11 @@
+{
+  "title": "晚风小路",
+  "genre": "cozy",
+  "combat": false,
+  "systems": [
+    "walk",
+    "garden",
+    "shop",
+    "album"
+  ]
+}
