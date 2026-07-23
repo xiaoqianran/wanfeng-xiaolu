@@ -448,3 +448,4 @@
 | 441 | completed | feat | Add collectible item batch #22 | Item cocoa_r0441 added | `feat(content): R0441 Add collectible item batch #22` |
 | 442 | completed | feat | Add customer persona #22 | Customer 夜跑爱好者·442 | `feat(shop): R0442 Add customer persona #22` |
 | 443 | completed | feat | Add dialogue line #22 | Dialogue count=22 | `feat(content): R0443 Add dialogue line #22` |
+| 444 | completed | feat | Add garden care whisper #22 | Garden msg #23 | `feat(garden): R0444 Add garden care whisper #22` |
