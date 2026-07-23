@@ -4,17 +4,17 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 27,
+  "current_round": 30,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 21,
-  "authentic_game_integrated_rounds": 17,
+  "authentic_rounds_completed": 24,
+  "authentic_game_integrated_rounds": 20,
   "template_spam_archived": true,
   "current_milestone": "authentic rebuild A002x",
   "current_task_id": "A0028-next",
-  "last_completed_task_id": "A0027",
-  "last_commit": "81c2b00",
+  "last_completed_task_id": "A0030",
+  "last_commit": "f5b3607",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "39 passed, 0 failed",
+  "last_test_summary": "42 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
@@ -34,6 +34,6 @@
     "save migration v3",
     "canvas a11y text"
   ],
-  "resume_instructions": "Continue A0028+. Ledger Web004/progress/authentic-rounds.jsonl. Tests: cd Web004 && node tests/run.js && node tools/quality-gate.js. Do not re-enable spam run-rounds.",
-  "updated_at": "2026-07-23T20:57:27.141120+00:00"
+  "resume_instructions": "Continue A0031+. authentic-rounds.jsonl is SoT. Tests: cd Web004 && node tests/run.js && node tools/quality-gate.js. Gap to 1000 authentic still large.",
+  "updated_at": "2026-07-23T20:59:11.941730+00:00"
 }
