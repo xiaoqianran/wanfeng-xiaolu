@@ -2350,6 +2350,13 @@
       "emoji": "🍃",
       "kind": "装饰",
       "seed": null
+    },
+    "rose_petal": {
+      "id": "rose_petal",
+      "name": "玫瑰花瓣",
+      "emoji": "🌹",
+      "kind": "风味",
+      "seed": "rosePot"
     }
   },
   "plants": {
@@ -4261,6 +4268,17 @@
       ],
       "harvest": "cardamom",
       "days": 3
+    },
+    "rosePot": {
+      "id": "rosePot",
+      "name": "玫瑰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌹"
+      ],
+      "harvest": "rose_petal",
+      "days": 3
     }
   },
   "cups": [
@@ -5105,6 +5123,16 @@
       "tags": [
         "草本",
         "甜蜜"
+      ]
+    },
+    {
+      "id": "rose_petal",
+      "name": "玫瑰",
+      "emoji": "🌹",
+      "need": "rose_petal",
+      "tags": [
+        "花香",
+        "温柔"
       ]
     }
   ],
@@ -6333,6 +6361,21 @@
         "honey",
         "peach",
         "apple_leaf"
+      ]
+    },
+    {
+      "name": "折花的诗人",
+      "avatar": "🌹",
+      "wish": "花香温柔，玫瑰最好，杯子可以暖一点。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "rose_petal",
+        "lilac",
+        "violet",
+        "jasmine"
       ]
     }
   ],

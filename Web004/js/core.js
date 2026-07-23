@@ -529,6 +529,15 @@
     { id: "orchard_walker", name: "果园旅人", desc: "走过果园暮色", check: function (s) {
       return !!(s._themesTouched && s._themesTouched.orchard_dusk);
     } },
+    { id: "rose_sill", name: "玫瑰窗台", desc: "发现玫瑰花瓣", check: function (s) {
+      return !!(s.discovered && s.discovered.rose_petal);
+    } },
+    { id: "rose_walker", name: "玫瑰旅人", desc: "走过玫瑰短巷", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.rose_lane);
+    } },
+    { id: "recipe_pinner", name: "配方钉选", desc: "钉住一份秘密配方", check: function (s) {
+      return !!(s.pinnedRecipeId);
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
     { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },
@@ -1016,7 +1025,7 @@
     }
     // soft seasonal affinity (optional catalogs.season)
     var season = catalogs.season || customer.season;
-    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || baseDef.id === "floral_tea")) {
+    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || flavorDef.id === "rose_petal" || baseDef.id === "floral_tea")) {
       score += 0.5;
       notes.push("春日花香");
     }
@@ -1169,6 +1178,29 @@
     state.pinnedBagItem = itemId;
     appendJournal(state, "把「" + itemId + "」钉在竹篮最上面。");
     return { ok: true, itemId: itemId };
+  }
+
+  /** Soft pin a secret recipe id for one-tap craft recall (no combat) */
+  function pinRecipe(state, recipeId) {
+    recipeId = String(recipeId || "").trim();
+    if (!recipeId) return { ok: false, reason: "empty" };
+    state.pinnedRecipeId = recipeId;
+    if (!state.stats) state.stats = {};
+    state.stats.recipePins = (state.stats.recipePins || 0) + 1;
+    appendJournal(state, "把配方「" + recipeId + "」钉在柜台边。");
+    return { ok: true, recipeId: recipeId };
+  }
+
+  function getPinnedRecipe(state, recipes) {
+    recipes = recipes || [];
+    var id = state && state.pinnedRecipeId;
+    if (!id) return { ok: false, reason: "none" };
+    for (var i = 0; i < recipes.length; i++) {
+      if (recipes[i] && (recipes[i].id === id || recipes[i].name === id)) {
+        return { ok: true, recipe: recipes[i] };
+      }
+    }
+    return { ok: false, reason: "missing" };
   }
 
   /** Soft shop board: top guests by affinity warmth (no ranking pressure) */
@@ -1451,6 +1483,8 @@ function recallGuestCraft(state, guestName) {
     addTipJar: addTipJar,
     pinBagItem: pinBagItem,
     getTopGuests: getTopGuests,
+    pinRecipe: pinRecipe,
+    getPinnedRecipe: getPinnedRecipe,
     claimFirstWalkBonus: claimFirstWalkBonus,
     upgradeWateringCan: upgradeWateringCan,
     checkPathMilestones: checkPathMilestones,
