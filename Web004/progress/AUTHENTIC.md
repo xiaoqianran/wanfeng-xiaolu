@@ -196,3 +196,4 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0197 | completed | test | 柚子回归 | 121 tests pass | `feat(shop): A0196 柚子风味与柚子雨檐配方` |
 | A0198 | completed | content | 事件至212则 | 212 unique evening events | `content(events): A0198 事件至二一二则与 GDD 风味表` |
 | A0199 | completed | docs | GDD风味扩展 | GDD lists extended flavors | `content(events): A0198 事件至二一二则与 GDD 风味表` |
+| A0200 | completed | feat | 足迹配方进度 | favorite theme + recipes | `feat(stats): A0200 足迹显示常走主题与秘密配方进度` |
