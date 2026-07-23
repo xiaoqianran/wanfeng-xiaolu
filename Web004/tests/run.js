@@ -399,5 +399,42 @@ test("template spam engine is disabled", () => {
   assert.ok(/DISABLED/.test(src));
 });
 
+test("evening events data is unique and loaded in game-data", () => {
+  const events = JSON.parse(
+    fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8")
+  );
+  assert.ok(events.length >= 6);
+  const ids = events.map((e) => e.id);
+  assert.strictEqual(new Set(ids).size, ids.length);
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  events.forEach((e) => {
+    assert.ok(e.body && e.body.length > 12);
+    assert.ok(!/#\d{2,}/.test(e.body));
+  });
+  const code = fs.readFileSync(path.join(__dirname, "..", "js", "game-data.js"), "utf8");
+  assert.ok(code.includes("eveningEvents"));
+  assert.ok(code.includes("lamp_first"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("applyEveningEvent"));
+});
+
+test("authentic ledger exists and is source of truth format", () => {
+  const p = path.join(__dirname, "..", "progress", "authentic-rounds.jsonl");
+  assert.ok(fs.existsSync(p));
+  const rows = fs
+    .readFileSync(p, "utf8")
+    .trim()
+    .split("\n")
+    .filter(Boolean)
+    .map((l) => JSON.parse(l));
+  assert.ok(rows.length >= 1);
+  rows.forEach((r) => {
+    assert.strictEqual(r.authentic, true);
+    assert.ok(r.goal && r.outcome && r.commit);
+    assert.ok(Array.isArray(r.shipped) && r.shipped.length >= 1);
+  });
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

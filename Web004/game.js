@@ -69,6 +69,7 @@
   const secretRecipes = GData.recipes || [];
   const journalTemplates = GData.journal || [];
   const dataAchievements = GData.achievements || [];
+  const eveningEvents = GData.eveningEvents || [];
   const dataDialogues = (GData.dialogues || [])
     .map((d) => (typeof d === "string" ? d : d && d.text))
     .filter(Boolean);
@@ -693,15 +694,40 @@
     if (e.key === "ArrowRight" || e.key === "d" || e.key === "D") keys.right = false;
   });
 
+  function applyEveningEvent() {
+    if (!eveningEvents.length) return null;
+    state._seenEvents = state._seenEvents || {};
+    const pool = eveningEvents.filter((e) => e && e.id && !state._seenEvents[e.id]);
+    const list = pool.length ? pool : eveningEvents;
+    const ev = list[Math.floor(Math.random() * list.length)];
+    if (!ev) return null;
+    state._seenEvents[ev.id] = true;
+    const effect = ev.effect || {};
+    if (effect.coins) state.coins = (state.coins || 0) + effect.coins;
+    if (effect.hearts) state.hearts = (state.hearts || 0) + effect.hearts;
+    if (effect.items) {
+      Object.keys(effect.items).forEach((id) => addItem(id, effect.items[id]));
+    }
+    Core.appendJournal(state, "【" + (ev.title || "小事") + "】" + (ev.body || ""));
+    return ev;
+  }
+
   document.getElementById("btn-new-path").addEventListener("click", () => {
     state.pathsWalked++;
     state.coins += 2;
     Core.appendJournal(state, "又走完一段小路，口袋轻响。");
+    const ev = applyEveningEvent();
     checkAchievements();
+    Core.evaluateDailyGoals(state);
     save();
     refreshResources();
+    refreshDailyUI();
     world = makeWorld(2000 + state.pathsWalked * 131 + Date.now() % 1000);
-    toast("✨ 晚风换了一条小路，送你 2 枚金币");
+    if (ev) {
+      toast("📖 " + ev.title + " — " + (ev.body || "").slice(0, 28) + "…");
+    } else {
+      toast("✨ 晚风换了一条小路，送你 2 枚金币");
+    }
     if (walkRunning) resizeWalk();
   });
 
