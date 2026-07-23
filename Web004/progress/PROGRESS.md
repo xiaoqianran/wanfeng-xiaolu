@@ -559,3 +559,4 @@
 | 552 | completed | assets | Wire real stage art reference into runtime manifest #45 | live art assets/shop/live_0552.jpg from assets/scenes/walk-path.jpg (≥1KB) | `assets(ui): R0552 Wire real stage art reference into runtime manifest #45` |
 | 553 | completed | feat | Ship collectible + runtime catalog item #46 | Runtime item osmanthus_r0553 | `feat(content): R0553 Ship collectible + runtime catalog item #46` |
 | 554 | completed | feat | Ship customer persona into runtime #46 | Runtime customer 弹尤克里里的人·554 | `feat(shop): R0554 Ship customer persona into runtime #46` |
+| 555 | completed | feat | Ship walk ambient + pathWidth into runtime #46 | walk pathWidth=3355 ambient=98 | `feat(walk): R0555 Ship walk ambient + pathWidth into runtime #46` |
