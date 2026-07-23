@@ -550,3 +550,4 @@
 | 543 | completed | feat | Add dialogue line #27 | Dialogue count=27 | `feat(content): R0543 Add dialogue line #27` |
 | 544 | completed | feat | Add garden care whisper #27 | Garden msg #28 | `feat(garden): R0544 Add garden care whisper #27` |
 | 545 | completed | feat | Add shop tip #27 | Shop tip #28 | `feat(shop): R0545 Add shop tip #27` |
+| 546 | completed | feat | Tune walk ambient note #27 | Walk ambient #27 | `feat(walk): R0546 Tune walk ambient note #27` |
