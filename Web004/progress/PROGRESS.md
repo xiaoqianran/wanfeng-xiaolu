@@ -1009,3 +1009,4 @@
 | 1002 | completed | assets | Add empty-pot art and cozy-safe filter | empty-pot.jpg + filter rewrite | `assets(ui): R1002 add empty-pot art and cozy-safe combat filter` |
 | 1003 | completed | feat | Season cycle + journal + achievements in core | advanceSeason/evaluateAchievements shipped | `feat(season): R1003 season cycle journal and achievement pure logic` |
 | 1004 | completed | feat | Wire season switch journal achievements screens | home actions + screens | `feat(ui): R1004 home season switch journal achievements screens` |
+| 1005 | completed | assets | Integrate season art pack and badges | seasons/* + badges | `assets(ui): R1005 season art pack and achievement badges integrated` |
