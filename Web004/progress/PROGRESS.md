@@ -649,3 +649,4 @@
 | 642 | completed | feat | Add customer persona #32 | Customer 滑板少年·642 | `feat(shop): R0642 Add customer persona #32` |
 | 643 | completed | feat | Add dialogue line #32 | Dialogue count=32 | `feat(content): R0643 Add dialogue line #32` |
 | 644 | completed | feat | Add garden care whisper #32 | Garden msg #33 | `feat(garden): R0644 Add garden care whisper #32` |
+| 645 | completed | feat | Add shop tip #32 | Shop tip #33 | `feat(shop): R0645 Add shop tip #32` |
