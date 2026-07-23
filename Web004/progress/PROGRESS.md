@@ -1025,3 +1025,4 @@
 | 1018 | completed | style | Ship CSS accent token used by app shell #84 | CSS --r-accent hue=26 wired to brand/primary | `style(ui): R1018 Ship CSS accent token used by app shell #84` |
 | 1019 | completed | feat | Ship plantable seed linkage into runtime #84 | plant link plant_pear_1019 harvest=seed_pear_1019 | `feat(content): R1019 Ship plantable seed linkage into runtime #84` |
 | 1020 | completed | assets | Wire real stage art reference into runtime manifest #84 | live art assets/walk/live_1020.jpg from assets/shop/night-window.jpg (≥1KB) | `assets(ui): R1020 Wire real stage art reference into runtime manifest #84` |
+| 1021 | completed | feat | Ship collectible + runtime catalog item #85 | Runtime item lavender_r1021 | `feat(content): R1021 Ship collectible + runtime catalog item #85` |
