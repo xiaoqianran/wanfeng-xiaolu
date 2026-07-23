@@ -950,3 +950,4 @@
 | 943 | completed | feat | Add dialogue line #47 | Dialogue count=47 | `feat(content): R0943 Add dialogue line #47` |
 | 944 | completed | feat | Add garden care whisper #47 | Garden msg #48 | `feat(garden): R0944 Add garden care whisper #47` |
 | 945 | completed | feat | Add shop tip #47 | Shop tip #48 | `feat(shop): R0945 Add shop tip #47` |
+| 946 | completed | feat | Tune walk ambient note #47 | Walk ambient #47 | `feat(walk): R0946 Tune walk ambient note #47` |
