@@ -565,3 +565,4 @@
 | 558 | completed | feat | Topping or cup option #27 | Topping top_r0558 | `feat(content): R0558 Topping or cup option #27` |
 | 559 | completed | docs | Stage milestone summary #27 | Stage doc stage-12.md | `docs(progress): R0559 Stage milestone summary #27` |
 | 560 | completed | refactor | Catalog integrity pass #27 | Integrity items=55 customers=27 | `refactor(core): R0560 Catalog integrity pass #27` |
+| 561 | completed | feat | Add collectible item batch #28 | Item cocoa_r0561 added | `feat(content): R0561 Add collectible item batch #28` |
