@@ -145,8 +145,61 @@ test("index.html uses relative script/style and loads core", () => {
   const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
   assert.ok(html.includes('href="styles.css"') || html.includes('href="css/'));
   assert.ok(html.includes("js/core.js") || html.includes("core.js"));
+  assert.ok(html.includes("js/content-extra.js"));
+  assert.ok(html.includes("assets/scenes/hero-dusk.jpg"));
   assert.ok(!html.includes('type="module"') || html.includes("file:"));
   assert.ok(!/require\(|module\.exports/.test(html));
+});
+
+test("extra craft fixtures from iteration rounds exercise scoreDrink", () => {
+  const p = path.join(__dirname, "extra-cases.json");
+  if (!fs.existsSync(p)) return;
+  const pack = JSON.parse(fs.readFileSync(p, "utf8"));
+  assert.ok(pack.length > 0);
+  const craftCases = pack.filter((c) => c.craft);
+  assert.ok(craftCases.length > 0);
+  const sample = craftCases[craftCases.length - 1];
+  const customer = { tags: sample.tags || ["清爽"], flavors: sample.flavors || ["plain"] };
+  const r = core.scoreDrink(customer, sample.craft);
+  assert.ok(r.score >= 1);
+  assert.ok(r.coins >= 4);
+});
+
+test("extra bag ops mutate shipped state", () => {
+  const p = path.join(__dirname, "extra-cases.json");
+  if (!fs.existsSync(p)) return;
+  const pack = JSON.parse(fs.readFileSync(p, "utf8"));
+  const bagOps = pack.filter((c) => c.bagOp);
+  assert.ok(bagOps.length > 0);
+  const s = core.defaultState();
+  for (const c of bagOps.slice(-20)) {
+    core.addItem(s, c.bagOp.add, c.bagOp.n || 1);
+    assert.ok(core.hasItem(s, c.bagOp.add, 1));
+  }
+});
+
+test("asset hero/garden/shop images exist on disk", () => {
+  const needed = [
+    "assets/scenes/hero-dusk.jpg",
+    "assets/garden/windowsill.jpg",
+    "assets/shop/soda-hero.jpg",
+    "assets/album/diary-cover.jpg",
+    "assets/scenes/walk-path.jpg",
+  ];
+  for (const rel of needed) {
+    assert.ok(fs.existsSync(path.join(__dirname, "..", rel)), "missing " + rel);
+  }
+});
+
+test("content-extra.js defines WanfengExtra for file:// merge", () => {
+  const code = fs.readFileSync(path.join(__dirname, "..", "js", "content-extra.js"), "utf8");
+  assert.ok(code.includes("WanfengExtra"));
+  const sandbox = { globalThis: {} };
+  // eslint-disable-next-line no-new-func
+  const fn = new Function("globalThis", code + "; return globalThis.WanfengExtra;");
+  const extra = fn(sandbox.globalThis);
+  assert.ok(extra && extra.items);
+  assert.ok(Object.keys(extra.items).length > 10);
 });
 
 console.log("\nResult: %d passed, %d failed", passed, failed);

@@ -26,16 +26,42 @@
   const SAVE_KEY = Core.SAVE_KEY;
 
   // ---------- 图鉴数据（from shipped core + optional extra catalog） ----------
-  let catalog = Core.mergeCatalog({});
+  const extra = globalThis.WanfengExtra || {};
+  let catalog = Core.mergeCatalog({
+    items: extra.items || {},
+    plants: extra.plants || {},
+    cups: extra.cups || [],
+    bases: extra.bases || [],
+    flavors: extra.flavors || [],
+    toppings: extra.toppings || [],
+    customers: extra.customers || [],
+  });
   const ITEMS = catalog.items;
   const PLANTS = catalog.plants;
   let CUPS = catalog.cups.slice();
   let BASES = catalog.bases.slice();
   let FLAVORS = catalog.flavors.slice();
+  // keep shop UI readable: prefer base options + a sample of extras
+  if (FLAVORS.length > 16) {
+    const baseIds = new Set(Core.DEFAULT_FLAVORS.map((f) => f.id));
+    const base = FLAVORS.filter((f) => baseIds.has(f.id));
+    const rest = FLAVORS.filter((f) => !baseIds.has(f.id)).slice(-10);
+    FLAVORS = base.concat(rest);
+  }
   let TOPPINGS = catalog.toppings.slice();
+  if (TOPPINGS.length > 12) {
+    const baseIds = new Set(Core.DEFAULT_TOPPINGS.map((t) => t.id));
+    const base = TOPPINGS.filter((t) => baseIds.has(t.id));
+    const rest = TOPPINGS.filter((t) => !baseIds.has(t.id)).slice(-8);
+    TOPPINGS = base.concat(rest);
+  }
   let CUSTOMERS = catalog.customers.slice();
+  if (CUSTOMERS.length > 24) {
+    CUSTOMERS = Core.DEFAULT_CUSTOMERS.concat(CUSTOMERS.slice(-16));
+  }
 
-  const PATH_SPAWNS = Object.keys(ITEMS);
+  const PATH_SPAWNS = Object.keys(ITEMS).filter((id) => ITEMS[id] && !String(id).startsWith("seed_")).slice(0, 40);
+  const DIALOGUES = (extra.dialogues || []).map((d) => (typeof d === "string" ? d : d.text)).filter(Boolean);
 
   // ---------- 状态 ----------
   function defaultState() {
@@ -934,5 +960,29 @@
   // ---------- 启动 ----------
   settleOfflineGrowth();
   refreshResources();
-  // 预渲染气泡容器空着即可
+
+  // soft ambient dialogue on home
+  if (DIALOGUES.length) {
+    const copy = document.querySelector(".home-copy p");
+    if (copy) {
+      const line = DIALOGUES[Math.floor(Math.random() * DIALOGUES.length)];
+      copy.textContent = line + " 沿着小路散步收集灵感，在窗台照料小植物，再为路过的人调制一杯汽水吧。";
+    }
+  }
+
+  // decorate garden with plant art if present
+  const gardenBanner = document.querySelector('#screen-garden .scene-banner');
+  if (gardenBanner) {
+    gardenBanner.insertAdjacentHTML(
+      "afterend",
+      '<div class="art-row"><img src="assets/plants/mint-stages.jpg" alt="盆栽生长" class="art-thumb"/><img src="assets/ui/garden-actions.jpg" alt="照料动作" class="art-thumb"/></div>'
+    );
+  }
+  const shopBanner = document.querySelector('#screen-shop .scene-banner');
+  if (shopBanner) {
+    shopBanner.insertAdjacentHTML(
+      "afterend",
+      '<div class="art-row"><img src="assets/shop/berry-soda.jpg" alt="野莓汽水" class="art-thumb"/><img src="assets/shop/customers-sheet.jpg" alt="客人" class="art-thumb"/><img src="assets/shop/cups-set.jpg" alt="杯型" class="art-thumb"/></div>'
+    );
+  }
 })();

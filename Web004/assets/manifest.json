@@ -1,5 +1,19 @@
 {
   "files": [
+    "assets/album/diary-cover.jpg",
+    "assets/garden/windowsill.jpg",
+    "assets/items/collectibles-sheet.jpg",
+    "assets/items/nature-bits.jpg",
+    "assets/plants/mint-stages.jpg",
+    "assets/scenes/cottage-star.jpg",
+    "assets/scenes/hero-dusk.jpg",
+    "assets/scenes/hero-dusk.png",
+    "assets/scenes/walk-path.jpg",
+    "assets/shop/berry-soda.jpg",
+    "assets/shop/cups-set.jpg",
+    "assets/shop/customers-sheet.jpg",
+    "assets/shop/soda-hero.jpg",
+    "assets/ui/garden-actions.jpg",
     "assets/walk/slot_0015.png",
     "assets/walk/slot_0035.png",
     "assets/walk/slot_0055.png",
@@ -52,264 +66,31 @@
     "assets/walk/slot_0995.png"
   ],
   "stages": {
-    "bootstrap": [
-      {
-        "round": 5,
-        "slot": "hero-banner",
-        "path": "assets/scenes/hero-dusk.png"
-      }
+    "home": [
+      "assets/scenes/hero-dusk.jpg",
+      "assets/scenes/cottage-star.jpg"
     ],
     "walk": [
-      {
-        "round": 15,
-        "path": "assets/walk/slot_0015.png",
-        "status": "reserved"
-      },
-      {
-        "round": 35,
-        "path": "assets/walk/slot_0035.png",
-        "status": "reserved"
-      },
-      {
-        "round": 55,
-        "path": "assets/walk/slot_0055.png",
-        "status": "reserved"
-      },
-      {
-        "round": 75,
-        "path": "assets/walk/slot_0075.png",
-        "status": "reserved"
-      },
-      {
-        "round": 95,
-        "path": "assets/walk/slot_0095.png",
-        "status": "reserved"
-      },
-      {
-        "round": 115,
-        "path": "assets/walk/slot_0115.png",
-        "status": "reserved"
-      },
-      {
-        "round": 135,
-        "path": "assets/walk/slot_0135.png",
-        "status": "reserved"
-      },
-      {
-        "round": 155,
-        "path": "assets/walk/slot_0155.png",
-        "status": "reserved"
-      },
-      {
-        "round": 175,
-        "path": "assets/walk/slot_0175.png",
-        "status": "reserved"
-      },
-      {
-        "round": 195,
-        "path": "assets/walk/slot_0195.png",
-        "status": "reserved"
-      },
-      {
-        "round": 215,
-        "path": "assets/walk/slot_0215.png",
-        "status": "reserved"
-      },
-      {
-        "round": 235,
-        "path": "assets/walk/slot_0235.png",
-        "status": "reserved"
-      },
-      {
-        "round": 255,
-        "path": "assets/walk/slot_0255.png",
-        "status": "reserved"
-      },
-      {
-        "round": 275,
-        "path": "assets/walk/slot_0275.png",
-        "status": "reserved"
-      },
-      {
-        "round": 295,
-        "path": "assets/walk/slot_0295.png",
-        "status": "reserved"
-      },
-      {
-        "round": 315,
-        "path": "assets/walk/slot_0315.png",
-        "status": "reserved"
-      },
-      {
-        "round": 335,
-        "path": "assets/walk/slot_0335.png",
-        "status": "reserved"
-      },
-      {
-        "round": 355,
-        "path": "assets/walk/slot_0355.png",
-        "status": "reserved"
-      },
-      {
-        "round": 375,
-        "path": "assets/walk/slot_0375.png",
-        "status": "reserved"
-      },
-      {
-        "round": 395,
-        "path": "assets/walk/slot_0395.png",
-        "status": "reserved"
-      },
-      {
-        "round": 415,
-        "path": "assets/walk/slot_0415.png",
-        "status": "reserved"
-      },
-      {
-        "round": 435,
-        "path": "assets/walk/slot_0435.png",
-        "status": "reserved"
-      },
-      {
-        "round": 455,
-        "path": "assets/walk/slot_0455.png",
-        "status": "reserved"
-      },
-      {
-        "round": 475,
-        "path": "assets/walk/slot_0475.png",
-        "status": "reserved"
-      },
-      {
-        "round": 495,
-        "path": "assets/walk/slot_0495.png",
-        "status": "reserved"
-      },
-      {
-        "round": 515,
-        "path": "assets/walk/slot_0515.png",
-        "status": "reserved"
-      },
-      {
-        "round": 535,
-        "path": "assets/walk/slot_0535.png",
-        "status": "reserved"
-      },
-      {
-        "round": 555,
-        "path": "assets/walk/slot_0555.png",
-        "status": "reserved"
-      },
-      {
-        "round": 575,
-        "path": "assets/walk/slot_0575.png",
-        "status": "reserved"
-      },
-      {
-        "round": 595,
-        "path": "assets/walk/slot_0595.png",
-        "status": "reserved"
-      },
-      {
-        "round": 615,
-        "path": "assets/walk/slot_0615.png",
-        "status": "reserved"
-      },
-      {
-        "round": 635,
-        "path": "assets/walk/slot_0635.png",
-        "status": "reserved"
-      },
-      {
-        "round": 655,
-        "path": "assets/walk/slot_0655.png",
-        "status": "reserved"
-      },
-      {
-        "round": 675,
-        "path": "assets/walk/slot_0675.png",
-        "status": "reserved"
-      },
-      {
-        "round": 695,
-        "path": "assets/walk/slot_0695.png",
-        "status": "reserved"
-      },
-      {
-        "round": 715,
-        "path": "assets/walk/slot_0715.png",
-        "status": "reserved"
-      },
-      {
-        "round": 735,
-        "path": "assets/walk/slot_0735.png",
-        "status": "reserved"
-      },
-      {
-        "round": 755,
-        "path": "assets/walk/slot_0755.png",
-        "status": "reserved"
-      },
-      {
-        "round": 775,
-        "path": "assets/walk/slot_0775.png",
-        "status": "reserved"
-      },
-      {
-        "round": 795,
-        "path": "assets/walk/slot_0795.png",
-        "status": "reserved"
-      },
-      {
-        "round": 815,
-        "path": "assets/walk/slot_0815.png",
-        "status": "reserved"
-      },
-      {
-        "round": 835,
-        "path": "assets/walk/slot_0835.png",
-        "status": "reserved"
-      },
-      {
-        "round": 855,
-        "path": "assets/walk/slot_0855.png",
-        "status": "reserved"
-      },
-      {
-        "round": 875,
-        "path": "assets/walk/slot_0875.png",
-        "status": "reserved"
-      },
-      {
-        "round": 895,
-        "path": "assets/walk/slot_0895.png",
-        "status": "reserved"
-      },
-      {
-        "round": 915,
-        "path": "assets/walk/slot_0915.png",
-        "status": "reserved"
-      },
-      {
-        "round": 935,
-        "path": "assets/walk/slot_0935.png",
-        "status": "reserved"
-      },
-      {
-        "round": 955,
-        "path": "assets/walk/slot_0955.png",
-        "status": "reserved"
-      },
-      {
-        "round": 975,
-        "path": "assets/walk/slot_0975.png",
-        "status": "reserved"
-      },
-      {
-        "round": 995,
-        "path": "assets/walk/slot_0995.png",
-        "status": "reserved"
-      }
+      "assets/scenes/walk-path.jpg"
+    ],
+    "garden": [
+      "assets/garden/windowsill.jpg",
+      "assets/plants/mint-stages.jpg",
+      "assets/ui/garden-actions.jpg"
+    ],
+    "shop": [
+      "assets/shop/soda-hero.jpg",
+      "assets/shop/berry-soda.jpg",
+      "assets/shop/customers-sheet.jpg",
+      "assets/shop/cups-set.jpg"
+    ],
+    "album": [
+      "assets/album/diary-cover.jpg"
+    ],
+    "items": [
+      "assets/items/collectibles-sheet.jpg",
+      "assets/items/nature-bits.jpg"
     ]
-  }
+  },
+  "generatedAt": "2026-07-23T19:51:34.458Z"
 }

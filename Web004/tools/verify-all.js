@@ -21,9 +21,11 @@ write("progress-count.txt", stats.stdout + stats.stderr);
 // 2 commits
 const log = execSync('git log --oneline', { cwd: REPO, encoding: "utf8", maxBuffer: 20 * 1024 * 1024 });
 const lines = log.trim().split("\n").filter(Boolean);
-const alibaba = lines.filter((l) =>
-  / (feat|fix|fix|docs|style|refactor|chore|assets|perf|ci|build)\([a-z0-9_-]+\): R\d{4} /.test(l)
-);
+const alibaba = lines.filter((l) => {
+  // subjects only: strip hash prefix from --oneline
+  const subj = l.replace(/^[0-9a-f]+\s+/, "");
+  return /^(feat|fix|test|docs|style|refactor|chore|assets|perf|ci|build)\([a-z0-9_-]+\): R\d{4} /.test(subj);
+});
 write(
   "commit-stats.txt",
   JSON.stringify({ totalCommits: lines.length, alibabaRoundCommits: alibaba.length, sample: alibaba.slice(0, 10) }, null, 2)
