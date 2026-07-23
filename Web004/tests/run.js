@@ -671,5 +671,23 @@ test("curated collectibles seashell pinecone ship in content-extra", () => {
   assert.ok((j.flavors || []).some((f) => f.id === "tea_leaf"));
 });
 
+test("garden talkLines unique and present in game-data", () => {
+  const g = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "garden-config.json"), "utf8"));
+  assert.ok(Array.isArray(g.talkLines) && g.talkLines.length >= 6);
+  assert.strictEqual(new Set(g.talkLines).size, g.talkLines.length);
+  g.talkLines.forEach((line) => assert.ok(!/#\d{2,}/.test(line) && line.length > 6));
+  const gd = fs.readFileSync(path.join(__dirname, "..", "js", "game-data.js"), "utf8");
+  assert.ok(gd.includes("talkLines"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("talkPool"));
+});
+
+test("build-meta shows version in settings", () => {
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes('id="build-meta"'));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("build-meta") && game.includes("Core.VERSION"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

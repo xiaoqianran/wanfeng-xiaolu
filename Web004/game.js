@@ -153,6 +153,10 @@
   }
 
   function applySettingsToDom() {
+    const meta = document.getElementById("build-meta");
+    if (meta) {
+      meta.textContent = "晚风小路 · 存档 v" + (Core.VERSION || "?") + " · 主题 " + (state.pathThemeId || "maple_lane");
+    }
     const st = Core.getSettings(state);
     document.body.classList.toggle("reduce-motion", !!st.reduceMotion);
     const sound = document.getElementById("set-sound");
@@ -1063,9 +1067,19 @@
     if (!pot.plantId) return;
 
     const careBonus = gardenCfg.careBonus || 1;
+    const talkPool =
+      gardenCfg.talkLines && gardenCfg.talkLines.length
+        ? gardenCfg.talkLines
+        : gardenCfg.messages;
+    const msgPool =
+      act === "talk"
+        ? talkPool
+        : gardenCfg.messages && gardenCfg.messages.length
+          ? gardenCfg.messages
+          : null;
     const gardenMsg =
-      gardenCfg.messages && gardenCfg.messages.length
-        ? gardenCfg.messages[Math.floor(Math.random() * gardenCfg.messages.length)]
+      msgPool && msgPool.length
+        ? msgPool[Math.floor(Math.random() * msgPool.length)]
         : null;
 
     if (act === "water" || act === "sun" || act === "talk") {
