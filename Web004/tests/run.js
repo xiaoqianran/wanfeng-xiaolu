@@ -1106,5 +1106,41 @@ test("evening events expanded unique and shop/garden icons unique", () => {
   assert.ok(html.includes("icon-shop.png") && html.includes("icon-garden.png") && html.includes("icon-bag.png"));
 });
 
+test("album kind filter UI and shop shelf ship", () => {
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("album-kind-filters"));
+  assert.ok(html.includes('data-kind="风味"'));
+  assert.ok(html.includes("shop-shelf"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("albumKindFilter"));
+  assert.ok(game.includes("renderShopShelf"));
+  assert.ok(game.includes("shelfDrinks"));
+  assert.ok(game.includes("season-") || game.includes("seasonClass"));
+  const css = fs.readFileSync(path.join(__dirname, "..", "styles.css"), "utf8");
+  assert.ok(css.includes("kind-chip") && css.includes("shop-shelf") && css.includes("season-spring"));
+});
+
+test("lilac plantable and daily goals include pot_note_day", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.lilac && j.plants.lilacPot);
+  assert.ok((j.flavors || []).some((f) => f.id === "lilac"));
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants });
+  const s = core.defaultState();
+  s.bag.lilac = 1;
+  assert.ok(core.plantSeed(s, 0, "lilac", cat).ok);
+  assert.ok(core.DAILY_GOAL_DEFS.some((d) => d.id === "pot_note_day"));
+  assert.ok(core.DAILY_GOAL_DEFS.some((d) => d.id === "bench_once"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "丁香暮色"));
+  const mail = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "mail.json"), "utf8"));
+  assert.ok(mail.some((m) => m.id === "mail_lilac"));
+});
+
+test("album item filter drops mass template seed ids in game code", () => {
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("seed_") && game.includes("albumKindFilter"));
+  assert.ok(game.includes("filter((it)") || game.includes("albumKindFilter !=="));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
