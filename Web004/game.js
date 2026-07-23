@@ -945,6 +945,17 @@
       ctx.beginPath();
       ctx.ellipse(w * 0.35, h * 0.7, 28, 8, 0, 0, Math.PI * 2);
       ctx.fill();
+    } else if (themeId === "reed_bank") {
+      // soft vertical reed silhouettes
+      ctx.strokeStyle = "rgba(90,110,70,0.25)";
+      ctx.lineWidth = 2;
+      for (let i = 0; i < 14; i++) {
+        const x = 20 + i * (w / 14) + Math.sin(time * 0.02 + i) * 3;
+        ctx.beginPath();
+        ctx.moveTo(x, h * 0.45);
+        ctx.quadraticCurveTo(x + 4, h * 0.6, x - 2, h * 0.78);
+        ctx.stroke();
+      }
     }
   }
 

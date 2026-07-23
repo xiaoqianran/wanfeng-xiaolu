@@ -1804,5 +1804,18 @@ test("fennel flavor and USER_MANUAL daily special", () => {
   assert.ok(man.includes("小特调") || man.includes("特调"));
 });
 
+
+test("reed_bank theme among 22 unique themes", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "reed_bank"));
+  assert.ok(themes.length >= 22);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("reed_bank"));
+  const ev = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(ev.length >= 340);
+  assert.strictEqual(new Set(ev.map((e) => e.title)).size, ev.length);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
