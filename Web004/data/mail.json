@@ -33,5 +33,58 @@
     "effect": {
       "coins": 3
     }
+  },
+  {
+    "id": "mail_mint",
+    "title": "薄荷的问候",
+    "body": "叶子夹在信纸里，还有一点凉。",
+    "effect": {
+      "items": {
+        "mint": 2
+      }
+    }
+  },
+  {
+    "id": "mail_dusk",
+    "title": "黄昏速写",
+    "body": "画得很潦草，却能认出你家的窗。",
+    "effect": {
+      "hearts": 1,
+      "coins": 1
+    }
+  },
+  {
+    "id": "mail_song",
+    "title": "没有谱的歌",
+    "body": "只写了：啦——啦——风——",
+    "effect": {
+      "hearts": 1
+    }
+  },
+  {
+    "id": "mail_key",
+    "title": "不是钥匙的钥匙",
+    "body": "黄铜片，什么锁也打不开，却很沉。",
+    "effect": {
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_berry",
+    "title": "一盒野莓",
+    "body": "化了一些，更甜。字条：别一个人吃完。",
+    "effect": {
+      "items": {
+        "berry": 3
+      }
+    }
+  },
+  {
+    "id": "mail_quiet",
+    "title": "静音邀请",
+    "body": "周末来坐坐。可以不说话。",
+    "effect": {
+      "hearts": 2
+    }
   }
 ]
