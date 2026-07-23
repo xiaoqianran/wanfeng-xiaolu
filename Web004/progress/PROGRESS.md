@@ -635,3 +635,4 @@
 | 628 | completed | feat | Add secret recipe stub #31 | Recipes=31 | `feat(shop): R0628 Add secret recipe stub #31` |
 | 629 | completed | feat | Add achievement definition #31 | Achievements=31 | `feat(meta): R0629 Add achievement definition #31` |
 | 630 | completed | style | CSS micro polish token #31 | CSS token hue=270 | `style(ui): R0630 CSS micro polish token #31` |
+| 631 | completed | feat | Add plantable linkage #31 | Plant link plant_lavender_0631 | `feat(content): R0631 Add plantable linkage #31` |
