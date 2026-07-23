@@ -308,3 +308,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0309 | completed | test | 置顶回归 | 150 tests pass | `feat(bag): A0308 竹篮物品置顶钉选` |
 | A0310 | completed | docs | 手册竹篮置顶 | USER_MANUAL bag pin | `docs(manual): A0310 手册竹篮置顶与相关事件` |
 | A0311 | completed | content | 置顶事件 | bag pin vignettes | `docs(manual): A0310 手册竹篮置顶与相关事件` |
+| A0312 | completed | feat | 星码头主题 | star_dock 23rd + star/water FX | `feat(walk): A0312 星码头主题与星河特效` |
+| A0313 | completed | test | 星码头回归 | 151 tests pass | `feat(walk): A0312 星码头主题与星河特效` |
