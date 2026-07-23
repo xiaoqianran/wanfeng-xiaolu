@@ -535,3 +535,4 @@
 | 528 | completed | assets | Wire real stage art reference into runtime manifest #43 | live art assets/album/live_0528.jpg from assets/seasons/dusk.jpg (≥1KB) | `assets(ui): R0528 Wire real stage art reference into runtime manifest #43` |
 | 529 | completed | feat | Ship collectible + runtime catalog item #44 | Runtime item grape_r0529 | `feat(content): R0529 Ship collectible + runtime catalog item #44` |
 | 530 | completed | feat | Ship customer persona into runtime #44 | Runtime customer 图书馆员·530 | `feat(shop): R0530 Ship customer persona into runtime #44` |
+| 531 | completed | feat | Ship walk ambient + pathWidth into runtime #44 | walk pathWidth=3331 ambient=96 | `feat(walk): R0531 Ship walk ambient + pathWidth into runtime #44` |
