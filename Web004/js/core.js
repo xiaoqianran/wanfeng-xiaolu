@@ -213,6 +213,8 @@
     { id: "tend_plant", name: "照料一株植物", desc: "浇水、日照或说说话一次", check: function (s, p) { return (s._tendsToday || 0) >= 1; } },
     { id: "serve_one", name: "招待一位客人", desc: "成功端出一杯汽水", check: function (s, p) { return ((s.stats && s.stats.drinksServed) || 0) > (p.drinksServed || 0); } },
     { id: "journal_day", name: "留下一行手帐", desc: "任意行为写入手帐", check: function (s, p) { return (s.journal || []).length > (p.journalLen || 0); } },
+    { id: "pot_note_day", name: "写一句花盆便签", desc: "给植物贴一张便签", check: function (s, p) { return ((s.stats && s.stats.potNotes) || 0) > (p.potNotes || 0); } },
+    { id: "bench_once", name: "长椅歇脚一次", desc: "在小路长椅坐下歇歇", check: function (s, p) { return ((s.stats && s.stats.benchSits) || 0) > (p.benchSits || 0); } },
   ];
 
   function dayKey(ts) {
@@ -245,6 +247,8 @@
           itemsPicked: (state.stats && state.stats.itemsPicked) || 0,
           drinksServed: (state.stats && state.stats.drinksServed) || 0,
           journalLen: (state.journal || []).length,
+          potNotes: (state.stats && state.stats.potNotes) || 0,
+          benchSits: (state.stats && state.stats.benchSits) || 0,
         },
         completed: {},
         claimed: false,
@@ -683,7 +687,7 @@
     }
     // soft seasonal affinity (optional catalogs.season)
     var season = catalogs.season || customer.season;
-    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || baseDef.id === "floral_tea")) {
+    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || baseDef.id === "floral_tea")) {
       score += 0.5;
       notes.push("春日花香");
     }
