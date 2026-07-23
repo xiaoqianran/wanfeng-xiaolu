@@ -228,3 +228,4 @@
 | 221 | completed | feat | Add collectible item batch #11 | Item pine_r0221 added | `feat(content): R0221 Add collectible item batch #11` |
 | 222 | completed | feat | Add customer persona #11 | Customer 滑板少年·222 | `feat(shop): R0222 Add customer persona #11` |
 | 223 | completed | feat | Add dialogue line #11 | Dialogue count=11 | `feat(content): R0223 Add dialogue line #11` |
+| 224 | completed | feat | Add garden care whisper #11 | Garden msg #12 | `feat(garden): R0224 Add garden care whisper #11` |
