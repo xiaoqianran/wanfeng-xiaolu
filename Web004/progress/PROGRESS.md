@@ -1062,3 +1062,4 @@
 | 1055 | completed | assets | Asset slot registration #52 | Asset slot assets/walk/slot_1055.png | `assets(manifest): R1055 Asset slot registration #52` |
 | 1056 | completed | test | Regression assertion pack #52 | Test pack size=54 | `test(core): R1056 Regression assertion pack #52` |
 | 1057 | completed | assets | Summer season refresh and journal-open art | summer.jpg + journal-open.jpg | `assets(album): R1057 ...` |
+| 1058 | completed | assets | Night shop window art integration | night-window.jpg | `assets(shop): R1058 ...` |
