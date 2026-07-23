@@ -822,3 +822,4 @@
 {"round":822,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #41","outcome":"Customer 滑板少年·822","commit":"feat(shop): R0822 Add customer persona #41","at":"2026-07-23T19:50:16.861Z"}
 {"round":823,"status":"completed","type":"feat","scope":"content","goal":"Add dialogue line #41","outcome":"Dialogue count=41","commit":"feat(content): R0823 Add dialogue line #41","at":"2026-07-23T19:50:16.891Z"}
 {"round":824,"status":"completed","type":"feat","scope":"garden","goal":"Add garden care whisper #41","outcome":"Garden msg #42","commit":"feat(garden): R0824 Add garden care whisper #41","at":"2026-07-23T19:50:16.919Z"}
+{"round":825,"status":"completed","type":"feat","scope":"shop","goal":"Add shop tip #41","outcome":"Shop tip #42","commit":"feat(shop): R0825 Add shop tip #41","at":"2026-07-23T19:50:16.953Z"}
