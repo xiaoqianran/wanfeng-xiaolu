@@ -90,7 +90,8 @@
     "assets/shop/live_0252.jpg",
     "assets/ui/live_0264.jpg",
     "assets/garden/live_0276.jpg",
-    "assets/album/live_0288.jpg"
+    "assets/album/live_0288.jpg",
+    "assets/walk/live_0300.jpg"
   ],
   "stages": {
     "home": [
@@ -137,6 +138,12 @@
         "path": "assets/walk/live_0240.jpg",
         "status": "live",
         "source": "assets/seasons/autumn.jpg"
+      },
+      {
+        "round": 300,
+        "path": "assets/walk/live_0300.jpg",
+        "status": "live",
+        "source": "assets/items/collectibles-sheet.jpg"
       }
     ],
     "garden": [
