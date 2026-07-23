@@ -291,3 +291,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0292 | completed | feat | 发现型成就 | coastal_set herb_garden achievements | `feat(meta): A0292 潮湾三件套与草本窗台成就` |
 | A0293 | completed | content | 手帐特调文案 | journal 40 dialogues 32 | `feat(meta): A0292 潮湾三件套与草本窗台成就` |
 | A0294 | completed | test | 成就回归 | 145 tests pass | `feat(meta): A0292 潮湾三件套与草本窗台成就` |
+| A0295 | completed | feat | 十路图鉴成就 | path_catalog specialist_hand | `feat(meta): A0295 十路图鉴成就与浮木片收藏` |
+| A0296 | completed | content | 浮木片 | driftwood collectible | `feat(meta): A0295 十路图鉴成就与浮木片收藏` |
+| A0297 | completed | test | 十路浮木回归 | 146 tests pass | `feat(meta): A0295 十路图鉴成就与浮木片收藏` |
