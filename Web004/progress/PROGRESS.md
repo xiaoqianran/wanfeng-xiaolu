@@ -659,3 +659,4 @@
 | 652 | completed | feat | Add flavor or base option #32 | Flavor fl_matcha_0652 | `feat(shop): R0652 Add flavor or base option #32` |
 | 653 | completed | feat | UI copy toast string #32 | UI toasts=33 | `feat(ui): R0653 UI copy toast string #32` |
 | 654 | completed | feat | Season palette note #32 | Season palette winter_0654 | `feat(season): R0654 Season palette note #32` |
+| 655 | completed | assets | Asset slot registration #32 | Asset slot assets/walk/slot_0655.png | `assets(manifest): R0655 Asset slot registration #32` |
