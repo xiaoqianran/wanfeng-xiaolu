@@ -70,7 +70,8 @@
     "assets/shop/live_0012.jpg",
     "assets/ui/live_0024.jpg",
     "assets/garden/live_0036.jpg",
-    "assets/album/live_0048.jpg"
+    "assets/album/live_0048.jpg",
+    "assets/walk/live_0060.jpg"
   ],
   "stages": {
     "home": [
@@ -93,6 +94,12 @@
         "round": 1055,
         "path": "assets/walk/slot_1055.png",
         "status": "reserved"
+      },
+      {
+        "round": 60,
+        "path": "assets/walk/live_0060.jpg",
+        "status": "live",
+        "source": "assets/ui/achievements-badges.jpg"
       }
     ],
     "garden": [
