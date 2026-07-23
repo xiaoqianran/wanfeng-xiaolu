@@ -278,3 +278,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0279 | completed | feat | 罗勒养成 | basil plant+flavor+recipe+customer | `feat(walk): A0278 井沿月色主题与罗勒养成` |
 | A0280 | completed | content | 特调月井事件 | 337 events + special/basil mail | `feat(walk): A0278 井沿月色主题与罗勒养成` |
 | A0281 | completed | test | 特调月井回归 | 141 tests pass | `test(shop): A0279 今日特调与月井罗勒回归` |
+| A0282 | completed | feat | 茴香风味 | fennel item+flavor+recipe autumn score | `feat(shop): A0282 茴香风味与手册今日特调` |
+| A0283 | completed | docs | 手册特调 | USER_MANUAL daily special + moon_well | `feat(shop): A0282 茴香风味与手册今日特调` |
+| A0284 | completed | test | 茴香特调回归 | 142 tests pass | `feat(shop): A0282 茴香风味与手册今日特调` |
