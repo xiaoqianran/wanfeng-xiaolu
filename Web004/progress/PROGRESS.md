@@ -103,3 +103,4 @@
 | 96 | completed | test | Regression assertion pack #4 | Test pack size=6 | `test(core): R0096 Regression assertion pack #4` |
 | 97 | completed | feat | Path theme fragment #4 | Path themes=9 | `feat(walk): R0097 Path theme fragment #4` |
 | 98 | completed | feat | Topping or cup option #4 | Topping top_r0098 | `feat(content): R0098 Topping or cup option #4` |
+| 99 | completed | docs | Stage milestone summary #4 | Stage doc stage-02.md | `docs(progress): R0099 Stage milestone summary #4` |
