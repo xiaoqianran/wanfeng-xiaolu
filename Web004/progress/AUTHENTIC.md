@@ -419,3 +419,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0420 | completed | feat | 荔枝与五十路 | litchiPot+path_fifty | feat(garden): A0420 荔枝可种植与五十路成就 |
 | A0421 | completed | feat | 荔枝林径第50条 | litchi_grove 50th unique theme | feat(walk): A0421 荔枝林径主题（第50条小路） |
 | A0422 | completed | test | 五十路回归 | 182 pass 50 themes | test(docs): A0422 五十小路里程碑回归 |
+| A0423 | completed | feat | 枇杷可种植 | loquatPot | feat(garden): A0423 枇杷可种植窗台 |
+| A0424 | completed | feat | 枇杷巷 | loquat_lane 51st | feat(walk): A0424 枇杷巷主题与金果特效 |
+| A0425 | completed | test | 回归手册 | 183 pass | test(docs): A0425 枇杷巷回归与手册 |
