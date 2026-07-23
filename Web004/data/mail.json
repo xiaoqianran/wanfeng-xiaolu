@@ -469,5 +469,24 @@
       },
       "hearts": 1
     }
+  },
+  {
+    "id": "mail_dill",
+    "title": "莳萝种子",
+    "body": "很小一包。字条：种了就能闻见夏天。",
+    "effect": {
+      "items": {
+        "dill": 2
+      }
+    }
+  },
+  {
+    "id": "mail_sticker",
+    "title": "空白贴纸",
+    "body": "还没图案。字条：留给你自己的路。",
+    "effect": {
+      "hearts": 1,
+      "coins": 1
+    }
   }
 ]
