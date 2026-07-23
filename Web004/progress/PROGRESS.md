@@ -529,3 +529,4 @@
 | 522 | completed | feat | Add customer persona #26 | Customer 滑板少年·522 | `feat(shop): R0522 Add customer persona #26` |
 | 523 | completed | feat | Add dialogue line #26 | Dialogue count=26 | `feat(content): R0523 Add dialogue line #26` |
 | 524 | completed | feat | Add garden care whisper #26 | Garden msg #27 | `feat(garden): R0524 Add garden care whisper #26` |
+| 525 | completed | feat | Add shop tip #26 | Shop tip #27 | `feat(shop): R0525 Add shop tip #26` |
