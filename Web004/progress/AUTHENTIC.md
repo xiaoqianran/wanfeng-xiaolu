@@ -218,3 +218,4 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0219 | completed | art | 雪灯常走图标 | icon-snow star-path unique PNGs | `art(ui): A0219 雪灯与常走小路独特图标` |
 | A0220 | completed | test | 图标回归 | 125 tests pass | `art(ui): A0219 雪灯与常走小路独特图标` |
 | A0221 | completed | docs | 续作卡213 | resume 213 | `docs(autodev): A0221 续作卡 authentic 213` |
+| A0222 | completed | content | 事件至267则 | 267 unique events | `content(events): A0222 晚间 vignette 至二六七则` |
