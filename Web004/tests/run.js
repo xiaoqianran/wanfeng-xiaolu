@@ -2730,5 +2730,34 @@ test("hawthorn plantable hawthorn_path 53 themes", () => {
   assert.ok(man.includes("山楂短径"));
 });
 
+
+test("mango plantable firstThemeVisit journal 54 themes", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  const s = core.defaultState();
+  const r = core.setPathTheme(s, "mango_shade", themes);
+  assert.ok(r.ok && r.firstVisit);
+  assert.ok((s.stats.firstThemeVisits || 0) >= 1);
+  assert.ok((s.journal || []).some((line) => String(line).includes("第一次") || String(line.text || "").includes("第一次") || String(line).includes("芒果")));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "path_scribe"));
+
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.mango && j.plants.mangoPot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s2 = core.defaultState();
+  s2.bag.mango = 1;
+  assert.ok(core.plantSeed(s2, 0, "mango", cat).ok);
+  assert.ok(themes.some((th) => th.id === "mango_shade"));
+  assert.ok(themes.length >= 54);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("mango_shade"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "芒果汽泡"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("芒果树荫") && man.includes("换路手帐"));
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
