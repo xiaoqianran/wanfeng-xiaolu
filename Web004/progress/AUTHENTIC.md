@@ -258,3 +258,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0259 | completed | feat | 小路里程贴纸 | PATH_MILESTONES 5/15/30/50 stickers | `feat(walk): A0259 小路里程贴纸 5/15/30/50` |
 | A0260 | completed | test | 贴纸回归 | 135 tests pass | `feat(walk): A0259 小路里程贴纸 5/15/30/50` |
 | A0261 | completed | docs | 手册贴纸 | USER_MANUAL stickers | `docs(manual): A0261 手册同步小路贴纸与续作卡` |
+| A0262 | completed | feat | 莳萝养成 | dill plant+flavor+recipe+customer | `feat(garden): A0262 莳萝可种植与田园陶配方` |
+| A0263 | completed | test | 莳萝回归 | 136 tests pass | `feat(garden): A0262 莳萝可种植与田园陶配方` |
