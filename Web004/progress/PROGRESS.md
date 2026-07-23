@@ -915,3 +915,4 @@
 | 908 | completed | feat | Add secret recipe stub #45 | Recipes=45 | `feat(shop): R0908 Add secret recipe stub #45` |
 | 909 | completed | feat | Add achievement definition #45 | Achievements=45 | `feat(meta): R0909 Add achievement definition #45` |
 | 910 | completed | style | CSS micro polish token #45 | CSS token hue=350 | `style(ui): R0910 CSS micro polish token #45` |
+| 911 | completed | feat | Add plantable linkage #45 | Plant link plant_pine_0911 | `feat(content): R0911 Add plantable linkage #45` |
