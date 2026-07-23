@@ -413,3 +413,4 @@
 | 406 | completed | style | Ship CSS accent token used by app shell #33 | CSS --r-accent hue=62 wired to brand/primary | `style(ui): R0406 Ship CSS accent token used by app shell #33` |
 | 407 | completed | feat | Ship plantable seed linkage into runtime #33 | plant link plant_orange_0407 harvest=seed_orange_0407 | `feat(content): R0407 Ship plantable seed linkage into runtime #33` |
 | 408 | completed | assets | Wire real stage art reference into runtime manifest #33 | live art assets/album/live_0408.jpg from assets/album/journal-open.jpg (≥1KB) | `assets(ui): R0408 Wire real stage art reference into runtime manifest #33` |
+| 409 | completed | feat | Ship collectible + runtime catalog item #34 | Runtime item grape_r0409 | `feat(content): R0409 Ship collectible + runtime catalog item #34` |
