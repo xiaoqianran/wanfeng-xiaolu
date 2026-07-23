@@ -146,3 +146,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0147 | completed | content | 事件至122则 | 122 unique hand-authored vignettes | `content(events): A0147 晚间 vignette 至一二二则` |
 | A0148 | completed | content | 手帐三则 | 萤火/常客/心情脸 templates | `content(events): A0147 晚间 vignette 至一二二则` |
 | A0149 | completed | test | 反模板事件测试 | 106 tests; ban #N spam titles | `content(events): A0147 晚间 vignette 至一二二则` |
+| A0150 | completed | art | 水壶常客图标 | icon-can pin firefly unique PNGs | `art(ui): A0150 水壶常客萤火独特程序化图标` |
+| A0151 | completed | test | 图标唯一尺寸 | 107 tests pass | `art(ui): A0150 水壶常客萤火独特程序化图标` |

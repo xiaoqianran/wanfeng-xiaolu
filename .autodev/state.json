@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 148,
+  "current_round": 150,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 142,
-  "authentic_game_integrated_rounds": 119,
+  "authentic_rounds_completed": 144,
+  "authentic_game_integrated_rounds": 120,
   "template_spam_archived": true,
   "current_milestone": "authentic rebuild A012x",
-  "current_task_id": "A0150-next",
-  "last_completed_task_id": "A0149",
-  "last_commit": "5afc51c",
+  "current_task_id": "A0152-next",
+  "last_completed_task_id": "A0151",
+  "last_commit": "a7cab02",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "106 passed, 0 failed",
+  "last_test_summary": "107 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~858) multi-session"
+    "gap to 1000 authentic (~856) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -34,6 +34,6 @@
     "shop favorite pin",
     "path collectible sparkle"
   ],
-  "resume_instructions": "Continue A0150+. Spam DISABLED. Gap ~858.",
-  "updated_at": "2026-07-23T21:50:05.244821+00:00"
+  "resume_instructions": "Continue A0152+. Spam DISABLED. Gap ~856. authentic-rounds.jsonl SoT. Three pillars.",
+  "updated_at": "2026-07-23T21:50:43.898813+00:00"
 }
