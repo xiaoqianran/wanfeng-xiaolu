@@ -918,3 +918,4 @@
 | 911 | completed | feat | Add plantable linkage #45 | Plant link plant_pine_0911 | `feat(content): R0911 Add plantable linkage #45` |
 | 912 | completed | feat | Add flavor or base option #45 | Flavor fl_shell_0912 | `feat(shop): R0912 Add flavor or base option #45` |
 | 913 | completed | feat | UI copy toast string #45 | UI toasts=46 | `feat(ui): R0913 UI copy toast string #45` |
+| 914 | completed | feat | Season palette note #45 | Season palette winter_0914 | `feat(season): R0914 Season palette note #45` |
