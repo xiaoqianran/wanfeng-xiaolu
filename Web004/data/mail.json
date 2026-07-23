@@ -133,5 +133,82 @@
     "effect": {
       "hearts": 2
     }
+  },
+  {
+    "id": "mail_flower_lane",
+    "title": "花市巷的折角纸",
+    "body": "纸条上画了一朵歪歪的山茶：如果你路过，记得慢一点。",
+    "effect": {
+      "items": {
+        "petal": 2
+      },
+      "hearts": 1
+    }
+  },
+  {
+    "id": "mail_rosemary",
+    "title": "迷迭香一枝",
+    "body": "叶尖还带着露。字条只写：插进土里就好。",
+    "effect": {
+      "items": {
+        "rosemary": 2
+      }
+    }
+  },
+  {
+    "id": "mail_shop_hours",
+    "title": "营业时间不必严谨",
+    "body": "有人来就开，没人来就看书。署名：隔壁。",
+    "effect": {
+      "hearts": 1,
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind_map",
+    "title": "风的方向",
+    "body": "箭头弯来弯去，最后停在你家窗台。",
+    "effect": {
+      "coins": 3
+    }
+  },
+  {
+    "id": "mail_empty_cup",
+    "title": "空杯子也可以",
+    "body": "有时候坐着听雨，比喝什么都重要。",
+    "effect": {
+      "hearts": 2
+    }
+  },
+  {
+    "id": "mail_seed_share",
+    "title": "分你一半",
+    "body": "信封里沙沙响，是晒干的茶芽与一粒说不清的种子。",
+    "effect": {
+      "items": {
+        "tea_leaf": 1,
+        "clover": 1
+      }
+    }
+  },
+  {
+    "id": "mail_lantern_note",
+    "title": "灯笼下的便条",
+    "body": "写着：今晚巷子里的灯为晚归的人留着。",
+    "effect": {
+      "items": {
+        "ribbon": 1
+      },
+      "hearts": 1
+    }
+  },
+  {
+    "id": "mail_soft_score",
+    "title": "没有分数的考试",
+    "body": "题目只有一行：你今天有没有对自己温柔一点？",
+    "effect": {
+      "hearts": 2,
+      "coins": 1
+    }
   }
 ]
