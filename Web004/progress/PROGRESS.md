@@ -727,3 +727,4 @@
 | 720 | completed | assets | Wire real stage art reference into runtime manifest #59 | live art assets/walk/live_0720.jpg from assets/ui/achievements-badges.jpg (≥1KB) | `assets(ui): R0720 Wire real stage art reference into runtime manifest #59` |
 | 721 | completed | feat | Ship collectible + runtime catalog item #60 | Runtime item lavender_r0721 | `feat(content): R0721 Ship collectible + runtime catalog item #60` |
 | 722 | completed | feat | Ship customer persona into runtime #60 | Runtime customer 织围巾的阿姨·722 | `feat(shop): R0722 Ship customer persona into runtime #60` |
+| 723 | completed | feat | Ship walk ambient + pathWidth into runtime #60 | walk pathWidth=3323 ambient=112 | `feat(walk): R0723 Ship walk ambient + pathWidth into runtime #60` |
