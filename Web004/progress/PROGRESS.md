@@ -1006,3 +1006,4 @@
 | 999 | completed | docs | Stage milestone summary #49 | Stage doc stage-20.md | `docs(progress): R0999 Stage milestone summary #49` |
 | 1000 | completed | refactor | Catalog integrity pass #49 | Integrity items=99 customers=49 | `refactor(core): R1000 Catalog integrity pass #49` |
 | 1001 | completed | feat | Integrate generated art + content-extra.js runtime + verify suite | Shipped file:// content merge and multi-stage art | `feat(ui): R1001 integrate generated art, content-extra runtime, verification tools` |
+| 1002 | completed | assets | Add empty-pot art and cozy-safe filter | empty-pot.jpg + filter rewrite | `assets(ui): R1002 add empty-pot art and cozy-safe combat filter` |
