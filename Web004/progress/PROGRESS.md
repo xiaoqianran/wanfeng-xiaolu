@@ -850,3 +850,4 @@
 | 843 | completed | feat | Add dialogue line #42 | Dialogue count=42 | `feat(content): R0843 Add dialogue line #42` |
 | 844 | completed | feat | Add garden care whisper #42 | Garden msg #43 | `feat(garden): R0844 Add garden care whisper #42` |
 | 845 | completed | feat | Add shop tip #42 | Shop tip #43 | `feat(shop): R0845 Add shop tip #42` |
+| 846 | completed | feat | Tune walk ambient note #42 | Walk ambient #42 | `feat(walk): R0846 Tune walk ambient note #42` |
