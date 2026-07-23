@@ -748,3 +748,4 @@
 | 741 | completed | feat | Add collectible item batch #37 | Item cocoa_r0741 added | `feat(content): R0741 Add collectible item batch #37` |
 | 742 | completed | feat | Add customer persona #37 | Customer 夜跑爱好者·742 | `feat(shop): R0742 Add customer persona #37` |
 | 743 | completed | feat | Add dialogue line #37 | Dialogue count=37 | `feat(content): R0743 Add dialogue line #37` |
+| 744 | completed | feat | Add garden care whisper #37 | Garden msg #38 | `feat(garden): R0744 Add garden care whisper #37` |
