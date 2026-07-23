@@ -212,3 +212,4 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0213 | completed | content | 事件至252则 | 252 unique events | `content(events): A0213 晚间 vignette 至二五二则` |
 | A0214 | completed | docs | 决策记录 | DECISIONS strategy | `docs(decisions): A0214 记录 authentic 扩展策略` |
 | A0215 | completed | balance | 日礼池扩充 | gift pool + rare bag | `balance(daily): A0215 日礼池与小珍藏纳入新收集物` |
+| A0216 | completed | docs | 路线图锚点 | ROADMAP 208 | `docs(roadmap): A0216 更新执行锚点 authentic 208` |
