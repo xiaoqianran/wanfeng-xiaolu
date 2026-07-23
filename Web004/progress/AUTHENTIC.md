@@ -376,3 +376,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0377 | completed | feat | 灯桥夜步 | lantern_bridge 38th | feat(walk): A0377 灯桥夜步主题与灯笼光晕 |
 | A0378 | completed | content | 蜜桃灯桥内容 | events+recipes | content(events): A0378 蜜桃灯桥 vignette 与配方 |
 | A0379 | completed | test | 回归手册 | 170 pass | test(docs): A0379 蜜桃灯桥回归与手册 |
+| A0380 | completed | feat | 松针与独特文案 | pineNeedlePot+ambient | feat(garden): A0380 松针可种植与独特散步文案 |
+| A0381 | completed | feat | 松脊晚风 | pine_ridge 39th | feat(walk): A0381 松脊晚风主题与松影特效 |
+| A0382 | completed | content | 松脊内容 | events+recipe | content(events): A0382 松脊 vignette 与松针清茶 |
+| A0383 | completed | test | 回归手册 | 171 pass | test(docs): A0383 松脊回归与手册 |
