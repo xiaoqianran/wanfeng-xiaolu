@@ -733,3 +733,4 @@
 | 726 | completed | feat | Tune walk ambient note #36 | Walk ambient #36 | `feat(walk): R0726 Tune walk ambient note #36` |
 | 727 | completed | feat | Add journal template #36 | Journal templates=36 | `feat(album): R0727 Add journal template #36` |
 | 728 | completed | feat | Add secret recipe stub #36 | Recipes=36 | `feat(shop): R0728 Add secret recipe stub #36` |
+| 729 | completed | feat | Add achievement definition #36 | Achievements=36 | `feat(meta): R0729 Add achievement definition #36` |
