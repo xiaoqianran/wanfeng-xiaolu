@@ -576,6 +576,19 @@
         "plain"
       ],
       "round": 182
+    },
+    {
+      "name": "夜跑爱好者·202",
+      "avatar": "🏃",
+      "wish": "想要一点清爽的味道。",
+      "tags": [
+        "清爽"
+      ],
+      "flavors": [
+        "mint",
+        "plain"
+      ],
+      "round": 202
     }
   ],
   "dialogues": [
@@ -640,7 +653,7 @@
     "theme_0197"
   ],
   "meta": {
-    "expandedRounds": 201,
+    "expandedRounds": 202,
     "lastIntegrityRound": 200,
     "itemCount": 19,
     "customerCount": 9

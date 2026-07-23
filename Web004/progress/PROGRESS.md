@@ -206,3 +206,4 @@
 | 199 | completed | docs | Stage milestone summary #9 | Stage doc stage-04.md | `docs(progress): R0199 Stage milestone summary #9` |
 | 200 | completed | refactor | Catalog integrity pass #9 | Integrity items=19 customers=9 | `refactor(core): R0200 Catalog integrity pass #9` |
 | 201 | completed | feat | Add collectible item batch #10 | Item cocoa_r0201 added | `feat(content): R0201 Add collectible item batch #10` |
+| 202 | completed | feat | Add customer persona #10 | Customer 夜跑爱好者·202 | `feat(shop): R0202 Add customer persona #10` |
