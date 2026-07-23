@@ -820,3 +820,4 @@
 | 813 | completed | feat | UI copy toast string #40 | UI toasts=41 | `feat(ui): R0813 UI copy toast string #40` |
 | 814 | completed | feat | Season palette note #40 | Season palette winter_0814 | `feat(season): R0814 Season palette note #40` |
 | 815 | completed | assets | Asset slot registration #40 | Asset slot assets/walk/slot_0815.png | `assets(manifest): R0815 Asset slot registration #40` |
+| 816 | completed | test | Regression assertion pack #40 | Test pack size=42 | `test(core): R0816 Regression assertion pack #40` |
