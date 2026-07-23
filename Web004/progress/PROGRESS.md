@@ -585,3 +585,4 @@
 | 578 | completed | feat | Topping or cup option #28 | Topping top_r0578 | `feat(content): R0578 Topping or cup option #28` |
 | 579 | completed | docs | Stage milestone summary #28 | Stage doc stage-12.md | `docs(progress): R0579 Stage milestone summary #28` |
 | 580 | completed | refactor | Catalog integrity pass #28 | Integrity items=57 customers=28 | `refactor(core): R0580 Catalog integrity pass #28` |
+| 581 | completed | feat | Add collectible item batch #29 | Item pine_r0581 added | `feat(content): R0581 Add collectible item batch #29` |
