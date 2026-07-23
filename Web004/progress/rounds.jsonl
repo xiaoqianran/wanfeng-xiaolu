@@ -402,3 +402,4 @@
 {"round":402,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #20","outcome":"Customer 滑板少年·402","commit":"feat(shop): R0402 Add customer persona #20","at":"2026-07-23T19:49:55.409Z"}
 {"round":403,"status":"completed","type":"feat","scope":"content","goal":"Add dialogue line #20","outcome":"Dialogue count=20","commit":"feat(content): R0403 Add dialogue line #20","at":"2026-07-23T19:49:55.430Z"}
 {"round":404,"status":"completed","type":"feat","scope":"garden","goal":"Add garden care whisper #20","outcome":"Garden msg #21","commit":"feat(garden): R0404 Add garden care whisper #20","at":"2026-07-23T19:49:55.458Z"}
+{"round":405,"status":"completed","type":"feat","scope":"shop","goal":"Add shop tip #20","outcome":"Shop tip #21","commit":"feat(shop): R0405 Add shop tip #20","at":"2026-07-23T19:49:55.477Z"}
