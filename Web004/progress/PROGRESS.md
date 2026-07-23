@@ -516,3 +516,4 @@
 | 509 | completed | feat | Add achievement definition #25 | Achievements=25 | `feat(meta): R0509 Add achievement definition #25` |
 | 510 | completed | style | CSS micro polish token #25 | CSS token hue=30 | `style(ui): R0510 CSS micro polish token #25` |
 | 511 | completed | feat | Add plantable linkage #25 | Plant link plant_lavender_0511 | `feat(content): R0511 Add plantable linkage #25` |
+| 512 | completed | feat | Add flavor or base option #25 | Flavor fl_chamomile_0512 | `feat(shop): R0512 Add flavor or base option #25` |
