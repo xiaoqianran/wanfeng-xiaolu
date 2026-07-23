@@ -1011,3 +1011,4 @@
 | 1004 | completed | audio | WebAudio 轻反馈 | js/audio.js pickup/water/serve/ui cues | `audio(feedback): R1004 WebAudio 轻反馈并尊重静音设置` |
 | 1005 | completed | feat | Ship achievement milestone into runtime #83 | achievements=120 | `feat(meta): R1005 Ship achievement milestone into runtime #83` |
 | 1006 | completed | style | Ship CSS accent token used by app shell #83 | CSS --r-accent hue=182 wired to brand/primary | `style(ui): R1006 Ship CSS accent token used by app shell #83` |
+| 1007 | completed | feat | Ship plantable seed linkage into runtime #83 | plant link plant_orange_1007 harvest=seed_orange_1007 | `feat(content): R1007 Ship plantable seed linkage into runtime #83` |
