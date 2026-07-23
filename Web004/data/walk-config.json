@@ -1,5 +1,7 @@
 {
-  "spawnBias": {},
-  "pathWidth": 3200,
+  "spawnBias": {
+    "maple": 1.01
+  },
+  "pathWidth": 3207,
   "ambient": []
 }

@@ -11,3 +11,4 @@
 | 4 | completed | feat | Load content-extra catalog in runtime data layer | Catalog loader marker written | `feat(ui): R0004 Load content-extra catalog in runtime data layer` |
 | 5 | completed | assets | Register asset manifest schema and placeholders | Asset manifest bootstrap slots registered | `assets(ui): R0005 Register asset manifest schema and placeholders` |
 | 6 | completed | docs | Bootstrap live progress table header stats | Progress stats header refreshed | `docs(progress): R0006 Bootstrap live progress table header stats` |
+| 7 | completed | feat | Externalize walk spawn config | Walk pathWidth=3207 | `feat(walk): R0007 Externalize walk spawn config` |
