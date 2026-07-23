@@ -69,3 +69,4 @@
 | 62 | completed | feat | Add customer persona #3 | Customer 织围巾的阿姨·62 | `feat(shop): R0062 Add customer persona #3` |
 | 63 | completed | feat | Add dialogue line #3 | Dialogue count=3 | `feat(content): R0063 Add dialogue line #3` |
 | 64 | completed | feat | Add garden care whisper #3 | Garden msg #4 | `feat(garden): R0064 Add garden care whisper #3` |
+| 65 | completed | feat | Add shop tip #3 | Shop tip #4 | `feat(shop): R0065 Add shop tip #3` |
