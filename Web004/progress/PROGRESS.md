@@ -916,3 +916,4 @@
 | 909 | completed | feat | Add achievement definition #45 | Achievements=45 | `feat(meta): R0909 Add achievement definition #45` |
 | 910 | completed | style | CSS micro polish token #45 | CSS token hue=350 | `style(ui): R0910 CSS micro polish token #45` |
 | 911 | completed | feat | Add plantable linkage #45 | Plant link plant_pine_0911 | `feat(content): R0911 Add plantable linkage #45` |
+| 912 | completed | feat | Add flavor or base option #45 | Flavor fl_shell_0912 | `feat(shop): R0912 Add flavor or base option #45` |
