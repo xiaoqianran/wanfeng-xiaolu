@@ -1351,6 +1351,14 @@
       "kind": "种子",
       "seed": "plant_feather_0431",
       "round": 431
+    },
+    "osmanthus_r0433": {
+      "id": "osmanthus_r0433",
+      "name": "桂花·433",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": null,
+      "round": 433
     }
   },
   "plants": {
@@ -4872,7 +4880,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 431,
+    "expandedRounds": 433,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
