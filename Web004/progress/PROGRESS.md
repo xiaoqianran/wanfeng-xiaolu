@@ -573,3 +573,4 @@
 | 566 | completed | feat | Tune walk ambient note #28 | Walk ambient #28 | `feat(walk): R0566 Tune walk ambient note #28` |
 | 567 | completed | feat | Add journal template #28 | Journal templates=28 | `feat(album): R0567 Add journal template #28` |
 | 568 | completed | feat | Add secret recipe stub #28 | Recipes=28 | `feat(shop): R0568 Add secret recipe stub #28` |
+| 569 | completed | feat | Add achievement definition #28 | Achievements=28 | `feat(meta): R0569 Add achievement definition #28` |
