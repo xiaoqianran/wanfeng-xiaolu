@@ -570,5 +570,16 @@
       "coins": 3,
       "hearts": 1
     }
+  },
+  {
+    "id": "mail_calendula",
+    "title": "金盏一捧",
+    "body": "编花环的孩子来信：金盏晒干也能泡。给你两朵，别急着一次用完。",
+    "effect": {
+      "items": {
+        "calendula": 2
+      },
+      "coins": 2
+    }
   }
 ]

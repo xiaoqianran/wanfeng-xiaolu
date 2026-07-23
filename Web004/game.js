@@ -1067,6 +1067,31 @@ function renderJournal() {
         ctx.stroke();
       }
       ctx.globalAlpha = 1;
+    } else if (themeId === "wind_chime") {
+      // hanging chime arcs + soft petal dots
+      ctx.strokeStyle = "rgba(200,210,220,0.35)";
+      ctx.lineWidth = 1.5;
+      for (let i = 0; i < 7; i++) {
+        const x = 50 + i * (w / 7);
+        const sway = Math.sin(time * 0.05 + i) * 6;
+        ctx.beginPath();
+        ctx.moveTo(x, h * 0.12);
+        ctx.lineTo(x + sway, h * 0.28);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(x + sway, h * 0.32, 5, 0, Math.PI * 2);
+        ctx.stroke();
+      }
+      ctx.fillStyle = "rgba(255,200,160,0.45)";
+      for (let i = 0; i < 12; i++) {
+        const x = (i * 67 + time * 0.3) % w;
+        const y = h * 0.4 + ((i * 41 + time * 0.2) % (h * 0.4));
+        ctx.globalAlpha = 0.3 + 0.4 * Math.abs(Math.sin(time * 0.04 + i));
+        ctx.beginPath();
+        ctx.ellipse(x, y, 3, 2, 0, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
     }
   }
 
@@ -1727,6 +1752,28 @@ function renderJournal() {
     });
   })();
 
+  (function wirePotSwap() {
+    const btn = document.getElementById("btn-pot-swap");
+    if (!btn || btn._wired) return;
+    btn._wired = true;
+    btn.addEventListener("click", () => {
+      const a = state.selectedPot | 0;
+      const raw = prompt("与第几盆对调？（输入 1–" + state.pots.length + "）", String(((a + 1) % state.pots.length) + 1));
+      if (raw == null) return;
+      const b = (parseInt(raw, 10) || 0) - 1;
+      const r = Core.swapPots(state, a, b);
+      if (!r.ok) {
+        toast(r.reason === "same" ? "选了同一盆" : "盆号不太对");
+        return;
+      }
+      checkAchievements();
+      save();
+      renderGarden();
+      toast("🔄 花盆对调好了");
+      sfx("ui");
+    });
+  })();
+
   
   
   (function wireFavCup() {
@@ -1988,7 +2035,7 @@ function renderJournal() {
       notes.push("杯子选得好");
     }
     const season = state.season || "dusk";
-    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || baseDef.id === "floral_tea")) {
+    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || baseDef.id === "floral_tea")) {
       score += 0.5; notes.push("春日花香");
     }
     if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
