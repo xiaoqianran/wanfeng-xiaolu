@@ -69,7 +69,12 @@
       "round": 22
     }
   ],
-  "dialogues": [],
+  "dialogues": [
+    {
+      "round": 23,
+      "text": "薄荷叶上滚着露水。（R0023）"
+    }
+  ],
   "seasons": [
     "dusk",
     "spring",
@@ -85,7 +90,7 @@
     "theme_0017"
   ],
   "meta": {
-    "expandedRounds": 22,
+    "expandedRounds": 23,
     "lastIntegrityRound": 20,
     "itemCount": 1,
     "customerCount": 0
