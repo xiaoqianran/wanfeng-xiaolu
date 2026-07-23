@@ -136,3 +136,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0137 | completed | content | 水壶浇灌文案 | canLines 4 unique lines | `feat(shop): A0136 汽水图鉴按次数排序与水壶浇灌文案` |
 | A0138 | completed | content | 信箱配方对话扩充 | mail 33; recipes 24; walk ambient 22 | `feat(shop): A0136 汽水图鉴按次数排序与水壶浇灌文案` |
 | A0139 | completed | test | canLines回归 | 103 tests pass | `feat(shop): A0136 汽水图鉴按次数排序与水壶浇灌文案` |
+| A0140 | completed | feat | 常客标记 | pinCustomer 45% reappear | `feat(shop): A0140 常客标记与盆栽心情表情` |
+| A0141 | completed | feat | 盆栽心情表情 | mood-face emoji on pots | `feat(shop): A0140 常客标记与盆栽心情表情` |
+| A0142 | completed | content | 事件破百 | 107 unique evening events | `feat(shop): A0140 常客标记与盆栽心情表情` |
+| A0143 | completed | test | 常客心情回归 | 104 tests pass | `feat(shop): A0140 常客标记与盆栽心情表情` |
