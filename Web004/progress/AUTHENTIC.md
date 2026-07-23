@@ -266,3 +266,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0267 | completed | test | 扩容回归 | 137 tests pass | `feat(garden): A0266 水壶扩容升级至八格` |
 | A0268 | completed | docs | 手册水壶扩容 | USER_MANUAL can upgrade | `docs(manual): A0268 手册同步水壶扩容` |
 | A0269 | completed | content | 扩壶事件 | can upgrade vignettes | `docs(manual): A0268 手册同步水壶扩容` |
+| A0270 | completed | feat | 蝉鸣疏林主题 | cicada_grove 20th + leaf FX | `feat(walk): A0270 蝉鸣疏林主题与叶影特效` |
+| A0271 | completed | test | 蝉鸣主题回归 | 138 tests pass | `feat(walk): A0270 蝉鸣疏林主题与叶影特效` |
