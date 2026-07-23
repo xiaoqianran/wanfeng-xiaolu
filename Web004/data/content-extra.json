@@ -6909,6 +6909,10 @@
     {
       "round": 990,
       "text": "明天也要慢慢来。（R0990）"
+    },
+    {
+      "round": 1014,
+      "text": "汽水的气泡像小星星。（R1014）"
     }
   ],
   "seasons": [
@@ -6977,7 +6981,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 1010,
+    "expandedRounds": 1014,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
