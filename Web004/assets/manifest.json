@@ -141,7 +141,8 @@
     "assets/ui/live_0864.jpg",
     "assets/garden/live_0876.jpg",
     "assets/album/live_0888.jpg",
-    "assets/walk/live_0900.jpg"
+    "assets/walk/live_0900.jpg",
+    "assets/shop/live_0912.jpg"
   ],
   "stages": {
     "home": [
@@ -445,6 +446,12 @@
         "path": "assets/shop/live_0852.jpg",
         "status": "live",
         "source": "assets/ui/achievements-badges.jpg"
+      },
+      {
+        "round": 912,
+        "path": "assets/shop/live_0912.jpg",
+        "status": "live",
+        "source": "assets/shop/cups-set.jpg"
       }
     ],
     "album": [
