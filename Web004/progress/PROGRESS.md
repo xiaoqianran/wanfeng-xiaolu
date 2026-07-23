@@ -343,3 +343,4 @@
 | 336 | completed | assets | Wire real stage art reference into runtime manifest #27 | live art assets/garden/live_0336.jpg from assets/shop/soda-hero.jpg (≥1KB) | `assets(ui): R0336 Wire real stage art reference into runtime manifest #27` |
 | 337 | completed | feat | Ship collectible + runtime catalog item #28 | Runtime item hibiscus_r0337 | `feat(content): R0337 Ship collectible + runtime catalog item #28` |
 | 338 | completed | feat | Ship customer persona into runtime #28 | Runtime customer 烘焙店员·338 | `feat(shop): R0338 Ship customer persona into runtime #28` |
+| 339 | completed | feat | Ship walk ambient + pathWidth into runtime #28 | walk pathWidth=3339 ambient=80 | `feat(walk): R0339 Ship walk ambient + pathWidth into runtime #28` |
