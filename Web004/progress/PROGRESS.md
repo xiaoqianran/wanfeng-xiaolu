@@ -369,3 +369,4 @@
 | 362 | completed | feat | Ship customer persona into runtime #30 | Runtime customer 织围巾的阿姨·362 | `feat(shop): R0362 Ship customer persona into runtime #30` |
 | 363 | completed | feat | Ship walk ambient + pathWidth into runtime #30 | walk pathWidth=3363 ambient=82 | `feat(walk): R0363 Ship walk ambient + pathWidth into runtime #30` |
 | 364 | completed | feat | Ship garden care whisper into runtime #30 | garden messages=83 careBonus=1.05 | `feat(garden): R0364 Ship garden care whisper into runtime #30` |
+| 365 | completed | feat | Ship shop tip + perfectBonus into runtime #30 | shop tips=83 perfectBonus=4 | `feat(shop): R0365 Ship shop tip + perfectBonus into runtime #30` |
