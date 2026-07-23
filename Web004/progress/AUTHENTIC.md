@@ -422,3 +422,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0423 | completed | feat | 枇杷可种植 | loquatPot | feat(garden): A0423 枇杷可种植窗台 |
 | A0424 | completed | feat | 枇杷巷 | loquat_lane 51st | feat(walk): A0424 枇杷巷主题与金果特效 |
 | A0425 | completed | test | 回归手册 | 183 pass | test(docs): A0425 枇杷巷回归与手册 |
+| A0426 | completed | feat | 客人便签橄榄 | setGuestNote+olivePot | feat(shop): A0426 客人便签与橄榄可种植 |
+| A0427 | completed | feat | 橄榄坡 | olive_grove 52nd + note UI | feat(walk): A0427 橄榄坡主题与便签 UI |
+| A0428 | completed | test | 回归手册 | 184 pass | test(docs): A0428 客人便签橄榄坡回归 |
