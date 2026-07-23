@@ -813,5 +813,15 @@ test("serveStreak increments on high score serveDrink", () => {
   assert.ok(last.serveStreak >= 3);
 });
 
+test("garden care hints and expanded mail ship", () => {
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("土壤有点干"));
+  assert.ok(game.includes("serveStreak"));
+  const mail = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "mail.json"), "utf8"));
+  assert.ok(mail.length >= 12);
+  const ids = mail.map((m) => m.id);
+  assert.strictEqual(new Set(ids).size, ids.length);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

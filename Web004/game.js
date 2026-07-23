@@ -1086,6 +1086,9 @@
         <div class="stat"><span>心情</span><div class="bar mood"><i style="width:${pot.mood}%"></i></div><span>${Math.round(pot.mood)}</span></div>
       </div>
       <p class="muted" style="margin-top:10px">浇水、日照、说说话，都会让它慢慢长大。没有枯死，只有慢慢等。</p>
+      ${pot.water < 25 ? '<p class="muted">💧 土壤有点干，也许想喝一口水。</p>' : ''}
+      ${pot.sun < 25 ? '<p class="muted">☁️ 有点想晒太阳。</p>' : ''}
+      ${pot.mood < 30 ? '<p class="muted">想听你说说话。</p>' : ''}
     `;
     actions.hidden = false;
     harvestBtn.hidden = !isReady(pot);
