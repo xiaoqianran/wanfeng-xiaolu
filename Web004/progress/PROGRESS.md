@@ -809,3 +809,4 @@
 | 802 | completed | style | Ship CSS accent token used by app shell #66 | CSS --r-accent hue=314 wired to brand/primary | `style(ui): R0802 Ship CSS accent token used by app shell #66` |
 | 803 | completed | feat | Ship plantable seed linkage into runtime #66 | plant link plant_rose_0803 harvest=seed_rose_0803 | `feat(content): R0803 Ship plantable seed linkage into runtime #66` |
 | 804 | completed | assets | Wire real stage art reference into runtime manifest #66 | live art assets/ui/live_0804.jpg from assets/album/journal-open.jpg (≥1KB) | `assets(ui): R0804 Wire real stage art reference into runtime manifest #66` |
+| 805 | completed | feat | Ship collectible + runtime catalog item #67 | Runtime item coconut_r0805 | `feat(content): R0805 Ship collectible + runtime catalog item #67` |
