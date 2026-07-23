@@ -794,3 +794,4 @@
 | 787 | completed | feat | Add journal template #39 | Journal templates=39 | `feat(album): R0787 Add journal template #39` |
 | 788 | completed | feat | Add secret recipe stub #39 | Recipes=39 | `feat(shop): R0788 Add secret recipe stub #39` |
 | 789 | completed | feat | Add achievement definition #39 | Achievements=39 | `feat(meta): R0789 Add achievement definition #39` |
+| 790 | completed | style | CSS micro polish token #39 | CSS token hue=110 | `style(ui): R0790 CSS micro polish token #39` |
