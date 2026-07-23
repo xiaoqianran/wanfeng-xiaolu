@@ -32,3 +32,4 @@
 | 25 | completed | feat | Add shop tip #1 | Shop tip #2 | `feat(shop): R0025 Add shop tip #1` |
 | 26 | completed | feat | Tune walk ambient note #1 | Walk ambient #1 | `feat(walk): R0026 Tune walk ambient note #1` |
 | 27 | completed | feat | Add journal template #1 | Journal templates=1 | `feat(album): R0027 Add journal template #1` |
+| 28 | completed | feat | Add secret recipe stub #1 | Recipes=1 | `feat(shop): R0028 Add secret recipe stub #1` |
