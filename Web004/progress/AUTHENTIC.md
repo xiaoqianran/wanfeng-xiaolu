@@ -214,3 +214,4 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0215 | completed | balance | 日礼池扩充 | gift pool + rare bag | `balance(daily): A0215 日礼池与小珍藏纳入新收集物` |
 | A0216 | completed | docs | 路线图锚点 | ROADMAP 208 | `docs(roadmap): A0216 更新执行锚点 authentic 208` |
 | A0217 | completed | content | 金银花雪灯信 | mail 45 | `content(mail): A0217 金银花与雪灯来信` |
+| A0218 | completed | feat | 粗陶搪瓷杯 | clay+enamel cups + 2 recipes | `feat(shop): A0218 粗陶杯搪瓷杯与两道新配方` |
