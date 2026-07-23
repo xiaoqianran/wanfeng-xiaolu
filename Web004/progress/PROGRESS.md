@@ -649,3 +649,4 @@
 | 642 | completed | feat | Ship dialogue line into runtime #53 | dialogues=105 | `feat(content): R0642 Ship dialogue line into runtime #53` |
 | 643 | completed | feat | Ship journal template into runtime #53 | journal templates=106 | `feat(album): R0643 Ship journal template into runtime #53` |
 | 644 | completed | feat | Ship secret recipe into runtime #53 | secret recipes=106 | `feat(shop): R0644 Ship secret recipe into runtime #53` |
+| 645 | completed | feat | Ship achievement milestone into runtime #53 | achievements=106 | `feat(meta): R0645 Ship achievement milestone into runtime #53` |
