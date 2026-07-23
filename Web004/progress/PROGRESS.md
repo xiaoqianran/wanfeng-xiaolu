@@ -493,3 +493,4 @@
 | 486 | completed | feat | Ship dialogue line into runtime #40 | dialogues=92 | `feat(content): R0486 Ship dialogue line into runtime #40` |
 | 487 | completed | feat | Ship journal template into runtime #40 | journal templates=93 | `feat(album): R0487 Ship journal template into runtime #40` |
 | 488 | completed | feat | Ship secret recipe into runtime #40 | secret recipes=93 | `feat(shop): R0488 Ship secret recipe into runtime #40` |
+| 489 | completed | feat | Ship achievement milestone into runtime #40 | achievements=93 | `feat(meta): R0489 Ship achievement milestone into runtime #40` |
