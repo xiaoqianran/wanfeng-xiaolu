@@ -592,3 +592,4 @@
 | 585 | completed | feat | Ship achievement milestone into runtime #48 | achievements=101 | `feat(meta): R0585 Ship achievement milestone into runtime #48` |
 | 586 | completed | style | Ship CSS accent token used by app shell #48 | CSS --r-accent hue=242 wired to brand/primary | `style(ui): R0586 Ship CSS accent token used by app shell #48` |
 | 587 | completed | feat | Ship plantable seed linkage into runtime #48 | plant link plant_orange_0587 harvest=seed_orange_0587 | `feat(content): R0587 Ship plantable seed linkage into runtime #48` |
+| 588 | completed | assets | Wire real stage art reference into runtime manifest #48 | live art assets/album/live_0588.jpg from assets/ui/achievements-badges.jpg (≥1KB) | `assets(ui): R0588 Wire real stage art reference into runtime manifest #48` |
