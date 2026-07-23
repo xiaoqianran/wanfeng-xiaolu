@@ -132,3 +132,4 @@
 | 125 | completed | feat | Add shop tip #6 | Shop tip #7 | `feat(shop): R0125 Add shop tip #6` |
 | 126 | completed | feat | Tune walk ambient note #6 | Walk ambient #6 | `feat(walk): R0126 Tune walk ambient note #6` |
 | 127 | completed | feat | Add journal template #6 | Journal templates=6 | `feat(album): R0127 Add journal template #6` |
+| 128 | completed | feat | Add secret recipe stub #6 | Recipes=6 | `feat(shop): R0128 Add secret recipe stub #6` |
