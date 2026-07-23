@@ -75,3 +75,4 @@
 | 68 | completed | feat | Add secret recipe stub #3 | Recipes=3 | `feat(shop): R0068 Add secret recipe stub #3` |
 | 69 | completed | feat | Add achievement definition #3 | Achievements=3 | `feat(meta): R0069 Add achievement definition #3` |
 | 70 | completed | style | CSS micro polish token #3 | CSS token hue=110 | `style(ui): R0070 CSS micro polish token #3` |
+| 71 | completed | feat | Add plantable linkage #3 | Plant link plant_pine_0071 | `feat(content): R0071 Add plantable linkage #3` |
