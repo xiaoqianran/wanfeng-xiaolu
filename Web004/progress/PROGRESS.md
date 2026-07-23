@@ -821,3 +821,4 @@
 | 814 | completed | feat | Season palette note #40 | Season palette winter_0814 | `feat(season): R0814 Season palette note #40` |
 | 815 | completed | assets | Asset slot registration #40 | Asset slot assets/walk/slot_0815.png | `assets(manifest): R0815 Asset slot registration #40` |
 | 816 | completed | test | Regression assertion pack #40 | Test pack size=42 | `test(core): R0816 Regression assertion pack #40` |
+| 817 | completed | feat | Path theme fragment #40 | Path themes=45 | `feat(walk): R0817 Path theme fragment #40` |
