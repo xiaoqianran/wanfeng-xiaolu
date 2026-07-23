@@ -81,3 +81,4 @@
 | 74 | completed | feat | Season palette note #3 | Season palette winter_0074 | `feat(season): R0074 Season palette note #3` |
 | 75 | completed | assets | Asset slot registration #3 | Asset slot assets/walk/slot_0075.png | `assets(manifest): R0075 Asset slot registration #3` |
 | 76 | completed | test | Regression assertion pack #3 | Test pack size=5 | `test(core): R0076 Regression assertion pack #3` |
+| 77 | completed | feat | Path theme fragment #3 | Path themes=8 | `feat(walk): R0077 Path theme fragment #3` |
