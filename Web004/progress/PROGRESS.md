@@ -58,3 +58,4 @@
 | 51 | completed | feat | Add plantable linkage #2 | Plant link plant_cocoa_0051 | `feat(content): R0051 Add plantable linkage #2` |
 | 52 | completed | feat | Add flavor or base option #2 | Flavor fl_matcha_0052 | `feat(shop): R0052 Add flavor or base option #2` |
 | 53 | completed | feat | UI copy toast string #2 | UI toasts=3 | `feat(ui): R0053 UI copy toast string #2` |
+| 54 | completed | feat | Season palette note #2 | Season palette winter_0054 | `feat(season): R0054 Season palette note #2` |
