@@ -872,3 +872,4 @@
 | 865 | completed | feat | Add shop tip #43 | Shop tip #44 | `feat(shop): R0865 Add shop tip #43` |
 | 866 | completed | feat | Tune walk ambient note #43 | Walk ambient #43 | `feat(walk): R0866 Tune walk ambient note #43` |
 | 867 | completed | feat | Add journal template #43 | Journal templates=43 | `feat(album): R0867 Add journal template #43` |
+| 868 | completed | feat | Add secret recipe stub #43 | Recipes=43 | `feat(shop): R0868 Add secret recipe stub #43` |
