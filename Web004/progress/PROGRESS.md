@@ -592,3 +592,4 @@
 | 585 | completed | feat | Add shop tip #29 | Shop tip #30 | `feat(shop): R0585 Add shop tip #29` |
 | 586 | completed | feat | Tune walk ambient note #29 | Walk ambient #29 | `feat(walk): R0586 Tune walk ambient note #29` |
 | 587 | completed | feat | Add journal template #29 | Journal templates=29 | `feat(album): R0587 Add journal template #29` |
+| 588 | completed | feat | Add secret recipe stub #29 | Recipes=29 | `feat(shop): R0588 Add secret recipe stub #29` |
