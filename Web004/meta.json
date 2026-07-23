@@ -6,6 +6,13 @@
     "walk",
     "garden",
     "shop",
-    "album"
-  ]
+    "album",
+    "daily",
+    "mail",
+    "stats",
+    "help"
+  ],
+  "pathThemes": 6,
+  "saveVersion": 3,
+  "authenticLedger": "progress/authentic-rounds.jsonl"
 }
