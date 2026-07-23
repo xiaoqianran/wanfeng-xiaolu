@@ -1002,3 +1002,4 @@
 | 995 | completed | feat | Ship plantable seed linkage into runtime #82 | plant link plant_mango_0995 harvest=seed_mango_0995 | `feat(content): R0995 Ship plantable seed linkage into runtime #82` |
 | 996 | completed | assets | Wire real stage art reference into runtime manifest #82 | live art assets/garden/live_0996.jpg from assets/shop/soda-hero.jpg (≥1KB) | `assets(ui): R0996 Wire real stage art reference into runtime manifest #82` |
 | 997 | completed | feat | Ship collectible + runtime catalog item #83 | Runtime item hibiscus_r0997 | `feat(content): R0997 Ship collectible + runtime catalog item #83` |
+| 998 | completed | feat | Ship customer persona into runtime #83 | Runtime customer 烘焙店员·998 | `feat(shop): R0998 Ship customer persona into runtime #83` |
