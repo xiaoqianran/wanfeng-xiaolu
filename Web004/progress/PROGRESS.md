@@ -289,3 +289,4 @@
 | 282 | completed | feat | Add customer persona #14 | Customer 滑板少年·282 | `feat(shop): R0282 Add customer persona #14` |
 | 283 | completed | feat | Add dialogue line #14 | Dialogue count=14 | `feat(content): R0283 Add dialogue line #14` |
 | 284 | completed | feat | Add garden care whisper #14 | Garden msg #15 | `feat(garden): R0284 Add garden care whisper #14` |
+| 285 | completed | feat | Add shop tip #14 | Shop tip #15 | `feat(shop): R0285 Add shop tip #14` |
