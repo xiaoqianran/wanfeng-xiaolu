@@ -616,3 +616,4 @@
 | 609 | completed | feat | Add achievement definition #30 | Achievements=30 | `feat(meta): R0609 Add achievement definition #30` |
 | 610 | completed | style | CSS micro polish token #30 | CSS token hue=290 | `style(ui): R0610 CSS micro polish token #30` |
 | 611 | completed | feat | Add plantable linkage #30 | Plant link plant_pine_0611 | `feat(content): R0611 Add plantable linkage #30` |
+| 612 | completed | feat | Add flavor or base option #30 | Flavor fl_shell_0612 | `feat(shop): R0612 Add flavor or base option #30` |
