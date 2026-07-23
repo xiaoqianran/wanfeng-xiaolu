@@ -406,3 +406,4 @@
 | 399 | completed | docs | Stage milestone summary #19 | Stage doc stage-08.md | `docs(progress): R0399 Stage milestone summary #19` |
 | 400 | completed | refactor | Catalog integrity pass #19 | Integrity items=39 customers=19 | `refactor(core): R0400 Catalog integrity pass #19` |
 | 401 | completed | feat | Add collectible item batch #20 | Item pine_r0401 added | `feat(content): R0401 Add collectible item batch #20` |
+| 402 | completed | feat | Add customer persona #20 | Customer 滑板少年·402 | `feat(shop): R0402 Add customer persona #20` |

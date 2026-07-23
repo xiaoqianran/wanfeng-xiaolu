@@ -1156,6 +1156,19 @@
         "plain"
       ],
       "round": 382
+    },
+    {
+      "name": "滑板少年·402",
+      "avatar": "🛹",
+      "wish": "想要一点清爽的味道。",
+      "tags": [
+        "清爽"
+      ],
+      "flavors": [
+        "berry",
+        "plain"
+      ],
+      "round": 402
     }
   ],
   "dialogues": [
@@ -1270,7 +1283,7 @@
     "theme_0397"
   ],
   "meta": {
-    "expandedRounds": 401,
+    "expandedRounds": 402,
     "lastIntegrityRound": 400,
     "itemCount": 39,
     "customerCount": 19
