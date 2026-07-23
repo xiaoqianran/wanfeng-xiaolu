@@ -38,3 +38,4 @@
 {"round":38,"status":"completed","type":"feat","scope":"content","goal":"Topping or cup option #1","outcome":"Topping top_r0038","commit":"feat(content): R0038 Topping or cup option #1","at":"2026-07-23T19:49:37.306Z"}
 {"round":39,"status":"completed","type":"docs","scope":"progress","goal":"Stage milestone summary #1","outcome":"Stage doc stage-01.md","commit":"docs(progress): R0039 Stage milestone summary #1","at":"2026-07-23T19:49:37.327Z"}
 {"round":40,"status":"completed","type":"refactor","scope":"core","goal":"Catalog integrity pass #1","outcome":"Integrity items=3 customers=1","commit":"refactor(core): R0040 Catalog integrity pass #1","at":"2026-07-23T19:49:37.369Z"}
+{"round":41,"status":"completed","type":"feat","scope":"content","goal":"Add collectible item batch #2","outcome":"Item pine_r0041 added","commit":"feat(content): R0041 Add collectible item batch #2","at":"2026-07-23T19:49:37.390Z"}
