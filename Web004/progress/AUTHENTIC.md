@@ -189,3 +189,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0190 | completed | docs | 手册常走小路 | USER_MANUAL favorite theme | `docs(manual): A0190 手册同步常走小路与新来信` |
 | A0191 | completed | content | 信箱43封 | mail moss/sage/fav_path | `docs(manual): A0190 手册同步常走小路与新来信` |
 | A0192 | completed | content | 事件至202则 | 202 unique evening events | `content(events): A0192 晚间 vignette 至二零二则` |
+| A0193 | completed | content | 季节提示与客人 | season tips 6/season; 36 customers | `content(world): A0193 季节提示与两位新客人` |
+| A0194 | completed | test | 季节客人回归 | 120 tests pass | `content(world): A0193 季节提示与两位新客人` |
