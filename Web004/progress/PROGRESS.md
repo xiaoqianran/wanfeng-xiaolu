@@ -93,3 +93,4 @@
 | 86 | completed | feat | Tune walk ambient note #4 | Walk ambient #4 | `feat(walk): R0086 Tune walk ambient note #4` |
 | 87 | completed | feat | Add journal template #4 | Journal templates=4 | `feat(album): R0087 Add journal template #4` |
 | 88 | completed | feat | Add secret recipe stub #4 | Recipes=4 | `feat(shop): R0088 Add secret recipe stub #4` |
+| 89 | completed | feat | Add achievement definition #4 | Achievements=4 | `feat(meta): R0089 Add achievement definition #4` |
