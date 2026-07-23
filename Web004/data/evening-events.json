@@ -2469,5 +2469,35 @@
     "id": "ev_continue_willow",
     "title": "继续走·又见柳岸",
     "body": "第二次走柳岸，柳絮少了，水声更清楚。"
+  },
+  {
+    "id": "ev_hibiscus",
+    "title": "洛神花",
+    "body": "洛神花干泡开后是深红色的。你先闻，再决定放多少。"
+  },
+  {
+    "id": "ev_night_pond",
+    "title": "夜荷池",
+    "body": "池边没有灯，只有天色。你把脚步放得比白天更轻。"
+  },
+  {
+    "id": "ev_hibiscus_tea",
+    "title": "一碗红",
+    "body": "煮洛神的阿婆说：酸一点才醒神。你点头，少放了半勺蜜。"
+  },
+  {
+    "id": "ev_pond_star",
+    "title": "池中星",
+    "body": "星砂落在荷叶上，像很小的灯。"
+  },
+  {
+    "id": "ev_night_calm",
+    "title": "夜店",
+    "body": "夜里客人更少，杯子的声音更清楚。"
+  },
+  {
+    "id": "ev_continue_pond",
+    "title": "继续走·又见夜荷",
+    "body": "第二次到夜荷池，蛙声换了位置，池还是那池。"
   }
 ]
