@@ -149,3 +149,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0150 | completed | art | 水壶常客图标 | icon-can pin firefly unique PNGs | `art(ui): A0150 水壶常客萤火独特程序化图标` |
 | A0151 | completed | test | 图标唯一尺寸 | 107 tests pass | `art(ui): A0150 水壶常客萤火独特程序化图标` |
 | A0152 | completed | chore | 同步运行时 | sync refresh | `chore(data): A0152 同步运行时时间戳` |
+| A0153 | completed | feat | 洋甘菊养成 | chamomile plant+flavor+recipe+mail | `feat(garden): A0153 洋甘菊可种植与甘菊暖夜配方` |
+| A0154 | completed | test | 洋甘菊回归 | 108 tests pass | `feat(garden): A0153 洋甘菊可种植与甘菊暖夜配方` |
