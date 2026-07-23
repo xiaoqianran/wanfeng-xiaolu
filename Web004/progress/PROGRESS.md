@@ -549,3 +549,4 @@
 | 542 | completed | feat | Add customer persona #27 | Customer 织围巾的阿姨·542 | `feat(shop): R0542 Add customer persona #27` |
 | 543 | completed | feat | Add dialogue line #27 | Dialogue count=27 | `feat(content): R0543 Add dialogue line #27` |
 | 544 | completed | feat | Add garden care whisper #27 | Garden msg #28 | `feat(garden): R0544 Add garden care whisper #27` |
+| 545 | completed | feat | Add shop tip #27 | Shop tip #28 | `feat(shop): R0545 Add shop tip #27` |
