@@ -889,3 +889,4 @@
 | 882 | completed | feat | Add customer persona #44 | Customer 滑板少年·882 | `feat(shop): R0882 Add customer persona #44` |
 | 883 | completed | feat | Add dialogue line #44 | Dialogue count=44 | `feat(content): R0883 Add dialogue line #44` |
 | 884 | completed | feat | Add garden care whisper #44 | Garden msg #45 | `feat(garden): R0884 Add garden care whisper #44` |
+| 885 | completed | feat | Add shop tip #44 | Shop tip #45 | `feat(shop): R0885 Add shop tip #44` |
