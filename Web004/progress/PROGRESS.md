@@ -260,3 +260,4 @@
 | 253 | completed | feat | UI copy toast string #12 | UI toasts=13 | `feat(ui): R0253 UI copy toast string #12` |
 | 254 | completed | feat | Season palette note #12 | Season palette winter_0254 | `feat(season): R0254 Season palette note #12` |
 | 255 | completed | assets | Asset slot registration #12 | Asset slot assets/walk/slot_0255.png | `assets(manifest): R0255 Asset slot registration #12` |
+| 256 | completed | test | Regression assertion pack #12 | Test pack size=14 | `test(core): R0256 Regression assertion pack #12` |
