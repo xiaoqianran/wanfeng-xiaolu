@@ -967,3 +967,4 @@
 | 960 | completed | assets | Wire real stage art reference into runtime manifest #79 | live art assets/walk/live_0960.jpg from assets/items/collectibles-sheet.jpg (≥1KB) | `assets(ui): R0960 Wire real stage art reference into runtime manifest #79` |
 | 961 | completed | feat | Ship collectible + runtime catalog item #80 | Runtime item lavender_r0961 | `feat(content): R0961 Ship collectible + runtime catalog item #80` |
 | 962 | completed | feat | Ship customer persona into runtime #80 | Runtime customer 织围巾的阿姨·962 | `feat(shop): R0962 Ship customer persona into runtime #80` |
+| 963 | completed | feat | Ship walk ambient + pathWidth into runtime #80 | walk pathWidth=3363 ambient=120 | `feat(walk): R0963 Ship walk ambient + pathWidth into runtime #80` |
