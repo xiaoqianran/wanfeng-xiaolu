@@ -2504,6 +2504,13 @@
       "emoji": "🔴",
       "kind": "风味",
       "seed": "litchiPot"
+    },
+    "loquat": {
+      "id": "loquat",
+      "name": "枇杷",
+      "emoji": "🟠",
+      "kind": "风味",
+      "seed": "loquatPot"
     }
   },
   "plants": {
@@ -4635,6 +4642,17 @@
       ],
       "harvest": "litchi",
       "days": 3
+    },
+    "loquatPot": {
+      "id": "loquatPot",
+      "name": "枇杷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟠"
+      ],
+      "harvest": "loquat",
+      "days": 3
     }
   },
   "cups": [
@@ -5679,6 +5697,16 @@
       "tags": [
         "甜蜜",
         "果香"
+      ]
+    },
+    {
+      "id": "loquat",
+      "name": "枇杷",
+      "emoji": "🟠",
+      "need": "loquat",
+      "tags": [
+        "果香",
+        "温柔"
       ]
     }
   ],
@@ -7214,6 +7242,21 @@
         "yangmei"
       ],
       "wantTopping": true
+    },
+    {
+      "name": "摘枇杷的阿姨",
+      "avatar": "🟠",
+      "wish": "枇杷或蜜，温柔一点，暖杯更好。",
+      "tags": [
+        "温柔",
+        "果香"
+      ],
+      "flavors": [
+        "loquat",
+        "honey",
+        "tea_leaf",
+        "peach"
+      ]
     }
   ],
   "dialogues": [
