@@ -296,3 +296,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0297 | completed | test | 十路浮木回归 | 146 tests pass | `feat(meta): A0295 十路图鉴成就与浮木片收藏` |
 | A0298 | completed | feat | 小费罐 | addTipJar 10→heart + tip_friend | `feat(shop): A0298 小费罐满十换好心情` |
 | A0299 | completed | test | 小费罐回归 | 147 tests pass | `feat(shop): A0298 小费罐满十换好心情` |
+| A0300 | completed | docs | 手册小费罐 | USER_MANUAL tip jar + TEST_REPORT | `docs(manual): A0300 手册小费罐与测试报告 292` |
+| A0301 | completed | content | 小费罐事件 | tip jar vignettes | `docs(manual): A0300 手册小费罐与测试报告 292` |
