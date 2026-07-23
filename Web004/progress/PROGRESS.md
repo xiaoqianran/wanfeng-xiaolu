@@ -918,3 +918,4 @@
 | 911 | completed | feat | Ship plantable seed linkage into runtime #75 | plant link plant_feather_0911 harvest=seed_feather_0911 | `feat(content): R0911 Ship plantable seed linkage into runtime #75` |
 | 912 | completed | assets | Wire real stage art reference into runtime manifest #75 | live art assets/shop/live_0912.jpg from assets/shop/cups-set.jpg (≥1KB) | `assets(ui): R0912 Wire real stage art reference into runtime manifest #75` |
 | 913 | completed | feat | Ship collectible + runtime catalog item #76 | Runtime item osmanthus_r0913 | `feat(content): R0913 Ship collectible + runtime catalog item #76` |
+| 914 | completed | feat | Ship customer persona into runtime #76 | Runtime customer 弹尤克里里的人·914 | `feat(shop): R0914 Ship customer persona into runtime #76` |

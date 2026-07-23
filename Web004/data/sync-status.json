@@ -1,7 +1,7 @@
 {
   "contentItems": 242,
   "plants": 129,
-  "customers": 127,
+  "customers": 128,
   "dialogues": 127,
   "gardenMessages": 120,
   "shopTips": 120,
@@ -11,7 +11,7 @@
   "files": [
     {
       "path": "js/content-extra.js",
-      "bytes": 86820
+      "bytes": 86972
     },
     {
       "path": "js/game-data.js",
