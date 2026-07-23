@@ -628,3 +628,4 @@
 | 621 | completed | feat | Add collectible item batch #31 | Item cocoa_r0621 added | `feat(content): R0621 Add collectible item batch #31` |
 | 622 | completed | feat | Add customer persona #31 | Customer 夜跑爱好者·622 | `feat(shop): R0622 Add customer persona #31` |
 | 623 | completed | feat | Add dialogue line #31 | Dialogue count=31 | `feat(content): R0623 Add dialogue line #31` |
+| 624 | completed | feat | Add garden care whisper #31 | Garden msg #32 | `feat(garden): R0624 Add garden care whisper #31` |
