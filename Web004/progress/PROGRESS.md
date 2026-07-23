@@ -222,3 +222,4 @@
 | 215 | completed | feat | Ship plantable seed linkage into runtime #17 | plant link plant_mango_0215 harvest=seed_mango_0215 | `feat(content): R0215 Ship plantable seed linkage into runtime #17` |
 | 216 | completed | assets | Wire real stage art reference into runtime manifest #17 | live art assets/garden/live_0216.jpg from assets/seasons/spring.jpg (≥1KB) | `assets(ui): R0216 Wire real stage art reference into runtime manifest #17` |
 | 217 | completed | feat | Ship collectible + runtime catalog item #18 | Runtime item hibiscus_r0217 | `feat(content): R0217 Ship collectible + runtime catalog item #18` |
+| 218 | completed | feat | Ship customer persona into runtime #18 | Runtime customer 烘焙店员·218 | `feat(shop): R0218 Ship customer persona into runtime #18` |
