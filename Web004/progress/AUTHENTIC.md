@@ -384,3 +384,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0385 | completed | feat | 李花短径 | plum_path 40th | feat(walk): A0385 李花短径主题与花瓣特效 |
 | A0386 | completed | content | 李花内容 | events+recipe | content(events): A0386 李花 vignette 与李子蜜罐 |
 | A0387 | completed | test | 回归手册 | 172 pass 40 themes | test(docs): A0387 李花短径回归与手册 |
+| A0388 | completed | feat | 多样窗台桑葚 | varietyTends+mulberryPot | feat(garden): A0388 多样窗台与桑葚可种植 |
+| A0389 | completed | feat | 桑荫小径 | mulberry_lane 41st | feat(walk): A0389 桑荫小径主题与树荫特效 |
+| A0390 | completed | content | 桑荫内容 | events+recipe | content(events): A0390 桑荫 vignette 与桑葚蜜罐 |
+| A0391 | completed | test | 回归手册 | 173 pass | test(docs): A0391 多样窗台桑荫回归与手册 |
