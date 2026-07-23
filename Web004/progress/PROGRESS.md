@@ -893,3 +893,4 @@
 | 886 | completed | style | Ship CSS accent token used by app shell #73 | CSS --r-accent hue=302 wired to brand/primary | `style(ui): R0886 Ship CSS accent token used by app shell #73` |
 | 887 | completed | feat | Ship plantable seed linkage into runtime #73 | plant link plant_orange_0887 harvest=seed_orange_0887 | `feat(content): R0887 Ship plantable seed linkage into runtime #73` |
 | 888 | completed | assets | Wire real stage art reference into runtime manifest #73 | live art assets/album/live_0888.jpg from assets/shop/night-window.jpg (≥1KB) | `assets(ui): R0888 Wire real stage art reference into runtime manifest #73` |
+| 889 | completed | feat | Ship collectible + runtime catalog item #74 | Runtime item grape_r0889 | `feat(content): R0889 Ship collectible + runtime catalog item #74` |
