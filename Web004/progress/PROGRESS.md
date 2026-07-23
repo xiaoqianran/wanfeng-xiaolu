@@ -685,3 +685,4 @@
 | 678 | completed | feat | Ship dialogue line into runtime #56 | dialogues=108 | `feat(content): R0678 Ship dialogue line into runtime #56` |
 | 679 | completed | feat | Ship journal template into runtime #56 | journal templates=109 | `feat(album): R0679 Ship journal template into runtime #56` |
 | 680 | completed | feat | Ship secret recipe into runtime #56 | secret recipes=109 | `feat(shop): R0680 Ship secret recipe into runtime #56` |
+| 681 | completed | feat | Ship achievement milestone into runtime #56 | achievements=109 | `feat(meta): R0681 Ship achievement milestone into runtime #56` |
