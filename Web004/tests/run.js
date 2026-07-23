@@ -1312,5 +1312,19 @@ test("unique can pin firefly icons wired with distinct sizes", () => {
   assert.ok(html.includes("icon-can.png") && html.includes("icon-pin.png"));
 });
 
+
+test("chamomile plantable and 甘菊暖夜 recipe", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.chamomile && j.plants.chamomilePot);
+  assert.ok((j.flavors || []).some((f) => f.id === "chamomile"));
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants });
+  const s = core.defaultState();
+  s.bag.chamomile = 1;
+  assert.ok(core.plantSeed(s, 0, "chamomile", cat).ok);
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "甘菊暖夜"));
+  assert.ok((j.customers || []).some((c) => c.name === "失眠的插画师"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

@@ -788,7 +788,7 @@
     }
     // soft seasonal affinity (optional catalogs.season)
     var season = catalogs.season || customer.season;
-    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || baseDef.id === "floral_tea")) {
+    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || baseDef.id === "floral_tea")) {
       score += 0.5;
       notes.push("春日花香");
     }

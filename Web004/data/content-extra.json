@@ -2161,6 +2161,13 @@
       "emoji": "🔔",
       "kind": "风味",
       "seed": "bluebellPot"
+    },
+    "chamomile": {
+      "id": "chamomile",
+      "name": "洋甘菊",
+      "emoji": "🌼",
+      "kind": "风味",
+      "seed": "chamomilePot"
     }
   },
   "plants": {
@@ -3896,6 +3903,17 @@
       ],
       "harvest": "bluebell",
       "days": 3
+    },
+    "chamomilePot": {
+      "id": "chamomilePot",
+      "name": "洋甘菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌼"
+      ],
+      "harvest": "chamomile",
+      "days": 3
     }
   },
   "cups": [
@@ -4548,6 +4566,16 @@
       "tags": [
         "清爽",
         "草本"
+      ]
+    },
+    {
+      "id": "chamomile",
+      "name": "洋甘菊",
+      "emoji": "🌼",
+      "need": "chamomile",
+      "tags": [
+        "花香",
+        "温柔"
       ]
     }
   ],
@@ -5350,6 +5378,21 @@
         "berry"
       ],
       "wantTopping": true
+    },
+    {
+      "name": "失眠的插画师",
+      "avatar": "🌙",
+      "wish": "洋甘菊或蜜，暖一点，让我慢慢画完这一页。",
+      "tags": [
+        "温柔",
+        "花香"
+      ],
+      "flavors": [
+        "chamomile",
+        "honey",
+        "jasmine",
+        "plain"
+      ]
     }
   ],
   "dialogues": [

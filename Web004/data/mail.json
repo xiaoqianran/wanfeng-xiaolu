@@ -304,5 +304,16 @@
       },
       "hearts": 1
     }
+  },
+  {
+    "id": "mail_chamomile",
+    "title": "一包洋甘菊",
+    "body": "字条：泡开后像很小的太阳。也可以种。",
+    "effect": {
+      "items": {
+        "chamomile": 2
+      },
+      "hearts": 1
+    }
   }
 ]
