@@ -38,3 +38,9 @@
 - 下一轮 A0257+
 - spam DISABLED
 - 验证：cd Web004 && node tests/run.js && node tools/quality-gate.js
+
+## 执行锚点 A0304
+- authentic **296+** / 1000
+- 下一轮 A0304+
+- spam DISABLED
+- `cd Web004 && node tests/run.js && node tools/quality-gate.js`

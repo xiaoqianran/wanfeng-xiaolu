@@ -518,5 +518,15 @@
       },
       "hearts": 1
     }
+  },
+  {
+    "id": "mail_bergamot",
+    "title": "佛手柑皮干",
+    "body": "一包干皮。字条：泡茶就好。",
+    "effect": {
+      "items": {
+        "bergamot": 2
+      }
+    }
   }
 ]
