@@ -469,3 +469,4 @@
 | 462 | completed | feat | Ship dialogue line into runtime #38 | dialogues=90 | `feat(content): R0462 Ship dialogue line into runtime #38` |
 | 463 | completed | feat | Ship journal template into runtime #38 | journal templates=91 | `feat(album): R0463 Ship journal template into runtime #38` |
 | 464 | completed | feat | Ship secret recipe into runtime #38 | secret recipes=91 | `feat(shop): R0464 Ship secret recipe into runtime #38` |
+| 465 | completed | feat | Ship achievement milestone into runtime #38 | achievements=91 | `feat(meta): R0465 Ship achievement milestone into runtime #38` |
