@@ -489,3 +489,4 @@
 | 482 | completed | feat | Ship customer persona into runtime #40 | Runtime customer 织围巾的阿姨·482 | `feat(shop): R0482 Ship customer persona into runtime #40` |
 | 483 | completed | feat | Ship walk ambient + pathWidth into runtime #40 | walk pathWidth=3283 ambient=92 | `feat(walk): R0483 Ship walk ambient + pathWidth into runtime #40` |
 | 484 | completed | feat | Ship garden care whisper into runtime #40 | garden messages=93 careBonus=1.05 | `feat(garden): R0484 Ship garden care whisper into runtime #40` |
+| 485 | completed | feat | Ship shop tip + perfectBonus into runtime #40 | shop tips=93 perfectBonus=4 | `feat(shop): R0485 Ship shop tip + perfectBonus into runtime #40` |
