@@ -273,3 +273,8 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0274 | completed | feat | 常用杯型 | setFavoriteCup + UI auto-select | `feat(shop): A0274 常用杯型记忆` |
 | A0275 | completed | test | 常用杯回归 | 139 tests pass | `feat(shop): A0274 常用杯型记忆` |
 | A0276 | completed | docs | 手册常用杯 | USER_MANUAL cup | `docs(manual): A0276 手册同步常用杯与续作卡` |
+| A0277 | completed | feat | 今日小特调 | getDailySpecial soft score+tip + achievement | `feat(shop): A0277 今日小特调季节软奖励` |
+| A0278 | completed | feat | 井沿月色主题 | moon_well 21st theme + moon/well FX | `feat(walk): A0278 井沿月色主题与罗勒养成` |
+| A0279 | completed | feat | 罗勒养成 | basil plant+flavor+recipe+customer | `feat(walk): A0278 井沿月色主题与罗勒养成` |
+| A0280 | completed | content | 特调月井事件 | 337 events + special/basil mail | `feat(walk): A0278 井沿月色主题与罗勒养成` |
+| A0281 | completed | test | 特调月井回归 | 141 tests pass | `test(shop): A0279 今日特调与月井罗勒回归` |

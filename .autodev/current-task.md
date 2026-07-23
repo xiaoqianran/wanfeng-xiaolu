@@ -1,17 +1,12 @@
-# Resume · A0276+
+# A0277+ authentic increments
 
-## Snapshot  
-- authentic: **268 / 1000** (gap ~732)
-- game_integrated: **193**
-- tests: **139 passed** · quality-gate PASS
-- spam: DISABLED
+## Goals
+1. A0277: daily special soft craft bonus (season-driven)
+2. A0278: moon_well path theme + FX
+3. A0279: basil plantable herb + recipe
+4. Tests + quality-gate + commits + ledger
 
-## Session highlights (A0223+)
-- 熟土记忆、老样子、第一脚、小路贴纸、水壶扩容、常用杯
-- Themes: dawn_bridge, cloud_pass, tide_pool, cicada_grove (20 total)
-- Plants: perilla, thyme, dill, loquat, salt, etc.
-
-## Next
+## Verify
 ```
 cd Web004 && node tests/run.js && node tools/quality-gate.js
 ```
