@@ -297,3 +297,4 @@
 {"round":297,"status":"completed","type":"feat","scope":"walk","goal":"Path theme fragment #14","outcome":"Path themes=19","commit":"feat(walk): R0297 Path theme fragment #14","at":"2026-07-23T19:49:52.587Z"}
 {"round":298,"status":"completed","type":"feat","scope":"content","goal":"Topping or cup option #14","outcome":"Topping top_r0298","commit":"feat(content): R0298 Topping or cup option #14","at":"2026-07-23T19:49:52.607Z"}
 {"round":299,"status":"completed","type":"docs","scope":"progress","goal":"Stage milestone summary #14","outcome":"Stage doc stage-06.md","commit":"docs(progress): R0299 Stage milestone summary #14","at":"2026-07-23T19:49:52.627Z"}
+{"round":300,"status":"completed","type":"refactor","scope":"core","goal":"Catalog integrity pass #14","outcome":"Integrity items=29 customers=14","commit":"refactor(core): R0300 Catalog integrity pass #14","at":"2026-07-23T19:49:52.648Z"}
