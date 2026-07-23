@@ -831,6 +831,14 @@
       "kind": "种子",
       "seed": "plant_lavender_1051",
       "round": 1051
+    },
+    "lavender_r0001": {
+      "id": "lavender_r0001",
+      "name": "薰衣草·1",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": null,
+      "round": 1
     }
   },
   "plants": {
@@ -3308,9 +3316,10 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 1052,
+    "expandedRounds": 1,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
-    "customerCount": 50
+    "customerCount": 50,
+    "integrated": true
   }
 }
