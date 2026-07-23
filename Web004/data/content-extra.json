@@ -2546,6 +2546,13 @@
       "emoji": "🥥",
       "kind": "风味",
       "seed": "coconutPot"
+    },
+    "starfruit": {
+      "id": "starfruit",
+      "name": "杨桃",
+      "emoji": "⭐",
+      "kind": "风味",
+      "seed": "starfruitPot"
     }
   },
   "plants": {
@@ -4743,6 +4750,17 @@
       ],
       "harvest": "coconut",
       "days": 4
+    },
+    "starfruitPot": {
+      "id": "starfruitPot",
+      "name": "杨桃",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⭐"
+      ],
+      "harvest": "starfruit",
+      "days": 3
     }
   },
   "cups": [
@@ -5847,6 +5865,16 @@
       "tags": [
         "清爽",
         "甜蜜"
+      ]
+    },
+    {
+      "id": "starfruit",
+      "name": "杨桃",
+      "emoji": "⭐",
+      "need": "starfruit",
+      "tags": [
+        "清爽",
+        "果香"
       ]
     }
   ],
@@ -7475,6 +7503,22 @@
         "pineapple",
         "mint"
       ]
+    },
+    {
+      "name": "切杨桃的女孩",
+      "avatar": "⭐",
+      "wish": "杨桃或蜜，清爽一点，装饰要好看。",
+      "tags": [
+        "清爽",
+        "果香"
+      ],
+      "flavors": [
+        "starfruit",
+        "honey",
+        "pineapple",
+        "mint"
+      ],
+      "wantTopping": true
     }
   ],
   "dialogues": [
