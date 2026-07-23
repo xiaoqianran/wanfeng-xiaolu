@@ -942,7 +942,7 @@
       score += 0.5;
       notes.push("夏日清爽");
     }
-    if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf")) {
+    if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel")) {
       score += 0.5;
       notes.push("秋日温甜");
     }

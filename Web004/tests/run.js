@@ -1793,5 +1793,16 @@ test("moon_well theme and basil plantable", () => {
   assert.ok(recipes.some((r) => r.name === "月井罗勒苏打"));
 });
 
+
+test("fennel flavor and USER_MANUAL daily special", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.fennel);
+  assert.ok((j.flavors || []).some((f) => f.id === "fennel"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "茴香暖杯"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("小特调") || man.includes("特调"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

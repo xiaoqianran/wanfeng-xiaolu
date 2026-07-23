@@ -132,7 +132,8 @@
       "perilla": 2,
       "thyme": 2.2,
       "dill": 2,
-      "basil": 2.1
+      "basil": 2.1,
+      "fennel": 1.9
     },
     "ambient": [
       "草浪一阵一阵推过来。",
@@ -559,7 +560,8 @@
       "dill": 1.8,
       "thyme": 1.6,
       "perilla": 1.5,
-      "basil": 1.8
+      "basil": 1.8,
+      "fennel": 1.5
     },
     "ambient": [
       "蝉声很远，树荫很近。",

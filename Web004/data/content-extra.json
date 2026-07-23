@@ -2266,6 +2266,13 @@
       "emoji": "🌿",
       "kind": "风味",
       "seed": "basilPot"
+    },
+    "fennel": {
+      "id": "fennel",
+      "name": "茴香籽",
+      "emoji": "🌾",
+      "kind": "风味",
+      "seed": null
     }
   },
   "plants": {
@@ -4832,6 +4839,16 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "fennel",
+      "name": "茴香",
+      "emoji": "🌾",
+      "need": "fennel",
+      "tags": [
+        "草本",
+        "田园"
       ]
     }
   ],
