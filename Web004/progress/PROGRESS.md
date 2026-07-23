@@ -64,3 +64,4 @@
 | 57 | completed | feat | Path theme fragment #2 | Path themes=7 | `feat(walk): R0057 Path theme fragment #2` |
 | 58 | completed | feat | Topping or cup option #2 | Topping top_r0058 | `feat(content): R0058 Topping or cup option #2` |
 | 59 | completed | docs | Stage milestone summary #2 | Stage doc stage-02.md | `docs(progress): R0059 Stage milestone summary #2` |
+| 60 | completed | refactor | Catalog integrity pass #2 | Integrity items=5 customers=2 | `refactor(core): R0060 Catalog integrity pass #2` |
