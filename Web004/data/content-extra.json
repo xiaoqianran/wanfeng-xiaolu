@@ -2490,6 +2490,13 @@
       "emoji": "🔴",
       "kind": "风味",
       "seed": "yangmeiPot"
+    },
+    "longan": {
+      "id": "longan",
+      "name": "龙眼",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "longanPot"
     }
   },
   "plants": {
@@ -4599,6 +4606,17 @@
       ],
       "harvest": "yangmei",
       "days": 3
+    },
+    "longanPot": {
+      "id": "longanPot",
+      "name": "龙眼",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "longan",
+      "days": 3
     }
   },
   "cups": [
@@ -5623,6 +5641,16 @@
       "tags": [
         "果香",
         "清爽"
+      ]
+    },
+    {
+      "id": "longan",
+      "name": "龙眼",
+      "emoji": "🟤",
+      "need": "longan",
+      "tags": [
+        "甜蜜",
+        "果香"
       ]
     }
   ],
@@ -7128,6 +7156,21 @@
         "berry"
       ],
       "wantTopping": true
+    },
+    {
+      "name": "剥龙眼的阿婆",
+      "avatar": "🟤",
+      "wish": "龙眼或蜜，甜一点，暖杯更好。",
+      "tags": [
+        "甜蜜",
+        "温柔"
+      ],
+      "flavors": [
+        "longan",
+        "honey",
+        "tea_leaf",
+        "peach"
+      ]
     }
   ],
   "dialogues": [
