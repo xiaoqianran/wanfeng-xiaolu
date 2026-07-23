@@ -154,3 +154,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0155 | completed | feat | 窗台速写 | snapshotPot + sill_photographer + stats | `feat(garden): A0155 窗台速写静物记忆` |
 | A0156 | completed | content | 信箱扩充 | mail 37 + shop tips | `feat(garden): A0155 窗台速写静物记忆` |
 | A0157 | completed | test | 速写回归 | 109 tests pass | `feat(garden): A0155 窗台速写静物记忆` |
+| A0158 | completed | feat | 夜市尾声主题 | night_market 14th + stall glow | `feat(walk): A0158 夜市尾声主题与手册同步` |
+| A0159 | completed | docs | 手册速写常客 | USER_MANUAL snap+pin | `feat(walk): A0158 夜市尾声主题与手册同步` |
+| A0160 | completed | test | 夜市手册回归 | 110 tests pass | `feat(walk): A0158 夜市尾声主题与手册同步` |
