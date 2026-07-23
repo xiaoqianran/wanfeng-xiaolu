@@ -96,7 +96,8 @@
       "honey": 2,
       "peach": 1.5,
       "petal": 1.8,
-      "chamomile": 2
+      "chamomile": 2,
+      "bergamot": 1.6
     },
     "ambient": [
       "第一颗星比想象中更早。",
@@ -535,7 +536,7 @@
       "honey": 0.7,
       "salt_crystal": 2.2,
       "dill": 1.3,
-      "driftwood": 2.0
+      "driftwood": 2
     },
     "ambient": [
       "退潮留下的水洼像一面面小镜子。",
@@ -592,7 +593,8 @@
       "lavender_bud": 1.8,
       "stone": 1.6,
       "petal": 1.5,
-      "basil": 1.2
+      "basil": 1.2,
+      "bergamot": 2
     },
     "ambient": [
       "井口的风比别处更凉一点。",

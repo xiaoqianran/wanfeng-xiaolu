@@ -2287,6 +2287,13 @@
       "emoji": "🪵",
       "kind": "收藏",
       "seed": null
+    },
+    "bergamot": {
+      "id": "bergamot",
+      "name": "佛手柑",
+      "emoji": "🍊",
+      "kind": "风味",
+      "seed": null
     }
   },
   "plants": {
@@ -4884,6 +4891,16 @@
       "tags": [
         "清爽",
         "草本"
+      ]
+    },
+    {
+      "id": "bergamot",
+      "name": "佛手柑",
+      "emoji": "🍊",
+      "need": "bergamot",
+      "tags": [
+        "花香",
+        "清爽"
       ]
     }
   ],

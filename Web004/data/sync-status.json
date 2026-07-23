@@ -1,5 +1,5 @@
 {
-  "contentItems": 290,
+  "contentItems": 291,
   "plants": 153,
   "customers": 45,
   "dialogues": 32,
@@ -7,15 +7,15 @@
   "shopTips": 35,
   "walkAmbient": 27,
   "achievements": 120,
-  "recipes": 48,
+  "recipes": 49,
   "files": [
     {
       "path": "js/content-extra.js",
-      "bytes": 87545
+      "bytes": 87733
     },
     {
       "path": "js/game-data.js",
-      "bytes": 94603
+      "bytes": 94720
     }
   ]
 }
