@@ -935,3 +935,4 @@
 | 928 | completed | feat | Ship garden care whisper into runtime #77 | garden messages=120 careBonus=1.05 | `feat(garden): R0928 Ship garden care whisper into runtime #77` |
 | 929 | completed | feat | Ship shop tip + perfectBonus into runtime #77 | shop tips=120 perfectBonus=4 | `feat(shop): R0929 Ship shop tip + perfectBonus into runtime #77` |
 | 930 | completed | feat | Ship dialogue line into runtime #77 | dialogues=129 | `feat(content): R0930 Ship dialogue line into runtime #77` |
+| 931 | completed | feat | Ship journal template into runtime #77 | journal templates=120 | `feat(album): R0931 Ship journal template into runtime #77` |
