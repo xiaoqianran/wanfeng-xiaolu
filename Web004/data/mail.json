@@ -876,5 +876,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_coconut",
+    "title": "椰丝一小包",
+    "body": "喝椰水的旅人来信：晒干的椰丝也能入杯。给你一小包。",
+    "effect": {
+      "items": {
+        "coconut": 2
+      },
+      "coins": 2
+    }
   }
 ]
