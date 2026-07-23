@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 320,
+  "current_round": 325,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 314,
-  "authentic_game_integrated_rounds": 219,
+  "authentic_rounds_completed": 319,
+  "authentic_game_integrated_rounds": 223,
   "template_spam_archived": true,
-  "current_milestone": "authentic rebuild A0316+",
-  "current_task_id": "A0322-next",
-  "last_completed_task_id": "A0321",
-  "last_commit": "1d38325",
+  "current_milestone": "authentic rebuild A0322+",
+  "current_task_id": "A0327-next",
+  "last_completed_task_id": "A0326",
+  "last_commit": "pending",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "154 passed, 0 failed",
+  "last_test_summary": "157 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~686) multi-session"
+    "gap to 1000 authentic (~681) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -29,12 +29,11 @@
     "spam engine disabled"
   ],
   "next_candidate_tasks": [
-    "more unique plants (coriander/verbena)",
-    "shop craft shelf polish",
-    "path theme count polish / icons",
-    "mail batch unique letters",
-    "evening events unique bodies"
+    "more plants",
+    "path icons",
+    "unique mail batch",
+    "evening events"
   ],
-  "resume_instructions": "Continue A0322+. Spam DISABLED. authentic-rounds.jsonl SoT.",
-  "updated_at": "2026-07-23T22:49:42.286084+00:00"
+  "resume_instructions": "Continue A0327+. Spam DISABLED. authentic-rounds.jsonl SoT.",
+  "updated_at": "2026-07-23T22:52:41.496150+00:00"
 }

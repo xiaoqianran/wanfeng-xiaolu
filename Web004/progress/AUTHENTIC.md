@@ -318,3 +318,8 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0319 | completed | content | 青苔茴香事件配方 | 6 events + 2 recipes | content(events): A0319 青苔茴香 vignette 与秘密配方 |
 | A0320 | completed | test | 茴香石阶回忆回归 | 154 tests pass | test(core): A0320 茴香石阶回忆回归 |
 | A0321 | completed | docs | 手册青苔回忆 | USER_MANUAL moss_steps+memories | docs(manual): A0321 手册青苔石阶与图鉴回忆 |
+| A0322 | completed | feat | 香菜可种植 | corianderPot+getTopGuests+achievements | feat(garden): A0322 香菜可种植与常客榜 API |
+| A0323 | completed | feat | 墨香小院 | ink_courtyard 25th + mail | feat(walk): A0323 墨香小院主题与来信 |
+| A0324 | completed | feat | 常客小黑板 | guest-board UI + ink FX | feat(shop): A0324 常客小黑板与墨香特效 |
+| A0325 | completed | content | 香菜墨香事件配方 | events+recipes+customers | content(events): A0325 香菜墨香 vignette 与配方 |
+| A0326 | completed | test | 回归与手册 | 157 pass + USER_MANUAL | test(docs): A0326 香菜墨香常客回归与手册 |
