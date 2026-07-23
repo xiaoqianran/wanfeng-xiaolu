@@ -2003,5 +2003,27 @@ test("getTopGuests board and regular_host achievement", () => {
   assert.ok(game.includes("getTopGuests") || game.includes("guest-board"));
 });
 
+
+test("violet plantable and lotus_pond among 26 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.violet && j.plants.violetPot);
+  assert.ok(j.items.lotus_seed);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  s.bag.violet = 1;
+  assert.ok(core.plantSeed(s, 0, "violet", cat).ok);
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "lotus_pond"));
+  assert.ok(themes.length >= 26);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("lotus_pond"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "紫罗兰夜雾"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "lotus_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("荷塘浅步"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
