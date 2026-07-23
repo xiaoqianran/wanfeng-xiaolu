@@ -1,23 +1,17 @@
-# Current task
-
-## Round
-A0021
+# Current task A0035
 
 ## Goal
-小路主题选择：玩家可选枫径/河畔/竹影/星光，影响 canvas 天空色、拾取偏向与氛围文案。
+In-game help screen summarizing controls + link content to USER_MANUAL; polish manual.
 
 ## Files
-- Web004/data/path-themes.json
-- Web004/js/core.js (theme helpers + state)
-- Web004/js/game-data.js (via sync)
-- Web004/tools/sync-runtime-data.js
-- Web004/game.js (UI + drawWalk)
-- Web004/index.html
+- Web004/index.html (help screen)
+- Web004/game.js (render if needed)
 - Web004/styles.css
+- docs/USER_MANUAL.md
 - Web004/tests/run.js
 
 ## Test
 cd Web004 && node tests/run.js && node tools/quality-gate.js
 
 ## Rollback
-git revert A0021 commit
+git revert

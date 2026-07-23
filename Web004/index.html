@@ -64,6 +64,7 @@
             <button type="button" class="soft-btn" data-go="achievements">✨ 温柔成就</button>
             <button type="button" class="soft-btn" data-go="bag"><img src="assets/ui/icon-walk.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 小竹篮</button>
             <button type="button" class="soft-btn" data-go="settings"><img src="assets/ui/icon-settings.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 设置</button>
+            <button type="button" class="soft-btn" data-go="help">❓ 怎么玩</button>
             <button type="button" class="soft-btn" data-go="daily"><img src="assets/ui/icon-daily.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 今日小目标</button>
             <button type="button" class="soft-btn" id="btn-demo-mode"><img src="assets/ui/icon-demo.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 演示模式</button>
           </div>
@@ -139,6 +140,38 @@
             <button type="button" class="primary-btn" id="btn-claim-daily" disabled>领取今日温柔奖励</button>
           </div>
           <p class="muted" id="daily-msg"></p>
+        </div>
+      </section>
+
+      <!-- 怎么玩 -->
+      <section class="screen" id="screen-help" data-screen="help" aria-label="怎么玩">
+        <div class="panel-head">
+          <button class="back-btn" data-go="home" type="button">← 回小院</button>
+          <h2>怎么玩</h2>
+          <span class="hint">没有战斗，慢慢来就好</span>
+        </div>
+        <div class="help-card side-card" id="help-body">
+          <article class="journal-card">
+            <div class="meta">启动</div>
+            <p>用浏览器打开本页即可（支持 file://）。数字键 <kbd>1</kbd>–<kbd>4</kbd> 可快速进入小路 / 盆栽 / 汽水铺 / 图鉴。</p>
+          </article>
+          <article class="journal-card">
+            <div class="meta">晚风小路</div>
+            <p>用屏幕左右按钮或键盘方向键 / <kbd>A</kbd> <kbd>D</kbd> 走动。靠近发光的小东西会自动拾取。上方可切换枫径、河畔、竹影、星光四种主题（影响天空与拾取倾向）。点「再走一段新路」会遇到晚间小事件。</p>
+          </article>
+          <article class="journal-card">
+            <div class="meta">窗台盆栽</div>
+            <p>选空花盆 → 从种子列表种植 → 浇水 / 日照 / 说说话。成熟后可收获。可给植物取小名；金币够时可扩展花盆位（最多 6）。</p>
+          </article>
+          <article class="journal-card">
+            <div class="meta">青柠汽水铺</div>
+            <p>按客人喜好选择杯型、基底、风味与装饰，再端给客人。没有倒计时，做错了也可以换下一位。图鉴里可查看秘密配方是否解锁。</p>
+          </article>
+          <article class="journal-card">
+            <div class="meta">其他</div>
+            <p><strong>今日小目标</strong>：温和日课，未完成无惩罚。<strong>演示模式</strong>：一键载入展示存档。<strong>设置</strong>：音效、减少动效、存档导入导出。</p>
+          </article>
+          <p class="muted center">更完整的文字说明见项目文档 <code>docs/USER_MANUAL.md</code>。</p>
         </div>
       </section>
 

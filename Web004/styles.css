@@ -953,3 +953,19 @@ body.reduce-motion *::after {
   outline: none;
   box-shadow: var(--focus-ring, 0 0 0 3px rgba(126,179,154,0.45));
 }
+
+.help-card {
+  max-width: 640px;
+  margin: 0 auto;
+  display: grid;
+  gap: 10px;
+}
+.help-card kbd {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: var(--bg-soft);
+  font-size: 0.85em;
+  font-family: ui-monospace, monospace;
+}

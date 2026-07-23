@@ -537,5 +537,17 @@ test("content customers include 折纸的少年", () => {
   assert.ok(code.includes("折纸的少年"));
 });
 
+test("in-game help screen ships with controls summary", () => {
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes('id="screen-help"'));
+  assert.ok(html.includes('data-go="help"'));
+  assert.ok(html.includes("没有战斗"));
+  assert.ok(html.includes("再走一段新路") || html.includes("主题"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("晚风小路"));
+  assert.ok(man.includes("没有战斗"));
+  assert.ok(man.includes("今日小目标"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
