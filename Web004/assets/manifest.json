@@ -64,7 +64,8 @@
     "assets/walk/slot_0955.png",
     "assets/walk/slot_0975.png",
     "assets/walk/slot_0995.png",
-    "assets/walk/slot_1015.png"
+    "assets/walk/slot_1015.png",
+    "assets/walk/slot_1035.png"
   ],
   "stages": {
     "home": [
@@ -76,6 +77,11 @@
       {
         "round": 1015,
         "path": "assets/walk/slot_1015.png",
+        "status": "reserved"
+      },
+      {
+        "round": 1035,
+        "path": "assets/walk/slot_1035.png",
         "status": "reserved"
       }
     ],
