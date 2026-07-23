@@ -401,3 +401,4 @@
 | 394 | completed | style | Ship CSS accent token used by app shell #32 | CSS --r-accent hue=218 wired to brand/primary | `style(ui): R0394 Ship CSS accent token used by app shell #32` |
 | 395 | completed | feat | Ship plantable seed linkage into runtime #32 | plant link plant_mango_0395 harvest=seed_mango_0395 | `feat(content): R0395 Ship plantable seed linkage into runtime #32` |
 | 396 | completed | assets | Wire real stage art reference into runtime manifest #32 | live art assets/garden/live_0396.jpg from assets/seasons/dusk.jpg (≥1KB) | `assets(ui): R0396 Wire real stage art reference into runtime manifest #32` |
+| 397 | completed | feat | Ship collectible + runtime catalog item #33 | Runtime item hibiscus_r0397 | `feat(content): R0397 Ship collectible + runtime catalog item #33` |
