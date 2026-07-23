@@ -189,3 +189,4 @@
 | 182 | completed | feat | Add customer persona #9 | Customer 织围巾的阿姨·182 | `feat(shop): R0182 Add customer persona #9` |
 | 183 | completed | feat | Add dialogue line #9 | Dialogue count=9 | `feat(content): R0183 Add dialogue line #9` |
 | 184 | completed | feat | Add garden care whisper #9 | Garden msg #10 | `feat(garden): R0184 Add garden care whisper #9` |
+| 185 | completed | feat | Add shop tip #9 | Shop tip #10 | `feat(shop): R0185 Add shop tip #9` |
