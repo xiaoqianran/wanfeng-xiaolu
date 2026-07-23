@@ -839,6 +839,14 @@
       "kind": "风味",
       "seed": null,
       "round": 1
+    },
+    "seed_feather_0011": {
+      "id": "seed_feather_0011",
+      "name": "软羽毛种子",
+      "emoji": "🪶",
+      "kind": "种子",
+      "seed": "plant_feather_0011",
+      "round": 11
     }
   },
   "plants": {
@@ -1477,6 +1485,18 @@
       "harvest": "seed_lavender_1051",
       "days": 5,
       "round": 1051
+    },
+    "plant_feather_0011": {
+      "id": "plant_feather_0011",
+      "name": "软羽毛盆栽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🪶"
+      ],
+      "harvest": "seed_feather_0011",
+      "days": 5,
+      "round": 11
     }
   },
   "cups": [],
@@ -3333,7 +3353,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 6,
+    "expandedRounds": 11,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
