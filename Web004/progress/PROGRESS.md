@@ -968,3 +968,4 @@
 | 961 | completed | feat | Ship collectible + runtime catalog item #80 | Runtime item lavender_r0961 | `feat(content): R0961 Ship collectible + runtime catalog item #80` |
 | 962 | completed | feat | Ship customer persona into runtime #80 | Runtime customer 织围巾的阿姨·962 | `feat(shop): R0962 Ship customer persona into runtime #80` |
 | 963 | completed | feat | Ship walk ambient + pathWidth into runtime #80 | walk pathWidth=3363 ambient=120 | `feat(walk): R0963 Ship walk ambient + pathWidth into runtime #80` |
+| 964 | completed | feat | Ship garden care whisper into runtime #80 | garden messages=120 careBonus=1.05 | `feat(garden): R0964 Ship garden care whisper into runtime #80` |
