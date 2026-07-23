@@ -2259,6 +2259,13 @@
       "emoji": "🌿",
       "kind": "风味",
       "seed": "dillPot"
+    },
+    "basil": {
+      "id": "basil",
+      "name": "罗勒",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "basilPot"
     }
   },
   "plants": {
@@ -4060,6 +4067,17 @@
       ],
       "harvest": "dill",
       "days": 2
+    },
+    "basilPot": {
+      "id": "basilPot",
+      "name": "罗勒",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "basil",
+      "days": 2
     }
   },
   "cups": [
@@ -4801,6 +4819,16 @@
       "name": "莳萝",
       "emoji": "🌿",
       "need": "dill",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "basil",
+      "name": "罗勒",
+      "emoji": "🌿",
+      "need": "basil",
       "tags": [
         "草本",
         "清爽"
@@ -5849,6 +5877,22 @@
         "dill",
         "mint"
       ]
+    },
+    {
+      "name": "做意面的厨子",
+      "avatar": "🍝",
+      "wish": "罗勒或番茄味的想象——草本清爽，装饰随意。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "basil",
+        "mint",
+        "dill",
+        "plain"
+      ],
+      "wantTopping": true
     }
   ],
   "dialogues": [
