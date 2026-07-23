@@ -2245,6 +2245,13 @@
       "emoji": "🌿",
       "kind": "风味",
       "seed": "thymePot"
+    },
+    "salt_crystal": {
+      "id": "salt_crystal",
+      "name": "海盐晶",
+      "emoji": "💎",
+      "kind": "装饰",
+      "seed": null
     }
   },
   "plants": {
@@ -5190,6 +5197,12 @@
       "name": "枇杷叶",
       "emoji": "🍃",
       "need": "loquat_leaf"
+    },
+    {
+      "id": "salt_top",
+      "name": "海盐",
+      "emoji": "💎",
+      "need": "salt_crystal"
     }
   ],
   "customers": [

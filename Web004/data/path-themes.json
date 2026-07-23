@@ -158,7 +158,8 @@
       "stone": 1.8,
       "honey": 1.2,
       "maple": 0.5,
-      "yuzu": 1.8
+      "yuzu": 1.8,
+      "salt_crystal": 1.8
     },
     "ambient": [
       "远处有船灯一闪一闪。",
@@ -526,7 +527,8 @@
       "river_pebble": 2.5,
       "stone": 1.8,
       "mint": 1.2,
-      "honey": 0.7
+      "honey": 0.7,
+      "salt_crystal": 2.2
     },
     "ambient": [
       "退潮留下的水洼像一面面小镜子。",

@@ -1666,5 +1666,14 @@ test("tide_pool theme unique among 19 themes", () => {
   assert.ok(game.includes("tide_pool"));
 });
 
+
+test("salt_crystal and 潮湾盐汽水 recipe ship", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.salt_crystal);
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "潮湾盐汽水"));
+  assert.ok(recipes.length >= 40);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
