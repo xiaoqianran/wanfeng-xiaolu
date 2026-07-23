@@ -23,3 +23,4 @@
 | 16 | completed | test | Regression assertion pack #0 | Test pack size=2 | `test(core): R0016 Regression assertion pack #0` |
 | 17 | completed | feat | Path theme fragment #0 | Path themes=5 | `feat(walk): R0017 Path theme fragment #0` |
 | 18 | completed | feat | Topping or cup option #0 | Topping top_r0018 | `feat(content): R0018 Topping or cup option #0` |
+| 19 | completed | docs | Stage milestone summary #0 | Stage doc stage-01.md | `docs(progress): R0019 Stage milestone summary #0` |
