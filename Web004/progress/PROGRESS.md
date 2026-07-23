@@ -721,3 +721,4 @@
 | 714 | completed | feat | Season palette note #35 | Season palette winter_0714 | `feat(season): R0714 Season palette note #35` |
 | 715 | completed | assets | Asset slot registration #35 | Asset slot assets/walk/slot_0715.png | `assets(manifest): R0715 Asset slot registration #35` |
 | 716 | completed | test | Regression assertion pack #35 | Test pack size=37 | `test(core): R0716 Regression assertion pack #35` |
+| 717 | completed | feat | Path theme fragment #35 | Path themes=40 | `feat(walk): R0717 Path theme fragment #35` |
