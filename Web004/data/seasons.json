@@ -16,6 +16,10 @@
     "winter_0074": {
       "sky": "#8b6680",
       "ground": "#e2d3ac"
+    },
+    "winter_0094": {
+      "sky": "#b11380",
+      "ground": "#aa8281"
     }
   }
 }

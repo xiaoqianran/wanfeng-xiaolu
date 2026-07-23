@@ -98,3 +98,4 @@
 | 91 | completed | feat | Add plantable linkage #4 | Plant link plant_lavender_0091 | `feat(content): R0091 Add plantable linkage #4` |
 | 92 | completed | feat | Add flavor or base option #4 | Flavor fl_chamomile_0092 | `feat(shop): R0092 Add flavor or base option #4` |
 | 93 | completed | feat | UI copy toast string #4 | UI toasts=5 | `feat(ui): R0093 UI copy toast string #4` |
+| 94 | completed | feat | Season palette note #4 | Season palette winter_0094 | `feat(season): R0094 Season palette note #4` |
