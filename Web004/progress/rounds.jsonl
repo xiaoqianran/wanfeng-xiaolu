@@ -500,3 +500,4 @@
 {"round":500,"status":"completed","type":"refactor","scope":"core","goal":"Catalog integrity pass #24","outcome":"Integrity items=49 customers=24","commit":"refactor(core): R0500 Catalog integrity pass #24","at":"2026-07-23T19:49:57.939Z"}
 {"round":501,"status":"completed","type":"feat","scope":"content","goal":"Add collectible item batch #25","outcome":"Item cocoa_r0501 added","commit":"feat(content): R0501 Add collectible item batch #25","at":"2026-07-23T19:49:58.010Z"}
 {"round":502,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #25","outcome":"Customer 夜跑爱好者·502","commit":"feat(shop): R0502 Add customer persona #25","at":"2026-07-23T19:49:58.048Z"}
+{"round":503,"status":"completed","type":"feat","scope":"content","goal":"Add dialogue line #25","outcome":"Dialogue count=25","commit":"feat(content): R0503 Add dialogue line #25","at":"2026-07-23T19:49:58.071Z"}

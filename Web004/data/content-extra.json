@@ -1557,6 +1557,10 @@
     {
       "round": 483,
       "text": "要不要再走慢一点？（R0483）"
+    },
+    {
+      "round": 503,
+      "text": "薄荷叶上滚着露水。（R0503）"
     }
   ],
   "seasons": [
@@ -1598,7 +1602,7 @@
     "theme_0497"
   ],
   "meta": {
-    "expandedRounds": 502,
+    "expandedRounds": 503,
     "lastIntegrityRound": 500,
     "itemCount": 49,
     "customerCount": 24

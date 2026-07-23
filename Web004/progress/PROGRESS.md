@@ -507,3 +507,4 @@
 | 500 | completed | refactor | Catalog integrity pass #24 | Integrity items=49 customers=24 | `refactor(core): R0500 Catalog integrity pass #24` |
 | 501 | completed | feat | Add collectible item batch #25 | Item cocoa_r0501 added | `feat(content): R0501 Add collectible item batch #25` |
 | 502 | completed | feat | Add customer persona #25 | Customer 夜跑爱好者·502 | `feat(shop): R0502 Add customer persona #25` |
+| 503 | completed | feat | Add dialogue line #25 | Dialogue count=25 | `feat(content): R0503 Add dialogue line #25` |
