@@ -401,3 +401,4 @@
 | 394 | completed | feat | Season palette note #19 | Season palette winter_0394 | `feat(season): R0394 Season palette note #19` |
 | 395 | completed | assets | Asset slot registration #19 | Asset slot assets/walk/slot_0395.png | `assets(manifest): R0395 Asset slot registration #19` |
 | 396 | completed | test | Regression assertion pack #19 | Test pack size=21 | `test(core): R0396 Regression assertion pack #19` |
+| 397 | completed | feat | Path theme fragment #19 | Path themes=24 | `feat(walk): R0397 Path theme fragment #19` |
