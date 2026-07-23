@@ -262,3 +262,4 @@
 | 255 | completed | assets | Asset slot registration #12 | Asset slot assets/walk/slot_0255.png | `assets(manifest): R0255 Asset slot registration #12` |
 | 256 | completed | test | Regression assertion pack #12 | Test pack size=14 | `test(core): R0256 Regression assertion pack #12` |
 | 257 | completed | feat | Path theme fragment #12 | Path themes=17 | `feat(walk): R0257 Path theme fragment #12` |
+| 258 | completed | feat | Topping or cup option #12 | Topping top_r0258 | `feat(content): R0258 Topping or cup option #12` |
