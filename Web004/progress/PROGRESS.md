@@ -137,3 +137,4 @@
 | 130 | completed | style | Ship CSS accent token used by app shell #10 | CSS --r-accent hue=50 wired to brand/primary | `style(ui): R0130 Ship CSS accent token used by app shell #10` |
 | 131 | completed | feat | Ship plantable seed linkage into runtime #10 | plant link plant_feather_0131 harvest=seed_feather_0131 | `feat(content): R0131 Ship plantable seed linkage into runtime #10` |
 | 132 | completed | assets | Wire real stage art reference into runtime manifest #10 | live art assets/shop/live_0132.jpg from assets/seasons/dusk.jpg (≥1KB) | `assets(ui): R0132 Wire real stage art reference into runtime manifest #10` |
+| 133 | completed | feat | Ship collectible + runtime catalog item #11 | Runtime item osmanthus_r0133 | `feat(content): R0133 Ship collectible + runtime catalog item #11` |
