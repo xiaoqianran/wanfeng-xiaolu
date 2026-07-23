@@ -825,3 +825,4 @@
 | 818 | completed | feat | Topping or cup option #40 | Topping top_r0818 | `feat(content): R0818 Topping or cup option #40` |
 | 819 | completed | docs | Stage milestone summary #40 | Stage doc stage-17.md | `docs(progress): R0819 Stage milestone summary #40` |
 | 820 | completed | refactor | Catalog integrity pass #40 | Integrity items=81 customers=40 | `refactor(core): R0820 Catalog integrity pass #40` |
+| 821 | completed | feat | Add collectible item batch #41 | Item pine_r0821 added | `feat(content): R0821 Add collectible item batch #41` |
