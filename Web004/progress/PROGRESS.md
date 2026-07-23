@@ -1027,3 +1027,4 @@
 | 1020 | completed | refactor | Catalog integrity pass #50 | Integrity items=100 customers=49 | `refactor(core): R1020 Catalog integrity pass #50` |
 | 1021 | completed | feat | Add collectible item batch #51 | Item lavender_r1021 added | `feat(content): R1021 Add collectible item batch #51` |
 | 1022 | completed | feat | Add customer persona #51 | Customer 织围巾的阿姨·1022 | `feat(shop): R1022 Add customer persona #51` |
+| 1023 | completed | feat | Add dialogue line #51 | Dialogue count=50 | `feat(content): R1023 Add dialogue line #51` |
