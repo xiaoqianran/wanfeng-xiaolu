@@ -450,3 +450,4 @@
 | 443 | completed | feat | Ship plantable seed linkage into runtime #36 | plant link plant_rose_0443 harvest=seed_rose_0443 | `feat(content): R0443 Ship plantable seed linkage into runtime #36` |
 | 444 | completed | assets | Wire real stage art reference into runtime manifest #36 | live art assets/ui/live_0444.jpg from assets/garden/windowsill.jpg (≥1KB) | `assets(ui): R0444 Wire real stage art reference into runtime manifest #36` |
 | 445 | completed | feat | Ship collectible + runtime catalog item #37 | Runtime item coconut_r0445 | `feat(content): R0445 Ship collectible + runtime catalog item #37` |
+| 446 | completed | feat | Ship customer persona into runtime #37 | Runtime customer 采风记者·446 | `feat(shop): R0446 Ship customer persona into runtime #37` |
