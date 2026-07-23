@@ -336,3 +336,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0337 | completed | feat | 茶台慢坡 | tea_terrace 28th + fav spawn | feat(walk): A0337 茶台慢坡与常走拾取加成 |
 | A0338 | completed | content | 晨露茶台内容 | events+recipes+mail | content(events): A0338 晨露茶台 vignette 与配方 |
 | A0339 | completed | test | 回归手册 | 160 pass | test(docs): A0339 晨露茶台回归与手册 |
+| A0340 | completed | feat | 姜可种植 | gingerPot+winter score | feat(garden): A0340 姜可种植与冬日暖姜评分 |
+| A0341 | completed | feat | 雨园慢径 | rain_garden 29th + sticker memory | feat(walk): A0341 雨园慢径与回忆贴纸墙 |
+| A0342 | completed | content | 姜雨园内容 | events+recipes | content(events): A0342 姜雨园 vignette 与配方 |
+| A0343 | completed | test | 回归手册 | 161 pass | test(docs): A0343 姜雨园回归与手册 |
