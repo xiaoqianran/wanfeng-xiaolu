@@ -318,3 +318,4 @@
 | 311 | completed | feat | Add plantable linkage #15 | Plant link plant_pine_0311 | `feat(content): R0311 Add plantable linkage #15` |
 | 312 | completed | feat | Add flavor or base option #15 | Flavor fl_shell_0312 | `feat(shop): R0312 Add flavor or base option #15` |
 | 313 | completed | feat | UI copy toast string #15 | UI toasts=16 | `feat(ui): R0313 UI copy toast string #15` |
+| 314 | completed | feat | Season palette note #15 | Season palette winter_0314 | `feat(season): R0314 Season palette note #15` |
