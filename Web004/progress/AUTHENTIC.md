@@ -151,3 +151,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0152 | completed | chore | 同步运行时 | sync refresh | `chore(data): A0152 同步运行时时间戳` |
 | A0153 | completed | feat | 洋甘菊养成 | chamomile plant+flavor+recipe+mail | `feat(garden): A0153 洋甘菊可种植与甘菊暖夜配方` |
 | A0154 | completed | test | 洋甘菊回归 | 108 tests pass | `feat(garden): A0153 洋甘菊可种植与甘菊暖夜配方` |
+| A0155 | completed | feat | 窗台速写 | snapshotPot + sill_photographer + stats | `feat(garden): A0155 窗台速写静物记忆` |
+| A0156 | completed | content | 信箱扩充 | mail 37 + shop tips | `feat(garden): A0155 窗台速写静物记忆` |
+| A0157 | completed | test | 速写回归 | 109 tests pass | `feat(garden): A0155 窗台速写静物记忆` |
