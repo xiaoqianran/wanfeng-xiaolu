@@ -2448,6 +2448,13 @@
       "emoji": "🍓",
       "kind": "风味",
       "seed": "strawberryPot"
+    },
+    "blueberry": {
+      "id": "blueberry",
+      "name": "蓝莓",
+      "emoji": "🫐",
+      "kind": "风味",
+      "seed": "blueberryPot"
     }
   },
   "plants": {
@@ -4491,6 +4498,17 @@
       ],
       "harvest": "strawberry",
       "days": 2
+    },
+    "blueberryPot": {
+      "id": "blueberryPot",
+      "name": "蓝莓",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🫐"
+      ],
+      "harvest": "blueberry",
+      "days": 3
     }
   },
   "cups": [
@@ -5455,6 +5473,16 @@
       "tags": [
         "甜蜜",
         "果香"
+      ]
+    },
+    {
+      "id": "blueberry",
+      "name": "蓝莓",
+      "emoji": "🫐",
+      "need": "blueberry",
+      "tags": [
+        "果香",
+        "清爽"
       ]
     }
   ],
@@ -6865,6 +6893,22 @@
         "honey",
         "berry",
         "peach"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "画蓝莓的人",
+      "avatar": "🎨",
+      "wish": "蓝莓或茶，清爽一点，颜色要好看。",
+      "tags": [
+        "清爽",
+        "果香"
+      ],
+      "flavors": [
+        "blueberry",
+        "tea_leaf",
+        "mint",
+        "mulberry"
       ],
       "wantTopping": true
     }
