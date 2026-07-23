@@ -1162,6 +1162,24 @@ function renderJournal() {
         ctx.arc(x, y, 6, 0, Math.PI * 2);
         ctx.fill();
       }
+    } else if (themeId === "rose_lane") {
+      // soft rose petals drifting in narrow lane
+      ctx.fillStyle = "rgba(200,80,110,0.4)";
+      for (let i = 0; i < 16; i++) {
+        const x = w * 0.25 + ((i * 29 + time * 0.4) % (w * 0.5));
+        const y = (i * 43 + time * 0.7) % (h * 0.8);
+        ctx.save();
+        ctx.translate(x, y);
+        ctx.rotate(Math.sin(time * 0.04 + i));
+        ctx.beginPath();
+        ctx.ellipse(0, 0, 4, 2.2, 0, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.restore();
+      }
+      // lane walls hint
+      ctx.fillStyle = "rgba(80,40,50,0.08)";
+      ctx.fillRect(0, 0, w * 0.12, h);
+      ctx.fillRect(w * 0.88, 0, w * 0.12, h);
     }
   }
 
@@ -1991,6 +2009,15 @@ function renderJournal() {
         ? "常客小黑板：" + top.map((g) => g.name + "×" + g.affinity).join(" · ")
         : "常客小黑板：还没有名字";
     }
+    const pinRecEl = document.getElementById("pinned-recipe-status");
+    if (pinRecEl) {
+      const pr = Core.getPinnedRecipe ? Core.getPinnedRecipe(state, secretRecipes) : { ok: false };
+      pinRecEl.textContent = pr.ok
+        ? "钉住的配方：" + (pr.recipe.name || pr.recipe.id)
+        : state.pinnedRecipeId
+          ? "钉住的配方：" + state.pinnedRecipeId + "（尚未解锁）"
+          : "钉住的配方：无";
+    }
     updateDrinkPreview();
     renderShopShelf();
   }
@@ -2105,7 +2132,7 @@ function renderJournal() {
       notes.push("杯子选得好");
     }
     const season = state.season || "dusk";
-    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || baseDef.id === "floral_tea")) {
+    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || flavorDef.id === "rose_petal" || baseDef.id === "floral_tea")) {
       score += 0.5; notes.push("春日花香");
     }
     if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
@@ -2332,6 +2359,77 @@ function renderJournal() {
       save();
       renderShop();
       sfx("pin");
+    });
+  }
+
+  const btnPinRecipe = document.getElementById("btn-pin-recipe");
+  if (btnPinRecipe) {
+    btnPinRecipe.addEventListener("click", () => {
+      const craft = state.craft || {};
+      const match = (secretRecipes || []).find(
+        (r) =>
+          r &&
+          r.cup === craft.cup &&
+          r.base === craft.base &&
+          r.flavor === craft.flavor &&
+          (r.topping || "none") === (craft.topping || "none")
+      );
+      const id = match ? match.id || match.name : [craft.cup, craft.base, craft.flavor, craft.topping || "none"].join("-");
+      if (!craft.cup || !craft.base || !craft.flavor) {
+        toast("先选好杯型、基底和风味");
+        return;
+      }
+      const r = Core.pinRecipe(state, id);
+      if (!r.ok) {
+        toast("没能钉住配方");
+        return;
+      }
+      checkAchievements();
+      save();
+      renderShop();
+      toast("📌 已钉住：" + (match ? match.name : id));
+      sfx("pin");
+    });
+  }
+
+  const btnLoadPinned = document.getElementById("btn-load-pinned-recipe");
+  if (btnLoadPinned) {
+    btnLoadPinned.addEventListener("click", () => {
+      const pr = Core.getPinnedRecipe(state, secretRecipes);
+      if (pr.ok && pr.recipe) {
+        state.craft = {
+          cup: pr.recipe.cup,
+          base: pr.recipe.base,
+          flavor: pr.recipe.flavor,
+          topping: pr.recipe.topping || "none",
+        };
+        save();
+        renderShop();
+        toast("🔁 已填入钉住的配方：" + (pr.recipe.name || ""));
+        sfx("ui");
+        return;
+      }
+      // fallback: parse craft key cup-base-flavor-topping
+      const key = state.pinnedRecipeId;
+      if (!key || key.indexOf("-") < 0) {
+        toast("还没有钉住的配方");
+        return;
+      }
+      const parts = key.split("-");
+      if (parts.length < 3) {
+        toast("还没有钉住的配方");
+        return;
+      }
+      state.craft = {
+        cup: parts[0],
+        base: parts[1],
+        flavor: parts[2],
+        topping: parts[3] || "none",
+      };
+      save();
+      renderShop();
+      toast("🔁 已填入钉住的搭配");
+      sfx("ui");
     });
   }
 

@@ -623,5 +623,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_rose",
+    "title": "干玫瑰两瓣",
+    "body": "折花的诗人来信：晒干的玫瑰也能入杯。给你两瓣，慢慢用。",
+    "effect": {
+      "items": {
+        "rose_petal": 2
+      },
+      "hearts": 1
+    }
   }
 ]
