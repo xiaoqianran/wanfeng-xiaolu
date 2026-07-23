@@ -846,5 +846,29 @@ test("lantern_street theme and new customers ship", () => {
   (j.customers || []).forEach((c) => assert.ok(!/·\d+$/.test(c.name)));
 });
 
+test("tend rest restores mood with little growth", () => {
+  const s = core.defaultState();
+  core.addItem(s, "mint", 1);
+  core.plantSeed(s, 0, "mint");
+  s.pots[0].mood = 20;
+  s.pots[0].water = 10;
+  s.pots[0].growth = 1.0;
+  const r = core.tend(s, 0, "rest");
+  assert.ok(r.ok && r.rested);
+  assert.ok(s.pots[0].mood > 20);
+  assert.ok(s.pots[0].growth < 1.5);
+  assert.ok((s.stats.rests || 0) >= 1);
+});
+
+test("rest button and restLines ship", () => {
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes('data-act="rest"'));
+  const g = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "garden-config.json"), "utf8"));
+  assert.ok(Array.isArray(g.restLines) && g.restLines.length >= 6);
+  g.restLines.forEach((line) => assert.ok(line.length > 8 && !/#\d+/.test(line)));
+  const gd = fs.readFileSync(path.join(__dirname, "..", "js", "game-data.js"), "utf8");
+  assert.ok(gd.includes("restLines"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

@@ -1137,18 +1137,24 @@
       gardenCfg.talkLines && gardenCfg.talkLines.length
         ? gardenCfg.talkLines
         : gardenCfg.messages;
+    const restPool =
+      gardenCfg.restLines && gardenCfg.restLines.length
+        ? gardenCfg.restLines
+        : gardenCfg.messages;
     const msgPool =
       act === "talk"
         ? talkPool
-        : gardenCfg.messages && gardenCfg.messages.length
-          ? gardenCfg.messages
-          : null;
+        : act === "rest"
+          ? restPool
+          : gardenCfg.messages && gardenCfg.messages.length
+            ? gardenCfg.messages
+            : null;
     const gardenMsg =
       msgPool && msgPool.length
         ? msgPool[Math.floor(Math.random() * msgPool.length)]
         : null;
 
-    if (act === "water" || act === "sun" || act === "talk") {
+    if (act === "water" || act === "sun" || act === "talk" || act === "rest") {
       state._tendsToday = (state._tendsToday || 0) + 1;
     }
     if (act === "water") {
@@ -1161,6 +1167,19 @@
     } else if (act === "talk") {
       pot.mood = Math.min(100, pot.mood + 22 * careBonus);
       toast(gardenMsg ? "💬 " + gardenMsg : "💬 「今天也慢慢长大吧」");
+    } else if (act === "rest") {
+      pot.mood = Math.min(100, pot.mood + 18 * careBonus);
+      pot.water = Math.min(100, pot.water + 8);
+      pot.sun = Math.max(0, pot.sun - 3);
+      pot.growth += 0.08;
+      pot.tendedAt = Date.now();
+      if (!state.stats) state.stats = {};
+      state.stats.rests = (state.stats.rests || 0) + 1;
+      toast(gardenMsg ? "😴 " + gardenMsg : "😴 陪它歇了一会儿");
+      sfx("ui");
+      save();
+      renderGarden();
+      return;
     } else if (act === "harvest") {
       if (!isReady(pot)) return;
       const def = PLANTS[pot.plantId];

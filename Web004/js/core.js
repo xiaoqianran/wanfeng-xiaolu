@@ -500,6 +500,16 @@
       pot.sun = Math.min(100, pot.sun + 28);
     } else if (act === "talk") {
       pot.mood = Math.min(100, pot.mood + 22);
+    } else if (act === "rest") {
+      // Soft rest: restore mood/water slightly, almost no growth push, no death
+      pot.mood = Math.min(100, pot.mood + 18);
+      pot.water = Math.min(100, pot.water + 8);
+      pot.sun = Math.max(0, pot.sun - 3);
+      pot.growth += 0.08;
+      pot.tendedAt = Date.now();
+      if (!state.stats) state.stats = {};
+      state.stats.rests = (state.stats.rests || 0) + 1;
+      return { ok: true, rested: true, growth: pot.growth, mood: pot.mood };
     } else if (act === "harvest") {
       if (!isReady(pot, plants)) return { ok: false, reason: "not_ready" };
       var def = plants[pot.plantId];

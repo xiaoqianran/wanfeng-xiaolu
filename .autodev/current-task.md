@@ -1,13 +1,14 @@
-# A0071
+# A0083
 
 ## Goal
-Add optional soft ambient pad via WebAudio (settings toggle), no external files; respect sound/mute and reduceMotion.
+Plant soft "rest" action: when plant exists, rest recovers mood slightly without advancing growth much; unique rest lines; no death/combat.
 
 ## Files
-- Web004/js/audio.js
-- Web004/js/core.js (settings.ambience)
-- Web004/game.js / index.html
+- Web004/js/core.js (tend act "rest")
+- Web004/game.js (button + toast)
+- Web004/index.html if needed
 - Web004/tests/run.js
+- Web004/data/garden-config.json (restLines)
 
 ## Test
 cd Web004 && node tests/run.js && node tools/quality-gate.js
