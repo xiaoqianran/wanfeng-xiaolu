@@ -714,3 +714,4 @@
 | 707 | completed | feat | Ship plantable seed linkage into runtime #58 | plant link plant_orange_0707 harvest=seed_orange_0707 | `feat(content): R0707 Ship plantable seed linkage into runtime #58` |
 | 708 | completed | assets | Wire real stage art reference into runtime manifest #58 | live art assets/album/live_0708.jpg from assets/garden/windowsill.jpg (≥1KB) | `assets(ui): R0708 Wire real stage art reference into runtime manifest #58` |
 | 709 | completed | feat | Ship collectible + runtime catalog item #59 | Runtime item grape_r0709 | `feat(content): R0709 Ship collectible + runtime catalog item #59` |
+| 710 | completed | feat | Ship customer persona into runtime #59 | Runtime customer 图书馆员·710 | `feat(shop): R0710 Ship customer persona into runtime #59` |
