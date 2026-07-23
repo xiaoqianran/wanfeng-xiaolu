@@ -1524,7 +1524,7 @@
       );
       sfx("harvest");
       if (pot.mood > 85) {
-        const extras = ["petal", "clover", "maple", "stone"];
+        const extras = ["petal", "clover", "maple", "stone", "moss", "driftwood", "seashell"];
         const gift = extras[Math.floor((pot.mood + pot.water) % extras.length)];
         addItem(gift, 1);
         toast("✨ 心情好到送了 " + (ITEMS[gift] ? ITEMS[gift].emoji + ITEMS[gift].name : gift));

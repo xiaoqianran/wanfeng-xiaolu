@@ -1880,5 +1880,13 @@ test("bergamot flavor and 佛手柑夜茶 recipe", () => {
   assert.ok(recipes.some((r) => r.name === "佛手柑夜茶"));
 });
 
+
+test("high mood harvest gift pool includes coastal items", () => {
+  const coreSrc = fs.readFileSync(path.join(__dirname, "..", "js", "core.js"), "utf8");
+  assert.ok(coreSrc.includes("driftwood") && coreSrc.includes("seashell"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("moss") && game.includes("driftwood"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

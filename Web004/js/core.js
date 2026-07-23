@@ -837,7 +837,7 @@
       state.coins = (state.coins || 0) + ECONOMY.harvestCoins + (memoryBonus ? 1 : 0);
       var gift = null;
       if (pot.mood > 85) {
-        var extras = ["petal", "clover", "maple", "stone"];
+        var extras = ["petal", "clover", "maple", "stone", "moss", "driftwood", "seashell"];
         gift = extras[Math.floor((pot.mood + (pot.water || 0)) % extras.length)];
         addItem(state, gift, 1);
       }
