@@ -532,10 +532,6 @@
     if (customer.flavors && customer.flavors.indexOf(flavorDef.id) >= 0) {
       score += 2;
       notes.push("风味很合心意");
-    }
-    if (customer.favoriteFlavor && flavorDef.id === customer.favoriteFlavor) {
-      score += 0.5;
-      notes.push("记得你上次的味道");
     } else if (
       flavorDef.tags &&
       flavorDef.tags.some(function (t) {
@@ -544,6 +540,10 @@
     ) {
       score += 1;
       notes.push("味道方向对了");
+    }
+    if (customer.favoriteFlavor && flavorDef.id === customer.favoriteFlavor) {
+      score += 0.5;
+      notes.push("记得你上次的味道");
     }
 
     if (baseDef.vibe && customer.tags && customer.tags.indexOf(baseDef.vibe) >= 0) {
