@@ -1516,6 +1516,20 @@
     bind(motion, "reduceMotion");
     bind(tips, "showTips");
 
+    const newDayBtn = document.getElementById("btn-soft-newday");
+    if (newDayBtn) {
+      newDayBtn.addEventListener("click", () => {
+        if (!confirm("迎来新的一天？今日小目标会刷新，背包与植物会保留。")) return;
+        Core.softNewDay(state);
+        save();
+        refreshResources();
+        refreshDailyUI();
+        const msg = document.getElementById("settings-msg");
+        if (msg) msg.textContent = "新的一天：第 " + (state.day || "?") + " 天";
+        toast("🌅 新的一天");
+        sfx("theme");
+      });
+    }
     const exportBtn = document.getElementById("btn-export-save");
     const importBtn = document.getElementById("btn-import-save");
     const io = document.getElementById("save-io");

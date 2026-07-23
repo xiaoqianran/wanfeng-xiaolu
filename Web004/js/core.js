@@ -259,6 +259,18 @@
     return { daily: daily, newly: newly, allDone: daily.goalIds.every(function (id) { return daily.completed[id]; }) };
   }
 
+
+  function softNewDay(state, now) {
+    now = now || Date.now();
+    state.day = (state.day || 1) + 1;
+    // force daily refresh
+    if (state.daily) state.daily.key = "";
+    ensureDailyGoals(state, now);
+    state._tendsToday = 0;
+    appendJournal(state, "新的一天开始了。背包还在，风也还在。");
+    return { ok: true, day: state.day, daily: state.daily };
+  }
+
   function claimDailyReward(state) {
     var ev = evaluateDailyGoals(state);
     if (!ev.allDone) return { ok: false, reason: "incomplete" };
@@ -742,6 +754,7 @@
     ensureDailyGoals: ensureDailyGoals,
     evaluateDailyGoals: evaluateDailyGoals,
     claimDailyReward: claimDailyReward,
+    softNewDay: softNewDay,
     createDemoState: createDemoState,
     unlockPotSlot: unlockPotSlot,
     ECONOMY: ECONOMY,

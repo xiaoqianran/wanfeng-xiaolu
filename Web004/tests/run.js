@@ -605,5 +605,18 @@ test("scoreDrink season soft bonus for spring jasmine", () => {
   assert.ok(spring.notes.some((n) => n.indexOf("春日") >= 0));
 });
 
+test("softNewDay refreshes daily and keeps bag", () => {
+  const s = core.defaultState();
+  core.addItem(s, "maple", 3);
+  core.ensureDailyGoals(s);
+  const day0 = s.day;
+  const bag0 = s.bag.maple;
+  const r = core.softNewDay(s);
+  assert.ok(r.ok);
+  assert.ok(s.day > day0);
+  assert.strictEqual(s.bag.maple, bag0);
+  assert.ok(s.daily && s.daily.goalIds.length === 3);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
