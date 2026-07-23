@@ -56,6 +56,10 @@
     "winter_0274": {
       "sky": "#042882",
       "ground": "#afa7fc"
+    },
+    "winter_0294": {
+      "sky": "#29d582",
+      "ground": "#7756d1"
     }
   }
 }
