@@ -775,3 +775,4 @@
 | 768 | completed | feat | Add secret recipe stub #38 | Recipes=38 | `feat(shop): R0768 Add secret recipe stub #38` |
 | 769 | completed | feat | Add achievement definition #38 | Achievements=38 | `feat(meta): R0769 Add achievement definition #38` |
 | 770 | completed | style | CSS micro polish token #38 | CSS token hue=130 | `style(ui): R0770 CSS micro polish token #38` |
+| 771 | completed | feat | Add plantable linkage #38 | Plant link plant_cocoa_0771 | `feat(content): R0771 Add plantable linkage #38` |
