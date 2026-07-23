@@ -708,3 +708,4 @@
 | 701 | completed | feat | Add collectible item batch #35 | Item pine_r0701 added | `feat(content): R0701 Add collectible item batch #35` |
 | 702 | completed | feat | Add customer persona #35 | Customer 滑板少年·702 | `feat(shop): R0702 Add customer persona #35` |
 | 703 | completed | feat | Add dialogue line #35 | Dialogue count=35 | `feat(content): R0703 Add dialogue line #35` |
+| 704 | completed | feat | Add garden care whisper #35 | Garden msg #36 | `feat(garden): R0704 Add garden care whisper #35` |
