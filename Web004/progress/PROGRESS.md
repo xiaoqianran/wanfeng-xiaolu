@@ -19,3 +19,4 @@
 | 12 | completed | assets | Wire real stage art reference into runtime manifest #0 | live art assets/shop/live_0012.jpg from assets/album/journal-open.jpg (≥1KB) | `assets(ui): R0012 Wire real stage art reference into runtime manifest #0` |
 | 13 | completed | feat | Ship collectible + runtime catalog item #1 | Runtime item osmanthus_r0013 | `feat(content): R0013 Ship collectible + runtime catalog item #1` |
 | 14 | completed | feat | Ship customer persona into runtime #1 | Runtime customer 弹尤克里里的人·14 | `feat(shop): R0014 Ship customer persona into runtime #1` |
+| 15 | completed | feat | Ship walk ambient + pathWidth into runtime #1 | walk pathWidth=3215 ambient=53 | `feat(walk): R0015 Ship walk ambient + pathWidth into runtime #1` |
