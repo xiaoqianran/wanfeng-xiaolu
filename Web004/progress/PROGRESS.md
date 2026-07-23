@@ -859,3 +859,4 @@
 | 852 | completed | assets | Wire real stage art reference into runtime manifest #70 | live art assets/shop/live_0852.jpg from assets/ui/achievements-badges.jpg (≥1KB) | `assets(ui): R0852 Wire real stage art reference into runtime manifest #70` |
 | 853 | completed | feat | Ship collectible + runtime catalog item #71 | Runtime item osmanthus_r0853 | `feat(content): R0853 Ship collectible + runtime catalog item #71` |
 | 854 | completed | feat | Ship customer persona into runtime #71 | Runtime customer 弹尤克里里的人·854 | `feat(shop): R0854 Ship customer persona into runtime #71` |
+| 855 | completed | feat | Ship walk ambient + pathWidth into runtime #71 | walk pathWidth=3255 ambient=120 | `feat(walk): R0855 Ship walk ambient + pathWidth into runtime #71` |
