@@ -1671,6 +1671,14 @@
       "kind": "种子",
       "seed": "plant_mango_0695",
       "round": 695
+    },
+    "hibiscus_r0697": {
+      "id": "hibiscus_r0697",
+      "name": "洛神花·697",
+      "emoji": "🌺",
+      "kind": "风味",
+      "seed": null,
+      "round": 697
     }
   },
   "plants": {
@@ -5830,7 +5838,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 695,
+    "expandedRounds": 697,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
