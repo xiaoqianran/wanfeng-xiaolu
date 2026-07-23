@@ -1047,3 +1047,4 @@
 | 1040 | completed | refactor | Catalog integrity pass #51 | Integrity items=102 customers=50 | `refactor(core): R1040 Catalog integrity pass #51` |
 | 1041 | completed | feat | Add collectible item batch #52 | Item cocoa_r1041 added | `feat(content): R1041 Add collectible item batch #52` |
 | 1042 | completed | feat | Add customer persona #52 | Customer 夜跑爱好者·1042 | `feat(shop): R1042 Add customer persona #52` |
+| 1043 | completed | feat | Add dialogue line #52 | Dialogue count=51 | `feat(content): R1043 Add dialogue line #52` |
