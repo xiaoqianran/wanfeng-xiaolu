@@ -143,3 +143,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0144 | completed | feat | 萤火浅坡主题 | firefly_field 13th + glow FX | `feat(walk): A0144 萤火浅坡主题与星砂苏打` |
 | A0145 | completed | content | 星砂配方与客人 | 萤坡星砂苏打; 追萤火的少年 | `feat(walk): A0144 萤火浅坡主题与星砂苏打` |
 | A0146 | completed | test | 萤火主题回归 | 105 tests pass | `feat(walk): A0144 萤火浅坡主题与星砂苏打` |
+| A0147 | completed | content | 事件至122则 | 122 unique hand-authored vignettes | `content(events): A0147 晚间 vignette 至一二二则` |
+| A0148 | completed | content | 手帐三则 | 萤火/常客/心情脸 templates | `content(events): A0147 晚间 vignette 至一二二则` |
+| A0149 | completed | test | 反模板事件测试 | 106 tests; ban #N spam titles | `content(events): A0147 晚间 vignette 至一二二则` |
