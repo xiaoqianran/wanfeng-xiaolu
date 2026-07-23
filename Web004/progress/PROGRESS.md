@@ -9,3 +9,4 @@
 | 2 | completed | feat | Ship pure logic core and wire tests | Verified js/core.js pure logic export | `feat(core): R0002 Ship pure logic core and wire tests` |
 | 3 | completed | test | Expand unit coverage for craft edge cases | Recorded craft fixture #1 | `test(core): R0003 Expand unit coverage for craft edge cases` |
 | 4 | completed | feat | Load content-extra catalog in runtime data layer | Catalog loader marker written | `feat(ui): R0004 Load content-extra catalog in runtime data layer` |
+| 5 | completed | assets | Register asset manifest schema and placeholders | Asset manifest bootstrap slots registered | `assets(ui): R0005 Register asset manifest schema and placeholders` |

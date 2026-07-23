@@ -1,4 +1,12 @@
 {
   "files": [],
-  "stages": {}
+  "stages": {
+    "bootstrap": [
+      {
+        "round": 5,
+        "slot": "hero-banner",
+        "path": "assets/scenes/hero-dusk.png"
+      }
+    ]
+  }
 }
