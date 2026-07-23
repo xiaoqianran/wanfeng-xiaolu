@@ -125,7 +125,8 @@
     "assets/shop/live_0672.jpg",
     "assets/ui/live_0684.jpg",
     "assets/garden/live_0696.jpg",
-    "assets/album/live_0708.jpg"
+    "assets/album/live_0708.jpg",
+    "assets/walk/live_0720.jpg"
   ],
   "stages": {
     "home": [
@@ -214,6 +215,12 @@
         "path": "assets/walk/live_0660.jpg",
         "status": "live",
         "source": "assets/seasons/dusk.jpg"
+      },
+      {
+        "round": 720,
+        "path": "assets/walk/live_0720.jpg",
+        "status": "live",
+        "source": "assets/ui/achievements-badges.jpg"
       }
     ],
     "garden": [
