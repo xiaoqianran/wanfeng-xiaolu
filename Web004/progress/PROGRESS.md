@@ -586,3 +586,4 @@
 | 579 | completed | docs | Stage milestone summary #28 | Stage doc stage-12.md | `docs(progress): R0579 Stage milestone summary #28` |
 | 580 | completed | refactor | Catalog integrity pass #28 | Integrity items=57 customers=28 | `refactor(core): R0580 Catalog integrity pass #28` |
 | 581 | completed | feat | Add collectible item batch #29 | Item pine_r0581 added | `feat(content): R0581 Add collectible item batch #29` |
+| 582 | completed | feat | Add customer persona #29 | Customer 滑板少年·582 | `feat(shop): R0582 Add customer persona #29` |
