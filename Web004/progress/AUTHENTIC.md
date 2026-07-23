@@ -428,3 +428,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0429 | completed | feat | 山楂可种植 | hawthornPot | feat(garden): A0429 山楂可种植窗台 |
 | A0430 | completed | feat | 山楂短径 | hawthorn_path 53rd | feat(walk): A0430 山楂短径主题与串果特效 |
 | A0431 | completed | test | 回归手册 | 185 pass | test(docs): A0431 山楂短径回归与手册 |
+| A0432 | completed | feat | 换路手帐芒果 | firstThemeVisits+mangoPot | feat(walk): A0432 换路手帐与芒果可种植 |
+| A0433 | completed | feat | 芒果树荫 | mango_shade 54th | feat(walk): A0433 芒果树荫主题与金果特效 |
+| A0434 | completed | test | 回归手册 | 186 pass | test(docs): A0434 换路手帐芒果回归 |
