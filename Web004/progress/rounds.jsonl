@@ -428,3 +428,4 @@
 {"round":428,"status":"completed","type":"feat","scope":"shop","goal":"Add secret recipe stub #21","outcome":"Recipes=21","commit":"feat(shop): R0428 Add secret recipe stub #21","at":"2026-07-23T19:49:56.120Z"}
 {"round":429,"status":"completed","type":"feat","scope":"meta","goal":"Add achievement definition #21","outcome":"Achievements=21","commit":"feat(meta): R0429 Add achievement definition #21","at":"2026-07-23T19:49:56.152Z"}
 {"round":430,"status":"completed","type":"style","scope":"ui","goal":"CSS micro polish token #21","outcome":"CSS token hue=110","commit":"style(ui): R0430 CSS micro polish token #21","at":"2026-07-23T19:49:56.173Z"}
+{"round":431,"status":"completed","type":"feat","scope":"content","goal":"Add plantable linkage #21","outcome":"Plant link plant_pine_0431","commit":"feat(content): R0431 Add plantable linkage #21","at":"2026-07-23T19:49:56.193Z"}
