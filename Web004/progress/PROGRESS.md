@@ -579,3 +579,4 @@
 | 572 | completed | feat | Add flavor or base option #28 | Flavor fl_chamomile_0572 | `feat(shop): R0572 Add flavor or base option #28` |
 | 573 | completed | feat | UI copy toast string #28 | UI toasts=29 | `feat(ui): R0573 UI copy toast string #28` |
 | 574 | completed | feat | Season palette note #28 | Season palette winter_0574 | `feat(season): R0574 Season palette note #28` |
+| 575 | completed | assets | Asset slot registration #28 | Asset slot assets/walk/slot_0575.png | `assets(manifest): R0575 Asset slot registration #28` |
