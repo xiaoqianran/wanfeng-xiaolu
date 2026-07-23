@@ -937,3 +937,4 @@
 | 930 | completed | feat | Ship dialogue line into runtime #77 | dialogues=129 | `feat(content): R0930 Ship dialogue line into runtime #77` |
 | 931 | completed | feat | Ship journal template into runtime #77 | journal templates=120 | `feat(album): R0931 Ship journal template into runtime #77` |
 | 932 | completed | feat | Ship secret recipe into runtime #77 | secret recipes=120 | `feat(shop): R0932 Ship secret recipe into runtime #77` |
+| 933 | completed | feat | Ship achievement milestone into runtime #77 | achievements=120 | `feat(meta): R0933 Ship achievement milestone into runtime #77` |
