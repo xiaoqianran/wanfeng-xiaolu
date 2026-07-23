@@ -413,3 +413,4 @@
 | 406 | completed | feat | Tune walk ambient note #20 | Walk ambient #20 | `feat(walk): R0406 Tune walk ambient note #20` |
 | 407 | completed | feat | Add journal template #20 | Journal templates=20 | `feat(album): R0407 Add journal template #20` |
 | 408 | completed | feat | Add secret recipe stub #20 | Recipes=20 | `feat(shop): R0408 Add secret recipe stub #20` |
+| 409 | completed | feat | Add achievement definition #20 | Achievements=20 | `feat(meta): R0409 Add achievement definition #20` |
