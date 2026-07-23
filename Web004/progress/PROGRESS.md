@@ -44,3 +44,4 @@
 | 37 | completed | feat | Path theme fragment #1 | Path themes=6 | `feat(walk): R0037 Path theme fragment #1` |
 | 38 | completed | feat | Topping or cup option #1 | Topping top_r0038 | `feat(content): R0038 Topping or cup option #1` |
 | 39 | completed | docs | Stage milestone summary #1 | Stage doc stage-01.md | `docs(progress): R0039 Stage milestone summary #1` |
+| 40 | completed | refactor | Catalog integrity pass #1 | Integrity items=3 customers=1 | `refactor(core): R0040 Catalog integrity pass #1` |
