@@ -1477,5 +1477,15 @@ test("season tips expanded and customers 36 unique", () => {
   assert.strictEqual(new Set(names).size, names.length);
 });
 
+
+test("yuzu flavor and 柚子雨檐 recipe ship", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.yuzu);
+  assert.ok((j.flavors || []).some((f) => f.id === "yuzu"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "柚子雨檐"));
+  assert.ok((j.customers || []).some((c) => c.name === "撑伞的诗人"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

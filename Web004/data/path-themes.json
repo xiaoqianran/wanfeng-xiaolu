@@ -154,7 +154,8 @@
       "river_pebble": 2.2,
       "stone": 1.8,
       "honey": 1.2,
-      "maple": 0.5
+      "maple": 0.5,
+      "yuzu": 1.8
     },
     "ambient": [
       "远处有船灯一闪一闪。",
@@ -208,7 +209,8 @@
       "clover": 1.8,
       "tea_leaf": 1.6,
       "stone": 1.5,
-      "honey": 0.8
+      "honey": 0.8,
+      "yuzu": 1.5
     },
     "ambient": [
       "屋檐滴水，一下一下很稳。",

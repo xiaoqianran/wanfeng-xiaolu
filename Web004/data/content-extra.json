@@ -2203,6 +2203,13 @@
       "emoji": "🟢",
       "kind": "收藏",
       "seed": null
+    },
+    "yuzu": {
+      "id": "yuzu",
+      "name": "柚子皮",
+      "emoji": "🍋",
+      "kind": "风味",
+      "seed": null
     }
   },
   "plants": {
@@ -4643,6 +4650,16 @@
         "草本",
         "田园"
       ]
+    },
+    {
+      "id": "yuzu",
+      "name": "柚子",
+      "emoji": "🍋",
+      "need": "yuzu",
+      "tags": [
+        "清爽",
+        "果香"
+      ]
     }
   ],
   "toppings": [
@@ -5570,6 +5587,21 @@
         "plain"
       ],
       "wantTopping": true
+    },
+    {
+      "name": "撑伞的诗人",
+      "avatar": "☂️",
+      "wish": "柚子或茶，雨天的味道。",
+      "tags": [
+        "清爽",
+        "温柔"
+      ],
+      "flavors": [
+        "yuzu",
+        "tea_leaf",
+        "mint",
+        "plain"
+      ]
     }
   ],
   "dialogues": [
