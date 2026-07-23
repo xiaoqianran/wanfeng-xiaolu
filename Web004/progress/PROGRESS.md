@@ -728,3 +728,4 @@
 | 721 | completed | feat | Add collectible item batch #36 | Item lavender_r0721 added | `feat(content): R0721 Add collectible item batch #36` |
 | 722 | completed | feat | Add customer persona #36 | Customer 织围巾的阿姨·722 | `feat(shop): R0722 Add customer persona #36` |
 | 723 | completed | feat | Add dialogue line #36 | Dialogue count=36 | `feat(content): R0723 Add dialogue line #36` |
+| 724 | completed | feat | Add garden care whisper #36 | Garden msg #37 | `feat(garden): R0724 Add garden care whisper #36` |
