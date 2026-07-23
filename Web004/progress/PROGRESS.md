@@ -188,3 +188,4 @@
 | 181 | completed | feat | Ship collectible + runtime catalog item #15 | Runtime item lavender_r0181 | `feat(content): R0181 Ship collectible + runtime catalog item #15` |
 | 182 | completed | feat | Ship customer persona into runtime #15 | Runtime customer 织围巾的阿姨·182 | `feat(shop): R0182 Ship customer persona into runtime #15` |
 | 183 | completed | feat | Ship walk ambient + pathWidth into runtime #15 | walk pathWidth=3383 ambient=67 | `feat(walk): R0183 Ship walk ambient + pathWidth into runtime #15` |
+| 184 | completed | feat | Ship garden care whisper into runtime #15 | garden messages=68 careBonus=1.05 | `feat(garden): R0184 Ship garden care whisper into runtime #15` |

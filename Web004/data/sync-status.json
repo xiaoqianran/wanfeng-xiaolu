@@ -3,7 +3,7 @@
   "plants": 68,
   "customers": 67,
   "dialogues": 66,
-  "gardenMessages": 67,
+  "gardenMessages": 68,
   "shopTips": 67,
   "walkAmbient": 67,
   "achievements": 67,
@@ -15,7 +15,7 @@
     },
     {
       "path": "js/game-data.js",
-      "bytes": 41138
+      "bytes": 41175
     }
   ]
 }
