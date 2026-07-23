@@ -71,3 +71,4 @@
 | 64 | completed | feat | Add garden care whisper #3 | Garden msg #4 | `feat(garden): R0064 Add garden care whisper #3` |
 | 65 | completed | feat | Add shop tip #3 | Shop tip #4 | `feat(shop): R0065 Add shop tip #3` |
 | 66 | completed | feat | Tune walk ambient note #3 | Walk ambient #3 | `feat(walk): R0066 Tune walk ambient note #3` |
+| 67 | completed | feat | Add journal template #3 | Journal templates=3 | `feat(album): R0067 Add journal template #3` |
