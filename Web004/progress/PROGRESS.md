@@ -776,3 +776,4 @@
 | 769 | completed | feat | Ship collectible + runtime catalog item #64 | Runtime item grape_r0769 | `feat(content): R0769 Ship collectible + runtime catalog item #64` |
 | 770 | completed | feat | Ship customer persona into runtime #64 | Runtime customer 图书馆员·770 | `feat(shop): R0770 Ship customer persona into runtime #64` |
 | 771 | completed | feat | Ship walk ambient + pathWidth into runtime #64 | walk pathWidth=3371 ambient=116 | `feat(walk): R0771 Ship walk ambient + pathWidth into runtime #64` |
+| 772 | completed | feat | Ship garden care whisper into runtime #64 | garden messages=117 careBonus=1.05 | `feat(garden): R0772 Ship garden care whisper into runtime #64` |
