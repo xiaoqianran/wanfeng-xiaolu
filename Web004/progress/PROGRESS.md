@@ -454,3 +454,4 @@
 | 447 | completed | feat | Add journal template #22 | Journal templates=22 | `feat(album): R0447 Add journal template #22` |
 | 448 | completed | feat | Add secret recipe stub #22 | Recipes=22 | `feat(shop): R0448 Add secret recipe stub #22` |
 | 449 | completed | feat | Add achievement definition #22 | Achievements=22 | `feat(meta): R0449 Add achievement definition #22` |
+| 450 | completed | style | CSS micro polish token #22 | CSS token hue=90 | `style(ui): R0450 CSS micro polish token #22` |
