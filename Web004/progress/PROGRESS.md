@@ -880,3 +880,4 @@
 | 873 | completed | feat | UI copy toast string #43 | UI toasts=44 | `feat(ui): R0873 UI copy toast string #43` |
 | 874 | completed | feat | Season palette note #43 | Season palette winter_0874 | `feat(season): R0874 Season palette note #43` |
 | 875 | completed | assets | Asset slot registration #43 | Asset slot assets/walk/slot_0875.png | `assets(manifest): R0875 Asset slot registration #43` |
+| 876 | completed | test | Regression assertion pack #43 | Test pack size=45 | `test(core): R0876 Regression assertion pack #43` |
