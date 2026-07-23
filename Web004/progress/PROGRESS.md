@@ -398,3 +398,4 @@
 | 391 | completed | feat | Add plantable linkage #19 | Plant link plant_lavender_0391 | `feat(content): R0391 Add plantable linkage #19` |
 | 392 | completed | feat | Add flavor or base option #19 | Flavor fl_chamomile_0392 | `feat(shop): R0392 Add flavor or base option #19` |
 | 393 | completed | feat | UI copy toast string #19 | UI toasts=20 | `feat(ui): R0393 UI copy toast string #19` |
+| 394 | completed | feat | Season palette note #19 | Season palette winter_0394 | `feat(season): R0394 Season palette note #19` |
