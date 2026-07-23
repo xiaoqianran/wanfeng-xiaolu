@@ -991,3 +991,4 @@
 | 984 | completed | assets | Wire real stage art reference into runtime manifest #81 | live art assets/ui/live_0984.jpg from assets/ui/achievements-badges.jpg (≥1KB) | `assets(ui): R0984 Wire real stage art reference into runtime manifest #81` |
 | 985 | completed | feat | Ship collectible + runtime catalog item #82 | Runtime item coconut_r0985 | `feat(content): R0985 Ship collectible + runtime catalog item #82` |
 | 986 | completed | feat | Ship customer persona into runtime #82 | Runtime customer 采风记者·986 | `feat(shop): R0986 Ship customer persona into runtime #82` |
+| 987 | completed | feat | Ship walk ambient + pathWidth into runtime #82 | walk pathWidth=3387 ambient=120 | `feat(walk): R0987 Ship walk ambient + pathWidth into runtime #82` |
