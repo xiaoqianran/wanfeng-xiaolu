@@ -834,3 +834,4 @@
 | 827 | completed | feat | Add journal template #41 | Journal templates=41 | `feat(album): R0827 Add journal template #41` |
 | 828 | completed | feat | Add secret recipe stub #41 | Recipes=41 | `feat(shop): R0828 Add secret recipe stub #41` |
 | 829 | completed | feat | Add achievement definition #41 | Achievements=41 | `feat(meta): R0829 Add achievement definition #41` |
+| 830 | completed | style | CSS micro polish token #41 | CSS token hue=70 | `style(ui): R0830 CSS micro polish token #41` |
