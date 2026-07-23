@@ -545,3 +545,4 @@
 | 538 | completed | feat | Topping or cup option #26 | Topping top_r0538 | `feat(content): R0538 Topping or cup option #26` |
 | 539 | completed | docs | Stage milestone summary #26 | Stage doc stage-11.md | `docs(progress): R0539 Stage milestone summary #26` |
 | 540 | completed | refactor | Catalog integrity pass #26 | Integrity items=53 customers=26 | `refactor(core): R0540 Catalog integrity pass #26` |
+| 541 | completed | feat | Add collectible item batch #27 | Item lavender_r0541 added | `feat(content): R0541 Add collectible item batch #27` |
