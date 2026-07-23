@@ -1,18 +1,17 @@
-# Resume · A0261+
+# Resume · A0276+
 
-## Snapshot
-- authentic: **253 / 1000** (gap ~747)
-- game_integrated: **185**
-- tests: **135 passed** / quality-gate PASS
+## Snapshot  
+- authentic: **268 / 1000** (gap ~732)
+- game_integrated: **193**
+- tests: **139 passed** · quality-gate PASS
 - spam: DISABLED
 
-## This session systems (sample)
-- 熟土记忆、老样子、今日第一脚、小路贴纸
-- dawn_bridge / cloud_pass / tide_pool themes
-- perilla, thyme, salt, loquat content
+## Session highlights (A0223+)
+- 熟土记忆、老样子、第一脚、小路贴纸、水壶扩容、常用杯
+- Themes: dawn_bridge, cloud_pass, tide_pool, cicada_grove (20 total)
+- Plants: perilla, thyme, dill, loquat, salt, etc.
 
 ## Next
 ```
 cd Web004 && node tests/run.js && node tools/quality-gate.js
 ```
-Continue authentic ~30min increments only.
