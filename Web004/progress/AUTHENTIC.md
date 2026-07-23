@@ -90,3 +90,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0090 | completed | feat | 新成就与主题足迹 | gentle_rest theme_walker mail_reader + _themesTouched | `feat(meta): A0090 休息主题拆信新成就与主题足迹` |
 | A0091 | completed | feat | 山茶种植 | camellia item+plant+topping | `feat(garden): A0091 山茶花瓣可拾取种植与装饰` |
 | A0092 | completed | docs | 手册同步新功能 | USER_MANUAL rest keys settings | `docs(manual): A0092 玩家手册同步休息快捷键与新设置` |
+| A0093 | completed | feat | 足迹显示主题数 | themesN in renderStats | `feat(stats): A0093 足迹页显示主题切换数量` |
+| A0094 | completed | content | 山茶蜜语配方 | 山茶蜜语 雨檐野茶 recipes | `content(shop): A0094 山茶蜜语与雨檐野茶秘密配方` |
+| A0095 | completed | art | 信箱休息帮助图标 | 3 unique procedural PNGs wired | `art(ui): A0095 信箱休息帮助独特程序化图标` |

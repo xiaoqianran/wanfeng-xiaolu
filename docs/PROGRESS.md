@@ -2,11 +2,11 @@
 
 | 字段 | 值 |
 |------|-----|
-| Authentic | **76** / 1000 |
-| Game-integrated | **67** |
-| 测试 | 74 passed |
+| Authentic | **89** / 1000 |
+| Game-integrated | **79** |
+| 测试 | 82 passed |
 | 刷轮 | DISABLED |
 
-最近：环境底噪、季节提示、连胜奖励、日礼、码头/灯笼主题、信箱、剪贴板存档、背包排序。
+最近：植物休息、安静模式、8 小路主题、环境底噪、连胜、日礼、山茶/薰衣草、独特图标。
 
-恢复：A0083+ · `.autodev/state.json`
+恢复：A0096+ · `.autodev/state.json`
