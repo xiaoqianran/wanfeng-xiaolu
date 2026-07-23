@@ -125,3 +125,4 @@
 | 118 | completed | style | Ship CSS accent token used by app shell #9 | CSS --r-accent hue=206 wired to brand/primary | `style(ui): R0118 Ship CSS accent token used by app shell #9` |
 | 119 | completed | feat | Ship plantable seed linkage into runtime #9 | plant link plant_pear_0119 harvest=seed_pear_0119 | `feat(content): R0119 Ship plantable seed linkage into runtime #9` |
 | 120 | completed | assets | Wire real stage art reference into runtime manifest #9 | live art assets/walk/live_0120.jpg from assets/shop/cups-set.jpg (≥1KB) | `assets(ui): R0120 Wire real stage art reference into runtime manifest #9` |
+| 121 | completed | feat | Ship collectible + runtime catalog item #10 | Runtime item lavender_r0121 | `feat(content): R0121 Ship collectible + runtime catalog item #10` |
