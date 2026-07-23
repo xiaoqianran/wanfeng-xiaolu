@@ -61,3 +61,4 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0061 | completed | feat | 野茶丛种植与新杯型 | teaBush plant + bowl/flute cups | `feat(garden): A0061 野茶丛可种植与新杯型选项` |
 | A0062 | completed | perf | 减少动效关闭拾取浮动 | bob=0 when reduceMotion | `perf(walk): A0062 减少动效时关闭拾取物浮动` |
 | A0063 | completed | feat | 码头薄暮主题 | harbor theme + wave weather FX | `feat(walk): A0063 码头薄暮主题与潮波特效` |
+| A0064 | completed | docs | README 功能与进度说明 | feature list + authentic progress pointer | `docs(readme): A0064 更新功能列表与诚实进度说明` |
