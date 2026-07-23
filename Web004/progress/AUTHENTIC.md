@@ -186,3 +186,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0187 | completed | feat | 常走小路标记 | favoritePathTheme UI + core | `feat(walk): A0187 常走小路标记与石庭青苔` |
 | A0188 | completed | content | 青苔收藏 | moss collectible stone_garden bias | `feat(walk): A0187 常走小路标记与石庭青苔` |
 | A0189 | completed | test | 常走青苔回归 | 119 tests pass | `feat(walk): A0187 常走小路标记与石庭青苔` |
+| A0190 | completed | docs | 手册常走小路 | USER_MANUAL favorite theme | `docs(manual): A0190 手册同步常走小路与新来信` |
+| A0191 | completed | content | 信箱43封 | mail moss/sage/fav_path | `docs(manual): A0190 手册同步常走小路与新来信` |
