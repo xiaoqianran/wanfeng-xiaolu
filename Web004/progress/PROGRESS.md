@@ -691,3 +691,4 @@
 | 684 | completed | assets | Wire real stage art reference into runtime manifest #56 | live art assets/ui/live_0684.jpg from assets/scenes/walk-path.jpg (≥1KB) | `assets(ui): R0684 Wire real stage art reference into runtime manifest #56` |
 | 685 | completed | feat | Ship collectible + runtime catalog item #57 | Runtime item coconut_r0685 | `feat(content): R0685 Ship collectible + runtime catalog item #57` |
 | 686 | completed | feat | Ship customer persona into runtime #57 | Runtime customer 采风记者·686 | `feat(shop): R0686 Ship customer persona into runtime #57` |
+| 687 | completed | feat | Ship walk ambient + pathWidth into runtime #57 | walk pathWidth=3287 ambient=109 | `feat(walk): R0687 Ship walk ambient + pathWidth into runtime #57` |
