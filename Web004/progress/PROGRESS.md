@@ -555,3 +555,4 @@
 | 548 | completed | feat | Add secret recipe stub #27 | Recipes=27 | `feat(shop): R0548 Add secret recipe stub #27` |
 | 549 | completed | feat | Add achievement definition #27 | Achievements=27 | `feat(meta): R0549 Add achievement definition #27` |
 | 550 | completed | style | CSS micro polish token #27 | CSS token hue=350 | `style(ui): R0550 CSS micro polish token #27` |
+| 551 | completed | feat | Add plantable linkage #27 | Plant link plant_pine_0551 | `feat(content): R0551 Add plantable linkage #27` |
