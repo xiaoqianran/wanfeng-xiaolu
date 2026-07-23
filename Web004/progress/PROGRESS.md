@@ -703,3 +703,4 @@
 | 696 | completed | assets | Wire real stage art reference into runtime manifest #57 | live art assets/garden/live_0696.jpg from assets/items/collectibles-sheet.jpg (≥1KB) | `assets(ui): R0696 Wire real stage art reference into runtime manifest #57` |
 | 697 | completed | feat | Ship collectible + runtime catalog item #58 | Runtime item hibiscus_r0697 | `feat(content): R0697 Ship collectible + runtime catalog item #58` |
 | 698 | completed | feat | Ship customer persona into runtime #58 | Runtime customer 烘焙店员·698 | `feat(shop): R0698 Ship customer persona into runtime #58` |
+| 699 | completed | feat | Ship walk ambient + pathWidth into runtime #58 | walk pathWidth=3299 ambient=110 | `feat(walk): R0699 Ship walk ambient + pathWidth into runtime #58` |
