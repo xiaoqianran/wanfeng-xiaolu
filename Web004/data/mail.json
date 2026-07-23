@@ -230,5 +230,49 @@
       "coins": 2,
       "hearts": 1
     }
+  },
+  {
+    "id": "mail_can",
+    "title": "关于水壶",
+    "body": "纸条写：走得越远，水越满。这不是谜语，是提醒。",
+    "effect": {
+      "hearts": 1,
+      "coins": 1
+    }
+  },
+  {
+    "id": "mail_plum",
+    "title": "梅枝一截",
+    "body": "没有花，只有香。建议插在窗台那盆旁边。",
+    "effect": {
+      "items": {
+        "petal": 1,
+        "lilac": 1
+      }
+    }
+  },
+  {
+    "id": "mail_hint",
+    "title": "配方差一步",
+    "body": "卡片只印了一个问号，背面写着：装饰换一换。",
+    "effect": {
+      "hearts": 1
+    }
+  },
+  {
+    "id": "mail_kind",
+    "title": "图鉴分类的建议",
+    "body": "有人说把收藏和风味分开看，心里会清爽一点。",
+    "effect": {
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bench2",
+    "title": "长椅维修通知",
+    "body": "其实没有维修，只是有人重新上了一点蜡，坐着更暖。",
+    "effect": {
+      "hearts": 2
+    }
   }
 ]

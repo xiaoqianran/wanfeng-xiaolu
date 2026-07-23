@@ -2147,6 +2147,20 @@
       "emoji": "💜",
       "kind": "风味",
       "seed": "lilacPot"
+    },
+    "wheat_ear": {
+      "id": "wheat_ear",
+      "name": "麦穗",
+      "emoji": "🌾",
+      "kind": "装饰",
+      "seed": null
+    },
+    "bluebell": {
+      "id": "bluebell",
+      "name": "风铃草",
+      "emoji": "🔔",
+      "kind": "风味",
+      "seed": "bluebellPot"
     }
   },
   "plants": {
@@ -3871,6 +3885,17 @@
       ],
       "harvest": "lilac",
       "days": 3
+    },
+    "bluebellPot": {
+      "id": "bluebellPot",
+      "name": "风铃草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔔"
+      ],
+      "harvest": "bluebell",
+      "days": 3
     }
   },
   "cups": [
@@ -4514,6 +4539,16 @@
         "花香",
         "温柔"
       ]
+    },
+    {
+      "id": "bluebell",
+      "name": "风铃草",
+      "emoji": "🔔",
+      "need": "bluebell",
+      "tags": [
+        "清爽",
+        "草本"
+      ]
     }
   ],
   "toppings": [
@@ -4916,6 +4951,12 @@
       "name": "橙皮",
       "emoji": "🍊",
       "need": "dried_orange"
+    },
+    {
+      "id": "wheat_top",
+      "name": "麦穗",
+      "emoji": "🌾",
+      "need": "wheat_ear"
     }
   ],
   "customers": [
