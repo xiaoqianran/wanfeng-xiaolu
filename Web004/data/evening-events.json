@@ -2499,5 +2499,35 @@
     "id": "ev_continue_pond",
     "title": "继续走·又见夜荷",
     "body": "第二次到夜荷池，蛙声换了位置，池还是那池。"
+  },
+  {
+    "id": "ev_chrys",
+    "title": "窗台菊",
+    "body": "菊花开得很整齐。你写便签：不必催，花会自己到晚。"
+  },
+  {
+    "id": "ev_chrys_garden",
+    "title": "菊圃晚径",
+    "body": "圃里的小路被花挡住一半。你侧身过去，香气跟着。"
+  },
+  {
+    "id": "ev_chrys_tea",
+    "title": "赏菊的人",
+    "body": "老人说：菊茶要淡。你把蜜少放了半勺。"
+  },
+  {
+    "id": "ev_autumn_chrys",
+    "title": "秋色",
+    "body": "秋色不是一种颜色，是很多种花一起安静。"
+  },
+  {
+    "id": "ev_chrys_petal",
+    "title": "一瓣菊",
+    "body": "花瓣落在掌心，比玫瑰更硬一点，也更干。"
+  },
+  {
+    "id": "ev_continue_chrys",
+    "title": "继续走·又见菊圃",
+    "body": "第二次进菊圃，花更多，人更少。"
   }
 ]
