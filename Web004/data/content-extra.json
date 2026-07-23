@@ -63,6 +63,14 @@
       "kind": "风味",
       "seed": null,
       "round": 81
+    },
+    "seed_lavender_0091": {
+      "id": "seed_lavender_0091",
+      "name": "薰衣草种子",
+      "emoji": "💜",
+      "kind": "种子",
+      "seed": "plant_lavender_0091",
+      "round": 91
     }
   },
   "plants": {
@@ -113,6 +121,18 @@
       "harvest": "seed_pine_0071",
       "days": 5,
       "round": 71
+    },
+    "plant_lavender_0091": {
+      "id": "plant_lavender_0091",
+      "name": "薰衣草盆栽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "seed_lavender_0091",
+      "days": 5,
+      "round": 91
     }
   },
   "cups": [],
@@ -279,7 +299,7 @@
     "theme_0077"
   ],
   "meta": {
-    "expandedRounds": 83,
+    "expandedRounds": 91,
     "lastIntegrityRound": 80,
     "itemCount": 7,
     "customerCount": 3

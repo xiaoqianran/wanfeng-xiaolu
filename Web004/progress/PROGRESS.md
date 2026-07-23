@@ -95,3 +95,4 @@
 | 88 | completed | feat | Add secret recipe stub #4 | Recipes=4 | `feat(shop): R0088 Add secret recipe stub #4` |
 | 89 | completed | feat | Add achievement definition #4 | Achievements=4 | `feat(meta): R0089 Add achievement definition #4` |
 | 90 | completed | style | CSS micro polish token #4 | CSS token hue=90 | `style(ui): R0090 CSS micro polish token #4` |
+| 91 | completed | feat | Add plantable linkage #4 | Plant link plant_lavender_0091 | `feat(content): R0091 Add plantable linkage #4` |
