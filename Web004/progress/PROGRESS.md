@@ -829,3 +829,4 @@
 | 822 | completed | feat | Ship dialogue line into runtime #68 | dialogues=120 | `feat(content): R0822 Ship dialogue line into runtime #68` |
 | 823 | completed | feat | Ship journal template into runtime #68 | journal templates=120 | `feat(album): R0823 Ship journal template into runtime #68` |
 | 824 | completed | feat | Ship secret recipe into runtime #68 | secret recipes=120 | `feat(shop): R0824 Ship secret recipe into runtime #68` |
+| 825 | completed | feat | Ship achievement milestone into runtime #68 | achievements=120 | `feat(meta): R0825 Ship achievement milestone into runtime #68` |
