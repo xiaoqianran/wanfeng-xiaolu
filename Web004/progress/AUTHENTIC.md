@@ -413,3 +413,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0414 | completed | feat | 晨间照料杨梅 | morningTends+yangmeiPot | feat(garden): A0414 晨间照料与杨梅可种植 |
 | A0415 | completed | feat | 雨亭慢歇 | rain_pavilion 48th | feat(walk): A0415 雨亭慢歇主题与亭檐雨滴 |
 | A0416 | completed | test | 回归手册 | 180 pass spam DISABLED | test(docs): A0416 晨间雨亭杨梅回归与手册 |
+| A0417 | completed | feat | 龙眼可种植 | longanPot | feat(garden): A0417 龙眼可种植窗台 |
+| A0418 | completed | feat | 露径慢步 | dew_path 49th | feat(walk): A0418 露径慢步主题与露珠特效 |
+| A0419 | completed | test | 回归手册 | 181 pass | test(docs): A0419 龙眼露径回归与手册 |

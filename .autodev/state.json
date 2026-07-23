@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 415,
+  "current_round": 418,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 409,
-  "authentic_game_integrated_rounds": 290,
+  "authentic_rounds_completed": 412,
+  "authentic_game_integrated_rounds": 292,
   "template_spam_archived": true,
-  "current_milestone": "authentic rebuild A0414+",
-  "current_task_id": "A0417-next",
-  "last_completed_task_id": "A0416",
+  "current_milestone": "authentic rebuild A0417+",
+  "current_task_id": "A0420-next",
+  "last_completed_task_id": "A0419",
   "last_commit": "pending",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "180 passed, 0 failed",
+  "last_test_summary": "181 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~591) multi-session"
+    "gap to 1000 authentic (~588) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -27,17 +27,14 @@
   "important_decisions": [
     "authentic ledger only",
     "spam engine disabled",
-    "no template #N content",
-    "unique event titles",
-    "event bodies >12"
+    "no template #N content"
   ],
   "next_candidate_tasks": [
     "more unique plants",
     "path icons",
     "audio feedback",
-    "UI polish",
-    "demo script"
+    "UI polish"
   ],
-  "resume_instructions": "Continue A0417+. Spam DISABLED. authentic-rounds.jsonl SoT. Gap ~591. Themes 48.",
-  "updated_at": "2026-07-23T23:35:34.777018+00:00"
+  "resume_instructions": "Continue A0420+. Spam DISABLED. Gap ~588. Themes 49.",
+  "updated_at": "2026-07-23T23:37:20.216753+00:00"
 }
