@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 110,
+  "current_round": 113,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 104,
-  "authentic_game_integrated_rounds": 92,
+  "authentic_rounds_completed": 107,
+  "authentic_game_integrated_rounds": 94,
   "template_spam_archived": true,
   "current_milestone": "authentic rebuild A011x",
-  "current_task_id": "A0112-next",
-  "last_completed_task_id": "A0111",
-  "last_commit": "d9877cf",
+  "current_task_id": "A0115-next",
+  "last_completed_task_id": "A0114",
+  "last_commit": "5626fb2",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "93 passed, 0 failed",
+  "last_test_summary": "94 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~896) multi-session"
+    "gap to 1000 authentic (~893) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -29,11 +29,11 @@
     "spam engine disabled"
   ],
   "next_candidate_tasks": [
-    "more unique evening events",
-    "garden watering can visual",
-    "shop display case",
-    "unique shop/garden icons"
+    "album filter by kind",
+    "more path ambient lines",
+    "plant season art tint",
+    "shop display shelf"
   ],
-  "resume_instructions": "Continue A0112+. Three pillars garden/walk/shop. Spam DISABLED. Gap ~896.",
-  "updated_at": "2026-07-23T21:36:59.203905+00:00"
+  "resume_instructions": "Continue A0115+. Three pillars: 静物养成/散步收集/小店搭配. Spam DISABLED. authentic-rounds.jsonl SoT.",
+  "updated_at": "2026-07-23T21:38:36.416404+00:00"
 }

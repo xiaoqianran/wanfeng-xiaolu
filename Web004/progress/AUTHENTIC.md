@@ -108,3 +108,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0109 | completed | content | 桂花配方 | 桂花竹节晚风 橙皮迷迭气泡 | `feat(walk): A0107 旧书庭院主题与桂花配方手帐` |
 | A0110 | completed | feat | 足迹熟悉客人榜 | top affinity + bench/note counts in stats | `feat(garden): A0105 花盆便签与小路长椅歇脚` |
 | A0111 | completed | test | 便签庭院回归 | 93 tests pass | `test(core): A0108 便签长椅桂花庭院回归测试` |
+| A0112 | completed | content | 晚间事件至90则 | 90 unique vignettes + shop tips dialogues | `content(world): A0112 晚间事件至九十则与小店对话提示` |
+| A0113 | completed | art | 三大系统导航图标 | unique shop/garden/bag PNGs wired | `art(ui): A0113 汽水铺盆栽竹篮独特程序化图标` |
+| A0114 | completed | test | 事件与图标回归 | 94 tests pass | `test(content): A0114 事件唯一性与导航图标回归` |
