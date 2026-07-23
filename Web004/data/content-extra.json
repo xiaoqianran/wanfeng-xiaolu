@@ -2119,6 +2119,13 @@
       "emoji": "🌺",
       "kind": "装饰",
       "seed": "camelliaPot"
+    },
+    "rosemary": {
+      "id": "rosemary",
+      "name": "迷迭香",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "rosemaryPot"
     }
   },
   "plants": {
@@ -3810,6 +3817,17 @@
       ],
       "harvest": "camellia",
       "days": 4
+    },
+    "rosemaryPot": {
+      "id": "rosemaryPot",
+      "name": "迷迭香盆栽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "rosemary",
+      "days": 3
     }
   },
   "cups": [
@@ -4410,6 +4428,16 @@
       "tags": [
         "花香",
         "温柔"
+      ]
+    },
+    {
+      "id": "rosemary",
+      "name": "迷迭香",
+      "emoji": "🌿",
+      "need": "rosemary",
+      "tags": [
+        "草本",
+        "清爽"
       ]
     }
   ],
