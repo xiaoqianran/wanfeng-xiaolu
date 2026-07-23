@@ -179,3 +179,4 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0180 | completed | content | 店内花园文案 | shop tips 24; canLines 7; journal 27 | `content(world): A0179 事件一六七则与店内花园文案` |
 | A0181 | completed | audio | 水壶常客速写音效 | can/pin/snap WebAudio kinds | `audio(feedback): A0181 水壶常客速写音效` |
 | A0182 | completed | test | 新音效回归 | 117 tests pass | `audio(feedback): A0181 水壶常客速写音效` |
+| A0183 | completed | docs | 音效设计同步 | AUDIO_DESIGN can/pin/snap | `docs(audio): A0183 记录水壶常客速写合成音效` |
