@@ -127,3 +127,4 @@
 | 120 | completed | assets | Wire real stage art reference into runtime manifest #9 | live art assets/walk/live_0120.jpg from assets/shop/cups-set.jpg (≥1KB) | `assets(ui): R0120 Wire real stage art reference into runtime manifest #9` |
 | 121 | completed | feat | Ship collectible + runtime catalog item #10 | Runtime item lavender_r0121 | `feat(content): R0121 Ship collectible + runtime catalog item #10` |
 | 122 | completed | feat | Ship customer persona into runtime #10 | Runtime customer 织围巾的阿姨·122 | `feat(shop): R0122 Ship customer persona into runtime #10` |
+| 123 | completed | feat | Ship walk ambient + pathWidth into runtime #10 | walk pathWidth=3323 ambient=62 | `feat(walk): R0123 Ship walk ambient + pathWidth into runtime #10` |
