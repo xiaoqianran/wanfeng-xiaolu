@@ -508,6 +508,15 @@
     { id: "chime_walker", name: "风铃旅人", desc: "走过风铃廊", check: function (s) {
       return !!(s._themesTouched && s._themesTouched.wind_chime);
     } },
+    { id: "dew_keeper", name: "晨露看顾", desc: "收获 3 次隔夜晨露", check: function (s) {
+      return (s.stats && s.stats.morningDews || 0) >= 3;
+    } },
+    { id: "lemon_balm_sill", name: "香蜂草窗台", desc: "发现香蜂草", check: function (s) {
+      return !!(s.discovered && s.discovered.lemon_balm);
+    } },
+    { id: "tea_walker", name: "茶台旅人", desc: "走过茶台慢坡", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.tea_terrace);
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
     { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },
@@ -916,6 +925,7 @@
   function settleOfflineGrowth(state, now, plants) {
     plants = plants || DEFAULT_PLANTS;
     now = now || Date.now();
+    var dewCount = 0;
     (state.pots || []).forEach(function (pot) {
       if (!pot.plantId || !pot.tendedAt) return;
       var hours = Math.min(12, (now - pot.tendedAt) / 3600000);
@@ -925,9 +935,19 @@
       pot.water = Math.max(0, pot.water - hours * 4);
       pot.sun = Math.max(0, pot.sun - hours * 3);
       pot.mood = Math.max(10, pot.mood - hours * 2);
+      // Soft morning dew: after a long rest, leaves sip a little water/mood back
+      if (hours >= 6) {
+        pot.water = Math.min(100, pot.water + 8);
+        pot.mood = Math.min(100, pot.mood + 6);
+        dewCount += 1;
+      }
       pot.tendedAt = now;
     });
-    return state;
+    if (dewCount > 0) {
+      if (!state.stats) state.stats = {};
+      state.stats.morningDews = (state.stats.morningDews || 0) + dewCount;
+    }
+    return { state: state, dewCount: dewCount };
   }
 
   function scoreDrink(customer, craft, catalogs) {
@@ -988,7 +1008,7 @@
       score += 0.5;
       notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5;
       notes.push("夏日清爽");
     }

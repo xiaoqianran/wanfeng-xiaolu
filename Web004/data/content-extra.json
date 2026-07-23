@@ -2322,6 +2322,13 @@
       "emoji": "🧡",
       "kind": "风味",
       "seed": "calendulaPot"
+    },
+    "lemon_balm": {
+      "id": "lemon_balm",
+      "name": "香蜂草",
+      "emoji": "🍋",
+      "kind": "风味",
+      "seed": "lemonBalmPot"
     }
   },
   "plants": {
@@ -4200,6 +4207,17 @@
       ],
       "harvest": "calendula",
       "days": 2
+    },
+    "lemonBalmPot": {
+      "id": "lemonBalmPot",
+      "name": "香蜂草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍋"
+      ],
+      "harvest": "lemon_balm",
+      "days": 2
     }
   },
   "cups": [
@@ -5014,6 +5032,16 @@
       "tags": [
         "花香",
         "田园"
+      ]
+    },
+    {
+      "id": "lemon_balm",
+      "name": "香蜂草",
+      "emoji": "🍋",
+      "need": "lemon_balm",
+      "tags": [
+        "清爽",
+        "草本"
       ]
     }
   ],
@@ -6184,6 +6212,35 @@
         "berry"
       ],
       "wantTopping": true
+    },
+    {
+      "name": "晒茶的阿公",
+      "avatar": "👴",
+      "wish": "茶底清淡，香蜂草或柚子都行，慢慢喝。",
+      "tags": [
+        "温柔",
+        "清爽"
+      ],
+      "flavors": [
+        "lemon_balm",
+        "yuzu",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "练琴的邻居",
+      "avatar": "🎹",
+      "wish": "清爽一点，柠檬香更好，不要太甜。",
+      "tags": [
+        "清爽"
+      ],
+      "flavors": [
+        "lemon_balm",
+        "mint",
+        "yuzu",
+        "plain"
+      ]
     }
   ],
   "dialogues": [
