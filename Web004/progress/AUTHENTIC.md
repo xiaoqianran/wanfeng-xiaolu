@@ -440,3 +440,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0441 | completed | feat | 杨桃可种植 | starfruitPot | feat(garden): A0441 杨桃可种植窗台 |
 | A0442 | completed | feat | 杨桃小径 | starfruit_lane 57th | feat(walk): A0442 杨桃小径主题与星形光点 |
 | A0443 | completed | test | 回归手册 | 189 pass | test(docs): A0443 杨桃小径回归与手册 |
+| A0444 | completed | feat | 金桔可种植 | kumquatPot | feat(garden): A0444 金桔可种植窗台 |
+| A0445 | completed | feat | 金桔篱径 | kumquat_hedge 58th | feat(walk): A0445 金桔篱径主题与橙果特效 |
+| A0446 | completed | test | 回归手册 | 190 pass | test(docs): A0446 金桔篱径回归与手册 |
