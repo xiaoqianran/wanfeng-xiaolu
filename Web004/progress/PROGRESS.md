@@ -977,3 +977,4 @@
 | 970 | completed | style | CSS micro polish token #48 | CSS token hue=290 | `style(ui): R0970 CSS micro polish token #48` |
 | 971 | completed | feat | Add plantable linkage #48 | Plant link plant_pine_0971 | `feat(content): R0971 Add plantable linkage #48` |
 | 972 | completed | feat | Add flavor or base option #48 | Flavor fl_shell_0972 | `feat(shop): R0972 Add flavor or base option #48` |
+| 973 | completed | feat | UI copy toast string #48 | UI toasts=49 | `feat(ui): R0973 UI copy toast string #48` |
