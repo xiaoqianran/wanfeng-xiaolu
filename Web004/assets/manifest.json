@@ -67,7 +67,8 @@
     "assets/walk/slot_1015.png",
     "assets/walk/slot_1035.png",
     "assets/walk/slot_1055.png",
-    "assets/shop/live_0012.jpg"
+    "assets/shop/live_0012.jpg",
+    "assets/ui/live_0024.jpg"
   ],
   "stages": {
     "home": [
@@ -115,6 +116,14 @@
     "items": [
       "assets/items/collectibles-sheet.jpg",
       "assets/items/nature-bits.jpg"
+    ],
+    "ui": [
+      {
+        "round": 24,
+        "path": "assets/ui/live_0024.jpg",
+        "status": "live",
+        "source": "assets/scenes/walk-path.jpg"
+      }
     ]
   },
   "generatedAt": "2026-07-23T19:51:34.458Z"
