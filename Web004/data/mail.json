@@ -634,5 +634,16 @@
       },
       "hearts": 1
     }
+  },
+  {
+    "id": "mail_marjoram",
+    "title": "一束马郁兰",
+    "body": "做披萨的厨子来信：马郁兰晒干也能用。给你一小束。",
+    "effect": {
+      "items": {
+        "marjoram": 2
+      },
+      "coins": 2
+    }
   }
 ]

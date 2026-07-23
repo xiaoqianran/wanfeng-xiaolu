@@ -1180,6 +1180,25 @@ function renderJournal() {
       ctx.fillStyle = "rgba(80,40,50,0.08)";
       ctx.fillRect(0, 0, w * 0.12, h);
       ctx.fillRect(w * 0.88, 0, w * 0.12, h);
+    } else if (themeId === "cliff_path") {
+      // horizon wind streaks + rock dots
+      ctx.strokeStyle = "rgba(200,210,220,0.22)";
+      ctx.lineWidth = 1.5;
+      for (let i = 0; i < 8; i++) {
+        const y = h * 0.2 + i * 12 + Math.sin(time * 0.03 + i) * 3;
+        ctx.beginPath();
+        ctx.moveTo(w * 0.15, y);
+        ctx.lineTo(w * 0.85, y + Math.sin(time * 0.05 + i) * 4);
+        ctx.stroke();
+      }
+      ctx.fillStyle = "rgba(90,90,85,0.35)";
+      for (let i = 0; i < 10; i++) {
+        const x = 20 + i * (w / 10);
+        const y = h * 0.68 + (i % 3) * 8;
+        ctx.beginPath();
+        ctx.ellipse(x, y, 10, 5, 0, 0, Math.PI * 2);
+        ctx.fill();
+      }
     }
   }
 
@@ -2135,7 +2154,7 @@ function renderJournal() {
     if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || flavorDef.id === "rose_petal" || baseDef.id === "floral_tea")) {
       score += 0.5; notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5; notes.push("夏日清爽");
     }
     if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel" || flavorDef.id === "cardamom" || flavorDef.id === "ginger" || flavorDef.id === "calendula")) {
