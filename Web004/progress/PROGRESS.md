@@ -139,3 +139,4 @@
 | 132 | completed | feat | Add flavor or base option #6 | Flavor fl_shell_0132 | `feat(shop): R0132 Add flavor or base option #6` |
 | 133 | completed | feat | UI copy toast string #6 | UI toasts=7 | `feat(ui): R0133 UI copy toast string #6` |
 | 134 | completed | feat | Season palette note #6 | Season palette winter_0134 | `feat(season): R0134 Season palette note #6` |
+| 135 | completed | assets | Asset slot registration #6 | Asset slot assets/walk/slot_0135.png | `assets(manifest): R0135 Asset slot registration #6` |
