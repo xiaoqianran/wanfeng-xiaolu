@@ -283,3 +283,4 @@
 | 276 | completed | assets | Wire real stage art reference into runtime manifest #22 | live art assets/garden/live_0276.jpg from assets/album/journal-open.jpg (≥1KB) | `assets(ui): R0276 Wire real stage art reference into runtime manifest #22` |
 | 277 | completed | feat | Ship collectible + runtime catalog item #23 | Runtime item hibiscus_r0277 | `feat(content): R0277 Ship collectible + runtime catalog item #23` |
 | 278 | completed | feat | Ship customer persona into runtime #23 | Runtime customer 烘焙店员·278 | `feat(shop): R0278 Ship customer persona into runtime #23` |
+| 279 | completed | feat | Ship walk ambient + pathWidth into runtime #23 | walk pathWidth=3279 ambient=75 | `feat(walk): R0279 Ship walk ambient + pathWidth into runtime #23` |
