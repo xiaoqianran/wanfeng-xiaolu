@@ -1459,5 +1459,105 @@
     "id": "ev_soft_close2",
     "title": "轻关一天",
     "body": "灯灭前你看了眼水壶：满的，安心。"
+  },
+  {
+    "id": "ev_honey_flower",
+    "title": "金银花泡",
+    "body": "干花在杯里张开，像很小的伞。"
+  },
+  {
+    "id": "ev_spring_score2",
+    "title": "春日又加分",
+    "body": "出杯笔记写着春日花香，你点了点头。"
+  },
+  {
+    "id": "ev_plant_new",
+    "title": "新盆",
+    "body": "窗台又多了一点绿，名字还没取。"
+  },
+  {
+    "id": "ev_recipe_snow",
+    "title": "雪灯配方",
+    "body": "卡片画了灯笼和一朵浅黄的花。"
+  },
+  {
+    "id": "ev_path_meadow2",
+    "title": "草甸再走",
+    "body": "金银花的香气在草浪里若有若无。"
+  },
+  {
+    "id": "ev_bag_dry",
+    "title": "干花入篮",
+    "body": "干花不占地方，香气却占一整格。"
+  },
+  {
+    "id": "ev_guest_flower",
+    "title": "花香客人",
+    "body": "她闭眼闻了闻：像有人在远处晒被子。"
+  },
+  {
+    "id": "ev_can_green",
+    "title": "绿意浇灌",
+    "body": "水壶浇下去，叶子亮了一度。"
+  },
+  {
+    "id": "ev_snap_new",
+    "title": "新芽速写",
+    "body": "新芽太小，框里大部分是土，你还是留下了。"
+  },
+  {
+    "id": "ev_pin_again",
+    "title": "常客第三次",
+    "body": "第三次进门，他已经会自己找位子。"
+  },
+  {
+    "id": "ev_theme_star2",
+    "title": "星标闪一下",
+    "body": "主题条上的星在灯下轻轻反光。"
+  },
+  {
+    "id": "ev_mail_flower",
+    "title": "花信",
+    "body": "信封里有干花瓣，没有字，也够了。"
+  },
+  {
+    "id": "ev_shop_quiet2",
+    "title": "安静模式",
+    "body": "安静模式开着，客人的愿望变得很短，很清楚。"
+  },
+  {
+    "id": "ev_rest_soft2",
+    "title": "再歇一歇",
+    "body": "植物和你同时打了个很小的呵欠。"
+  },
+  {
+    "id": "ev_day_count",
+    "title": "日子",
+    "body": "日子不写数字，只写味道：花、雪、柚。"
+  },
+  {
+    "id": "ev_walk_slow",
+    "title": "更慢",
+    "body": "你把速度调到更慢，拾取也不会错过。"
+  },
+  {
+    "id": "ev_album_kind2",
+    "title": "种类筛选",
+    "body": "装饰与风味分开看，心也整齐了。"
+  },
+  {
+    "id": "ev_shelf_three",
+    "title": "三杯影子",
+    "body": "展示架满了，像今天的小结。"
+  },
+  {
+    "id": "ev_soft_end",
+    "title": "今天到此",
+    "body": "灯调暗，水壶满，够了。 晚风补完了后半句。"
+  },
+  {
+    "id": "ev_next_path",
+    "title": "下一条路",
+    "body": "你还不知道明天走哪条，但星标还在。"
   }
 ]
