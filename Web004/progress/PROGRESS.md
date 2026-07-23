@@ -734,3 +734,4 @@
 | 727 | completed | feat | Ship journal template into runtime #60 | journal templates=113 | `feat(album): R0727 Ship journal template into runtime #60` |
 | 728 | completed | feat | Ship secret recipe into runtime #60 | secret recipes=113 | `feat(shop): R0728 Ship secret recipe into runtime #60` |
 | 729 | completed | feat | Ship achievement milestone into runtime #60 | achievements=113 | `feat(meta): R0729 Ship achievement milestone into runtime #60` |
+| 730 | completed | style | Ship CSS accent token used by app shell #60 | CSS --r-accent hue=170 wired to brand/primary | `style(ui): R0730 Ship CSS accent token used by app shell #60` |
