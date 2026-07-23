@@ -276,3 +276,4 @@
 | 269 | completed | feat | Add achievement definition #13 | Achievements=13 | `feat(meta): R0269 Add achievement definition #13` |
 | 270 | completed | style | CSS micro polish token #13 | CSS token hue=270 | `style(ui): R0270 CSS micro polish token #13` |
 | 271 | completed | feat | Add plantable linkage #13 | Plant link plant_lavender_0271 | `feat(content): R0271 Add plantable linkage #13` |
+| 272 | completed | feat | Add flavor or base option #13 | Flavor fl_chamomile_0272 | `feat(shop): R0272 Add flavor or base option #13` |

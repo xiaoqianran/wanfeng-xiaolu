@@ -519,6 +519,16 @@
         "清爽"
       ],
       "round": 252
+    },
+    {
+      "id": "fl_chamomile_0272",
+      "name": "洋甘菊",
+      "emoji": "🌼",
+      "need": null,
+      "tags": [
+        "果香"
+      ],
+      "round": 272
     }
   ],
   "toppings": [
@@ -866,7 +876,7 @@
     "theme_0257"
   ],
   "meta": {
-    "expandedRounds": 271,
+    "expandedRounds": 272,
     "lastIntegrityRound": 260,
     "itemCount": 25,
     "customerCount": 12
