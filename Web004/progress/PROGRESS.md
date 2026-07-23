@@ -993,3 +993,4 @@
 | 986 | completed | feat | Tune walk ambient note #49 | Walk ambient #49 | `feat(walk): R0986 Tune walk ambient note #49` |
 | 987 | completed | feat | Add journal template #49 | Journal templates=49 | `feat(album): R0987 Add journal template #49` |
 | 988 | completed | feat | Add secret recipe stub #49 | Recipes=49 | `feat(shop): R0988 Add secret recipe stub #49` |
+| 989 | completed | feat | Add achievement definition #49 | Achievements=49 | `feat(meta): R0989 Add achievement definition #49` |
