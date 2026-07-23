@@ -448,3 +448,4 @@
 | 441 | completed | feat | Ship achievement milestone into runtime #36 | achievements=89 | `feat(meta): R0441 Ship achievement milestone into runtime #36` |
 | 442 | completed | style | Ship CSS accent token used by app shell #36 | CSS --r-accent hue=314 wired to brand/primary | `style(ui): R0442 Ship CSS accent token used by app shell #36` |
 | 443 | completed | feat | Ship plantable seed linkage into runtime #36 | plant link plant_rose_0443 harvest=seed_rose_0443 | `feat(content): R0443 Ship plantable seed linkage into runtime #36` |
+| 444 | completed | assets | Wire real stage art reference into runtime manifest #36 | live art assets/ui/live_0444.jpg from assets/garden/windowsill.jpg (≥1KB) | `assets(ui): R0444 Wire real stage art reference into runtime manifest #36` |
