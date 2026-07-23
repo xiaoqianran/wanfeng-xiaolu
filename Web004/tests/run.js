@@ -1183,5 +1183,18 @@ test("plum_grove theme and watering can UI ship", () => {
   assert.ok((j.customers || []).some((c) => c.name === "夜读的图书管理员"));
 });
 
+
+test("USER_MANUAL documents watering can and path themes", () => {
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("用水壶") || man.includes("水壶"));
+  assert.ok(man.includes("梅影") || man.includes("花市"));
+  assert.ok(man.includes("展示架") || man.includes("种类"));
+  assert.ok(man.includes("没有战斗"));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.length >= 90);
+  const titles = events.map((e) => e.title || e.id);
+  assert.strictEqual(new Set(titles).size, titles.length);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
