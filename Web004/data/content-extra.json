@@ -2385,6 +2385,13 @@
       "emoji": "🌺",
       "kind": "风味",
       "seed": "hibiscusPot"
+    },
+    "chrysanthemum": {
+      "id": "chrysanthemum",
+      "name": "菊花",
+      "emoji": "🌼",
+      "kind": "风味",
+      "seed": "chrysanthemumPot"
     }
   },
   "plants": {
@@ -4340,6 +4347,17 @@
       ],
       "harvest": "hibiscus",
       "days": 3
+    },
+    "chrysanthemumPot": {
+      "id": "chrysanthemumPot",
+      "name": "菊花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌼"
+      ],
+      "harvest": "chrysanthemum",
+      "days": 3
     }
   },
   "cups": [
@@ -5224,6 +5242,16 @@
       "tags": [
         "花香",
         "清爽"
+      ]
+    },
+    {
+      "id": "chrysanthemum",
+      "name": "菊花",
+      "emoji": "🌼",
+      "need": "chrysanthemum",
+      "tags": [
+        "花香",
+        "温柔"
       ]
     }
   ],
@@ -6513,6 +6541,21 @@
         "honey",
         "berry",
         "rose_petal"
+      ]
+    },
+    {
+      "name": "赏菊的老人",
+      "avatar": "🌼",
+      "wish": "菊花茶底，温柔一点，慢慢喝。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "chrysanthemum",
+        "tea_leaf",
+        "honey",
+        "chamomile"
       ]
     }
   ],
