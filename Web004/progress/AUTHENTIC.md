@@ -166,3 +166,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0167 | completed | content | 客人至32 | 32 unique customers + recipes | `content(shop): A0167 三位新客人与夜班配方` |
 | A0168 | completed | content | 事件137则 | 137 unique evening events | `content(shop): A0167 三位新客人与夜班配方` |
 | A0169 | completed | test | 客人唯一回归 | 113 tests pass | `content(shop): A0167 三位新客人与夜班配方` |
+| A0170 | completed | feat | 石庭慢转主题 | stone_garden 15th + rake FX | `feat(walk): A0170 石庭慢转主题与新成就` |
+| A0171 | completed | feat | 新成就 | discover_15 pin_host achievements | `feat(walk): A0170 石庭慢转主题与新成就` |
+| A0172 | completed | test | 石庭成就回归 | 114 tests pass | `feat(walk): A0170 石庭慢转主题与新成就` |
