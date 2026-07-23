@@ -334,6 +334,8 @@
       btn.innerHTML = `<span>${th.emoji || "🍃"}</span><span>${th.name}</span>`;
       btn.addEventListener("click", () => {
         Core.setPathTheme(state, th.id, PATH_THEMES);
+        if (!state._themesTouched) state._themesTouched = {};
+        state._themesTouched[th.id] = true;
         save();
         renderThemePicker();
         world = makeWorld(3000 + state.pathsWalked * 17 + Date.now() % 500);

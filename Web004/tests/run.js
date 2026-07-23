@@ -904,5 +904,12 @@ test("rain_eaves theme ships with 8 path themes", () => {
   assert.ok(game.includes("scoreStars"));
 });
 
+test("new achievements and camellia/lavender style items exist", () => {
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "gentle_rest"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "theme_walker"));
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.camellia && j.plants.camelliaPot);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
