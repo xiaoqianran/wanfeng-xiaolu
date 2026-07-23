@@ -753,3 +753,4 @@
 | 746 | completed | feat | Tune walk ambient note #37 | Walk ambient #37 | `feat(walk): R0746 Tune walk ambient note #37` |
 | 747 | completed | feat | Add journal template #37 | Journal templates=37 | `feat(album): R0747 Add journal template #37` |
 | 748 | completed | feat | Add secret recipe stub #37 | Recipes=37 | `feat(shop): R0748 Add secret recipe stub #37` |
+| 749 | completed | feat | Add achievement definition #37 | Achievements=37 | `feat(meta): R0749 Add achievement definition #37` |
