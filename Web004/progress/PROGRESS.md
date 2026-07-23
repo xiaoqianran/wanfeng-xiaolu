@@ -618,3 +618,4 @@
 | 611 | completed | feat | Ship plantable seed linkage into runtime #50 | plant link plant_feather_0611 harvest=seed_feather_0611 | `feat(content): R0611 Ship plantable seed linkage into runtime #50` |
 | 612 | completed | assets | Wire real stage art reference into runtime manifest #50 | live art assets/shop/live_0612.jpg from assets/seasons/spring.jpg (≥1KB) | `assets(ui): R0612 Wire real stage art reference into runtime manifest #50` |
 | 613 | completed | feat | Ship collectible + runtime catalog item #51 | Runtime item osmanthus_r0613 | `feat(content): R0613 Ship collectible + runtime catalog item #51` |
+| 614 | completed | feat | Ship customer persona into runtime #51 | Runtime customer 弹尤克里里的人·614 | `feat(shop): R0614 Ship customer persona into runtime #51` |
