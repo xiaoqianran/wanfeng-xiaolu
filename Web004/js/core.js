@@ -462,6 +462,14 @@
     { id: "early_walker", name: "今日第一脚", desc: "领取 3 次今日首次出门奖励", check: function (s) { return (s.stats && s.stats.firstWalks || 0) >= 3; } },
     { id: "sticker_collector", name: "贴纸收藏", desc: "获得 2 枚小路里程贴纸", check: function (s) { return Object.keys(s.pathStickers || {}).length >= 2; } },
     { id: "daily_specialist", name: "今日特调手", desc: "按今日小特调出杯 3 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 3; } },
+    { id: "coastal_set", name: "潮湾三件套", desc: "发现贝壳、河光石与海盐晶", check: function (s) {
+      var d = s.discovered || {};
+      return !!(d.seashell && d.river_pebble && d.salt_crystal);
+    } },
+    { id: "herb_garden", name: "草本窗台", desc: "发现罗勒、香茅、莳萝与百里香", check: function (s) {
+      var d = s.discovered || {};
+      return !!(d.basil && d.lemongrass && d.dill && d.thyme);
+    } },
   ];
 
   function advanceSeason(state) {

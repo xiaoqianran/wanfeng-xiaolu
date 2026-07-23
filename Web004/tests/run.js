@@ -1830,5 +1830,19 @@ test("lemongrass plantable and 香茅 recipes", () => {
   assert.ok(recipes.some((r) => r.name === "芦岸香茅苏打"));
 });
 
+
+test("coastal_set and herb_garden achievements", () => {
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "coastal_set"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "herb_garden"));
+  const s = core.defaultState();
+  s.discovered = { seashell: true, river_pebble: true, salt_crystal: true };
+  const n = core.evaluateAchievements(s);
+  assert.ok(n.some((a) => a.id === "coastal_set") || s.achievements.coastal_set);
+  const s2 = core.defaultState();
+  s2.discovered = { basil: true, lemongrass: true, dill: true, thyme: true };
+  const n2 = core.evaluateAchievements(s2);
+  assert.ok(n2.some((a) => a.id === "herb_garden") || s2.achievements.herb_garden);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
