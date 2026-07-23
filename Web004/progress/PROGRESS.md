@@ -527,3 +527,4 @@
 | 520 | completed | refactor | Catalog integrity pass #25 | Integrity items=51 customers=25 | `refactor(core): R0520 Catalog integrity pass #25` |
 | 521 | completed | feat | Add collectible item batch #26 | Item pine_r0521 added | `feat(content): R0521 Add collectible item batch #26` |
 | 522 | completed | feat | Add customer persona #26 | Customer 滑板少年·522 | `feat(shop): R0522 Add customer persona #26` |
+| 523 | completed | feat | Add dialogue line #26 | Dialogue count=26 | `feat(content): R0523 Add dialogue line #26` |
