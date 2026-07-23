@@ -7,3 +7,4 @@
 |------:|--------|------|------|---------|--------|
 | 1 | completed | feat | Ship collectible + runtime catalog item #0 | Runtime item lavender_r0001 | `feat(content): R0001 Ship collectible + runtime catalog item #0` |
 | 2 | completed | feat | Ship customer persona into runtime #0 | Runtime customer 织围巾的阿姨·2 | `feat(shop): R0002 Ship customer persona into runtime #0` |
+| 3 | completed | feat | Ship walk ambient + pathWidth into runtime #0 | walk pathWidth=3203 ambient=52 | `feat(walk): R0003 Ship walk ambient + pathWidth into runtime #0` |
