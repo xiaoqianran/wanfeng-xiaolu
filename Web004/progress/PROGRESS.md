@@ -247,3 +247,4 @@
 | 240 | completed | assets | Wire real stage art reference into runtime manifest #19 | live art assets/walk/live_0240.jpg from assets/seasons/autumn.jpg (≥1KB) | `assets(ui): R0240 Wire real stage art reference into runtime manifest #19` |
 | 241 | completed | feat | Ship collectible + runtime catalog item #20 | Runtime item lavender_r0241 | `feat(content): R0241 Ship collectible + runtime catalog item #20` |
 | 242 | completed | feat | Ship customer persona into runtime #20 | Runtime customer 织围巾的阿姨·242 | `feat(shop): R0242 Ship customer persona into runtime #20` |
+| 243 | completed | feat | Ship walk ambient + pathWidth into runtime #20 | walk pathWidth=3243 ambient=72 | `feat(walk): R0243 Ship walk ambient + pathWidth into runtime #20` |
