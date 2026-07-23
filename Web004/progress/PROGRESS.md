@@ -948,3 +948,4 @@
 | 941 | completed | feat | Add collectible item batch #47 | Item pine_r0941 added | `feat(content): R0941 Add collectible item batch #47` |
 | 942 | completed | feat | Add customer persona #47 | Customer 滑板少年·942 | `feat(shop): R0942 Add customer persona #47` |
 | 943 | completed | feat | Add dialogue line #47 | Dialogue count=47 | `feat(content): R0943 Add dialogue line #47` |
+| 944 | completed | feat | Add garden care whisper #47 | Garden msg #48 | `feat(garden): R0944 Add garden care whisper #47` |
