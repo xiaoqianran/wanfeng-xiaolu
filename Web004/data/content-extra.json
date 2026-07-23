@@ -3523,6 +3523,10 @@
     {
       "round": 66,
       "text": "薄荷叶上滚着露水。（R0066）"
+    },
+    {
+      "round": 78,
+      "text": "想给植物读一首短诗。（R0078）"
     }
   ],
   "seasons": [
@@ -3591,7 +3595,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 74,
+    "expandedRounds": 78,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
