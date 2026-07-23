@@ -2,11 +2,11 @@
 
 | 字段 | 值 |
 |------|-----|
-| Authentic | **53** / 1000 |
-| Game-integrated | **47** |
-| 测试 | 62 passed |
-| 刷轮引擎 | DISABLED |
+| Authentic | **64** / 1000 |
+| Game-integrated | **56** |
+| 测试 | 65 passed |
+| 刷轮 | DISABLED |
 
-最近：天气开关、秘密配方、收获礼物、独特收集物、信箱、足迹、季节加成、新一天、草甸主题、过滤刷客人等。
+最近：日礼、野茶丛、码头主题、天气开关、秘密配方、收获礼物、信箱、足迹、剪贴板存档、背包排序。
 
-恢复：A0060+ · `.autodev/state.json`
+恢复：A0071+ · `.autodev/state.json`

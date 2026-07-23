@@ -65,3 +65,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0065 | completed | feat | 花盆显示小名 | pot label includes nickname | `feat(garden): A0065 花盆标签显示植物小名` |
 | A0066 | completed | feat | 剪贴板复制存档 | btn-copy-save clipboard API | `feat(settings): A0066 存档一键复制到剪贴板` |
 | A0067 | completed | docs | GDD 扩展系统 | document themes mail daily etc | `docs(gdd): A0067 补充扩展系统说明` |
+| A0068 | completed | content | 三则新秘密配方 | 陶碗野茶 细长星砂 蜜水丝带 | `content(shop): A0068 陶碗野茶等三则新秘密配方` |
+| A0069 | completed | docs | meta 系统清单 | meta.json systems + saveVersion 3 | `docs(meta): A0069 更新 meta 系统清单与存档版本` |
+| A0070 | completed | feat | 背包分类排序 | kindOrder sort in renderBag | `feat(bag): A0070 背包按物品种类排序展示` |
