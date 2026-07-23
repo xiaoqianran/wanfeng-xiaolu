@@ -1,5 +1,5 @@
 {
-  "contentItems": 218,
+  "contentItems": 219,
   "plants": 116,
   "customers": 114,
   "dialogues": 114,
@@ -11,7 +11,7 @@
   "files": [
     {
       "path": "js/content-extra.js",
-      "bytes": 79117
+      "bytes": 79237
     },
     {
       "path": "js/game-data.js",
