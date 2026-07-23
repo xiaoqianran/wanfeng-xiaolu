@@ -420,3 +420,4 @@
 | 413 | completed | feat | UI copy toast string #20 | UI toasts=21 | `feat(ui): R0413 UI copy toast string #20` |
 | 414 | completed | feat | Season palette note #20 | Season palette winter_0414 | `feat(season): R0414 Season palette note #20` |
 | 415 | completed | assets | Asset slot registration #20 | Asset slot assets/walk/slot_0415.png | `assets(manifest): R0415 Asset slot registration #20` |
+| 416 | completed | test | Regression assertion pack #20 | Test pack size=22 | `test(core): R0416 Regression assertion pack #20` |
