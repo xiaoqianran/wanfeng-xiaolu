@@ -848,3 +848,4 @@
 | 841 | completed | feat | Add collectible item batch #42 | Item lavender_r0841 added | `feat(content): R0841 Add collectible item batch #42` |
 | 842 | completed | feat | Add customer persona #42 | Customer 织围巾的阿姨·842 | `feat(shop): R0842 Add customer persona #42` |
 | 843 | completed | feat | Add dialogue line #42 | Dialogue count=42 | `feat(content): R0843 Add dialogue line #42` |
+| 844 | completed | feat | Add garden care whisper #42 | Garden msg #43 | `feat(garden): R0844 Add garden care whisper #42` |
