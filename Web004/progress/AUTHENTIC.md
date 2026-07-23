@@ -117,3 +117,8 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0118 | completed | feat | 便签长椅日目标 | pot_note_day bench_once goals | `feat(daily): A0116 日目标支持便签与长椅歇脚` |
 | A0119 | completed | feat | 丁香养成 | lilac plant flavor recipe mail | `feat(garden): A0117 丁香可种植与丁香暮色配方` |
 | A0120 | completed | test | 筛选展示架回归 | 97 tests pass | `test(album): A0118 图鉴筛选展示架丁香回归` |
+| A0121 | completed | feat | 小水壶蓄水浇灌 | charge on walk/bench; useWateringCan bonus | `feat(garden): A0121 散步蓄水小水壶与浇灌加成` |
+| A0122 | completed | feat | 秘密配方接近提示 | recipeMatchHint soft title when 3/4 match | `feat(garden): A0121 散步蓄水小水壶与浇灌加成` |
+| A0123 | completed | feat | 梅影短径主题 | plum_grove 11th theme + petal FX | `feat(walk): A0122 梅影短径主题与新客人配方` |
+| A0124 | completed | content | 新客人与梅径配方 | 24 customers; 梅径丁香 | `feat(walk): A0122 梅影短径主题与新客人配方` |
+| A0125 | completed | test | 水壶梅径回归 | 99 tests pass | `test(garden): A0124 水壶配方提示与梅径回归` |

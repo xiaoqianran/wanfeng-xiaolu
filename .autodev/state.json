@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 119,
+  "current_round": 124,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 113,
-  "authentic_game_integrated_rounds": 99,
+  "authentic_rounds_completed": 118,
+  "authentic_game_integrated_rounds": 103,
   "template_spam_archived": true,
   "current_milestone": "authentic rebuild A012x",
-  "current_task_id": "A0121-next",
-  "last_completed_task_id": "A0120",
-  "last_commit": "dee6353",
+  "current_task_id": "A0126-next",
+  "last_completed_task_id": "A0125",
+  "last_commit": "1d3fb50",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "97 passed, 0 failed",
+  "last_test_summary": "99 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~887) multi-session"
+    "gap to 1000 authentic (~882) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -29,11 +29,11 @@
     "spam engine disabled"
   ],
   "next_candidate_tasks": [
-    "plant water can UI",
-    "walk sit animation soft",
-    "more customers",
-    "album plant season tags"
+    "more evening events hand-authored",
+    "album drinks sort",
+    "help manual watering can",
+    "unique journal"
   ],
-  "resume_instructions": "Continue A0121+. authentic-rounds.jsonl SoT. Spam DISABLED. Gap ~887. Three pillars garden/walk/shop.",
-  "updated_at": "2026-07-23T21:41:50.977485+00:00"
+  "resume_instructions": "Continue A0126+. authentic-rounds.jsonl SoT. Spam DISABLED. Gap ~882.",
+  "updated_at": "2026-07-23T21:43:45.267429+00:00"
 }
