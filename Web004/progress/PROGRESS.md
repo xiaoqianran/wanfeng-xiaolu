@@ -322,3 +322,4 @@
 | 315 | completed | feat | Ship walk ambient + pathWidth into runtime #26 | walk pathWidth=3315 ambient=78 | `feat(walk): R0315 Ship walk ambient + pathWidth into runtime #26` |
 | 316 | completed | feat | Ship garden care whisper into runtime #26 | garden messages=79 careBonus=1.05 | `feat(garden): R0316 Ship garden care whisper into runtime #26` |
 | 317 | completed | feat | Ship shop tip + perfectBonus into runtime #26 | shop tips=79 perfectBonus=4 | `feat(shop): R0317 Ship shop tip + perfectBonus into runtime #26` |
+| 318 | completed | feat | Ship dialogue line into runtime #26 | dialogues=78 | `feat(content): R0318 Ship dialogue line into runtime #26` |
