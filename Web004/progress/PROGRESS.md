@@ -1006,3 +1006,7 @@
 | 999 | completed | feat | Ship walk ambient + pathWidth into runtime #83 | walk pathWidth=3399 ambient=120 | `feat(walk): R0999 Ship walk ambient + pathWidth into runtime #83` |
 | 1000 | completed | feat | Ship garden care whisper into runtime #83 | garden messages=120 careBonus=1.05 | `feat(garden): R1000 Ship garden care whisper into runtime #83` |
 | 1001 | completed | fix | Clean reserved slot stubs from manifest | live-only manifest | `fix(assets): R1001 ...` |
+| 1002 | completed | docs | 建立 docs/.autodev 控制面 | README GDD ROADMAP state backlog | `docs(project): R1002 建立毕业设计控制面与可恢复状态` |
+| 1003 | completed | feat | 设置页+首次引导+存档导入导出 | screen-settings tutorial export/import core settings | `feat(settings): R1003 设置页首次引导与存档导出导入` |
+| 1004 | completed | audio | WebAudio 轻反馈 | js/audio.js pickup/water/serve/ui cues | `audio(feedback): R1004 WebAudio 轻反馈并尊重静音设置` |
+| 1005 | completed | feat | Ship achievement milestone into runtime #83 | achievements=120 | `feat(meta): R1005 Ship achievement milestone into runtime #83` |
