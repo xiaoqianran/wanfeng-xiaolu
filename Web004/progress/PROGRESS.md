@@ -408,3 +408,4 @@
 | 401 | completed | feat | Add collectible item batch #20 | Item pine_r0401 added | `feat(content): R0401 Add collectible item batch #20` |
 | 402 | completed | feat | Add customer persona #20 | Customer 滑板少年·402 | `feat(shop): R0402 Add customer persona #20` |
 | 403 | completed | feat | Add dialogue line #20 | Dialogue count=20 | `feat(content): R0403 Add dialogue line #20` |
+| 404 | completed | feat | Add garden care whisper #20 | Garden msg #21 | `feat(garden): R0404 Add garden care whisper #20` |
