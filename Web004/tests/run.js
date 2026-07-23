@@ -2174,5 +2174,35 @@ test("pinRecipe rose_lane and rose plantable", () => {
   assert.ok(man.includes("玫瑰短巷") && man.includes("钉住配方"));
 });
 
+
+test("companion tend marjoram cliff_path", () => {
+  const s = core.defaultState();
+  core.addItem(s, "mint", 2);
+  assert.ok(core.plantSeed(s, 0, "mint").ok);
+  assert.ok(core.plantSeed(s, 1, "mint").ok);
+  const t = core.tend(s, 0, "water");
+  assert.ok(t.ok && t.companion);
+  assert.ok((s.stats.companionTends || 0) >= 1);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "companion_gardener"));
+
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.marjoram && j.plants.marjoramPot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s2 = core.defaultState();
+  s2.bag.marjoram = 1;
+  assert.ok(core.plantSeed(s2, 0, "marjoram", cat).ok);
+
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "cliff_path"));
+  assert.ok(themes.length >= 32);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("cliff_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "马郁兰田园罐"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("崖边慢径") && man.includes("邻盆作伴"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
