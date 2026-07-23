@@ -163,3 +163,4 @@
 | 156 | completed | test | Regression assertion pack #7 | Test pack size=9 | `test(core): R0156 Regression assertion pack #7` |
 | 157 | completed | feat | Path theme fragment #7 | Path themes=12 | `feat(walk): R0157 Path theme fragment #7` |
 | 158 | completed | feat | Topping or cup option #7 | Topping top_r0158 | `feat(content): R0158 Topping or cup option #7` |
+| 159 | completed | docs | Stage milestone summary #7 | Stage doc stage-04.md | `docs(progress): R0159 Stage milestone summary #7` |
