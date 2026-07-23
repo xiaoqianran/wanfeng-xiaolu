@@ -1,0 +1,37 @@
+[
+  {
+    "id": "mail_seed",
+    "title": "邻居的种子",
+    "body": "门缝塞进一小包种子，纸条写：种不种都行，开心就好。",
+    "effect": {
+      "items": {
+        "clover": 2
+      }
+    }
+  },
+  {
+    "id": "mail_recipe",
+    "title": "匿名配方卡",
+    "body": "卡片只写了四个字：蜜、茶、暖、慢。",
+    "effect": {
+      "hearts": 1,
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_thanks",
+    "title": "谢谢你的汽水",
+    "body": "字迹歪歪扭扭：昨天那杯让我走回了家。",
+    "effect": {
+      "hearts": 2
+    }
+  },
+  {
+    "id": "mail_map",
+    "title": "手绘小路",
+    "body": "地图上把你家窗台画成一颗心。",
+    "effect": {
+      "coins": 3
+    }
+  }
+]

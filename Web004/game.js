@@ -70,6 +70,7 @@
   const journalTemplates = GData.journal || [];
   const dataAchievements = GData.achievements || [];
   const eveningEvents = GData.eveningEvents || [];
+  const mailLetters = GData.mail || [];
   const PATH_THEMES = (GData.pathThemes && GData.pathThemes.length
     ? GData.pathThemes
     : Core.DEFAULT_PATH_THEMES) || Core.DEFAULT_PATH_THEMES;
@@ -284,6 +285,7 @@
     }
     if (screen === "daily") refreshDailyUI();
     if (screen === "bag") renderBag();
+    if (screen === "mail") renderMail();
     if (screen !== "walk") stopWalk();
     sfx("ui");
   }
@@ -312,6 +314,48 @@
       box.appendChild(btn);
     });
     if (desc) desc.textContent = cur ? cur.desc || "" : "";
+  }
+
+  
+  function renderMail() {
+    const list = document.getElementById("mail-list");
+    const msg = document.getElementById("mail-msg");
+    if (!list) return;
+    state._readMail = state._readMail || {};
+    const read = Object.keys(state._readMail);
+    if (!read.length) {
+      list.innerHTML = '<article class="journal-card"><p class="muted">还没有拆开过信。点下面按钮试试。</p></article>';
+    } else {
+      list.innerHTML = read.slice(-8).reverse().map((id) => {
+        const m = mailLetters.find((x) => x.id === id) || { title: id, body: "" };
+        return `<article class="journal-card"><div class="meta">已读</div><p><strong>${m.title || id}</strong><br/>${m.body || ""}</p></article>`;
+      }).join("");
+    }
+    if (msg) msg.textContent = mailLetters.length ? `信箱里还有未读的心意。` : "信箱是空的。";
+  }
+
+  function openOneMail() {
+    if (!mailLetters.length) {
+      toast("信箱暂时空着");
+      return;
+    }
+    state._readMail = state._readMail || {};
+    let pool = mailLetters.filter((m) => m && m.id && !state._readMail[m.id]);
+    if (!pool.length) pool = mailLetters.slice();
+    const m = pool[Math.floor(Math.random() * pool.length)];
+    state._readMail[m.id] = true;
+    const effect = m.effect || {};
+    if (effect.coins) state.coins = (state.coins || 0) + effect.coins;
+    if (effect.hearts) state.hearts = (state.hearts || 0) + effect.hearts;
+    if (effect.items) Object.keys(effect.items).forEach((id) => addItem(id, effect.items[id]));
+    Core.appendJournal(state, "【来信】" + (m.title || "") + "：" + (m.body || ""));
+    save();
+    refreshResources();
+    renderMail();
+    toast("✉️ " + (m.title || "一封信"));
+    sfx("serve");
+    const msg = document.getElementById("mail-msg");
+    if (msg) msg.textContent = m.body || "";
   }
 
   function renderBag() {
@@ -1557,6 +1601,8 @@
       sfx("serve");
     });
   }
+  const mailBtn = document.getElementById("btn-open-mail");
+  if (mailBtn) mailBtn.addEventListener("click", openOneMail);
   const demoBtn = document.getElementById("btn-demo-mode");
   if (demoBtn) {
     demoBtn.addEventListener("click", () => {

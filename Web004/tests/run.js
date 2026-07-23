@@ -571,5 +571,22 @@ test("journal templates are unique without round-id spam", () => {
   assert.ok(gd.includes("暮色入册") || gd.includes("窗台备忘"));
 });
 
+test("mail data unique and screen ships", () => {
+  const mail = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "mail.json"), "utf8"));
+  assert.ok(mail.length >= 3);
+  const ids = mail.map((m) => m.id);
+  assert.strictEqual(new Set(ids).size, ids.length);
+  mail.forEach((m) => {
+    assert.ok(m.title && m.body && m.body.length > 8);
+    assert.ok(!/#\d{2,}/.test(m.title + m.body));
+  });
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes('id="screen-mail"') && html.includes("btn-open-mail"));
+  const gd = fs.readFileSync(path.join(__dirname, "..", "js", "game-data.js"), "utf8");
+  assert.ok(gd.includes("mail_seed") || gd.includes("mail_thanks"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("openOneMail"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

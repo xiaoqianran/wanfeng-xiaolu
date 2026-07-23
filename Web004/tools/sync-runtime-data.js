@@ -63,6 +63,7 @@ function main() {
     manifest: readJson("assets/manifest.json", { files: [], stages: {} }),
     eveningEvents: readJson("data/evening-events.json", []),
     pathThemes: readJson("data/path-themes.json", []),
+    mail: readJson("data/mail.json", []),
     syncedAt: new Date().toISOString(),
   };
 
