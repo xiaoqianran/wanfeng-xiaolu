@@ -61,6 +61,7 @@
             <button type="button" class="soft-btn" id="btn-next-season">🍃 换个季节散步</button>
             <button type="button" class="soft-btn" data-go="journal">📓 今日手帐</button>
             <button type="button" class="soft-btn" data-go="achievements">✨ 温柔成就</button>
+            <button type="button" class="soft-btn" data-go="bag"><img src="assets/ui/icon-walk.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 小竹篮</button>
             <button type="button" class="soft-btn" data-go="settings"><img src="assets/ui/icon-settings.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 设置</button>
             <button type="button" class="soft-btn" data-go="daily"><img src="assets/ui/icon-daily.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 今日小目标</button>
             <button type="button" class="soft-btn" id="btn-demo-mode"><img src="assets/ui/icon-demo.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 演示模式</button>
@@ -111,6 +112,16 @@
         </div>
         <img class="scene-banner" src="assets/garden/empty-pot.jpg" alt="成就" width="1100" height="140" />
         <div class="album-grid" id="achievements-grid"></div>
+      </section>
+
+      
+      <section class="screen" id="screen-bag" data-screen="bag" aria-label="背包">
+        <div class="panel-head">
+          <button class="back-btn" data-go="home" type="button">← 回小院</button>
+          <h2>小竹篮</h2>
+          <span class="hint">拾到的东西都在这里</span>
+        </div>
+        <div class="album-grid" id="bag-grid"></div>
       </section>
 
       <!-- 今日目标 -->

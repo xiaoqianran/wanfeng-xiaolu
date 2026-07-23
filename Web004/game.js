@@ -273,8 +273,25 @@
       if (msg) msg.textContent = "";
     }
     if (screen === "daily") refreshDailyUI();
+    if (screen === "bag") renderBag();
     if (screen !== "walk") stopWalk();
     sfx("ui");
+  }
+
+  function renderBag() {
+    const grid = document.getElementById("bag-grid");
+    if (!grid) return;
+    const entries = Object.keys(state.bag || {}).filter((id) => (state.bag[id] || 0) > 0);
+    if (!entries.length) {
+      grid.innerHTML = '<div class="album-card"><div class="emoji">🧺</div><div class="name">还是空的</div><div class="meta">去小路逛逛吧</div></div>';
+      return;
+    }
+    grid.innerHTML = entries
+      .map((id) => {
+        const it = ITEMS[id] || { emoji: "?", name: id, kind: "" };
+        return `<div class="album-card"><div class="emoji">${it.emoji || "?"}</div><div class="name">${it.name || id}</div><div class="meta">${it.kind || ""} · ×${state.bag[id]}</div></div>`;
+      })
+      .join("");
   }
 
   function renderJournal() {
