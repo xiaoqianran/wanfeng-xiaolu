@@ -766,5 +766,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_persimmon",
+    "title": "柿饼两枚",
+    "body": "晒柿饼的阿婆来信：晒干也能入杯。给你两枚。",
+    "effect": {
+      "items": {
+        "persimmon": 2
+      },
+      "coins": 2
+    }
   }
 ]
