@@ -198,3 +198,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0199 | completed | docs | GDD风味扩展 | GDD lists extended flavors | `content(events): A0198 事件至二一二则与 GDD 风味表` |
 | A0200 | completed | feat | 足迹配方进度 | favorite theme + recipes | `feat(stats): A0200 足迹显示常走主题与秘密配方进度` |
 | A0201 | completed | content | 文案同步新系统 | journal/dialogue/tips | `content(copy): A0201 柚子雨常走配方文案扩充` |
+| A0202 | completed | feat | 雪灯小径主题 | snow_lantern 16th + snow/lantern FX | `feat(walk): A0202 雪灯小径主题与雪花灯笼特效` |
+| A0203 | completed | test | 雪灯回归 | 122 tests pass | `feat(walk): A0202 雪灯小径主题与雪花灯笼特效` |
