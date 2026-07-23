@@ -171,10 +171,15 @@
     const motion = document.getElementById("set-motion");
     const tips = document.getElementById("set-tips");
     const weather = document.getElementById("set-weather");
+    const ambience = document.getElementById("set-ambience");
     if (sound) sound.checked = st.sound !== false;
     if (motion) motion.checked = !!st.reduceMotion;
     if (tips) tips.checked = st.showTips !== false;
     if (weather) weather.checked = st.weatherFx !== false;
+    if (ambience) ambience.checked = !!st.ambience;
+    if (AudioFx.setAmbience) {
+      AudioFx.setAmbience(!!st.ambience, st.sound !== false);
+    }
   }
 
   function refreshDailyUI() {
@@ -1558,6 +1563,7 @@
     const motion = document.getElementById("set-motion");
     const tips = document.getElementById("set-tips");
     const weather = document.getElementById("set-weather");
+    const ambience = document.getElementById("set-ambience");
     const bind = (el, key) => {
       if (!el) return;
       el.addEventListener("change", () => {
@@ -1566,6 +1572,7 @@
         if (key === "reduceMotion") patch.reduceMotion = !!el.checked;
         if (key === "showTips") patch.showTips = !!el.checked;
         if (key === "weatherFx") patch.weatherFx = !!el.checked;
+        if (key === "ambience") patch.ambience = !!el.checked;
         Core.updateSettings(state, patch);
         applySettingsToDom();
         save();
@@ -1578,6 +1585,7 @@
     bind(motion, "reduceMotion");
     bind(tips, "showTips");
     bind(weather, "weatherFx");
+    bind(ambience, "ambience");
 
     const newDayBtn = document.getElementById("btn-soft-newday");
     if (newDayBtn) {

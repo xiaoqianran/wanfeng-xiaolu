@@ -12,6 +12,7 @@
   "use strict";
 
   var ctx = null;
+  var ambienceNodes = null;
 
   function getCtx() {
     if (ctx) return ctx;
@@ -23,6 +24,74 @@
       return null;
     }
     return ctx;
+  }
+
+  /** Soft looping ambient pad (two detuned sines + low gain). No external files. */
+  function startAmbience(enabled) {
+    if (enabled === false) {
+      stopAmbience();
+      return false;
+    }
+    var c = getCtx();
+    if (!c) return false;
+    try {
+      if (c.state === "suspended" && c.resume) c.resume();
+      if (ambienceNodes) return true;
+      var g = c.createGain();
+      g.gain.value = 0.0001;
+      g.connect(c.destination);
+      var o1 = c.createOscillator();
+      var o2 = c.createOscillator();
+      o1.type = "sine";
+      o2.type = "sine";
+      o1.frequency.value = 110;
+      o2.frequency.value = 164.81;
+      o1.connect(g);
+      o2.connect(g);
+      o1.start();
+      o2.start();
+      var now = c.currentTime;
+      g.gain.exponentialRampToValueAtTime(0.012, now + 1.2);
+      ambienceNodes = { g: g, o1: o1, o2: o2 };
+      return true;
+    } catch (e) {
+      ambienceNodes = null;
+      return false;
+    }
+  }
+
+  function stopAmbience() {
+    if (!ambienceNodes) return false;
+    try {
+      var c = getCtx();
+      var g = ambienceNodes.g;
+      var now = c ? c.currentTime : 0;
+      if (g && g.gain) {
+        g.gain.cancelScheduledValues(now);
+        g.gain.exponentialRampToValueAtTime(0.0001, now + 0.4);
+      }
+      var nodes = ambienceNodes;
+      setTimeout(function () {
+        try {
+          nodes.o1.stop();
+          nodes.o2.stop();
+          nodes.o1.disconnect();
+          nodes.o2.disconnect();
+          nodes.g.disconnect();
+        } catch (e2) { /* ignore */ }
+      }, 500);
+    } catch (e) { /* ignore */ }
+    ambienceNodes = null;
+    return true;
+  }
+
+  function isAmbienceOn() {
+    return !!ambienceNodes;
+  }
+
+  function setAmbience(on, soundEnabled) {
+    if (soundEnabled === false || !on) return stopAmbience();
+    return startAmbience(true);
   }
 
   function beep(opts) {
@@ -64,5 +133,12 @@
     return beep({ freq: 540, dur: 0.08 });
   }
 
-  return { play: play, beep: beep };
+  return {
+    play: play,
+    beep: beep,
+    startAmbience: startAmbience,
+    stopAmbience: stopAmbience,
+    setAmbience: setAmbience,
+    isAmbienceOn: isAmbienceOn,
+  };
 });

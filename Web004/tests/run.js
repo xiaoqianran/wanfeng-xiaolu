@@ -756,5 +756,34 @@ test("secret recipes include 陶碗野茶 and bag sort ships", () => {
   assert.ok(meta.systems.includes("mail"));
 });
 
+test("audio module exposes ambience controls without throw", () => {
+  const audio = require(path.join(__dirname, "..", "js", "audio.js"));
+  assert.strictEqual(typeof audio.setAmbience, "function");
+  assert.strictEqual(typeof audio.startAmbience, "function");
+  assert.strictEqual(typeof audio.stopAmbience, "function");
+  // Node has no AudioContext — start fails safely; stop when already off returns false
+  assert.strictEqual(audio.setAmbience(true, true), false);
+  assert.strictEqual(audio.isAmbienceOn(), false);
+  audio.setAmbience(false, true);
+  assert.strictEqual(audio.isAmbienceOn(), false);
+});
+
+test("ambience setting defaults false and persists", () => {
+  const s = core.defaultState();
+  assert.strictEqual(core.getSettings(s).ambience, false);
+  core.updateSettings(s, { ambience: true });
+  assert.strictEqual(core.getSettings(s).ambience, true);
+  const back = core.importSave(core.exportSave(s));
+  assert.ok(back.ok);
+  assert.strictEqual(back.state.settings.ambience, true);
+});
+
+test("settings markup includes ambience toggle", () => {
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes('id="set-ambience"'));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("set-ambience") && game.includes("setAmbience"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

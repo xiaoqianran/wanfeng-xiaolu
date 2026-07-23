@@ -110,6 +110,7 @@
         showTips: true,
         tutorialDone: false,
         weatherFx: true,
+        ambience: false,
       },
       pathThemeId: "maple_lane",
       _seasonsTouched: { dusk: true },
@@ -176,7 +177,10 @@
       showTips: true,
       tutorialDone: false,
       weatherFx: true,
+      ambience: false,
     };
+    if (state.settings.ambience === undefined) state.settings.ambience = false;
+    if (state.settings.weatherFx === undefined) state.settings.weatherFx = true;
     return state.settings;
   }
 
@@ -673,6 +677,7 @@
       data.potSlots = data.potSlots || (data.pots && data.pots.length) || 4;
       data.pathThemeId = data.pathThemeId || "maple_lane";
       if (data.settings && data.settings.weatherFx === undefined) data.settings.weatherFx = true;
+      if (data.settings && data.settings.ambience === undefined) data.settings.ambience = false;
       data.daily = data.daily || null;
     }
     data.version = VERSION;
