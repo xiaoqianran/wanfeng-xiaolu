@@ -140,3 +140,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0141 | completed | feat | 盆栽心情表情 | mood-face emoji on pots | `feat(shop): A0140 常客标记与盆栽心情表情` |
 | A0142 | completed | content | 事件破百 | 107 unique evening events | `feat(shop): A0140 常客标记与盆栽心情表情` |
 | A0143 | completed | test | 常客心情回归 | 104 tests pass | `feat(shop): A0140 常客标记与盆栽心情表情` |
+| A0144 | completed | feat | 萤火浅坡主题 | firefly_field 13th + glow FX | `feat(walk): A0144 萤火浅坡主题与星砂苏打` |
+| A0145 | completed | content | 星砂配方与客人 | 萤坡星砂苏打; 追萤火的少年 | `feat(walk): A0144 萤火浅坡主题与星砂苏打` |
+| A0146 | completed | test | 萤火主题回归 | 105 tests pass | `feat(walk): A0144 萤火浅坡主题与星砂苏打` |
