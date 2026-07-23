@@ -1140,6 +1140,28 @@ function renderJournal() {
         ctx.ellipse(x, y, 18, 5, 0, 0, Math.PI * 2);
         ctx.fill();
       }
+    } else if (themeId === "orchard_dusk") {
+      // warm falling leaves + soft fruit glows
+      ctx.fillStyle = "rgba(220,120,70,0.4)";
+      for (let i = 0; i < 14; i++) {
+        const x = (i * 61 + time * 0.6) % w;
+        const y = (i * 47 + time * 0.8) % (h * 0.75);
+        ctx.save();
+        ctx.translate(x, y);
+        ctx.rotate(Math.sin(time * 0.03 + i) * 0.8);
+        ctx.beginPath();
+        ctx.ellipse(0, 0, 5, 2.5, 0, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.restore();
+      }
+      ctx.fillStyle = "rgba(200,60,50,0.25)";
+      for (let i = 0; i < 5; i++) {
+        const x = w * (0.2 + i * 0.15);
+        const y = h * 0.35 + Math.sin(time * 0.02 + i) * 3;
+        ctx.beginPath();
+        ctx.arc(x, y, 6, 0, Math.PI * 2);
+        ctx.fill();
+      }
     }
   }
 
@@ -2089,7 +2111,7 @@ function renderJournal() {
     if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5; notes.push("夏日清爽");
     }
-    if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel")) {
+    if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel" || flavorDef.id === "cardamom" || flavorDef.id === "ginger" || flavorDef.id === "calendula")) {
       score += 0.5; notes.push("秋日温甜");
     }
     if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey")) {

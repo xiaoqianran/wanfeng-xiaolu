@@ -612,5 +612,16 @@
       },
       "hearts": 1
     }
+  },
+  {
+    "id": "mail_cardamom",
+    "title": "一包豆蔻",
+    "body": "烤苹果的人来信：豆蔻要整粒轻压。给你一小包，别一次放太多。",
+    "effect": {
+      "items": {
+        "cardamom": 2
+      },
+      "coins": 2
+    }
   }
 ]
