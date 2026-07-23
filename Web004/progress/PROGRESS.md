@@ -958,3 +958,4 @@
 | 951 | completed | feat | Add plantable linkage #47 | Plant link plant_cocoa_0951 | `feat(content): R0951 Add plantable linkage #47` |
 | 952 | completed | feat | Add flavor or base option #47 | Flavor fl_matcha_0952 | `feat(shop): R0952 Add flavor or base option #47` |
 | 953 | completed | feat | UI copy toast string #47 | UI toasts=48 | `feat(ui): R0953 UI copy toast string #47` |
+| 954 | completed | feat | Season palette note #47 | Season palette winter_0954 | `feat(season): R0954 Season palette note #47` |
