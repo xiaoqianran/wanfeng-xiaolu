@@ -1098,13 +1098,19 @@
 
       let visual = "＋";
       let label = "空花盆";
+      let moodFace = "";
       if (pot.plantId) {
         const def = PLANTS[pot.plantId];
         visual = def.emoji[growthStage(pot)];
         label = (pot.nickname ? pot.nickname + " · " : "") + def.name + (isReady(pot) ? " · 可收获" : "");
+        // soft mood face: pure still-life feedback, no HP
+        if (pot.mood >= 75) moodFace = "😊";
+        else if (pot.mood >= 45) moodFace = "🙂";
+        else if (pot.mood >= 25) moodFace = "😐";
+        else moodFace = "😴";
       }
       slot.innerHTML = `
-        <div class="plant-visual">${visual}</div>
+        <div class="plant-visual">${visual}${moodFace ? `<span class="mood-face" aria-hidden="true">${moodFace}</span>` : ""}</div>
         <div class="pot-body"></div>
         <div class="pot-label">${label}</div>
       `;
@@ -1438,8 +1444,10 @@
 
   // ---------- 汽水铺 ----------
   function randomCustomer() {
-    const c = CUSTOMERS[Math.floor(Math.random() * CUSTOMERS.length)];
-    const next = { ...c, id: Date.now() };
+    const c = Core.pickCustomerWithPin
+      ? Core.pickCustomerWithPin(state, CUSTOMERS, Math.random)
+      : Object.assign({}, CUSTOMERS[Math.floor(Math.random() * CUSTOMERS.length)], { id: Date.now() });
+    const next = { ...c, id: c.id || Date.now() };
     if (state.lastServedFlavor && Math.random() < 0.35) {
       next.favoriteFlavor = state.lastServedFlavor;
     }
@@ -1449,7 +1457,8 @@
   function renderShop() {
     const c = state.customer;
     document.getElementById("customer-avatar").textContent = c.avatar;
-    document.getElementById("customer-name").textContent = c.name;
+    const pinMark = state.pinnedCustomer === c.name ? " 📌" : "";
+    document.getElementById("customer-name").textContent = c.name + pinMark + (c.pinned ? " · 又来了" : "");
     let wishText = c.wish;
     if (Core.getSettings(state).quietShop) {
       const tag = (c.tags && c.tags[0]) || "清爽";
@@ -1751,6 +1760,27 @@
     renderShop();
     toast("下一位客人走来了");
   });
+
+  const btnPin = document.getElementById("btn-pin-customer");
+  if (btnPin) {
+    btnPin.addEventListener("click", () => {
+      const name = state.customer && state.customer.name;
+      if (!name) {
+        toast("还没有客人");
+        return;
+      }
+      if (state.pinnedCustomer === name) {
+        Core.unpinCustomer(state);
+        toast("取消常客标记");
+      } else {
+        Core.pinCustomer(state, name);
+        toast("📌 已记下常客：" + name);
+      }
+      save();
+      renderShop();
+      sfx("ui");
+    });
+  }
 
   function renderShopShelf() {
     const row = document.getElementById("shop-shelf-row");

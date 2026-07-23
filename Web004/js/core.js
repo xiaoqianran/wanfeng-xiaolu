@@ -949,6 +949,35 @@
     return Object.assign({}, c, { id: Date.now() + Math.floor(rng() * 1000) });
   }
 
+  /** Soft pin a favorite guest name — higher chance to reappear, no combat */
+  function pinCustomer(state, name) {
+    name = String(name || "").trim();
+    if (!name) return { ok: false, reason: "empty" };
+    state.pinnedCustomer = name;
+    appendJournal(state, "记下常客：「" + name + "」。");
+    return { ok: true, name: name };
+  }
+
+  function unpinCustomer(state) {
+    var prev = state.pinnedCustomer || null;
+    state.pinnedCustomer = null;
+    return { ok: true, prev: prev };
+  }
+
+  function pickCustomerWithPin(state, customers, rng) {
+    customers = customers || DEFAULT_CUSTOMERS;
+    rng = rng || Math.random;
+    var pin = state && state.pinnedCustomer;
+    if (pin && rng() < 0.45) {
+      for (var i = 0; i < customers.length; i++) {
+        if (customers[i].name === pin) {
+          return Object.assign({}, customers[i], { id: Date.now() + Math.floor(rng() * 1000), pinned: true });
+        }
+      }
+    }
+    return pickRandomCustomer(customers, rng);
+  }
+
   function assertNoCombat(text) {
     var s = String(text || "");
     var banned = [
@@ -1004,6 +1033,9 @@
     migrateState: migrateState,
     mergeCatalog: mergeCatalog,
     pickRandomCustomer: pickRandomCustomer,
+    pinCustomer: pinCustomer,
+    unpinCustomer: unpinCustomer,
+    pickCustomerWithPin: pickCustomerWithPin,
     assertNoCombat: assertNoCombat,
     advanceSeason: advanceSeason,
     appendJournal: appendJournal,

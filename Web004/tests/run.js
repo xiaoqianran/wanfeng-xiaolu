@@ -1246,5 +1246,28 @@ test("canLines mail expand and drinks sort ship", () => {
   assert.ok(recipes.some((r) => r.name === "奶奶的蜜桃暖杯"));
 });
 
+
+test("pinCustomer pickCustomerWithPin and mood-face ship", () => {
+  const s = core.defaultState();
+  const r = core.pinCustomer(s, "抱猫的邻居");
+  assert.ok(r.ok);
+  assert.strictEqual(s.pinnedCustomer, "抱猫的邻居");
+  let hit = 0;
+  for (let i = 0; i < 40; i++) {
+    const c = core.pickCustomerWithPin(s, core.DEFAULT_CUSTOMERS, () => 0.1);
+    if (c.name === "抱猫的邻居") hit++;
+  }
+  assert.ok(hit >= 1);
+  core.unpinCustomer(s);
+  assert.strictEqual(s.pinnedCustomer, null);
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("btn-pin-customer"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("mood-face") || game.includes("moodFace"));
+  assert.ok(game.includes("pinCustomer"));
+  const ev = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(ev.length >= 100);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
