@@ -494,3 +494,4 @@
 | 487 | completed | feat | Add journal template #24 | Journal templates=24 | `feat(album): R0487 Add journal template #24` |
 | 488 | completed | feat | Add secret recipe stub #24 | Recipes=24 | `feat(shop): R0488 Add secret recipe stub #24` |
 | 489 | completed | feat | Add achievement definition #24 | Achievements=24 | `feat(meta): R0489 Add achievement definition #24` |
+| 490 | completed | style | CSS micro polish token #24 | CSS token hue=50 | `style(ui): R0490 CSS micro polish token #24` |
