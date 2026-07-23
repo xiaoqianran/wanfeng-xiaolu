@@ -755,3 +755,4 @@
 | 748 | completed | feat | Add secret recipe stub #37 | Recipes=37 | `feat(shop): R0748 Add secret recipe stub #37` |
 | 749 | completed | feat | Add achievement definition #37 | Achievements=37 | `feat(meta): R0749 Add achievement definition #37` |
 | 750 | completed | style | CSS micro polish token #37 | CSS token hue=150 | `style(ui): R0750 CSS micro polish token #37` |
+| 751 | completed | feat | Add plantable linkage #37 | Plant link plant_lavender_0751 | `feat(content): R0751 Add plantable linkage #37` |
