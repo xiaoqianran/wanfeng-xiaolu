@@ -1271,6 +1271,14 @@
       "kind": "种子",
       "seed": "plant_pear_0359",
       "round": 359
+    },
+    "seed_feather_0371": {
+      "id": "seed_feather_0371",
+      "name": "软羽毛种子",
+      "emoji": "🪶",
+      "kind": "种子",
+      "seed": "plant_feather_0371",
+      "round": 371
     }
   },
   "plants": {
@@ -2269,6 +2277,18 @@
       "harvest": "seed_pear_0359",
       "days": 5,
       "round": 359
+    },
+    "plant_feather_0371": {
+      "id": "plant_feather_0371",
+      "name": "软羽毛盆栽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🪶"
+      ],
+      "harvest": "seed_feather_0371",
+      "days": 5,
+      "round": 371
     }
   },
   "cups": [],
@@ -4635,7 +4655,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 366,
+    "expandedRounds": 371,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
