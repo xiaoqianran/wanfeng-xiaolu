@@ -966,3 +966,4 @@
 | 959 | completed | docs | Stage milestone summary #47 | Stage doc stage-20.md | `docs(progress): R0959 Stage milestone summary #47` |
 | 960 | completed | refactor | Catalog integrity pass #47 | Integrity items=95 customers=47 | `refactor(core): R0960 Catalog integrity pass #47` |
 | 961 | completed | feat | Add collectible item batch #48 | Item lavender_r0961 added | `feat(content): R0961 Add collectible item batch #48` |
+| 962 | completed | feat | Add customer persona #48 | Customer 织围巾的阿姨·962 | `feat(shop): R0962 Add customer persona #48` |
