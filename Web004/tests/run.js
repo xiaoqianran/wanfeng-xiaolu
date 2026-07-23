@@ -1436,5 +1436,17 @@ test("audio play supports can pin snap kinds", () => {
   assert.ok(game.includes('sfx("can")') && game.includes('sfx("snap")') && game.includes('sfx("pin")'));
 });
 
+
+test("sage plantable and 药草田园罐 recipe", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.sage && j.plants.sagePot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants });
+  const s = core.defaultState();
+  s.bag.sage = 1;
+  assert.ok(core.plantSeed(s, 0, "sage", cat).ok);
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "药草田园罐"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

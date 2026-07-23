@@ -2189,6 +2189,13 @@
       "emoji": "🟢",
       "kind": "风味",
       "seed": null
+    },
+    "sage": {
+      "id": "sage",
+      "name": "鼠尾草",
+      "emoji": "🪴",
+      "kind": "风味",
+      "seed": "sagePot"
     }
   },
   "plants": {
@@ -3935,6 +3942,17 @@
       ],
       "harvest": "chamomile",
       "days": 3
+    },
+    "sagePot": {
+      "id": "sagePot",
+      "name": "鼠尾草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🪴"
+      ],
+      "harvest": "sage",
+      "days": 3
     }
   },
   "cups": [
@@ -4607,6 +4625,16 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "sage",
+      "name": "鼠尾草",
+      "emoji": "🪴",
+      "need": "sage",
+      "tags": [
+        "草本",
+        "田园"
       ]
     }
   ],
@@ -5488,6 +5516,21 @@
         "tea_leaf",
         "plain",
         "mint"
+      ]
+    },
+    {
+      "name": "晒药草的阿婆",
+      "avatar": "🧺",
+      "wish": "草本田园一点，鼠尾草或薄荷都行。",
+      "tags": [
+        "草本",
+        "田园"
+      ],
+      "flavors": [
+        "sage",
+        "mint",
+        "rosemary",
+        "honey"
       ]
     }
   ],
