@@ -953,8 +953,9 @@
     const def = PLANTS[pot.plantId];
     const stage = growthStage(pot);
     const stageName = ["幼芽", "抽枝", "成熟"][stage];
+    const nick = pot.nickname ? `「${pot.nickname}」` : '';
     detail.innerHTML = `
-      <h3>${def.emoji[stage]} ${def.name}</h3>
+      <h3>${def.emoji[stage]} ${def.name} ${nick}</h3>
       <p class="muted">阶段：${stageName} · 生长 ${Math.min(pot.growth, def.days).toFixed(1)} / ${def.days}</p>
       <div class="stat-bars">
         <div class="stat"><span>水分</span><div class="bar"><i style="width:${pot.water}%"></i></div><span>${Math.round(pot.water)}</span></div>
@@ -1043,6 +1044,27 @@
     save();
     renderGarden();
   }
+
+  (function wireRenamePlant() {
+    const side = document.querySelector(".garden-side");
+    if (!side || document.getElementById("btn-rename-plant")) return;
+    const row = document.createElement("div");
+    row.className = "action-row";
+    row.innerHTML = '<button type="button" class="soft-btn" id="btn-rename-plant">✏️ 取个小名</button>';
+    side.appendChild(row);
+    document.getElementById("btn-rename-plant").addEventListener("click", () => {
+      const pot = state.pots[state.selectedPot];
+      if (!pot || !pot.plantId) { toast("先选一盆有植物的花盆"); return; }
+      const name = prompt("给它取个不超过12字的小名：", pot.nickname || "");
+      if (name == null) return;
+      const r = Core.renamePlant(state, state.selectedPot, name);
+      if (!r.ok) { toast("名字不太合适"); return; }
+      save();
+      renderGarden();
+      toast("✏️ 以后就叫「" + r.nickname + "」啦");
+      sfx("ui");
+    });
+  })();
 
   document.getElementById("plant-actions").addEventListener("click", (e) => {
     const btn = e.target.closest("[data-act]");

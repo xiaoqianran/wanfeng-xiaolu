@@ -523,5 +523,19 @@ test("drawWeather exists in game for theme FX", () => {
   assert.ok(game.includes("function drawWeather"));
 });
 
+test("renamePlant sets nickname", () => {
+  const s = core.defaultState();
+  core.addItem(s, "mint", 1);
+  core.plantSeed(s, 0, "mint");
+  const r = core.renamePlant(s, 0, "小青");
+  assert.ok(r.ok);
+  assert.strictEqual(s.pots[0].nickname, "小青");
+});
+
+test("content customers include 折纸的少年", () => {
+  const code = fs.readFileSync(path.join(__dirname, "..", "js", "content-extra.js"), "utf8");
+  assert.ok(code.includes("折纸的少年"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

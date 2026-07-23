@@ -446,6 +446,17 @@
     return { ok: true, plantId: it.seed };
   }
 
+
+  function renamePlant(state, potIndex, name) {
+    var pot = state.pots && state.pots[potIndex];
+    if (!pot || !pot.plantId) return { ok: false, reason: "empty" };
+    name = String(name || "").trim().slice(0, 12);
+    if (!name) return { ok: false, reason: "empty_name" };
+    pot.nickname = name;
+    appendJournal(state, "给植物取名：「" + name + "」。");
+    return { ok: true, nickname: name };
+  }
+
   function tend(state, potIndex, act, plants) {
     plants = plants || DEFAULT_PLANTS;
     var pot = state.pots[potIndex];
@@ -701,6 +712,7 @@
     growthStage: growthStage,
     isReady: isReady,
     plantSeed: plantSeed,
+    renamePlant: renamePlant,
     tend: tend,
     settleOfflineGrowth: settleOfflineGrowth,
     scoreDrink: scoreDrink,
