@@ -2525,6 +2525,13 @@
       "emoji": "🔴",
       "kind": "风味",
       "seed": "hawthornPot"
+    },
+    "mango": {
+      "id": "mango",
+      "name": "芒果",
+      "emoji": "🥭",
+      "kind": "风味",
+      "seed": "mangoPot"
     }
   },
   "plants": {
@@ -4689,6 +4696,17 @@
       ],
       "harvest": "hawthorn",
       "days": 3
+    },
+    "mangoPot": {
+      "id": "mangoPot",
+      "name": "芒果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🥭"
+      ],
+      "harvest": "mango",
+      "days": 3
     }
   },
   "cups": [
@@ -5763,6 +5781,16 @@
       "tags": [
         "果香",
         "清爽"
+      ]
+    },
+    {
+      "id": "mango",
+      "name": "芒果",
+      "emoji": "🥭",
+      "need": "mango",
+      "tags": [
+        "甜蜜",
+        "果香"
       ]
     }
   ],
@@ -7342,6 +7370,22 @@
         "honey",
         "yangmei",
         "berry"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "切芒果的厨子",
+      "avatar": "🥭",
+      "wish": "芒果或蜜，要甜，颜色最好金黄。",
+      "tags": [
+        "甜蜜",
+        "果香"
+      ],
+      "flavors": [
+        "mango",
+        "honey",
+        "peach",
+        "litchi"
       ],
       "wantTopping": true
     }

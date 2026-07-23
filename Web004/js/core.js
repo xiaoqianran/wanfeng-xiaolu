@@ -163,11 +163,24 @@
       }
     }
     if (!ok) return { ok: false, reason: "unknown_theme" };
+    var firstVisit = !(state._themesTouched && state._themesTouched[themeId]);
     state.pathThemeId = themeId;
     if (!state._themesTouched) state._themesTouched = {};
     state._themesTouched[themeId] = true;
     state.lastPathThemeId = themeId;
-    return { ok: true, themeId: themeId };
+    if (firstVisit) {
+      var name = themeId;
+      for (var j = 0; j < themes.length; j++) {
+        if (themes[j].id === themeId) {
+          name = themes[j].name || themeId;
+          break;
+        }
+      }
+      appendJournal(state, "第一次走上「" + name + "」，风的味道不太一样。");
+      if (!state.stats) state.stats = {};
+      state.stats.firstThemeVisits = (state.stats.firstThemeVisits || 0) + 1;
+    }
+    return { ok: true, themeId: themeId, firstVisit: firstVisit };
   }
 
   /** Soft favorite path theme — one-tap return, no combat */
@@ -699,6 +712,15 @@
     } },
     { id: "hawthorn_walker", name: "山楂径旅人", desc: "走过山楂短径", check: function (s) {
       return !!(s._themesTouched && s._themesTouched.hawthorn_path);
+    } },
+    { id: "mango_sill", name: "芒果窗台", desc: "发现芒果", check: function (s) {
+      return !!(s.discovered && s.discovered.mango);
+    } },
+    { id: "mango_walker", name: "芒荫旅人", desc: "走过芒果树荫", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.mango_shade);
+    } },
+    { id: "path_scribe", name: "换路手帐", desc: "首次踏上 5 条新小路并记入手帐", check: function (s) {
+      return (s.stats && s.stats.firstThemeVisits || 0) >= 5;
     } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
@@ -1237,7 +1259,7 @@
       score += 0.5;
       notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || flavorDef.id === "litchi" || flavorDef.id === "olive" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || flavorDef.id === "litchi" || flavorDef.id === "olive" || flavorDef.id === "mango" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5;
       notes.push("夏日清爽");
     }
