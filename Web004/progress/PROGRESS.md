@@ -55,3 +55,4 @@
 | 48 | completed | assets | Wire real stage art reference into runtime manifest #3 | live art assets/album/live_0048.jpg from assets/garden/windowsill.jpg (≥1KB) | `assets(ui): R0048 Wire real stage art reference into runtime manifest #3` |
 | 49 | completed | feat | Ship collectible + runtime catalog item #4 | Runtime item grape_r0049 | `feat(content): R0049 Ship collectible + runtime catalog item #4` |
 | 50 | completed | feat | Ship customer persona into runtime #4 | Runtime customer 图书馆员·50 | `feat(shop): R0050 Ship customer persona into runtime #4` |
+| 51 | completed | feat | Ship walk ambient + pathWidth into runtime #4 | walk pathWidth=3251 ambient=56 | `feat(walk): R0051 Ship walk ambient + pathWidth into runtime #4` |
