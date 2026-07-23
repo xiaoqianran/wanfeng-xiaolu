@@ -2847,5 +2847,34 @@ test("kumquat plantable kumquat_hedge 58 themes", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("passion_fruit plantable passion_arch 59 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.passion_fruit && j.plants.passionFruitPot);
+  assert.ok(j.flavors.some((f) => f.id === "passion_fruit"));
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  s.bag.passion_fruit = 1;
+  assert.ok(core.plantSeed(s, 0, "passion_fruit", cat).ok);
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "passion_arch"));
+  assert.ok(themes.length >= 59);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("passion_arch"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "百香果汽泡"));
+  assert.ok(recipes.some((r) => r.name === "百香暖蜜"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "passion_sill"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "passion_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("百香藤廊"));
+  const mail = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "mail.json"), "utf8"));
+  assert.ok(mail.some((m) => m.id === "mail_passion"));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_passion_arch" && e.body && e.body.length > 12));
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
