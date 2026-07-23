@@ -5135,6 +5135,19 @@
         "plain"
       ],
       "round": 626
+    },
+    {
+      "name": "烘焙店员·638",
+      "avatar": "🥐",
+      "wish": "想要一点甜蜜的味道。",
+      "tags": [
+        "甜蜜"
+      ],
+      "flavors": [
+        "honey",
+        "plain"
+      ],
+      "round": 638
     }
   ],
   "dialogues": [
@@ -5621,7 +5634,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 637,
+    "expandedRounds": 638,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
