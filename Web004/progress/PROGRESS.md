@@ -547,3 +547,4 @@
 | 540 | completed | refactor | Catalog integrity pass #26 | Integrity items=53 customers=26 | `refactor(core): R0540 Catalog integrity pass #26` |
 | 541 | completed | feat | Add collectible item batch #27 | Item lavender_r0541 added | `feat(content): R0541 Add collectible item batch #27` |
 | 542 | completed | feat | Add customer persona #27 | Customer 织围巾的阿姨·542 | `feat(shop): R0542 Add customer persona #27` |
+| 543 | completed | feat | Add dialogue line #27 | Dialogue count=27 | `feat(content): R0543 Add dialogue line #27` |

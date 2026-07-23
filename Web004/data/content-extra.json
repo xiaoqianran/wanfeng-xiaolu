@@ -1681,6 +1681,10 @@
     {
       "round": 523,
       "text": "想给植物读一首短诗。（R0523）"
+    },
+    {
+      "round": 543,
+      "text": "要不要再走慢一点？（R0543）"
     }
   ],
   "seasons": [
@@ -1724,7 +1728,7 @@
     "theme_0537"
   ],
   "meta": {
-    "expandedRounds": 542,
+    "expandedRounds": 543,
     "lastIntegrityRound": 540,
     "itemCount": 53,
     "customerCount": 26
