@@ -470,3 +470,4 @@
 | 463 | completed | feat | Add dialogue line #23 | Dialogue count=23 | `feat(content): R0463 Add dialogue line #23` |
 | 464 | completed | feat | Add garden care whisper #23 | Garden msg #24 | `feat(garden): R0464 Add garden care whisper #23` |
 | 465 | completed | feat | Add shop tip #23 | Shop tip #24 | `feat(shop): R0465 Add shop tip #23` |
+| 466 | completed | feat | Tune walk ambient note #23 | Walk ambient #23 | `feat(walk): R0466 Tune walk ambient note #23` |
