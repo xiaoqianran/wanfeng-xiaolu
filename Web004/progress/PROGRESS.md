@@ -233,3 +233,4 @@
 | 226 | completed | feat | Tune walk ambient note #11 | Walk ambient #11 | `feat(walk): R0226 Tune walk ambient note #11` |
 | 227 | completed | feat | Add journal template #11 | Journal templates=11 | `feat(album): R0227 Add journal template #11` |
 | 228 | completed | feat | Add secret recipe stub #11 | Recipes=11 | `feat(shop): R0228 Add secret recipe stub #11` |
+| 229 | completed | feat | Add achievement definition #11 | Achievements=11 | `feat(meta): R0229 Add achievement definition #11` |
