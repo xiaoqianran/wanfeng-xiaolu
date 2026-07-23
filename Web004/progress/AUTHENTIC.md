@@ -332,3 +332,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0333 | completed | feat | 风铃廊 | wind_chime 27th + swap UI | feat(walk): A0333 风铃廊主题与对调 UI |
 | A0334 | completed | content | 金盏风铃内容 | events+recipes | content(events): A0334 金盏风铃 vignette 与配方 |
 | A0335 | completed | test | 回归手册 | 159 pass | test(docs): A0335 对调风铃回归与手册 |
+| A0336 | completed | feat | 晨露与香蜂草 | morningDews+lemonBalmPot | feat(garden): A0336 晨露离线回润与香蜂草 |
+| A0337 | completed | feat | 茶台慢坡 | tea_terrace 28th + fav spawn | feat(walk): A0337 茶台慢坡与常走拾取加成 |
+| A0338 | completed | content | 晨露茶台内容 | events+recipes+mail | content(events): A0338 晨露茶台 vignette 与配方 |
+| A0339 | completed | test | 回归手册 | 160 pass | test(docs): A0339 晨露茶台回归与手册 |
