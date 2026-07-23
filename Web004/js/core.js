@@ -113,6 +113,7 @@
         ambience: false,
       },
       pathThemeId: "maple_lane",
+      serveStreak: 0,
       _seasonsTouched: { dusk: true },
     };
   }
@@ -659,7 +660,19 @@
     state.drinksMade[drinkKey] = (state.drinksMade[drinkKey] || 0) + 1;
     if (!state.stats) state.stats = {};
     state.stats.drinksServed = (state.stats.drinksServed || 0) + 1;
-    return { ok: true, result: result, drinkKey: drinkKey };
+    if (result.score >= 3) {
+      state.serveStreak = (state.serveStreak || 0) + 1;
+    } else {
+      state.serveStreak = 0;
+    }
+    var streakBonus = 0;
+    if (state.serveStreak >= 3) {
+      streakBonus = 2;
+      state.coins = (state.coins || 0) + streakBonus;
+      result.notes = (result.notes || []).concat(["连胜小奖励"]);
+      result.coins = (result.coins || 0) + streakBonus;
+    }
+    return { ok: true, result: result, drinkKey: drinkKey, serveStreak: state.serveStreak || 0 };
   }
 
   function serialize(state) {
