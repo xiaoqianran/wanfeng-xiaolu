@@ -355,3 +355,4 @@
 | 348 | completed | assets | Wire real stage art reference into runtime manifest #28 | live art assets/album/live_0348.jpg from assets/seasons/spring.jpg (≥1KB) | `assets(ui): R0348 Wire real stage art reference into runtime manifest #28` |
 | 349 | completed | feat | Ship collectible + runtime catalog item #29 | Runtime item grape_r0349 | `feat(content): R0349 Ship collectible + runtime catalog item #29` |
 | 350 | completed | feat | Ship customer persona into runtime #29 | Runtime customer 图书馆员·350 | `feat(shop): R0350 Ship customer persona into runtime #29` |
+| 351 | completed | feat | Ship walk ambient + pathWidth into runtime #29 | walk pathWidth=3351 ambient=81 | `feat(walk): R0351 Ship walk ambient + pathWidth into runtime #29` |
