@@ -930,5 +930,115 @@ test("camellia and secret 山茶蜜语 ship", () => {
   assert.ok(r.some((x) => x.name === "山茶蜜语" || x.name === "雨檐野茶"));
 });
 
+test("scoreDrink expanded season soft bonus for lavender and tea", () => {
+  const bases = [
+    { id: "floral_tea", name: "花香茶", vibe: "温柔" },
+    { id: "tea", name: "茶", vibe: "温柔" },
+  ];
+  const flavors = [
+    { id: "lavender_bud", name: "薰衣草", tags: ["花香"] },
+    { id: "plain", name: "原味", tags: ["清爽"] },
+    { id: "tea_leaf", name: "野茶", tags: ["温柔"] },
+  ];
+  const baseCat = {
+    bases: bases,
+    flavors: flavors,
+    toppings: [{ id: "none" }],
+    cups: [{ id: "mug", vibe: "温柔" }],
+  };
+  const cust = { tags: ["花香", "温柔"], flavors: ["lavender_bud"] };
+  const craft = { cup: "mug", base: "floral_tea", flavor: "lavender_bud", topping: "none" };
+  const spring = core.scoreDrink(cust, craft, Object.assign({}, baseCat, { season: "spring" }));
+  const winter = core.scoreDrink(cust, craft, Object.assign({}, baseCat, { season: "winter" }));
+  assert.ok(spring.notes.some((n) => n.indexOf("春日") >= 0));
+  assert.ok(spring.score >= winter.score);
+  const teaCraft = { cup: "mug", base: "tea", flavor: "tea_leaf", topping: "none" };
+  const autumn = core.scoreDrink({ tags: ["温柔"], flavors: ["tea_leaf"] }, teaCraft, Object.assign({}, baseCat, { season: "autumn" }));
+  assert.ok(autumn.notes.some((n) => n.indexOf("秋日") >= 0));
+});
+
+test("scoreDrink affinity soft bonus and coin tip", () => {
+  const craft = { cup: "tall", base: "soda", flavor: "mint", topping: "none" };
+  const cust = { tags: ["清爽"], flavors: ["mint"] };
+  const low = core.scoreDrink(cust, craft, { affinity: 0 });
+  const mid = core.scoreDrink(cust, craft, { affinity: 1 });
+  const hi = core.scoreDrink(cust, craft, { affinity: core.ECONOMY.affinityBonusThreshold });
+  assert.ok(mid.score >= low.score);
+  assert.ok(hi.score >= mid.score);
+  assert.ok(hi.notes.some((n) => n.indexOf("老熟人") >= 0));
+  assert.ok(hi.coins > low.coins);
+});
+
+test("tend seasonal soft bonus spring talk / winter rest", () => {
+  const s = core.defaultState();
+  core.addItem(s, "mint", 1);
+  core.plantSeed(s, 0, "mint");
+  s.season = "spring";
+  const mood0 = s.pots[0].mood;
+  const r = core.tend(s, 0, "talk");
+  assert.ok(r.ok);
+  assert.ok(r.seasonNote === "春语轻声" || s.pots[0].mood > mood0 + 22);
+  s.season = "winter";
+  const r2 = core.tend(s, 0, "rest");
+  assert.ok(r2.ok && r2.rested);
+  assert.strictEqual(r2.seasonNote, "冬夜安歇");
+});
+
+test("rosemary is plantable and flavor ships", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.rosemary);
+  assert.strictEqual(j.items.rosemary.seed, "rosemaryPot");
+  assert.ok(j.plants.rosemaryPot);
+  assert.ok((j.flavors || []).some((f) => f.id === "rosemary"));
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  s.bag.rosemary = 1;
+  const planted = core.plantSeed(s, 0, "rosemary", cat);
+  assert.ok(planted.ok, JSON.stringify(planted));
+  assert.strictEqual(s.pots[0].plantId, "rosemaryPot");
+  const code = fs.readFileSync(path.join(__dirname, "..", "js", "content-extra.js"), "utf8");
+  assert.ok(code.includes("rosemaryPot") && code.includes("迷迭香"));
+});
+
+test("flower_alley theme and petal weather ship", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  const th = themes.find((t) => t.id === "flower_alley");
+  assert.ok(th);
+  assert.ok(th.name.indexOf("花市") >= 0);
+  assert.ok(th.bias.petal >= 2);
+  assert.ok(themes.length >= 9);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes('themeId === "flower_alley"'));
+  const gd = fs.readFileSync(path.join(__dirname, "..", "js", "game-data.js"), "utf8");
+  assert.ok(gd.includes("flower_alley"));
+});
+
+test("mail expanded with unique hand-authored letters", () => {
+  const mail = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "mail.json"), "utf8"));
+  assert.ok(mail.length >= 20);
+  const ids = mail.map((m) => m.id);
+  assert.strictEqual(new Set(ids).size, ids.length);
+  assert.ok(ids.includes("mail_rosemary") && ids.includes("mail_flower_lane"));
+  mail.forEach((m) => {
+    assert.ok(m.body && m.body.length > 10);
+    assert.ok(!/#\d{2,}/.test(m.title + m.body));
+  });
+});
+
+test("secret recipes include 巷尾迷迭", () => {
+  const r = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(r.some((x) => x.name === "巷尾迷迭"));
+  assert.ok(r.some((x) => x.name === "花市蜜语"));
+  const gd = fs.readFileSync(path.join(__dirname, "..", "js", "game-data.js"), "utf8");
+  assert.ok(gd.includes("巷尾迷迭"));
+});
+
+test("game scoreDrink wires favoriteFlavor and affinity", () => {
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("favoriteFlavor"));
+  assert.ok(game.includes("老熟人默契") || game.includes("affinityBonus"));
+  assert.ok(game.includes("秋水温柔") || game.includes("seasonNote"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
