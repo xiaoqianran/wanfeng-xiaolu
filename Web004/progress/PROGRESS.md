@@ -619,3 +619,4 @@
 | 612 | completed | feat | Add flavor or base option #30 | Flavor fl_shell_0612 | `feat(shop): R0612 Add flavor or base option #30` |
 | 613 | completed | feat | UI copy toast string #30 | UI toasts=31 | `feat(ui): R0613 UI copy toast string #30` |
 | 614 | completed | feat | Season palette note #30 | Season palette winter_0614 | `feat(season): R0614 Season palette note #30` |
+| 615 | completed | assets | Asset slot registration #30 | Asset slot assets/walk/slot_0615.png | `assets(manifest): R0615 Asset slot registration #30` |
