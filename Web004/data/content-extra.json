@@ -2126,6 +2126,20 @@
       "emoji": "🌿",
       "kind": "风味",
       "seed": "rosemaryPot"
+    },
+    "osmanthus": {
+      "id": "osmanthus",
+      "name": "桂花",
+      "emoji": "🌼",
+      "kind": "风味",
+      "seed": "osmanthusPot"
+    },
+    "dried_orange": {
+      "id": "dried_orange",
+      "name": "橙皮干",
+      "emoji": "🍊",
+      "kind": "装饰",
+      "seed": null
     }
   },
   "plants": {
@@ -3828,6 +3842,17 @@
       ],
       "harvest": "rosemary",
       "days": 3
+    },
+    "osmanthusPot": {
+      "id": "osmanthusPot",
+      "name": "桂花小苗",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌼"
+      ],
+      "harvest": "osmanthus",
+      "days": 4
     }
   },
   "cups": [
@@ -3841,6 +3866,18 @@
       "id": "flute",
       "name": "细长杯",
       "emoji": "🥂",
+      "vibe": "清爽"
+    },
+    {
+      "id": "bamboo",
+      "name": "竹节杯",
+      "emoji": "🎋",
+      "vibe": "田园"
+    },
+    {
+      "id": "paper",
+      "name": "纸托杯",
+      "emoji": "🥤",
       "vibe": "清爽"
     }
   ],
@@ -4439,6 +4476,16 @@
         "草本",
         "清爽"
       ]
+    },
+    {
+      "id": "osmanthus",
+      "name": "桂花",
+      "emoji": "🌼",
+      "need": "osmanthus",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
     }
   ],
   "toppings": [
@@ -4835,6 +4882,12 @@
       "name": "山茶点缀",
       "emoji": "🌺",
       "need": "camellia"
+    },
+    {
+      "id": "dried_orange_top",
+      "name": "橙皮",
+      "emoji": "🍊",
+      "need": "dried_orange"
     }
   ],
   "customers": [
@@ -5038,6 +5091,79 @@
         "jasmine",
         "honey",
         "tea_leaf"
+      ]
+    },
+    {
+      "name": "卖糖画的叔叔",
+      "avatar": "🍬",
+      "wish": "要甜一点，最好有果香，像庙会回来。",
+      "tags": [
+        "甜蜜",
+        "果香"
+      ],
+      "flavors": [
+        "honey",
+        "berry",
+        "peach"
+      ]
+    },
+    {
+      "name": "练小提琴的女孩",
+      "avatar": "🎻",
+      "wish": "花香或草本都行，别太吵的甜。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "jasmine",
+        "lavender_bud",
+        "mint",
+        "rosemary"
+      ]
+    },
+    {
+      "name": "夜归的快递员",
+      "avatar": "📦",
+      "wish": "提神清爽，气泡更好，装饰随意。",
+      "tags": [
+        "清爽"
+      ],
+      "flavors": [
+        "mint",
+        "lemon",
+        "rosemary",
+        "plain"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "拍晚霞的摄影师",
+      "avatar": "📷",
+      "wish": "颜色好看就行，黄昏感的装饰加分。",
+      "tags": [
+        "温柔",
+        "清爽"
+      ],
+      "flavors": [
+        "peach",
+        "jasmine",
+        "plain"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "带狗散步的邻居",
+      "avatar": "🐕",
+      "wish": "田园一点，蜜或桃我都喜欢。",
+      "tags": [
+        "田园",
+        "甜蜜"
+      ],
+      "flavors": [
+        "honey",
+        "peach",
+        "berry"
       ]
     }
   ],
