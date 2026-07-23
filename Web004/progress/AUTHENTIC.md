@@ -404,3 +404,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0405 | completed | feat | 秋坡与事件加长 | autumn_slope 45th + body length | feat(walk): A0405 秋坡慢步与事件正文加长 |
 | A0406 | completed | test | 回归手册 | 177 pass | test(docs): A0406 柿子秋坡回归与手册 |
 | A0407 | completed | content | 独特店语窗台文案 | shop tips+garden msgs | content(world): A0407 秋坡店语与窗台絮语 |
+| A0408 | completed | feat | 无花果可种植 | figPot | feat(garden): A0408 无花果可种植窗台 |
+| A0409 | completed | feat | 无花果台 | fig_terrace 46th + title unique | feat(walk): A0409 无花果台主题与标题去重 |
+| A0410 | completed | test | 回归手册 | 178 pass | test(docs): A0410 无花果台回归与手册 |
