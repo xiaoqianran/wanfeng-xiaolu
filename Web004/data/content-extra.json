@@ -2567,6 +2567,13 @@
       "emoji": "🟣",
       "kind": "风味",
       "seed": "passionFruitPot"
+    },
+    "kiwi": {
+      "id": "kiwi",
+      "name": "猕猴桃",
+      "emoji": "🥝",
+      "kind": "风味",
+      "seed": "kiwiPot"
     }
   },
   "plants": {
@@ -4797,6 +4804,17 @@
       ],
       "harvest": "passion_fruit",
       "days": 3
+    },
+    "kiwiPot": {
+      "id": "kiwiPot",
+      "name": "猕猴桃",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🥝"
+      ],
+      "harvest": "kiwi",
+      "days": 3
     }
   },
   "cups": [
@@ -5928,6 +5946,16 @@
       "name": "百香果",
       "emoji": "🟣",
       "need": "passion_fruit",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "kiwi",
+      "name": "猕猴桃",
+      "emoji": "🥝",
+      "need": "kiwi",
       "tags": [
         "果香",
         "清爽"
@@ -7606,6 +7634,21 @@
         "pineapple"
       ],
       "wantTopping": true
+    },
+    {
+      "name": "背藤篮的旅人",
+      "avatar": "🧺",
+      "wish": "猕猴桃或蜜，酸甜一点，清爽最好，装饰随意。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "kiwi",
+        "honey",
+        "mint",
+        "leaf"
+      ]
     }
   ],
   "dialogues": [
