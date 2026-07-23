@@ -622,3 +622,4 @@
 | 615 | completed | assets | Asset slot registration #30 | Asset slot assets/walk/slot_0615.png | `assets(manifest): R0615 Asset slot registration #30` |
 | 616 | completed | test | Regression assertion pack #30 | Test pack size=32 | `test(core): R0616 Regression assertion pack #30` |
 | 617 | completed | feat | Path theme fragment #30 | Path themes=35 | `feat(walk): R0617 Path theme fragment #30` |
+| 618 | completed | feat | Topping or cup option #30 | Topping top_r0618 | `feat(content): R0618 Topping or cup option #30` |
