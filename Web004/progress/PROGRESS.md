@@ -475,3 +475,4 @@
 | 468 | completed | feat | Add secret recipe stub #23 | Recipes=23 | `feat(shop): R0468 Add secret recipe stub #23` |
 | 469 | completed | feat | Add achievement definition #23 | Achievements=23 | `feat(meta): R0469 Add achievement definition #23` |
 | 470 | completed | style | CSS micro polish token #23 | CSS token hue=70 | `style(ui): R0470 CSS micro polish token #23` |
+| 471 | completed | feat | Add plantable linkage #23 | Plant link plant_cocoa_0471 | `feat(content): R0471 Add plantable linkage #23` |
