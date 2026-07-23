@@ -407,3 +407,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0408 | completed | feat | 无花果可种植 | figPot | feat(garden): A0408 无花果可种植窗台 |
 | A0409 | completed | feat | 无花果台 | fig_terrace 46th + title unique | feat(walk): A0409 无花果台主题与标题去重 |
 | A0410 | completed | test | 回归手册 | 178 pass | test(docs): A0410 无花果台回归与手册 |
+| A0411 | completed | feat | 最想照料与石榴 | setFavoritePlant+pomegranatePot | feat(garden): A0411 最想照料与石榴可种植 |
+| A0412 | completed | feat | 石榴小院 | pomegranate_court 47th + fav UI | feat(walk): A0412 石榴小院与最想照料 UI |
+| A0413 | completed | test | 回归手册 | 179 pass | test(docs): A0413 石榴最想照料回归与手册 |
