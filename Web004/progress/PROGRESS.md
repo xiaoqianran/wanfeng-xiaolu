@@ -232,3 +232,4 @@
 | 225 | completed | feat | Ship achievement milestone into runtime #18 | achievements=71 | `feat(meta): R0225 Ship achievement milestone into runtime #18` |
 | 226 | completed | style | Ship CSS accent token used by app shell #18 | CSS --r-accent hue=242 wired to brand/primary | `style(ui): R0226 Ship CSS accent token used by app shell #18` |
 | 227 | completed | feat | Ship plantable seed linkage into runtime #18 | plant link plant_orange_0227 harvest=seed_orange_0227 | `feat(content): R0227 Ship plantable seed linkage into runtime #18` |
+| 228 | completed | assets | Wire real stage art reference into runtime manifest #18 | live art assets/album/live_0228.jpg from assets/shop/night-window.jpg (≥1KB) | `assets(ui): R0228 Wire real stage art reference into runtime manifest #18` |
