@@ -333,3 +333,4 @@
 {"round":333,"status":"completed","type":"feat","scope":"ui","goal":"UI copy toast string #16","outcome":"UI toasts=17","commit":"feat(ui): R0333 UI copy toast string #16","at":"2026-07-23T19:49:53.584Z"}
 {"round":334,"status":"completed","type":"feat","scope":"season","goal":"Season palette note #16","outcome":"Season palette winter_0334","commit":"feat(season): R0334 Season palette note #16","at":"2026-07-23T19:49:53.620Z"}
 {"round":335,"status":"completed","type":"assets","scope":"manifest","goal":"Asset slot registration #16","outcome":"Asset slot assets/walk/slot_0335.png","commit":"assets(manifest): R0335 Asset slot registration #16","at":"2026-07-23T19:49:53.649Z"}
+{"round":336,"status":"completed","type":"test","scope":"core","goal":"Regression assertion pack #16","outcome":"Test pack size=18","commit":"test(core): R0336 Regression assertion pack #16","at":"2026-07-23T19:49:53.674Z"}
