@@ -961,3 +961,4 @@
 | 954 | completed | feat | Season palette note #47 | Season palette winter_0954 | `feat(season): R0954 Season palette note #47` |
 | 955 | completed | assets | Asset slot registration #47 | Asset slot assets/walk/slot_0955.png | `assets(manifest): R0955 Asset slot registration #47` |
 | 956 | completed | test | Regression assertion pack #47 | Test pack size=49 | `test(core): R0956 Regression assertion pack #47` |
+| 957 | completed | feat | Path theme fragment #47 | Path themes=52 | `feat(walk): R0957 Path theme fragment #47` |
