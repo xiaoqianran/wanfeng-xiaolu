@@ -314,3 +314,4 @@
 | 307 | completed | feat | Add journal template #15 | Journal templates=15 | `feat(album): R0307 Add journal template #15` |
 | 308 | completed | feat | Add secret recipe stub #15 | Recipes=15 | `feat(shop): R0308 Add secret recipe stub #15` |
 | 309 | completed | feat | Add achievement definition #15 | Achievements=15 | `feat(meta): R0309 Add achievement definition #15` |
+| 310 | completed | style | CSS micro polish token #15 | CSS token hue=230 | `style(ui): R0310 CSS micro polish token #15` |
