@@ -17,3 +17,4 @@
 | 10 | completed | style | Add expansions.css hook for progressive polish | CSS expansion hook appended | `style(ui): R0010 Add expansions.css hook for progressive polish` |
 | 11 | completed | feat | Add plantable linkage #0 | Plant link plant_pine_0011 | `feat(content): R0011 Add plantable linkage #0` |
 | 12 | completed | feat | Add flavor or base option #0 | Flavor fl_shell_0012 | `feat(shop): R0012 Add flavor or base option #0` |
+| 13 | completed | feat | UI copy toast string #0 | UI toasts=1 | `feat(ui): R0013 UI copy toast string #0` |
