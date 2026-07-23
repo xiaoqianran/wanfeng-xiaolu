@@ -1065,6 +1065,10 @@
     document.getElementById("customer-avatar").textContent = c.avatar;
     document.getElementById("customer-name").textContent = c.name;
     document.getElementById("customer-wish").textContent = c.wish;
+    const aff = (state.customerAffinity && state.customerAffinity[c.name]) || 0;
+    if (aff > 0) {
+      document.getElementById("customer-wish").textContent = c.wish + "（熟悉度 " + aff + "）";
+    }
     const tags = document.getElementById("customer-tags");
     tags.innerHTML = c.tags
       .map((t) => {
@@ -1268,6 +1272,11 @@
     toast(`🥂 客人很满意 · +${coins} 🪙`);
     sfx("serve");
     state.lastServedFlavor = flavor;
+    if (!state.customerAffinity) state.customerAffinity = {};
+    const cname = state.customer && state.customer.name ? state.customer.name : "客人";
+    if (score >= 3) {
+      state.customerAffinity[cname] = (state.customerAffinity[cname] || 0) + 1;
+    }
 
     // 重置部分配方，换客人
     state.craft = { cup: state.craft.cup, base: null, flavor: null, topping: null };
