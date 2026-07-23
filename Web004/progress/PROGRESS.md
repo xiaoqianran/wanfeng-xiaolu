@@ -594,3 +594,4 @@
 | 587 | completed | feat | Add journal template #29 | Journal templates=29 | `feat(album): R0587 Add journal template #29` |
 | 588 | completed | feat | Add secret recipe stub #29 | Recipes=29 | `feat(shop): R0588 Add secret recipe stub #29` |
 | 589 | completed | feat | Add achievement definition #29 | Achievements=29 | `feat(meta): R0589 Add achievement definition #29` |
+| 590 | completed | style | CSS micro polish token #29 | CSS token hue=310 | `style(ui): R0590 CSS micro polish token #29` |
