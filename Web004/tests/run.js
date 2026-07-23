@@ -2678,5 +2678,36 @@ test("loquat plantable loquat_lane 51 themes", () => {
   assert.ok(man.includes("枇杷巷"));
 });
 
+
+test("setGuestNote olive_grove 52 themes", () => {
+  const s = core.defaultState();
+  const r = core.setGuestNote(s, "腌橄榄的厨子", "少放橄榄，草本轻一点");
+  assert.ok(r.ok);
+  assert.strictEqual(s.guestNotes["腌橄榄的厨子"], "少放橄榄，草本轻一点");
+  assert.ok((s.stats.guestNotes || 0) >= 1);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "guest_scribe"));
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("btn-guest-note"));
+
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.olive && j.plants.olivePot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s2 = core.defaultState();
+  s2.bag.olive = 1;
+  assert.ok(core.plantSeed(s2, 0, "olive", cat).ok);
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "olive_grove"));
+  assert.ok(themes.length >= 52);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("olive_grove") && game.includes("setGuestNote"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "橄榄田园罐"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("橄榄坡") && man.includes("客人便签"));
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
