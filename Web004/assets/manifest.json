@@ -132,7 +132,8 @@
     "assets/garden/live_0756.jpg",
     "assets/album/live_0768.jpg",
     "assets/walk/live_0780.jpg",
-    "assets/shop/live_0792.jpg"
+    "assets/shop/live_0792.jpg",
+    "assets/ui/live_0804.jpg"
   ],
   "stages": {
     "home": [
@@ -571,6 +572,12 @@
         "path": "assets/ui/live_0744.jpg",
         "status": "live",
         "source": "assets/seasons/spring.jpg"
+      },
+      {
+        "round": 804,
+        "path": "assets/ui/live_0804.jpg",
+        "status": "live",
+        "source": "assets/album/journal-open.jpg"
       }
     ]
   },
