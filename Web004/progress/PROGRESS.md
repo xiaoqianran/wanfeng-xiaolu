@@ -805,3 +805,4 @@
 | 798 | completed | feat | Ship dialogue line into runtime #66 | dialogues=118 | `feat(content): R0798 Ship dialogue line into runtime #66` |
 | 799 | completed | feat | Ship journal template into runtime #66 | journal templates=119 | `feat(album): R0799 Ship journal template into runtime #66` |
 | 800 | completed | feat | Ship secret recipe into runtime #66 | secret recipes=119 | `feat(shop): R0800 Ship secret recipe into runtime #66` |
+| 801 | completed | feat | Ship achievement milestone into runtime #66 | achievements=119 | `feat(meta): R0801 Ship achievement milestone into runtime #66` |
