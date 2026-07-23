@@ -1011,3 +1011,4 @@
 | 1004 | completed | feat | Wire season switch journal achievements screens | home actions + screens | `feat(ui): R1004 home season switch journal achievements screens` |
 | 1005 | completed | assets | Integrate season art pack and badges | seasons/* + badges | `assets(ui): R1005 season art pack and achievement badges integrated` |
 | 1006 | completed | test | Season achievement and art unit coverage | 19 tests green | `test(core): R1006 season achievement and season-art unit coverage` |
+| 1007 | completed | feat | Add journal template #50 | Journal templates=50 | `feat(album): R1007 Add journal template #50` |
