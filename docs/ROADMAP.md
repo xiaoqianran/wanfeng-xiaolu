@@ -89,3 +89,10 @@
 - 主题 38 · 测试 170 pass
 - 静物/散步/小店三系统持续 authentic 扩展
 - `cd Web004 && node tests/run.js && node tools/quality-gate.js`
+
+## 执行锚点 A0387
+- authentic **380** / 1000
+- 下一轮 A0388+
+- spam DISABLED
+- 主题 **40** · 测试 172 pass
+- `cd Web004 && node tests/run.js && node tools/quality-gate.js`

@@ -380,3 +380,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0381 | completed | feat | 松脊晚风 | pine_ridge 39th | feat(walk): A0381 松脊晚风主题与松影特效 |
 | A0382 | completed | content | 松脊内容 | events+recipe | content(events): A0382 松脊 vignette 与松针清茶 |
 | A0383 | completed | test | 回归手册 | 171 pass | test(docs): A0383 松脊回归与手册 |
+| A0384 | completed | feat | 李子与四十路 | plumPot+path_explorer | feat(garden): A0384 李子可种植与四十路成就 |
+| A0385 | completed | feat | 李花短径 | plum_path 40th | feat(walk): A0385 李花短径主题与花瓣特效 |
+| A0386 | completed | content | 李花内容 | events+recipe | content(events): A0386 李花 vignette 与李子蜜罐 |
+| A0387 | completed | test | 回归手册 | 172 pass 40 themes | test(docs): A0387 李花短径回归与手册 |
