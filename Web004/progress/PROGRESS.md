@@ -1017,3 +1017,4 @@
 | 1010 | completed | feat | Ship customer persona into runtime #84 | Runtime customer 图书馆员·1010 | `feat(shop): R1010 Ship customer persona into runtime #84` |
 | 1011 | completed | feat | Ship walk ambient + pathWidth into runtime #84 | walk pathWidth=3211 ambient=120 | `feat(walk): R1011 Ship walk ambient + pathWidth into runtime #84` |
 | 1012 | completed | feat | Ship garden care whisper into runtime #84 | garden messages=120 careBonus=1.05 | `feat(garden): R1012 Ship garden care whisper into runtime #84` |
+| 1013 | completed | feat | Ship shop tip + perfectBonus into runtime #84 | shop tips=120 perfectBonus=4 | `feat(shop): R1013 Ship shop tip + perfectBonus into runtime #84` |
