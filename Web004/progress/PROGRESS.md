@@ -435,3 +435,4 @@
 | 428 | completed | feat | Ship secret recipe into runtime #35 | secret recipes=88 | `feat(shop): R0428 Ship secret recipe into runtime #35` |
 | 429 | completed | feat | Ship achievement milestone into runtime #35 | achievements=88 | `feat(meta): R0429 Ship achievement milestone into runtime #35` |
 | 430 | completed | style | Ship CSS accent token used by app shell #35 | CSS --r-accent hue=110 wired to brand/primary | `style(ui): R0430 Ship CSS accent token used by app shell #35` |
+| 431 | completed | feat | Ship plantable seed linkage into runtime #35 | plant link plant_feather_0431 harvest=seed_feather_0431 | `feat(content): R0431 Ship plantable seed linkage into runtime #35` |
