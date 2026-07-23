@@ -139,6 +139,16 @@
         "清爽"
       ],
       "round": 52
+    },
+    {
+      "id": "fl_shell_0072",
+      "name": "小贝壳",
+      "emoji": "🐚",
+      "need": null,
+      "tags": [
+        "清爽"
+      ],
+      "round": 72
     }
   ],
   "toppings": [
@@ -236,7 +246,7 @@
     "theme_0057"
   ],
   "meta": {
-    "expandedRounds": 71,
+    "expandedRounds": 72,
     "lastIntegrityRound": 60,
     "itemCount": 5,
     "customerCount": 2

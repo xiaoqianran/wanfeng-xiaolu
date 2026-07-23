@@ -76,3 +76,4 @@
 | 69 | completed | feat | Add achievement definition #3 | Achievements=3 | `feat(meta): R0069 Add achievement definition #3` |
 | 70 | completed | style | CSS micro polish token #3 | CSS token hue=110 | `style(ui): R0070 CSS micro polish token #3` |
 | 71 | completed | feat | Add plantable linkage #3 | Plant link plant_pine_0071 | `feat(content): R0071 Add plantable linkage #3` |
+| 72 | completed | feat | Add flavor or base option #3 | Flavor fl_shell_0072 | `feat(shop): R0072 Add flavor or base option #3` |
