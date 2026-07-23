@@ -574,3 +574,4 @@
 | 567 | completed | feat | Add journal template #28 | Journal templates=28 | `feat(album): R0567 Add journal template #28` |
 | 568 | completed | feat | Add secret recipe stub #28 | Recipes=28 | `feat(shop): R0568 Add secret recipe stub #28` |
 | 569 | completed | feat | Add achievement definition #28 | Achievements=28 | `feat(meta): R0569 Add achievement definition #28` |
+| 570 | completed | style | CSS micro polish token #28 | CSS token hue=330 | `style(ui): R0570 CSS micro polish token #28` |
