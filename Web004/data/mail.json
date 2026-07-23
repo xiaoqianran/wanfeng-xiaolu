@@ -528,5 +528,27 @@
         "bergamot": 2
       }
     }
+  },
+  {
+    "id": "mail_coriander",
+    "title": "香菜多一点",
+    "body": "包饺子的阿姨来信：下次汽水里要是有香菜，我多坐一会儿。院子里的香菜苗记得晒晒。",
+    "effect": {
+      "items": {
+        "coriander": 1
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ink",
+    "title": "半张未干",
+    "body": "临摹碑帖的人来信：小院的风很适合写字。附上一小片茶，换你一杯安静的暖茶。",
+    "effect": {
+      "items": {
+        "tea_leaf": 1
+      },
+      "coins": 3
+    }
   }
 ]
