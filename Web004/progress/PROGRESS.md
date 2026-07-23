@@ -473,3 +473,4 @@
 | 466 | completed | style | Ship CSS accent token used by app shell #38 | CSS --r-accent hue=2 wired to brand/primary | `style(ui): R0466 Ship CSS accent token used by app shell #38` |
 | 467 | completed | feat | Ship plantable seed linkage into runtime #38 | plant link plant_orange_0467 harvest=seed_orange_0467 | `feat(content): R0467 Ship plantable seed linkage into runtime #38` |
 | 468 | completed | assets | Wire real stage art reference into runtime manifest #38 | live art assets/album/live_0468.jpg from assets/shop/soda-hero.jpg (≥1KB) | `assets(ui): R0468 Wire real stage art reference into runtime manifest #38` |
+| 469 | completed | feat | Ship collectible + runtime catalog item #39 | Runtime item grape_r0469 | `feat(content): R0469 Ship collectible + runtime catalog item #39` |
