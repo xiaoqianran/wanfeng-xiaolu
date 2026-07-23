@@ -655,3 +655,4 @@
 | 648 | completed | assets | Wire real stage art reference into runtime manifest #53 | live art assets/album/live_0648.jpg from assets/shop/cups-set.jpg (≥1KB) | `assets(ui): R0648 Wire real stage art reference into runtime manifest #53` |
 | 649 | completed | feat | Ship collectible + runtime catalog item #54 | Runtime item grape_r0649 | `feat(content): R0649 Ship collectible + runtime catalog item #54` |
 | 650 | completed | feat | Ship customer persona into runtime #54 | Runtime customer 图书馆员·650 | `feat(shop): R0650 Ship customer persona into runtime #54` |
+| 651 | completed | feat | Ship walk ambient + pathWidth into runtime #54 | walk pathWidth=3251 ambient=106 | `feat(walk): R0651 Ship walk ambient + pathWidth into runtime #54` |
