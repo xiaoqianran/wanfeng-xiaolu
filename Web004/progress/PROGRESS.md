@@ -904,3 +904,4 @@
 | 897 | completed | feat | Ship achievement milestone into runtime #74 | achievements=120 | `feat(meta): R0897 Ship achievement milestone into runtime #74` |
 | 898 | completed | style | Ship CSS accent token used by app shell #74 | CSS --r-accent hue=146 wired to brand/primary | `style(ui): R0898 Ship CSS accent token used by app shell #74` |
 | 899 | completed | feat | Ship plantable seed linkage into runtime #74 | plant link plant_pear_0899 harvest=seed_pear_0899 | `feat(content): R0899 Ship plantable seed linkage into runtime #74` |
+| 900 | completed | assets | Wire real stage art reference into runtime manifest #74 | live art assets/walk/live_0900.jpg from assets/seasons/autumn.jpg (≥1KB) | `assets(ui): R0900 Wire real stage art reference into runtime manifest #74` |
