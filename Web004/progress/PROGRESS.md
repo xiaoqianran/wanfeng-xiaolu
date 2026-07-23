@@ -621,3 +621,4 @@
 | 614 | completed | feat | Ship customer persona into runtime #51 | Runtime customer 弹尤克里里的人·614 | `feat(shop): R0614 Ship customer persona into runtime #51` |
 | 615 | completed | feat | Ship walk ambient + pathWidth into runtime #51 | walk pathWidth=3215 ambient=103 | `feat(walk): R0615 Ship walk ambient + pathWidth into runtime #51` |
 | 616 | completed | feat | Ship garden care whisper into runtime #51 | garden messages=104 careBonus=1.05 | `feat(garden): R0616 Ship garden care whisper into runtime #51` |
+| 617 | completed | feat | Ship shop tip + perfectBonus into runtime #51 | shop tips=104 perfectBonus=4 | `feat(shop): R0617 Ship shop tip + perfectBonus into runtime #51` |
