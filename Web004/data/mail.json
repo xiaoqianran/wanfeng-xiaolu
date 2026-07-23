@@ -678,5 +678,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_jasmine",
+    "title": "干茉莉",
+    "body": "薰香的女孩来信：干茉莉也能泡。给你一小包。",
+    "effect": {
+      "items": {
+        "jasmine": 2
+      },
+      "coins": 2
+    }
   }
 ]

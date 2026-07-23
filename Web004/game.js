@@ -1264,6 +1264,25 @@ function renderJournal() {
         ctx.fill();
       }
       ctx.globalAlpha = 1;
+    } else if (themeId === "osmanthus_court") {
+      // warm courtyard glow + falling golden dots
+      const g = ctx.createRadialGradient(w * 0.5, h * 0.3, 10, w * 0.5, h * 0.3, 90);
+      g.addColorStop(0, "rgba(255,200,100,0.2)");
+      g.addColorStop(1, "rgba(255,200,100,0)");
+      ctx.fillStyle = g;
+      ctx.beginPath();
+      ctx.arc(w * 0.5, h * 0.3, 90, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.fillStyle = "rgba(230,180,60,0.55)";
+      for (let i = 0; i < 18; i++) {
+        const x = (i * 53 + time * 0.35) % w;
+        const y = (i * 41 + time * 0.55) % (h * 0.75);
+        ctx.globalAlpha = 0.3 + 0.4 * Math.abs(Math.sin(time * 0.04 + i));
+        ctx.beginPath();
+        ctx.arc(x, y, 1.8, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
     }
   }
 
@@ -2526,6 +2545,21 @@ function renderJournal() {
       save();
       renderShop();
       toast("🔁 已填入钉住的搭配");
+      sfx("ui");
+    });
+  }
+
+  const btnCloseShop = document.getElementById("btn-close-shop");
+  if (btnCloseShop) {
+    btnCloseShop.addEventListener("click", () => {
+      const r = Core.closeShopDay(state);
+      if (!r.ok) {
+        toast(r.reason === "already" ? "今天已经收过摊啦" : "还不能收摊");
+        return;
+      }
+      checkAchievements();
+      save();
+      toast("🌙 " + r.line);
       sfx("ui");
     });
   }
