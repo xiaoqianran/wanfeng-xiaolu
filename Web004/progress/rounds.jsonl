@@ -426,3 +426,4 @@
 {"round":426,"status":"completed","type":"feat","scope":"walk","goal":"Tune walk ambient note #21","outcome":"Walk ambient #21","commit":"feat(walk): R0426 Tune walk ambient note #21","at":"2026-07-23T19:49:56.067Z"}
 {"round":427,"status":"completed","type":"feat","scope":"album","goal":"Add journal template #21","outcome":"Journal templates=21","commit":"feat(album): R0427 Add journal template #21","at":"2026-07-23T19:49:56.093Z"}
 {"round":428,"status":"completed","type":"feat","scope":"shop","goal":"Add secret recipe stub #21","outcome":"Recipes=21","commit":"feat(shop): R0428 Add secret recipe stub #21","at":"2026-07-23T19:49:56.120Z"}
+{"round":429,"status":"completed","type":"feat","scope":"meta","goal":"Add achievement definition #21","outcome":"Achievements=21","commit":"feat(meta): R0429 Add achievement definition #21","at":"2026-07-23T19:49:56.152Z"}
