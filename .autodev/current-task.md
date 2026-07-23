@@ -1,23 +1,22 @@
 # Current task
 
 ## Round
-R1002
+A0001 (authentic ledger)
 
 ## Problem
-缺少毕业设计级控制面与可恢复状态；设置/引导尚未完善。
+Skeptic rejected template micro-rounds, duplicate live_ art, CSS spam, and docs-only integrated counts.
 
 ## Plan
-1. 落地 docs + .autodev（本轮）
-2. 下一轮实现设置与首次引导到 shipped UI
+1. Archive spam progress; authentic-only ledger
+2. Disable template engine
+3. Collapse CSS to lasting tokens + focus rings (a11y foundation)
+4. Implement real a11y + daily goals + demo mode as separate authentic rounds
 
-## Risks
-文档与进度编号和旧 progress 表并存——以 integrated rounds 为准。
-
-## Acceptance
-控制面文件存在；测试仍绿；提交阿里规范。
+## Files
+- progress/*, tools/run-rounds.js, css/expansions.css, assets/**, core/game/index
 
 ## Test
 `cd Web004 && node tests/run.js`
 
 ## Rollback
-`git revert` 本提交
+Restore archive ledger only if needed; do not re-enable spam engine.
