@@ -594,3 +594,4 @@
 | 587 | completed | feat | Ship plantable seed linkage into runtime #48 | plant link plant_orange_0587 harvest=seed_orange_0587 | `feat(content): R0587 Ship plantable seed linkage into runtime #48` |
 | 588 | completed | assets | Wire real stage art reference into runtime manifest #48 | live art assets/album/live_0588.jpg from assets/ui/achievements-badges.jpg (≥1KB) | `assets(ui): R0588 Wire real stage art reference into runtime manifest #48` |
 | 589 | completed | feat | Ship collectible + runtime catalog item #49 | Runtime item grape_r0589 | `feat(content): R0589 Ship collectible + runtime catalog item #49` |
+| 590 | completed | feat | Ship customer persona into runtime #49 | Runtime customer 图书馆员·590 | `feat(shop): R0590 Ship customer persona into runtime #49` |
