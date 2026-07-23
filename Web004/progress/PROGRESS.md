@@ -91,3 +91,4 @@
 | 84 | completed | assets | Wire real stage art reference into runtime manifest #6 | live art assets/ui/live_0084.jpg from assets/seasons/spring.jpg (≥1KB) | `assets(ui): R0084 Wire real stage art reference into runtime manifest #6` |
 | 85 | completed | feat | Ship collectible + runtime catalog item #7 | Runtime item coconut_r0085 | `feat(content): R0085 Ship collectible + runtime catalog item #7` |
 | 86 | completed | feat | Ship customer persona into runtime #7 | Runtime customer 采风记者·86 | `feat(shop): R0086 Ship customer persona into runtime #7` |
+| 87 | completed | feat | Ship walk ambient + pathWidth into runtime #7 | walk pathWidth=3287 ambient=59 | `feat(walk): R0087 Ship walk ambient + pathWidth into runtime #7` |
