@@ -769,3 +769,4 @@
 | 762 | completed | feat | Add customer persona #38 | Customer 滑板少年·762 | `feat(shop): R0762 Add customer persona #38` |
 | 763 | completed | feat | Add dialogue line #38 | Dialogue count=38 | `feat(content): R0763 Add dialogue line #38` |
 | 764 | completed | feat | Add garden care whisper #38 | Garden msg #39 | `feat(garden): R0764 Add garden care whisper #38` |
+| 765 | completed | feat | Add shop tip #38 | Shop tip #39 | `feat(shop): R0765 Add shop tip #38` |
