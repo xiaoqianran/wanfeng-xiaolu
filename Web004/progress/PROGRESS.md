@@ -535,3 +535,4 @@
 | 528 | completed | feat | Add secret recipe stub #26 | Recipes=26 | `feat(shop): R0528 Add secret recipe stub #26` |
 | 529 | completed | feat | Add achievement definition #26 | Achievements=26 | `feat(meta): R0529 Add achievement definition #26` |
 | 530 | completed | style | CSS micro polish token #26 | CSS token hue=10 | `style(ui): R0530 CSS micro polish token #26` |
+| 531 | completed | feat | Add plantable linkage #26 | Plant link plant_cocoa_0531 | `feat(content): R0531 Add plantable linkage #26` |
