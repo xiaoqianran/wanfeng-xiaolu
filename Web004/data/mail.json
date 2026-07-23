@@ -86,5 +86,52 @@
     "effect": {
       "hearts": 2
     }
+  },
+  {
+    "id": "mail_tea",
+    "title": "一包茶芽",
+    "body": "字条：煮水就好，不必讲究。",
+    "effect": {
+      "items": {
+        "tea_leaf": 2
+      }
+    }
+  },
+  {
+    "id": "mail_ribbon",
+    "title": "浅色丝带",
+    "body": "说是扎花瓶用的，其实扎什么都行。",
+    "effect": {
+      "items": {
+        "ribbon": 1
+      },
+      "hearts": 1
+    }
+  },
+  {
+    "id": "mail_harbor",
+    "title": "码头速写",
+    "body": "画了三条线，像水，又像路。",
+    "effect": {
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star",
+    "title": "星砂一小瓶",
+    "body": "打开会洒，但还是想让你看看。",
+    "effect": {
+      "items": {
+        "star_sand": 1
+      }
+    }
+  },
+  {
+    "id": "mail_rest",
+    "title": "休息许可",
+    "body": "今天什么都不做，也算完成。",
+    "effect": {
+      "hearts": 2
+    }
   }
 ]
