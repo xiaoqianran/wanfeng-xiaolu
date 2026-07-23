@@ -886,3 +886,4 @@
 | 879 | completed | docs | Stage milestone summary #43 | Stage doc stage-18.md | `docs(progress): R0879 Stage milestone summary #43` |
 | 880 | completed | refactor | Catalog integrity pass #43 | Integrity items=87 customers=43 | `refactor(core): R0880 Catalog integrity pass #43` |
 | 881 | completed | feat | Add collectible item batch #44 | Item pine_r0881 added | `feat(content): R0881 Add collectible item batch #44` |
+| 882 | completed | feat | Add customer persona #44 | Customer 滑板少年·882 | `feat(shop): R0882 Add customer persona #44` |
