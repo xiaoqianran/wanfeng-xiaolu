@@ -451,3 +451,4 @@
 | 444 | completed | feat | Add garden care whisper #22 | Garden msg #23 | `feat(garden): R0444 Add garden care whisper #22` |
 | 445 | completed | feat | Add shop tip #22 | Shop tip #23 | `feat(shop): R0445 Add shop tip #22` |
 | 446 | completed | feat | Tune walk ambient note #22 | Walk ambient #22 | `feat(walk): R0446 Tune walk ambient note #22` |
+| 447 | completed | feat | Add journal template #22 | Journal templates=22 | `feat(album): R0447 Add journal template #22` |
