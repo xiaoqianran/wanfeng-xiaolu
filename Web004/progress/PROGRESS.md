@@ -265,3 +265,4 @@
 | 258 | completed | feat | Topping or cup option #12 | Topping top_r0258 | `feat(content): R0258 Topping or cup option #12` |
 | 259 | completed | docs | Stage milestone summary #12 | Stage doc stage-06.md | `docs(progress): R0259 Stage milestone summary #12` |
 | 260 | completed | refactor | Catalog integrity pass #12 | Integrity items=25 customers=12 | `refactor(core): R0260 Catalog integrity pass #12` |
+| 261 | completed | feat | Add collectible item batch #13 | Item cocoa_r0261 added | `feat(content): R0261 Add collectible item batch #13` |

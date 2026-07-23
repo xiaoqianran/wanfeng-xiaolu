@@ -258,3 +258,4 @@
 {"round":258,"status":"completed","type":"feat","scope":"content","goal":"Topping or cup option #12","outcome":"Topping top_r0258","commit":"feat(content): R0258 Topping or cup option #12","at":"2026-07-23T19:49:51.689Z"}
 {"round":259,"status":"completed","type":"docs","scope":"progress","goal":"Stage milestone summary #12","outcome":"Stage doc stage-06.md","commit":"docs(progress): R0259 Stage milestone summary #12","at":"2026-07-23T19:49:51.709Z"}
 {"round":260,"status":"completed","type":"refactor","scope":"core","goal":"Catalog integrity pass #12","outcome":"Integrity items=25 customers=12","commit":"refactor(core): R0260 Catalog integrity pass #12","at":"2026-07-23T19:49:51.728Z"}
+{"round":261,"status":"completed","type":"feat","scope":"content","goal":"Add collectible item batch #13","outcome":"Item cocoa_r0261 added","commit":"feat(content): R0261 Add collectible item batch #13","at":"2026-07-23T19:49:51.751Z"}
