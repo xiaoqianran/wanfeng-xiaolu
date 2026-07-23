@@ -881,5 +881,17 @@ test("quietShop setting defaults false", () => {
   assert.ok(game.includes("quietShop"));
 });
 
+test("lavender_bud plantable and rest still works", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.lavender_bud && j.plants.lavenderPot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants });
+  const s = core.defaultState();
+  s.bag.lavender_bud = 1;
+  const planted = core.plantSeed(s, 0, "lavender_bud", cat);
+  assert.ok(planted.ok);
+  const rest = core.tend(s, 0, "rest");
+  assert.ok(rest.ok && rest.rested);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

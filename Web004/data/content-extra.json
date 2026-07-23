@@ -2105,6 +2105,13 @@
       "emoji": "🪨",
       "kind": "收藏",
       "seed": null
+    },
+    "lavender_bud": {
+      "id": "lavender_bud",
+      "name": "薰衣草蕾",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "lavenderPot"
     }
   },
   "plants": {
@@ -3774,6 +3781,17 @@
       ],
       "harvest": "tea_leaf",
       "days": 3
+    },
+    "lavenderPot": {
+      "id": "lavenderPot",
+      "name": "薰衣草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "lavender_bud",
+      "days": 3
     }
   },
   "cups": [
@@ -4364,6 +4382,16 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "lavender_bud",
+      "name": "薰衣草",
+      "emoji": "💜",
+      "need": "lavender_bud",
+      "tags": [
+        "花香",
+        "温柔"
       ]
     }
   ],

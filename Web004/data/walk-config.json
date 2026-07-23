@@ -6,7 +6,8 @@
     "ribbon": 0.8,
     "tea_leaf": 1.3,
     "star_sand": 0.7,
-    "river_pebble": 1.4
+    "river_pebble": 1.4,
+    "lavender_bud": 1.1
   },
   "pathWidth": 3400,
   "ambient": [
