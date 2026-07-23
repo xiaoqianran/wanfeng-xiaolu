@@ -320,3 +320,4 @@
 | 313 | completed | feat | Ship collectible + runtime catalog item #26 | Runtime item osmanthus_r0313 | `feat(content): R0313 Ship collectible + runtime catalog item #26` |
 | 314 | completed | feat | Ship customer persona into runtime #26 | Runtime customer 弹尤克里里的人·314 | `feat(shop): R0314 Ship customer persona into runtime #26` |
 | 315 | completed | feat | Ship walk ambient + pathWidth into runtime #26 | walk pathWidth=3315 ambient=78 | `feat(walk): R0315 Ship walk ambient + pathWidth into runtime #26` |
+| 316 | completed | feat | Ship garden care whisper into runtime #26 | garden messages=79 careBonus=1.05 | `feat(garden): R0316 Ship garden care whisper into runtime #26` |
