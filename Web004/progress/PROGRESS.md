@@ -272,3 +272,4 @@
 | 265 | completed | feat | Add shop tip #13 | Shop tip #14 | `feat(shop): R0265 Add shop tip #13` |
 | 266 | completed | feat | Tune walk ambient note #13 | Walk ambient #13 | `feat(walk): R0266 Tune walk ambient note #13` |
 | 267 | completed | feat | Add journal template #13 | Journal templates=13 | `feat(album): R0267 Add journal template #13` |
+| 268 | completed | feat | Add secret recipe stub #13 | Recipes=13 | `feat(shop): R0268 Add secret recipe stub #13` |
