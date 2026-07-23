@@ -875,3 +875,4 @@
 | 868 | completed | feat | Add secret recipe stub #43 | Recipes=43 | `feat(shop): R0868 Add secret recipe stub #43` |
 | 869 | completed | feat | Add achievement definition #43 | Achievements=43 | `feat(meta): R0869 Add achievement definition #43` |
 | 870 | completed | style | CSS micro polish token #43 | CSS token hue=30 | `style(ui): R0870 CSS micro polish token #43` |
+| 871 | completed | feat | Add plantable linkage #43 | Plant link plant_lavender_0871 | `feat(content): R0871 Add plantable linkage #43` |
