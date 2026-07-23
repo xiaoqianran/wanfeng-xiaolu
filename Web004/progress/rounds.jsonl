@@ -581,3 +581,4 @@
 {"round":581,"status":"completed","type":"feat","scope":"content","goal":"Add collectible item batch #29","outcome":"Item pine_r0581 added","commit":"feat(content): R0581 Add collectible item batch #29","at":"2026-07-23T19:50:07.354Z"}
 {"round":582,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #29","outcome":"Customer 滑板少年·582","commit":"feat(shop): R0582 Add customer persona #29","at":"2026-07-23T19:50:07.379Z"}
 {"round":583,"status":"completed","type":"feat","scope":"content","goal":"Add dialogue line #29","outcome":"Dialogue count=29","commit":"feat(content): R0583 Add dialogue line #29","at":"2026-07-23T19:50:07.407Z"}
+{"round":584,"status":"completed","type":"feat","scope":"garden","goal":"Add garden care whisper #29","outcome":"Garden msg #30","commit":"feat(garden): R0584 Add garden care whisper #29","at":"2026-07-23T19:50:07.444Z"}
