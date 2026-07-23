@@ -613,3 +613,4 @@
 | 606 | completed | feat | Tune walk ambient note #30 | Walk ambient #30 | `feat(walk): R0606 Tune walk ambient note #30` |
 | 607 | completed | feat | Add journal template #30 | Journal templates=30 | `feat(album): R0607 Add journal template #30` |
 | 608 | completed | feat | Add secret recipe stub #30 | Recipes=30 | `feat(shop): R0608 Add secret recipe stub #30` |
+| 609 | completed | feat | Add achievement definition #30 | Achievements=30 | `feat(meta): R0609 Add achievement definition #30` |
