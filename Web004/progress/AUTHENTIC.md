@@ -437,3 +437,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0438 | completed | feat | 椰子可种植 | coconutPot | feat(garden): A0438 椰子可种植窗台 |
 | A0439 | completed | feat | 潟湖浅径 | lagoon_path 56th | feat(walk): A0439 潟湖浅径主题与浅水特效 |
 | A0440 | completed | test | 回归手册 | 188 pass | test(docs): A0440 椰子潟湖回归与手册 |
+| A0441 | completed | feat | 杨桃可种植 | starfruitPot | feat(garden): A0441 杨桃可种植窗台 |
+| A0442 | completed | feat | 杨桃小径 | starfruit_lane 57th | feat(walk): A0442 杨桃小径主题与星形光点 |
+| A0443 | completed | test | 回归手册 | 189 pass | test(docs): A0443 杨桃小径回归与手册 |
