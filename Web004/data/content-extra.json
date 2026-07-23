@@ -2413,6 +2413,13 @@
       "emoji": "🍑",
       "kind": "风味",
       "seed": "peachPot"
+    },
+    "pine_needle": {
+      "id": "pine_needle",
+      "name": "松针",
+      "emoji": "🌲",
+      "kind": "风味",
+      "seed": "pineNeedlePot"
     }
   },
   "plants": {
@@ -4412,6 +4419,17 @@
       ],
       "harvest": "peach",
       "days": 3
+    },
+    "pineNeedlePot": {
+      "id": "pineNeedlePot",
+      "name": "松针",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌲"
+      ],
+      "harvest": "pine_needle",
+      "days": 3
     }
   },
   "cups": [
@@ -5336,6 +5354,16 @@
       "tags": [
         "甜蜜",
         "果香"
+      ]
+    },
+    {
+      "id": "pine_needle",
+      "name": "松针",
+      "emoji": "🌲",
+      "need": "pine_needle",
+      "tags": [
+        "草本",
+        "清爽"
       ]
     }
   ],
@@ -6687,6 +6715,21 @@
         "cardamom"
       ],
       "wantTopping": true
+    },
+    {
+      "name": "登高的人",
+      "avatar": "🥾",
+      "wish": "松针或茶，清爽一点，像山顶的风。",
+      "tags": [
+        "清爽",
+        "草本"
+      ],
+      "flavors": [
+        "pine_needle",
+        "tea_leaf",
+        "mint",
+        "sage"
+      ]
     }
   ],
   "dialogues": [
