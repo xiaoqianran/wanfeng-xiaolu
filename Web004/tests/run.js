@@ -2142,5 +2142,37 @@ test("cardamom orchard_dusk and unique ambient banks", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+
+test("pinRecipe rose_lane and rose plantable", () => {
+  const s = core.defaultState();
+  const r = core.pinRecipe(s, "rec_rose_night");
+  assert.ok(r.ok);
+  assert.strictEqual(s.pinnedRecipeId, "rec_rose_night");
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  const got = core.getPinnedRecipe(s, recipes);
+  assert.ok(got.ok && got.recipe && got.recipe.name === "玫瑰夜雾茶");
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "recipe_pinner"));
+  const newly = core.evaluateAchievements(s);
+  assert.ok(newly.some((a) => a.id === "recipe_pinner") || s.achievements.recipe_pinner);
+
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.rose_petal && j.plants.rosePot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s2 = core.defaultState();
+  s2.bag.rose_petal = 1;
+  assert.ok(core.plantSeed(s2, 0, "rose_petal", cat).ok);
+
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "rose_lane"));
+  assert.ok(themes.length >= 31);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("btn-pin-recipe") && html.includes("btn-load-pinned-recipe"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("rose_lane") && game.includes("pinRecipe"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("玫瑰短巷") && man.includes("钉住配方"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
