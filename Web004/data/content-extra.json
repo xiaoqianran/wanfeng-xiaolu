@@ -1391,6 +1391,14 @@
       "kind": "风味",
       "seed": null,
       "round": 457
+    },
+    "seed_orange_0467": {
+      "id": "seed_orange_0467",
+      "name": "香橙种子",
+      "emoji": "🍊",
+      "kind": "种子",
+      "seed": "plant_orange_0467",
+      "round": 467
     }
   },
   "plants": {
@@ -2485,6 +2493,18 @@
       "harvest": "seed_mango_0455",
       "days": 5,
       "round": 455
+    },
+    "plant_orange_0467": {
+      "id": "plant_orange_0467",
+      "name": "香橙盆栽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍊"
+      ],
+      "harvest": "seed_orange_0467",
+      "days": 5,
+      "round": 467
     }
   },
   "cups": [],
@@ -4987,7 +5007,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 462,
+    "expandedRounds": 467,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
