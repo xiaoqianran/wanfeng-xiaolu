@@ -228,3 +228,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0229 | completed | feat | 紫苏养成 | perilla plant+flavor+recipe+customer | `feat(garden): A0229 紫苏可种植与手册同步熟土老样子` |
 | A0230 | completed | docs | 手册熟土老样子 | USER_MANUAL memory+recall+dawn | `feat(garden): A0229 紫苏可种植与手册同步熟土老样子` |
 | A0231 | completed | test | 紫苏手册回归 | 128 tests pass | `feat(garden): A0229 紫苏可种植与手册同步熟土老样子` |
+| A0232 | completed | feat | 云台慢坡主题 | cloud_pass 18th + cloud FX | `feat(walk): A0232 云台慢坡主题与云影特效` |
+| A0233 | completed | content | 事件至283则 | 283 unique evening events | `feat(walk): A0232 云台慢坡主题与云影特效` |
+| A0234 | completed | test | 云台主题回归 | 129 tests pass | `feat(walk): A0232 云台慢坡主题与云影特效` |
