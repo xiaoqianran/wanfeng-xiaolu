@@ -283,3 +283,4 @@
 | 276 | completed | test | Regression assertion pack #13 | Test pack size=15 | `test(core): R0276 Regression assertion pack #13` |
 | 277 | completed | feat | Path theme fragment #13 | Path themes=18 | `feat(walk): R0277 Path theme fragment #13` |
 | 278 | completed | feat | Topping or cup option #13 | Topping top_r0278 | `feat(content): R0278 Topping or cup option #13` |
+| 279 | completed | docs | Stage milestone summary #13 | Stage doc stage-06.md | `docs(progress): R0279 Stage milestone summary #13` |
