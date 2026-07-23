@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 247,
+  "current_round": 249,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 241,
-  "authentic_game_integrated_rounds": 179,
+  "authentic_rounds_completed": 243,
+  "authentic_game_integrated_rounds": 180,
   "template_spam_archived": true,
   "current_milestone": "authentic rebuild A012x",
-  "current_task_id": "A0249-next",
-  "last_completed_task_id": "A0248",
-  "last_commit": "bdeeb77",
+  "current_task_id": "A0251-next",
+  "last_completed_task_id": "A0250",
+  "last_commit": "86fe1fc",
   "last_verified_build": "file:// Web004/index.html",
   "last_test_summary": "132 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~759) multi-session"
+    "gap to 1000 authentic (~757) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -34,6 +34,6 @@
     "album harvest memory display",
     "help docs memory/recall"
   ],
-  "resume_instructions": "Continue A0249+. Spam DISABLED. Gap ~759. authentic-rounds.jsonl SoT.",
-  "updated_at": "2026-07-23T22:22:55.384979+00:00"
+  "resume_instructions": "Continue A0251+. Spam DISABLED. Gap ~757. authentic-rounds.jsonl SoT. Three pillars.",
+  "updated_at": "2026-07-23T22:23:30.866204+00:00"
 }

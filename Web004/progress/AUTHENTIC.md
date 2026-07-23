@@ -245,3 +245,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0246 | completed | test | 百里香回归 | 132 tests pass | `feat(garden): A0245 百里香可种植与田园罐配方` |
 | A0247 | completed | content | 事件至301则 | 301 unique evening events | `content(events): A0247 事件至三零一则与百里香来信` |
 | A0248 | completed | content | 信箱50封 | mail 50 including thyme | `content(events): A0247 事件至三零一则与百里香来信` |
+| A0249 | completed | audio | 第一脚音效 | first walk unlock sfx | `docs(test): A0249 真实测试报告与第一脚音效` |
+| A0250 | completed | docs | 测试报告241 | TEST_REPORT 132 pass authentic 241 | `docs(test): A0249 真实测试报告与第一脚音效` |
