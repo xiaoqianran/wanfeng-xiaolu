@@ -747,3 +747,4 @@
 | 740 | completed | refactor | Catalog integrity pass #36 | Integrity items=73 customers=36 | `refactor(core): R0740 Catalog integrity pass #36` |
 | 741 | completed | feat | Add collectible item batch #37 | Item cocoa_r0741 added | `feat(content): R0741 Add collectible item batch #37` |
 | 742 | completed | feat | Add customer persona #37 | Customer 夜跑爱好者·742 | `feat(shop): R0742 Add customer persona #37` |
+| 743 | completed | feat | Add dialogue line #37 | Dialogue count=37 | `feat(content): R0743 Add dialogue line #37` |
