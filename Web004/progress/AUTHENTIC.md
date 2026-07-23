@@ -238,3 +238,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0239 | completed | test | 第一脚回归 | 130 tests pass | `feat(walk): A0237 今日第一脚出门奖励与砚台石` |
 | A0240 | completed | docs | 手册第一脚 | USER_MANUAL first walk bonus | `docs(manual): A0240 手册同步今日第一脚与相关文案` |
 | A0241 | completed | content | 事件至291则 | 291 unique evening events | `docs(manual): A0240 手册同步今日第一脚与相关文案` |
+| A0242 | completed | content | 新客人与配方 | 41 customers; 云台花香罐 | `content(shop): A0242 两位新客人与云台花香罐` |
+| A0243 | completed | feat | 小名对话手帐 | talk with nickname appends journal | `content(shop): A0242 两位新客人与云台花香罐` |
+| A0244 | completed | test | 客人配方回归 | 131 tests pass | `content(shop): A0242 两位新客人与云台花香罐` |
