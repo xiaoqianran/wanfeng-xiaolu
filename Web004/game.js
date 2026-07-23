@@ -1461,7 +1461,7 @@
       checkAchievements();
       save();
       toast("📷 速写好了：" + r.card.emoji + " " + r.card.name + " · 心情 " + r.card.mood);
-      sfx("ui");
+      sfx("snap");
     });
   })();
 
@@ -1494,7 +1494,7 @@
             r.charge +
             (r.seasonNote ? " · " + r.seasonNote : "")
         );
-        sfx("water");
+        sfx("can");
       } else {
         toast("🪣 水壶空了，改用手浇 · 去小路蓄水吧");
         sfx("water");
@@ -1844,7 +1844,7 @@
       }
       save();
       renderShop();
-      sfx("ui");
+      sfx("pin");
     });
   }
 

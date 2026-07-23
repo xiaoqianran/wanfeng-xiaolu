@@ -124,12 +124,15 @@
     if (enabled === false) return false;
     if (kind === "pickup") return beep({ freq: 660, dur: 0.09, type: "triangle" });
     if (kind === "water") return beep({ freq: 420, dur: 0.11, type: "sine" });
+    if (kind === "can") return beep({ freq: 360, dur: 0.14, type: "sine", vol: 0.045 });
     if (kind === "serve") return beep({ freq: 780, dur: 0.14, type: "sine", vol: 0.05 });
     if (kind === "ui") return beep({ freq: 500, dur: 0.06, type: "square", vol: 0.02 });
     if (kind === "harvest") return beep({ freq: 620, dur: 0.16, type: "triangle", vol: 0.045 });
     if (kind === "unlock") return beep({ freq: 880, dur: 0.12, type: "sine", vol: 0.04 });
     if (kind === "theme") return beep({ freq: 480, dur: 0.1, type: "triangle", vol: 0.03 });
     if (kind === "achieve") return beep({ freq: 700, dur: 0.18, type: "sine", vol: 0.04 });
+    if (kind === "pin") return beep({ freq: 540, dur: 0.09, type: "triangle", vol: 0.035 });
+    if (kind === "snap") return beep({ freq: 910, dur: 0.07, type: "square", vol: 0.025 });
     return beep({ freq: 540, dur: 0.08 });
   }
 

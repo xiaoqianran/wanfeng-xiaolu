@@ -1422,5 +1422,19 @@ test("matcha flavor and 竹影抹茶 recipe ship", () => {
   assert.ok(code.includes("matcha"));
 });
 
+
+test("audio play supports can pin snap kinds", () => {
+  const audio = require(path.join(__dirname, "..", "js", "audio.js"));
+  assert.strictEqual(typeof audio.play, "function");
+  // Node has no AudioContext — play returns false safely
+  assert.strictEqual(audio.play("can", true), false);
+  assert.strictEqual(audio.play("pin", true), false);
+  assert.strictEqual(audio.play("snap", true), false);
+  const code = fs.readFileSync(path.join(__dirname, "..", "js", "audio.js"), "utf8");
+  assert.ok(code.includes('kind === "can"') && code.includes('kind === "pin"') && code.includes('kind === "snap"'));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes('sfx("can")') && game.includes('sfx("snap")') && game.includes('sfx("pin")'));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
