@@ -253,3 +253,4 @@
 | 246 | completed | feat | Ship dialogue line into runtime #20 | dialogues=72 | `feat(content): R0246 Ship dialogue line into runtime #20` |
 | 247 | completed | feat | Ship journal template into runtime #20 | journal templates=73 | `feat(album): R0247 Ship journal template into runtime #20` |
 | 248 | completed | feat | Ship secret recipe into runtime #20 | secret recipes=73 | `feat(shop): R0248 Ship secret recipe into runtime #20` |
+| 249 | completed | feat | Ship achievement milestone into runtime #20 | achievements=73 | `feat(meta): R0249 Ship achievement milestone into runtime #20` |
