@@ -352,3 +352,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0353 | completed | feat | 崖边慢径 | cliff_path 32nd | feat(walk): A0353 崖边慢径主题与风痕特效 |
 | A0354 | completed | content | 马郁兰崖边内容 | events+recipe | content(events): A0354 马郁兰崖边 vignette 与配方 |
 | A0355 | completed | test | 回归手册 | 164 pass | test(docs): A0355 邻盆崖边回归与手册 |
+| A0356 | completed | feat | 开店清静接骨木 | openCalm+elderflowerPot | feat(shop): A0356 开店清静与接骨木花 |
+| A0357 | completed | feat | 柳岸轻步 | willow_bank 33rd | feat(walk): A0357 柳岸轻步主题与柳絮特效 |
+| A0358 | completed | content | 接骨木柳岸内容 | events+recipes | content(events): A0358 接骨木柳岸 vignette 与配方 |
+| A0359 | completed | test | 回归手册 | 165 pass | test(docs): A0359 开店清静柳岸回归与手册 |
