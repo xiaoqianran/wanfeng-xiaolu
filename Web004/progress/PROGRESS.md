@@ -968,3 +968,4 @@
 | 961 | completed | feat | Add collectible item batch #48 | Item lavender_r0961 added | `feat(content): R0961 Add collectible item batch #48` |
 | 962 | completed | feat | Add customer persona #48 | Customer 织围巾的阿姨·962 | `feat(shop): R0962 Add customer persona #48` |
 | 963 | completed | feat | Add dialogue line #48 | Dialogue count=48 | `feat(content): R0963 Add dialogue line #48` |
+| 964 | completed | feat | Add garden care whisper #48 | Garden msg #49 | `feat(garden): R0964 Add garden care whisper #48` |

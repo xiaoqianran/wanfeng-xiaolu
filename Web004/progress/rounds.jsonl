@@ -961,3 +961,4 @@
 {"round":961,"status":"completed","type":"feat","scope":"content","goal":"Add collectible item batch #48","outcome":"Item lavender_r0961 added","commit":"feat(content): R0961 Add collectible item batch #48","at":"2026-07-23T19:50:21.411Z"}
 {"round":962,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #48","outcome":"Customer 织围巾的阿姨·962","commit":"feat(shop): R0962 Add customer persona #48","at":"2026-07-23T19:50:21.445Z"}
 {"round":963,"status":"completed","type":"feat","scope":"content","goal":"Add dialogue line #48","outcome":"Dialogue count=48","commit":"feat(content): R0963 Add dialogue line #48","at":"2026-07-23T19:50:21.473Z"}
+{"round":964,"status":"completed","type":"feat","scope":"garden","goal":"Add garden care whisper #48","outcome":"Garden msg #49","commit":"feat(garden): R0964 Add garden care whisper #48","at":"2026-07-23T19:50:21.501Z"}
