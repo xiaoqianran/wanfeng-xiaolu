@@ -236,6 +236,61 @@ test("index wires season achievements journal screens", () => {
   assert.ok(html.includes('id="screen-achievements"'));
   assert.ok(html.includes("btn-next-season"));
   assert.ok(html.includes("assets/seasons/"));
+  assert.ok(html.includes("js/game-data.js"));
+});
+
+test("game-data.js is loaded bundle matching data configs", () => {
+  const code = fs.readFileSync(path.join(__dirname, "..", "js", "game-data.js"), "utf8");
+  assert.ok(code.includes("WanfengGameData"));
+  const sandbox = { globalThis: {} };
+  const fn = new Function("globalThis", code + "; return globalThis.WanfengGameData;");
+  const gd = fn(sandbox.globalThis);
+  assert.ok(gd.walk && typeof gd.walk.pathWidth === "number");
+  assert.ok(Array.isArray(gd.garden.messages) || gd.garden.messages === undefined || Array.isArray(gd.garden.messages));
+  assert.ok(gd.shop);
+  assert.ok(gd.syncedAt);
+});
+
+test("content-extra.js stays in sync with content-extra.json items", () => {
+  const json = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const code = fs.readFileSync(path.join(__dirname, "..", "js", "content-extra.js"), "utf8");
+  const sandbox = { globalThis: {} };
+  const fn = new Function("globalThis", code + "; return globalThis.WanfengExtra;");
+  const extra = fn(sandbox.globalThis);
+  const jsonIds = Object.keys(json.items || {});
+  const jsIds = Object.keys(extra.items || {});
+  assert.strictEqual(jsIds.length, jsonIds.length, "item count mismatch json vs js");
+  // sample last 5 ids present in both
+  jsonIds.slice(-5).forEach((id) => {
+    assert.ok(extra.items[id], "missing in JS: " + id);
+  });
+});
+
+test("game.js consumes WanfengGameData configs", () => {
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("WanfengGameData"));
+  assert.ok(game.includes("walkCfg"));
+  assert.ok(game.includes("gardenCfg"));
+  assert.ok(game.includes("shopCfg"));
+  assert.ok(game.includes("secretRecipes"));
+  assert.ok(game.includes("PATH_WIDTH"));
+});
+
+test("no 1x1 placeholder PNGs claimed as live stage art in manifest", () => {
+  const manPath = path.join(__dirname, "..", "assets", "manifest.json");
+  if (!fs.existsSync(manPath)) return;
+  const man = JSON.parse(fs.readFileSync(manPath, "utf8"));
+  const lives = [];
+  Object.values(man.stages || {}).forEach((arr) => {
+    (arr || []).forEach((e) => {
+      if (e && e.status === "live" && e.path) lives.push(e.path);
+    });
+  });
+  lives.forEach((rel) => {
+    const p = path.join(__dirname, "..", rel);
+    assert.ok(fs.existsSync(p), "missing live art " + rel);
+    assert.ok(fs.statSync(p).size >= 1000, "live art too small " + rel);
+  });
 });
 
 console.log("\nResult: %d passed, %d failed", passed, failed);

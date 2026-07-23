@@ -25,8 +25,9 @@
 
   const SAVE_KEY = Core.SAVE_KEY;
 
-  // ---------- 图鉴数据（from shipped core + optional extra catalog） ----------
+  // ---------- 图鉴数据（shipped core + WanfengExtra + WanfengGameData） ----------
   const extra = globalThis.WanfengExtra || {};
+  const GData = globalThis.WanfengGameData || {};
   let catalog = Core.mergeCatalog({
     items: extra.items || {},
     plants: extra.plants || {},
@@ -60,8 +61,34 @@
     CUSTOMERS = Core.DEFAULT_CUSTOMERS.concat(CUSTOMERS.slice(-16));
   }
 
-  const PATH_SPAWNS = Object.keys(ITEMS).filter((id) => ITEMS[id] && !String(id).startsWith("seed_")).slice(0, 40);
-  const DIALOGUES = (extra.dialogues || []).map((d) => (typeof d === "string" ? d : d.text)).filter(Boolean);
+  // Live config from data/* via game-data.js (file:// safe)
+  const walkCfg = GData.walk || { pathWidth: 3200, spawnBias: {}, ambient: [] };
+  const gardenCfg = GData.garden || { messages: [], careBonus: 1, potSlots: 4 };
+  const shopCfg = GData.shop || { tipMessages: [], perfectBonus: 2 };
+  const uiCopy = GData.ui || { toasts: [], tips: [] };
+  const secretRecipes = GData.recipes || [];
+  const journalTemplates = GData.journal || [];
+  const dataAchievements = GData.achievements || [];
+  const dataDialogues = (GData.dialogues || [])
+    .map((d) => (typeof d === "string" ? d : d && d.text))
+    .filter(Boolean);
+  const extraDialogues = (extra.dialogues || [])
+    .map((d) => (typeof d === "string" ? d : d && d.text))
+    .filter(Boolean);
+
+  const PATH_SPAWNS = (() => {
+    const keys = Object.keys(ITEMS).filter((id) => ITEMS[id] && !String(id).startsWith("seed_"));
+    const bias = walkCfg.spawnBias || {};
+    // weight by spawnBias when present
+    const weighted = [];
+    keys.forEach((id) => {
+      const w = Math.max(1, Math.round((bias[id] || 1) * 10));
+      for (let i = 0; i < Math.min(w, 8); i++) weighted.push(id);
+    });
+    return (weighted.length ? weighted : keys).slice(0, 80);
+  })();
+  const DIALOGUES = dataDialogues.concat(extraDialogues);
+  const PATH_WIDTH = walkCfg.pathWidth || 3200;
 
   // ---------- 状态 ----------
   function defaultState() {
@@ -150,10 +177,15 @@
 
   function applySeasonArt() {
     const art = Core.SEASON_ART[state.season] || Core.SEASON_ART.dusk;
+    const banners = (GData.seasons && GData.seasons.stageBanners) || {};
     const hero = document.querySelector(".hero-art");
-    if (hero && art) hero.src = art;
+    if (hero) hero.src = banners.ui || banners.album || art;
     const walkBanner = document.querySelector("#screen-walk .scene-banner");
-    if (walkBanner && art) walkBanner.src = art;
+    if (walkBanner) walkBanner.src = banners.walk || art;
+    const gardenBanner = document.querySelector("#screen-garden .scene-banner");
+    if (gardenBanner && banners.garden) gardenBanner.src = banners.garden;
+    const shopBanner = document.querySelector("#screen-shop .scene-banner");
+    if (shopBanner && banners.shop) shopBanner.src = banners.shop;
     const title = document.getElementById("home-title");
     if (title) {
       const label = Core.SEASON_LABELS[state.season] || "黄昏";
@@ -191,30 +223,55 @@
     const box = document.getElementById("journal-list");
     if (!box) return;
     const entries = (state.journal || []).slice().reverse();
-    if (!entries.length) {
+    const templates = journalTemplates
+      .slice(-6)
+      .map((t) => {
+        const title = t.title || "模板";
+        const body = t.body || "";
+        return `<article class="journal-card"><div class="meta">模板 · ${title}</div><p class="muted">${body}</p></article>`;
+      })
+      .join("");
+    if (!entries.length && !templates) {
       box.innerHTML = '<div class="journal-card"><p class="muted">还没有写下什么。去散散步、浇浇水、做一杯汽水吧。</p></div>';
       return;
     }
-    box.innerHTML = entries
+    const lived = entries
       .map((e) => {
         const season = Core.SEASON_LABELS[e.season] || e.season || "";
         return `<article class="journal-card"><div class="meta">第 ${e.day || "?"} 天 · ${season}</div><p>${e.text}</p></article>`;
       })
       .join("");
+    box.innerHTML = lived + templates;
   }
 
   function renderAchievements() {
     const grid = document.getElementById("achievements-grid");
     if (!grid) return;
     checkAchievements(true);
-    grid.innerHTML = Core.DEFAULT_ACHIEVEMENTS.map((a) => {
+    const runtime = Core.DEFAULT_ACHIEVEMENTS.map((a) => {
       const done = !!(state.achievements && state.achievements[a.id]);
       return `<div class="album-card ${done ? "done" : "locked"}">
         <div class="emoji">${done ? "✨" : "☁️"}</div>
         <div class="name">${a.name}</div>
         <div class="meta">${done ? "已达成 · " + a.desc : a.desc}</div>
       </div>`;
-    }).join("");
+    });
+    // data-driven soft milestones (display; unlock tracked via stats targets)
+    const dataCards = dataAchievements.slice(-12).map((a) => {
+      const target = a.target || 0;
+      const prog = Math.max(
+        state.pathsWalked || 0,
+        (state.stats && state.stats.itemsPicked) || 0,
+        (state.stats && state.stats.drinksServed) || 0
+      );
+      const done = prog >= target && target > 0;
+      return `<div class="album-card ${done ? "done" : "locked"}">
+        <div class="emoji">${done ? "🏅" : "🌱"}</div>
+        <div class="name">${a.name || a.id}</div>
+        <div class="meta">${a.desc || "温柔里程碑"} · 目标 ${target}</div>
+      </div>`;
+    });
+    grid.innerHTML = runtime.concat(dataCards).join("");
   }
 
   document.querySelectorAll("[data-go]").forEach((btn) => {
@@ -240,13 +297,18 @@
 
   function makeWorld(seed) {
     const rand = mulberry32(seed);
-    const width = 3200;
+    const width = PATH_WIDTH;
     const items = [];
     const trees = [];
     const hills = [];
+    const ambientNote =
+      (walkCfg.ambient && walkCfg.ambient.length
+        ? walkCfg.ambient[Math.floor(rand() * walkCfg.ambient.length)]
+        : null) || null;
 
     for (let i = 0; i < 28; i++) {
-      const id = PATH_SPAWNS[Math.floor(rand() * PATH_SPAWNS.length)];
+      const id = PATH_SPAWNS[Math.floor(rand() * PATH_SPAWNS.length)] || "maple";
+      if (!ITEMS[id]) continue;
       items.push({
         id,
         x: 180 + rand() * (width - 360),
@@ -285,6 +347,7 @@
       hills,
       time: 0,
       collected: 0,
+      ambientNote,
     };
   }
 
@@ -535,12 +598,18 @@
     // HUD
     ctx.fillStyle = "rgba(255,253,249,0.88)";
     ctx.beginPath();
-    ctx.roundRect(12, 12, 150, 36, 18);
+    ctx.roundRect(12, 12, 220, world.ambientNote ? 52 : 36, 18);
     ctx.fill();
     ctx.fillStyle = "#4a463f";
     ctx.font = "13px 'Noto Sans SC', sans-serif";
     ctx.textAlign = "left";
     ctx.fillText(`本路拾取 ${world.collected} 件`, 28, 35);
+    if (world.ambientNote) {
+      const note = typeof world.ambientNote === "string" ? world.ambientNote : world.ambientNote.note || "";
+      ctx.font = "11px 'Noto Sans SC', sans-serif";
+      ctx.fillStyle = "#6a645a";
+      ctx.fillText(String(note).slice(0, 28), 28, 52);
+    }
   }
 
   // 输入
@@ -706,15 +775,21 @@
     const pot = state.pots[state.selectedPot];
     if (!pot.plantId) return;
 
+    const careBonus = gardenCfg.careBonus || 1;
+    const gardenMsg =
+      gardenCfg.messages && gardenCfg.messages.length
+        ? gardenCfg.messages[Math.floor(Math.random() * gardenCfg.messages.length)]
+        : null;
+
     if (act === "water") {
-      pot.water = Math.min(100, pot.water + 28);
-      toast("💧 浇了一小壶水");
+      pot.water = Math.min(100, pot.water + 28 * careBonus);
+      toast(gardenMsg ? "💧 " + gardenMsg : "💧 浇了一小壶水");
     } else if (act === "sun") {
-      pot.sun = Math.min(100, pot.sun + 28);
-      toast("☀️ 把花盆挪到了阳光里");
+      pot.sun = Math.min(100, pot.sun + 28 * careBonus);
+      toast(gardenMsg ? "☀️ " + gardenMsg : "☀️ 把花盆挪到了阳光里");
     } else if (act === "talk") {
-      pot.mood = Math.min(100, pot.mood + 22);
-      toast("💬 「今天也慢慢长大吧」");
+      pot.mood = Math.min(100, pot.mood + 22 * careBonus);
+      toast(gardenMsg ? "💬 " + gardenMsg : "💬 「今天也慢慢长大吧」");
     } else if (act === "harvest") {
       if (!isReady(pot)) return;
       const def = PLANTS[pot.plantId];
@@ -922,13 +997,36 @@
     }
 
     const { score, notes } = scoreDrink();
-    const coins = 4 + Math.floor(score * 2);
+    const perfectBonus = shopCfg.perfectBonus || 0;
+    const tip =
+      shopCfg.tipMessages && shopCfg.tipMessages.length
+        ? shopCfg.tipMessages[Math.floor(Math.random() * shopCfg.tipMessages.length)]
+        : "";
+    let coins = 4 + Math.floor(score * 2);
+    if (score >= 4) coins += perfectBonus;
     const hearts = score >= 3 ? 1 : 0;
     state.coins += coins;
     state.hearts += hearts;
     if (!state.stats) state.stats = {};
     state.stats.drinksServed = (state.stats.drinksServed || 0) + 1;
-    Core.appendJournal(state, "为 " + (state.customer && state.customer.name ? state.customer.name : "客人") + " 调制了一杯汽水。");
+    // secret recipe match (data-driven)
+    const matchedRecipe = secretRecipes.find(
+      (r) =>
+        r &&
+        r.cup === state.craft.cup &&
+        r.base === state.craft.base &&
+        r.flavor === state.craft.flavor &&
+        (r.topping || "none") === (state.craft.topping || "none")
+    );
+    if (matchedRecipe) {
+      state.hearts += 1;
+      toast("📜 触发秘密配方：" + (matchedRecipe.name || "无名汽水"));
+      Core.appendJournal(state, "做出了秘密配方「" + (matchedRecipe.name || "汽水") + "」。");
+    }
+    Core.appendJournal(
+      state,
+      "为 " + (state.customer && state.customer.name ? state.customer.name : "客人") + " 调制了一杯汽水。" + (tip ? " " + tip : "")
+    );
     checkAchievements();
 
     const drinkKey = [cup, base, flavor, topping || "none"].join("-");
@@ -1050,13 +1148,18 @@
   settleOfflineGrowth();
   refreshResources();
 
-  // soft ambient dialogue on home
+  // soft ambient dialogue on home (from game-data dialogues)
   if (DIALOGUES.length) {
-    const copy = document.querySelector(".home-copy p");
+    const copy = document.getElementById("home-blurb") || document.querySelector(".home-copy p");
     if (copy) {
       const line = DIALOGUES[Math.floor(Math.random() * DIALOGUES.length)];
       copy.textContent = line + " 沿着小路散步收集灵感，在窗台照料小植物，再为路过的人调制一杯汽水吧。";
     }
+  }
+  // random tip toast from ui-copy
+  if (uiCopy.tips && uiCopy.tips.length && Math.random() < 0.35) {
+    const tip = uiCopy.tips[Math.floor(Math.random() * uiCopy.tips.length)];
+    setTimeout(() => toast("💡 " + tip), 600);
   }
 
   // decorate garden with plant art if present
