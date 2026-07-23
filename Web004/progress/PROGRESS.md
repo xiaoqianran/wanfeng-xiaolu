@@ -76,3 +76,4 @@
 | 69 | completed | feat | Ship achievement milestone into runtime #5 | achievements=58 | `feat(meta): R0069 Ship achievement milestone into runtime #5` |
 | 70 | completed | style | Ship CSS accent token used by app shell #5 | CSS --r-accent hue=110 wired to brand/primary | `style(ui): R0070 Ship CSS accent token used by app shell #5` |
 | 71 | completed | feat | Ship plantable seed linkage into runtime #5 | plant link plant_feather_0071 harvest=seed_feather_0071 | `feat(content): R0071 Ship plantable seed linkage into runtime #5` |
+| 72 | completed | assets | Wire real stage art reference into runtime manifest #5 | live art assets/shop/live_0072.jpg from assets/shop/soda-hero.jpg (≥1KB) | `assets(ui): R0072 Wire real stage art reference into runtime manifest #5` |
