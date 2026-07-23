@@ -608,3 +608,4 @@
 | 601 | completed | feat | Add collectible item batch #30 | Item lavender_r0601 added | `feat(content): R0601 Add collectible item batch #30` |
 | 602 | completed | feat | Add customer persona #30 | Customer 织围巾的阿姨·602 | `feat(shop): R0602 Add customer persona #30` |
 | 603 | completed | feat | Add dialogue line #30 | Dialogue count=30 | `feat(content): R0603 Add dialogue line #30` |
+| 604 | completed | feat | Add garden care whisper #30 | Garden msg #31 | `feat(garden): R0604 Add garden care whisper #30` |
