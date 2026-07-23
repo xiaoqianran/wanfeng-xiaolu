@@ -2497,6 +2497,13 @@
       "emoji": "🟤",
       "kind": "风味",
       "seed": "longanPot"
+    },
+    "litchi": {
+      "id": "litchi",
+      "name": "荔枝",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "litchiPot"
     }
   },
   "plants": {
@@ -4617,6 +4624,17 @@
       ],
       "harvest": "longan",
       "days": 3
+    },
+    "litchiPot": {
+      "id": "litchiPot",
+      "name": "荔枝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "litchi",
+      "days": 3
     }
   },
   "cups": [
@@ -5648,6 +5666,16 @@
       "name": "龙眼",
       "emoji": "🟤",
       "need": "longan",
+      "tags": [
+        "甜蜜",
+        "果香"
+      ]
+    },
+    {
+      "id": "litchi",
+      "name": "荔枝",
+      "emoji": "🔴",
+      "need": "litchi",
       "tags": [
         "甜蜜",
         "果香"
@@ -7171,6 +7199,21 @@
         "tea_leaf",
         "peach"
       ]
+    },
+    {
+      "name": "剥荔枝的孩子",
+      "avatar": "🔴",
+      "wish": "荔枝或蜜，要甜！最好有好看的装饰。",
+      "tags": [
+        "甜蜜"
+      ],
+      "flavors": [
+        "litchi",
+        "honey",
+        "peach",
+        "yangmei"
+      ],
+      "wantTopping": true
     }
   ],
   "dialogues": [
