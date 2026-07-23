@@ -565,6 +565,13 @@
       score += 1;
       notes.push("杯子选得好");
     }
+    // soft seasonal affinity (optional catalogs.season)
+    var season = catalogs.season || customer.season;
+    if (season === "spring" && flavorDef.id === "jasmine") { score += 0.5; notes.push("春日花香"); }
+    if (season === "summer" && (flavorDef.id === "mint" || baseDef.id === "soda")) { score += 0.5; notes.push("夏日清爽"); }
+    if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach")) { score += 0.5; notes.push("秋日温甜"); }
+    if (season === "winter" && baseDef.id === "tea") { score += 0.5; notes.push("冬日暖茶"); }
+    if (season === "dusk" && topDef && topDef.id !== "none") { score += 0.25; notes.push("黄昏点缀"); }
     if (customer.wantTopping && topDef && topDef.id !== "none") {
       score += 1;
       notes.push("装饰很可爱");

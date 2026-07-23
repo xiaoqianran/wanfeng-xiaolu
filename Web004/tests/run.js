@@ -596,5 +596,14 @@ test("stats screen ships", () => {
   assert.ok(game.includes("function renderStats"));
 });
 
+test("scoreDrink season soft bonus for spring jasmine", () => {
+  const craft = { cup: "tall", base: "soda", flavor: "jasmine", topping: "none" };
+  const c = { tags: ["清爽"], flavors: ["plain"] };
+  const base = core.scoreDrink(c, craft, {});
+  const spring = core.scoreDrink(c, craft, { season: "spring" });
+  assert.ok(spring.score >= base.score);
+  assert.ok(spring.notes.some((n) => n.indexOf("春日") >= 0));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
