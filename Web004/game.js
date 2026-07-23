@@ -454,7 +454,7 @@
     }
     const rareIds = new Set([
       "star_sand", "paper_crane", "candy_wrap", "seashell", "wheat_ear",
-      "camellia", "lilac", "chamomile", "bluebell", "rosemary", "osmanthus",
+      "camellia", "lilac", "chamomile", "bluebell", "rosemary", "osmanthus", "honeysuckle", "sage", "yuzu", "matcha", "moss",
     ]);
     grid.innerHTML = entries
       .map((id) => {

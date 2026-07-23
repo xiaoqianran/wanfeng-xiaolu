@@ -308,7 +308,7 @@
     return { ok: true, day: state.day, daily: state.daily };
   }
 
-  var DAILY_GIFT_POOL = ["petal", "maple", "clover", "mint", "berry", "stone", "seashell", "pinecone", "rosemary", "lavender_bud"];
+  var DAILY_GIFT_POOL = ["petal", "maple", "clover", "mint", "berry", "stone", "seashell", "pinecone", "rosemary", "lavender_bud", "honeysuckle", "sage", "yuzu", "matcha", "moss"];
 
   function claimDailyReward(state) {
     var ev = evaluateDailyGoals(state);
