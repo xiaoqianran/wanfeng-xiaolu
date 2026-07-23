@@ -1022,6 +1022,29 @@ function renderJournal() {
         ctx.fill();
       }
       ctx.globalAlpha = 1;
+    } else if (themeId === "ink_courtyard") {
+      // soft ink wash blotches + floating paper flecks
+      for (let i = 0; i < 6; i++) {
+        const x = (i * 97 + time * 0.15) % (w + 40) - 20;
+        const y = h * 0.2 + (i % 3) * (h * 0.18);
+        const rg = ctx.createRadialGradient(x, y, 2, x, y, 36);
+        rg.addColorStop(0, "rgba(40,45,55,0.18)");
+        rg.addColorStop(1, "rgba(40,45,55,0)");
+        ctx.fillStyle = rg;
+        ctx.beginPath();
+        ctx.arc(x, y, 36, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.fillStyle = "rgba(240,235,220,0.45)";
+      for (let i = 0; i < 10; i++) {
+        const x = (i * 71 + Math.sin(time * 0.03 + i) * 8) % w;
+        const y = (i * 43 + time * 0.2) % (h * 0.7);
+        ctx.save();
+        ctx.translate(x, y);
+        ctx.rotate(Math.sin(time * 0.02 + i) * 0.5);
+        ctx.fillRect(-4, -2.5, 8, 5);
+        ctx.restore();
+      }
     }
   }
 
@@ -1822,6 +1845,13 @@ function renderJournal() {
       const jar = (state.tipJar && state.tipJar.coins) || 0;
       tipEl.textContent = "小费罐：" + jar + " / 10";
     }
+    const boardEl = document.getElementById("guest-board");
+    if (boardEl && Core.getTopGuests) {
+      const top = Core.getTopGuests(state, 3);
+      boardEl.textContent = top.length
+        ? "常客小黑板：" + top.map((g) => g.name + "×" + g.affinity).join(" · ")
+        : "常客小黑板：还没有名字";
+    }
     updateDrinkPreview();
     renderShopShelf();
   }
@@ -1939,7 +1969,7 @@ function renderJournal() {
     if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "bergamot" || baseDef.id === "floral_tea")) {
       score += 0.5; notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5; notes.push("夏日清爽");
     }
     if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel")) {
