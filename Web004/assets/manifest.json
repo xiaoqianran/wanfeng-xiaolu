@@ -1,11 +1,20 @@
 {
-  "files": [],
+  "files": [
+    "assets/walk/slot_0015.png"
+  ],
   "stages": {
     "bootstrap": [
       {
         "round": 5,
         "slot": "hero-banner",
         "path": "assets/scenes/hero-dusk.png"
+      }
+    ],
+    "walk": [
+      {
+        "round": 15,
+        "path": "assets/walk/slot_0015.png",
+        "status": "reserved"
       }
     ]
   }

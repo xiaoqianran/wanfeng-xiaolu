@@ -19,3 +19,4 @@
 | 12 | completed | feat | Add flavor or base option #0 | Flavor fl_shell_0012 | `feat(shop): R0012 Add flavor or base option #0` |
 | 13 | completed | feat | UI copy toast string #0 | UI toasts=1 | `feat(ui): R0013 UI copy toast string #0` |
 | 14 | completed | feat | Season palette note #0 | Season palette winter_0014 | `feat(season): R0014 Season palette note #0` |
+| 15 | completed | assets | Asset slot registration #0 | Asset slot assets/walk/slot_0015.png | `assets(manifest): R0015 Asset slot registration #0` |
