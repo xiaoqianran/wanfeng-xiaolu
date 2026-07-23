@@ -995,3 +995,4 @@
 | 988 | completed | feat | Add secret recipe stub #49 | Recipes=49 | `feat(shop): R0988 Add secret recipe stub #49` |
 | 989 | completed | feat | Add achievement definition #49 | Achievements=49 | `feat(meta): R0989 Add achievement definition #49` |
 | 990 | completed | style | CSS micro polish token #49 | CSS token hue=270 | `style(ui): R0990 CSS micro polish token #49` |
+| 991 | completed | feat | Add plantable linkage #49 | Plant link plant_lavender_0991 | `feat(content): R0991 Add plantable linkage #49` |
