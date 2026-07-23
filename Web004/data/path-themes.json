@@ -133,7 +133,8 @@
       "thyme": 2.2,
       "dill": 2,
       "basil": 2.1,
-      "fennel": 1.9
+      "fennel": 1.9,
+      "lemongrass": 1.7
     },
     "ambient": [
       "草浪一阵一阵推过来。",
@@ -616,7 +617,8 @@
       "mint": 2,
       "dill": 1.8,
       "stone": 1.4,
-      "honey": 1.1
+      "honey": 1.1,
+      "lemongrass": 2.3
     },
     "ambient": [
       "芦苇互相轻碰，像在鼓掌。",

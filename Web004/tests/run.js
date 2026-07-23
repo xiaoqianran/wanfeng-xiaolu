@@ -1817,5 +1817,18 @@ test("reed_bank theme among 22 unique themes", () => {
   assert.strictEqual(new Set(ev.map((e) => e.title)).size, ev.length);
 });
 
+
+test("lemongrass plantable and 香茅 recipes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.lemongrass && j.plants.lemongrassPot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants });
+  const s = core.defaultState();
+  s.bag.lemongrass = 1;
+  assert.ok(core.plantSeed(s, 0, "lemongrass", cat).ok);
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "香茅暖汤杯"));
+  assert.ok(recipes.some((r) => r.name === "芦岸香茅苏打"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
