@@ -947,3 +947,4 @@
 | 940 | completed | refactor | Catalog integrity pass #46 | Integrity items=93 customers=46 | `refactor(core): R0940 Catalog integrity pass #46` |
 | 941 | completed | feat | Add collectible item batch #47 | Item pine_r0941 added | `feat(content): R0941 Add collectible item batch #47` |
 | 942 | completed | feat | Add customer persona #47 | Customer 滑板少年·942 | `feat(shop): R0942 Add customer persona #47` |
+| 943 | completed | feat | Add dialogue line #47 | Dialogue count=47 | `feat(content): R0943 Add dialogue line #47` |
