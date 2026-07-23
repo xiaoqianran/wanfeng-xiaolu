@@ -139,3 +139,4 @@
 | 132 | completed | assets | Wire real stage art reference into runtime manifest #10 | live art assets/shop/live_0132.jpg from assets/seasons/dusk.jpg (≥1KB) | `assets(ui): R0132 Wire real stage art reference into runtime manifest #10` |
 | 133 | completed | feat | Ship collectible + runtime catalog item #11 | Runtime item osmanthus_r0133 | `feat(content): R0133 Ship collectible + runtime catalog item #11` |
 | 134 | completed | feat | Ship customer persona into runtime #11 | Runtime customer 弹尤克里里的人·134 | `feat(shop): R0134 Ship customer persona into runtime #11` |
+| 135 | completed | feat | Ship walk ambient + pathWidth into runtime #11 | walk pathWidth=3335 ambient=63 | `feat(walk): R0135 Ship walk ambient + pathWidth into runtime #11` |
