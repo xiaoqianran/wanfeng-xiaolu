@@ -1,8 +1,8 @@
 {
   "targetRounds": 1000,
-  "lastUpdate": "2026-07-23T20:30:10.471Z",
-  "completed": 543,
-  "lastGoal": "Ship walk ambient + pathWidth into runtime #45",
+  "lastUpdate": "2026-07-23T20:30:10.505Z",
+  "completed": 544,
+  "lastGoal": "Ship garden care whisper into runtime #45",
   "integrated": true,
   "contentItems": 186
 }
