@@ -532,3 +532,4 @@
 | 525 | completed | feat | Ship achievement milestone into runtime #43 | achievements=96 | `feat(meta): R0525 Ship achievement milestone into runtime #43` |
 | 526 | completed | style | Ship CSS accent token used by app shell #43 | CSS --r-accent hue=302 wired to brand/primary | `style(ui): R0526 Ship CSS accent token used by app shell #43` |
 | 527 | completed | feat | Ship plantable seed linkage into runtime #43 | plant link plant_orange_0527 harvest=seed_orange_0527 | `feat(content): R0527 Ship plantable seed linkage into runtime #43` |
+| 528 | completed | assets | Wire real stage art reference into runtime manifest #43 | live art assets/album/live_0528.jpg from assets/seasons/dusk.jpg (≥1KB) | `assets(ui): R0528 Wire real stage art reference into runtime manifest #43` |
