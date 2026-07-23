@@ -1,8 +1,8 @@
 {
   "targetRounds": 1000,
-  "lastUpdate": "2026-07-23T20:29:32.621Z",
-  "completed": 95,
-  "lastGoal": "Ship plantable seed linkage into runtime #7",
+  "lastUpdate": "2026-07-23T20:29:32.657Z",
+  "completed": 96,
+  "lastGoal": "Wire real stage art reference into runtime manifest #7",
   "integrated": true,
   "contentItems": 119
 }
