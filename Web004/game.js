@@ -833,6 +833,19 @@
         ctx.arc(x, y, 28, 0, Math.PI * 2);
         ctx.fill();
       }
+    } else if (themeId === "stone_garden") {
+      // soft rake lines in sand
+      ctx.strokeStyle = "rgba(180,170,150,0.25)";
+      ctx.lineWidth = 1;
+      for (let i = 0; i < 8; i++) {
+        const y = h * 0.55 + i * 8 + Math.sin(time * 0.01 + i) * 1.5;
+        ctx.beginPath();
+        ctx.moveTo(20, y);
+        for (let x = 20; x < w - 20; x += 20) {
+          ctx.lineTo(x + 10, y + Math.sin(x * 0.05 + time * 0.02) * 2);
+        }
+        ctx.stroke();
+      }
     }
   }
 

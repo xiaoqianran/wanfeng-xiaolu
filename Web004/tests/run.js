@@ -1387,5 +1387,16 @@ test("customers expand past 30 unique names", () => {
   assert.ok(recipes.some((r) => r.name === "夜班薄荷高杯"));
 });
 
+
+test("stone_garden theme and new achievements", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "stone_garden"));
+  assert.ok(themes.length >= 15);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("stone_garden"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "discover_15"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "pin_host"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
