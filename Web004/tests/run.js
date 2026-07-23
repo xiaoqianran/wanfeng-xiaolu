@@ -1448,5 +1448,21 @@ test("sage plantable and 药草田园罐 recipe", () => {
   assert.ok(recipes.some((r) => r.name === "药草田园罐"));
 });
 
+
+test("favoritePathTheme and moss collectible ship", () => {
+  const s = core.defaultState();
+  const r = core.favoritePathTheme(s, "maple_lane");
+  assert.ok(r.ok);
+  assert.strictEqual(s.favoritePathThemeId, "maple_lane");
+  core.setPathTheme(s, "riverside", [{ id: "riverside", name: "河" }, { id: "maple_lane", name: "枫" }]);
+  assert.ok(s._themesTouched.riverside);
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("btn-fav-theme"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("favoritePathTheme"));
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.moss);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

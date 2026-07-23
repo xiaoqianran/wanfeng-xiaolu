@@ -164,6 +164,18 @@
     }
     if (!ok) return { ok: false, reason: "unknown_theme" };
     state.pathThemeId = themeId;
+    if (!state._themesTouched) state._themesTouched = {};
+    state._themesTouched[themeId] = true;
+    state.lastPathThemeId = themeId;
+    return { ok: true, themeId: themeId };
+  }
+
+  /** Soft favorite path theme — one-tap return, no combat */
+  function favoritePathTheme(state, themeId) {
+    themeId = String(themeId || state.pathThemeId || "");
+    if (!themeId) return { ok: false, reason: "empty" };
+    state.favoritePathThemeId = themeId;
+    appendJournal(state, "把小路「" + themeId + "」标成了常走的那条。");
     return { ok: true, themeId: themeId };
   }
 
@@ -1087,6 +1099,7 @@
     DEFAULT_PATH_THEMES: DEFAULT_PATH_THEMES,
     getPathTheme: getPathTheme,
     setPathTheme: setPathTheme,
+    favoritePathTheme: favoritePathTheme,
     buildSpawnList: buildSpawnList,
   };
 });

@@ -330,13 +330,15 @@
     const desc = document.getElementById("theme-desc");
     if (!box) return;
     const cur = currentTheme();
+    const fav = state.favoritePathThemeId;
     box.innerHTML = "";
     PATH_THEMES.forEach((th) => {
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "theme-chip" + (th.id === (cur && cur.id) ? " selected" : "");
       btn.setAttribute("aria-pressed", th.id === (cur && cur.id) ? "true" : "false");
-      btn.innerHTML = `<span>${th.emoji || "🍃"}</span><span>${th.name}</span>`;
+      const star = th.id === fav ? " ★" : "";
+      btn.innerHTML = `<span>${th.emoji || "🍃"}</span><span>${th.name}${star}</span>`;
       btn.addEventListener("click", () => {
         Core.setPathTheme(state, th.id, PATH_THEMES);
         if (!state._themesTouched) state._themesTouched = {};
@@ -350,7 +352,12 @@
       });
       box.appendChild(btn);
     });
-    if (desc) desc.textContent = cur ? cur.desc || "" : "";
+    if (desc) {
+      const favName = fav && PATH_THEMES.find((t) => t.id === fav);
+      desc.textContent =
+        (cur ? cur.desc || "" : "") +
+        (favName ? " · 常走：★ " + favName.name : "");
+    }
   }
 
   
@@ -1107,6 +1114,23 @@
         toast("🪑 风停了一会儿，脚也轻了");
       }
       sfx("ui");
+    });
+  }
+
+  const btnFavTheme = document.getElementById("btn-fav-theme");
+  if (btnFavTheme) {
+    btnFavTheme.addEventListener("click", () => {
+      const id = state.pathThemeId || (currentTheme() && currentTheme().id);
+      const r = Core.favoritePathTheme(state, id);
+      if (!r.ok) {
+        toast("先选一条小路吧");
+        return;
+      }
+      save();
+      renderThemePicker();
+      const th = PATH_THEMES.find((t) => t.id === r.themeId);
+      toast("★ 常走小路：「" + ((th && th.name) || r.themeId) + "」");
+      sfx("pin");
     });
   }
 

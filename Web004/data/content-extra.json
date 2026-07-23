@@ -2196,6 +2196,13 @@
       "emoji": "🪴",
       "kind": "风味",
       "seed": "sagePot"
+    },
+    "moss": {
+      "id": "moss",
+      "name": "青苔一小片",
+      "emoji": "🟢",
+      "kind": "收藏",
+      "seed": null
     }
   },
   "plants": {
