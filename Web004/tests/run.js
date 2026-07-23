@@ -738,5 +738,13 @@ test("tea_leaf is plantable to teaBush and harbor theme ships", () => {
   assert.ok(game.includes("harbor"));
 });
 
+test("settings has copy-save control and pot labels use nickname", () => {
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("btn-copy-save"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("pot.nickname"));
+  assert.ok(game.includes("clipboard") || game.includes("writeText"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

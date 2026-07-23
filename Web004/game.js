@@ -971,7 +971,7 @@
       if (pot.plantId) {
         const def = PLANTS[pot.plantId];
         visual = def.emoji[growthStage(pot)];
-        label = def.name + (isReady(pot) ? " · 可收获" : "");
+        label = (pot.nickname ? pot.nickname + " · " : "") + def.name + (isReady(pot) ? " · 可收获" : "");
       }
       slot.innerHTML = `
         <div class="plant-visual">${visual}</div>
@@ -1583,6 +1583,27 @@
         if (msg) msg.textContent = "新的一天：第 " + (state.day || "?") + " 天";
         toast("🌅 新的一天");
         sfx("theme");
+      });
+    }
+    const copyBtn = document.getElementById("btn-copy-save");
+    if (copyBtn) {
+      copyBtn.addEventListener("click", async () => {
+        const text = Core.exportSave(state);
+        const io = document.getElementById("save-io");
+        if (io) io.value = text;
+        const msg = document.getElementById("settings-msg");
+        try {
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            await navigator.clipboard.writeText(text);
+            if (msg) msg.textContent = "已复制到剪贴板。";
+            toast("📋 存档已复制");
+          } else {
+            if (msg) msg.textContent = "浏览器不支持剪贴板，请手动复制文本框。";
+          }
+        } catch (e) {
+          if (msg) msg.textContent = "复制失败，请手动复制文本框内容。";
+        }
+        sfx("ui");
       });
     }
     const exportBtn = document.getElementById("btn-export-save");
