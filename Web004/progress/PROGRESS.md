@@ -631,3 +631,4 @@
 | 624 | completed | assets | Wire real stage art reference into runtime manifest #51 | live art assets/ui/live_0624.jpg from assets/shop/night-window.jpg (≥1KB) | `assets(ui): R0624 Wire real stage art reference into runtime manifest #51` |
 | 625 | completed | feat | Ship collectible + runtime catalog item #52 | Runtime item coconut_r0625 | `feat(content): R0625 Ship collectible + runtime catalog item #52` |
 | 626 | completed | feat | Ship customer persona into runtime #52 | Runtime customer 采风记者·626 | `feat(shop): R0626 Ship customer persona into runtime #52` |
+| 627 | completed | feat | Ship walk ambient + pathWidth into runtime #52 | walk pathWidth=3227 ambient=104 | `feat(walk): R0627 Ship walk ambient + pathWidth into runtime #52` |
