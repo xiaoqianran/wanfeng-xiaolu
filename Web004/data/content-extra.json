@@ -5955,6 +5955,10 @@
     {
       "round": 738,
       "text": "想给植物读一首短诗。（R0738）"
+    },
+    {
+      "round": 750,
+      "text": "明天也要慢慢来。（R0750）"
     }
   ],
   "seasons": [
@@ -6023,7 +6027,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 746,
+    "expandedRounds": 750,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
