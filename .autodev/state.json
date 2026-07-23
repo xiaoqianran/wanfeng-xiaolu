@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 95,
+  "current_round": 103,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 89,
-  "authentic_game_integrated_rounds": 79,
+  "authentic_rounds_completed": 97,
+  "authentic_game_integrated_rounds": 86,
   "template_spam_archived": true,
-  "current_milestone": "authentic rebuild A004x",
-  "current_task_id": "A0054-next",
-  "last_completed_task_id": "A0095",
-  "last_commit": "64a7380",
+  "current_milestone": "authentic rebuild A010x",
+  "current_task_id": "A0105-next",
+  "last_completed_task_id": "A0104",
+  "last_commit": "352bef7",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "82 passed, 0 failed",
+  "last_test_summary": "90 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~960) multi-session"
+    "gap to 1000 authentic (~903) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -29,11 +29,12 @@
     "spam engine disabled"
   ],
   "next_candidate_tasks": [
-    "season recipe soft bonus",
-    "export affinity in save",
-    "more unique mail",
-    "canvas reduced-motion"
+    "new unique customers",
+    "garden photo/memory",
+    "walk soundtrack toggle polish",
+    "more secret recipes tied to themes",
+    "unique UI icon for shop/garden"
   ],
-  "resume_instructions": "Continue A0096+. authentic-rounds.jsonl SoT. Spam DISABLED. cd Web004 && node tests/run.js && node tools/quality-gate.js. Gap ~905 authentic.",
-  "updated_at": "2026-07-23T21:27:25.307488+00:00"
+  "resume_instructions": "Continue A0105+. authentic-rounds.jsonl SoT. Spam DISABLED. cd Web004 && node tests/run.js && node tools/quality-gate.js. Three pillars: garden/walk/shop.",
+  "updated_at": "2026-07-23T21:33:12.019554+00:00"
 }

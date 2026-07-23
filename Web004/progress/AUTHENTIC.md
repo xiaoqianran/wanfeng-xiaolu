@@ -93,3 +93,11 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0093 | completed | feat | 足迹显示主题数 | themesN in renderStats | `feat(stats): A0093 足迹页显示主题切换数量` |
 | A0094 | completed | content | 山茶蜜语配方 | 山茶蜜语 雨檐野茶 recipes | `content(shop): A0094 山茶蜜语与雨檐野茶秘密配方` |
 | A0095 | completed | art | 信箱休息帮助图标 | 3 unique procedural PNGs wired | `art(ui): A0095 信箱休息帮助独特程序化图标` |
+| A0096 | completed | feat | 季节风味与熟悉度软加成 | season flavors + affinity tip; favoriteFlavor in UI | `feat(shop): A0096 季节风味熟悉度软加成与季节照料` |
+| A0097 | completed | content | 信箱扩充至23封 | 8 unique hand-authored mails | `content(mail): A0097 温柔信箱扩充至二十三封独特来信` |
+| A0098 | completed | feat | 花市巷尾主题 | 9th theme flower_alley + petal FX | `feat(walk): A0098 花市巷尾小路主题` |
+| A0099 | completed | feat | 季节照料软加成 | spring talk / summer sun / autumn water / winter rest | `feat(shop): A0096 季节风味熟悉度软加成与季节照料` |
+| A0100 | completed | feat | 迷迭香养成与风味 | rosemary item+plant+flavor | `feat(garden): A0100 迷迭香可拾取种植与草本风味` |
+| A0101 | completed | content | 配方事件季节提示 | 巷尾迷迭 花市蜜语; 82 events; season tips | `content(world): A0101 巷尾配方晚间事件与季节提示` |
+| A0103 | completed | chore | 同步运行时 | game-data sync flower_alley recipes mail events | `chore(data): A0103 同步运行时 game-data 与 sync-status` |
+| A0104 | completed | test | 回归测试 | 90 tests pass season affinity rosemary flower_alley | `test(core): A0104 季节熟悉度迷迭香与花市主题回归` |
