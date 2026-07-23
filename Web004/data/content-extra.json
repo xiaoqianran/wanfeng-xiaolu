@@ -1,13 +1,48 @@
 {
-  "items": {},
-  "plants": {},
+  "items": {
+    "seed_pine_0011": {
+      "id": "seed_pine_0011",
+      "name": "松针种子",
+      "emoji": "🌲",
+      "kind": "种子",
+      "seed": "plant_pine_0011",
+      "round": 11
+    }
+  },
+  "plants": {
+    "plant_pine_0011": {
+      "id": "plant_pine_0011",
+      "name": "松针盆栽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌲"
+      ],
+      "harvest": "seed_pine_0011",
+      "days": 5,
+      "round": 11
+    }
+  },
   "cups": [],
   "bases": [],
   "flavors": [],
   "toppings": [],
   "customers": [],
   "dialogues": [],
-  "seasons": ["dusk", "spring", "summer", "autumn", "winter"],
-  "pathThemes": ["maple_lane", "riverside", "bamboo", "starlight"],
-  "meta": { "expandedRounds": 0 }
+  "seasons": [
+    "dusk",
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+  ],
+  "pathThemes": [
+    "maple_lane",
+    "riverside",
+    "bamboo",
+    "starlight"
+  ],
+  "meta": {
+    "expandedRounds": 11
+  }
 }

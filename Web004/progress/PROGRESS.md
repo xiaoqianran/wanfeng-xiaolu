@@ -15,3 +15,4 @@
 | 8 | completed | feat | Externalize garden care messages | Garden messages=1 | `feat(garden): R0008 Externalize garden care messages` |
 | 9 | completed | feat | Externalize shop tip messages | Shop tips=1 | `feat(shop): R0009 Externalize shop tip messages` |
 | 10 | completed | style | Add expansions.css hook for progressive polish | CSS expansion hook appended | `style(ui): R0010 Add expansions.css hook for progressive polish` |
+| 11 | completed | feat | Add plantable linkage #0 | Plant link plant_pine_0011 | `feat(content): R0011 Add plantable linkage #0` |
