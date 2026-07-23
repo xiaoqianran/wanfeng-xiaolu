@@ -2090,7 +2090,7 @@
       "name": "野茶芽",
       "emoji": "🍃",
       "kind": "风味",
-      "seed": null
+      "seed": "teaBush"
     },
     "star_sand": {
       "id": "star_sand",
@@ -3763,9 +3763,33 @@
       "harvest": "seed_pear_1019",
       "days": 5,
       "round": 1019
+    },
+    "teaBush": {
+      "id": "teaBush",
+      "name": "野茶丛",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍃"
+      ],
+      "harvest": "tea_leaf",
+      "days": 3
     }
   },
-  "cups": [],
+  "cups": [
+    {
+      "id": "bowl",
+      "name": "陶碗杯",
+      "emoji": "🥣",
+      "vibe": "田园"
+    },
+    {
+      "id": "flute",
+      "name": "细长杯",
+      "emoji": "🥂",
+      "vibe": "清爽"
+    }
+  ],
   "bases": [
     {
       "id": "honey_water",

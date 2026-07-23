@@ -721,5 +721,22 @@ test("content-extra customers have no middle-dot round spam names", () => {
   });
 });
 
+test("tea_leaf is plantable to teaBush and harbor theme ships", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.strictEqual(j.items.tea_leaf.seed, "teaBush");
+  assert.ok(j.plants.teaBush);
+  const s = core.defaultState();
+  // tea_leaf may only be in extra catalog
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants });
+  s.bag.tea_leaf = 1;
+  const planted = core.plantSeed(s, 0, "tea_leaf", cat);
+  assert.ok(planted.ok, JSON.stringify(planted));
+  assert.strictEqual(s.pots[0].plantId, "teaBush");
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "harbor"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("harbor"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
