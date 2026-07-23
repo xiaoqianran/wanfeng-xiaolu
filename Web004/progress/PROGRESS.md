@@ -404,3 +404,4 @@
 | 397 | completed | feat | Path theme fragment #19 | Path themes=24 | `feat(walk): R0397 Path theme fragment #19` |
 | 398 | completed | feat | Topping or cup option #19 | Topping top_r0398 | `feat(content): R0398 Topping or cup option #19` |
 | 399 | completed | docs | Stage milestone summary #19 | Stage doc stage-08.md | `docs(progress): R0399 Stage milestone summary #19` |
+| 400 | completed | refactor | Catalog integrity pass #19 | Integrity items=39 customers=19 | `refactor(core): R0400 Catalog integrity pass #19` |
