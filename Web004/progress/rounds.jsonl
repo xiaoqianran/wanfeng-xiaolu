@@ -302,3 +302,4 @@
 {"round":302,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #15","outcome":"Customer 织围巾的阿姨·302","commit":"feat(shop): R0302 Add customer persona #15","at":"2026-07-23T19:49:52.725Z"}
 {"round":303,"status":"completed","type":"feat","scope":"content","goal":"Add dialogue line #15","outcome":"Dialogue count=15","commit":"feat(content): R0303 Add dialogue line #15","at":"2026-07-23T19:49:52.749Z"}
 {"round":304,"status":"completed","type":"feat","scope":"garden","goal":"Add garden care whisper #15","outcome":"Garden msg #16","commit":"feat(garden): R0304 Add garden care whisper #15","at":"2026-07-23T19:49:52.769Z"}
+{"round":305,"status":"completed","type":"feat","scope":"shop","goal":"Add shop tip #15","outcome":"Shop tip #16","commit":"feat(shop): R0305 Add shop tip #15","at":"2026-07-23T19:49:52.787Z"}
