@@ -79,3 +79,4 @@
 | 72 | completed | feat | Add flavor or base option #3 | Flavor fl_shell_0072 | `feat(shop): R0072 Add flavor or base option #3` |
 | 73 | completed | feat | UI copy toast string #3 | UI toasts=4 | `feat(ui): R0073 UI copy toast string #3` |
 | 74 | completed | feat | Season palette note #3 | Season palette winter_0074 | `feat(season): R0074 Season palette note #3` |
+| 75 | completed | assets | Asset slot registration #3 | Asset slot assets/walk/slot_0075.png | `assets(manifest): R0075 Asset slot registration #3` |
