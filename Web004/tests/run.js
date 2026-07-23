@@ -637,5 +637,30 @@ test("settings markup includes weather toggle", () => {
   assert.ok(game.includes("stFx.weatherFx"));
 });
 
+test("secret recipes unique hand-authored names", () => {
+  const r = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(r.length >= 6);
+  const names = r.map((x) => x.name);
+  assert.strictEqual(new Set(names).size, names.length);
+  r.forEach((x) => assert.ok(!/#\d+/.test(x.name)));
+  const gd = fs.readFileSync(path.join(__dirname, "..", "js", "game-data.js"), "utf8");
+  assert.ok(gd.includes("暮色薄荷") || gd.includes("窗台蜜茶"));
+});
+
+test("high mood harvest can include gift field in core", () => {
+  const s = core.defaultState();
+  core.addItem(s, "mint", 1);
+  core.plantSeed(s, 0, "mint");
+  s.pots[0].growth = 99;
+  s.pots[0].mood = 90;
+  s.pots[0].water = 80;
+  s.pots[0].sun = 80;
+  const h = core.tend(s, 0, "harvest");
+  assert.ok(h.ok);
+  assert.ok(h.count >= 1);
+  // gift optional field when mood high
+  if (h.gift) assert.ok(s.bag[h.gift] >= 1);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
