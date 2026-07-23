@@ -1029,3 +1029,4 @@
 | 1022 | completed | feat | Ship customer persona into runtime #85 | Runtime customer 织围巾的阿姨·1022 | `feat(shop): R1022 Ship customer persona into runtime #85` |
 | 1023 | completed | feat | Ship walk ambient + pathWidth into runtime #85 | walk pathWidth=3223 ambient=120 | `feat(walk): R1023 Ship walk ambient + pathWidth into runtime #85` |
 | 1024 | completed | feat | Ship garden care whisper into runtime #85 | garden messages=120 careBonus=1.05 | `feat(garden): R1024 Ship garden care whisper into runtime #85` |
+| 1025 | completed | docs | 更新状态与生图降级记录 | state+ART_BACKLOG | `docs(autodev): R1025 更新状态与生图降级记录` |
