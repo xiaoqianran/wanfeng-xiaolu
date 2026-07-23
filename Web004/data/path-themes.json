@@ -232,7 +232,8 @@
       "jasmine": 1.6,
       "maple": 0.6,
       "osmanthus": 2.4,
-      "dried_orange": 1.2
+      "dried_orange": 1.2,
+      "lilac": 2
     },
     "ambient": [
       "有人收摊，纸箱里还剩半把花。",
@@ -260,7 +261,8 @@
       "stone": 1.6,
       "maple": 1.4,
       "petal": 1.2,
-      "honey": 1.1
+      "honey": 1.1,
+      "osmanthus": 1.6
     },
     "ambient": [
       "有人在翻书，风替他翻到下一页。",

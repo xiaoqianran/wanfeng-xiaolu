@@ -210,5 +210,25 @@
       "hearts": 2,
       "coins": 1
     }
+  },
+  {
+    "id": "mail_lilac",
+    "title": "一枝丁香",
+    "body": "信封里压着一枝丁香，字条：插进水里也能活两天，种进土里会更久。",
+    "effect": {
+      "items": {
+        "lilac": 2
+      },
+      "hearts": 1
+    }
+  },
+  {
+    "id": "mail_shelf",
+    "title": "关于展示架",
+    "body": "有人建议：把今天最好的那杯影子留在架上，下一位客人会笑。",
+    "effect": {
+      "coins": 2,
+      "hearts": 1
+    }
   }
 ]

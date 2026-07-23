@@ -2140,6 +2140,13 @@
       "emoji": "🍊",
       "kind": "装饰",
       "seed": null
+    },
+    "lilac": {
+      "id": "lilac",
+      "name": "丁香花瓣",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "lilacPot"
     }
   },
   "plants": {
@@ -3853,6 +3860,17 @@
       ],
       "harvest": "osmanthus",
       "days": 4
+    },
+    "lilacPot": {
+      "id": "lilacPot",
+      "name": "丁香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "lilac",
+      "days": 3
     }
   },
   "cups": [
@@ -4485,6 +4503,16 @@
       "tags": [
         "花香",
         "甜蜜"
+      ]
+    },
+    {
+      "id": "lilac",
+      "name": "丁香",
+      "emoji": "💜",
+      "need": "lilac",
+      "tags": [
+        "花香",
+        "温柔"
       ]
     }
   ],
@@ -5164,6 +5192,21 @@
         "honey",
         "peach",
         "berry"
+      ]
+    },
+    {
+      "name": "收集标本的同学",
+      "avatar": "📎",
+      "wish": "想要花香一点的，丁香或茉莉都行，慢慢喝。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "lilac",
+        "jasmine",
+        "lavender_bud",
+        "plain"
       ]
     }
   ],
