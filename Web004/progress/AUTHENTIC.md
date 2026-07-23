@@ -163,3 +163,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0164 | completed | feat | 小珍藏标签 | rare collectible tag in bag UI | `feat(bag): A0164 小珍藏标签与散步氛围扩充` |
 | A0165 | completed | content | 氛围手帐扩充 | ambient 27 + journal night market | `feat(bag): A0164 小珍藏标签与散步氛围扩充` |
 | A0166 | completed | test | 珍藏标签回归 | 112 tests pass | `feat(bag): A0164 小珍藏标签与散步氛围扩充` |
+| A0167 | completed | content | 客人至32 | 32 unique customers + recipes | `content(shop): A0167 三位新客人与夜班配方` |
+| A0168 | completed | content | 事件137则 | 137 unique evening events | `content(shop): A0167 三位新客人与夜班配方` |
+| A0169 | completed | test | 客人唯一回归 | 113 tests pass | `content(shop): A0167 三位新客人与夜班配方` |
