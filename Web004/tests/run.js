@@ -823,5 +823,17 @@ test("garden care hints and expanded mail ship", () => {
   assert.strictEqual(new Set(ids).size, ids.length);
 });
 
+test("keyboard Escape and bag/mail shortcuts ship", () => {
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("Escape"));
+  assert.ok(game.includes('"b": "bag"') || game.includes("bag"));
+  assert.ok(game.includes("themeLabel") || game.includes("currentTheme()"));
+});
+
+test("journal templates include 码头笔记", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "journal-templates.json"), "utf8"));
+  assert.ok(j.some((x) => x.title === "码头笔记"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

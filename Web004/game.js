@@ -879,12 +879,13 @@
     // HUD
     ctx.fillStyle = "rgba(255,253,249,0.88)";
     ctx.beginPath();
-    ctx.roundRect(12, 12, 220, world.ambientNote ? 52 : 36, 18);
+    ctx.roundRect(12, 12, 280, world.ambientNote ? 52 : 36, 18);
     ctx.fill();
     ctx.fillStyle = "#4a463f";
     ctx.font = "13px 'Noto Sans SC', sans-serif";
     ctx.textAlign = "left";
-    ctx.fillText(`本路拾取 ${world.collected} 件`, 28, 35);
+    const themeLabel = (currentTheme() && currentTheme().name) || "";
+    ctx.fillText(`本路拾取 ${world.collected} 件` + (themeLabel ? " · " + themeLabel : ""), 28, 35);
     if (world.ambientNote) {
       const note = typeof world.ambientNote === "string" ? world.ambientNote : world.ambientNote.note || "";
       ctx.font = "11px 'Noto Sans SC', sans-serif";
@@ -1782,7 +1783,17 @@
   // keyboard: 1-4 quick nav from home
   window.addEventListener("keydown", (e) => {
     if (e.target && (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA")) return;
-    const map = { "1": "walk", "2": "garden", "3": "shop", "4": "album", "?": "help", "/": "help", "h": "help", "H": "help" };
+    const map = { "1": "walk", "2": "garden", "3": "shop", "4": "album", "?": "help", "/": "help", "h": "help", "H": "help", "b": "bag", "B": "bag", "m": "mail", "M": "mail" };
+    if (e.key === "Escape") {
+      const tut = document.getElementById("tutorial");
+      if (tut && !tut.hidden) {
+        // leave tutorial handler alone
+      } else {
+        go("home");
+        e.preventDefault();
+      }
+      return;
+    }
     if (map[e.key]) {
       go(map[e.key]);
       e.preventDefault();
