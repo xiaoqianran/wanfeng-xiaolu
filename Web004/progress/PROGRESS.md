@@ -568,3 +568,4 @@
 | 561 | completed | feat | Add collectible item batch #28 | Item cocoa_r0561 added | `feat(content): R0561 Add collectible item batch #28` |
 | 562 | completed | feat | Add customer persona #28 | Customer 夜跑爱好者·562 | `feat(shop): R0562 Add customer persona #28` |
 | 563 | completed | feat | Add dialogue line #28 | Dialogue count=28 | `feat(content): R0563 Add dialogue line #28` |
+| 564 | completed | feat | Add garden care whisper #28 | Garden msg #29 | `feat(garden): R0564 Add garden care whisper #28` |
