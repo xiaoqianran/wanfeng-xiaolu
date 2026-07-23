@@ -1693,5 +1693,17 @@ test("checkPathMilestones awards stickers once", () => {
   assert.ok(core.PATH_MILESTONES.length >= 4);
 });
 
+
+test("dill plantable and 莳萝田园陶 recipe", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.dill && j.plants.dillPot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants });
+  const s = core.defaultState();
+  s.bag.dill = 1;
+  assert.ok(core.plantSeed(s, 0, "dill", cat).ok);
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "莳萝田园陶"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

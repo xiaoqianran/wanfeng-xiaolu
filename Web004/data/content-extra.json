@@ -2252,6 +2252,13 @@
       "emoji": "💎",
       "kind": "装饰",
       "seed": null
+    },
+    "dill": {
+      "id": "dill",
+      "name": "莳萝",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "dillPot"
     }
   },
   "plants": {
@@ -4042,6 +4049,17 @@
       ],
       "harvest": "thyme",
       "days": 3
+    },
+    "dillPot": {
+      "id": "dillPot",
+      "name": "莳萝盆栽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "dill",
+      "days": 2
     }
   },
   "cups": [
@@ -4776,6 +4794,16 @@
       "tags": [
         "草本",
         "田园"
+      ]
+    },
+    {
+      "id": "dill",
+      "name": "莳萝",
+      "emoji": "🌿",
+      "need": "dill",
+      "tags": [
+        "草本",
+        "清爽"
       ]
     }
   ],
@@ -5791,6 +5819,21 @@
         "plain"
       ],
       "wantTopping": true
+    },
+    {
+      "name": "腌菜的邻居",
+      "avatar": "🫙",
+      "wish": "草本清爽，莳萝或紫苏，田园杯子更好。",
+      "tags": [
+        "草本",
+        "田园"
+      ],
+      "flavors": [
+        "dill",
+        "perilla",
+        "thyme",
+        "mint"
+      ]
     }
   ],
   "dialogues": [
