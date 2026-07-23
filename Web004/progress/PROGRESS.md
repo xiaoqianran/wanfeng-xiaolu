@@ -804,3 +804,4 @@
 | 797 | completed | feat | Path theme fragment #39 | Path themes=44 | `feat(walk): R0797 Path theme fragment #39` |
 | 798 | completed | feat | Topping or cup option #39 | Topping top_r0798 | `feat(content): R0798 Topping or cup option #39` |
 | 799 | completed | docs | Stage milestone summary #39 | Stage doc stage-16.md | `docs(progress): R0799 Stage milestone summary #39` |
+| 800 | completed | refactor | Catalog integrity pass #39 | Integrity items=79 customers=39 | `refactor(core): R0800 Catalog integrity pass #39` |
