@@ -4906,6 +4906,59 @@
         "peach",
         "berry"
       ]
+    },
+    {
+      "name": "卖灯笼的阿婆",
+      "avatar": "🏮",
+      "wish": "暖一点的茶，谢谢孩子。",
+      "tags": [
+        "温柔",
+        "甜蜜"
+      ],
+      "flavors": [
+        "honey",
+        "jasmine",
+        "tea_leaf"
+      ]
+    },
+    {
+      "name": "夜班护士",
+      "avatar": "💉",
+      "wish": "清爽提神，别太甜。",
+      "tags": [
+        "清爽"
+      ],
+      "flavors": [
+        "mint",
+        "plain",
+        "lemon"
+      ]
+    },
+    {
+      "name": "写生的大学生",
+      "avatar": "🎨",
+      "wish": "果香满满，像颜料盘。",
+      "tags": [
+        "果香"
+      ],
+      "flavors": [
+        "berry",
+        "peach",
+        "plain"
+      ]
+    },
+    {
+      "name": "修钟表的先生",
+      "avatar": "🕰️",
+      "wish": "茶底就好，慢慢喝。",
+      "tags": [
+        "温柔"
+      ],
+      "flavors": [
+        "jasmine",
+        "honey",
+        "tea_leaf"
+      ]
     }
   ],
   "dialogues": [
