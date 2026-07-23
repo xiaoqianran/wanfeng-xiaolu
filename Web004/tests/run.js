@@ -2876,5 +2876,37 @@ test("passion_fruit plantable passion_arch 59 themes", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("kiwi plantable kiwi_trellis 60 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.kiwi && j.plants.kiwiPot);
+  assert.ok(j.flavors.some((f) => f.id === "kiwi"));
+  assert.ok(j.customers.some((c) => c.name === "背藤篮的旅人"));
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  s.bag.kiwi = 1;
+  assert.ok(core.plantSeed(s, 0, "kiwi", cat).ok);
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "kiwi_trellis"));
+  assert.ok(themes.length >= 60);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("kiwi_trellis"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "猕猴桃汽泡"));
+  assert.ok(recipes.some((r) => r.name === "猕猴桃暖蜜"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "kiwi_sill"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "kiwi_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("猕猴桃架径"));
+  const mail = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "mail.json"), "utf8"));
+  assert.ok(mail.some((m) => m.id === "mail_kiwi" && m.effect && m.effect.items && m.effect.items.kiwi === 2));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_kiwi_trellis" && e.body && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
