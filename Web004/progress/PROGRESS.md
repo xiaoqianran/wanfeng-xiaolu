@@ -149,3 +149,4 @@
 | 142 | completed | style | Ship CSS accent token used by app shell #11 | CSS --r-accent hue=254 wired to brand/primary | `style(ui): R0142 Ship CSS accent token used by app shell #11` |
 | 143 | completed | feat | Ship plantable seed linkage into runtime #11 | plant link plant_rose_0143 harvest=seed_rose_0143 | `feat(content): R0143 Ship plantable seed linkage into runtime #11` |
 | 144 | completed | assets | Wire real stage art reference into runtime manifest #11 | live art assets/ui/live_0144.jpg from assets/album/journal-open.jpg (≥1KB) | `assets(ui): R0144 Wire real stage art reference into runtime manifest #11` |
+| 145 | completed | feat | Ship collectible + runtime catalog item #12 | Runtime item coconut_r0145 | `feat(content): R0145 Ship collectible + runtime catalog item #12` |
