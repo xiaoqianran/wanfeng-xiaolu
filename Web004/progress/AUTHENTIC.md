@@ -57,3 +57,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0057 | completed | feat | 草甸花粉特效 | drawWeather meadow pollen ellipses | `feat(walk): A0057 草甸主题花粉飘落天气特效` |
 | A0058 | completed | docs | CLAUDE.md 接手说明 | agent recovery guide at repo root | `docs(agents): A0058 添加 CLAUDE.md 接手说明` |
 | A0059 | completed | fix | 清除模板客人 | purged ·N names; 5 unique customers; 11 total | `fix(content): A0059 清除模板客人并加入五位独特新客人` |
+| A0060 | completed | feat | 日目标领取附赠小礼 | deterministic DAILY_GIFT_POOL gift on claim | `feat(daily): A0060 完成日目标后赠送确定性小礼` |
+| A0061 | completed | feat | 野茶丛种植与新杯型 | teaBush plant + bowl/flute cups | `feat(garden): A0061 野茶丛可种植与新杯型选项` |
+| A0062 | completed | perf | 减少动效关闭拾取浮动 | bob=0 when reduceMotion | `perf(walk): A0062 减少动效时关闭拾取物浮动` |
+| A0063 | completed | feat | 码头薄暮主题 | harbor theme + wave weather FX | `feat(walk): A0063 码头薄暮主题与潮波特效` |
