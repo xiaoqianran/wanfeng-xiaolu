@@ -855,3 +855,4 @@
 | 848 | completed | feat | Add secret recipe stub #42 | Recipes=42 | `feat(shop): R0848 Add secret recipe stub #42` |
 | 849 | completed | feat | Add achievement definition #42 | Achievements=42 | `feat(meta): R0849 Add achievement definition #42` |
 | 850 | completed | style | CSS micro polish token #42 | CSS token hue=50 | `style(ui): R0850 CSS micro polish token #42` |
+| 851 | completed | feat | Add plantable linkage #42 | Plant link plant_pine_0851 | `feat(content): R0851 Add plantable linkage #42` |
