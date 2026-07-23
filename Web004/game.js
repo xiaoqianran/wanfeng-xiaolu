@@ -397,7 +397,15 @@
   function renderBag() {
     const grid = document.getElementById("bag-grid");
     if (!grid) return;
-    const entries = Object.keys(state.bag || {}).filter((id) => (state.bag[id] || 0) > 0);
+    const kindOrder = { "风味": 1, "基底": 2, "装饰": 3, "种子": 4, "收藏": 5 };
+    const entries = Object.keys(state.bag || {})
+      .filter((id) => (state.bag[id] || 0) > 0)
+      .sort((a, b) => {
+        const ka = kindOrder[(ITEMS[a] && ITEMS[a].kind) || ""] || 9;
+        const kb = kindOrder[(ITEMS[b] && ITEMS[b].kind) || ""] || 9;
+        if (ka !== kb) return ka - kb;
+        return a.localeCompare(b);
+      });
     if (!entries.length) {
       grid.innerHTML = '<div class="album-card"><div class="emoji">🧺</div><div class="name">还是空的</div><div class="meta">去小路逛逛吧</div></div>';
       return;
