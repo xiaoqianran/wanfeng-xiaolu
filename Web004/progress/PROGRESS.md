@@ -113,3 +113,4 @@
 | 106 | completed | feat | Tune walk ambient note #5 | Walk ambient #5 | `feat(walk): R0106 Tune walk ambient note #5` |
 | 107 | completed | feat | Add journal template #5 | Journal templates=5 | `feat(album): R0107 Add journal template #5` |
 | 108 | completed | feat | Add secret recipe stub #5 | Recipes=5 | `feat(shop): R0108 Add secret recipe stub #5` |
+| 109 | completed | feat | Add achievement definition #5 | Achievements=5 | `feat(meta): R0109 Add achievement definition #5` |
