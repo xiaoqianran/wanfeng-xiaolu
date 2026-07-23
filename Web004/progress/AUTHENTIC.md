@@ -231,3 +231,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0232 | completed | feat | 云台慢坡主题 | cloud_pass 18th + cloud FX | `feat(walk): A0232 云台慢坡主题与云影特效` |
 | A0233 | completed | content | 事件至283则 | 283 unique evening events | `feat(walk): A0232 云台慢坡主题与云影特效` |
 | A0234 | completed | test | 云台主题回归 | 129 tests pass | `feat(walk): A0232 云台慢坡主题与云影特效` |
+| A0235 | completed | content | 文案信箱扩充 | tips 32 mail 49 dialogues 28 | `content(world): A0235 文案信箱与手册同步云台` |
+| A0236 | completed | docs | 手册云台 | USER_MANUAL cloud_pass | `content(world): A0235 文案信箱与手册同步云台` |
