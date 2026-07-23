@@ -280,3 +280,4 @@
 | 273 | completed | feat | Ship achievement milestone into runtime #22 | achievements=75 | `feat(meta): R0273 Ship achievement milestone into runtime #22` |
 | 274 | completed | style | Ship CSS accent token used by app shell #22 | CSS --r-accent hue=338 wired to brand/primary | `style(ui): R0274 Ship CSS accent token used by app shell #22` |
 | 275 | completed | feat | Ship plantable seed linkage into runtime #22 | plant link plant_mango_0275 harvest=seed_mango_0275 | `feat(content): R0275 Ship plantable seed linkage into runtime #22` |
+| 276 | completed | assets | Wire real stage art reference into runtime manifest #22 | live art assets/garden/live_0276.jpg from assets/album/journal-open.jpg (≥1KB) | `assets(ui): R0276 Wire real stage art reference into runtime manifest #22` |
