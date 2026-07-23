@@ -474,3 +474,4 @@
 | 467 | completed | feat | Ship plantable seed linkage into runtime #38 | plant link plant_orange_0467 harvest=seed_orange_0467 | `feat(content): R0467 Ship plantable seed linkage into runtime #38` |
 | 468 | completed | assets | Wire real stage art reference into runtime manifest #38 | live art assets/album/live_0468.jpg from assets/shop/soda-hero.jpg (≥1KB) | `assets(ui): R0468 Wire real stage art reference into runtime manifest #38` |
 | 469 | completed | feat | Ship collectible + runtime catalog item #39 | Runtime item grape_r0469 | `feat(content): R0469 Ship collectible + runtime catalog item #39` |
+| 470 | completed | feat | Ship customer persona into runtime #39 | Runtime customer 图书馆员·470 | `feat(shop): R0470 Ship customer persona into runtime #39` |
