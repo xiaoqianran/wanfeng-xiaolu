@@ -25,7 +25,18 @@
   },
   "cups": [],
   "bases": [],
-  "flavors": [],
+  "flavors": [
+    {
+      "id": "fl_shell_0012",
+      "name": "小贝壳",
+      "emoji": "🐚",
+      "need": null,
+      "tags": [
+        "清爽"
+      ],
+      "round": 12
+    }
+  ],
   "toppings": [],
   "customers": [],
   "dialogues": [],
@@ -43,6 +54,6 @@
     "starlight"
   ],
   "meta": {
-    "expandedRounds": 11
+    "expandedRounds": 12
   }
 }
