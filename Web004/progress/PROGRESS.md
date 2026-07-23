@@ -1059,3 +1059,4 @@
 | 1052 | completed | feat | Add flavor or base option #52 | Flavor fl_chamomile_1052 | `feat(shop): R1052 Add flavor or base option #52` |
 | 1053 | completed | feat | UI copy toast string #52 | UI toasts=53 | `feat(ui): R1053 UI copy toast string #52` |
 | 1054 | completed | feat | Season palette note #52 | Season palette winter_1054 | `feat(season): R1054 Season palette note #52` |
+| 1055 | completed | assets | Asset slot registration #52 | Asset slot assets/walk/slot_1055.png | `assets(manifest): R1055 Asset slot registration #52` |
