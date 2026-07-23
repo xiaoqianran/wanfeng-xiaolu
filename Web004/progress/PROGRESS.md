@@ -487,3 +487,4 @@
 | 480 | completed | refactor | Catalog integrity pass #23 | Integrity items=47 customers=23 | `refactor(core): R0480 Catalog integrity pass #23` |
 | 481 | completed | feat | Add collectible item batch #24 | Item lavender_r0481 added | `feat(content): R0481 Add collectible item batch #24` |
 | 482 | completed | feat | Add customer persona #24 | Customer 织围巾的阿姨·482 | `feat(shop): R0482 Add customer persona #24` |
+| 483 | completed | feat | Add dialogue line #24 | Dialogue count=24 | `feat(content): R0483 Add dialogue line #24` |
