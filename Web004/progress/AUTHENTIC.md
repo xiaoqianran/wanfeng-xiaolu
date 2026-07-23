@@ -434,3 +434,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0435 | completed | feat | 菠萝可种植 | pineapplePot | feat(garden): A0435 菠萝可种植窗台 |
 | A0436 | completed | feat | 沙丘晚风 | sand_dune 55th | feat(walk): A0436 沙丘晚风主题与沙纹特效 |
 | A0437 | completed | test | 回归手册 | 187 pass | test(docs): A0437 菠萝沙丘回归与手册 |
+| A0438 | completed | feat | 椰子可种植 | coconutPot | feat(garden): A0438 椰子可种植窗台 |
+| A0439 | completed | feat | 潟湖浅径 | lagoon_path 56th | feat(walk): A0439 潟湖浅径主题与浅水特效 |
+| A0440 | completed | test | 回归手册 | 188 pass | test(docs): A0440 椰子潟湖回归与手册 |
