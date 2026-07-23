@@ -709,3 +709,4 @@
 | 702 | completed | feat | Ship dialogue line into runtime #58 | dialogues=110 | `feat(content): R0702 Ship dialogue line into runtime #58` |
 | 703 | completed | feat | Ship journal template into runtime #58 | journal templates=111 | `feat(album): R0703 Ship journal template into runtime #58` |
 | 704 | completed | feat | Ship secret recipe into runtime #58 | secret recipes=111 | `feat(shop): R0704 Ship secret recipe into runtime #58` |
+| 705 | completed | feat | Ship achievement milestone into runtime #58 | achievements=111 | `feat(meta): R0705 Ship achievement milestone into runtime #58` |
