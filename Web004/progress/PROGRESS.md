@@ -915,3 +915,4 @@
 | 908 | completed | feat | Ship secret recipe into runtime #75 | secret recipes=120 | `feat(shop): R0908 Ship secret recipe into runtime #75` |
 | 909 | completed | feat | Ship achievement milestone into runtime #75 | achievements=120 | `feat(meta): R0909 Ship achievement milestone into runtime #75` |
 | 910 | completed | style | Ship CSS accent token used by app shell #75 | CSS --r-accent hue=350 wired to brand/primary | `style(ui): R0910 Ship CSS accent token used by app shell #75` |
+| 911 | completed | feat | Ship plantable seed linkage into runtime #75 | plant link plant_feather_0911 harvest=seed_feather_0911 | `feat(content): R0911 Ship plantable seed linkage into runtime #75` |
