@@ -2197,6 +2197,13 @@
       "emoji": "✨",
       "need": null,
       "round": 958
+    },
+    {
+      "id": "top_r0978",
+      "name": "装饰·978",
+      "emoji": "✨",
+      "need": null,
+      "round": 978
     }
   ],
   "customers": [
@@ -3082,7 +3089,7 @@
     "theme_0977"
   ],
   "meta": {
-    "expandedRounds": 977,
+    "expandedRounds": 978,
     "lastIntegrityRound": 960,
     "itemCount": 95,
     "customerCount": 47
