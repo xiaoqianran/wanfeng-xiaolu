@@ -202,5 +202,41 @@ test("content-extra.js defines WanfengExtra for file:// merge", () => {
   assert.ok(Object.keys(extra.items).length > 10);
 });
 
+test("advanceSeason cycles and journals", () => {
+  const s = core.defaultState();
+  const first = s.season;
+  const next = core.advanceSeason(s);
+  assert.ok(next);
+  assert.notStrictEqual(next, first);
+  assert.ok(s.journal.length >= 1);
+  assert.ok(s.day >= 2);
+});
+
+test("evaluateAchievements unlocks first_walk", () => {
+  const s = core.defaultState();
+  s.pathsWalked = 1;
+  const newly = core.evaluateAchievements(s);
+  assert.ok(newly.some((a) => a.id === "first_walk"));
+  assert.ok(s.achievements.first_walk);
+  const again = core.evaluateAchievements(s);
+  assert.strictEqual(again.length, 0);
+});
+
+test("season art paths exist for all seasons", () => {
+  for (const id of core.SEASON_ORDER) {
+    const rel = core.SEASON_ART[id];
+    assert.ok(rel, "missing art key " + id);
+    assert.ok(fs.existsSync(path.join(__dirname, "..", rel)), "missing file " + rel);
+  }
+});
+
+test("index wires season achievements journal screens", () => {
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes('id="screen-journal"'));
+  assert.ok(html.includes('id="screen-achievements"'));
+  assert.ok(html.includes("btn-next-season"));
+  assert.ok(html.includes("assets/seasons/"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

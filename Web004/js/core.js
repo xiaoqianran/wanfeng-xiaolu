@@ -98,9 +98,89 @@
       season: "dusk",
       day: 1,
       journal: [],
-      unlocked: { walk: true, garden: true, shop: true, album: true },
-      stats: { itemsPicked: 0, drinksServed: 0, plantsHarvested: 0 },
+      unlocked: { walk: true, garden: true, shop: true, album: true, seasons: true },
+      stats: { itemsPicked: 0, drinksServed: 0, plantsHarvested: 0, seasonsSeen: 1 },
+      achievements: {},
+      seasonIndex: 0,
     };
+  }
+
+  var SEASON_ORDER = ["dusk", "spring", "summer", "autumn", "winter"];
+  var SEASON_LABELS = {
+    dusk: "黄昏",
+    spring: "春日",
+    summer: "盛夏",
+    autumn: "秋晚",
+    winter: "冬夜",
+  };
+  var SEASON_ART = {
+    dusk: "assets/seasons/dusk.jpg",
+    spring: "assets/seasons/spring.jpg",
+    summer: "assets/seasons/summer.jpg",
+    autumn: "assets/seasons/autumn.jpg",
+    winter: "assets/seasons/winter.jpg",
+  };
+
+  var DEFAULT_ACHIEVEMENTS = [
+    { id: "first_walk", name: "第一次散步", desc: "走完一段小路", check: function (s) { return (s.pathsWalked || 0) >= 1; } },
+    { id: "picker_10", name: "拾荒小能手", desc: "累计拾取 10 件", check: function (s) { return (s.stats && s.stats.itemsPicked || 0) >= 10; } },
+    { id: "green_thumb", name: "绿拇指", desc: "收获一次盆栽", check: function (s) { return (s.stats && s.stats.plantsHarvested || 0) >= 1; } },
+    { id: "barista", name: "温柔店员", desc: "服务 3 位客人", check: function (s) { return (s.stats && s.stats.drinksServed || 0) >= 3; } },
+    { id: "hearts_5", name: "好心情满满", desc: "好心情达到 5", check: function (s) { return (s.hearts || 0) >= 5; } },
+    { id: "season_tour", name: "四季旅人", desc: "经历全部季节", check: function (s) { return (s.stats && s.stats.seasonsSeen || 0) >= 5; } },
+    { id: "coins_50", name: "小金库", desc: "持有 50 金币", check: function (s) { return (s.coins || 0) >= 50; } },
+    { id: "discover_8", name: "图鉴起步", desc: "发现 8 种收集物", check: function (s) { return Object.keys(s.discovered || {}).length >= 8; } },
+  ];
+
+  function advanceSeason(state) {
+    var idx = typeof state.seasonIndex === "number" ? state.seasonIndex : SEASON_ORDER.indexOf(state.season || "dusk");
+    if (idx < 0) idx = 0;
+    idx = (idx + 1) % SEASON_ORDER.length;
+    state.seasonIndex = idx;
+    state.season = SEASON_ORDER[idx];
+    state.day = (state.day || 1) + 1;
+    if (!state.stats) state.stats = {};
+    state.stats.seasonsSeen = Math.min(5, (state.stats.seasonsSeen || 1) + (idx === 0 ? 0 : 0));
+    // count unique seasons via journal of seasons
+    if (!state._seasonsTouched) state._seasonsTouched = {};
+    state._seasonsTouched[state.season] = true;
+    state.stats.seasonsSeen = Object.keys(state._seasonsTouched).length;
+    appendJournal(state, "季节换成了" + (SEASON_LABELS[state.season] || state.season) + "。");
+    return state.season;
+  }
+
+  function appendJournal(state, text) {
+    if (!state.journal) state.journal = [];
+    state.journal.push({
+      day: state.day || 1,
+      season: state.season || "dusk",
+      text: String(text || ""),
+      at: Date.now(),
+    });
+    if (state.journal.length > 80) state.journal = state.journal.slice(-80);
+    return state.journal;
+  }
+
+  function evaluateAchievements(state, defs) {
+    defs = defs || DEFAULT_ACHIEVEMENTS;
+    if (!state.achievements) state.achievements = {};
+    var newly = [];
+    for (var i = 0; i < defs.length; i++) {
+      var a = defs[i];
+      if (state.achievements[a.id]) continue;
+      var ok = false;
+      try {
+        ok = !!a.check(state);
+      } catch (e) {
+        ok = false;
+      }
+      if (ok) {
+        state.achievements[a.id] = { at: Date.now(), name: a.name };
+        newly.push(a);
+        appendJournal(state, "解锁成就：" + a.name);
+      }
+    }
+    return newly;
   }
 
   function bagCount(state) {
@@ -388,6 +468,10 @@
     DEFAULT_FLAVORS: DEFAULT_FLAVORS,
     DEFAULT_TOPPINGS: DEFAULT_TOPPINGS,
     DEFAULT_CUSTOMERS: DEFAULT_CUSTOMERS,
+    SEASON_ORDER: SEASON_ORDER,
+    SEASON_LABELS: SEASON_LABELS,
+    SEASON_ART: SEASON_ART,
+    DEFAULT_ACHIEVEMENTS: DEFAULT_ACHIEVEMENTS,
     emptyPot: emptyPot,
     defaultState: defaultState,
     bagCount: bagCount,
@@ -406,5 +490,8 @@
     mergeCatalog: mergeCatalog,
     pickRandomCustomer: pickRandomCustomer,
     assertNoCombat: assertNoCombat,
+    advanceSeason: advanceSeason,
+    appendJournal: appendJournal,
+    evaluateAchievements: evaluateAchievements,
   };
 });
