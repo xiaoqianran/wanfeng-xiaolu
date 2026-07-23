@@ -40,3 +40,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0040 | completed | feat | 温柔足迹统计页 | renderStats paths picks harvests affinity mail | `feat(stats): A0040 温柔足迹统计页` |
 | A0041 | completed | feat | 季节汽水软加成 | spring jasmine / summer mint / etc in scoreDrink | `feat(shop): A0041 季节软加成影响汽水评分` |
 | A0042 | completed | content | 十封独特来信 | 10 unique mail letters in runtime | `content(mail): A0042 信箱扩充至十封独特来信` |
+| A0043 | completed | feat | 软刷新新的一天 | softNewDay keeps bag resets daily goals | `feat(meta): A0043 迎来新的一天刷新日目标并保留背包` |
+| A0044 | completed | feat | 草甸慢坡主题 | 5th path theme meadow with unique sky/bias | `feat(walk): A0044 新增草甸慢坡小路主题` |
