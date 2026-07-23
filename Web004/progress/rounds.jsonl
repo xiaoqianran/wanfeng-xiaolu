@@ -220,3 +220,4 @@
 {"round":220,"status":"completed","type":"refactor","scope":"core","goal":"Catalog integrity pass #10","outcome":"Integrity items=21 customers=10","commit":"refactor(core): R0220 Catalog integrity pass #10","at":"2026-07-23T19:49:41.699Z"}
 {"round":221,"status":"completed","type":"feat","scope":"content","goal":"Add collectible item batch #11","outcome":"Item pine_r0221 added","commit":"feat(content): R0221 Add collectible item batch #11","at":"2026-07-23T19:49:41.719Z"}
 {"round":222,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #11","outcome":"Customer 滑板少年·222","commit":"feat(shop): R0222 Add customer persona #11","at":"2026-07-23T19:49:41.739Z"}
+{"round":223,"status":"completed","type":"feat","scope":"content","goal":"Add dialogue line #11","outcome":"Dialogue count=11","commit":"feat(content): R0223 Add dialogue line #11","at":"2026-07-23T19:49:41.760Z"}
