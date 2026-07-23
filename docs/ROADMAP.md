@@ -32,3 +32,9 @@
 - spam 引擎 **DISABLED**
 - 三大系统：静物养成 / 散步收集 / 小店搭配 均可玩且持续扩内容
 - 验证：`cd Web004 && node tests/run.js && node tools/quality-gate.js` → 124 pass / QG PASS
+
+## 执行锚点（A0257）
+- authentic **249+** / 1000
+- 下一轮 A0257+
+- spam DISABLED
+- 验证：cd Web004 && node tests/run.js && node tools/quality-gate.js
