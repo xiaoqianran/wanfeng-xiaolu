@@ -1060,3 +1060,4 @@
 | 1053 | completed | feat | UI copy toast string #52 | UI toasts=53 | `feat(ui): R1053 UI copy toast string #52` |
 | 1054 | completed | feat | Season palette note #52 | Season palette winter_1054 | `feat(season): R1054 Season palette note #52` |
 | 1055 | completed | assets | Asset slot registration #52 | Asset slot assets/walk/slot_1055.png | `assets(manifest): R1055 Asset slot registration #52` |
+| 1056 | completed | test | Regression assertion pack #52 | Test pack size=54 | `test(core): R1056 Regression assertion pack #52` |
