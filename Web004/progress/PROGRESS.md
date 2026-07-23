@@ -664,3 +664,4 @@
 | 657 | completed | feat | Ship achievement milestone into runtime #54 | achievements=107 | `feat(meta): R0657 Ship achievement milestone into runtime #54` |
 | 658 | completed | style | Ship CSS accent token used by app shell #54 | CSS --r-accent hue=26 wired to brand/primary | `style(ui): R0658 Ship CSS accent token used by app shell #54` |
 | 659 | completed | feat | Ship plantable seed linkage into runtime #54 | plant link plant_pear_0659 harvest=seed_pear_0659 | `feat(content): R0659 Ship plantable seed linkage into runtime #54` |
+| 660 | completed | assets | Wire real stage art reference into runtime manifest #54 | live art assets/walk/live_0660.jpg from assets/seasons/dusk.jpg (≥1KB) | `assets(ui): R0660 Wire real stage art reference into runtime manifest #54` |
