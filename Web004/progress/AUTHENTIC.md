@@ -45,3 +45,9 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0045 | completed | docs | 最终发布检查清单 | FINAL_RELEASE_CHECKLIST in progress | `docs(release): A0045 最终发布检查清单（进行中）` |
 | A0046 | completed | feat | 帮助快捷键 | ?/H open help screen | `feat(input): A0046 问号与 H 键打开怎么玩` |
 | A0047 | completed | content | 67则晚间事件 | 67 unique titles; body length fixed | `content(events): A0047 晚间事件扩充至六十七则并修文案长度` |
+| A0048 | completed | feat | 天气特效开关 | weatherFx setting gates drawWeather | `feat(settings): A0048 小路天气特效开关与减少动效联动` |
+| A0049 | completed | content | 八则独特秘密配方 | hand-authored recipe names | `content(shop): A0049 八则独特秘密配方写入运行时` |
+| A0050 | completed | feat | 高心情收获礼物 | mood>85 gift item on harvest | `feat(garden): A0050 高心情收获附赠小礼物` |
+| A0051 | completed | feat | 六种独特收集物 | seashell pinecone ribbon tea_leaf star_sand river_pebble | `feat(content): A0051 六种独特收集物与野茶芽风味` |
+| A0052 | completed | feat | 说话专属文案 | talkLines pool for talk action | `feat(garden): A0052 说话专属文案库 talkLines` |
+| A0053 | completed | feat | 设置页版本元信息 | build-meta VERSION + theme | `feat(settings): A0053 设置页显示存档版本与主题元信息` |
