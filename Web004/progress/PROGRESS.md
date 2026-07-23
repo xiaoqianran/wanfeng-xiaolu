@@ -725,3 +725,4 @@
 | 718 | completed | feat | Topping or cup option #35 | Topping top_r0718 | `feat(content): R0718 Topping or cup option #35` |
 | 719 | completed | docs | Stage milestone summary #35 | Stage doc stage-15.md | `docs(progress): R0719 Stage milestone summary #35` |
 | 720 | completed | refactor | Catalog integrity pass #35 | Integrity items=71 customers=35 | `refactor(core): R0720 Catalog integrity pass #35` |
+| 721 | completed | feat | Add collectible item batch #36 | Item lavender_r0721 added | `feat(content): R0721 Add collectible item batch #36` |
