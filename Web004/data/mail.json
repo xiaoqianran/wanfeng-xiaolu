@@ -700,5 +700,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_peach",
+    "title": "干桃片",
+    "body": "切桃的孩子来信：晒干的桃片也能入杯。给你两片。",
+    "effect": {
+      "items": {
+        "peach": 2
+      },
+      "coins": 2
+    }
   }
 ]

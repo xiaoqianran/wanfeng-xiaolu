@@ -1304,6 +1304,30 @@ function renderJournal() {
         ctx.fill();
       }
       ctx.globalAlpha = 1;
+    } else if (themeId === "lantern_bridge") {
+      // hanging lantern glows along a bridge arc
+      for (let i = 0; i < 8; i++) {
+        const t = i / 7;
+        const x = w * (0.12 + t * 0.76);
+        const y = h * 0.28 + Math.sin(t * Math.PI) * (h * 0.12);
+        const rg = ctx.createRadialGradient(x, y, 2, x, y, 18);
+        rg.addColorStop(0, "rgba(255,180,80,0.55)");
+        rg.addColorStop(1, "rgba(255,120,40,0)");
+        ctx.fillStyle = rg;
+        ctx.beginPath();
+        ctx.arc(x, y, 18, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.fillStyle = "rgba(255,200,100,0.7)";
+        ctx.beginPath();
+        ctx.arc(x, y + Math.sin(time * 0.05 + i) * 1.5, 3, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.strokeStyle = "rgba(120,100,80,0.25)";
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(w * 0.1, h * 0.55);
+      ctx.quadraticCurveTo(w * 0.5, h * 0.42, w * 0.9, h * 0.55);
+      ctx.stroke();
     }
   }
 
