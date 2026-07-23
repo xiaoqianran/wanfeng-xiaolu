@@ -59,3 +59,4 @@
 | 52 | completed | feat | Ship garden care whisper into runtime #4 | garden messages=57 careBonus=1.05 | `feat(garden): R0052 Ship garden care whisper into runtime #4` |
 | 53 | completed | feat | Ship shop tip + perfectBonus into runtime #4 | shop tips=57 perfectBonus=4 | `feat(shop): R0053 Ship shop tip + perfectBonus into runtime #4` |
 | 54 | completed | feat | Ship dialogue line into runtime #4 | dialogues=56 | `feat(content): R0054 Ship dialogue line into runtime #4` |
+| 55 | completed | feat | Ship journal template into runtime #4 | journal templates=57 | `feat(album): R0055 Ship journal template into runtime #4` |
