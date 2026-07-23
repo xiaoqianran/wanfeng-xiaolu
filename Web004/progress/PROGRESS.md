@@ -1019,3 +1019,4 @@
 | 1012 | completed | feat | Add flavor or base option #50 | Flavor fl_matcha_1012 | `feat(shop): R1012 Add flavor or base option #50` |
 | 1013 | completed | feat | UI copy toast string #50 | UI toasts=51 | `feat(ui): R1013 UI copy toast string #50` |
 | 1014 | completed | feat | Season palette note #50 | Season palette winter_1014 | `feat(season): R1014 Season palette note #50` |
+| 1015 | completed | assets | Asset slot registration #50 | Asset slot assets/walk/slot_1015.png | `assets(manifest): R1015 Asset slot registration #50` |
