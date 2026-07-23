@@ -6,3 +6,4 @@
 | Round | Status | Type | Goal | Outcome | Commit |
 |------:|--------|------|------|---------|--------|
 | 1 | completed | chore | Initialize gitignore and project meta | Added .gitignore and meta.json | `chore(repo): R0001 Initialize gitignore and project meta` |
+| 2 | completed | feat | Ship pure logic core and wire tests | Verified js/core.js pure logic export | `feat(core): R0002 Ship pure logic core and wire tests` |
