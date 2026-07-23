@@ -2462,6 +2462,13 @@
       "emoji": "🍇",
       "kind": "风味",
       "seed": "grapePot"
+    },
+    "persimmon": {
+      "id": "persimmon",
+      "name": "柿子",
+      "emoji": "🟠",
+      "kind": "风味",
+      "seed": "persimmonPot"
     }
   },
   "plants": {
@@ -4527,6 +4534,17 @@
       ],
       "harvest": "grape",
       "days": 3
+    },
+    "persimmonPot": {
+      "id": "persimmonPot",
+      "name": "柿子",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟠"
+      ],
+      "harvest": "persimmon",
+      "days": 3
     }
   },
   "cups": [
@@ -5511,6 +5529,16 @@
       "tags": [
         "果香",
         "甜蜜"
+      ]
+    },
+    {
+      "id": "persimmon",
+      "name": "柿子",
+      "emoji": "🟠",
+      "need": "persimmon",
+      "tags": [
+        "甜蜜",
+        "果香"
       ]
     }
   ],
@@ -6953,6 +6981,21 @@
         "honey",
         "mulberry",
         "blueberry"
+      ]
+    },
+    {
+      "name": "晒柿饼的阿婆",
+      "avatar": "🟠",
+      "wish": "柿子或蜜，甜暖一点，秋日更好。",
+      "tags": [
+        "甜蜜",
+        "温柔"
+      ],
+      "flavors": [
+        "persimmon",
+        "honey",
+        "peach",
+        "tea_leaf"
       ]
     }
   ],
