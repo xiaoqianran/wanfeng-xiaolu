@@ -204,3 +204,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0205 | completed | content | 雪灯事件 | 217 evening events | `docs(manual): A0204 手册补全十六主题与雪灯事件` |
 | A0206 | completed | feat | 雪灯与常走成就 | snow_walker fav_path achievements | `feat(meta): A0206 雪灯旅人与常走小路成就` |
 | A0207 | completed | test | 新成就回归 | 123 tests pass | `feat(meta): A0206 雪灯旅人与常走小路成就` |
+| A0208 | completed | content | 事件至232则 | 232 unique evening events | `content(world): A0208 事件二三二则与堆雪人客人` |
+| A0209 | completed | content | 堆雪人客人 | 堆小雪人的孩子 customer | `content(world): A0208 事件二三二则与堆雪人客人` |
