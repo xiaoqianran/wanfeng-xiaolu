@@ -485,3 +485,4 @@
 | 478 | completed | style | Ship CSS accent token used by app shell #39 | CSS --r-accent hue=206 wired to brand/primary | `style(ui): R0478 Ship CSS accent token used by app shell #39` |
 | 479 | completed | feat | Ship plantable seed linkage into runtime #39 | plant link plant_pear_0479 harvest=seed_pear_0479 | `feat(content): R0479 Ship plantable seed linkage into runtime #39` |
 | 480 | completed | assets | Wire real stage art reference into runtime manifest #39 | live art assets/walk/live_0480.jpg from assets/seasons/spring.jpg (≥1KB) | `assets(ui): R0480 Wire real stage art reference into runtime manifest #39` |
+| 481 | completed | feat | Ship collectible + runtime catalog item #40 | Runtime item lavender_r0481 | `feat(content): R0481 Ship collectible + runtime catalog item #40` |
