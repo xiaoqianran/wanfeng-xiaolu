@@ -251,3 +251,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0252 | completed | test | 潮间主题回归 | 133 tests pass | `feat(walk): A0251 潮间小湾主题与涟漪特效` |
 | A0253 | completed | fix | 事件标题去重 | dedupe 继续走; 306 unique titles | `fix(events): A0253 去重晚间标题并同步潮间手册` |
 | A0254 | completed | docs | 手册潮间 | USER_MANUAL tide_pool | `fix(events): A0253 去重晚间标题并同步潮间手册` |
+| A0255 | completed | feat | 海盐晶装饰 | salt_crystal topping + 潮湾盐汽水 | `feat(shop): A0255 海盐晶装饰与潮湾盐汽水` |
+| A0256 | completed | test | 海盐配方回归 | 134 tests pass | `feat(shop): A0255 海盐晶装饰与潮湾盐汽水` |
