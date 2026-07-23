@@ -1026,3 +1026,4 @@
 | 1019 | completed | feat | Ship plantable seed linkage into runtime #84 | plant link plant_pear_1019 harvest=seed_pear_1019 | `feat(content): R1019 Ship plantable seed linkage into runtime #84` |
 | 1020 | completed | assets | Wire real stage art reference into runtime manifest #84 | live art assets/walk/live_1020.jpg from assets/shop/night-window.jpg (≥1KB) | `assets(ui): R1020 Wire real stage art reference into runtime manifest #84` |
 | 1021 | completed | feat | Ship collectible + runtime catalog item #85 | Runtime item lavender_r1021 | `feat(content): R1021 Ship collectible + runtime catalog item #85` |
+| 1022 | completed | feat | Ship customer persona into runtime #85 | Runtime customer 织围巾的阿姨·1022 | `feat(shop): R1022 Ship customer persona into runtime #85` |
