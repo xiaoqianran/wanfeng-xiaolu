@@ -125,3 +125,4 @@
 | 118 | completed | feat | Topping or cup option #5 | Topping top_r0118 | `feat(content): R0118 Topping or cup option #5` |
 | 119 | completed | docs | Stage milestone summary #5 | Stage doc stage-03.md | `docs(progress): R0119 Stage milestone summary #5` |
 | 120 | completed | refactor | Catalog integrity pass #5 | Integrity items=11 customers=5 | `refactor(core): R0120 Catalog integrity pass #5` |
+| 121 | completed | feat | Add collectible item batch #6 | Item lavender_r0121 added | `feat(content): R0121 Add collectible item batch #6` |
