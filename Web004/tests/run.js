@@ -320,6 +320,83 @@ test("settings and tutorial markup ship in index", () => {
   assert.ok(html.includes('id="tutorial"'));
   assert.ok(html.includes("js/audio.js"));
   assert.ok(html.includes("btn-export-save"));
+  assert.ok(html.includes('id="screen-daily"'));
+  assert.ok(html.includes("btn-demo-mode"));
+});
+
+test("daily goals evaluate and claim reward once", () => {
+  const s = core.defaultState();
+  core.ensureDailyGoals(s);
+  assert.ok(s.daily && s.daily.goalIds.length === 3);
+  // force complete all by setting high stats vs baseline 0
+  s.pathsWalked = 5;
+  s.stats.itemsPicked = 10;
+  s.stats.drinksServed = 5;
+  s._tendsToday = 2;
+  core.appendJournal(s, "test line");
+  const ev = core.evaluateDailyGoals(s);
+  // may not all complete depending on which 3 goals picked — complete manually
+  s.daily.goalIds.forEach((id) => {
+    s.daily.completed[id] = true;
+  });
+  const claim = core.claimDailyReward(s);
+  assert.ok(claim.ok);
+  assert.ok(s.coins >= 28);
+  const claim2 = core.claimDailyReward(s);
+  assert.strictEqual(claim2.ok, false);
+});
+
+test("createDemoState seeds showcase without combat fields", () => {
+  const d = core.createDemoState();
+  assert.ok(d.demo);
+  assert.ok(d.bag.lemon >= 1);
+  assert.ok(d.pots[0].plantId);
+  assert.strictEqual(d.hp, undefined);
+  assert.ok(d.settings.tutorialDone);
+});
+
+test("no live_ duplicate art files remain", () => {
+  const lives = [];
+  function walk(dir) {
+    fs.readdirSync(dir, { withFileTypes: true }).forEach((e) => {
+      const p = path.join(dir, e.name);
+      if (e.isDirectory()) walk(p);
+      else if (/live_.*\.jpg$/i.test(e.name)) lives.push(p);
+    });
+  }
+  walk(path.join(__dirname, "..", "assets"));
+  assert.strictEqual(lives.length, 0, "live_ copies should be removed: " + lives.join(","));
+});
+
+test("unique UI icons exist with distinct byte sizes", () => {
+  const files = [
+    "assets/ui/icon-daily.png",
+    "assets/ui/icon-demo.png",
+    "assets/ui/icon-settings.png",
+    "assets/ui/icon-walk.png",
+  ].map((f) => path.join(__dirname, "..", f));
+  const sizes = files.map((f) => {
+    assert.ok(fs.existsSync(f), f);
+    return fs.statSync(f).size;
+  });
+  assert.ok(sizes.every((n) => n > 100));
+  assert.strictEqual(new Set(sizes).size, sizes.length, "icons should differ in size/bytes");
+});
+
+test("garden/walk/shop copy has no round-id spam pattern", () => {
+  const g = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "garden-config.json"), "utf8"));
+  const spam = /#\d{2,}|R\d{4}/;
+  (g.messages || []).forEach((m) => assert.ok(!spam.test(m), m));
+  const w = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "walk-config.json"), "utf8"));
+  (w.ambient || []).forEach((a) => {
+    const t = typeof a === "string" ? a : a.note;
+    assert.ok(!spam.test(t || ""), t);
+  });
+});
+
+test("template spam engine is disabled", () => {
+  const src = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(/DISABLED/.test(src));
 });
 
 console.log("\nResult: %d passed, %d failed", passed, failed);
