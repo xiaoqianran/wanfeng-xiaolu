@@ -206,3 +206,4 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0207 | completed | test | 新成就回归 | 123 tests pass | `feat(meta): A0206 雪灯旅人与常走小路成就` |
 | A0208 | completed | content | 事件至232则 | 232 unique evening events | `content(world): A0208 事件二三二则与堆雪人客人` |
 | A0209 | completed | content | 堆雪人客人 | 堆小雪人的孩子 customer | `content(world): A0208 事件二三二则与堆雪人客人` |
+| A0210 | completed | docs | 续作状态卡 | resume at 202 | `docs(autodev): A0210 续作说明 authentic 202` |
