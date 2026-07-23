@@ -556,6 +556,40 @@
     }, 1400);
   }
 
+  
+  function drawWeather(ctx, w, h, themeId, time) {
+    if (themeId === "riverside") {
+      ctx.strokeStyle = "rgba(200,220,240,0.35)";
+      ctx.lineWidth = 1;
+      for (let i = 0; i < 12; i++) {
+        const x = ((i * 73 + time * 0.4) % (w + 20)) - 10;
+        const y = (i * 37 + time * 0.8) % h;
+        ctx.beginPath();
+        ctx.moveTo(x, y);
+        ctx.lineTo(x - 2, y + 10);
+        ctx.stroke();
+      }
+    } else if (themeId === "starlight") {
+      ctx.fillStyle = "rgba(255,250,220,0.7)";
+      for (let i = 0; i < 18; i++) {
+        const x = (i * 97) % w;
+        const y = (i * 53) % (h * 0.45);
+        const tw = 0.5 + 0.5 * Math.sin(time * 0.05 + i);
+        ctx.globalAlpha = 0.3 + tw * 0.5;
+        ctx.beginPath();
+        ctx.arc(x, y, 1.2, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+    } else if (themeId === "bamboo") {
+      ctx.fillStyle = "rgba(40,60,40,0.06)";
+      for (let i = 0; i < 8; i++) {
+        const x = (i * w) / 8 + Math.sin(time * 0.02 + i) * 4;
+        ctx.fillRect(x, 0, 10, h * 0.7);
+      }
+    }
+  }
+
   function drawWalk() {
     if (!world) return;
     const w = canvas.clientWidth || 900;
@@ -573,6 +607,7 @@
     });
     ctx.fillStyle = sky;
     ctx.fillRect(0, 0, w, h);
+    drawWeather(ctx, w, h, world.themeId, world.time);
 
     // 太阳
     const sunX = w * 0.78;
