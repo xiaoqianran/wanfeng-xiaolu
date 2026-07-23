@@ -597,3 +597,4 @@
 | 590 | completed | style | CSS micro polish token #29 | CSS token hue=310 | `style(ui): R0590 CSS micro polish token #29` |
 | 591 | completed | feat | Add plantable linkage #29 | Plant link plant_cocoa_0591 | `feat(content): R0591 Add plantable linkage #29` |
 | 592 | completed | feat | Add flavor or base option #29 | Flavor fl_matcha_0592 | `feat(shop): R0592 Add flavor or base option #29` |
+| 593 | completed | feat | UI copy toast string #29 | UI toasts=30 | `feat(ui): R0593 UI copy toast string #29` |
