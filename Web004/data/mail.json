@@ -755,5 +755,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_grape",
+    "title": "干葡萄",
+    "body": "酿果汁的人来信：晒干也能入杯。给你一小把。",
+    "effect": {
+      "items": {
+        "grape": 2
+      },
+      "coins": 2
+    }
   }
 ]
