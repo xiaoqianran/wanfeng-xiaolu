@@ -245,6 +245,60 @@
     return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
   }
 
+  /**
+   * Soft daily special — season + day-key pick one flavor suggestion.
+   * Matching it on serve is a gentle tip, not a hard quest.
+   */
+  var DAILY_SPECIAL_BY_SEASON = {
+    spring: [
+      { flavor: "jasmine", label: "茉莉" },
+      { flavor: "honeysuckle", label: "金银花" },
+      { flavor: "chamomile", label: "洋甘菊" },
+      { flavor: "lilac", label: "丁香" },
+    ],
+    summer: [
+      { flavor: "mint", label: "薄荷" },
+      { flavor: "perilla", label: "紫苏" },
+      { flavor: "dill", label: "莳萝" },
+      { flavor: "matcha", label: "抹茶" },
+    ],
+    autumn: [
+      { flavor: "honey", label: "野蜜" },
+      { flavor: "peach", label: "水蜜桃" },
+      { flavor: "tea_leaf", label: "野茶" },
+      { flavor: "thyme", label: "百里香" },
+    ],
+    winter: [
+      { flavor: "tea_leaf", label: "野茶" },
+      { flavor: "yuzu", label: "柚子" },
+      { flavor: "honey", label: "野蜜" },
+      { flavor: "rosemary", label: "迷迭香" },
+    ],
+    dusk: [
+      { flavor: "lavender_bud", label: "薰衣草" },
+      { flavor: "jasmine", label: "茉莉" },
+      { flavor: "peach", label: "水蜜桃" },
+      { flavor: "mint", label: "薄荷" },
+    ],
+  };
+
+  function getDailySpecial(state, now) {
+    now = now || Date.now();
+    var key = dayKey(now);
+    var season = (state && state.season) || "dusk";
+    var pool = DAILY_SPECIAL_BY_SEASON[season] || DAILY_SPECIAL_BY_SEASON.dusk;
+    var sum = 0;
+    for (var i = 0; i < key.length; i++) sum = (sum * 33 + key.charCodeAt(i)) >>> 0;
+    var pick = pool[sum % pool.length];
+    return {
+      key: key,
+      season: season,
+      flavor: pick.flavor,
+      label: pick.label,
+      hint: "今日小特调方向：" + pick.label,
+    };
+  }
+
   function ensureDailyGoals(state, now) {
     now = now || Date.now();
     var key = dayKey(now);
@@ -406,6 +460,7 @@
     { id: "order_keeper", name: "记得口味", desc: "为常客复刻上次配方 1 次", check: function (s) { return (s.stats && s.stats.repeatOrders || 0) >= 1; } },
     { id: "early_walker", name: "今日第一脚", desc: "领取 3 次今日首次出门奖励", check: function (s) { return (s.stats && s.stats.firstWalks || 0) >= 3; } },
     { id: "sticker_collector", name: "贴纸收藏", desc: "获得 2 枚小路里程贴纸", check: function (s) { return Object.keys(s.pathStickers || {}).length >= 2; } },
+    { id: "daily_specialist", name: "今日特调手", desc: "按今日小特调出杯 3 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 3; } },
   ];
 
   function advanceSeason(state) {
@@ -883,7 +938,7 @@
       score += 0.5;
       notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5;
       notes.push("夏日清爽");
     }
@@ -921,13 +976,23 @@
       notes.push("似曾相识");
     }
 
+    // soft daily special (catalogs.dailySpecial.flavor)
+    var special = catalogs.dailySpecial;
+    if (special && special.flavor && flavorDef.id === special.flavor) {
+      score += 0.5;
+      notes.push("今日小特调");
+    }
+
     score = Math.min(5, score);
     var coins = ECONOMY.serveBase + Math.floor(score * ECONOMY.serveScoreMul);
     if (aff >= affThreshold) {
       coins += 1;
     }
+    if (special && special.flavor && flavorDef.id === special.flavor) {
+      coins += 1;
+    }
     var hearts = score >= 3 ? 1 : 0;
-    return { score: score, notes: notes, coins: coins, hearts: hearts, affinity: aff };
+    return { score: score, notes: notes, coins: coins, hearts: hearts, affinity: aff, dailySpecial: !!(special && special.flavor && flavorDef.id === special.flavor) };
   }
 
   function serveDrink(state, customer, craft, catalogs) {
@@ -959,6 +1024,9 @@
       return { ok: false, reason: "missing_topping" };
     }
 
+    catalogs = Object.assign({}, catalogs);
+    if (!catalogs.dailySpecial) catalogs.dailySpecial = getDailySpecial(state);
+    if (!catalogs.season) catalogs.season = state.season;
     var result = scoreDrink(customer, craft, catalogs);
     // Soft repeat-order memory for known guests
     var cname = customer && customer.name ? customer.name : null;
@@ -971,6 +1039,10 @@
       result.coins = (result.coins || 0) + 1;
       if (!state.stats) state.stats = {};
       state.stats.repeatOrders = (state.stats.repeatOrders || 0) + 1;
+    }
+    if (result.dailySpecial) {
+      if (!state.stats) state.stats = {};
+      state.stats.dailySpecialHits = (state.stats.dailySpecialHits || 0) + 1;
     }
     state.coins = (state.coins || 0) + result.coins;
     state.hearts = (state.hearts || 0) + result.hearts;
@@ -1214,6 +1286,8 @@ function recallGuestCraft(state, guestName) {
     importSave: importSave,
     DAILY_GOAL_DEFS: DAILY_GOAL_DEFS,
     dayKey: dayKey,
+    getDailySpecial: getDailySpecial,
+    DAILY_SPECIAL_BY_SEASON: DAILY_SPECIAL_BY_SEASON,
     ensureDailyGoals: ensureDailyGoals,
     evaluateDailyGoals: evaluateDailyGoals,
     claimDailyReward: claimDailyReward,

@@ -925,6 +925,26 @@
         ctx.fill();
         ctx.restore();
       }
+    } else if (themeId === "moon_well") {
+      // soft moon glow + well-ring glints
+      const mx = w * 0.78;
+      const my = h * 0.22;
+      const mg = ctx.createRadialGradient(mx, my, 4, mx, my, 50);
+      mg.addColorStop(0, "rgba(240,245,255,0.55)");
+      mg.addColorStop(1, "rgba(200,210,230,0)");
+      ctx.fillStyle = mg;
+      ctx.beginPath();
+      ctx.arc(mx, my, 50, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.strokeStyle = "rgba(180,200,220,0.2)";
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.ellipse(w * 0.35, h * 0.7, 40, 12, 0, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.fillStyle = "rgba(200,220,240,0.15)";
+      ctx.beginPath();
+      ctx.ellipse(w * 0.35, h * 0.7, 28, 8, 0, 0, Math.PI * 2);
+      ctx.fill();
     }
   }
 
@@ -1715,6 +1735,11 @@
     renderChoices("bases", BASES, "base", (b) => !b.need || hasItem(b.need));
     renderChoices("flavors", FLAVORS, "flavor", (f) => !f.need || hasItem(f.need));
     renderChoices("toppings", TOPPINGS, "topping", (t) => !t.need || hasItem(t.need));
+    const special = Core.getDailySpecial ? Core.getDailySpecial(state) : null;
+    const specialEl = document.getElementById("daily-special-hint");
+    if (specialEl && special) {
+      specialEl.textContent = special.hint + "（命中有小奖励）";
+    }
     updateDrinkPreview();
     renderShopShelf();
   }
@@ -1832,7 +1857,7 @@
     if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || baseDef.id === "floral_tea")) {
       score += 0.5; notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5; notes.push("夏日清爽");
     }
     if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf")) {
@@ -1859,8 +1884,21 @@
       score += 0.25;
       notes.push("似曾相识");
     }
+    const special = Core.getDailySpecial ? Core.getDailySpecial(state) : null;
+    let dailySpecial = false;
+    if (special && special.flavor && flavorDef.id === special.flavor) {
+      score += 0.5;
+      notes.push("今日小特调");
+      dailySpecial = true;
+    }
 
-    return { score: Math.min(5, score), notes, affinity: aff, affinityBonus: aff >= affThreshold };
+    return {
+      score: Math.min(5, score),
+      notes,
+      affinity: aff,
+      affinityBonus: aff >= affThreshold,
+      dailySpecial: dailySpecial,
+    };
   }
 
   document.getElementById("btn-serve").addEventListener("click", () => {
@@ -1900,6 +1938,11 @@
     let coins = 4 + Math.floor(score * 2);
     if (score >= 4) coins += perfectBonus;
     if (scored.affinityBonus) coins += 1;
+    if (scored.dailySpecial) {
+      coins += 1;
+      if (!state.stats) state.stats = {};
+      state.stats.dailySpecialHits = (state.stats.dailySpecialHits || 0) + 1;
+    }
     const hearts = score >= 3 ? 1 : 0;
     state.coins += coins;
     state.hearts += hearts;
