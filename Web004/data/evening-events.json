@@ -2559,5 +2559,35 @@
     "id": "ev_continue_osmanthus",
     "title": "继续走·又见桂院",
     "body": "第二次进桂花小院，香更熟，砖更暖。"
+  },
+  {
+    "id": "ev_sea_lavender",
+    "title": "补血草",
+    "body": "补血草比薰衣草更淡。你把它种在靠窗的位置。"
+  },
+  {
+    "id": "ev_seaside_dusk",
+    "title": "海边暮色",
+    "body": "天边的线被浪抹糊了。你站着看了一会儿，才继续走。"
+  },
+  {
+    "id": "ev_path_catalog_ui",
+    "title": "小路图鉴",
+    "body": "图鉴里多了一页小路。走过的路会亮起来，没走过的安静地等。"
+  },
+  {
+    "id": "ev_sea_guest",
+    "title": "捡浪花的人",
+    "body": "他说贝壳装饰刚刚好。你把杯子擦得更亮一点。"
+  },
+  {
+    "id": "ev_salt_air",
+    "title": "盐风",
+    "body": "风里有一点盐，不咸，只是清醒。"
+  },
+  {
+    "id": "ev_continue_sea",
+    "title": "继续走·又见海边",
+    "body": "第二次到海边，浪声换了节奏，沙还是软的。"
   }
 ]
