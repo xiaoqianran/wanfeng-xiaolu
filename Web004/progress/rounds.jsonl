@@ -48,3 +48,4 @@
 {"round":48,"status":"completed","type":"feat","scope":"shop","goal":"Add secret recipe stub #2","outcome":"Recipes=2","commit":"feat(shop): R0048 Add secret recipe stub #2","at":"2026-07-23T19:49:37.553Z"}
 {"round":49,"status":"completed","type":"feat","scope":"meta","goal":"Add achievement definition #2","outcome":"Achievements=2","commit":"feat(meta): R0049 Add achievement definition #2","at":"2026-07-23T19:49:37.575Z"}
 {"round":50,"status":"completed","type":"style","scope":"ui","goal":"CSS micro polish token #2","outcome":"CSS token hue=130","commit":"style(ui): R0050 CSS micro polish token #2","at":"2026-07-23T19:49:37.597Z"}
+{"round":51,"status":"completed","type":"feat","scope":"content","goal":"Add plantable linkage #2","outcome":"Plant link plant_cocoa_0051","commit":"feat(content): R0051 Add plantable linkage #2","at":"2026-07-23T19:49:37.658Z"}
