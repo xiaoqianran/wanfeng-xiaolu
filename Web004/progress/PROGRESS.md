@@ -853,3 +853,4 @@
 | 846 | completed | feat | Tune walk ambient note #42 | Walk ambient #42 | `feat(walk): R0846 Tune walk ambient note #42` |
 | 847 | completed | feat | Add journal template #42 | Journal templates=42 | `feat(album): R0847 Add journal template #42` |
 | 848 | completed | feat | Add secret recipe stub #42 | Recipes=42 | `feat(shop): R0848 Add secret recipe stub #42` |
+| 849 | completed | feat | Add achievement definition #42 | Achievements=42 | `feat(meta): R0849 Add achievement definition #42` |
