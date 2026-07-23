@@ -689,5 +689,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_sea_lavender",
+    "title": "一束补血草",
+    "body": "捡浪花的人来信：干花也能入杯。给你一小束。",
+    "effect": {
+      "items": {
+        "sea_lavender": 2
+      },
+      "coins": 2
+    }
   }
 ]

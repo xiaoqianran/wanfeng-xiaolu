@@ -1283,6 +1283,27 @@ function renderJournal() {
         ctx.fill();
       }
       ctx.globalAlpha = 1;
+    } else if (themeId === "seaside_dusk") {
+      // soft wave lines + salt sparkles
+      ctx.strokeStyle = "rgba(180,210,220,0.28)";
+      ctx.lineWidth = 1.5;
+      for (let i = 0; i < 5; i++) {
+        const y = h * 0.65 + i * 8 + Math.sin(time * 0.05 + i) * 2;
+        ctx.beginPath();
+        ctx.moveTo(0, y);
+        ctx.quadraticCurveTo(w * 0.5, y + 6, w, y);
+        ctx.stroke();
+      }
+      ctx.fillStyle = "rgba(255,255,240,0.55)";
+      for (let i = 0; i < 20; i++) {
+        const x = (i * 47 + time * 0.8) % w;
+        const y = h * 0.55 + ((i * 23) % (h * 0.3));
+        ctx.globalAlpha = 0.25 + 0.4 * Math.abs(Math.sin(time * 0.07 + i));
+        ctx.beginPath();
+        ctx.arc(x, y, 1.2, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
     }
   }
 
@@ -2238,7 +2259,7 @@ function renderJournal() {
     if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || flavorDef.id === "rose_petal" || flavorDef.id === "elderflower" || baseDef.id === "floral_tea")) {
       score += 0.5; notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5; notes.push("夏日清爽");
     }
     if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel" || flavorDef.id === "cardamom" || flavorDef.id === "ginger" || flavorDef.id === "calendula" || flavorDef.id === "chrysanthemum" || flavorDef.id === "hibiscus")) {
@@ -2633,6 +2654,35 @@ function renderJournal() {
         card.innerHTML = made
           ? `<div class="emoji">📜</div><div class="name">${r.name || "秘密汽水"}</div><div class="meta">${r.cup}/${r.base}/${r.flavor}${r.topping && r.topping !== "none" ? "/" + r.topping : ""} · 已解锁</div>`
           : `<div class="emoji">❔</div><div class="name">未发现的配方</div><div class="meta">提示：试试 ${r.flavor || "?"} 风味</div>`;
+        grid.appendChild(card);
+      });
+      return;
+    }
+
+    if (tab === "paths") {
+      const themes = PATH_THEMES || [];
+      const touched = state._themesTouched || {};
+      const fav = state.favoritePathThemeId;
+      const summary = document.createElement("div");
+      summary.className = "album-card memory-summary";
+      const n = Object.keys(touched).length;
+      summary.innerHTML = `
+        <div class="emoji">🛤️</div>
+        <div class="name">小路图鉴</div>
+        <div class="meta">已走过 ${n} / ${themes.length} · 常走：${fav || "未标记"}</div>
+      `;
+      grid.appendChild(summary);
+      themes.forEach((th) => {
+        if (!th || !th.id) return;
+        // skip mass template theme ids if any
+        if (/^theme_\d+/.test(th.id)) return;
+        const known = !!touched[th.id];
+        const card = document.createElement("div");
+        card.className = "album-card" + (known ? " done" : " locked");
+        const star = fav === th.id ? " ★" : "";
+        card.innerHTML = known
+          ? `<div class="emoji">${th.emoji || "🌿"}</div><div class="name">${th.name || th.id}${star}</div><div class="meta">${th.desc || "已走过"}</div>`
+          : `<div class="emoji">❔</div><div class="name">？？？</div><div class="meta">还没走过这条路</div>`;
         grid.appendChild(card);
       });
       return;
