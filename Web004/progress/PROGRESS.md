@@ -124,3 +124,4 @@
 | 117 | completed | feat | Path theme fragment #5 | Path themes=10 | `feat(walk): R0117 Path theme fragment #5` |
 | 118 | completed | feat | Topping or cup option #5 | Topping top_r0118 | `feat(content): R0118 Topping or cup option #5` |
 | 119 | completed | docs | Stage milestone summary #5 | Stage doc stage-03.md | `docs(progress): R0119 Stage milestone summary #5` |
+| 120 | completed | refactor | Catalog integrity pass #5 | Integrity items=11 customers=5 | `refactor(core): R0120 Catalog integrity pass #5` |
