@@ -316,3 +316,4 @@
 | 309 | completed | feat | Ship achievement milestone into runtime #25 | achievements=78 | `feat(meta): R0309 Ship achievement milestone into runtime #25` |
 | 310 | completed | style | Ship CSS accent token used by app shell #25 | CSS --r-accent hue=230 wired to brand/primary | `style(ui): R0310 Ship CSS accent token used by app shell #25` |
 | 311 | completed | feat | Ship plantable seed linkage into runtime #25 | plant link plant_feather_0311 harvest=seed_feather_0311 | `feat(content): R0311 Ship plantable seed linkage into runtime #25` |
+| 312 | completed | assets | Wire real stage art reference into runtime manifest #25 | live art assets/shop/live_0312.jpg from assets/garden/windowsill.jpg (≥1KB) | `assets(ui): R0312 Wire real stage art reference into runtime manifest #25` |

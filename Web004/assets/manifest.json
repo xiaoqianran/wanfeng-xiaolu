@@ -91,7 +91,8 @@
     "assets/ui/live_0264.jpg",
     "assets/garden/live_0276.jpg",
     "assets/album/live_0288.jpg",
-    "assets/walk/live_0300.jpg"
+    "assets/walk/live_0300.jpg",
+    "assets/shop/live_0312.jpg"
   ],
   "stages": {
     "home": [
@@ -215,6 +216,12 @@
         "path": "assets/shop/live_0252.jpg",
         "status": "live",
         "source": "assets/shop/cups-set.jpg"
+      },
+      {
+        "round": 312,
+        "path": "assets/shop/live_0312.jpg",
+        "status": "live",
+        "source": "assets/garden/windowsill.jpg"
       }
     ],
     "album": [
