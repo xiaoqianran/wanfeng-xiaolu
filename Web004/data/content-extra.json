@@ -5292,6 +5292,50 @@
         "peach",
         "berry"
       ]
+    },
+    {
+      "name": "画水彩的叔叔",
+      "avatar": "🖌️",
+      "wish": "颜色清一点，像雾散开后的河。",
+      "tags": [
+        "清爽",
+        "温柔"
+      ],
+      "flavors": [
+        "mint",
+        "bluebell",
+        "plain",
+        "lemon"
+      ]
+    },
+    {
+      "name": "等渡船的旅人",
+      "avatar": "🚢",
+      "wish": "随便什么，最好有一点咸湿的想象——装饰贝壳更好。",
+      "tags": [
+        "清爽",
+        "田园"
+      ],
+      "flavors": [
+        "plain",
+        "mint",
+        "honey"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "织围巾的奶奶",
+      "avatar": "🧶",
+      "wish": "暖一点的茶底，蜜或桃都行。",
+      "tags": [
+        "温柔",
+        "甜蜜"
+      ],
+      "flavors": [
+        "honey",
+        "peach",
+        "tea_leaf"
+      ]
     }
   ],
   "dialogues": [

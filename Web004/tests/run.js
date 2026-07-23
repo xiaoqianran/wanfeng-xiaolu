@@ -1214,5 +1214,21 @@ test("bluebell plantable wheat topping and topbar can pill", () => {
   assert.strictEqual(new Set(mail.map((m) => m.id)).size, mail.length);
 });
 
+
+test("mist_bridge theme unique and customers expand", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "mist_bridge"));
+  assert.ok(themes.length >= 12);
+  const ids = themes.map((th) => th.id);
+  assert.strictEqual(new Set(ids).size, ids.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("mist_bridge"));
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok((j.customers || []).some((c) => c.name === "织围巾的奶奶"));
+  assert.ok((j.customers || []).length >= 24);
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "雾桥薄荷罐"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

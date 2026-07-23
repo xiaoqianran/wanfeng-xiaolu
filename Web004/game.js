@@ -788,6 +788,15 @@
         ctx.ellipse(x, y, 3.5, 2.2, Math.sin(time * 0.03 + i), 0, Math.PI * 2);
         ctx.fill();
       }
+    } else if (themeId === "mist_bridge") {
+      // soft fog bands
+      for (let i = 0; i < 5; i++) {
+        const y = h * 0.35 + i * 18 + Math.sin(time * 0.02 + i) * 4;
+        ctx.fillStyle = "rgba(220,228,235," + (0.08 + i * 0.03) + ")";
+        ctx.beginPath();
+        ctx.ellipse(w * 0.5, y, w * 0.55, 16, 0, 0, Math.PI * 2);
+        ctx.fill();
+      }
     }
   }
 
