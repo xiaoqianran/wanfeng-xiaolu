@@ -865,5 +865,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_pineapple",
+    "title": "菠萝干",
+    "body": "切菠萝的人来信：晒干也能入杯。给你一小包。",
+    "effect": {
+      "items": {
+        "pineapple": 2
+      },
+      "coins": 2
+    }
   }
 ]
