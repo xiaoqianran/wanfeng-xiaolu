@@ -2420,6 +2420,13 @@
       "emoji": "🌲",
       "kind": "风味",
       "seed": "pineNeedlePot"
+    },
+    "plum": {
+      "id": "plum",
+      "name": "李子",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "plumPot"
     }
   },
   "plants": {
@@ -4430,6 +4437,17 @@
       ],
       "harvest": "pine_needle",
       "days": 3
+    },
+    "plumPot": {
+      "id": "plumPot",
+      "name": "李子",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "plum",
+      "days": 3
     }
   },
   "cups": [
@@ -5364,6 +5382,16 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "plum",
+      "name": "李子",
+      "emoji": "🟣",
+      "need": "plum",
+      "tags": [
+        "果香",
+        "甜蜜"
       ]
     }
   ],
@@ -6729,6 +6757,21 @@
         "tea_leaf",
         "mint",
         "sage"
+      ]
+    },
+    {
+      "name": "晒李子的阿姨",
+      "avatar": "🟣",
+      "wish": "李子或蜜，酸甜一点，田园杯子更好。",
+      "tags": [
+        "甜蜜",
+        "田园"
+      ],
+      "flavors": [
+        "plum",
+        "honey",
+        "peach",
+        "berry"
       ]
     }
   ],
