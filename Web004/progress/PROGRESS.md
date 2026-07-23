@@ -256,3 +256,4 @@
 | 249 | completed | feat | Ship achievement milestone into runtime #20 | achievements=73 | `feat(meta): R0249 Ship achievement milestone into runtime #20` |
 | 250 | completed | style | Ship CSS accent token used by app shell #20 | CSS --r-accent hue=290 wired to brand/primary | `style(ui): R0250 Ship CSS accent token used by app shell #20` |
 | 251 | completed | feat | Ship plantable seed linkage into runtime #20 | plant link plant_feather_0251 harvest=seed_feather_0251 | `feat(content): R0251 Ship plantable seed linkage into runtime #20` |
+| 252 | completed | assets | Wire real stage art reference into runtime manifest #20 | live art assets/shop/live_0252.jpg from assets/shop/cups-set.jpg (≥1KB) | `assets(ui): R0252 Wire real stage art reference into runtime manifest #20` |
