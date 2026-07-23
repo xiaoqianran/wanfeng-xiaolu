@@ -87,3 +87,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0087 | completed | feat | 薰衣草种植 | lavender_bud + lavenderPot | `feat(garden): A0087 薰衣草蕾可拾取种植与花香风味` |
 | A0088 | completed | feat | 屋檐听雨主题 | rain_eaves 8th theme + rain FX | `feat(walk): A0088 屋檐听雨主题与细雨特效` |
 | A0089 | completed | feat | 出杯星级反馈 | scoreStars toast | `feat(shop): A0089 出杯结果星级软反馈` |
+| A0090 | completed | feat | 新成就与主题足迹 | gentle_rest theme_walker mail_reader + _themesTouched | `feat(meta): A0090 休息主题拆信新成就与主题足迹` |
+| A0091 | completed | feat | 山茶种植 | camellia item+plant+topping | `feat(garden): A0091 山茶花瓣可拾取种植与装饰` |
+| A0092 | completed | docs | 手册同步新功能 | USER_MANUAL rest keys settings | `docs(manual): A0092 玩家手册同步休息快捷键与新设置` |
