@@ -1410,5 +1410,17 @@ test("evening events past 150 unique", () => {
   });
 });
 
+
+test("matcha flavor and 竹影抹茶 recipe ship", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.matcha);
+  assert.ok((j.flavors || []).some((f) => f.id === "matcha"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "竹影抹茶"));
+  assert.ok((j.customers || []).some((c) => c.name === "练字的学生"));
+  const code = fs.readFileSync(path.join(__dirname, "..", "js", "content-extra.js"), "utf8");
+  assert.ok(code.includes("matcha"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

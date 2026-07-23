@@ -2182,6 +2182,13 @@
       "emoji": "🍬",
       "kind": "装饰",
       "seed": null
+    },
+    "matcha": {
+      "id": "matcha",
+      "name": "抹茶粉",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": null
     }
   },
   "plants": {
@@ -4591,6 +4598,16 @@
         "花香",
         "温柔"
       ]
+    },
+    {
+      "id": "matcha",
+      "name": "抹茶",
+      "emoji": "🟢",
+      "need": "matcha",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
     }
   ],
   "toppings": [
@@ -5456,6 +5473,21 @@
         "rosemary",
         "bluebell",
         "plain"
+      ]
+    },
+    {
+      "name": "练字的学生",
+      "avatar": "✒️",
+      "wish": "抹茶或茶底，清淡一点，像墨还没干。",
+      "tags": [
+        "清爽",
+        "温柔"
+      ],
+      "flavors": [
+        "matcha",
+        "tea_leaf",
+        "plain",
+        "mint"
       ]
     }
   ],
