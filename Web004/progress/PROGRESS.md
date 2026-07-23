@@ -198,3 +198,4 @@
 | 191 | completed | feat | Ship plantable seed linkage into runtime #15 | plant link plant_feather_0191 harvest=seed_feather_0191 | `feat(content): R0191 Ship plantable seed linkage into runtime #15` |
 | 192 | completed | assets | Wire real stage art reference into runtime manifest #15 | live art assets/shop/live_0192.jpg from assets/ui/achievements-badges.jpg (≥1KB) | `assets(ui): R0192 Wire real stage art reference into runtime manifest #15` |
 | 193 | completed | feat | Ship collectible + runtime catalog item #16 | Runtime item osmanthus_r0193 | `feat(content): R0193 Ship collectible + runtime catalog item #16` |
+| 194 | completed | feat | Ship customer persona into runtime #16 | Runtime customer 弹尤克里里的人·194 | `feat(shop): R0194 Ship customer persona into runtime #16` |
