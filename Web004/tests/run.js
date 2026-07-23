@@ -2400,5 +2400,39 @@ test("plum plantable plum_path 40 unique themes", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+
+test("variety tend mulberry_lane 41 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.mulberry && j.plants.mulberryPot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  // three different plants for variety
+  core.addItem(s, "mint", 1);
+  core.plantSeed(s, 0, "mint");
+  s.bag = Object.assign(s.bag || {}, { mulberry: 1 });
+  // plant mulberry via catalog
+  assert.ok(core.plantSeed(s, 1, "mulberry", cat).ok);
+  s.pots[2].plantId = "lavenderPot";
+  s.pots[2].water = 40;
+  s.pots[2].sun = 40;
+  s.pots[2].mood = 50;
+  s.pots[2].growth = 0;
+  const t = core.tend(s, 0, "water");
+  assert.ok(t.ok && t.variety);
+  assert.ok((s.stats.varietyTends || 0) >= 1);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "variety_gardener"));
+
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "mulberry_lane"));
+  assert.ok(themes.length >= 41);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("mulberry_lane"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "桑葚蜜罐"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("桑荫小径") && man.includes("多样窗台"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
