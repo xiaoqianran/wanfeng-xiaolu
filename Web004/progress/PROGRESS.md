@@ -145,3 +145,4 @@
 | 138 | completed | feat | Topping or cup option #6 | Topping top_r0138 | `feat(content): R0138 Topping or cup option #6` |
 | 139 | completed | docs | Stage milestone summary #6 | Stage doc stage-03.md | `docs(progress): R0139 Stage milestone summary #6` |
 | 140 | completed | refactor | Catalog integrity pass #6 | Integrity items=13 customers=6 | `refactor(core): R0140 Catalog integrity pass #6` |
+| 141 | completed | feat | Add collectible item batch #7 | Item cocoa_r0141 added | `feat(content): R0141 Add collectible item batch #7` |
