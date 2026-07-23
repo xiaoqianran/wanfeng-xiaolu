@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 330,
+  "current_round": 334,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 324,
-  "authentic_game_integrated_rounds": 227,
+  "authentic_rounds_completed": 328,
+  "authentic_game_integrated_rounds": 230,
   "template_spam_archived": true,
-  "current_milestone": "authentic rebuild A0327+",
-  "current_task_id": "A0332-next",
-  "last_completed_task_id": "A0331",
-  "last_commit": "a878ea9",
+  "current_milestone": "authentic rebuild A0332+",
+  "current_task_id": "A0336-next",
+  "last_completed_task_id": "A0335",
+  "last_commit": "pending",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "158 passed, 0 failed",
+  "last_test_summary": "159 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~676) multi-session"
+    "gap to 1000 authentic (~672) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -34,6 +34,6 @@
     "mail batch",
     "shop polish"
   ],
-  "resume_instructions": "Continue A0331+. Spam DISABLED. authentic-rounds.jsonl SoT.",
-  "updated_at": "2026-07-23T22:54:59.755506+00:00"
+  "resume_instructions": "Continue A0336+. Spam DISABLED. authentic-rounds.jsonl SoT. All three pillars active.",
+  "updated_at": "2026-07-23T22:56:53.366426+00:00"
 }

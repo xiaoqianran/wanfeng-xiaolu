@@ -328,3 +328,7 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0329 | completed | content | 紫花荷塘事件配方 | events+recipes | content(events): A0329 紫罗兰荷塘 vignette 与配方 |
 | A0330 | completed | test | 回归手册 | 158 pass | test(docs): A0330 紫罗兰荷塘回归与手册 |
 | A0331 | completed | fix | 春日紫罗兰评分 | violet spring bonus | fix(shop): A0331 春日评分纳入紫罗兰 |
+| A0332 | completed | feat | 花盆对调金盏 | swapPots+calendulaPot | feat(garden): A0332 花盆对调与金盏花 |
+| A0333 | completed | feat | 风铃廊 | wind_chime 27th + swap UI | feat(walk): A0333 风铃廊主题与对调 UI |
+| A0334 | completed | content | 金盏风铃内容 | events+recipes | content(events): A0334 金盏风铃 vignette 与配方 |
+| A0335 | completed | test | 回归手册 | 159 pass | test(docs): A0335 对调风铃回归与手册 |
