@@ -141,3 +141,4 @@
 | 134 | completed | feat | Season palette note #6 | Season palette winter_0134 | `feat(season): R0134 Season palette note #6` |
 | 135 | completed | assets | Asset slot registration #6 | Asset slot assets/walk/slot_0135.png | `assets(manifest): R0135 Asset slot registration #6` |
 | 136 | completed | test | Regression assertion pack #6 | Test pack size=8 | `test(core): R0136 Regression assertion pack #6` |
+| 137 | completed | feat | Path theme fragment #6 | Path themes=11 | `feat(walk): R0137 Path theme fragment #6` |
