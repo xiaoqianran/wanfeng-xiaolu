@@ -427,3 +427,4 @@
 | 420 | completed | assets | Wire real stage art reference into runtime manifest #34 | live art assets/walk/live_0420.jpg from assets/scenes/walk-path.jpg (≥1KB) | `assets(ui): R0420 Wire real stage art reference into runtime manifest #34` |
 | 421 | completed | feat | Ship collectible + runtime catalog item #35 | Runtime item lavender_r0421 | `feat(content): R0421 Ship collectible + runtime catalog item #35` |
 | 422 | completed | feat | Ship customer persona into runtime #35 | Runtime customer 织围巾的阿姨·422 | `feat(shop): R0422 Ship customer persona into runtime #35` |
+| 423 | completed | feat | Ship walk ambient + pathWidth into runtime #35 | walk pathWidth=3223 ambient=87 | `feat(walk): R0423 Ship walk ambient + pathWidth into runtime #35` |
