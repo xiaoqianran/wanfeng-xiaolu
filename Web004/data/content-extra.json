@@ -4011,6 +4011,18 @@
       "name": "纸托杯",
       "emoji": "🥤",
       "vibe": "清爽"
+    },
+    {
+      "id": "clay",
+      "name": "粗陶杯",
+      "emoji": "🧉",
+      "vibe": "田园"
+    },
+    {
+      "id": "enamel",
+      "name": "搪瓷杯",
+      "emoji": "☕",
+      "vibe": "温柔"
     }
   ],
   "bases": [
