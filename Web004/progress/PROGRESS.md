@@ -827,3 +827,4 @@
 | 820 | completed | refactor | Catalog integrity pass #40 | Integrity items=81 customers=40 | `refactor(core): R0820 Catalog integrity pass #40` |
 | 821 | completed | feat | Add collectible item batch #41 | Item pine_r0821 added | `feat(content): R0821 Add collectible item batch #41` |
 | 822 | completed | feat | Add customer persona #41 | Customer 滑板少年·822 | `feat(shop): R0822 Add customer persona #41` |
+| 823 | completed | feat | Add dialogue line #41 | Dialogue count=41 | `feat(content): R0823 Add dialogue line #41` |
