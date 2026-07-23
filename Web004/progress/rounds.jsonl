@@ -459,3 +459,4 @@
 {"round":459,"status":"completed","type":"docs","scope":"progress","goal":"Stage milestone summary #22","outcome":"Stage doc stage-10.md","commit":"docs(progress): R0459 Stage milestone summary #22","at":"2026-07-23T19:49:56.917Z"}
 {"round":460,"status":"completed","type":"refactor","scope":"core","goal":"Catalog integrity pass #22","outcome":"Integrity items=45 customers=22","commit":"refactor(core): R0460 Catalog integrity pass #22","at":"2026-07-23T19:49:56.943Z"}
 {"round":461,"status":"completed","type":"feat","scope":"content","goal":"Add collectible item batch #23","outcome":"Item pine_r0461 added","commit":"feat(content): R0461 Add collectible item batch #23","at":"2026-07-23T19:49:56.966Z"}
+{"round":462,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #23","outcome":"Customer 滑板少年·462","commit":"feat(shop): R0462 Add customer persona #23","at":"2026-07-23T19:49:56.990Z"}
