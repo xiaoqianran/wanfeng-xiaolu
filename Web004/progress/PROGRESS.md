@@ -169,3 +169,4 @@
 | 162 | completed | feat | Ship dialogue line into runtime #13 | dialogues=65 | `feat(content): R0162 Ship dialogue line into runtime #13` |
 | 163 | completed | feat | Ship journal template into runtime #13 | journal templates=66 | `feat(album): R0163 Ship journal template into runtime #13` |
 | 164 | completed | feat | Ship secret recipe into runtime #13 | secret recipes=66 | `feat(shop): R0164 Ship secret recipe into runtime #13` |
+| 165 | completed | feat | Ship achievement milestone into runtime #13 | achievements=66 | `feat(meta): R0165 Ship achievement milestone into runtime #13` |
