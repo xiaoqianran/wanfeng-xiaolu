@@ -269,3 +269,4 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0270 | completed | feat | 蝉鸣疏林主题 | cicada_grove 20th + leaf FX | `feat(walk): A0270 蝉鸣疏林主题与叶影特效` |
 | A0271 | completed | test | 蝉鸣主题回归 | 138 tests pass | `feat(walk): A0270 蝉鸣疏林主题与叶影特效` |
 | A0272 | completed | docs | 手册蝉鸣与测试报告 | USER_MANUAL + TEST_REPORT 264 | `docs(manual): A0272 手册蝉鸣主题与测试报告 264` |
+| A0273 | completed | content | 蝉林内容 | customer+recipe+329 events | `content(world): A0273 蝉林客人配方与事件三二九则` |
