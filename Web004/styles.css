@@ -831,6 +831,52 @@ body.reduce-motion *::after {
 }
 
 /* ===== Album ===== */
+.album-kind-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: -4px 0 14px;
+}
+.kind-chip {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+.kind-chip.active {
+  background: linear-gradient(135deg, #c9a87c, #a88858);
+  color: #fff;
+  border-color: transparent;
+}
+.shop-shelf {
+  margin-top: 12px;
+}
+.shelf-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+.shelf-cup {
+  min-width: 72px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: rgba(255, 250, 240, 0.85);
+  border: 1px dashed var(--line);
+  text-align: center;
+  font-size: 0.8rem;
+}
+.shelf-cup .emoji { font-size: 1.4rem; display: block; }
+/* pot season tints */
+.pot-slot.season-spring { box-shadow: 0 0 0 2px rgba(160, 210, 140, 0.45); }
+.pot-slot.season-summer { box-shadow: 0 0 0 2px rgba(255, 210, 100, 0.4); }
+.pot-slot.season-autumn { box-shadow: 0 0 0 2px rgba(220, 140, 80, 0.4); }
+.pot-slot.season-winter { box-shadow: 0 0 0 2px rgba(160, 190, 220, 0.45); }
+.pot-slot.season-dusk { box-shadow: 0 0 0 2px rgba(200, 140, 160, 0.35); }
+
 .album-tabs {
   display: flex;
   gap: 8px;

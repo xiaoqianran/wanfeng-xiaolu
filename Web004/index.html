@@ -310,6 +310,11 @@
             </div>
             <button class="ghost-btn" id="btn-skip-customer">下一位客人</button>
           </div>
+          <div class="side-card shop-shelf" id="shop-shelf" aria-label="今日展示架">
+            <h3>今日展示架</h3>
+            <p class="muted" id="shop-shelf-empty">端出的汽水会在这里留个影子。</p>
+            <div class="shelf-row" id="shop-shelf-row"></div>
+          </div>
 
           <div class="craft-board">
             <div class="craft-col">
@@ -356,6 +361,13 @@
           <button class="tab" data-tab="plants">盆栽</button>
           <button class="tab" data-tab="drinks">汽水</button>
           <button class="tab" data-tab="recipes">秘密配方</button>
+        </div>
+        <div class="album-kind-filters" id="album-kind-filters" hidden>
+          <button type="button" class="kind-chip active" data-kind="all">全部</button>
+          <button type="button" class="kind-chip" data-kind="装饰">装饰</button>
+          <button type="button" class="kind-chip" data-kind="风味">风味</button>
+          <button type="button" class="kind-chip" data-kind="基底">基底</button>
+          <button type="button" class="kind-chip" data-kind="收藏">收藏</button>
         </div>
         <div class="album-grid" id="album-grid"></div>
       </section>

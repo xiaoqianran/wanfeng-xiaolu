@@ -1066,9 +1066,10 @@
   function renderGarden() {
     const sill = document.getElementById("windowsill");
     sill.innerHTML = "";
+    const seasonClass = "season-" + (state.season || "dusk");
     state.pots.forEach((pot, i) => {
       const slot = document.createElement("div");
-      slot.className = "pot-slot" + (pot.plantId ? "" : " pot-empty") + (state.selectedPot === i ? " selected" : "");
+      slot.className = "pot-slot" + (pot.plantId ? "" : " pot-empty") + (state.selectedPot === i ? " selected" : "") + " " + seasonClass;
       if (pot.plantId && pot.mood > 50) slot.classList.add("happy");
 
       let visual = "＋";
@@ -1414,6 +1415,7 @@
     renderChoices("flavors", FLAVORS, "flavor", (f) => !f.need || hasItem(f.need));
     renderChoices("toppings", TOPPINGS, "topping", (t) => !t.need || hasItem(t.need));
     updateDrinkPreview();
+    renderShopShelf();
   }
 
   function renderChoices(elId, list, key, canUse) {
@@ -1519,7 +1521,7 @@
       notes.push("杯子选得好");
     }
     const season = state.season || "dusk";
-    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || baseDef.id === "floral_tea")) {
+    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || baseDef.id === "floral_tea")) {
       score += 0.5; notes.push("春日花香");
     }
     if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
@@ -1645,6 +1647,19 @@
       state.customerAffinity[cname] = (state.customerAffinity[cname] || 0) + 1;
     }
 
+    // 今日展示架：保留最近 3 杯影子
+    if (!state.shelfDrinks) state.shelfDrinks = [];
+    state.shelfDrinks.push({
+      key: drinkKey,
+      cup: cup,
+      base: base,
+      flavor: flavor,
+      topping: topping || "none",
+      score: score,
+      at: Date.now(),
+    });
+    if (state.shelfDrinks.length > 3) state.shelfDrinks = state.shelfDrinks.slice(-3);
+
     // 重置部分配方，换客人
     state.craft = { cup: state.craft.cup, base: null, flavor: null, topping: null };
     state.customer = randomCustomer();
@@ -1664,8 +1679,32 @@
     toast("下一位客人走来了");
   });
 
+  function renderShopShelf() {
+    const row = document.getElementById("shop-shelf-row");
+    const empty = document.getElementById("shop-shelf-empty");
+    if (!row) return;
+    const list = state.shelfDrinks || [];
+    row.innerHTML = "";
+    if (!list.length) {
+      if (empty) empty.hidden = false;
+      return;
+    }
+    if (empty) empty.hidden = true;
+    list.slice().reverse().forEach((d) => {
+      const flavorDef = FLAVORS.find((f) => f.id === d.flavor);
+      const cupDef = CUPS.find((c) => c.id === d.cup);
+      const el = document.createElement("div");
+      el.className = "shelf-cup";
+      el.innerHTML =
+        `<span class="emoji">${(flavorDef && flavorDef.emoji) || (cupDef && cupDef.emoji) || "🥂"}</span>` +
+        `<span>${(flavorDef && flavorDef.name) || d.flavor}</span>`;
+      row.appendChild(el);
+    });
+  }
+
   // ---------- 图鉴 ----------
   let currentAlbumTab = "items";
+  let albumKindFilter = "all";
 
   document.querySelectorAll(".album-tabs .tab").forEach((tab) => {
     tab.addEventListener("click", () => {
@@ -1676,9 +1715,24 @@
     });
   });
 
+  (function wireAlbumKindFilters() {
+    const box = document.getElementById("album-kind-filters");
+    if (!box || box._wired) return;
+    box._wired = true;
+    box.addEventListener("click", (e) => {
+      const chip = e.target.closest("[data-kind]");
+      if (!chip) return;
+      albumKindFilter = chip.dataset.kind || "all";
+      box.querySelectorAll(".kind-chip").forEach((c) => c.classList.toggle("active", c === chip));
+      renderAlbum(currentAlbumTab);
+    });
+  })();
+
   function renderAlbum(tab) {
     const grid = document.getElementById("album-grid");
     grid.innerHTML = "";
+    const kindBox = document.getElementById("album-kind-filters");
+    if (kindBox) kindBox.hidden = tab !== "items";
 
     if (tab === "recipes") {
       if (!secretRecipes.length) {
@@ -1700,24 +1754,39 @@
     }
 
     if (tab === "items") {
-      Object.values(ITEMS).forEach((it) => {
+      // Prefer unique non-spam items: drop mass seed_* / *_r#### template ids for display
+      const list = Object.values(ITEMS).filter((it) => {
+        if (!it || !it.id) return false;
+        if (/^seed_/.test(it.id) || /_r\d{3,}/.test(it.id)) return false;
+        if (albumKindFilter !== "all" && it.kind !== albumKindFilter) return false;
+        return true;
+      });
+      if (!list.length) {
+        grid.innerHTML =
+          '<div class="album-card"><div class="emoji">🧺</div><div class="name">这一类还空着</div><div class="meta">换个筛选或去小路走走</div></div>';
+        return;
+      }
+      list.forEach((it) => {
         const known = state.discovered[it.id];
         const count = state.bag[it.id] || 0;
         const card = document.createElement("div");
         card.className = "album-card" + (known ? "" : " locked");
         card.innerHTML = known
           ? `<div class="emoji">${it.emoji}</div><div class="name">${it.name}</div><div class="meta">${it.kind} · 持有 ${count}${it.seed ? " · 可种植" : ""}</div>`
-          : `<div class="emoji">❔</div><div class="name">？？？</div><div class="meta">还没遇见</div>`;
+          : `<div class="emoji">❔</div><div class="name">？？？</div><div class="meta">${it.kind || "收集"} · 还没遇见</div>`;
         grid.appendChild(card);
       });
     } else if (tab === "plants") {
-      Object.values(PLANTS).forEach((p) => {
+      Object.values(PLANTS)
+        .filter((p) => p && p.id && !/^plant_/.test(p.id) && !/_\d{3,}/.test(p.id))
+        .forEach((p) => {
         const growing = state.pots.some((pot) => pot.plantId === p.id);
         const ever = growing || state.discovered[p.harvest];
         const card = document.createElement("div");
         card.className = "album-card" + (ever ? "" : " locked");
+        const harvestName = ITEMS[p.harvest] ? ITEMS[p.harvest].emoji + ITEMS[p.harvest].name : p.harvest;
         card.innerHTML = ever
-          ? `<div class="emoji">${p.emoji[2]}</div><div class="name">${p.name}</div><div class="meta">收获 ${ITEMS[p.harvest].emoji}${ITEMS[p.harvest].name}${growing ? " · 培育中" : ""}</div>`
+          ? `<div class="emoji">${(p.emoji && p.emoji[2]) || "🪴"}</div><div class="name">${p.name}</div><div class="meta">收获 ${harvestName}${growing ? " · 培育中" : ""}</div>`
           : `<div class="emoji">❔</div><div class="name">？？？</div><div class="meta">种下后解锁</div>`;
         grid.appendChild(card);
       });
