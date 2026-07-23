@@ -803,3 +803,4 @@
 | 796 | completed | feat | Ship garden care whisper into runtime #66 | garden messages=119 careBonus=1.05 | `feat(garden): R0796 Ship garden care whisper into runtime #66` |
 | 797 | completed | feat | Ship shop tip + perfectBonus into runtime #66 | shop tips=119 perfectBonus=4 | `feat(shop): R0797 Ship shop tip + perfectBonus into runtime #66` |
 | 798 | completed | feat | Ship dialogue line into runtime #66 | dialogues=118 | `feat(content): R0798 Ship dialogue line into runtime #66` |
+| 799 | completed | feat | Ship journal template into runtime #66 | journal templates=119 | `feat(album): R0799 Ship journal template into runtime #66` |
