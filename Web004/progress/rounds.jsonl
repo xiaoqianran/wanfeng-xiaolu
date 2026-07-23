@@ -296,3 +296,4 @@
 {"round":296,"status":"completed","type":"test","scope":"core","goal":"Regression assertion pack #14","outcome":"Test pack size=16","commit":"test(core): R0296 Regression assertion pack #14","at":"2026-07-23T19:49:52.566Z"}
 {"round":297,"status":"completed","type":"feat","scope":"walk","goal":"Path theme fragment #14","outcome":"Path themes=19","commit":"feat(walk): R0297 Path theme fragment #14","at":"2026-07-23T19:49:52.587Z"}
 {"round":298,"status":"completed","type":"feat","scope":"content","goal":"Topping or cup option #14","outcome":"Topping top_r0298","commit":"feat(content): R0298 Topping or cup option #14","at":"2026-07-23T19:49:52.607Z"}
+{"round":299,"status":"completed","type":"docs","scope":"progress","goal":"Stage milestone summary #14","outcome":"Stage doc stage-06.md","commit":"docs(progress): R0299 Stage milestone summary #14","at":"2026-07-23T19:49:52.627Z"}
