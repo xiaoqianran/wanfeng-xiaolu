@@ -73,3 +73,4 @@
 | 66 | completed | feat | Tune walk ambient note #3 | Walk ambient #3 | `feat(walk): R0066 Tune walk ambient note #3` |
 | 67 | completed | feat | Add journal template #3 | Journal templates=3 | `feat(album): R0067 Add journal template #3` |
 | 68 | completed | feat | Add secret recipe stub #3 | Recipes=3 | `feat(shop): R0068 Add secret recipe stub #3` |
+| 69 | completed | feat | Add achievement definition #3 | Achievements=3 | `feat(meta): R0069 Add achievement definition #3` |
