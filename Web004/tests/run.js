@@ -1297,5 +1297,20 @@ test("evening events past 110 unique hand authored", () => {
   });
 });
 
+
+test("unique can pin firefly icons wired with distinct sizes", () => {
+  const files = ["icon-can.png", "icon-pin.png", "icon-firefly.png"].map((f) =>
+    path.join(__dirname, "..", "assets", "ui", f)
+  );
+  const sizes = files.map((f) => {
+    assert.ok(fs.existsSync(f), f);
+    return fs.statSync(f).size;
+  });
+  assert.ok(sizes.every((n) => n > 100));
+  assert.strictEqual(new Set(sizes).size, sizes.length);
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("icon-can.png") && html.includes("icon-pin.png"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
