@@ -2204,5 +2204,35 @@ test("companion tend marjoram cliff_path", () => {
   assert.ok(man.includes("崖边慢径") && man.includes("邻盆作伴"));
 });
 
+
+test("openCalm serve elderflower willow_bank", () => {
+  const s = core.defaultState();
+  s.bag = { mint: 5, lemon: 5 };
+  const cust = { name: "清静客人", tags: ["清爽"], flavors: ["mint"] };
+  const craft = { cup: "tall", base: "soda", flavor: "mint", topping: "none" };
+  const a = core.serveDrink(s, cust, craft);
+  assert.ok(a.ok && a.openCalm);
+  assert.ok((s.stats.openCalmServes || 0) >= 1);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a2) => a2.id === "open_calm_host"));
+
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.elderflower && j.plants.elderflowerPot && j.items.willow_catkin);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s2 = core.defaultState();
+  s2.bag.elderflower = 1;
+  assert.ok(core.plantSeed(s2, 0, "elderflower", cat).ok);
+
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "willow_bank"));
+  assert.ok(themes.length >= 33);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("willow_bank") && game.includes("openCalmServes"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "接骨木花汽泡"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("柳岸轻步") && man.includes("开店清静"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
