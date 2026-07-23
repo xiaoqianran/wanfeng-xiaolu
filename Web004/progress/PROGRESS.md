@@ -88,3 +88,4 @@
 | 81 | completed | feat | Add collectible item batch #4 | Item cocoa_r0081 added | `feat(content): R0081 Add collectible item batch #4` |
 | 82 | completed | feat | Add customer persona #4 | Customer 夜跑爱好者·82 | `feat(shop): R0082 Add customer persona #4` |
 | 83 | completed | feat | Add dialogue line #4 | Dialogue count=4 | `feat(content): R0083 Add dialogue line #4` |
+| 84 | completed | feat | Add garden care whisper #4 | Garden msg #5 | `feat(garden): R0084 Add garden care whisper #4` |
