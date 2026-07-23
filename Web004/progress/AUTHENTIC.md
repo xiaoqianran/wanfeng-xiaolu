@@ -300,3 +300,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0301 | completed | content | 小费罐事件 | tip jar vignettes | `docs(manual): A0300 手册小费罐与测试报告 292` |
 | A0302 | completed | feat | 佛手柑风味 | bergamot flavor+recipe spring score | `feat(shop): A0302 佛手柑风味与夜茶配方` |
 | A0303 | completed | test | 佛手柑回归 | 148 tests pass | `feat(shop): A0302 佛手柑风味与夜茶配方` |
+| A0304 | completed | content | 佛手柑事件 | bergamot vignettes + mail | `content(events): A0304 佛手柑 vignette 与路线图锚点` |
+| A0305 | completed | docs | 路线图296 | ROADMAP A0304 anchor | `content(events): A0304 佛手柑 vignette 与路线图锚点` |
