@@ -911,3 +911,29 @@ body.reduce-motion *::after {
 @keyframes toastOut {
   to { opacity: 0; transform: translateY(8px); }
 }
+
+.theme-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 8px;
+}
+.theme-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.theme-chip:hover { border-color: var(--sage); }
+.theme-chip.selected {
+  border-color: var(--r-accent-deep, var(--sage-deep));
+  background: var(--r-accent-soft, #eef7f1);
+  box-shadow: inset 0 0 0 1px var(--r-accent, var(--sage));
+}
+.theme-desc { margin: 0 0 12px; min-height: 1.4em; }

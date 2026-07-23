@@ -443,5 +443,37 @@ test("ECONOMY constants drive scoreDrink coins", () => {
   assert.strictEqual(r.coins, core.ECONOMY.serveBase + Math.floor(r.score * core.ECONOMY.serveScoreMul));
 });
 
+test("path themes unique and setPathTheme/buildSpawnList work", () => {
+  const themes = JSON.parse(
+    fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8")
+  );
+  assert.ok(themes.length >= 4);
+  const ids = themes.map((t) => t.id);
+  assert.strictEqual(new Set(ids).size, ids.length);
+  themes.forEach((t) => {
+    assert.ok(t.name && t.sky && t.sky.length >= 3);
+    assert.ok(t.bias && typeof t.bias === "object");
+    assert.ok(Array.isArray(t.ambient) && t.ambient.length >= 1);
+    t.ambient.forEach((a) => assert.ok(!/#\d{2,}/.test(a)));
+  });
+  const s = core.defaultState();
+  const r = core.setPathTheme(s, "riverside", themes);
+  assert.ok(r.ok);
+  assert.strictEqual(s.pathThemeId, "riverside");
+  const th = core.getPathTheme(s, themes);
+  assert.strictEqual(th.id, "riverside");
+  const spawns = core.buildSpawnList(["maple", "mint", "stone"], th.bias, 40);
+  assert.ok(spawns.length > 0);
+  const mintN = spawns.filter((x) => x === "mint").length;
+  const mapleN = spawns.filter((x) => x === "maple").length;
+  assert.ok(mintN >= mapleN);
+  const gd = fs.readFileSync(path.join(__dirname, "..", "js", "game-data.js"), "utf8");
+  assert.ok(gd.includes("pathThemes") && gd.includes("starlight"));
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("theme-picker"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("renderThemePicker") && game.includes("pathSpawnsForTheme"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

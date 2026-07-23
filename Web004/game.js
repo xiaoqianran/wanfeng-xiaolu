@@ -70,6 +70,9 @@
   const journalTemplates = GData.journal || [];
   const dataAchievements = GData.achievements || [];
   const eveningEvents = GData.eveningEvents || [];
+  const PATH_THEMES = (GData.pathThemes && GData.pathThemes.length
+    ? GData.pathThemes
+    : Core.DEFAULT_PATH_THEMES) || Core.DEFAULT_PATH_THEMES;
   const dataDialogues = (GData.dialogues || [])
     .map((d) => (typeof d === "string" ? d : d && d.text))
     .filter(Boolean);
@@ -77,17 +80,21 @@
     .map((d) => (typeof d === "string" ? d : d && d.text))
     .filter(Boolean);
 
-  const PATH_SPAWNS = (() => {
-    const keys = Object.keys(ITEMS).filter((id) => ITEMS[id] && !String(id).startsWith("seed_"));
-    const bias = walkCfg.spawnBias || {};
-    // weight by spawnBias when present
-    const weighted = [];
-    keys.forEach((id) => {
-      const w = Math.max(1, Math.round((bias[id] || 1) * 10));
-      for (let i = 0; i < Math.min(w, 8); i++) weighted.push(id);
-    });
-    return (weighted.length ? weighted : keys).slice(0, 80);
-  })();
+  if (!state.pathThemeId) state.pathThemeId = "maple_lane";
+
+  function currentTheme() {
+    return Core.getPathTheme(state, PATH_THEMES);
+  }
+
+  function baseItemIds() {
+    return Object.keys(ITEMS).filter((id) => ITEMS[id] && !String(id).startsWith("seed_"));
+  }
+
+  function pathSpawnsForTheme(theme) {
+    const bias = Object.assign({}, walkCfg.spawnBias || {}, (theme && theme.bias) || {});
+    return Core.buildSpawnList(baseItemIds(), bias, 80);
+  }
+
   const DIALOGUES = dataDialogues.concat(extraDialogues);
   const PATH_WIDTH = walkCfg.pathWidth || 3200;
 
@@ -261,7 +268,10 @@
     const el = document.getElementById(`screen-${screen}`);
     if (el) el.classList.add("active");
 
-    if (screen === "walk") startWalk();
+    if (screen === "walk") {
+      renderThemePicker();
+      startWalk();
+    }
     if (screen === "garden") renderGarden();
     if (screen === "shop") renderShop();
     if (screen === "album") renderAlbum(currentAlbumTab);
@@ -276,6 +286,32 @@
     if (screen === "bag") renderBag();
     if (screen !== "walk") stopWalk();
     sfx("ui");
+  }
+
+  function renderThemePicker() {
+    const box = document.getElementById("theme-picker");
+    const desc = document.getElementById("theme-desc");
+    if (!box) return;
+    const cur = currentTheme();
+    box.innerHTML = "";
+    PATH_THEMES.forEach((th) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "theme-chip" + (th.id === (cur && cur.id) ? " selected" : "");
+      btn.setAttribute("aria-pressed", th.id === (cur && cur.id) ? "true" : "false");
+      btn.innerHTML = `<span>${th.emoji || "🍃"}</span><span>${th.name}</span>`;
+      btn.addEventListener("click", () => {
+        Core.setPathTheme(state, th.id, PATH_THEMES);
+        save();
+        renderThemePicker();
+        world = makeWorld(3000 + state.pathsWalked * 17 + Date.now() % 500);
+        if (walkRunning) resizeWalk();
+        toast((th.emoji || "") + " 小路换成了「" + th.name + "」");
+        sfx("ui");
+      });
+      box.appendChild(btn);
+    });
+    if (desc) desc.textContent = cur ? cur.desc || "" : "";
   }
 
   function renderBag() {
@@ -376,13 +412,18 @@
     const items = [];
     const trees = [];
     const hills = [];
+    const theme = currentTheme();
+    const spawns = pathSpawnsForTheme(theme);
+    const ambPool = (theme && theme.ambient && theme.ambient.length
+      ? theme.ambient
+      : walkCfg.ambient) || [];
     const ambientNote =
-      (walkCfg.ambient && walkCfg.ambient.length
-        ? walkCfg.ambient[Math.floor(rand() * walkCfg.ambient.length)]
-        : null) || null;
+      ambPool.length
+        ? ambPool[Math.floor(rand() * ambPool.length)]
+        : null;
 
     for (let i = 0; i < 28; i++) {
-      const id = PATH_SPAWNS[Math.floor(rand() * PATH_SPAWNS.length)] || "maple";
+      const id = spawns[Math.floor(rand() * spawns.length)] || "maple";
       if (!ITEMS[id]) continue;
       items.push({
         id,
@@ -423,6 +464,10 @@
       time: 0,
       collected: 0,
       ambientNote,
+      themeId: theme && theme.id,
+      sky: (theme && theme.sky) || null,
+      groundColor: (theme && theme.ground) || "#8faf6a",
+      pathColor: (theme && theme.path) || "#c4ae88",
     };
   }
 
@@ -517,13 +562,14 @@
     const cam = world.camX;
     const gy = world.groundY;
 
-    // 天空渐变：黄昏
+    // 天空渐变：随小路主题变化
+    const skyColors = (world.sky && world.sky.length >= 2
+      ? world.sky
+      : ["#3d4a6b", "#8b6a8a", "#e8a878", "#f0c898", "#c8b888"]);
     const sky = ctx.createLinearGradient(0, 0, 0, h);
-    sky.addColorStop(0, "#3d4a6b");
-    sky.addColorStop(0.35, "#8b6a8a");
-    sky.addColorStop(0.55, "#e8a878");
-    sky.addColorStop(0.75, "#f0c898");
-    sky.addColorStop(1, "#c8b888");
+    skyColors.forEach((c, i) => {
+      sky.addColorStop(i / Math.max(1, skyColors.length - 1), c);
+    });
     ctx.fillStyle = sky;
     ctx.fillRect(0, 0, w, h);
 
@@ -551,13 +597,13 @@
     }
 
     // 地面
-    ctx.fillStyle = "#8faf6a";
+    ctx.fillStyle = world.groundColor || "#8faf6a";
     ctx.fillRect(0, gy, w, h - gy);
     ctx.fillStyle = "#a8c47c";
     ctx.fillRect(0, gy, w, 12);
 
     // 小路
-    ctx.fillStyle = "#c4ae88";
+    ctx.fillStyle = world.pathColor || "#c4ae88";
     ctx.beginPath();
     ctx.moveTo(0, gy + 8);
     for (let x = 0; x <= w; x += 20) {

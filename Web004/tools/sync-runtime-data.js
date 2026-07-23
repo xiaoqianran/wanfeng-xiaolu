@@ -62,6 +62,7 @@ function main() {
     recipes: readJson("data/secret-recipes.json", []),
     manifest: readJson("assets/manifest.json", { files: [], stages: {} }),
     eveningEvents: readJson("data/evening-events.json", []),
+    pathThemes: readJson("data/path-themes.json", []),
     syncedAt: new Date().toISOString(),
   };
 

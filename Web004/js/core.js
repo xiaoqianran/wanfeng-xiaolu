@@ -109,8 +109,62 @@
         showTips: true,
         tutorialDone: false,
       },
+      pathThemeId: "maple_lane",
       _seasonsTouched: { dusk: true },
     };
+  }
+
+  var DEFAULT_PATH_THEMES = [
+    {
+      id: "maple_lane",
+      name: "枫叶小径",
+      emoji: "🍁",
+      desc: "落叶柔软，晚霞偏暖。",
+      sky: ["#3d4a6b", "#8b6a8a", "#e8a878", "#f0c898", "#c8b888"],
+      ground: "#8faf6a",
+      path: "#c4ae88",
+      bias: { maple: 3.5, petal: 1.5, stone: 1.2 },
+      ambient: ["枫叶打着旋落在鞋边。", "风里有干燥木头的味道。"],
+    },
+  ];
+
+  function getPathTheme(state, themes) {
+    themes = themes && themes.length ? themes : DEFAULT_PATH_THEMES;
+    var id = (state && state.pathThemeId) || "maple_lane";
+    for (var i = 0; i < themes.length; i++) {
+      if (themes[i].id === id) return themes[i];
+    }
+    return themes[0];
+  }
+
+  function setPathTheme(state, themeId, themes) {
+    themes = themes && themes.length ? themes : DEFAULT_PATH_THEMES;
+    var ok = false;
+    for (var i = 0; i < themes.length; i++) {
+      if (themes[i].id === themeId) {
+        ok = true;
+        break;
+      }
+    }
+    if (!ok) return { ok: false, reason: "unknown_theme" };
+    state.pathThemeId = themeId;
+    return { ok: true, themeId: themeId };
+  }
+
+  /** Build weighted spawn list from theme bias + base keys */
+  function buildSpawnList(itemIds, bias, maxLen) {
+    itemIds = itemIds || [];
+    bias = bias || {};
+    maxLen = maxLen || 80;
+    var weighted = [];
+    for (var i = 0; i < itemIds.length; i++) {
+      var id = itemIds[i];
+      var w = Math.max(1, Math.round((bias[id] != null ? bias[id] : 1) * 10));
+      w = Math.min(w, 40);
+      for (var j = 0; j < w; j++) weighted.push(id);
+    }
+    if (!weighted.length) return itemIds.slice(0, maxLen);
+    return weighted.slice(0, maxLen);
   }
 
   function getSettings(state) {
@@ -633,5 +687,9 @@
     claimDailyReward: claimDailyReward,
     createDemoState: createDemoState,
     ECONOMY: ECONOMY,
+    DEFAULT_PATH_THEMES: DEFAULT_PATH_THEMES,
+    getPathTheme: getPathTheme,
+    setPathTheme: setPathTheme,
+    buildSpawnList: buildSpawnList,
   };
 });
