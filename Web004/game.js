@@ -814,6 +814,19 @@
         ctx.fill();
       }
       ctx.globalAlpha = 1;
+    } else if (themeId === "night_market") {
+      // warm stall glows
+      for (let i = 0; i < 6; i++) {
+        const x = 30 + i * (w / 6);
+        const y = h * 0.42 + (i % 2) * 10;
+        const g = ctx.createRadialGradient(x, y, 2, x, y, 28);
+        g.addColorStop(0, "rgba(255,180,80,0.35)");
+        g.addColorStop(1, "rgba(255,120,40,0)");
+        ctx.fillStyle = g;
+        ctx.beginPath();
+        ctx.arc(x, y, 28, 0, Math.PI * 2);
+        ctx.fill();
+      }
     }
   }
 

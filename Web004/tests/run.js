@@ -1342,5 +1342,16 @@ test("snapshotPot still-life memory and UI", () => {
   assert.ok(game.includes("snapshotPot"));
 });
 
+
+test("night_market theme and manual documents snap/pin", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "night_market"));
+  assert.ok(themes.length >= 14);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("night_market"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("窗台速写") || man.includes("常客"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
