@@ -28,3 +28,4 @@
 {"round":28,"status":"completed","type":"feat","scope":"shop","goal":"Add secret recipe stub #1","outcome":"Recipes=1","commit":"feat(shop): R0028 Add secret recipe stub #1","at":"2026-07-23T19:49:24.232Z"}
 {"round":29,"status":"completed","type":"feat","scope":"meta","goal":"Add achievement definition #1","outcome":"Achievements=1","commit":"feat(meta): R0029 Add achievement definition #1","at":"2026-07-23T19:49:24.257Z"}
 {"round":30,"status":"completed","type":"style","scope":"ui","goal":"CSS micro polish token #1","outcome":"CSS token hue=150","commit":"style(ui): R0030 CSS micro polish token #1","at":"2026-07-23T19:49:24.274Z"}
+{"round":31,"status":"completed","type":"feat","scope":"content","goal":"Add plantable linkage #1","outcome":"Plant link plant_lavender_0031","commit":"feat(content): R0031 Add plantable linkage #1","at":"2026-07-23T19:49:37.128Z"}
