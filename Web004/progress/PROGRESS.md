@@ -490,3 +490,4 @@
 | 483 | completed | feat | Add dialogue line #24 | Dialogue count=24 | `feat(content): R0483 Add dialogue line #24` |
 | 484 | completed | feat | Add garden care whisper #24 | Garden msg #25 | `feat(garden): R0484 Add garden care whisper #24` |
 | 485 | completed | feat | Add shop tip #24 | Shop tip #25 | `feat(shop): R0485 Add shop tip #24` |
+| 486 | completed | feat | Tune walk ambient note #24 | Walk ambient #24 | `feat(walk): R0486 Tune walk ambient note #24` |
