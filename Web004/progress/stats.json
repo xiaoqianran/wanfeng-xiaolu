@@ -1,8 +1,8 @@
 {
   "targetRounds": 1000,
-  "lastUpdate": "2026-07-23T20:29:40.653Z",
-  "completed": 102,
-  "lastGoal": "Ship dialogue line into runtime #8",
+  "lastUpdate": "2026-07-23T20:29:40.682Z",
+  "completed": 103,
+  "lastGoal": "Ship journal template into runtime #8",
   "integrated": true,
   "contentItems": 120
 }
