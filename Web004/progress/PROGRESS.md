@@ -332,3 +332,4 @@
 | 325 | completed | feat | Ship collectible + runtime catalog item #27 | Runtime item coconut_r0325 | `feat(content): R0325 Ship collectible + runtime catalog item #27` |
 | 326 | completed | feat | Ship customer persona into runtime #27 | Runtime customer 采风记者·326 | `feat(shop): R0326 Ship customer persona into runtime #27` |
 | 327 | completed | feat | Ship walk ambient + pathWidth into runtime #27 | walk pathWidth=3327 ambient=79 | `feat(walk): R0327 Ship walk ambient + pathWidth into runtime #27` |
+| 328 | completed | feat | Ship garden care whisper into runtime #27 | garden messages=80 careBonus=1.05 | `feat(garden): R0328 Ship garden care whisper into runtime #27` |
