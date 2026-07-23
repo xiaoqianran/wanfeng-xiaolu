@@ -974,3 +974,4 @@
 | 967 | completed | feat | Add journal template #48 | Journal templates=48 | `feat(album): R0967 Add journal template #48` |
 | 968 | completed | feat | Add secret recipe stub #48 | Recipes=48 | `feat(shop): R0968 Add secret recipe stub #48` |
 | 969 | completed | feat | Add achievement definition #48 | Achievements=48 | `feat(meta): R0969 Add achievement definition #48` |
+| 970 | completed | style | CSS micro polish token #48 | CSS token hue=290 | `style(ui): R0970 CSS micro polish token #48` |
