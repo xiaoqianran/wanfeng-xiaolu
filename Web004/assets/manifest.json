@@ -94,7 +94,8 @@
     "assets/walk/live_0300.jpg",
     "assets/shop/live_0312.jpg",
     "assets/ui/live_0324.jpg",
-    "assets/garden/live_0336.jpg"
+    "assets/garden/live_0336.jpg",
+    "assets/album/live_0348.jpg"
   ],
   "stages": {
     "home": [
@@ -263,6 +264,12 @@
         "path": "assets/album/live_0288.jpg",
         "status": "live",
         "source": "assets/scenes/walk-path.jpg"
+      },
+      {
+        "round": 348,
+        "path": "assets/album/live_0348.jpg",
+        "status": "live",
+        "source": "assets/seasons/spring.jpg"
       }
     ],
     "items": [
