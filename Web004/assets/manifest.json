@@ -112,7 +112,8 @@
     "assets/garden/live_0516.jpg",
     "assets/album/live_0528.jpg",
     "assets/walk/live_0540.jpg",
-    "assets/shop/live_0552.jpg"
+    "assets/shop/live_0552.jpg",
+    "assets/ui/live_0564.jpg"
   ],
   "stages": {
     "home": [
@@ -431,6 +432,12 @@
         "path": "assets/ui/live_0504.jpg",
         "status": "live",
         "source": "assets/seasons/autumn.jpg"
+      },
+      {
+        "round": 564,
+        "path": "assets/ui/live_0564.jpg",
+        "status": "live",
+        "source": "assets/items/collectibles-sheet.jpg"
       }
     ]
   },
