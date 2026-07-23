@@ -1498,5 +1498,15 @@ test("snow_lantern theme ships with unique weather", () => {
   assert.ok(game.includes("snow_lantern"));
 });
 
+
+test("snow_walker and fav_path achievements exist", () => {
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "snow_walker"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "fav_path"));
+  const s = core.defaultState();
+  s._themesTouched = { snow_lantern: true };
+  const newly = core.evaluateAchievements(s);
+  assert.ok(newly.some((a) => a.id === "snow_walker") || s.achievements.snow_walker);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
