@@ -860,3 +860,4 @@
 | 853 | completed | feat | Ship collectible + runtime catalog item #71 | Runtime item osmanthus_r0853 | `feat(content): R0853 Ship collectible + runtime catalog item #71` |
 | 854 | completed | feat | Ship customer persona into runtime #71 | Runtime customer 弹尤克里里的人·854 | `feat(shop): R0854 Ship customer persona into runtime #71` |
 | 855 | completed | feat | Ship walk ambient + pathWidth into runtime #71 | walk pathWidth=3255 ambient=120 | `feat(walk): R0855 Ship walk ambient + pathWidth into runtime #71` |
+| 856 | completed | feat | Ship garden care whisper into runtime #71 | garden messages=120 careBonus=1.05 | `feat(garden): R0856 Ship garden care whisper into runtime #71` |
