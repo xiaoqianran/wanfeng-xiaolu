@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "project_name": "晚风小路",
+  "project_root": "/root/workspace/wk1",
+  "game_root": "Web004",
+  "current_branch": "master",
+  "current_round": 1002,
+  "target_rounds": 1000,
+  "integrated_rounds_completed": 1001,
+  "current_milestone": "UI/UX polish + control plane",
+  "current_task_id": "T-settings-tutorial",
+  "last_completed_task_id": "T-manifest-cleanup",
+  "last_commit": "604c8e4",
+  "last_verified_build": "file:// Web004/index.html",
+  "last_test_summary": "23 passed, 0 failed (node tests/run.js)",
+  "core_loop_status": "playable",
+  "overall_status": "active",
+  "blocked_items": [],
+  "known_failures": [
+    "image_gen API intermittently unavailable",
+    "playwright node module not reliably requireable for screenshots"
+  ],
+  "important_decisions": [
+    "cozy no-combat",
+    "file:// plain scripts",
+    "integrated rounds only"
+  ],
+  "next_candidate_tasks": [
+    "settings panel",
+    "first-run tutorial",
+    "soft audio cues",
+    "save export/import"
+  ],
+  "resume_instructions": "cd /root/workspace/wk1; read .autodev/state.json and Web004/progress/rounds.jsonl; run Web004 tests; continue next backlog item with Alibaba commit R#### on shipped files only.",
+  "updated_at": "2026-07-24T00:00:00Z"
+}
