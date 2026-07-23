@@ -719,3 +719,4 @@
 {"round":719,"status":"completed","type":"docs","scope":"progress","goal":"Stage milestone summary #35","outcome":"Stage doc stage-15.md","commit":"docs(progress): R0719 Stage milestone summary #35","at":"2026-07-23T19:50:11.641Z"}
 {"round":720,"status":"completed","type":"refactor","scope":"core","goal":"Catalog integrity pass #35","outcome":"Integrity items=71 customers=35","commit":"refactor(core): R0720 Catalog integrity pass #35","at":"2026-07-23T19:50:11.665Z"}
 {"round":721,"status":"completed","type":"feat","scope":"content","goal":"Add collectible item batch #36","outcome":"Item lavender_r0721 added","commit":"feat(content): R0721 Add collectible item batch #36","at":"2026-07-23T19:50:11.690Z"}
+{"round":722,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #36","outcome":"Customer 织围巾的阿姨·722","commit":"feat(shop): R0722 Add customer persona #36","at":"2026-07-23T19:50:11.732Z"}
