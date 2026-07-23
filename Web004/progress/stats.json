@@ -1,8 +1,8 @@
 {
   "targetRounds": 1000,
-  "lastUpdate": "2026-07-23T20:29:32.728Z",
-  "completed": 98,
-  "lastGoal": "Ship customer persona into runtime #8",
+  "lastUpdate": "2026-07-23T20:29:32.766Z",
+  "completed": 99,
+  "lastGoal": "Ship walk ambient + pathWidth into runtime #8",
   "integrated": true,
   "contentItems": 120
 }
