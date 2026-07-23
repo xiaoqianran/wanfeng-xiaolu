@@ -1041,3 +1041,4 @@
 | 1034 | completed | feat | Season palette note #51 | Season palette winter_1034 | `feat(season): R1034 Season palette note #51` |
 | 1035 | completed | assets | Asset slot registration #51 | Asset slot assets/walk/slot_1035.png | `assets(manifest): R1035 Asset slot registration #51` |
 | 1036 | completed | test | Regression assertion pack #51 | Test pack size=53 | `test(core): R1036 Regression assertion pack #51` |
+| 1037 | completed | feat | Path theme fragment #51 | Path themes=56 | `feat(walk): R1037 Path theme fragment #51` |
