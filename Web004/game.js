@@ -737,6 +737,25 @@
         ctx.ellipse(x, y, 3, 5, 0, 0, Math.PI * 2);
         ctx.fill();
       }
+    } else if (themeId === "flower_alley") {
+      // soft petal confetti drift
+      for (let i = 0; i < 14; i++) {
+        const x = ((i * 67 + time * 0.35) % (w + 30)) - 15;
+        const y = ((i * 41 + time * 0.22) % (h * 0.7));
+        const rot = Math.sin(time * 0.03 + i) * 0.6;
+        ctx.save();
+        ctx.translate(x, y);
+        ctx.rotate(rot);
+        ctx.fillStyle = i % 3 === 0
+          ? "rgba(240, 140, 170, 0.45)"
+          : i % 3 === 1
+            ? "rgba(255, 200, 210, 0.4)"
+            : "rgba(200, 140, 200, 0.35)";
+        ctx.beginPath();
+        ctx.ellipse(0, 0, 4, 2.5, 0, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.restore();
+      }
     }
   }
 
@@ -1173,25 +1192,47 @@
     if (act === "water" || act === "sun" || act === "talk" || act === "rest") {
       state._tendsToday = (state._tendsToday || 0) + 1;
     }
+    const season = state.season || "dusk";
+    let seasonNote = null;
     if (act === "water") {
       pot.water = Math.min(100, pot.water + 28 * careBonus);
-      toast(gardenMsg ? "💧 " + gardenMsg : "💧 浇了一小壶水");
+      if (season === "autumn") {
+        pot.water = Math.min(100, pot.water + 6);
+        pot.mood = Math.min(100, pot.mood + 4);
+        seasonNote = "秋水温柔";
+      }
+      toast((gardenMsg ? "💧 " + gardenMsg : "💧 浇了一小壶水") + (seasonNote ? " · " + seasonNote : ""));
       sfx("water");
     } else if (act === "sun") {
       pot.sun = Math.min(100, pot.sun + 28 * careBonus);
-      toast(gardenMsg ? "☀️ " + gardenMsg : "☀️ 把花盆挪到了阳光里");
+      if (season === "summer") {
+        pot.sun = Math.min(100, pot.sun + 8);
+        pot.growth += 0.08;
+        seasonNote = "夏日暖光";
+      }
+      toast((gardenMsg ? "☀️ " + gardenMsg : "☀️ 把花盆挪到了阳光里") + (seasonNote ? " · " + seasonNote : ""));
     } else if (act === "talk") {
       pot.mood = Math.min(100, pot.mood + 22 * careBonus);
-      toast(gardenMsg ? "💬 " + gardenMsg : "💬 「今天也慢慢长大吧」");
+      if (season === "spring") {
+        pot.mood = Math.min(100, pot.mood + 8);
+        pot.growth += 0.05;
+        seasonNote = "春语轻声";
+      }
+      toast((gardenMsg ? "💬 " + gardenMsg : "💬 「今天也慢慢长大吧」") + (seasonNote ? " · " + seasonNote : ""));
     } else if (act === "rest") {
       pot.mood = Math.min(100, pot.mood + 18 * careBonus);
       pot.water = Math.min(100, pot.water + 8);
       pot.sun = Math.max(0, pot.sun - 3);
       pot.growth += 0.08;
+      if (season === "winter") {
+        pot.mood = Math.min(100, pot.mood + 10);
+        pot.water = Math.min(100, pot.water + 4);
+        seasonNote = "冬夜安歇";
+      }
       pot.tendedAt = Date.now();
       if (!state.stats) state.stats = {};
       state.stats.rests = (state.stats.rests || 0) + 1;
-      toast(gardenMsg ? "😴 " + gardenMsg : "😴 陪它歇了一会儿");
+      toast((gardenMsg ? "😴 " + gardenMsg : "😴 陪它歇了一会儿") + (seasonNote ? " · " + seasonNote : ""));
       sfx("ui");
       save();
       renderGarden();
@@ -1401,6 +1442,10 @@
       score += 1;
       notes.push("味道方向对了");
     }
+    if (c.favoriteFlavor && flavorDef.id === c.favoriteFlavor) {
+      score += 0.5;
+      notes.push("记得你上次的味道");
+    }
 
     if (baseDef.vibe && c.tags.includes(baseDef.vibe)) {
       score += 1;
@@ -1411,11 +1456,20 @@
       notes.push("杯子选得好");
     }
     const season = state.season || "dusk";
-    if (season === "spring" && flavorDef.id === "jasmine") { score += 0.5; notes.push("春日花香"); }
-    if (season === "summer" && (flavorDef.id === "mint" || baseDef.id === "soda")) { score += 0.5; notes.push("夏日清爽"); }
-    if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach")) { score += 0.5; notes.push("秋日温甜"); }
-    if (season === "winter" && baseDef.id === "tea") { score += 0.5; notes.push("冬日暖茶"); }
+    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || baseDef.id === "floral_tea")) {
+      score += 0.5; notes.push("春日花香");
+    }
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+      score += 0.5; notes.push("夏日清爽");
+    }
+    if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf")) {
+      score += 0.5; notes.push("秋日温甜");
+    }
+    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf")) {
+      score += 0.5; notes.push("冬日暖茶");
+    }
     if (season === "dusk" && topDef && topDef.id !== "none") { score += 0.25; notes.push("黄昏点缀"); }
+    if (season === "dusk" && topDef && topDef.id === "camellia_top") { score += 0.25; notes.push("暮色山茶"); }
     if (c.wantTopping && topDef && topDef.id !== "none") {
       score += 1;
       notes.push("装饰很可爱");
@@ -1423,8 +1477,17 @@
     if (topDef && topDef.id !== "none" && !c.wantTopping) {
       score += 0.5;
     }
+    const aff = (state.customerAffinity && c.name && state.customerAffinity[c.name]) || 0;
+    const affThreshold = (Core.ECONOMY && Core.ECONOMY.affinityBonusThreshold) || 3;
+    if (aff >= affThreshold) {
+      score += 0.5;
+      notes.push("老熟人默契");
+    } else if (aff >= 1) {
+      score += 0.25;
+      notes.push("似曾相识");
+    }
 
-    return { score: Math.min(5, score), notes };
+    return { score: Math.min(5, score), notes, affinity: aff, affinityBonus: aff >= affThreshold };
   }
 
   document.getElementById("btn-serve").addEventListener("click", () => {
@@ -1453,7 +1516,9 @@
       return;
     }
 
-    const { score, notes } = scoreDrink();
+    const scored = scoreDrink();
+    const score = scored.score;
+    const notes = scored.notes || [];
     const perfectBonus = shopCfg.perfectBonus || 0;
     const tip =
       shopCfg.tipMessages && shopCfg.tipMessages.length
@@ -1461,6 +1526,7 @@
         : "";
     let coins = 4 + Math.floor(score * 2);
     if (score >= 4) coins += perfectBonus;
+    if (scored.affinityBonus) coins += 1;
     const hearts = score >= 3 ? 1 : 0;
     state.coins += coins;
     state.hearts += hearts;

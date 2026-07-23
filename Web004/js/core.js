@@ -281,7 +281,7 @@
     return { ok: true, day: state.day, daily: state.daily };
   }
 
-  var DAILY_GIFT_POOL = ["petal", "maple", "clover", "mint", "berry", "stone", "seashell", "pinecone"];
+  var DAILY_GIFT_POOL = ["petal", "maple", "clover", "mint", "berry", "stone", "seashell", "pinecone", "rosemary", "lavender_bud"];
 
   function claimDailyReward(state) {
     var ev = evaluateDailyGoals(state);
@@ -500,22 +500,49 @@
     var pot = state.pots[potIndex];
     if (!pot || !pot.plantId) return { ok: false, reason: "empty" };
 
+    var season = state.season || "dusk";
+    var seasonNote = null;
+
     if (act === "water") {
       pot.water = Math.min(100, pot.water + 28);
+      // 秋晚多一点湿润关怀
+      if (season === "autumn") {
+        pot.water = Math.min(100, pot.water + 6);
+        pot.mood = Math.min(100, pot.mood + 4);
+        seasonNote = "秋水温柔";
+      }
     } else if (act === "sun") {
       pot.sun = Math.min(100, pot.sun + 28);
+      // 盛夏日照更足
+      if (season === "summer") {
+        pot.sun = Math.min(100, pot.sun + 8);
+        pot.growth += 0.08;
+        seasonNote = "夏日暖光";
+      }
     } else if (act === "talk") {
       pot.mood = Math.min(100, pot.mood + 22);
+      // 春日更爱聊天
+      if (season === "spring") {
+        pot.mood = Math.min(100, pot.mood + 8);
+        pot.growth += 0.05;
+        seasonNote = "春语轻声";
+      }
     } else if (act === "rest") {
       // Soft rest: restore mood/water slightly, almost no growth push, no death
       pot.mood = Math.min(100, pot.mood + 18);
       pot.water = Math.min(100, pot.water + 8);
       pot.sun = Math.max(0, pot.sun - 3);
       pot.growth += 0.08;
+      // 冬夜歇息格外舒服
+      if (season === "winter") {
+        pot.mood = Math.min(100, pot.mood + 10);
+        pot.water = Math.min(100, pot.water + 4);
+        seasonNote = "冬夜安歇";
+      }
       pot.tendedAt = Date.now();
       if (!state.stats) state.stats = {};
       state.stats.rests = (state.stats.rests || 0) + 1;
-      return { ok: true, rested: true, growth: pot.growth, mood: pot.mood };
+      return { ok: true, rested: true, growth: pot.growth, mood: pot.mood, seasonNote: seasonNote };
     } else if (act === "harvest") {
       if (!isReady(pot, plants)) return { ok: false, reason: "not_ready" };
       var def = plants[pot.plantId];
@@ -543,11 +570,16 @@
 
     var care = (pot.water + pot.sun + pot.mood) / 300;
     pot.growth += 0.35 + care * 0.55;
+    // 黄昏轻柔成长：几乎不催，只多一点心情
+    if (season === "dusk" && !seasonNote) {
+      pot.mood = Math.min(100, pot.mood + 3);
+      seasonNote = "暮色静养";
+    }
     pot.water = Math.max(0, pot.water - 6);
     pot.sun = Math.max(0, pot.sun - 5);
     pot.mood = Math.max(0, pot.mood - 4);
     pot.tendedAt = Date.now();
-    return { ok: true, growth: pot.growth };
+    return { ok: true, growth: pot.growth, seasonNote: seasonNote };
   }
 
   function settleOfflineGrowth(state, now, plants) {
@@ -621,11 +653,30 @@
     }
     // soft seasonal affinity (optional catalogs.season)
     var season = catalogs.season || customer.season;
-    if (season === "spring" && flavorDef.id === "jasmine") { score += 0.5; notes.push("春日花香"); }
-    if (season === "summer" && (flavorDef.id === "mint" || baseDef.id === "soda")) { score += 0.5; notes.push("夏日清爽"); }
-    if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach")) { score += 0.5; notes.push("秋日温甜"); }
-    if (season === "winter" && baseDef.id === "tea") { score += 0.5; notes.push("冬日暖茶"); }
-    if (season === "dusk" && topDef && topDef.id !== "none") { score += 0.25; notes.push("黄昏点缀"); }
+    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || baseDef.id === "floral_tea")) {
+      score += 0.5;
+      notes.push("春日花香");
+    }
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+      score += 0.5;
+      notes.push("夏日清爽");
+    }
+    if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf")) {
+      score += 0.5;
+      notes.push("秋日温甜");
+    }
+    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf")) {
+      score += 0.5;
+      notes.push("冬日暖茶");
+    }
+    if (season === "dusk" && topDef && topDef.id !== "none") {
+      score += 0.25;
+      notes.push("黄昏点缀");
+    }
+    if (season === "dusk" && topDef && topDef.id === "camellia_top") {
+      score += 0.25;
+      notes.push("暮色山茶");
+    }
     if (customer.wantTopping && topDef && topDef.id !== "none") {
       score += 1;
       notes.push("装饰很可爱");
@@ -633,10 +684,24 @@
       score += 0.5;
     }
 
+    // soft affinity: returning guest warmth (catalogs.affinity or customer.affinity)
+    var aff = catalogs.affinity != null ? catalogs.affinity : (customer.affinity || 0);
+    var affThreshold = ECONOMY.affinityBonusThreshold || 3;
+    if (aff >= affThreshold) {
+      score += 0.5;
+      notes.push("老熟人默契");
+    } else if (aff >= 1) {
+      score += 0.25;
+      notes.push("似曾相识");
+    }
+
     score = Math.min(5, score);
     var coins = ECONOMY.serveBase + Math.floor(score * ECONOMY.serveScoreMul);
+    if (aff >= affThreshold) {
+      coins += 1;
+    }
     var hearts = score >= 3 ? 1 : 0;
-    return { score: score, notes: notes, coins: coins, hearts: hearts };
+    return { score: score, notes: notes, coins: coins, hearts: hearts, affinity: aff };
   }
 
   function serveDrink(state, customer, craft, catalogs) {
