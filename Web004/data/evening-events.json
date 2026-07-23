@@ -1359,5 +1359,30 @@
     "id": "ev_home_peel",
     "title": "窗台柚皮",
     "body": "窗台放着一片柚皮，像小小的太阳。"
+  },
+  {
+    "id": "ev_snow_lantern",
+    "title": "雪灯",
+    "body": "灯笼顶积了薄雪，像戴了一顶很小的白帽。"
+  },
+  {
+    "id": "ev_snow_step",
+    "title": "雪上脚印",
+    "body": "你回头看脚印，它们正在被新雪轻轻盖住。"
+  },
+  {
+    "id": "ev_honey_snow",
+    "title": "蜜与雪",
+    "body": "雪天喝蜜水，甜味会在喉咙里停得更久。"
+  },
+  {
+    "id": "ev_yuzu_snow",
+    "title": "柚香雪",
+    "body": "柚皮的香气在冷空气里特别清楚。"
+  },
+  {
+    "id": "ev_snow_home",
+    "title": "雪夜到家",
+    "body": "门一开，屋里的暖把雪的气味也收了进去。"
   }
 ]
