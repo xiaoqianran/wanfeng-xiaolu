@@ -241,3 +241,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0242 | completed | content | 新客人与配方 | 41 customers; 云台花香罐 | `content(shop): A0242 两位新客人与云台花香罐` |
 | A0243 | completed | feat | 小名对话手帐 | talk with nickname appends journal | `content(shop): A0242 两位新客人与云台花香罐` |
 | A0244 | completed | test | 客人配方回归 | 131 tests pass | `content(shop): A0242 两位新客人与云台花香罐` |
+| A0245 | completed | feat | 百里香养成 | thyme plant+flavor+recipe | `feat(garden): A0245 百里香可种植与田园罐配方` |
+| A0246 | completed | test | 百里香回归 | 132 tests pass | `feat(garden): A0245 百里香可种植与田园罐配方` |
