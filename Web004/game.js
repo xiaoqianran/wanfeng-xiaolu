@@ -886,6 +886,19 @@
         ctx.ellipse(w * 0.5, y, w * 0.48, 12, 0, 0, Math.PI * 2);
         ctx.fill();
       }
+    } else if (themeId === "cloud_pass") {
+      // drifting soft cloud blobs
+      ctx.fillStyle = "rgba(255,255,255,0.18)";
+      for (let i = 0; i < 6; i++) {
+        const x = ((i * 110 + time * 0.25) % (w + 80)) - 40;
+        const y = 40 + (i % 3) * 28 + Math.sin(time * 0.015 + i) * 6;
+        ctx.beginPath();
+        ctx.ellipse(x, y, 36 + (i % 3) * 8, 14, 0, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.beginPath();
+        ctx.ellipse(x + 20, y + 4, 28, 12, 0, 0, Math.PI * 2);
+        ctx.fill();
+      }
     }
   }
 

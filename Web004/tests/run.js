@@ -1600,5 +1600,15 @@ test("perilla plantable and USER_MANUAL memory/recall", () => {
   assert.ok(man.includes("晨桥") || man.includes("dawn"));
 });
 
+
+test("cloud_pass theme and 18 path themes unique", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "cloud_pass"));
+  assert.ok(themes.length >= 18);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("cloud_pass"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
