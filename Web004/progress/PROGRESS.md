@@ -922,3 +922,4 @@
 | 915 | completed | assets | Asset slot registration #45 | Asset slot assets/walk/slot_0915.png | `assets(manifest): R0915 Asset slot registration #45` |
 | 916 | completed | test | Regression assertion pack #45 | Test pack size=47 | `test(core): R0916 Regression assertion pack #45` |
 | 917 | completed | feat | Path theme fragment #45 | Path themes=50 | `feat(walk): R0917 Path theme fragment #45` |
+| 918 | completed | feat | Topping or cup option #45 | Topping top_r0918 | `feat(content): R0918 Topping or cup option #45` |
