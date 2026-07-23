@@ -1,8 +1,8 @@
 # 进度 · 晚风小路
 
-- **真实轮次：300 / 1000**（缺口 ~700）
-- 游戏集成：211
-- 测试：149 passed · quality-gate PASS
+- **真实轮次：302 / 1000**（缺口 ~698）
+- 游戏集成：212
+- 测试：150 passed · quality-gate PASS
 - spam：DISABLED
-- HEAD：aa5230d
-- 下一轮：A0308+
+- HEAD：4e3c898
+- 下一轮：A0310+

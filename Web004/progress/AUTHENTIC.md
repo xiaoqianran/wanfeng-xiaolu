@@ -304,3 +304,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0305 | completed | docs | 路线图296 | ROADMAP A0304 anchor | `content(events): A0304 佛手柑 vignette 与路线图锚点` |
 | A0306 | completed | balance | 收获礼物池 | extras include moss driftwood seashell | `balance(garden): A0306 高心情收获礼物池扩沿海物` |
 | A0307 | completed | test | 礼物池回归 | 149 tests pass | `balance(garden): A0306 高心情收获礼物池扩沿海物` |
+| A0308 | completed | feat | 竹篮置顶 | pinBagItem + sort + click UI | `feat(bag): A0308 竹篮物品置顶钉选` |
+| A0309 | completed | test | 置顶回归 | 150 tests pass | `feat(bag): A0308 竹篮物品置顶钉选` |
