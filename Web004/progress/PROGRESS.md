@@ -552,3 +552,4 @@
 | 545 | completed | feat | Add shop tip #27 | Shop tip #28 | `feat(shop): R0545 Add shop tip #27` |
 | 546 | completed | feat | Tune walk ambient note #27 | Walk ambient #27 | `feat(walk): R0546 Tune walk ambient note #27` |
 | 547 | completed | feat | Add journal template #27 | Journal templates=27 | `feat(album): R0547 Add journal template #27` |
+| 548 | completed | feat | Add secret recipe stub #27 | Recipes=27 | `feat(shop): R0548 Add secret recipe stub #27` |
