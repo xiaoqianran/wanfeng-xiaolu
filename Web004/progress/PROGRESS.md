@@ -725,3 +725,4 @@
 | 718 | completed | style | Ship CSS accent token used by app shell #59 | CSS --r-accent hue=326 wired to brand/primary | `style(ui): R0718 Ship CSS accent token used by app shell #59` |
 | 719 | completed | feat | Ship plantable seed linkage into runtime #59 | plant link plant_pear_0719 harvest=seed_pear_0719 | `feat(content): R0719 Ship plantable seed linkage into runtime #59` |
 | 720 | completed | assets | Wire real stage art reference into runtime manifest #59 | live art assets/walk/live_0720.jpg from assets/ui/achievements-badges.jpg (≥1KB) | `assets(ui): R0720 Wire real stage art reference into runtime manifest #59` |
+| 721 | completed | feat | Ship collectible + runtime catalog item #60 | Runtime item lavender_r0721 | `feat(content): R0721 Ship collectible + runtime catalog item #60` |
