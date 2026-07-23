@@ -1230,5 +1230,21 @@ test("mist_bridge theme unique and customers expand", () => {
   assert.ok(recipes.some((r) => r.name === "雾桥薄荷罐"));
 });
 
+
+test("canLines mail expand and drinks sort ship", () => {
+  const g = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "garden-config.json"), "utf8"));
+  assert.ok(Array.isArray(g.canLines) && g.canLines.length >= 4);
+  g.canLines.forEach((line) => assert.ok(line.length > 8 && !/#\d+/.test(line)));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("canLines"));
+  assert.ok(game.includes("sort((a, b)") && game.includes("drinksMade"));
+  const mail = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "mail.json"), "utf8"));
+  assert.ok(mail.length >= 30);
+  assert.ok(mail.some((x) => x.id === "mail_mist"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.length >= 22);
+  assert.ok(recipes.some((r) => r.name === "奶奶的蜜桃暖杯"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

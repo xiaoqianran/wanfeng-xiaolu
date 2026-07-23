@@ -1414,7 +1414,14 @@
       renderGarden();
       refreshResources();
       if (r.usedCan) {
-        toast("🪣 水壶浇灌 +" + r.bonus + " 水分 · 剩余 " + r.charge + (r.seasonNote ? " · " + r.seasonNote : ""));
+        const canLines = (gardenCfg.canLines && gardenCfg.canLines.length) ? gardenCfg.canLines : null;
+        const line = canLines ? canLines[Math.floor(Math.random() * canLines.length)] : null;
+        toast(
+          (line ? "🪣 " + line : "🪣 水壶浇灌 +" + r.bonus + " 水分") +
+            " · 剩余 " +
+            r.charge +
+            (r.seasonNote ? " · " + r.seasonNote : "")
+        );
         sfx("water");
       } else {
         toast("🪣 水壶空了，改用手浇 · 去小路蓄水吧");
@@ -1857,8 +1864,8 @@
         grid.appendChild(card);
       });
     } else {
-      // drinks: show made combos + templates
-      const made = Object.entries(state.drinksMade);
+      // drinks: show made combos sorted by times made (most first)
+      const made = Object.entries(state.drinksMade).sort((a, b) => (b[1] || 0) - (a[1] || 0));
       if (!made.length) {
         grid.innerHTML = `<div class="album-card"><div class="emoji">🍋</div><div class="name">还没有作品</div><div class="meta">去汽水铺做一杯吧</div></div>`;
         return;

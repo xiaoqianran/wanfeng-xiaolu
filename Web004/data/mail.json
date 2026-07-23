@@ -274,5 +274,35 @@
     "effect": {
       "hearts": 2
     }
+  },
+  {
+    "id": "mail_mist",
+    "title": "雾桥速写",
+    "body": "只画了栏杆和一滴水。背面写：你走过。",
+    "effect": {
+      "coins": 2,
+      "hearts": 1
+    }
+  },
+  {
+    "id": "mail_bluebell",
+    "title": "一包风铃草籽",
+    "body": "很小，几乎看不清。纸条：种了就会响——心里响。",
+    "effect": {
+      "items": {
+        "bluebell": 2
+      }
+    }
+  },
+  {
+    "id": "mail_wheat",
+    "title": "麦穗两枝",
+    "body": "晒干了，适合插在杯沿，也适合插在花瓶。",
+    "effect": {
+      "items": {
+        "wheat_ear": 2
+      },
+      "hearts": 1
+    }
   }
 ]
