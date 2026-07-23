@@ -157,3 +157,6 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0158 | completed | feat | 夜市尾声主题 | night_market 14th + stall glow | `feat(walk): A0158 夜市尾声主题与手册同步` |
 | A0159 | completed | docs | 手册速写常客 | USER_MANUAL snap+pin | `feat(walk): A0158 夜市尾声主题与手册同步` |
 | A0160 | completed | test | 夜市手册回归 | 110 tests pass | `feat(walk): A0158 夜市尾声主题与手册同步` |
+| A0161 | completed | content | 事件至134则 | 134 unique evening events | `content(world): A0161 夜市糖纸纸鹤与事件一三四则` |
+| A0162 | completed | content | 糖纸纸鹤收集 | candy_wrap paper_crane + recipe | `content(world): A0161 夜市糖纸纸鹤与事件一三四则` |
+| A0163 | completed | test | 糖纸事件回归 | 111 tests pass | `content(world): A0161 夜市糖纸纸鹤与事件一三四则` |
