@@ -191,6 +191,14 @@
       "kind": "风味",
       "seed": null,
       "round": 241
+    },
+    "seed_pine_0251": {
+      "id": "seed_pine_0251",
+      "name": "松针种子",
+      "emoji": "🌲",
+      "kind": "种子",
+      "seed": "plant_pine_0251",
+      "round": 251
     }
   },
   "plants": {
@@ -337,6 +345,18 @@
       "harvest": "seed_cocoa_0231",
       "days": 5,
       "round": 231
+    },
+    "plant_pine_0251": {
+      "id": "plant_pine_0251",
+      "name": "松针盆栽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌲"
+      ],
+      "harvest": "seed_pine_0251",
+      "days": 5,
+      "round": 251
     }
   },
   "cups": [],
@@ -783,7 +803,7 @@
     "theme_0237"
   ],
   "meta": {
-    "expandedRounds": 243,
+    "expandedRounds": 251,
     "lastIntegrityRound": 240,
     "itemCount": 23,
     "customerCount": 11

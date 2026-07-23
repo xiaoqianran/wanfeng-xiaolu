@@ -255,3 +255,4 @@
 | 248 | completed | feat | Add secret recipe stub #12 | Recipes=12 | `feat(shop): R0248 Add secret recipe stub #12` |
 | 249 | completed | feat | Add achievement definition #12 | Achievements=12 | `feat(meta): R0249 Add achievement definition #12` |
 | 250 | completed | style | CSS micro polish token #12 | CSS token hue=290 | `style(ui): R0250 CSS micro polish token #12` |
+| 251 | completed | feat | Add plantable linkage #12 | Plant link plant_pine_0251 | `feat(content): R0251 Add plantable linkage #12` |
