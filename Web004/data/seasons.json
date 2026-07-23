@@ -1,4 +1,9 @@
 {
   "current": "dusk",
-  "palettes": {}
+  "palettes": {
+    "winter_0014": {
+      "sky": "#1a5f80",
+      "ground": "#8bc72e"
+    }
+  }
 }
