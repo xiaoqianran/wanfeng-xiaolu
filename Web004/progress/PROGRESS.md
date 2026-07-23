@@ -584,3 +584,4 @@
 | 577 | completed | feat | Path theme fragment #28 | Path themes=33 | `feat(walk): R0577 Path theme fragment #28` |
 | 578 | completed | feat | Topping or cup option #28 | Topping top_r0578 | `feat(content): R0578 Topping or cup option #28` |
 | 579 | completed | docs | Stage milestone summary #28 | Stage doc stage-12.md | `docs(progress): R0579 Stage milestone summary #28` |
+| 580 | completed | refactor | Catalog integrity pass #28 | Integrity items=57 customers=28 | `refactor(core): R0580 Catalog integrity pass #28` |
