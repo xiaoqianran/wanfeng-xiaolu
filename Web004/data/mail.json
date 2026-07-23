@@ -799,5 +799,16 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_yangmei",
+    "title": "杨梅一篓",
+    "body": "摘杨梅的少年来信：新鲜最好。给你一小篓，别放太久。",
+    "effect": {
+      "items": {
+        "yangmei": 2
+      },
+      "coins": 2
+    }
   }
 ]
