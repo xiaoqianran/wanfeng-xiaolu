@@ -779,3 +779,4 @@
 | 772 | completed | feat | Add flavor or base option #38 | Flavor fl_matcha_0772 | `feat(shop): R0772 Add flavor or base option #38` |
 | 773 | completed | feat | UI copy toast string #38 | UI toasts=39 | `feat(ui): R0773 UI copy toast string #38` |
 | 774 | completed | feat | Season palette note #38 | Season palette winter_0774 | `feat(season): R0774 Season palette note #38` |
+| 775 | completed | assets | Asset slot registration #38 | Asset slot assets/walk/slot_0775.png | `assets(manifest): R0775 Asset slot registration #38` |
