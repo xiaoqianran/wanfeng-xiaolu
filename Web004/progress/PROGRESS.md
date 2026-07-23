@@ -608,3 +608,4 @@
 | 601 | completed | feat | Ship collectible + runtime catalog item #50 | Runtime item lavender_r0601 | `feat(content): R0601 Ship collectible + runtime catalog item #50` |
 | 602 | completed | feat | Ship customer persona into runtime #50 | Runtime customer 织围巾的阿姨·602 | `feat(shop): R0602 Ship customer persona into runtime #50` |
 | 603 | completed | feat | Ship walk ambient + pathWidth into runtime #50 | walk pathWidth=3203 ambient=102 | `feat(walk): R0603 Ship walk ambient + pathWidth into runtime #50` |
+| 604 | completed | feat | Ship garden care whisper into runtime #50 | garden messages=103 careBonus=1.05 | `feat(garden): R0604 Ship garden care whisper into runtime #50` |
