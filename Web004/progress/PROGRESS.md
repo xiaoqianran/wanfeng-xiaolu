@@ -234,3 +234,4 @@
 | 227 | completed | feat | Add journal template #11 | Journal templates=11 | `feat(album): R0227 Add journal template #11` |
 | 228 | completed | feat | Add secret recipe stub #11 | Recipes=11 | `feat(shop): R0228 Add secret recipe stub #11` |
 | 229 | completed | feat | Add achievement definition #11 | Achievements=11 | `feat(meta): R0229 Add achievement definition #11` |
+| 230 | completed | style | CSS micro polish token #11 | CSS token hue=310 | `style(ui): R0230 CSS micro polish token #11` |
