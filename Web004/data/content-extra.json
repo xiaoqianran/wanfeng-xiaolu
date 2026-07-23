@@ -1127,6 +1127,16 @@
         "果香"
       ],
       "round": 572
+    },
+    {
+      "id": "fl_matcha_0592",
+      "name": "抹茶粉",
+      "emoji": "🟢",
+      "need": null,
+      "tags": [
+        "清爽"
+      ],
+      "round": 592
     }
   ],
   "toppings": [
@@ -1874,7 +1884,7 @@
     "theme_0577"
   ],
   "meta": {
-    "expandedRounds": 591,
+    "expandedRounds": 592,
     "lastIntegrityRound": 580,
     "itemCount": 57,
     "customerCount": 28

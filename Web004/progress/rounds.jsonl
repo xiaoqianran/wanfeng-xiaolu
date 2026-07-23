@@ -589,3 +589,4 @@
 {"round":589,"status":"completed","type":"feat","scope":"meta","goal":"Add achievement definition #29","outcome":"Achievements=29","commit":"feat(meta): R0589 Add achievement definition #29","at":"2026-07-23T19:50:07.574Z"}
 {"round":590,"status":"completed","type":"style","scope":"ui","goal":"CSS micro polish token #29","outcome":"CSS token hue=310","commit":"style(ui): R0590 CSS micro polish token #29","at":"2026-07-23T19:50:07.598Z"}
 {"round":591,"status":"completed","type":"feat","scope":"content","goal":"Add plantable linkage #29","outcome":"Plant link plant_cocoa_0591","commit":"feat(content): R0591 Add plantable linkage #29","at":"2026-07-23T19:50:07.624Z"}
+{"round":592,"status":"completed","type":"feat","scope":"shop","goal":"Add flavor or base option #29","outcome":"Flavor fl_matcha_0592","commit":"feat(shop): R0592 Add flavor or base option #29","at":"2026-07-23T19:50:07.661Z"}
