@@ -1857,5 +1857,19 @@ test("path_catalog achievement and driftwood item", () => {
   assert.ok(n.some((a) => a.id === "path_catalog") || s.achievements.path_catalog);
 });
 
+
+test("addTipJar converts 10 coins to heart", () => {
+  const s = core.defaultState();
+  s.hearts = 0;
+  for (let i = 0; i < 9; i++) core.addTipJar(s, 1);
+  assert.strictEqual(s.hearts, 0);
+  const r = core.addTipJar(s, 1);
+  assert.ok(r.hearts >= 1);
+  assert.ok(s.hearts >= 1);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "tip_friend"));
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("tip-jar-status"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

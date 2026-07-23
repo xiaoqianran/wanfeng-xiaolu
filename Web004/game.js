@@ -1751,6 +1751,11 @@
     if (specialEl && special) {
       specialEl.textContent = special.hint + "（命中有小奖励）";
     }
+    const tipEl = document.getElementById("tip-jar-status");
+    if (tipEl) {
+      const jar = (state.tipJar && state.tipJar.coins) || 0;
+      tipEl.textContent = "小费罐：" + jar + " / 10";
+    }
     updateDrinkPreview();
     renderShopShelf();
   }
@@ -1995,8 +2000,13 @@
     const streakNote = (state.serveStreak || 0) >= 3 ? " · 连胜" + state.serveStreak : "";
     const scoreStars = "★".repeat(Math.max(1, Math.min(5, Math.round(score)))) + "☆".repeat(Math.max(0, 5 - Math.max(1, Math.min(5, Math.round(score)))));
     toast(`🥂 ${scoreStars} · +${coins} 🪙` + streakNote);
-    if (score >= 3) state.serveStreak = (state.serveStreak || 0) + 1;
-    else state.serveStreak = 0;
+    if (score >= 3) {
+      state.serveStreak = (state.serveStreak || 0) + 1;
+      if (Core.addTipJar) {
+        const tj = Core.addTipJar(state, 1);
+        if (tj.hearts) toast("💝 小费罐满了 · 好心情 +" + tj.hearts);
+      }
+    } else state.serveStreak = 0;
     if ((state.serveStreak || 0) >= 3) {
       state.coins += 2;
       notes.push("连胜小奖励");

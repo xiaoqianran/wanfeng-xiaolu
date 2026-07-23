@@ -472,6 +472,7 @@
     } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
+    { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },
   ];
 
   function advanceSeason(state) {
@@ -1067,6 +1068,7 @@
     state.stats.drinksServed = (state.stats.drinksServed || 0) + 1;
     if (result.score >= 3) {
       state.serveStreak = (state.serveStreak || 0) + 1;
+      addTipJar(state, 1);
     } else {
       state.serveStreak = 0;
     }
@@ -1088,7 +1090,24 @@
 
   /** Apply last remembered craft for a guest name into craft object */
   
-  function setFavoriteCup(state, cupId) {
+  
+  /** Soft tip jar: spare coins become hearts when jar fills (no combat) */
+  function addTipJar(state, coins) {
+    coins = coins == null ? 1 : coins;
+    if (!state.tipJar) state.tipJar = { coins: 0 };
+    state.tipJar.coins = (state.tipJar.coins || 0) + coins;
+    var hearts = 0;
+    while (state.tipJar.coins >= 10) {
+      state.tipJar.coins -= 10;
+      state.hearts = (state.hearts || 0) + 1;
+      hearts += 1;
+    }
+    if (hearts && !state.stats) state.stats = {};
+    if (hearts) state.stats.tipJarHearts = (state.stats.tipJarHearts || 0) + hearts;
+    return { ok: true, jar: state.tipJar.coins, hearts: hearts };
+  }
+
+function setFavoriteCup(state, cupId) {
     cupId = String(cupId || "").trim();
     if (!cupId) return { ok: false, reason: "empty" };
     state.favoriteCupId = cupId;
@@ -1314,6 +1333,7 @@ function recallGuestCraft(state, guestName) {
     buildSpawnList: buildSpawnList,
     recallGuestCraft: recallGuestCraft,
     setFavoriteCup: setFavoriteCup,
+    addTipJar: addTipJar,
     claimFirstWalkBonus: claimFirstWalkBonus,
     upgradeWateringCan: upgradeWateringCan,
     checkPathMilestones: checkPathMilestones,
