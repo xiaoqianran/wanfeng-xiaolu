@@ -4997,6 +4997,10 @@
     {
       "round": 474,
       "text": "汽水的气泡像小星星。（R0474）"
+    },
+    {
+      "round": 486,
+      "text": "薄荷叶上滚着露水。（R0486）"
     }
   ],
   "seasons": [
@@ -5065,7 +5069,7 @@
     "theme_1037"
   ],
   "meta": {
-    "expandedRounds": 482,
+    "expandedRounds": 486,
     "lastIntegrityRound": 1040,
     "itemCount": 102,
     "customerCount": 50,
