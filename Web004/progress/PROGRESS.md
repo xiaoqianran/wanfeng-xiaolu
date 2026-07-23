@@ -296,3 +296,4 @@
 | 289 | completed | feat | Add achievement definition #14 | Achievements=14 | `feat(meta): R0289 Add achievement definition #14` |
 | 290 | completed | style | CSS micro polish token #14 | CSS token hue=250 | `style(ui): R0290 CSS micro polish token #14` |
 | 291 | completed | feat | Add plantable linkage #14 | Plant link plant_cocoa_0291 | `feat(content): R0291 Add plantable linkage #14` |
+| 292 | completed | feat | Add flavor or base option #14 | Flavor fl_matcha_0292 | `feat(shop): R0292 Add flavor or base option #14` |
