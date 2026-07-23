@@ -395,3 +395,4 @@
 | 388 | completed | feat | Add secret recipe stub #19 | Recipes=19 | `feat(shop): R0388 Add secret recipe stub #19` |
 | 389 | completed | feat | Add achievement definition #19 | Achievements=19 | `feat(meta): R0389 Add achievement definition #19` |
 | 390 | completed | style | CSS micro polish token #19 | CSS token hue=150 | `style(ui): R0390 CSS micro polish token #19` |
+| 391 | completed | feat | Add plantable linkage #19 | Plant link plant_lavender_0391 | `feat(content): R0391 Add plantable linkage #19` |
