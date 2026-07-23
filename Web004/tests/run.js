@@ -1353,5 +1353,16 @@ test("night_market theme and manual documents snap/pin", () => {
   assert.ok(man.includes("窗台速写") || man.includes("常客"));
 });
 
+
+test("candy_wrap paper_crane and night market recipe", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.candy_wrap && j.items.paper_crane);
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "夜市糖纸苏打"));
+  const ev = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(ev.length >= 130);
+  assert.strictEqual(new Set(ev.map((e) => e.title)).size, ev.length);
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

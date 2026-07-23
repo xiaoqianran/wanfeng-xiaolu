@@ -374,7 +374,9 @@
       "ribbon": 2.2,
       "maple": 1.6,
       "petal": 1.5,
-      "stone": 0.8
+      "stone": 0.8,
+      "candy_wrap": 2.6,
+      "paper_crane": 1.5
     },
     "ambient": [
       "油纸伞收起来了，地上还留着一圈水印。",

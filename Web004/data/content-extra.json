@@ -2168,6 +2168,20 @@
       "emoji": "🌼",
       "kind": "风味",
       "seed": "chamomilePot"
+    },
+    "paper_crane": {
+      "id": "paper_crane",
+      "name": "纸鹤",
+      "emoji": "🦢",
+      "kind": "收藏",
+      "seed": null
+    },
+    "candy_wrap": {
+      "id": "candy_wrap",
+      "name": "糖纸",
+      "emoji": "🍬",
+      "kind": "装饰",
+      "seed": null
     }
   },
   "plants": {
@@ -4985,6 +4999,12 @@
       "name": "麦穗",
       "emoji": "🌾",
       "need": "wheat_ear"
+    },
+    {
+      "id": "candy_wrap_top",
+      "name": "糖纸",
+      "emoji": "🍬",
+      "need": "candy_wrap"
     }
   ],
   "customers": [
