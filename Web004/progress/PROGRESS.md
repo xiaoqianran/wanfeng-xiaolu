@@ -70,3 +70,4 @@
 | 63 | completed | feat | Add dialogue line #3 | Dialogue count=3 | `feat(content): R0063 Add dialogue line #3` |
 | 64 | completed | feat | Add garden care whisper #3 | Garden msg #4 | `feat(garden): R0064 Add garden care whisper #3` |
 | 65 | completed | feat | Add shop tip #3 | Shop tip #4 | `feat(shop): R0065 Add shop tip #3` |
+| 66 | completed | feat | Tune walk ambient note #3 | Walk ambient #3 | `feat(walk): R0066 Tune walk ambient note #3` |
