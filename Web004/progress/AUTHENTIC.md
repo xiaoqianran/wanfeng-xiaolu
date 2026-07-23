@@ -262,3 +262,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0263 | completed | test | 莳萝回归 | 136 tests pass | `feat(garden): A0262 莳萝可种植与田园陶配方` |
 | A0264 | completed | content | 事件至319则 | 319 unique evening events | `content(events): A0264 事件三一九则与莳萝贴纸来信` |
 | A0265 | completed | content | 莳萝贴纸信 | mail 52 | `content(events): A0264 事件三一九则与莳萝贴纸来信` |
+| A0266 | completed | feat | 水壶扩容 | upgradeWateringCan max 8 | `feat(garden): A0266 水壶扩容升级至八格` |
+| A0267 | completed | test | 扩容回归 | 137 tests pass | `feat(garden): A0266 水壶扩容升级至八格` |
