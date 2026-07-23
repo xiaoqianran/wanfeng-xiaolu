@@ -859,3 +859,4 @@
 | 852 | completed | feat | Add flavor or base option #42 | Flavor fl_shell_0852 | `feat(shop): R0852 Add flavor or base option #42` |
 | 853 | completed | feat | UI copy toast string #42 | UI toasts=43 | `feat(ui): R0853 UI copy toast string #42` |
 | 854 | completed | feat | Season palette note #42 | Season palette winter_0854 | `feat(season): R0854 Season palette note #42` |
+| 855 | completed | assets | Asset slot registration #42 | Asset slot assets/walk/slot_0855.png | `assets(manifest): R0855 Asset slot registration #42` |
