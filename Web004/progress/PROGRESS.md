@@ -907,3 +907,4 @@
 | 900 | completed | refactor | Catalog integrity pass #44 | Integrity items=89 customers=44 | `refactor(core): R0900 Catalog integrity pass #44` |
 | 901 | completed | feat | Add collectible item batch #45 | Item lavender_r0901 added | `feat(content): R0901 Add collectible item batch #45` |
 | 902 | completed | feat | Add customer persona #45 | Customer 织围巾的阿姨·902 | `feat(shop): R0902 Add customer persona #45` |
+| 903 | completed | feat | Add dialogue line #45 | Dialogue count=45 | `feat(content): R0903 Add dialogue line #45` |
