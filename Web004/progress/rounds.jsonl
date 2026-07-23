@@ -324,3 +324,4 @@
 {"round":324,"status":"completed","type":"feat","scope":"garden","goal":"Add garden care whisper #16","outcome":"Garden msg #17","commit":"feat(garden): R0324 Add garden care whisper #16","at":"2026-07-23T19:49:53.252Z"}
 {"round":325,"status":"completed","type":"feat","scope":"shop","goal":"Add shop tip #16","outcome":"Shop tip #17","commit":"feat(shop): R0325 Add shop tip #16","at":"2026-07-23T19:49:53.283Z"}
 {"round":326,"status":"completed","type":"feat","scope":"walk","goal":"Tune walk ambient note #16","outcome":"Walk ambient #16","commit":"feat(walk): R0326 Tune walk ambient note #16","at":"2026-07-23T19:49:53.368Z"}
+{"round":327,"status":"completed","type":"feat","scope":"album","goal":"Add journal template #16","outcome":"Journal templates=16","commit":"feat(album): R0327 Add journal template #16","at":"2026-07-23T19:49:53.394Z"}
