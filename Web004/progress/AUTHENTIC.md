@@ -249,3 +249,5 @@ Only rounds with **authentic:true** count. Template spam archived under `archive
 | A0250 | completed | docs | 测试报告241 | TEST_REPORT 132 pass authentic 241 | `docs(test): A0249 真实测试报告与第一脚音效` |
 | A0251 | completed | feat | 潮间小湾主题 | tide_pool 19th + ripple FX | `feat(walk): A0251 潮间小湾主题与涟漪特效` |
 | A0252 | completed | test | 潮间主题回归 | 133 tests pass | `feat(walk): A0251 潮间小湾主题与涟漪特效` |
+| A0253 | completed | fix | 事件标题去重 | dedupe 继续走; 306 unique titles | `fix(events): A0253 去重晚间标题并同步潮间手册` |
+| A0254 | completed | docs | 手册潮间 | USER_MANUAL tide_pool | `fix(events): A0253 去重晚间标题并同步潮间手册` |
