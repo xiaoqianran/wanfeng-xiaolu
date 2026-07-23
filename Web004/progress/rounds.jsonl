@@ -799,3 +799,4 @@
 {"round":799,"status":"completed","type":"docs","scope":"progress","goal":"Stage milestone summary #39","outcome":"Stage doc stage-16.md","commit":"docs(progress): R0799 Stage milestone summary #39","at":"2026-07-23T19:50:16.124Z"}
 {"round":800,"status":"completed","type":"refactor","scope":"core","goal":"Catalog integrity pass #39","outcome":"Integrity items=79 customers=39","commit":"refactor(core): R0800 Catalog integrity pass #39","at":"2026-07-23T19:50:16.162Z"}
 {"round":801,"status":"completed","type":"feat","scope":"content","goal":"Add collectible item batch #40","outcome":"Item cocoa_r0801 added","commit":"feat(content): R0801 Add collectible item batch #40","at":"2026-07-23T19:50:16.225Z"}
+{"round":802,"status":"completed","type":"feat","scope":"shop","goal":"Add customer persona #40","outcome":"Customer 夜跑爱好者·802","commit":"feat(shop): R0802 Add customer persona #40","at":"2026-07-23T19:50:16.256Z"}
