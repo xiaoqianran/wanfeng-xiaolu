@@ -893,5 +893,16 @@ test("lavender_bud plantable and rest still works", () => {
   assert.ok(rest.ok && rest.rested);
 });
 
+test("rain_eaves theme ships with 8 path themes", () => {
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "rain_eaves"));
+  assert.ok(themes.length >= 8);
+  const ids = themes.map((th) => th.id);
+  assert.strictEqual(new Set(ids).size, ids.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("rain_eaves"));
+  assert.ok(game.includes("scoreStars"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);

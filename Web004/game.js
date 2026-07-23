@@ -690,6 +690,17 @@
         const x = (i * w) / 8 + Math.sin(time * 0.02 + i) * 4;
         ctx.fillRect(x, 0, 10, h * 0.7);
       }
+    } else if (themeId === "rain_eaves") {
+      ctx.strokeStyle = "rgba(160,180,200,0.4)";
+      ctx.lineWidth = 1;
+      for (let i = 0; i < 16; i++) {
+        const x = ((i * 61 + time * 0.7) % (w + 10)) - 5;
+        const y = (i * 29 + time * 1.1) % h;
+        ctx.beginPath();
+        ctx.moveTo(x, y);
+        ctx.lineTo(x - 1, y + 12);
+        ctx.stroke();
+      }
     } else if (themeId === "lantern_street") {
       for (let i = 0; i < 7; i++) {
         const x = 40 + i * (w / 7);
@@ -1486,7 +1497,8 @@
     const reaction = reactions[Math.min(reactions.length - 1, Math.floor(score))];
     msgEl.textContent = `${reaction}  +${coins} 金币${hearts ? " · +1 好心情" : ""}${notes.length ? "（" + notes.join("，") + "）" : ""}`;
     const streakNote = (state.serveStreak || 0) >= 3 ? " · 连胜" + state.serveStreak : "";
-    toast(`🥂 客人很满意 · +${coins} 🪙` + streakNote);
+    const scoreStars = "★".repeat(Math.max(1, Math.min(5, Math.round(score)))) + "☆".repeat(Math.max(0, 5 - Math.max(1, Math.min(5, Math.round(score)))));
+    toast(`🥂 ${scoreStars} · +${coins} 🪙` + streakNote);
     if (score >= 3) state.serveStreak = (state.serveStreak || 0) + 1;
     else state.serveStreak = 0;
     if ((state.serveStreak || 0) >= 3) {
