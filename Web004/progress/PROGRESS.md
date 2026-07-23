@@ -386,3 +386,4 @@
 | 379 | completed | docs | Stage milestone summary #18 | Stage doc stage-08.md | `docs(progress): R0379 Stage milestone summary #18` |
 | 380 | completed | refactor | Catalog integrity pass #18 | Integrity items=37 customers=18 | `refactor(core): R0380 Catalog integrity pass #18` |
 | 381 | completed | feat | Add collectible item batch #19 | Item cocoa_r0381 added | `feat(content): R0381 Add collectible item batch #19` |
+| 382 | completed | feat | Add customer persona #19 | Customer 夜跑爱好者·382 | `feat(shop): R0382 Add customer persona #19` |
