@@ -285,6 +285,8 @@
       { flavor: "sugarcane", label: "甘蔗" },
       { flavor: "lemon", label: "柠檬" },
       { flavor: "lime", label: "青柠" },
+      { flavor: "cranberry", label: "蔓越莓" },
+      { flavor: "elderberry", label: "接骨木果" },
     ],
     autumn: [
       { flavor: "honey", label: "野蜜" },
@@ -314,6 +316,8 @@
       { flavor: "chestnut", label: "板栗" },
       { flavor: "cinnamon", label: "肉桂" },
       { flavor: "clove", label: "丁香" },
+      { flavor: "star_anise", label: "八角" },
+      { flavor: "nutmeg", label: "肉豆蔻" },
     ],
     dusk: [
       { flavor: "lavender_bud", label: "薰衣草" },
@@ -931,6 +935,30 @@
     { id: "clove_walker", name: "丁香院旅人", desc: "走过丁香香院", check: function (s) {
       return !!(s._themesTouched && s._themesTouched.clove_courtyard);
     } },
+    { id: "cranberry_sill", name: "蔓越莓窗台", desc: "发现蔓越莓", check: function (s) {
+      return !!(s.discovered && s.discovered.cranberry);
+    } },
+    { id: "cranberry_walker", name: "蔓越莓浅滩旅人", desc: "走过蔓越莓浅滩", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.cranberry_bog);
+    } },
+    { id: "elderberry_sill", name: "接骨木果窗台", desc: "发现接骨木果", check: function (s) {
+      return !!(s.discovered && s.discovered.elderberry);
+    } },
+    { id: "elderberry_walker", name: "接骨木果径旅人", desc: "走过接骨木果径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.elder_lane);
+    } },
+    { id: "anise_sill", name: "八角窗台", desc: "发现八角", check: function (s) {
+      return !!(s.discovered && s.discovered.star_anise);
+    } },
+    { id: "anise_walker", name: "八角径旅人", desc: "走过八角短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.anise_path);
+    } },
+    { id: "nutmeg_sill", name: "肉豆蔻窗台", desc: "发现肉豆蔻", check: function (s) {
+      return !!(s.discovered && s.discovered.nutmeg);
+    } },
+    { id: "nutmeg_walker", name: "肉豆蔻径旅人", desc: "走过肉豆蔻小径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.nutmeg_lane);
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "path_eighty", name: "八十路图鉴", desc: "切换过 80 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 80; } },
     { id: "path_sixty", name: "六十路图鉴", desc: "切换过 60 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 60; } },
@@ -1471,7 +1499,7 @@
       score += 0.5;
       notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || flavorDef.id === "litchi" || flavorDef.id === "olive" || flavorDef.id === "mango" || flavorDef.id === "pineapple" || flavorDef.id === "coconut" || flavorDef.id === "starfruit" || flavorDef.id === "passion_fruit" || flavorDef.id === "kiwi" || flavorDef.id === "dragonfruit" || flavorDef.id === "guava" || flavorDef.id === "cherry" || flavorDef.id === "apricot" || flavorDef.id === "grapefruit" || flavorDef.id === "tangerine" || flavorDef.id === "wax_apple" || flavorDef.id === "sugarcane" || flavorDef.id === "lemon" || flavorDef.id === "lime" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || flavorDef.id === "litchi" || flavorDef.id === "olive" || flavorDef.id === "mango" || flavorDef.id === "pineapple" || flavorDef.id === "coconut" || flavorDef.id === "starfruit" || flavorDef.id === "passion_fruit" || flavorDef.id === "kiwi" || flavorDef.id === "dragonfruit" || flavorDef.id === "guava" || flavorDef.id === "cherry" || flavorDef.id === "apricot" || flavorDef.id === "grapefruit" || flavorDef.id === "tangerine" || flavorDef.id === "wax_apple" || flavorDef.id === "sugarcane" || flavorDef.id === "lemon" || flavorDef.id === "lime" || flavorDef.id === "cranberry" || flavorDef.id === "elderberry" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5;
       notes.push("夏日清爽");
     }
@@ -1479,7 +1507,7 @@
       score += 0.5;
       notes.push("秋日温甜");
     }
-    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube" || flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron" || flavorDef.id === "pistachio" || flavorDef.id === "chestnut" || flavorDef.id === "cinnamon" || flavorDef.id === "clove")) {
+    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube" || flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron" || flavorDef.id === "pistachio" || flavorDef.id === "chestnut" || flavorDef.id === "cinnamon" || flavorDef.id === "clove" || flavorDef.id === "star_anise" || flavorDef.id === "nutmeg")) {
       score += 0.5;
       notes.push("冬日暖茶");
     }
@@ -1488,7 +1516,7 @@
       (cupDef && (cupDef.id === "mug" || cupDef.id === "warm" || cupDef.vibe === "温柔" || cupDef.vibe === "温暖")) ||
       (baseDef && (baseDef.id === "honey_water" || baseDef.id === "tea"))
     ) {
-      if (flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron" || flavorDef.id === "pistachio" || flavorDef.id === "chestnut" || flavorDef.id === "cinnamon" || flavorDef.id === "clove") {
+      if (flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron" || flavorDef.id === "pistachio" || flavorDef.id === "chestnut" || flavorDef.id === "cinnamon" || flavorDef.id === "clove" || flavorDef.id === "star_anise" || flavorDef.id === "nutmeg") {
         score += 0.25;
         notes.push("甜点一角");
       }

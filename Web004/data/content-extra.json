@@ -2742,6 +2742,34 @@
       "emoji": "🟤",
       "kind": "风味",
       "seed": "clovePot"
+    },
+    "cranberry": {
+      "id": "cranberry",
+      "name": "蔓越莓",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "cranberryPot"
+    },
+    "elderberry": {
+      "id": "elderberry",
+      "name": "接骨木果",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "elderberryPot"
+    },
+    "star_anise": {
+      "id": "star_anise",
+      "name": "八角",
+      "emoji": "⭐",
+      "kind": "风味",
+      "seed": "starAnisePot"
+    },
+    "nutmeg": {
+      "id": "nutmeg",
+      "name": "肉豆蔻",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "nutmegPot"
     }
   },
   "plants": {
@@ -5247,6 +5275,50 @@
       ],
       "harvest": "clove",
       "days": 3
+    },
+    "cranberryPot": {
+      "id": "cranberryPot",
+      "name": "蔓越莓",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "cranberry",
+      "days": 3
+    },
+    "elderberryPot": {
+      "id": "elderberryPot",
+      "name": "接骨木果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "elderberry",
+      "days": 3
+    },
+    "starAnisePot": {
+      "id": "starAnisePot",
+      "name": "八角",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⭐"
+      ],
+      "harvest": "star_anise",
+      "days": 3
+    },
+    "nutmegPot": {
+      "id": "nutmegPot",
+      "name": "肉豆蔻",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "nutmeg",
+      "days": 4
     }
   },
   "cups": [
@@ -6631,6 +6703,46 @@
       "tags": [
         "花香",
         "温暖"
+      ]
+    },
+    {
+      "id": "cranberry",
+      "name": "蔓越莓",
+      "emoji": "🔴",
+      "need": "cranberry",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "elderberry",
+      "name": "接骨木果",
+      "emoji": "🟣",
+      "need": "elderberry",
+      "tags": [
+        "果香",
+        "花香"
+      ]
+    },
+    {
+      "id": "star_anise",
+      "name": "八角",
+      "emoji": "⭐",
+      "need": "star_anise",
+      "tags": [
+        "温暖",
+        "草本"
+      ]
+    },
+    {
+      "id": "nutmeg",
+      "name": "肉豆蔻",
+      "emoji": "🟤",
+      "need": "nutmeg",
+      "tags": [
+        "温暖",
+        "甜蜜"
       ]
     }
   ],
@@ -8681,6 +8793,66 @@
         "honey",
         "cinnamon",
         "tea_leaf"
+      ]
+    },
+    {
+      "name": "熬蔓越莓酱的厨娘",
+      "avatar": "🫙",
+      "wish": "蔓越莓或蜜，清爽酸甜，装饰随意。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "cranberry",
+        "honey",
+        "blueberry",
+        "mint"
+      ]
+    },
+    {
+      "name": "做接骨木糖浆的人",
+      "avatar": "🧪",
+      "wish": "接骨木果或蜜，果香一点，暖杯也好。",
+      "tags": [
+        "果香",
+        "花香"
+      ],
+      "flavors": [
+        "elderberry",
+        "honey",
+        "elderflower",
+        "jasmine"
+      ]
+    },
+    {
+      "name": "炖八角的厨子",
+      "avatar": "⭐",
+      "wish": "八角或蜜，温暖一点，暖杯最好。",
+      "tags": [
+        "温暖",
+        "草本"
+      ],
+      "flavors": [
+        "star_anise",
+        "honey",
+        "cinnamon",
+        "clove"
+      ]
+    },
+    {
+      "name": "磨肉豆蔻的糕点师",
+      "avatar": "🧁",
+      "wish": "肉豆蔻或蜜，温暖甜蜜，暖杯最好。",
+      "tags": [
+        "温暖",
+        "甜蜜"
+      ],
+      "flavors": [
+        "nutmeg",
+        "honey",
+        "cocoa",
+        "vanilla"
       ]
     }
   ],
