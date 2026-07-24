@@ -5591,6 +5591,118 @@
       "emoji": "💜",
       "kind": "风味",
       "seed": "labrador_violetPot"
+    },
+    "kinako": {
+      "id": "kinako",
+      "name": "黄豆粉",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "kinakoPot"
+    },
+    "kuromitsu": {
+      "id": "kuromitsu",
+      "name": "黑蜜",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "kuromitsuPot"
+    },
+    "matcha_salt": {
+      "id": "matcha_salt",
+      "name": "抹茶盐",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "matcha_saltPot"
+    },
+    "yuzu_peel": {
+      "id": "yuzu_peel",
+      "name": "柚子皮",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "yuzu_peelPot"
+    },
+    "sansho_leaf": {
+      "id": "sansho_leaf",
+      "name": "山椒叶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "sansho_leafPot"
+    },
+    "shiso_flower": {
+      "id": "shiso_flower",
+      "name": "紫苏穗",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "shiso_flowerPot"
+    },
+    "ume_blossom": {
+      "id": "ume_blossom",
+      "name": "梅花花",
+      "emoji": "🩷",
+      "kind": "风味",
+      "seed": "ume_blossomPot"
+    },
+    "sakura_leaf": {
+      "id": "sakura_leaf",
+      "name": "樱叶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "sakura_leafPot"
+    },
+    "vanilla_bean": {
+      "id": "vanilla_bean",
+      "name": "香草荚",
+      "emoji": "🤎",
+      "kind": "风味",
+      "seed": "vanilla_beanPot"
+    },
+    "tonka_bean": {
+      "id": "tonka_bean",
+      "name": "零陵香豆",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "tonka_beanPot"
+    },
+    "lavender_sugar": {
+      "id": "lavender_sugar",
+      "name": "薰衣草糖",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "lavender_sugarPot"
+    },
+    "rose_water": {
+      "id": "rose_water",
+      "name": "玫瑰水",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "rose_waterPot"
+    },
+    "orange_flower_water": {
+      "id": "orange_flower_water",
+      "name": "橙花水",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "orange_flower_waterPot"
+    },
+    "almond_blossom": {
+      "id": "almond_blossom",
+      "name": "杏花",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "almond_blossomPot"
+    },
+    "hazelnut_flower": {
+      "id": "hazelnut_flower",
+      "name": "榛花",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "hazelnut_flowerPot"
+    },
+    "chestnut_flower": {
+      "id": "chestnut_flower",
+      "name": "板栗花",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "chestnut_flowerPot"
     }
   },
   "plants": {
@@ -12573,6 +12685,182 @@
       ],
       "harvest": "labrador_violet",
       "days": 3
+    },
+    "kinakoPot": {
+      "id": "kinakoPot",
+      "name": "黄豆粉",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "kinako",
+      "days": 3
+    },
+    "kuromitsuPot": {
+      "id": "kuromitsuPot",
+      "name": "黑蜜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "kuromitsu",
+      "days": 3
+    },
+    "matcha_saltPot": {
+      "id": "matcha_saltPot",
+      "name": "抹茶盐",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "matcha_salt",
+      "days": 3
+    },
+    "yuzu_peelPot": {
+      "id": "yuzu_peelPot",
+      "name": "柚子皮",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "yuzu_peel",
+      "days": 3
+    },
+    "sansho_leafPot": {
+      "id": "sansho_leafPot",
+      "name": "山椒叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "sansho_leaf",
+      "days": 3
+    },
+    "shiso_flowerPot": {
+      "id": "shiso_flowerPot",
+      "name": "紫苏穗",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "shiso_flower",
+      "days": 3
+    },
+    "ume_blossomPot": {
+      "id": "ume_blossomPot",
+      "name": "梅花花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🩷"
+      ],
+      "harvest": "ume_blossom",
+      "days": 3
+    },
+    "sakura_leafPot": {
+      "id": "sakura_leafPot",
+      "name": "樱叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "sakura_leaf",
+      "days": 3
+    },
+    "vanilla_beanPot": {
+      "id": "vanilla_beanPot",
+      "name": "香草荚",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤎"
+      ],
+      "harvest": "vanilla_bean",
+      "days": 4
+    },
+    "tonka_beanPot": {
+      "id": "tonka_beanPot",
+      "name": "零陵香豆",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "tonka_bean",
+      "days": 4
+    },
+    "lavender_sugarPot": {
+      "id": "lavender_sugarPot",
+      "name": "薰衣草糖",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "lavender_sugar",
+      "days": 3
+    },
+    "rose_waterPot": {
+      "id": "rose_waterPot",
+      "name": "玫瑰水",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "rose_water",
+      "days": 3
+    },
+    "orange_flower_waterPot": {
+      "id": "orange_flower_waterPot",
+      "name": "橙花水",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "orange_flower_water",
+      "days": 3
+    },
+    "almond_blossomPot": {
+      "id": "almond_blossomPot",
+      "name": "杏花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "almond_blossom",
+      "days": 3
+    },
+    "hazelnut_flowerPot": {
+      "id": "hazelnut_flowerPot",
+      "name": "榛花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "hazelnut_flower",
+      "days": 3
+    },
+    "chestnut_flowerPot": {
+      "id": "chestnut_flowerPot",
+      "name": "板栗花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "chestnut_flower",
+      "days": 3
     }
   },
   "cups": [
@@ -18027,6 +18315,166 @@
       "tags": [
         "花香",
         "清爽"
+      ]
+    },
+    {
+      "id": "kinako",
+      "name": "黄豆粉",
+      "emoji": "🟡",
+      "need": "kinako",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ]
+    },
+    {
+      "id": "kuromitsu",
+      "name": "黑蜜",
+      "emoji": "🟤",
+      "need": "kuromitsu",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ]
+    },
+    {
+      "id": "matcha_salt",
+      "name": "抹茶盐",
+      "emoji": "🟢",
+      "need": "matcha_salt",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "yuzu_peel",
+      "name": "柚子皮",
+      "emoji": "🟡",
+      "need": "yuzu_peel",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "sansho_leaf",
+      "name": "山椒叶",
+      "emoji": "🟢",
+      "need": "sansho_leaf",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "shiso_flower",
+      "name": "紫苏穗",
+      "emoji": "💜",
+      "need": "shiso_flower",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "ume_blossom",
+      "name": "梅花花",
+      "emoji": "🩷",
+      "need": "ume_blossom",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "sakura_leaf",
+      "name": "樱叶",
+      "emoji": "🟢",
+      "need": "sakura_leaf",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "vanilla_bean",
+      "name": "香草荚",
+      "emoji": "🤎",
+      "need": "vanilla_bean",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ]
+    },
+    {
+      "id": "tonka_bean",
+      "name": "零陵香豆",
+      "emoji": "🟤",
+      "need": "tonka_bean",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ]
+    },
+    {
+      "id": "lavender_sugar",
+      "name": "薰衣草糖",
+      "emoji": "💜",
+      "need": "lavender_sugar",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "rose_water",
+      "name": "玫瑰水",
+      "emoji": "💗",
+      "need": "rose_water",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "orange_flower_water",
+      "name": "橙花水",
+      "emoji": "🤍",
+      "need": "orange_flower_water",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "almond_blossom",
+      "name": "杏花",
+      "emoji": "🤍",
+      "need": "almond_blossom",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "hazelnut_flower",
+      "name": "榛花",
+      "emoji": "🟡",
+      "need": "hazelnut_flower",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "chestnut_flower",
+      "name": "板栗花",
+      "emoji": "💛",
+      "need": "chestnut_flower",
+      "tags": [
+        "花香",
+        "温暖"
       ]
     }
   ],
@@ -26185,6 +26633,246 @@
         "honey",
         "tea_leaf",
         "mint"
+      ]
+    },
+    {
+      "name": "磨黄豆粉的旅人",
+      "avatar": "🟡",
+      "wish": "黄豆粉或蜜，慢慢喝也好。",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ],
+      "flavors": [
+        "kinako",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "熬黑蜜的药师",
+      "avatar": "🟤",
+      "wish": "黑蜜或蜜，慢慢喝也好。",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ],
+      "flavors": [
+        "kuromitsu",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "磨抹茶盐的旅人",
+      "avatar": "🟢",
+      "wish": "抹茶盐或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "matcha_salt",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "晒柚子皮的药师",
+      "avatar": "🟡",
+      "wish": "柚子皮或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "yuzu_peel",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采山椒叶的旅人",
+      "avatar": "🟢",
+      "wish": "山椒叶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "sansho_leaf",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采紫苏穗的药师",
+      "avatar": "💜",
+      "wish": "紫苏穗或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "shiso_flower",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采梅花花的旅人",
+      "avatar": "🩷",
+      "wish": "梅花花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "ume_blossom",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "盐渍樱叶的药师",
+      "avatar": "🟢",
+      "wish": "樱叶或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "sakura_leaf",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "剖香草荚的旅人",
+      "avatar": "🤎",
+      "wish": "香草荚或蜜，慢慢喝也好。",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ],
+      "flavors": [
+        "vanilla_bean",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "磨零陵香豆的药师",
+      "avatar": "🟤",
+      "wish": "零陵香豆或蜜，慢慢喝也好。",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ],
+      "flavors": [
+        "tonka_bean",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "做薰衣草糖的旅人",
+      "avatar": "💜",
+      "wish": "薰衣草糖或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "lavender_sugar",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "蒸玫瑰水的药师",
+      "avatar": "💗",
+      "wish": "玫瑰水或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "rose_water",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "蒸橙花水的旅人",
+      "avatar": "🤍",
+      "wish": "橙花水或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "orange_flower_water",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采杏花的药师",
+      "avatar": "🤍",
+      "wish": "杏花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "almond_blossom",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采榛花的旅人",
+      "avatar": "🟡",
+      "wish": "榛花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "hazelnut_flower",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采板栗花的药师",
+      "avatar": "💛",
+      "wish": "板栗花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "chestnut_flower",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
       ]
     }
   ],

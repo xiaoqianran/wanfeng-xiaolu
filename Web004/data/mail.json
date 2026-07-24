@@ -5672,5 +5672,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_kinako",
+    "title": "黄豆粉两份",
+    "body": "磨黄豆粉的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kinako": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kuromitsu",
+    "title": "黑蜜两份",
+    "body": "熬黑蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kuromitsu": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_matcha_salt",
+    "title": "抹茶盐两份",
+    "body": "磨抹茶盐的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "matcha_salt": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_yuzu_peel",
+    "title": "柚子皮两份",
+    "body": "晒柚子皮的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "yuzu_peel": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sansho_leaf",
+    "title": "山椒叶两份",
+    "body": "采山椒叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sansho_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_shiso_flower",
+    "title": "紫苏穗两份",
+    "body": "采紫苏穗的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "shiso_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ume_blossom",
+    "title": "梅花花两份",
+    "body": "采梅花花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "ume_blossom": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sakura_leaf",
+    "title": "樱叶两份",
+    "body": "盐渍樱叶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sakura_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_vanilla_bean",
+    "title": "香草荚两份",
+    "body": "剖香草荚的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "vanilla_bean": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tonka_bean",
+    "title": "零陵香豆两份",
+    "body": "磨零陵香豆的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tonka_bean": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lavender_sugar",
+    "title": "薰衣草糖两份",
+    "body": "做薰衣草糖的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "lavender_sugar": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rose_water",
+    "title": "玫瑰水两份",
+    "body": "蒸玫瑰水的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rose_water": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_orange_flower_water",
+    "title": "橙花水两份",
+    "body": "蒸橙花水的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "orange_flower_water": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_almond_blossom",
+    "title": "杏花两份",
+    "body": "采杏花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "almond_blossom": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_hazelnut_flower",
+    "title": "榛花两份",
+    "body": "采榛花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "hazelnut_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_chestnut_flower",
+    "title": "板栗花两份",
+    "body": "采板栗花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "chestnut_flower": 2
+      },
+      "coins": 2
+    }
   }
 ]
