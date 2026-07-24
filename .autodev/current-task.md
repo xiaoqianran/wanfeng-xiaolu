@@ -1,7 +1,7 @@
 # Current task
 
-A0701+ toward 1000 authentic rounds for 《晚风小路》.
+A0705+ toward 1000 authentic rounds for 《晚风小路》.
 
-- authenticRows: 693 / 1000 (gap 307)
-- Themes: 715 | Tests: 295 pass | integrated: 497
+- authenticRows: 697 / 1000 (gap 303)
+- Themes: 731 | Tests: 297 pass | integrated: 500
 - Spam DISABLED | Tool: tools/add-plant-path-shop-batch.js
