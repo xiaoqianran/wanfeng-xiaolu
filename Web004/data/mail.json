@@ -125880,5 +125880,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_rain0",
+    "title": "檐雨雨声茶两份",
+    "body": "采檐雨雨声茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain0": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain1",
+    "title": "檐雨雨脚蜜两份",
+    "body": "采檐雨雨脚蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain1": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain2",
+    "title": "檐雨雨丝姜两份",
+    "body": "采檐雨雨丝姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain2": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain3",
+    "title": "檐雨雨帘花两份",
+    "body": "采檐雨雨帘花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain3": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain4",
+    "title": "檐雨雨巷香两份",
+    "body": "采檐雨雨巷香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain4": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain5",
+    "title": "檐雨雨瓦凉两份",
+    "body": "采檐雨雨瓦凉的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain5": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain6",
+    "title": "檐雨雨帘静两份",
+    "body": "采檐雨雨帘静的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain6": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain7",
+    "title": "檐雨雨伞暖两份",
+    "body": "采檐雨雨伞暖的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain7": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain8",
+    "title": "檐雨雨笠湿两份",
+    "body": "采檐雨雨笠湿的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain8": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain9",
+    "title": "檐雨雨蓑香两份",
+    "body": "采檐雨雨蓑香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain9": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain10",
+    "title": "檐雨雨靴泥两份",
+    "body": "采檐雨雨靴泥的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain10": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain11",
+    "title": "檐雨雨蛙鸣两份",
+    "body": "采檐雨雨蛙鸣的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain11": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain12",
+    "title": "檐雨雨蝉歇两份",
+    "body": "采檐雨雨蝉歇的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain12": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain13",
+    "title": "檐雨雨萤灭两份",
+    "body": "采檐雨雨萤灭的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain13": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain14",
+    "title": "檐雨雨灯昏两份",
+    "body": "采檐雨雨灯昏的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain14": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain15",
+    "title": "檐雨雨巷深两份",
+    "body": "采檐雨雨巷深的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain15": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain16",
+    "title": "窗雨雨声茶两份",
+    "body": "采窗雨雨声茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain16": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain17",
+    "title": "窗雨雨脚蜜两份",
+    "body": "采窗雨雨脚蜜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain17": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain18",
+    "title": "窗雨雨丝姜两份",
+    "body": "采窗雨雨丝姜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain18": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain19",
+    "title": "窗雨雨帘花两份",
+    "body": "采窗雨雨帘花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain19": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain20",
+    "title": "窗雨雨巷香两份",
+    "body": "采窗雨雨巷香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain21",
+    "title": "窗雨雨瓦凉两份",
+    "body": "采窗雨雨瓦凉的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain22",
+    "title": "窗雨雨帘静两份",
+    "body": "采窗雨雨帘静的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain23",
+    "title": "窗雨雨伞暖两份",
+    "body": "采窗雨雨伞暖的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain24",
+    "title": "窗雨雨笠湿两份",
+    "body": "采窗雨雨笠湿的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain25",
+    "title": "窗雨雨蓑香两份",
+    "body": "采窗雨雨蓑香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain26",
+    "title": "窗雨雨靴泥两份",
+    "body": "采窗雨雨靴泥的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain27",
+    "title": "窗雨雨蛙鸣两份",
+    "body": "采窗雨雨蛙鸣的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain28",
+    "title": "窗雨雨蝉歇两份",
+    "body": "采窗雨雨蝉歇的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain29",
+    "title": "窗雨雨萤灭两份",
+    "body": "采窗雨雨萤灭的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain30",
+    "title": "窗雨雨灯昏两份",
+    "body": "采窗雨雨灯昏的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain30": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain31",
+    "title": "窗雨雨巷深两份",
+    "body": "采窗雨雨巷深的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain31": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain32",
+    "title": "阶雨雨声茶两份",
+    "body": "采阶雨雨声茶的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain32": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain33",
+    "title": "阶雨雨脚蜜两份",
+    "body": "采阶雨雨脚蜜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain33": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain34",
+    "title": "阶雨雨丝姜两份",
+    "body": "采阶雨雨丝姜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain34": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain35",
+    "title": "阶雨雨帘花两份",
+    "body": "采阶雨雨帘花的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain35": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain36",
+    "title": "阶雨雨巷香两份",
+    "body": "采阶雨雨巷香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain36": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain37",
+    "title": "阶雨雨瓦凉两份",
+    "body": "采阶雨雨瓦凉的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain37": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain38",
+    "title": "阶雨雨帘静两份",
+    "body": "采阶雨雨帘静的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain38": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain39",
+    "title": "阶雨雨伞暖两份",
+    "body": "采阶雨雨伞暖的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain39": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain40",
+    "title": "阶雨雨笠湿两份",
+    "body": "采阶雨雨笠湿的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain40": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain41",
+    "title": "阶雨雨蓑香两份",
+    "body": "采阶雨雨蓑香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain41": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain42",
+    "title": "阶雨雨靴泥两份",
+    "body": "采阶雨雨靴泥的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain42": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain43",
+    "title": "阶雨雨蛙鸣两份",
+    "body": "采阶雨雨蛙鸣的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain43": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain44",
+    "title": "阶雨雨蝉歇两份",
+    "body": "采阶雨雨蝉歇的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain44": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain45",
+    "title": "阶雨雨萤灭两份",
+    "body": "采阶雨雨萤灭的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain45": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain46",
+    "title": "阶雨雨灯昏两份",
+    "body": "采阶雨雨灯昏的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain46": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain47",
+    "title": "阶雨雨巷深两份",
+    "body": "采阶雨雨巷深的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain47": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain48",
+    "title": "桥雨雨声茶两份",
+    "body": "采桥雨雨声茶的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain48": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain49",
+    "title": "桥雨雨脚蜜两份",
+    "body": "采桥雨雨脚蜜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain49": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain50",
+    "title": "桥雨雨丝姜两份",
+    "body": "采桥雨雨丝姜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain50": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain51",
+    "title": "桥雨雨帘花两份",
+    "body": "采桥雨雨帘花的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain51": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain52",
+    "title": "桥雨雨巷香两份",
+    "body": "采桥雨雨巷香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain52": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain53",
+    "title": "桥雨雨瓦凉两份",
+    "body": "采桥雨雨瓦凉的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain53": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain54",
+    "title": "桥雨雨帘静两份",
+    "body": "采桥雨雨帘静的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain54": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain55",
+    "title": "桥雨雨伞暖两份",
+    "body": "采桥雨雨伞暖的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain55": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain56",
+    "title": "桥雨雨笠湿两份",
+    "body": "采桥雨雨笠湿的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain56": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain57",
+    "title": "桥雨雨蓑香两份",
+    "body": "采桥雨雨蓑香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain57": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain58",
+    "title": "桥雨雨靴泥两份",
+    "body": "采桥雨雨靴泥的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain58": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain59",
+    "title": "桥雨雨蛙鸣两份",
+    "body": "采桥雨雨蛙鸣的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain59": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain60",
+    "title": "桥雨雨蝉歇两份",
+    "body": "采桥雨雨蝉歇的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain60": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain61",
+    "title": "桥雨雨萤灭两份",
+    "body": "采桥雨雨萤灭的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain61": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain62",
+    "title": "桥雨雨灯昏两份",
+    "body": "采桥雨雨灯昏的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain62": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain63",
+    "title": "桥雨雨巷深两份",
+    "body": "采桥雨雨巷深的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain63": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain64",
+    "title": "舟雨雨声茶两份",
+    "body": "采舟雨雨声茶的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain64": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain65",
+    "title": "舟雨雨脚蜜两份",
+    "body": "采舟雨雨脚蜜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain65": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain66",
+    "title": "舟雨雨丝姜两份",
+    "body": "采舟雨雨丝姜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain66": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain67",
+    "title": "舟雨雨帘花两份",
+    "body": "采舟雨雨帘花的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain67": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain68",
+    "title": "舟雨雨巷香两份",
+    "body": "采舟雨雨巷香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain68": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain69",
+    "title": "舟雨雨瓦凉两份",
+    "body": "采舟雨雨瓦凉的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain69": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain70",
+    "title": "舟雨雨帘静两份",
+    "body": "采舟雨雨帘静的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain70": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain71",
+    "title": "舟雨雨伞暖两份",
+    "body": "采舟雨雨伞暖的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain71": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain72",
+    "title": "舟雨雨笠湿两份",
+    "body": "采舟雨雨笠湿的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain72": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain73",
+    "title": "舟雨雨蓑香两份",
+    "body": "采舟雨雨蓑香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain73": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain74",
+    "title": "舟雨雨靴泥两份",
+    "body": "采舟雨雨靴泥的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain74": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain75",
+    "title": "舟雨雨蛙鸣两份",
+    "body": "采舟雨雨蛙鸣的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain75": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain76",
+    "title": "舟雨雨蝉歇两份",
+    "body": "采舟雨雨蝉歇的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain76": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain77",
+    "title": "舟雨雨萤灭两份",
+    "body": "采舟雨雨萤灭的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain77": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain78",
+    "title": "舟雨雨灯昏两份",
+    "body": "采舟雨雨灯昏的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain78": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain79",
+    "title": "舟雨雨巷深两份",
+    "body": "采舟雨雨巷深的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain79": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain80",
+    "title": "林雨雨声茶两份",
+    "body": "采林雨雨声茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain80": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain81",
+    "title": "林雨雨脚蜜两份",
+    "body": "采林雨雨脚蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain81": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain82",
+    "title": "林雨雨丝姜两份",
+    "body": "采林雨雨丝姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain82": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain83",
+    "title": "林雨雨帘花两份",
+    "body": "采林雨雨帘花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain83": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain84",
+    "title": "林雨雨巷香两份",
+    "body": "采林雨雨巷香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain84": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain85",
+    "title": "林雨雨瓦凉两份",
+    "body": "采林雨雨瓦凉的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain85": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain86",
+    "title": "林雨雨帘静两份",
+    "body": "采林雨雨帘静的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain86": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain87",
+    "title": "林雨雨伞暖两份",
+    "body": "采林雨雨伞暖的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain87": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain88",
+    "title": "林雨雨笠湿两份",
+    "body": "采林雨雨笠湿的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain88": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain89",
+    "title": "林雨雨蓑香两份",
+    "body": "采林雨雨蓑香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain89": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain90",
+    "title": "林雨雨靴泥两份",
+    "body": "采林雨雨靴泥的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain90": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain91",
+    "title": "林雨雨蛙鸣两份",
+    "body": "采林雨雨蛙鸣的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain91": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain92",
+    "title": "林雨雨蝉歇两份",
+    "body": "采林雨雨蝉歇的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain92": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain93",
+    "title": "林雨雨萤灭两份",
+    "body": "采林雨雨萤灭的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain93": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain94",
+    "title": "林雨雨灯昏两份",
+    "body": "采林雨雨灯昏的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain94": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain95",
+    "title": "林雨雨巷深两份",
+    "body": "采林雨雨巷深的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain95": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain96",
+    "title": "竹雨雨声茶两份",
+    "body": "采竹雨雨声茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain96": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain97",
+    "title": "竹雨雨脚蜜两份",
+    "body": "采竹雨雨脚蜜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain97": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain98",
+    "title": "竹雨雨丝姜两份",
+    "body": "采竹雨雨丝姜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain98": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain99",
+    "title": "竹雨雨帘花两份",
+    "body": "采竹雨雨帘花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain99": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain100",
+    "title": "竹雨雨巷香两份",
+    "body": "采竹雨雨巷香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain101",
+    "title": "竹雨雨瓦凉两份",
+    "body": "采竹雨雨瓦凉的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain102",
+    "title": "竹雨雨帘静两份",
+    "body": "采竹雨雨帘静的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain103",
+    "title": "竹雨雨伞暖两份",
+    "body": "采竹雨雨伞暖的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain104",
+    "title": "竹雨雨笠湿两份",
+    "body": "采竹雨雨笠湿的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain105",
+    "title": "竹雨雨蓑香两份",
+    "body": "采竹雨雨蓑香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain106",
+    "title": "竹雨雨靴泥两份",
+    "body": "采竹雨雨靴泥的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain107",
+    "title": "竹雨雨蛙鸣两份",
+    "body": "采竹雨雨蛙鸣的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain108",
+    "title": "竹雨雨蝉歇两份",
+    "body": "采竹雨雨蝉歇的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain109",
+    "title": "竹雨雨萤灭两份",
+    "body": "采竹雨雨萤灭的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain110",
+    "title": "竹雨雨灯昏两份",
+    "body": "采竹雨雨灯昏的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain111",
+    "title": "竹雨雨巷深两份",
+    "body": "采竹雨雨巷深的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain112",
+    "title": "蕉雨雨声茶两份",
+    "body": "采蕉雨雨声茶的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain113",
+    "title": "蕉雨雨脚蜜两份",
+    "body": "采蕉雨雨脚蜜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain114",
+    "title": "蕉雨雨丝姜两份",
+    "body": "采蕉雨雨丝姜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain115",
+    "title": "蕉雨雨帘花两份",
+    "body": "采蕉雨雨帘花的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain116",
+    "title": "蕉雨雨巷香两份",
+    "body": "采蕉雨雨巷香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain117",
+    "title": "蕉雨雨瓦凉两份",
+    "body": "采蕉雨雨瓦凉的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain118",
+    "title": "蕉雨雨帘静两份",
+    "body": "采蕉雨雨帘静的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain119",
+    "title": "蕉雨雨伞暖两份",
+    "body": "采蕉雨雨伞暖的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain120",
+    "title": "蕉雨雨笠湿两份",
+    "body": "采蕉雨雨笠湿的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain121",
+    "title": "蕉雨雨蓑香两份",
+    "body": "采蕉雨雨蓑香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain122",
+    "title": "蕉雨雨靴泥两份",
+    "body": "采蕉雨雨靴泥的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain123",
+    "title": "蕉雨雨蛙鸣两份",
+    "body": "采蕉雨雨蛙鸣的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain124",
+    "title": "蕉雨雨蝉歇两份",
+    "body": "采蕉雨雨蝉歇的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain125",
+    "title": "蕉雨雨萤灭两份",
+    "body": "采蕉雨雨萤灭的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain126",
+    "title": "蕉雨雨灯昏两份",
+    "body": "采蕉雨雨灯昏的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain127",
+    "title": "蕉雨雨巷深两份",
+    "body": "采蕉雨雨巷深的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain128",
+    "title": "荷雨雨声茶两份",
+    "body": "采荷雨雨声茶的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain129",
+    "title": "荷雨雨脚蜜两份",
+    "body": "采荷雨雨脚蜜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain130",
+    "title": "荷雨雨丝姜两份",
+    "body": "采荷雨雨丝姜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain131",
+    "title": "荷雨雨帘花两份",
+    "body": "采荷雨雨帘花的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain132",
+    "title": "荷雨雨巷香两份",
+    "body": "采荷雨雨巷香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain133",
+    "title": "荷雨雨瓦凉两份",
+    "body": "采荷雨雨瓦凉的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain134",
+    "title": "荷雨雨帘静两份",
+    "body": "采荷雨雨帘静的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain135",
+    "title": "荷雨雨伞暖两份",
+    "body": "采荷雨雨伞暖的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain136",
+    "title": "荷雨雨笠湿两份",
+    "body": "采荷雨雨笠湿的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain137",
+    "title": "荷雨雨蓑香两份",
+    "body": "采荷雨雨蓑香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain138",
+    "title": "荷雨雨靴泥两份",
+    "body": "采荷雨雨靴泥的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain139",
+    "title": "荷雨雨蛙鸣两份",
+    "body": "采荷雨雨蛙鸣的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain140",
+    "title": "荷雨雨蝉歇两份",
+    "body": "采荷雨雨蝉歇的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain141",
+    "title": "荷雨雨萤灭两份",
+    "body": "采荷雨雨萤灭的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain142",
+    "title": "荷雨雨灯昏两份",
+    "body": "采荷雨雨灯昏的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain143",
+    "title": "荷雨雨巷深两份",
+    "body": "采荷雨雨巷深的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain144",
+    "title": "蛙雨雨声茶两份",
+    "body": "采蛙雨雨声茶的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain145",
+    "title": "蛙雨雨脚蜜两份",
+    "body": "采蛙雨雨脚蜜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain146",
+    "title": "蛙雨雨丝姜两份",
+    "body": "采蛙雨雨丝姜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain147",
+    "title": "蛙雨雨帘花两份",
+    "body": "采蛙雨雨帘花的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain148",
+    "title": "蛙雨雨巷香两份",
+    "body": "采蛙雨雨巷香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain149",
+    "title": "蛙雨雨瓦凉两份",
+    "body": "采蛙雨雨瓦凉的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain150",
+    "title": "蛙雨雨帘静两份",
+    "body": "采蛙雨雨帘静的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain151",
+    "title": "蛙雨雨伞暖两份",
+    "body": "采蛙雨雨伞暖的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain152",
+    "title": "蛙雨雨笠湿两份",
+    "body": "采蛙雨雨笠湿的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain153",
+    "title": "蛙雨雨蓑香两份",
+    "body": "采蛙雨雨蓑香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain154",
+    "title": "蛙雨雨靴泥两份",
+    "body": "采蛙雨雨靴泥的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain155",
+    "title": "蛙雨雨蛙鸣两份",
+    "body": "采蛙雨雨蛙鸣的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain156",
+    "title": "蛙雨雨蝉歇两份",
+    "body": "采蛙雨雨蝉歇的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain157",
+    "title": "蛙雨雨萤灭两份",
+    "body": "采蛙雨雨萤灭的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain158",
+    "title": "蛙雨雨灯昏两份",
+    "body": "采蛙雨雨灯昏的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain159",
+    "title": "蛙雨雨巷深两份",
+    "body": "采蛙雨雨巷深的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain160",
+    "title": "蝉雨雨声茶两份",
+    "body": "采蝉雨雨声茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain161",
+    "title": "蝉雨雨脚蜜两份",
+    "body": "采蝉雨雨脚蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain162",
+    "title": "蝉雨雨丝姜两份",
+    "body": "采蝉雨雨丝姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain163",
+    "title": "蝉雨雨帘花两份",
+    "body": "采蝉雨雨帘花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain164",
+    "title": "蝉雨雨巷香两份",
+    "body": "采蝉雨雨巷香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain165",
+    "title": "蝉雨雨瓦凉两份",
+    "body": "采蝉雨雨瓦凉的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain166",
+    "title": "蝉雨雨帘静两份",
+    "body": "采蝉雨雨帘静的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain167",
+    "title": "蝉雨雨伞暖两份",
+    "body": "采蝉雨雨伞暖的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain168",
+    "title": "蝉雨雨笠湿两份",
+    "body": "采蝉雨雨笠湿的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain169",
+    "title": "蝉雨雨蓑香两份",
+    "body": "采蝉雨雨蓑香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain170",
+    "title": "蝉雨雨靴泥两份",
+    "body": "采蝉雨雨靴泥的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain171",
+    "title": "蝉雨雨蛙鸣两份",
+    "body": "采蝉雨雨蛙鸣的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain172",
+    "title": "蝉雨雨蝉歇两份",
+    "body": "采蝉雨雨蝉歇的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain173",
+    "title": "蝉雨雨萤灭两份",
+    "body": "采蝉雨雨萤灭的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain174",
+    "title": "蝉雨雨灯昏两份",
+    "body": "采蝉雨雨灯昏的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain175",
+    "title": "蝉雨雨巷深两份",
+    "body": "采蝉雨雨巷深的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain176",
+    "title": "萤雨雨声茶两份",
+    "body": "采萤雨雨声茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain177",
+    "title": "萤雨雨脚蜜两份",
+    "body": "采萤雨雨脚蜜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain178",
+    "title": "萤雨雨丝姜两份",
+    "body": "采萤雨雨丝姜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain179",
+    "title": "萤雨雨帘花两份",
+    "body": "采萤雨雨帘花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain180",
+    "title": "萤雨雨巷香两份",
+    "body": "采萤雨雨巷香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain181",
+    "title": "萤雨雨瓦凉两份",
+    "body": "采萤雨雨瓦凉的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain182",
+    "title": "萤雨雨帘静两份",
+    "body": "采萤雨雨帘静的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain183",
+    "title": "萤雨雨伞暖两份",
+    "body": "采萤雨雨伞暖的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain184",
+    "title": "萤雨雨笠湿两份",
+    "body": "采萤雨雨笠湿的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain185",
+    "title": "萤雨雨蓑香两份",
+    "body": "采萤雨雨蓑香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain186",
+    "title": "萤雨雨靴泥两份",
+    "body": "采萤雨雨靴泥的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain187",
+    "title": "萤雨雨蛙鸣两份",
+    "body": "采萤雨雨蛙鸣的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain188",
+    "title": "萤雨雨蝉歇两份",
+    "body": "采萤雨雨蝉歇的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain189",
+    "title": "萤雨雨萤灭两份",
+    "body": "采萤雨雨萤灭的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain190",
+    "title": "萤雨雨灯昏两份",
+    "body": "采萤雨雨灯昏的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain191",
+    "title": "萤雨雨巷深两份",
+    "body": "采萤雨雨巷深的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain192",
+    "title": "灯雨雨声茶两份",
+    "body": "采灯雨雨声茶的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain193",
+    "title": "灯雨雨脚蜜两份",
+    "body": "采灯雨雨脚蜜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain194",
+    "title": "灯雨雨丝姜两份",
+    "body": "采灯雨雨丝姜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain195",
+    "title": "灯雨雨帘花两份",
+    "body": "采灯雨雨帘花的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain196",
+    "title": "灯雨雨巷香两份",
+    "body": "采灯雨雨巷香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain197",
+    "title": "灯雨雨瓦凉两份",
+    "body": "采灯雨雨瓦凉的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain198",
+    "title": "灯雨雨帘静两份",
+    "body": "采灯雨雨帘静的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain199",
+    "title": "灯雨雨伞暖两份",
+    "body": "采灯雨雨伞暖的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain200",
+    "title": "灯雨雨笠湿两份",
+    "body": "采灯雨雨笠湿的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain201",
+    "title": "灯雨雨蓑香两份",
+    "body": "采灯雨雨蓑香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain202",
+    "title": "灯雨雨靴泥两份",
+    "body": "采灯雨雨靴泥的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain203",
+    "title": "灯雨雨蛙鸣两份",
+    "body": "采灯雨雨蛙鸣的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain204",
+    "title": "灯雨雨蝉歇两份",
+    "body": "采灯雨雨蝉歇的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain205",
+    "title": "灯雨雨萤灭两份",
+    "body": "采灯雨雨萤灭的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain206",
+    "title": "灯雨雨灯昏两份",
+    "body": "采灯雨雨灯昏的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain207",
+    "title": "灯雨雨巷深两份",
+    "body": "采灯雨雨巷深的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain208",
+    "title": "巷雨雨声茶两份",
+    "body": "采巷雨雨声茶的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain209",
+    "title": "巷雨雨脚蜜两份",
+    "body": "采巷雨雨脚蜜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain210",
+    "title": "巷雨雨丝姜两份",
+    "body": "采巷雨雨丝姜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain211",
+    "title": "巷雨雨帘花两份",
+    "body": "采巷雨雨帘花的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain212",
+    "title": "巷雨雨巷香两份",
+    "body": "采巷雨雨巷香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain213",
+    "title": "巷雨雨瓦凉两份",
+    "body": "采巷雨雨瓦凉的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain214",
+    "title": "巷雨雨帘静两份",
+    "body": "采巷雨雨帘静的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain215",
+    "title": "巷雨雨伞暖两份",
+    "body": "采巷雨雨伞暖的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain216",
+    "title": "巷雨雨笠湿两份",
+    "body": "采巷雨雨笠湿的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain217",
+    "title": "巷雨雨蓑香两份",
+    "body": "采巷雨雨蓑香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain218",
+    "title": "巷雨雨靴泥两份",
+    "body": "采巷雨雨靴泥的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain219",
+    "title": "巷雨雨蛙鸣两份",
+    "body": "采巷雨雨蛙鸣的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain220",
+    "title": "巷雨雨蝉歇两份",
+    "body": "采巷雨雨蝉歇的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain221",
+    "title": "巷雨雨萤灭两份",
+    "body": "采巷雨雨萤灭的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain222",
+    "title": "巷雨雨灯昏两份",
+    "body": "采巷雨雨灯昏的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain223",
+    "title": "巷雨雨巷深两份",
+    "body": "采巷雨雨巷深的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain224",
+    "title": "瓦雨雨声茶两份",
+    "body": "采瓦雨雨声茶的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain225",
+    "title": "瓦雨雨脚蜜两份",
+    "body": "采瓦雨雨脚蜜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain226",
+    "title": "瓦雨雨丝姜两份",
+    "body": "采瓦雨雨丝姜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain227",
+    "title": "瓦雨雨帘花两份",
+    "body": "采瓦雨雨帘花的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain228",
+    "title": "瓦雨雨巷香两份",
+    "body": "采瓦雨雨巷香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain229",
+    "title": "瓦雨雨瓦凉两份",
+    "body": "采瓦雨雨瓦凉的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain230",
+    "title": "瓦雨雨帘静两份",
+    "body": "采瓦雨雨帘静的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain231",
+    "title": "瓦雨雨伞暖两份",
+    "body": "采瓦雨雨伞暖的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain232",
+    "title": "瓦雨雨笠湿两份",
+    "body": "采瓦雨雨笠湿的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain233",
+    "title": "瓦雨雨蓑香两份",
+    "body": "采瓦雨雨蓑香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain234",
+    "title": "瓦雨雨靴泥两份",
+    "body": "采瓦雨雨靴泥的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain235",
+    "title": "瓦雨雨蛙鸣两份",
+    "body": "采瓦雨雨蛙鸣的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain236",
+    "title": "瓦雨雨蝉歇两份",
+    "body": "采瓦雨雨蝉歇的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain237",
+    "title": "瓦雨雨萤灭两份",
+    "body": "采瓦雨雨萤灭的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain238",
+    "title": "瓦雨雨灯昏两份",
+    "body": "采瓦雨雨灯昏的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain239",
+    "title": "瓦雨雨巷深两份",
+    "body": "采瓦雨雨巷深的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain240",
+    "title": "帘雨雨声茶两份",
+    "body": "采帘雨雨声茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain241",
+    "title": "帘雨雨脚蜜两份",
+    "body": "采帘雨雨脚蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain242",
+    "title": "帘雨雨丝姜两份",
+    "body": "采帘雨雨丝姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain243",
+    "title": "帘雨雨帘花两份",
+    "body": "采帘雨雨帘花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain244",
+    "title": "帘雨雨巷香两份",
+    "body": "采帘雨雨巷香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain245",
+    "title": "帘雨雨瓦凉两份",
+    "body": "采帘雨雨瓦凉的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain246",
+    "title": "帘雨雨帘静两份",
+    "body": "采帘雨雨帘静的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain247",
+    "title": "帘雨雨伞暖两份",
+    "body": "采帘雨雨伞暖的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain248",
+    "title": "帘雨雨笠湿两份",
+    "body": "采帘雨雨笠湿的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain249",
+    "title": "帘雨雨蓑香两份",
+    "body": "采帘雨雨蓑香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain250",
+    "title": "帘雨雨靴泥两份",
+    "body": "采帘雨雨靴泥的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain251",
+    "title": "帘雨雨蛙鸣两份",
+    "body": "采帘雨雨蛙鸣的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain252",
+    "title": "帘雨雨蝉歇两份",
+    "body": "采帘雨雨蝉歇的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain253",
+    "title": "帘雨雨萤灭两份",
+    "body": "采帘雨雨萤灭的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain254",
+    "title": "帘雨雨灯昏两份",
+    "body": "采帘雨雨灯昏的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain255",
+    "title": "帘雨雨巷深两份",
+    "body": "采帘雨雨巷深的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain256",
+    "title": "伞雨雨声茶两份",
+    "body": "采伞雨雨声茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain257",
+    "title": "伞雨雨脚蜜两份",
+    "body": "采伞雨雨脚蜜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain258",
+    "title": "伞雨雨丝姜两份",
+    "body": "采伞雨雨丝姜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain259",
+    "title": "伞雨雨帘花两份",
+    "body": "采伞雨雨帘花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain260",
+    "title": "伞雨雨巷香两份",
+    "body": "采伞雨雨巷香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain261",
+    "title": "伞雨雨瓦凉两份",
+    "body": "采伞雨雨瓦凉的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain262",
+    "title": "伞雨雨帘静两份",
+    "body": "采伞雨雨帘静的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain263",
+    "title": "伞雨雨伞暖两份",
+    "body": "采伞雨雨伞暖的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain264",
+    "title": "伞雨雨笠湿两份",
+    "body": "采伞雨雨笠湿的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain265",
+    "title": "伞雨雨蓑香两份",
+    "body": "采伞雨雨蓑香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain266",
+    "title": "伞雨雨靴泥两份",
+    "body": "采伞雨雨靴泥的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain267",
+    "title": "伞雨雨蛙鸣两份",
+    "body": "采伞雨雨蛙鸣的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain268",
+    "title": "伞雨雨蝉歇两份",
+    "body": "采伞雨雨蝉歇的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain269",
+    "title": "伞雨雨萤灭两份",
+    "body": "采伞雨雨萤灭的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain270",
+    "title": "伞雨雨灯昏两份",
+    "body": "采伞雨雨灯昏的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain271",
+    "title": "伞雨雨巷深两份",
+    "body": "采伞雨雨巷深的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain272",
+    "title": "笠雨雨声茶两份",
+    "body": "采笠雨雨声茶的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain273",
+    "title": "笠雨雨脚蜜两份",
+    "body": "采笠雨雨脚蜜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain274",
+    "title": "笠雨雨丝姜两份",
+    "body": "采笠雨雨丝姜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain275",
+    "title": "笠雨雨帘花两份",
+    "body": "采笠雨雨帘花的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain276",
+    "title": "笠雨雨巷香两份",
+    "body": "采笠雨雨巷香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain277",
+    "title": "笠雨雨瓦凉两份",
+    "body": "采笠雨雨瓦凉的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain278",
+    "title": "笠雨雨帘静两份",
+    "body": "采笠雨雨帘静的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain279",
+    "title": "笠雨雨伞暖两份",
+    "body": "采笠雨雨伞暖的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain280",
+    "title": "笠雨雨笠湿两份",
+    "body": "采笠雨雨笠湿的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain281",
+    "title": "笠雨雨蓑香两份",
+    "body": "采笠雨雨蓑香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain282",
+    "title": "笠雨雨靴泥两份",
+    "body": "采笠雨雨靴泥的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain283",
+    "title": "笠雨雨蛙鸣两份",
+    "body": "采笠雨雨蛙鸣的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain284",
+    "title": "笠雨雨蝉歇两份",
+    "body": "采笠雨雨蝉歇的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain285",
+    "title": "笠雨雨萤灭两份",
+    "body": "采笠雨雨萤灭的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain286",
+    "title": "笠雨雨灯昏两份",
+    "body": "采笠雨雨灯昏的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain287",
+    "title": "笠雨雨巷深两份",
+    "body": "采笠雨雨巷深的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain288",
+    "title": "蓑雨雨声茶两份",
+    "body": "采蓑雨雨声茶的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain289",
+    "title": "蓑雨雨脚蜜两份",
+    "body": "采蓑雨雨脚蜜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain290",
+    "title": "蓑雨雨丝姜两份",
+    "body": "采蓑雨雨丝姜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain291",
+    "title": "蓑雨雨帘花两份",
+    "body": "采蓑雨雨帘花的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain292",
+    "title": "蓑雨雨巷香两份",
+    "body": "采蓑雨雨巷香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain293",
+    "title": "蓑雨雨瓦凉两份",
+    "body": "采蓑雨雨瓦凉的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain294",
+    "title": "蓑雨雨帘静两份",
+    "body": "采蓑雨雨帘静的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain295",
+    "title": "蓑雨雨伞暖两份",
+    "body": "采蓑雨雨伞暖的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain296",
+    "title": "蓑雨雨笠湿两份",
+    "body": "采蓑雨雨笠湿的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain297",
+    "title": "蓑雨雨蓑香两份",
+    "body": "采蓑雨雨蓑香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain298",
+    "title": "蓑雨雨靴泥两份",
+    "body": "采蓑雨雨靴泥的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain299",
+    "title": "蓑雨雨蛙鸣两份",
+    "body": "采蓑雨雨蛙鸣的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain300",
+    "title": "蓑雨雨蝉歇两份",
+    "body": "采蓑雨雨蝉歇的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain301",
+    "title": "蓑雨雨萤灭两份",
+    "body": "采蓑雨雨萤灭的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain302",
+    "title": "蓑雨雨灯昏两份",
+    "body": "采蓑雨雨灯昏的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain303",
+    "title": "蓑雨雨巷深两份",
+    "body": "采蓑雨雨巷深的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain304",
+    "title": "靴雨雨声茶两份",
+    "body": "采靴雨雨声茶的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain305",
+    "title": "靴雨雨脚蜜两份",
+    "body": "采靴雨雨脚蜜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain306",
+    "title": "靴雨雨丝姜两份",
+    "body": "采靴雨雨丝姜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain307",
+    "title": "靴雨雨帘花两份",
+    "body": "采靴雨雨帘花的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain308",
+    "title": "靴雨雨巷香两份",
+    "body": "采靴雨雨巷香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain309",
+    "title": "靴雨雨瓦凉两份",
+    "body": "采靴雨雨瓦凉的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain310",
+    "title": "靴雨雨帘静两份",
+    "body": "采靴雨雨帘静的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain311",
+    "title": "靴雨雨伞暖两份",
+    "body": "采靴雨雨伞暖的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain312",
+    "title": "靴雨雨笠湿两份",
+    "body": "采靴雨雨笠湿的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain313",
+    "title": "靴雨雨蓑香两份",
+    "body": "采靴雨雨蓑香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain314",
+    "title": "靴雨雨靴泥两份",
+    "body": "采靴雨雨靴泥的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain315",
+    "title": "靴雨雨蛙鸣两份",
+    "body": "采靴雨雨蛙鸣的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain316",
+    "title": "靴雨雨蝉歇两份",
+    "body": "采靴雨雨蝉歇的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain317",
+    "title": "靴雨雨萤灭两份",
+    "body": "采靴雨雨萤灭的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain318",
+    "title": "靴雨雨灯昏两份",
+    "body": "采靴雨雨灯昏的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rain319",
+    "title": "靴雨雨巷深两份",
+    "body": "采靴雨雨巷深的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rain319": 2
+      },
+      "coins": 2
+    }
   }
 ]
