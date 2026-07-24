@@ -1151,5 +1151,49 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_pistachio",
+    "title": "开心果一把",
+    "body": "剥开心果的店员来信：刚晒的。给你一把，别放太久。",
+    "effect": {
+      "items": {
+        "pistachio": 3
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_chestnut",
+    "title": "板栗一把",
+    "body": "烤板栗的大叔来信：刚出锅的。给你一把，别放太久。",
+    "effect": {
+      "items": {
+        "chestnut": 3
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cinnamon",
+    "title": "肉桂两棍",
+    "body": "磨肉桂的厨子来信：新磨的。给你两棍，别放太久。",
+    "effect": {
+      "items": {
+        "cinnamon": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_clove",
+    "title": "丁香一小袋",
+    "body": "点丁香的药师来信：新收的。给你一小袋，别放太久。",
+    "effect": {
+      "items": {
+        "clove": 2
+      },
+      "coins": 2
+    }
   }
 ]
