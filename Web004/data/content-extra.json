@@ -4814,6 +4814,118 @@
       "emoji": "🟣",
       "kind": "风味",
       "seed": "noriPot"
+    },
+    "rose_hip_tea": {
+      "id": "rose_hip_tea",
+      "name": "玫瑰果茶",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "rose_hip_teaPot"
+    },
+    "hibiscus_fresh": {
+      "id": "hibiscus_fresh",
+      "name": "鲜洛神",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "hibiscus_freshPot"
+    },
+    "chrysanthemum_fresh": {
+      "id": "chrysanthemum_fresh",
+      "name": "鲜菊花",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "chrysanthemum_freshPot"
+    },
+    "peony": {
+      "id": "peony",
+      "name": "牡丹",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "peonyPot"
+    },
+    "camellia_fresh": {
+      "id": "camellia_fresh",
+      "name": "鲜山茶",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "camellia_freshPot"
+    },
+    "lotus_seed_fresh": {
+      "id": "lotus_seed_fresh",
+      "name": "鲜莲子",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "lotus_seed_freshPot"
+    },
+    "lotus_leaf_fresh": {
+      "id": "lotus_leaf_fresh",
+      "name": "鲜荷叶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "lotus_leaf_freshPot"
+    },
+    "osmanthus_sugar": {
+      "id": "osmanthus_sugar",
+      "name": "桂花糖",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "osmanthus_sugarPot"
+    },
+    "plum_blossom": {
+      "id": "plum_blossom",
+      "name": "梅花",
+      "emoji": "🩷",
+      "kind": "风味",
+      "seed": "plum_blossomPot"
+    },
+    "wintersweet": {
+      "id": "wintersweet",
+      "name": "蜡梅",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "wintersweetPot"
+    },
+    "orchid_petal": {
+      "id": "orchid_petal",
+      "name": "兰花瓣",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "orchid_petalPot"
+    },
+    "bamboo_leaf_fresh": {
+      "id": "bamboo_leaf_fresh",
+      "name": "鲜竹叶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "bamboo_leaf_freshPot"
+    },
+    "bamboo_shoot_fresh": {
+      "id": "bamboo_shoot_fresh",
+      "name": "鲜竹笋",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "bamboo_shoot_freshPot"
+    },
+    "ginkgo_leaf_fresh": {
+      "id": "ginkgo_leaf_fresh",
+      "name": "鲜银杏叶",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "ginkgo_leaf_freshPot"
+    },
+    "ginkgo_nut_fresh": {
+      "id": "ginkgo_nut_fresh",
+      "name": "鲜白果",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "ginkgo_nut_freshPot"
+    },
+    "osmanthus_wine": {
+      "id": "osmanthus_wine",
+      "name": "桂花酿",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "osmanthus_winePot"
     }
   },
   "plants": {
@@ -10575,6 +10687,182 @@
       ],
       "harvest": "nori",
       "days": 3
+    },
+    "rose_hip_teaPot": {
+      "id": "rose_hip_teaPot",
+      "name": "玫瑰果茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "rose_hip_tea",
+      "days": 3
+    },
+    "hibiscus_freshPot": {
+      "id": "hibiscus_freshPot",
+      "name": "鲜洛神",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "hibiscus_fresh",
+      "days": 3
+    },
+    "chrysanthemum_freshPot": {
+      "id": "chrysanthemum_freshPot",
+      "name": "鲜菊花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "chrysanthemum_fresh",
+      "days": 3
+    },
+    "peonyPot": {
+      "id": "peonyPot",
+      "name": "牡丹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "peony",
+      "days": 3
+    },
+    "camellia_freshPot": {
+      "id": "camellia_freshPot",
+      "name": "鲜山茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "camellia_fresh",
+      "days": 3
+    },
+    "lotus_seed_freshPot": {
+      "id": "lotus_seed_freshPot",
+      "name": "鲜莲子",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "lotus_seed_fresh",
+      "days": 4
+    },
+    "lotus_leaf_freshPot": {
+      "id": "lotus_leaf_freshPot",
+      "name": "鲜荷叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "lotus_leaf_fresh",
+      "days": 3
+    },
+    "osmanthus_sugarPot": {
+      "id": "osmanthus_sugarPot",
+      "name": "桂花糖",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "osmanthus_sugar",
+      "days": 3
+    },
+    "plum_blossomPot": {
+      "id": "plum_blossomPot",
+      "name": "梅花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🩷"
+      ],
+      "harvest": "plum_blossom",
+      "days": 3
+    },
+    "wintersweetPot": {
+      "id": "wintersweetPot",
+      "name": "蜡梅",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "wintersweet",
+      "days": 3
+    },
+    "orchid_petalPot": {
+      "id": "orchid_petalPot",
+      "name": "兰花瓣",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "orchid_petal",
+      "days": 3
+    },
+    "bamboo_leaf_freshPot": {
+      "id": "bamboo_leaf_freshPot",
+      "name": "鲜竹叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "bamboo_leaf_fresh",
+      "days": 3
+    },
+    "bamboo_shoot_freshPot": {
+      "id": "bamboo_shoot_freshPot",
+      "name": "鲜竹笋",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "bamboo_shoot_fresh",
+      "days": 3
+    },
+    "ginkgo_leaf_freshPot": {
+      "id": "ginkgo_leaf_freshPot",
+      "name": "鲜银杏叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "ginkgo_leaf_fresh",
+      "days": 3
+    },
+    "ginkgo_nut_freshPot": {
+      "id": "ginkgo_nut_freshPot",
+      "name": "鲜白果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "ginkgo_nut_fresh",
+      "days": 4
+    },
+    "osmanthus_winePot": {
+      "id": "osmanthus_winePot",
+      "name": "桂花酿",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "osmanthus_wine",
+      "days": 3
     }
   },
   "cups": [
@@ -14919,6 +15207,166 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "rose_hip_tea",
+      "name": "玫瑰果茶",
+      "emoji": "🧡",
+      "need": "rose_hip_tea",
+      "tags": [
+        "果香",
+        "花香"
+      ]
+    },
+    {
+      "id": "hibiscus_fresh",
+      "name": "鲜洛神",
+      "emoji": "🔴",
+      "need": "hibiscus_fresh",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "chrysanthemum_fresh",
+      "name": "鲜菊花",
+      "emoji": "💛",
+      "need": "chrysanthemum_fresh",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "peony",
+      "name": "牡丹",
+      "emoji": "💗",
+      "need": "peony",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "camellia_fresh",
+      "name": "鲜山茶",
+      "emoji": "🔴",
+      "need": "camellia_fresh",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "lotus_seed_fresh",
+      "name": "鲜莲子",
+      "emoji": "⚪",
+      "need": "lotus_seed_fresh",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "lotus_leaf_fresh",
+      "name": "鲜荷叶",
+      "emoji": "🟢",
+      "need": "lotus_leaf_fresh",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "osmanthus_sugar",
+      "name": "桂花糖",
+      "emoji": "🧡",
+      "need": "osmanthus_sugar",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "plum_blossom",
+      "name": "梅花",
+      "emoji": "🩷",
+      "need": "plum_blossom",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "wintersweet",
+      "name": "蜡梅",
+      "emoji": "💛",
+      "need": "wintersweet",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "orchid_petal",
+      "name": "兰花瓣",
+      "emoji": "🤍",
+      "need": "orchid_petal",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "bamboo_leaf_fresh",
+      "name": "鲜竹叶",
+      "emoji": "🟢",
+      "need": "bamboo_leaf_fresh",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "bamboo_shoot_fresh",
+      "name": "鲜竹笋",
+      "emoji": "💛",
+      "need": "bamboo_shoot_fresh",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "ginkgo_leaf_fresh",
+      "name": "鲜银杏叶",
+      "emoji": "🟡",
+      "need": "ginkgo_leaf_fresh",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "ginkgo_nut_fresh",
+      "name": "鲜白果",
+      "emoji": "⚪",
+      "need": "ginkgo_nut_fresh",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "osmanthus_wine",
+      "name": "桂花酿",
+      "emoji": "🧡",
+      "need": "osmanthus_wine",
+      "tags": [
+        "花香",
+        "甜蜜"
       ]
     }
   ],
@@ -21412,6 +21860,246 @@
         "honey",
         "tea_leaf",
         "mint"
+      ]
+    },
+    {
+      "name": "泡玫瑰果茶的药师",
+      "avatar": "🧡",
+      "wish": "玫瑰果茶或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "花香"
+      ],
+      "flavors": [
+        "rose_hip_tea",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜洛神的旅人",
+      "avatar": "🔴",
+      "wish": "鲜洛神或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "hibiscus_fresh",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采鲜菊花的药师",
+      "avatar": "💛",
+      "wish": "鲜菊花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "chrysanthemum_fresh",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采牡丹的旅人",
+      "avatar": "💗",
+      "wish": "牡丹或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "peony",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜山茶的药师",
+      "avatar": "🔴",
+      "wish": "鲜山茶或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "camellia_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖鲜莲子的药师",
+      "avatar": "⚪",
+      "wish": "鲜莲子或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "lotus_seed_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜荷叶的旅人",
+      "avatar": "🟢",
+      "wish": "鲜荷叶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "lotus_leaf_fresh",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "做桂花糖的旅人",
+      "avatar": "🧡",
+      "wish": "桂花糖或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "osmanthus_sugar",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采梅花的药师",
+      "avatar": "🩷",
+      "wish": "梅花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "plum_blossom",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采蜡梅的旅人",
+      "avatar": "💛",
+      "wish": "蜡梅或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "wintersweet",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采兰花瓣的药师",
+      "avatar": "🤍",
+      "wish": "兰花瓣或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "orchid_petal",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜竹叶的旅人",
+      "avatar": "🟢",
+      "wish": "鲜竹叶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "bamboo_leaf_fresh",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "挖鲜竹笋的药师",
+      "avatar": "💛",
+      "wish": "鲜竹笋或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "bamboo_shoot_fresh",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采鲜银杏叶的旅人",
+      "avatar": "🟡",
+      "wish": "鲜银杏叶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "ginkgo_leaf_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖鲜白果的药师",
+      "avatar": "⚪",
+      "wish": "鲜白果或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "ginkgo_nut_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "酿桂花酿的旅人",
+      "avatar": "🧡",
+      "wish": "桂花酿或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "osmanthus_wine",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
       ]
     }
   ],

@@ -4451,5 +4451,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_rose_hip_tea",
+    "title": "玫瑰果茶两份",
+    "body": "泡玫瑰果茶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rose_hip_tea": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_hibiscus_fresh",
+    "title": "鲜洛神两份",
+    "body": "采鲜洛神的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "hibiscus_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_chrysanthemum_fresh",
+    "title": "鲜菊花两份",
+    "body": "采鲜菊花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "chrysanthemum_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_peony",
+    "title": "牡丹两份",
+    "body": "采牡丹的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "peony": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_camellia_fresh",
+    "title": "鲜山茶两份",
+    "body": "采鲜山茶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "camellia_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lotus_seed_fresh",
+    "title": "鲜莲子两份",
+    "body": "炖鲜莲子的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "lotus_seed_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lotus_leaf_fresh",
+    "title": "鲜荷叶两份",
+    "body": "采鲜荷叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "lotus_leaf_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_osmanthus_sugar",
+    "title": "桂花糖两份",
+    "body": "做桂花糖的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "osmanthus_sugar": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_plum_blossom",
+    "title": "梅花两份",
+    "body": "采梅花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "plum_blossom": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wintersweet",
+    "title": "蜡梅两份",
+    "body": "采蜡梅的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wintersweet": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_orchid_petal",
+    "title": "兰花瓣两份",
+    "body": "采兰花瓣的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "orchid_petal": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bamboo_leaf_fresh",
+    "title": "鲜竹叶两份",
+    "body": "采鲜竹叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bamboo_leaf_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bamboo_shoot_fresh",
+    "title": "鲜竹笋两份",
+    "body": "挖鲜竹笋的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bamboo_shoot_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ginkgo_leaf_fresh",
+    "title": "鲜银杏叶两份",
+    "body": "采鲜银杏叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "ginkgo_leaf_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ginkgo_nut_fresh",
+    "title": "鲜白果两份",
+    "body": "炖鲜白果的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "ginkgo_nut_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_osmanthus_wine",
+    "title": "桂花酿两份",
+    "body": "酿桂花酿的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "osmanthus_wine": 2
+      },
+      "coins": 2
+    }
   }
 ]
