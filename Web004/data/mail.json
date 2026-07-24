@@ -7784,5 +7784,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_echinacea_purp",
+    "title": "紫松果菊两份",
+    "body": "采紫松果菊的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "echinacea_purp": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_echinacea_ang",
+    "title": "狭叶紫锥两份",
+    "body": "采狭叶紫锥的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "echinacea_ang": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_echinacea_pall",
+    "title": "淡紫锥菊两份",
+    "body": "采淡紫锥菊的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "echinacea_pall": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rudbeckia",
+    "title": "金光菊两份",
+    "body": "采金光菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rudbeckia": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_black_eyed_susan",
+    "title": "黑心金光两份",
+    "body": "采黑心金光的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "black_eyed_susan": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_coneflower_yellow",
+    "title": "黄松果菊两份",
+    "body": "采黄松果菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "coneflower_yellow": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_helenium",
+    "title": "堆心菊两份",
+    "body": "采堆心菊的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "helenium": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_helenium_autumn",
+    "title": "秋堆心菊两份",
+    "body": "采秋堆心菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "helenium_autumn": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_coreopsis_lance",
+    "title": "剑叶金鸡两份",
+    "body": "采剑叶金鸡的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "coreopsis_lance": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_coreopsis_tick",
+    "title": "两色金鸡两份",
+    "body": "采两色金鸡的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "coreopsis_tick": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_gaillardia",
+    "title": "天人菊两份",
+    "body": "采天人菊的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "gaillardia": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_gaillardia_fan",
+    "title": "扇形天人两份",
+    "body": "采扇形天人的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "gaillardia_fan": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ratibida",
+    "title": "草原松果两份",
+    "body": "采草原松果的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "ratibida": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_silphium",
+    "title": "杯叶菊两份",
+    "body": "采杯叶菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "silphium": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cup_plant",
+    "title": "杯托菊两份",
+    "body": "采杯托菊的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cup_plant": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_compass_plant",
+    "title": "罗盘草两份",
+    "body": "采罗盘草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "compass_plant": 2
+      },
+      "coins": 2
+    }
   }
 ]

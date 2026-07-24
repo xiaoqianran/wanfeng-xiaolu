@@ -6935,6 +6935,118 @@
       "emoji": "🤍",
       "kind": "风味",
       "seed": "eupatoriumPot"
+    },
+    "echinacea_purp": {
+      "id": "echinacea_purp",
+      "name": "紫松果菊",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "echinacea_purpPot"
+    },
+    "echinacea_ang": {
+      "id": "echinacea_ang",
+      "name": "狭叶紫锥",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "echinacea_angPot"
+    },
+    "echinacea_pall": {
+      "id": "echinacea_pall",
+      "name": "淡紫锥菊",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "echinacea_pallPot"
+    },
+    "rudbeckia": {
+      "id": "rudbeckia",
+      "name": "金光菊",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "rudbeckiaPot"
+    },
+    "black_eyed_susan": {
+      "id": "black_eyed_susan",
+      "name": "黑心金光",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "black_eyed_susanPot"
+    },
+    "coneflower_yellow": {
+      "id": "coneflower_yellow",
+      "name": "黄松果菊",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "coneflower_yellowPot"
+    },
+    "helenium": {
+      "id": "helenium",
+      "name": "堆心菊",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "heleniumPot"
+    },
+    "helenium_autumn": {
+      "id": "helenium_autumn",
+      "name": "秋堆心菊",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "helenium_autumnPot"
+    },
+    "coreopsis_lance": {
+      "id": "coreopsis_lance",
+      "name": "剑叶金鸡",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "coreopsis_lancePot"
+    },
+    "coreopsis_tick": {
+      "id": "coreopsis_tick",
+      "name": "两色金鸡",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "coreopsis_tickPot"
+    },
+    "gaillardia": {
+      "id": "gaillardia",
+      "name": "天人菊",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "gaillardiaPot"
+    },
+    "gaillardia_fan": {
+      "id": "gaillardia_fan",
+      "name": "扇形天人",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "gaillardia_fanPot"
+    },
+    "ratibida": {
+      "id": "ratibida",
+      "name": "草原松果",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "ratibidaPot"
+    },
+    "silphium": {
+      "id": "silphium",
+      "name": "杯叶菊",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "silphiumPot"
+    },
+    "cup_plant": {
+      "id": "cup_plant",
+      "name": "杯托菊",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "cup_plantPot"
+    },
+    "compass_plant": {
+      "id": "compass_plant",
+      "name": "罗盘草",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "compass_plantPot"
     }
   },
   "plants": {
@@ -16029,6 +16141,182 @@
       ],
       "harvest": "eupatorium",
       "days": 3
+    },
+    "echinacea_purpPot": {
+      "id": "echinacea_purpPot",
+      "name": "紫松果菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "echinacea_purp",
+      "days": 3
+    },
+    "echinacea_angPot": {
+      "id": "echinacea_angPot",
+      "name": "狭叶紫锥",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "echinacea_ang",
+      "days": 3
+    },
+    "echinacea_pallPot": {
+      "id": "echinacea_pallPot",
+      "name": "淡紫锥菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "echinacea_pall",
+      "days": 3
+    },
+    "rudbeckiaPot": {
+      "id": "rudbeckiaPot",
+      "name": "金光菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "rudbeckia",
+      "days": 3
+    },
+    "black_eyed_susanPot": {
+      "id": "black_eyed_susanPot",
+      "name": "黑心金光",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "black_eyed_susan",
+      "days": 3
+    },
+    "coneflower_yellowPot": {
+      "id": "coneflower_yellowPot",
+      "name": "黄松果菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "coneflower_yellow",
+      "days": 3
+    },
+    "heleniumPot": {
+      "id": "heleniumPot",
+      "name": "堆心菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "helenium",
+      "days": 3
+    },
+    "helenium_autumnPot": {
+      "id": "helenium_autumnPot",
+      "name": "秋堆心菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "helenium_autumn",
+      "days": 3
+    },
+    "coreopsis_lancePot": {
+      "id": "coreopsis_lancePot",
+      "name": "剑叶金鸡",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "coreopsis_lance",
+      "days": 3
+    },
+    "coreopsis_tickPot": {
+      "id": "coreopsis_tickPot",
+      "name": "两色金鸡",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "coreopsis_tick",
+      "days": 3
+    },
+    "gaillardiaPot": {
+      "id": "gaillardiaPot",
+      "name": "天人菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "gaillardia",
+      "days": 3
+    },
+    "gaillardia_fanPot": {
+      "id": "gaillardia_fanPot",
+      "name": "扇形天人",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "gaillardia_fan",
+      "days": 3
+    },
+    "ratibidaPot": {
+      "id": "ratibidaPot",
+      "name": "草原松果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "ratibida",
+      "days": 3
+    },
+    "silphiumPot": {
+      "id": "silphiumPot",
+      "name": "杯叶菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "silphium",
+      "days": 3
+    },
+    "cup_plantPot": {
+      "id": "cup_plantPot",
+      "name": "杯托菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "cup_plant",
+      "days": 3
+    },
+    "compass_plantPot": {
+      "id": "compass_plantPot",
+      "name": "罗盘草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "compass_plant",
+      "days": 3
     }
   },
   "cups": [
@@ -23400,6 +23688,166 @@
       "name": "佩兰",
       "emoji": "🤍",
       "need": "eupatorium",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "echinacea_purp",
+      "name": "紫松果菊",
+      "emoji": "💜",
+      "need": "echinacea_purp",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "echinacea_ang",
+      "name": "狭叶紫锥",
+      "emoji": "💗",
+      "need": "echinacea_ang",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "echinacea_pall",
+      "name": "淡紫锥菊",
+      "emoji": "🤍",
+      "need": "echinacea_pall",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "rudbeckia",
+      "name": "金光菊",
+      "emoji": "🟡",
+      "need": "rudbeckia",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "black_eyed_susan",
+      "name": "黑心金光",
+      "emoji": "🟡",
+      "need": "black_eyed_susan",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "coneflower_yellow",
+      "name": "黄松果菊",
+      "emoji": "🟡",
+      "need": "coneflower_yellow",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "helenium",
+      "name": "堆心菊",
+      "emoji": "🧡",
+      "need": "helenium",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "helenium_autumn",
+      "name": "秋堆心菊",
+      "emoji": "🧡",
+      "need": "helenium_autumn",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "coreopsis_lance",
+      "name": "剑叶金鸡",
+      "emoji": "🟡",
+      "need": "coreopsis_lance",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "coreopsis_tick",
+      "name": "两色金鸡",
+      "emoji": "🟡",
+      "need": "coreopsis_tick",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "gaillardia",
+      "name": "天人菊",
+      "emoji": "🔴",
+      "need": "gaillardia",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "gaillardia_fan",
+      "name": "扇形天人",
+      "emoji": "🧡",
+      "need": "gaillardia_fan",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "ratibida",
+      "name": "草原松果",
+      "emoji": "🟡",
+      "need": "ratibida",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "silphium",
+      "name": "杯叶菊",
+      "emoji": "🟡",
+      "need": "silphium",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "cup_plant",
+      "name": "杯托菊",
+      "emoji": "🟡",
+      "need": "cup_plant",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "compass_plant",
+      "name": "罗盘草",
+      "emoji": "🟡",
+      "need": "compass_plant",
       "tags": [
         "花香",
         "草本"
@@ -34438,6 +34886,246 @@
       ],
       "flavors": [
         "eupatorium",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采紫松果菊的旅人",
+      "avatar": "💜",
+      "wish": "紫松果菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "echinacea_purp",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采狭叶紫锥的药师",
+      "avatar": "💗",
+      "wish": "狭叶紫锥或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "echinacea_ang",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采淡紫锥菊的旅人",
+      "avatar": "🤍",
+      "wish": "淡紫锥菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "echinacea_pall",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采金光菊的药师",
+      "avatar": "🟡",
+      "wish": "金光菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "rudbeckia",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采黑心金光的旅人",
+      "avatar": "🟡",
+      "wish": "黑心金光或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "black_eyed_susan",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采黄松果菊的药师",
+      "avatar": "🟡",
+      "wish": "黄松果菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "coneflower_yellow",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采堆心菊的旅人",
+      "avatar": "🧡",
+      "wish": "堆心菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "helenium",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采秋堆心菊的药师",
+      "avatar": "🧡",
+      "wish": "秋堆心菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "helenium_autumn",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采剑叶金鸡的旅人",
+      "avatar": "🟡",
+      "wish": "剑叶金鸡或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "coreopsis_lance",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采两色金鸡的药师",
+      "avatar": "🟡",
+      "wish": "两色金鸡或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "coreopsis_tick",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采天人菊的旅人",
+      "avatar": "🔴",
+      "wish": "天人菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "gaillardia",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采扇形天人的药师",
+      "avatar": "🧡",
+      "wish": "扇形天人或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "gaillardia_fan",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采草原松果的旅人",
+      "avatar": "🟡",
+      "wish": "草原松果或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "ratibida",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采杯叶菊的药师",
+      "avatar": "🟡",
+      "wish": "杯叶菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "silphium",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采杯托菊的旅人",
+      "avatar": "🟡",
+      "wish": "杯托菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "cup_plant",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采罗盘草的药师",
+      "avatar": "🟡",
+      "wish": "罗盘草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "compass_plant",
         "honey",
         "tea_leaf",
         "lavender_bud"
