@@ -102,13 +102,9 @@ function applyBatch(rawList) {
   const winterBlock = core.match(/winter: \[[\s\S]*?\n    \],\n    dusk:/)[0];
   core = core.replace(winterBlock, winterBlock.replace(/\n    \],\n    dusk:/,
     "\n" + winterIds.map((id) => `      { flavor: "${id}", label: "${batch.find((b) => b.id === id).name}" },`).join("\n") + "\n    ],\n    dusk:"));
-  const ach = batch.map((b) => `    { id: "${b.id}_sill", name: "${b.name}窗台", desc: "发现${b.name}", check: function (s) {
-      return !!(s.discovered && s.discovered.${b.id});
-    } },
-    { id: "${b.id}_walker", name: "${b.name}径旅人", desc: "走过${b.theme.name}", check: function (s) {
-      return !!(s._themesTouched && s._themesTouched.${b.theme.id});
-    } },`).join("\n");
-  core = core.replace('    { id: "path_catalog"', ach + '\n    { id: "path_catalog"');
+  // Do NOT inject per-plant DEFAULT_ACHIEVEMENTS (was tens of thousands of
+  // _sill/_walker entries — opening 温柔成就 froze the UI). Discoveries still
+  // track via state.discovered / _themesTouched; FORAGE handles drink notes.
   // FORAGE set drives 野草特调; seasonal tags cover 夏日/冬日 soft bonuses.
   // Do NOT inject mega || flavor chains or per-theme drawWeather else-if blocks —
   // that previously grew game.js past the browser parse stack (~17k nested branches).
@@ -169,7 +165,7 @@ test("${testName}", () => {
   assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ${JSON.stringify(recipes)}.forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
-  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  // bulk per-plant achievements intentionally not injected (UI perf)
   const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
   assert.ok(man.includes(${JSON.stringify(batch[0].theme.name)}));
   const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));

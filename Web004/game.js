@@ -280,7 +280,8 @@
     // Home hero: prefer season plate art; never let broken stageBanners blank the dusk scene.
     if (hero) {
       const next = safeArtUrl(art, "assets/scenes/hero-dusk.jpg");
-      if (hero.getAttribute("src") !== next) hero.src = next;
+      const cur = (hero.getAttribute && hero.getAttribute("src")) || hero.src || "";
+      if (cur !== next) hero.src = next;
     }
     const walkBanner = document.querySelector("#screen-walk .scene-banner");
     if (walkBanner) {
@@ -301,8 +302,83 @@
     }
   }
 
+  // Full DEFAULT_ACHIEVEMENTS can be tens of thousands (batch sill/walker spam).
+  // Evaluating / rendering all of them freezes the main thread on "温柔成就".
+  const ALL_ACHIEVEMENTS = Core.DEFAULT_ACHIEVEMENTS || [];
+  const CORE_ACHIEVEMENT_N = 64;
+  const ACH_BY_ID = new Map(ALL_ACHIEVEMENTS.map((a) => [a.id, a]));
+  // Index bulk plant/path achievements for on-demand checks only.
+  const SILL_BY_FLAVOR = new Map();
+  const WALKER_BY_BASE = new Map();
+  ALL_ACHIEVEMENTS.forEach((a) => {
+    if (!a || !a.id) return;
+    if (a.id.endsWith("_sill")) {
+      SILL_BY_FLAVOR.set(a.id.slice(0, -5), a);
+    } else if (
+      a.id.endsWith("_walker") &&
+      a.id !== "theme_walker" &&
+      a.id !== "snow_walker" &&
+      a.id !== "early_walker"
+    ) {
+      WALKER_BY_BASE.set(a.id.slice(0, -7), a);
+    }
+  });
+
+  function achievementsToCheck(state) {
+    const list = ALL_ACHIEVEMENTS.slice(0, CORE_ACHIEVEMENT_N);
+    const seen = new Set(list.map((a) => a.id));
+    function add(a) {
+      if (a && a.id && !seen.has(a.id) && !(state.achievements && state.achievements[a.id])) {
+        seen.add(a.id);
+        list.push(a);
+      }
+    }
+    // Only probe bulk achievements related to what the player has actually done.
+    Object.keys(state.discovered || {}).forEach((fid) => add(SILL_BY_FLAVOR.get(fid)));
+    Object.keys(state._themesTouched || {}).forEach((tid) => {
+      const base = String(tid).replace(/_path$/i, "");
+      add(WALKER_BY_BASE.get(base));
+      add(WALKER_BY_BASE.get(tid));
+    });
+    return list;
+  }
+
+  function achievementsForUi() {
+    const unlocked = [];
+    Object.keys(state.achievements || {}).forEach((id) => {
+      const def = ACH_BY_ID.get(id);
+      if (def) unlocked.push(def);
+      else {
+        const meta = state.achievements[id];
+        unlocked.push({
+          id,
+          name: (meta && meta.name) || id,
+          desc: "已达成的温柔小事",
+          check: function () { return true; },
+        });
+      }
+    });
+    const core = ALL_ACHIEVEMENTS.slice(0, CORE_ACHIEVEMENT_N);
+    const out = [];
+    const seen = new Set();
+    function push(a) {
+      if (!a || !a.id || seen.has(a.id)) return;
+      seen.add(a.id);
+      out.push(a);
+    }
+    unlocked.forEach(push);
+    core.forEach(push);
+    // light sample of locked bulk for browsing
+    const step = Math.max(1, Math.floor(ALL_ACHIEVEMENTS.length / 36));
+    for (let i = CORE_ACHIEVEMENT_N; i < ALL_ACHIEVEMENTS.length && out.length < 100; i += step) {
+      push(ALL_ACHIEVEMENTS[i]);
+    }
+    return out;
+  }
+
   function checkAchievements(silent) {
-    const newly = Core.evaluateAchievements(state);
+    const defs = achievementsToCheck(state);
+    const newly = Core.evaluateAchievements(state, defs);
     if (newly.length) {
       save();
       if (!silent) {
@@ -578,7 +654,8 @@ function renderJournal() {
     const grid = document.getElementById("achievements-grid");
     if (!grid) return;
     checkAchievements(true);
-    const runtime = Core.DEFAULT_ACHIEVEMENTS.map((a) => {
+    // Cap cards — never materialize tens of thousands of album-card nodes.
+    const runtime = achievementsForUi().map((a) => {
       const done = !!(state.achievements && state.achievements[a.id]);
       return `<div class="album-card ${done ? "done" : "locked"}">
         <div class="emoji">${done ? "✨" : "☁️"}</div>
@@ -601,7 +678,11 @@ function renderJournal() {
         <div class="meta">${a.desc || "温柔里程碑"} · 目标 ${target}</div>
       </div>`;
     });
-    grid.innerHTML = runtime.concat(dataCards).join("");
+    const note =
+      ALL_ACHIEVEMENTS.length > 120
+        ? `<p class="muted" style="grid-column:1/-1;margin:0 0 8px">图鉴展示精选成就（共有 ${ALL_ACHIEVEMENTS.length} 条记录在册；已解锁的会优先出现）。</p>`
+        : "";
+    grid.innerHTML = note + runtime.concat(dataCards).join("");
   }
 
   document.querySelectorAll("[data-go]").forEach((btn) => {
