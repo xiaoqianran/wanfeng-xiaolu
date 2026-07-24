@@ -1569,5 +1569,49 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_caraway",
+    "title": "葛缕子一小袋",
+    "body": "煮葛缕子的阿婆来信：新晒的。给你一小袋，别放太久。",
+    "effect": {
+      "items": {
+        "caraway": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cumin",
+    "title": "孜然一小袋",
+    "body": "炒孜然的厨子来信：新炒的。给你一小袋，别放太久。",
+    "effect": {
+      "items": {
+        "cumin": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fenugreek",
+    "title": "胡芦巴一小袋",
+    "body": "泡胡芦巴的旅人来信：新晒的。给你一小袋，别放太久。",
+    "effect": {
+      "items": {
+        "fenugreek": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_nigella",
+    "title": "黑种草一小袋",
+    "body": "撒黑种草的店员来信：新晒的。给你一小袋，别放太久。",
+    "effect": {
+      "items": {
+        "nigella": 2
+      },
+      "coins": 2
+    }
   }
 ]
