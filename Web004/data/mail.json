@@ -175160,5 +175160,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_sound0",
+    "title": "雨声声香两份",
+    "body": "采雨声声香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound0": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound1",
+    "title": "雨声音香两份",
+    "body": "采雨声音香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound1": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound2",
+    "title": "雨声韵香两份",
+    "body": "采雨声韵香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound2": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound3",
+    "title": "雨声调香两份",
+    "body": "采雨声调香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound3": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound4",
+    "title": "雨声律香两份",
+    "body": "采雨声律香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound4": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound5",
+    "title": "雨声拍香两份",
+    "body": "采雨声拍香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound5": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound6",
+    "title": "雨声点香两份",
+    "body": "采雨声点香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound6": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound7",
+    "title": "雨声线香声两份",
+    "body": "采雨声线香声的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound7": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound8",
+    "title": "雨声波香两份",
+    "body": "采雨声波香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound8": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound9",
+    "title": "雨声频香两份",
+    "body": "采雨声频香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound9": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound10",
+    "title": "雨声振香两份",
+    "body": "采雨声振香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound10": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound11",
+    "title": "雨声共鸣香两份",
+    "body": "采雨声共鸣香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound11": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound12",
+    "title": "雨声回音两份",
+    "body": "采雨声回音的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound12": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound13",
+    "title": "雨声余韵两份",
+    "body": "采雨声余韵的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound13": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound14",
+    "title": "风声声香两份",
+    "body": "采风声声香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound14": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound15",
+    "title": "风声音香两份",
+    "body": "采风声音香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound15": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound16",
+    "title": "风声韵香两份",
+    "body": "采风声韵香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound16": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound17",
+    "title": "风声调香两份",
+    "body": "采风声调香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound17": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound18",
+    "title": "风声律香两份",
+    "body": "采风声律香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound18": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound19",
+    "title": "风声拍香两份",
+    "body": "采风声拍香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound19": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound20",
+    "title": "风声点香两份",
+    "body": "采风声点香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound21",
+    "title": "风声线香声两份",
+    "body": "采风声线香声的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound22",
+    "title": "风声波香两份",
+    "body": "采风声波香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound23",
+    "title": "风声频香两份",
+    "body": "采风声频香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound24",
+    "title": "风声振香两份",
+    "body": "采风声振香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound25",
+    "title": "风声共鸣香两份",
+    "body": "采风声共鸣香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound26",
+    "title": "风声回音两份",
+    "body": "采风声回音的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound27",
+    "title": "风声余韵两份",
+    "body": "采风声余韵的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound28",
+    "title": "雷声声香两份",
+    "body": "采雷声声香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound29",
+    "title": "雷声音香两份",
+    "body": "采雷声音香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound30",
+    "title": "雷声韵香两份",
+    "body": "采雷声韵香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound30": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound31",
+    "title": "雷声调香两份",
+    "body": "采雷声调香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound31": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound32",
+    "title": "雷声律香两份",
+    "body": "采雷声律香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound32": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound33",
+    "title": "雷声拍香两份",
+    "body": "采雷声拍香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound33": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound34",
+    "title": "雷声点香两份",
+    "body": "采雷声点香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound34": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound35",
+    "title": "雷声线香声两份",
+    "body": "采雷声线香声的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound35": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound36",
+    "title": "雷声波香两份",
+    "body": "采雷声波香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound36": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound37",
+    "title": "雷声频香两份",
+    "body": "采雷声频香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound37": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound38",
+    "title": "雷声振香两份",
+    "body": "采雷声振香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound38": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound39",
+    "title": "雷声共鸣香两份",
+    "body": "采雷声共鸣香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound39": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound40",
+    "title": "雷声回音两份",
+    "body": "采雷声回音的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound40": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound41",
+    "title": "雷声余韵两份",
+    "body": "采雷声余韵的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound41": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound42",
+    "title": "潮声声香两份",
+    "body": "采潮声声香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound42": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound43",
+    "title": "潮声音香两份",
+    "body": "采潮声音香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound43": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound44",
+    "title": "潮声韵香两份",
+    "body": "采潮声韵香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound44": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound45",
+    "title": "潮声调香两份",
+    "body": "采潮声调香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound45": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound46",
+    "title": "潮声律香两份",
+    "body": "采潮声律香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound46": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound47",
+    "title": "潮声拍香两份",
+    "body": "采潮声拍香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound47": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound48",
+    "title": "潮声点香两份",
+    "body": "采潮声点香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound48": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound49",
+    "title": "潮声线香声两份",
+    "body": "采潮声线香声的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound49": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound50",
+    "title": "潮声波香两份",
+    "body": "采潮声波香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound50": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound51",
+    "title": "潮声频香两份",
+    "body": "采潮声频香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound51": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound52",
+    "title": "潮声振香两份",
+    "body": "采潮声振香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound52": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound53",
+    "title": "潮声共鸣香两份",
+    "body": "采潮声共鸣香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound53": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound54",
+    "title": "潮声回音两份",
+    "body": "采潮声回音的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound54": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound55",
+    "title": "潮声余韵两份",
+    "body": "采潮声余韵的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound55": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound56",
+    "title": "浪声声香两份",
+    "body": "采浪声声香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound56": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound57",
+    "title": "浪声音香两份",
+    "body": "采浪声音香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound57": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound58",
+    "title": "浪声韵香两份",
+    "body": "采浪声韵香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound58": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound59",
+    "title": "浪声调香两份",
+    "body": "采浪声调香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound59": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound60",
+    "title": "浪声律香两份",
+    "body": "采浪声律香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound60": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound61",
+    "title": "浪声拍香两份",
+    "body": "采浪声拍香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound61": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound62",
+    "title": "浪声点香两份",
+    "body": "采浪声点香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound62": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound63",
+    "title": "浪声线香声两份",
+    "body": "采浪声线香声的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound63": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound64",
+    "title": "浪声波香两份",
+    "body": "采浪声波香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound64": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound65",
+    "title": "浪声频香两份",
+    "body": "采浪声频香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound65": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound66",
+    "title": "浪声振香两份",
+    "body": "采浪声振香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound66": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound67",
+    "title": "浪声共鸣香两份",
+    "body": "采浪声共鸣香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound67": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound68",
+    "title": "浪声回音两份",
+    "body": "采浪声回音的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound68": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound69",
+    "title": "浪声余韵两份",
+    "body": "采浪声余韵的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound69": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound70",
+    "title": "溪声声香两份",
+    "body": "采溪声声香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound70": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound71",
+    "title": "溪声音香两份",
+    "body": "采溪声音香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound71": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound72",
+    "title": "溪声韵香两份",
+    "body": "采溪声韵香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound72": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound73",
+    "title": "溪声调香两份",
+    "body": "采溪声调香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound73": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound74",
+    "title": "溪声律香两份",
+    "body": "采溪声律香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound74": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound75",
+    "title": "溪声拍香两份",
+    "body": "采溪声拍香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound75": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound76",
+    "title": "溪声点香两份",
+    "body": "采溪声点香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound76": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound77",
+    "title": "溪声线香声两份",
+    "body": "采溪声线香声的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound77": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound78",
+    "title": "溪声波香两份",
+    "body": "采溪声波香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound78": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound79",
+    "title": "溪声频香两份",
+    "body": "采溪声频香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound79": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound80",
+    "title": "溪声振香两份",
+    "body": "采溪声振香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound80": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound81",
+    "title": "溪声共鸣香两份",
+    "body": "采溪声共鸣香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound81": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound82",
+    "title": "溪声回音两份",
+    "body": "采溪声回音的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound82": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound83",
+    "title": "溪声余韵两份",
+    "body": "采溪声余韵的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound83": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound84",
+    "title": "泉声声香两份",
+    "body": "采泉声声香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound84": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound85",
+    "title": "泉声音香两份",
+    "body": "采泉声音香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound85": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound86",
+    "title": "泉声韵香两份",
+    "body": "采泉声韵香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound86": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound87",
+    "title": "泉声调香两份",
+    "body": "采泉声调香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound87": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound88",
+    "title": "泉声律香两份",
+    "body": "采泉声律香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound88": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound89",
+    "title": "泉声拍香两份",
+    "body": "采泉声拍香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound89": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound90",
+    "title": "泉声点香两份",
+    "body": "采泉声点香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound90": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound91",
+    "title": "泉声线香声两份",
+    "body": "采泉声线香声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound91": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound92",
+    "title": "泉声波香两份",
+    "body": "采泉声波香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound92": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound93",
+    "title": "泉声频香两份",
+    "body": "采泉声频香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound93": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound94",
+    "title": "泉声振香两份",
+    "body": "采泉声振香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound94": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound95",
+    "title": "泉声共鸣香两份",
+    "body": "采泉声共鸣香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound95": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound96",
+    "title": "泉声回音两份",
+    "body": "采泉声回音的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound96": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound97",
+    "title": "泉声余韵两份",
+    "body": "采泉声余韵的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound97": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound98",
+    "title": "瀑声声香两份",
+    "body": "采瀑声声香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound98": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound99",
+    "title": "瀑声音香两份",
+    "body": "采瀑声音香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound99": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound100",
+    "title": "瀑声韵香两份",
+    "body": "采瀑声韵香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound101",
+    "title": "瀑声调香两份",
+    "body": "采瀑声调香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound102",
+    "title": "瀑声律香两份",
+    "body": "采瀑声律香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound103",
+    "title": "瀑声拍香两份",
+    "body": "采瀑声拍香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound104",
+    "title": "瀑声点香两份",
+    "body": "采瀑声点香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound105",
+    "title": "瀑声线香声两份",
+    "body": "采瀑声线香声的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound106",
+    "title": "瀑声波香两份",
+    "body": "采瀑声波香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound107",
+    "title": "瀑声频香两份",
+    "body": "采瀑声频香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound108",
+    "title": "瀑声振香两份",
+    "body": "采瀑声振香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound109",
+    "title": "瀑声共鸣香两份",
+    "body": "采瀑声共鸣香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound110",
+    "title": "瀑声回音两份",
+    "body": "采瀑声回音的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound111",
+    "title": "瀑声余韵两份",
+    "body": "采瀑声余韵的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound112",
+    "title": "叶声声香两份",
+    "body": "采叶声声香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound113",
+    "title": "叶声音香两份",
+    "body": "采叶声音香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound114",
+    "title": "叶声韵香两份",
+    "body": "采叶声韵香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound115",
+    "title": "叶声调香两份",
+    "body": "采叶声调香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound116",
+    "title": "叶声律香两份",
+    "body": "采叶声律香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound117",
+    "title": "叶声拍香两份",
+    "body": "采叶声拍香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound118",
+    "title": "叶声点香两份",
+    "body": "采叶声点香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound119",
+    "title": "叶声线香声两份",
+    "body": "采叶声线香声的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound120",
+    "title": "叶声波香两份",
+    "body": "采叶声波香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound121",
+    "title": "叶声频香两份",
+    "body": "采叶声频香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound122",
+    "title": "叶声振香两份",
+    "body": "采叶声振香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound123",
+    "title": "叶声共鸣香两份",
+    "body": "采叶声共鸣香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound124",
+    "title": "叶声回音两份",
+    "body": "采叶声回音的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound125",
+    "title": "叶声余韵两份",
+    "body": "采叶声余韵的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound126",
+    "title": "竹声声香两份",
+    "body": "采竹声声香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound127",
+    "title": "竹声音香两份",
+    "body": "采竹声音香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound128",
+    "title": "竹声韵香两份",
+    "body": "采竹声韵香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound129",
+    "title": "竹声调香两份",
+    "body": "采竹声调香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound130",
+    "title": "竹声律香两份",
+    "body": "采竹声律香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound131",
+    "title": "竹声拍香两份",
+    "body": "采竹声拍香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound132",
+    "title": "竹声点香两份",
+    "body": "采竹声点香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound133",
+    "title": "竹声线香声两份",
+    "body": "采竹声线香声的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound134",
+    "title": "竹声波香两份",
+    "body": "采竹声波香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound135",
+    "title": "竹声频香两份",
+    "body": "采竹声频香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound136",
+    "title": "竹声振香两份",
+    "body": "采竹声振香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound137",
+    "title": "竹声共鸣香两份",
+    "body": "采竹声共鸣香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound138",
+    "title": "竹声回音两份",
+    "body": "采竹声回音的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound139",
+    "title": "竹声余韵两份",
+    "body": "采竹声余韵的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound140",
+    "title": "松声声香两份",
+    "body": "采松声声香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound141",
+    "title": "松声音香两份",
+    "body": "采松声音香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound142",
+    "title": "松声韵香两份",
+    "body": "采松声韵香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound143",
+    "title": "松声调香两份",
+    "body": "采松声调香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound144",
+    "title": "松声律香两份",
+    "body": "采松声律香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound145",
+    "title": "松声拍香两份",
+    "body": "采松声拍香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound146",
+    "title": "松声点香两份",
+    "body": "采松声点香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound147",
+    "title": "松声线香声两份",
+    "body": "采松声线香声的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound148",
+    "title": "松声波香两份",
+    "body": "采松声波香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound149",
+    "title": "松声频香两份",
+    "body": "采松声频香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound150",
+    "title": "松声振香两份",
+    "body": "采松声振香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound151",
+    "title": "松声共鸣香两份",
+    "body": "采松声共鸣香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound152",
+    "title": "松声回音两份",
+    "body": "采松声回音的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound153",
+    "title": "松声余韵两份",
+    "body": "采松声余韵的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound154",
+    "title": "蝉声声香两份",
+    "body": "采蝉声声香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound155",
+    "title": "蝉声音香两份",
+    "body": "采蝉声音香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound156",
+    "title": "蝉声韵香两份",
+    "body": "采蝉声韵香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound157",
+    "title": "蝉声调香两份",
+    "body": "采蝉声调香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound158",
+    "title": "蝉声律香两份",
+    "body": "采蝉声律香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound159",
+    "title": "蝉声拍香两份",
+    "body": "采蝉声拍香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound160",
+    "title": "蝉声点香两份",
+    "body": "采蝉声点香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound161",
+    "title": "蝉声线香声两份",
+    "body": "采蝉声线香声的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound162",
+    "title": "蝉声波香两份",
+    "body": "采蝉声波香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound163",
+    "title": "蝉声频香两份",
+    "body": "采蝉声频香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound164",
+    "title": "蝉声振香两份",
+    "body": "采蝉声振香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound165",
+    "title": "蝉声共鸣香两份",
+    "body": "采蝉声共鸣香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound166",
+    "title": "蝉声回音两份",
+    "body": "采蝉声回音的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound167",
+    "title": "蝉声余韵两份",
+    "body": "采蝉声余韵的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound168",
+    "title": "蛙声声香两份",
+    "body": "采蛙声声香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound169",
+    "title": "蛙声音香两份",
+    "body": "采蛙声音香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound170",
+    "title": "蛙声韵香两份",
+    "body": "采蛙声韵香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound171",
+    "title": "蛙声调香两份",
+    "body": "采蛙声调香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound172",
+    "title": "蛙声律香两份",
+    "body": "采蛙声律香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound173",
+    "title": "蛙声拍香两份",
+    "body": "采蛙声拍香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound174",
+    "title": "蛙声点香两份",
+    "body": "采蛙声点香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound175",
+    "title": "蛙声线香声两份",
+    "body": "采蛙声线香声的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound176",
+    "title": "蛙声波香两份",
+    "body": "采蛙声波香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound177",
+    "title": "蛙声频香两份",
+    "body": "采蛙声频香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound178",
+    "title": "蛙声振香两份",
+    "body": "采蛙声振香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound179",
+    "title": "蛙声共鸣香两份",
+    "body": "采蛙声共鸣香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound180",
+    "title": "蛙声回音两份",
+    "body": "采蛙声回音的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound181",
+    "title": "蛙声余韵两份",
+    "body": "采蛙声余韵的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound182",
+    "title": "鸟声声香两份",
+    "body": "采鸟声声香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound183",
+    "title": "鸟声音香两份",
+    "body": "采鸟声音香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound184",
+    "title": "鸟声韵香两份",
+    "body": "采鸟声韵香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound185",
+    "title": "鸟声调香两份",
+    "body": "采鸟声调香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound186",
+    "title": "鸟声律香两份",
+    "body": "采鸟声律香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound187",
+    "title": "鸟声拍香两份",
+    "body": "采鸟声拍香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound188",
+    "title": "鸟声点香两份",
+    "body": "采鸟声点香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound189",
+    "title": "鸟声线香声两份",
+    "body": "采鸟声线香声的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound190",
+    "title": "鸟声波香两份",
+    "body": "采鸟声波香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound191",
+    "title": "鸟声频香两份",
+    "body": "采鸟声频香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound192",
+    "title": "鸟声振香两份",
+    "body": "采鸟声振香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound193",
+    "title": "鸟声共鸣香两份",
+    "body": "采鸟声共鸣香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound194",
+    "title": "鸟声回音两份",
+    "body": "采鸟声回音的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound195",
+    "title": "鸟声余韵两份",
+    "body": "采鸟声余韵的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound196",
+    "title": "虫声声香两份",
+    "body": "采虫声声香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound197",
+    "title": "虫声音香两份",
+    "body": "采虫声音香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound198",
+    "title": "虫声韵香两份",
+    "body": "采虫声韵香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound199",
+    "title": "虫声调香两份",
+    "body": "采虫声调香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound200",
+    "title": "虫声律香两份",
+    "body": "采虫声律香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound201",
+    "title": "虫声拍香两份",
+    "body": "采虫声拍香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound202",
+    "title": "虫声点香两份",
+    "body": "采虫声点香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound203",
+    "title": "虫声线香声两份",
+    "body": "采虫声线香声的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound204",
+    "title": "虫声波香两份",
+    "body": "采虫声波香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound205",
+    "title": "虫声频香两份",
+    "body": "采虫声频香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound206",
+    "title": "虫声振香两份",
+    "body": "采虫声振香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound207",
+    "title": "虫声共鸣香两份",
+    "body": "采虫声共鸣香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound208",
+    "title": "虫声回音两份",
+    "body": "采虫声回音的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound209",
+    "title": "虫声余韵两份",
+    "body": "采虫声余韵的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound210",
+    "title": "钟声声香两份",
+    "body": "采钟声声香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound211",
+    "title": "钟声音香两份",
+    "body": "采钟声音香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound212",
+    "title": "钟声韵香两份",
+    "body": "采钟声韵香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound213",
+    "title": "钟声调香两份",
+    "body": "采钟声调香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound214",
+    "title": "钟声律香两份",
+    "body": "采钟声律香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound215",
+    "title": "钟声拍香两份",
+    "body": "采钟声拍香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound216",
+    "title": "钟声点香两份",
+    "body": "采钟声点香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound217",
+    "title": "钟声线香声两份",
+    "body": "采钟声线香声的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound218",
+    "title": "钟声波香两份",
+    "body": "采钟声波香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound219",
+    "title": "钟声频香两份",
+    "body": "采钟声频香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound220",
+    "title": "钟声振香两份",
+    "body": "采钟声振香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound221",
+    "title": "钟声共鸣香两份",
+    "body": "采钟声共鸣香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound222",
+    "title": "钟声回音两份",
+    "body": "采钟声回音的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound223",
+    "title": "钟声余韵两份",
+    "body": "采钟声余韵的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound224",
+    "title": "鼓声声香两份",
+    "body": "采鼓声声香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound225",
+    "title": "鼓声音香两份",
+    "body": "采鼓声音香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound226",
+    "title": "鼓声韵香两份",
+    "body": "采鼓声韵香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound227",
+    "title": "鼓声调香两份",
+    "body": "采鼓声调香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound228",
+    "title": "鼓声律香两份",
+    "body": "采鼓声律香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound229",
+    "title": "鼓声拍香两份",
+    "body": "采鼓声拍香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound230",
+    "title": "鼓声点香两份",
+    "body": "采鼓声点香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound231",
+    "title": "鼓声线香声两份",
+    "body": "采鼓声线香声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound232",
+    "title": "鼓声波香两份",
+    "body": "采鼓声波香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound233",
+    "title": "鼓声频香两份",
+    "body": "采鼓声频香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound234",
+    "title": "鼓声振香两份",
+    "body": "采鼓声振香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound235",
+    "title": "鼓声共鸣香两份",
+    "body": "采鼓声共鸣香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound236",
+    "title": "鼓声回音两份",
+    "body": "采鼓声回音的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound237",
+    "title": "鼓声余韵两份",
+    "body": "采鼓声余韵的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound238",
+    "title": "笛声声香两份",
+    "body": "采笛声声香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound239",
+    "title": "笛声音香两份",
+    "body": "采笛声音香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound240",
+    "title": "笛声韵香两份",
+    "body": "采笛声韵香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound241",
+    "title": "笛声调香两份",
+    "body": "采笛声调香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound242",
+    "title": "笛声律香两份",
+    "body": "采笛声律香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound243",
+    "title": "笛声拍香两份",
+    "body": "采笛声拍香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound244",
+    "title": "笛声点香两份",
+    "body": "采笛声点香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound245",
+    "title": "笛声线香声两份",
+    "body": "采笛声线香声的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound246",
+    "title": "笛声波香两份",
+    "body": "采笛声波香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound247",
+    "title": "笛声频香两份",
+    "body": "采笛声频香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound248",
+    "title": "笛声振香两份",
+    "body": "采笛声振香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound249",
+    "title": "笛声共鸣香两份",
+    "body": "采笛声共鸣香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound250",
+    "title": "笛声回音两份",
+    "body": "采笛声回音的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound251",
+    "title": "笛声余韵两份",
+    "body": "采笛声余韵的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound252",
+    "title": "箫声声香两份",
+    "body": "采箫声声香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound253",
+    "title": "箫声音香两份",
+    "body": "采箫声音香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound254",
+    "title": "箫声韵香两份",
+    "body": "采箫声韵香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound255",
+    "title": "箫声调香两份",
+    "body": "采箫声调香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound256",
+    "title": "箫声律香两份",
+    "body": "采箫声律香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound257",
+    "title": "箫声拍香两份",
+    "body": "采箫声拍香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound258",
+    "title": "箫声点香两份",
+    "body": "采箫声点香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound259",
+    "title": "箫声线香声两份",
+    "body": "采箫声线香声的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound260",
+    "title": "箫声波香两份",
+    "body": "采箫声波香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound261",
+    "title": "箫声频香两份",
+    "body": "采箫声频香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound262",
+    "title": "箫声振香两份",
+    "body": "采箫声振香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound263",
+    "title": "箫声共鸣香两份",
+    "body": "采箫声共鸣香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound264",
+    "title": "箫声回音两份",
+    "body": "采箫声回音的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound265",
+    "title": "箫声余韵两份",
+    "body": "采箫声余韵的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound266",
+    "title": "琴声声香两份",
+    "body": "采琴声声香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound267",
+    "title": "琴声音香两份",
+    "body": "采琴声音香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound268",
+    "title": "琴声韵香两份",
+    "body": "采琴声韵香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound269",
+    "title": "琴声调香两份",
+    "body": "采琴声调香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound270",
+    "title": "琴声律香两份",
+    "body": "采琴声律香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound271",
+    "title": "琴声拍香两份",
+    "body": "采琴声拍香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound272",
+    "title": "琴声点香两份",
+    "body": "采琴声点香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound273",
+    "title": "琴声线香声两份",
+    "body": "采琴声线香声的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound274",
+    "title": "琴声波香两份",
+    "body": "采琴声波香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound275",
+    "title": "琴声频香两份",
+    "body": "采琴声频香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound276",
+    "title": "琴声振香两份",
+    "body": "采琴声振香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound277",
+    "title": "琴声共鸣香两份",
+    "body": "采琴声共鸣香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound278",
+    "title": "琴声回音两份",
+    "body": "采琴声回音的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound279",
+    "title": "琴声余韵两份",
+    "body": "采琴声余韵的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound280",
+    "title": "棋声声香两份",
+    "body": "采棋声声香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound281",
+    "title": "棋声音香两份",
+    "body": "采棋声音香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound282",
+    "title": "棋声韵香两份",
+    "body": "采棋声韵香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound283",
+    "title": "棋声调香两份",
+    "body": "采棋声调香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound284",
+    "title": "棋声律香两份",
+    "body": "采棋声律香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound285",
+    "title": "棋声拍香两份",
+    "body": "采棋声拍香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound286",
+    "title": "棋声点香两份",
+    "body": "采棋声点香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound287",
+    "title": "棋声线香声两份",
+    "body": "采棋声线香声的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound288",
+    "title": "棋声波香两份",
+    "body": "采棋声波香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound289",
+    "title": "棋声频香两份",
+    "body": "采棋声频香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound290",
+    "title": "棋声振香两份",
+    "body": "采棋声振香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound291",
+    "title": "棋声共鸣香两份",
+    "body": "采棋声共鸣香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound292",
+    "title": "棋声回音两份",
+    "body": "采棋声回音的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound293",
+    "title": "棋声余韵两份",
+    "body": "采棋声余韵的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound294",
+    "title": "书声声香两份",
+    "body": "采书声声香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound295",
+    "title": "书声音香两份",
+    "body": "采书声音香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound296",
+    "title": "书声韵香两份",
+    "body": "采书声韵香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound297",
+    "title": "书声调香两份",
+    "body": "采书声调香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound298",
+    "title": "书声律香两份",
+    "body": "采书声律香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound299",
+    "title": "书声拍香两份",
+    "body": "采书声拍香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound300",
+    "title": "书声点香两份",
+    "body": "采书声点香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound301",
+    "title": "书声线香声两份",
+    "body": "采书声线香声的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound302",
+    "title": "书声波香两份",
+    "body": "采书声波香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound303",
+    "title": "书声频香两份",
+    "body": "采书声频香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound304",
+    "title": "书声振香两份",
+    "body": "采书声振香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound305",
+    "title": "书声共鸣香两份",
+    "body": "采书声共鸣香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound306",
+    "title": "书声回音两份",
+    "body": "采书声回音的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound307",
+    "title": "书声余韵两份",
+    "body": "采书声余韵的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound308",
+    "title": "车声声香两份",
+    "body": "采车声声香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound309",
+    "title": "车声音香两份",
+    "body": "采车声音香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound310",
+    "title": "车声韵香两份",
+    "body": "采车声韵香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound311",
+    "title": "车声调香两份",
+    "body": "采车声调香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound312",
+    "title": "车声律香两份",
+    "body": "采车声律香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound313",
+    "title": "车声拍香两份",
+    "body": "采车声拍香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound314",
+    "title": "车声点香两份",
+    "body": "采车声点香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound315",
+    "title": "车声线香声两份",
+    "body": "采车声线香声的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound316",
+    "title": "车声波香两份",
+    "body": "采车声波香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound317",
+    "title": "车声频香两份",
+    "body": "采车声频香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound318",
+    "title": "车声振香两份",
+    "body": "采车声振香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sound319",
+    "title": "车声共鸣香两份",
+    "body": "采车声共鸣香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sound319": 2
+      },
+      "coins": 2
+    }
   }
 ]
