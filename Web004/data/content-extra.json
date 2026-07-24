@@ -3596,6 +3596,118 @@
       "emoji": "💙",
       "kind": "风味",
       "seed": "brooklimePot"
+    },
+    "cloudberry": {
+      "id": "cloudberry",
+      "name": "云莓",
+      "emoji": "🟠",
+      "kind": "风味",
+      "seed": "cloudberryPot"
+    },
+    "lingonberry": {
+      "id": "lingonberry",
+      "name": "越橘",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "lingonberryPot"
+    },
+    "bilberry": {
+      "id": "bilberry",
+      "name": "欧洲越橘",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "bilberryPot"
+    },
+    "gooseberry": {
+      "id": "gooseberry",
+      "name": "醋栗",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "gooseberryPot"
+    },
+    "currant_red": {
+      "id": "currant_red",
+      "name": "红醋栗",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "currant_redPot"
+    },
+    "currant_black": {
+      "id": "currant_black",
+      "name": "黑醋栗",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "currant_blackPot"
+    },
+    "whitecurrant": {
+      "id": "whitecurrant",
+      "name": "白醋栗",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "whitecurrantPot"
+    },
+    "sea_buckthorn": {
+      "id": "sea_buckthorn",
+      "name": "沙棘",
+      "emoji": "🟠",
+      "kind": "风味",
+      "seed": "sea_buckthornPot"
+    },
+    "medlar": {
+      "id": "medlar",
+      "name": "欧楂",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "medlarPot"
+    },
+    "quince": {
+      "id": "quince",
+      "name": "榅桲",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "quincePot"
+    },
+    "damson": {
+      "id": "damson",
+      "name": "西洋李",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "damsonPot"
+    },
+    "greengage": {
+      "id": "greengage",
+      "name": "青李",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "greengagePot"
+    },
+    "mirabelle": {
+      "id": "mirabelle",
+      "name": "黄香李",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "mirabellePot"
+    },
+    "saskatoon": {
+      "id": "saskatoon",
+      "name": "萨斯卡通莓",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "saskatoonPot"
+    },
+    "chokeberry": {
+      "id": "chokeberry",
+      "name": "野樱莓",
+      "emoji": "⚫",
+      "kind": "风味",
+      "seed": "chokeberryPot"
+    },
+    "aronia": {
+      "id": "aronia",
+      "name": "黑果腺肋花楸",
+      "emoji": "⚫",
+      "kind": "风味",
+      "seed": "aroniaPot"
     }
   },
   "plants": {
@@ -7443,6 +7555,182 @@
       ],
       "harvest": "brooklime",
       "days": 3
+    },
+    "cloudberryPot": {
+      "id": "cloudberryPot",
+      "name": "云莓",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟠"
+      ],
+      "harvest": "cloudberry",
+      "days": 3
+    },
+    "lingonberryPot": {
+      "id": "lingonberryPot",
+      "name": "越橘",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "lingonberry",
+      "days": 3
+    },
+    "bilberryPot": {
+      "id": "bilberryPot",
+      "name": "欧洲越橘",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "bilberry",
+      "days": 3
+    },
+    "gooseberryPot": {
+      "id": "gooseberryPot",
+      "name": "醋栗",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "gooseberry",
+      "days": 3
+    },
+    "currant_redPot": {
+      "id": "currant_redPot",
+      "name": "红醋栗",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "currant_red",
+      "days": 3
+    },
+    "currant_blackPot": {
+      "id": "currant_blackPot",
+      "name": "黑醋栗",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "currant_black",
+      "days": 3
+    },
+    "whitecurrantPot": {
+      "id": "whitecurrantPot",
+      "name": "白醋栗",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "whitecurrant",
+      "days": 3
+    },
+    "sea_buckthornPot": {
+      "id": "sea_buckthornPot",
+      "name": "沙棘",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟠"
+      ],
+      "harvest": "sea_buckthorn",
+      "days": 4
+    },
+    "medlarPot": {
+      "id": "medlarPot",
+      "name": "欧楂",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "medlar",
+      "days": 4
+    },
+    "quincePot": {
+      "id": "quincePot",
+      "name": "榅桲",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "quince",
+      "days": 4
+    },
+    "damsonPot": {
+      "id": "damsonPot",
+      "name": "西洋李",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "damson",
+      "days": 3
+    },
+    "greengagePot": {
+      "id": "greengagePot",
+      "name": "青李",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "greengage",
+      "days": 3
+    },
+    "mirabellePot": {
+      "id": "mirabellePot",
+      "name": "黄香李",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "mirabelle",
+      "days": 3
+    },
+    "saskatoonPot": {
+      "id": "saskatoonPot",
+      "name": "萨斯卡通莓",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "saskatoon",
+      "days": 3
+    },
+    "chokeberryPot": {
+      "id": "chokeberryPot",
+      "name": "野樱莓",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚫"
+      ],
+      "harvest": "chokeberry",
+      "days": 3
+    },
+    "aroniaPot": {
+      "id": "aroniaPot",
+      "name": "黑果腺肋花楸",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚫"
+      ],
+      "harvest": "aronia",
+      "days": 4
     }
   },
   "cups": [
@@ -10047,6 +10335,166 @@
       "tags": [
         "草本",
         "花香"
+      ]
+    },
+    {
+      "id": "cloudberry",
+      "name": "云莓",
+      "emoji": "🟠",
+      "need": "cloudberry",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "lingonberry",
+      "name": "越橘",
+      "emoji": "🔴",
+      "need": "lingonberry",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "bilberry",
+      "name": "欧洲越橘",
+      "emoji": "🟣",
+      "need": "bilberry",
+      "tags": [
+        "果香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "gooseberry",
+      "name": "醋栗",
+      "emoji": "🟢",
+      "need": "gooseberry",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "currant_red",
+      "name": "红醋栗",
+      "emoji": "🔴",
+      "need": "currant_red",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "currant_black",
+      "name": "黑醋栗",
+      "emoji": "🟣",
+      "need": "currant_black",
+      "tags": [
+        "果香",
+        "草本"
+      ]
+    },
+    {
+      "id": "whitecurrant",
+      "name": "白醋栗",
+      "emoji": "⚪",
+      "need": "whitecurrant",
+      "tags": [
+        "果香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "sea_buckthorn",
+      "name": "沙棘",
+      "emoji": "🟠",
+      "need": "sea_buckthorn",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "medlar",
+      "name": "欧楂",
+      "emoji": "🟤",
+      "need": "medlar",
+      "tags": [
+        "果香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "quince",
+      "name": "榅桲",
+      "emoji": "💛",
+      "need": "quince",
+      "tags": [
+        "果香",
+        "花香"
+      ]
+    },
+    {
+      "id": "damson",
+      "name": "西洋李",
+      "emoji": "🟣",
+      "need": "damson",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "greengage",
+      "name": "青李",
+      "emoji": "🟢",
+      "need": "greengage",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "mirabelle",
+      "name": "黄香李",
+      "emoji": "🟡",
+      "need": "mirabelle",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "saskatoon",
+      "name": "萨斯卡通莓",
+      "emoji": "🟣",
+      "need": "saskatoon",
+      "tags": [
+        "果香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "chokeberry",
+      "name": "野樱莓",
+      "emoji": "⚫",
+      "need": "chokeberry",
+      "tags": [
+        "果香",
+        "草本"
+      ]
+    },
+    {
+      "id": "aronia",
+      "name": "黑果腺肋花楸",
+      "emoji": "⚫",
+      "need": "aronia",
+      "tags": [
+        "果香",
+        "草本"
       ]
     }
   ],
@@ -13927,6 +14375,246 @@
       ],
       "flavors": [
         "brooklime",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采云莓的旅人",
+      "avatar": "🟠",
+      "wish": "云莓或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "cloudberry",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采越橘的药师",
+      "avatar": "🔴",
+      "wish": "越橘或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "lingonberry",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采欧洲越橘的旅人",
+      "avatar": "🟣",
+      "wish": "欧洲越橘或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "温柔"
+      ],
+      "flavors": [
+        "bilberry",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采醋栗的旅人",
+      "avatar": "🟢",
+      "wish": "醋栗或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "gooseberry",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采红醋栗的药师",
+      "avatar": "🔴",
+      "wish": "红醋栗或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "currant_red",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采黑醋栗的旅人",
+      "avatar": "🟣",
+      "wish": "黑醋栗或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "草本"
+      ],
+      "flavors": [
+        "currant_black",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采白醋栗的药师",
+      "avatar": "⚪",
+      "wish": "白醋栗或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "温柔"
+      ],
+      "flavors": [
+        "whitecurrant",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采沙棘的旅人",
+      "avatar": "🟠",
+      "wish": "沙棘或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "sea_buckthorn",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采欧楂的药师",
+      "avatar": "🟤",
+      "wish": "欧楂或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "温柔"
+      ],
+      "flavors": [
+        "medlar",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖榅桲的药师",
+      "avatar": "💛",
+      "wish": "榅桲或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "花香"
+      ],
+      "flavors": [
+        "quince",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采西洋李的旅人",
+      "avatar": "🟣",
+      "wish": "西洋李或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "damson",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采青李的药师",
+      "avatar": "🟢",
+      "wish": "青李或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "greengage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采黄香李的旅人",
+      "avatar": "🟡",
+      "wish": "黄香李或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "mirabelle",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采萨斯卡通莓的旅人",
+      "avatar": "🟣",
+      "wish": "萨斯卡通莓或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "温柔"
+      ],
+      "flavors": [
+        "saskatoon",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采野樱莓的药师",
+      "avatar": "⚫",
+      "wish": "野樱莓或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "草本"
+      ],
+      "flavors": [
+        "chokeberry",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采黑果腺肋花楸的药师",
+      "avatar": "⚫",
+      "wish": "黑果腺肋花楸或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "草本"
+      ],
+      "flavors": [
+        "aronia",
         "honey",
         "tea_leaf",
         "lavender_bud"

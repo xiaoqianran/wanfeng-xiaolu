@@ -2537,5 +2537,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_cloudberry",
+    "title": "云莓两份",
+    "body": "采云莓的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloudberry": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lingonberry",
+    "title": "越橘两份",
+    "body": "采越橘的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "lingonberry": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bilberry",
+    "title": "欧洲越橘两份",
+    "body": "采欧洲越橘的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bilberry": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_gooseberry",
+    "title": "醋栗两份",
+    "body": "采醋栗的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "gooseberry": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_currant_red",
+    "title": "红醋栗两份",
+    "body": "采红醋栗的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "currant_red": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_currant_black",
+    "title": "黑醋栗两份",
+    "body": "采黑醋栗的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "currant_black": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_whitecurrant",
+    "title": "白醋栗两份",
+    "body": "采白醋栗的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "whitecurrant": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sea_buckthorn",
+    "title": "沙棘两份",
+    "body": "采沙棘的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sea_buckthorn": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_medlar",
+    "title": "欧楂两份",
+    "body": "采欧楂的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "medlar": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quince",
+    "title": "榅桲两份",
+    "body": "炖榅桲的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quince": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_damson",
+    "title": "西洋李两份",
+    "body": "采西洋李的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "damson": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_greengage",
+    "title": "青李两份",
+    "body": "采青李的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "greengage": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mirabelle",
+    "title": "黄香李两份",
+    "body": "采黄香李的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mirabelle": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_saskatoon",
+    "title": "萨斯卡通莓两份",
+    "body": "采萨斯卡通莓的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "saskatoon": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_chokeberry",
+    "title": "野樱莓两份",
+    "body": "采野樱莓的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "chokeberry": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_aronia",
+    "title": "黑果腺肋花楸两份",
+    "body": "采黑果腺肋花楸的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "aronia": 2
+      },
+      "coins": 2
+    }
   }
 ]
