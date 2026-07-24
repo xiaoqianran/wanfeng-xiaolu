@@ -3411,5 +3411,52 @@ test("pistachio chestnut cinnamon clove 84 themes", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("cranberry elderberry star_anise nutmeg 88 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.cranberry && j.plants.cranberryPot);
+  assert.ok(j.items.elderberry && j.plants.elderberryPot);
+  assert.ok(j.items.star_anise && j.plants.starAnisePot);
+  assert.ok(j.items.nutmeg && j.plants.nutmegPot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  s.bag.cranberry = 1;
+  s.bag.elderberry = 1;
+  s.bag.star_anise = 1;
+  s.bag.nutmeg = 1;
+  assert.ok(core.plantSeed(s, 0, "cranberry", cat).ok);
+  assert.ok(core.plantSeed(s, 1, "elderberry", cat).ok);
+  assert.ok(core.plantSeed(s, 2, "star_anise", cat).ok);
+  assert.ok(core.plantSeed(s, 3, "nutmeg", cat).ok);
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["cranberry_bog", "elder_lane", "anise_path", "nutmeg_lane"].forEach((tid) => {
+    assert.ok(themes.some((th) => th.id === tid), tid);
+  });
+  assert.ok(themes.length >= 88);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  assert.ok(summerPool.includes("cranberry") && summerPool.includes("elderberry"));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  assert.ok(winterPool.includes("star_anise") && winterPool.includes("nutmeg"));
+  // DAILY_SPECIAL_BY_SEASON must not have duplicate keys / undefined summer
+  assert.ok(Array.isArray(core.DAILY_SPECIAL_BY_SEASON.summer));
+  assert.ok(Array.isArray(core.DAILY_SPECIAL_BY_SEASON.winter));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("cranberry_bog") && game.includes("nutmeg_lane"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "蔓越莓汽泡"));
+  assert.ok(recipes.some((r) => r.name === "八角暖蜜"));
+  assert.ok(recipes.some((r) => r.name === "肉豆蔻暖茶"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "cranberry_walker"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "nutmeg_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("蔓越莓浅滩") && man.includes("肉豆蔻小径"));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_anise_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
