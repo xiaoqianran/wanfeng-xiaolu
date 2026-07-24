@@ -101240,5 +101240,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_bridge0",
+    "title": "石桥桥头茶两份",
+    "body": "采石桥桥头茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge0": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge1",
+    "title": "石桥桥中蜜两份",
+    "body": "采石桥桥中蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge1": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge2",
+    "title": "石桥桥尾姜两份",
+    "body": "采石桥桥尾姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge2": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge3",
+    "title": "石桥桥下风两份",
+    "body": "采石桥桥下风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge3": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge4",
+    "title": "石桥桥影露两份",
+    "body": "采石桥桥影露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge4": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge5",
+    "title": "石桥桥栏花两份",
+    "body": "采石桥桥栏花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge5": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge6",
+    "title": "石桥桥墩苔两份",
+    "body": "采石桥桥墩苔的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge6": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge7",
+    "title": "石桥桥板香两份",
+    "body": "采石桥桥板香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge7": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge8",
+    "title": "石桥桥洞凉两份",
+    "body": "采石桥桥洞凉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge8": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge9",
+    "title": "石桥桥灯暖两份",
+    "body": "采石桥桥灯暖的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge9": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge10",
+    "title": "石桥廊桥雨两份",
+    "body": "采石桥廊桥雨的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge10": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge11",
+    "title": "石桥拱桥月两份",
+    "body": "采石桥拱桥月的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge11": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge12",
+    "title": "石桥曲桥柳两份",
+    "body": "采石桥曲桥柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge12": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge13",
+    "title": "石桥亭桥笛两份",
+    "body": "采石桥亭桥笛的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge13": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge14",
+    "title": "石桥浮桥浪两份",
+    "body": "采石桥浮桥浪的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge14": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge15",
+    "title": "石桥索桥风两份",
+    "body": "采石桥索桥风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge15": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge16",
+    "title": "石桥栈桥潮两份",
+    "body": "采石桥栈桥潮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge16": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge17",
+    "title": "石桥旱桥尘两份",
+    "body": "采石桥旱桥尘的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge17": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge18",
+    "title": "石桥水桥涟两份",
+    "body": "采石桥水桥涟的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge18": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge19",
+    "title": "石桥月桥光两份",
+    "body": "采石桥月桥光的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge19": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge20",
+    "title": "木桥桥头茶两份",
+    "body": "采木桥桥头茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge21",
+    "title": "木桥桥中蜜两份",
+    "body": "采木桥桥中蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge22",
+    "title": "木桥桥尾姜两份",
+    "body": "采木桥桥尾姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge23",
+    "title": "木桥桥下风两份",
+    "body": "采木桥桥下风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge24",
+    "title": "木桥桥影露两份",
+    "body": "采木桥桥影露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge25",
+    "title": "木桥桥栏花两份",
+    "body": "采木桥桥栏花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge26",
+    "title": "木桥桥墩苔两份",
+    "body": "采木桥桥墩苔的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge27",
+    "title": "木桥桥板香两份",
+    "body": "采木桥桥板香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge28",
+    "title": "木桥桥洞凉两份",
+    "body": "采木桥桥洞凉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge29",
+    "title": "木桥桥灯暖两份",
+    "body": "采木桥桥灯暖的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge30",
+    "title": "木桥廊桥雨两份",
+    "body": "采木桥廊桥雨的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge30": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge31",
+    "title": "木桥拱桥月两份",
+    "body": "采木桥拱桥月的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge31": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge32",
+    "title": "木桥曲桥柳两份",
+    "body": "采木桥曲桥柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge32": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge33",
+    "title": "木桥亭桥笛两份",
+    "body": "采木桥亭桥笛的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge33": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge34",
+    "title": "木桥浮桥浪两份",
+    "body": "采木桥浮桥浪的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge34": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge35",
+    "title": "木桥索桥风两份",
+    "body": "采木桥索桥风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge35": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge36",
+    "title": "木桥栈桥潮两份",
+    "body": "采木桥栈桥潮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge36": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge37",
+    "title": "木桥旱桥尘两份",
+    "body": "采木桥旱桥尘的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge37": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge38",
+    "title": "木桥水桥涟两份",
+    "body": "采木桥水桥涟的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge38": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge39",
+    "title": "木桥月桥光两份",
+    "body": "采木桥月桥光的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge39": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge40",
+    "title": "竹桥桥头茶两份",
+    "body": "采竹桥桥头茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge40": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge41",
+    "title": "竹桥桥中蜜两份",
+    "body": "采竹桥桥中蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge41": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge42",
+    "title": "竹桥桥尾姜两份",
+    "body": "采竹桥桥尾姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge42": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge43",
+    "title": "竹桥桥下风两份",
+    "body": "采竹桥桥下风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge43": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge44",
+    "title": "竹桥桥影露两份",
+    "body": "采竹桥桥影露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge44": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge45",
+    "title": "竹桥桥栏花两份",
+    "body": "采竹桥桥栏花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge45": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge46",
+    "title": "竹桥桥墩苔两份",
+    "body": "采竹桥桥墩苔的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge46": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge47",
+    "title": "竹桥桥板香两份",
+    "body": "采竹桥桥板香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge47": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge48",
+    "title": "竹桥桥洞凉两份",
+    "body": "采竹桥桥洞凉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge48": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge49",
+    "title": "竹桥桥灯暖两份",
+    "body": "采竹桥桥灯暖的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge49": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge50",
+    "title": "竹桥廊桥雨两份",
+    "body": "采竹桥廊桥雨的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge50": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge51",
+    "title": "竹桥拱桥月两份",
+    "body": "采竹桥拱桥月的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge51": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge52",
+    "title": "竹桥曲桥柳两份",
+    "body": "采竹桥曲桥柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge52": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge53",
+    "title": "竹桥亭桥笛两份",
+    "body": "采竹桥亭桥笛的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge53": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge54",
+    "title": "竹桥浮桥浪两份",
+    "body": "采竹桥浮桥浪的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge54": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge55",
+    "title": "竹桥索桥风两份",
+    "body": "采竹桥索桥风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge55": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge56",
+    "title": "竹桥栈桥潮两份",
+    "body": "采竹桥栈桥潮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge56": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge57",
+    "title": "竹桥旱桥尘两份",
+    "body": "采竹桥旱桥尘的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge57": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge58",
+    "title": "竹桥水桥涟两份",
+    "body": "采竹桥水桥涟的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge58": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge59",
+    "title": "竹桥月桥光两份",
+    "body": "采竹桥月桥光的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge59": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge60",
+    "title": "铁桥桥头茶两份",
+    "body": "采铁桥桥头茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge60": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge61",
+    "title": "铁桥桥中蜜两份",
+    "body": "采铁桥桥中蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge61": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge62",
+    "title": "铁桥桥尾姜两份",
+    "body": "采铁桥桥尾姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge62": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge63",
+    "title": "铁桥桥下风两份",
+    "body": "采铁桥桥下风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge63": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge64",
+    "title": "铁桥桥影露两份",
+    "body": "采铁桥桥影露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge64": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge65",
+    "title": "铁桥桥栏花两份",
+    "body": "采铁桥桥栏花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge65": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge66",
+    "title": "铁桥桥墩苔两份",
+    "body": "采铁桥桥墩苔的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge66": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge67",
+    "title": "铁桥桥板香两份",
+    "body": "采铁桥桥板香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge67": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge68",
+    "title": "铁桥桥洞凉两份",
+    "body": "采铁桥桥洞凉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge68": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge69",
+    "title": "铁桥桥灯暖两份",
+    "body": "采铁桥桥灯暖的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge69": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge70",
+    "title": "铁桥廊桥雨两份",
+    "body": "采铁桥廊桥雨的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge70": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge71",
+    "title": "铁桥拱桥月两份",
+    "body": "采铁桥拱桥月的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge71": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge72",
+    "title": "铁桥曲桥柳两份",
+    "body": "采铁桥曲桥柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge72": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge73",
+    "title": "铁桥亭桥笛两份",
+    "body": "采铁桥亭桥笛的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge73": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge74",
+    "title": "铁桥浮桥浪两份",
+    "body": "采铁桥浮桥浪的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge74": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge75",
+    "title": "铁桥索桥风两份",
+    "body": "采铁桥索桥风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge75": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge76",
+    "title": "铁桥栈桥潮两份",
+    "body": "采铁桥栈桥潮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge76": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge77",
+    "title": "铁桥旱桥尘两份",
+    "body": "采铁桥旱桥尘的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge77": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge78",
+    "title": "铁桥水桥涟两份",
+    "body": "采铁桥水桥涟的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge78": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge79",
+    "title": "铁桥月桥光两份",
+    "body": "采铁桥月桥光的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge79": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge80",
+    "title": "吊桥桥头茶两份",
+    "body": "采吊桥桥头茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge80": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge81",
+    "title": "吊桥桥中蜜两份",
+    "body": "采吊桥桥中蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge81": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge82",
+    "title": "吊桥桥尾姜两份",
+    "body": "采吊桥桥尾姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge82": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge83",
+    "title": "吊桥桥下风两份",
+    "body": "采吊桥桥下风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge83": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge84",
+    "title": "吊桥桥影露两份",
+    "body": "采吊桥桥影露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge84": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge85",
+    "title": "吊桥桥栏花两份",
+    "body": "采吊桥桥栏花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge85": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge86",
+    "title": "吊桥桥墩苔两份",
+    "body": "采吊桥桥墩苔的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge86": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge87",
+    "title": "吊桥桥板香两份",
+    "body": "采吊桥桥板香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge87": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge88",
+    "title": "吊桥桥洞凉两份",
+    "body": "采吊桥桥洞凉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge88": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge89",
+    "title": "吊桥桥灯暖两份",
+    "body": "采吊桥桥灯暖的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge89": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge90",
+    "title": "吊桥廊桥雨两份",
+    "body": "采吊桥廊桥雨的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge90": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge91",
+    "title": "吊桥拱桥月两份",
+    "body": "采吊桥拱桥月的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge91": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge92",
+    "title": "吊桥曲桥柳两份",
+    "body": "采吊桥曲桥柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge92": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge93",
+    "title": "吊桥亭桥笛两份",
+    "body": "采吊桥亭桥笛的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge93": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge94",
+    "title": "吊桥浮桥浪两份",
+    "body": "采吊桥浮桥浪的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge94": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge95",
+    "title": "吊桥索桥风两份",
+    "body": "采吊桥索桥风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge95": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge96",
+    "title": "吊桥栈桥潮两份",
+    "body": "采吊桥栈桥潮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge96": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge97",
+    "title": "吊桥旱桥尘两份",
+    "body": "采吊桥旱桥尘的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge97": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge98",
+    "title": "吊桥水桥涟两份",
+    "body": "采吊桥水桥涟的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge98": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge99",
+    "title": "吊桥月桥光两份",
+    "body": "采吊桥月桥光的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge99": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge100",
+    "title": "廊桥桥头茶两份",
+    "body": "采廊桥桥头茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge101",
+    "title": "廊桥桥中蜜两份",
+    "body": "采廊桥桥中蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge102",
+    "title": "廊桥桥尾姜两份",
+    "body": "采廊桥桥尾姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge103",
+    "title": "廊桥桥下风两份",
+    "body": "采廊桥桥下风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge104",
+    "title": "廊桥桥影露两份",
+    "body": "采廊桥桥影露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge105",
+    "title": "廊桥桥栏花两份",
+    "body": "采廊桥桥栏花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge106",
+    "title": "廊桥桥墩苔两份",
+    "body": "采廊桥桥墩苔的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge107",
+    "title": "廊桥桥板香两份",
+    "body": "采廊桥桥板香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge108",
+    "title": "廊桥桥洞凉两份",
+    "body": "采廊桥桥洞凉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge109",
+    "title": "廊桥桥灯暖两份",
+    "body": "采廊桥桥灯暖的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge110",
+    "title": "廊桥廊桥雨两份",
+    "body": "采廊桥廊桥雨的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge111",
+    "title": "廊桥拱桥月两份",
+    "body": "采廊桥拱桥月的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge112",
+    "title": "廊桥曲桥柳两份",
+    "body": "采廊桥曲桥柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge113",
+    "title": "廊桥亭桥笛两份",
+    "body": "采廊桥亭桥笛的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge114",
+    "title": "廊桥浮桥浪两份",
+    "body": "采廊桥浮桥浪的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge115",
+    "title": "廊桥索桥风两份",
+    "body": "采廊桥索桥风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge116",
+    "title": "廊桥栈桥潮两份",
+    "body": "采廊桥栈桥潮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge117",
+    "title": "廊桥旱桥尘两份",
+    "body": "采廊桥旱桥尘的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge118",
+    "title": "廊桥水桥涟两份",
+    "body": "采廊桥水桥涟的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge119",
+    "title": "廊桥月桥光两份",
+    "body": "采廊桥月桥光的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge120",
+    "title": "拱桥桥头茶两份",
+    "body": "采拱桥桥头茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge121",
+    "title": "拱桥桥中蜜两份",
+    "body": "采拱桥桥中蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge122",
+    "title": "拱桥桥尾姜两份",
+    "body": "采拱桥桥尾姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge123",
+    "title": "拱桥桥下风两份",
+    "body": "采拱桥桥下风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge124",
+    "title": "拱桥桥影露两份",
+    "body": "采拱桥桥影露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge125",
+    "title": "拱桥桥栏花两份",
+    "body": "采拱桥桥栏花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge126",
+    "title": "拱桥桥墩苔两份",
+    "body": "采拱桥桥墩苔的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge127",
+    "title": "拱桥桥板香两份",
+    "body": "采拱桥桥板香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge128",
+    "title": "拱桥桥洞凉两份",
+    "body": "采拱桥桥洞凉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge129",
+    "title": "拱桥桥灯暖两份",
+    "body": "采拱桥桥灯暖的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge130",
+    "title": "拱桥廊桥雨两份",
+    "body": "采拱桥廊桥雨的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge131",
+    "title": "拱桥拱桥月两份",
+    "body": "采拱桥拱桥月的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge132",
+    "title": "拱桥曲桥柳两份",
+    "body": "采拱桥曲桥柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge133",
+    "title": "拱桥亭桥笛两份",
+    "body": "采拱桥亭桥笛的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge134",
+    "title": "拱桥浮桥浪两份",
+    "body": "采拱桥浮桥浪的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge135",
+    "title": "拱桥索桥风两份",
+    "body": "采拱桥索桥风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge136",
+    "title": "拱桥栈桥潮两份",
+    "body": "采拱桥栈桥潮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge137",
+    "title": "拱桥旱桥尘两份",
+    "body": "采拱桥旱桥尘的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge138",
+    "title": "拱桥水桥涟两份",
+    "body": "采拱桥水桥涟的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge139",
+    "title": "拱桥月桥光两份",
+    "body": "采拱桥月桥光的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge140",
+    "title": "平桥桥头茶两份",
+    "body": "采平桥桥头茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge141",
+    "title": "平桥桥中蜜两份",
+    "body": "采平桥桥中蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge142",
+    "title": "平桥桥尾姜两份",
+    "body": "采平桥桥尾姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge143",
+    "title": "平桥桥下风两份",
+    "body": "采平桥桥下风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge144",
+    "title": "平桥桥影露两份",
+    "body": "采平桥桥影露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge145",
+    "title": "平桥桥栏花两份",
+    "body": "采平桥桥栏花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge146",
+    "title": "平桥桥墩苔两份",
+    "body": "采平桥桥墩苔的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge147",
+    "title": "平桥桥板香两份",
+    "body": "采平桥桥板香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge148",
+    "title": "平桥桥洞凉两份",
+    "body": "采平桥桥洞凉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge149",
+    "title": "平桥桥灯暖两份",
+    "body": "采平桥桥灯暖的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge150",
+    "title": "平桥廊桥雨两份",
+    "body": "采平桥廊桥雨的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge151",
+    "title": "平桥拱桥月两份",
+    "body": "采平桥拱桥月的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge152",
+    "title": "平桥曲桥柳两份",
+    "body": "采平桥曲桥柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge153",
+    "title": "平桥亭桥笛两份",
+    "body": "采平桥亭桥笛的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge154",
+    "title": "平桥浮桥浪两份",
+    "body": "采平桥浮桥浪的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge155",
+    "title": "平桥索桥风两份",
+    "body": "采平桥索桥风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge156",
+    "title": "平桥栈桥潮两份",
+    "body": "采平桥栈桥潮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge157",
+    "title": "平桥旱桥尘两份",
+    "body": "采平桥旱桥尘的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge158",
+    "title": "平桥水桥涟两份",
+    "body": "采平桥水桥涟的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge159",
+    "title": "平桥月桥光两份",
+    "body": "采平桥月桥光的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge160",
+    "title": "曲桥桥头茶两份",
+    "body": "采曲桥桥头茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge161",
+    "title": "曲桥桥中蜜两份",
+    "body": "采曲桥桥中蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge162",
+    "title": "曲桥桥尾姜两份",
+    "body": "采曲桥桥尾姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge163",
+    "title": "曲桥桥下风两份",
+    "body": "采曲桥桥下风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge164",
+    "title": "曲桥桥影露两份",
+    "body": "采曲桥桥影露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge165",
+    "title": "曲桥桥栏花两份",
+    "body": "采曲桥桥栏花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge166",
+    "title": "曲桥桥墩苔两份",
+    "body": "采曲桥桥墩苔的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge167",
+    "title": "曲桥桥板香两份",
+    "body": "采曲桥桥板香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge168",
+    "title": "曲桥桥洞凉两份",
+    "body": "采曲桥桥洞凉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge169",
+    "title": "曲桥桥灯暖两份",
+    "body": "采曲桥桥灯暖的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge170",
+    "title": "曲桥廊桥雨两份",
+    "body": "采曲桥廊桥雨的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge171",
+    "title": "曲桥拱桥月两份",
+    "body": "采曲桥拱桥月的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge172",
+    "title": "曲桥曲桥柳两份",
+    "body": "采曲桥曲桥柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge173",
+    "title": "曲桥亭桥笛两份",
+    "body": "采曲桥亭桥笛的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge174",
+    "title": "曲桥浮桥浪两份",
+    "body": "采曲桥浮桥浪的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge175",
+    "title": "曲桥索桥风两份",
+    "body": "采曲桥索桥风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge176",
+    "title": "曲桥栈桥潮两份",
+    "body": "采曲桥栈桥潮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge177",
+    "title": "曲桥旱桥尘两份",
+    "body": "采曲桥旱桥尘的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge178",
+    "title": "曲桥水桥涟两份",
+    "body": "采曲桥水桥涟的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge179",
+    "title": "曲桥月桥光两份",
+    "body": "采曲桥月桥光的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge180",
+    "title": "亭桥桥头茶两份",
+    "body": "采亭桥桥头茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge181",
+    "title": "亭桥桥中蜜两份",
+    "body": "采亭桥桥中蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge182",
+    "title": "亭桥桥尾姜两份",
+    "body": "采亭桥桥尾姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge183",
+    "title": "亭桥桥下风两份",
+    "body": "采亭桥桥下风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge184",
+    "title": "亭桥桥影露两份",
+    "body": "采亭桥桥影露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge185",
+    "title": "亭桥桥栏花两份",
+    "body": "采亭桥桥栏花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge186",
+    "title": "亭桥桥墩苔两份",
+    "body": "采亭桥桥墩苔的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge187",
+    "title": "亭桥桥板香两份",
+    "body": "采亭桥桥板香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge188",
+    "title": "亭桥桥洞凉两份",
+    "body": "采亭桥桥洞凉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge189",
+    "title": "亭桥桥灯暖两份",
+    "body": "采亭桥桥灯暖的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge190",
+    "title": "亭桥廊桥雨两份",
+    "body": "采亭桥廊桥雨的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge191",
+    "title": "亭桥拱桥月两份",
+    "body": "采亭桥拱桥月的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge192",
+    "title": "亭桥曲桥柳两份",
+    "body": "采亭桥曲桥柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge193",
+    "title": "亭桥亭桥笛两份",
+    "body": "采亭桥亭桥笛的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge194",
+    "title": "亭桥浮桥浪两份",
+    "body": "采亭桥浮桥浪的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge195",
+    "title": "亭桥索桥风两份",
+    "body": "采亭桥索桥风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge196",
+    "title": "亭桥栈桥潮两份",
+    "body": "采亭桥栈桥潮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge197",
+    "title": "亭桥旱桥尘两份",
+    "body": "采亭桥旱桥尘的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge198",
+    "title": "亭桥水桥涟两份",
+    "body": "采亭桥水桥涟的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge199",
+    "title": "亭桥月桥光两份",
+    "body": "采亭桥月桥光的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge200",
+    "title": "浮桥桥头茶两份",
+    "body": "采浮桥桥头茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge201",
+    "title": "浮桥桥中蜜两份",
+    "body": "采浮桥桥中蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge202",
+    "title": "浮桥桥尾姜两份",
+    "body": "采浮桥桥尾姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge203",
+    "title": "浮桥桥下风两份",
+    "body": "采浮桥桥下风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge204",
+    "title": "浮桥桥影露两份",
+    "body": "采浮桥桥影露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge205",
+    "title": "浮桥桥栏花两份",
+    "body": "采浮桥桥栏花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge206",
+    "title": "浮桥桥墩苔两份",
+    "body": "采浮桥桥墩苔的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge207",
+    "title": "浮桥桥板香两份",
+    "body": "采浮桥桥板香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge208",
+    "title": "浮桥桥洞凉两份",
+    "body": "采浮桥桥洞凉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge209",
+    "title": "浮桥桥灯暖两份",
+    "body": "采浮桥桥灯暖的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge210",
+    "title": "浮桥廊桥雨两份",
+    "body": "采浮桥廊桥雨的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge211",
+    "title": "浮桥拱桥月两份",
+    "body": "采浮桥拱桥月的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge212",
+    "title": "浮桥曲桥柳两份",
+    "body": "采浮桥曲桥柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge213",
+    "title": "浮桥亭桥笛两份",
+    "body": "采浮桥亭桥笛的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge214",
+    "title": "浮桥浮桥浪两份",
+    "body": "采浮桥浮桥浪的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge215",
+    "title": "浮桥索桥风两份",
+    "body": "采浮桥索桥风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge216",
+    "title": "浮桥栈桥潮两份",
+    "body": "采浮桥栈桥潮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge217",
+    "title": "浮桥旱桥尘两份",
+    "body": "采浮桥旱桥尘的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge218",
+    "title": "浮桥水桥涟两份",
+    "body": "采浮桥水桥涟的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge219",
+    "title": "浮桥月桥光两份",
+    "body": "采浮桥月桥光的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge220",
+    "title": "索桥桥头茶两份",
+    "body": "采索桥桥头茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge221",
+    "title": "索桥桥中蜜两份",
+    "body": "采索桥桥中蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge222",
+    "title": "索桥桥尾姜两份",
+    "body": "采索桥桥尾姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge223",
+    "title": "索桥桥下风两份",
+    "body": "采索桥桥下风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge224",
+    "title": "索桥桥影露两份",
+    "body": "采索桥桥影露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge225",
+    "title": "索桥桥栏花两份",
+    "body": "采索桥桥栏花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge226",
+    "title": "索桥桥墩苔两份",
+    "body": "采索桥桥墩苔的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge227",
+    "title": "索桥桥板香两份",
+    "body": "采索桥桥板香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge228",
+    "title": "索桥桥洞凉两份",
+    "body": "采索桥桥洞凉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge229",
+    "title": "索桥桥灯暖两份",
+    "body": "采索桥桥灯暖的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge230",
+    "title": "索桥廊桥雨两份",
+    "body": "采索桥廊桥雨的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge231",
+    "title": "索桥拱桥月两份",
+    "body": "采索桥拱桥月的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge232",
+    "title": "索桥曲桥柳两份",
+    "body": "采索桥曲桥柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge233",
+    "title": "索桥亭桥笛两份",
+    "body": "采索桥亭桥笛的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge234",
+    "title": "索桥浮桥浪两份",
+    "body": "采索桥浮桥浪的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge235",
+    "title": "索桥索桥风两份",
+    "body": "采索桥索桥风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge236",
+    "title": "索桥栈桥潮两份",
+    "body": "采索桥栈桥潮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge237",
+    "title": "索桥旱桥尘两份",
+    "body": "采索桥旱桥尘的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge238",
+    "title": "索桥水桥涟两份",
+    "body": "采索桥水桥涟的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge239",
+    "title": "索桥月桥光两份",
+    "body": "采索桥月桥光的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge240",
+    "title": "栈桥桥头茶两份",
+    "body": "采栈桥桥头茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge241",
+    "title": "栈桥桥中蜜两份",
+    "body": "采栈桥桥中蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge242",
+    "title": "栈桥桥尾姜两份",
+    "body": "采栈桥桥尾姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge243",
+    "title": "栈桥桥下风两份",
+    "body": "采栈桥桥下风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge244",
+    "title": "栈桥桥影露两份",
+    "body": "采栈桥桥影露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge245",
+    "title": "栈桥桥栏花两份",
+    "body": "采栈桥桥栏花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge246",
+    "title": "栈桥桥墩苔两份",
+    "body": "采栈桥桥墩苔的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge247",
+    "title": "栈桥桥板香两份",
+    "body": "采栈桥桥板香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge248",
+    "title": "栈桥桥洞凉两份",
+    "body": "采栈桥桥洞凉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge249",
+    "title": "栈桥桥灯暖两份",
+    "body": "采栈桥桥灯暖的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge250",
+    "title": "栈桥廊桥雨两份",
+    "body": "采栈桥廊桥雨的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge251",
+    "title": "栈桥拱桥月两份",
+    "body": "采栈桥拱桥月的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge252",
+    "title": "栈桥曲桥柳两份",
+    "body": "采栈桥曲桥柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge253",
+    "title": "栈桥亭桥笛两份",
+    "body": "采栈桥亭桥笛的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge254",
+    "title": "栈桥浮桥浪两份",
+    "body": "采栈桥浮桥浪的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge255",
+    "title": "栈桥索桥风两份",
+    "body": "采栈桥索桥风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge256",
+    "title": "栈桥栈桥潮两份",
+    "body": "采栈桥栈桥潮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge257",
+    "title": "栈桥旱桥尘两份",
+    "body": "采栈桥旱桥尘的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge258",
+    "title": "栈桥水桥涟两份",
+    "body": "采栈桥水桥涟的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge259",
+    "title": "栈桥月桥光两份",
+    "body": "采栈桥月桥光的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge260",
+    "title": "旱桥桥头茶两份",
+    "body": "采旱桥桥头茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge261",
+    "title": "旱桥桥中蜜两份",
+    "body": "采旱桥桥中蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge262",
+    "title": "旱桥桥尾姜两份",
+    "body": "采旱桥桥尾姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge263",
+    "title": "旱桥桥下风两份",
+    "body": "采旱桥桥下风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge264",
+    "title": "旱桥桥影露两份",
+    "body": "采旱桥桥影露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge265",
+    "title": "旱桥桥栏花两份",
+    "body": "采旱桥桥栏花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge266",
+    "title": "旱桥桥墩苔两份",
+    "body": "采旱桥桥墩苔的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge267",
+    "title": "旱桥桥板香两份",
+    "body": "采旱桥桥板香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge268",
+    "title": "旱桥桥洞凉两份",
+    "body": "采旱桥桥洞凉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge269",
+    "title": "旱桥桥灯暖两份",
+    "body": "采旱桥桥灯暖的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge270",
+    "title": "旱桥廊桥雨两份",
+    "body": "采旱桥廊桥雨的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge271",
+    "title": "旱桥拱桥月两份",
+    "body": "采旱桥拱桥月的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge272",
+    "title": "旱桥曲桥柳两份",
+    "body": "采旱桥曲桥柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge273",
+    "title": "旱桥亭桥笛两份",
+    "body": "采旱桥亭桥笛的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge274",
+    "title": "旱桥浮桥浪两份",
+    "body": "采旱桥浮桥浪的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge275",
+    "title": "旱桥索桥风两份",
+    "body": "采旱桥索桥风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge276",
+    "title": "旱桥栈桥潮两份",
+    "body": "采旱桥栈桥潮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge277",
+    "title": "旱桥旱桥尘两份",
+    "body": "采旱桥旱桥尘的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge278",
+    "title": "旱桥水桥涟两份",
+    "body": "采旱桥水桥涟的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge279",
+    "title": "旱桥月桥光两份",
+    "body": "采旱桥月桥光的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge280",
+    "title": "水桥桥头茶两份",
+    "body": "采水桥桥头茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge281",
+    "title": "水桥桥中蜜两份",
+    "body": "采水桥桥中蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge282",
+    "title": "水桥桥尾姜两份",
+    "body": "采水桥桥尾姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge283",
+    "title": "水桥桥下风两份",
+    "body": "采水桥桥下风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge284",
+    "title": "水桥桥影露两份",
+    "body": "采水桥桥影露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge285",
+    "title": "水桥桥栏花两份",
+    "body": "采水桥桥栏花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge286",
+    "title": "水桥桥墩苔两份",
+    "body": "采水桥桥墩苔的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge287",
+    "title": "水桥桥板香两份",
+    "body": "采水桥桥板香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge288",
+    "title": "水桥桥洞凉两份",
+    "body": "采水桥桥洞凉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge289",
+    "title": "水桥桥灯暖两份",
+    "body": "采水桥桥灯暖的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge290",
+    "title": "水桥廊桥雨两份",
+    "body": "采水桥廊桥雨的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge291",
+    "title": "水桥拱桥月两份",
+    "body": "采水桥拱桥月的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge292",
+    "title": "水桥曲桥柳两份",
+    "body": "采水桥曲桥柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge293",
+    "title": "水桥亭桥笛两份",
+    "body": "采水桥亭桥笛的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge294",
+    "title": "水桥浮桥浪两份",
+    "body": "采水桥浮桥浪的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge295",
+    "title": "水桥索桥风两份",
+    "body": "采水桥索桥风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge296",
+    "title": "水桥栈桥潮两份",
+    "body": "采水桥栈桥潮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge297",
+    "title": "水桥旱桥尘两份",
+    "body": "采水桥旱桥尘的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge298",
+    "title": "水桥水桥涟两份",
+    "body": "采水桥水桥涟的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge299",
+    "title": "水桥月桥光两份",
+    "body": "采水桥月桥光的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge300",
+    "title": "月桥桥头茶两份",
+    "body": "采月桥桥头茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge301",
+    "title": "月桥桥中蜜两份",
+    "body": "采月桥桥中蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge302",
+    "title": "月桥桥尾姜两份",
+    "body": "采月桥桥尾姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge303",
+    "title": "月桥桥下风两份",
+    "body": "采月桥桥下风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge304",
+    "title": "月桥桥影露两份",
+    "body": "采月桥桥影露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge305",
+    "title": "月桥桥栏花两份",
+    "body": "采月桥桥栏花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge306",
+    "title": "月桥桥墩苔两份",
+    "body": "采月桥桥墩苔的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge307",
+    "title": "月桥桥板香两份",
+    "body": "采月桥桥板香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge308",
+    "title": "月桥桥洞凉两份",
+    "body": "采月桥桥洞凉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge309",
+    "title": "月桥桥灯暖两份",
+    "body": "采月桥桥灯暖的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge310",
+    "title": "月桥廊桥雨两份",
+    "body": "采月桥廊桥雨的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge311",
+    "title": "月桥拱桥月两份",
+    "body": "采月桥拱桥月的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge312",
+    "title": "月桥曲桥柳两份",
+    "body": "采月桥曲桥柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge313",
+    "title": "月桥亭桥笛两份",
+    "body": "采月桥亭桥笛的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge314",
+    "title": "月桥浮桥浪两份",
+    "body": "采月桥浮桥浪的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge315",
+    "title": "月桥索桥风两份",
+    "body": "采月桥索桥风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge316",
+    "title": "月桥栈桥潮两份",
+    "body": "采月桥栈桥潮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge317",
+    "title": "月桥旱桥尘两份",
+    "body": "采月桥旱桥尘的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge318",
+    "title": "月桥水桥涟两份",
+    "body": "采月桥水桥涟的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bridge319",
+    "title": "月桥月桥光两份",
+    "body": "采月桥月桥光的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bridge319": 2
+      },
+      "coins": 2
+    }
   }
 ]
