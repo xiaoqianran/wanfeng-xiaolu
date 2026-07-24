@@ -5144,5 +5144,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_agave_nectar",
+    "title": "龙舌兰蜜两份",
+    "body": "收龙舌兰蜜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "agave_nectar": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_prickly_pear_pad",
+    "title": "仙人掌叶两份",
+    "body": "采仙人掌叶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "prickly_pear_pad": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_jojoba",
+    "title": "霍霍巴两份",
+    "body": "采霍霍巴的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "jojoba": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mesquite_pod",
+    "title": "牧豆荚两份",
+    "body": "磨牧豆荚的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mesquite_pod": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_creosote",
+    "title": "三齿拉瑞阿两份",
+    "body": "采三齿拉瑞阿的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "creosote": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_desert_sage",
+    "title": "沙漠鼠尾草两份",
+    "body": "采沙漠鼠尾草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "desert_sage": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ephedra",
+    "title": "麻黄两份",
+    "body": "采麻黄的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "ephedra": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_yucca_flower",
+    "title": "丝兰花两份",
+    "body": "采丝兰花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "yucca_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_yerba_santa",
+    "title": "圣草两份",
+    "body": "采圣草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "yerba_santa": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_boldo",
+    "title": "波尔多叶两份",
+    "body": "泡波尔多叶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "boldo": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cedron",
+    "title": "南美柠檬马鞭草两份",
+    "body": "采南美柠檬马鞭草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cedron": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_muña",
+    "title": "木纳草两份",
+    "body": "采木纳草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "muña": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_coca_leaf_tea",
+    "title": "古柯叶茶两份",
+    "body": "泡古柯叶茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "coca_leaf_tea": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_guarana",
+    "title": "瓜拉纳两份",
+    "body": "采瓜拉纳的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "guarana": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cupuacu_butter",
+    "title": "古布阿苏脂两份",
+    "body": "磨古布阿苏脂的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cupuacu_butter": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_stevia_leaf",
+    "title": "甜叶菊两份",
+    "body": "采甜叶菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "stevia_leaf": 2
+      },
+      "coins": 2
+    }
   }
 ]
