@@ -3484,6 +3484,118 @@
       "emoji": "🟢",
       "kind": "风味",
       "seed": "nettle_seedPot"
+    },
+    "hawthorn_berry": {
+      "id": "hawthorn_berry",
+      "name": "山楂果",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "hawthorn_berryPot"
+    },
+    "rosehip": {
+      "id": "rosehip",
+      "name": "玫瑰果",
+      "emoji": "🟠",
+      "kind": "风味",
+      "seed": "rosehipPot"
+    },
+    "sloe": {
+      "id": "sloe",
+      "name": "黑刺李",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "sloePot"
+    },
+    "rowan": {
+      "id": "rowan",
+      "name": "花楸果",
+      "emoji": "🟠",
+      "kind": "风味",
+      "seed": "rowanPot"
+    },
+    "crabapple": {
+      "id": "crabapple",
+      "name": "海棠果",
+      "emoji": "🍎",
+      "kind": "风味",
+      "seed": "crabapplePot"
+    },
+    "serviceberry": {
+      "id": "serviceberry",
+      "name": "唐棣",
+      "emoji": "🫐",
+      "kind": "风味",
+      "seed": "serviceberryPot"
+    },
+    "elderflower_fresh": {
+      "id": "elderflower_fresh",
+      "name": "接骨木花鲜",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "elderflower_freshPot"
+    },
+    "meadowsweet_fresh": {
+      "id": "meadowsweet_fresh",
+      "name": "绣线菊鲜",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "meadowsweet_freshPot"
+    },
+    "wood_sorrel": {
+      "id": "wood_sorrel",
+      "name": "酢浆草",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "wood_sorrelPot"
+    },
+    "wild_garlic": {
+      "id": "wild_garlic",
+      "name": "熊葱",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "wild_garlicPot"
+    },
+    "ramsons": {
+      "id": "ramsons",
+      "name": "熊蒜",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "ramsonsPot"
+    },
+    "jack_by_hedge": {
+      "id": "jack_by_hedge",
+      "name": "蒜芥",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "jack_by_hedgePot"
+    },
+    "hedge_mustard": {
+      "id": "hedge_mustard",
+      "name": "蒜芥菜",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "hedge_mustardPot"
+    },
+    "wintercress": {
+      "id": "wintercress",
+      "name": "山芥",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "wintercressPot"
+    },
+    "watercress": {
+      "id": "watercress",
+      "name": "豆瓣菜",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "watercressPot"
+    },
+    "brooklime": {
+      "id": "brooklime",
+      "name": "有柄水苦荬",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "brooklimePot"
     }
   },
   "plants": {
@@ -7155,6 +7267,182 @@
       ],
       "harvest": "nettle_seed",
       "days": 3
+    },
+    "hawthorn_berryPot": {
+      "id": "hawthorn_berryPot",
+      "name": "山楂果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "hawthorn_berry",
+      "days": 4
+    },
+    "rosehipPot": {
+      "id": "rosehipPot",
+      "name": "玫瑰果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟠"
+      ],
+      "harvest": "rosehip",
+      "days": 4
+    },
+    "sloePot": {
+      "id": "sloePot",
+      "name": "黑刺李",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "sloe",
+      "days": 4
+    },
+    "rowanPot": {
+      "id": "rowanPot",
+      "name": "花楸果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟠"
+      ],
+      "harvest": "rowan",
+      "days": 3
+    },
+    "crabapplePot": {
+      "id": "crabapplePot",
+      "name": "海棠果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍎"
+      ],
+      "harvest": "crabapple",
+      "days": 3
+    },
+    "serviceberryPot": {
+      "id": "serviceberryPot",
+      "name": "唐棣",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🫐"
+      ],
+      "harvest": "serviceberry",
+      "days": 3
+    },
+    "elderflower_freshPot": {
+      "id": "elderflower_freshPot",
+      "name": "接骨木花鲜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "elderflower_fresh",
+      "days": 3
+    },
+    "meadowsweet_freshPot": {
+      "id": "meadowsweet_freshPot",
+      "name": "绣线菊鲜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "meadowsweet_fresh",
+      "days": 3
+    },
+    "wood_sorrelPot": {
+      "id": "wood_sorrelPot",
+      "name": "酢浆草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "wood_sorrel",
+      "days": 3
+    },
+    "wild_garlicPot": {
+      "id": "wild_garlicPot",
+      "name": "熊葱",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "wild_garlic",
+      "days": 3
+    },
+    "ramsonsPot": {
+      "id": "ramsonsPot",
+      "name": "熊蒜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "ramsons",
+      "days": 3
+    },
+    "jack_by_hedgePot": {
+      "id": "jack_by_hedgePot",
+      "name": "蒜芥",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "jack_by_hedge",
+      "days": 3
+    },
+    "hedge_mustardPot": {
+      "id": "hedge_mustardPot",
+      "name": "蒜芥菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "hedge_mustard",
+      "days": 3
+    },
+    "wintercressPot": {
+      "id": "wintercressPot",
+      "name": "山芥",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "wintercress",
+      "days": 3
+    },
+    "watercressPot": {
+      "id": "watercressPot",
+      "name": "豆瓣菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "watercress",
+      "days": 3
+    },
+    "brooklimePot": {
+      "id": "brooklimePot",
+      "name": "有柄水苦荬",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "brooklime",
+      "days": 3
     }
   },
   "cups": [
@@ -9599,6 +9887,166 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "hawthorn_berry",
+      "name": "山楂果",
+      "emoji": "🔴",
+      "need": "hawthorn_berry",
+      "tags": [
+        "果香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "rosehip",
+      "name": "玫瑰果",
+      "emoji": "🟠",
+      "need": "rosehip",
+      "tags": [
+        "果香",
+        "花香"
+      ]
+    },
+    {
+      "id": "sloe",
+      "name": "黑刺李",
+      "emoji": "🟣",
+      "need": "sloe",
+      "tags": [
+        "果香",
+        "草本"
+      ]
+    },
+    {
+      "id": "rowan",
+      "name": "花楸果",
+      "emoji": "🟠",
+      "need": "rowan",
+      "tags": [
+        "果香",
+        "花香"
+      ]
+    },
+    {
+      "id": "crabapple",
+      "name": "海棠果",
+      "emoji": "🍎",
+      "need": "crabapple",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "serviceberry",
+      "name": "唐棣",
+      "emoji": "🫐",
+      "need": "serviceberry",
+      "tags": [
+        "果香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "elderflower_fresh",
+      "name": "接骨木花鲜",
+      "emoji": "🤍",
+      "need": "elderflower_fresh",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "meadowsweet_fresh",
+      "name": "绣线菊鲜",
+      "emoji": "🤍",
+      "need": "meadowsweet_fresh",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "wood_sorrel",
+      "name": "酢浆草",
+      "emoji": "💛",
+      "need": "wood_sorrel",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "wild_garlic",
+      "name": "熊葱",
+      "emoji": "🤍",
+      "need": "wild_garlic",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "ramsons",
+      "name": "熊蒜",
+      "emoji": "🌿",
+      "need": "ramsons",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "jack_by_hedge",
+      "name": "蒜芥",
+      "emoji": "🟢",
+      "need": "jack_by_hedge",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "hedge_mustard",
+      "name": "蒜芥菜",
+      "emoji": "🟡",
+      "need": "hedge_mustard",
+      "tags": [
+        "草本",
+        "花香"
+      ]
+    },
+    {
+      "id": "wintercress",
+      "name": "山芥",
+      "emoji": "🟡",
+      "need": "wintercress",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "watercress",
+      "name": "豆瓣菜",
+      "emoji": "🟢",
+      "need": "watercress",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "brooklime",
+      "name": "有柄水苦荬",
+      "emoji": "💙",
+      "need": "brooklime",
+      "tags": [
+        "草本",
+        "花香"
       ]
     }
   ],
@@ -13242,6 +13690,246 @@
         "honey",
         "tea_leaf",
         "mint"
+      ]
+    },
+    {
+      "name": "采山楂果的药师",
+      "avatar": "🔴",
+      "wish": "山楂果或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "温柔"
+      ],
+      "flavors": [
+        "hawthorn_berry",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采玫瑰果的旅人",
+      "avatar": "🟠",
+      "wish": "玫瑰果或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "花香"
+      ],
+      "flavors": [
+        "rosehip",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采黑刺李的药师",
+      "avatar": "🟣",
+      "wish": "黑刺李或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "草本"
+      ],
+      "flavors": [
+        "sloe",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采花楸果的旅人",
+      "avatar": "🟠",
+      "wish": "花楸果或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "花香"
+      ],
+      "flavors": [
+        "rowan",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采海棠果的旅人",
+      "avatar": "🍎",
+      "wish": "海棠果或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "crabapple",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采唐棣的药师",
+      "avatar": "🫐",
+      "wish": "唐棣或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "温柔"
+      ],
+      "flavors": [
+        "serviceberry",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采接骨木花的旅人",
+      "avatar": "🤍",
+      "wish": "接骨木花鲜或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "elderflower_fresh",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采绣线菊鲜的药师",
+      "avatar": "🤍",
+      "wish": "绣线菊鲜或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "meadowsweet_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采酢浆草的旅人",
+      "avatar": "💛",
+      "wish": "酢浆草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "wood_sorrel",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采熊葱的旅人",
+      "avatar": "🤍",
+      "wish": "熊葱或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "wild_garlic",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采熊蒜的药师",
+      "avatar": "🌿",
+      "wish": "熊蒜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "ramsons",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采蒜芥的旅人",
+      "avatar": "🟢",
+      "wish": "蒜芥或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "jack_by_hedge",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采蒜芥菜的药师",
+      "avatar": "🟡",
+      "wish": "蒜芥菜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "花香"
+      ],
+      "flavors": [
+        "hedge_mustard",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采山芥的旅人",
+      "avatar": "🟡",
+      "wish": "山芥或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "wintercress",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采豆瓣菜的旅人",
+      "avatar": "🟢",
+      "wish": "豆瓣菜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "watercress",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采水苦荬的药师",
+      "avatar": "💙",
+      "wish": "有柄水苦荬或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "花香"
+      ],
+      "flavors": [
+        "brooklime",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
       ]
     }
   ],
