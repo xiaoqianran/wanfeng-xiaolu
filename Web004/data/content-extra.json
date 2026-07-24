@@ -2714,6 +2714,34 @@
       "emoji": "🥜",
       "kind": "风味",
       "seed": "walnutPot"
+    },
+    "pistachio": {
+      "id": "pistachio",
+      "name": "开心果",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "pistachioPot"
+    },
+    "chestnut": {
+      "id": "chestnut",
+      "name": "板栗",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "chestnutPot"
+    },
+    "cinnamon": {
+      "id": "cinnamon",
+      "name": "肉桂",
+      "emoji": "🪵",
+      "kind": "风味",
+      "seed": "cinnamonPot"
+    },
+    "clove": {
+      "id": "clove",
+      "name": "丁香",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "clovePot"
     }
   },
   "plants": {
@@ -5175,6 +5203,50 @@
       ],
       "harvest": "walnut",
       "days": 4
+    },
+    "pistachioPot": {
+      "id": "pistachioPot",
+      "name": "开心果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "pistachio",
+      "days": 4
+    },
+    "chestnutPot": {
+      "id": "chestnutPot",
+      "name": "板栗",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "chestnut",
+      "days": 4
+    },
+    "cinnamonPot": {
+      "id": "cinnamonPot",
+      "name": "肉桂",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🪵"
+      ],
+      "harvest": "cinnamon",
+      "days": 3
+    },
+    "clovePot": {
+      "id": "clovePot",
+      "name": "丁香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "clove",
+      "days": 3
     }
   },
   "cups": [
@@ -6518,6 +6590,46 @@
       "need": "walnut",
       "tags": [
         "果香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "pistachio",
+      "name": "开心果",
+      "emoji": "🟢",
+      "need": "pistachio",
+      "tags": [
+        "果香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "chestnut",
+      "name": "板栗",
+      "emoji": "🟤",
+      "need": "chestnut",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ]
+    },
+    {
+      "id": "cinnamon",
+      "name": "肉桂",
+      "emoji": "🪵",
+      "need": "cinnamon",
+      "tags": [
+        "温暖",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "clove",
+      "name": "丁香",
+      "emoji": "🟤",
+      "need": "clove",
+      "tags": [
+        "花香",
         "温暖"
       ]
     }
@@ -8508,6 +8620,66 @@
         "walnut",
         "honey",
         "almond",
+        "tea_leaf"
+      ]
+    },
+    {
+      "name": "剥开心果的店员",
+      "avatar": "🟢",
+      "wish": "开心果或蜜，温暖一点，装饰随意。",
+      "tags": [
+        "果香",
+        "温暖"
+      ],
+      "flavors": [
+        "pistachio",
+        "honey",
+        "almond",
+        "walnut"
+      ]
+    },
+    {
+      "name": "烤板栗的大叔",
+      "avatar": "🔥",
+      "wish": "板栗或蜜，甜蜜温暖，暖杯最好。",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ],
+      "flavors": [
+        "chestnut",
+        "honey",
+        "maple_syrup",
+        "cocoa"
+      ]
+    },
+    {
+      "name": "磨肉桂的厨子",
+      "avatar": "🪵",
+      "wish": "肉桂或蜜，温暖甜蜜，暖杯最好。",
+      "tags": [
+        "温暖",
+        "甜蜜"
+      ],
+      "flavors": [
+        "cinnamon",
+        "honey",
+        "cocoa",
+        "maple_syrup"
+      ]
+    },
+    {
+      "name": "点丁香的药师",
+      "avatar": "🧴",
+      "wish": "丁香或蜜，温暖花香，暖杯也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "clove",
+        "honey",
+        "cinnamon",
         "tea_leaf"
       ]
     }

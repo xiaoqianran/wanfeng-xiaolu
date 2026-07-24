@@ -310,6 +310,10 @@
       { flavor: "sesame", label: "芝麻" },
       { flavor: "saffron", label: "藏红花" },
       { flavor: "walnut", label: "核桃" },
+      { flavor: "pistachio", label: "开心果" },
+      { flavor: "chestnut", label: "板栗" },
+      { flavor: "cinnamon", label: "肉桂" },
+      { flavor: "clove", label: "丁香" },
     ],
     dusk: [
       { flavor: "lavender_bud", label: "薰衣草" },
@@ -903,6 +907,30 @@
     { id: "walnut_walker", name: "核桃树径旅人", desc: "走过核桃树径", check: function (s) {
       return !!(s._themesTouched && s._themesTouched.walnut_path);
     } },
+    { id: "pistachio_sill", name: "开心果窗台", desc: "发现开心果", check: function (s) {
+      return !!(s.discovered && s.discovered.pistachio);
+    } },
+    { id: "pistachio_walker", name: "开心果径旅人", desc: "走过开心果短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.pistachio_lane);
+    } },
+    { id: "chestnut_sill", name: "板栗窗台", desc: "发现板栗", check: function (s) {
+      return !!(s.discovered && s.discovered.chestnut);
+    } },
+    { id: "chestnut_walker", name: "板栗林旅人", desc: "走过板栗林径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.chestnut_grove);
+    } },
+    { id: "cinnamon_sill", name: "肉桂窗台", desc: "发现肉桂", check: function (s) {
+      return !!(s.discovered && s.discovered.cinnamon);
+    } },
+    { id: "cinnamon_walker", name: "肉桂径旅人", desc: "走过肉桂短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.cinnamon_path);
+    } },
+    { id: "clove_sill", name: "丁香窗台", desc: "发现丁香香料", check: function (s) {
+      return !!(s.discovered && s.discovered.clove);
+    } },
+    { id: "clove_walker", name: "丁香院旅人", desc: "走过丁香香院", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.clove_courtyard);
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "path_eighty", name: "八十路图鉴", desc: "切换过 80 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 80; } },
     { id: "path_sixty", name: "六十路图鉴", desc: "切换过 60 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 60; } },
@@ -1447,11 +1475,11 @@
       score += 0.5;
       notes.push("夏日清爽");
     }
-    if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel" || flavorDef.id === "cardamom" || flavorDef.id === "ginger" || flavorDef.id === "calendula" || flavorDef.id === "chrysanthemum" || flavorDef.id === "hibiscus" || flavorDef.id === "plum" || flavorDef.id === "grape" || flavorDef.id === "mulberry" || flavorDef.id === "persimmon" || flavorDef.id === "fig" || flavorDef.id === "longan" || flavorDef.id === "hawthorn" || flavorDef.id === "pear" || flavorDef.id === "apricot" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame")) {
+    if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel" || flavorDef.id === "cardamom" || flavorDef.id === "ginger" || flavorDef.id === "calendula" || flavorDef.id === "chrysanthemum" || flavorDef.id === "hibiscus" || flavorDef.id === "plum" || flavorDef.id === "grape" || flavorDef.id === "mulberry" || flavorDef.id === "persimmon" || flavorDef.id === "fig" || flavorDef.id === "longan" || flavorDef.id === "hawthorn" || flavorDef.id === "pear" || flavorDef.id === "apricot" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "chestnut" || flavorDef.id === "cinnamon" || flavorDef.id === "clove" || flavorDef.id === "pistachio")) {
       score += 0.5;
       notes.push("秋日温甜");
     }
-    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube" || flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron")) {
+    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube" || flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron" || flavorDef.id === "pistachio" || flavorDef.id === "chestnut" || flavorDef.id === "cinnamon" || flavorDef.id === "clove")) {
       score += 0.5;
       notes.push("冬日暖茶");
     }
@@ -1460,7 +1488,7 @@
       (cupDef && (cupDef.id === "mug" || cupDef.id === "warm" || cupDef.vibe === "温柔" || cupDef.vibe === "温暖")) ||
       (baseDef && (baseDef.id === "honey_water" || baseDef.id === "tea"))
     ) {
-      if (flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron") {
+      if (flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron" || flavorDef.id === "pistachio" || flavorDef.id === "chestnut" || flavorDef.id === "cinnamon" || flavorDef.id === "clove") {
         score += 0.25;
         notes.push("甜点一角");
       }
