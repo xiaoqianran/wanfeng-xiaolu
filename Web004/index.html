@@ -59,19 +59,26 @@
         <div class="home-copy">
           <h2 id="home-title">今天的晚风很温柔</h2>
           <p id="home-blurb">沿着小路散步收集灵感，在窗台照料小植物，再为路过的人调制一杯汽水吧。</p>
-          <div class="home-actions">
-            <button type="button" class="soft-btn" id="btn-next-season">🍃 换个季节散步</button>
-            <button type="button" class="soft-btn" data-go="journal">📓 今日手帐</button>
-            <button type="button" class="soft-btn" data-go="achievements">✨ 温柔成就</button>
-            <button type="button" class="soft-btn" data-go="bag"><img src="assets/ui/icon-bag.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 小竹篮</button>
-            <button type="button" class="soft-btn" data-go="settings"><img src="assets/ui/icon-settings.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 设置</button>
-            <button type="button" class="soft-btn" data-go="help"><img src="assets/ui/icon-help.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 怎么玩</button>
-            <button type="button" class="soft-btn" data-go="mail"><img src="assets/ui/icon-mail.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 信箱</button>
-            <button type="button" class="soft-btn" data-go="stats">📊 足迹</button>
+          <!-- 主行动：玩家一眼只看到「今天做这件事」 -->
+          <div class="home-actions home-actions--primary">
+            <button type="button" class="primary-btn" id="btn-home-cta" data-go="walk">🌅 今日：去小路走走</button>
             <button type="button" class="soft-btn" data-go="daily"><img src="assets/ui/icon-daily.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 今日小目标</button>
-            <button type="button" class="soft-btn" id="btn-demo-mode"><img src="assets/ui/icon-demo.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 演示模式</button>
           </div>
           <div id="daily-preview" class="accent-chip" hidden></div>
+          <details class="home-more">
+            <summary>更多（手帐 · 竹篮 · 信箱 · 设置…）</summary>
+            <div class="home-actions home-actions--more">
+              <button type="button" class="soft-btn" id="btn-next-season">🍃 换个季节散步</button>
+              <button type="button" class="soft-btn" data-go="journal">📓 今日手帐</button>
+              <button type="button" class="soft-btn" data-go="achievements">✨ 温柔成就</button>
+              <button type="button" class="soft-btn" data-go="bag"><img src="assets/ui/icon-bag.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 小竹篮</button>
+              <button type="button" class="soft-btn" data-go="settings"><img src="assets/ui/icon-settings.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 设置</button>
+              <button type="button" class="soft-btn" data-go="help"><img src="assets/ui/icon-help.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 怎么玩</button>
+              <button type="button" class="soft-btn" data-go="mail"><img src="assets/ui/icon-mail.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 信箱</button>
+              <button type="button" class="soft-btn" data-go="stats">📊 足迹</button>
+              <button type="button" class="soft-btn" id="btn-demo-mode"><img src="assets/ui/icon-demo.png" alt="" width="18" height="18" style="vertical-align:middle;border-radius:4px"/> 演示模式</button>
+            </div>
+          </details>
         </div>
         <div class="nav-cards">
           <button class="nav-card" data-go="walk">

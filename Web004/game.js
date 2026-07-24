@@ -313,6 +313,48 @@
       preview.hidden = false;
       preview.textContent = `今日小目标 ${doneN}/${total}`;
     }
+    updateHomeCta(ev);
+  }
+
+  /** One clear primary action on the home screen. */
+  function updateHomeCta(dailyEv) {
+    const btn = document.getElementById("btn-home-cta");
+    if (!btn) return;
+    const ev = dailyEv || (Core.ensureDailyGoals(state), Core.evaluateDailyGoals(state));
+    const incomplete = (ev.daily.goalIds || []).find((id) => !ev.daily.completed[id]);
+    const def = incomplete && Core.DAILY_GOAL_DEFS
+      ? Core.DAILY_GOAL_DEFS.find((d) => d.id === incomplete)
+      : null;
+    // Map goal id → screen
+    let go = "walk";
+    let label = "🌅 今日：去小路走走";
+    const id = incomplete || "";
+    if (/plant|garden|pot|water|harvest|绿|盆|浇/i.test(id + (def && def.name || "") + (def && def.desc || ""))) {
+      go = "garden";
+      label = "🪴 今日：照料窗台";
+    } else if (/shop|drink|serve|客|汽水|调/i.test(id + (def && def.name || "") + (def && def.desc || ""))) {
+      go = "shop";
+      label = "🍋 今日：做一杯汽水";
+    } else if (/walk|path|pick|拾|散步|小路/i.test(id + (def && def.name || "") + (def && def.desc || ""))) {
+      go = "walk";
+      label = "🌅 今日：去小路走走";
+    } else if (ev.allDone && !ev.daily.claimed) {
+      go = "daily";
+      label = "🎁 今日：领取温柔奖励";
+    } else if (ev.allDone && ev.daily.claimed) {
+      go = "walk";
+      label = "🍃 今日已完成 · 再去散散步";
+    }
+    // empty sill nudge
+    if (go === "walk" && (state.pots || []).every((p) => !p.plantId) && (state.bag.lemon || state.bag.mint || state.bag.berry)) {
+      // still prefer walk first day unless garden goal
+      if (!incomplete) {
+        go = "garden";
+        label = "🪴 今日：种下一盆小植物";
+      }
+    }
+    btn.dataset.go = go;
+    btn.textContent = label;
   }
 
   // expose for debugging / tests in browser
