@@ -3588,5 +3588,55 @@ test("goji bay oregano chive plantable 98 themes", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("parsley tarragon avocado date 102 themes path_hundred", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["parsley", "tarragon", "avocado", "date_fruit"];
+  const pots = ["parsleyPot", "tarragonPot", "avocadoPot", "dateFruitPot"];
+  ids.forEach((id, i) => {
+    assert.ok(j.items[id] && j.plants[pots[i]], id);
+  });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id, i) => {
+    s.bag[id] = 1;
+    assert.ok(core.plantSeed(s, i, id, cat).ok, id);
+  });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["parsley_path", "tarragon_lane", "avocado_grove", "date_path"].forEach((tid) => {
+    assert.ok(themes.some((th) => th.id === tid), tid);
+  });
+  assert.ok(themes.length >= 102);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "path_hundred"));
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  assert.ok(summerPool.includes("parsley") && summerPool.includes("avocado"));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  assert.ok(winterPool.includes("tarragon") && winterPool.includes("date_fruit"));
+  const score = core.scoreDrink(
+    { name: "煮椰枣的阿婆", tags: ["甜蜜", "温暖"], flavors: ["date_fruit"] },
+    { cup: "mug", base: "honey_water", flavor: "date_fruit", topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, season: "winter" }
+  );
+  assert.ok(score.notes.some((n) => n === "甜点一角"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("avocado_grove") && game.includes("date_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "欧芹汽泡"));
+  assert.ok(recipes.some((r) => r.name === "龙蒿暖茶"));
+  assert.ok(recipes.some((r) => r.name === "牛油果暖蜜"));
+  assert.ok(recipes.some((r) => r.name === "椰枣暖蜜"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "date_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("欧芹短径") && man.includes("椰枣短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("椰枣")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_date_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
