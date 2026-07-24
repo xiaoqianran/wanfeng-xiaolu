@@ -3498,5 +3498,44 @@ test("melon papaya plantables 92 themes path_ninety", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("rambutan jackfruit plantable ambient banks 94 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.rambutan && j.plants.rambutanPot);
+  assert.ok(j.items.jackfruit && j.plants.jackfruitPot);
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  s.bag.rambutan = 1;
+  s.bag.jackfruit = 1;
+  assert.ok(core.plantSeed(s, 0, "rambutan", cat).ok);
+  assert.ok(core.plantSeed(s, 1, "jackfruit", cat).ok);
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "rambutan_lane"));
+  assert.ok(themes.some((th) => th.id === "jackfruit_grove"));
+  assert.ok(themes.length >= 94);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  assert.ok(summerPool.includes("rambutan") && summerPool.includes("jackfruit"));
+  const walk = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "walk-config.json"), "utf8"));
+  assert.ok(walk.ambient.length >= 48);
+  assert.ok(walk.ambient.some((a) => a.includes("瓜田") || a.includes("竹篮")));
+  const garden = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "garden-config.json"), "utf8"));
+  assert.ok(garden.messages.length >= 38);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("rambutan_lane") && game.includes("jackfruit_grove"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "红毛丹汽泡"));
+  assert.ok(recipes.some((r) => r.name === "菠萝蜜暖蜜"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "rambutan_walker"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "jackfruit_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("红毛丹小径") && man.includes("菠萝蜜树径"));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_jackfruit_grove" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
