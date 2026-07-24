@@ -3062,5 +3062,41 @@ test("pear jujube plantable setFavoritePathTheme 66 themes", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("grapefruit tangerine plantable 68 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.grapefruit && j.plants.grapefruitPot);
+  assert.ok(j.items.tangerine && j.plants.tangerinePot);
+  assert.ok(j.flavors.some((f) => f.id === "grapefruit"));
+  assert.ok(j.flavors.some((f) => f.id === "tangerine"));
+  assert.ok(j.customers.some((c) => c.name === "榨西柚的店员"));
+  assert.ok(j.customers.some((c) => c.name === "剥蜜橘的小孩"));
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  s.bag.grapefruit = 1;
+  s.bag.tangerine = 1;
+  assert.ok(core.plantSeed(s, 0, "grapefruit", cat).ok);
+  assert.ok(core.plantSeed(s, 1, "tangerine", cat).ok);
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "grapefruit_terrace"));
+  assert.ok(themes.some((th) => th.id === "tangerine_steps"));
+  assert.ok(themes.length >= 68);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("grapefruit_terrace") && game.includes("tangerine_steps"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "西柚汽泡"));
+  assert.ok(recipes.some((r) => r.name === "蜜橘暖蜜"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "grapefruit_walker"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "tangerine_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("西柚露台") && man.includes("蜜橘石阶"));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_grapefruit_terrace" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
