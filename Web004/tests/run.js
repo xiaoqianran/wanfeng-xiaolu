@@ -6101,5 +6101,85 @@ test("vanilla_bean tonka_bean lavender_sugar rose_water orange_flower_water almo
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("omija yuja ssanghwa maesil jujube_tea ginger_tea_kr persimmon_leaf pine_flower 515 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["omija","yuja","ssanghwa","maesil","jujube_tea","ginger_tea_kr","persimmon_leaf","pine_flower"];
+  const pots = ["omijaPot","yujaPot","ssanghwaPot","maesilPot","jujube_teaPot","ginger_tea_krPot","persimmon_leafPot","pine_flowerPot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["omija_path","yuja_path","ssanghwa_path","maesil_path","jujube_tea_path","ginger_tea_kr_path","persimmon_leaf_path","pine_flower_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 515);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["omija","yuja","ssanghwa","jujube_tea","ginger_tea_kr"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["maesil","persimmon_leaf","pine_flower"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("omija_path") && game.includes("pine_flower_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["五味子韩暖蜜","柚子茶果暖蜜","双和茶料暖蜜","梅实暖蜜","大枣茶暖蜜","韩式姜茶暖蜜","柿叶暖蜜","松花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("五味子韩短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("五味子韩")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "omija_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("tulsi neem_flower curry_blossom ajwain_leaf fenugreek_leaf moringa gotu_kola brahmi 523 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["tulsi","neem_flower","curry_blossom","ajwain_leaf","fenugreek_leaf","moringa","gotu_kola","brahmi"];
+  const pots = ["tulsiPot","neem_flowerPot","curry_blossomPot","ajwain_leafPot","fenugreek_leafPot","moringaPot","gotu_kolaPot","brahmiPot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["tulsi_path","neem_flower_path","curry_blossom_path","ajwain_leaf_path","fenugreek_leaf_path","moringa_path","gotu_kola_path","brahmi_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 523);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["tulsi","neem_flower","curry_blossom","ajwain_leaf","fenugreek_leaf","moringa","gotu_kola","brahmi"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("tulsi_path") && game.includes("brahmi_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["圣罗勒印暖蜜","苦楝花暖蜜","咖喱花暖蜜","香旱芹叶暖蜜","胡芦巴叶暖蜜","辣木暖蜜","积雪草暖蜜","假马齿苋暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("圣罗勒印短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("圣罗勒印")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "tulsi_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
