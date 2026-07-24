@@ -1657,5 +1657,49 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_chicory",
+    "title": "菊苣两枝",
+    "body": "泡菊苣的旅人来信：新摘的。给你两枝，别放太久。",
+    "effect": {
+      "items": {
+        "chicory": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_dandelion",
+    "title": "蒲公英两朵",
+    "body": "采蒲公英的女孩来信：刚摘的。给你两朵，别放太久。",
+    "effect": {
+      "items": {
+        "dandelion": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_nettle",
+    "title": "荨麻两把",
+    "body": "煮荨麻的厨娘来信：新摘的，戴手套。给你两把，别放太久。",
+    "effect": {
+      "items": {
+        "nettle": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_yarrow",
+    "title": "蓍草一小束",
+    "body": "采蓍草的药师来信：新摘的。给你一小束，别放太久。",
+    "effect": {
+      "items": {
+        "yarrow": 2
+      },
+      "coins": 2
+    }
   }
 ]
