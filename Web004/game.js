@@ -3312,6 +3312,14 @@ function renderJournal() {
           ? "钉住的配方：" + state.pinnedRecipeId + "（尚未解锁）"
           : "钉住的配方：无";
     }
+    const pinFlEl = document.getElementById("pinned-flavor-status");
+    if (pinFlEl) {
+      const fid = Core.getPinnedFlavor ? Core.getPinnedFlavor(state) : state.pinnedFlavorId;
+      const fl = fid && FLAVORS && FLAVORS.find ? FLAVORS.find((f) => f.id === fid) : null;
+      pinFlEl.textContent = fid
+        ? "调味架：" + ((fl && fl.name) || fid) + " ★"
+        : "调味架：无";
+    }
     updateDrinkPreview();
     renderShopShelf();
   }
@@ -3728,6 +3736,49 @@ function renderJournal() {
       renderShop();
       toast("📌 已钉住：" + (match ? match.name : id));
       sfx("pin");
+    });
+  }
+
+  const btnPinFlavor = document.getElementById("btn-pin-flavor");
+  if (btnPinFlavor) {
+    btnPinFlavor.addEventListener("click", () => {
+      const fid = state.craft && state.craft.flavor;
+      if (!fid) {
+        toast("先选一个风味");
+        return;
+      }
+      if (!Core.pinFlavor) {
+        toast("调味架还没装好");
+        return;
+      }
+      const r = Core.pinFlavor(state, fid);
+      if (!r.ok) {
+        toast("没能钉住风味");
+        return;
+      }
+      checkAchievements();
+      save();
+      renderShop();
+      const fl = FLAVORS && FLAVORS.find ? FLAVORS.find((f) => f.id === fid) : null;
+      toast("🌿 调味架：" + ((fl && fl.name) || fid));
+      sfx("pin");
+    });
+  }
+  const btnLoadPinnedFlavor = document.getElementById("btn-load-pinned-flavor");
+  if (btnLoadPinnedFlavor) {
+    btnLoadPinnedFlavor.addEventListener("click", () => {
+      const fid = Core.getPinnedFlavor ? Core.getPinnedFlavor(state) : state.pinnedFlavorId;
+      if (!fid) {
+        toast("调味架还是空的");
+        return;
+      }
+      if (!state.craft) state.craft = {};
+      state.craft.flavor = fid;
+      save();
+      renderShop();
+      const fl = FLAVORS && FLAVORS.find ? FLAVORS.find((f) => f.id === fid) : null;
+      toast("🔁 已填入钉住的风味：" + ((fl && fl.name) || fid));
+      sfx("ui");
     });
   }
 

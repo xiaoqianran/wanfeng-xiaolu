@@ -1087,6 +1087,7 @@
     } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "path_ninety", name: "九十路图鉴", desc: "切换过 90 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 90; } },
+    { id: "flavor_pin", name: "调味架钉子", desc: "钉过 1 次风味", check: function (s) { return (s.stats && s.stats.flavorPins || 0) >= 1; } },
     { id: "path_hundred", name: "百路图鉴", desc: "切换过 100 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 100; } },
     { id: "path_eighty", name: "八十路图鉴", desc: "切换过 80 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 80; } },
     { id: "path_sixty", name: "六十路图鉴", desc: "切换过 60 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 60; } },
@@ -1649,6 +1650,11 @@
         notes.push("甜点一角");
       }
     }
+    // soft pin-shelf: using pinned flavor feels familiar
+    if (catalogs.pinnedFlavorId && flavorDef.id === catalogs.pinnedFlavorId) {
+      score += 0.35;
+      notes.push("调味架熟手");
+    }
     if (season === "dusk" && topDef && topDef.id !== "none") {
       score += 0.25;
       notes.push("黄昏点缀");
@@ -1726,6 +1732,7 @@
     catalogs = Object.assign({}, catalogs);
     if (!catalogs.dailySpecial) catalogs.dailySpecial = getDailySpecial(state);
     if (!catalogs.season) catalogs.season = state.season;
+    if (catalogs.pinnedFlavorId == null && state.pinnedFlavorId) catalogs.pinnedFlavorId = state.pinnedFlavorId;
     var result = scoreDrink(customer, craft, catalogs);
     // Soft repeat-order memory for known guests
     var cname = customer && customer.name ? customer.name : null;
@@ -1838,6 +1845,22 @@
     state.stats.pathFavs = (state.stats.pathFavs || 0) + 1;
     appendJournal(state, "把「" + themeId + "」记成最想再走一遍的小路。");
     return { ok: true, themeId: themeId };
+  }
+
+  
+  /** Soft pin a flavor id for shop craft recall (no combat) */
+  function pinFlavor(state, flavorId) {
+    flavorId = String(flavorId || "").trim();
+    if (!flavorId) return { ok: false, reason: "empty" };
+    state.pinnedFlavorId = flavorId;
+    if (!state.stats) state.stats = {};
+    state.stats.flavorPins = (state.stats.flavorPins || 0) + 1;
+    appendJournal(state, "把「" + flavorId + "」钉在小店调味架上。");
+    return { ok: true, flavorId: flavorId };
+  }
+
+  function getPinnedFlavor(state) {
+    return state.pinnedFlavorId || null;
   }
 
   /** Soft end-of-day shop close: journal a calm summary (no fail state) */
@@ -2168,6 +2191,8 @@ function recallGuestCraft(state, guestName) {
     closeShopDay: closeShopDay,
     setFavoritePlant: setFavoritePlant,
     setFavoritePathTheme: setFavoritePathTheme,
+    pinFlavor: pinFlavor,
+    getPinnedFlavor: getPinnedFlavor,
     setGuestNote: setGuestNote,
     claimFirstWalkBonus: claimFirstWalkBonus,
     upgradeWateringCan: upgradeWateringCan,
