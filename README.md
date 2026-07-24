@@ -12,6 +12,11 @@ Web004/index.html
 
 （相对路径资源，支持 `file://`）
 
+在线试玩（GitHub Pages）：
+
+https://xiaoqianran.github.io/wanfeng-xiaolu/
+
+
 ## 主要功能
 - 小路主题：枫径 / 河畔 / 竹影 / 星光 / 草甸 / 码头
 - 今日小目标（可领奖与日礼）、演示模式、信箱、足迹统计
