@@ -1041,5 +1041,27 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_lemon",
+    "title": "柠檬两颗",
+    "body": "切柠檬片的店员来信：刚摘的。给你两颗，别放太久。",
+    "effect": {
+      "items": {
+        "lemon": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lime",
+    "title": "青柠两颗",
+    "body": "挤青柠的调酒师来信：刚摘的。给你两颗，别放太久。",
+    "effect": {
+      "items": {
+        "lime": 2
+      },
+      "coins": 2
+    }
   }
 ]
