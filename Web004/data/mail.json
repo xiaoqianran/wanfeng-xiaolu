@@ -7960,5 +7960,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_aster_novae",
+    "title": "新英格兰紫菀两份",
+    "body": "采新英格兰紫菀的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "aster_novae": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_aster_novi",
+    "title": "纽约紫菀两份",
+    "body": "采纽约紫菀的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "aster_novi": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_michaelmas",
+    "title": "米迦勒紫菀两份",
+    "body": "采米迦勒紫菀的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "michaelmas": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_goldenrod_fresh",
+    "title": "鲜一枝黄两份",
+    "body": "采鲜一枝黄的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "goldenrod_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_solidago",
+    "title": "加拿大一枝黄两份",
+    "body": "采加拿大一枝黄的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "solidago": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_boltonia",
+    "title": "千星菊两份",
+    "body": "采千星菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "boltonia": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_erigeron",
+    "title": "飞蓬两份",
+    "body": "采飞蓬的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "erigeron": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fleabane",
+    "title": "春飞蓬两份",
+    "body": "采春飞蓬的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fleabane": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_daisy_oxeye",
+    "title": "滨菊鲜两份",
+    "body": "采滨菊鲜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "daisy_oxeye": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_daisy_english",
+    "title": "英国雏菊两份",
+    "body": "采英国雏菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "daisy_english": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_daisy_shasta",
+    "title": "滨菊大两份",
+    "body": "采滨菊大的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "daisy_shasta": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_chrysanthemum_ind_fresh",
+    "title": "鲜印菊两份",
+    "body": "采鲜印菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "chrysanthemum_ind_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_chrysanthemum_mor",
+    "title": "杭白菊两份",
+    "body": "采杭白菊的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "chrysanthemum_mor": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_chrysanthemum_yej",
+    "title": "野菊两份",
+    "body": "采野菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "chrysanthemum_yej": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tanacetum",
+    "title": "菊蒿两份",
+    "body": "采菊蒿的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tanacetum": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_pyrethrum",
+    "title": "除虫菊两份",
+    "body": "采除虫菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "pyrethrum": 2
+      },
+      "coins": 2
+    }
   }
 ]

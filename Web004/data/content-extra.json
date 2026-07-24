@@ -7047,6 +7047,118 @@
       "emoji": "🟡",
       "kind": "风味",
       "seed": "compass_plantPot"
+    },
+    "aster_novae": {
+      "id": "aster_novae",
+      "name": "新英格兰紫菀",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "aster_novaePot"
+    },
+    "aster_novi": {
+      "id": "aster_novi",
+      "name": "纽约紫菀",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "aster_noviPot"
+    },
+    "michaelmas": {
+      "id": "michaelmas",
+      "name": "米迦勒紫菀",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "michaelmasPot"
+    },
+    "goldenrod_fresh": {
+      "id": "goldenrod_fresh",
+      "name": "鲜一枝黄",
+      "emoji": "✨",
+      "kind": "风味",
+      "seed": "goldenrod_freshPot"
+    },
+    "solidago": {
+      "id": "solidago",
+      "name": "加拿大一枝黄",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "solidagoPot"
+    },
+    "boltonia": {
+      "id": "boltonia",
+      "name": "千星菊",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "boltoniaPot"
+    },
+    "erigeron": {
+      "id": "erigeron",
+      "name": "飞蓬",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "erigeronPot"
+    },
+    "fleabane": {
+      "id": "fleabane",
+      "name": "春飞蓬",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "fleabanePot"
+    },
+    "daisy_oxeye": {
+      "id": "daisy_oxeye",
+      "name": "滨菊鲜",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "daisy_oxeyePot"
+    },
+    "daisy_english": {
+      "id": "daisy_english",
+      "name": "英国雏菊",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "daisy_englishPot"
+    },
+    "daisy_shasta": {
+      "id": "daisy_shasta",
+      "name": "滨菊大",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "daisy_shastaPot"
+    },
+    "chrysanthemum_ind_fresh": {
+      "id": "chrysanthemum_ind_fresh",
+      "name": "鲜印菊",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "chrysanthemum_ind_freshPot"
+    },
+    "chrysanthemum_mor": {
+      "id": "chrysanthemum_mor",
+      "name": "杭白菊",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "chrysanthemum_morPot"
+    },
+    "chrysanthemum_yej": {
+      "id": "chrysanthemum_yej",
+      "name": "野菊",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "chrysanthemum_yejPot"
+    },
+    "tanacetum": {
+      "id": "tanacetum",
+      "name": "菊蒿",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "tanacetumPot"
+    },
+    "pyrethrum": {
+      "id": "pyrethrum",
+      "name": "除虫菊",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "pyrethrumPot"
     }
   },
   "plants": {
@@ -16317,6 +16429,182 @@
       ],
       "harvest": "compass_plant",
       "days": 3
+    },
+    "aster_novaePot": {
+      "id": "aster_novaePot",
+      "name": "新英格兰紫菀",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "aster_novae",
+      "days": 3
+    },
+    "aster_noviPot": {
+      "id": "aster_noviPot",
+      "name": "纽约紫菀",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "aster_novi",
+      "days": 3
+    },
+    "michaelmasPot": {
+      "id": "michaelmasPot",
+      "name": "米迦勒紫菀",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "michaelmas",
+      "days": 3
+    },
+    "goldenrod_freshPot": {
+      "id": "goldenrod_freshPot",
+      "name": "鲜一枝黄",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "✨"
+      ],
+      "harvest": "goldenrod_fresh",
+      "days": 3
+    },
+    "solidagoPot": {
+      "id": "solidagoPot",
+      "name": "加拿大一枝黄",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "solidago",
+      "days": 3
+    },
+    "boltoniaPot": {
+      "id": "boltoniaPot",
+      "name": "千星菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "boltonia",
+      "days": 3
+    },
+    "erigeronPot": {
+      "id": "erigeronPot",
+      "name": "飞蓬",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "erigeron",
+      "days": 3
+    },
+    "fleabanePot": {
+      "id": "fleabanePot",
+      "name": "春飞蓬",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "fleabane",
+      "days": 3
+    },
+    "daisy_oxeyePot": {
+      "id": "daisy_oxeyePot",
+      "name": "滨菊鲜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "daisy_oxeye",
+      "days": 3
+    },
+    "daisy_englishPot": {
+      "id": "daisy_englishPot",
+      "name": "英国雏菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "daisy_english",
+      "days": 3
+    },
+    "daisy_shastaPot": {
+      "id": "daisy_shastaPot",
+      "name": "滨菊大",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "daisy_shasta",
+      "days": 3
+    },
+    "chrysanthemum_ind_freshPot": {
+      "id": "chrysanthemum_ind_freshPot",
+      "name": "鲜印菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "chrysanthemum_ind_fresh",
+      "days": 3
+    },
+    "chrysanthemum_morPot": {
+      "id": "chrysanthemum_morPot",
+      "name": "杭白菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "chrysanthemum_mor",
+      "days": 3
+    },
+    "chrysanthemum_yejPot": {
+      "id": "chrysanthemum_yejPot",
+      "name": "野菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "chrysanthemum_yej",
+      "days": 3
+    },
+    "tanacetumPot": {
+      "id": "tanacetumPot",
+      "name": "菊蒿",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "tanacetum",
+      "days": 3
+    },
+    "pyrethrumPot": {
+      "id": "pyrethrumPot",
+      "name": "除虫菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "pyrethrum",
+      "days": 3
     }
   },
   "cups": [
@@ -23851,6 +24139,166 @@
       "tags": [
         "花香",
         "草本"
+      ]
+    },
+    {
+      "id": "aster_novae",
+      "name": "新英格兰紫菀",
+      "emoji": "💜",
+      "need": "aster_novae",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "aster_novi",
+      "name": "纽约紫菀",
+      "emoji": "💙",
+      "need": "aster_novi",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "michaelmas",
+      "name": "米迦勒紫菀",
+      "emoji": "💜",
+      "need": "michaelmas",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "goldenrod_fresh",
+      "name": "鲜一枝黄",
+      "emoji": "✨",
+      "need": "goldenrod_fresh",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "solidago",
+      "name": "加拿大一枝黄",
+      "emoji": "🟡",
+      "need": "solidago",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "boltonia",
+      "name": "千星菊",
+      "emoji": "⚪",
+      "need": "boltonia",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "erigeron",
+      "name": "飞蓬",
+      "emoji": "🤍",
+      "need": "erigeron",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "fleabane",
+      "name": "春飞蓬",
+      "emoji": "💗",
+      "need": "fleabane",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "daisy_oxeye",
+      "name": "滨菊鲜",
+      "emoji": "⚪",
+      "need": "daisy_oxeye",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "daisy_english",
+      "name": "英国雏菊",
+      "emoji": "💗",
+      "need": "daisy_english",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "daisy_shasta",
+      "name": "滨菊大",
+      "emoji": "⚪",
+      "need": "daisy_shasta",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "chrysanthemum_ind_fresh",
+      "name": "鲜印菊",
+      "emoji": "💛",
+      "need": "chrysanthemum_ind_fresh",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "chrysanthemum_mor",
+      "name": "杭白菊",
+      "emoji": "🤍",
+      "need": "chrysanthemum_mor",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "chrysanthemum_yej",
+      "name": "野菊",
+      "emoji": "🟡",
+      "need": "chrysanthemum_yej",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "tanacetum",
+      "name": "菊蒿",
+      "emoji": "🟡",
+      "need": "tanacetum",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "pyrethrum",
+      "name": "除虫菊",
+      "emoji": "🤍",
+      "need": "pyrethrum",
+      "tags": [
+        "花香",
+        "清爽"
       ]
     }
   ],
@@ -35129,6 +35577,246 @@
         "honey",
         "tea_leaf",
         "lavender_bud"
+      ]
+    },
+    {
+      "name": "采新英格兰紫菀的旅人",
+      "avatar": "💜",
+      "wish": "新英格兰紫菀或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "aster_novae",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采纽约紫菀的药师",
+      "avatar": "💙",
+      "wish": "纽约紫菀或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "aster_novi",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采米迦勒紫菀的旅人",
+      "avatar": "💜",
+      "wish": "米迦勒紫菀或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "michaelmas",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜一枝黄的药师",
+      "avatar": "✨",
+      "wish": "鲜一枝黄或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "goldenrod_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采加拿大一枝黄的旅人",
+      "avatar": "🟡",
+      "wish": "加拿大一枝黄或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "solidago",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采千星菊的药师",
+      "avatar": "⚪",
+      "wish": "千星菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "boltonia",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采飞蓬的旅人",
+      "avatar": "🤍",
+      "wish": "飞蓬或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "erigeron",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采春飞蓬的药师",
+      "avatar": "💗",
+      "wish": "春飞蓬或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "fleabane",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采滨菊鲜的旅人",
+      "avatar": "⚪",
+      "wish": "滨菊鲜或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "daisy_oxeye",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采英国雏菊的药师",
+      "avatar": "💗",
+      "wish": "英国雏菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "daisy_english",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采滨菊大的旅人",
+      "avatar": "⚪",
+      "wish": "滨菊大或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "daisy_shasta",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采鲜印菊的药师",
+      "avatar": "💛",
+      "wish": "鲜印菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "chrysanthemum_ind_fresh",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采杭白菊的旅人",
+      "avatar": "🤍",
+      "wish": "杭白菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "chrysanthemum_mor",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采野菊的药师",
+      "avatar": "🟡",
+      "wish": "野菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "chrysanthemum_yej",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采菊蒿的旅人",
+      "avatar": "🟡",
+      "wish": "菊蒿或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "tanacetum",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采除虫菊的药师",
+      "avatar": "🤍",
+      "wish": "除虫菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "pyrethrum",
+        "honey",
+        "tea_leaf",
+        "mint"
       ]
     }
   ],
