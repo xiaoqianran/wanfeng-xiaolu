@@ -5479,6 +5479,118 @@
       "emoji": "🤍",
       "kind": "风味",
       "seed": "coconut_flowerPot"
+    },
+    "bergamot_leaf": {
+      "id": "bergamot_leaf",
+      "name": "佛手柑叶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "bergamot_leafPot"
+    },
+    "citron": {
+      "id": "citron",
+      "name": "香橼",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "citronPot"
+    },
+    "bergamot_peel": {
+      "id": "bergamot_peel",
+      "name": "佛手柑皮",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "bergamot_peelPot"
+    },
+    "neroli": {
+      "id": "neroli",
+      "name": "橙花精",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "neroliPot"
+    },
+    "petitgrain": {
+      "id": "petitgrain",
+      "name": "苦橙叶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "petitgrainPot"
+    },
+    "immortelle": {
+      "id": "immortelle",
+      "name": "蜡菊",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "immortellePot"
+    },
+    "helichrysum": {
+      "id": "helichrysum",
+      "name": "蜡菊花",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "helichrysumPot"
+    },
+    "cistus": {
+      "id": "cistus",
+      "name": "岩蔷薇",
+      "emoji": "🩷",
+      "kind": "风味",
+      "seed": "cistusPot"
+    },
+    "spruce_beer": {
+      "id": "spruce_beer",
+      "name": "云杉芽酒香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "spruce_beerPot"
+    },
+    "labrador_tea": {
+      "id": "labrador_tea",
+      "name": "拉布拉多茶",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "labrador_teaPot"
+    },
+    "fireweed": {
+      "id": "fireweed",
+      "name": "火草",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "fireweedPot"
+    },
+    "fireweed_honey": {
+      "id": "fireweed_honey",
+      "name": "火草蜜",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "fireweed_honeyPot"
+    },
+    "arctic_willow": {
+      "id": "arctic_willow",
+      "name": "北极柳",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "arctic_willowPot"
+    },
+    "crowberry": {
+      "id": "crowberry",
+      "name": "岩高兰",
+      "emoji": "⚫",
+      "kind": "风味",
+      "seed": "crowberryPot"
+    },
+    "bearberry": {
+      "id": "bearberry",
+      "name": "熊果",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "bearberryPot"
+    },
+    "labrador_violet": {
+      "id": "labrador_violet",
+      "name": "拉布拉多堇",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "labrador_violetPot"
     }
   },
   "plants": {
@@ -12285,6 +12397,182 @@
       ],
       "harvest": "coconut_flower",
       "days": 3
+    },
+    "bergamot_leafPot": {
+      "id": "bergamot_leafPot",
+      "name": "佛手柑叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "bergamot_leaf",
+      "days": 3
+    },
+    "citronPot": {
+      "id": "citronPot",
+      "name": "香橼",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "citron",
+      "days": 3
+    },
+    "bergamot_peelPot": {
+      "id": "bergamot_peelPot",
+      "name": "佛手柑皮",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "bergamot_peel",
+      "days": 3
+    },
+    "neroliPot": {
+      "id": "neroliPot",
+      "name": "橙花精",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "neroli",
+      "days": 3
+    },
+    "petitgrainPot": {
+      "id": "petitgrainPot",
+      "name": "苦橙叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "petitgrain",
+      "days": 3
+    },
+    "immortellePot": {
+      "id": "immortellePot",
+      "name": "蜡菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "immortelle",
+      "days": 3
+    },
+    "helichrysumPot": {
+      "id": "helichrysumPot",
+      "name": "蜡菊花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "helichrysum",
+      "days": 3
+    },
+    "cistusPot": {
+      "id": "cistusPot",
+      "name": "岩蔷薇",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🩷"
+      ],
+      "harvest": "cistus",
+      "days": 3
+    },
+    "spruce_beerPot": {
+      "id": "spruce_beerPot",
+      "name": "云杉芽酒香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "spruce_beer",
+      "days": 3
+    },
+    "labrador_teaPot": {
+      "id": "labrador_teaPot",
+      "name": "拉布拉多茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "labrador_tea",
+      "days": 3
+    },
+    "fireweedPot": {
+      "id": "fireweedPot",
+      "name": "火草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "fireweed",
+      "days": 3
+    },
+    "fireweed_honeyPot": {
+      "id": "fireweed_honeyPot",
+      "name": "火草蜜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "fireweed_honey",
+      "days": 3
+    },
+    "arctic_willowPot": {
+      "id": "arctic_willowPot",
+      "name": "北极柳",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "arctic_willow",
+      "days": 3
+    },
+    "crowberryPot": {
+      "id": "crowberryPot",
+      "name": "岩高兰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚫"
+      ],
+      "harvest": "crowberry",
+      "days": 3
+    },
+    "bearberryPot": {
+      "id": "bearberryPot",
+      "name": "熊果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "bearberry",
+      "days": 3
+    },
+    "labrador_violetPot": {
+      "id": "labrador_violetPot",
+      "name": "拉布拉多堇",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "labrador_violet",
+      "days": 3
     }
   },
   "cups": [
@@ -17579,6 +17867,166 @@
       "tags": [
         "花香",
         "甜蜜"
+      ]
+    },
+    {
+      "id": "bergamot_leaf",
+      "name": "佛手柑叶",
+      "emoji": "🟢",
+      "need": "bergamot_leaf",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "citron",
+      "name": "香橼",
+      "emoji": "🟡",
+      "need": "citron",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "bergamot_peel",
+      "name": "佛手柑皮",
+      "emoji": "🟢",
+      "need": "bergamot_peel",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "neroli",
+      "name": "橙花精",
+      "emoji": "🤍",
+      "need": "neroli",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "petitgrain",
+      "name": "苦橙叶",
+      "emoji": "🟢",
+      "need": "petitgrain",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "immortelle",
+      "name": "蜡菊",
+      "emoji": "💛",
+      "need": "immortelle",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "helichrysum",
+      "name": "蜡菊花",
+      "emoji": "🧡",
+      "need": "helichrysum",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "cistus",
+      "name": "岩蔷薇",
+      "emoji": "🩷",
+      "need": "cistus",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "spruce_beer",
+      "name": "云杉芽酒香",
+      "emoji": "🟢",
+      "need": "spruce_beer",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "labrador_tea",
+      "name": "拉布拉多茶",
+      "emoji": "⚪",
+      "need": "labrador_tea",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "fireweed",
+      "name": "火草",
+      "emoji": "💗",
+      "need": "fireweed",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "fireweed_honey",
+      "name": "火草蜜",
+      "emoji": "💗",
+      "need": "fireweed_honey",
+      "tags": [
+        "甜蜜",
+        "花香"
+      ]
+    },
+    {
+      "id": "arctic_willow",
+      "name": "北极柳",
+      "emoji": "🟢",
+      "need": "arctic_willow",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "crowberry",
+      "name": "岩高兰",
+      "emoji": "⚫",
+      "need": "crowberry",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "bearberry",
+      "name": "熊果",
+      "emoji": "🔴",
+      "need": "bearberry",
+      "tags": [
+        "果香",
+        "草本"
+      ]
+    },
+    {
+      "id": "labrador_violet",
+      "name": "拉布拉多堇",
+      "emoji": "💜",
+      "need": "labrador_violet",
+      "tags": [
+        "花香",
+        "清爽"
       ]
     }
   ],
@@ -25497,6 +25945,246 @@
         "honey",
         "tea_leaf",
         "lavender_bud"
+      ]
+    },
+    {
+      "name": "采佛手柑叶的旅人",
+      "avatar": "🟢",
+      "wish": "佛手柑叶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "bergamot_leaf",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采香橼的药师",
+      "avatar": "🟡",
+      "wish": "香橼或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "citron",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "晒佛手柑皮的旅人",
+      "avatar": "🟢",
+      "wish": "佛手柑皮或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "bergamot_peel",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "收橙花精的药师",
+      "avatar": "🤍",
+      "wish": "橙花精或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "neroli",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采苦橙叶的旅人",
+      "avatar": "🟢",
+      "wish": "苦橙叶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "petitgrain",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采蜡菊的药师",
+      "avatar": "💛",
+      "wish": "蜡菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "immortelle",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采蜡菊花的旅人",
+      "avatar": "🧡",
+      "wish": "蜡菊花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "helichrysum",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采岩蔷薇的药师",
+      "avatar": "🩷",
+      "wish": "岩蔷薇或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "cistus",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "泡云杉芽酒香的旅人",
+      "avatar": "🟢",
+      "wish": "云杉芽酒香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "spruce_beer",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "泡拉布拉多茶的药师",
+      "avatar": "⚪",
+      "wish": "拉布拉多茶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "labrador_tea",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采火草的旅人",
+      "avatar": "💗",
+      "wish": "火草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "fireweed",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "收火草蜜的药师",
+      "avatar": "💗",
+      "wish": "火草蜜或蜜，慢慢喝也好。",
+      "tags": [
+        "甜蜜",
+        "花香"
+      ],
+      "flavors": [
+        "fireweed_honey",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采北极柳的旅人",
+      "avatar": "🟢",
+      "wish": "北极柳或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "arctic_willow",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采岩高兰的药师",
+      "avatar": "⚫",
+      "wish": "岩高兰或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "crowberry",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采熊果的旅人",
+      "avatar": "🔴",
+      "wish": "熊果或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "草本"
+      ],
+      "flavors": [
+        "bearberry",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采拉布拉多堇的药师",
+      "avatar": "💜",
+      "wish": "拉布拉多堇或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "labrador_violet",
+        "honey",
+        "tea_leaf",
+        "mint"
       ]
     }
   ],

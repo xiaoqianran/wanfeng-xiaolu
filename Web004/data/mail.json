@@ -5496,5 +5496,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_bergamot_leaf",
+    "title": "佛手柑叶两份",
+    "body": "采佛手柑叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bergamot_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_citron",
+    "title": "香橼两份",
+    "body": "采香橼的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "citron": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bergamot_peel",
+    "title": "佛手柑皮两份",
+    "body": "晒佛手柑皮的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bergamot_peel": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_neroli",
+    "title": "橙花精两份",
+    "body": "收橙花精的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "neroli": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_petitgrain",
+    "title": "苦橙叶两份",
+    "body": "采苦橙叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "petitgrain": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_immortelle",
+    "title": "蜡菊两份",
+    "body": "采蜡菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "immortelle": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_helichrysum",
+    "title": "蜡菊花两份",
+    "body": "采蜡菊花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "helichrysum": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cistus",
+    "title": "岩蔷薇两份",
+    "body": "采岩蔷薇的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cistus": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_spruce_beer",
+    "title": "云杉芽酒香两份",
+    "body": "泡云杉芽酒香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "spruce_beer": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_labrador_tea",
+    "title": "拉布拉多茶两份",
+    "body": "泡拉布拉多茶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "labrador_tea": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fireweed",
+    "title": "火草两份",
+    "body": "采火草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fireweed": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fireweed_honey",
+    "title": "火草蜜两份",
+    "body": "收火草蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fireweed_honey": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_arctic_willow",
+    "title": "北极柳两份",
+    "body": "采北极柳的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "arctic_willow": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_crowberry",
+    "title": "岩高兰两份",
+    "body": "采岩高兰的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "crowberry": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bearberry",
+    "title": "熊果两份",
+    "body": "采熊果的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bearberry": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_labrador_violet",
+    "title": "拉布拉多堇两份",
+    "body": "采拉布拉多堇的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "labrador_violet": 2
+      },
+      "coins": 2
+    }
   }
 ]
