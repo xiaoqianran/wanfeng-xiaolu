@@ -949,6 +949,109 @@
       { flavor: "lamium", label: "银边野芝麻" },
       { flavor: "galeopsis", label: "鼬瓣花" },
       { flavor: "stachys_byz", label: "绵毛水苏" },
+      { flavor: "alpine_rosemary", label: "高山迷迭香" },
+      { flavor: "alpine_marjoram", label: "高山马郁兰" },
+      { flavor: "alpine_chive", label: "高山香葱" },
+      { flavor: "alpine_cilantro", label: "高山香菜" },
+      { flavor: "alpine_dill", label: "高山莳萝" },
+      { flavor: "alpine_lovage", label: "高山独活" },
+      { flavor: "alpine_sorrel", label: "高山酸模" },
+      { flavor: "coastal_thyme", label: "海岸百里香" },
+      { flavor: "coastal_sage", label: "海岸鼠尾草" },
+      { flavor: "coastal_oregano", label: "海岸牛至" },
+      { flavor: "coastal_basil", label: "海岸罗勒" },
+      { flavor: "coastal_mint", label: "海岸薄荷" },
+      { flavor: "coastal_lavender", label: "海岸薰衣草" },
+      { flavor: "coastal_marjoram", label: "海岸马郁兰" },
+      { flavor: "coastal_tarragon", label: "海岸龙蒿" },
+      { flavor: "coastal_chive", label: "海岸香葱" },
+      { flavor: "coastal_parsley", label: "海岸欧芹" },
+      { flavor: "coastal_cilantro", label: "海岸香菜" },
+      { flavor: "coastal_dill", label: "海岸莳萝" },
+      { flavor: "coastal_sorrel", label: "海岸酸模" },
+      { flavor: "meadow_thyme", label: "草甸百里香" },
+      { flavor: "meadow_sage", label: "草甸鼠尾草" },
+      { flavor: "meadow_oregano", label: "草甸牛至" },
+      { flavor: "meadow_basil", label: "草甸罗勒" },
+      { flavor: "meadow_mint", label: "草甸薄荷" },
+      { flavor: "meadow_lavender", label: "草甸薰衣草" },
+      { flavor: "meadow_marjoram", label: "草甸马郁兰" },
+      { flavor: "meadow_tarragon", label: "草甸龙蒿" },
+      { flavor: "meadow_chive", label: "草甸香葱" },
+      { flavor: "meadow_parsley", label: "草甸欧芹" },
+      { flavor: "meadow_cilantro", label: "草甸香菜" },
+      { flavor: "meadow_dill", label: "草甸莳萝" },
+      { flavor: "meadow_sorrel", label: "草甸酸模" },
+      { flavor: "woodland_thyme", label: "林地百里香" },
+      { flavor: "woodland_sage", label: "林间鼠尾草" },
+      { flavor: "woodland_oregano", label: "林地牛至" },
+      { flavor: "woodland_basil", label: "林地罗勒" },
+      { flavor: "woodland_mint", label: "林地薄荷" },
+      { flavor: "woodland_lavender", label: "林地薰衣草" },
+      { flavor: "woodland_marjoram", label: "林地马郁兰" },
+      { flavor: "woodland_tarragon", label: "林地龙蒿" },
+      { flavor: "woodland_chive", label: "林地香葱" },
+      { flavor: "woodland_parsley", label: "林地欧芹" },
+      { flavor: "woodland_cilantro", label: "林地香菜" },
+      { flavor: "woodland_dill", label: "林地莳萝" },
+      { flavor: "woodland_fennel", label: "林地茴香" },
+      { flavor: "woodland_lovage", label: "林地独活" },
+      { flavor: "woodland_sorrel", label: "林地酸模" },
+      { flavor: "garden_thyme", label: "园栽百里香" },
+      { flavor: "garden_sage", label: "园栽鼠尾草" },
+      { flavor: "garden_oregano", label: "园栽牛至" },
+      { flavor: "garden_basil", label: "园栽罗勒" },
+      { flavor: "garden_mint", label: "园栽薄荷" },
+      { flavor: "garden_lavender", label: "园栽薰衣草" },
+      { flavor: "garden_marjoram", label: "园栽马郁兰" },
+      { flavor: "garden_tarragon", label: "园栽龙蒿" },
+      { flavor: "garden_chive", label: "园栽香葱" },
+      { flavor: "garden_parsley", label: "园栽欧芹" },
+      { flavor: "garden_cilantro", label: "园栽香菜" },
+      { flavor: "garden_dill", label: "园栽莳萝" },
+      { flavor: "garden_fennel", label: "园栽茴香" },
+      { flavor: "garden_lovage", label: "园栽独活" },
+      { flavor: "garden_sorrel", label: "园栽酸模" },
+      { flavor: "wild_thyme", label: "野生百里香" },
+      { flavor: "wild_sage", label: "野生鼠尾草" },
+      { flavor: "wild_oregano", label: "野生牛至" },
+      { flavor: "wild_basil", label: "野生罗勒" },
+      { flavor: "wild_mint", label: "野生薄荷" },
+      { flavor: "wild_lavender", label: "野生薰衣草" },
+      { flavor: "wild_rosemary", label: "野生迷迭香" },
+      { flavor: "wild_marjoram", label: "野生马郁兰" },
+      { flavor: "wild_tarragon", label: "野生龙蒿" },
+      { flavor: "wild_chive", label: "野生香葱" },
+      { flavor: "wild_parsley", label: "野生欧芹" },
+      { flavor: "wild_cilantro", label: "野生香菜" },
+      { flavor: "wild_dill", label: "野生莳萝" },
+      { flavor: "wild_fennel", label: "野生茴香" },
+      { flavor: "wild_lovage", label: "野生独活" },
+      { flavor: "wild_sorrel", label: "野生酸模" },
+      { flavor: "dwarf_thyme", label: "矮生百里香" },
+      { flavor: "dwarf_sage", label: "矮生鼠尾草" },
+      { flavor: "dwarf_oregano", label: "矮生牛至" },
+      { flavor: "dwarf_basil", label: "矮生罗勒" },
+      { flavor: "dwarf_mint", label: "矮生薄荷" },
+      { flavor: "dwarf_lavender", label: "矮生薰衣草" },
+      { flavor: "dwarf_marjoram", label: "矮生马郁兰" },
+      { flavor: "dwarf_chive", label: "矮生香葱" },
+      { flavor: "dwarf_parsley", label: "矮生欧芹" },
+      { flavor: "dwarf_cilantro", label: "矮生香菜" },
+      { flavor: "dwarf_dill", label: "矮生莳萝" },
+      { flavor: "dwarf_fennel", label: "矮生茴香" },
+      { flavor: "dwarf_lovage", label: "矮生独活" },
+      { flavor: "dwarf_sorrel", label: "矮生酸模" },
+      { flavor: "giant_oregano", label: "巨生牛至" },
+      { flavor: "giant_basil", label: "巨生罗勒" },
+      { flavor: "giant_marjoram", label: "巨生马郁兰" },
+      { flavor: "giant_tarragon", label: "巨生龙蒿" },
+      { flavor: "giant_chive", label: "巨生香葱" },
+      { flavor: "giant_parsley", label: "巨生欧芹" },
+      { flavor: "giant_cilantro", label: "巨生香菜" },
+      { flavor: "giant_dill", label: "巨生莳萝" },
+      { flavor: "giant_lovage", label: "巨生独活" },
+      { flavor: "giant_sorrel", label: "巨生酸模" },
     ],
     autumn: [
       { flavor: "honey", label: "野蜜" },
@@ -1208,6 +1311,35 @@
 
       { flavor: "linseed_oil", label: "亚麻仁油" },
       { flavor: "nettle_root", label: "荨麻根" },
+      { flavor: "alpine_thyme", label: "高山百里香" },
+      { flavor: "alpine_sage", label: "高山鼠尾草" },
+      { flavor: "alpine_oregano", label: "高山牛至" },
+      { flavor: "alpine_basil", label: "高山罗勒" },
+      { flavor: "alpine_mint", label: "高山薄荷" },
+      { flavor: "alpine_lavender", label: "高山薰衣草" },
+      { flavor: "alpine_tarragon", label: "高山龙蒿" },
+      { flavor: "alpine_parsley", label: "高山欧芹" },
+      { flavor: "alpine_fennel", label: "高山茴香" },
+      { flavor: "coastal_rosemary", label: "海岸迷迭香" },
+      { flavor: "coastal_fennel", label: "海岸茴香" },
+      { flavor: "coastal_lovage", label: "海岸独活" },
+      { flavor: "meadow_rosemary", label: "草甸迷迭香" },
+      { flavor: "meadow_fennel", label: "草甸茴香" },
+      { flavor: "meadow_lovage", label: "草甸独活" },
+      { flavor: "woodland_rosemary", label: "林地迷迭香" },
+
+      { flavor: "garden_rosemary", label: "园栽迷迭香" },
+
+
+
+      { flavor: "dwarf_rosemary", label: "矮生迷迭香" },
+      { flavor: "dwarf_tarragon", label: "矮生龙蒿" },
+      { flavor: "giant_thyme", label: "巨生百里香" },
+      { flavor: "giant_sage", label: "巨生鼠尾草" },
+      { flavor: "giant_mint", label: "巨生薄荷" },
+      { flavor: "giant_lavender", label: "巨生薰衣草" },
+      { flavor: "giant_rosemary", label: "巨生迷迭香" },
+      { flavor: "giant_fennel", label: "巨生茴香" },
     ],
     dusk: [
       { flavor: "lavender_bud", label: "薰衣草" },
@@ -6965,6 +7097,774 @@
     { id: "stachys_byz_walker", name: "绵毛水苏径旅人", desc: "走过绵毛水苏短径", check: function (s) {
       return !!(s._themesTouched && s._themesTouched.stachys_byz_path);
     } },
+    { id: "alpine_thyme_sill", name: "高山百里香窗台", desc: "发现高山百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.alpine_thyme);
+    } },
+    { id: "alpine_thyme_walker", name: "高山百里香径旅人", desc: "走过高山百里香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.alpine_thyme_path);
+    } },
+    { id: "alpine_sage_sill", name: "高山鼠尾草窗台", desc: "发现高山鼠尾草", check: function (s) {
+      return !!(s.discovered && s.discovered.alpine_sage);
+    } },
+    { id: "alpine_sage_walker", name: "高山鼠尾草径旅人", desc: "走过高山鼠尾草短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.alpine_sage_path);
+    } },
+    { id: "alpine_oregano_sill", name: "高山牛至窗台", desc: "发现高山牛至", check: function (s) {
+      return !!(s.discovered && s.discovered.alpine_oregano);
+    } },
+    { id: "alpine_oregano_walker", name: "高山牛至径旅人", desc: "走过高山牛至短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.alpine_oregano_path);
+    } },
+    { id: "alpine_basil_sill", name: "高山罗勒窗台", desc: "发现高山罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.alpine_basil);
+    } },
+    { id: "alpine_basil_walker", name: "高山罗勒径旅人", desc: "走过高山罗勒短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.alpine_basil_path);
+    } },
+    { id: "alpine_mint_sill", name: "高山薄荷窗台", desc: "发现高山薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.alpine_mint);
+    } },
+    { id: "alpine_mint_walker", name: "高山薄荷径旅人", desc: "走过高山薄荷短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.alpine_mint_path);
+    } },
+    { id: "alpine_lavender_sill", name: "高山薰衣草窗台", desc: "发现高山薰衣草", check: function (s) {
+      return !!(s.discovered && s.discovered.alpine_lavender);
+    } },
+    { id: "alpine_lavender_walker", name: "高山薰衣草径旅人", desc: "走过高山薰衣草短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.alpine_lavender_path);
+    } },
+    { id: "alpine_rosemary_sill", name: "高山迷迭香窗台", desc: "发现高山迷迭香", check: function (s) {
+      return !!(s.discovered && s.discovered.alpine_rosemary);
+    } },
+    { id: "alpine_rosemary_walker", name: "高山迷迭香径旅人", desc: "走过高山迷迭香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.alpine_rosemary_path);
+    } },
+    { id: "alpine_marjoram_sill", name: "高山马郁兰窗台", desc: "发现高山马郁兰", check: function (s) {
+      return !!(s.discovered && s.discovered.alpine_marjoram);
+    } },
+    { id: "alpine_marjoram_walker", name: "高山马郁兰径旅人", desc: "走过高山马郁兰短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.alpine_marjoram_path);
+    } },
+    { id: "alpine_tarragon_sill", name: "高山龙蒿窗台", desc: "发现高山龙蒿", check: function (s) {
+      return !!(s.discovered && s.discovered.alpine_tarragon);
+    } },
+    { id: "alpine_tarragon_walker", name: "高山龙蒿径旅人", desc: "走过高山龙蒿短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.alpine_tarragon_path);
+    } },
+    { id: "alpine_chive_sill", name: "高山香葱窗台", desc: "发现高山香葱", check: function (s) {
+      return !!(s.discovered && s.discovered.alpine_chive);
+    } },
+    { id: "alpine_chive_walker", name: "高山香葱径旅人", desc: "走过高山香葱短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.alpine_chive_path);
+    } },
+    { id: "alpine_parsley_sill", name: "高山欧芹窗台", desc: "发现高山欧芹", check: function (s) {
+      return !!(s.discovered && s.discovered.alpine_parsley);
+    } },
+    { id: "alpine_parsley_walker", name: "高山欧芹径旅人", desc: "走过高山欧芹短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.alpine_parsley_path);
+    } },
+    { id: "alpine_cilantro_sill", name: "高山香菜窗台", desc: "发现高山香菜", check: function (s) {
+      return !!(s.discovered && s.discovered.alpine_cilantro);
+    } },
+    { id: "alpine_cilantro_walker", name: "高山香菜径旅人", desc: "走过高山香菜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.alpine_cilantro_path);
+    } },
+    { id: "alpine_dill_sill", name: "高山莳萝窗台", desc: "发现高山莳萝", check: function (s) {
+      return !!(s.discovered && s.discovered.alpine_dill);
+    } },
+    { id: "alpine_dill_walker", name: "高山莳萝径旅人", desc: "走过高山莳萝短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.alpine_dill_path);
+    } },
+    { id: "alpine_fennel_sill", name: "高山茴香窗台", desc: "发现高山茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.alpine_fennel);
+    } },
+    { id: "alpine_fennel_walker", name: "高山茴香径旅人", desc: "走过高山茴香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.alpine_fennel_path);
+    } },
+    { id: "alpine_lovage_sill", name: "高山独活窗台", desc: "发现高山独活", check: function (s) {
+      return !!(s.discovered && s.discovered.alpine_lovage);
+    } },
+    { id: "alpine_lovage_walker", name: "高山独活径旅人", desc: "走过高山独活短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.alpine_lovage_path);
+    } },
+    { id: "alpine_sorrel_sill", name: "高山酸模窗台", desc: "发现高山酸模", check: function (s) {
+      return !!(s.discovered && s.discovered.alpine_sorrel);
+    } },
+    { id: "alpine_sorrel_walker", name: "高山酸模径旅人", desc: "走过高山酸模短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.alpine_sorrel_path);
+    } },
+    { id: "coastal_thyme_sill", name: "海岸百里香窗台", desc: "发现海岸百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.coastal_thyme);
+    } },
+    { id: "coastal_thyme_walker", name: "海岸百里香径旅人", desc: "走过海岸百里香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.coastal_thyme_path);
+    } },
+    { id: "coastal_sage_sill", name: "海岸鼠尾草窗台", desc: "发现海岸鼠尾草", check: function (s) {
+      return !!(s.discovered && s.discovered.coastal_sage);
+    } },
+    { id: "coastal_sage_walker", name: "海岸鼠尾草径旅人", desc: "走过海岸鼠尾草短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.coastal_sage_path);
+    } },
+    { id: "coastal_oregano_sill", name: "海岸牛至窗台", desc: "发现海岸牛至", check: function (s) {
+      return !!(s.discovered && s.discovered.coastal_oregano);
+    } },
+    { id: "coastal_oregano_walker", name: "海岸牛至径旅人", desc: "走过海岸牛至短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.coastal_oregano_path);
+    } },
+    { id: "coastal_basil_sill", name: "海岸罗勒窗台", desc: "发现海岸罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.coastal_basil);
+    } },
+    { id: "coastal_basil_walker", name: "海岸罗勒径旅人", desc: "走过海岸罗勒短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.coastal_basil_path);
+    } },
+    { id: "coastal_mint_sill", name: "海岸薄荷窗台", desc: "发现海岸薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.coastal_mint);
+    } },
+    { id: "coastal_mint_walker", name: "海岸薄荷径旅人", desc: "走过海岸薄荷短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.coastal_mint_path);
+    } },
+    { id: "coastal_lavender_sill", name: "海岸薰衣草窗台", desc: "发现海岸薰衣草", check: function (s) {
+      return !!(s.discovered && s.discovered.coastal_lavender);
+    } },
+    { id: "coastal_lavender_walker", name: "海岸薰衣草径旅人", desc: "走过海岸薰衣草短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.coastal_lavender_path);
+    } },
+    { id: "coastal_rosemary_sill", name: "海岸迷迭香窗台", desc: "发现海岸迷迭香", check: function (s) {
+      return !!(s.discovered && s.discovered.coastal_rosemary);
+    } },
+    { id: "coastal_rosemary_walker", name: "海岸迷迭香径旅人", desc: "走过海岸迷迭香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.coastal_rosemary_path);
+    } },
+    { id: "coastal_marjoram_sill", name: "海岸马郁兰窗台", desc: "发现海岸马郁兰", check: function (s) {
+      return !!(s.discovered && s.discovered.coastal_marjoram);
+    } },
+    { id: "coastal_marjoram_walker", name: "海岸马郁兰径旅人", desc: "走过海岸马郁兰短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.coastal_marjoram_path);
+    } },
+    { id: "coastal_tarragon_sill", name: "海岸龙蒿窗台", desc: "发现海岸龙蒿", check: function (s) {
+      return !!(s.discovered && s.discovered.coastal_tarragon);
+    } },
+    { id: "coastal_tarragon_walker", name: "海岸龙蒿径旅人", desc: "走过海岸龙蒿短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.coastal_tarragon_path);
+    } },
+    { id: "coastal_chive_sill", name: "海岸香葱窗台", desc: "发现海岸香葱", check: function (s) {
+      return !!(s.discovered && s.discovered.coastal_chive);
+    } },
+    { id: "coastal_chive_walker", name: "海岸香葱径旅人", desc: "走过海岸香葱短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.coastal_chive_path);
+    } },
+    { id: "coastal_parsley_sill", name: "海岸欧芹窗台", desc: "发现海岸欧芹", check: function (s) {
+      return !!(s.discovered && s.discovered.coastal_parsley);
+    } },
+    { id: "coastal_parsley_walker", name: "海岸欧芹径旅人", desc: "走过海岸欧芹短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.coastal_parsley_path);
+    } },
+    { id: "coastal_cilantro_sill", name: "海岸香菜窗台", desc: "发现海岸香菜", check: function (s) {
+      return !!(s.discovered && s.discovered.coastal_cilantro);
+    } },
+    { id: "coastal_cilantro_walker", name: "海岸香菜径旅人", desc: "走过海岸香菜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.coastal_cilantro_path);
+    } },
+    { id: "coastal_dill_sill", name: "海岸莳萝窗台", desc: "发现海岸莳萝", check: function (s) {
+      return !!(s.discovered && s.discovered.coastal_dill);
+    } },
+    { id: "coastal_dill_walker", name: "海岸莳萝径旅人", desc: "走过海岸莳萝短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.coastal_dill_path);
+    } },
+    { id: "coastal_fennel_sill", name: "海岸茴香窗台", desc: "发现海岸茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.coastal_fennel);
+    } },
+    { id: "coastal_fennel_walker", name: "海岸茴香径旅人", desc: "走过海岸茴香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.coastal_fennel_path);
+    } },
+    { id: "coastal_lovage_sill", name: "海岸独活窗台", desc: "发现海岸独活", check: function (s) {
+      return !!(s.discovered && s.discovered.coastal_lovage);
+    } },
+    { id: "coastal_lovage_walker", name: "海岸独活径旅人", desc: "走过海岸独活短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.coastal_lovage_path);
+    } },
+    { id: "coastal_sorrel_sill", name: "海岸酸模窗台", desc: "发现海岸酸模", check: function (s) {
+      return !!(s.discovered && s.discovered.coastal_sorrel);
+    } },
+    { id: "coastal_sorrel_walker", name: "海岸酸模径旅人", desc: "走过海岸酸模短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.coastal_sorrel_path);
+    } },
+    { id: "meadow_thyme_sill", name: "草甸百里香窗台", desc: "发现草甸百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.meadow_thyme);
+    } },
+    { id: "meadow_thyme_walker", name: "草甸百里香径旅人", desc: "走过草甸百里香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.meadow_thyme_path);
+    } },
+    { id: "meadow_sage_sill", name: "草甸鼠尾草窗台", desc: "发现草甸鼠尾草", check: function (s) {
+      return !!(s.discovered && s.discovered.meadow_sage);
+    } },
+    { id: "meadow_sage_walker", name: "草甸鼠尾草径旅人", desc: "走过草甸鼠尾草短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.meadow_sage_path);
+    } },
+    { id: "meadow_oregano_sill", name: "草甸牛至窗台", desc: "发现草甸牛至", check: function (s) {
+      return !!(s.discovered && s.discovered.meadow_oregano);
+    } },
+    { id: "meadow_oregano_walker", name: "草甸牛至径旅人", desc: "走过草甸牛至短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.meadow_oregano_path);
+    } },
+    { id: "meadow_basil_sill", name: "草甸罗勒窗台", desc: "发现草甸罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.meadow_basil);
+    } },
+    { id: "meadow_basil_walker", name: "草甸罗勒径旅人", desc: "走过草甸罗勒短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.meadow_basil_path);
+    } },
+    { id: "meadow_mint_sill", name: "草甸薄荷窗台", desc: "发现草甸薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.meadow_mint);
+    } },
+    { id: "meadow_mint_walker", name: "草甸薄荷径旅人", desc: "走过草甸薄荷短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.meadow_mint_path);
+    } },
+    { id: "meadow_lavender_sill", name: "草甸薰衣草窗台", desc: "发现草甸薰衣草", check: function (s) {
+      return !!(s.discovered && s.discovered.meadow_lavender);
+    } },
+    { id: "meadow_lavender_walker", name: "草甸薰衣草径旅人", desc: "走过草甸薰衣草短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.meadow_lavender_path);
+    } },
+    { id: "meadow_rosemary_sill", name: "草甸迷迭香窗台", desc: "发现草甸迷迭香", check: function (s) {
+      return !!(s.discovered && s.discovered.meadow_rosemary);
+    } },
+    { id: "meadow_rosemary_walker", name: "草甸迷迭香径旅人", desc: "走过草甸迷迭香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.meadow_rosemary_path);
+    } },
+    { id: "meadow_marjoram_sill", name: "草甸马郁兰窗台", desc: "发现草甸马郁兰", check: function (s) {
+      return !!(s.discovered && s.discovered.meadow_marjoram);
+    } },
+    { id: "meadow_marjoram_walker", name: "草甸马郁兰径旅人", desc: "走过草甸马郁兰短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.meadow_marjoram_path);
+    } },
+    { id: "meadow_tarragon_sill", name: "草甸龙蒿窗台", desc: "发现草甸龙蒿", check: function (s) {
+      return !!(s.discovered && s.discovered.meadow_tarragon);
+    } },
+    { id: "meadow_tarragon_walker", name: "草甸龙蒿径旅人", desc: "走过草甸龙蒿短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.meadow_tarragon_path);
+    } },
+    { id: "meadow_chive_sill", name: "草甸香葱窗台", desc: "发现草甸香葱", check: function (s) {
+      return !!(s.discovered && s.discovered.meadow_chive);
+    } },
+    { id: "meadow_chive_walker", name: "草甸香葱径旅人", desc: "走过草甸香葱短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.meadow_chive_path);
+    } },
+    { id: "meadow_parsley_sill", name: "草甸欧芹窗台", desc: "发现草甸欧芹", check: function (s) {
+      return !!(s.discovered && s.discovered.meadow_parsley);
+    } },
+    { id: "meadow_parsley_walker", name: "草甸欧芹径旅人", desc: "走过草甸欧芹短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.meadow_parsley_path);
+    } },
+    { id: "meadow_cilantro_sill", name: "草甸香菜窗台", desc: "发现草甸香菜", check: function (s) {
+      return !!(s.discovered && s.discovered.meadow_cilantro);
+    } },
+    { id: "meadow_cilantro_walker", name: "草甸香菜径旅人", desc: "走过草甸香菜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.meadow_cilantro_path);
+    } },
+    { id: "meadow_dill_sill", name: "草甸莳萝窗台", desc: "发现草甸莳萝", check: function (s) {
+      return !!(s.discovered && s.discovered.meadow_dill);
+    } },
+    { id: "meadow_dill_walker", name: "草甸莳萝径旅人", desc: "走过草甸莳萝短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.meadow_dill_path);
+    } },
+    { id: "meadow_fennel_sill", name: "草甸茴香窗台", desc: "发现草甸茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.meadow_fennel);
+    } },
+    { id: "meadow_fennel_walker", name: "草甸茴香径旅人", desc: "走过草甸茴香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.meadow_fennel_path);
+    } },
+    { id: "meadow_lovage_sill", name: "草甸独活窗台", desc: "发现草甸独活", check: function (s) {
+      return !!(s.discovered && s.discovered.meadow_lovage);
+    } },
+    { id: "meadow_lovage_walker", name: "草甸独活径旅人", desc: "走过草甸独活短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.meadow_lovage_path);
+    } },
+    { id: "meadow_sorrel_sill", name: "草甸酸模窗台", desc: "发现草甸酸模", check: function (s) {
+      return !!(s.discovered && s.discovered.meadow_sorrel);
+    } },
+    { id: "meadow_sorrel_walker", name: "草甸酸模径旅人", desc: "走过草甸酸模短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.meadow_sorrel_path);
+    } },
+    { id: "woodland_thyme_sill", name: "林地百里香窗台", desc: "发现林地百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.woodland_thyme);
+    } },
+    { id: "woodland_thyme_walker", name: "林地百里香径旅人", desc: "走过林地百里香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.woodland_thyme_path);
+    } },
+    { id: "woodland_sage_sill", name: "林间鼠尾草窗台", desc: "发现林间鼠尾草", check: function (s) {
+      return !!(s.discovered && s.discovered.woodland_sage);
+    } },
+    { id: "woodland_sage_walker", name: "林间鼠尾草径旅人", desc: "走过林间鼠尾草短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.woodland_sage_path);
+    } },
+    { id: "woodland_oregano_sill", name: "林地牛至窗台", desc: "发现林地牛至", check: function (s) {
+      return !!(s.discovered && s.discovered.woodland_oregano);
+    } },
+    { id: "woodland_oregano_walker", name: "林地牛至径旅人", desc: "走过林地牛至短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.woodland_oregano_path);
+    } },
+    { id: "woodland_basil_sill", name: "林地罗勒窗台", desc: "发现林地罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.woodland_basil);
+    } },
+    { id: "woodland_basil_walker", name: "林地罗勒径旅人", desc: "走过林地罗勒短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.woodland_basil_path);
+    } },
+    { id: "woodland_mint_sill", name: "林地薄荷窗台", desc: "发现林地薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.woodland_mint);
+    } },
+    { id: "woodland_mint_walker", name: "林地薄荷径旅人", desc: "走过林地薄荷短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.woodland_mint_path);
+    } },
+    { id: "woodland_lavender_sill", name: "林地薰衣草窗台", desc: "发现林地薰衣草", check: function (s) {
+      return !!(s.discovered && s.discovered.woodland_lavender);
+    } },
+    { id: "woodland_lavender_walker", name: "林地薰衣草径旅人", desc: "走过林地薰衣草短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.woodland_lavender_path);
+    } },
+    { id: "woodland_rosemary_sill", name: "林地迷迭香窗台", desc: "发现林地迷迭香", check: function (s) {
+      return !!(s.discovered && s.discovered.woodland_rosemary);
+    } },
+    { id: "woodland_rosemary_walker", name: "林地迷迭香径旅人", desc: "走过林地迷迭香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.woodland_rosemary_path);
+    } },
+    { id: "woodland_marjoram_sill", name: "林地马郁兰窗台", desc: "发现林地马郁兰", check: function (s) {
+      return !!(s.discovered && s.discovered.woodland_marjoram);
+    } },
+    { id: "woodland_marjoram_walker", name: "林地马郁兰径旅人", desc: "走过林地马郁兰短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.woodland_marjoram_path);
+    } },
+    { id: "woodland_tarragon_sill", name: "林地龙蒿窗台", desc: "发现林地龙蒿", check: function (s) {
+      return !!(s.discovered && s.discovered.woodland_tarragon);
+    } },
+    { id: "woodland_tarragon_walker", name: "林地龙蒿径旅人", desc: "走过林地龙蒿短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.woodland_tarragon_path);
+    } },
+    { id: "woodland_chive_sill", name: "林地香葱窗台", desc: "发现林地香葱", check: function (s) {
+      return !!(s.discovered && s.discovered.woodland_chive);
+    } },
+    { id: "woodland_chive_walker", name: "林地香葱径旅人", desc: "走过林地香葱短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.woodland_chive_path);
+    } },
+    { id: "woodland_parsley_sill", name: "林地欧芹窗台", desc: "发现林地欧芹", check: function (s) {
+      return !!(s.discovered && s.discovered.woodland_parsley);
+    } },
+    { id: "woodland_parsley_walker", name: "林地欧芹径旅人", desc: "走过林地欧芹短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.woodland_parsley_path);
+    } },
+    { id: "woodland_cilantro_sill", name: "林地香菜窗台", desc: "发现林地香菜", check: function (s) {
+      return !!(s.discovered && s.discovered.woodland_cilantro);
+    } },
+    { id: "woodland_cilantro_walker", name: "林地香菜径旅人", desc: "走过林地香菜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.woodland_cilantro_path);
+    } },
+    { id: "woodland_dill_sill", name: "林地莳萝窗台", desc: "发现林地莳萝", check: function (s) {
+      return !!(s.discovered && s.discovered.woodland_dill);
+    } },
+    { id: "woodland_dill_walker", name: "林地莳萝径旅人", desc: "走过林地莳萝短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.woodland_dill_path);
+    } },
+    { id: "woodland_fennel_sill", name: "林地茴香窗台", desc: "发现林地茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.woodland_fennel);
+    } },
+    { id: "woodland_fennel_walker", name: "林地茴香径旅人", desc: "走过林地茴香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.woodland_fennel_path);
+    } },
+    { id: "woodland_lovage_sill", name: "林地独活窗台", desc: "发现林地独活", check: function (s) {
+      return !!(s.discovered && s.discovered.woodland_lovage);
+    } },
+    { id: "woodland_lovage_walker", name: "林地独活径旅人", desc: "走过林地独活短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.woodland_lovage_path);
+    } },
+    { id: "woodland_sorrel_sill", name: "林地酸模窗台", desc: "发现林地酸模", check: function (s) {
+      return !!(s.discovered && s.discovered.woodland_sorrel);
+    } },
+    { id: "woodland_sorrel_walker", name: "林地酸模径旅人", desc: "走过林地酸模短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.woodland_sorrel_path);
+    } },
+    { id: "garden_thyme_sill", name: "园栽百里香窗台", desc: "发现园栽百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.garden_thyme);
+    } },
+    { id: "garden_thyme_walker", name: "园栽百里香径旅人", desc: "走过园栽百里香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.garden_thyme_path);
+    } },
+    { id: "garden_sage_sill", name: "园栽鼠尾草窗台", desc: "发现园栽鼠尾草", check: function (s) {
+      return !!(s.discovered && s.discovered.garden_sage);
+    } },
+    { id: "garden_sage_walker", name: "园栽鼠尾草径旅人", desc: "走过园栽鼠尾草短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.garden_sage_path);
+    } },
+    { id: "garden_oregano_sill", name: "园栽牛至窗台", desc: "发现园栽牛至", check: function (s) {
+      return !!(s.discovered && s.discovered.garden_oregano);
+    } },
+    { id: "garden_oregano_walker", name: "园栽牛至径旅人", desc: "走过园栽牛至短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.garden_oregano_path);
+    } },
+    { id: "garden_basil_sill", name: "园栽罗勒窗台", desc: "发现园栽罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.garden_basil);
+    } },
+    { id: "garden_basil_walker", name: "园栽罗勒径旅人", desc: "走过园栽罗勒短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.garden_basil_path);
+    } },
+    { id: "garden_mint_sill", name: "园栽薄荷窗台", desc: "发现园栽薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.garden_mint);
+    } },
+    { id: "garden_mint_walker", name: "园栽薄荷径旅人", desc: "走过园栽薄荷短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.garden_mint_path);
+    } },
+    { id: "garden_lavender_sill", name: "园栽薰衣草窗台", desc: "发现园栽薰衣草", check: function (s) {
+      return !!(s.discovered && s.discovered.garden_lavender);
+    } },
+    { id: "garden_lavender_walker", name: "园栽薰衣草径旅人", desc: "走过园栽薰衣草短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.garden_lavender_path);
+    } },
+    { id: "garden_rosemary_sill", name: "园栽迷迭香窗台", desc: "发现园栽迷迭香", check: function (s) {
+      return !!(s.discovered && s.discovered.garden_rosemary);
+    } },
+    { id: "garden_rosemary_walker", name: "园栽迷迭香径旅人", desc: "走过园栽迷迭香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.garden_rosemary_path);
+    } },
+    { id: "garden_marjoram_sill", name: "园栽马郁兰窗台", desc: "发现园栽马郁兰", check: function (s) {
+      return !!(s.discovered && s.discovered.garden_marjoram);
+    } },
+    { id: "garden_marjoram_walker", name: "园栽马郁兰径旅人", desc: "走过园栽马郁兰短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.garden_marjoram_path);
+    } },
+    { id: "garden_tarragon_sill", name: "园栽龙蒿窗台", desc: "发现园栽龙蒿", check: function (s) {
+      return !!(s.discovered && s.discovered.garden_tarragon);
+    } },
+    { id: "garden_tarragon_walker", name: "园栽龙蒿径旅人", desc: "走过园栽龙蒿短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.garden_tarragon_path);
+    } },
+    { id: "garden_chive_sill", name: "园栽香葱窗台", desc: "发现园栽香葱", check: function (s) {
+      return !!(s.discovered && s.discovered.garden_chive);
+    } },
+    { id: "garden_chive_walker", name: "园栽香葱径旅人", desc: "走过园栽香葱短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.garden_chive_path);
+    } },
+    { id: "garden_parsley_sill", name: "园栽欧芹窗台", desc: "发现园栽欧芹", check: function (s) {
+      return !!(s.discovered && s.discovered.garden_parsley);
+    } },
+    { id: "garden_parsley_walker", name: "园栽欧芹径旅人", desc: "走过园栽欧芹短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.garden_parsley_path);
+    } },
+    { id: "garden_cilantro_sill", name: "园栽香菜窗台", desc: "发现园栽香菜", check: function (s) {
+      return !!(s.discovered && s.discovered.garden_cilantro);
+    } },
+    { id: "garden_cilantro_walker", name: "园栽香菜径旅人", desc: "走过园栽香菜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.garden_cilantro_path);
+    } },
+    { id: "garden_dill_sill", name: "园栽莳萝窗台", desc: "发现园栽莳萝", check: function (s) {
+      return !!(s.discovered && s.discovered.garden_dill);
+    } },
+    { id: "garden_dill_walker", name: "园栽莳萝径旅人", desc: "走过园栽莳萝短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.garden_dill_path);
+    } },
+    { id: "garden_fennel_sill", name: "园栽茴香窗台", desc: "发现园栽茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.garden_fennel);
+    } },
+    { id: "garden_fennel_walker", name: "园栽茴香径旅人", desc: "走过园栽茴香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.garden_fennel_path);
+    } },
+    { id: "garden_lovage_sill", name: "园栽独活窗台", desc: "发现园栽独活", check: function (s) {
+      return !!(s.discovered && s.discovered.garden_lovage);
+    } },
+    { id: "garden_lovage_walker", name: "园栽独活径旅人", desc: "走过园栽独活短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.garden_lovage_path);
+    } },
+    { id: "garden_sorrel_sill", name: "园栽酸模窗台", desc: "发现园栽酸模", check: function (s) {
+      return !!(s.discovered && s.discovered.garden_sorrel);
+    } },
+    { id: "garden_sorrel_walker", name: "园栽酸模径旅人", desc: "走过园栽酸模短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.garden_sorrel_path);
+    } },
+    { id: "wild_thyme_sill", name: "野生百里香窗台", desc: "发现野生百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wild_thyme);
+    } },
+    { id: "wild_thyme_walker", name: "野生百里香径旅人", desc: "走过野生百里香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wild_thyme_path);
+    } },
+    { id: "wild_sage_sill", name: "野生鼠尾草窗台", desc: "发现野生鼠尾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wild_sage);
+    } },
+    { id: "wild_sage_walker", name: "野生鼠尾草径旅人", desc: "走过野生鼠尾草短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wild_sage_path);
+    } },
+    { id: "wild_oregano_sill", name: "野生牛至窗台", desc: "发现野生牛至", check: function (s) {
+      return !!(s.discovered && s.discovered.wild_oregano);
+    } },
+    { id: "wild_oregano_walker", name: "野生牛至径旅人", desc: "走过野生牛至短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wild_oregano_path);
+    } },
+    { id: "wild_basil_sill", name: "野生罗勒窗台", desc: "发现野生罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wild_basil);
+    } },
+    { id: "wild_basil_walker", name: "野生罗勒径旅人", desc: "走过野生罗勒短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wild_basil_path);
+    } },
+    { id: "wild_mint_sill", name: "野生薄荷窗台", desc: "发现野生薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wild_mint);
+    } },
+    { id: "wild_mint_walker", name: "野生薄荷径旅人", desc: "走过野生薄荷短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wild_mint_path);
+    } },
+    { id: "wild_lavender_sill", name: "野生薰衣草窗台", desc: "发现野生薰衣草", check: function (s) {
+      return !!(s.discovered && s.discovered.wild_lavender);
+    } },
+    { id: "wild_lavender_walker", name: "野生薰衣草径旅人", desc: "走过野生薰衣草短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wild_lavender_path);
+    } },
+    { id: "wild_rosemary_sill", name: "野生迷迭香窗台", desc: "发现野生迷迭香", check: function (s) {
+      return !!(s.discovered && s.discovered.wild_rosemary);
+    } },
+    { id: "wild_rosemary_walker", name: "野生迷迭香径旅人", desc: "走过野生迷迭香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wild_rosemary_path);
+    } },
+    { id: "wild_marjoram_sill", name: "野生马郁兰窗台", desc: "发现野生马郁兰", check: function (s) {
+      return !!(s.discovered && s.discovered.wild_marjoram);
+    } },
+    { id: "wild_marjoram_walker", name: "野生马郁兰径旅人", desc: "走过野生马郁兰短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wild_marjoram_path);
+    } },
+    { id: "wild_tarragon_sill", name: "野生龙蒿窗台", desc: "发现野生龙蒿", check: function (s) {
+      return !!(s.discovered && s.discovered.wild_tarragon);
+    } },
+    { id: "wild_tarragon_walker", name: "野生龙蒿径旅人", desc: "走过野生龙蒿短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wild_tarragon_path);
+    } },
+    { id: "wild_chive_sill", name: "野生香葱窗台", desc: "发现野生香葱", check: function (s) {
+      return !!(s.discovered && s.discovered.wild_chive);
+    } },
+    { id: "wild_chive_walker", name: "野生香葱径旅人", desc: "走过野生香葱短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wild_chive_path);
+    } },
+    { id: "wild_parsley_sill", name: "野生欧芹窗台", desc: "发现野生欧芹", check: function (s) {
+      return !!(s.discovered && s.discovered.wild_parsley);
+    } },
+    { id: "wild_parsley_walker", name: "野生欧芹径旅人", desc: "走过野生欧芹短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wild_parsley_path);
+    } },
+    { id: "wild_cilantro_sill", name: "野生香菜窗台", desc: "发现野生香菜", check: function (s) {
+      return !!(s.discovered && s.discovered.wild_cilantro);
+    } },
+    { id: "wild_cilantro_walker", name: "野生香菜径旅人", desc: "走过野生香菜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wild_cilantro_path);
+    } },
+    { id: "wild_dill_sill", name: "野生莳萝窗台", desc: "发现野生莳萝", check: function (s) {
+      return !!(s.discovered && s.discovered.wild_dill);
+    } },
+    { id: "wild_dill_walker", name: "野生莳萝径旅人", desc: "走过野生莳萝短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wild_dill_path);
+    } },
+    { id: "wild_fennel_sill", name: "野生茴香窗台", desc: "发现野生茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wild_fennel);
+    } },
+    { id: "wild_fennel_walker", name: "野生茴香径旅人", desc: "走过野生茴香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wild_fennel_path);
+    } },
+    { id: "wild_lovage_sill", name: "野生独活窗台", desc: "发现野生独活", check: function (s) {
+      return !!(s.discovered && s.discovered.wild_lovage);
+    } },
+    { id: "wild_lovage_walker", name: "野生独活径旅人", desc: "走过野生独活短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wild_lovage_path);
+    } },
+    { id: "wild_sorrel_sill", name: "野生酸模窗台", desc: "发现野生酸模", check: function (s) {
+      return !!(s.discovered && s.discovered.wild_sorrel);
+    } },
+    { id: "wild_sorrel_walker", name: "野生酸模径旅人", desc: "走过野生酸模短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wild_sorrel_path);
+    } },
+    { id: "dwarf_thyme_sill", name: "矮生百里香窗台", desc: "发现矮生百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.dwarf_thyme);
+    } },
+    { id: "dwarf_thyme_walker", name: "矮生百里香径旅人", desc: "走过矮生百里香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.dwarf_thyme_path);
+    } },
+    { id: "dwarf_sage_sill", name: "矮生鼠尾草窗台", desc: "发现矮生鼠尾草", check: function (s) {
+      return !!(s.discovered && s.discovered.dwarf_sage);
+    } },
+    { id: "dwarf_sage_walker", name: "矮生鼠尾草径旅人", desc: "走过矮生鼠尾草短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.dwarf_sage_path);
+    } },
+    { id: "dwarf_oregano_sill", name: "矮生牛至窗台", desc: "发现矮生牛至", check: function (s) {
+      return !!(s.discovered && s.discovered.dwarf_oregano);
+    } },
+    { id: "dwarf_oregano_walker", name: "矮生牛至径旅人", desc: "走过矮生牛至短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.dwarf_oregano_path);
+    } },
+    { id: "dwarf_basil_sill", name: "矮生罗勒窗台", desc: "发现矮生罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.dwarf_basil);
+    } },
+    { id: "dwarf_basil_walker", name: "矮生罗勒径旅人", desc: "走过矮生罗勒短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.dwarf_basil_path);
+    } },
+    { id: "dwarf_mint_sill", name: "矮生薄荷窗台", desc: "发现矮生薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.dwarf_mint);
+    } },
+    { id: "dwarf_mint_walker", name: "矮生薄荷径旅人", desc: "走过矮生薄荷短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.dwarf_mint_path);
+    } },
+    { id: "dwarf_lavender_sill", name: "矮生薰衣草窗台", desc: "发现矮生薰衣草", check: function (s) {
+      return !!(s.discovered && s.discovered.dwarf_lavender);
+    } },
+    { id: "dwarf_lavender_walker", name: "矮生薰衣草径旅人", desc: "走过矮生薰衣草短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.dwarf_lavender_path);
+    } },
+    { id: "dwarf_rosemary_sill", name: "矮生迷迭香窗台", desc: "发现矮生迷迭香", check: function (s) {
+      return !!(s.discovered && s.discovered.dwarf_rosemary);
+    } },
+    { id: "dwarf_rosemary_walker", name: "矮生迷迭香径旅人", desc: "走过矮生迷迭香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.dwarf_rosemary_path);
+    } },
+    { id: "dwarf_marjoram_sill", name: "矮生马郁兰窗台", desc: "发现矮生马郁兰", check: function (s) {
+      return !!(s.discovered && s.discovered.dwarf_marjoram);
+    } },
+    { id: "dwarf_marjoram_walker", name: "矮生马郁兰径旅人", desc: "走过矮生马郁兰短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.dwarf_marjoram_path);
+    } },
+    { id: "dwarf_tarragon_sill", name: "矮生龙蒿窗台", desc: "发现矮生龙蒿", check: function (s) {
+      return !!(s.discovered && s.discovered.dwarf_tarragon);
+    } },
+    { id: "dwarf_tarragon_walker", name: "矮生龙蒿径旅人", desc: "走过矮生龙蒿短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.dwarf_tarragon_path);
+    } },
+    { id: "dwarf_chive_sill", name: "矮生香葱窗台", desc: "发现矮生香葱", check: function (s) {
+      return !!(s.discovered && s.discovered.dwarf_chive);
+    } },
+    { id: "dwarf_chive_walker", name: "矮生香葱径旅人", desc: "走过矮生香葱短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.dwarf_chive_path);
+    } },
+    { id: "dwarf_parsley_sill", name: "矮生欧芹窗台", desc: "发现矮生欧芹", check: function (s) {
+      return !!(s.discovered && s.discovered.dwarf_parsley);
+    } },
+    { id: "dwarf_parsley_walker", name: "矮生欧芹径旅人", desc: "走过矮生欧芹短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.dwarf_parsley_path);
+    } },
+    { id: "dwarf_cilantro_sill", name: "矮生香菜窗台", desc: "发现矮生香菜", check: function (s) {
+      return !!(s.discovered && s.discovered.dwarf_cilantro);
+    } },
+    { id: "dwarf_cilantro_walker", name: "矮生香菜径旅人", desc: "走过矮生香菜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.dwarf_cilantro_path);
+    } },
+    { id: "dwarf_dill_sill", name: "矮生莳萝窗台", desc: "发现矮生莳萝", check: function (s) {
+      return !!(s.discovered && s.discovered.dwarf_dill);
+    } },
+    { id: "dwarf_dill_walker", name: "矮生莳萝径旅人", desc: "走过矮生莳萝短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.dwarf_dill_path);
+    } },
+    { id: "dwarf_fennel_sill", name: "矮生茴香窗台", desc: "发现矮生茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.dwarf_fennel);
+    } },
+    { id: "dwarf_fennel_walker", name: "矮生茴香径旅人", desc: "走过矮生茴香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.dwarf_fennel_path);
+    } },
+    { id: "dwarf_lovage_sill", name: "矮生独活窗台", desc: "发现矮生独活", check: function (s) {
+      return !!(s.discovered && s.discovered.dwarf_lovage);
+    } },
+    { id: "dwarf_lovage_walker", name: "矮生独活径旅人", desc: "走过矮生独活短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.dwarf_lovage_path);
+    } },
+    { id: "dwarf_sorrel_sill", name: "矮生酸模窗台", desc: "发现矮生酸模", check: function (s) {
+      return !!(s.discovered && s.discovered.dwarf_sorrel);
+    } },
+    { id: "dwarf_sorrel_walker", name: "矮生酸模径旅人", desc: "走过矮生酸模短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.dwarf_sorrel_path);
+    } },
+    { id: "giant_thyme_sill", name: "巨生百里香窗台", desc: "发现巨生百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.giant_thyme);
+    } },
+    { id: "giant_thyme_walker", name: "巨生百里香径旅人", desc: "走过巨生百里香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.giant_thyme_path);
+    } },
+    { id: "giant_sage_sill", name: "巨生鼠尾草窗台", desc: "发现巨生鼠尾草", check: function (s) {
+      return !!(s.discovered && s.discovered.giant_sage);
+    } },
+    { id: "giant_sage_walker", name: "巨生鼠尾草径旅人", desc: "走过巨生鼠尾草短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.giant_sage_path);
+    } },
+    { id: "giant_oregano_sill", name: "巨生牛至窗台", desc: "发现巨生牛至", check: function (s) {
+      return !!(s.discovered && s.discovered.giant_oregano);
+    } },
+    { id: "giant_oregano_walker", name: "巨生牛至径旅人", desc: "走过巨生牛至短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.giant_oregano_path);
+    } },
+    { id: "giant_basil_sill", name: "巨生罗勒窗台", desc: "发现巨生罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.giant_basil);
+    } },
+    { id: "giant_basil_walker", name: "巨生罗勒径旅人", desc: "走过巨生罗勒短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.giant_basil_path);
+    } },
+    { id: "giant_mint_sill", name: "巨生薄荷窗台", desc: "发现巨生薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.giant_mint);
+    } },
+    { id: "giant_mint_walker", name: "巨生薄荷径旅人", desc: "走过巨生薄荷短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.giant_mint_path);
+    } },
+    { id: "giant_lavender_sill", name: "巨生薰衣草窗台", desc: "发现巨生薰衣草", check: function (s) {
+      return !!(s.discovered && s.discovered.giant_lavender);
+    } },
+    { id: "giant_lavender_walker", name: "巨生薰衣草径旅人", desc: "走过巨生薰衣草短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.giant_lavender_path);
+    } },
+    { id: "giant_rosemary_sill", name: "巨生迷迭香窗台", desc: "发现巨生迷迭香", check: function (s) {
+      return !!(s.discovered && s.discovered.giant_rosemary);
+    } },
+    { id: "giant_rosemary_walker", name: "巨生迷迭香径旅人", desc: "走过巨生迷迭香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.giant_rosemary_path);
+    } },
+    { id: "giant_marjoram_sill", name: "巨生马郁兰窗台", desc: "发现巨生马郁兰", check: function (s) {
+      return !!(s.discovered && s.discovered.giant_marjoram);
+    } },
+    { id: "giant_marjoram_walker", name: "巨生马郁兰径旅人", desc: "走过巨生马郁兰短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.giant_marjoram_path);
+    } },
+    { id: "giant_tarragon_sill", name: "巨生龙蒿窗台", desc: "发现巨生龙蒿", check: function (s) {
+      return !!(s.discovered && s.discovered.giant_tarragon);
+    } },
+    { id: "giant_tarragon_walker", name: "巨生龙蒿径旅人", desc: "走过巨生龙蒿短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.giant_tarragon_path);
+    } },
+    { id: "giant_chive_sill", name: "巨生香葱窗台", desc: "发现巨生香葱", check: function (s) {
+      return !!(s.discovered && s.discovered.giant_chive);
+    } },
+    { id: "giant_chive_walker", name: "巨生香葱径旅人", desc: "走过巨生香葱短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.giant_chive_path);
+    } },
+    { id: "giant_parsley_sill", name: "巨生欧芹窗台", desc: "发现巨生欧芹", check: function (s) {
+      return !!(s.discovered && s.discovered.giant_parsley);
+    } },
+    { id: "giant_parsley_walker", name: "巨生欧芹径旅人", desc: "走过巨生欧芹短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.giant_parsley_path);
+    } },
+    { id: "giant_cilantro_sill", name: "巨生香菜窗台", desc: "发现巨生香菜", check: function (s) {
+      return !!(s.discovered && s.discovered.giant_cilantro);
+    } },
+    { id: "giant_cilantro_walker", name: "巨生香菜径旅人", desc: "走过巨生香菜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.giant_cilantro_path);
+    } },
+    { id: "giant_dill_sill", name: "巨生莳萝窗台", desc: "发现巨生莳萝", check: function (s) {
+      return !!(s.discovered && s.discovered.giant_dill);
+    } },
+    { id: "giant_dill_walker", name: "巨生莳萝径旅人", desc: "走过巨生莳萝短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.giant_dill_path);
+    } },
+    { id: "giant_fennel_sill", name: "巨生茴香窗台", desc: "发现巨生茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.giant_fennel);
+    } },
+    { id: "giant_fennel_walker", name: "巨生茴香径旅人", desc: "走过巨生茴香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.giant_fennel_path);
+    } },
+    { id: "giant_lovage_sill", name: "巨生独活窗台", desc: "发现巨生独活", check: function (s) {
+      return !!(s.discovered && s.discovered.giant_lovage);
+    } },
+    { id: "giant_lovage_walker", name: "巨生独活径旅人", desc: "走过巨生独活短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.giant_lovage_path);
+    } },
+    { id: "giant_sorrel_sill", name: "巨生酸模窗台", desc: "发现巨生酸模", check: function (s) {
+      return !!(s.discovered && s.discovered.giant_sorrel);
+    } },
+    { id: "giant_sorrel_walker", name: "巨生酸模径旅人", desc: "走过巨生酸模短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.giant_sorrel_path);
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "path_ninety", name: "九十路图鉴", desc: "切换过 90 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 90; } },
     { id: "flavor_pin", name: "调味架钉子", desc: "钉过 1 次风味", check: function (s) { return (s.stats && s.stats.flavorPins || 0) >= 1; } },
@@ -7508,7 +8408,7 @@
       score += 0.5;
       notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || flavorDef.id === "litchi" || flavorDef.id === "olive" || flavorDef.id === "mango" || flavorDef.id === "pineapple" || flavorDef.id === "coconut" || flavorDef.id === "starfruit" || flavorDef.id === "passion_fruit" || flavorDef.id === "kiwi" || flavorDef.id === "dragonfruit" || flavorDef.id === "guava" || flavorDef.id === "cherry" || flavorDef.id === "apricot" || flavorDef.id === "grapefruit" || flavorDef.id === "tangerine" || flavorDef.id === "wax_apple" || flavorDef.id === "sugarcane" || flavorDef.id === "lemon" || flavorDef.id === "lime" || flavorDef.id === "cranberry" || flavorDef.id === "elderberry" || flavorDef.id === "honeydew" || flavorDef.id === "watermelon" || flavorDef.id === "cantaloupe" || flavorDef.id === "papaya" || flavorDef.id === "rambutan" || flavorDef.id === "jackfruit" || flavorDef.id === "oregano" || flavorDef.id === "chive" || flavorDef.id === "parsley" || flavorDef.id === "avocado" || flavorDef.id === "chervil" || flavorDef.id === "sorrel" || flavorDef.id === "verbena" || flavorDef.id === "savory" || flavorDef.id === "celery_seed" || flavorDef.id === "galangal" || flavorDef.id === "kaffir_lime" || flavorDef.id === "pandan" || flavorDef.id === "juniper" || flavorDef.id === "sumac" || flavorDef.id === "nigella" || flavorDef.id === "mustard_seed" || flavorDef.id === "wasabi" || flavorDef.id === "dandelion" || flavorDef.id === "nettle" || flavorDef.id === "borage" || flavorDef.id === "hops" || flavorDef.id === "heather" || flavorDef.id === "arnica" || flavorDef.id === "echinacea" || flavorDef.id === "feverfew" || flavorDef.id === "lemon_verbena" || flavorDef.id === "mullein" || flavorDef.id === "plantain_leaf" || flavorDef.id === "bee_balm" || flavorDef.id === "marshmallow" || flavorDef.id === "goldenrod" || flavorDef.id === "red_clover" || flavorDef.id === "white_clover" || flavorDef.id === "catnip" || flavorDef.id === "tansy" || flavorDef.id === "agrimony" || flavorDef.id === "rue" || flavorDef.id === "costmary" || flavorDef.id === "elecampane" || flavorDef.id === "meadow_clary" || flavorDef.id === "soapwort" || flavorDef.id === "milfoil" || flavorDef.id === "lady_mantle" || flavorDef.id === "speedwell" || flavorDef.id === "stitchwort" || flavorDef.id === "campion" || flavorDef.id === "silverweed" || flavorDef.id === "loosestrife" || flavorDef.id === "willowherb" || flavorDef.id === "bedstraw" || flavorDef.id === "cleavers" || flavorDef.id === "bugle" || flavorDef.id === "primrose" || flavorDef.id === "cowslip" || flavorDef.id === "oxeye" || flavorDef.id === "knapweed" || flavorDef.id === "scabious" || flavorDef.id === "nettle_seed" || flavorDef.id === "rowan" || flavorDef.id === "crabapple" || flavorDef.id === "serviceberry" || flavorDef.id === "elderflower_fresh" || flavorDef.id === "meadowsweet_fresh" || flavorDef.id === "wood_sorrel" || flavorDef.id === "wild_garlic" || flavorDef.id === "ramsons" || flavorDef.id === "jack_by_hedge" || flavorDef.id === "hedge_mustard" || flavorDef.id === "watercress" || flavorDef.id === "brooklime" || flavorDef.id === "cloudberry" || flavorDef.id === "lingonberry" || flavorDef.id === "bilberry" || flavorDef.id === "gooseberry" || flavorDef.id === "currant_red" || flavorDef.id === "currant_black" || flavorDef.id === "whitecurrant" || flavorDef.id === "sea_buckthorn" || flavorDef.id === "damson" || flavorDef.id === "greengage" || flavorDef.id === "mirabelle" || flavorDef.id === "saskatoon" || flavorDef.id === "chokeberry" || flavorDef.id === "yarrow_white" || flavorDef.id === "achillea_pink" || flavorDef.id === "cornflower" || flavorDef.id === "poppy_seed" || flavorDef.id === "flax_flower" || flavorDef.id === "chia_seed" || flavorDef.id === "sunflower_seed" || flavorDef.id === "fennel_pollen" || flavorDef.id === "fennel_frond" || flavorDef.id === "dill_pollen" || flavorDef.id === "celery_leaf" || flavorDef.id === "rooibos" || flavorDef.id === "honeybush" || flavorDef.id === "yerba_mate" || flavorDef.id === "guayusa" || flavorDef.id === "gardenia" || flavorDef.id === "magnolia" || flavorDef.id === "frangipani" || flavorDef.id === "plumeria" || flavorDef.id === "stephanotis" || flavorDef.id === "garden_phlox" || flavorDef.id === "osmanthus_fresh" || flavorDef.id === "galangal_fresh" || flavorDef.id === "ginger_flower" || flavorDef.id === "turmeric_fresh" || flavorDef.id === "cubeb" || flavorDef.id === "makrut_leaf" || flavorDef.id === "curry_leaf" || flavorDef.id === "holy_basil" || flavorDef.id === "thai_basil" || flavorDef.id === "lemon_basil" || flavorDef.id === "rambutan_fresh" || flavorDef.id === "lychee_fresh" || flavorDef.id === "mangosteen" || flavorDef.id === "durian_flower" || flavorDef.id === "tamarind" || flavorDef.id === "calamansi" || flavorDef.id === "fig_fresh" || flavorDef.id === "pomegranate_seed" || flavorDef.id === "cactus_pear" || flavorDef.id === "prickly_pear" || flavorDef.id === "sapodilla" || flavorDef.id === "soursop" || flavorDef.id === "cherimoya" || flavorDef.id === "feijoa" || flavorDef.id === "loquat_fresh" || flavorDef.id === "jujube_fresh" || flavorDef.id === "mulberry_white" || flavorDef.id === "mulberry_black" || flavorDef.id === "elderberry_fresh" || flavorDef.id === "bergamot_fresh" || flavorDef.id === "sudachi" || flavorDef.id === "kabosu" || flavorDef.id === "amanatsu" || flavorDef.id === "shiso_green" || flavorDef.id === "shiso_red" || flavorDef.id === "mitsuba" || flavorDef.id === "myoga" || flavorDef.id === "wasabi_leaf" || flavorDef.id === "sansho" || flavorDef.id === "kinome" || flavorDef.id === "gentian" || flavorDef.id === "arnica_montana" || flavorDef.id === "alpine_strawberry" || flavorDef.id === "bilberry_leaf" || flavorDef.id === "spruce_tip" || flavorDef.id === "olive_leaf" || flavorDef.id === "caper" || flavorDef.id === "zaatar" || flavorDef.id === "sumac_berry" || flavorDef.id === "orange_blossom" || flavorDef.id === "lavender_honey" || flavorDef.id === "thyme_honey" || flavorDef.id === "acacia_honey" || flavorDef.id === "manuka" || flavorDef.id === "bee_pollen" || flavorDef.id === "comb_honey" || flavorDef.id === "linden_honey" || flavorDef.id === "heather_honey_wild" || flavorDef.id === "wildflower_honey" || flavorDef.id === "clover_honey" || flavorDef.id === "eucalyptus_honey" || flavorDef.id === "mesquite" || flavorDef.id === "lucuma" || flavorDef.id === "camu_camu" || flavorDef.id === "acai" || flavorDef.id === "maqui" || flavorDef.id === "goji_fresh" || flavorDef.id === "amla" || flavorDef.id === "baobab" || flavorDef.id === "morinda" || flavorDef.id === "noni" || flavorDef.id === "cupuacu" || flavorDef.id === "matcha_ceremonial" || flavorDef.id === "sencha" || flavorDef.id === "gyokuro" || flavorDef.id === "bancha" || flavorDef.id === "kukicha" || flavorDef.id === "mugicha" || flavorDef.id === "barley_grass" || flavorDef.id === "wheatgrass" || flavorDef.id === "spirulina" || flavorDef.id === "chlorella" || flavorDef.id === "kelp" || flavorDef.id === "nori" || flavorDef.id === "hibiscus_fresh" || flavorDef.id === "chrysanthemum_fresh" || flavorDef.id === "peony" || flavorDef.id === "lotus_leaf_fresh" || flavorDef.id === "osmanthus_sugar" || flavorDef.id === "orchid_petal" || flavorDef.id === "bamboo_leaf_fresh" || flavorDef.id === "bamboo_shoot_fresh" || flavorDef.id === "safflower" || flavorDef.id === "calendula_fresh" || flavorDef.id === "pot_marigold" || flavorDef.id === "coreopsis" || flavorDef.id === "cosmos" || flavorDef.id === "zinnia" || flavorDef.id === "dahlia" || flavorDef.id === "gladiolus" || flavorDef.id === "iris" || flavorDef.id === "tulip" || flavorDef.id === "ranunculus" || flavorDef.id === "sweet_pea" || flavorDef.id === "nasturtium" || flavorDef.id === "morning_glory" || flavorDef.id === "clematis" || flavorDef.id === "wisteria_fresh" || flavorDef.id === "jasmine_sambac" || flavorDef.id === "gardenia_tea" || flavorDef.id === "boysenberry" || flavorDef.id === "loganberry" || flavorDef.id === "tayberry" || flavorDef.id === "marionberry" || flavorDef.id === "wineberry" || flavorDef.id === "salmonberry" || flavorDef.id === "thimbleberry" || flavorDef.id === "cloudberry_leaf" || flavorDef.id === "lovage_fresh" || flavorDef.id === "sweet_cicely" || flavorDef.id === "ramsons_flower" || flavorDef.id === "sea_kale" || flavorDef.id === "scurvygrass" || flavorDef.id === "marsh_samphire" || flavorDef.id === "agave_nectar" || flavorDef.id === "prickly_pear_pad" || flavorDef.id === "jojoba" || flavorDef.id === "mesquite_pod" || flavorDef.id === "creosote" || flavorDef.id === "desert_sage" || flavorDef.id === "yucca_flower" || flavorDef.id === "yerba_santa" || flavorDef.id === "cedron" || flavorDef.id === "muña" || flavorDef.id === "coca_leaf_tea" || flavorDef.id === "guarana" || flavorDef.id === "stevia_leaf" || flavorDef.id === "rooibos_green" || flavorDef.id === "honeybush_fresh" || flavorDef.id === "buchu" || flavorDef.id === "baobab_leaf" || flavorDef.id === "marula" || flavorDef.id === "kinkeliba" || flavorDef.id === "hibiscus_sab" || flavorDef.id === "pandan_fresh" || flavorDef.id === "lemongrass_fresh" || flavorDef.id === "galangal_leaf" || flavorDef.id === "torch_ginger" || flavorDef.id === "butterfly_pea" || flavorDef.id === "chrysanthemum_ind" || flavorDef.id === "tamarind_leaf" || flavorDef.id === "coconut_flower" || flavorDef.id === "bergamot_leaf" || flavorDef.id === "neroli" || flavorDef.id === "petitgrain" || flavorDef.id === "immortelle" || flavorDef.id === "helichrysum" || flavorDef.id === "cistus" || flavorDef.id === "spruce_beer" || flavorDef.id === "fireweed" || flavorDef.id === "fireweed_honey" || flavorDef.id === "crowberry" || flavorDef.id === "bearberry" || flavorDef.id === "labrador_violet" || flavorDef.id === "matcha_salt" || flavorDef.id === "sansho_leaf" || flavorDef.id === "shiso_flower" || flavorDef.id === "sakura_leaf" || flavorDef.id === "lavender_sugar" || flavorDef.id === "rose_water" || flavorDef.id === "orange_flower_water" || flavorDef.id === "almond_blossom" || flavorDef.id === "chestnut_flower" || flavorDef.id === "maesil" || flavorDef.id === "persimmon_leaf" || flavorDef.id === "pine_flower" || flavorDef.id === "tulsi" || flavorDef.id === "neem_flower" || flavorDef.id === "curry_blossom" || flavorDef.id === "ajwain_leaf" || flavorDef.id === "fenugreek_leaf" || flavorDef.id === "moringa" || flavorDef.id === "gotu_kola" || flavorDef.id === "brahmi" || flavorDef.id === "hibiscus_rosa" || flavorDef.id === "allspice_berry" || flavorDef.id === "annatto" || flavorDef.id === "epazote" || flavorDef.id === "papalo" || flavorDef.id === "hoja_santa" || flavorDef.id === "mexican_oregano" || flavorDef.id === "chile_flower" || flavorDef.id === "noni_leaf" || flavorDef.id === "ti_leaf" || flavorDef.id === "frangipani_tea" || flavorDef.id === "soursop_leaf" || flavorDef.id === "guava_leaf" || flavorDef.id === "passion_leaf" || flavorDef.id === "vanilla_orchid" || flavorDef.id === "longjing" || flavorDef.id === "biluochun" || flavorDef.id === "puer_raw" || flavorDef.id === "white_peony_tea" || flavorDef.id === "valerian_flower" || flavorDef.id === "hops_flower" || flavorDef.id === "meadowsweet_flower" || flavorDef.id === "yarrow_flower" || flavorDef.id === "nettle_seed_tea" || flavorDef.id === "silver_birch" || flavorDef.id === "copper_beech" || flavorDef.id === "hornbeam" || flavorDef.id === "field_maple" || flavorDef.id === "wild_service" || flavorDef.id === "guelder_rose" || flavorDef.id === "wayfaring" || flavorDef.id === "dogwood" || flavorDef.id === "spindle" || flavorDef.id === "buckthorn" || flavorDef.id === "privet" || flavorDef.id === "boxwood" || flavorDef.id === "bluebell_fresh" || flavorDef.id === "primula_veris" || flavorDef.id === "oxlip" || flavorDef.id === "cowslip_fresh" || flavorDef.id === "wood_anemone" || flavorDef.id === "wood_sorrel_pink" || flavorDef.id === "greater_stitchwort" || flavorDef.id === "red_campion" || flavorDef.id === "white_campion" || flavorDef.id === "ragged_robin" || flavorDef.id === "cuckooflower" || flavorDef.id === "lady_smock" || flavorDef.id === "garlic_mustard_fl" || flavorDef.id === "hedge_garlic_seed" || flavorDef.id === "jack_hedge_leaf" || flavorDef.id === "wild_mustard" || flavorDef.id === "meadow_buttercup" || flavorDef.id === "creeping_buttercup" || flavorDef.id === "lesser_celandine" || flavorDef.id === "marsh_marigold" || flavorDef.id === "globe_flower" || flavorDef.id === "columbine" || flavorDef.id === "monkshood" || flavorDef.id === "larkspur" || flavorDef.id === "delphinium" || flavorDef.id === "pasque_flower" || flavorDef.id === "anemone_coronaria" || flavorDef.id === "hepatic" || flavorDef.id === "clematis_vitalba" || flavorDef.id === "speedwell_germander" || flavorDef.id === "germander" || flavorDef.id === "betony_fresh" || flavorDef.id === "selfheal_fresh" || flavorDef.id === "woundwort" || flavorDef.id === "hedge_woundwort" || flavorDef.id === "marsh_woundwort" || flavorDef.id === "motherwort_fresh" || flavorDef.id === "scutellaria" || flavorDef.id === "bugle_fresh" || flavorDef.id === "alehoof" || flavorDef.id === "clary_sage" || flavorDef.id === "pineapple_sage" || flavorDef.id === "fruit_sage" || flavorDef.id === "white_sage" || flavorDef.id === "russian_sage" || flavorDef.id === "meadow_clary_fresh" || flavorDef.id === "wood_sage" || flavorDef.id === "jerusalem_sage" || flavorDef.id === "catmint" || flavorDef.id === "catnip_fresh" || flavorDef.id === "hyssop_fresh" || flavorDef.id === "anise_hyssop" || flavorDef.id === "korean_mint" || flavorDef.id === "agastache" || flavorDef.id === "lavender_spike" || flavorDef.id === "lavender_sto" || flavorDef.id === "thyme_lemon" || flavorDef.id === "thyme_orange" || flavorDef.id === "thyme_caraway" || flavorDef.id === "thyme_woolly" || flavorDef.id === "creeping_thyme" || flavorDef.id === "oregano_greek" || flavorDef.id === "oregano_italian" || flavorDef.id === "marjoram_sweet" || flavorDef.id === "savory_summer" || flavorDef.id === "basil_genovese" || flavorDef.id === "basil_cinnamon" || flavorDef.id === "basil_purple" || flavorDef.id === "basil_lettuce" || flavorDef.id === "mint_peppermint" || flavorDef.id === "mint_spearmint" || flavorDef.id === "mint_chocolate" || flavorDef.id === "mint_apple" || flavorDef.id === "mint_ginger" || flavorDef.id === "mint_orange" || flavorDef.id === "mint_lavender" || flavorDef.id === "mint_bergamot" || flavorDef.id === "mint_corsican" || flavorDef.id === "mint_water" || flavorDef.id === "melissa_fresh" || flavorDef.id === "lemon_balm_var" || flavorDef.id === "bee_balm_pink" || flavorDef.id === "bee_balm_purple" || flavorDef.id === "oregano_hop" || flavorDef.id === "dittany" || flavorDef.id === "dictamnus" || flavorDef.id === "burning_bush" || flavorDef.id === "chamomile_roman" || flavorDef.id === "chamomile_german" || flavorDef.id === "feverfew_fresh" || flavorDef.id === "tansy_fresh" || flavorDef.id === "yarrow_pink" || flavorDef.id === "yarrow_gold" || flavorDef.id === "arnica_fresh" || flavorDef.id === "calendula_offic" || flavorDef.id === "pot_marigold_dbl" || flavorDef.id === "tagetes" || flavorDef.id === "marigold_french" || flavorDef.id === "signet_marigold" || flavorDef.id === "costmary_fresh" || flavorDef.id === "elecampane_fresh" || flavorDef.id === "inula" || flavorDef.id === "eupatorium" || flavorDef.id === "echinacea_purp" || flavorDef.id === "echinacea_ang" || flavorDef.id === "echinacea_pall" || flavorDef.id === "rudbeckia" || flavorDef.id === "black_eyed_susan" || flavorDef.id === "coneflower_yellow" || flavorDef.id === "helenium" || flavorDef.id === "helenium_autumn" || flavorDef.id === "coreopsis_lance" || flavorDef.id === "coreopsis_tick" || flavorDef.id === "gaillardia" || flavorDef.id === "gaillardia_fan" || flavorDef.id === "ratibida" || flavorDef.id === "silphium" || flavorDef.id === "cup_plant" || flavorDef.id === "compass_plant" || flavorDef.id === "aster_novae" || flavorDef.id === "aster_novi" || flavorDef.id === "michaelmas" || flavorDef.id === "goldenrod_fresh" || flavorDef.id === "solidago" || flavorDef.id === "boltonia" || flavorDef.id === "erigeron" || flavorDef.id === "fleabane" || flavorDef.id === "daisy_oxeye" || flavorDef.id === "daisy_english" || flavorDef.id === "daisy_shasta" || flavorDef.id === "chrysanthemum_ind_fresh" || flavorDef.id === "chrysanthemum_mor" || flavorDef.id === "chrysanthemum_yej" || flavorDef.id === "tanacetum" || flavorDef.id === "pyrethrum" || flavorDef.id === "sunflower_dwarf" || flavorDef.id === "sunflower_multi" || flavorDef.id === "sunflower_red" || flavorDef.id === "sunchoke_flower" || flavorDef.id === "dahlia_cactus" || flavorDef.id === "dahlia_pompom" || flavorDef.id === "zinnia_dwarf" || flavorDef.id === "zinnia_cactus" || flavorDef.id === "cosmos_sulph" || flavorDef.id === "cosmos_choco" || flavorDef.id === "tithonia" || flavorDef.id === "mexican_sunflower" || flavorDef.id === "heliopsis" || flavorDef.id === "inula_helenium" || flavorDef.id === "verbena_bon" || flavorDef.id === "verbena_rig" || flavorDef.id === "lantana" || flavorDef.id === "lantana_white" || flavorDef.id === "phlox_pan" || flavorDef.id === "phlox_sub" || flavorDef.id === "phlox_drum" || flavorDef.id === "dianthus_chin" || flavorDef.id === "dianthus_barb" || flavorDef.id === "sweet_william" || flavorDef.id === "carnation" || flavorDef.id === "pinks" || flavorDef.id === "gypsophila" || flavorDef.id === "baby_breath" || flavorDef.id === "saponaria" || flavorDef.id === "soapwort_fresh" || flavorDef.id === "campanula" || flavorDef.id === "campanula_med" || flavorDef.id === "lobelia" || flavorDef.id === "lobelia_card" || flavorDef.id === "penstemon" || flavorDef.id === "penstemon_fox" || flavorDef.id === "digitalis" || flavorDef.id === "digitalis_lutea" || flavorDef.id === "snapdragon" || flavorDef.id === "snapdragon_dwarf" || flavorDef.id === "antirrhinum" || flavorDef.id === "linaria" || flavorDef.id === "toadflax" || flavorDef.id === "verbascum_chaix" || flavorDef.id === "mullein_white" || flavorDef.id === "mimulus" || flavorDef.id === "monkeyflower" || flavorDef.id === "collinsia" || flavorDef.id === "castilleja" || flavorDef.id === "paintbrush" || flavorDef.id === "orthocarpus" || flavorDef.id === "pedicularis" || flavorDef.id === "lousewort" || flavorDef.id === "euphrasia" || flavorDef.id === "eyebright" || flavorDef.id === "rhinanthus" || flavorDef.id === "yellow_rattle" || flavorDef.id === "melampyrum" || flavorDef.id === "cow_wheat" || flavorDef.id === "bartisia" || flavorDef.id === "cattleya" || flavorDef.id === "dendrobium" || flavorDef.id === "phalaenopsis" || flavorDef.id === "oncidium" || flavorDef.id === "vanda" || flavorDef.id === "paphiopedilum" || flavorDef.id === "miltonia" || flavorDef.id === "odontoglossum" || flavorDef.id === "brassia" || flavorDef.id === "epidendrum" || flavorDef.id === "ludisia" || flavorDef.id === "anoectochilus" || flavorDef.id === "gastrodia" || flavorDef.id === "bletilla" || flavorDef.id === "calanthe" || flavorDef.id === "boston_fern" || flavorDef.id === "bird_nest_fern" || flavorDef.id === "staghorn" || flavorDef.id === "holly_fern" || flavorDef.id === "autumn_fern" || flavorDef.id === "ostrich_fern" || flavorDef.id === "cinnamon_fern" || flavorDef.id === "bracken_tip" || flavorDef.id === "adder_tongue" || flavorDef.id === "miscanthus" || flavorDef.id === "pampas" || flavorDef.id === "fountain_grass" || flavorDef.id === "japanese_forest" || flavorDef.id === "carex_morrow" || flavorDef.id === "scirpus" || flavorDef.id === "typha_pollen" || flavorDef.id === "phragmites" || flavorDef.id === "bamboo_black" || flavorDef.id === "bamboo_golden" || flavorDef.id === "echeveria" || flavorDef.id === "sedum_morgan" || flavorDef.id === "sedum_spect" || flavorDef.id === "sempervivum" || flavorDef.id === "aeonium" || flavorDef.id === "crassula" || flavorDef.id === "kalanchoe" || flavorDef.id === "haworthia" || flavorDef.id === "agave_flower" || flavorDef.id === "yucca_filament" || flavorDef.id === "sansevieria" || flavorDef.id === "jade_plant" || flavorDef.id === "panda_plant" || flavorDef.id === "boysen_leaf" || flavorDef.id === "logan_leaf" || flavorDef.id === "tay_leaf" || flavorDef.id === "marion_leaf" || flavorDef.id === "wine_leaf" || flavorDef.id === "salmon_leaf" || flavorDef.id === "thimble_leaf" || flavorDef.id === "cloud_flower" || flavorDef.id === "huckleberry" || flavorDef.id === "huckle_leaf" || flavorDef.id === "salal" || flavorDef.id === "salal_leaf" || flavorDef.id === "oregon_grape" || flavorDef.id === "mahonia" || flavorDef.id === "barberry_red" || flavorDef.id === "barberry_leaf" || flavorDef.id === "currant_flower" || flavorDef.id === "goose_flower" || flavorDef.id === "josta" || flavorDef.id === "worcesterberry" || flavorDef.id === "juneberry" || flavorDef.id === "shadbush" || flavorDef.id === "chokecherry" || flavorDef.id === "bird_cherry" || flavorDef.id === "pin_cherry" || flavorDef.id === "sand_cherry" || flavorDef.id === "nanking_cherry" || flavorDef.id === "cornelian" || flavorDef.id === "honeyberry" || flavorDef.id === "hascap" || flavorDef.id === "clematis_arm" || flavorDef.id === "clematis_mon" || flavorDef.id === "clematis_tang" || flavorDef.id === "clematis_ori" || flavorDef.id === "akibia" || flavorDef.id === "akebia_flower" || flavorDef.id === "kiwi_hardy" || flavorDef.id === "kiwi_flower" || flavorDef.id === "actinidia" || flavorDef.id === "silver_vine" || flavorDef.id === "hop_fresh" || flavorDef.id === "hop_leaf" || flavorDef.id === "humulus" || flavorDef.id === "japanese_hop" || flavorDef.id === "grape_leaf_fresh" || flavorDef.id === "vine_tendril" || flavorDef.id === "muscadine" || flavorDef.id === "scuppernong" || flavorDef.id === "passiflora_inc" || flavorDef.id === "passiflora_cae" || flavorDef.id === "passiflora_ed" || flavorDef.id === "maypop" || flavorDef.id === "morning_glory_red" || flavorDef.id === "morning_glory_blue" || flavorDef.id === "ipomoea_bat" || flavorDef.id === "moonvine" || flavorDef.id === "cypress_vine" || flavorDef.id === "cardinal_climber" || flavorDef.id === "black_eyed_susan_vine" || flavorDef.id === "thunbergia" || flavorDef.id === "sweet_potato_leaf" || flavorDef.id === "dioscorea" || flavorDef.id === "luffa_flower" || flavorDef.id === "luffa_leaf" || flavorDef.id === "bitter_melon_fl" || flavorDef.id === "bitter_melon_leaf" || flavorDef.id === "squash_blossom" || flavorDef.id === "zucchini_flower" || flavorDef.id === "cucumber_flower" || flavorDef.id === "melon_flower" || flavorDef.id === "okra_flower" || flavorDef.id === "okra_leaf" || flavorDef.id === "hibiscus_escul" || flavorDef.id === "roselle_fresh" || flavorDef.id === "cotton_flower" || flavorDef.id === "cotton_leaf" || flavorDef.id === "kenaf" || flavorDef.id === "jute_leaf" || flavorDef.id === "flax_blue" || flavorDef.id === "flax_red" || flavorDef.id === "hemp_flower" || flavorDef.id === "nettle_fresh" || flavorDef.id === "dead_nettle" || flavorDef.id === "purple_dead_nettle" || flavorDef.id === "henbit" || flavorDef.id === "lamium" || flavorDef.id === "galeopsis" || flavorDef.id === "stachys_byz" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || flavorDef.id === "litchi" || flavorDef.id === "olive" || flavorDef.id === "mango" || flavorDef.id === "pineapple" || flavorDef.id === "coconut" || flavorDef.id === "starfruit" || flavorDef.id === "passion_fruit" || flavorDef.id === "kiwi" || flavorDef.id === "dragonfruit" || flavorDef.id === "guava" || flavorDef.id === "cherry" || flavorDef.id === "apricot" || flavorDef.id === "grapefruit" || flavorDef.id === "tangerine" || flavorDef.id === "wax_apple" || flavorDef.id === "sugarcane" || flavorDef.id === "lemon" || flavorDef.id === "lime" || flavorDef.id === "cranberry" || flavorDef.id === "elderberry" || flavorDef.id === "honeydew" || flavorDef.id === "watermelon" || flavorDef.id === "cantaloupe" || flavorDef.id === "papaya" || flavorDef.id === "rambutan" || flavorDef.id === "jackfruit" || flavorDef.id === "oregano" || flavorDef.id === "chive" || flavorDef.id === "parsley" || flavorDef.id === "avocado" || flavorDef.id === "chervil" || flavorDef.id === "sorrel" || flavorDef.id === "verbena" || flavorDef.id === "savory" || flavorDef.id === "celery_seed" || flavorDef.id === "galangal" || flavorDef.id === "kaffir_lime" || flavorDef.id === "pandan" || flavorDef.id === "juniper" || flavorDef.id === "sumac" || flavorDef.id === "nigella" || flavorDef.id === "mustard_seed" || flavorDef.id === "wasabi" || flavorDef.id === "dandelion" || flavorDef.id === "nettle" || flavorDef.id === "borage" || flavorDef.id === "hops" || flavorDef.id === "heather" || flavorDef.id === "arnica" || flavorDef.id === "echinacea" || flavorDef.id === "feverfew" || flavorDef.id === "lemon_verbena" || flavorDef.id === "mullein" || flavorDef.id === "plantain_leaf" || flavorDef.id === "bee_balm" || flavorDef.id === "marshmallow" || flavorDef.id === "goldenrod" || flavorDef.id === "red_clover" || flavorDef.id === "white_clover" || flavorDef.id === "catnip" || flavorDef.id === "tansy" || flavorDef.id === "agrimony" || flavorDef.id === "rue" || flavorDef.id === "costmary" || flavorDef.id === "elecampane" || flavorDef.id === "meadow_clary" || flavorDef.id === "soapwort" || flavorDef.id === "milfoil" || flavorDef.id === "lady_mantle" || flavorDef.id === "speedwell" || flavorDef.id === "stitchwort" || flavorDef.id === "campion" || flavorDef.id === "silverweed" || flavorDef.id === "loosestrife" || flavorDef.id === "willowherb" || flavorDef.id === "bedstraw" || flavorDef.id === "cleavers" || flavorDef.id === "bugle" || flavorDef.id === "primrose" || flavorDef.id === "cowslip" || flavorDef.id === "oxeye" || flavorDef.id === "knapweed" || flavorDef.id === "scabious" || flavorDef.id === "nettle_seed" || flavorDef.id === "rowan" || flavorDef.id === "crabapple" || flavorDef.id === "serviceberry" || flavorDef.id === "elderflower_fresh" || flavorDef.id === "meadowsweet_fresh" || flavorDef.id === "wood_sorrel" || flavorDef.id === "wild_garlic" || flavorDef.id === "ramsons" || flavorDef.id === "jack_by_hedge" || flavorDef.id === "hedge_mustard" || flavorDef.id === "watercress" || flavorDef.id === "brooklime" || flavorDef.id === "cloudberry" || flavorDef.id === "lingonberry" || flavorDef.id === "bilberry" || flavorDef.id === "gooseberry" || flavorDef.id === "currant_red" || flavorDef.id === "currant_black" || flavorDef.id === "whitecurrant" || flavorDef.id === "sea_buckthorn" || flavorDef.id === "damson" || flavorDef.id === "greengage" || flavorDef.id === "mirabelle" || flavorDef.id === "saskatoon" || flavorDef.id === "chokeberry" || flavorDef.id === "yarrow_white" || flavorDef.id === "achillea_pink" || flavorDef.id === "cornflower" || flavorDef.id === "poppy_seed" || flavorDef.id === "flax_flower" || flavorDef.id === "chia_seed" || flavorDef.id === "sunflower_seed" || flavorDef.id === "fennel_pollen" || flavorDef.id === "fennel_frond" || flavorDef.id === "dill_pollen" || flavorDef.id === "celery_leaf" || flavorDef.id === "rooibos" || flavorDef.id === "honeybush" || flavorDef.id === "yerba_mate" || flavorDef.id === "guayusa" || flavorDef.id === "gardenia" || flavorDef.id === "magnolia" || flavorDef.id === "frangipani" || flavorDef.id === "plumeria" || flavorDef.id === "stephanotis" || flavorDef.id === "garden_phlox" || flavorDef.id === "osmanthus_fresh" || flavorDef.id === "galangal_fresh" || flavorDef.id === "ginger_flower" || flavorDef.id === "turmeric_fresh" || flavorDef.id === "cubeb" || flavorDef.id === "makrut_leaf" || flavorDef.id === "curry_leaf" || flavorDef.id === "holy_basil" || flavorDef.id === "thai_basil" || flavorDef.id === "lemon_basil" || flavorDef.id === "rambutan_fresh" || flavorDef.id === "lychee_fresh" || flavorDef.id === "mangosteen" || flavorDef.id === "durian_flower" || flavorDef.id === "tamarind" || flavorDef.id === "calamansi" || flavorDef.id === "fig_fresh" || flavorDef.id === "pomegranate_seed" || flavorDef.id === "cactus_pear" || flavorDef.id === "prickly_pear" || flavorDef.id === "sapodilla" || flavorDef.id === "soursop" || flavorDef.id === "cherimoya" || flavorDef.id === "feijoa" || flavorDef.id === "loquat_fresh" || flavorDef.id === "jujube_fresh" || flavorDef.id === "mulberry_white" || flavorDef.id === "mulberry_black" || flavorDef.id === "elderberry_fresh" || flavorDef.id === "bergamot_fresh" || flavorDef.id === "sudachi" || flavorDef.id === "kabosu" || flavorDef.id === "amanatsu" || flavorDef.id === "shiso_green" || flavorDef.id === "shiso_red" || flavorDef.id === "mitsuba" || flavorDef.id === "myoga" || flavorDef.id === "wasabi_leaf" || flavorDef.id === "sansho" || flavorDef.id === "kinome" || flavorDef.id === "gentian" || flavorDef.id === "arnica_montana" || flavorDef.id === "alpine_strawberry" || flavorDef.id === "bilberry_leaf" || flavorDef.id === "spruce_tip" || flavorDef.id === "olive_leaf" || flavorDef.id === "caper" || flavorDef.id === "zaatar" || flavorDef.id === "sumac_berry" || flavorDef.id === "orange_blossom" || flavorDef.id === "lavender_honey" || flavorDef.id === "thyme_honey" || flavorDef.id === "acacia_honey" || flavorDef.id === "manuka" || flavorDef.id === "bee_pollen" || flavorDef.id === "comb_honey" || flavorDef.id === "linden_honey" || flavorDef.id === "heather_honey_wild" || flavorDef.id === "wildflower_honey" || flavorDef.id === "clover_honey" || flavorDef.id === "eucalyptus_honey" || flavorDef.id === "mesquite" || flavorDef.id === "lucuma" || flavorDef.id === "camu_camu" || flavorDef.id === "acai" || flavorDef.id === "maqui" || flavorDef.id === "goji_fresh" || flavorDef.id === "amla" || flavorDef.id === "baobab" || flavorDef.id === "morinda" || flavorDef.id === "noni" || flavorDef.id === "cupuacu" || flavorDef.id === "matcha_ceremonial" || flavorDef.id === "sencha" || flavorDef.id === "gyokuro" || flavorDef.id === "bancha" || flavorDef.id === "kukicha" || flavorDef.id === "mugicha" || flavorDef.id === "barley_grass" || flavorDef.id === "wheatgrass" || flavorDef.id === "spirulina" || flavorDef.id === "chlorella" || flavorDef.id === "kelp" || flavorDef.id === "nori" || flavorDef.id === "hibiscus_fresh" || flavorDef.id === "chrysanthemum_fresh" || flavorDef.id === "peony" || flavorDef.id === "lotus_leaf_fresh" || flavorDef.id === "osmanthus_sugar" || flavorDef.id === "orchid_petal" || flavorDef.id === "bamboo_leaf_fresh" || flavorDef.id === "bamboo_shoot_fresh" || flavorDef.id === "safflower" || flavorDef.id === "calendula_fresh" || flavorDef.id === "pot_marigold" || flavorDef.id === "coreopsis" || flavorDef.id === "cosmos" || flavorDef.id === "zinnia" || flavorDef.id === "dahlia" || flavorDef.id === "gladiolus" || flavorDef.id === "iris" || flavorDef.id === "tulip" || flavorDef.id === "ranunculus" || flavorDef.id === "sweet_pea" || flavorDef.id === "nasturtium" || flavorDef.id === "morning_glory" || flavorDef.id === "clematis" || flavorDef.id === "wisteria_fresh" || flavorDef.id === "jasmine_sambac" || flavorDef.id === "gardenia_tea" || flavorDef.id === "boysenberry" || flavorDef.id === "loganberry" || flavorDef.id === "tayberry" || flavorDef.id === "marionberry" || flavorDef.id === "wineberry" || flavorDef.id === "salmonberry" || flavorDef.id === "thimbleberry" || flavorDef.id === "cloudberry_leaf" || flavorDef.id === "lovage_fresh" || flavorDef.id === "sweet_cicely" || flavorDef.id === "ramsons_flower" || flavorDef.id === "sea_kale" || flavorDef.id === "scurvygrass" || flavorDef.id === "marsh_samphire" || flavorDef.id === "agave_nectar" || flavorDef.id === "prickly_pear_pad" || flavorDef.id === "jojoba" || flavorDef.id === "mesquite_pod" || flavorDef.id === "creosote" || flavorDef.id === "desert_sage" || flavorDef.id === "yucca_flower" || flavorDef.id === "yerba_santa" || flavorDef.id === "cedron" || flavorDef.id === "muña" || flavorDef.id === "coca_leaf_tea" || flavorDef.id === "guarana" || flavorDef.id === "stevia_leaf" || flavorDef.id === "rooibos_green" || flavorDef.id === "honeybush_fresh" || flavorDef.id === "buchu" || flavorDef.id === "baobab_leaf" || flavorDef.id === "marula" || flavorDef.id === "kinkeliba" || flavorDef.id === "hibiscus_sab" || flavorDef.id === "pandan_fresh" || flavorDef.id === "lemongrass_fresh" || flavorDef.id === "galangal_leaf" || flavorDef.id === "torch_ginger" || flavorDef.id === "butterfly_pea" || flavorDef.id === "chrysanthemum_ind" || flavorDef.id === "tamarind_leaf" || flavorDef.id === "coconut_flower" || flavorDef.id === "bergamot_leaf" || flavorDef.id === "neroli" || flavorDef.id === "petitgrain" || flavorDef.id === "immortelle" || flavorDef.id === "helichrysum" || flavorDef.id === "cistus" || flavorDef.id === "spruce_beer" || flavorDef.id === "fireweed" || flavorDef.id === "fireweed_honey" || flavorDef.id === "crowberry" || flavorDef.id === "bearberry" || flavorDef.id === "labrador_violet" || flavorDef.id === "matcha_salt" || flavorDef.id === "sansho_leaf" || flavorDef.id === "shiso_flower" || flavorDef.id === "sakura_leaf" || flavorDef.id === "lavender_sugar" || flavorDef.id === "rose_water" || flavorDef.id === "orange_flower_water" || flavorDef.id === "almond_blossom" || flavorDef.id === "chestnut_flower" || flavorDef.id === "maesil" || flavorDef.id === "persimmon_leaf" || flavorDef.id === "pine_flower" || flavorDef.id === "tulsi" || flavorDef.id === "neem_flower" || flavorDef.id === "curry_blossom" || flavorDef.id === "ajwain_leaf" || flavorDef.id === "fenugreek_leaf" || flavorDef.id === "moringa" || flavorDef.id === "gotu_kola" || flavorDef.id === "brahmi" || flavorDef.id === "hibiscus_rosa" || flavorDef.id === "allspice_berry" || flavorDef.id === "annatto" || flavorDef.id === "epazote" || flavorDef.id === "papalo" || flavorDef.id === "hoja_santa" || flavorDef.id === "mexican_oregano" || flavorDef.id === "chile_flower" || flavorDef.id === "noni_leaf" || flavorDef.id === "ti_leaf" || flavorDef.id === "frangipani_tea" || flavorDef.id === "soursop_leaf" || flavorDef.id === "guava_leaf" || flavorDef.id === "passion_leaf" || flavorDef.id === "vanilla_orchid" || flavorDef.id === "longjing" || flavorDef.id === "biluochun" || flavorDef.id === "puer_raw" || flavorDef.id === "white_peony_tea" || flavorDef.id === "valerian_flower" || flavorDef.id === "hops_flower" || flavorDef.id === "meadowsweet_flower" || flavorDef.id === "yarrow_flower" || flavorDef.id === "nettle_seed_tea" || flavorDef.id === "silver_birch" || flavorDef.id === "copper_beech" || flavorDef.id === "hornbeam" || flavorDef.id === "field_maple" || flavorDef.id === "wild_service" || flavorDef.id === "guelder_rose" || flavorDef.id === "wayfaring" || flavorDef.id === "dogwood" || flavorDef.id === "spindle" || flavorDef.id === "buckthorn" || flavorDef.id === "privet" || flavorDef.id === "boxwood" || flavorDef.id === "bluebell_fresh" || flavorDef.id === "primula_veris" || flavorDef.id === "oxlip" || flavorDef.id === "cowslip_fresh" || flavorDef.id === "wood_anemone" || flavorDef.id === "wood_sorrel_pink" || flavorDef.id === "greater_stitchwort" || flavorDef.id === "red_campion" || flavorDef.id === "white_campion" || flavorDef.id === "ragged_robin" || flavorDef.id === "cuckooflower" || flavorDef.id === "lady_smock" || flavorDef.id === "garlic_mustard_fl" || flavorDef.id === "hedge_garlic_seed" || flavorDef.id === "jack_hedge_leaf" || flavorDef.id === "wild_mustard" || flavorDef.id === "meadow_buttercup" || flavorDef.id === "creeping_buttercup" || flavorDef.id === "lesser_celandine" || flavorDef.id === "marsh_marigold" || flavorDef.id === "globe_flower" || flavorDef.id === "columbine" || flavorDef.id === "monkshood" || flavorDef.id === "larkspur" || flavorDef.id === "delphinium" || flavorDef.id === "pasque_flower" || flavorDef.id === "anemone_coronaria" || flavorDef.id === "hepatic" || flavorDef.id === "clematis_vitalba" || flavorDef.id === "speedwell_germander" || flavorDef.id === "germander" || flavorDef.id === "betony_fresh" || flavorDef.id === "selfheal_fresh" || flavorDef.id === "woundwort" || flavorDef.id === "hedge_woundwort" || flavorDef.id === "marsh_woundwort" || flavorDef.id === "motherwort_fresh" || flavorDef.id === "scutellaria" || flavorDef.id === "bugle_fresh" || flavorDef.id === "alehoof" || flavorDef.id === "clary_sage" || flavorDef.id === "pineapple_sage" || flavorDef.id === "fruit_sage" || flavorDef.id === "white_sage" || flavorDef.id === "russian_sage" || flavorDef.id === "meadow_clary_fresh" || flavorDef.id === "wood_sage" || flavorDef.id === "jerusalem_sage" || flavorDef.id === "catmint" || flavorDef.id === "catnip_fresh" || flavorDef.id === "hyssop_fresh" || flavorDef.id === "anise_hyssop" || flavorDef.id === "korean_mint" || flavorDef.id === "agastache" || flavorDef.id === "lavender_spike" || flavorDef.id === "lavender_sto" || flavorDef.id === "thyme_lemon" || flavorDef.id === "thyme_orange" || flavorDef.id === "thyme_caraway" || flavorDef.id === "thyme_woolly" || flavorDef.id === "creeping_thyme" || flavorDef.id === "oregano_greek" || flavorDef.id === "oregano_italian" || flavorDef.id === "marjoram_sweet" || flavorDef.id === "savory_summer" || flavorDef.id === "basil_genovese" || flavorDef.id === "basil_cinnamon" || flavorDef.id === "basil_purple" || flavorDef.id === "basil_lettuce" || flavorDef.id === "mint_peppermint" || flavorDef.id === "mint_spearmint" || flavorDef.id === "mint_chocolate" || flavorDef.id === "mint_apple" || flavorDef.id === "mint_ginger" || flavorDef.id === "mint_orange" || flavorDef.id === "mint_lavender" || flavorDef.id === "mint_bergamot" || flavorDef.id === "mint_corsican" || flavorDef.id === "mint_water" || flavorDef.id === "melissa_fresh" || flavorDef.id === "lemon_balm_var" || flavorDef.id === "bee_balm_pink" || flavorDef.id === "bee_balm_purple" || flavorDef.id === "oregano_hop" || flavorDef.id === "dittany" || flavorDef.id === "dictamnus" || flavorDef.id === "burning_bush" || flavorDef.id === "chamomile_roman" || flavorDef.id === "chamomile_german" || flavorDef.id === "feverfew_fresh" || flavorDef.id === "tansy_fresh" || flavorDef.id === "yarrow_pink" || flavorDef.id === "yarrow_gold" || flavorDef.id === "arnica_fresh" || flavorDef.id === "calendula_offic" || flavorDef.id === "pot_marigold_dbl" || flavorDef.id === "tagetes" || flavorDef.id === "marigold_french" || flavorDef.id === "signet_marigold" || flavorDef.id === "costmary_fresh" || flavorDef.id === "elecampane_fresh" || flavorDef.id === "inula" || flavorDef.id === "eupatorium" || flavorDef.id === "echinacea_purp" || flavorDef.id === "echinacea_ang" || flavorDef.id === "echinacea_pall" || flavorDef.id === "rudbeckia" || flavorDef.id === "black_eyed_susan" || flavorDef.id === "coneflower_yellow" || flavorDef.id === "helenium" || flavorDef.id === "helenium_autumn" || flavorDef.id === "coreopsis_lance" || flavorDef.id === "coreopsis_tick" || flavorDef.id === "gaillardia" || flavorDef.id === "gaillardia_fan" || flavorDef.id === "ratibida" || flavorDef.id === "silphium" || flavorDef.id === "cup_plant" || flavorDef.id === "compass_plant" || flavorDef.id === "aster_novae" || flavorDef.id === "aster_novi" || flavorDef.id === "michaelmas" || flavorDef.id === "goldenrod_fresh" || flavorDef.id === "solidago" || flavorDef.id === "boltonia" || flavorDef.id === "erigeron" || flavorDef.id === "fleabane" || flavorDef.id === "daisy_oxeye" || flavorDef.id === "daisy_english" || flavorDef.id === "daisy_shasta" || flavorDef.id === "chrysanthemum_ind_fresh" || flavorDef.id === "chrysanthemum_mor" || flavorDef.id === "chrysanthemum_yej" || flavorDef.id === "tanacetum" || flavorDef.id === "pyrethrum" || flavorDef.id === "sunflower_dwarf" || flavorDef.id === "sunflower_multi" || flavorDef.id === "sunflower_red" || flavorDef.id === "sunchoke_flower" || flavorDef.id === "dahlia_cactus" || flavorDef.id === "dahlia_pompom" || flavorDef.id === "zinnia_dwarf" || flavorDef.id === "zinnia_cactus" || flavorDef.id === "cosmos_sulph" || flavorDef.id === "cosmos_choco" || flavorDef.id === "tithonia" || flavorDef.id === "mexican_sunflower" || flavorDef.id === "heliopsis" || flavorDef.id === "inula_helenium" || flavorDef.id === "verbena_bon" || flavorDef.id === "verbena_rig" || flavorDef.id === "lantana" || flavorDef.id === "lantana_white" || flavorDef.id === "phlox_pan" || flavorDef.id === "phlox_sub" || flavorDef.id === "phlox_drum" || flavorDef.id === "dianthus_chin" || flavorDef.id === "dianthus_barb" || flavorDef.id === "sweet_william" || flavorDef.id === "carnation" || flavorDef.id === "pinks" || flavorDef.id === "gypsophila" || flavorDef.id === "baby_breath" || flavorDef.id === "saponaria" || flavorDef.id === "soapwort_fresh" || flavorDef.id === "campanula" || flavorDef.id === "campanula_med" || flavorDef.id === "lobelia" || flavorDef.id === "lobelia_card" || flavorDef.id === "penstemon" || flavorDef.id === "penstemon_fox" || flavorDef.id === "digitalis" || flavorDef.id === "digitalis_lutea" || flavorDef.id === "snapdragon" || flavorDef.id === "snapdragon_dwarf" || flavorDef.id === "antirrhinum" || flavorDef.id === "linaria" || flavorDef.id === "toadflax" || flavorDef.id === "verbascum_chaix" || flavorDef.id === "mullein_white" || flavorDef.id === "mimulus" || flavorDef.id === "monkeyflower" || flavorDef.id === "collinsia" || flavorDef.id === "castilleja" || flavorDef.id === "paintbrush" || flavorDef.id === "orthocarpus" || flavorDef.id === "pedicularis" || flavorDef.id === "lousewort" || flavorDef.id === "euphrasia" || flavorDef.id === "eyebright" || flavorDef.id === "rhinanthus" || flavorDef.id === "yellow_rattle" || flavorDef.id === "melampyrum" || flavorDef.id === "cow_wheat" || flavorDef.id === "bartisia" || flavorDef.id === "cattleya" || flavorDef.id === "dendrobium" || flavorDef.id === "phalaenopsis" || flavorDef.id === "oncidium" || flavorDef.id === "vanda" || flavorDef.id === "paphiopedilum" || flavorDef.id === "miltonia" || flavorDef.id === "odontoglossum" || flavorDef.id === "brassia" || flavorDef.id === "epidendrum" || flavorDef.id === "ludisia" || flavorDef.id === "anoectochilus" || flavorDef.id === "gastrodia" || flavorDef.id === "bletilla" || flavorDef.id === "calanthe" || flavorDef.id === "boston_fern" || flavorDef.id === "bird_nest_fern" || flavorDef.id === "staghorn" || flavorDef.id === "holly_fern" || flavorDef.id === "autumn_fern" || flavorDef.id === "ostrich_fern" || flavorDef.id === "cinnamon_fern" || flavorDef.id === "bracken_tip" || flavorDef.id === "adder_tongue" || flavorDef.id === "miscanthus" || flavorDef.id === "pampas" || flavorDef.id === "fountain_grass" || flavorDef.id === "japanese_forest" || flavorDef.id === "carex_morrow" || flavorDef.id === "scirpus" || flavorDef.id === "typha_pollen" || flavorDef.id === "phragmites" || flavorDef.id === "bamboo_black" || flavorDef.id === "bamboo_golden" || flavorDef.id === "echeveria" || flavorDef.id === "sedum_morgan" || flavorDef.id === "sedum_spect" || flavorDef.id === "sempervivum" || flavorDef.id === "aeonium" || flavorDef.id === "crassula" || flavorDef.id === "kalanchoe" || flavorDef.id === "haworthia" || flavorDef.id === "agave_flower" || flavorDef.id === "yucca_filament" || flavorDef.id === "sansevieria" || flavorDef.id === "jade_plant" || flavorDef.id === "panda_plant" || flavorDef.id === "boysen_leaf" || flavorDef.id === "logan_leaf" || flavorDef.id === "tay_leaf" || flavorDef.id === "marion_leaf" || flavorDef.id === "wine_leaf" || flavorDef.id === "salmon_leaf" || flavorDef.id === "thimble_leaf" || flavorDef.id === "cloud_flower" || flavorDef.id === "huckleberry" || flavorDef.id === "huckle_leaf" || flavorDef.id === "salal" || flavorDef.id === "salal_leaf" || flavorDef.id === "oregon_grape" || flavorDef.id === "mahonia" || flavorDef.id === "barberry_red" || flavorDef.id === "barberry_leaf" || flavorDef.id === "currant_flower" || flavorDef.id === "goose_flower" || flavorDef.id === "josta" || flavorDef.id === "worcesterberry" || flavorDef.id === "juneberry" || flavorDef.id === "shadbush" || flavorDef.id === "chokecherry" || flavorDef.id === "bird_cherry" || flavorDef.id === "pin_cherry" || flavorDef.id === "sand_cherry" || flavorDef.id === "nanking_cherry" || flavorDef.id === "cornelian" || flavorDef.id === "honeyberry" || flavorDef.id === "hascap" || flavorDef.id === "clematis_arm" || flavorDef.id === "clematis_mon" || flavorDef.id === "clematis_tang" || flavorDef.id === "clematis_ori" || flavorDef.id === "akibia" || flavorDef.id === "akebia_flower" || flavorDef.id === "kiwi_hardy" || flavorDef.id === "kiwi_flower" || flavorDef.id === "actinidia" || flavorDef.id === "silver_vine" || flavorDef.id === "hop_fresh" || flavorDef.id === "hop_leaf" || flavorDef.id === "humulus" || flavorDef.id === "japanese_hop" || flavorDef.id === "grape_leaf_fresh" || flavorDef.id === "vine_tendril" || flavorDef.id === "muscadine" || flavorDef.id === "scuppernong" || flavorDef.id === "passiflora_inc" || flavorDef.id === "passiflora_cae" || flavorDef.id === "passiflora_ed" || flavorDef.id === "maypop" || flavorDef.id === "morning_glory_red" || flavorDef.id === "morning_glory_blue" || flavorDef.id === "ipomoea_bat" || flavorDef.id === "moonvine" || flavorDef.id === "cypress_vine" || flavorDef.id === "cardinal_climber" || flavorDef.id === "black_eyed_susan_vine" || flavorDef.id === "thunbergia" || flavorDef.id === "sweet_potato_leaf" || flavorDef.id === "dioscorea" || flavorDef.id === "luffa_flower" || flavorDef.id === "luffa_leaf" || flavorDef.id === "bitter_melon_fl" || flavorDef.id === "bitter_melon_leaf" || flavorDef.id === "squash_blossom" || flavorDef.id === "zucchini_flower" || flavorDef.id === "cucumber_flower" || flavorDef.id === "melon_flower" || flavorDef.id === "okra_flower" || flavorDef.id === "okra_leaf" || flavorDef.id === "hibiscus_escul" || flavorDef.id === "roselle_fresh" || flavorDef.id === "cotton_flower" || flavorDef.id === "cotton_leaf" || flavorDef.id === "kenaf" || flavorDef.id === "jute_leaf" || flavorDef.id === "flax_blue" || flavorDef.id === "flax_red" || flavorDef.id === "hemp_flower" || flavorDef.id === "nettle_fresh" || flavorDef.id === "dead_nettle" || flavorDef.id === "purple_dead_nettle" || flavorDef.id === "henbit" || flavorDef.id === "lamium" || flavorDef.id === "galeopsis" || flavorDef.id === "stachys_byz" || flavorDef.id === "alpine_rosemary" || flavorDef.id === "alpine_marjoram" || flavorDef.id === "alpine_chive" || flavorDef.id === "alpine_cilantro" || flavorDef.id === "alpine_dill" || flavorDef.id === "alpine_lovage" || flavorDef.id === "alpine_sorrel" || flavorDef.id === "coastal_thyme" || flavorDef.id === "coastal_sage" || flavorDef.id === "coastal_oregano" || flavorDef.id === "coastal_basil" || flavorDef.id === "coastal_mint" || flavorDef.id === "coastal_lavender" || flavorDef.id === "coastal_marjoram" || flavorDef.id === "coastal_tarragon" || flavorDef.id === "coastal_chive" || flavorDef.id === "coastal_parsley" || flavorDef.id === "coastal_cilantro" || flavorDef.id === "coastal_dill" || flavorDef.id === "coastal_sorrel" || flavorDef.id === "meadow_thyme" || flavorDef.id === "meadow_sage" || flavorDef.id === "meadow_oregano" || flavorDef.id === "meadow_basil" || flavorDef.id === "meadow_mint" || flavorDef.id === "meadow_lavender" || flavorDef.id === "meadow_marjoram" || flavorDef.id === "meadow_tarragon" || flavorDef.id === "meadow_chive" || flavorDef.id === "meadow_parsley" || flavorDef.id === "meadow_cilantro" || flavorDef.id === "meadow_dill" || flavorDef.id === "meadow_sorrel" || flavorDef.id === "woodland_thyme" || flavorDef.id === "woodland_sage" || flavorDef.id === "woodland_oregano" || flavorDef.id === "woodland_basil" || flavorDef.id === "woodland_mint" || flavorDef.id === "woodland_lavender" || flavorDef.id === "woodland_marjoram" || flavorDef.id === "woodland_tarragon" || flavorDef.id === "woodland_chive" || flavorDef.id === "woodland_parsley" || flavorDef.id === "woodland_cilantro" || flavorDef.id === "woodland_dill" || flavorDef.id === "woodland_fennel" || flavorDef.id === "woodland_lovage" || flavorDef.id === "woodland_sorrel" || flavorDef.id === "garden_thyme" || flavorDef.id === "garden_sage" || flavorDef.id === "garden_oregano" || flavorDef.id === "garden_basil" || flavorDef.id === "garden_mint" || flavorDef.id === "garden_lavender" || flavorDef.id === "garden_marjoram" || flavorDef.id === "garden_tarragon" || flavorDef.id === "garden_chive" || flavorDef.id === "garden_parsley" || flavorDef.id === "garden_cilantro" || flavorDef.id === "garden_dill" || flavorDef.id === "garden_fennel" || flavorDef.id === "garden_lovage" || flavorDef.id === "garden_sorrel" || flavorDef.id === "wild_thyme" || flavorDef.id === "wild_sage" || flavorDef.id === "wild_oregano" || flavorDef.id === "wild_basil" || flavorDef.id === "wild_mint" || flavorDef.id === "wild_lavender" || flavorDef.id === "wild_rosemary" || flavorDef.id === "wild_marjoram" || flavorDef.id === "wild_tarragon" || flavorDef.id === "wild_chive" || flavorDef.id === "wild_parsley" || flavorDef.id === "wild_cilantro" || flavorDef.id === "wild_dill" || flavorDef.id === "wild_fennel" || flavorDef.id === "wild_lovage" || flavorDef.id === "wild_sorrel" || flavorDef.id === "dwarf_thyme" || flavorDef.id === "dwarf_sage" || flavorDef.id === "dwarf_oregano" || flavorDef.id === "dwarf_basil" || flavorDef.id === "dwarf_mint" || flavorDef.id === "dwarf_lavender" || flavorDef.id === "dwarf_marjoram" || flavorDef.id === "dwarf_chive" || flavorDef.id === "dwarf_parsley" || flavorDef.id === "dwarf_cilantro" || flavorDef.id === "dwarf_dill" || flavorDef.id === "dwarf_fennel" || flavorDef.id === "dwarf_lovage" || flavorDef.id === "dwarf_sorrel" || flavorDef.id === "giant_oregano" || flavorDef.id === "giant_basil" || flavorDef.id === "giant_marjoram" || flavorDef.id === "giant_tarragon" || flavorDef.id === "giant_chive" || flavorDef.id === "giant_parsley" || flavorDef.id === "giant_cilantro" || flavorDef.id === "giant_dill" || flavorDef.id === "giant_lovage" || flavorDef.id === "giant_sorrel" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5;
       notes.push("夏日清爽");
     }
@@ -7516,7 +8416,7 @@
       score += 0.5;
       notes.push("秋日温甜");
     }
-    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube" || flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron" || flavorDef.id === "pistachio" || flavorDef.id === "chestnut" || flavorDef.id === "cinnamon" || flavorDef.id === "clove" || flavorDef.id === "star_anise" || flavorDef.id === "nutmeg" || flavorDef.id === "goji" || flavorDef.id === "bay_leaf" || flavorDef.id === "tarragon" || flavorDef.id === "date_fruit" || flavorDef.id === "hyssop" || flavorDef.id === "lovage" || flavorDef.id === "anise_seed" || flavorDef.id === "turmeric" || flavorDef.id === "allspice" || flavorDef.id === "mace" || flavorDef.id === "caraway" || flavorDef.id === "cumin" || flavorDef.id === "fenugreek" || flavorDef.id === "ajwain" || flavorDef.id === "myrtle" || flavorDef.id === "chicory" || flavorDef.id === "nettle" || flavorDef.id === "yarrow" || flavorDef.id === "woodruff" || flavorDef.id === "valerian" || flavorDef.id === "meadowsweet" || flavorDef.id === "angelica" || flavorDef.id === "comfrey" || flavorDef.id === "selfheal" || flavorDef.id === "skullcap" || flavorDef.id === "linden" || flavorDef.id === "horehound" || flavorDef.id === "motherwort" || flavorDef.id === "betony" || flavorDef.id === "solomon_seal" || flavorDef.id === "wormwood" || flavorDef.id === "valerian_root" || flavorDef.id === "avens" || flavorDef.id === "tormentil" || flavorDef.id === "figwort" || flavorDef.id === "ground_ivy" || flavorDef.id === "self_heal_spike" || flavorDef.id === "teasel" || flavorDef.id === "burdock" || flavorDef.id === "hawthorn_berry" || flavorDef.id === "rosehip" || flavorDef.id === "sloe" || flavorDef.id === "wintercress" || flavorDef.id === "medlar" || flavorDef.id === "quince" || flavorDef.id === "aronia" || flavorDef.id === "flax_seed" || flavorDef.id === "hemp_seed" || flavorDef.id === "pumpkin_seed" || flavorDef.id === "sesame_black" || flavorDef.id === "sesame_white" || flavorDef.id === "lapacho" || flavorDef.id === "sassafras" || flavorDef.id === "birch_bark" || flavorDef.id === "pine_resin" || flavorDef.id === "tuberose" || flavorDef.id === "cardamom_green" || flavorDef.id === "cardamom_black" || flavorDef.id === "long_pepper" || flavorDef.id === "grains_of_paradise" || flavorDef.id === "cinnamon_leaf" || flavorDef.id === "clove_bud" || flavorDef.id === "allspice_leaf" || flavorDef.id === "reindeer_moss" || flavorDef.id === "iceland_moss" || flavorDef.id === "oak_moss" || flavorDef.id === "usnea" || flavorDef.id === "chaga" || flavorDef.id === "reishi" || flavorDef.id === "lion_mane" || flavorDef.id === "maitake" || flavorDef.id === "jackfruit_seed" || flavorDef.id === "rowan_jelly" || flavorDef.id === "quince_paste" || flavorDef.id === "yuzu_fresh" || flavorDef.id === "ponkan" || flavorDef.id === "dekopon" || flavorDef.id === "hassaku" || flavorDef.id === "yuzu_kosho" || flavorDef.id === "edelweiss" || flavorDef.id === "juniper_berry" || flavorDef.id === "fir_needle" || flavorDef.id === "myrtle_berry" || flavorDef.id === "mastic" || flavorDef.id === "saffron_crocus" || flavorDef.id === "buckwheat_honey" || flavorDef.id === "chestnut_honey" || flavorDef.id === "propolis" || flavorDef.id === "royal_jelly" || flavorDef.id === "mead_herb" || flavorDef.id === "cacao_nibs" || flavorDef.id === "cacao_husk" || flavorDef.id === "carob" || flavorDef.id === "maca" || flavorDef.id === "schisandra" || flavorDef.id === "hojicha" || flavorDef.id === "genmaicha" || flavorDef.id === "sobacha" || flavorDef.id === "job_tears" || flavorDef.id === "rose_hip_tea" || flavorDef.id === "camellia_fresh" || flavorDef.id === "lotus_seed_fresh" || flavorDef.id === "plum_blossom" || flavorDef.id === "wintersweet" || flavorDef.id === "ginkgo_leaf_fresh" || flavorDef.id === "ginkgo_nut_fresh" || flavorDef.id === "osmanthus_wine" || flavorDef.id === "crocus" || flavorDef.id === "snowdrop" || flavorDef.id === "crocus_yellow" || flavorDef.id === "hyacinth" || flavorDef.id === "daffodil" || flavorDef.id === "moonflower" || flavorDef.id === "magnolia_bark" || flavorDef.id === "eucommia" || flavorDef.id === "astragalus" || flavorDef.id === "codonopsis" || flavorDef.id === "rehmannia" || flavorDef.id === "polygonatum" || flavorDef.id === "ophiopogon" || flavorDef.id === "angelica_arch" || flavorDef.id === "wood_avense" || flavorDef.id === "ephedra" || flavorDef.id === "boldo" || flavorDef.id === "cupuacu_butter" || flavorDef.id === "sutherlandia" || flavorDef.id === "citron" || flavorDef.id === "bergamot_peel" || flavorDef.id === "labrador_tea" || flavorDef.id === "arctic_willow" || flavorDef.id === "kinako" || flavorDef.id === "kuromitsu" || flavorDef.id === "yuzu_peel" || flavorDef.id === "ume_blossom" || flavorDef.id === "vanilla_bean" || flavorDef.id === "tonka_bean" || flavorDef.id === "hazelnut_flower" || flavorDef.id === "omija" || flavorDef.id === "yuja" || flavorDef.id === "ssanghwa" || flavorDef.id === "jujube_tea" || flavorDef.id === "ginger_tea_kr" || flavorDef.id === "kava" || flavorDef.id === "tieguanyin" || flavorDef.id === "dahongpao" || flavorDef.id === "puer_ripe" || flavorDef.id === "shoumei" || flavorDef.id === "burdock_root" || flavorDef.id === "dandelion_root" || flavorDef.id === "chicory_root" || flavorDef.id === "holly_leaf" || flavorDef.id === "ivy_berry" || flavorDef.id === "mistletoe" || flavorDef.id === "yew_berry" || flavorDef.id === "aconite" || flavorDef.id === "helleborus" || flavorDef.id === "christmas_rose" || flavorDef.id === "black_horehound" || flavorDef.id === "white_horehound" || flavorDef.id === "skullcap_fresh" || flavorDef.id === "baikal_skullcap" || flavorDef.id === "ground_ivy_fresh" || flavorDef.id === "savory_winter" || flavorDef.id === "jerusalem_artichoke" || flavorDef.id === "topinambur" || flavorDef.id === "figwort_fresh" || flavorDef.id === "scrophularia" || flavorDef.id === "cymbidium" || flavorDef.id === "maidenhair" || flavorDef.id === "sword_fern" || flavorDef.id === "japanese_painted" || flavorDef.id === "royal_fern" || flavorDef.id === "sensitive_fern" || flavorDef.id === "fiddlehead" || flavorDef.id === "moonwort" || flavorDef.id === "blue_fescue" || flavorDef.id === "hakonechloa" || flavorDef.id === "carex_buch" || flavorDef.id === "juncus" || flavorDef.id === "bamboo_moso" || flavorDef.id === "arrow_bamboo" || flavorDef.id === "aloe_vera_fl" || flavorDef.id === "string_pearls" || flavorDef.id === "burros_tail" || flavorDef.id === "honeysuckle_blue" || flavorDef.id === "arctic_berry" || flavorDef.id === "schisandra_chin" || flavorDef.id === "schisandra_leaf" || flavorDef.id === "yam_leaf" || flavorDef.id === "chinese_yam" || flavorDef.id === "linseed_oil" || flavorDef.id === "nettle_root")) {
+    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube" || flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron" || flavorDef.id === "pistachio" || flavorDef.id === "chestnut" || flavorDef.id === "cinnamon" || flavorDef.id === "clove" || flavorDef.id === "star_anise" || flavorDef.id === "nutmeg" || flavorDef.id === "goji" || flavorDef.id === "bay_leaf" || flavorDef.id === "tarragon" || flavorDef.id === "date_fruit" || flavorDef.id === "hyssop" || flavorDef.id === "lovage" || flavorDef.id === "anise_seed" || flavorDef.id === "turmeric" || flavorDef.id === "allspice" || flavorDef.id === "mace" || flavorDef.id === "caraway" || flavorDef.id === "cumin" || flavorDef.id === "fenugreek" || flavorDef.id === "ajwain" || flavorDef.id === "myrtle" || flavorDef.id === "chicory" || flavorDef.id === "nettle" || flavorDef.id === "yarrow" || flavorDef.id === "woodruff" || flavorDef.id === "valerian" || flavorDef.id === "meadowsweet" || flavorDef.id === "angelica" || flavorDef.id === "comfrey" || flavorDef.id === "selfheal" || flavorDef.id === "skullcap" || flavorDef.id === "linden" || flavorDef.id === "horehound" || flavorDef.id === "motherwort" || flavorDef.id === "betony" || flavorDef.id === "solomon_seal" || flavorDef.id === "wormwood" || flavorDef.id === "valerian_root" || flavorDef.id === "avens" || flavorDef.id === "tormentil" || flavorDef.id === "figwort" || flavorDef.id === "ground_ivy" || flavorDef.id === "self_heal_spike" || flavorDef.id === "teasel" || flavorDef.id === "burdock" || flavorDef.id === "hawthorn_berry" || flavorDef.id === "rosehip" || flavorDef.id === "sloe" || flavorDef.id === "wintercress" || flavorDef.id === "medlar" || flavorDef.id === "quince" || flavorDef.id === "aronia" || flavorDef.id === "flax_seed" || flavorDef.id === "hemp_seed" || flavorDef.id === "pumpkin_seed" || flavorDef.id === "sesame_black" || flavorDef.id === "sesame_white" || flavorDef.id === "lapacho" || flavorDef.id === "sassafras" || flavorDef.id === "birch_bark" || flavorDef.id === "pine_resin" || flavorDef.id === "tuberose" || flavorDef.id === "cardamom_green" || flavorDef.id === "cardamom_black" || flavorDef.id === "long_pepper" || flavorDef.id === "grains_of_paradise" || flavorDef.id === "cinnamon_leaf" || flavorDef.id === "clove_bud" || flavorDef.id === "allspice_leaf" || flavorDef.id === "reindeer_moss" || flavorDef.id === "iceland_moss" || flavorDef.id === "oak_moss" || flavorDef.id === "usnea" || flavorDef.id === "chaga" || flavorDef.id === "reishi" || flavorDef.id === "lion_mane" || flavorDef.id === "maitake" || flavorDef.id === "jackfruit_seed" || flavorDef.id === "rowan_jelly" || flavorDef.id === "quince_paste" || flavorDef.id === "yuzu_fresh" || flavorDef.id === "ponkan" || flavorDef.id === "dekopon" || flavorDef.id === "hassaku" || flavorDef.id === "yuzu_kosho" || flavorDef.id === "edelweiss" || flavorDef.id === "juniper_berry" || flavorDef.id === "fir_needle" || flavorDef.id === "myrtle_berry" || flavorDef.id === "mastic" || flavorDef.id === "saffron_crocus" || flavorDef.id === "buckwheat_honey" || flavorDef.id === "chestnut_honey" || flavorDef.id === "propolis" || flavorDef.id === "royal_jelly" || flavorDef.id === "mead_herb" || flavorDef.id === "cacao_nibs" || flavorDef.id === "cacao_husk" || flavorDef.id === "carob" || flavorDef.id === "maca" || flavorDef.id === "schisandra" || flavorDef.id === "hojicha" || flavorDef.id === "genmaicha" || flavorDef.id === "sobacha" || flavorDef.id === "job_tears" || flavorDef.id === "rose_hip_tea" || flavorDef.id === "camellia_fresh" || flavorDef.id === "lotus_seed_fresh" || flavorDef.id === "plum_blossom" || flavorDef.id === "wintersweet" || flavorDef.id === "ginkgo_leaf_fresh" || flavorDef.id === "ginkgo_nut_fresh" || flavorDef.id === "osmanthus_wine" || flavorDef.id === "crocus" || flavorDef.id === "snowdrop" || flavorDef.id === "crocus_yellow" || flavorDef.id === "hyacinth" || flavorDef.id === "daffodil" || flavorDef.id === "moonflower" || flavorDef.id === "magnolia_bark" || flavorDef.id === "eucommia" || flavorDef.id === "astragalus" || flavorDef.id === "codonopsis" || flavorDef.id === "rehmannia" || flavorDef.id === "polygonatum" || flavorDef.id === "ophiopogon" || flavorDef.id === "angelica_arch" || flavorDef.id === "wood_avense" || flavorDef.id === "ephedra" || flavorDef.id === "boldo" || flavorDef.id === "cupuacu_butter" || flavorDef.id === "sutherlandia" || flavorDef.id === "citron" || flavorDef.id === "bergamot_peel" || flavorDef.id === "labrador_tea" || flavorDef.id === "arctic_willow" || flavorDef.id === "kinako" || flavorDef.id === "kuromitsu" || flavorDef.id === "yuzu_peel" || flavorDef.id === "ume_blossom" || flavorDef.id === "vanilla_bean" || flavorDef.id === "tonka_bean" || flavorDef.id === "hazelnut_flower" || flavorDef.id === "omija" || flavorDef.id === "yuja" || flavorDef.id === "ssanghwa" || flavorDef.id === "jujube_tea" || flavorDef.id === "ginger_tea_kr" || flavorDef.id === "kava" || flavorDef.id === "tieguanyin" || flavorDef.id === "dahongpao" || flavorDef.id === "puer_ripe" || flavorDef.id === "shoumei" || flavorDef.id === "burdock_root" || flavorDef.id === "dandelion_root" || flavorDef.id === "chicory_root" || flavorDef.id === "holly_leaf" || flavorDef.id === "ivy_berry" || flavorDef.id === "mistletoe" || flavorDef.id === "yew_berry" || flavorDef.id === "aconite" || flavorDef.id === "helleborus" || flavorDef.id === "christmas_rose" || flavorDef.id === "black_horehound" || flavorDef.id === "white_horehound" || flavorDef.id === "skullcap_fresh" || flavorDef.id === "baikal_skullcap" || flavorDef.id === "ground_ivy_fresh" || flavorDef.id === "savory_winter" || flavorDef.id === "jerusalem_artichoke" || flavorDef.id === "topinambur" || flavorDef.id === "figwort_fresh" || flavorDef.id === "scrophularia" || flavorDef.id === "cymbidium" || flavorDef.id === "maidenhair" || flavorDef.id === "sword_fern" || flavorDef.id === "japanese_painted" || flavorDef.id === "royal_fern" || flavorDef.id === "sensitive_fern" || flavorDef.id === "fiddlehead" || flavorDef.id === "moonwort" || flavorDef.id === "blue_fescue" || flavorDef.id === "hakonechloa" || flavorDef.id === "carex_buch" || flavorDef.id === "juncus" || flavorDef.id === "bamboo_moso" || flavorDef.id === "arrow_bamboo" || flavorDef.id === "aloe_vera_fl" || flavorDef.id === "string_pearls" || flavorDef.id === "burros_tail" || flavorDef.id === "honeysuckle_blue" || flavorDef.id === "arctic_berry" || flavorDef.id === "schisandra_chin" || flavorDef.id === "schisandra_leaf" || flavorDef.id === "yam_leaf" || flavorDef.id === "chinese_yam" || flavorDef.id === "linseed_oil" || flavorDef.id === "nettle_root" || flavorDef.id === "alpine_thyme" || flavorDef.id === "alpine_sage" || flavorDef.id === "alpine_oregano" || flavorDef.id === "alpine_basil" || flavorDef.id === "alpine_mint" || flavorDef.id === "alpine_lavender" || flavorDef.id === "alpine_tarragon" || flavorDef.id === "alpine_parsley" || flavorDef.id === "alpine_fennel" || flavorDef.id === "coastal_rosemary" || flavorDef.id === "coastal_fennel" || flavorDef.id === "coastal_lovage" || flavorDef.id === "meadow_rosemary" || flavorDef.id === "meadow_fennel" || flavorDef.id === "meadow_lovage" || flavorDef.id === "woodland_rosemary" || flavorDef.id === "garden_rosemary" || flavorDef.id === "dwarf_rosemary" || flavorDef.id === "dwarf_tarragon" || flavorDef.id === "giant_thyme" || flavorDef.id === "giant_sage" || flavorDef.id === "giant_mint" || flavorDef.id === "giant_lavender" || flavorDef.id === "giant_rosemary" || flavorDef.id === "giant_fennel")) {
       score += 0.5;
       notes.push("冬日暖茶");
     }
@@ -8348,7 +9248,135 @@
       henbit: true,
       lamium: true,
       galeopsis: true,
-      stachys_byz: true
+      stachys_byz: true,
+      alpine_thyme: true,
+      alpine_sage: true,
+      alpine_oregano: true,
+      alpine_basil: true,
+      alpine_mint: true,
+      alpine_lavender: true,
+      alpine_rosemary: true,
+      alpine_marjoram: true,
+      alpine_tarragon: true,
+      alpine_chive: true,
+      alpine_parsley: true,
+      alpine_cilantro: true,
+      alpine_dill: true,
+      alpine_fennel: true,
+      alpine_lovage: true,
+      alpine_sorrel: true,
+      coastal_thyme: true,
+      coastal_sage: true,
+      coastal_oregano: true,
+      coastal_basil: true,
+      coastal_mint: true,
+      coastal_lavender: true,
+      coastal_rosemary: true,
+      coastal_marjoram: true,
+      coastal_tarragon: true,
+      coastal_chive: true,
+      coastal_parsley: true,
+      coastal_cilantro: true,
+      coastal_dill: true,
+      coastal_fennel: true,
+      coastal_lovage: true,
+      coastal_sorrel: true,
+      meadow_thyme: true,
+      meadow_sage: true,
+      meadow_oregano: true,
+      meadow_basil: true,
+      meadow_mint: true,
+      meadow_lavender: true,
+      meadow_rosemary: true,
+      meadow_marjoram: true,
+      meadow_tarragon: true,
+      meadow_chive: true,
+      meadow_parsley: true,
+      meadow_cilantro: true,
+      meadow_dill: true,
+      meadow_fennel: true,
+      meadow_lovage: true,
+      meadow_sorrel: true,
+      woodland_thyme: true,
+      woodland_sage: true,
+      woodland_oregano: true,
+      woodland_basil: true,
+      woodland_mint: true,
+      woodland_lavender: true,
+      woodland_rosemary: true,
+      woodland_marjoram: true,
+      woodland_tarragon: true,
+      woodland_chive: true,
+      woodland_parsley: true,
+      woodland_cilantro: true,
+      woodland_dill: true,
+      woodland_fennel: true,
+      woodland_lovage: true,
+      woodland_sorrel: true,
+      garden_thyme: true,
+      garden_sage: true,
+      garden_oregano: true,
+      garden_basil: true,
+      garden_mint: true,
+      garden_lavender: true,
+      garden_rosemary: true,
+      garden_marjoram: true,
+      garden_tarragon: true,
+      garden_chive: true,
+      garden_parsley: true,
+      garden_cilantro: true,
+      garden_dill: true,
+      garden_fennel: true,
+      garden_lovage: true,
+      garden_sorrel: true,
+      wild_thyme: true,
+      wild_sage: true,
+      wild_oregano: true,
+      wild_basil: true,
+      wild_mint: true,
+      wild_lavender: true,
+      wild_rosemary: true,
+      wild_marjoram: true,
+      wild_tarragon: true,
+      wild_chive: true,
+      wild_parsley: true,
+      wild_cilantro: true,
+      wild_dill: true,
+      wild_fennel: true,
+      wild_lovage: true,
+      wild_sorrel: true,
+      dwarf_thyme: true,
+      dwarf_sage: true,
+      dwarf_oregano: true,
+      dwarf_basil: true,
+      dwarf_mint: true,
+      dwarf_lavender: true,
+      dwarf_rosemary: true,
+      dwarf_marjoram: true,
+      dwarf_tarragon: true,
+      dwarf_chive: true,
+      dwarf_parsley: true,
+      dwarf_cilantro: true,
+      dwarf_dill: true,
+      dwarf_fennel: true,
+      dwarf_lovage: true,
+      dwarf_sorrel: true,
+      giant_thyme: true,
+      giant_sage: true,
+      giant_oregano: true,
+      giant_basil: true,
+      giant_mint: true,
+      giant_lavender: true,
+      giant_rosemary: true,
+      giant_marjoram: true,
+      giant_tarragon: true,
+      giant_chive: true,
+      giant_parsley: true,
+      giant_cilantro: true,
+      giant_dill: true,
+      giant_fennel: true,
+      giant_lovage: true,
+      giant_sorrel: true
     };
     if (FORAGE_FLAVORS[flavorDef.id] && (baseDef.id === "tea" || baseDef.id === "honey_water" || baseDef.id === "soda" || baseDef.id === "floral_tea")) {
       score += 0.3;
