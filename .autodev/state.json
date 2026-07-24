@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 643,
+  "current_round": 647,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 637,
-  "authentic_game_integrated_rounds": 455,
+  "authentic_rounds_completed": 641,
+  "authentic_game_integrated_rounds": 458,
   "template_spam_archived": true,
-  "current_milestone": "authentic rebuild A0645+",
-  "current_task_id": "A0645-next",
-  "last_completed_task_id": "A0644",
-  "last_commit": "test(docs): A0644",
+  "current_milestone": "authentic rebuild A0649+ 500 themes",
+  "current_task_id": "A0649-next",
+  "last_completed_task_id": "A0648",
+  "last_commit": "test(docs): A0648",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "267 passed, 0 failed",
+  "last_test_summary": "269 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~363) multi-session"
+    "gap to 1000 authentic (~359) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -34,14 +34,14 @@
     "audio feedback",
     "UI polish"
   ],
-  "resume_instructions": "Continue A0645+. Spam DISABLED. authenticRows 637. Themes 491.",
-  "updated_at": "2026-07-24T01:40:09.023095+00:00",
-  "lastAuthenticId": "A0644",
+  "resume_instructions": "Continue A0649+. Spam DISABLED. authenticRows 641. Themes 507. tools/add-plant-path-shop-batch.js",
+  "updated_at": "2026-07-24T01:41:00.137409+00:00",
+  "lastAuthenticId": "A0648",
   "authenticCount": 547,
   "lastGoal": "草药径 beerhops batch",
-  "themes": 491,
-  "testsPass": 267,
-  "authenticRows": 637,
-  "lastRound": 643,
-  "lastId": "A0644"
+  "themes": 507,
+  "testsPass": 269,
+  "authenticRows": 641,
+  "lastRound": 647,
+  "lastId": "A0648"
 }
