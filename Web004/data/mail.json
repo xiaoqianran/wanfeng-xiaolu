@@ -1481,5 +1481,49 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_turmeric",
+    "title": "姜黄一小根",
+    "body": "煮姜黄的旅人来信：新晒的。给你一小根，别放太久。",
+    "effect": {
+      "items": {
+        "turmeric": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_galangal",
+    "title": "高良姜两段",
+    "body": "切高良姜的厨子来信：新切的。给你两段，别放太久。",
+    "effect": {
+      "items": {
+        "galangal": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_pandan",
+    "title": "班兰两叶",
+    "body": "蒸班兰的厨娘来信：新摘的。给你两叶，别放太久。",
+    "effect": {
+      "items": {
+        "pandan": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kaffir_lime",
+    "title": "卡菲尔叶两片",
+    "body": "撕卡菲尔叶的厨子来信：新摘的。给你两片，别放太久。",
+    "effect": {
+      "items": {
+        "kaffir_lime": 2
+      },
+      "coins": 2
+    }
   }
 ]
