@@ -10061,5 +10061,1005 @@ test("banana_flower plantain_flower breadfruit_fl jackfruit_fl durian_fresh_fl s
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("r0_e58c97e5a283 r1_e58c97e5a283 r2_e58c97e5a283 r3_e58c97e5a283 r4_e58c97e5a283 r5_e58c97e5a283 r6_e58c97e5a283 r7_e58c97e5a283 1307 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r0_e58c97e5a283","r1_e58c97e5a283","r2_e58c97e5a283","r3_e58c97e5a283","r4_e58c97e5a283","r5_e58c97e5a283","r6_e58c97e5a283","r7_e58c97e5a283"];
+  const pots = ["r0_e58c97e5a283Pot","r1_e58c97e5a283Pot","r2_e58c97e5a283Pot","r3_e58c97e5a283Pot","r4_e58c97e5a283Pot","r5_e58c97e5a283Pot","r6_e58c97e5a283Pot","r7_e58c97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r0_e58c97e5a283_path","r1_e58c97e5a283_path","r2_e58c97e5a283_path","r3_e58c97e5a283_path","r4_e58c97e5a283_path","r5_e58c97e5a283_path","r6_e58c97e5a283_path","r7_e58c97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1307);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r0_e58c97e5a283","r5_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r1_e58c97e5a283","r2_e58c97e5a283","r3_e58c97e5a283","r4_e58c97e5a283","r6_e58c97e5a283","r7_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r0_e58c97e5a283_path") && game.includes("r7_e58c97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["北境堇菜暖蜜","北境报春暖蜜","北境银莲暖蜜","北境毛茛暖蜜","北境罂粟暖蜜","北境飞燕暖蜜","北境翠雀暖蜜","北境乌头暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("北境堇菜短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("北境堇菜")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r0_e58c97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r8_e58c97e5a283 r9_e58c97e5a283 r10_e58c97e5a283 r11_e58c97e5a283 r12_e58c97e5a283 r13_e58c97e5a283 r14_e58c97e5a283 r15_e58c97e5a283 1315 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r8_e58c97e5a283","r9_e58c97e5a283","r10_e58c97e5a283","r11_e58c97e5a283","r12_e58c97e5a283","r13_e58c97e5a283","r14_e58c97e5a283","r15_e58c97e5a283"];
+  const pots = ["r8_e58c97e5a283Pot","r9_e58c97e5a283Pot","r10_e58c97e5a283Pot","r11_e58c97e5a283Pot","r12_e58c97e5a283Pot","r13_e58c97e5a283Pot","r14_e58c97e5a283Pot","r15_e58c97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r8_e58c97e5a283_path","r9_e58c97e5a283_path","r10_e58c97e5a283_path","r11_e58c97e5a283_path","r12_e58c97e5a283_path","r13_e58c97e5a283_path","r14_e58c97e5a283_path","r15_e58c97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1315);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r10_e58c97e5a283","r15_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r8_e58c97e5a283","r9_e58c97e5a283","r11_e58c97e5a283","r12_e58c97e5a283","r13_e58c97e5a283","r14_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r8_e58c97e5a283_path") && game.includes("r15_e58c97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["北境耧斗暖蜜","北境铁线暖蜜","北境福禄暖蜜","北境石竹暖蜜","北境满天暖蜜","北境霞草暖蜜","北境马鞭暖蜜","北境藿香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("北境耧斗短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("北境耧斗")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r8_e58c97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r16_e58c97e5a283 r17_e58c97e5a283 r18_e58c97e5a283 r19_e58c97e5a283 r20_e58c97e5a283 r21_e58c97e5a283 r22_e58c97e5a283 r23_e58c97e5a283 1323 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r16_e58c97e5a283","r17_e58c97e5a283","r18_e58c97e5a283","r19_e58c97e5a283","r20_e58c97e5a283","r21_e58c97e5a283","r22_e58c97e5a283","r23_e58c97e5a283"];
+  const pots = ["r16_e58c97e5a283Pot","r17_e58c97e5a283Pot","r18_e58c97e5a283Pot","r19_e58c97e5a283Pot","r20_e58c97e5a283Pot","r21_e58c97e5a283Pot","r22_e58c97e5a283Pot","r23_e58c97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r16_e58c97e5a283_path","r17_e58c97e5a283_path","r18_e58c97e5a283_path","r19_e58c97e5a283_path","r20_e58c97e5a283_path","r21_e58c97e5a283_path","r22_e58c97e5a283_path","r23_e58c97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1323);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r20_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r16_e58c97e5a283","r17_e58c97e5a283","r18_e58c97e5a283","r19_e58c97e5a283","r21_e58c97e5a283","r22_e58c97e5a283","r23_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r16_e58c97e5a283_path") && game.includes("r23_e58c97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["北境荆芥暖蜜","北境水苏暖蜜","北境夏枯暖蜜","北境黄芩暖蜜","北境筋骨暖蜜","北境连钱暖蜜","北境香蜂暖蜜","北境猫薄荷暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("北境荆芥短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("北境荆芥")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r16_e58c97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r24_e58c97e5a283 r25_e58c97e5a283 r26_e58c97e5a283 r27_e58c97e5a283 r28_e58c97e5a283 r29_e58c97e5a283 r30_e58c97e5a283 r31_e58c97e5a283 1331 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r24_e58c97e5a283","r25_e58c97e5a283","r26_e58c97e5a283","r27_e58c97e5a283","r28_e58c97e5a283","r29_e58c97e5a283","r30_e58c97e5a283","r31_e58c97e5a283"];
+  const pots = ["r24_e58c97e5a283Pot","r25_e58c97e5a283Pot","r26_e58c97e5a283Pot","r27_e58c97e5a283Pot","r28_e58c97e5a283Pot","r29_e58c97e5a283Pot","r30_e58c97e5a283Pot","r31_e58c97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r24_e58c97e5a283_path","r25_e58c97e5a283_path","r26_e58c97e5a283_path","r27_e58c97e5a283_path","r28_e58c97e5a283_path","r29_e58c97e5a283_path","r30_e58c97e5a283_path","r31_e58c97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1331);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r25_e58c97e5a283","r30_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r24_e58c97e5a283","r26_e58c97e5a283","r27_e58c97e5a283","r28_e58c97e5a283","r29_e58c97e5a283","r31_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r24_e58c97e5a283_path") && game.includes("r31_e58c97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["北境神香暖蜜","北境百里暖蜜","北境牛至暖蜜","北境马郁暖蜜","北境罗勒暖蜜","北境迷迭暖蜜","北境鼠尾暖蜜","北境薰衣草暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("北境神香短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("北境神香")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r24_e58c97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r32_e58c97e5a283 r33_e58c97e5a283 r34_e58c97e5a283 r35_e58c97e5a283 r36_e58c97e5a283 r37_e58c97e5a283 r38_e58c97e5a283 r39_e58c97e5a283 1339 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r32_e58c97e5a283","r33_e58c97e5a283","r34_e58c97e5a283","r35_e58c97e5a283","r36_e58c97e5a283","r37_e58c97e5a283","r38_e58c97e5a283","r39_e58c97e5a283"];
+  const pots = ["r32_e58c97e5a283Pot","r33_e58c97e5a283Pot","r34_e58c97e5a283Pot","r35_e58c97e5a283Pot","r36_e58c97e5a283Pot","r37_e58c97e5a283Pot","r38_e58c97e5a283Pot","r39_e58c97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r32_e58c97e5a283_path","r33_e58c97e5a283_path","r34_e58c97e5a283_path","r35_e58c97e5a283_path","r36_e58c97e5a283_path","r37_e58c97e5a283_path","r38_e58c97e5a283_path","r39_e58c97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1339);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r35_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r32_e58c97e5a283","r33_e58c97e5a283","r34_e58c97e5a283","r36_e58c97e5a283","r37_e58c97e5a283","r38_e58c97e5a283","r39_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r32_e58c97e5a283_path") && game.includes("r39_e58c97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["北境莳萝暖蜜","北境茴香暖蜜","北境独活暖蜜","北境酸模暖蜜","北境欧芹暖蜜","北境香葱暖蜜","北境龙蒿暖蜜","北境芹菜暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("北境莳萝短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("北境莳萝")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r32_e58c97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r40_e58c97e5a283 r41_e58c97e5a283 r42_e58c97e5a283 r43_e58c97e5a283 r44_e58c97e5a283 r45_e58c97e5a283 r46_e58c97e5a283 r47_e58c97e5a283 1347 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r40_e58c97e5a283","r41_e58c97e5a283","r42_e58c97e5a283","r43_e58c97e5a283","r44_e58c97e5a283","r45_e58c97e5a283","r46_e58c97e5a283","r47_e58c97e5a283"];
+  const pots = ["r40_e58c97e5a283Pot","r41_e58c97e5a283Pot","r42_e58c97e5a283Pot","r43_e58c97e5a283Pot","r44_e58c97e5a283Pot","r45_e58c97e5a283Pot","r46_e58c97e5a283Pot","r47_e58c97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r40_e58c97e5a283_path","r41_e58c97e5a283_path","r42_e58c97e5a283_path","r43_e58c97e5a283_path","r44_e58c97e5a283_path","r45_e58c97e5a283_path","r46_e58c97e5a283_path","r47_e58c97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1347);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r40_e58c97e5a283","r45_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r41_e58c97e5a283","r42_e58c97e5a283","r43_e58c97e5a283","r44_e58c97e5a283","r46_e58c97e5a283","r47_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r40_e58c97e5a283_path") && game.includes("r47_e58c97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["北境香芹暖蜜","北境芥末暖蜜","北境黑种暖蜜","北境孜然暖蜜","北境葛缕暖蜜","北境胡芦暖蜜","北境姜黄暖蜜","北境高良暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("北境香芹短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("北境香芹")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r40_e58c97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r48_e58c97e5a283 r49_e58c97e5a283 r50_e58c97e5a283 r51_e58c97e5a283 r52_e58c97e5a283 r53_e58c97e5a283 r54_e58c97e5a283 r55_e58c97e5a283 1355 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r48_e58c97e5a283","r49_e58c97e5a283","r50_e58c97e5a283","r51_e58c97e5a283","r52_e58c97e5a283","r53_e58c97e5a283","r54_e58c97e5a283","r55_e58c97e5a283"];
+  const pots = ["r48_e58c97e5a283Pot","r49_e58c97e5a283Pot","r50_e58c97e5a283Pot","r51_e58c97e5a283Pot","r52_e58c97e5a283Pot","r53_e58c97e5a283Pot","r54_e58c97e5a283Pot","r55_e58c97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r48_e58c97e5a283_path","r49_e58c97e5a283_path","r50_e58c97e5a283_path","r51_e58c97e5a283_path","r52_e58c97e5a283_path","r53_e58c97e5a283_path","r54_e58c97e5a283_path","r55_e58c97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1355);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r50_e58c97e5a283","r55_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r48_e58c97e5a283","r49_e58c97e5a283","r51_e58c97e5a283","r52_e58c97e5a283","r53_e58c97e5a283","r54_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r48_e58c97e5a283_path") && game.includes("r55_e58c97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["北境班兰暖蜜","北境卡菲暖蜜","北境杜松暖蜜","北境多香暖蜜","北境肉豆暖蜜","北境八角暖蜜","北境丁香暖蜜","北境肉桂暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("北境班兰短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("北境班兰")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r48_e58c97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r56_e58c97e5a283 r57_e58c97e5a283 r58_e58c97e5a283 r59_e58c97e5a283 r60_e58c97e5a283 r61_e58c97e5a283 r62_e58c97e5a283 r63_e58c97e5a283 1363 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r56_e58c97e5a283","r57_e58c97e5a283","r58_e58c97e5a283","r59_e58c97e5a283","r60_e58c97e5a283","r61_e58c97e5a283","r62_e58c97e5a283","r63_e58c97e5a283"];
+  const pots = ["r56_e58c97e5a283Pot","r57_e58c97e5a283Pot","r58_e58c97e5a283Pot","r59_e58c97e5a283Pot","r60_e58c97e5a283Pot","r61_e58c97e5a283Pot","r62_e58c97e5a283Pot","r63_e58c97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r56_e58c97e5a283_path","r57_e58c97e5a283_path","r58_e58c97e5a283_path","r59_e58c97e5a283_path","r60_e58c97e5a283_path","r61_e58c97e5a283_path","r62_e58c97e5a283_path","r63_e58c97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1363);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r60_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r56_e58c97e5a283","r57_e58c97e5a283","r58_e58c97e5a283","r59_e58c97e5a283","r61_e58c97e5a283","r62_e58c97e5a283","r63_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r56_e58c97e5a283_path") && game.includes("r63_e58c97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["北境藏红暖蜜","北境芝麻暖蜜","北境枫糖暖蜜","北境可可暖蜜","北境香草暖蜜","北境杏仁暖蜜","北境榛子暖蜜","北境核桃暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("北境藏红短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("北境藏红")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r56_e58c97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r64_e58c97e5a283 r65_e58c97e5a283 r66_e58c97e5a283 r67_e58c97e5a283 r68_e58c97e5a283 r69_e58c97e5a283 r70_e58c97e5a283 r71_e58c97e5a283 1371 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r64_e58c97e5a283","r65_e58c97e5a283","r66_e58c97e5a283","r67_e58c97e5a283","r68_e58c97e5a283","r69_e58c97e5a283","r70_e58c97e5a283","r71_e58c97e5a283"];
+  const pots = ["r64_e58c97e5a283Pot","r65_e58c97e5a283Pot","r66_e58c97e5a283Pot","r67_e58c97e5a283Pot","r68_e58c97e5a283Pot","r69_e58c97e5a283Pot","r70_e58c97e5a283Pot","r71_e58c97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r64_e58c97e5a283_path","r65_e58c97e5a283_path","r66_e58c97e5a283_path","r67_e58c97e5a283_path","r68_e58c97e5a283_path","r69_e58c97e5a283_path","r70_e58c97e5a283_path","r71_e58c97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1371);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r65_e58c97e5a283","r70_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r64_e58c97e5a283","r66_e58c97e5a283","r67_e58c97e5a283","r68_e58c97e5a283","r69_e58c97e5a283","r71_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r64_e58c97e5a283_path") && game.includes("r71_e58c97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["北境板栗暖蜜","北境开心暖蜜","北境枸杞暖蜜","北境红枣暖蜜","北境金桔暖蜜","北境蜜橘暖蜜","北境柚子暖蜜","北境青柠暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("北境板栗短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("北境板栗")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r64_e58c97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r72_e58c97e5a283 r73_e58c97e5a283 r74_e58c97e5a283 r75_e58c97e5a283 r76_e58c97e5a283 r77_e58c97e5a283 r78_e58c97e5a283 r79_e58c97e5a283 1379 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r72_e58c97e5a283","r73_e58c97e5a283","r74_e58c97e5a283","r75_e58c97e5a283","r76_e58c97e5a283","r77_e58c97e5a283","r78_e58c97e5a283","r79_e58c97e5a283"];
+  const pots = ["r72_e58c97e5a283Pot","r73_e58c97e5a283Pot","r74_e58c97e5a283Pot","r75_e58c97e5a283Pot","r76_e58c97e5a283Pot","r77_e58c97e5a283Pot","r78_e58c97e5a283Pot","r79_e58c97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r72_e58c97e5a283_path","r73_e58c97e5a283_path","r74_e58c97e5a283_path","r75_e58c97e5a283_path","r76_e58c97e5a283_path","r77_e58c97e5a283_path","r78_e58c97e5a283_path","r79_e58c97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1379);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r75_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r72_e58c97e5a283","r73_e58c97e5a283","r74_e58c97e5a283","r76_e58c97e5a283","r77_e58c97e5a283","r78_e58c97e5a283","r79_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r72_e58c97e5a283_path") && game.includes("r79_e58c97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["北境柠檬暖蜜","北境甘蔗暖蜜","北境莲雾暖蜜","北境杨桃暖蜜","北境百香暖蜜","北境猕猴暖蜜","北境火龙暖蜜","北境番石暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("北境柠檬短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("北境柠檬")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r72_e58c97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r80_e58c97e5a283 r81_e58c97e5a283 r82_e58c97e5a283 r83_e58c97e5a283 r84_e58c97e5a283 r85_e58c97e5a283 r86_e58c97e5a283 r87_e58c97e5a283 1387 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r80_e58c97e5a283","r81_e58c97e5a283","r82_e58c97e5a283","r83_e58c97e5a283","r84_e58c97e5a283","r85_e58c97e5a283","r86_e58c97e5a283","r87_e58c97e5a283"];
+  const pots = ["r80_e58c97e5a283Pot","r81_e58c97e5a283Pot","r82_e58c97e5a283Pot","r83_e58c97e5a283Pot","r84_e58c97e5a283Pot","r85_e58c97e5a283Pot","r86_e58c97e5a283Pot","r87_e58c97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r80_e58c97e5a283_path","r81_e58c97e5a283_path","r82_e58c97e5a283_path","r83_e58c97e5a283_path","r84_e58c97e5a283_path","r85_e58c97e5a283_path","r86_e58c97e5a283_path","r87_e58c97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1387);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r80_e58c97e5a283","r85_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r81_e58c97e5a283","r82_e58c97e5a283","r83_e58c97e5a283","r84_e58c97e5a283","r86_e58c97e5a283","r87_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r80_e58c97e5a283_path") && game.includes("r87_e58c97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["北境樱桃暖蜜","北境杏花暖蜜","北境梨暖蜜","北境李暖蜜","北境桃暖蜜","北境梅暖蜜","北境桑暖蜜","北境莓暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("北境樱桃短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("北境樱桃")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r80_e58c97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r88_e58c97e5a283 r89_e58c97e5a283 r90_e58c97e5a283 r91_e58c97e5a283 r92_e58c97e5a283 r93_e58c97e5a283 r94_e58c97e5a283 r95_e58c97e5a283 1395 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r88_e58c97e5a283","r89_e58c97e5a283","r90_e58c97e5a283","r91_e58c97e5a283","r92_e58c97e5a283","r93_e58c97e5a283","r94_e58c97e5a283","r95_e58c97e5a283"];
+  const pots = ["r88_e58c97e5a283Pot","r89_e58c97e5a283Pot","r90_e58c97e5a283Pot","r91_e58c97e5a283Pot","r92_e58c97e5a283Pot","r93_e58c97e5a283Pot","r94_e58c97e5a283Pot","r95_e58c97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r88_e58c97e5a283_path","r89_e58c97e5a283_path","r90_e58c97e5a283_path","r91_e58c97e5a283_path","r92_e58c97e5a283_path","r93_e58c97e5a283_path","r94_e58c97e5a283_path","r95_e58c97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1395);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r90_e58c97e5a283","r95_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r88_e58c97e5a283","r89_e58c97e5a283","r91_e58c97e5a283","r92_e58c97e5a283","r93_e58c97e5a283","r94_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r88_e58c97e5a283_path") && game.includes("r95_e58c97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["北境葡萄暖蜜","北境石榴暖蜜","北境荔枝暖蜜","北境龙眼暖蜜","北境枇杷暖蜜","北境橄榄暖蜜","北境山楂暖蜜","北境芒果暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("北境葡萄短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("北境葡萄")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r88_e58c97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r96_e58c97e5a283 r97_e58c97e5a283 r98_e58c97e5a283 r99_e58c97e5a283 r100_e58c97e5a283 r101_e58c97e5a283 r102_e58c97e5a283 r103_e58c97e5a283 1403 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r96_e58c97e5a283","r97_e58c97e5a283","r98_e58c97e5a283","r99_e58c97e5a283","r100_e58c97e5a283","r101_e58c97e5a283","r102_e58c97e5a283","r103_e58c97e5a283"];
+  const pots = ["r96_e58c97e5a283Pot","r97_e58c97e5a283Pot","r98_e58c97e5a283Pot","r99_e58c97e5a283Pot","r100_e58c97e5a283Pot","r101_e58c97e5a283Pot","r102_e58c97e5a283Pot","r103_e58c97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r96_e58c97e5a283_path","r97_e58c97e5a283_path","r98_e58c97e5a283_path","r99_e58c97e5a283_path","r100_e58c97e5a283_path","r101_e58c97e5a283_path","r102_e58c97e5a283_path","r103_e58c97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1403);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r100_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r96_e58c97e5a283","r97_e58c97e5a283","r98_e58c97e5a283","r99_e58c97e5a283","r101_e58c97e5a283","r102_e58c97e5a283","r103_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r96_e58c97e5a283_path") && game.includes("r103_e58c97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["北境菠萝暖蜜","北境椰子暖蜜","北境木瓜暖蜜","北境西瓜暖蜜","北境甜瓜暖蜜","北境哈密瓜暖蜜","北境红毛暖蜜","北境菠萝蜜暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("北境菠萝短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("北境菠萝")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r96_e58c97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r104_e58d97e5a283 r105_e58d97e5a283 r106_e58d97e5a283 r107_e58d97e5a283 r108_e58d97e5a283 r109_e58d97e5a283 r110_e58d97e5a283 r111_e58d97e5a283 1411 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r104_e58d97e5a283","r105_e58d97e5a283","r106_e58d97e5a283","r107_e58d97e5a283","r108_e58d97e5a283","r109_e58d97e5a283","r110_e58d97e5a283","r111_e58d97e5a283"];
+  const pots = ["r104_e58d97e5a283Pot","r105_e58d97e5a283Pot","r106_e58d97e5a283Pot","r107_e58d97e5a283Pot","r108_e58d97e5a283Pot","r109_e58d97e5a283Pot","r110_e58d97e5a283Pot","r111_e58d97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r104_e58d97e5a283_path","r105_e58d97e5a283_path","r106_e58d97e5a283_path","r107_e58d97e5a283_path","r108_e58d97e5a283_path","r109_e58d97e5a283_path","r110_e58d97e5a283_path","r111_e58d97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1411);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r105_e58d97e5a283","r110_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r104_e58d97e5a283","r106_e58d97e5a283","r107_e58d97e5a283","r108_e58d97e5a283","r109_e58d97e5a283","r111_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r104_e58d97e5a283_path") && game.includes("r111_e58d97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["南境堇菜暖蜜","南境报春暖蜜","南境银莲暖蜜","南境毛茛暖蜜","南境罂粟暖蜜","南境飞燕暖蜜","南境翠雀暖蜜","南境乌头暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("南境堇菜短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("南境堇菜")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r104_e58d97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r112_e58d97e5a283 r113_e58d97e5a283 r114_e58d97e5a283 r115_e58d97e5a283 r116_e58d97e5a283 r117_e58d97e5a283 r118_e58d97e5a283 r119_e58d97e5a283 1419 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r112_e58d97e5a283","r113_e58d97e5a283","r114_e58d97e5a283","r115_e58d97e5a283","r116_e58d97e5a283","r117_e58d97e5a283","r118_e58d97e5a283","r119_e58d97e5a283"];
+  const pots = ["r112_e58d97e5a283Pot","r113_e58d97e5a283Pot","r114_e58d97e5a283Pot","r115_e58d97e5a283Pot","r116_e58d97e5a283Pot","r117_e58d97e5a283Pot","r118_e58d97e5a283Pot","r119_e58d97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r112_e58d97e5a283_path","r113_e58d97e5a283_path","r114_e58d97e5a283_path","r115_e58d97e5a283_path","r116_e58d97e5a283_path","r117_e58d97e5a283_path","r118_e58d97e5a283_path","r119_e58d97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1419);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r115_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r112_e58d97e5a283","r113_e58d97e5a283","r114_e58d97e5a283","r116_e58d97e5a283","r117_e58d97e5a283","r118_e58d97e5a283","r119_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r112_e58d97e5a283_path") && game.includes("r119_e58d97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["南境耧斗暖蜜","南境铁线暖蜜","南境福禄暖蜜","南境石竹暖蜜","南境满天暖蜜","南境霞草暖蜜","南境马鞭暖蜜","南境藿香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("南境耧斗短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("南境耧斗")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r112_e58d97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r120_e58d97e5a283 r121_e58d97e5a283 r122_e58d97e5a283 r123_e58d97e5a283 r124_e58d97e5a283 r125_e58d97e5a283 r126_e58d97e5a283 r127_e58d97e5a283 1427 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r120_e58d97e5a283","r121_e58d97e5a283","r122_e58d97e5a283","r123_e58d97e5a283","r124_e58d97e5a283","r125_e58d97e5a283","r126_e58d97e5a283","r127_e58d97e5a283"];
+  const pots = ["r120_e58d97e5a283Pot","r121_e58d97e5a283Pot","r122_e58d97e5a283Pot","r123_e58d97e5a283Pot","r124_e58d97e5a283Pot","r125_e58d97e5a283Pot","r126_e58d97e5a283Pot","r127_e58d97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r120_e58d97e5a283_path","r121_e58d97e5a283_path","r122_e58d97e5a283_path","r123_e58d97e5a283_path","r124_e58d97e5a283_path","r125_e58d97e5a283_path","r126_e58d97e5a283_path","r127_e58d97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1427);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r120_e58d97e5a283","r125_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r121_e58d97e5a283","r122_e58d97e5a283","r123_e58d97e5a283","r124_e58d97e5a283","r126_e58d97e5a283","r127_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r120_e58d97e5a283_path") && game.includes("r127_e58d97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["南境荆芥暖蜜","南境水苏暖蜜","南境夏枯暖蜜","南境黄芩暖蜜","南境筋骨暖蜜","南境连钱暖蜜","南境香蜂暖蜜","南境猫薄荷暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("南境荆芥短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("南境荆芥")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r120_e58d97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r128_e58d97e5a283 r129_e58d97e5a283 r130_e58d97e5a283 r131_e58d97e5a283 r132_e58d97e5a283 r133_e58d97e5a283 r134_e58d97e5a283 r135_e58d97e5a283 1435 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r128_e58d97e5a283","r129_e58d97e5a283","r130_e58d97e5a283","r131_e58d97e5a283","r132_e58d97e5a283","r133_e58d97e5a283","r134_e58d97e5a283","r135_e58d97e5a283"];
+  const pots = ["r128_e58d97e5a283Pot","r129_e58d97e5a283Pot","r130_e58d97e5a283Pot","r131_e58d97e5a283Pot","r132_e58d97e5a283Pot","r133_e58d97e5a283Pot","r134_e58d97e5a283Pot","r135_e58d97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r128_e58d97e5a283_path","r129_e58d97e5a283_path","r130_e58d97e5a283_path","r131_e58d97e5a283_path","r132_e58d97e5a283_path","r133_e58d97e5a283_path","r134_e58d97e5a283_path","r135_e58d97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1435);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r130_e58d97e5a283","r135_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r128_e58d97e5a283","r129_e58d97e5a283","r131_e58d97e5a283","r132_e58d97e5a283","r133_e58d97e5a283","r134_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r128_e58d97e5a283_path") && game.includes("r135_e58d97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["南境神香暖蜜","南境百里暖蜜","南境牛至暖蜜","南境马郁暖蜜","南境罗勒暖蜜","南境迷迭暖蜜","南境鼠尾暖蜜","南境薰衣草暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("南境神香短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("南境神香")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r128_e58d97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r136_e58d97e5a283 r137_e58d97e5a283 r138_e58d97e5a283 r139_e58d97e5a283 r140_e58d97e5a283 r141_e58d97e5a283 r142_e58d97e5a283 r143_e58d97e5a283 1443 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r136_e58d97e5a283","r137_e58d97e5a283","r138_e58d97e5a283","r139_e58d97e5a283","r140_e58d97e5a283","r141_e58d97e5a283","r142_e58d97e5a283","r143_e58d97e5a283"];
+  const pots = ["r136_e58d97e5a283Pot","r137_e58d97e5a283Pot","r138_e58d97e5a283Pot","r139_e58d97e5a283Pot","r140_e58d97e5a283Pot","r141_e58d97e5a283Pot","r142_e58d97e5a283Pot","r143_e58d97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r136_e58d97e5a283_path","r137_e58d97e5a283_path","r138_e58d97e5a283_path","r139_e58d97e5a283_path","r140_e58d97e5a283_path","r141_e58d97e5a283_path","r142_e58d97e5a283_path","r143_e58d97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1443);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r140_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r136_e58d97e5a283","r137_e58d97e5a283","r138_e58d97e5a283","r139_e58d97e5a283","r141_e58d97e5a283","r142_e58d97e5a283","r143_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r136_e58d97e5a283_path") && game.includes("r143_e58d97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["南境莳萝暖蜜","南境茴香暖蜜","南境独活暖蜜","南境酸模暖蜜","南境欧芹暖蜜","南境香葱暖蜜","南境龙蒿暖蜜","南境芹菜暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("南境莳萝短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("南境莳萝")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r136_e58d97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r144_e58d97e5a283 r145_e58d97e5a283 r146_e58d97e5a283 r147_e58d97e5a283 r148_e58d97e5a283 r149_e58d97e5a283 r150_e58d97e5a283 r151_e58d97e5a283 1451 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r144_e58d97e5a283","r145_e58d97e5a283","r146_e58d97e5a283","r147_e58d97e5a283","r148_e58d97e5a283","r149_e58d97e5a283","r150_e58d97e5a283","r151_e58d97e5a283"];
+  const pots = ["r144_e58d97e5a283Pot","r145_e58d97e5a283Pot","r146_e58d97e5a283Pot","r147_e58d97e5a283Pot","r148_e58d97e5a283Pot","r149_e58d97e5a283Pot","r150_e58d97e5a283Pot","r151_e58d97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r144_e58d97e5a283_path","r145_e58d97e5a283_path","r146_e58d97e5a283_path","r147_e58d97e5a283_path","r148_e58d97e5a283_path","r149_e58d97e5a283_path","r150_e58d97e5a283_path","r151_e58d97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1451);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r145_e58d97e5a283","r150_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r144_e58d97e5a283","r146_e58d97e5a283","r147_e58d97e5a283","r148_e58d97e5a283","r149_e58d97e5a283","r151_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r144_e58d97e5a283_path") && game.includes("r151_e58d97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["南境香芹暖蜜","南境芥末暖蜜","南境黑种暖蜜","南境孜然暖蜜","南境葛缕暖蜜","南境胡芦暖蜜","南境姜黄暖蜜","南境高良暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("南境香芹短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("南境香芹")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r144_e58d97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r152_e58d97e5a283 r153_e58d97e5a283 r154_e58d97e5a283 r155_e58d97e5a283 r156_e58d97e5a283 r157_e58d97e5a283 r158_e58d97e5a283 r159_e58d97e5a283 1459 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r152_e58d97e5a283","r153_e58d97e5a283","r154_e58d97e5a283","r155_e58d97e5a283","r156_e58d97e5a283","r157_e58d97e5a283","r158_e58d97e5a283","r159_e58d97e5a283"];
+  const pots = ["r152_e58d97e5a283Pot","r153_e58d97e5a283Pot","r154_e58d97e5a283Pot","r155_e58d97e5a283Pot","r156_e58d97e5a283Pot","r157_e58d97e5a283Pot","r158_e58d97e5a283Pot","r159_e58d97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r152_e58d97e5a283_path","r153_e58d97e5a283_path","r154_e58d97e5a283_path","r155_e58d97e5a283_path","r156_e58d97e5a283_path","r157_e58d97e5a283_path","r158_e58d97e5a283_path","r159_e58d97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1459);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r155_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r152_e58d97e5a283","r153_e58d97e5a283","r154_e58d97e5a283","r156_e58d97e5a283","r157_e58d97e5a283","r158_e58d97e5a283","r159_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r152_e58d97e5a283_path") && game.includes("r159_e58d97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["南境班兰暖蜜","南境卡菲暖蜜","南境杜松暖蜜","南境多香暖蜜","南境肉豆暖蜜","南境八角暖蜜","南境丁香暖蜜","南境肉桂暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("南境班兰短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("南境班兰")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r152_e58d97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r160_e58d97e5a283 r161_e58d97e5a283 r162_e58d97e5a283 r163_e58d97e5a283 r164_e58d97e5a283 r165_e58d97e5a283 r166_e58d97e5a283 r167_e58d97e5a283 1467 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r160_e58d97e5a283","r161_e58d97e5a283","r162_e58d97e5a283","r163_e58d97e5a283","r164_e58d97e5a283","r165_e58d97e5a283","r166_e58d97e5a283","r167_e58d97e5a283"];
+  const pots = ["r160_e58d97e5a283Pot","r161_e58d97e5a283Pot","r162_e58d97e5a283Pot","r163_e58d97e5a283Pot","r164_e58d97e5a283Pot","r165_e58d97e5a283Pot","r166_e58d97e5a283Pot","r167_e58d97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r160_e58d97e5a283_path","r161_e58d97e5a283_path","r162_e58d97e5a283_path","r163_e58d97e5a283_path","r164_e58d97e5a283_path","r165_e58d97e5a283_path","r166_e58d97e5a283_path","r167_e58d97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1467);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r160_e58d97e5a283","r165_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r161_e58d97e5a283","r162_e58d97e5a283","r163_e58d97e5a283","r164_e58d97e5a283","r166_e58d97e5a283","r167_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r160_e58d97e5a283_path") && game.includes("r167_e58d97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["南境藏红暖蜜","南境芝麻暖蜜","南境枫糖暖蜜","南境可可暖蜜","南境香草暖蜜","南境杏仁暖蜜","南境榛子暖蜜","南境核桃暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("南境藏红短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("南境藏红")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r160_e58d97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r168_e58d97e5a283 r169_e58d97e5a283 r170_e58d97e5a283 r171_e58d97e5a283 r172_e58d97e5a283 r173_e58d97e5a283 r174_e58d97e5a283 r175_e58d97e5a283 1475 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r168_e58d97e5a283","r169_e58d97e5a283","r170_e58d97e5a283","r171_e58d97e5a283","r172_e58d97e5a283","r173_e58d97e5a283","r174_e58d97e5a283","r175_e58d97e5a283"];
+  const pots = ["r168_e58d97e5a283Pot","r169_e58d97e5a283Pot","r170_e58d97e5a283Pot","r171_e58d97e5a283Pot","r172_e58d97e5a283Pot","r173_e58d97e5a283Pot","r174_e58d97e5a283Pot","r175_e58d97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r168_e58d97e5a283_path","r169_e58d97e5a283_path","r170_e58d97e5a283_path","r171_e58d97e5a283_path","r172_e58d97e5a283_path","r173_e58d97e5a283_path","r174_e58d97e5a283_path","r175_e58d97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1475);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r170_e58d97e5a283","r175_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r168_e58d97e5a283","r169_e58d97e5a283","r171_e58d97e5a283","r172_e58d97e5a283","r173_e58d97e5a283","r174_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r168_e58d97e5a283_path") && game.includes("r175_e58d97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["南境板栗暖蜜","南境开心暖蜜","南境枸杞暖蜜","南境红枣暖蜜","南境金桔暖蜜","南境蜜橘暖蜜","南境柚子暖蜜","南境青柠暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("南境板栗短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("南境板栗")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r168_e58d97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r176_e58d97e5a283 r177_e58d97e5a283 r178_e58d97e5a283 r179_e58d97e5a283 r180_e58d97e5a283 r181_e58d97e5a283 r182_e58d97e5a283 r183_e58d97e5a283 1483 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r176_e58d97e5a283","r177_e58d97e5a283","r178_e58d97e5a283","r179_e58d97e5a283","r180_e58d97e5a283","r181_e58d97e5a283","r182_e58d97e5a283","r183_e58d97e5a283"];
+  const pots = ["r176_e58d97e5a283Pot","r177_e58d97e5a283Pot","r178_e58d97e5a283Pot","r179_e58d97e5a283Pot","r180_e58d97e5a283Pot","r181_e58d97e5a283Pot","r182_e58d97e5a283Pot","r183_e58d97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r176_e58d97e5a283_path","r177_e58d97e5a283_path","r178_e58d97e5a283_path","r179_e58d97e5a283_path","r180_e58d97e5a283_path","r181_e58d97e5a283_path","r182_e58d97e5a283_path","r183_e58d97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1483);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r180_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r176_e58d97e5a283","r177_e58d97e5a283","r178_e58d97e5a283","r179_e58d97e5a283","r181_e58d97e5a283","r182_e58d97e5a283","r183_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r176_e58d97e5a283_path") && game.includes("r183_e58d97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["南境柠檬暖蜜","南境甘蔗暖蜜","南境莲雾暖蜜","南境杨桃暖蜜","南境百香暖蜜","南境猕猴暖蜜","南境火龙暖蜜","南境番石暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("南境柠檬短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("南境柠檬")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r176_e58d97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r184_e58d97e5a283 r185_e58d97e5a283 r186_e58d97e5a283 r187_e58d97e5a283 r188_e58d97e5a283 r189_e58d97e5a283 r190_e58d97e5a283 r191_e58d97e5a283 1491 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r184_e58d97e5a283","r185_e58d97e5a283","r186_e58d97e5a283","r187_e58d97e5a283","r188_e58d97e5a283","r189_e58d97e5a283","r190_e58d97e5a283","r191_e58d97e5a283"];
+  const pots = ["r184_e58d97e5a283Pot","r185_e58d97e5a283Pot","r186_e58d97e5a283Pot","r187_e58d97e5a283Pot","r188_e58d97e5a283Pot","r189_e58d97e5a283Pot","r190_e58d97e5a283Pot","r191_e58d97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r184_e58d97e5a283_path","r185_e58d97e5a283_path","r186_e58d97e5a283_path","r187_e58d97e5a283_path","r188_e58d97e5a283_path","r189_e58d97e5a283_path","r190_e58d97e5a283_path","r191_e58d97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1491);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r185_e58d97e5a283","r190_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r184_e58d97e5a283","r186_e58d97e5a283","r187_e58d97e5a283","r188_e58d97e5a283","r189_e58d97e5a283","r191_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r184_e58d97e5a283_path") && game.includes("r191_e58d97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["南境樱桃暖蜜","南境杏花暖蜜","南境梨暖蜜","南境李暖蜜","南境桃暖蜜","南境梅暖蜜","南境桑暖蜜","南境莓暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("南境樱桃短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("南境樱桃")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r184_e58d97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("r192_e58d97e5a283 r193_e58d97e5a283 r194_e58d97e5a283 r195_e58d97e5a283 r196_e58d97e5a283 r197_e58d97e5a283 r198_e58d97e5a283 r199_e58d97e5a283 1499 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["r192_e58d97e5a283","r193_e58d97e5a283","r194_e58d97e5a283","r195_e58d97e5a283","r196_e58d97e5a283","r197_e58d97e5a283","r198_e58d97e5a283","r199_e58d97e5a283"];
+  const pots = ["r192_e58d97e5a283Pot","r193_e58d97e5a283Pot","r194_e58d97e5a283Pot","r195_e58d97e5a283Pot","r196_e58d97e5a283Pot","r197_e58d97e5a283Pot","r198_e58d97e5a283Pot","r199_e58d97e5a283Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["r192_e58d97e5a283_path","r193_e58d97e5a283_path","r194_e58d97e5a283_path","r195_e58d97e5a283_path","r196_e58d97e5a283_path","r197_e58d97e5a283_path","r198_e58d97e5a283_path","r199_e58d97e5a283_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 1499);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["r195_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["r192_e58d97e5a283","r193_e58d97e5a283","r194_e58d97e5a283","r196_e58d97e5a283","r197_e58d97e5a283","r198_e58d97e5a283","r199_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("r192_e58d97e5a283_path") && game.includes("r199_e58d97e5a283_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["南境葡萄暖蜜","南境石榴暖蜜","南境荔枝暖蜜","南境龙眼暖蜜","南境枇杷暖蜜","南境橄榄暖蜜","南境山楂暖蜜","南境芒果暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("南境葡萄短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("南境葡萄")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "r192_e58d97e5a283_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
