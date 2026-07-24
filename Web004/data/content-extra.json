@@ -4366,6 +4366,118 @@
       "emoji": "🟢",
       "kind": "风味",
       "seed": "yuzu_koshoPot"
+    },
+    "edelweiss": {
+      "id": "edelweiss",
+      "name": "雪绒花",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "edelweissPot"
+    },
+    "gentian": {
+      "id": "gentian",
+      "name": "龙胆",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "gentianPot"
+    },
+    "arnica_montana": {
+      "id": "arnica_montana",
+      "name": "山地金车",
+      "emoji": "🌼",
+      "kind": "风味",
+      "seed": "arnica_montanaPot"
+    },
+    "alpine_strawberry": {
+      "id": "alpine_strawberry",
+      "name": "野草莓",
+      "emoji": "🍓",
+      "kind": "风味",
+      "seed": "alpine_strawberryPot"
+    },
+    "bilberry_leaf": {
+      "id": "bilberry_leaf",
+      "name": "越橘叶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "bilberry_leafPot"
+    },
+    "juniper_berry": {
+      "id": "juniper_berry",
+      "name": "杜松果",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "juniper_berryPot"
+    },
+    "fir_needle": {
+      "id": "fir_needle",
+      "name": "冷杉针",
+      "emoji": "🌲",
+      "kind": "风味",
+      "seed": "fir_needlePot"
+    },
+    "spruce_tip": {
+      "id": "spruce_tip",
+      "name": "云杉芽",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "spruce_tipPot"
+    },
+    "olive_leaf": {
+      "id": "olive_leaf",
+      "name": "橄榄叶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "olive_leafPot"
+    },
+    "myrtle_berry": {
+      "id": "myrtle_berry",
+      "name": "香桃木果",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "myrtle_berryPot"
+    },
+    "mastic": {
+      "id": "mastic",
+      "name": "乳香黄连木",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "masticPot"
+    },
+    "caper": {
+      "id": "caper",
+      "name": "续随子花蕾",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "caperPot"
+    },
+    "zaatar": {
+      "id": "zaatar",
+      "name": "扎塔香草",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "zaatarPot"
+    },
+    "sumac_berry": {
+      "id": "sumac_berry",
+      "name": "盐肤木果",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "sumac_berryPot"
+    },
+    "saffron_crocus": {
+      "id": "saffron_crocus",
+      "name": "番红花",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "saffron_crocusPot"
+    },
+    "orange_blossom": {
+      "id": "orange_blossom",
+      "name": "橙花",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "orange_blossomPot"
     }
   },
   "plants": {
@@ -9423,6 +9535,182 @@
       ],
       "harvest": "yuzu_kosho",
       "days": 3
+    },
+    "edelweissPot": {
+      "id": "edelweissPot",
+      "name": "雪绒花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "edelweiss",
+      "days": 4
+    },
+    "gentianPot": {
+      "id": "gentianPot",
+      "name": "龙胆",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "gentian",
+      "days": 4
+    },
+    "arnica_montanaPot": {
+      "id": "arnica_montanaPot",
+      "name": "山地金车",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌼"
+      ],
+      "harvest": "arnica_montana",
+      "days": 3
+    },
+    "alpine_strawberryPot": {
+      "id": "alpine_strawberryPot",
+      "name": "野草莓",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍓"
+      ],
+      "harvest": "alpine_strawberry",
+      "days": 3
+    },
+    "bilberry_leafPot": {
+      "id": "bilberry_leafPot",
+      "name": "越橘叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "bilberry_leaf",
+      "days": 3
+    },
+    "juniper_berryPot": {
+      "id": "juniper_berryPot",
+      "name": "杜松果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "juniper_berry",
+      "days": 3
+    },
+    "fir_needlePot": {
+      "id": "fir_needlePot",
+      "name": "冷杉针",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌲"
+      ],
+      "harvest": "fir_needle",
+      "days": 3
+    },
+    "spruce_tipPot": {
+      "id": "spruce_tipPot",
+      "name": "云杉芽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "spruce_tip",
+      "days": 3
+    },
+    "olive_leafPot": {
+      "id": "olive_leafPot",
+      "name": "橄榄叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "olive_leaf",
+      "days": 3
+    },
+    "myrtle_berryPot": {
+      "id": "myrtle_berryPot",
+      "name": "香桃木果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "myrtle_berry",
+      "days": 3
+    },
+    "masticPot": {
+      "id": "masticPot",
+      "name": "乳香黄连木",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "mastic",
+      "days": 4
+    },
+    "caperPot": {
+      "id": "caperPot",
+      "name": "续随子花蕾",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "caper",
+      "days": 3
+    },
+    "zaatarPot": {
+      "id": "zaatarPot",
+      "name": "扎塔香草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "zaatar",
+      "days": 3
+    },
+    "sumac_berryPot": {
+      "id": "sumac_berryPot",
+      "name": "盐肤木果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "sumac_berry",
+      "days": 3
+    },
+    "saffron_crocusPot": {
+      "id": "saffron_crocusPot",
+      "name": "番红花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "saffron_crocus",
+      "days": 4
+    },
+    "orange_blossomPot": {
+      "id": "orange_blossomPot",
+      "name": "橙花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "orange_blossom",
+      "days": 3
     }
   },
   "cups": [
@@ -13127,6 +13415,166 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "edelweiss",
+      "name": "雪绒花",
+      "emoji": "🤍",
+      "need": "edelweiss",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "gentian",
+      "name": "龙胆",
+      "emoji": "💙",
+      "need": "gentian",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "arnica_montana",
+      "name": "山地金车",
+      "emoji": "🌼",
+      "need": "arnica_montana",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "alpine_strawberry",
+      "name": "野草莓",
+      "emoji": "🍓",
+      "need": "alpine_strawberry",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "bilberry_leaf",
+      "name": "越橘叶",
+      "emoji": "🟢",
+      "need": "bilberry_leaf",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "juniper_berry",
+      "name": "杜松果",
+      "emoji": "🟣",
+      "need": "juniper_berry",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "fir_needle",
+      "name": "冷杉针",
+      "emoji": "🌲",
+      "need": "fir_needle",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "spruce_tip",
+      "name": "云杉芽",
+      "emoji": "🟢",
+      "need": "spruce_tip",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "olive_leaf",
+      "name": "橄榄叶",
+      "emoji": "🟢",
+      "need": "olive_leaf",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "myrtle_berry",
+      "name": "香桃木果",
+      "emoji": "🟣",
+      "need": "myrtle_berry",
+      "tags": [
+        "果香",
+        "草本"
+      ]
+    },
+    {
+      "id": "mastic",
+      "name": "乳香黄连木",
+      "emoji": "🟤",
+      "need": "mastic",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "caper",
+      "name": "续随子花蕾",
+      "emoji": "🟢",
+      "need": "caper",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "zaatar",
+      "name": "扎塔香草",
+      "emoji": "🌿",
+      "need": "zaatar",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "sumac_berry",
+      "name": "盐肤木果",
+      "emoji": "🔴",
+      "need": "sumac_berry",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "saffron_crocus",
+      "name": "番红花",
+      "emoji": "💜",
+      "need": "saffron_crocus",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "orange_blossom",
+      "name": "橙花",
+      "emoji": "🤍",
+      "need": "orange_blossom",
+      "tags": [
+        "花香",
+        "甜蜜"
       ]
     }
   ],
@@ -18660,6 +19108,246 @@
         "honey",
         "tea_leaf",
         "mint"
+      ]
+    },
+    {
+      "name": "采雪绒花的旅人",
+      "avatar": "🤍",
+      "wish": "雪绒花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "edelweiss",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采龙胆的药师",
+      "avatar": "💙",
+      "wish": "龙胆或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "gentian",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采山地金车的药师",
+      "avatar": "🌼",
+      "wish": "山地金车或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "arnica_montana",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采野草莓的旅人",
+      "avatar": "🍓",
+      "wish": "野草莓或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "alpine_strawberry",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采越橘叶的药师",
+      "avatar": "🟢",
+      "wish": "越橘叶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "bilberry_leaf",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采杜松果的旅人",
+      "avatar": "🟣",
+      "wish": "杜松果或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "juniper_berry",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采冷杉针的药师",
+      "avatar": "🌲",
+      "wish": "冷杉针或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "fir_needle",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采云杉芽的旅人",
+      "avatar": "🟢",
+      "wish": "云杉芽或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "spruce_tip",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采橄榄叶的药师",
+      "avatar": "🟢",
+      "wish": "橄榄叶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "olive_leaf",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采香桃木果的旅人",
+      "avatar": "🟣",
+      "wish": "香桃木果或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "草本"
+      ],
+      "flavors": [
+        "myrtle_berry",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采乳香的药师",
+      "avatar": "🟤",
+      "wish": "乳香黄连木或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "mastic",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采续随子花蕾的旅人",
+      "avatar": "🟢",
+      "wish": "续随子花蕾或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "caper",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采扎塔香草的药师",
+      "avatar": "🌿",
+      "wish": "扎塔香草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "zaatar",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采盐肤木果的旅人",
+      "avatar": "🔴",
+      "wish": "盐肤木果或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "sumac_berry",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采番红花的药师",
+      "avatar": "💜",
+      "wish": "番红花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "saffron_crocus",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采橙花的旅人",
+      "avatar": "🤍",
+      "wish": "橙花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "orange_blossom",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
       ]
     }
   ],
