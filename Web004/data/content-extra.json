@@ -2574,6 +2574,20 @@
       "emoji": "🥝",
       "kind": "风味",
       "seed": "kiwiPot"
+    },
+    "dragonfruit": {
+      "id": "dragonfruit",
+      "name": "火龙果",
+      "emoji": "🩷",
+      "kind": "风味",
+      "seed": "dragonfruitPot"
+    },
+    "guava": {
+      "id": "guava",
+      "name": "番石榴",
+      "emoji": "🍈",
+      "kind": "风味",
+      "seed": "guavaPot"
     }
   },
   "plants": {
@@ -4815,6 +4829,28 @@
       ],
       "harvest": "kiwi",
       "days": 3
+    },
+    "dragonfruitPot": {
+      "id": "dragonfruitPot",
+      "name": "火龙果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🩷"
+      ],
+      "harvest": "dragonfruit",
+      "days": 3
+    },
+    "guavaPot": {
+      "id": "guavaPot",
+      "name": "番石榴",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍈"
+      ],
+      "harvest": "guava",
+      "days": 3
     }
   },
   "cups": [
@@ -5956,6 +5992,26 @@
       "name": "猕猴桃",
       "emoji": "🥝",
       "need": "kiwi",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "dragonfruit",
+      "name": "火龙果",
+      "emoji": "🩷",
+      "need": "dragonfruit",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "guava",
+      "name": "番石榴",
+      "emoji": "🍈",
+      "need": "guava",
       "tags": [
         "果香",
         "清爽"
@@ -7648,6 +7704,36 @@
         "honey",
         "mint",
         "leaf"
+      ]
+    },
+    {
+      "name": "切火龙果的店员",
+      "avatar": "🔪",
+      "wish": "火龙果或蜜，清爽一点，颜色要好看。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "dragonfruit",
+        "honey",
+        "mint",
+        "kiwi"
+      ]
+    },
+    {
+      "name": "晒番石榴的阿婆",
+      "avatar": "🧺",
+      "wish": "番石榴或蜜，清香一点，暖杯也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "guava",
+        "honey",
+        "leaf",
+        "mint"
       ]
     }
   ],
