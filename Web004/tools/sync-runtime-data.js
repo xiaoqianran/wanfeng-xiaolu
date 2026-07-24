@@ -102,19 +102,65 @@ function slimMail(m) {
 
 function slimContent(raw) {
   raw = raw || {};
-  // Keep catalog completeness for items/plants/flavors (gameplay), drop bulk pathThemes here
-  // (canonical path themes ship via game-data).
+  const itemsIn = raw.items || {};
+  const plantsIn = raw.plants || {};
+  const flavorsIn = Array.isArray(raw.flavors) ? raw.flavors : [];
+  const customersIn = Array.isArray(raw.customers) ? raw.customers : [];
+  // Featured catalog for browser: defaults + early seeds + recent batch sample.
+  // Full JSON under data/ remains source of truth for tooling.
+  const flavorCap = 180;
+  const customerCap = 40;
+  const featuredFlavors = flavorsIn.slice(0, 40).concat(flavorsIn.slice(-140));
+  // dedupe by id
+  const seenF = new Set();
+  const flavors = [];
+  featuredFlavors.forEach((f) => {
+    if (f && f.id && !seenF.has(f.id)) {
+      seenF.add(f.id);
+      flavors.push(f);
+    }
+  });
+  const keepItem = new Set(flavors.map((f) => f.id));
+  flavors.forEach((f) => {
+    if (f.need) keepItem.add(f.need);
+  });
+  // always keep starter items
+  ["lemon", "mint", "berry", "honey", "tea_leaf", "lavender_bud", "peach", "jasmine", "clover"].forEach((id) => keepItem.add(id));
+  Object.keys(itemsIn).forEach((id) => {
+    if (String(id).startsWith("seed_") && keepItem.size < 400) keepItem.add(id);
+  });
+  const items = {};
+  keepItem.forEach((id) => {
+    if (itemsIn[id]) items[id] = itemsIn[id];
+  });
+  // plants referenced by items.seed or harvest
+  const plants = {};
+  Object.keys(items).forEach((id) => {
+    const it = items[id];
+    if (it && it.seed && plantsIn[it.seed]) plants[it.seed] = plantsIn[it.seed];
+  });
+  Object.keys(plantsIn).slice(0, 80).forEach((id) => {
+    if (!plants[id]) plants[id] = plantsIn[id];
+  });
+  const seenC = new Set();
+  const customers = [];
+  customersIn.forEach((c) => {
+    if (!c || !c.name || seenC.has(c.name)) return;
+    if (/·\d+$|#\d+/.test(c.name)) return;
+    seenC.add(c.name);
+    if (customers.length < customerCap) customers.push(c);
+  });
   return {
-    items: raw.items || {},
-    plants: raw.plants || {},
+    items,
+    plants,
     cups: raw.cups || [],
     bases: raw.bases || [],
-    flavors: raw.flavors || [],
+    flavors: flavors.slice(0, flavorCap),
     toppings: raw.toppings || [],
-    customers: raw.customers || [],
+    customers,
     dialogues: raw.dialogues || [],
-    pathThemes: Array.isArray(raw.pathThemes) ? raw.pathThemes.slice(0, 80).map(slimTheme).filter(Boolean) : [],
-    meta: raw.meta || {},
+    pathThemes: Array.isArray(raw.pathThemes) ? raw.pathThemes.slice(0, 40).map(slimTheme).filter(Boolean) : [],
+    meta: Object.assign({}, raw.meta || {}, { runtimeFeatured: true, fullFlavorCount: flavorsIn.length }),
   };
 }
 
