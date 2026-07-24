@@ -1063,5 +1063,27 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_vanilla",
+    "title": "香草两荚",
+    "body": "做香草布丁的厨娘来信：晒干的。给你两荚，别放太久。",
+    "effect": {
+      "items": {
+        "vanilla": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cocoa",
+    "title": "可可两块",
+    "body": "搅热可可的老人来信：刚磨的。给你两块，别放太久。",
+    "effect": {
+      "items": {
+        "cocoa": 2
+      },
+      "coins": 2
+    }
   }
 ]
