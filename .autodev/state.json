@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 723,
+  "current_round": 727,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 717,
-  "authentic_game_integrated_rounds": 515,
+  "authentic_rounds_completed": 721,
+  "authentic_game_integrated_rounds": 518,
   "template_spam_archived": true,
-  "current_milestone": "authentic rebuild A0725+",
-  "current_task_id": "A0725-next",
-  "last_completed_task_id": "A0724",
-  "last_commit": "test(docs): A0724",
+  "current_milestone": "authentic rebuild A0729+",
+  "current_task_id": "A0729-next",
+  "last_completed_task_id": "A0728",
+  "last_commit": "test(docs): A0728",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "339 passed, 0 failed",
+  "last_test_summary": "359 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~283) multi-session"
+    "gap to 1000 authentic (~279) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -34,14 +34,14 @@
     "audio feedback",
     "UI polish"
   ],
-  "resume_instructions": "Continue A0725+. Spam DISABLED. authenticRows 717. Themes 1067.",
-  "updated_at": "2026-07-24T02:02:17.760213+00:00",
-  "lastAuthenticId": "A0724",
+  "resume_instructions": "Continue A0729+. Spam DISABLED. authenticRows 721. Themes 1227.",
+  "updated_at": "2026-07-24T02:03:31.228270+00:00",
+  "lastAuthenticId": "A0728",
   "authenticCount": 547,
   "lastGoal": "草药径 beerhops batch",
-  "themes": 1067,
-  "testsPass": 339,
-  "authenticRows": 717,
-  "lastRound": 723,
-  "lastId": "A0724"
+  "themes": 1227,
+  "testsPass": 359,
+  "authenticRows": 721,
+  "lastRound": 727,
+  "lastId": "A0728"
 }
