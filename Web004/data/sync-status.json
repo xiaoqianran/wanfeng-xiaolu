@@ -1,21 +1,21 @@
 {
-  "contentItems": 15530,
-  "plants": 15390,
-  "customers": 15284,
+  "contentItems": 15850,
+  "plants": 15710,
+  "customers": 15604,
   "dialogues": 37,
   "gardenMessages": 38,
-  "shopTips": 15228,
+  "shopTips": 15548,
   "walkAmbient": 48,
   "achievements": 120,
-  "recipes": 30500,
+  "recipes": 31140,
   "files": [
     {
       "path": "js/content-extra.js",
-      "bytes": 7693984
+      "bytes": 7868162
     },
     {
       "path": "js/game-data.js",
-      "bytes": 25655888
+      "bytes": 26217672
     }
   ]
 }

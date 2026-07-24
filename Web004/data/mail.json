@@ -168120,5 +168120,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_festival0",
+    "title": "立春节气茶两份",
+    "body": "采立春节气茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival0": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival1",
+    "title": "立春节气蜜两份",
+    "body": "采立春节气蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival1": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival2",
+    "title": "立春节气姜两份",
+    "body": "采立春节气姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival2": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival3",
+    "title": "立春节气花两份",
+    "body": "采立春节气花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival3": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival4",
+    "title": "立春节气果两份",
+    "body": "采立春节气果的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival4": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival5",
+    "title": "立春节气叶两份",
+    "body": "采立春节气叶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival5": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival6",
+    "title": "立春节气根两份",
+    "body": "采立春节气根的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival6": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival7",
+    "title": "立春节气露两份",
+    "body": "采立春节气露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival7": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival8",
+    "title": "立春节气霜两份",
+    "body": "采立春节气霜的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival8": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival9",
+    "title": "立春节气雪两份",
+    "body": "采立春节气雪的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival9": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival10",
+    "title": "立春节气风两份",
+    "body": "采立春节气风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival10": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival11",
+    "title": "立春节气雨两份",
+    "body": "采立春节气雨的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival11": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival12",
+    "title": "立春节气雾两份",
+    "body": "采立春节气雾的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival12": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival13",
+    "title": "立春节气晴两份",
+    "body": "采立春节气晴的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival13": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival14",
+    "title": "雨水节气茶两份",
+    "body": "采雨水节气茶的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival14": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival15",
+    "title": "雨水节气蜜两份",
+    "body": "采雨水节气蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival15": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival16",
+    "title": "雨水节气姜两份",
+    "body": "采雨水节气姜的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival16": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival17",
+    "title": "雨水节气花两份",
+    "body": "采雨水节气花的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival17": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival18",
+    "title": "雨水节气果两份",
+    "body": "采雨水节气果的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival18": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival19",
+    "title": "雨水节气叶两份",
+    "body": "采雨水节气叶的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival19": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival20",
+    "title": "雨水节气根两份",
+    "body": "采雨水节气根的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival21",
+    "title": "雨水节气露两份",
+    "body": "采雨水节气露的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival22",
+    "title": "雨水节气霜两份",
+    "body": "采雨水节气霜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival23",
+    "title": "雨水节气雪两份",
+    "body": "采雨水节气雪的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival24",
+    "title": "雨水节气风两份",
+    "body": "采雨水节气风的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival25",
+    "title": "雨水节气雨两份",
+    "body": "采雨水节气雨的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival26",
+    "title": "雨水节气雾两份",
+    "body": "采雨水节气雾的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival27",
+    "title": "雨水节气晴两份",
+    "body": "采雨水节气晴的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival28",
+    "title": "惊蛰节气茶两份",
+    "body": "采惊蛰节气茶的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival29",
+    "title": "惊蛰节气蜜两份",
+    "body": "采惊蛰节气蜜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival30",
+    "title": "惊蛰节气姜两份",
+    "body": "采惊蛰节气姜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival30": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival31",
+    "title": "惊蛰节气花两份",
+    "body": "采惊蛰节气花的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival31": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival32",
+    "title": "惊蛰节气果两份",
+    "body": "采惊蛰节气果的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival32": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival33",
+    "title": "惊蛰节气叶两份",
+    "body": "采惊蛰节气叶的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival33": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival34",
+    "title": "惊蛰节气根两份",
+    "body": "采惊蛰节气根的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival34": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival35",
+    "title": "惊蛰节气露两份",
+    "body": "采惊蛰节气露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival35": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival36",
+    "title": "惊蛰节气霜两份",
+    "body": "采惊蛰节气霜的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival36": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival37",
+    "title": "惊蛰节气雪两份",
+    "body": "采惊蛰节气雪的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival37": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival38",
+    "title": "惊蛰节气风两份",
+    "body": "采惊蛰节气风的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival38": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival39",
+    "title": "惊蛰节气雨两份",
+    "body": "采惊蛰节气雨的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival39": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival40",
+    "title": "惊蛰节气雾两份",
+    "body": "采惊蛰节气雾的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival40": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival41",
+    "title": "惊蛰节气晴两份",
+    "body": "采惊蛰节气晴的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival41": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival42",
+    "title": "春分节气茶两份",
+    "body": "采春分节气茶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival42": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival43",
+    "title": "春分节气蜜两份",
+    "body": "采春分节气蜜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival43": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival44",
+    "title": "春分节气姜两份",
+    "body": "采春分节气姜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival44": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival45",
+    "title": "春分节气花两份",
+    "body": "采春分节气花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival45": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival46",
+    "title": "春分节气果两份",
+    "body": "采春分节气果的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival46": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival47",
+    "title": "春分节气叶两份",
+    "body": "采春分节气叶的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival47": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival48",
+    "title": "春分节气根两份",
+    "body": "采春分节气根的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival48": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival49",
+    "title": "春分节气露两份",
+    "body": "采春分节气露的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival49": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival50",
+    "title": "春分节气霜两份",
+    "body": "采春分节气霜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival50": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival51",
+    "title": "春分节气雪两份",
+    "body": "采春分节气雪的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival51": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival52",
+    "title": "春分节气风两份",
+    "body": "采春分节气风的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival52": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival53",
+    "title": "春分节气雨两份",
+    "body": "采春分节气雨的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival53": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival54",
+    "title": "春分节气雾两份",
+    "body": "采春分节气雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival54": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival55",
+    "title": "春分节气晴两份",
+    "body": "采春分节气晴的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival55": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival56",
+    "title": "清明节气茶两份",
+    "body": "采清明节气茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival56": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival57",
+    "title": "清明节气蜜两份",
+    "body": "采清明节气蜜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival57": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival58",
+    "title": "清明节气姜两份",
+    "body": "采清明节气姜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival58": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival59",
+    "title": "清明节气花两份",
+    "body": "采清明节气花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival59": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival60",
+    "title": "清明节气果两份",
+    "body": "采清明节气果的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival60": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival61",
+    "title": "清明节气叶两份",
+    "body": "采清明节气叶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival61": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival62",
+    "title": "清明节气根两份",
+    "body": "采清明节气根的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival62": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival63",
+    "title": "清明节气露两份",
+    "body": "采清明节气露的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival63": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival64",
+    "title": "清明节气霜两份",
+    "body": "采清明节气霜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival64": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival65",
+    "title": "清明节气雪两份",
+    "body": "采清明节气雪的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival65": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival66",
+    "title": "清明节气风两份",
+    "body": "采清明节气风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival66": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival67",
+    "title": "清明节气雨两份",
+    "body": "采清明节气雨的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival67": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival68",
+    "title": "清明节气雾两份",
+    "body": "采清明节气雾的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival68": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival69",
+    "title": "清明节气晴两份",
+    "body": "采清明节气晴的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival69": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival70",
+    "title": "谷雨节气茶两份",
+    "body": "采谷雨节气茶的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival70": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival71",
+    "title": "谷雨节气蜜两份",
+    "body": "采谷雨节气蜜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival71": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival72",
+    "title": "谷雨节气姜两份",
+    "body": "采谷雨节气姜的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival72": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival73",
+    "title": "谷雨节气花两份",
+    "body": "采谷雨节气花的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival73": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival74",
+    "title": "谷雨节气果两份",
+    "body": "采谷雨节气果的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival74": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival75",
+    "title": "谷雨节气叶两份",
+    "body": "采谷雨节气叶的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival75": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival76",
+    "title": "谷雨节气根两份",
+    "body": "采谷雨节气根的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival76": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival77",
+    "title": "谷雨节气露两份",
+    "body": "采谷雨节气露的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival77": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival78",
+    "title": "谷雨节气霜两份",
+    "body": "采谷雨节气霜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival78": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival79",
+    "title": "谷雨节气雪两份",
+    "body": "采谷雨节气雪的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival79": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival80",
+    "title": "谷雨节气风两份",
+    "body": "采谷雨节气风的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival80": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival81",
+    "title": "谷雨节气雨两份",
+    "body": "采谷雨节气雨的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival81": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival82",
+    "title": "谷雨节气雾两份",
+    "body": "采谷雨节气雾的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival82": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival83",
+    "title": "谷雨节气晴两份",
+    "body": "采谷雨节气晴的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival83": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival84",
+    "title": "立夏节气茶两份",
+    "body": "采立夏节气茶的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival84": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival85",
+    "title": "立夏节气蜜两份",
+    "body": "采立夏节气蜜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival85": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival86",
+    "title": "立夏节气姜两份",
+    "body": "采立夏节气姜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival86": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival87",
+    "title": "立夏节气花两份",
+    "body": "采立夏节气花的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival87": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival88",
+    "title": "立夏节气果两份",
+    "body": "采立夏节气果的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival88": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival89",
+    "title": "立夏节气叶两份",
+    "body": "采立夏节气叶的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival89": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival90",
+    "title": "立夏节气根两份",
+    "body": "采立夏节气根的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival90": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival91",
+    "title": "立夏节气露两份",
+    "body": "采立夏节气露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival91": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival92",
+    "title": "立夏节气霜两份",
+    "body": "采立夏节气霜的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival92": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival93",
+    "title": "立夏节气雪两份",
+    "body": "采立夏节气雪的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival93": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival94",
+    "title": "立夏节气风两份",
+    "body": "采立夏节气风的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival94": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival95",
+    "title": "立夏节气雨两份",
+    "body": "采立夏节气雨的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival95": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival96",
+    "title": "立夏节气雾两份",
+    "body": "采立夏节气雾的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival96": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival97",
+    "title": "立夏节气晴两份",
+    "body": "采立夏节气晴的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival97": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival98",
+    "title": "小满节气茶两份",
+    "body": "采小满节气茶的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival98": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival99",
+    "title": "小满节气蜜两份",
+    "body": "采小满节气蜜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival99": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival100",
+    "title": "小满节气姜两份",
+    "body": "采小满节气姜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival101",
+    "title": "小满节气花两份",
+    "body": "采小满节气花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival102",
+    "title": "小满节气果两份",
+    "body": "采小满节气果的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival103",
+    "title": "小满节气叶两份",
+    "body": "采小满节气叶的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival104",
+    "title": "小满节气根两份",
+    "body": "采小满节气根的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival105",
+    "title": "小满节气露两份",
+    "body": "采小满节气露的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival106",
+    "title": "小满节气霜两份",
+    "body": "采小满节气霜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival107",
+    "title": "小满节气雪两份",
+    "body": "采小满节气雪的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival108",
+    "title": "小满节气风两份",
+    "body": "采小满节气风的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival109",
+    "title": "小满节气雨两份",
+    "body": "采小满节气雨的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival110",
+    "title": "小满节气雾两份",
+    "body": "采小满节气雾的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival111",
+    "title": "小满节气晴两份",
+    "body": "采小满节气晴的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival112",
+    "title": "芒种节气茶两份",
+    "body": "采芒种节气茶的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival113",
+    "title": "芒种节气蜜两份",
+    "body": "采芒种节气蜜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival114",
+    "title": "芒种节气姜两份",
+    "body": "采芒种节气姜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival115",
+    "title": "芒种节气花两份",
+    "body": "采芒种节气花的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival116",
+    "title": "芒种节气果两份",
+    "body": "采芒种节气果的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival117",
+    "title": "芒种节气叶两份",
+    "body": "采芒种节气叶的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival118",
+    "title": "芒种节气根两份",
+    "body": "采芒种节气根的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival119",
+    "title": "芒种节气露两份",
+    "body": "采芒种节气露的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival120",
+    "title": "芒种节气霜两份",
+    "body": "采芒种节气霜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival121",
+    "title": "芒种节气雪两份",
+    "body": "采芒种节气雪的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival122",
+    "title": "芒种节气风两份",
+    "body": "采芒种节气风的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival123",
+    "title": "芒种节气雨两份",
+    "body": "采芒种节气雨的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival124",
+    "title": "芒种节气雾两份",
+    "body": "采芒种节气雾的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival125",
+    "title": "芒种节气晴两份",
+    "body": "采芒种节气晴的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival126",
+    "title": "夏至节气茶两份",
+    "body": "采夏至节气茶的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival127",
+    "title": "夏至节气蜜两份",
+    "body": "采夏至节气蜜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival128",
+    "title": "夏至节气姜两份",
+    "body": "采夏至节气姜的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival129",
+    "title": "夏至节气花两份",
+    "body": "采夏至节气花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival130",
+    "title": "夏至节气果两份",
+    "body": "采夏至节气果的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival131",
+    "title": "夏至节气叶两份",
+    "body": "采夏至节气叶的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival132",
+    "title": "夏至节气根两份",
+    "body": "采夏至节气根的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival133",
+    "title": "夏至节气露两份",
+    "body": "采夏至节气露的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival134",
+    "title": "夏至节气霜两份",
+    "body": "采夏至节气霜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival135",
+    "title": "夏至节气雪两份",
+    "body": "采夏至节气雪的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival136",
+    "title": "夏至节气风两份",
+    "body": "采夏至节气风的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival137",
+    "title": "夏至节气雨两份",
+    "body": "采夏至节气雨的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival138",
+    "title": "夏至节气雾两份",
+    "body": "采夏至节气雾的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival139",
+    "title": "夏至节气晴两份",
+    "body": "采夏至节气晴的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival140",
+    "title": "小暑节气茶两份",
+    "body": "采小暑节气茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival141",
+    "title": "小暑节气蜜两份",
+    "body": "采小暑节气蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival142",
+    "title": "小暑节气姜两份",
+    "body": "采小暑节气姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival143",
+    "title": "小暑节气花两份",
+    "body": "采小暑节气花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival144",
+    "title": "小暑节气果两份",
+    "body": "采小暑节气果的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival145",
+    "title": "小暑节气叶两份",
+    "body": "采小暑节气叶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival146",
+    "title": "小暑节气根两份",
+    "body": "采小暑节气根的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival147",
+    "title": "小暑节气露两份",
+    "body": "采小暑节气露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival148",
+    "title": "小暑节气霜两份",
+    "body": "采小暑节气霜的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival149",
+    "title": "小暑节气雪两份",
+    "body": "采小暑节气雪的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival150",
+    "title": "小暑节气风两份",
+    "body": "采小暑节气风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival151",
+    "title": "小暑节气雨两份",
+    "body": "采小暑节气雨的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival152",
+    "title": "小暑节气雾两份",
+    "body": "采小暑节气雾的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival153",
+    "title": "小暑节气晴两份",
+    "body": "采小暑节气晴的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival154",
+    "title": "大暑节气茶两份",
+    "body": "采大暑节气茶的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival155",
+    "title": "大暑节气蜜两份",
+    "body": "采大暑节气蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival156",
+    "title": "大暑节气姜两份",
+    "body": "采大暑节气姜的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival157",
+    "title": "大暑节气花两份",
+    "body": "采大暑节气花的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival158",
+    "title": "大暑节气果两份",
+    "body": "采大暑节气果的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival159",
+    "title": "大暑节气叶两份",
+    "body": "采大暑节气叶的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival160",
+    "title": "大暑节气根两份",
+    "body": "采大暑节气根的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival161",
+    "title": "大暑节气露两份",
+    "body": "采大暑节气露的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival162",
+    "title": "大暑节气霜两份",
+    "body": "采大暑节气霜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival163",
+    "title": "大暑节气雪两份",
+    "body": "采大暑节气雪的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival164",
+    "title": "大暑节气风两份",
+    "body": "采大暑节气风的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival165",
+    "title": "大暑节气雨两份",
+    "body": "采大暑节气雨的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival166",
+    "title": "大暑节气雾两份",
+    "body": "采大暑节气雾的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival167",
+    "title": "大暑节气晴两份",
+    "body": "采大暑节气晴的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival168",
+    "title": "立秋节气茶两份",
+    "body": "采立秋节气茶的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival169",
+    "title": "立秋节气蜜两份",
+    "body": "采立秋节气蜜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival170",
+    "title": "立秋节气姜两份",
+    "body": "采立秋节气姜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival171",
+    "title": "立秋节气花两份",
+    "body": "采立秋节气花的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival172",
+    "title": "立秋节气果两份",
+    "body": "采立秋节气果的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival173",
+    "title": "立秋节气叶两份",
+    "body": "采立秋节气叶的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival174",
+    "title": "立秋节气根两份",
+    "body": "采立秋节气根的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival175",
+    "title": "立秋节气露两份",
+    "body": "采立秋节气露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival176",
+    "title": "立秋节气霜两份",
+    "body": "采立秋节气霜的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival177",
+    "title": "立秋节气雪两份",
+    "body": "采立秋节气雪的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival178",
+    "title": "立秋节气风两份",
+    "body": "采立秋节气风的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival179",
+    "title": "立秋节气雨两份",
+    "body": "采立秋节气雨的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival180",
+    "title": "立秋节气雾两份",
+    "body": "采立秋节气雾的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival181",
+    "title": "立秋节气晴两份",
+    "body": "采立秋节气晴的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival182",
+    "title": "处暑节气茶两份",
+    "body": "采处暑节气茶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival183",
+    "title": "处暑节气蜜两份",
+    "body": "采处暑节气蜜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival184",
+    "title": "处暑节气姜两份",
+    "body": "采处暑节气姜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival185",
+    "title": "处暑节气花两份",
+    "body": "采处暑节气花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival186",
+    "title": "处暑节气果两份",
+    "body": "采处暑节气果的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival187",
+    "title": "处暑节气叶两份",
+    "body": "采处暑节气叶的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival188",
+    "title": "处暑节气根两份",
+    "body": "采处暑节气根的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival189",
+    "title": "处暑节气露两份",
+    "body": "采处暑节气露的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival190",
+    "title": "处暑节气霜两份",
+    "body": "采处暑节气霜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival191",
+    "title": "处暑节气雪两份",
+    "body": "采处暑节气雪的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival192",
+    "title": "处暑节气风两份",
+    "body": "采处暑节气风的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival193",
+    "title": "处暑节气雨两份",
+    "body": "采处暑节气雨的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival194",
+    "title": "处暑节气雾两份",
+    "body": "采处暑节气雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival195",
+    "title": "处暑节气晴两份",
+    "body": "采处暑节气晴的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival196",
+    "title": "白露节气茶两份",
+    "body": "采白露节气茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival197",
+    "title": "白露节气蜜两份",
+    "body": "采白露节气蜜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival198",
+    "title": "白露节气姜两份",
+    "body": "采白露节气姜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival199",
+    "title": "白露节气花两份",
+    "body": "采白露节气花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival200",
+    "title": "白露节气果两份",
+    "body": "采白露节气果的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival201",
+    "title": "白露节气叶两份",
+    "body": "采白露节气叶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival202",
+    "title": "白露节气根两份",
+    "body": "采白露节气根的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival203",
+    "title": "白露节气露两份",
+    "body": "采白露节气露的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival204",
+    "title": "白露节气霜两份",
+    "body": "采白露节气霜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival205",
+    "title": "白露节气雪两份",
+    "body": "采白露节气雪的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival206",
+    "title": "白露节气风两份",
+    "body": "采白露节气风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival207",
+    "title": "白露节气雨两份",
+    "body": "采白露节气雨的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival208",
+    "title": "白露节气雾两份",
+    "body": "采白露节气雾的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival209",
+    "title": "白露节气晴两份",
+    "body": "采白露节气晴的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival210",
+    "title": "秋分节气茶两份",
+    "body": "采秋分节气茶的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival211",
+    "title": "秋分节气蜜两份",
+    "body": "采秋分节气蜜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival212",
+    "title": "秋分节气姜两份",
+    "body": "采秋分节气姜的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival213",
+    "title": "秋分节气花两份",
+    "body": "采秋分节气花的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival214",
+    "title": "秋分节气果两份",
+    "body": "采秋分节气果的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival215",
+    "title": "秋分节气叶两份",
+    "body": "采秋分节气叶的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival216",
+    "title": "秋分节气根两份",
+    "body": "采秋分节气根的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival217",
+    "title": "秋分节气露两份",
+    "body": "采秋分节气露的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival218",
+    "title": "秋分节气霜两份",
+    "body": "采秋分节气霜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival219",
+    "title": "秋分节气雪两份",
+    "body": "采秋分节气雪的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival220",
+    "title": "秋分节气风两份",
+    "body": "采秋分节气风的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival221",
+    "title": "秋分节气雨两份",
+    "body": "采秋分节气雨的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival222",
+    "title": "秋分节气雾两份",
+    "body": "采秋分节气雾的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival223",
+    "title": "秋分节气晴两份",
+    "body": "采秋分节气晴的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival224",
+    "title": "寒露节气茶两份",
+    "body": "采寒露节气茶的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival225",
+    "title": "寒露节气蜜两份",
+    "body": "采寒露节气蜜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival226",
+    "title": "寒露节气姜两份",
+    "body": "采寒露节气姜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival227",
+    "title": "寒露节气花两份",
+    "body": "采寒露节气花的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival228",
+    "title": "寒露节气果两份",
+    "body": "采寒露节气果的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival229",
+    "title": "寒露节气叶两份",
+    "body": "采寒露节气叶的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival230",
+    "title": "寒露节气根两份",
+    "body": "采寒露节气根的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival231",
+    "title": "寒露节气露两份",
+    "body": "采寒露节气露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival232",
+    "title": "寒露节气霜两份",
+    "body": "采寒露节气霜的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival233",
+    "title": "寒露节气雪两份",
+    "body": "采寒露节气雪的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival234",
+    "title": "寒露节气风两份",
+    "body": "采寒露节气风的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival235",
+    "title": "寒露节气雨两份",
+    "body": "采寒露节气雨的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival236",
+    "title": "寒露节气雾两份",
+    "body": "采寒露节气雾的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival237",
+    "title": "寒露节气晴两份",
+    "body": "采寒露节气晴的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival238",
+    "title": "霜降节气茶两份",
+    "body": "采霜降节气茶的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival239",
+    "title": "霜降节气蜜两份",
+    "body": "采霜降节气蜜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival240",
+    "title": "霜降节气姜两份",
+    "body": "采霜降节气姜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival241",
+    "title": "霜降节气花两份",
+    "body": "采霜降节气花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival242",
+    "title": "霜降节气果两份",
+    "body": "采霜降节气果的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival243",
+    "title": "霜降节气叶两份",
+    "body": "采霜降节气叶的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival244",
+    "title": "霜降节气根两份",
+    "body": "采霜降节气根的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival245",
+    "title": "霜降节气露两份",
+    "body": "采霜降节气露的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival246",
+    "title": "霜降节气霜两份",
+    "body": "采霜降节气霜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival247",
+    "title": "霜降节气雪两份",
+    "body": "采霜降节气雪的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival248",
+    "title": "霜降节气风两份",
+    "body": "采霜降节气风的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival249",
+    "title": "霜降节气雨两份",
+    "body": "采霜降节气雨的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival250",
+    "title": "霜降节气雾两份",
+    "body": "采霜降节气雾的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival251",
+    "title": "霜降节气晴两份",
+    "body": "采霜降节气晴的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival252",
+    "title": "立冬节气茶两份",
+    "body": "采立冬节气茶的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival253",
+    "title": "立冬节气蜜两份",
+    "body": "采立冬节气蜜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival254",
+    "title": "立冬节气姜两份",
+    "body": "采立冬节气姜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival255",
+    "title": "立冬节气花两份",
+    "body": "采立冬节气花的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival256",
+    "title": "立冬节气果两份",
+    "body": "采立冬节气果的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival257",
+    "title": "立冬节气叶两份",
+    "body": "采立冬节气叶的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival258",
+    "title": "立冬节气根两份",
+    "body": "采立冬节气根的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival259",
+    "title": "立冬节气露两份",
+    "body": "采立冬节气露的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival260",
+    "title": "立冬节气霜两份",
+    "body": "采立冬节气霜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival261",
+    "title": "立冬节气雪两份",
+    "body": "采立冬节气雪的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival262",
+    "title": "立冬节气风两份",
+    "body": "采立冬节气风的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival263",
+    "title": "立冬节气雨两份",
+    "body": "采立冬节气雨的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival264",
+    "title": "立冬节气雾两份",
+    "body": "采立冬节气雾的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival265",
+    "title": "立冬节气晴两份",
+    "body": "采立冬节气晴的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival266",
+    "title": "小雪节气茶两份",
+    "body": "采小雪节气茶的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival267",
+    "title": "小雪节气蜜两份",
+    "body": "采小雪节气蜜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival268",
+    "title": "小雪节气姜两份",
+    "body": "采小雪节气姜的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival269",
+    "title": "小雪节气花两份",
+    "body": "采小雪节气花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival270",
+    "title": "小雪节气果两份",
+    "body": "采小雪节气果的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival271",
+    "title": "小雪节气叶两份",
+    "body": "采小雪节气叶的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival272",
+    "title": "小雪节气根两份",
+    "body": "采小雪节气根的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival273",
+    "title": "小雪节气露两份",
+    "body": "采小雪节气露的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival274",
+    "title": "小雪节气霜两份",
+    "body": "采小雪节气霜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival275",
+    "title": "小雪节气雪两份",
+    "body": "采小雪节气雪的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival276",
+    "title": "小雪节气风两份",
+    "body": "采小雪节气风的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival277",
+    "title": "小雪节气雨两份",
+    "body": "采小雪节气雨的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival278",
+    "title": "小雪节气雾两份",
+    "body": "采小雪节气雾的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival279",
+    "title": "小雪节气晴两份",
+    "body": "采小雪节气晴的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival280",
+    "title": "大雪节气茶两份",
+    "body": "采大雪节气茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival281",
+    "title": "大雪节气蜜两份",
+    "body": "采大雪节气蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival282",
+    "title": "大雪节气姜两份",
+    "body": "采大雪节气姜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival283",
+    "title": "大雪节气花两份",
+    "body": "采大雪节气花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival284",
+    "title": "大雪节气果两份",
+    "body": "采大雪节气果的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival285",
+    "title": "大雪节气叶两份",
+    "body": "采大雪节气叶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival286",
+    "title": "大雪节气根两份",
+    "body": "采大雪节气根的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival287",
+    "title": "大雪节气露两份",
+    "body": "采大雪节气露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival288",
+    "title": "大雪节气霜两份",
+    "body": "采大雪节气霜的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival289",
+    "title": "大雪节气雪两份",
+    "body": "采大雪节气雪的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival290",
+    "title": "大雪节气风两份",
+    "body": "采大雪节气风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival291",
+    "title": "大雪节气雨两份",
+    "body": "采大雪节气雨的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival292",
+    "title": "大雪节气雾两份",
+    "body": "采大雪节气雾的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival293",
+    "title": "大雪节气晴两份",
+    "body": "采大雪节气晴的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival294",
+    "title": "冬至节气茶两份",
+    "body": "采冬至节气茶的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival295",
+    "title": "冬至节气蜜两份",
+    "body": "采冬至节气蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival296",
+    "title": "冬至节气姜两份",
+    "body": "采冬至节气姜的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival297",
+    "title": "冬至节气花两份",
+    "body": "采冬至节气花的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival298",
+    "title": "冬至节气果两份",
+    "body": "采冬至节气果的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival299",
+    "title": "冬至节气叶两份",
+    "body": "采冬至节气叶的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival300",
+    "title": "冬至节气根两份",
+    "body": "采冬至节气根的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival301",
+    "title": "冬至节气露两份",
+    "body": "采冬至节气露的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival302",
+    "title": "冬至节气霜两份",
+    "body": "采冬至节气霜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival303",
+    "title": "冬至节气雪两份",
+    "body": "采冬至节气雪的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival304",
+    "title": "冬至节气风两份",
+    "body": "采冬至节气风的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival305",
+    "title": "冬至节气雨两份",
+    "body": "采冬至节气雨的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival306",
+    "title": "冬至节气雾两份",
+    "body": "采冬至节气雾的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival307",
+    "title": "冬至节气晴两份",
+    "body": "采冬至节气晴的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival308",
+    "title": "小寒节气茶两份",
+    "body": "采小寒节气茶的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival309",
+    "title": "小寒节气蜜两份",
+    "body": "采小寒节气蜜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival310",
+    "title": "小寒节气姜两份",
+    "body": "采小寒节气姜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival311",
+    "title": "小寒节气花两份",
+    "body": "采小寒节气花的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival312",
+    "title": "小寒节气果两份",
+    "body": "采小寒节气果的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival313",
+    "title": "小寒节气叶两份",
+    "body": "采小寒节气叶的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival314",
+    "title": "小寒节气根两份",
+    "body": "采小寒节气根的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival315",
+    "title": "小寒节气露两份",
+    "body": "采小寒节气露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival316",
+    "title": "小寒节气霜两份",
+    "body": "采小寒节气霜的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival317",
+    "title": "小寒节气雪两份",
+    "body": "采小寒节气雪的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival318",
+    "title": "小寒节气风两份",
+    "body": "采小寒节气风的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_festival319",
+    "title": "小寒节气雨两份",
+    "body": "采小寒节气雨的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "festival319": 2
+      },
+      "coins": 2
+    }
   }
 ]
