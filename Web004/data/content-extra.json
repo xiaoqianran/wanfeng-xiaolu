@@ -5038,6 +5038,111 @@
       "emoji": "💗",
       "kind": "风味",
       "seed": "ranunculusPot"
+    },
+    "sweet_pea": {
+      "id": "sweet_pea",
+      "name": "香豌豆",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "sweet_peaPot"
+    },
+    "nasturtium": {
+      "id": "nasturtium",
+      "name": "旱金莲",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "nasturtiumPot"
+    },
+    "morning_glory": {
+      "id": "morning_glory",
+      "name": "牵牛花",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "morning_gloryPot"
+    },
+    "moonflower": {
+      "id": "moonflower",
+      "name": "月光花",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "moonflowerPot"
+    },
+    "clematis": {
+      "id": "clematis",
+      "name": "铁线莲",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "clematisPot"
+    },
+    "wisteria_fresh": {
+      "id": "wisteria_fresh",
+      "name": "鲜紫藤",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "wisteria_freshPot"
+    },
+    "jasmine_sambac": {
+      "id": "jasmine_sambac",
+      "name": "双瓣茉莉",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "jasmine_sambacPot"
+    },
+    "gardenia_tea": {
+      "id": "gardenia_tea",
+      "name": "栀子花茶",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "gardenia_teaPot"
+    },
+    "magnolia_bark": {
+      "id": "magnolia_bark",
+      "name": "厚朴",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "magnolia_barkPot"
+    },
+    "eucommia": {
+      "id": "eucommia",
+      "name": "杜仲",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "eucommiaPot"
+    },
+    "astragalus": {
+      "id": "astragalus",
+      "name": "黄芪",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "astragalusPot"
+    },
+    "codonopsis": {
+      "id": "codonopsis",
+      "name": "党参",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "codonopsisPot"
+    },
+    "rehmannia": {
+      "id": "rehmannia",
+      "name": "地黄",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "rehmanniaPot"
+    },
+    "polygonatum": {
+      "id": "polygonatum",
+      "name": "玉竹",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "polygonatumPot"
+    },
+    "ophiopogon": {
+      "id": "ophiopogon",
+      "name": "麦冬",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "ophiopogonPot"
     }
   },
   "plants": {
@@ -11151,6 +11256,171 @@
       ],
       "harvest": "ranunculus",
       "days": 3
+    },
+    "sweet_peaPot": {
+      "id": "sweet_peaPot",
+      "name": "香豌豆",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "sweet_pea",
+      "days": 3
+    },
+    "nasturtiumPot": {
+      "id": "nasturtiumPot",
+      "name": "旱金莲",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "nasturtium",
+      "days": 3
+    },
+    "morning_gloryPot": {
+      "id": "morning_gloryPot",
+      "name": "牵牛花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "morning_glory",
+      "days": 3
+    },
+    "moonflowerPot": {
+      "id": "moonflowerPot",
+      "name": "月光花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "moonflower",
+      "days": 3
+    },
+    "clematisPot": {
+      "id": "clematisPot",
+      "name": "铁线莲",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "clematis",
+      "days": 3
+    },
+    "wisteria_freshPot": {
+      "id": "wisteria_freshPot",
+      "name": "鲜紫藤",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "wisteria_fresh",
+      "days": 3
+    },
+    "jasmine_sambacPot": {
+      "id": "jasmine_sambacPot",
+      "name": "双瓣茉莉",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "jasmine_sambac",
+      "days": 3
+    },
+    "gardenia_teaPot": {
+      "id": "gardenia_teaPot",
+      "name": "栀子花茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "gardenia_tea",
+      "days": 3
+    },
+    "magnolia_barkPot": {
+      "id": "magnolia_barkPot",
+      "name": "厚朴",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "magnolia_bark",
+      "days": 4
+    },
+    "eucommiaPot": {
+      "id": "eucommiaPot",
+      "name": "杜仲",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "eucommia",
+      "days": 4
+    },
+    "astragalusPot": {
+      "id": "astragalusPot",
+      "name": "黄芪",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "astragalus",
+      "days": 4
+    },
+    "codonopsisPot": {
+      "id": "codonopsisPot",
+      "name": "党参",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "codonopsis",
+      "days": 4
+    },
+    "rehmanniaPot": {
+      "id": "rehmanniaPot",
+      "name": "地黄",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "rehmannia",
+      "days": 4
+    },
+    "polygonatumPot": {
+      "id": "polygonatumPot",
+      "name": "玉竹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "polygonatum",
+      "days": 4
+    },
+    "ophiopogonPot": {
+      "id": "ophiopogonPot",
+      "name": "麦冬",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "ophiopogon",
+      "days": 3
     }
   },
   "cups": [
@@ -15815,6 +16085,156 @@
       "tags": [
         "花香",
         "温柔"
+      ]
+    },
+    {
+      "id": "sweet_pea",
+      "name": "香豌豆",
+      "emoji": "💗",
+      "need": "sweet_pea",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "nasturtium",
+      "name": "旱金莲",
+      "emoji": "🧡",
+      "need": "nasturtium",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "morning_glory",
+      "name": "牵牛花",
+      "emoji": "💙",
+      "need": "morning_glory",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "moonflower",
+      "name": "月光花",
+      "emoji": "🤍",
+      "need": "moonflower",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "clematis",
+      "name": "铁线莲",
+      "emoji": "💜",
+      "need": "clematis",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "wisteria_fresh",
+      "name": "鲜紫藤",
+      "emoji": "💜",
+      "need": "wisteria_fresh",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "jasmine_sambac",
+      "name": "双瓣茉莉",
+      "emoji": "🤍",
+      "need": "jasmine_sambac",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "gardenia_tea",
+      "name": "栀子花茶",
+      "emoji": "🤍",
+      "need": "gardenia_tea",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "magnolia_bark",
+      "name": "厚朴",
+      "emoji": "🟤",
+      "need": "magnolia_bark",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "eucommia",
+      "name": "杜仲",
+      "emoji": "🟤",
+      "need": "eucommia",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "astragalus",
+      "name": "黄芪",
+      "emoji": "🟡",
+      "need": "astragalus",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "codonopsis",
+      "name": "党参",
+      "emoji": "🤍",
+      "need": "codonopsis",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "rehmannia",
+      "name": "地黄",
+      "emoji": "🟤",
+      "need": "rehmannia",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "polygonatum",
+      "name": "玉竹",
+      "emoji": "🤍",
+      "need": "polygonatum",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "ophiopogon",
+      "name": "麦冬",
+      "emoji": "🟢",
+      "need": "ophiopogon",
+      "tags": [
+        "草本",
+        "清爽"
       ]
     }
   ],
@@ -22788,6 +23208,231 @@
         "honey",
         "tea_leaf",
         "lavender_bud"
+      ]
+    },
+    {
+      "name": "采香豌豆的旅人",
+      "avatar": "💗",
+      "wish": "香豌豆或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "sweet_pea",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采旱金莲的药师",
+      "avatar": "🧡",
+      "wish": "旱金莲或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "nasturtium",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采牵牛花的旅人",
+      "avatar": "💙",
+      "wish": "牵牛花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "morning_glory",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采月光花的药师",
+      "avatar": "🤍",
+      "wish": "月光花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "moonflower",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采铁线莲的旅人",
+      "avatar": "💜",
+      "wish": "铁线莲或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "clematis",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜紫藤的药师",
+      "avatar": "💜",
+      "wish": "鲜紫藤或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "wisteria_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采双瓣茉莉的药师",
+      "avatar": "🤍",
+      "wish": "双瓣茉莉或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "jasmine_sambac",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "泡栀子花茶的旅人",
+      "avatar": "🤍",
+      "wish": "栀子花茶或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "gardenia_tea",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采厚朴的药师",
+      "avatar": "🟤",
+      "wish": "厚朴或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "magnolia_bark",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采杜仲的药师",
+      "avatar": "🟤",
+      "wish": "杜仲或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "eucommia",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖黄芪的药师",
+      "avatar": "🟡",
+      "wish": "黄芪或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "astragalus",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖党参的药师",
+      "avatar": "🤍",
+      "wish": "党参或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "codonopsis",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖地黄的药师",
+      "avatar": "🟤",
+      "wish": "地黄或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "rehmannia",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖玉竹的药师",
+      "avatar": "🤍",
+      "wish": "玉竹或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "polygonatum",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖麦冬的药师",
+      "avatar": "🟢",
+      "wish": "麦冬或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "ophiopogon",
+        "honey",
+        "tea_leaf",
+        "mint"
       ]
     }
   ],
