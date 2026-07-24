@@ -6263,6 +6263,118 @@
       "emoji": "🟡",
       "kind": "风味",
       "seed": "wild_mustardPot"
+    },
+    "meadow_buttercup": {
+      "id": "meadow_buttercup",
+      "name": "草地毛茛",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "meadow_buttercupPot"
+    },
+    "creeping_buttercup": {
+      "id": "creeping_buttercup",
+      "name": "匍匐毛茛",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "creeping_buttercupPot"
+    },
+    "lesser_celandine": {
+      "id": "lesser_celandine",
+      "name": "小白屈菜",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "lesser_celandinePot"
+    },
+    "marsh_marigold": {
+      "id": "marsh_marigold",
+      "name": "驴蹄草",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "marsh_marigoldPot"
+    },
+    "globe_flower": {
+      "id": "globe_flower",
+      "name": "金莲花",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "globe_flowerPot"
+    },
+    "columbine": {
+      "id": "columbine",
+      "name": "耧斗菜",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "columbinePot"
+    },
+    "monkshood": {
+      "id": "monkshood",
+      "name": "乌头",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "monkshoodPot"
+    },
+    "larkspur": {
+      "id": "larkspur",
+      "name": "飞燕草",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "larkspurPot"
+    },
+    "delphinium": {
+      "id": "delphinium",
+      "name": "翠雀",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "delphiniumPot"
+    },
+    "aconite": {
+      "id": "aconite",
+      "name": "附子花",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "aconitePot"
+    },
+    "helleborus": {
+      "id": "helleborus",
+      "name": "铁筷子",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "helleborusPot"
+    },
+    "christmas_rose": {
+      "id": "christmas_rose",
+      "name": "圣诞玫瑰",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "christmas_rosePot"
+    },
+    "pasque_flower": {
+      "id": "pasque_flower",
+      "name": "白头翁",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "pasque_flowerPot"
+    },
+    "anemone_coronaria": {
+      "id": "anemone_coronaria",
+      "name": "冠状银莲",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "anemone_coronariaPot"
+    },
+    "hepatic": {
+      "id": "hepatic",
+      "name": "獐耳细辛",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "hepaticPot"
+    },
+    "clematis_vitalba": {
+      "id": "clematis_vitalba",
+      "name": "老铁线莲",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "clematis_vitalbaPot"
     }
   },
   "plants": {
@@ -14301,6 +14413,182 @@
       ],
       "harvest": "wild_mustard",
       "days": 3
+    },
+    "meadow_buttercupPot": {
+      "id": "meadow_buttercupPot",
+      "name": "草地毛茛",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "meadow_buttercup",
+      "days": 3
+    },
+    "creeping_buttercupPot": {
+      "id": "creeping_buttercupPot",
+      "name": "匍匐毛茛",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "creeping_buttercup",
+      "days": 3
+    },
+    "lesser_celandinePot": {
+      "id": "lesser_celandinePot",
+      "name": "小白屈菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "lesser_celandine",
+      "days": 3
+    },
+    "marsh_marigoldPot": {
+      "id": "marsh_marigoldPot",
+      "name": "驴蹄草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "marsh_marigold",
+      "days": 3
+    },
+    "globe_flowerPot": {
+      "id": "globe_flowerPot",
+      "name": "金莲花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "globe_flower",
+      "days": 3
+    },
+    "columbinePot": {
+      "id": "columbinePot",
+      "name": "耧斗菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "columbine",
+      "days": 3
+    },
+    "monkshoodPot": {
+      "id": "monkshoodPot",
+      "name": "乌头",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "monkshood",
+      "days": 4
+    },
+    "larkspurPot": {
+      "id": "larkspurPot",
+      "name": "飞燕草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "larkspur",
+      "days": 3
+    },
+    "delphiniumPot": {
+      "id": "delphiniumPot",
+      "name": "翠雀",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "delphinium",
+      "days": 3
+    },
+    "aconitePot": {
+      "id": "aconitePot",
+      "name": "附子花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "aconite",
+      "days": 4
+    },
+    "helleborusPot": {
+      "id": "helleborusPot",
+      "name": "铁筷子",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "helleborus",
+      "days": 3
+    },
+    "christmas_rosePot": {
+      "id": "christmas_rosePot",
+      "name": "圣诞玫瑰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "christmas_rose",
+      "days": 3
+    },
+    "pasque_flowerPot": {
+      "id": "pasque_flowerPot",
+      "name": "白头翁",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "pasque_flower",
+      "days": 3
+    },
+    "anemone_coronariaPot": {
+      "id": "anemone_coronariaPot",
+      "name": "冠状银莲",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "anemone_coronaria",
+      "days": 3
+    },
+    "hepaticPot": {
+      "id": "hepaticPot",
+      "name": "獐耳细辛",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "hepatic",
+      "days": 3
+    },
+    "clematis_vitalbaPot": {
+      "id": "clematis_vitalbaPot",
+      "name": "老铁线莲",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "clematis_vitalba",
+      "days": 3
     }
   },
   "cups": [
@@ -20715,6 +21003,166 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "meadow_buttercup",
+      "name": "草地毛茛",
+      "emoji": "🟡",
+      "need": "meadow_buttercup",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "creeping_buttercup",
+      "name": "匍匐毛茛",
+      "emoji": "🟡",
+      "need": "creeping_buttercup",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "lesser_celandine",
+      "name": "小白屈菜",
+      "emoji": "🟡",
+      "need": "lesser_celandine",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "marsh_marigold",
+      "name": "驴蹄草",
+      "emoji": "🟡",
+      "need": "marsh_marigold",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "globe_flower",
+      "name": "金莲花",
+      "emoji": "🟡",
+      "need": "globe_flower",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "columbine",
+      "name": "耧斗菜",
+      "emoji": "💜",
+      "need": "columbine",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "monkshood",
+      "name": "乌头",
+      "emoji": "💙",
+      "need": "monkshood",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "larkspur",
+      "name": "飞燕草",
+      "emoji": "💙",
+      "need": "larkspur",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "delphinium",
+      "name": "翠雀",
+      "emoji": "💙",
+      "need": "delphinium",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "aconite",
+      "name": "附子花",
+      "emoji": "🟣",
+      "need": "aconite",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "helleborus",
+      "name": "铁筷子",
+      "emoji": "🟢",
+      "need": "helleborus",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "christmas_rose",
+      "name": "圣诞玫瑰",
+      "emoji": "🤍",
+      "need": "christmas_rose",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "pasque_flower",
+      "name": "白头翁",
+      "emoji": "💜",
+      "need": "pasque_flower",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "anemone_coronaria",
+      "name": "冠状银莲",
+      "emoji": "🔴",
+      "need": "anemone_coronaria",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "hepatic",
+      "name": "獐耳细辛",
+      "emoji": "💙",
+      "need": "hepatic",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "clematis_vitalba",
+      "name": "老铁线莲",
+      "emoji": "⚪",
+      "need": "clematis_vitalba",
+      "tags": [
+        "花香",
+        "草本"
       ]
     }
   ],
@@ -30313,6 +30761,246 @@
         "honey",
         "tea_leaf",
         "mint"
+      ]
+    },
+    {
+      "name": "采草地毛茛的旅人",
+      "avatar": "🟡",
+      "wish": "草地毛茛或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "meadow_buttercup",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采匍匐毛茛的药师",
+      "avatar": "🟡",
+      "wish": "匍匐毛茛或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "creeping_buttercup",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采小白屈菜的旅人",
+      "avatar": "🟡",
+      "wish": "小白屈菜或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "lesser_celandine",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采驴蹄草的药师",
+      "avatar": "🟡",
+      "wish": "驴蹄草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "marsh_marigold",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采金莲花的旅人",
+      "avatar": "🟡",
+      "wish": "金莲花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "globe_flower",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采耧斗菜的药师",
+      "avatar": "💜",
+      "wish": "耧斗菜或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "columbine",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采乌头的药师",
+      "avatar": "💙",
+      "wish": "乌头或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "monkshood",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采飞燕草的旅人",
+      "avatar": "💙",
+      "wish": "飞燕草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "larkspur",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采翠雀的药师",
+      "avatar": "💙",
+      "wish": "翠雀或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "delphinium",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采附子花的药师",
+      "avatar": "🟣",
+      "wish": "附子花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "aconite",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采铁筷子的旅人",
+      "avatar": "🟢",
+      "wish": "铁筷子或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "helleborus",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采圣诞玫瑰的药师",
+      "avatar": "🤍",
+      "wish": "圣诞玫瑰或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "christmas_rose",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采白头翁的旅人",
+      "avatar": "💜",
+      "wish": "白头翁或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "pasque_flower",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采冠状银莲的药师",
+      "avatar": "🔴",
+      "wish": "冠状银莲或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "anemone_coronaria",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采獐耳细辛的旅人",
+      "avatar": "💙",
+      "wish": "獐耳细辛或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "hepatic",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采老铁线莲的药师",
+      "avatar": "⚪",
+      "wish": "老铁线莲或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "clematis_vitalba",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
       ]
     }
   ],

@@ -6728,5 +6728,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_meadow_buttercup",
+    "title": "草地毛茛两份",
+    "body": "采草地毛茛的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "meadow_buttercup": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_creeping_buttercup",
+    "title": "匍匐毛茛两份",
+    "body": "采匍匐毛茛的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "creeping_buttercup": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lesser_celandine",
+    "title": "小白屈菜两份",
+    "body": "采小白屈菜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "lesser_celandine": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_marsh_marigold",
+    "title": "驴蹄草两份",
+    "body": "采驴蹄草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "marsh_marigold": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_globe_flower",
+    "title": "金莲花两份",
+    "body": "采金莲花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "globe_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_columbine",
+    "title": "耧斗菜两份",
+    "body": "采耧斗菜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "columbine": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_monkshood",
+    "title": "乌头两份",
+    "body": "采乌头的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "monkshood": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_larkspur",
+    "title": "飞燕草两份",
+    "body": "采飞燕草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "larkspur": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_delphinium",
+    "title": "翠雀两份",
+    "body": "采翠雀的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "delphinium": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_aconite",
+    "title": "附子花两份",
+    "body": "采附子花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "aconite": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_helleborus",
+    "title": "铁筷子两份",
+    "body": "采铁筷子的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "helleborus": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_christmas_rose",
+    "title": "圣诞玫瑰两份",
+    "body": "采圣诞玫瑰的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "christmas_rose": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_pasque_flower",
+    "title": "白头翁两份",
+    "body": "采白头翁的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "pasque_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_anemone_coronaria",
+    "title": "冠状银莲两份",
+    "body": "采冠状银莲的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "anemone_coronaria": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_hepatic",
+    "title": "獐耳细辛两份",
+    "body": "采獐耳细辛的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "hepatic": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_clematis_vitalba",
+    "title": "老铁线莲两份",
+    "body": "采老铁线莲的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "clematis_vitalba": 2
+      },
+      "coins": 2
+    }
   }
 ]
