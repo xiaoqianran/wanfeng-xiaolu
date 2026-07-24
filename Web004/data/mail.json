@@ -1283,5 +1283,27 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_rambutan",
+    "title": "红毛丹两颗",
+    "body": "剥红毛丹的小孩来信：刚摘的。给你两颗，别放太久。",
+    "effect": {
+      "items": {
+        "rambutan": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_jackfruit",
+    "title": "菠萝蜜两瓣",
+    "body": "切菠萝蜜的大叔来信：刚切的。给你两瓣，别放太久。",
+    "effect": {
+      "items": {
+        "jackfruit": 2
+      },
+      "coins": 2
+    }
   }
 ]
