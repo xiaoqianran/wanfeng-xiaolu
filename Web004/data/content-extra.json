@@ -3064,6 +3064,34 @@
       "emoji": "🤍",
       "kind": "风味",
       "seed": "yarrowPot"
+    },
+    "meadowsweet": {
+      "id": "meadowsweet",
+      "name": "绣线菊",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "meadowsweetPot"
+    },
+    "woodruff": {
+      "id": "woodruff",
+      "name": "车叶草",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "woodruffPot"
+    },
+    "borage": {
+      "id": "borage",
+      "name": "琉璃苣",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "boragePot"
+    },
+    "valerian": {
+      "id": "valerian",
+      "name": "缬草",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "valerianPot"
     }
   },
   "plants": {
@@ -6075,6 +6103,50 @@
       ],
       "harvest": "yarrow",
       "days": 3
+    },
+    "meadowsweetPot": {
+      "id": "meadowsweetPot",
+      "name": "绣线菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "meadowsweet",
+      "days": 3
+    },
+    "woodruffPot": {
+      "id": "woodruffPot",
+      "name": "车叶草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "woodruff",
+      "days": 3
+    },
+    "boragePot": {
+      "id": "boragePot",
+      "name": "琉璃苣",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "borage",
+      "days": 2
+    },
+    "valerianPot": {
+      "id": "valerianPot",
+      "name": "缬草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "valerian",
+      "days": 4
     }
   },
   "cups": [
@@ -7919,6 +7991,46 @@
       "tags": [
         "花香",
         "草本"
+      ]
+    },
+    {
+      "id": "meadowsweet",
+      "name": "绣线菊",
+      "emoji": "🤍",
+      "need": "meadowsweet",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "woodruff",
+      "name": "车叶草",
+      "emoji": "🌿",
+      "need": "woodruff",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "borage",
+      "name": "琉璃苣",
+      "emoji": "💙",
+      "need": "borage",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "valerian",
+      "name": "缬草",
+      "emoji": "🤍",
+      "need": "valerian",
+      "tags": [
+        "草本",
+        "温柔"
       ]
     }
   ],
@@ -10661,6 +10773,67 @@
         "honey",
         "chamomile",
         "tea_leaf"
+      ]
+    },
+    {
+      "name": "采绣线菊的药师",
+      "avatar": "🤍",
+      "wish": "绣线菊或蜜，温柔花香，暖杯最好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "meadowsweet",
+        "honey",
+        "chamomile",
+        "yarrow"
+      ]
+    },
+    {
+      "name": "泡车叶草的旅人",
+      "avatar": "🌿",
+      "wish": "车叶草或蜜，温柔一点，暖杯最好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "woodruff",
+        "honey",
+        "tea_leaf",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "采琉璃苣的女孩",
+      "avatar": "💙",
+      "wish": "琉璃苣或蜜，清爽花香，装饰好看。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "borage",
+        "honey",
+        "mint",
+        "chicory"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "泡缬草的阿婆",
+      "avatar": "🤍",
+      "wish": "缬草或蜜，温柔一点，暖杯最好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "valerian",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
       ]
     }
   ],
