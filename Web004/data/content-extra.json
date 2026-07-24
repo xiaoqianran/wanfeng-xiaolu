@@ -2896,6 +2896,34 @@
       "emoji": "🌿",
       "kind": "风味",
       "seed": "lovagePot"
+    },
+    "verbena": {
+      "id": "verbena",
+      "name": "马鞭草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "verbenaPot"
+    },
+    "savory": {
+      "id": "savory",
+      "name": "香薄荷",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "savoryPot"
+    },
+    "celery_seed": {
+      "id": "celery_seed",
+      "name": "芹菜籽",
+      "emoji": "🌱",
+      "kind": "风味",
+      "seed": "celerySeedPot"
+    },
+    "anise_seed": {
+      "id": "anise_seed",
+      "name": "茴香籽",
+      "emoji": "🌾",
+      "kind": "风味",
+      "seed": "aniseSeedPot"
     }
   },
   "plants": {
@@ -5643,6 +5671,50 @@
       ],
       "harvest": "lovage",
       "days": 3
+    },
+    "verbenaPot": {
+      "id": "verbenaPot",
+      "name": "马鞭草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "verbena",
+      "days": 3
+    },
+    "savoryPot": {
+      "id": "savoryPot",
+      "name": "香薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "savory",
+      "days": 2
+    },
+    "celerySeedPot": {
+      "id": "celerySeedPot",
+      "name": "芹菜籽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌱"
+      ],
+      "harvest": "celery_seed",
+      "days": 3
+    },
+    "aniseSeedPot": {
+      "id": "aniseSeedPot",
+      "name": "茴香籽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌾"
+      ],
+      "harvest": "anise_seed",
+      "days": 3
     }
   },
   "cups": [
@@ -7244,6 +7316,46 @@
       "name": "独活",
       "emoji": "🌿",
       "need": "lovage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "verbena",
+      "name": "马鞭草",
+      "emoji": "💜",
+      "need": "verbena",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "savory",
+      "name": "香薄荷",
+      "emoji": "🌿",
+      "need": "savory",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "celery_seed",
+      "name": "芹菜籽",
+      "emoji": "🌱",
+      "need": "celery_seed",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "anise_seed",
+      "name": "茴香籽",
+      "emoji": "🌾",
+      "need": "anise_seed",
       "tags": [
         "草本",
         "温暖"
@@ -9630,6 +9742,66 @@
         "honey",
         "tea_leaf",
         "bay_leaf"
+      ]
+    },
+    {
+      "name": "泡马鞭草的姑娘",
+      "avatar": "💜",
+      "wish": "马鞭草或蜜，清爽花香，暖杯也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "verbena",
+        "honey",
+        "mint",
+        "lemon"
+      ]
+    },
+    {
+      "name": "撒香薄荷的店员",
+      "avatar": "🌿",
+      "wish": "香薄荷或薄荷，清爽一点，装饰随意。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "savory",
+        "mint",
+        "thyme",
+        "oregano"
+      ]
+    },
+    {
+      "name": "磨芹菜籽的厨子",
+      "avatar": "🌱",
+      "wish": "芹菜籽或蜜，清爽草本，暖杯也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "celery_seed",
+        "honey",
+        "parsley",
+        "mint"
+      ]
+    },
+    {
+      "name": "煮茴香籽的阿婆",
+      "avatar": "🌾",
+      "wish": "茴香籽或蜜，温暖一点，暖杯最好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "anise_seed",
+        "honey",
+        "tea_leaf",
+        "star_anise"
       ]
     }
   ],
