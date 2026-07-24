@@ -161080,5 +161080,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_kitchen0",
+    "title": "柴灶灶火两份",
+    "body": "采柴灶灶火的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen0": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen1",
+    "title": "柴灶灶烟两份",
+    "body": "采柴灶灶烟的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen1": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen2",
+    "title": "柴灶灶灰两份",
+    "body": "采柴灶灶灰的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen2": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen3",
+    "title": "柴灶灶门两份",
+    "body": "采柴灶灶门的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen3": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen4",
+    "title": "柴灶灶台两份",
+    "body": "采柴灶灶台的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen4": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen5",
+    "title": "柴灶灶眼两份",
+    "body": "采柴灶灶眼的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen5": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen6",
+    "title": "柴灶锅气两份",
+    "body": "采柴灶锅气的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen6": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen7",
+    "title": "柴灶蒸气两份",
+    "body": "采柴灶蒸气的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen7": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen8",
+    "title": "柴灶烤香两份",
+    "body": "采柴灶烤香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen8": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen9",
+    "title": "柴灶汤香两份",
+    "body": "采柴灶汤香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen9": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen10",
+    "title": "柴灶粥香两份",
+    "body": "采柴灶粥香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen10": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen11",
+    "title": "柴灶茶灶香两份",
+    "body": "采柴灶茶灶香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen11": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen12",
+    "title": "柴灶酒香两份",
+    "body": "采柴灶酒香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen12": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen13",
+    "title": "柴灶糖香两份",
+    "body": "采柴灶糖香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen13": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen14",
+    "title": "柴灶酱香两份",
+    "body": "采柴灶酱香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen14": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen15",
+    "title": "柴灶醋香两份",
+    "body": "采柴灶醋香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen15": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen16",
+    "title": "煤灶灶火两份",
+    "body": "采煤灶灶火的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen16": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen17",
+    "title": "煤灶灶烟两份",
+    "body": "采煤灶灶烟的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen17": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen18",
+    "title": "煤灶灶灰两份",
+    "body": "采煤灶灶灰的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen18": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen19",
+    "title": "煤灶灶门两份",
+    "body": "采煤灶灶门的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen19": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen20",
+    "title": "煤灶灶台两份",
+    "body": "采煤灶灶台的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen21",
+    "title": "煤灶灶眼两份",
+    "body": "采煤灶灶眼的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen22",
+    "title": "煤灶锅气两份",
+    "body": "采煤灶锅气的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen23",
+    "title": "煤灶蒸气两份",
+    "body": "采煤灶蒸气的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen24",
+    "title": "煤灶烤香两份",
+    "body": "采煤灶烤香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen25",
+    "title": "煤灶汤香两份",
+    "body": "采煤灶汤香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen26",
+    "title": "煤灶粥香两份",
+    "body": "采煤灶粥香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen27",
+    "title": "煤灶茶灶香两份",
+    "body": "采煤灶茶灶香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen28",
+    "title": "煤灶酒香两份",
+    "body": "采煤灶酒香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen29",
+    "title": "煤灶糖香两份",
+    "body": "采煤灶糖香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen30",
+    "title": "煤灶酱香两份",
+    "body": "采煤灶酱香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen30": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen31",
+    "title": "煤灶醋香两份",
+    "body": "采煤灶醋香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen31": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen32",
+    "title": "气灶灶火两份",
+    "body": "采气灶灶火的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen32": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen33",
+    "title": "气灶灶烟两份",
+    "body": "采气灶灶烟的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen33": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen34",
+    "title": "气灶灶灰两份",
+    "body": "采气灶灶灰的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen34": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen35",
+    "title": "气灶灶门两份",
+    "body": "采气灶灶门的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen35": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen36",
+    "title": "气灶灶台两份",
+    "body": "采气灶灶台的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen36": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen37",
+    "title": "气灶灶眼两份",
+    "body": "采气灶灶眼的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen37": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen38",
+    "title": "气灶锅气两份",
+    "body": "采气灶锅气的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen38": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen39",
+    "title": "气灶蒸气两份",
+    "body": "采气灶蒸气的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen39": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen40",
+    "title": "气灶烤香两份",
+    "body": "采气灶烤香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen40": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen41",
+    "title": "气灶汤香两份",
+    "body": "采气灶汤香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen41": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen42",
+    "title": "气灶粥香两份",
+    "body": "采气灶粥香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen42": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen43",
+    "title": "气灶茶灶香两份",
+    "body": "采气灶茶灶香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen43": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen44",
+    "title": "气灶酒香两份",
+    "body": "采气灶酒香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen44": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen45",
+    "title": "气灶糖香两份",
+    "body": "采气灶糖香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen45": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen46",
+    "title": "气灶酱香两份",
+    "body": "采气灶酱香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen46": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen47",
+    "title": "气灶醋香两份",
+    "body": "采气灶醋香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen47": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen48",
+    "title": "电磁炉灶火两份",
+    "body": "采电磁炉灶火的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen48": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen49",
+    "title": "电磁炉灶烟两份",
+    "body": "采电磁炉灶烟的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen49": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen50",
+    "title": "电磁炉灶灰两份",
+    "body": "采电磁炉灶灰的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen50": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen51",
+    "title": "电磁炉灶门两份",
+    "body": "采电磁炉灶门的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen51": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen52",
+    "title": "电磁炉灶台两份",
+    "body": "采电磁炉灶台的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen52": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen53",
+    "title": "电磁炉灶眼两份",
+    "body": "采电磁炉灶眼的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen53": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen54",
+    "title": "电磁炉锅气两份",
+    "body": "采电磁炉锅气的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen54": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen55",
+    "title": "电磁炉蒸气两份",
+    "body": "采电磁炉蒸气的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen55": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen56",
+    "title": "电磁炉烤香两份",
+    "body": "采电磁炉烤香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen56": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen57",
+    "title": "电磁炉汤香两份",
+    "body": "采电磁炉汤香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen57": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen58",
+    "title": "电磁炉粥香两份",
+    "body": "采电磁炉粥香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen58": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen59",
+    "title": "电磁炉茶灶香两份",
+    "body": "采电磁炉茶灶香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen59": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen60",
+    "title": "电磁炉酒香两份",
+    "body": "采电磁炉酒香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen60": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen61",
+    "title": "电磁炉糖香两份",
+    "body": "采电磁炉糖香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen61": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen62",
+    "title": "电磁炉酱香两份",
+    "body": "采电磁炉酱香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen62": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen63",
+    "title": "电磁炉醋香两份",
+    "body": "采电磁炉醋香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen63": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen64",
+    "title": "砂锅灶灶火两份",
+    "body": "采砂锅灶灶火的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen64": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen65",
+    "title": "砂锅灶灶烟两份",
+    "body": "采砂锅灶灶烟的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen65": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen66",
+    "title": "砂锅灶灶灰两份",
+    "body": "采砂锅灶灶灰的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen66": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen67",
+    "title": "砂锅灶灶门两份",
+    "body": "采砂锅灶灶门的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen67": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen68",
+    "title": "砂锅灶灶台两份",
+    "body": "采砂锅灶灶台的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen68": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen69",
+    "title": "砂锅灶灶眼两份",
+    "body": "采砂锅灶灶眼的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen69": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen70",
+    "title": "砂锅灶锅气两份",
+    "body": "采砂锅灶锅气的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen70": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen71",
+    "title": "砂锅灶蒸气两份",
+    "body": "采砂锅灶蒸气的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen71": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen72",
+    "title": "砂锅灶烤香两份",
+    "body": "采砂锅灶烤香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen72": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen73",
+    "title": "砂锅灶汤香两份",
+    "body": "采砂锅灶汤香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen73": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen74",
+    "title": "砂锅灶粥香两份",
+    "body": "采砂锅灶粥香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen74": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen75",
+    "title": "砂锅灶茶灶香两份",
+    "body": "采砂锅灶茶灶香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen75": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen76",
+    "title": "砂锅灶酒香两份",
+    "body": "采砂锅灶酒香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen76": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen77",
+    "title": "砂锅灶糖香两份",
+    "body": "采砂锅灶糖香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen77": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen78",
+    "title": "砂锅灶酱香两份",
+    "body": "采砂锅灶酱香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen78": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen79",
+    "title": "砂锅灶醋香两份",
+    "body": "采砂锅灶醋香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen79": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen80",
+    "title": "铁锅灶灶火两份",
+    "body": "采铁锅灶灶火的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen80": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen81",
+    "title": "铁锅灶灶烟两份",
+    "body": "采铁锅灶灶烟的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen81": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen82",
+    "title": "铁锅灶灶灰两份",
+    "body": "采铁锅灶灶灰的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen82": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen83",
+    "title": "铁锅灶灶门两份",
+    "body": "采铁锅灶灶门的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen83": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen84",
+    "title": "铁锅灶灶台两份",
+    "body": "采铁锅灶灶台的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen84": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen85",
+    "title": "铁锅灶灶眼两份",
+    "body": "采铁锅灶灶眼的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen85": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen86",
+    "title": "铁锅灶锅气两份",
+    "body": "采铁锅灶锅气的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen86": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen87",
+    "title": "铁锅灶蒸气两份",
+    "body": "采铁锅灶蒸气的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen87": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen88",
+    "title": "铁锅灶烤香两份",
+    "body": "采铁锅灶烤香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen88": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen89",
+    "title": "铁锅灶汤香两份",
+    "body": "采铁锅灶汤香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen89": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen90",
+    "title": "铁锅灶粥香两份",
+    "body": "采铁锅灶粥香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen90": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen91",
+    "title": "铁锅灶茶灶香两份",
+    "body": "采铁锅灶茶灶香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen91": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen92",
+    "title": "铁锅灶酒香两份",
+    "body": "采铁锅灶酒香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen92": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen93",
+    "title": "铁锅灶糖香两份",
+    "body": "采铁锅灶糖香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen93": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen94",
+    "title": "铁锅灶酱香两份",
+    "body": "采铁锅灶酱香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen94": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen95",
+    "title": "铁锅灶醋香两份",
+    "body": "采铁锅灶醋香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen95": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen96",
+    "title": "蒸灶灶火两份",
+    "body": "采蒸灶灶火的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen96": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen97",
+    "title": "蒸灶灶烟两份",
+    "body": "采蒸灶灶烟的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen97": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen98",
+    "title": "蒸灶灶灰两份",
+    "body": "采蒸灶灶灰的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen98": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen99",
+    "title": "蒸灶灶门两份",
+    "body": "采蒸灶灶门的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen99": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen100",
+    "title": "蒸灶灶台两份",
+    "body": "采蒸灶灶台的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen101",
+    "title": "蒸灶灶眼两份",
+    "body": "采蒸灶灶眼的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen102",
+    "title": "蒸灶锅气两份",
+    "body": "采蒸灶锅气的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen103",
+    "title": "蒸灶蒸气两份",
+    "body": "采蒸灶蒸气的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen104",
+    "title": "蒸灶烤香两份",
+    "body": "采蒸灶烤香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen105",
+    "title": "蒸灶汤香两份",
+    "body": "采蒸灶汤香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen106",
+    "title": "蒸灶粥香两份",
+    "body": "采蒸灶粥香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen107",
+    "title": "蒸灶茶灶香两份",
+    "body": "采蒸灶茶灶香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen108",
+    "title": "蒸灶酒香两份",
+    "body": "采蒸灶酒香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen109",
+    "title": "蒸灶糖香两份",
+    "body": "采蒸灶糖香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen110",
+    "title": "蒸灶酱香两份",
+    "body": "采蒸灶酱香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen111",
+    "title": "蒸灶醋香两份",
+    "body": "采蒸灶醋香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen112",
+    "title": "烤灶灶火两份",
+    "body": "采烤灶灶火的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen113",
+    "title": "烤灶灶烟两份",
+    "body": "采烤灶灶烟的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen114",
+    "title": "烤灶灶灰两份",
+    "body": "采烤灶灶灰的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen115",
+    "title": "烤灶灶门两份",
+    "body": "采烤灶灶门的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen116",
+    "title": "烤灶灶台两份",
+    "body": "采烤灶灶台的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen117",
+    "title": "烤灶灶眼两份",
+    "body": "采烤灶灶眼的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen118",
+    "title": "烤灶锅气两份",
+    "body": "采烤灶锅气的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen119",
+    "title": "烤灶蒸气两份",
+    "body": "采烤灶蒸气的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen120",
+    "title": "烤灶烤香两份",
+    "body": "采烤灶烤香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen121",
+    "title": "烤灶汤香两份",
+    "body": "采烤灶汤香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen122",
+    "title": "烤灶粥香两份",
+    "body": "采烤灶粥香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen123",
+    "title": "烤灶茶灶香两份",
+    "body": "采烤灶茶灶香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen124",
+    "title": "烤灶酒香两份",
+    "body": "采烤灶酒香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen125",
+    "title": "烤灶糖香两份",
+    "body": "采烤灶糖香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen126",
+    "title": "烤灶酱香两份",
+    "body": "采烤灶酱香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen127",
+    "title": "烤灶醋香两份",
+    "body": "采烤灶醋香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen128",
+    "title": "汤灶灶火两份",
+    "body": "采汤灶灶火的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen129",
+    "title": "汤灶灶烟两份",
+    "body": "采汤灶灶烟的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen130",
+    "title": "汤灶灶灰两份",
+    "body": "采汤灶灶灰的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen131",
+    "title": "汤灶灶门两份",
+    "body": "采汤灶灶门的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen132",
+    "title": "汤灶灶台两份",
+    "body": "采汤灶灶台的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen133",
+    "title": "汤灶灶眼两份",
+    "body": "采汤灶灶眼的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen134",
+    "title": "汤灶锅气两份",
+    "body": "采汤灶锅气的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen135",
+    "title": "汤灶蒸气两份",
+    "body": "采汤灶蒸气的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen136",
+    "title": "汤灶烤香两份",
+    "body": "采汤灶烤香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen137",
+    "title": "汤灶汤香两份",
+    "body": "采汤灶汤香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen138",
+    "title": "汤灶粥香两份",
+    "body": "采汤灶粥香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen139",
+    "title": "汤灶茶灶香两份",
+    "body": "采汤灶茶灶香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen140",
+    "title": "汤灶酒香两份",
+    "body": "采汤灶酒香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen141",
+    "title": "汤灶糖香两份",
+    "body": "采汤灶糖香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen142",
+    "title": "汤灶酱香两份",
+    "body": "采汤灶酱香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen143",
+    "title": "汤灶醋香两份",
+    "body": "采汤灶醋香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen144",
+    "title": "粥灶灶火两份",
+    "body": "采粥灶灶火的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen145",
+    "title": "粥灶灶烟两份",
+    "body": "采粥灶灶烟的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen146",
+    "title": "粥灶灶灰两份",
+    "body": "采粥灶灶灰的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen147",
+    "title": "粥灶灶门两份",
+    "body": "采粥灶灶门的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen148",
+    "title": "粥灶灶台两份",
+    "body": "采粥灶灶台的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen149",
+    "title": "粥灶灶眼两份",
+    "body": "采粥灶灶眼的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen150",
+    "title": "粥灶锅气两份",
+    "body": "采粥灶锅气的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen151",
+    "title": "粥灶蒸气两份",
+    "body": "采粥灶蒸气的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen152",
+    "title": "粥灶烤香两份",
+    "body": "采粥灶烤香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen153",
+    "title": "粥灶汤香两份",
+    "body": "采粥灶汤香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen154",
+    "title": "粥灶粥香两份",
+    "body": "采粥灶粥香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen155",
+    "title": "粥灶茶灶香两份",
+    "body": "采粥灶茶灶香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen156",
+    "title": "粥灶酒香两份",
+    "body": "采粥灶酒香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen157",
+    "title": "粥灶糖香两份",
+    "body": "采粥灶糖香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen158",
+    "title": "粥灶酱香两份",
+    "body": "采粥灶酱香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen159",
+    "title": "粥灶醋香两份",
+    "body": "采粥灶醋香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen160",
+    "title": "茶灶灶火两份",
+    "body": "采茶灶灶火的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen161",
+    "title": "茶灶灶烟两份",
+    "body": "采茶灶灶烟的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen162",
+    "title": "茶灶灶灰两份",
+    "body": "采茶灶灶灰的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen163",
+    "title": "茶灶灶门两份",
+    "body": "采茶灶灶门的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen164",
+    "title": "茶灶灶台两份",
+    "body": "采茶灶灶台的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen165",
+    "title": "茶灶灶眼两份",
+    "body": "采茶灶灶眼的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen166",
+    "title": "茶灶锅气两份",
+    "body": "采茶灶锅气的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen167",
+    "title": "茶灶蒸气两份",
+    "body": "采茶灶蒸气的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen168",
+    "title": "茶灶烤香两份",
+    "body": "采茶灶烤香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen169",
+    "title": "茶灶汤香两份",
+    "body": "采茶灶汤香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen170",
+    "title": "茶灶粥香两份",
+    "body": "采茶灶粥香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen171",
+    "title": "茶灶茶灶香两份",
+    "body": "采茶灶茶灶香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen172",
+    "title": "茶灶酒香两份",
+    "body": "采茶灶酒香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen173",
+    "title": "茶灶糖香两份",
+    "body": "采茶灶糖香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen174",
+    "title": "茶灶酱香两份",
+    "body": "采茶灶酱香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen175",
+    "title": "茶灶醋香两份",
+    "body": "采茶灶醋香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen176",
+    "title": "酒灶灶火两份",
+    "body": "采酒灶灶火的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen177",
+    "title": "酒灶灶烟两份",
+    "body": "采酒灶灶烟的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen178",
+    "title": "酒灶灶灰两份",
+    "body": "采酒灶灶灰的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen179",
+    "title": "酒灶灶门两份",
+    "body": "采酒灶灶门的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen180",
+    "title": "酒灶灶台两份",
+    "body": "采酒灶灶台的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen181",
+    "title": "酒灶灶眼两份",
+    "body": "采酒灶灶眼的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen182",
+    "title": "酒灶锅气两份",
+    "body": "采酒灶锅气的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen183",
+    "title": "酒灶蒸气两份",
+    "body": "采酒灶蒸气的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen184",
+    "title": "酒灶烤香两份",
+    "body": "采酒灶烤香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen185",
+    "title": "酒灶汤香两份",
+    "body": "采酒灶汤香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen186",
+    "title": "酒灶粥香两份",
+    "body": "采酒灶粥香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen187",
+    "title": "酒灶茶灶香两份",
+    "body": "采酒灶茶灶香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen188",
+    "title": "酒灶酒香两份",
+    "body": "采酒灶酒香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen189",
+    "title": "酒灶糖香两份",
+    "body": "采酒灶糖香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen190",
+    "title": "酒灶酱香两份",
+    "body": "采酒灶酱香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen191",
+    "title": "酒灶醋香两份",
+    "body": "采酒灶醋香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen192",
+    "title": "糖灶灶火两份",
+    "body": "采糖灶灶火的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen193",
+    "title": "糖灶灶烟两份",
+    "body": "采糖灶灶烟的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen194",
+    "title": "糖灶灶灰两份",
+    "body": "采糖灶灶灰的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen195",
+    "title": "糖灶灶门两份",
+    "body": "采糖灶灶门的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen196",
+    "title": "糖灶灶台两份",
+    "body": "采糖灶灶台的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen197",
+    "title": "糖灶灶眼两份",
+    "body": "采糖灶灶眼的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen198",
+    "title": "糖灶锅气两份",
+    "body": "采糖灶锅气的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen199",
+    "title": "糖灶蒸气两份",
+    "body": "采糖灶蒸气的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen200",
+    "title": "糖灶烤香两份",
+    "body": "采糖灶烤香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen201",
+    "title": "糖灶汤香两份",
+    "body": "采糖灶汤香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen202",
+    "title": "糖灶粥香两份",
+    "body": "采糖灶粥香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen203",
+    "title": "糖灶茶灶香两份",
+    "body": "采糖灶茶灶香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen204",
+    "title": "糖灶酒香两份",
+    "body": "采糖灶酒香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen205",
+    "title": "糖灶糖香两份",
+    "body": "采糖灶糖香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen206",
+    "title": "糖灶酱香两份",
+    "body": "采糖灶酱香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen207",
+    "title": "糖灶醋香两份",
+    "body": "采糖灶醋香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen208",
+    "title": "酱灶灶火两份",
+    "body": "采酱灶灶火的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen209",
+    "title": "酱灶灶烟两份",
+    "body": "采酱灶灶烟的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen210",
+    "title": "酱灶灶灰两份",
+    "body": "采酱灶灶灰的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen211",
+    "title": "酱灶灶门两份",
+    "body": "采酱灶灶门的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen212",
+    "title": "酱灶灶台两份",
+    "body": "采酱灶灶台的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen213",
+    "title": "酱灶灶眼两份",
+    "body": "采酱灶灶眼的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen214",
+    "title": "酱灶锅气两份",
+    "body": "采酱灶锅气的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen215",
+    "title": "酱灶蒸气两份",
+    "body": "采酱灶蒸气的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen216",
+    "title": "酱灶烤香两份",
+    "body": "采酱灶烤香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen217",
+    "title": "酱灶汤香两份",
+    "body": "采酱灶汤香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen218",
+    "title": "酱灶粥香两份",
+    "body": "采酱灶粥香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen219",
+    "title": "酱灶茶灶香两份",
+    "body": "采酱灶茶灶香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen220",
+    "title": "酱灶酒香两份",
+    "body": "采酱灶酒香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen221",
+    "title": "酱灶糖香两份",
+    "body": "采酱灶糖香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen222",
+    "title": "酱灶酱香两份",
+    "body": "采酱灶酱香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen223",
+    "title": "酱灶醋香两份",
+    "body": "采酱灶醋香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen224",
+    "title": "醋灶灶火两份",
+    "body": "采醋灶灶火的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen225",
+    "title": "醋灶灶烟两份",
+    "body": "采醋灶灶烟的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen226",
+    "title": "醋灶灶灰两份",
+    "body": "采醋灶灶灰的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen227",
+    "title": "醋灶灶门两份",
+    "body": "采醋灶灶门的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen228",
+    "title": "醋灶灶台两份",
+    "body": "采醋灶灶台的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen229",
+    "title": "醋灶灶眼两份",
+    "body": "采醋灶灶眼的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen230",
+    "title": "醋灶锅气两份",
+    "body": "采醋灶锅气的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen231",
+    "title": "醋灶蒸气两份",
+    "body": "采醋灶蒸气的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen232",
+    "title": "醋灶烤香两份",
+    "body": "采醋灶烤香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen233",
+    "title": "醋灶汤香两份",
+    "body": "采醋灶汤香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen234",
+    "title": "醋灶粥香两份",
+    "body": "采醋灶粥香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen235",
+    "title": "醋灶茶灶香两份",
+    "body": "采醋灶茶灶香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen236",
+    "title": "醋灶酒香两份",
+    "body": "采醋灶酒香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen237",
+    "title": "醋灶糖香两份",
+    "body": "采醋灶糖香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen238",
+    "title": "醋灶酱香两份",
+    "body": "采醋灶酱香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen239",
+    "title": "醋灶醋香两份",
+    "body": "采醋灶醋香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen240",
+    "title": "油灶灶火两份",
+    "body": "采油灶灶火的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen241",
+    "title": "油灶灶烟两份",
+    "body": "采油灶灶烟的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen242",
+    "title": "油灶灶灰两份",
+    "body": "采油灶灶灰的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen243",
+    "title": "油灶灶门两份",
+    "body": "采油灶灶门的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen244",
+    "title": "油灶灶台两份",
+    "body": "采油灶灶台的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen245",
+    "title": "油灶灶眼两份",
+    "body": "采油灶灶眼的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen246",
+    "title": "油灶锅气两份",
+    "body": "采油灶锅气的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen247",
+    "title": "油灶蒸气两份",
+    "body": "采油灶蒸气的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen248",
+    "title": "油灶烤香两份",
+    "body": "采油灶烤香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen249",
+    "title": "油灶汤香两份",
+    "body": "采油灶汤香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen250",
+    "title": "油灶粥香两份",
+    "body": "采油灶粥香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen251",
+    "title": "油灶茶灶香两份",
+    "body": "采油灶茶灶香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen252",
+    "title": "油灶酒香两份",
+    "body": "采油灶酒香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen253",
+    "title": "油灶糖香两份",
+    "body": "采油灶糖香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen254",
+    "title": "油灶酱香两份",
+    "body": "采油灶酱香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen255",
+    "title": "油灶醋香两份",
+    "body": "采油灶醋香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen256",
+    "title": "盐灶灶火两份",
+    "body": "采盐灶灶火的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen257",
+    "title": "盐灶灶烟两份",
+    "body": "采盐灶灶烟的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen258",
+    "title": "盐灶灶灰两份",
+    "body": "采盐灶灶灰的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen259",
+    "title": "盐灶灶门两份",
+    "body": "采盐灶灶门的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen260",
+    "title": "盐灶灶台两份",
+    "body": "采盐灶灶台的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen261",
+    "title": "盐灶灶眼两份",
+    "body": "采盐灶灶眼的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen262",
+    "title": "盐灶锅气两份",
+    "body": "采盐灶锅气的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen263",
+    "title": "盐灶蒸气两份",
+    "body": "采盐灶蒸气的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen264",
+    "title": "盐灶烤香两份",
+    "body": "采盐灶烤香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen265",
+    "title": "盐灶汤香两份",
+    "body": "采盐灶汤香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen266",
+    "title": "盐灶粥香两份",
+    "body": "采盐灶粥香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen267",
+    "title": "盐灶茶灶香两份",
+    "body": "采盐灶茶灶香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen268",
+    "title": "盐灶酒香两份",
+    "body": "采盐灶酒香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen269",
+    "title": "盐灶糖香两份",
+    "body": "采盐灶糖香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen270",
+    "title": "盐灶酱香两份",
+    "body": "采盐灶酱香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen271",
+    "title": "盐灶醋香两份",
+    "body": "采盐灶醋香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen272",
+    "title": "葱灶灶火两份",
+    "body": "采葱灶灶火的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen273",
+    "title": "葱灶灶烟两份",
+    "body": "采葱灶灶烟的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen274",
+    "title": "葱灶灶灰两份",
+    "body": "采葱灶灶灰的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen275",
+    "title": "葱灶灶门两份",
+    "body": "采葱灶灶门的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen276",
+    "title": "葱灶灶台两份",
+    "body": "采葱灶灶台的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen277",
+    "title": "葱灶灶眼两份",
+    "body": "采葱灶灶眼的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen278",
+    "title": "葱灶锅气两份",
+    "body": "采葱灶锅气的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen279",
+    "title": "葱灶蒸气两份",
+    "body": "采葱灶蒸气的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen280",
+    "title": "葱灶烤香两份",
+    "body": "采葱灶烤香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen281",
+    "title": "葱灶汤香两份",
+    "body": "采葱灶汤香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen282",
+    "title": "葱灶粥香两份",
+    "body": "采葱灶粥香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen283",
+    "title": "葱灶茶灶香两份",
+    "body": "采葱灶茶灶香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen284",
+    "title": "葱灶酒香两份",
+    "body": "采葱灶酒香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen285",
+    "title": "葱灶糖香两份",
+    "body": "采葱灶糖香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen286",
+    "title": "葱灶酱香两份",
+    "body": "采葱灶酱香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen287",
+    "title": "葱灶醋香两份",
+    "body": "采葱灶醋香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen288",
+    "title": "姜灶灶火两份",
+    "body": "采姜灶灶火的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen289",
+    "title": "姜灶灶烟两份",
+    "body": "采姜灶灶烟的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen290",
+    "title": "姜灶灶灰两份",
+    "body": "采姜灶灶灰的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen291",
+    "title": "姜灶灶门两份",
+    "body": "采姜灶灶门的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen292",
+    "title": "姜灶灶台两份",
+    "body": "采姜灶灶台的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen293",
+    "title": "姜灶灶眼两份",
+    "body": "采姜灶灶眼的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen294",
+    "title": "姜灶锅气两份",
+    "body": "采姜灶锅气的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen295",
+    "title": "姜灶蒸气两份",
+    "body": "采姜灶蒸气的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen296",
+    "title": "姜灶烤香两份",
+    "body": "采姜灶烤香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen297",
+    "title": "姜灶汤香两份",
+    "body": "采姜灶汤香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen298",
+    "title": "姜灶粥香两份",
+    "body": "采姜灶粥香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen299",
+    "title": "姜灶茶灶香两份",
+    "body": "采姜灶茶灶香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen300",
+    "title": "姜灶酒香两份",
+    "body": "采姜灶酒香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen301",
+    "title": "姜灶糖香两份",
+    "body": "采姜灶糖香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen302",
+    "title": "姜灶酱香两份",
+    "body": "采姜灶酱香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen303",
+    "title": "姜灶醋香两份",
+    "body": "采姜灶醋香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen304",
+    "title": "蒜灶灶火两份",
+    "body": "采蒜灶灶火的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen305",
+    "title": "蒜灶灶烟两份",
+    "body": "采蒜灶灶烟的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen306",
+    "title": "蒜灶灶灰两份",
+    "body": "采蒜灶灶灰的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen307",
+    "title": "蒜灶灶门两份",
+    "body": "采蒜灶灶门的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen308",
+    "title": "蒜灶灶台两份",
+    "body": "采蒜灶灶台的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen309",
+    "title": "蒜灶灶眼两份",
+    "body": "采蒜灶灶眼的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen310",
+    "title": "蒜灶锅气两份",
+    "body": "采蒜灶锅气的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen311",
+    "title": "蒜灶蒸气两份",
+    "body": "采蒜灶蒸气的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen312",
+    "title": "蒜灶烤香两份",
+    "body": "采蒜灶烤香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen313",
+    "title": "蒜灶汤香两份",
+    "body": "采蒜灶汤香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen314",
+    "title": "蒜灶粥香两份",
+    "body": "采蒜灶粥香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen315",
+    "title": "蒜灶茶灶香两份",
+    "body": "采蒜灶茶灶香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen316",
+    "title": "蒜灶酒香两份",
+    "body": "采蒜灶酒香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen317",
+    "title": "蒜灶糖香两份",
+    "body": "采蒜灶糖香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen318",
+    "title": "蒜灶酱香两份",
+    "body": "采蒜灶酱香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kitchen319",
+    "title": "蒜灶醋香两份",
+    "body": "采蒜灶醋香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kitchen319": 2
+      },
+      "coins": 2
+    }
   }
 ]
