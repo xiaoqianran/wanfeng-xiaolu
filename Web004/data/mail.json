@@ -6200,5 +6200,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_longjing",
+    "title": "龙井两份",
+    "body": "泡龙井的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "longjing": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_biluochun",
+    "title": "碧螺春两份",
+    "body": "泡碧螺春的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "biluochun": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tieguanyin",
+    "title": "铁观音两份",
+    "body": "泡铁观音的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tieguanyin": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_dahongpao",
+    "title": "大红袍两份",
+    "body": "泡大红袍的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "dahongpao": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_puer_raw",
+    "title": "生普两份",
+    "body": "泡生普的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "puer_raw": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_puer_ripe",
+    "title": "熟普两份",
+    "body": "泡熟普的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "puer_ripe": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_white_peony_tea",
+    "title": "白牡丹茶两份",
+    "body": "泡白牡丹茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "white_peony_tea": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_shoumei",
+    "title": "寿眉两份",
+    "body": "泡寿眉的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "shoumei": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_burdock_root",
+    "title": "牛蒡根两份",
+    "body": "炖牛蒡根的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "burdock_root": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_dandelion_root",
+    "title": "蒲公英根两份",
+    "body": "焙蒲公英根的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "dandelion_root": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_chicory_root",
+    "title": "菊苣根两份",
+    "body": "焙菊苣根的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "chicory_root": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_valerian_flower",
+    "title": "缬草花两份",
+    "body": "采缬草花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "valerian_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_hops_flower",
+    "title": "啤酒花花两份",
+    "body": "采啤酒花花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "hops_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_meadowsweet_flower",
+    "title": "绣线菊花两份",
+    "body": "采绣线菊花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "meadowsweet_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_yarrow_flower",
+    "title": "蓍草花两份",
+    "body": "采蓍草花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "yarrow_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_nettle_seed_tea",
+    "title": "荨麻籽茶两份",
+    "body": "泡荨麻籽茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "nettle_seed_tea": 2
+      },
+      "coins": 2
+    }
   }
 ]

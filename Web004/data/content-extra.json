@@ -5927,6 +5927,118 @@
       "emoji": "🤍",
       "kind": "风味",
       "seed": "vanilla_orchidPot"
+    },
+    "longjing": {
+      "id": "longjing",
+      "name": "龙井",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "longjingPot"
+    },
+    "biluochun": {
+      "id": "biluochun",
+      "name": "碧螺春",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "biluochunPot"
+    },
+    "tieguanyin": {
+      "id": "tieguanyin",
+      "name": "铁观音",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "tieguanyinPot"
+    },
+    "dahongpao": {
+      "id": "dahongpao",
+      "name": "大红袍",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "dahongpaoPot"
+    },
+    "puer_raw": {
+      "id": "puer_raw",
+      "name": "生普",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "puer_rawPot"
+    },
+    "puer_ripe": {
+      "id": "puer_ripe",
+      "name": "熟普",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "puer_ripePot"
+    },
+    "white_peony_tea": {
+      "id": "white_peony_tea",
+      "name": "白牡丹茶",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "white_peony_teaPot"
+    },
+    "shoumei": {
+      "id": "shoumei",
+      "name": "寿眉",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "shoumeiPot"
+    },
+    "burdock_root": {
+      "id": "burdock_root",
+      "name": "牛蒡根",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "burdock_rootPot"
+    },
+    "dandelion_root": {
+      "id": "dandelion_root",
+      "name": "蒲公英根",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "dandelion_rootPot"
+    },
+    "chicory_root": {
+      "id": "chicory_root",
+      "name": "菊苣根",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "chicory_rootPot"
+    },
+    "valerian_flower": {
+      "id": "valerian_flower",
+      "name": "缬草花",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "valerian_flowerPot"
+    },
+    "hops_flower": {
+      "id": "hops_flower",
+      "name": "啤酒花花",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "hops_flowerPot"
+    },
+    "meadowsweet_flower": {
+      "id": "meadowsweet_flower",
+      "name": "绣线菊花",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "meadowsweet_flowerPot"
+    },
+    "yarrow_flower": {
+      "id": "yarrow_flower",
+      "name": "蓍草花",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "yarrow_flowerPot"
+    },
+    "nettle_seed_tea": {
+      "id": "nettle_seed_tea",
+      "name": "荨麻籽茶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "nettle_seed_teaPot"
     }
   },
   "plants": {
@@ -13437,6 +13549,182 @@
       ],
       "harvest": "vanilla_orchid",
       "days": 4
+    },
+    "longjingPot": {
+      "id": "longjingPot",
+      "name": "龙井",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "longjing",
+      "days": 3
+    },
+    "biluochunPot": {
+      "id": "biluochunPot",
+      "name": "碧螺春",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "biluochun",
+      "days": 3
+    },
+    "tieguanyinPot": {
+      "id": "tieguanyinPot",
+      "name": "铁观音",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "tieguanyin",
+      "days": 3
+    },
+    "dahongpaoPot": {
+      "id": "dahongpaoPot",
+      "name": "大红袍",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "dahongpao",
+      "days": 3
+    },
+    "puer_rawPot": {
+      "id": "puer_rawPot",
+      "name": "生普",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "puer_raw",
+      "days": 4
+    },
+    "puer_ripePot": {
+      "id": "puer_ripePot",
+      "name": "熟普",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "puer_ripe",
+      "days": 4
+    },
+    "white_peony_teaPot": {
+      "id": "white_peony_teaPot",
+      "name": "白牡丹茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "white_peony_tea",
+      "days": 3
+    },
+    "shoumeiPot": {
+      "id": "shoumeiPot",
+      "name": "寿眉",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "shoumei",
+      "days": 3
+    },
+    "burdock_rootPot": {
+      "id": "burdock_rootPot",
+      "name": "牛蒡根",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "burdock_root",
+      "days": 4
+    },
+    "dandelion_rootPot": {
+      "id": "dandelion_rootPot",
+      "name": "蒲公英根",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "dandelion_root",
+      "days": 3
+    },
+    "chicory_rootPot": {
+      "id": "chicory_rootPot",
+      "name": "菊苣根",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "chicory_root",
+      "days": 3
+    },
+    "valerian_flowerPot": {
+      "id": "valerian_flowerPot",
+      "name": "缬草花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "valerian_flower",
+      "days": 3
+    },
+    "hops_flowerPot": {
+      "id": "hops_flowerPot",
+      "name": "啤酒花花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "hops_flower",
+      "days": 3
+    },
+    "meadowsweet_flowerPot": {
+      "id": "meadowsweet_flowerPot",
+      "name": "绣线菊花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "meadowsweet_flower",
+      "days": 3
+    },
+    "yarrow_flowerPot": {
+      "id": "yarrow_flowerPot",
+      "name": "蓍草花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "yarrow_flower",
+      "days": 3
+    },
+    "nettle_seed_teaPot": {
+      "id": "nettle_seed_teaPot",
+      "name": "荨麻籽茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "nettle_seed_tea",
+      "days": 3
     }
   },
   "cups": [
@@ -19371,6 +19659,166 @@
       "tags": [
         "花香",
         "甜蜜"
+      ]
+    },
+    {
+      "id": "longjing",
+      "name": "龙井",
+      "emoji": "🟢",
+      "need": "longjing",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "biluochun",
+      "name": "碧螺春",
+      "emoji": "🟢",
+      "need": "biluochun",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "tieguanyin",
+      "name": "铁观音",
+      "emoji": "🟢",
+      "need": "tieguanyin",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "dahongpao",
+      "name": "大红袍",
+      "emoji": "🔴",
+      "need": "dahongpao",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "puer_raw",
+      "name": "生普",
+      "emoji": "🟢",
+      "need": "puer_raw",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "puer_ripe",
+      "name": "熟普",
+      "emoji": "🟤",
+      "need": "puer_ripe",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "white_peony_tea",
+      "name": "白牡丹茶",
+      "emoji": "🤍",
+      "need": "white_peony_tea",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "shoumei",
+      "name": "寿眉",
+      "emoji": "⚪",
+      "need": "shoumei",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "burdock_root",
+      "name": "牛蒡根",
+      "emoji": "🟤",
+      "need": "burdock_root",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "dandelion_root",
+      "name": "蒲公英根",
+      "emoji": "🟤",
+      "need": "dandelion_root",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "chicory_root",
+      "name": "菊苣根",
+      "emoji": "🟤",
+      "need": "chicory_root",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "valerian_flower",
+      "name": "缬草花",
+      "emoji": "🤍",
+      "need": "valerian_flower",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "hops_flower",
+      "name": "啤酒花花",
+      "emoji": "🟢",
+      "need": "hops_flower",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "meadowsweet_flower",
+      "name": "绣线菊花",
+      "emoji": "🤍",
+      "need": "meadowsweet_flower",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "yarrow_flower",
+      "name": "蓍草花",
+      "emoji": "🤍",
+      "need": "yarrow_flower",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "nettle_seed_tea",
+      "name": "荨麻籽茶",
+      "emoji": "🟢",
+      "need": "nettle_seed_tea",
+      "tags": [
+        "草本",
+        "清爽"
       ]
     }
   ],
@@ -28249,6 +28697,246 @@
         "honey",
         "tea_leaf",
         "lavender_bud"
+      ]
+    },
+    {
+      "name": "泡龙井的旅人",
+      "avatar": "🟢",
+      "wish": "龙井或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "longjing",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "泡碧螺春的药师",
+      "avatar": "🟢",
+      "wish": "碧螺春或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "biluochun",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "泡铁观音的旅人",
+      "avatar": "🟢",
+      "wish": "铁观音或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "tieguanyin",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "泡大红袍的药师",
+      "avatar": "🔴",
+      "wish": "大红袍或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "dahongpao",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "泡生普的旅人",
+      "avatar": "🟢",
+      "wish": "生普或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "puer_raw",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "泡熟普的药师",
+      "avatar": "🟤",
+      "wish": "熟普或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "puer_ripe",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "泡白牡丹茶的旅人",
+      "avatar": "🤍",
+      "wish": "白牡丹茶或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "white_peony_tea",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "泡寿眉的药师",
+      "avatar": "⚪",
+      "wish": "寿眉或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "shoumei",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖牛蒡根的药师",
+      "avatar": "🟤",
+      "wish": "牛蒡根或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "burdock_root",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "焙蒲公英根的旅人",
+      "avatar": "🟤",
+      "wish": "蒲公英根或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "dandelion_root",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "焙菊苣根的药师",
+      "avatar": "🟤",
+      "wish": "菊苣根或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "chicory_root",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采缬草花的旅人",
+      "avatar": "🤍",
+      "wish": "缬草花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "valerian_flower",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采啤酒花花的药师",
+      "avatar": "🟢",
+      "wish": "啤酒花花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "hops_flower",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采绣线菊花的旅人",
+      "avatar": "🤍",
+      "wish": "绣线菊花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "meadowsweet_flower",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采蓍草花的药师",
+      "avatar": "🤍",
+      "wish": "蓍草花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "yarrow_flower",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "泡荨麻籽茶的旅人",
+      "avatar": "🟢",
+      "wish": "荨麻籽茶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "nettle_seed_tea",
+        "honey",
+        "tea_leaf",
+        "mint"
       ]
     }
   ],
