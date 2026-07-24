@@ -94200,5 +94200,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_bell0",
+    "title": "铜铃铃下露两份",
+    "body": "采铜铃铃下露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell0": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell1",
+    "title": "铜铃铎边苔两份",
+    "body": "采铜铃铎边苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell1": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell2",
+    "title": "铜铃檐角草两份",
+    "body": "采铜铃檐角草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell2": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell3",
+    "title": "铜铃门楣花两份",
+    "body": "采铜铃门楣花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell3": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell4",
+    "title": "铜铃店招香两份",
+    "body": "采铜铃店招香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell4": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell5",
+    "title": "铜铃塔影茶两份",
+    "body": "采铜铃塔影茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell5": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell6",
+    "title": "铜铃桥洞风两份",
+    "body": "采铜铃桥洞风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell6": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell7",
+    "title": "铜铃舟舷露两份",
+    "body": "采铜铃舟舷露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell7": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell8",
+    "title": "铜铃车辙草两份",
+    "body": "采铜铃车辙草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell8": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell9",
+    "title": "铜铃蹄印花两份",
+    "body": "采铜铃蹄印花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell9": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell10",
+    "title": "铜铃铃语两份",
+    "body": "采铜铃铃语的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell10": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell11",
+    "title": "铜铃铎声两份",
+    "body": "采铜铃铎声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell11": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell12",
+    "title": "铜铃檐响两份",
+    "body": "采铜铃檐响的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell12": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell13",
+    "title": "铜铃门敲两份",
+    "body": "采铜铃门敲的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell13": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell14",
+    "title": "铜铃店招两份",
+    "body": "采铜铃店招的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell14": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell15",
+    "title": "铜铃塔铃蜜两份",
+    "body": "采铜铃塔铃蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell15": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell16",
+    "title": "铜铃桥铃茶两份",
+    "body": "采铜铃桥铃茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell16": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell17",
+    "title": "铜铃舟铃姜两份",
+    "body": "采铜铃舟铃姜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell17": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell18",
+    "title": "铜铃车铃草两份",
+    "body": "采铜铃车铃草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell18": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell19",
+    "title": "铜铃马铃花两份",
+    "body": "采铜铃马铃花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell19": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell20",
+    "title": "铁铃铃下露两份",
+    "body": "采铁铃铃下露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell21",
+    "title": "铁铃铎边苔两份",
+    "body": "采铁铃铎边苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell22",
+    "title": "铁铃檐角草两份",
+    "body": "采铁铃檐角草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell23",
+    "title": "铁铃门楣花两份",
+    "body": "采铁铃门楣花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell24",
+    "title": "铁铃店招香两份",
+    "body": "采铁铃店招香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell25",
+    "title": "铁铃塔影茶两份",
+    "body": "采铁铃塔影茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell26",
+    "title": "铁铃桥洞风两份",
+    "body": "采铁铃桥洞风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell27",
+    "title": "铁铃舟舷露两份",
+    "body": "采铁铃舟舷露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell28",
+    "title": "铁铃车辙草两份",
+    "body": "采铁铃车辙草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell29",
+    "title": "铁铃蹄印花两份",
+    "body": "采铁铃蹄印花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell30",
+    "title": "铁铃铃语两份",
+    "body": "采铁铃铃语的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell30": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell31",
+    "title": "铁铃铎声两份",
+    "body": "采铁铃铎声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell31": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell32",
+    "title": "铁铃檐响两份",
+    "body": "采铁铃檐响的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell32": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell33",
+    "title": "铁铃门敲两份",
+    "body": "采铁铃门敲的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell33": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell34",
+    "title": "铁铃店招两份",
+    "body": "采铁铃店招的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell34": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell35",
+    "title": "铁铃塔铃蜜两份",
+    "body": "采铁铃塔铃蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell35": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell36",
+    "title": "铁铃桥铃茶两份",
+    "body": "采铁铃桥铃茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell36": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell37",
+    "title": "铁铃舟铃姜两份",
+    "body": "采铁铃舟铃姜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell37": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell38",
+    "title": "铁铃车铃草两份",
+    "body": "采铁铃车铃草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell38": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell39",
+    "title": "铁铃马铃花两份",
+    "body": "采铁铃马铃花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell39": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell40",
+    "title": "瓷铃铃下露两份",
+    "body": "采瓷铃铃下露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell40": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell41",
+    "title": "瓷铃铎边苔两份",
+    "body": "采瓷铃铎边苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell41": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell42",
+    "title": "瓷铃檐角草两份",
+    "body": "采瓷铃檐角草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell42": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell43",
+    "title": "瓷铃门楣花两份",
+    "body": "采瓷铃门楣花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell43": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell44",
+    "title": "瓷铃店招香两份",
+    "body": "采瓷铃店招香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell44": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell45",
+    "title": "瓷铃塔影茶两份",
+    "body": "采瓷铃塔影茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell45": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell46",
+    "title": "瓷铃桥洞风两份",
+    "body": "采瓷铃桥洞风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell46": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell47",
+    "title": "瓷铃舟舷露两份",
+    "body": "采瓷铃舟舷露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell47": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell48",
+    "title": "瓷铃车辙草两份",
+    "body": "采瓷铃车辙草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell48": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell49",
+    "title": "瓷铃蹄印花两份",
+    "body": "采瓷铃蹄印花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell49": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell50",
+    "title": "瓷铃铃语两份",
+    "body": "采瓷铃铃语的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell50": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell51",
+    "title": "瓷铃铎声两份",
+    "body": "采瓷铃铎声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell51": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell52",
+    "title": "瓷铃檐响两份",
+    "body": "采瓷铃檐响的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell52": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell53",
+    "title": "瓷铃门敲两份",
+    "body": "采瓷铃门敲的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell53": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell54",
+    "title": "瓷铃店招两份",
+    "body": "采瓷铃店招的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell54": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell55",
+    "title": "瓷铃塔铃蜜两份",
+    "body": "采瓷铃塔铃蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell55": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell56",
+    "title": "瓷铃桥铃茶两份",
+    "body": "采瓷铃桥铃茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell56": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell57",
+    "title": "瓷铃舟铃姜两份",
+    "body": "采瓷铃舟铃姜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell57": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell58",
+    "title": "瓷铃车铃草两份",
+    "body": "采瓷铃车铃草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell58": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell59",
+    "title": "瓷铃马铃花两份",
+    "body": "采瓷铃马铃花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell59": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell60",
+    "title": "竹铃铃下露两份",
+    "body": "采竹铃铃下露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell60": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell61",
+    "title": "竹铃铎边苔两份",
+    "body": "采竹铃铎边苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell61": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell62",
+    "title": "竹铃檐角草两份",
+    "body": "采竹铃檐角草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell62": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell63",
+    "title": "竹铃门楣花两份",
+    "body": "采竹铃门楣花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell63": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell64",
+    "title": "竹铃店招香两份",
+    "body": "采竹铃店招香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell64": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell65",
+    "title": "竹铃塔影茶两份",
+    "body": "采竹铃塔影茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell65": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell66",
+    "title": "竹铃桥洞风两份",
+    "body": "采竹铃桥洞风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell66": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell67",
+    "title": "竹铃舟舷露两份",
+    "body": "采竹铃舟舷露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell67": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell68",
+    "title": "竹铃车辙草两份",
+    "body": "采竹铃车辙草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell68": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell69",
+    "title": "竹铃蹄印花两份",
+    "body": "采竹铃蹄印花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell69": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell70",
+    "title": "竹铃铃语两份",
+    "body": "采竹铃铃语的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell70": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell71",
+    "title": "竹铃铎声两份",
+    "body": "采竹铃铎声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell71": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell72",
+    "title": "竹铃檐响两份",
+    "body": "采竹铃檐响的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell72": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell73",
+    "title": "竹铃门敲两份",
+    "body": "采竹铃门敲的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell73": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell74",
+    "title": "竹铃店招两份",
+    "body": "采竹铃店招的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell74": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell75",
+    "title": "竹铃塔铃蜜两份",
+    "body": "采竹铃塔铃蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell75": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell76",
+    "title": "竹铃桥铃茶两份",
+    "body": "采竹铃桥铃茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell76": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell77",
+    "title": "竹铃舟铃姜两份",
+    "body": "采竹铃舟铃姜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell77": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell78",
+    "title": "竹铃车铃草两份",
+    "body": "采竹铃车铃草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell78": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell79",
+    "title": "竹铃马铃花两份",
+    "body": "采竹铃马铃花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell79": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell80",
+    "title": "木铃铃下露两份",
+    "body": "采木铃铃下露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell80": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell81",
+    "title": "木铃铎边苔两份",
+    "body": "采木铃铎边苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell81": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell82",
+    "title": "木铃檐角草两份",
+    "body": "采木铃檐角草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell82": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell83",
+    "title": "木铃门楣花两份",
+    "body": "采木铃门楣花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell83": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell84",
+    "title": "木铃店招香两份",
+    "body": "采木铃店招香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell84": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell85",
+    "title": "木铃塔影茶两份",
+    "body": "采木铃塔影茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell85": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell86",
+    "title": "木铃桥洞风两份",
+    "body": "采木铃桥洞风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell86": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell87",
+    "title": "木铃舟舷露两份",
+    "body": "采木铃舟舷露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell87": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell88",
+    "title": "木铃车辙草两份",
+    "body": "采木铃车辙草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell88": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell89",
+    "title": "木铃蹄印花两份",
+    "body": "采木铃蹄印花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell89": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell90",
+    "title": "木铃铃语两份",
+    "body": "采木铃铃语的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell90": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell91",
+    "title": "木铃铎声两份",
+    "body": "采木铃铎声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell91": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell92",
+    "title": "木铃檐响两份",
+    "body": "采木铃檐响的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell92": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell93",
+    "title": "木铃门敲两份",
+    "body": "采木铃门敲的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell93": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell94",
+    "title": "木铃店招两份",
+    "body": "采木铃店招的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell94": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell95",
+    "title": "木铃塔铃蜜两份",
+    "body": "采木铃塔铃蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell95": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell96",
+    "title": "木铃桥铃茶两份",
+    "body": "采木铃桥铃茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell96": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell97",
+    "title": "木铃舟铃姜两份",
+    "body": "采木铃舟铃姜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell97": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell98",
+    "title": "木铃车铃草两份",
+    "body": "采木铃车铃草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell98": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell99",
+    "title": "木铃马铃花两份",
+    "body": "采木铃马铃花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell99": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell100",
+    "title": "玻璃铃铃下露两份",
+    "body": "采玻璃铃铃下露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell101",
+    "title": "玻璃铃铎边苔两份",
+    "body": "采玻璃铃铎边苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell102",
+    "title": "玻璃铃檐角草两份",
+    "body": "采玻璃铃檐角草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell103",
+    "title": "玻璃铃门楣花两份",
+    "body": "采玻璃铃门楣花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell104",
+    "title": "玻璃铃店招香两份",
+    "body": "采玻璃铃店招香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell105",
+    "title": "玻璃铃塔影茶两份",
+    "body": "采玻璃铃塔影茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell106",
+    "title": "玻璃铃桥洞风两份",
+    "body": "采玻璃铃桥洞风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell107",
+    "title": "玻璃铃舟舷露两份",
+    "body": "采玻璃铃舟舷露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell108",
+    "title": "玻璃铃车辙草两份",
+    "body": "采玻璃铃车辙草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell109",
+    "title": "玻璃铃蹄印花两份",
+    "body": "采玻璃铃蹄印花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell110",
+    "title": "玻璃铃铃语两份",
+    "body": "采玻璃铃铃语的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell111",
+    "title": "玻璃铃铎声两份",
+    "body": "采玻璃铃铎声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell112",
+    "title": "玻璃铃檐响两份",
+    "body": "采玻璃铃檐响的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell113",
+    "title": "玻璃铃门敲两份",
+    "body": "采玻璃铃门敲的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell114",
+    "title": "玻璃铃店招两份",
+    "body": "采玻璃铃店招的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell115",
+    "title": "玻璃铃塔铃蜜两份",
+    "body": "采玻璃铃塔铃蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell116",
+    "title": "玻璃铃桥铃茶两份",
+    "body": "采玻璃铃桥铃茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell117",
+    "title": "玻璃铃舟铃姜两份",
+    "body": "采玻璃铃舟铃姜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell118",
+    "title": "玻璃铃车铃草两份",
+    "body": "采玻璃铃车铃草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell119",
+    "title": "玻璃铃马铃花两份",
+    "body": "采玻璃铃马铃花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell120",
+    "title": "风铎铃下露两份",
+    "body": "采风铎铃下露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell121",
+    "title": "风铎铎边苔两份",
+    "body": "采风铎铎边苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell122",
+    "title": "风铎檐角草两份",
+    "body": "采风铎檐角草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell123",
+    "title": "风铎门楣花两份",
+    "body": "采风铎门楣花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell124",
+    "title": "风铎店招香两份",
+    "body": "采风铎店招香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell125",
+    "title": "风铎塔影茶两份",
+    "body": "采风铎塔影茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell126",
+    "title": "风铎桥洞风两份",
+    "body": "采风铎桥洞风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell127",
+    "title": "风铎舟舷露两份",
+    "body": "采风铎舟舷露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell128",
+    "title": "风铎车辙草两份",
+    "body": "采风铎车辙草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell129",
+    "title": "风铎蹄印花两份",
+    "body": "采风铎蹄印花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell130",
+    "title": "风铎铃语两份",
+    "body": "采风铎铃语的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell131",
+    "title": "风铎铎声两份",
+    "body": "采风铎铎声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell132",
+    "title": "风铎檐响两份",
+    "body": "采风铎檐响的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell133",
+    "title": "风铎门敲两份",
+    "body": "采风铎门敲的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell134",
+    "title": "风铎店招两份",
+    "body": "采风铎店招的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell135",
+    "title": "风铎塔铃蜜两份",
+    "body": "采风铎塔铃蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell136",
+    "title": "风铎桥铃茶两份",
+    "body": "采风铎桥铃茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell137",
+    "title": "风铎舟铃姜两份",
+    "body": "采风铎舟铃姜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell138",
+    "title": "风铎车铃草两份",
+    "body": "采风铎车铃草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell139",
+    "title": "风铎马铃花两份",
+    "body": "采风铎马铃花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell140",
+    "title": "檐铃铃下露两份",
+    "body": "采檐铃铃下露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell141",
+    "title": "檐铃铎边苔两份",
+    "body": "采檐铃铎边苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell142",
+    "title": "檐铃檐角草两份",
+    "body": "采檐铃檐角草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell143",
+    "title": "檐铃门楣花两份",
+    "body": "采檐铃门楣花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell144",
+    "title": "檐铃店招香两份",
+    "body": "采檐铃店招香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell145",
+    "title": "檐铃塔影茶两份",
+    "body": "采檐铃塔影茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell146",
+    "title": "檐铃桥洞风两份",
+    "body": "采檐铃桥洞风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell147",
+    "title": "檐铃舟舷露两份",
+    "body": "采檐铃舟舷露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell148",
+    "title": "檐铃车辙草两份",
+    "body": "采檐铃车辙草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell149",
+    "title": "檐铃蹄印花两份",
+    "body": "采檐铃蹄印花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell150",
+    "title": "檐铃铃语两份",
+    "body": "采檐铃铃语的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell151",
+    "title": "檐铃铎声两份",
+    "body": "采檐铃铎声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell152",
+    "title": "檐铃檐响两份",
+    "body": "采檐铃檐响的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell153",
+    "title": "檐铃门敲两份",
+    "body": "采檐铃门敲的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell154",
+    "title": "檐铃店招两份",
+    "body": "采檐铃店招的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell155",
+    "title": "檐铃塔铃蜜两份",
+    "body": "采檐铃塔铃蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell156",
+    "title": "檐铃桥铃茶两份",
+    "body": "采檐铃桥铃茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell157",
+    "title": "檐铃舟铃姜两份",
+    "body": "采檐铃舟铃姜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell158",
+    "title": "檐铃车铃草两份",
+    "body": "采檐铃车铃草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell159",
+    "title": "檐铃马铃花两份",
+    "body": "采檐铃马铃花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell160",
+    "title": "门铃铃下露两份",
+    "body": "采门铃铃下露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell161",
+    "title": "门铃铎边苔两份",
+    "body": "采门铃铎边苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell162",
+    "title": "门铃檐角草两份",
+    "body": "采门铃檐角草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell163",
+    "title": "门铃门楣花两份",
+    "body": "采门铃门楣花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell164",
+    "title": "门铃店招香两份",
+    "body": "采门铃店招香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell165",
+    "title": "门铃塔影茶两份",
+    "body": "采门铃塔影茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell166",
+    "title": "门铃桥洞风两份",
+    "body": "采门铃桥洞风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell167",
+    "title": "门铃舟舷露两份",
+    "body": "采门铃舟舷露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell168",
+    "title": "门铃车辙草两份",
+    "body": "采门铃车辙草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell169",
+    "title": "门铃蹄印花两份",
+    "body": "采门铃蹄印花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell170",
+    "title": "门铃铃语两份",
+    "body": "采门铃铃语的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell171",
+    "title": "门铃铎声两份",
+    "body": "采门铃铎声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell172",
+    "title": "门铃檐响两份",
+    "body": "采门铃檐响的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell173",
+    "title": "门铃门敲两份",
+    "body": "采门铃门敲的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell174",
+    "title": "门铃店招两份",
+    "body": "采门铃店招的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell175",
+    "title": "门铃塔铃蜜两份",
+    "body": "采门铃塔铃蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell176",
+    "title": "门铃桥铃茶两份",
+    "body": "采门铃桥铃茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell177",
+    "title": "门铃舟铃姜两份",
+    "body": "采门铃舟铃姜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell178",
+    "title": "门铃车铃草两份",
+    "body": "采门铃车铃草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell179",
+    "title": "门铃马铃花两份",
+    "body": "采门铃马铃花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell180",
+    "title": "店铃铃下露两份",
+    "body": "采店铃铃下露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell181",
+    "title": "店铃铎边苔两份",
+    "body": "采店铃铎边苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell182",
+    "title": "店铃檐角草两份",
+    "body": "采店铃檐角草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell183",
+    "title": "店铃门楣花两份",
+    "body": "采店铃门楣花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell184",
+    "title": "店铃店招香两份",
+    "body": "采店铃店招香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell185",
+    "title": "店铃塔影茶两份",
+    "body": "采店铃塔影茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell186",
+    "title": "店铃桥洞风两份",
+    "body": "采店铃桥洞风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell187",
+    "title": "店铃舟舷露两份",
+    "body": "采店铃舟舷露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell188",
+    "title": "店铃车辙草两份",
+    "body": "采店铃车辙草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell189",
+    "title": "店铃蹄印花两份",
+    "body": "采店铃蹄印花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell190",
+    "title": "店铃铃语两份",
+    "body": "采店铃铃语的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell191",
+    "title": "店铃铎声两份",
+    "body": "采店铃铎声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell192",
+    "title": "店铃檐响两份",
+    "body": "采店铃檐响的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell193",
+    "title": "店铃门敲两份",
+    "body": "采店铃门敲的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell194",
+    "title": "店铃店招两份",
+    "body": "采店铃店招的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell195",
+    "title": "店铃塔铃蜜两份",
+    "body": "采店铃塔铃蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell196",
+    "title": "店铃桥铃茶两份",
+    "body": "采店铃桥铃茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell197",
+    "title": "店铃舟铃姜两份",
+    "body": "采店铃舟铃姜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell198",
+    "title": "店铃车铃草两份",
+    "body": "采店铃车铃草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell199",
+    "title": "店铃马铃花两份",
+    "body": "采店铃马铃花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell200",
+    "title": "塔铃铃下露两份",
+    "body": "采塔铃铃下露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell201",
+    "title": "塔铃铎边苔两份",
+    "body": "采塔铃铎边苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell202",
+    "title": "塔铃檐角草两份",
+    "body": "采塔铃檐角草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell203",
+    "title": "塔铃门楣花两份",
+    "body": "采塔铃门楣花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell204",
+    "title": "塔铃店招香两份",
+    "body": "采塔铃店招香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell205",
+    "title": "塔铃塔影茶两份",
+    "body": "采塔铃塔影茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell206",
+    "title": "塔铃桥洞风两份",
+    "body": "采塔铃桥洞风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell207",
+    "title": "塔铃舟舷露两份",
+    "body": "采塔铃舟舷露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell208",
+    "title": "塔铃车辙草两份",
+    "body": "采塔铃车辙草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell209",
+    "title": "塔铃蹄印花两份",
+    "body": "采塔铃蹄印花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell210",
+    "title": "塔铃铃语两份",
+    "body": "采塔铃铃语的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell211",
+    "title": "塔铃铎声两份",
+    "body": "采塔铃铎声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell212",
+    "title": "塔铃檐响两份",
+    "body": "采塔铃檐响的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell213",
+    "title": "塔铃门敲两份",
+    "body": "采塔铃门敲的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell214",
+    "title": "塔铃店招两份",
+    "body": "采塔铃店招的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell215",
+    "title": "塔铃塔铃蜜两份",
+    "body": "采塔铃塔铃蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell216",
+    "title": "塔铃桥铃茶两份",
+    "body": "采塔铃桥铃茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell217",
+    "title": "塔铃舟铃姜两份",
+    "body": "采塔铃舟铃姜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell218",
+    "title": "塔铃车铃草两份",
+    "body": "采塔铃车铃草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell219",
+    "title": "塔铃马铃花两份",
+    "body": "采塔铃马铃花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell220",
+    "title": "桥铃铃下露两份",
+    "body": "采桥铃铃下露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell221",
+    "title": "桥铃铎边苔两份",
+    "body": "采桥铃铎边苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell222",
+    "title": "桥铃檐角草两份",
+    "body": "采桥铃檐角草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell223",
+    "title": "桥铃门楣花两份",
+    "body": "采桥铃门楣花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell224",
+    "title": "桥铃店招香两份",
+    "body": "采桥铃店招香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell225",
+    "title": "桥铃塔影茶两份",
+    "body": "采桥铃塔影茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell226",
+    "title": "桥铃桥洞风两份",
+    "body": "采桥铃桥洞风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell227",
+    "title": "桥铃舟舷露两份",
+    "body": "采桥铃舟舷露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell228",
+    "title": "桥铃车辙草两份",
+    "body": "采桥铃车辙草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell229",
+    "title": "桥铃蹄印花两份",
+    "body": "采桥铃蹄印花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell230",
+    "title": "桥铃铃语两份",
+    "body": "采桥铃铃语的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell231",
+    "title": "桥铃铎声两份",
+    "body": "采桥铃铎声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell232",
+    "title": "桥铃檐响两份",
+    "body": "采桥铃檐响的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell233",
+    "title": "桥铃门敲两份",
+    "body": "采桥铃门敲的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell234",
+    "title": "桥铃店招两份",
+    "body": "采桥铃店招的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell235",
+    "title": "桥铃塔铃蜜两份",
+    "body": "采桥铃塔铃蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell236",
+    "title": "桥铃桥铃茶两份",
+    "body": "采桥铃桥铃茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell237",
+    "title": "桥铃舟铃姜两份",
+    "body": "采桥铃舟铃姜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell238",
+    "title": "桥铃车铃草两份",
+    "body": "采桥铃车铃草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell239",
+    "title": "桥铃马铃花两份",
+    "body": "采桥铃马铃花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell240",
+    "title": "舟铃铃下露两份",
+    "body": "采舟铃铃下露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell241",
+    "title": "舟铃铎边苔两份",
+    "body": "采舟铃铎边苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell242",
+    "title": "舟铃檐角草两份",
+    "body": "采舟铃檐角草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell243",
+    "title": "舟铃门楣花两份",
+    "body": "采舟铃门楣花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell244",
+    "title": "舟铃店招香两份",
+    "body": "采舟铃店招香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell245",
+    "title": "舟铃塔影茶两份",
+    "body": "采舟铃塔影茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell246",
+    "title": "舟铃桥洞风两份",
+    "body": "采舟铃桥洞风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell247",
+    "title": "舟铃舟舷露两份",
+    "body": "采舟铃舟舷露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell248",
+    "title": "舟铃车辙草两份",
+    "body": "采舟铃车辙草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell249",
+    "title": "舟铃蹄印花两份",
+    "body": "采舟铃蹄印花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell250",
+    "title": "舟铃铃语两份",
+    "body": "采舟铃铃语的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell251",
+    "title": "舟铃铎声两份",
+    "body": "采舟铃铎声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell252",
+    "title": "舟铃檐响两份",
+    "body": "采舟铃檐响的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell253",
+    "title": "舟铃门敲两份",
+    "body": "采舟铃门敲的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell254",
+    "title": "舟铃店招两份",
+    "body": "采舟铃店招的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell255",
+    "title": "舟铃塔铃蜜两份",
+    "body": "采舟铃塔铃蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell256",
+    "title": "舟铃桥铃茶两份",
+    "body": "采舟铃桥铃茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell257",
+    "title": "舟铃舟铃姜两份",
+    "body": "采舟铃舟铃姜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell258",
+    "title": "舟铃车铃草两份",
+    "body": "采舟铃车铃草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell259",
+    "title": "舟铃马铃花两份",
+    "body": "采舟铃马铃花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell260",
+    "title": "车铃铃下露两份",
+    "body": "采车铃铃下露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell261",
+    "title": "车铃铎边苔两份",
+    "body": "采车铃铎边苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell262",
+    "title": "车铃檐角草两份",
+    "body": "采车铃檐角草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell263",
+    "title": "车铃门楣花两份",
+    "body": "采车铃门楣花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell264",
+    "title": "车铃店招香两份",
+    "body": "采车铃店招香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell265",
+    "title": "车铃塔影茶两份",
+    "body": "采车铃塔影茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell266",
+    "title": "车铃桥洞风两份",
+    "body": "采车铃桥洞风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell267",
+    "title": "车铃舟舷露两份",
+    "body": "采车铃舟舷露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell268",
+    "title": "车铃车辙草两份",
+    "body": "采车铃车辙草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell269",
+    "title": "车铃蹄印花两份",
+    "body": "采车铃蹄印花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell270",
+    "title": "车铃铃语两份",
+    "body": "采车铃铃语的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell271",
+    "title": "车铃铎声两份",
+    "body": "采车铃铎声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell272",
+    "title": "车铃檐响两份",
+    "body": "采车铃檐响的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell273",
+    "title": "车铃门敲两份",
+    "body": "采车铃门敲的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell274",
+    "title": "车铃店招两份",
+    "body": "采车铃店招的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell275",
+    "title": "车铃塔铃蜜两份",
+    "body": "采车铃塔铃蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell276",
+    "title": "车铃桥铃茶两份",
+    "body": "采车铃桥铃茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell277",
+    "title": "车铃舟铃姜两份",
+    "body": "采车铃舟铃姜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell278",
+    "title": "车铃车铃草两份",
+    "body": "采车铃车铃草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell279",
+    "title": "车铃马铃花两份",
+    "body": "采车铃马铃花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell280",
+    "title": "马铃铃下露两份",
+    "body": "采马铃铃下露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell281",
+    "title": "马铃铎边苔两份",
+    "body": "采马铃铎边苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell282",
+    "title": "马铃檐角草两份",
+    "body": "采马铃檐角草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell283",
+    "title": "马铃门楣花两份",
+    "body": "采马铃门楣花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell284",
+    "title": "马铃店招香两份",
+    "body": "采马铃店招香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell285",
+    "title": "马铃塔影茶两份",
+    "body": "采马铃塔影茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell286",
+    "title": "马铃桥洞风两份",
+    "body": "采马铃桥洞风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell287",
+    "title": "马铃舟舷露两份",
+    "body": "采马铃舟舷露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell288",
+    "title": "马铃车辙草两份",
+    "body": "采马铃车辙草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell289",
+    "title": "马铃蹄印花两份",
+    "body": "采马铃蹄印花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell290",
+    "title": "马铃铃语两份",
+    "body": "采马铃铃语的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell291",
+    "title": "马铃铎声两份",
+    "body": "采马铃铎声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell292",
+    "title": "马铃檐响两份",
+    "body": "采马铃檐响的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell293",
+    "title": "马铃门敲两份",
+    "body": "采马铃门敲的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell294",
+    "title": "马铃店招两份",
+    "body": "采马铃店招的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell295",
+    "title": "马铃塔铃蜜两份",
+    "body": "采马铃塔铃蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell296",
+    "title": "马铃桥铃茶两份",
+    "body": "采马铃桥铃茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell297",
+    "title": "马铃舟铃姜两份",
+    "body": "采马铃舟铃姜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell298",
+    "title": "马铃车铃草两份",
+    "body": "采马铃车铃草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell299",
+    "title": "马铃马铃花两份",
+    "body": "采马铃马铃花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell300",
+    "title": "驼铃铃下露两份",
+    "body": "采驼铃铃下露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell301",
+    "title": "驼铃铎边苔两份",
+    "body": "采驼铃铎边苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell302",
+    "title": "驼铃檐角草两份",
+    "body": "采驼铃檐角草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell303",
+    "title": "驼铃门楣花两份",
+    "body": "采驼铃门楣花的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell304",
+    "title": "驼铃店招香两份",
+    "body": "采驼铃店招香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell305",
+    "title": "驼铃塔影茶两份",
+    "body": "采驼铃塔影茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell306",
+    "title": "驼铃桥洞风两份",
+    "body": "采驼铃桥洞风的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell307",
+    "title": "驼铃舟舷露两份",
+    "body": "采驼铃舟舷露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell308",
+    "title": "驼铃车辙草两份",
+    "body": "采驼铃车辙草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell309",
+    "title": "驼铃蹄印花两份",
+    "body": "采驼铃蹄印花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell310",
+    "title": "驼铃铃语两份",
+    "body": "采驼铃铃语的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell311",
+    "title": "驼铃铎声两份",
+    "body": "采驼铃铎声的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell312",
+    "title": "驼铃檐响两份",
+    "body": "采驼铃檐响的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell313",
+    "title": "驼铃门敲两份",
+    "body": "采驼铃门敲的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell314",
+    "title": "驼铃店招两份",
+    "body": "采驼铃店招的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell315",
+    "title": "驼铃塔铃蜜两份",
+    "body": "采驼铃塔铃蜜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell316",
+    "title": "驼铃桥铃茶两份",
+    "body": "采驼铃桥铃茶的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell317",
+    "title": "驼铃舟铃姜两份",
+    "body": "采驼铃舟铃姜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell318",
+    "title": "驼铃车铃草两份",
+    "body": "采驼铃车铃草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bell319",
+    "title": "驼铃马铃花两份",
+    "body": "采驼铃马铃花的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bell319": 2
+      },
+      "coins": 2
+    }
   }
 ]
