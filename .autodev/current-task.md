@@ -1,3 +1,3 @@
 # Current task
 
-A0783+ toward 1000. authenticRows 775. Themes 4699. Spam DISABLED.
+A0787+ toward 1000. authenticRows 779. Themes 5019. Spam DISABLED.
