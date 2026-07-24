@@ -4116,5 +4116,56 @@ test("hops heather angelica arnica 138 themes", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("echinacea comfrey feverfew lemon_verbena 142 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["echinacea", "comfrey", "feverfew", "lemon_verbena"];
+  const pots = ["echinaceaPot", "comfreyPot", "feverfewPot", "lemon_verbenaPot"];
+  ids.forEach((id, i) => {
+    assert.ok(j.items[id] && j.plants[pots[i]], id);
+  });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id, i) => {
+    s.bag[id] = 1;
+    assert.ok(core.plantSeed(s, i, id, cat).ok, id);
+  });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["echinacea_meadow", "comfrey_path", "feverfew_lane", "lemon_verbena_path"].forEach((tid) => {
+    assert.ok(themes.some((th) => th.id === tid), tid);
+  });
+  assert.ok(themes.length >= 142);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "采紫锥菊的药师", tags: ["花香"], flavors: ["echinacea"] },
+    { cup: "mug", base: "honey_water", flavor: "echinacea", topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  assert.ok(winterPool.includes("comfrey"));
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  assert.ok(summerPool.includes("echinacea") && summerPool.includes("feverfew") && summerPool.includes("lemon_verbena"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("echinacea_meadow") && game.includes("lemon_verbena_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "紫锥菊暖蜜"));
+  assert.ok(recipes.some((r) => r.name === "聚合草暖茶"));
+  assert.ok(recipes.some((r) => r.name === "小白菊暖蜜"));
+  assert.ok(recipes.some((r) => r.name === "柠檬马鞭草汽泡茶"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "echinacea_walker"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "lemon_verbena_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("紫锥菊草甸") && man.includes("柠檬马鞭草径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("紫锥菊") || t.includes("柠檬马鞭草")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_echinacea_meadow" && e.body.length > 12));
+  assert.ok(events.some((e) => e.id === "ev_lemon_verbena_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
