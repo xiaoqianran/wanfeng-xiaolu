@@ -2218,6 +2218,60 @@ function renderJournal() {
         ctx.arc(x, y, 1.5, 0, Math.PI * 2);
         ctx.fill();
       }
+    } else if (themeId === "honeydew_field") {
+      ctx.fillStyle = "rgba(160,200,90,0.45)";
+      for (let i = 0; i < 12; i++) {
+        const x = 30 + (i * 70 + Math.sin(time * 0.02 + i) * 3) % (w - 50);
+        const y = h * 0.4 + ((i * 13) % 30);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 10, 7, 0.1, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "watermelon_patch") {
+      ctx.fillStyle = "rgba(40,120,50,0.35)";
+      for (let i = 0; i < 10; i++) {
+        const x = 40 + (i * 80) % (w - 60);
+        const y = h * 0.42 + (i % 2) * 12;
+        ctx.beginPath();
+        ctx.ellipse(x, y, 14, 9, 0, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.strokeStyle = "rgba(30,90,40,0.5)";
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(x - 10, y);
+        ctx.lineTo(x + 10, y);
+        ctx.stroke();
+      }
+      ctx.fillStyle = "rgba(200,40,60,0.35)";
+      for (let i = 0; i < 8; i++) {
+        const x = 50 + (i * 90 + Math.sin(time * 0.02 + i) * 2) % (w - 60);
+        ctx.beginPath();
+        ctx.arc(x, h * 0.35, 3, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "cantaloupe_lane") {
+      ctx.fillStyle = "rgba(220,160,70,0.45)";
+      for (let i = 0; i < 12; i++) {
+        const x = 28 + (i * 68 + Math.sin(time * 0.02 + i) * 3) % (w - 50);
+        const y = h * 0.38 + ((i * 14) % 35);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 9, 7, 0.15, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "papaya_grove") {
+      ctx.fillStyle = "rgba(70,50,30,0.25)";
+      for (let i = 0; i < 7; i++) {
+        const x = 40 + i * (w / 7);
+        ctx.fillRect(x - 4, h * 0.3, 8, h * 0.25);
+      }
+      ctx.fillStyle = "rgba(230,120,50,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 30 + (i * 55 + Math.sin(time * 0.02 + i) * 2) % (w - 50);
+        const y = h * 0.28 + ((i * 16) % 40);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 7, 0, 0, Math.PI * 2);
+        ctx.fill();
+      }
     }
   }
 
@@ -3201,7 +3255,7 @@ function renderJournal() {
     if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || flavorDef.id === "rose_petal" || flavorDef.id === "elderflower" || flavorDef.id === "loquat" || flavorDef.id === "vanilla" || baseDef.id === "floral_tea")) {
       score += 0.5; notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || flavorDef.id === "litchi" || flavorDef.id === "olive" || flavorDef.id === "mango" || flavorDef.id === "pineapple" || flavorDef.id === "coconut" || flavorDef.id === "starfruit" || flavorDef.id === "passion_fruit" || flavorDef.id === "kiwi" || flavorDef.id === "dragonfruit" || flavorDef.id === "guava" || flavorDef.id === "cherry" || flavorDef.id === "apricot" || flavorDef.id === "grapefruit" || flavorDef.id === "tangerine" || flavorDef.id === "wax_apple" || flavorDef.id === "sugarcane" || flavorDef.id === "lemon" || flavorDef.id === "lime" || flavorDef.id === "cranberry" || flavorDef.id === "elderberry" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || flavorDef.id === "litchi" || flavorDef.id === "olive" || flavorDef.id === "mango" || flavorDef.id === "pineapple" || flavorDef.id === "coconut" || flavorDef.id === "starfruit" || flavorDef.id === "passion_fruit" || flavorDef.id === "kiwi" || flavorDef.id === "dragonfruit" || flavorDef.id === "guava" || flavorDef.id === "cherry" || flavorDef.id === "apricot" || flavorDef.id === "grapefruit" || flavorDef.id === "tangerine" || flavorDef.id === "wax_apple" || flavorDef.id === "sugarcane" || flavorDef.id === "lemon" || flavorDef.id === "lime" || flavorDef.id === "cranberry" || flavorDef.id === "elderberry" || flavorDef.id === "honeydew" || flavorDef.id === "watermelon" || flavorDef.id === "cantaloupe" || flavorDef.id === "papaya" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5; notes.push("夏日清爽");
     }
     if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel" || flavorDef.id === "cardamom" || flavorDef.id === "ginger" || flavorDef.id === "calendula" || flavorDef.id === "chrysanthemum" || flavorDef.id === "hibiscus" || flavorDef.id === "plum" || flavorDef.id === "grape" || flavorDef.id === "mulberry" || flavorDef.id === "persimmon" || flavorDef.id === "fig" || flavorDef.id === "longan" || flavorDef.id === "hawthorn" || flavorDef.id === "pear" || flavorDef.id === "apricot" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "chestnut" || flavorDef.id === "cinnamon" || flavorDef.id === "clove" || flavorDef.id === "pistachio")) {

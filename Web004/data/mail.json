@@ -1239,5 +1239,49 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_honeydew",
+    "title": "哈密瓜两片",
+    "body": "切哈密瓜的阿姨来信：刚切的。给你两片，别放太久。",
+    "effect": {
+      "items": {
+        "honeydew": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_watermelon",
+    "title": "西瓜两片",
+    "body": "卖西瓜的少年来信：刚切的。给你两片，别放太久。",
+    "effect": {
+      "items": {
+        "watermelon": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cantaloupe",
+    "title": "甜瓜两片",
+    "body": "选甜瓜的女孩来信：刚切的。给你两片，别放太久。",
+    "effect": {
+      "items": {
+        "cantaloupe": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_papaya",
+    "title": "木瓜两片",
+    "body": "炖木瓜的阿婆来信：刚切的。给你两片，别放太久。",
+    "effect": {
+      "items": {
+        "papaya": 2
+      },
+      "coins": 2
+    }
   }
 ]
