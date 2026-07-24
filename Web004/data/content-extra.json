@@ -2980,6 +2980,34 @@
       "emoji": "🔴",
       "kind": "风味",
       "seed": "sumacPot"
+    },
+    "caraway": {
+      "id": "caraway",
+      "name": "葛缕子",
+      "emoji": "🌾",
+      "kind": "风味",
+      "seed": "carawayPot"
+    },
+    "cumin": {
+      "id": "cumin",
+      "name": "孜然",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "cuminPot"
+    },
+    "fenugreek": {
+      "id": "fenugreek",
+      "name": "胡芦巴",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "fenugreekPot"
+    },
+    "nigella": {
+      "id": "nigella",
+      "name": "黑种草",
+      "emoji": "⚫",
+      "kind": "风味",
+      "seed": "nigellaPot"
     }
   },
   "plants": {
@@ -5859,6 +5887,50 @@
       ],
       "harvest": "sumac",
       "days": 3
+    },
+    "carawayPot": {
+      "id": "carawayPot",
+      "name": "葛缕子",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌾"
+      ],
+      "harvest": "caraway",
+      "days": 3
+    },
+    "cuminPot": {
+      "id": "cuminPot",
+      "name": "孜然",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "cumin",
+      "days": 3
+    },
+    "fenugreekPot": {
+      "id": "fenugreekPot",
+      "name": "胡芦巴",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "fenugreek",
+      "days": 3
+    },
+    "nigellaPot": {
+      "id": "nigellaPot",
+      "name": "黑种草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚫"
+      ],
+      "harvest": "nigella",
+      "days": 3
     }
   },
   "cups": [
@@ -7583,6 +7655,46 @@
       "tags": [
         "清爽",
         "果香"
+      ]
+    },
+    {
+      "id": "caraway",
+      "name": "葛缕子",
+      "emoji": "🌾",
+      "need": "caraway",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "cumin",
+      "name": "孜然",
+      "emoji": "🟤",
+      "need": "cumin",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "fenugreek",
+      "name": "胡芦巴",
+      "emoji": "🟡",
+      "need": "fenugreek",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "nigella",
+      "name": "黑种草",
+      "emoji": "⚫",
+      "need": "nigella",
+      "tags": [
+        "草本",
+        "清爽"
       ]
     }
   ],
@@ -10146,6 +10258,66 @@
         "lemon",
         "honey",
         "mint"
+      ]
+    },
+    {
+      "name": "煮葛缕子的阿婆",
+      "avatar": "🌾",
+      "wish": "葛缕子或蜜，温暖一点，暖杯最好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "caraway",
+        "honey",
+        "tea_leaf",
+        "fennel"
+      ]
+    },
+    {
+      "name": "炒孜然的厨子",
+      "avatar": "🟤",
+      "wish": "孜然或蜜，温暖一点，暖杯也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "cumin",
+        "honey",
+        "ginger",
+        "turmeric"
+      ]
+    },
+    {
+      "name": "泡胡芦巴的旅人",
+      "avatar": "🟡",
+      "wish": "胡芦巴或蜜，温暖一点，暖杯最好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "fenugreek",
+        "honey",
+        "turmeric",
+        "tea_leaf"
+      ]
+    },
+    {
+      "name": "撒黑种草的店员",
+      "avatar": "⚫",
+      "wish": "黑种草或蜜，清爽一点，装饰随意。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "nigella",
+        "honey",
+        "mint",
+        "cumin"
       ]
     }
   ],
