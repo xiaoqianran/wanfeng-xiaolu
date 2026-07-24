@@ -2588,6 +2588,20 @@
       "emoji": "🍈",
       "kind": "风味",
       "seed": "guavaPot"
+    },
+    "cherry": {
+      "id": "cherry",
+      "name": "樱桃",
+      "emoji": "🍒",
+      "kind": "风味",
+      "seed": "cherryPot"
+    },
+    "apricot": {
+      "id": "apricot",
+      "name": "杏",
+      "emoji": "🟠",
+      "kind": "风味",
+      "seed": "apricotPot"
     }
   },
   "plants": {
@@ -4851,6 +4865,28 @@
       ],
       "harvest": "guava",
       "days": 3
+    },
+    "cherryPot": {
+      "id": "cherryPot",
+      "name": "樱桃",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍒"
+      ],
+      "harvest": "cherry",
+      "days": 2
+    },
+    "apricotPot": {
+      "id": "apricotPot",
+      "name": "杏",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟠"
+      ],
+      "harvest": "apricot",
+      "days": 3
     }
   },
   "cups": [
@@ -6012,6 +6048,26 @@
       "name": "番石榴",
       "emoji": "🍈",
       "need": "guava",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "cherry",
+      "name": "樱桃",
+      "emoji": "🍒",
+      "need": "cherry",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "apricot",
+      "name": "杏",
+      "emoji": "🟠",
+      "need": "apricot",
       "tags": [
         "果香",
         "清爽"
@@ -7734,6 +7790,37 @@
         "honey",
         "leaf",
         "mint"
+      ]
+    },
+    {
+      "name": "编樱桃发饰的女孩",
+      "avatar": "🎀",
+      "wish": "樱桃或蜜，甜蜜一点，装饰要好看。",
+      "tags": [
+        "甜蜜",
+        "果香"
+      ],
+      "flavors": [
+        "cherry",
+        "honey",
+        "rose",
+        "strawberry"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "收杏子的大叔",
+      "avatar": "🧺",
+      "wish": "杏或蜜，清爽一点，暖杯也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "apricot",
+        "honey",
+        "peach",
+        "leaf"
       ]
     }
   ],
