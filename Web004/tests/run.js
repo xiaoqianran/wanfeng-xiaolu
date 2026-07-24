@@ -3682,5 +3682,37 @@ test("hyssop chervil sorrel lovage 106 themes", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("pinFlavor shop shelf soft bonus", () => {
+  assert.ok(typeof core.pinFlavor === "function");
+  assert.ok(typeof core.getPinnedFlavor === "function");
+  const s = core.defaultState();
+  const pin = core.pinFlavor(s, "mint");
+  assert.ok(pin.ok);
+  assert.strictEqual(s.pinnedFlavorId, "mint");
+  assert.strictEqual(core.getPinnedFlavor(s), "mint");
+  assert.ok((s.stats.flavorPins || 0) >= 1);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "flavor_pin" && a.check(s)));
+  const flavors = [
+    { id: "mint", name: "薄荷", tags: ["清爽"] },
+    { id: "honey", name: "野蜜", tags: ["甜蜜"] },
+  ];
+  const bases = [{ id: "soda", name: "气泡", need: null }];
+  const cups = [{ id: "tall", name: "高脚杯", vibe: "清爽" }];
+  const score = core.scoreDrink(
+    { name: "客人", tags: ["清爽"], flavors: ["mint"] },
+    { cup: "tall", base: "soda", flavor: "mint", topping: "none" },
+    { cups, bases, flavors, toppings: [{ id: "none" }], pinnedFlavorId: "mint" }
+  );
+  assert.ok(score.notes.some((n) => n === "调味架熟手"), JSON.stringify(score.notes));
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  assert.ok(html.includes("btn-pin-flavor") && html.includes("btn-load-pinned-flavor"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("pinFlavor") && game.includes("getPinnedFlavor"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("钉住当前风味"));
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
