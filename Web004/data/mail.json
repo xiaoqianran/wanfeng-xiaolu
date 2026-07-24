@@ -953,5 +953,27 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_cherry",
+    "title": "樱桃一小把",
+    "body": "编樱桃发饰的女孩来信：刚摘的。给你一小把，别放太久。",
+    "effect": {
+      "items": {
+        "cherry": 3
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_apricot",
+    "title": "杏子两颗",
+    "body": "收杏子的大叔来信：树上熟了。给你两颗，别放太久。",
+    "effect": {
+      "items": {
+        "apricot": 2
+      },
+      "coins": 2
+    }
   }
 ]
