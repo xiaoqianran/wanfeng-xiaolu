@@ -3204,6 +3204,62 @@
       "emoji": "✨",
       "kind": "风味",
       "seed": "goldenrodPot"
+    },
+    "red_clover": {
+      "id": "red_clover",
+      "name": "红车轴草",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "red_cloverPot"
+    },
+    "white_clover": {
+      "id": "white_clover",
+      "name": "白车轴草",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "white_cloverPot"
+    },
+    "catnip": {
+      "id": "catnip",
+      "name": "猫薄荷",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "catnipPot"
+    },
+    "horehound": {
+      "id": "horehound",
+      "name": "夏至草",
+      "emoji": "🩶",
+      "kind": "风味",
+      "seed": "horehoundPot"
+    },
+    "motherwort": {
+      "id": "motherwort",
+      "name": "益母草",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "motherwortPot"
+    },
+    "tansy": {
+      "id": "tansy",
+      "name": "艾菊",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "tansyPot"
+    },
+    "agrimony": {
+      "id": "agrimony",
+      "name": "龙芽草",
+      "emoji": "🌾",
+      "kind": "风味",
+      "seed": "agrimonyPot"
+    },
+    "betony": {
+      "id": "betony",
+      "name": "水苏",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "betonyPot"
     }
   },
   "plants": {
@@ -6435,6 +6491,94 @@
       ],
       "harvest": "goldenrod",
       "days": 3
+    },
+    "red_cloverPot": {
+      "id": "red_cloverPot",
+      "name": "红车轴草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "red_clover",
+      "days": 3
+    },
+    "white_cloverPot": {
+      "id": "white_cloverPot",
+      "name": "白车轴草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "white_clover",
+      "days": 3
+    },
+    "catnipPot": {
+      "id": "catnipPot",
+      "name": "猫薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "catnip",
+      "days": 3
+    },
+    "horehoundPot": {
+      "id": "horehoundPot",
+      "name": "夏至草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🩶"
+      ],
+      "harvest": "horehound",
+      "days": 4
+    },
+    "motherwortPot": {
+      "id": "motherwortPot",
+      "name": "益母草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "motherwort",
+      "days": 4
+    },
+    "tansyPot": {
+      "id": "tansyPot",
+      "name": "艾菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "tansy",
+      "days": 3
+    },
+    "agrimonyPot": {
+      "id": "agrimonyPot",
+      "name": "龙芽草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌾"
+      ],
+      "harvest": "agrimony",
+      "days": 3
+    },
+    "betonyPot": {
+      "id": "betonyPot",
+      "name": "水苏",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "betony",
+      "days": 4
     }
   },
   "cups": [
@@ -8476,6 +8620,86 @@
       "name": "一枝黄花",
       "emoji": "✨",
       "need": "goldenrod",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "red_clover",
+      "name": "红车轴草",
+      "emoji": "🔴",
+      "need": "red_clover",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "white_clover",
+      "name": "白车轴草",
+      "emoji": "⚪",
+      "need": "white_clover",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "catnip",
+      "name": "猫薄荷",
+      "emoji": "🌿",
+      "need": "catnip",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "horehound",
+      "name": "夏至草",
+      "emoji": "🩶",
+      "need": "horehound",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "motherwort",
+      "name": "益母草",
+      "emoji": "💗",
+      "need": "motherwort",
+      "tags": [
+        "草本",
+        "花香"
+      ]
+    },
+    {
+      "id": "tansy",
+      "name": "艾菊",
+      "emoji": "🟡",
+      "need": "tansy",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "agrimony",
+      "name": "龙芽草",
+      "emoji": "🌾",
+      "need": "agrimony",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "betony",
+      "name": "水苏",
+      "emoji": "💜",
+      "need": "betony",
       "tags": [
         "花香",
         "草本"
@@ -11519,6 +11743,126 @@
       ],
       "flavors": [
         "goldenrod",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采红车轴草的药师",
+      "avatar": "🔴",
+      "wish": "红车轴草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "red_clover",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采白车轴草的旅人",
+      "avatar": "⚪",
+      "wish": "白车轴草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "white_clover",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采猫薄荷的旅人",
+      "avatar": "🌿",
+      "wish": "猫薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "catnip",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "炖夏至草的药师",
+      "avatar": "🩶",
+      "wish": "夏至草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "horehound",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采益母草的药师",
+      "avatar": "💗",
+      "wish": "益母草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "花香"
+      ],
+      "flavors": [
+        "motherwort",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采艾菊的药师",
+      "avatar": "🟡",
+      "wish": "艾菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "tansy",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采龙芽草的旅人",
+      "avatar": "🌾",
+      "wish": "龙芽草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "agrimony",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采水苏的药师",
+      "avatar": "💜",
+      "wish": "水苏或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "betony",
         "honey",
         "tea_leaf",
         "lavender_bud"

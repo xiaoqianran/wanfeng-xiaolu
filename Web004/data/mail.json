@@ -1921,5 +1921,93 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_red_clover",
+    "title": "红车轴草两份",
+    "body": "采红车轴草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "red_clover": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_white_clover",
+    "title": "白车轴草两份",
+    "body": "采白车轴草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "white_clover": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_catnip",
+    "title": "猫薄荷两份",
+    "body": "采猫薄荷的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "catnip": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_horehound",
+    "title": "夏至草两份",
+    "body": "炖夏至草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "horehound": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_motherwort",
+    "title": "益母草两份",
+    "body": "采益母草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "motherwort": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tansy",
+    "title": "艾菊两份",
+    "body": "采艾菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tansy": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_agrimony",
+    "title": "龙芽草两份",
+    "body": "采龙芽草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "agrimony": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_betony",
+    "title": "水苏两份",
+    "body": "采水苏的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "betony": 2
+      },
+      "coins": 2
+    }
   }
 ]
