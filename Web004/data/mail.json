@@ -3065,5 +3065,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_galangal_fresh",
+    "title": "鲜高良姜两份",
+    "body": "采鲜高良姜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "galangal_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ginger_flower",
+    "title": "姜花两份",
+    "body": "采姜花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "ginger_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_turmeric_fresh",
+    "title": "鲜姜黄两份",
+    "body": "采鲜姜黄的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "turmeric_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cardamom_green",
+    "title": "绿豆蔻两份",
+    "body": "磨绿豆蔻的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cardamom_green": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cardamom_black",
+    "title": "黑豆蔻两份",
+    "body": "磨黑豆蔻的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cardamom_black": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_long_pepper",
+    "title": "荜拨两份",
+    "body": "采荜拨的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "long_pepper": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_grains_of_paradise",
+    "title": "天堂椒两份",
+    "body": "采天堂椒的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "grains_of_paradise": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cubeb",
+    "title": "毕澄茄两份",
+    "body": "采毕澄茄的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cubeb": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_makrut_leaf",
+    "title": "青柠叶两份",
+    "body": "采青柠叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "makrut_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_curry_leaf",
+    "title": "咖喱叶两份",
+    "body": "采咖喱叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "curry_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_holy_basil",
+    "title": "圣罗勒两份",
+    "body": "采圣罗勒的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "holy_basil": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_thai_basil",
+    "title": "泰罗勒两份",
+    "body": "采泰罗勒的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "thai_basil": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lemon_basil",
+    "title": "柠檬罗勒两份",
+    "body": "采柠檬罗勒的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "lemon_basil": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cinnamon_leaf",
+    "title": "肉桂叶两份",
+    "body": "采肉桂叶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cinnamon_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_clove_bud",
+    "title": "丁香芽两份",
+    "body": "采丁香芽的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "clove_bud": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_allspice_leaf",
+    "title": "多香果叶两份",
+    "body": "采多香果叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "allspice_leaf": 2
+      },
+      "coins": 2
+    }
   }
 ]
