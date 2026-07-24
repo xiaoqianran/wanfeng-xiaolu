@@ -975,5 +975,27 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_pear",
+    "title": "梨子两颗",
+    "body": "收梨的阿姨来信：树上熟了。给你两颗，别放太久。",
+    "effect": {
+      "items": {
+        "pear": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_jujube",
+    "title": "红枣一把",
+    "body": "煮红枣茶的奶奶来信：晒干的。给你一把，别放太久。",
+    "effect": {
+      "items": {
+        "jujube": 3
+      },
+      "coins": 2
+    }
   }
 ]
