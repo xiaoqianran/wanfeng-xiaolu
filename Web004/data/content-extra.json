@@ -3260,6 +3260,118 @@
       "emoji": "💜",
       "kind": "风味",
       "seed": "betonyPot"
+    },
+    "solomon_seal": {
+      "id": "solomon_seal",
+      "name": "黄精",
+      "emoji": "💚",
+      "kind": "风味",
+      "seed": "solomon_sealPot"
+    },
+    "rue": {
+      "id": "rue",
+      "name": "芸香",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "ruePot"
+    },
+    "wormwood": {
+      "id": "wormwood",
+      "name": "苦艾",
+      "emoji": "🩶",
+      "kind": "风味",
+      "seed": "wormwoodPot"
+    },
+    "costmary": {
+      "id": "costmary",
+      "name": "艾菊薄荷",
+      "emoji": "🍃",
+      "kind": "风味",
+      "seed": "costmaryPot"
+    },
+    "elecampane": {
+      "id": "elecampane",
+      "name": "土木香",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "elecampanePot"
+    },
+    "valerian_root": {
+      "id": "valerian_root",
+      "name": "缬草根",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "valerian_rootPot"
+    },
+    "meadow_clary": {
+      "id": "meadow_clary",
+      "name": "草地鼠尾草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "meadow_claryPot"
+    },
+    "soapwort": {
+      "id": "soapwort",
+      "name": "皂草",
+      "emoji": "🩷",
+      "kind": "风味",
+      "seed": "soapwortPot"
+    },
+    "milfoil": {
+      "id": "milfoil",
+      "name": "洋蓍草",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "milfoilPot"
+    },
+    "lady_mantle": {
+      "id": "lady_mantle",
+      "name": "羽衣草",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "lady_mantlePot"
+    },
+    "speedwell": {
+      "id": "speedwell",
+      "name": "婆婆纳",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "speedwellPot"
+    },
+    "stitchwort": {
+      "id": "stitchwort",
+      "name": "繁缕",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "stitchwortPot"
+    },
+    "campion": {
+      "id": "campion",
+      "name": "剪秋罗",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "campionPot"
+    },
+    "avens": {
+      "id": "avens",
+      "name": "水杨梅",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "avensPot"
+    },
+    "tormentil": {
+      "id": "tormentil",
+      "name": "直立委陵菜",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "tormentilPot"
+    },
+    "silverweed": {
+      "id": "silverweed",
+      "name": "鹅绒委陵菜",
+      "emoji": "✨",
+      "kind": "风味",
+      "seed": "silverweedPot"
     }
   },
   "plants": {
@@ -6579,6 +6691,182 @@
       ],
       "harvest": "betony",
       "days": 4
+    },
+    "solomon_sealPot": {
+      "id": "solomon_sealPot",
+      "name": "黄精",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💚"
+      ],
+      "harvest": "solomon_seal",
+      "days": 4
+    },
+    "ruePot": {
+      "id": "ruePot",
+      "name": "芸香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "rue",
+      "days": 3
+    },
+    "wormwoodPot": {
+      "id": "wormwoodPot",
+      "name": "苦艾",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🩶"
+      ],
+      "harvest": "wormwood",
+      "days": 4
+    },
+    "costmaryPot": {
+      "id": "costmaryPot",
+      "name": "艾菊薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍃"
+      ],
+      "harvest": "costmary",
+      "days": 3
+    },
+    "elecampanePot": {
+      "id": "elecampanePot",
+      "name": "土木香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "elecampane",
+      "days": 4
+    },
+    "valerian_rootPot": {
+      "id": "valerian_rootPot",
+      "name": "缬草根",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "valerian_root",
+      "days": 4
+    },
+    "meadow_claryPot": {
+      "id": "meadow_claryPot",
+      "name": "草地鼠尾草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "meadow_clary",
+      "days": 3
+    },
+    "soapwortPot": {
+      "id": "soapwortPot",
+      "name": "皂草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🩷"
+      ],
+      "harvest": "soapwort",
+      "days": 3
+    },
+    "milfoilPot": {
+      "id": "milfoilPot",
+      "name": "洋蓍草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "milfoil",
+      "days": 3
+    },
+    "lady_mantlePot": {
+      "id": "lady_mantlePot",
+      "name": "羽衣草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "lady_mantle",
+      "days": 3
+    },
+    "speedwellPot": {
+      "id": "speedwellPot",
+      "name": "婆婆纳",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "speedwell",
+      "days": 3
+    },
+    "stitchwortPot": {
+      "id": "stitchwortPot",
+      "name": "繁缕",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "stitchwort",
+      "days": 3
+    },
+    "campionPot": {
+      "id": "campionPot",
+      "name": "剪秋罗",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "campion",
+      "days": 3
+    },
+    "avensPot": {
+      "id": "avensPot",
+      "name": "水杨梅",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "avens",
+      "days": 4
+    },
+    "tormentilPot": {
+      "id": "tormentilPot",
+      "name": "直立委陵菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "tormentil",
+      "days": 4
+    },
+    "silverweedPot": {
+      "id": "silverweedPot",
+      "name": "鹅绒委陵菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "✨"
+      ],
+      "harvest": "silverweed",
+      "days": 3
     }
   },
   "cups": [
@@ -8703,6 +8991,166 @@
       "tags": [
         "花香",
         "草本"
+      ]
+    },
+    {
+      "id": "solomon_seal",
+      "name": "黄精",
+      "emoji": "💚",
+      "need": "solomon_seal",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "rue",
+      "name": "芸香",
+      "emoji": "🌿",
+      "need": "rue",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "wormwood",
+      "name": "苦艾",
+      "emoji": "🩶",
+      "need": "wormwood",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "costmary",
+      "name": "艾菊薄荷",
+      "emoji": "🍃",
+      "need": "costmary",
+      "tags": [
+        "草本",
+        "花香"
+      ]
+    },
+    {
+      "id": "elecampane",
+      "name": "土木香",
+      "emoji": "💛",
+      "need": "elecampane",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "valerian_root",
+      "name": "缬草根",
+      "emoji": "🤍",
+      "need": "valerian_root",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "meadow_clary",
+      "name": "草地鼠尾草",
+      "emoji": "💜",
+      "need": "meadow_clary",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "soapwort",
+      "name": "皂草",
+      "emoji": "🩷",
+      "need": "soapwort",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "milfoil",
+      "name": "洋蓍草",
+      "emoji": "🤍",
+      "need": "milfoil",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "lady_mantle",
+      "name": "羽衣草",
+      "emoji": "🟢",
+      "need": "lady_mantle",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "speedwell",
+      "name": "婆婆纳",
+      "emoji": "💙",
+      "need": "speedwell",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "stitchwort",
+      "name": "繁缕",
+      "emoji": "⚪",
+      "need": "stitchwort",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "campion",
+      "name": "剪秋罗",
+      "emoji": "💗",
+      "need": "campion",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "avens",
+      "name": "水杨梅",
+      "emoji": "🧡",
+      "need": "avens",
+      "tags": [
+        "草本",
+        "花香"
+      ]
+    },
+    {
+      "id": "tormentil",
+      "name": "直立委陵菜",
+      "emoji": "🔴",
+      "need": "tormentil",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "silverweed",
+      "name": "鹅绒委陵菜",
+      "emoji": "✨",
+      "need": "silverweed",
+      "tags": [
+        "草本",
+        "花香"
       ]
     }
   ],
@@ -11866,6 +12314,246 @@
         "honey",
         "tea_leaf",
         "lavender_bud"
+      ]
+    },
+    {
+      "name": "采黄精的药师",
+      "avatar": "💚",
+      "wish": "黄精或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "solomon_seal",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采芸香的旅人",
+      "avatar": "🌿",
+      "wish": "芸香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "rue",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采苦艾的药师",
+      "avatar": "🩶",
+      "wish": "苦艾或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "wormwood",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采艾菊薄荷的旅人",
+      "avatar": "🍃",
+      "wish": "艾菊薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "花香"
+      ],
+      "flavors": [
+        "costmary",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采土木香的药师",
+      "avatar": "💛",
+      "wish": "土木香或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "elecampane",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖缬草根的药师",
+      "avatar": "🤍",
+      "wish": "缬草根或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "valerian_root",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采草地鼠尾草的旅人",
+      "avatar": "💜",
+      "wish": "草地鼠尾草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "meadow_clary",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采皂草的药师",
+      "avatar": "🩷",
+      "wish": "皂草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "soapwort",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采洋蓍草的药师",
+      "avatar": "🤍",
+      "wish": "洋蓍草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "milfoil",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采羽衣草的旅人",
+      "avatar": "🟢",
+      "wish": "羽衣草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "lady_mantle",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采婆婆纳的旅人",
+      "avatar": "💙",
+      "wish": "婆婆纳或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "speedwell",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采繁缕的旅人",
+      "avatar": "⚪",
+      "wish": "繁缕或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "stitchwort",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采剪秋罗的药师",
+      "avatar": "💗",
+      "wish": "剪秋罗或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "campion",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采水杨梅的药师",
+      "avatar": "🧡",
+      "wish": "水杨梅或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "花香"
+      ],
+      "flavors": [
+        "avens",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采直立委陵菜的药师",
+      "avatar": "🔴",
+      "wish": "直立委陵菜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "tormentil",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采鹅绒委陵菜的旅人",
+      "avatar": "✨",
+      "wish": "鹅绒委陵菜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "花香"
+      ],
+      "flavors": [
+        "silverweed",
+        "honey",
+        "tea_leaf",
+        "mint"
       ]
     }
   ],

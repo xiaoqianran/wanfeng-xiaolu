@@ -2009,5 +2009,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_solomon_seal",
+    "title": "黄精两份",
+    "body": "采黄精的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "solomon_seal": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rue",
+    "title": "芸香两份",
+    "body": "采芸香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rue": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wormwood",
+    "title": "苦艾两份",
+    "body": "采苦艾的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wormwood": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_costmary",
+    "title": "艾菊薄荷两份",
+    "body": "采艾菊薄荷的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "costmary": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_elecampane",
+    "title": "土木香两份",
+    "body": "采土木香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "elecampane": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_valerian_root",
+    "title": "缬草根两份",
+    "body": "炖缬草根的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "valerian_root": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_meadow_clary",
+    "title": "草地鼠尾草两份",
+    "body": "采草地鼠尾草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "meadow_clary": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soapwort",
+    "title": "皂草两份",
+    "body": "采皂草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soapwort": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_milfoil",
+    "title": "洋蓍草两份",
+    "body": "采洋蓍草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "milfoil": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lady_mantle",
+    "title": "羽衣草两份",
+    "body": "采羽衣草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "lady_mantle": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_speedwell",
+    "title": "婆婆纳两份",
+    "body": "采婆婆纳的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "speedwell": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_stitchwort",
+    "title": "繁缕两份",
+    "body": "采繁缕的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "stitchwort": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_campion",
+    "title": "剪秋罗两份",
+    "body": "采剪秋罗的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "campion": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_avens",
+    "title": "水杨梅两份",
+    "body": "采水杨梅的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "avens": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tormentil",
+    "title": "直立委陵菜两份",
+    "body": "采直立委陵菜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tormentil": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_silverweed",
+    "title": "鹅绒委陵菜两份",
+    "body": "采鹅绒委陵菜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "silverweed": 2
+      },
+      "coins": 2
+    }
   }
 ]
