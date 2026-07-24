@@ -6487,6 +6487,118 @@
       "emoji": "🟢",
       "kind": "风味",
       "seed": "alehoofPot"
+    },
+    "clary_sage": {
+      "id": "clary_sage",
+      "name": "南欧丹参",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "clary_sagePot"
+    },
+    "pineapple_sage": {
+      "id": "pineapple_sage",
+      "name": "菠萝鼠尾草",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "pineapple_sagePot"
+    },
+    "fruit_sage": {
+      "id": "fruit_sage",
+      "name": "果香鼠尾草",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "fruit_sagePot"
+    },
+    "white_sage": {
+      "id": "white_sage",
+      "name": "白鼠尾草",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "white_sagePot"
+    },
+    "russian_sage": {
+      "id": "russian_sage",
+      "name": "俄罗斯鼠尾草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "russian_sagePot"
+    },
+    "meadow_clary_fresh": {
+      "id": "meadow_clary_fresh",
+      "name": "鲜草地鼠尾",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "meadow_clary_freshPot"
+    },
+    "wood_sage": {
+      "id": "wood_sage",
+      "name": "林地鼠尾草",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "wood_sagePot"
+    },
+    "jerusalem_sage": {
+      "id": "jerusalem_sage",
+      "name": "耶路撒冷鼠尾",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "jerusalem_sagePot"
+    },
+    "catmint": {
+      "id": "catmint",
+      "name": "假荆芥",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "catmintPot"
+    },
+    "catnip_fresh": {
+      "id": "catnip_fresh",
+      "name": "鲜猫薄荷",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "catnip_freshPot"
+    },
+    "hyssop_fresh": {
+      "id": "hyssop_fresh",
+      "name": "鲜神香草",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "hyssop_freshPot"
+    },
+    "anise_hyssop": {
+      "id": "anise_hyssop",
+      "name": "茴香藿香",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "anise_hyssopPot"
+    },
+    "korean_mint": {
+      "id": "korean_mint",
+      "name": "藿香",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "korean_mintPot"
+    },
+    "agastache": {
+      "id": "agastache",
+      "name": "藿香属",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "agastachePot"
+    },
+    "lavender_spike": {
+      "id": "lavender_spike",
+      "name": "穗花薰衣草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "lavender_spikePot"
+    },
+    "lavender_sto": {
+      "id": "lavender_sto",
+      "name": "法国薰衣草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "lavender_stoPot"
     }
   },
   "plants": {
@@ -14877,6 +14989,182 @@
       ],
       "harvest": "alehoof",
       "days": 3
+    },
+    "clary_sagePot": {
+      "id": "clary_sagePot",
+      "name": "南欧丹参",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "clary_sage",
+      "days": 3
+    },
+    "pineapple_sagePot": {
+      "id": "pineapple_sagePot",
+      "name": "菠萝鼠尾草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "pineapple_sage",
+      "days": 3
+    },
+    "fruit_sagePot": {
+      "id": "fruit_sagePot",
+      "name": "果香鼠尾草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "fruit_sage",
+      "days": 3
+    },
+    "white_sagePot": {
+      "id": "white_sagePot",
+      "name": "白鼠尾草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "white_sage",
+      "days": 3
+    },
+    "russian_sagePot": {
+      "id": "russian_sagePot",
+      "name": "俄罗斯鼠尾草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "russian_sage",
+      "days": 3
+    },
+    "meadow_clary_freshPot": {
+      "id": "meadow_clary_freshPot",
+      "name": "鲜草地鼠尾",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "meadow_clary_fresh",
+      "days": 3
+    },
+    "wood_sagePot": {
+      "id": "wood_sagePot",
+      "name": "林地鼠尾草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "wood_sage",
+      "days": 3
+    },
+    "jerusalem_sagePot": {
+      "id": "jerusalem_sagePot",
+      "name": "耶路撒冷鼠尾",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "jerusalem_sage",
+      "days": 3
+    },
+    "catmintPot": {
+      "id": "catmintPot",
+      "name": "假荆芥",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "catmint",
+      "days": 3
+    },
+    "catnip_freshPot": {
+      "id": "catnip_freshPot",
+      "name": "鲜猫薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "catnip_fresh",
+      "days": 3
+    },
+    "hyssop_freshPot": {
+      "id": "hyssop_freshPot",
+      "name": "鲜神香草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "hyssop_fresh",
+      "days": 3
+    },
+    "anise_hyssopPot": {
+      "id": "anise_hyssopPot",
+      "name": "茴香藿香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "anise_hyssop",
+      "days": 3
+    },
+    "korean_mintPot": {
+      "id": "korean_mintPot",
+      "name": "藿香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "korean_mint",
+      "days": 3
+    },
+    "agastachePot": {
+      "id": "agastachePot",
+      "name": "藿香属",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "agastache",
+      "days": 3
+    },
+    "lavender_spikePot": {
+      "id": "lavender_spikePot",
+      "name": "穗花薰衣草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "lavender_spike",
+      "days": 3
+    },
+    "lavender_stoPot": {
+      "id": "lavender_stoPot",
+      "name": "法国薰衣草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "lavender_sto",
+      "days": 3
     }
   },
   "cups": [
@@ -21611,6 +21899,166 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "clary_sage",
+      "name": "南欧丹参",
+      "emoji": "💜",
+      "need": "clary_sage",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "pineapple_sage",
+      "name": "菠萝鼠尾草",
+      "emoji": "🔴",
+      "need": "pineapple_sage",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "fruit_sage",
+      "name": "果香鼠尾草",
+      "emoji": "💗",
+      "need": "fruit_sage",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "white_sage",
+      "name": "白鼠尾草",
+      "emoji": "⚪",
+      "need": "white_sage",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "russian_sage",
+      "name": "俄罗斯鼠尾草",
+      "emoji": "💜",
+      "need": "russian_sage",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "meadow_clary_fresh",
+      "name": "鲜草地鼠尾",
+      "emoji": "💜",
+      "need": "meadow_clary_fresh",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "wood_sage",
+      "name": "林地鼠尾草",
+      "emoji": "🟢",
+      "need": "wood_sage",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "jerusalem_sage",
+      "name": "耶路撒冷鼠尾",
+      "emoji": "🟡",
+      "need": "jerusalem_sage",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "catmint",
+      "name": "假荆芥",
+      "emoji": "💙",
+      "need": "catmint",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "catnip_fresh",
+      "name": "鲜猫薄荷",
+      "emoji": "🌿",
+      "need": "catnip_fresh",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "hyssop_fresh",
+      "name": "鲜神香草",
+      "emoji": "💙",
+      "need": "hyssop_fresh",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "anise_hyssop",
+      "name": "茴香藿香",
+      "emoji": "💜",
+      "need": "anise_hyssop",
+      "tags": [
+        "草本",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "korean_mint",
+      "name": "藿香",
+      "emoji": "💜",
+      "need": "korean_mint",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "agastache",
+      "name": "藿香属",
+      "emoji": "💗",
+      "need": "agastache",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "lavender_spike",
+      "name": "穗花薰衣草",
+      "emoji": "💜",
+      "need": "lavender_spike",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "lavender_sto",
+      "name": "法国薰衣草",
+      "emoji": "💜",
+      "need": "lavender_sto",
+      "tags": [
+        "花香",
+        "温柔"
       ]
     }
   ],
@@ -31689,6 +32137,246 @@
         "honey",
         "tea_leaf",
         "mint"
+      ]
+    },
+    {
+      "name": "采南欧丹参的旅人",
+      "avatar": "💜",
+      "wish": "南欧丹参或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "clary_sage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采菠萝鼠尾草的药师",
+      "avatar": "🔴",
+      "wish": "菠萝鼠尾草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "pineapple_sage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采果香鼠尾草的旅人",
+      "avatar": "💗",
+      "wish": "果香鼠尾草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "fruit_sage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采白鼠尾草的药师",
+      "avatar": "⚪",
+      "wish": "白鼠尾草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "white_sage",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采俄罗斯鼠尾草的旅人",
+      "avatar": "💜",
+      "wish": "俄罗斯鼠尾草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "russian_sage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜草地鼠尾的药师",
+      "avatar": "💜",
+      "wish": "鲜草地鼠尾或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "meadow_clary_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采林地鼠尾草的旅人",
+      "avatar": "🟢",
+      "wish": "林地鼠尾草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "wood_sage",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采耶路撒冷鼠尾的药师",
+      "avatar": "🟡",
+      "wish": "耶路撒冷鼠尾或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "jerusalem_sage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采假荆芥的旅人",
+      "avatar": "💙",
+      "wish": "假荆芥或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "catmint",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采鲜猫薄荷的药师",
+      "avatar": "🌿",
+      "wish": "鲜猫薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "catnip_fresh",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采鲜神香草的旅人",
+      "avatar": "💙",
+      "wish": "鲜神香草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "hyssop_fresh",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采茴香藿香的药师",
+      "avatar": "💜",
+      "wish": "茴香藿香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "甜蜜"
+      ],
+      "flavors": [
+        "anise_hyssop",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采藿香的旅人",
+      "avatar": "💜",
+      "wish": "藿香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "korean_mint",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采藿香属的药师",
+      "avatar": "💗",
+      "wish": "藿香属或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "agastache",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采穗花薰衣草的旅人",
+      "avatar": "💜",
+      "wish": "穗花薰衣草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "lavender_spike",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采法国薰衣草的药师",
+      "avatar": "💜",
+      "wish": "法国薰衣草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "lavender_sto",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
       ]
     }
   ],

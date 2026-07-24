@@ -7080,5 +7080,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_clary_sage",
+    "title": "南欧丹参两份",
+    "body": "采南欧丹参的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "clary_sage": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_pineapple_sage",
+    "title": "菠萝鼠尾草两份",
+    "body": "采菠萝鼠尾草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "pineapple_sage": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fruit_sage",
+    "title": "果香鼠尾草两份",
+    "body": "采果香鼠尾草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fruit_sage": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_white_sage",
+    "title": "白鼠尾草两份",
+    "body": "采白鼠尾草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "white_sage": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_russian_sage",
+    "title": "俄罗斯鼠尾草两份",
+    "body": "采俄罗斯鼠尾草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "russian_sage": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_meadow_clary_fresh",
+    "title": "鲜草地鼠尾两份",
+    "body": "采鲜草地鼠尾的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "meadow_clary_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood_sage",
+    "title": "林地鼠尾草两份",
+    "body": "采林地鼠尾草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood_sage": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_jerusalem_sage",
+    "title": "耶路撒冷鼠尾两份",
+    "body": "采耶路撒冷鼠尾的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "jerusalem_sage": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_catmint",
+    "title": "假荆芥两份",
+    "body": "采假荆芥的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "catmint": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_catnip_fresh",
+    "title": "鲜猫薄荷两份",
+    "body": "采鲜猫薄荷的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "catnip_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_hyssop_fresh",
+    "title": "鲜神香草两份",
+    "body": "采鲜神香草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "hyssop_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_anise_hyssop",
+    "title": "茴香藿香两份",
+    "body": "采茴香藿香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "anise_hyssop": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_korean_mint",
+    "title": "藿香两份",
+    "body": "采藿香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "korean_mint": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_agastache",
+    "title": "藿香属两份",
+    "body": "采藿香属的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "agastache": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lavender_spike",
+    "title": "穗花薰衣草两份",
+    "body": "采穗花薰衣草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "lavender_spike": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lavender_sto",
+    "title": "法国薰衣草两份",
+    "body": "采法国薰衣草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "lavender_sto": 2
+      },
+      "coins": 2
+    }
   }
 ]
