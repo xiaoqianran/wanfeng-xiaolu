@@ -2686,6 +2686,20 @@
       "emoji": "🟤",
       "kind": "风味",
       "seed": "hazelnutPot"
+    },
+    "maple_syrup": {
+      "id": "maple_syrup",
+      "name": "枫糖",
+      "emoji": "🍁",
+      "kind": "风味",
+      "seed": "mapleSyrupPot"
+    },
+    "sesame": {
+      "id": "sesame",
+      "name": "芝麻",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "sesamePot"
     }
   },
   "plants": {
@@ -5103,6 +5117,28 @@
       ],
       "harvest": "hazelnut",
       "days": 4
+    },
+    "mapleSyrupPot": {
+      "id": "mapleSyrupPot",
+      "name": "枫糖",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍁"
+      ],
+      "harvest": "maple_syrup",
+      "days": 3
+    },
+    "sesamePot": {
+      "id": "sesamePot",
+      "name": "芝麻",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "sesame",
+      "days": 2
     }
   },
   "cups": [
@@ -6406,6 +6442,26 @@
       "need": "hazelnut",
       "tags": [
         "甜蜜",
+        "温暖"
+      ]
+    },
+    {
+      "id": "maple_syrup",
+      "name": "枫糖",
+      "emoji": "🍁",
+      "need": "maple_syrup",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ]
+    },
+    {
+      "id": "sesame",
+      "name": "芝麻",
+      "emoji": "⚪",
+      "need": "sesame",
+      "tags": [
+        "果香",
         "温暖"
       ]
     }
@@ -8337,6 +8393,36 @@
         "cocoa",
         "honey",
         "vanilla"
+      ]
+    },
+    {
+      "name": "煮枫糖的旅人",
+      "avatar": "🍁",
+      "wish": "枫糖或蜜，甜蜜温暖，暖杯最好。",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ],
+      "flavors": [
+        "maple_syrup",
+        "honey",
+        "cocoa",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "烤芝麻的小贩",
+      "avatar": "⚪",
+      "wish": "芝麻或蜜，温暖一点，装饰随意。",
+      "tags": [
+        "温暖",
+        "果香"
+      ],
+      "flavors": [
+        "sesame",
+        "honey",
+        "almond",
+        "tea_leaf"
       ]
     }
   ],
