@@ -1195,5 +1195,49 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_cranberry",
+    "title": "蔓越莓一小把",
+    "body": "熬蔓越莓酱的厨娘来信：刚摘的。给你一小把，别放太久。",
+    "effect": {
+      "items": {
+        "cranberry": 3
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_elderberry",
+    "title": "接骨木果一串",
+    "body": "做接骨木糖浆的人来信：刚摘的。给你一串，别放太久。",
+    "effect": {
+      "items": {
+        "elderberry": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star_anise",
+    "title": "八角两枚",
+    "body": "炖八角的厨子来信：新晒的。给你两枚，别放太久。",
+    "effect": {
+      "items": {
+        "star_anise": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_nutmeg",
+    "title": "肉豆蔻两颗",
+    "body": "磨肉豆蔻的糕点师来信：刚磨的。给你两颗，别放太久。",
+    "effect": {
+      "items": {
+        "nutmeg": 2
+      },
+      "coins": 2
+    }
   }
 ]
