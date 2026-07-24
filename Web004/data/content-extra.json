@@ -4044,6 +4044,111 @@
       "emoji": "🟢",
       "kind": "风味",
       "seed": "allspice_leafPot"
+    },
+    "reindeer_moss": {
+      "id": "reindeer_moss",
+      "name": "驯鹿苔",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "reindeer_mossPot"
+    },
+    "iceland_moss": {
+      "id": "iceland_moss",
+      "name": "冰岛苔",
+      "emoji": "🩶",
+      "kind": "风味",
+      "seed": "iceland_mossPot"
+    },
+    "oak_moss": {
+      "id": "oak_moss",
+      "name": "橡苔",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "oak_mossPot"
+    },
+    "usnea": {
+      "id": "usnea",
+      "name": "松萝",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "usneaPot"
+    },
+    "chaga": {
+      "id": "chaga",
+      "name": "白桦茸",
+      "emoji": "⚫",
+      "kind": "风味",
+      "seed": "chagaPot"
+    },
+    "reishi": {
+      "id": "reishi",
+      "name": "灵芝",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "reishiPot"
+    },
+    "lion_mane": {
+      "id": "lion_mane",
+      "name": "猴头菇",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "lion_manePot"
+    },
+    "maitake": {
+      "id": "maitake",
+      "name": "舞茸",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "maitakePot"
+    },
+    "rambutan_fresh": {
+      "id": "rambutan_fresh",
+      "name": "鲜红毛丹",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "rambutan_freshPot"
+    },
+    "lychee_fresh": {
+      "id": "lychee_fresh",
+      "name": "鲜荔枝",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "lychee_freshPot"
+    },
+    "mangosteen": {
+      "id": "mangosteen",
+      "name": "山竹",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "mangosteenPot"
+    },
+    "durian_flower": {
+      "id": "durian_flower",
+      "name": "榴莲花",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "durian_flowerPot"
+    },
+    "jackfruit_seed": {
+      "id": "jackfruit_seed",
+      "name": "波罗蜜籽",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "jackfruit_seedPot"
+    },
+    "tamarind": {
+      "id": "tamarind",
+      "name": "罗望子",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "tamarindPot"
+    },
+    "calamansi": {
+      "id": "calamansi",
+      "name": "四季桔",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "calamansiPot"
     }
   },
   "plants": {
@@ -8595,6 +8700,171 @@
       ],
       "harvest": "allspice_leaf",
       "days": 3
+    },
+    "reindeer_mossPot": {
+      "id": "reindeer_mossPot",
+      "name": "驯鹿苔",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "reindeer_moss",
+      "days": 4
+    },
+    "iceland_mossPot": {
+      "id": "iceland_mossPot",
+      "name": "冰岛苔",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🩶"
+      ],
+      "harvest": "iceland_moss",
+      "days": 4
+    },
+    "oak_mossPot": {
+      "id": "oak_mossPot",
+      "name": "橡苔",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "oak_moss",
+      "days": 4
+    },
+    "usneaPot": {
+      "id": "usneaPot",
+      "name": "松萝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "usnea",
+      "days": 4
+    },
+    "chagaPot": {
+      "id": "chagaPot",
+      "name": "白桦茸",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚫"
+      ],
+      "harvest": "chaga",
+      "days": 5
+    },
+    "reishiPot": {
+      "id": "reishiPot",
+      "name": "灵芝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "reishi",
+      "days": 5
+    },
+    "lion_manePot": {
+      "id": "lion_manePot",
+      "name": "猴头菇",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "lion_mane",
+      "days": 4
+    },
+    "maitakePot": {
+      "id": "maitakePot",
+      "name": "舞茸",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "maitake",
+      "days": 4
+    },
+    "rambutan_freshPot": {
+      "id": "rambutan_freshPot",
+      "name": "鲜红毛丹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "rambutan_fresh",
+      "days": 3
+    },
+    "lychee_freshPot": {
+      "id": "lychee_freshPot",
+      "name": "鲜荔枝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "lychee_fresh",
+      "days": 3
+    },
+    "mangosteenPot": {
+      "id": "mangosteenPot",
+      "name": "山竹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "mangosteen",
+      "days": 3
+    },
+    "durian_flowerPot": {
+      "id": "durian_flowerPot",
+      "name": "榴莲花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "durian_flower",
+      "days": 4
+    },
+    "jackfruit_seedPot": {
+      "id": "jackfruit_seedPot",
+      "name": "波罗蜜籽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "jackfruit_seed",
+      "days": 4
+    },
+    "tamarindPot": {
+      "id": "tamarindPot",
+      "name": "罗望子",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "tamarind",
+      "days": 3
+    },
+    "calamansiPot": {
+      "id": "calamansiPot",
+      "name": "四季桔",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "calamansi",
+      "days": 3
     }
   },
   "cups": [
@@ -11839,6 +12109,156 @@
       "tags": [
         "草本",
         "温暖"
+      ]
+    },
+    {
+      "id": "reindeer_moss",
+      "name": "驯鹿苔",
+      "emoji": "🤍",
+      "need": "reindeer_moss",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "iceland_moss",
+      "name": "冰岛苔",
+      "emoji": "🩶",
+      "need": "iceland_moss",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "oak_moss",
+      "name": "橡苔",
+      "emoji": "🟤",
+      "need": "oak_moss",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "usnea",
+      "name": "松萝",
+      "emoji": "🟢",
+      "need": "usnea",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "chaga",
+      "name": "白桦茸",
+      "emoji": "⚫",
+      "need": "chaga",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "reishi",
+      "name": "灵芝",
+      "emoji": "🔴",
+      "need": "reishi",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "lion_mane",
+      "name": "猴头菇",
+      "emoji": "🤍",
+      "need": "lion_mane",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "maitake",
+      "name": "舞茸",
+      "emoji": "🟤",
+      "need": "maitake",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "rambutan_fresh",
+      "name": "鲜红毛丹",
+      "emoji": "🔴",
+      "need": "rambutan_fresh",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "lychee_fresh",
+      "name": "鲜荔枝",
+      "emoji": "💗",
+      "need": "lychee_fresh",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "mangosteen",
+      "name": "山竹",
+      "emoji": "🟣",
+      "need": "mangosteen",
+      "tags": [
+        "果香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "durian_flower",
+      "name": "榴莲花",
+      "emoji": "💛",
+      "need": "durian_flower",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "jackfruit_seed",
+      "name": "波罗蜜籽",
+      "emoji": "🟤",
+      "need": "jackfruit_seed",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "tamarind",
+      "name": "罗望子",
+      "emoji": "🟤",
+      "need": "tamarind",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "calamansi",
+      "name": "四季桔",
+      "emoji": "🟢",
+      "need": "calamansi",
+      "tags": [
+        "果香",
+        "清爽"
       ]
     }
   ],
@@ -16682,6 +17102,231 @@
         "honey",
         "tea_leaf",
         "lavender_bud"
+      ]
+    },
+    {
+      "name": "采驯鹿苔的旅人",
+      "avatar": "🤍",
+      "wish": "驯鹿苔或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "reindeer_moss",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "炖冰岛苔的药师",
+      "avatar": "🩶",
+      "wish": "冰岛苔或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "iceland_moss",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采橡苔的药师",
+      "avatar": "🟤",
+      "wish": "橡苔或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "oak_moss",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采松萝的旅人",
+      "avatar": "🟢",
+      "wish": "松萝或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "usnea",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "炖白桦茸的药师",
+      "avatar": "⚫",
+      "wish": "白桦茸或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "chaga",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖灵芝的药师",
+      "avatar": "🔴",
+      "wish": "灵芝或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "reishi",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖猴头菇的旅人",
+      "avatar": "🤍",
+      "wish": "猴头菇或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "lion_mane",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采舞茸的药师",
+      "avatar": "🟤",
+      "wish": "舞茸或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "maitake",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜红毛丹的旅人",
+      "avatar": "🔴",
+      "wish": "鲜红毛丹或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "rambutan_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜荔枝的旅人",
+      "avatar": "💗",
+      "wish": "鲜荔枝或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "lychee_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采山竹的旅人",
+      "avatar": "🟣",
+      "wish": "山竹或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "温柔"
+      ],
+      "flavors": [
+        "mangosteen",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采榴莲花的药师",
+      "avatar": "💛",
+      "wish": "榴莲花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "durian_flower",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "烤波罗蜜籽的旅人",
+      "avatar": "🟤",
+      "wish": "波罗蜜籽或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "jackfruit_seed",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采罗望子的药师",
+      "avatar": "🟤",
+      "wish": "罗望子或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "tamarind",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采四季桔的旅人",
+      "avatar": "🟢",
+      "wish": "四季桔或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "calamansi",
+        "honey",
+        "tea_leaf",
+        "mint"
       ]
     }
   ],
