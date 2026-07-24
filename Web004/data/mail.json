@@ -4627,5 +4627,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_safflower",
+    "title": "红花两份",
+    "body": "采红花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "safflower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_calendula_fresh",
+    "title": "鲜金盏两份",
+    "body": "采鲜金盏的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "calendula_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_pot_marigold",
+    "title": "金盏菊两份",
+    "body": "采金盏菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "pot_marigold": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_coreopsis",
+    "title": "金鸡菊两份",
+    "body": "采金鸡菊的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "coreopsis": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cosmos",
+    "title": "波斯菊两份",
+    "body": "采波斯菊的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cosmos": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_zinnia",
+    "title": "百日草两份",
+    "body": "采百日草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "zinnia": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_dahlia",
+    "title": "大丽花两份",
+    "body": "采大丽花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "dahlia": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_gladiolus",
+    "title": "剑兰两份",
+    "body": "采剑兰的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "gladiolus": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_iris",
+    "title": "鸢尾两份",
+    "body": "采鸢尾的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "iris": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_crocus",
+    "title": "番红花球两份",
+    "body": "采番红花球的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "crocus": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snowdrop",
+    "title": "雪花莲两份",
+    "body": "采雪花莲的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snowdrop": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_crocus_yellow",
+    "title": "黄番红两份",
+    "body": "采黄番红的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "crocus_yellow": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_hyacinth",
+    "title": "风信子两份",
+    "body": "采风信子的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "hyacinth": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_daffodil",
+    "title": "水仙两份",
+    "body": "采水仙的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "daffodil": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tulip",
+    "title": "郁金香两份",
+    "body": "采郁金香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tulip": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ranunculus",
+    "title": "花毛茛两份",
+    "body": "采花毛茛的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "ranunculus": 2
+      },
+      "coins": 2
+    }
   }
 ]

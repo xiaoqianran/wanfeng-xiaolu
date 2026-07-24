@@ -4926,6 +4926,118 @@
       "emoji": "🧡",
       "kind": "风味",
       "seed": "osmanthus_winePot"
+    },
+    "safflower": {
+      "id": "safflower",
+      "name": "红花",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "safflowerPot"
+    },
+    "calendula_fresh": {
+      "id": "calendula_fresh",
+      "name": "鲜金盏",
+      "emoji": "🌼",
+      "kind": "风味",
+      "seed": "calendula_freshPot"
+    },
+    "pot_marigold": {
+      "id": "pot_marigold",
+      "name": "金盏菊",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "pot_marigoldPot"
+    },
+    "coreopsis": {
+      "id": "coreopsis",
+      "name": "金鸡菊",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "coreopsisPot"
+    },
+    "cosmos": {
+      "id": "cosmos",
+      "name": "波斯菊",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "cosmosPot"
+    },
+    "zinnia": {
+      "id": "zinnia",
+      "name": "百日草",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "zinniaPot"
+    },
+    "dahlia": {
+      "id": "dahlia",
+      "name": "大丽花",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "dahliaPot"
+    },
+    "gladiolus": {
+      "id": "gladiolus",
+      "name": "剑兰",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "gladiolusPot"
+    },
+    "iris": {
+      "id": "iris",
+      "name": "鸢尾",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "irisPot"
+    },
+    "crocus": {
+      "id": "crocus",
+      "name": "番红花球",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "crocusPot"
+    },
+    "snowdrop": {
+      "id": "snowdrop",
+      "name": "雪花莲",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "snowdropPot"
+    },
+    "crocus_yellow": {
+      "id": "crocus_yellow",
+      "name": "黄番红",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "crocus_yellowPot"
+    },
+    "hyacinth": {
+      "id": "hyacinth",
+      "name": "风信子",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "hyacinthPot"
+    },
+    "daffodil": {
+      "id": "daffodil",
+      "name": "水仙",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "daffodilPot"
+    },
+    "tulip": {
+      "id": "tulip",
+      "name": "郁金香",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "tulipPot"
+    },
+    "ranunculus": {
+      "id": "ranunculus",
+      "name": "花毛茛",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "ranunculusPot"
     }
   },
   "plants": {
@@ -10863,6 +10975,182 @@
       ],
       "harvest": "osmanthus_wine",
       "days": 3
+    },
+    "safflowerPot": {
+      "id": "safflowerPot",
+      "name": "红花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "safflower",
+      "days": 3
+    },
+    "calendula_freshPot": {
+      "id": "calendula_freshPot",
+      "name": "鲜金盏",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌼"
+      ],
+      "harvest": "calendula_fresh",
+      "days": 3
+    },
+    "pot_marigoldPot": {
+      "id": "pot_marigoldPot",
+      "name": "金盏菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "pot_marigold",
+      "days": 3
+    },
+    "coreopsisPot": {
+      "id": "coreopsisPot",
+      "name": "金鸡菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "coreopsis",
+      "days": 3
+    },
+    "cosmosPot": {
+      "id": "cosmosPot",
+      "name": "波斯菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "cosmos",
+      "days": 3
+    },
+    "zinniaPot": {
+      "id": "zinniaPot",
+      "name": "百日草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "zinnia",
+      "days": 3
+    },
+    "dahliaPot": {
+      "id": "dahliaPot",
+      "name": "大丽花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "dahlia",
+      "days": 3
+    },
+    "gladiolusPot": {
+      "id": "gladiolusPot",
+      "name": "剑兰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "gladiolus",
+      "days": 3
+    },
+    "irisPot": {
+      "id": "irisPot",
+      "name": "鸢尾",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "iris",
+      "days": 3
+    },
+    "crocusPot": {
+      "id": "crocusPot",
+      "name": "番红花球",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "crocus",
+      "days": 3
+    },
+    "snowdropPot": {
+      "id": "snowdropPot",
+      "name": "雪花莲",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "snowdrop",
+      "days": 3
+    },
+    "crocus_yellowPot": {
+      "id": "crocus_yellowPot",
+      "name": "黄番红",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "crocus_yellow",
+      "days": 3
+    },
+    "hyacinthPot": {
+      "id": "hyacinthPot",
+      "name": "风信子",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "hyacinth",
+      "days": 3
+    },
+    "daffodilPot": {
+      "id": "daffodilPot",
+      "name": "水仙",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "daffodil",
+      "days": 3
+    },
+    "tulipPot": {
+      "id": "tulipPot",
+      "name": "郁金香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "tulip",
+      "days": 3
+    },
+    "ranunculusPot": {
+      "id": "ranunculusPot",
+      "name": "花毛茛",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "ranunculus",
+      "days": 3
     }
   },
   "cups": [
@@ -15367,6 +15655,166 @@
       "tags": [
         "花香",
         "甜蜜"
+      ]
+    },
+    {
+      "id": "safflower",
+      "name": "红花",
+      "emoji": "🔴",
+      "need": "safflower",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "calendula_fresh",
+      "name": "鲜金盏",
+      "emoji": "🌼",
+      "need": "calendula_fresh",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "pot_marigold",
+      "name": "金盏菊",
+      "emoji": "🧡",
+      "need": "pot_marigold",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "coreopsis",
+      "name": "金鸡菊",
+      "emoji": "🟡",
+      "need": "coreopsis",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "cosmos",
+      "name": "波斯菊",
+      "emoji": "💗",
+      "need": "cosmos",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "zinnia",
+      "name": "百日草",
+      "emoji": "🔴",
+      "need": "zinnia",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "dahlia",
+      "name": "大丽花",
+      "emoji": "💜",
+      "need": "dahlia",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "gladiolus",
+      "name": "剑兰",
+      "emoji": "💗",
+      "need": "gladiolus",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "iris",
+      "name": "鸢尾",
+      "emoji": "💙",
+      "need": "iris",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "crocus",
+      "name": "番红花球",
+      "emoji": "💜",
+      "need": "crocus",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "snowdrop",
+      "name": "雪花莲",
+      "emoji": "🤍",
+      "need": "snowdrop",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "crocus_yellow",
+      "name": "黄番红",
+      "emoji": "🟡",
+      "need": "crocus_yellow",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "hyacinth",
+      "name": "风信子",
+      "emoji": "💜",
+      "need": "hyacinth",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "daffodil",
+      "name": "水仙",
+      "emoji": "💛",
+      "need": "daffodil",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "tulip",
+      "name": "郁金香",
+      "emoji": "🔴",
+      "need": "tulip",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "ranunculus",
+      "name": "花毛茛",
+      "emoji": "💗",
+      "need": "ranunculus",
+      "tags": [
+        "花香",
+        "温柔"
       ]
     }
   ],
@@ -22097,6 +22545,246 @@
       ],
       "flavors": [
         "osmanthus_wine",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采红花的药师",
+      "avatar": "🔴",
+      "wish": "红花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "safflower",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜金盏的旅人",
+      "avatar": "🌼",
+      "wish": "鲜金盏或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "calendula_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采金盏菊的药师",
+      "avatar": "🧡",
+      "wish": "金盏菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "pot_marigold",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采金鸡菊的旅人",
+      "avatar": "🟡",
+      "wish": "金鸡菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "coreopsis",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采波斯菊的旅人",
+      "avatar": "💗",
+      "wish": "波斯菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "cosmos",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采百日草的药师",
+      "avatar": "🔴",
+      "wish": "百日草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "zinnia",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采大丽花的旅人",
+      "avatar": "💜",
+      "wish": "大丽花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "dahlia",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采剑兰的药师",
+      "avatar": "💗",
+      "wish": "剑兰或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "gladiolus",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鸢尾的旅人",
+      "avatar": "💙",
+      "wish": "鸢尾或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "iris",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采番红花球的药师",
+      "avatar": "💜",
+      "wish": "番红花球或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "crocus",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采雪花莲的旅人",
+      "avatar": "🤍",
+      "wish": "雪花莲或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "snowdrop",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采黄番红的药师",
+      "avatar": "🟡",
+      "wish": "黄番红或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "crocus_yellow",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采风信子的旅人",
+      "avatar": "💜",
+      "wish": "风信子或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "hyacinth",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采水仙的药师",
+      "avatar": "💛",
+      "wish": "水仙或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "daffodil",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采郁金香的旅人",
+      "avatar": "🔴",
+      "wish": "郁金香或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "tulip",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采花毛茛的药师",
+      "avatar": "💗",
+      "wish": "花毛茛或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "ranunculus",
         "honey",
         "tea_leaf",
         "lavender_bud"
