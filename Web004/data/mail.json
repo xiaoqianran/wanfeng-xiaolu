@@ -1085,5 +1085,27 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_almond",
+    "title": "杏仁一把",
+    "body": "烤杏仁的阿姨来信：刚出炉的。给你一把，别放太久。",
+    "effect": {
+      "items": {
+        "almond": 3
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_hazelnut",
+    "title": "榛子一把",
+    "body": "磨榛酱的店员来信：刚晒的。给你一把，别放太久。",
+    "effect": {
+      "items": {
+        "hazelnut": 3
+      },
+      "coins": 2
+    }
   }
 ]
