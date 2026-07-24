@@ -139960,5 +139960,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_cloud0",
+    "title": "卷云云絮两份",
+    "body": "采卷云云絮的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud0": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud1",
+    "title": "卷云云丝两份",
+    "body": "采卷云云丝的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud1": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud2",
+    "title": "卷云云带两份",
+    "body": "采卷云云带的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud2": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud3",
+    "title": "卷云云海两份",
+    "body": "采卷云云海的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud3": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud4",
+    "title": "卷云云瀑两份",
+    "body": "采卷云云瀑的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud4": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud5",
+    "title": "卷云云关两份",
+    "body": "采卷云云关的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud5": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud6",
+    "title": "卷云云栈两份",
+    "body": "采卷云云栈的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud6": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud7",
+    "title": "卷云云梯两份",
+    "body": "采卷云云梯的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud7": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud8",
+    "title": "卷云云窗两份",
+    "body": "采卷云云窗的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud8": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud9",
+    "title": "卷云云廊两份",
+    "body": "采卷云云廊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud9": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud10",
+    "title": "卷云云亭两份",
+    "body": "采卷云云亭的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud10": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud11",
+    "title": "卷云云桥两份",
+    "body": "采卷云云桥的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud11": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud12",
+    "title": "卷云云舟两份",
+    "body": "采卷云云舟的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud12": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud13",
+    "title": "卷云云帆两份",
+    "body": "采卷云云帆的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud13": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud14",
+    "title": "卷云云港两份",
+    "body": "采卷云云港的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud14": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud15",
+    "title": "卷云云驿两份",
+    "body": "采卷云云驿的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud15": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud16",
+    "title": "层云云絮两份",
+    "body": "采层云云絮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud16": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud17",
+    "title": "层云云丝两份",
+    "body": "采层云云丝的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud17": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud18",
+    "title": "层云云带两份",
+    "body": "采层云云带的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud18": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud19",
+    "title": "层云云海两份",
+    "body": "采层云云海的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud19": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud20",
+    "title": "层云云瀑两份",
+    "body": "采层云云瀑的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud21",
+    "title": "层云云关两份",
+    "body": "采层云云关的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud22",
+    "title": "层云云栈两份",
+    "body": "采层云云栈的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud23",
+    "title": "层云云梯两份",
+    "body": "采层云云梯的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud24",
+    "title": "层云云窗两份",
+    "body": "采层云云窗的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud25",
+    "title": "层云云廊两份",
+    "body": "采层云云廊的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud26",
+    "title": "层云云亭两份",
+    "body": "采层云云亭的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud27",
+    "title": "层云云桥两份",
+    "body": "采层云云桥的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud28",
+    "title": "层云云舟两份",
+    "body": "采层云云舟的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud29",
+    "title": "层云云帆两份",
+    "body": "采层云云帆的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud30",
+    "title": "层云云港两份",
+    "body": "采层云云港的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud30": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud31",
+    "title": "层云云驿两份",
+    "body": "采层云云驿的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud31": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud32",
+    "title": "积云云絮两份",
+    "body": "采积云云絮的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud32": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud33",
+    "title": "积云云丝两份",
+    "body": "采积云云丝的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud33": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud34",
+    "title": "积云云带两份",
+    "body": "采积云云带的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud34": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud35",
+    "title": "积云云海两份",
+    "body": "采积云云海的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud35": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud36",
+    "title": "积云云瀑两份",
+    "body": "采积云云瀑的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud36": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud37",
+    "title": "积云云关两份",
+    "body": "采积云云关的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud37": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud38",
+    "title": "积云云栈两份",
+    "body": "采积云云栈的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud38": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud39",
+    "title": "积云云梯两份",
+    "body": "采积云云梯的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud39": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud40",
+    "title": "积云云窗两份",
+    "body": "采积云云窗的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud40": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud41",
+    "title": "积云云廊两份",
+    "body": "采积云云廊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud41": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud42",
+    "title": "积云云亭两份",
+    "body": "采积云云亭的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud42": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud43",
+    "title": "积云云桥两份",
+    "body": "采积云云桥的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud43": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud44",
+    "title": "积云云舟两份",
+    "body": "采积云云舟的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud44": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud45",
+    "title": "积云云帆两份",
+    "body": "采积云云帆的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud45": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud46",
+    "title": "积云云港两份",
+    "body": "采积云云港的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud46": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud47",
+    "title": "积云云驿两份",
+    "body": "采积云云驿的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud47": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud48",
+    "title": "雨云云絮两份",
+    "body": "采雨云云絮的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud48": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud49",
+    "title": "雨云云丝两份",
+    "body": "采雨云云丝的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud49": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud50",
+    "title": "雨云云带两份",
+    "body": "采雨云云带的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud50": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud51",
+    "title": "雨云云海两份",
+    "body": "采雨云云海的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud51": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud52",
+    "title": "雨云云瀑两份",
+    "body": "采雨云云瀑的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud52": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud53",
+    "title": "雨云云关两份",
+    "body": "采雨云云关的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud53": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud54",
+    "title": "雨云云栈两份",
+    "body": "采雨云云栈的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud54": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud55",
+    "title": "雨云云梯两份",
+    "body": "采雨云云梯的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud55": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud56",
+    "title": "雨云云窗两份",
+    "body": "采雨云云窗的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud56": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud57",
+    "title": "雨云云廊两份",
+    "body": "采雨云云廊的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud57": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud58",
+    "title": "雨云云亭两份",
+    "body": "采雨云云亭的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud58": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud59",
+    "title": "雨云云桥两份",
+    "body": "采雨云云桥的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud59": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud60",
+    "title": "雨云云舟两份",
+    "body": "采雨云云舟的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud60": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud61",
+    "title": "雨云云帆两份",
+    "body": "采雨云云帆的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud61": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud62",
+    "title": "雨云云港两份",
+    "body": "采雨云云港的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud62": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud63",
+    "title": "雨云云驿两份",
+    "body": "采雨云云驿的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud63": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud64",
+    "title": "雪云云絮两份",
+    "body": "采雪云云絮的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud64": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud65",
+    "title": "雪云云丝两份",
+    "body": "采雪云云丝的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud65": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud66",
+    "title": "雪云云带两份",
+    "body": "采雪云云带的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud66": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud67",
+    "title": "雪云云海两份",
+    "body": "采雪云云海的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud67": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud68",
+    "title": "雪云云瀑两份",
+    "body": "采雪云云瀑的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud68": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud69",
+    "title": "雪云云关两份",
+    "body": "采雪云云关的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud69": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud70",
+    "title": "雪云云栈两份",
+    "body": "采雪云云栈的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud70": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud71",
+    "title": "雪云云梯两份",
+    "body": "采雪云云梯的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud71": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud72",
+    "title": "雪云云窗两份",
+    "body": "采雪云云窗的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud72": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud73",
+    "title": "雪云云廊两份",
+    "body": "采雪云云廊的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud73": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud74",
+    "title": "雪云云亭两份",
+    "body": "采雪云云亭的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud74": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud75",
+    "title": "雪云云桥两份",
+    "body": "采雪云云桥的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud75": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud76",
+    "title": "雪云云舟两份",
+    "body": "采雪云云舟的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud76": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud77",
+    "title": "雪云云帆两份",
+    "body": "采雪云云帆的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud77": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud78",
+    "title": "雪云云港两份",
+    "body": "采雪云云港的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud78": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud79",
+    "title": "雪云云驿两份",
+    "body": "采雪云云驿的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud79": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud80",
+    "title": "雾云云絮两份",
+    "body": "采雾云云絮的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud80": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud81",
+    "title": "雾云云丝两份",
+    "body": "采雾云云丝的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud81": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud82",
+    "title": "雾云云带两份",
+    "body": "采雾云云带的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud82": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud83",
+    "title": "雾云云海两份",
+    "body": "采雾云云海的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud83": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud84",
+    "title": "雾云云瀑两份",
+    "body": "采雾云云瀑的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud84": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud85",
+    "title": "雾云云关两份",
+    "body": "采雾云云关的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud85": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud86",
+    "title": "雾云云栈两份",
+    "body": "采雾云云栈的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud86": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud87",
+    "title": "雾云云梯两份",
+    "body": "采雾云云梯的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud87": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud88",
+    "title": "雾云云窗两份",
+    "body": "采雾云云窗的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud88": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud89",
+    "title": "雾云云廊两份",
+    "body": "采雾云云廊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud89": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud90",
+    "title": "雾云云亭两份",
+    "body": "采雾云云亭的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud90": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud91",
+    "title": "雾云云桥两份",
+    "body": "采雾云云桥的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud91": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud92",
+    "title": "雾云云舟两份",
+    "body": "采雾云云舟的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud92": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud93",
+    "title": "雾云云帆两份",
+    "body": "采雾云云帆的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud93": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud94",
+    "title": "雾云云港两份",
+    "body": "采雾云云港的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud94": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud95",
+    "title": "雾云云驿两份",
+    "body": "采雾云云驿的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud95": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud96",
+    "title": "霞云云絮两份",
+    "body": "采霞云云絮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud96": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud97",
+    "title": "霞云云丝两份",
+    "body": "采霞云云丝的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud97": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud98",
+    "title": "霞云云带两份",
+    "body": "采霞云云带的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud98": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud99",
+    "title": "霞云云海两份",
+    "body": "采霞云云海的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud99": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud100",
+    "title": "霞云云瀑两份",
+    "body": "采霞云云瀑的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud101",
+    "title": "霞云云关两份",
+    "body": "采霞云云关的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud102",
+    "title": "霞云云栈两份",
+    "body": "采霞云云栈的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud103",
+    "title": "霞云云梯两份",
+    "body": "采霞云云梯的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud104",
+    "title": "霞云云窗两份",
+    "body": "采霞云云窗的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud105",
+    "title": "霞云云廊两份",
+    "body": "采霞云云廊的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud106",
+    "title": "霞云云亭两份",
+    "body": "采霞云云亭的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud107",
+    "title": "霞云云桥两份",
+    "body": "采霞云云桥的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud108",
+    "title": "霞云云舟两份",
+    "body": "采霞云云舟的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud109",
+    "title": "霞云云帆两份",
+    "body": "采霞云云帆的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud110",
+    "title": "霞云云港两份",
+    "body": "采霞云云港的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud111",
+    "title": "霞云云驿两份",
+    "body": "采霞云云驿的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud112",
+    "title": "岚云云絮两份",
+    "body": "采岚云云絮的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud113",
+    "title": "岚云云丝两份",
+    "body": "采岚云云丝的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud114",
+    "title": "岚云云带两份",
+    "body": "采岚云云带的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud115",
+    "title": "岚云云海两份",
+    "body": "采岚云云海的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud116",
+    "title": "岚云云瀑两份",
+    "body": "采岚云云瀑的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud117",
+    "title": "岚云云关两份",
+    "body": "采岚云云关的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud118",
+    "title": "岚云云栈两份",
+    "body": "采岚云云栈的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud119",
+    "title": "岚云云梯两份",
+    "body": "采岚云云梯的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud120",
+    "title": "岚云云窗两份",
+    "body": "采岚云云窗的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud121",
+    "title": "岚云云廊两份",
+    "body": "采岚云云廊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud122",
+    "title": "岚云云亭两份",
+    "body": "采岚云云亭的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud123",
+    "title": "岚云云桥两份",
+    "body": "采岚云云桥的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud124",
+    "title": "岚云云舟两份",
+    "body": "采岚云云舟的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud125",
+    "title": "岚云云帆两份",
+    "body": "采岚云云帆的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud126",
+    "title": "岚云云港两份",
+    "body": "采岚云云港的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud127",
+    "title": "岚云云驿两份",
+    "body": "采岚云云驿的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud128",
+    "title": "烟云云絮两份",
+    "body": "采烟云云絮的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud129",
+    "title": "烟云云丝两份",
+    "body": "采烟云云丝的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud130",
+    "title": "烟云云带两份",
+    "body": "采烟云云带的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud131",
+    "title": "烟云云海两份",
+    "body": "采烟云云海的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud132",
+    "title": "烟云云瀑两份",
+    "body": "采烟云云瀑的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud133",
+    "title": "烟云云关两份",
+    "body": "采烟云云关的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud134",
+    "title": "烟云云栈两份",
+    "body": "采烟云云栈的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud135",
+    "title": "烟云云梯两份",
+    "body": "采烟云云梯的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud136",
+    "title": "烟云云窗两份",
+    "body": "采烟云云窗的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud137",
+    "title": "烟云云廊两份",
+    "body": "采烟云云廊的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud138",
+    "title": "烟云云亭两份",
+    "body": "采烟云云亭的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud139",
+    "title": "烟云云桥两份",
+    "body": "采烟云云桥的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud140",
+    "title": "烟云云舟两份",
+    "body": "采烟云云舟的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud141",
+    "title": "烟云云帆两份",
+    "body": "采烟云云帆的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud142",
+    "title": "烟云云港两份",
+    "body": "采烟云云港的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud143",
+    "title": "烟云云驿两份",
+    "body": "采烟云云驿的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud144",
+    "title": "墨云云絮两份",
+    "body": "采墨云云絮的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud145",
+    "title": "墨云云丝两份",
+    "body": "采墨云云丝的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud146",
+    "title": "墨云云带两份",
+    "body": "采墨云云带的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud147",
+    "title": "墨云云海两份",
+    "body": "采墨云云海的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud148",
+    "title": "墨云云瀑两份",
+    "body": "采墨云云瀑的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud149",
+    "title": "墨云云关两份",
+    "body": "采墨云云关的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud150",
+    "title": "墨云云栈两份",
+    "body": "采墨云云栈的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud151",
+    "title": "墨云云梯两份",
+    "body": "采墨云云梯的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud152",
+    "title": "墨云云窗两份",
+    "body": "采墨云云窗的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud153",
+    "title": "墨云云廊两份",
+    "body": "采墨云云廊的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud154",
+    "title": "墨云云亭两份",
+    "body": "采墨云云亭的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud155",
+    "title": "墨云云桥两份",
+    "body": "采墨云云桥的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud156",
+    "title": "墨云云舟两份",
+    "body": "采墨云云舟的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud157",
+    "title": "墨云云帆两份",
+    "body": "采墨云云帆的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud158",
+    "title": "墨云云港两份",
+    "body": "采墨云云港的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud159",
+    "title": "墨云云驿两份",
+    "body": "采墨云云驿的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud160",
+    "title": "白云云絮两份",
+    "body": "采白云云絮的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud161",
+    "title": "白云云丝两份",
+    "body": "采白云云丝的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud162",
+    "title": "白云云带两份",
+    "body": "采白云云带的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud163",
+    "title": "白云云海两份",
+    "body": "采白云云海的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud164",
+    "title": "白云云瀑两份",
+    "body": "采白云云瀑的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud165",
+    "title": "白云云关两份",
+    "body": "采白云云关的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud166",
+    "title": "白云云栈两份",
+    "body": "采白云云栈的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud167",
+    "title": "白云云梯两份",
+    "body": "采白云云梯的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud168",
+    "title": "白云云窗两份",
+    "body": "采白云云窗的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud169",
+    "title": "白云云廊两份",
+    "body": "采白云云廊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud170",
+    "title": "白云云亭两份",
+    "body": "采白云云亭的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud171",
+    "title": "白云云桥两份",
+    "body": "采白云云桥的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud172",
+    "title": "白云云舟两份",
+    "body": "采白云云舟的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud173",
+    "title": "白云云帆两份",
+    "body": "采白云云帆的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud174",
+    "title": "白云云港两份",
+    "body": "采白云云港的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud175",
+    "title": "白云云驿两份",
+    "body": "采白云云驿的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud176",
+    "title": "乌云云絮两份",
+    "body": "采乌云云絮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud177",
+    "title": "乌云云丝两份",
+    "body": "采乌云云丝的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud178",
+    "title": "乌云云带两份",
+    "body": "采乌云云带的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud179",
+    "title": "乌云云海两份",
+    "body": "采乌云云海的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud180",
+    "title": "乌云云瀑两份",
+    "body": "采乌云云瀑的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud181",
+    "title": "乌云云关两份",
+    "body": "采乌云云关的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud182",
+    "title": "乌云云栈两份",
+    "body": "采乌云云栈的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud183",
+    "title": "乌云云梯两份",
+    "body": "采乌云云梯的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud184",
+    "title": "乌云云窗两份",
+    "body": "采乌云云窗的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud185",
+    "title": "乌云云廊两份",
+    "body": "采乌云云廊的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud186",
+    "title": "乌云云亭两份",
+    "body": "采乌云云亭的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud187",
+    "title": "乌云云桥两份",
+    "body": "采乌云云桥的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud188",
+    "title": "乌云云舟两份",
+    "body": "采乌云云舟的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud189",
+    "title": "乌云云帆两份",
+    "body": "采乌云云帆的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud190",
+    "title": "乌云云港两份",
+    "body": "采乌云云港的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud191",
+    "title": "乌云云驿两份",
+    "body": "采乌云云驿的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud192",
+    "title": "彩云云絮两份",
+    "body": "采彩云云絮的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud193",
+    "title": "彩云云丝两份",
+    "body": "采彩云云丝的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud194",
+    "title": "彩云云带两份",
+    "body": "采彩云云带的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud195",
+    "title": "彩云云海两份",
+    "body": "采彩云云海的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud196",
+    "title": "彩云云瀑两份",
+    "body": "采彩云云瀑的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud197",
+    "title": "彩云云关两份",
+    "body": "采彩云云关的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud198",
+    "title": "彩云云栈两份",
+    "body": "采彩云云栈的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud199",
+    "title": "彩云云梯两份",
+    "body": "采彩云云梯的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud200",
+    "title": "彩云云窗两份",
+    "body": "采彩云云窗的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud201",
+    "title": "彩云云廊两份",
+    "body": "采彩云云廊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud202",
+    "title": "彩云云亭两份",
+    "body": "采彩云云亭的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud203",
+    "title": "彩云云桥两份",
+    "body": "采彩云云桥的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud204",
+    "title": "彩云云舟两份",
+    "body": "采彩云云舟的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud205",
+    "title": "彩云云帆两份",
+    "body": "采彩云云帆的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud206",
+    "title": "彩云云港两份",
+    "body": "采彩云云港的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud207",
+    "title": "彩云云驿两份",
+    "body": "采彩云云驿的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud208",
+    "title": "紫云云絮两份",
+    "body": "采紫云云絮的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud209",
+    "title": "紫云云丝两份",
+    "body": "采紫云云丝的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud210",
+    "title": "紫云云带两份",
+    "body": "采紫云云带的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud211",
+    "title": "紫云云海两份",
+    "body": "采紫云云海的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud212",
+    "title": "紫云云瀑两份",
+    "body": "采紫云云瀑的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud213",
+    "title": "紫云云关两份",
+    "body": "采紫云云关的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud214",
+    "title": "紫云云栈两份",
+    "body": "采紫云云栈的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud215",
+    "title": "紫云云梯两份",
+    "body": "采紫云云梯的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud216",
+    "title": "紫云云窗两份",
+    "body": "采紫云云窗的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud217",
+    "title": "紫云云廊两份",
+    "body": "采紫云云廊的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud218",
+    "title": "紫云云亭两份",
+    "body": "采紫云云亭的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud219",
+    "title": "紫云云桥两份",
+    "body": "采紫云云桥的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud220",
+    "title": "紫云云舟两份",
+    "body": "采紫云云舟的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud221",
+    "title": "紫云云帆两份",
+    "body": "采紫云云帆的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud222",
+    "title": "紫云云港两份",
+    "body": "采紫云云港的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud223",
+    "title": "紫云云驿两份",
+    "body": "采紫云云驿的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud224",
+    "title": "金云云絮两份",
+    "body": "采金云云絮的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud225",
+    "title": "金云云丝两份",
+    "body": "采金云云丝的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud226",
+    "title": "金云云带两份",
+    "body": "采金云云带的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud227",
+    "title": "金云云海两份",
+    "body": "采金云云海的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud228",
+    "title": "金云云瀑两份",
+    "body": "采金云云瀑的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud229",
+    "title": "金云云关两份",
+    "body": "采金云云关的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud230",
+    "title": "金云云栈两份",
+    "body": "采金云云栈的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud231",
+    "title": "金云云梯两份",
+    "body": "采金云云梯的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud232",
+    "title": "金云云窗两份",
+    "body": "采金云云窗的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud233",
+    "title": "金云云廊两份",
+    "body": "采金云云廊的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud234",
+    "title": "金云云亭两份",
+    "body": "采金云云亭的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud235",
+    "title": "金云云桥两份",
+    "body": "采金云云桥的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud236",
+    "title": "金云云舟两份",
+    "body": "采金云云舟的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud237",
+    "title": "金云云帆两份",
+    "body": "采金云云帆的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud238",
+    "title": "金云云港两份",
+    "body": "采金云云港的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud239",
+    "title": "金云云驿两份",
+    "body": "采金云云驿的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud240",
+    "title": "银云云絮两份",
+    "body": "采银云云絮的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud241",
+    "title": "银云云丝两份",
+    "body": "采银云云丝的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud242",
+    "title": "银云云带两份",
+    "body": "采银云云带的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud243",
+    "title": "银云云海两份",
+    "body": "采银云云海的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud244",
+    "title": "银云云瀑两份",
+    "body": "采银云云瀑的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud245",
+    "title": "银云云关两份",
+    "body": "采银云云关的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud246",
+    "title": "银云云栈两份",
+    "body": "采银云云栈的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud247",
+    "title": "银云云梯两份",
+    "body": "采银云云梯的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud248",
+    "title": "银云云窗两份",
+    "body": "采银云云窗的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud249",
+    "title": "银云云廊两份",
+    "body": "采银云云廊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud250",
+    "title": "银云云亭两份",
+    "body": "采银云云亭的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud251",
+    "title": "银云云桥两份",
+    "body": "采银云云桥的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud252",
+    "title": "银云云舟两份",
+    "body": "采银云云舟的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud253",
+    "title": "银云云帆两份",
+    "body": "采银云云帆的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud254",
+    "title": "银云云港两份",
+    "body": "采银云云港的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud255",
+    "title": "银云云驿两份",
+    "body": "采银云云驿的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud256",
+    "title": "灰云云絮两份",
+    "body": "采灰云云絮的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud257",
+    "title": "灰云云丝两份",
+    "body": "采灰云云丝的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud258",
+    "title": "灰云云带两份",
+    "body": "采灰云云带的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud259",
+    "title": "灰云云海两份",
+    "body": "采灰云云海的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud260",
+    "title": "灰云云瀑两份",
+    "body": "采灰云云瀑的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud261",
+    "title": "灰云云关两份",
+    "body": "采灰云云关的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud262",
+    "title": "灰云云栈两份",
+    "body": "采灰云云栈的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud263",
+    "title": "灰云云梯两份",
+    "body": "采灰云云梯的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud264",
+    "title": "灰云云窗两份",
+    "body": "采灰云云窗的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud265",
+    "title": "灰云云廊两份",
+    "body": "采灰云云廊的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud266",
+    "title": "灰云云亭两份",
+    "body": "采灰云云亭的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud267",
+    "title": "灰云云桥两份",
+    "body": "采灰云云桥的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud268",
+    "title": "灰云云舟两份",
+    "body": "采灰云云舟的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud269",
+    "title": "灰云云帆两份",
+    "body": "采灰云云帆的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud270",
+    "title": "灰云云港两份",
+    "body": "采灰云云港的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud271",
+    "title": "灰云云驿两份",
+    "body": "采灰云云驿的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud272",
+    "title": "青云云絮两份",
+    "body": "采青云云絮的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud273",
+    "title": "青云云丝两份",
+    "body": "采青云云丝的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud274",
+    "title": "青云云带两份",
+    "body": "采青云云带的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud275",
+    "title": "青云云海两份",
+    "body": "采青云云海的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud276",
+    "title": "青云云瀑两份",
+    "body": "采青云云瀑的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud277",
+    "title": "青云云关两份",
+    "body": "采青云云关的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud278",
+    "title": "青云云栈两份",
+    "body": "采青云云栈的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud279",
+    "title": "青云云梯两份",
+    "body": "采青云云梯的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud280",
+    "title": "青云云窗两份",
+    "body": "采青云云窗的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud281",
+    "title": "青云云廊两份",
+    "body": "采青云云廊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud282",
+    "title": "青云云亭两份",
+    "body": "采青云云亭的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud283",
+    "title": "青云云桥两份",
+    "body": "采青云云桥的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud284",
+    "title": "青云云舟两份",
+    "body": "采青云云舟的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud285",
+    "title": "青云云帆两份",
+    "body": "采青云云帆的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud286",
+    "title": "青云云港两份",
+    "body": "采青云云港的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud287",
+    "title": "青云云驿两份",
+    "body": "采青云云驿的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud288",
+    "title": "黄云云絮两份",
+    "body": "采黄云云絮的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud289",
+    "title": "黄云云丝两份",
+    "body": "采黄云云丝的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud290",
+    "title": "黄云云带两份",
+    "body": "采黄云云带的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud291",
+    "title": "黄云云海两份",
+    "body": "采黄云云海的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud292",
+    "title": "黄云云瀑两份",
+    "body": "采黄云云瀑的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud293",
+    "title": "黄云云关两份",
+    "body": "采黄云云关的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud294",
+    "title": "黄云云栈两份",
+    "body": "采黄云云栈的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud295",
+    "title": "黄云云梯两份",
+    "body": "采黄云云梯的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud296",
+    "title": "黄云云窗两份",
+    "body": "采黄云云窗的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud297",
+    "title": "黄云云廊两份",
+    "body": "采黄云云廊的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud298",
+    "title": "黄云云亭两份",
+    "body": "采黄云云亭的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud299",
+    "title": "黄云云桥两份",
+    "body": "采黄云云桥的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud300",
+    "title": "黄云云舟两份",
+    "body": "采黄云云舟的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud301",
+    "title": "黄云云帆两份",
+    "body": "采黄云云帆的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud302",
+    "title": "黄云云港两份",
+    "body": "采黄云云港的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud303",
+    "title": "黄云云驿两份",
+    "body": "采黄云云驿的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud304",
+    "title": "赤云云絮两份",
+    "body": "采赤云云絮的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud305",
+    "title": "赤云云丝两份",
+    "body": "采赤云云丝的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud306",
+    "title": "赤云云带两份",
+    "body": "采赤云云带的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud307",
+    "title": "赤云云海两份",
+    "body": "采赤云云海的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud308",
+    "title": "赤云云瀑两份",
+    "body": "采赤云云瀑的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud309",
+    "title": "赤云云关两份",
+    "body": "采赤云云关的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud310",
+    "title": "赤云云栈两份",
+    "body": "采赤云云栈的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud311",
+    "title": "赤云云梯两份",
+    "body": "采赤云云梯的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud312",
+    "title": "赤云云窗两份",
+    "body": "采赤云云窗的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud313",
+    "title": "赤云云廊两份",
+    "body": "采赤云云廊的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud314",
+    "title": "赤云云亭两份",
+    "body": "采赤云云亭的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud315",
+    "title": "赤云云桥两份",
+    "body": "采赤云云桥的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud316",
+    "title": "赤云云舟两份",
+    "body": "采赤云云舟的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud317",
+    "title": "赤云云帆两份",
+    "body": "采赤云云帆的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud318",
+    "title": "赤云云港两份",
+    "body": "采赤云云港的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloud319",
+    "title": "赤云云驿两份",
+    "body": "采赤云云驿的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloud319": 2
+      },
+      "coins": 2
+    }
   }
 ]
