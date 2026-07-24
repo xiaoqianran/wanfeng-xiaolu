@@ -41,14 +41,10 @@
   const PLANTS = catalog.plants;
   let CUPS = catalog.cups.slice();
   let BASES = catalog.bases.slice();
-  let FLAVORS = catalog.flavors.slice();
-  // keep shop UI readable: prefer base options + a sample of extras
-  if (FLAVORS.length > 16) {
-    const baseIds = new Set(Core.DEFAULT_FLAVORS.map((f) => f.id));
-    const base = FLAVORS.filter((f) => baseIds.has(f.id));
-    const rest = FLAVORS.filter((f) => !baseIds.has(f.id)).slice(-10);
-    FLAVORS = base.concat(rest);
-  }
+  // Full catalog kept for lookup; shop UI uses rebuildShopFlavors() so recipes align.
+  const ALL_FLAVORS = catalog.flavors.slice();
+  const FLAVOR_BY_ID = new Map(ALL_FLAVORS.map((f) => [f.id, f]));
+  let FLAVORS = [];
   let TOPPINGS = catalog.toppings.slice();
   if (TOPPINGS.length > 12) {
     const baseIds = new Set(Core.DEFAULT_TOPPINGS.map((t) => t.id));
@@ -83,6 +79,101 @@
   const PATH_THEMES = (GData.pathThemes && GData.pathThemes.length
     ? GData.pathThemes
     : Core.DEFAULT_PATH_THEMES) || Core.DEFAULT_PATH_THEMES;
+
+  const SHOP_FLAVOR_CAP = 28;
+
+  function isKnownFlavorId(id, st) {
+    if (!id) return false;
+    if ((Core.DEFAULT_FLAVORS || []).some((f) => f.id === id)) return true;
+    if (st && st.bag && st.bag[id] > 0) return true;
+    if (st && st.discovered && st.discovered[id]) return true;
+    if (st && Array.isArray(st.shopStock) && st.shopStock.indexOf(id) >= 0) return true;
+    return false;
+  }
+
+  /** Shop shelf = defaults + bag + discovered + 今日进货; always covers menu recipes. */
+  function rebuildShopFlavors() {
+    const st = state;
+    const out = [];
+    const seen = new Set();
+    function add(f) {
+      if (!f || !f.id || seen.has(f.id)) return;
+      seen.add(f.id);
+      out.push(f);
+    }
+    (Core.DEFAULT_FLAVORS || []).forEach((f) => add(FLAVOR_BY_ID.get(f.id) || f));
+    Object.keys((st && st.bag) || {}).forEach((id) => add(FLAVOR_BY_ID.get(id)));
+    Object.keys((st && st.discovered) || {}).forEach((id) => add(FLAVOR_BY_ID.get(id)));
+    ((st && st.shopStock) || []).forEach((id) => add(FLAVOR_BY_ID.get(id)));
+    // Ensure recipes that use known flavors stay craftable (menu alignment)
+    (secretRecipes || []).forEach((r) => {
+      if (r && r.flavor && isKnownFlavorId(r.flavor, st)) add(FLAVOR_BY_ID.get(r.flavor));
+    });
+    if (st && st.craft && st.craft.flavor) add(FLAVOR_BY_ID.get(st.craft.flavor));
+    FLAVORS = out.slice(0, SHOP_FLAVOR_CAP);
+    if (st && st.craft && st.craft.flavor && !FLAVORS.some((f) => f.id === st.craft.flavor)) {
+      const need = FLAVOR_BY_ID.get(st.craft.flavor);
+      if (need) FLAVORS.push(need);
+    }
+    return FLAVORS;
+  }
+
+  /** Recipes the player can actually attempt with current shop shelf. */
+  function playableRecipes() {
+    const flavorOk = new Set(FLAVORS.map((f) => f.id));
+    const cupOk = new Set(CUPS.map((c) => c.id));
+    const baseOk = new Set(BASES.map((b) => b.id));
+    const topOk = new Set(TOPPINGS.map((t) => t.id).concat(["none"]));
+    return (secretRecipes || []).filter((r) => {
+      if (!r || !r.flavor) return false;
+      if (!flavorOk.has(r.flavor)) return false;
+      if (r.cup && cupOk.size && !cupOk.has(r.cup)) return false;
+      if (r.base && baseOk.size && !baseOk.has(r.base)) return false;
+      const top = r.topping || "none";
+      if (top !== "none" && topOk.size && !topOk.has(top)) return false;
+      return true;
+    });
+  }
+
+  function ensureDefaultCraft() {
+    if (!state.craft) state.craft = { cup: null, base: null, flavor: null, topping: null };
+    if (!state.craft.cup) state.craft.cup = state.favoriteCupId || (CUPS[0] && CUPS[0].id) || "mug";
+    if (!state.craft.base) state.craft.base = (BASES[0] && BASES[0].id) || "honey_water";
+    if (!state.craft.flavor) state.craft.flavor = (FLAVORS[0] && FLAVORS[0].id) || "lemon";
+    if (!state.craft.topping) state.craft.topping = "none";
+  }
+
+  function restockShopToday() {
+    if (!state.shopStock) state.shopStock = [];
+    const have = new Set(FLAVORS.map((f) => f.id).concat(state.shopStock));
+    const pool = [];
+    Object.keys(state.discovered || {}).forEach((id) => {
+      if (FLAVOR_BY_ID.has(id) && !have.has(id)) pool.push(id);
+    });
+    // soft fallback: sample from catalog not yet stocked
+    if (pool.length < 4) {
+      for (let i = 0; i < ALL_FLAVORS.length && pool.length < 24; i += Math.max(1, Math.floor(ALL_FLAVORS.length / 24))) {
+        const f = ALL_FLAVORS[i];
+        if (f && f.id && !have.has(f.id)) pool.push(f.id);
+      }
+    }
+    // shuffle pick 4
+    for (let i = pool.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const t = pool[i];
+      pool[i] = pool[j];
+      pool[j] = t;
+    }
+    const add = pool.slice(0, 4);
+    add.forEach((id) => {
+      if (state.shopStock.indexOf(id) < 0) state.shopStock.push(id);
+    });
+    // keep stock list bounded
+    if (state.shopStock.length > 16) state.shopStock = state.shopStock.slice(-16);
+    rebuildShopFlavors();
+    save();
+    return add.map((id) => (FLAVOR_BY_ID.get(id) && FLAVOR_BY_ID.get(id).name) || id);
+  }
   const dataDialogues = (GData.dialogues || [])
     .map((d) => (typeof d === "string" ? d : d && d.text))
     .filter(Boolean);
@@ -134,6 +225,9 @@
 
   let state = load() || defaultState();
   if (!state.pathThemeId) state.pathThemeId = "maple_lane";
+  if (!Array.isArray(state.shopStock)) state.shopStock = [];
+  rebuildShopFlavors();
+  ensureDefaultCraft();
   if (!state.customer) state.customer = randomCustomer();
 
   function bagCount() {
@@ -1779,30 +1873,36 @@ function renderJournal() {
   }
 
   function renderShop() {
-    const c = state.customer;
-    document.getElementById("customer-avatar").textContent = c.avatar;
-    const pinMark = state.pinnedCustomer === c.name ? " 📌" : "";
-    document.getElementById("customer-name").textContent = c.name + pinMark + (c.pinned ? " · 又来了" : "");
-    let wishText = c.wish;
+    rebuildShopFlavors();
+    ensureDefaultCraft();
+    if (!state.customer) {
+      state.customer = randomCustomer();
+    }
+    const cust = state.customer;
+    if (!cust) return;
+    document.getElementById("customer-avatar").textContent = cust.avatar;
+    const pinMark = state.pinnedCustomer === cust.name ? " 📌" : "";
+    document.getElementById("customer-name").textContent = cust.name + pinMark + (cust.pinned ? " · 又来了" : "");
+    let wishText = cust.wish;
     if (Core.getSettings(state).quietShop) {
-      const tag = (c.tags && c.tags[0]) || "清爽";
+      const tag = (cust.tags && cust.tags[0]) || "清爽";
       wishText = "想喝点" + tag + "的就好。";
     }
     document.getElementById("customer-wish").textContent = wishText;
-    const aff = (state.customerAffinity && state.customerAffinity[c.name]) || 0;
+    const aff = (state.customerAffinity && state.customerAffinity[cust.name]) || 0;
     if (aff > 0) {
       document.getElementById("customer-wish").textContent =
         document.getElementById("customer-wish").textContent + "（熟悉度 " + aff + "）";
     }
     const noteLine = document.getElementById("guest-note-line");
     if (noteLine) {
-      const gn = state.guestNotes && c.name ? state.guestNotes[c.name] : null;
+      const gn = state.guestNotes && cust.name ? state.guestNotes[cust.name] : null;
       noteLine.textContent = gn ? "📝 便签：「" + gn + "」" : "";
     }
     const tags = document.getElementById("customer-tags");
     const tagList = Core.getSettings(state).quietShop
-      ? [(c.tags && c.tags[0]) || "清爽"]
-      : (c.tags || []);
+      ? [(cust.tags && cust.tags[0]) || "清爽"]
+      : (cust.tags || []);
     tags.innerHTML = tagList
       .map((t) => {
         const cls = ["果香", "甜蜜", "花香", "草本"].includes(t)
@@ -1815,6 +1915,11 @@ function renderJournal() {
       .join("");
 
     if (!state.craft.cup && state.favoriteCupId) state.craft.cup = state.favoriteCupId;
+    const stockHint = document.getElementById("shop-stock-hint");
+    if (stockHint) {
+      stockHint.textContent =
+        "今日货架 " + FLAVORS.length + " 种风味 · 秘密菜单 " + playableRecipes().length + " 道可做";
+    }
     renderChoices("cups", CUPS, "cup", () => true);
     const favLab = document.getElementById("fav-cup-label");
     if (favLab) favLab.textContent = state.favoriteCupId ? ("常用：" + state.favoriteCupId) : "";
@@ -2395,6 +2500,21 @@ function renderJournal() {
     });
   }
 
+  const btnRestock = document.getElementById("btn-restock-shop");
+  if (btnRestock) {
+    btnRestock.addEventListener("click", () => {
+      const names = restockShopToday();
+      ensureDefaultCraft();
+      renderShop();
+      if (names.length) {
+        toast("🧺 进货：" + names.join("、"));
+      } else {
+        toast("货架已经够丰盛啦");
+      }
+      sfx("ui");
+    });
+  }
+
   function renderShopShelf() {
     const row = document.getElementById("shop-shelf-row");
     const empty = document.getElementById("shop-shelf-empty");
@@ -2451,19 +2571,30 @@ function renderJournal() {
     if (kindBox) kindBox.hidden = tab !== "items";
 
     if (tab === "recipes") {
-      if (!secretRecipes.length) {
+      rebuildShopFlavors();
+      // Only list recipes the shop can actually attempt (materials on shelf).
+      const menu = playableRecipes();
+      if (!menu.length) {
         grid.innerHTML =
-          '<div class="album-card"><div class="emoji">📜</div><div class="name">还没有秘密</div><div class="meta">做出特别搭配后会出现在这里</div></div>';
+          '<div class="album-card"><div class="emoji">📜</div><div class="name">货架还很安静</div><div class="meta">去散步收集风味，或在汽水铺点「今日进货」后再来看菜单</div></div>';
         return;
       }
-      secretRecipes.forEach((r) => {
+      const note = document.createElement("div");
+      note.className = "album-card memory-summary";
+      note.innerHTML =
+        '<div class="emoji">🍋</div><div class="name">本店可做菜单</div><div class="meta">只显示货架上现有材料能做的配方 · ' +
+        menu.length +
+        " 道</div>";
+      grid.appendChild(note);
+      menu.forEach((r) => {
         const key = [r.cup, r.base, r.flavor, r.topping || "none"].join("-");
         const made = !!(state.drinksMade && state.drinksMade[key]);
+        const fl = FLAVOR_BY_ID.get(r.flavor);
         const card = document.createElement("div");
         card.className = "album-card" + (made ? " done" : " locked");
         card.innerHTML = made
-          ? `<div class="emoji">📜</div><div class="name">${r.name || "秘密汽水"}</div><div class="meta">${r.cup}/${r.base}/${r.flavor}${r.topping && r.topping !== "none" ? "/" + r.topping : ""} · 已解锁</div>`
-          : `<div class="emoji">❔</div><div class="name">未发现的配方</div><div class="meta">提示：试试 ${r.flavor || "?"} 风味</div>`;
+          ? `<div class="emoji">📜</div><div class="name">${r.name || "秘密汽水"}</div><div class="meta">${r.cup}/${r.base}/${(fl && fl.name) || r.flavor}${r.topping && r.topping !== "none" ? "/" + r.topping : ""} · 已解锁</div>`
+          : `<div class="emoji">❔</div><div class="name">${r.name || "待尝试"}</div><div class="meta">货架有 · 试试 ${(fl && fl.name) || r.flavor || "?"} 风味</div>`;
         grid.appendChild(card);
       });
       return;
