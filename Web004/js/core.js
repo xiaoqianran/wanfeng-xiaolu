@@ -304,6 +304,8 @@
       { flavor: "kumquat", label: "金桔" },
       { flavor: "cocoa", label: "可可" },
       { flavor: "vanilla", label: "香草" },
+      { flavor: "almond", label: "杏仁" },
+      { flavor: "hazelnut", label: "榛子" },
     ],
     dusk: [
       { flavor: "lavender_bud", label: "薰衣草" },
@@ -861,6 +863,18 @@
     { id: "cocoa_walker", name: "可可院旅人", desc: "走过可可小院", check: function (s) {
       return !!(s._themesTouched && s._themesTouched.cocoa_courtyard);
     } },
+    { id: "almond_sill", name: "杏仁窗台", desc: "发现杏仁", check: function (s) {
+      return !!(s.discovered && s.discovered.almond);
+    } },
+    { id: "almond_walker", name: "杏仁树径旅人", desc: "走过杏仁树径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.almond_grove);
+    } },
+    { id: "hazelnut_sill", name: "榛子窗台", desc: "发现榛子", check: function (s) {
+      return !!(s.discovered && s.discovered.hazelnut);
+    } },
+    { id: "hazelnut_walker", name: "榛子径旅人", desc: "走过榛子短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.hazel_path);
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "path_sixty", name: "六十路图鉴", desc: "切换过 60 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 60; } },
     { id: "fav_path", name: "最爱的小路", desc: "标记一条最爱小路", check: function (s) { return !!(s.favoritePathThemeId); } },
@@ -1408,9 +1422,19 @@
       score += 0.5;
       notes.push("秋日温甜");
     }
-    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube" || flavorDef.id === "cocoa" || flavorDef.id === "vanilla")) {
+    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube" || flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut")) {
       score += 0.5;
       notes.push("冬日暖茶");
+    }
+    // soft dessert-corner: warm mug / honey base + nut/cocoa/vanilla
+    if (
+      (cupDef && (cupDef.id === "mug" || cupDef.id === "warm" || cupDef.vibe === "温柔" || cupDef.vibe === "温暖")) ||
+      (baseDef && (baseDef.id === "honey_water" || baseDef.id === "tea"))
+    ) {
+      if (flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut") {
+        score += 0.25;
+        notes.push("甜点一角");
+      }
     }
     if (season === "dusk" && topDef && topDef.id !== "none") {
       score += 0.25;

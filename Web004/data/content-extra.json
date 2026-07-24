@@ -2672,6 +2672,20 @@
       "emoji": "🍫",
       "kind": "风味",
       "seed": "cocoaPot"
+    },
+    "almond": {
+      "id": "almond",
+      "name": "杏仁",
+      "emoji": "🌰",
+      "kind": "风味",
+      "seed": "almondPot"
+    },
+    "hazelnut": {
+      "id": "hazelnut",
+      "name": "榛子",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "hazelnutPot"
     }
   },
   "plants": {
@@ -5067,6 +5081,28 @@
       ],
       "harvest": "cocoa",
       "days": 4
+    },
+    "almondPot": {
+      "id": "almondPot",
+      "name": "杏仁",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌰"
+      ],
+      "harvest": "almond",
+      "days": 4
+    },
+    "hazelnutPot": {
+      "id": "hazelnutPot",
+      "name": "榛子",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "hazelnut",
+      "days": 4
     }
   },
   "cups": [
@@ -6348,6 +6384,26 @@
       "name": "可可",
       "emoji": "🍫",
       "need": "cocoa",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ]
+    },
+    {
+      "id": "almond",
+      "name": "杏仁",
+      "emoji": "🌰",
+      "need": "almond",
+      "tags": [
+        "果香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "hazelnut",
+      "name": "榛子",
+      "emoji": "🟤",
+      "need": "hazelnut",
       "tags": [
         "甜蜜",
         "温暖"
@@ -8251,6 +8307,36 @@
         "honey",
         "vanilla",
         "tea_leaf"
+      ]
+    },
+    {
+      "name": "烤杏仁的阿姨",
+      "avatar": "🌰",
+      "wish": "杏仁或蜜，温暖一点，暖杯也好。",
+      "tags": [
+        "温暖",
+        "果香"
+      ],
+      "flavors": [
+        "almond",
+        "honey",
+        "vanilla",
+        "cocoa"
+      ]
+    },
+    {
+      "name": "磨榛酱的店员",
+      "avatar": "🫙",
+      "wish": "榛子或可可，甜蜜一点，暖杯最好。",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ],
+      "flavors": [
+        "hazelnut",
+        "cocoa",
+        "honey",
+        "vanilla"
       ]
     }
   ],
