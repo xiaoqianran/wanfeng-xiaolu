@@ -2700,6 +2700,20 @@
       "emoji": "⚪",
       "kind": "风味",
       "seed": "sesamePot"
+    },
+    "saffron": {
+      "id": "saffron",
+      "name": "藏红花",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "saffronPot"
+    },
+    "walnut": {
+      "id": "walnut",
+      "name": "核桃",
+      "emoji": "🥜",
+      "kind": "风味",
+      "seed": "walnutPot"
     }
   },
   "plants": {
@@ -5139,6 +5153,28 @@
       ],
       "harvest": "sesame",
       "days": 2
+    },
+    "saffronPot": {
+      "id": "saffronPot",
+      "name": "藏红花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "saffron",
+      "days": 4
+    },
+    "walnutPot": {
+      "id": "walnutPot",
+      "name": "核桃",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🥜"
+      ],
+      "harvest": "walnut",
+      "days": 4
     }
   },
   "cups": [
@@ -6460,6 +6496,26 @@
       "name": "芝麻",
       "emoji": "⚪",
       "need": "sesame",
+      "tags": [
+        "果香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "saffron",
+      "name": "藏红花",
+      "emoji": "🧡",
+      "need": "saffron",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "walnut",
+      "name": "核桃",
+      "emoji": "🥜",
+      "need": "walnut",
       "tags": [
         "果香",
         "温暖"
@@ -8420,6 +8476,36 @@
       ],
       "flavors": [
         "sesame",
+        "honey",
+        "almond",
+        "tea_leaf"
+      ]
+    },
+    {
+      "name": "泡藏红花的阿婆",
+      "avatar": "🧡",
+      "wish": "藏红花或蜜，温暖花香，暖杯最好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "saffron",
+        "honey",
+        "jasmine",
+        "tea_leaf"
+      ]
+    },
+    {
+      "name": "砸核桃的爷爷",
+      "avatar": "🥜",
+      "wish": "核桃或蜜，温暖一点，暖杯也好。",
+      "tags": [
+        "温暖",
+        "果香"
+      ],
+      "flavors": [
+        "walnut",
         "honey",
         "almond",
         "tea_leaf"
