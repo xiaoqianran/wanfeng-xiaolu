@@ -2604,26 +2604,35 @@ function renderJournal() {
       const themes = PATH_THEMES || [];
       const touched = state._themesTouched || {};
       const fav = state.favoritePathThemeId;
+      const byId = new Map(themes.map((t) => [t.id, t]));
+      // Showcase: walked + favorite + featured early seeds (not 8000 locked cards)
+      const show = [];
+      const seen = new Set();
+      function pushPath(th) {
+        if (!th || !th.id || seen.has(th.id) || /^theme_\d+/.test(th.id)) return;
+        seen.add(th.id);
+        show.push(th);
+      }
+      Object.keys(touched).forEach((id) => pushPath(byId.get(id)));
+      pushPath(byId.get(fav));
+      themes.slice(0, 24).forEach(pushPath);
       const summary = document.createElement("div");
       summary.className = "album-card memory-summary";
       const n = Object.keys(touched).length;
       summary.innerHTML = `
         <div class="emoji">🛤️</div>
-        <div class="name">小路图鉴</div>
-        <div class="meta">已走过 ${n} / ${themes.length} · 常走：${fav || "未标记"}</div>
+        <div class="name">小路图鉴 · 精品册</div>
+        <div class="meta">已走过 ${n} 条 · 册上展出 ${show.length} 条精选/足迹（其余在散步中慢慢遇见）· 常走：${fav || "未标记"}</div>
       `;
       grid.appendChild(summary);
-      themes.forEach((th) => {
-        if (!th || !th.id) return;
-        // skip mass template theme ids if any
-        if (/^theme_\d+/.test(th.id)) return;
+      show.forEach((th) => {
         const known = !!touched[th.id];
         const card = document.createElement("div");
         card.className = "album-card" + (known ? " done" : " locked");
         const star = fav === th.id ? " ★" : "";
         card.innerHTML = known
           ? `<div class="emoji">${th.emoji || "🌿"}</div><div class="name">${th.name || th.id}${star}</div><div class="meta">${th.desc || "已走过"}</div>`
-          : `<div class="emoji">❔</div><div class="name">？？？</div><div class="meta">还没走过这条路</div>`;
+          : `<div class="emoji">❔</div><div class="name">${th.name || "未踏足"}</div><div class="meta">精选小路 · 去走走就会点亮</div>`;
         grid.appendChild(card);
       });
       return;
@@ -2689,32 +2698,64 @@ function renderJournal() {
     }
 
     if (tab === "items") {
-      // Prefer unique non-spam items: drop mass seed_* / *_r#### template ids for display
-      const list = Object.values(ITEMS).filter((it) => {
+      // Showcase: discovered + bag + small featured sample (not endless locked cards)
+      const all = Object.values(ITEMS).filter((it) => {
         if (!it || !it.id) return false;
         if (/^seed_/.test(it.id) || /_r\d{3,}/.test(it.id)) return false;
         if (albumKindFilter !== "all" && it.kind !== albumKindFilter) return false;
         return true;
       });
-      if (!list.length) {
+      const featured = [];
+      const seen = new Set();
+      function pushIt(it) {
+        if (!it || !it.id || seen.has(it.id)) return;
+        seen.add(it.id);
+        featured.push(it);
+      }
+      all.forEach((it) => {
+        if (state.discovered[it.id] || (state.bag[it.id] || 0) > 0) pushIt(it);
+      });
+      all.slice(0, 48).forEach(pushIt);
+      if (!featured.length) {
         grid.innerHTML =
           '<div class="album-card"><div class="emoji">🧺</div><div class="name">这一类还空着</div><div class="meta">换个筛选或去小路走走</div></div>';
         return;
       }
-      list.forEach((it) => {
+      const note = document.createElement("div");
+      note.className = "album-card memory-summary";
+      note.innerHTML =
+        '<div class="emoji">🧺</div><div class="name">收集精品册</div><div class="meta">展出已遇见与精选 ' +
+        featured.length +
+        " 项 · 不必集齐万种</div>";
+      grid.appendChild(note);
+      featured.forEach((it) => {
         const known = state.discovered[it.id];
         const count = state.bag[it.id] || 0;
         const card = document.createElement("div");
         card.className = "album-card" + (known ? "" : " locked");
         card.innerHTML = known
           ? `<div class="emoji">${it.emoji}</div><div class="name">${it.name}</div><div class="meta">${it.kind} · 持有 ${count}${it.seed ? " · 可种植" : ""}</div>`
-          : `<div class="emoji">❔</div><div class="name">？？？</div><div class="meta">${it.kind || "收集"} · 还没遇见</div>`;
+          : `<div class="emoji">❔</div><div class="name">${it.name || "？？？"}</div><div class="meta">${it.kind || "收集"} · 精选展出 · 遇见后点亮</div>`;
         grid.appendChild(card);
       });
     } else if (tab === "plants") {
-      Object.values(PLANTS)
-        .filter((p) => p && p.id && !/^plant_/.test(p.id) && !/_\d{3,}/.test(p.id))
-        .forEach((p) => {
+      const allP = Object.values(PLANTS).filter(
+        (p) => p && p.id && !/^plant_/.test(p.id) && !/_\d{3,}/.test(p.id)
+      );
+      const showP = [];
+      const seenP = new Set();
+      function pushP(p) {
+        if (!p || !p.id || seenP.has(p.id)) return;
+        seenP.add(p.id);
+        showP.push(p);
+      }
+      allP.forEach((p) => {
+        const growing = state.pots.some((pot) => pot.plantId === p.id);
+        const ever = growing || state.discovered[p.harvest];
+        if (ever) pushP(p);
+      });
+      allP.slice(0, 36).forEach(pushP);
+      showP.forEach((p) => {
         const growing = state.pots.some((pot) => pot.plantId === p.id);
         const ever = growing || state.discovered[p.harvest];
         const card = document.createElement("div");
@@ -2722,7 +2763,7 @@ function renderJournal() {
         const harvestName = ITEMS[p.harvest] ? ITEMS[p.harvest].emoji + ITEMS[p.harvest].name : p.harvest;
         card.innerHTML = ever
           ? `<div class="emoji">${(p.emoji && p.emoji[2]) || "🪴"}</div><div class="name">${p.name}</div><div class="meta">收获 ${harvestName}${growing ? " · 培育中" : ""}</div>`
-          : `<div class="emoji">❔</div><div class="name">？？？</div><div class="meta">种下后解锁</div>`;
+          : `<div class="emoji">❔</div><div class="name">${p.name || "？？？"}</div><div class="meta">精品苗 · 种下后点亮</div>`;
         grid.appendChild(card);
       });
     } else {
