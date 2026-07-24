@@ -3224,5 +3224,54 @@ test("vanilla cocoa plantable 74 themes shop tips", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("almond hazelnut plantable dessert-corner 76 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.almond && j.plants.almondPot);
+  assert.ok(j.items.hazelnut && j.plants.hazelnutPot);
+  assert.ok(j.flavors.some((f) => f.id === "almond"));
+  assert.ok(j.flavors.some((f) => f.id === "hazelnut"));
+  assert.ok(j.customers.some((c) => c.name === "烤杏仁的阿姨"));
+  assert.ok(j.customers.some((c) => c.name === "磨榛酱的店员"));
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors, cups: j.cups, bases: j.bases });
+  const s = core.defaultState();
+  s.bag.almond = 1;
+  s.bag.hazelnut = 1;
+  assert.ok(core.plantSeed(s, 0, "almond", cat).ok);
+  assert.ok(core.plantSeed(s, 1, "hazelnut", cat).ok);
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "almond_grove"));
+  assert.ok(themes.some((th) => th.id === "hazel_path"));
+  assert.ok(themes.length >= 76);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  // dessert-corner soft bonus on honey_water + hazelnut
+  const cups = (j.cups && j.cups.length ? j.cups : []).concat([{ id: "mug", name: "暖暖杯", vibe: "温柔" }]);
+  const bases = j.bases || [{ id: "honey_water", name: "蜜水" }];
+  const flavors = j.flavors;
+  const score = core.scoreDrink(
+    { name: "磨榛酱的店员", tags: ["甜蜜", "温暖"], flavors: ["hazelnut", "cocoa"] },
+    { cup: "mug", base: "honey_water", flavor: "hazelnut", topping: "none" },
+    { cups, bases, flavors, season: "winter" }
+  );
+  assert.ok(score.notes.some((n) => n === "甜点一角"), "expected 甜点一角 note, got " + JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  assert.ok(winterPool.includes("almond") && winterPool.includes("hazelnut"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("almond_grove") && game.includes("hazel_path"));
+  assert.ok(game.includes("甜点一角"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "杏仁暖蜜"));
+  assert.ok(recipes.some((r) => r.name === "榛子暖蜜"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "almond_walker"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "hazelnut_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("杏仁树径") && man.includes("榛子短径"));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_hazel_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
