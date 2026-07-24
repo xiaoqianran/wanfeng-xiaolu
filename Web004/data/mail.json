@@ -1107,5 +1107,27 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_maple_syrup",
+    "title": "枫糖一小瓶",
+    "body": "煮枫糖的旅人来信：新熬的。给你一小瓶，别放太久。",
+    "effect": {
+      "items": {
+        "maple_syrup": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sesame",
+    "title": "芝麻一小袋",
+    "body": "烤芝麻的小贩来信：刚烤的。给你一小袋，别放太久。",
+    "effect": {
+      "items": {
+        "sesame": 3
+      },
+      "coins": 2
+    }
   }
 ]
