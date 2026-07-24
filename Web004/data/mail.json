@@ -2713,5 +2713,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_yarrow_white",
+    "title": "白蓍两份",
+    "body": "采白蓍的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "yarrow_white": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_achillea_pink",
+    "title": "粉蓍两份",
+    "body": "采粉蓍的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "achillea_pink": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cornflower",
+    "title": "矢车菊蓝两份",
+    "body": "采矢车菊蓝的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cornflower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_poppy_seed",
+    "title": "罂粟籽两份",
+    "body": "采罂粟籽的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "poppy_seed": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_flax_flower",
+    "title": "亚麻花两份",
+    "body": "采亚麻花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "flax_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_flax_seed",
+    "title": "亚麻籽两份",
+    "body": "采亚麻籽的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "flax_seed": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_hemp_seed",
+    "title": "火麻仁两份",
+    "body": "采火麻仁的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "hemp_seed": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_chia_seed",
+    "title": "奇亚籽两份",
+    "body": "采奇亚籽的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "chia_seed": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_pumpkin_seed",
+    "title": "南瓜籽两份",
+    "body": "烤南瓜籽的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "pumpkin_seed": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sunflower_seed",
+    "title": "葵花籽两份",
+    "body": "嗑葵花籽的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sunflower_seed": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sesame_black",
+    "title": "黑芝麻两份",
+    "body": "磨黑芝麻的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sesame_black": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sesame_white",
+    "title": "白芝麻两份",
+    "body": "磨白芝麻的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sesame_white": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fennel_pollen",
+    "title": "茴香花粉两份",
+    "body": "采茴香花粉的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fennel_pollen": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fennel_frond",
+    "title": "茴香叶两份",
+    "body": "采茴香叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fennel_frond": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_dill_pollen",
+    "title": "莳萝花粉两份",
+    "body": "采莳萝花粉的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "dill_pollen": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_celery_leaf",
+    "title": "芹菜叶两份",
+    "body": "采芹菜叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "celery_leaf": 2
+      },
+      "coins": 2
+    }
   }
 ]

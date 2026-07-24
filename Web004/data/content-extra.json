@@ -3708,6 +3708,118 @@
       "emoji": "⚫",
       "kind": "风味",
       "seed": "aroniaPot"
+    },
+    "yarrow_white": {
+      "id": "yarrow_white",
+      "name": "白蓍",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "yarrow_whitePot"
+    },
+    "achillea_pink": {
+      "id": "achillea_pink",
+      "name": "粉蓍",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "achillea_pinkPot"
+    },
+    "cornflower": {
+      "id": "cornflower",
+      "name": "矢车菊蓝",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "cornflowerPot"
+    },
+    "poppy_seed": {
+      "id": "poppy_seed",
+      "name": "罂粟籽",
+      "emoji": "⚫",
+      "kind": "风味",
+      "seed": "poppy_seedPot"
+    },
+    "flax_flower": {
+      "id": "flax_flower",
+      "name": "亚麻花",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "flax_flowerPot"
+    },
+    "flax_seed": {
+      "id": "flax_seed",
+      "name": "亚麻籽",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "flax_seedPot"
+    },
+    "hemp_seed": {
+      "id": "hemp_seed",
+      "name": "火麻仁",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "hemp_seedPot"
+    },
+    "chia_seed": {
+      "id": "chia_seed",
+      "name": "奇亚籽",
+      "emoji": "⚫",
+      "kind": "风味",
+      "seed": "chia_seedPot"
+    },
+    "pumpkin_seed": {
+      "id": "pumpkin_seed",
+      "name": "南瓜籽",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "pumpkin_seedPot"
+    },
+    "sunflower_seed": {
+      "id": "sunflower_seed",
+      "name": "葵花籽",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "sunflower_seedPot"
+    },
+    "sesame_black": {
+      "id": "sesame_black",
+      "name": "黑芝麻",
+      "emoji": "⚫",
+      "kind": "风味",
+      "seed": "sesame_blackPot"
+    },
+    "sesame_white": {
+      "id": "sesame_white",
+      "name": "白芝麻",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "sesame_whitePot"
+    },
+    "fennel_pollen": {
+      "id": "fennel_pollen",
+      "name": "茴香花粉",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "fennel_pollenPot"
+    },
+    "fennel_frond": {
+      "id": "fennel_frond",
+      "name": "茴香叶",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "fennel_frondPot"
+    },
+    "dill_pollen": {
+      "id": "dill_pollen",
+      "name": "莳萝花粉",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "dill_pollenPot"
+    },
+    "celery_leaf": {
+      "id": "celery_leaf",
+      "name": "芹菜叶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "celery_leafPot"
     }
   },
   "plants": {
@@ -7731,6 +7843,182 @@
       ],
       "harvest": "aronia",
       "days": 4
+    },
+    "yarrow_whitePot": {
+      "id": "yarrow_whitePot",
+      "name": "白蓍",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "yarrow_white",
+      "days": 3
+    },
+    "achillea_pinkPot": {
+      "id": "achillea_pinkPot",
+      "name": "粉蓍",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "achillea_pink",
+      "days": 3
+    },
+    "cornflowerPot": {
+      "id": "cornflowerPot",
+      "name": "矢车菊蓝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "cornflower",
+      "days": 3
+    },
+    "poppy_seedPot": {
+      "id": "poppy_seedPot",
+      "name": "罂粟籽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚫"
+      ],
+      "harvest": "poppy_seed",
+      "days": 3
+    },
+    "flax_flowerPot": {
+      "id": "flax_flowerPot",
+      "name": "亚麻花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "flax_flower",
+      "days": 3
+    },
+    "flax_seedPot": {
+      "id": "flax_seedPot",
+      "name": "亚麻籽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "flax_seed",
+      "days": 3
+    },
+    "hemp_seedPot": {
+      "id": "hemp_seedPot",
+      "name": "火麻仁",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "hemp_seed",
+      "days": 3
+    },
+    "chia_seedPot": {
+      "id": "chia_seedPot",
+      "name": "奇亚籽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚫"
+      ],
+      "harvest": "chia_seed",
+      "days": 3
+    },
+    "pumpkin_seedPot": {
+      "id": "pumpkin_seedPot",
+      "name": "南瓜籽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "pumpkin_seed",
+      "days": 3
+    },
+    "sunflower_seedPot": {
+      "id": "sunflower_seedPot",
+      "name": "葵花籽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "sunflower_seed",
+      "days": 3
+    },
+    "sesame_blackPot": {
+      "id": "sesame_blackPot",
+      "name": "黑芝麻",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚫"
+      ],
+      "harvest": "sesame_black",
+      "days": 3
+    },
+    "sesame_whitePot": {
+      "id": "sesame_whitePot",
+      "name": "白芝麻",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "sesame_white",
+      "days": 3
+    },
+    "fennel_pollenPot": {
+      "id": "fennel_pollenPot",
+      "name": "茴香花粉",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "fennel_pollen",
+      "days": 3
+    },
+    "fennel_frondPot": {
+      "id": "fennel_frondPot",
+      "name": "茴香叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "fennel_frond",
+      "days": 3
+    },
+    "dill_pollenPot": {
+      "id": "dill_pollenPot",
+      "name": "莳萝花粉",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "dill_pollen",
+      "days": 3
+    },
+    "celery_leafPot": {
+      "id": "celery_leafPot",
+      "name": "芹菜叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "celery_leaf",
+      "days": 3
     }
   },
   "cups": [
@@ -10495,6 +10783,166 @@
       "tags": [
         "果香",
         "草本"
+      ]
+    },
+    {
+      "id": "yarrow_white",
+      "name": "白蓍",
+      "emoji": "🤍",
+      "need": "yarrow_white",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "achillea_pink",
+      "name": "粉蓍",
+      "emoji": "💗",
+      "need": "achillea_pink",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "cornflower",
+      "name": "矢车菊蓝",
+      "emoji": "💙",
+      "need": "cornflower",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "poppy_seed",
+      "name": "罂粟籽",
+      "emoji": "⚫",
+      "need": "poppy_seed",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "flax_flower",
+      "name": "亚麻花",
+      "emoji": "💙",
+      "need": "flax_flower",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "flax_seed",
+      "name": "亚麻籽",
+      "emoji": "🟤",
+      "need": "flax_seed",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "hemp_seed",
+      "name": "火麻仁",
+      "emoji": "🟢",
+      "need": "hemp_seed",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "chia_seed",
+      "name": "奇亚籽",
+      "emoji": "⚫",
+      "need": "chia_seed",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "pumpkin_seed",
+      "name": "南瓜籽",
+      "emoji": "🟢",
+      "need": "pumpkin_seed",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "sunflower_seed",
+      "name": "葵花籽",
+      "emoji": "🟡",
+      "need": "sunflower_seed",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "sesame_black",
+      "name": "黑芝麻",
+      "emoji": "⚫",
+      "need": "sesame_black",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "sesame_white",
+      "name": "白芝麻",
+      "emoji": "⚪",
+      "need": "sesame_white",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "fennel_pollen",
+      "name": "茴香花粉",
+      "emoji": "💛",
+      "need": "fennel_pollen",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "fennel_frond",
+      "name": "茴香叶",
+      "emoji": "🌿",
+      "need": "fennel_frond",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "dill_pollen",
+      "name": "莳萝花粉",
+      "emoji": "🟡",
+      "need": "dill_pollen",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "celery_leaf",
+      "name": "芹菜叶",
+      "emoji": "🟢",
+      "need": "celery_leaf",
+      "tags": [
+        "草本",
+        "清爽"
       ]
     }
   ],
@@ -14618,6 +15066,246 @@
         "honey",
         "tea_leaf",
         "lavender_bud"
+      ]
+    },
+    {
+      "name": "采白蓍的药师",
+      "avatar": "🤍",
+      "wish": "白蓍或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "yarrow_white",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采粉蓍的旅人",
+      "avatar": "💗",
+      "wish": "粉蓍或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "achillea_pink",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采矢车菊蓝的旅人",
+      "avatar": "💙",
+      "wish": "矢车菊蓝或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "cornflower",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采罂粟籽的药师",
+      "avatar": "⚫",
+      "wish": "罂粟籽或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "poppy_seed",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采亚麻花的旅人",
+      "avatar": "💙",
+      "wish": "亚麻花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "flax_flower",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采亚麻籽的药师",
+      "avatar": "🟤",
+      "wish": "亚麻籽或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "flax_seed",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采火麻仁的药师",
+      "avatar": "🟢",
+      "wish": "火麻仁或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "hemp_seed",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采奇亚籽的旅人",
+      "avatar": "⚫",
+      "wish": "奇亚籽或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "chia_seed",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "烤南瓜籽的旅人",
+      "avatar": "🟢",
+      "wish": "南瓜籽或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "pumpkin_seed",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "嗑葵花籽的旅人",
+      "avatar": "🟡",
+      "wish": "葵花籽或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "sunflower_seed",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "磨黑芝麻的药师",
+      "avatar": "⚫",
+      "wish": "黑芝麻或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "sesame_black",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "磨白芝麻的药师",
+      "avatar": "⚪",
+      "wish": "白芝麻或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "sesame_white",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采茴香花粉的旅人",
+      "avatar": "💛",
+      "wish": "茴香花粉或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "fennel_pollen",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采茴香叶的旅人",
+      "avatar": "🌿",
+      "wish": "茴香叶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "fennel_frond",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采莳萝花粉的药师",
+      "avatar": "🟡",
+      "wish": "莳萝花粉或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "dill_pollen",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采芹菜叶的旅人",
+      "avatar": "🟢",
+      "wish": "芹菜叶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "celery_leaf",
+        "honey",
+        "tea_leaf",
+        "mint"
       ]
     }
   ],
