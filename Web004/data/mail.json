@@ -1613,5 +1613,49 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_mustard_seed",
+    "title": "芥末籽一小袋",
+    "body": "磨芥末籽的厨子来信：新晒的。给你一小袋，别放太久。",
+    "effect": {
+      "items": {
+        "mustard_seed": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ajwain",
+    "title": "香旱芹一小袋",
+    "body": "泡香旱芹的旅人来信：新晒的。给你一小袋，别放太久。",
+    "effect": {
+      "items": {
+        "ajwain": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wasabi",
+    "title": "山葵一小根",
+    "body": "磨山葵的厨子来信：新挖的。给你一小根，别放太久。",
+    "effect": {
+      "items": {
+        "wasabi": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_myrtle",
+    "title": "香桃木两枝",
+    "body": "泡香桃木的阿婆来信：新摘的。给你两枝，别放太久。",
+    "effect": {
+      "items": {
+        "myrtle": 2
+      },
+      "coins": 2
+    }
   }
 ]
