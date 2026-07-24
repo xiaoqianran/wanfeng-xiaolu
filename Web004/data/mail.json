@@ -1745,5 +1745,49 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_hops",
+    "title": "啤酒花两串",
+    "body": "采啤酒花的酿酒师来信：新摘的。给你两串，别放太久。",
+    "effect": {
+      "items": {
+        "hops": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_heather",
+    "title": "石楠一小束",
+    "body": "采石楠的旅人来信：新摘的。给你一小束，别放太久。",
+    "effect": {
+      "items": {
+        "heather": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_angelica",
+    "title": "当归两段",
+    "body": "炖当归的药师来信：新晒的。给你两段，别放太久。",
+    "effect": {
+      "items": {
+        "angelica": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_arnica",
+    "title": "山金车两朵",
+    "body": "采山金车的药师来信：新摘的。给你两朵，别放太久。",
+    "effect": {
+      "items": {
+        "arnica": 2
+      },
+      "coins": 2
+    }
   }
 ]

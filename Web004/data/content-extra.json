@@ -3092,6 +3092,34 @@
       "emoji": "🤍",
       "kind": "风味",
       "seed": "valerianPot"
+    },
+    "hops": {
+      "id": "hops",
+      "name": "啤酒花",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "hopsPot"
+    },
+    "heather": {
+      "id": "heather",
+      "name": "石楠",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "heatherPot"
+    },
+    "angelica": {
+      "id": "angelica",
+      "name": "当归",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "angelicaPot"
+    },
+    "arnica": {
+      "id": "arnica",
+      "name": "山金车",
+      "emoji": "🌼",
+      "kind": "风味",
+      "seed": "arnicaPot"
     }
   },
   "plants": {
@@ -6147,6 +6175,50 @@
       ],
       "harvest": "valerian",
       "days": 4
+    },
+    "hopsPot": {
+      "id": "hopsPot",
+      "name": "啤酒花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "hops",
+      "days": 4
+    },
+    "heatherPot": {
+      "id": "heatherPot",
+      "name": "石楠",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "heather",
+      "days": 3
+    },
+    "angelicaPot": {
+      "id": "angelicaPot",
+      "name": "当归",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "angelica",
+      "days": 4
+    },
+    "arnicaPot": {
+      "id": "arnicaPot",
+      "name": "山金车",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌼"
+      ],
+      "harvest": "arnica",
+      "days": 3
     }
   },
   "cups": [
@@ -8031,6 +8103,46 @@
       "tags": [
         "草本",
         "温柔"
+      ]
+    },
+    {
+      "id": "hops",
+      "name": "啤酒花",
+      "emoji": "🟢",
+      "need": "hops",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "heather",
+      "name": "石楠",
+      "emoji": "💜",
+      "need": "heather",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "angelica",
+      "name": "当归",
+      "emoji": "🤍",
+      "need": "angelica",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "arnica",
+      "name": "山金车",
+      "emoji": "🌼",
+      "need": "arnica",
+      "tags": [
+        "花香",
+        "草本"
       ]
     }
   ],
@@ -10834,6 +10946,66 @@
         "honey",
         "tea_leaf",
         "lavender_bud"
+      ]
+    },
+    {
+      "name": "采啤酒花的酿酒师",
+      "avatar": "🍺",
+      "wish": "啤酒花或蜜，清爽一点，气泡最好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "hops",
+        "honey",
+        "mint",
+        "nettle"
+      ]
+    },
+    {
+      "name": "采石楠的旅人",
+      "avatar": "💜",
+      "wish": "石楠或蜜，温柔花香，暖杯也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "heather",
+        "honey",
+        "lavender_bud",
+        "yarrow"
+      ]
+    },
+    {
+      "name": "炖当归的药师",
+      "avatar": "🤍",
+      "wish": "当归或蜜，温暖草本，暖杯最好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "angelica",
+        "honey",
+        "tea_leaf",
+        "lovage"
+      ]
+    },
+    {
+      "name": "采山金车的药师",
+      "avatar": "🌼",
+      "wish": "山金车或蜜，温柔花香，暖杯也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "arnica",
+        "honey",
+        "calendula",
+        "tea_leaf"
       ]
     }
   ],
