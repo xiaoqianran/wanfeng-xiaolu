@@ -2616,6 +2616,20 @@
       "emoji": "🟤",
       "kind": "风味",
       "seed": "jujubePot"
+    },
+    "grapefruit": {
+      "id": "grapefruit",
+      "name": "西柚",
+      "emoji": "🍊",
+      "kind": "风味",
+      "seed": "grapefruitPot"
+    },
+    "tangerine": {
+      "id": "tangerine",
+      "name": "蜜橘",
+      "emoji": "🍊",
+      "kind": "风味",
+      "seed": "tangerinePot"
     }
   },
   "plants": {
@@ -4923,6 +4937,28 @@
       ],
       "harvest": "jujube",
       "days": 3
+    },
+    "grapefruitPot": {
+      "id": "grapefruitPot",
+      "name": "西柚",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍊"
+      ],
+      "harvest": "grapefruit",
+      "days": 3
+    },
+    "tangerinePot": {
+      "id": "tangerinePot",
+      "name": "蜜橘",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍊"
+      ],
+      "harvest": "tangerine",
+      "days": 2
     }
   },
   "cups": [
@@ -6124,6 +6160,26 @@
       "name": "红枣",
       "emoji": "🟤",
       "need": "jujube",
+      "tags": [
+        "甜蜜",
+        "果香"
+      ]
+    },
+    {
+      "id": "grapefruit",
+      "name": "西柚",
+      "emoji": "🍊",
+      "need": "grapefruit",
+      "tags": [
+        "清爽",
+        "果香"
+      ]
+    },
+    {
+      "id": "tangerine",
+      "name": "蜜橘",
+      "emoji": "🍊",
+      "need": "tangerine",
       "tags": [
         "甜蜜",
         "果香"
@@ -7907,6 +7963,36 @@
         "honey",
         "tea_leaf",
         "ginger"
+      ]
+    },
+    {
+      "name": "榨西柚的店员",
+      "avatar": "🧃",
+      "wish": "西柚或薄荷，清爽一点，气泡最好。",
+      "tags": [
+        "清爽",
+        "果香"
+      ],
+      "flavors": [
+        "grapefruit",
+        "mint",
+        "honey",
+        "kiwi"
+      ]
+    },
+    {
+      "name": "剥蜜橘的小孩",
+      "avatar": "🧒",
+      "wish": "蜜橘或蜜，甜蜜一点，装饰随意。",
+      "tags": [
+        "甜蜜",
+        "果香"
+      ],
+      "flavors": [
+        "tangerine",
+        "honey",
+        "kumquat",
+        "grapefruit"
       ]
     }
   ],
