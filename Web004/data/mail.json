@@ -1701,5 +1701,49 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_meadowsweet",
+    "title": "绣线菊一小束",
+    "body": "采绣线菊的药师来信：新摘的。给你一小束，别放太久。",
+    "effect": {
+      "items": {
+        "meadowsweet": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_woodruff",
+    "title": "车叶草两把",
+    "body": "泡车叶草的旅人来信：新摘的。给你两把，别放太久。",
+    "effect": {
+      "items": {
+        "woodruff": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_borage",
+    "title": "琉璃苣两朵",
+    "body": "采琉璃苣的女孩来信：刚摘的。给你两朵，别放太久。",
+    "effect": {
+      "items": {
+        "borage": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_valerian",
+    "title": "缬草两根",
+    "body": "泡缬草的阿婆来信：新晒的。给你两根，别放太久。",
+    "effect": {
+      "items": {
+        "valerian": 2
+      },
+      "coins": 2
+    }
   }
 ]
