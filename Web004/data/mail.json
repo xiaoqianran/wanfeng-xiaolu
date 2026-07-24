@@ -136440,5 +136440,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_star0",
+    "title": "北斗星露两份",
+    "body": "采北斗星露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star0": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star1",
+    "title": "北斗星霜两份",
+    "body": "采北斗星霜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star1": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star2",
+    "title": "北斗星尘两份",
+    "body": "采北斗星尘的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star2": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star3",
+    "title": "北斗星屑两份",
+    "body": "采北斗星屑的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star3": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star4",
+    "title": "北斗星辉两份",
+    "body": "采北斗星辉的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star4": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star5",
+    "title": "北斗星影两份",
+    "body": "采北斗星影的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star5": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star6",
+    "title": "北斗星河两份",
+    "body": "采北斗星河的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star6": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star7",
+    "title": "北斗星汉两份",
+    "body": "采北斗星汉的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star7": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star8",
+    "title": "北斗星灯两份",
+    "body": "采北斗星灯的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star8": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star9",
+    "title": "北斗星窗两份",
+    "body": "采北斗星窗的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star9": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star10",
+    "title": "北斗星阶两份",
+    "body": "采北斗星阶的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star10": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star11",
+    "title": "北斗星桥两份",
+    "body": "采北斗星桥的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star11": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star12",
+    "title": "北斗星舟两份",
+    "body": "采北斗星舟的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star12": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star13",
+    "title": "北斗星帆两份",
+    "body": "采北斗星帆的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star13": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star14",
+    "title": "北斗星港两份",
+    "body": "采北斗星港的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star14": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star15",
+    "title": "北斗星驿两份",
+    "body": "采北斗星驿的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star15": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star16",
+    "title": "南斗星露两份",
+    "body": "采南斗星露的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star16": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star17",
+    "title": "南斗星霜两份",
+    "body": "采南斗星霜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star17": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star18",
+    "title": "南斗星尘两份",
+    "body": "采南斗星尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star18": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star19",
+    "title": "南斗星屑两份",
+    "body": "采南斗星屑的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star19": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star20",
+    "title": "南斗星辉两份",
+    "body": "采南斗星辉的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star21",
+    "title": "南斗星影两份",
+    "body": "采南斗星影的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star22",
+    "title": "南斗星河两份",
+    "body": "采南斗星河的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star23",
+    "title": "南斗星汉两份",
+    "body": "采南斗星汉的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star24",
+    "title": "南斗星灯两份",
+    "body": "采南斗星灯的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star25",
+    "title": "南斗星窗两份",
+    "body": "采南斗星窗的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star26",
+    "title": "南斗星阶两份",
+    "body": "采南斗星阶的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star27",
+    "title": "南斗星桥两份",
+    "body": "采南斗星桥的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star28",
+    "title": "南斗星舟两份",
+    "body": "采南斗星舟的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star29",
+    "title": "南斗星帆两份",
+    "body": "采南斗星帆的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star30",
+    "title": "南斗星港两份",
+    "body": "采南斗星港的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star30": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star31",
+    "title": "南斗星驿两份",
+    "body": "采南斗星驿的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star31": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star32",
+    "title": "织女星露两份",
+    "body": "采织女星露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star32": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star33",
+    "title": "织女星霜两份",
+    "body": "采织女星霜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star33": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star34",
+    "title": "织女星尘两份",
+    "body": "采织女星尘的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star34": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star35",
+    "title": "织女星屑两份",
+    "body": "采织女星屑的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star35": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star36",
+    "title": "织女星辉两份",
+    "body": "采织女星辉的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star36": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star37",
+    "title": "织女星影两份",
+    "body": "采织女星影的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star37": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star38",
+    "title": "织女星河两份",
+    "body": "采织女星河的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star38": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star39",
+    "title": "织女星汉两份",
+    "body": "采织女星汉的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star39": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star40",
+    "title": "织女星灯两份",
+    "body": "采织女星灯的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star40": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star41",
+    "title": "织女星窗两份",
+    "body": "采织女星窗的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star41": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star42",
+    "title": "织女星阶两份",
+    "body": "采织女星阶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star42": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star43",
+    "title": "织女星桥两份",
+    "body": "采织女星桥的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star43": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star44",
+    "title": "织女星舟两份",
+    "body": "采织女星舟的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star44": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star45",
+    "title": "织女星帆两份",
+    "body": "采织女星帆的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star45": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star46",
+    "title": "织女星港两份",
+    "body": "采织女星港的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star46": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star47",
+    "title": "织女星驿两份",
+    "body": "采织女星驿的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star47": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star48",
+    "title": "牵牛星露两份",
+    "body": "采牵牛星露的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star48": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star49",
+    "title": "牵牛星霜两份",
+    "body": "采牵牛星霜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star49": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star50",
+    "title": "牵牛星尘两份",
+    "body": "采牵牛星尘的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star50": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star51",
+    "title": "牵牛星屑两份",
+    "body": "采牵牛星屑的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star51": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star52",
+    "title": "牵牛星辉两份",
+    "body": "采牵牛星辉的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star52": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star53",
+    "title": "牵牛星影两份",
+    "body": "采牵牛星影的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star53": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star54",
+    "title": "牵牛星河两份",
+    "body": "采牵牛星河的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star54": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star55",
+    "title": "牵牛星汉两份",
+    "body": "采牵牛星汉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star55": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star56",
+    "title": "牵牛星灯两份",
+    "body": "采牵牛星灯的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star56": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star57",
+    "title": "牵牛星窗两份",
+    "body": "采牵牛星窗的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star57": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star58",
+    "title": "牵牛星阶两份",
+    "body": "采牵牛星阶的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star58": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star59",
+    "title": "牵牛星桥两份",
+    "body": "采牵牛星桥的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star59": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star60",
+    "title": "牵牛星舟两份",
+    "body": "采牵牛星舟的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star60": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star61",
+    "title": "牵牛星帆两份",
+    "body": "采牵牛星帆的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star61": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star62",
+    "title": "牵牛星港两份",
+    "body": "采牵牛星港的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star62": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star63",
+    "title": "牵牛星驿两份",
+    "body": "采牵牛星驿的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star63": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star64",
+    "title": "参宿星露两份",
+    "body": "采参宿星露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star64": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star65",
+    "title": "参宿星霜两份",
+    "body": "采参宿星霜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star65": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star66",
+    "title": "参宿星尘两份",
+    "body": "采参宿星尘的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star66": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star67",
+    "title": "参宿星屑两份",
+    "body": "采参宿星屑的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star67": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star68",
+    "title": "参宿星辉两份",
+    "body": "采参宿星辉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star68": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star69",
+    "title": "参宿星影两份",
+    "body": "采参宿星影的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star69": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star70",
+    "title": "参宿星河两份",
+    "body": "采参宿星河的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star70": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star71",
+    "title": "参宿星汉两份",
+    "body": "采参宿星汉的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star71": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star72",
+    "title": "参宿星灯两份",
+    "body": "采参宿星灯的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star72": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star73",
+    "title": "参宿星窗两份",
+    "body": "采参宿星窗的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star73": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star74",
+    "title": "参宿星阶两份",
+    "body": "采参宿星阶的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star74": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star75",
+    "title": "参宿星桥两份",
+    "body": "采参宿星桥的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star75": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star76",
+    "title": "参宿星舟两份",
+    "body": "采参宿星舟的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star76": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star77",
+    "title": "参宿星帆两份",
+    "body": "采参宿星帆的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star77": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star78",
+    "title": "参宿星港两份",
+    "body": "采参宿星港的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star78": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star79",
+    "title": "参宿星驿两份",
+    "body": "采参宿星驿的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star79": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star80",
+    "title": "商星星露两份",
+    "body": "采商星星露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star80": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star81",
+    "title": "商星星霜两份",
+    "body": "采商星星霜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star81": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star82",
+    "title": "商星星尘两份",
+    "body": "采商星星尘的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star82": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star83",
+    "title": "商星星屑两份",
+    "body": "采商星星屑的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star83": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star84",
+    "title": "商星星辉两份",
+    "body": "采商星星辉的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star84": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star85",
+    "title": "商星星影两份",
+    "body": "采商星星影的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star85": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star86",
+    "title": "商星星河两份",
+    "body": "采商星星河的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star86": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star87",
+    "title": "商星星汉两份",
+    "body": "采商星星汉的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star87": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star88",
+    "title": "商星星灯两份",
+    "body": "采商星星灯的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star88": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star89",
+    "title": "商星星窗两份",
+    "body": "采商星星窗的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star89": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star90",
+    "title": "商星星阶两份",
+    "body": "采商星星阶的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star90": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star91",
+    "title": "商星星桥两份",
+    "body": "采商星星桥的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star91": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star92",
+    "title": "商星星舟两份",
+    "body": "采商星星舟的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star92": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star93",
+    "title": "商星星帆两份",
+    "body": "采商星星帆的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star93": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star94",
+    "title": "商星星港两份",
+    "body": "采商星星港的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star94": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star95",
+    "title": "商星星驿两份",
+    "body": "采商星星驿的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star95": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star96",
+    "title": "启明星露两份",
+    "body": "采启明星露的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star96": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star97",
+    "title": "启明星霜两份",
+    "body": "采启明星霜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star97": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star98",
+    "title": "启明星尘两份",
+    "body": "采启明星尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star98": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star99",
+    "title": "启明星屑两份",
+    "body": "采启明星屑的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star99": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star100",
+    "title": "启明星辉两份",
+    "body": "采启明星辉的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star101",
+    "title": "启明星影两份",
+    "body": "采启明星影的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star102",
+    "title": "启明星河两份",
+    "body": "采启明星河的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star103",
+    "title": "启明星汉两份",
+    "body": "采启明星汉的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star104",
+    "title": "启明星灯两份",
+    "body": "采启明星灯的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star105",
+    "title": "启明星窗两份",
+    "body": "采启明星窗的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star106",
+    "title": "启明星阶两份",
+    "body": "采启明星阶的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star107",
+    "title": "启明星桥两份",
+    "body": "采启明星桥的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star108",
+    "title": "启明星舟两份",
+    "body": "采启明星舟的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star109",
+    "title": "启明星帆两份",
+    "body": "采启明星帆的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star110",
+    "title": "启明星港两份",
+    "body": "采启明星港的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star111",
+    "title": "启明星驿两份",
+    "body": "采启明星驿的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star112",
+    "title": "长庚星露两份",
+    "body": "采长庚星露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star113",
+    "title": "长庚星霜两份",
+    "body": "采长庚星霜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star114",
+    "title": "长庚星尘两份",
+    "body": "采长庚星尘的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star115",
+    "title": "长庚星屑两份",
+    "body": "采长庚星屑的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star116",
+    "title": "长庚星辉两份",
+    "body": "采长庚星辉的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star117",
+    "title": "长庚星影两份",
+    "body": "采长庚星影的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star118",
+    "title": "长庚星河两份",
+    "body": "采长庚星河的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star119",
+    "title": "长庚星汉两份",
+    "body": "采长庚星汉的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star120",
+    "title": "长庚星灯两份",
+    "body": "采长庚星灯的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star121",
+    "title": "长庚星窗两份",
+    "body": "采长庚星窗的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star122",
+    "title": "长庚星阶两份",
+    "body": "采长庚星阶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star123",
+    "title": "长庚星桥两份",
+    "body": "采长庚星桥的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star124",
+    "title": "长庚星舟两份",
+    "body": "采长庚星舟的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star125",
+    "title": "长庚星帆两份",
+    "body": "采长庚星帆的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star126",
+    "title": "长庚星港两份",
+    "body": "采长庚星港的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star127",
+    "title": "长庚星驿两份",
+    "body": "采长庚星驿的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star128",
+    "title": "老人星星露两份",
+    "body": "采老人星星露的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star129",
+    "title": "老人星星霜两份",
+    "body": "采老人星星霜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star130",
+    "title": "老人星星尘两份",
+    "body": "采老人星星尘的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star131",
+    "title": "老人星星屑两份",
+    "body": "采老人星星屑的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star132",
+    "title": "老人星星辉两份",
+    "body": "采老人星星辉的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star133",
+    "title": "老人星星影两份",
+    "body": "采老人星星影的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star134",
+    "title": "老人星星河两份",
+    "body": "采老人星星河的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star135",
+    "title": "老人星星汉两份",
+    "body": "采老人星星汉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star136",
+    "title": "老人星星灯两份",
+    "body": "采老人星星灯的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star137",
+    "title": "老人星星窗两份",
+    "body": "采老人星星窗的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star138",
+    "title": "老人星星阶两份",
+    "body": "采老人星星阶的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star139",
+    "title": "老人星星桥两份",
+    "body": "采老人星星桥的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star140",
+    "title": "老人星星舟两份",
+    "body": "采老人星星舟的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star141",
+    "title": "老人星星帆两份",
+    "body": "采老人星星帆的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star142",
+    "title": "老人星星港两份",
+    "body": "采老人星星港的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star143",
+    "title": "老人星星驿两份",
+    "body": "采老人星星驿的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star144",
+    "title": "天狼星露两份",
+    "body": "采天狼星露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star145",
+    "title": "天狼星霜两份",
+    "body": "采天狼星霜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star146",
+    "title": "天狼星尘两份",
+    "body": "采天狼星尘的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star147",
+    "title": "天狼星屑两份",
+    "body": "采天狼星屑的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star148",
+    "title": "天狼星辉两份",
+    "body": "采天狼星辉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star149",
+    "title": "天狼星影两份",
+    "body": "采天狼星影的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star150",
+    "title": "天狼星河两份",
+    "body": "采天狼星河的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star151",
+    "title": "天狼星汉两份",
+    "body": "采天狼星汉的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star152",
+    "title": "天狼星灯两份",
+    "body": "采天狼星灯的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star153",
+    "title": "天狼星窗两份",
+    "body": "采天狼星窗的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star154",
+    "title": "天狼星阶两份",
+    "body": "采天狼星阶的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star155",
+    "title": "天狼星桥两份",
+    "body": "采天狼星桥的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star156",
+    "title": "天狼星舟两份",
+    "body": "采天狼星舟的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star157",
+    "title": "天狼星帆两份",
+    "body": "采天狼星帆的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star158",
+    "title": "天狼星港两份",
+    "body": "采天狼星港的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star159",
+    "title": "天狼星驿两份",
+    "body": "采天狼星驿的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star160",
+    "title": "织女星星露两份",
+    "body": "采织女星星露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star161",
+    "title": "织女星星霜两份",
+    "body": "采织女星星霜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star162",
+    "title": "织女星星尘两份",
+    "body": "采织女星星尘的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star163",
+    "title": "织女星星屑两份",
+    "body": "采织女星星屑的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star164",
+    "title": "织女星星辉两份",
+    "body": "采织女星星辉的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star165",
+    "title": "织女星星影两份",
+    "body": "采织女星星影的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star166",
+    "title": "织女星星河两份",
+    "body": "采织女星星河的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star167",
+    "title": "织女星星汉两份",
+    "body": "采织女星星汉的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star168",
+    "title": "织女星星灯两份",
+    "body": "采织女星星灯的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star169",
+    "title": "织女星星窗两份",
+    "body": "采织女星星窗的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star170",
+    "title": "织女星星阶两份",
+    "body": "采织女星星阶的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star171",
+    "title": "织女星星桥两份",
+    "body": "采织女星星桥的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star172",
+    "title": "织女星星舟两份",
+    "body": "采织女星星舟的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star173",
+    "title": "织女星星帆两份",
+    "body": "采织女星星帆的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star174",
+    "title": "织女星星港两份",
+    "body": "采织女星星港的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star175",
+    "title": "织女星星驿两份",
+    "body": "采织女星星驿的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star176",
+    "title": "牛郎星星露两份",
+    "body": "采牛郎星星露的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star177",
+    "title": "牛郎星星霜两份",
+    "body": "采牛郎星星霜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star178",
+    "title": "牛郎星星尘两份",
+    "body": "采牛郎星星尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star179",
+    "title": "牛郎星星屑两份",
+    "body": "采牛郎星星屑的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star180",
+    "title": "牛郎星星辉两份",
+    "body": "采牛郎星星辉的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star181",
+    "title": "牛郎星星影两份",
+    "body": "采牛郎星星影的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star182",
+    "title": "牛郎星星河两份",
+    "body": "采牛郎星星河的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star183",
+    "title": "牛郎星星汉两份",
+    "body": "采牛郎星星汉的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star184",
+    "title": "牛郎星星灯两份",
+    "body": "采牛郎星星灯的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star185",
+    "title": "牛郎星星窗两份",
+    "body": "采牛郎星星窗的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star186",
+    "title": "牛郎星星阶两份",
+    "body": "采牛郎星星阶的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star187",
+    "title": "牛郎星星桥两份",
+    "body": "采牛郎星星桥的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star188",
+    "title": "牛郎星星舟两份",
+    "body": "采牛郎星星舟的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star189",
+    "title": "牛郎星星帆两份",
+    "body": "采牛郎星星帆的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star190",
+    "title": "牛郎星星港两份",
+    "body": "采牛郎星星港的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star191",
+    "title": "牛郎星星驿两份",
+    "body": "采牛郎星星驿的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star192",
+    "title": "北极星星露两份",
+    "body": "采北极星星露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star193",
+    "title": "北极星星霜两份",
+    "body": "采北极星星霜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star194",
+    "title": "北极星星尘两份",
+    "body": "采北极星星尘的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star195",
+    "title": "北极星星屑两份",
+    "body": "采北极星星屑的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star196",
+    "title": "北极星星辉两份",
+    "body": "采北极星星辉的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star197",
+    "title": "北极星星影两份",
+    "body": "采北极星星影的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star198",
+    "title": "北极星星河两份",
+    "body": "采北极星星河的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star199",
+    "title": "北极星星汉两份",
+    "body": "采北极星星汉的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star200",
+    "title": "北极星星灯两份",
+    "body": "采北极星星灯的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star201",
+    "title": "北极星星窗两份",
+    "body": "采北极星星窗的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star202",
+    "title": "北极星星阶两份",
+    "body": "采北极星星阶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star203",
+    "title": "北极星星桥两份",
+    "body": "采北极星星桥的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star204",
+    "title": "北极星星舟两份",
+    "body": "采北极星星舟的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star205",
+    "title": "北极星星帆两份",
+    "body": "采北极星星帆的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star206",
+    "title": "北极星星港两份",
+    "body": "采北极星星港的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star207",
+    "title": "北极星星驿两份",
+    "body": "采北极星星驿的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star208",
+    "title": "天枢星露两份",
+    "body": "采天枢星露的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star209",
+    "title": "天枢星霜两份",
+    "body": "采天枢星霜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star210",
+    "title": "天枢星尘两份",
+    "body": "采天枢星尘的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star211",
+    "title": "天枢星屑两份",
+    "body": "采天枢星屑的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star212",
+    "title": "天枢星辉两份",
+    "body": "采天枢星辉的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star213",
+    "title": "天枢星影两份",
+    "body": "采天枢星影的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star214",
+    "title": "天枢星河两份",
+    "body": "采天枢星河的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star215",
+    "title": "天枢星汉两份",
+    "body": "采天枢星汉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star216",
+    "title": "天枢星灯两份",
+    "body": "采天枢星灯的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star217",
+    "title": "天枢星窗两份",
+    "body": "采天枢星窗的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star218",
+    "title": "天枢星阶两份",
+    "body": "采天枢星阶的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star219",
+    "title": "天枢星桥两份",
+    "body": "采天枢星桥的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star220",
+    "title": "天枢星舟两份",
+    "body": "采天枢星舟的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star221",
+    "title": "天枢星帆两份",
+    "body": "采天枢星帆的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star222",
+    "title": "天枢星港两份",
+    "body": "采天枢星港的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star223",
+    "title": "天枢星驿两份",
+    "body": "采天枢星驿的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star224",
+    "title": "天璇星露两份",
+    "body": "采天璇星露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star225",
+    "title": "天璇星霜两份",
+    "body": "采天璇星霜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star226",
+    "title": "天璇星尘两份",
+    "body": "采天璇星尘的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star227",
+    "title": "天璇星屑两份",
+    "body": "采天璇星屑的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star228",
+    "title": "天璇星辉两份",
+    "body": "采天璇星辉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star229",
+    "title": "天璇星影两份",
+    "body": "采天璇星影的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star230",
+    "title": "天璇星河两份",
+    "body": "采天璇星河的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star231",
+    "title": "天璇星汉两份",
+    "body": "采天璇星汉的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star232",
+    "title": "天璇星灯两份",
+    "body": "采天璇星灯的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star233",
+    "title": "天璇星窗两份",
+    "body": "采天璇星窗的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star234",
+    "title": "天璇星阶两份",
+    "body": "采天璇星阶的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star235",
+    "title": "天璇星桥两份",
+    "body": "采天璇星桥的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star236",
+    "title": "天璇星舟两份",
+    "body": "采天璇星舟的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star237",
+    "title": "天璇星帆两份",
+    "body": "采天璇星帆的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star238",
+    "title": "天璇星港两份",
+    "body": "采天璇星港的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star239",
+    "title": "天璇星驿两份",
+    "body": "采天璇星驿的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star240",
+    "title": "天玑星露两份",
+    "body": "采天玑星露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star241",
+    "title": "天玑星霜两份",
+    "body": "采天玑星霜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star242",
+    "title": "天玑星尘两份",
+    "body": "采天玑星尘的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star243",
+    "title": "天玑星屑两份",
+    "body": "采天玑星屑的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star244",
+    "title": "天玑星辉两份",
+    "body": "采天玑星辉的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star245",
+    "title": "天玑星影两份",
+    "body": "采天玑星影的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star246",
+    "title": "天玑星河两份",
+    "body": "采天玑星河的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star247",
+    "title": "天玑星汉两份",
+    "body": "采天玑星汉的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star248",
+    "title": "天玑星灯两份",
+    "body": "采天玑星灯的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star249",
+    "title": "天玑星窗两份",
+    "body": "采天玑星窗的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star250",
+    "title": "天玑星阶两份",
+    "body": "采天玑星阶的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star251",
+    "title": "天玑星桥两份",
+    "body": "采天玑星桥的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star252",
+    "title": "天玑星舟两份",
+    "body": "采天玑星舟的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star253",
+    "title": "天玑星帆两份",
+    "body": "采天玑星帆的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star254",
+    "title": "天玑星港两份",
+    "body": "采天玑星港的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star255",
+    "title": "天玑星驿两份",
+    "body": "采天玑星驿的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star256",
+    "title": "天权星露两份",
+    "body": "采天权星露的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star257",
+    "title": "天权星霜两份",
+    "body": "采天权星霜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star258",
+    "title": "天权星尘两份",
+    "body": "采天权星尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star259",
+    "title": "天权星屑两份",
+    "body": "采天权星屑的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star260",
+    "title": "天权星辉两份",
+    "body": "采天权星辉的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star261",
+    "title": "天权星影两份",
+    "body": "采天权星影的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star262",
+    "title": "天权星河两份",
+    "body": "采天权星河的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star263",
+    "title": "天权星汉两份",
+    "body": "采天权星汉的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star264",
+    "title": "天权星灯两份",
+    "body": "采天权星灯的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star265",
+    "title": "天权星窗两份",
+    "body": "采天权星窗的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star266",
+    "title": "天权星阶两份",
+    "body": "采天权星阶的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star267",
+    "title": "天权星桥两份",
+    "body": "采天权星桥的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star268",
+    "title": "天权星舟两份",
+    "body": "采天权星舟的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star269",
+    "title": "天权星帆两份",
+    "body": "采天权星帆的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star270",
+    "title": "天权星港两份",
+    "body": "采天权星港的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star271",
+    "title": "天权星驿两份",
+    "body": "采天权星驿的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star272",
+    "title": "玉衡星露两份",
+    "body": "采玉衡星露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star273",
+    "title": "玉衡星霜两份",
+    "body": "采玉衡星霜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star274",
+    "title": "玉衡星尘两份",
+    "body": "采玉衡星尘的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star275",
+    "title": "玉衡星屑两份",
+    "body": "采玉衡星屑的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star276",
+    "title": "玉衡星辉两份",
+    "body": "采玉衡星辉的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star277",
+    "title": "玉衡星影两份",
+    "body": "采玉衡星影的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star278",
+    "title": "玉衡星河两份",
+    "body": "采玉衡星河的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star279",
+    "title": "玉衡星汉两份",
+    "body": "采玉衡星汉的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star280",
+    "title": "玉衡星灯两份",
+    "body": "采玉衡星灯的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star281",
+    "title": "玉衡星窗两份",
+    "body": "采玉衡星窗的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star282",
+    "title": "玉衡星阶两份",
+    "body": "采玉衡星阶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star283",
+    "title": "玉衡星桥两份",
+    "body": "采玉衡星桥的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star284",
+    "title": "玉衡星舟两份",
+    "body": "采玉衡星舟的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star285",
+    "title": "玉衡星帆两份",
+    "body": "采玉衡星帆的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star286",
+    "title": "玉衡星港两份",
+    "body": "采玉衡星港的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star287",
+    "title": "玉衡星驿两份",
+    "body": "采玉衡星驿的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star288",
+    "title": "开阳星露两份",
+    "body": "采开阳星露的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star289",
+    "title": "开阳星霜两份",
+    "body": "采开阳星霜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star290",
+    "title": "开阳星尘两份",
+    "body": "采开阳星尘的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star291",
+    "title": "开阳星屑两份",
+    "body": "采开阳星屑的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star292",
+    "title": "开阳星辉两份",
+    "body": "采开阳星辉的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star293",
+    "title": "开阳星影两份",
+    "body": "采开阳星影的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star294",
+    "title": "开阳星河两份",
+    "body": "采开阳星河的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star295",
+    "title": "开阳星汉两份",
+    "body": "采开阳星汉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star296",
+    "title": "开阳星灯两份",
+    "body": "采开阳星灯的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star297",
+    "title": "开阳星窗两份",
+    "body": "采开阳星窗的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star298",
+    "title": "开阳星阶两份",
+    "body": "采开阳星阶的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star299",
+    "title": "开阳星桥两份",
+    "body": "采开阳星桥的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star300",
+    "title": "开阳星舟两份",
+    "body": "采开阳星舟的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star301",
+    "title": "开阳星帆两份",
+    "body": "采开阳星帆的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star302",
+    "title": "开阳星港两份",
+    "body": "采开阳星港的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star303",
+    "title": "开阳星驿两份",
+    "body": "采开阳星驿的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star304",
+    "title": "摇光星露两份",
+    "body": "采摇光星露的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star305",
+    "title": "摇光星霜两份",
+    "body": "采摇光星霜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star306",
+    "title": "摇光星尘两份",
+    "body": "采摇光星尘的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star307",
+    "title": "摇光星屑两份",
+    "body": "采摇光星屑的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star308",
+    "title": "摇光星辉两份",
+    "body": "采摇光星辉的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star309",
+    "title": "摇光星影两份",
+    "body": "采摇光星影的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star310",
+    "title": "摇光星河两份",
+    "body": "采摇光星河的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star311",
+    "title": "摇光星汉两份",
+    "body": "采摇光星汉的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star312",
+    "title": "摇光星灯两份",
+    "body": "采摇光星灯的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star313",
+    "title": "摇光星窗两份",
+    "body": "采摇光星窗的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star314",
+    "title": "摇光星阶两份",
+    "body": "采摇光星阶的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star315",
+    "title": "摇光星桥两份",
+    "body": "采摇光星桥的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star316",
+    "title": "摇光星舟两份",
+    "body": "采摇光星舟的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star317",
+    "title": "摇光星帆两份",
+    "body": "采摇光星帆的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star318",
+    "title": "摇光星港两份",
+    "body": "采摇光星港的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_star319",
+    "title": "摇光星驿两份",
+    "body": "采摇光星驿的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "star319": 2
+      },
+      "coins": 2
+    }
   }
 ]
