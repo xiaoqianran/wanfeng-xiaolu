@@ -3008,6 +3008,34 @@
       "emoji": "⚫",
       "kind": "风味",
       "seed": "nigellaPot"
+    },
+    "mustard_seed": {
+      "id": "mustard_seed",
+      "name": "芥末籽",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "mustardSeedPot"
+    },
+    "ajwain": {
+      "id": "ajwain",
+      "name": "香旱芹",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "ajwainPot"
+    },
+    "wasabi": {
+      "id": "wasabi",
+      "name": "山葵",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "wasabiPot"
+    },
+    "myrtle": {
+      "id": "myrtle",
+      "name": "香桃木",
+      "emoji": "🍃",
+      "kind": "风味",
+      "seed": "myrtlePot"
     }
   },
   "plants": {
@@ -5931,6 +5959,50 @@
       ],
       "harvest": "nigella",
       "days": 3
+    },
+    "mustardSeedPot": {
+      "id": "mustardSeedPot",
+      "name": "芥末籽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "mustard_seed",
+      "days": 2
+    },
+    "ajwainPot": {
+      "id": "ajwainPot",
+      "name": "香旱芹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "ajwain",
+      "days": 2
+    },
+    "wasabiPot": {
+      "id": "wasabiPot",
+      "name": "山葵",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "wasabi",
+      "days": 4
+    },
+    "myrtlePot": {
+      "id": "myrtlePot",
+      "name": "香桃木",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍃"
+      ],
+      "harvest": "myrtle",
+      "days": 3
     }
   },
   "cups": [
@@ -7695,6 +7767,46 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "mustard_seed",
+      "name": "芥末籽",
+      "emoji": "🟡",
+      "need": "mustard_seed",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "ajwain",
+      "name": "香旱芹",
+      "emoji": "🌿",
+      "need": "ajwain",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "wasabi",
+      "name": "山葵",
+      "emoji": "🟢",
+      "need": "wasabi",
+      "tags": [
+        "清爽",
+        "草本"
+      ]
+    },
+    {
+      "id": "myrtle",
+      "name": "香桃木",
+      "emoji": "🍃",
+      "need": "myrtle",
+      "tags": [
+        "花香",
+        "草本"
       ]
     }
   ],
@@ -10318,6 +10430,65 @@
         "honey",
         "mint",
         "cumin"
+      ]
+    },
+    {
+      "name": "磨芥末籽的厨子",
+      "avatar": "🟡",
+      "wish": "芥末籽或蜜，清爽一点，暖杯也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "mustard_seed",
+        "honey",
+        "mint"
+      ]
+    },
+    {
+      "name": "泡香旱芹的旅人",
+      "avatar": "🌿",
+      "wish": "香旱芹或蜜，温暖一点，暖杯最好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "ajwain",
+        "honey",
+        "thyme",
+        "cumin"
+      ]
+    },
+    {
+      "name": "磨山葵的厨子",
+      "avatar": "🟢",
+      "wish": "山葵或薄荷，清爽一点，气泡最好。",
+      "tags": [
+        "清爽",
+        "草本"
+      ],
+      "flavors": [
+        "wasabi",
+        "mint",
+        "lime",
+        "honey"
+      ]
+    },
+    {
+      "name": "泡香桃木的阿婆",
+      "avatar": "🍃",
+      "wish": "香桃木或蜜，温柔花香，暖杯也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "myrtle",
+        "honey",
+        "jasmine",
+        "bay_leaf"
       ]
     }
   ],
