@@ -1019,5 +1019,27 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_wax_apple",
+    "title": "莲雾两颗",
+    "body": "摘莲雾的阿伯来信：树上刚熟。给你两颗，别放太久。",
+    "effect": {
+      "items": {
+        "wax_apple": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sugarcane",
+    "title": "甘蔗两节",
+    "body": "榨甘蔗的小伙来信：刚砍的。给你两节，别放太久。",
+    "effect": {
+      "items": {
+        "sugarcane": 2
+      },
+      "coins": 2
+    }
   }
 ]
