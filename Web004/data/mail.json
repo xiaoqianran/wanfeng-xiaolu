@@ -997,5 +997,27 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_grapefruit",
+    "title": "西柚两瓣",
+    "body": "榨西柚的店员来信：刚切的。给你两瓣，别放太久。",
+    "effect": {
+      "items": {
+        "grapefruit": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tangerine",
+    "title": "蜜橘三颗",
+    "body": "剥蜜橘的小孩来信：刚摘的。给你三颗，别放太久。",
+    "effect": {
+      "items": {
+        "tangerine": 3
+      },
+      "coins": 2
+    }
   }
 ]
