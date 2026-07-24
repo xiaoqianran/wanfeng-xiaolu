@@ -4590,6 +4590,118 @@
       "emoji": "🟢",
       "kind": "风味",
       "seed": "eucalyptus_honeyPot"
+    },
+    "cacao_nibs": {
+      "id": "cacao_nibs",
+      "name": "可可碎",
+      "emoji": "🤎",
+      "kind": "风味",
+      "seed": "cacao_nibsPot"
+    },
+    "cacao_husk": {
+      "id": "cacao_husk",
+      "name": "可可壳",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "cacao_huskPot"
+    },
+    "carob": {
+      "id": "carob",
+      "name": "角豆",
+      "emoji": "🤎",
+      "kind": "风味",
+      "seed": "carobPot"
+    },
+    "mesquite": {
+      "id": "mesquite",
+      "name": "牧豆",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "mesquitePot"
+    },
+    "lucuma": {
+      "id": "lucuma",
+      "name": "蛋黄果粉",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "lucumaPot"
+    },
+    "maca": {
+      "id": "maca",
+      "name": "玛卡",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "macaPot"
+    },
+    "camu_camu": {
+      "id": "camu_camu",
+      "name": "卡姆果",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "camu_camuPot"
+    },
+    "acai": {
+      "id": "acai",
+      "name": "阿萨伊",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "acaiPot"
+    },
+    "maqui": {
+      "id": "maqui",
+      "name": "智利酒果",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "maquiPot"
+    },
+    "goji_fresh": {
+      "id": "goji_fresh",
+      "name": "鲜枸杞",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "goji_freshPot"
+    },
+    "schisandra": {
+      "id": "schisandra",
+      "name": "五味子",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "schisandraPot"
+    },
+    "amla": {
+      "id": "amla",
+      "name": "余甘子",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "amlaPot"
+    },
+    "baobab": {
+      "id": "baobab",
+      "name": "猴面包果",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "baobabPot"
+    },
+    "morinda": {
+      "id": "morinda",
+      "name": "诺丽",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "morindaPot"
+    },
+    "noni": {
+      "id": "noni",
+      "name": "海巴戟",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "noniPot"
+    },
+    "cupuacu": {
+      "id": "cupuacu",
+      "name": "古布阿苏",
+      "emoji": "🤎",
+      "kind": "风味",
+      "seed": "cupuacuPot"
     }
   },
   "plants": {
@@ -9999,6 +10111,182 @@
       ],
       "harvest": "eucalyptus_honey",
       "days": 3
+    },
+    "cacao_nibsPot": {
+      "id": "cacao_nibsPot",
+      "name": "可可碎",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤎"
+      ],
+      "harvest": "cacao_nibs",
+      "days": 3
+    },
+    "cacao_huskPot": {
+      "id": "cacao_huskPot",
+      "name": "可可壳",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "cacao_husk",
+      "days": 3
+    },
+    "carobPot": {
+      "id": "carobPot",
+      "name": "角豆",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤎"
+      ],
+      "harvest": "carob",
+      "days": 3
+    },
+    "mesquitePot": {
+      "id": "mesquitePot",
+      "name": "牧豆",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "mesquite",
+      "days": 3
+    },
+    "lucumaPot": {
+      "id": "lucumaPot",
+      "name": "蛋黄果粉",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "lucuma",
+      "days": 3
+    },
+    "macaPot": {
+      "id": "macaPot",
+      "name": "玛卡",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "maca",
+      "days": 4
+    },
+    "camu_camuPot": {
+      "id": "camu_camuPot",
+      "name": "卡姆果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "camu_camu",
+      "days": 3
+    },
+    "acaiPot": {
+      "id": "acaiPot",
+      "name": "阿萨伊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "acai",
+      "days": 3
+    },
+    "maquiPot": {
+      "id": "maquiPot",
+      "name": "智利酒果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "maqui",
+      "days": 3
+    },
+    "goji_freshPot": {
+      "id": "goji_freshPot",
+      "name": "鲜枸杞",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "goji_fresh",
+      "days": 3
+    },
+    "schisandraPot": {
+      "id": "schisandraPot",
+      "name": "五味子",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "schisandra",
+      "days": 3
+    },
+    "amlaPot": {
+      "id": "amlaPot",
+      "name": "余甘子",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "amla",
+      "days": 3
+    },
+    "baobabPot": {
+      "id": "baobabPot",
+      "name": "猴面包果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "baobab",
+      "days": 3
+    },
+    "morindaPot": {
+      "id": "morindaPot",
+      "name": "诺丽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "morinda",
+      "days": 3
+    },
+    "noniPot": {
+      "id": "noniPot",
+      "name": "海巴戟",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "noni",
+      "days": 3
+    },
+    "cupuacuPot": {
+      "id": "cupuacuPot",
+      "name": "古布阿苏",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤎"
+      ],
+      "harvest": "cupuacu",
+      "days": 3
     }
   },
   "cups": [
@@ -14023,6 +14311,166 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "cacao_nibs",
+      "name": "可可碎",
+      "emoji": "🤎",
+      "need": "cacao_nibs",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "cacao_husk",
+      "name": "可可壳",
+      "emoji": "🟤",
+      "need": "cacao_husk",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "carob",
+      "name": "角豆",
+      "emoji": "🤎",
+      "need": "carob",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ]
+    },
+    {
+      "id": "mesquite",
+      "name": "牧豆",
+      "emoji": "🟤",
+      "need": "mesquite",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ]
+    },
+    {
+      "id": "lucuma",
+      "name": "蛋黄果粉",
+      "emoji": "🟡",
+      "need": "lucuma",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "maca",
+      "name": "玛卡",
+      "emoji": "🟡",
+      "need": "maca",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "camu_camu",
+      "name": "卡姆果",
+      "emoji": "🔴",
+      "need": "camu_camu",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "acai",
+      "name": "阿萨伊",
+      "emoji": "🟣",
+      "need": "acai",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "maqui",
+      "name": "智利酒果",
+      "emoji": "🟣",
+      "need": "maqui",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "goji_fresh",
+      "name": "鲜枸杞",
+      "emoji": "🔴",
+      "need": "goji_fresh",
+      "tags": [
+        "果香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "schisandra",
+      "name": "五味子",
+      "emoji": "🔴",
+      "need": "schisandra",
+      "tags": [
+        "果香",
+        "草本"
+      ]
+    },
+    {
+      "id": "amla",
+      "name": "余甘子",
+      "emoji": "🟢",
+      "need": "amla",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "baobab",
+      "name": "猴面包果",
+      "emoji": "⚪",
+      "need": "baobab",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "morinda",
+      "name": "诺丽",
+      "emoji": "🟢",
+      "need": "morinda",
+      "tags": [
+        "果香",
+        "草本"
+      ]
+    },
+    {
+      "id": "noni",
+      "name": "海巴戟",
+      "emoji": "🟢",
+      "need": "noni",
+      "tags": [
+        "果香",
+        "草本"
+      ]
+    },
+    {
+      "id": "cupuacu",
+      "name": "古布阿苏",
+      "emoji": "🤎",
+      "need": "cupuacu",
+      "tags": [
+        "果香",
+        "甜蜜"
       ]
     }
   ],
@@ -20036,6 +20484,246 @@
         "honey",
         "tea_leaf",
         "mint"
+      ]
+    },
+    {
+      "name": "磨可可碎的药师",
+      "avatar": "🤎",
+      "wish": "可可碎或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "cacao_nibs",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "泡可可壳的旅人",
+      "avatar": "🟤",
+      "wish": "可可壳或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "cacao_husk",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "磨角豆的药师",
+      "avatar": "🤎",
+      "wish": "角豆或蜜，慢慢喝也好。",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ],
+      "flavors": [
+        "carob",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "磨牧豆的旅人",
+      "avatar": "🟤",
+      "wish": "牧豆或蜜，慢慢喝也好。",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ],
+      "flavors": [
+        "mesquite",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "磨蛋黄果粉的药师",
+      "avatar": "🟡",
+      "wish": "蛋黄果粉或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "lucuma",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖玛卡的药师",
+      "avatar": "🟡",
+      "wish": "玛卡或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "maca",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采卡姆果的旅人",
+      "avatar": "🔴",
+      "wish": "卡姆果或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "camu_camu",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采阿萨伊的药师",
+      "avatar": "🟣",
+      "wish": "阿萨伊或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "acai",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采智利酒果的旅人",
+      "avatar": "🟣",
+      "wish": "智利酒果或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "maqui",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采鲜枸杞的药师",
+      "avatar": "🔴",
+      "wish": "鲜枸杞或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "温柔"
+      ],
+      "flavors": [
+        "goji_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采五味子的药师",
+      "avatar": "🔴",
+      "wish": "五味子或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "草本"
+      ],
+      "flavors": [
+        "schisandra",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采余甘子的旅人",
+      "avatar": "🟢",
+      "wish": "余甘子或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "amla",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采猴面包果的药师",
+      "avatar": "⚪",
+      "wish": "猴面包果或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "baobab",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采诺丽的旅人",
+      "avatar": "🟢",
+      "wish": "诺丽或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "草本"
+      ],
+      "flavors": [
+        "morinda",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采海巴戟的药师",
+      "avatar": "🟢",
+      "wish": "海巴戟或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "草本"
+      ],
+      "flavors": [
+        "noni",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采古布阿苏的旅人",
+      "avatar": "🤎",
+      "wish": "古布阿苏或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "cupuacu",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
       ]
     }
   ],

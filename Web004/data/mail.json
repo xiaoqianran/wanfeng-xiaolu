@@ -4099,5 +4099,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_cacao_nibs",
+    "title": "可可碎两份",
+    "body": "磨可可碎的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cacao_nibs": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cacao_husk",
+    "title": "可可壳两份",
+    "body": "泡可可壳的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cacao_husk": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_carob",
+    "title": "角豆两份",
+    "body": "磨角豆的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "carob": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mesquite",
+    "title": "牧豆两份",
+    "body": "磨牧豆的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mesquite": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lucuma",
+    "title": "蛋黄果粉两份",
+    "body": "磨蛋黄果粉的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "lucuma": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_maca",
+    "title": "玛卡两份",
+    "body": "炖玛卡的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "maca": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_camu_camu",
+    "title": "卡姆果两份",
+    "body": "采卡姆果的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "camu_camu": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_acai",
+    "title": "阿萨伊两份",
+    "body": "采阿萨伊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "acai": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_maqui",
+    "title": "智利酒果两份",
+    "body": "采智利酒果的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "maqui": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_goji_fresh",
+    "title": "鲜枸杞两份",
+    "body": "采鲜枸杞的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "goji_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_schisandra",
+    "title": "五味子两份",
+    "body": "采五味子的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "schisandra": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_amla",
+    "title": "余甘子两份",
+    "body": "采余甘子的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "amla": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_baobab",
+    "title": "猴面包果两份",
+    "body": "采猴面包果的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "baobab": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_morinda",
+    "title": "诺丽两份",
+    "body": "采诺丽的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "morinda": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_noni",
+    "title": "海巴戟两份",
+    "body": "采海巴戟的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "noni": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cupuacu",
+    "title": "古布阿苏两份",
+    "body": "采古布阿苏的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cupuacu": 2
+      },
+      "coins": 2
+    }
   }
 ]
