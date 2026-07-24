@@ -3923,5 +3923,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_lavender_honey",
+    "title": "薰衣草蜜两份",
+    "body": "收薰衣草蜜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "lavender_honey": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_thyme_honey",
+    "title": "百里香蜜两份",
+    "body": "收百里香蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "thyme_honey": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_acacia_honey",
+    "title": "洋槐蜜两份",
+    "body": "收洋槐蜜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "acacia_honey": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_buckwheat_honey",
+    "title": "荞麦蜜两份",
+    "body": "收荞麦蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "buckwheat_honey": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_chestnut_honey",
+    "title": "板栗蜜两份",
+    "body": "收板栗蜜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "chestnut_honey": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_manuka",
+    "title": "麦卢卡两份",
+    "body": "采麦卢卡的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "manuka": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_propolis",
+    "title": "蜂胶两份",
+    "body": "收蜂胶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "propolis": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bee_pollen",
+    "title": "蜂花粉两份",
+    "body": "收蜂花粉的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bee_pollen": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_royal_jelly",
+    "title": "蜂王浆两份",
+    "body": "收蜂王浆的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "royal_jelly": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_comb_honey",
+    "title": "巢蜜两份",
+    "body": "切巢蜜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "comb_honey": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mead_herb",
+    "title": "蜜酒香草两份",
+    "body": "泡蜜酒香草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mead_herb": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_linden_honey",
+    "title": "椴树蜜两份",
+    "body": "收椴树蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "linden_honey": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_heather_honey_wild",
+    "title": "石楠野蜜两份",
+    "body": "收石楠野蜜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "heather_honey_wild": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wildflower_honey",
+    "title": "野花蜜两份",
+    "body": "收野花蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wildflower_honey": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_clover_honey",
+    "title": "车轴草蜜两份",
+    "body": "收车轴草蜜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "clover_honey": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_eucalyptus_honey",
+    "title": "桉树蜜两份",
+    "body": "收桉树蜜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "eucalyptus_honey": 2
+      },
+      "coins": 2
+    }
   }
 ]

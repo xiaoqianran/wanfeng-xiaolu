@@ -4478,6 +4478,118 @@
       "emoji": "🤍",
       "kind": "风味",
       "seed": "orange_blossomPot"
+    },
+    "lavender_honey": {
+      "id": "lavender_honey",
+      "name": "薰衣草蜜",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "lavender_honeyPot"
+    },
+    "thyme_honey": {
+      "id": "thyme_honey",
+      "name": "百里香蜜",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "thyme_honeyPot"
+    },
+    "acacia_honey": {
+      "id": "acacia_honey",
+      "name": "洋槐蜜",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "acacia_honeyPot"
+    },
+    "buckwheat_honey": {
+      "id": "buckwheat_honey",
+      "name": "荞麦蜜",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "buckwheat_honeyPot"
+    },
+    "chestnut_honey": {
+      "id": "chestnut_honey",
+      "name": "板栗蜜",
+      "emoji": "🤎",
+      "kind": "风味",
+      "seed": "chestnut_honeyPot"
+    },
+    "manuka": {
+      "id": "manuka",
+      "name": "麦卢卡",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "manukaPot"
+    },
+    "propolis": {
+      "id": "propolis",
+      "name": "蜂胶",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "propolisPot"
+    },
+    "bee_pollen": {
+      "id": "bee_pollen",
+      "name": "蜂花粉",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "bee_pollenPot"
+    },
+    "royal_jelly": {
+      "id": "royal_jelly",
+      "name": "蜂王浆",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "royal_jellyPot"
+    },
+    "comb_honey": {
+      "id": "comb_honey",
+      "name": "巢蜜",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "comb_honeyPot"
+    },
+    "mead_herb": {
+      "id": "mead_herb",
+      "name": "蜜酒香草",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "mead_herbPot"
+    },
+    "linden_honey": {
+      "id": "linden_honey",
+      "name": "椴树蜜",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "linden_honeyPot"
+    },
+    "heather_honey_wild": {
+      "id": "heather_honey_wild",
+      "name": "石楠野蜜",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "heather_honey_wildPot"
+    },
+    "wildflower_honey": {
+      "id": "wildflower_honey",
+      "name": "野花蜜",
+      "emoji": "🌼",
+      "kind": "风味",
+      "seed": "wildflower_honeyPot"
+    },
+    "clover_honey": {
+      "id": "clover_honey",
+      "name": "车轴草蜜",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "clover_honeyPot"
+    },
+    "eucalyptus_honey": {
+      "id": "eucalyptus_honey",
+      "name": "桉树蜜",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "eucalyptus_honeyPot"
     }
   },
   "plants": {
@@ -9711,6 +9823,182 @@
       ],
       "harvest": "orange_blossom",
       "days": 3
+    },
+    "lavender_honeyPot": {
+      "id": "lavender_honeyPot",
+      "name": "薰衣草蜜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "lavender_honey",
+      "days": 3
+    },
+    "thyme_honeyPot": {
+      "id": "thyme_honeyPot",
+      "name": "百里香蜜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "thyme_honey",
+      "days": 3
+    },
+    "acacia_honeyPot": {
+      "id": "acacia_honeyPot",
+      "name": "洋槐蜜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "acacia_honey",
+      "days": 3
+    },
+    "buckwheat_honeyPot": {
+      "id": "buckwheat_honeyPot",
+      "name": "荞麦蜜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "buckwheat_honey",
+      "days": 3
+    },
+    "chestnut_honeyPot": {
+      "id": "chestnut_honeyPot",
+      "name": "板栗蜜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤎"
+      ],
+      "harvest": "chestnut_honey",
+      "days": 3
+    },
+    "manukaPot": {
+      "id": "manukaPot",
+      "name": "麦卢卡",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "manuka",
+      "days": 4
+    },
+    "propolisPot": {
+      "id": "propolisPot",
+      "name": "蜂胶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "propolis",
+      "days": 4
+    },
+    "bee_pollenPot": {
+      "id": "bee_pollenPot",
+      "name": "蜂花粉",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "bee_pollen",
+      "days": 3
+    },
+    "royal_jellyPot": {
+      "id": "royal_jellyPot",
+      "name": "蜂王浆",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "royal_jelly",
+      "days": 4
+    },
+    "comb_honeyPot": {
+      "id": "comb_honeyPot",
+      "name": "巢蜜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "comb_honey",
+      "days": 3
+    },
+    "mead_herbPot": {
+      "id": "mead_herbPot",
+      "name": "蜜酒香草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "mead_herb",
+      "days": 3
+    },
+    "linden_honeyPot": {
+      "id": "linden_honeyPot",
+      "name": "椴树蜜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "linden_honey",
+      "days": 3
+    },
+    "heather_honey_wildPot": {
+      "id": "heather_honey_wildPot",
+      "name": "石楠野蜜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "heather_honey_wild",
+      "days": 3
+    },
+    "wildflower_honeyPot": {
+      "id": "wildflower_honeyPot",
+      "name": "野花蜜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌼"
+      ],
+      "harvest": "wildflower_honey",
+      "days": 3
+    },
+    "clover_honeyPot": {
+      "id": "clover_honeyPot",
+      "name": "车轴草蜜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "clover_honey",
+      "days": 3
+    },
+    "eucalyptus_honeyPot": {
+      "id": "eucalyptus_honeyPot",
+      "name": "桉树蜜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "eucalyptus_honey",
+      "days": 3
     }
   },
   "cups": [
@@ -13575,6 +13863,166 @@
       "tags": [
         "花香",
         "甜蜜"
+      ]
+    },
+    {
+      "id": "lavender_honey",
+      "name": "薰衣草蜜",
+      "emoji": "💜",
+      "need": "lavender_honey",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "thyme_honey",
+      "name": "百里香蜜",
+      "emoji": "💛",
+      "need": "thyme_honey",
+      "tags": [
+        "草本",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "acacia_honey",
+      "name": "洋槐蜜",
+      "emoji": "🤍",
+      "need": "acacia_honey",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "buckwheat_honey",
+      "name": "荞麦蜜",
+      "emoji": "🟤",
+      "need": "buckwheat_honey",
+      "tags": [
+        "草本",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "chestnut_honey",
+      "name": "板栗蜜",
+      "emoji": "🤎",
+      "need": "chestnut_honey",
+      "tags": [
+        "草本",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "manuka",
+      "name": "麦卢卡",
+      "emoji": "🟢",
+      "need": "manuka",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "propolis",
+      "name": "蜂胶",
+      "emoji": "🟤",
+      "need": "propolis",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "bee_pollen",
+      "name": "蜂花粉",
+      "emoji": "🟡",
+      "need": "bee_pollen",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "royal_jelly",
+      "name": "蜂王浆",
+      "emoji": "🤍",
+      "need": "royal_jelly",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "comb_honey",
+      "name": "巢蜜",
+      "emoji": "💛",
+      "need": "comb_honey",
+      "tags": [
+        "甜蜜",
+        "温柔"
+      ]
+    },
+    {
+      "id": "mead_herb",
+      "name": "蜜酒香草",
+      "emoji": "🧡",
+      "need": "mead_herb",
+      "tags": [
+        "草本",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "linden_honey",
+      "name": "椴树蜜",
+      "emoji": "🤍",
+      "need": "linden_honey",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "heather_honey_wild",
+      "name": "石楠野蜜",
+      "emoji": "💜",
+      "need": "heather_honey_wild",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "wildflower_honey",
+      "name": "野花蜜",
+      "emoji": "🌼",
+      "need": "wildflower_honey",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "clover_honey",
+      "name": "车轴草蜜",
+      "emoji": "⚪",
+      "need": "clover_honey",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "eucalyptus_honey",
+      "name": "桉树蜜",
+      "emoji": "🟢",
+      "need": "eucalyptus_honey",
+      "tags": [
+        "草本",
+        "清爽"
       ]
     }
   ],
@@ -19348,6 +19796,246 @@
         "honey",
         "tea_leaf",
         "lavender_bud"
+      ]
+    },
+    {
+      "name": "收薰衣草蜜的旅人",
+      "avatar": "💜",
+      "wish": "薰衣草蜜或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "lavender_honey",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "收百里香蜜的药师",
+      "avatar": "💛",
+      "wish": "百里香蜜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "甜蜜"
+      ],
+      "flavors": [
+        "thyme_honey",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "收洋槐蜜的旅人",
+      "avatar": "🤍",
+      "wish": "洋槐蜜或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "acacia_honey",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "收荞麦蜜的药师",
+      "avatar": "🟤",
+      "wish": "荞麦蜜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "甜蜜"
+      ],
+      "flavors": [
+        "buckwheat_honey",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "收板栗蜜的旅人",
+      "avatar": "🤎",
+      "wish": "板栗蜜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "甜蜜"
+      ],
+      "flavors": [
+        "chestnut_honey",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采麦卢卡的药师",
+      "avatar": "🟢",
+      "wish": "麦卢卡或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "manuka",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "收蜂胶的药师",
+      "avatar": "🟤",
+      "wish": "蜂胶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "propolis",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "收蜂花粉的旅人",
+      "avatar": "🟡",
+      "wish": "蜂花粉或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "bee_pollen",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "收蜂王浆的药师",
+      "avatar": "🤍",
+      "wish": "蜂王浆或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "royal_jelly",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "切巢蜜的旅人",
+      "avatar": "💛",
+      "wish": "巢蜜或蜜，慢慢喝也好。",
+      "tags": [
+        "甜蜜",
+        "温柔"
+      ],
+      "flavors": [
+        "comb_honey",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "泡蜜酒香草的旅人",
+      "avatar": "🧡",
+      "wish": "蜜酒香草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "甜蜜"
+      ],
+      "flavors": [
+        "mead_herb",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "收椴树蜜的药师",
+      "avatar": "🤍",
+      "wish": "椴树蜜或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "linden_honey",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "收石楠野蜜的旅人",
+      "avatar": "💜",
+      "wish": "石楠野蜜或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "heather_honey_wild",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "收野花蜜的药师",
+      "avatar": "🌼",
+      "wish": "野花蜜或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "wildflower_honey",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "收车轴草蜜的旅人",
+      "avatar": "⚪",
+      "wish": "车轴草蜜或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "clover_honey",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "收桉树蜜的药师",
+      "avatar": "🟢",
+      "wish": "桉树蜜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "eucalyptus_honey",
+        "honey",
+        "tea_leaf",
+        "mint"
       ]
     }
   ],
