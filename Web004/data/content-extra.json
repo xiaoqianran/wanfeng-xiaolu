@@ -2924,6 +2924,34 @@
       "emoji": "🌾",
       "kind": "风味",
       "seed": "aniseSeedPot"
+    },
+    "turmeric": {
+      "id": "turmeric",
+      "name": "姜黄",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "turmericPot"
+    },
+    "galangal": {
+      "id": "galangal",
+      "name": "高良姜",
+      "emoji": "🫚",
+      "kind": "风味",
+      "seed": "galangalPot"
+    },
+    "pandan": {
+      "id": "pandan",
+      "name": "班兰",
+      "emoji": "🍃",
+      "kind": "风味",
+      "seed": "pandanPot"
+    },
+    "kaffir_lime": {
+      "id": "kaffir_lime",
+      "name": "卡菲尔青柠",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "kaffirLimePot"
     }
   },
   "plants": {
@@ -5715,6 +5743,50 @@
       ],
       "harvest": "anise_seed",
       "days": 3
+    },
+    "turmericPot": {
+      "id": "turmericPot",
+      "name": "姜黄",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "turmeric",
+      "days": 3
+    },
+    "galangalPot": {
+      "id": "galangalPot",
+      "name": "高良姜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🫚"
+      ],
+      "harvest": "galangal",
+      "days": 3
+    },
+    "pandanPot": {
+      "id": "pandanPot",
+      "name": "班兰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍃"
+      ],
+      "harvest": "pandan",
+      "days": 3
+    },
+    "kaffirLimePot": {
+      "id": "kaffirLimePot",
+      "name": "卡菲尔青柠",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "kaffir_lime",
+      "days": 3
     }
   },
   "cups": [
@@ -7359,6 +7431,46 @@
       "tags": [
         "草本",
         "温暖"
+      ]
+    },
+    {
+      "id": "turmeric",
+      "name": "姜黄",
+      "emoji": "🟡",
+      "need": "turmeric",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "galangal",
+      "name": "高良姜",
+      "emoji": "🫚",
+      "need": "galangal",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "pandan",
+      "name": "班兰",
+      "emoji": "🍃",
+      "need": "pandan",
+      "tags": [
+        "草本",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "kaffir_lime",
+      "name": "卡菲尔青柠",
+      "emoji": "🟢",
+      "need": "kaffir_lime",
+      "tags": [
+        "清爽",
+        "果香"
       ]
     }
   ],
@@ -9802,6 +9914,66 @@
         "honey",
         "tea_leaf",
         "star_anise"
+      ]
+    },
+    {
+      "name": "煮姜黄的旅人",
+      "avatar": "🟡",
+      "wish": "姜黄或蜜，温暖一点，暖杯最好。",
+      "tags": [
+        "温暖",
+        "草本"
+      ],
+      "flavors": [
+        "turmeric",
+        "honey",
+        "ginger",
+        "tea_leaf"
+      ]
+    },
+    {
+      "name": "切高良姜的厨子",
+      "avatar": "🫚",
+      "wish": "高良姜或柠檬，清爽一点，暖杯也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "galangal",
+        "lemon",
+        "honey",
+        "ginger"
+      ]
+    },
+    {
+      "name": "蒸班兰的厨娘",
+      "avatar": "🍃",
+      "wish": "班兰或蜜，甜蜜一点，暖杯最好。",
+      "tags": [
+        "甜蜜",
+        "草本"
+      ],
+      "flavors": [
+        "pandan",
+        "honey",
+        "coconut",
+        "vanilla"
+      ]
+    },
+    {
+      "name": "撕卡菲尔叶的厨子",
+      "avatar": "🟢",
+      "wish": "卡菲尔青柠或薄荷，清爽一点，气泡最好。",
+      "tags": [
+        "清爽",
+        "果香"
+      ],
+      "flavors": [
+        "kaffir_lime",
+        "mint",
+        "lime",
+        "lemon"
       ]
     }
   ],
