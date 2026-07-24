@@ -266,17 +266,34 @@
     applySeasonArt();
   }
 
+  function safeArtUrl(url, fallback) {
+    // Reject missing spam paths (live_####.jpg) and empty values.
+    if (!url || typeof url !== "string") return fallback;
+    if (/live_\d+\.(jpg|png|webp)$/i.test(url)) return fallback;
+    return url;
+  }
+
   function applySeasonArt() {
-    const art = Core.SEASON_ART[state.season] || Core.SEASON_ART.dusk;
+    const art = Core.SEASON_ART[state.season] || Core.SEASON_ART.dusk || "assets/scenes/hero-dusk.jpg";
     const banners = (GData.seasons && GData.seasons.stageBanners) || {};
     const hero = document.querySelector(".hero-art");
-    if (hero) hero.src = banners.ui || banners.album || art;
+    // Home hero: prefer season plate art; never let broken stageBanners blank the dusk scene.
+    if (hero) {
+      const next = safeArtUrl(art, "assets/scenes/hero-dusk.jpg");
+      if (hero.getAttribute("src") !== next) hero.src = next;
+    }
     const walkBanner = document.querySelector("#screen-walk .scene-banner");
-    if (walkBanner) walkBanner.src = banners.walk || art;
+    if (walkBanner) {
+      walkBanner.src = safeArtUrl(banners.walk, null) || safeArtUrl(art, "assets/scenes/walk-path.jpg");
+    }
     const gardenBanner = document.querySelector("#screen-garden .scene-banner");
-    if (gardenBanner && banners.garden) gardenBanner.src = banners.garden;
+    if (gardenBanner) {
+      gardenBanner.src = safeArtUrl(banners.garden, null) || "assets/garden/windowsill.jpg";
+    }
     const shopBanner = document.querySelector("#screen-shop .scene-banner");
-    if (shopBanner && banners.shop) shopBanner.src = banners.shop;
+    if (shopBanner) {
+      shopBanner.src = safeArtUrl(banners.shop, null) || "assets/shop/night-window.jpg";
+    }
     const title = document.getElementById("home-title");
     if (title) {
       const label = Core.SEASON_LABELS[state.season] || "黄昏";
