@@ -5461,5 +5461,85 @@ test("sobacha job_tears barley_grass wheatgrass spirulina chlorella kelp nori 38
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("rose_hip_tea hibiscus_fresh chrysanthemum_fresh peony camellia_fresh lotus_seed_fresh lotus_leaf_fresh osmanthus_sugar 388 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["rose_hip_tea","hibiscus_fresh","chrysanthemum_fresh","peony","camellia_fresh","lotus_seed_fresh","lotus_leaf_fresh","osmanthus_sugar"];
+  const pots = ["rose_hip_teaPot","hibiscus_freshPot","chrysanthemum_freshPot","peonyPot","camellia_freshPot","lotus_seed_freshPot","lotus_leaf_freshPot","osmanthus_sugarPot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["rose_hip_tea_path","hibiscus_fresh_path","chrysanthemum_fresh_path","peony_path","camellia_fresh_path","lotus_seed_fresh_path","lotus_leaf_fresh_path","osmanthus_sugar_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 388);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["rose_hip_tea","camellia_fresh","lotus_seed_fresh"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["hibiscus_fresh","chrysanthemum_fresh","peony","lotus_leaf_fresh","osmanthus_sugar"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("rose_hip_tea_path") && game.includes("osmanthus_sugar_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["玫瑰果茶暖蜜","鲜洛神暖蜜","鲜菊花暖蜜","牡丹暖蜜","鲜山茶暖蜜","鲜莲子暖蜜","鲜荷叶暖蜜","桂花糖暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("玫瑰果茶短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("玫瑰果茶")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "rose_hip_tea_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("plum_blossom wintersweet orchid_petal bamboo_leaf_fresh bamboo_shoot_fresh ginkgo_leaf_fresh ginkgo_nut_fresh osmanthus_wine 396 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["plum_blossom","wintersweet","orchid_petal","bamboo_leaf_fresh","bamboo_shoot_fresh","ginkgo_leaf_fresh","ginkgo_nut_fresh","osmanthus_wine"];
+  const pots = ["plum_blossomPot","wintersweetPot","orchid_petalPot","bamboo_leaf_freshPot","bamboo_shoot_freshPot","ginkgo_leaf_freshPot","ginkgo_nut_freshPot","osmanthus_winePot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["plum_blossom_path","wintersweet_path","orchid_petal_path","bamboo_leaf_fresh_path","bamboo_shoot_fresh_path","ginkgo_leaf_fresh_path","ginkgo_nut_fresh_path","osmanthus_wine_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 396);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["plum_blossom","wintersweet","ginkgo_leaf_fresh","ginkgo_nut_fresh","osmanthus_wine"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["orchid_petal","bamboo_leaf_fresh","bamboo_shoot_fresh"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("plum_blossom_path") && game.includes("osmanthus_wine_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["梅花暖蜜","蜡梅暖蜜","兰花瓣暖蜜","鲜竹叶暖蜜","鲜竹笋暖蜜","鲜银杏叶暖蜜","鲜白果暖蜜","桂花酿暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("梅花短径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("梅花")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "plum_blossom_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
