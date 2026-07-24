@@ -7432,5 +7432,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_mint_chocolate",
+    "title": "巧克力薄荷两份",
+    "body": "采巧克力薄荷的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mint_chocolate": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mint_apple",
+    "title": "苹果薄荷两份",
+    "body": "采苹果薄荷的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mint_apple": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mint_ginger",
+    "title": "姜味薄荷两份",
+    "body": "采姜味薄荷的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mint_ginger": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mint_orange",
+    "title": "橙香薄荷两份",
+    "body": "采橙香薄荷的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mint_orange": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mint_lavender",
+    "title": "薰衣草薄荷两份",
+    "body": "采薰衣草薄荷的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mint_lavender": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mint_bergamot",
+    "title": "佛手柑薄荷两份",
+    "body": "采佛手柑薄荷的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mint_bergamot": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mint_corsican",
+    "title": "科西嘉薄荷两份",
+    "body": "采科西嘉薄荷的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mint_corsican": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mint_water",
+    "title": "水薄荷两份",
+    "body": "采水薄荷的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mint_water": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_melissa_fresh",
+    "title": "鲜香蜂草两份",
+    "body": "采鲜香蜂草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "melissa_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lemon_balm_var",
+    "title": "柠檬香蜂两份",
+    "body": "采柠檬香蜂的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "lemon_balm_var": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bee_balm_pink",
+    "title": "粉美国薄荷两份",
+    "body": "采粉美国薄荷的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bee_balm_pink": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bee_balm_purple",
+    "title": "紫美国薄荷两份",
+    "body": "采紫美国薄荷的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bee_balm_purple": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_oregano_hop",
+    "title": "啤酒花牛至两份",
+    "body": "采啤酒花牛至的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "oregano_hop": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_dittany",
+    "title": "白鲜两份",
+    "body": "采白鲜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "dittany": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_dictamnus",
+    "title": "白藓花两份",
+    "body": "采白藓花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "dictamnus": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_burning_bush",
+    "title": "燃烧灌木两份",
+    "body": "采燃烧灌木的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "burning_bush": 2
+      },
+      "coins": 2
+    }
   }
 ]

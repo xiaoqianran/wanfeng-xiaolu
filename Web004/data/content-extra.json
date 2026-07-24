@@ -6711,6 +6711,118 @@
       "emoji": "🟢",
       "kind": "风味",
       "seed": "mint_spearmintPot"
+    },
+    "mint_chocolate": {
+      "id": "mint_chocolate",
+      "name": "巧克力薄荷",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "mint_chocolatePot"
+    },
+    "mint_apple": {
+      "id": "mint_apple",
+      "name": "苹果薄荷",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "mint_applePot"
+    },
+    "mint_ginger": {
+      "id": "mint_ginger",
+      "name": "姜味薄荷",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "mint_gingerPot"
+    },
+    "mint_orange": {
+      "id": "mint_orange",
+      "name": "橙香薄荷",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "mint_orangePot"
+    },
+    "mint_lavender": {
+      "id": "mint_lavender",
+      "name": "薰衣草薄荷",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "mint_lavenderPot"
+    },
+    "mint_bergamot": {
+      "id": "mint_bergamot",
+      "name": "佛手柑薄荷",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "mint_bergamotPot"
+    },
+    "mint_corsican": {
+      "id": "mint_corsican",
+      "name": "科西嘉薄荷",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "mint_corsicanPot"
+    },
+    "mint_water": {
+      "id": "mint_water",
+      "name": "水薄荷",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "mint_waterPot"
+    },
+    "melissa_fresh": {
+      "id": "melissa_fresh",
+      "name": "鲜香蜂草",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "melissa_freshPot"
+    },
+    "lemon_balm_var": {
+      "id": "lemon_balm_var",
+      "name": "柠檬香蜂",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "lemon_balm_varPot"
+    },
+    "bee_balm_pink": {
+      "id": "bee_balm_pink",
+      "name": "粉美国薄荷",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "bee_balm_pinkPot"
+    },
+    "bee_balm_purple": {
+      "id": "bee_balm_purple",
+      "name": "紫美国薄荷",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "bee_balm_purplePot"
+    },
+    "oregano_hop": {
+      "id": "oregano_hop",
+      "name": "啤酒花牛至",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "oregano_hopPot"
+    },
+    "dittany": {
+      "id": "dittany",
+      "name": "白鲜",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "dittanyPot"
+    },
+    "dictamnus": {
+      "id": "dictamnus",
+      "name": "白藓花",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "dictamnusPot"
+    },
+    "burning_bush": {
+      "id": "burning_bush",
+      "name": "燃烧灌木",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "burning_bushPot"
     }
   },
   "plants": {
@@ -15453,6 +15565,182 @@
       ],
       "harvest": "mint_spearmint",
       "days": 3
+    },
+    "mint_chocolatePot": {
+      "id": "mint_chocolatePot",
+      "name": "巧克力薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "mint_chocolate",
+      "days": 3
+    },
+    "mint_applePot": {
+      "id": "mint_applePot",
+      "name": "苹果薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "mint_apple",
+      "days": 3
+    },
+    "mint_gingerPot": {
+      "id": "mint_gingerPot",
+      "name": "姜味薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "mint_ginger",
+      "days": 3
+    },
+    "mint_orangePot": {
+      "id": "mint_orangePot",
+      "name": "橙香薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "mint_orange",
+      "days": 3
+    },
+    "mint_lavenderPot": {
+      "id": "mint_lavenderPot",
+      "name": "薰衣草薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "mint_lavender",
+      "days": 3
+    },
+    "mint_bergamotPot": {
+      "id": "mint_bergamotPot",
+      "name": "佛手柑薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "mint_bergamot",
+      "days": 3
+    },
+    "mint_corsicanPot": {
+      "id": "mint_corsicanPot",
+      "name": "科西嘉薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "mint_corsican",
+      "days": 3
+    },
+    "mint_waterPot": {
+      "id": "mint_waterPot",
+      "name": "水薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "mint_water",
+      "days": 3
+    },
+    "melissa_freshPot": {
+      "id": "melissa_freshPot",
+      "name": "鲜香蜂草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "melissa_fresh",
+      "days": 3
+    },
+    "lemon_balm_varPot": {
+      "id": "lemon_balm_varPot",
+      "name": "柠檬香蜂",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "lemon_balm_var",
+      "days": 3
+    },
+    "bee_balm_pinkPot": {
+      "id": "bee_balm_pinkPot",
+      "name": "粉美国薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "bee_balm_pink",
+      "days": 3
+    },
+    "bee_balm_purplePot": {
+      "id": "bee_balm_purplePot",
+      "name": "紫美国薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "bee_balm_purple",
+      "days": 3
+    },
+    "oregano_hopPot": {
+      "id": "oregano_hopPot",
+      "name": "啤酒花牛至",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "oregano_hop",
+      "days": 3
+    },
+    "dittanyPot": {
+      "id": "dittanyPot",
+      "name": "白鲜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "dittany",
+      "days": 3
+    },
+    "dictamnusPot": {
+      "id": "dictamnusPot",
+      "name": "白藓花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "dictamnus",
+      "days": 3
+    },
+    "burning_bushPot": {
+      "id": "burning_bushPot",
+      "name": "燃烧灌木",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "burning_bush",
+      "days": 3
     }
   },
   "cups": [
@@ -22507,6 +22795,166 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "mint_chocolate",
+      "name": "巧克力薄荷",
+      "emoji": "🟤",
+      "need": "mint_chocolate",
+      "tags": [
+        "草本",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "mint_apple",
+      "name": "苹果薄荷",
+      "emoji": "🟢",
+      "need": "mint_apple",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "mint_ginger",
+      "name": "姜味薄荷",
+      "emoji": "🧡",
+      "need": "mint_ginger",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "mint_orange",
+      "name": "橙香薄荷",
+      "emoji": "🧡",
+      "need": "mint_orange",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "mint_lavender",
+      "name": "薰衣草薄荷",
+      "emoji": "💜",
+      "need": "mint_lavender",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "mint_bergamot",
+      "name": "佛手柑薄荷",
+      "emoji": "🟢",
+      "need": "mint_bergamot",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "mint_corsican",
+      "name": "科西嘉薄荷",
+      "emoji": "🟢",
+      "need": "mint_corsican",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "mint_water",
+      "name": "水薄荷",
+      "emoji": "🟢",
+      "need": "mint_water",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "melissa_fresh",
+      "name": "鲜香蜂草",
+      "emoji": "🟢",
+      "need": "melissa_fresh",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "lemon_balm_var",
+      "name": "柠檬香蜂",
+      "emoji": "💛",
+      "need": "lemon_balm_var",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "bee_balm_pink",
+      "name": "粉美国薄荷",
+      "emoji": "💗",
+      "need": "bee_balm_pink",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "bee_balm_purple",
+      "name": "紫美国薄荷",
+      "emoji": "💜",
+      "need": "bee_balm_purple",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "oregano_hop",
+      "name": "啤酒花牛至",
+      "emoji": "🟢",
+      "need": "oregano_hop",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "dittany",
+      "name": "白鲜",
+      "emoji": "⚪",
+      "need": "dittany",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "dictamnus",
+      "name": "白藓花",
+      "emoji": "💗",
+      "need": "dictamnus",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "burning_bush",
+      "name": "燃烧灌木",
+      "emoji": "🔴",
+      "need": "burning_bush",
+      "tags": [
+        "花香",
+        "草本"
       ]
     }
   ],
@@ -33065,6 +33513,246 @@
         "honey",
         "tea_leaf",
         "mint"
+      ]
+    },
+    {
+      "name": "采巧克力薄荷的旅人",
+      "avatar": "🟤",
+      "wish": "巧克力薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "甜蜜"
+      ],
+      "flavors": [
+        "mint_chocolate",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采苹果薄荷的药师",
+      "avatar": "🟢",
+      "wish": "苹果薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "mint_apple",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采姜味薄荷的旅人",
+      "avatar": "🧡",
+      "wish": "姜味薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "mint_ginger",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采橙香薄荷的药师",
+      "avatar": "🧡",
+      "wish": "橙香薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "mint_orange",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采薰衣草薄荷的旅人",
+      "avatar": "💜",
+      "wish": "薰衣草薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "mint_lavender",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采佛手柑薄荷的药师",
+      "avatar": "🟢",
+      "wish": "佛手柑薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "mint_bergamot",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采科西嘉薄荷的旅人",
+      "avatar": "🟢",
+      "wish": "科西嘉薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "mint_corsican",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采水薄荷的药师",
+      "avatar": "🟢",
+      "wish": "水薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "mint_water",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采鲜香蜂草的旅人",
+      "avatar": "🟢",
+      "wish": "鲜香蜂草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "melissa_fresh",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采柠檬香蜂的药师",
+      "avatar": "💛",
+      "wish": "柠檬香蜂或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "lemon_balm_var",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采粉美国薄荷的旅人",
+      "avatar": "💗",
+      "wish": "粉美国薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "bee_balm_pink",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采紫美国薄荷的药师",
+      "avatar": "💜",
+      "wish": "紫美国薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "bee_balm_purple",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采啤酒花牛至的旅人",
+      "avatar": "🟢",
+      "wish": "啤酒花牛至或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "oregano_hop",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采白鲜的药师",
+      "avatar": "⚪",
+      "wish": "白鲜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "dittany",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采白藓花的旅人",
+      "avatar": "💗",
+      "wish": "白藓花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "dictamnus",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采燃烧灌木的药师",
+      "avatar": "🔴",
+      "wish": "燃烧灌木或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "burning_bush",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
       ]
     }
   ],
