@@ -3319,5 +3319,44 @@ test("maple_syrup sesame plantable 78 themes", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("saffron walnut plantable 80 themes path_eighty", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.saffron && j.plants.saffronPot);
+  assert.ok(j.items.walnut && j.plants.walnutPot);
+  assert.ok(j.flavors.some((f) => f.id === "saffron"));
+  assert.ok(j.flavors.some((f) => f.id === "walnut"));
+  assert.ok(j.customers.some((c) => c.name === "泡藏红花的阿婆"));
+  assert.ok(j.customers.some((c) => c.name === "砸核桃的爷爷"));
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  s.bag.saffron = 1;
+  s.bag.walnut = 1;
+  assert.ok(core.plantSeed(s, 0, "saffron", cat).ok);
+  assert.ok(core.plantSeed(s, 1, "walnut", cat).ok);
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "saffron_terrace"));
+  assert.ok(themes.some((th) => th.id === "walnut_path"));
+  assert.ok(themes.length >= 80);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "path_eighty"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "saffron_walker"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "walnut_walker"));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  assert.ok(winterPool.includes("saffron") && winterPool.includes("walnut"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("saffron_terrace") && game.includes("walnut_path"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "藏红花暖蜜"));
+  assert.ok(recipes.some((r) => r.name === "核桃暖茶"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("藏红花露台") && man.includes("核桃树径"));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_walnut_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
