@@ -6375,6 +6375,118 @@
       "emoji": "⚪",
       "kind": "风味",
       "seed": "clematis_vitalbaPot"
+    },
+    "speedwell_germander": {
+      "id": "speedwell_germander",
+      "name": "石蚕婆婆纳",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "speedwell_germanderPot"
+    },
+    "germander": {
+      "id": "germander",
+      "name": "石蚕",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "germanderPot"
+    },
+    "betony_fresh": {
+      "id": "betony_fresh",
+      "name": "鲜水苏",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "betony_freshPot"
+    },
+    "selfheal_fresh": {
+      "id": "selfheal_fresh",
+      "name": "鲜夏枯草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "selfheal_freshPot"
+    },
+    "woundwort": {
+      "id": "woundwort",
+      "name": "水苏属",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "woundwortPot"
+    },
+    "hedge_woundwort": {
+      "id": "hedge_woundwort",
+      "name": "篱水苏",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "hedge_woundwortPot"
+    },
+    "marsh_woundwort": {
+      "id": "marsh_woundwort",
+      "name": "沼水苏",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "marsh_woundwortPot"
+    },
+    "black_horehound": {
+      "id": "black_horehound",
+      "name": "黑夏至草",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "black_horehoundPot"
+    },
+    "white_horehound": {
+      "id": "white_horehound",
+      "name": "白夏至草",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "white_horehoundPot"
+    },
+    "motherwort_fresh": {
+      "id": "motherwort_fresh",
+      "name": "鲜益母草",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "motherwort_freshPot"
+    },
+    "skullcap_fresh": {
+      "id": "skullcap_fresh",
+      "name": "鲜黄芩",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "skullcap_freshPot"
+    },
+    "baikal_skullcap": {
+      "id": "baikal_skullcap",
+      "name": "黄芩根",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "baikal_skullcapPot"
+    },
+    "scutellaria": {
+      "id": "scutellaria",
+      "name": "盔状黄芩",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "scutellariaPot"
+    },
+    "bugle_fresh": {
+      "id": "bugle_fresh",
+      "name": "鲜筋骨草",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "bugle_freshPot"
+    },
+    "ground_ivy_fresh": {
+      "id": "ground_ivy_fresh",
+      "name": "鲜连钱草",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "ground_ivy_freshPot"
+    },
+    "alehoof": {
+      "id": "alehoof",
+      "name": "啤酒花草",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "alehoofPot"
     }
   },
   "plants": {
@@ -14589,6 +14701,182 @@
       ],
       "harvest": "clematis_vitalba",
       "days": 3
+    },
+    "speedwell_germanderPot": {
+      "id": "speedwell_germanderPot",
+      "name": "石蚕婆婆纳",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "speedwell_germander",
+      "days": 3
+    },
+    "germanderPot": {
+      "id": "germanderPot",
+      "name": "石蚕",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "germander",
+      "days": 3
+    },
+    "betony_freshPot": {
+      "id": "betony_freshPot",
+      "name": "鲜水苏",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "betony_fresh",
+      "days": 3
+    },
+    "selfheal_freshPot": {
+      "id": "selfheal_freshPot",
+      "name": "鲜夏枯草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "selfheal_fresh",
+      "days": 3
+    },
+    "woundwortPot": {
+      "id": "woundwortPot",
+      "name": "水苏属",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "woundwort",
+      "days": 3
+    },
+    "hedge_woundwortPot": {
+      "id": "hedge_woundwortPot",
+      "name": "篱水苏",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "hedge_woundwort",
+      "days": 3
+    },
+    "marsh_woundwortPot": {
+      "id": "marsh_woundwortPot",
+      "name": "沼水苏",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "marsh_woundwort",
+      "days": 3
+    },
+    "black_horehoundPot": {
+      "id": "black_horehoundPot",
+      "name": "黑夏至草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "black_horehound",
+      "days": 3
+    },
+    "white_horehoundPot": {
+      "id": "white_horehoundPot",
+      "name": "白夏至草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "white_horehound",
+      "days": 3
+    },
+    "motherwort_freshPot": {
+      "id": "motherwort_freshPot",
+      "name": "鲜益母草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "motherwort_fresh",
+      "days": 3
+    },
+    "skullcap_freshPot": {
+      "id": "skullcap_freshPot",
+      "name": "鲜黄芩",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "skullcap_fresh",
+      "days": 3
+    },
+    "baikal_skullcapPot": {
+      "id": "baikal_skullcapPot",
+      "name": "黄芩根",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "baikal_skullcap",
+      "days": 4
+    },
+    "scutellariaPot": {
+      "id": "scutellariaPot",
+      "name": "盔状黄芩",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "scutellaria",
+      "days": 3
+    },
+    "bugle_freshPot": {
+      "id": "bugle_freshPot",
+      "name": "鲜筋骨草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "bugle_fresh",
+      "days": 3
+    },
+    "ground_ivy_freshPot": {
+      "id": "ground_ivy_freshPot",
+      "name": "鲜连钱草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "ground_ivy_fresh",
+      "days": 3
+    },
+    "alehoofPot": {
+      "id": "alehoofPot",
+      "name": "啤酒花草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "alehoof",
+      "days": 3
     }
   },
   "cups": [
@@ -21163,6 +21451,166 @@
       "tags": [
         "花香",
         "草本"
+      ]
+    },
+    {
+      "id": "speedwell_germander",
+      "name": "石蚕婆婆纳",
+      "emoji": "💙",
+      "need": "speedwell_germander",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "germander",
+      "name": "石蚕",
+      "emoji": "🟢",
+      "need": "germander",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "betony_fresh",
+      "name": "鲜水苏",
+      "emoji": "💜",
+      "need": "betony_fresh",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "selfheal_fresh",
+      "name": "鲜夏枯草",
+      "emoji": "💜",
+      "need": "selfheal_fresh",
+      "tags": [
+        "草本",
+        "花香"
+      ]
+    },
+    {
+      "id": "woundwort",
+      "name": "水苏属",
+      "emoji": "💗",
+      "need": "woundwort",
+      "tags": [
+        "草本",
+        "花香"
+      ]
+    },
+    {
+      "id": "hedge_woundwort",
+      "name": "篱水苏",
+      "emoji": "💗",
+      "need": "hedge_woundwort",
+      "tags": [
+        "草本",
+        "花香"
+      ]
+    },
+    {
+      "id": "marsh_woundwort",
+      "name": "沼水苏",
+      "emoji": "💗",
+      "need": "marsh_woundwort",
+      "tags": [
+        "草本",
+        "花香"
+      ]
+    },
+    {
+      "id": "black_horehound",
+      "name": "黑夏至草",
+      "emoji": "🟣",
+      "need": "black_horehound",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "white_horehound",
+      "name": "白夏至草",
+      "emoji": "⚪",
+      "need": "white_horehound",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "motherwort_fresh",
+      "name": "鲜益母草",
+      "emoji": "💗",
+      "need": "motherwort_fresh",
+      "tags": [
+        "草本",
+        "花香"
+      ]
+    },
+    {
+      "id": "skullcap_fresh",
+      "name": "鲜黄芩",
+      "emoji": "💙",
+      "need": "skullcap_fresh",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "baikal_skullcap",
+      "name": "黄芩根",
+      "emoji": "🟤",
+      "need": "baikal_skullcap",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "scutellaria",
+      "name": "盔状黄芩",
+      "emoji": "💙",
+      "need": "scutellaria",
+      "tags": [
+        "草本",
+        "花香"
+      ]
+    },
+    {
+      "id": "bugle_fresh",
+      "name": "鲜筋骨草",
+      "emoji": "💙",
+      "need": "bugle_fresh",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "ground_ivy_fresh",
+      "name": "鲜连钱草",
+      "emoji": "🟢",
+      "need": "ground_ivy_fresh",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "alehoof",
+      "name": "啤酒花草",
+      "emoji": "🟢",
+      "need": "alehoof",
+      "tags": [
+        "草本",
+        "清爽"
       ]
     }
   ],
@@ -31001,6 +31449,246 @@
         "honey",
         "tea_leaf",
         "lavender_bud"
+      ]
+    },
+    {
+      "name": "采石蚕婆婆纳的旅人",
+      "avatar": "💙",
+      "wish": "石蚕婆婆纳或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "speedwell_germander",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采石蚕的药师",
+      "avatar": "🟢",
+      "wish": "石蚕或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "germander",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采鲜水苏的旅人",
+      "avatar": "💜",
+      "wish": "鲜水苏或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "betony_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜夏枯草的药师",
+      "avatar": "💜",
+      "wish": "鲜夏枯草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "花香"
+      ],
+      "flavors": [
+        "selfheal_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采水苏属的旅人",
+      "avatar": "💗",
+      "wish": "水苏属或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "花香"
+      ],
+      "flavors": [
+        "woundwort",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采篱水苏的药师",
+      "avatar": "💗",
+      "wish": "篱水苏或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "花香"
+      ],
+      "flavors": [
+        "hedge_woundwort",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采沼水苏的旅人",
+      "avatar": "💗",
+      "wish": "沼水苏或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "花香"
+      ],
+      "flavors": [
+        "marsh_woundwort",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采黑夏至草的药师",
+      "avatar": "🟣",
+      "wish": "黑夏至草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "black_horehound",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采白夏至草的旅人",
+      "avatar": "⚪",
+      "wish": "白夏至草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "white_horehound",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜益母草的药师",
+      "avatar": "💗",
+      "wish": "鲜益母草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "花香"
+      ],
+      "flavors": [
+        "motherwort_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜黄芩的旅人",
+      "avatar": "💙",
+      "wish": "鲜黄芩或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "skullcap_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖黄芩根的药师",
+      "avatar": "🟤",
+      "wish": "黄芩根或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "baikal_skullcap",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采盔状黄芩的旅人",
+      "avatar": "💙",
+      "wish": "盔状黄芩或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "花香"
+      ],
+      "flavors": [
+        "scutellaria",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜筋骨草的药师",
+      "avatar": "💙",
+      "wish": "鲜筋骨草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "bugle_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜连钱草的旅人",
+      "avatar": "🟢",
+      "wish": "鲜连钱草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "ground_ivy_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采啤酒花草的药师",
+      "avatar": "🟢",
+      "wish": "啤酒花草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "alehoof",
+        "honey",
+        "tea_leaf",
+        "mint"
       ]
     }
   ],

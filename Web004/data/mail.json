@@ -6904,5 +6904,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_speedwell_germander",
+    "title": "石蚕婆婆纳两份",
+    "body": "采石蚕婆婆纳的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "speedwell_germander": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_germander",
+    "title": "石蚕两份",
+    "body": "采石蚕的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "germander": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_betony_fresh",
+    "title": "鲜水苏两份",
+    "body": "采鲜水苏的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "betony_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_selfheal_fresh",
+    "title": "鲜夏枯草两份",
+    "body": "采鲜夏枯草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "selfheal_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_woundwort",
+    "title": "水苏属两份",
+    "body": "采水苏属的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "woundwort": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_hedge_woundwort",
+    "title": "篱水苏两份",
+    "body": "采篱水苏的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "hedge_woundwort": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_marsh_woundwort",
+    "title": "沼水苏两份",
+    "body": "采沼水苏的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "marsh_woundwort": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_black_horehound",
+    "title": "黑夏至草两份",
+    "body": "采黑夏至草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "black_horehound": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_white_horehound",
+    "title": "白夏至草两份",
+    "body": "采白夏至草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "white_horehound": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_motherwort_fresh",
+    "title": "鲜益母草两份",
+    "body": "采鲜益母草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "motherwort_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_skullcap_fresh",
+    "title": "鲜黄芩两份",
+    "body": "采鲜黄芩的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "skullcap_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_baikal_skullcap",
+    "title": "黄芩根两份",
+    "body": "炖黄芩根的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "baikal_skullcap": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_scutellaria",
+    "title": "盔状黄芩两份",
+    "body": "采盔状黄芩的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "scutellaria": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bugle_fresh",
+    "title": "鲜筋骨草两份",
+    "body": "采鲜筋骨草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bugle_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ground_ivy_fresh",
+    "title": "鲜连钱草两份",
+    "body": "采鲜连钱草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "ground_ivy_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_alehoof",
+    "title": "啤酒花草两份",
+    "body": "采啤酒花草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "alehoof": 2
+      },
+      "coins": 2
+    }
   }
 ]
