@@ -2840,6 +2840,34 @@
       "emoji": "🧅",
       "kind": "风味",
       "seed": "chivePot"
+    },
+    "parsley": {
+      "id": "parsley",
+      "name": "欧芹",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "parsleyPot"
+    },
+    "tarragon": {
+      "id": "tarragon",
+      "name": "龙蒿",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "tarragonPot"
+    },
+    "avocado": {
+      "id": "avocado",
+      "name": "牛油果",
+      "emoji": "🥑",
+      "kind": "风味",
+      "seed": "avocadoPot"
+    },
+    "date_fruit": {
+      "id": "date_fruit",
+      "name": "椰枣",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "dateFruitPot"
     }
   },
   "plants": {
@@ -5499,6 +5527,50 @@
       ],
       "harvest": "chive",
       "days": 2
+    },
+    "parsleyPot": {
+      "id": "parsleyPot",
+      "name": "欧芹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "parsley",
+      "days": 2
+    },
+    "tarragonPot": {
+      "id": "tarragonPot",
+      "name": "龙蒿",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "tarragon",
+      "days": 3
+    },
+    "avocadoPot": {
+      "id": "avocadoPot",
+      "name": "牛油果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🥑"
+      ],
+      "harvest": "avocado",
+      "days": 5
+    },
+    "dateFruitPot": {
+      "id": "dateFruitPot",
+      "name": "椰枣",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "date_fruit",
+      "days": 4
     }
   },
   "cups": [
@@ -7023,6 +7095,46 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "parsley",
+      "name": "欧芹",
+      "emoji": "🌿",
+      "need": "parsley",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "tarragon",
+      "name": "龙蒿",
+      "emoji": "🌿",
+      "need": "tarragon",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "avocado",
+      "name": "牛油果",
+      "emoji": "🥑",
+      "need": "avocado",
+      "tags": [
+        "果香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "date_fruit",
+      "name": "椰枣",
+      "emoji": "🟤",
+      "need": "date_fruit",
+      "tags": [
+        "甜蜜",
+        "温暖"
       ]
     }
   ],
@@ -9284,6 +9396,67 @@
         "mint",
         "oregano",
         "leaf"
+      ]
+    },
+    {
+      "name": "撒欧芹的店员",
+      "avatar": "🌿",
+      "wish": "欧芹或薄荷，清爽一点，装饰好看。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "parsley",
+        "mint",
+        "chive",
+        "oregano"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "泡龙蒿的旅人",
+      "avatar": "🧳",
+      "wish": "龙蒿或蜜，温柔一点，暖杯也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "tarragon",
+        "honey",
+        "tea_leaf",
+        "bay_leaf"
+      ]
+    },
+    {
+      "name": "捣牛油果的厨子",
+      "avatar": "🥑",
+      "wish": "牛油果或蜜，温柔一点，装饰随意。",
+      "tags": [
+        "果香",
+        "温柔"
+      ],
+      "flavors": [
+        "avocado",
+        "honey",
+        "lime",
+        "mint"
+      ]
+    },
+    {
+      "name": "煮椰枣的阿婆",
+      "avatar": "🟤",
+      "wish": "椰枣或蜜，甜蜜温暖，暖杯最好。",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ],
+      "flavors": [
+        "date_fruit",
+        "honey",
+        "tea_leaf",
+        "cocoa"
       ]
     }
   ],
