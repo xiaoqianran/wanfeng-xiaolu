@@ -1789,5 +1789,49 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_echinacea",
+    "title": "紫锥菊两朵",
+    "body": "采紫锥菊的药师来信：新摘的。给你两朵，别放太久。",
+    "effect": {
+      "items": {
+        "echinacea": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_comfrey",
+    "title": "聚合草两叶",
+    "body": "采聚合草的旅人来信：新摘的。给你两叶，别放太久。",
+    "effect": {
+      "items": {
+        "comfrey": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_feverfew",
+    "title": "小白菊两朵",
+    "body": "采小白菊的药师来信：新摘的。给你两朵，别放太久。",
+    "effect": {
+      "items": {
+        "feverfew": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lemon_verbena",
+    "title": "柠檬马鞭草两叶",
+    "body": "采柠檬马鞭草的旅人来信：新摘的。给你两叶，别放太久。",
+    "effect": {
+      "items": {
+        "lemon_verbena": 2
+      },
+      "coins": 2
+    }
   }
 ]

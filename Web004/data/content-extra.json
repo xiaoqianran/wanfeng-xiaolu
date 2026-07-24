@@ -3120,6 +3120,34 @@
       "emoji": "🌼",
       "kind": "风味",
       "seed": "arnicaPot"
+    },
+    "echinacea": {
+      "id": "echinacea",
+      "name": "紫锥菊",
+      "emoji": "🌸",
+      "kind": "风味",
+      "seed": "echinaceaPot"
+    },
+    "comfrey": {
+      "id": "comfrey",
+      "name": "聚合草",
+      "emoji": "💚",
+      "kind": "风味",
+      "seed": "comfreyPot"
+    },
+    "feverfew": {
+      "id": "feverfew",
+      "name": "小白菊",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "feverfewPot"
+    },
+    "lemon_verbena": {
+      "id": "lemon_verbena",
+      "name": "柠檬马鞭草",
+      "emoji": "🍃",
+      "kind": "风味",
+      "seed": "lemon_verbenaPot"
     }
   },
   "plants": {
@@ -6219,6 +6247,50 @@
       ],
       "harvest": "arnica",
       "days": 3
+    },
+    "echinaceaPot": {
+      "id": "echinaceaPot",
+      "name": "紫锥菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌸"
+      ],
+      "harvest": "echinacea",
+      "days": 4
+    },
+    "comfreyPot": {
+      "id": "comfreyPot",
+      "name": "聚合草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💚"
+      ],
+      "harvest": "comfrey",
+      "days": 4
+    },
+    "feverfewPot": {
+      "id": "feverfewPot",
+      "name": "小白菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "feverfew",
+      "days": 3
+    },
+    "lemon_verbenaPot": {
+      "id": "lemon_verbenaPot",
+      "name": "柠檬马鞭草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍃"
+      ],
+      "harvest": "lemon_verbena",
+      "days": 3
     }
   },
   "cups": [
@@ -8143,6 +8215,46 @@
       "tags": [
         "花香",
         "草本"
+      ]
+    },
+    {
+      "id": "echinacea",
+      "name": "紫锥菊",
+      "emoji": "🌸",
+      "need": "echinacea",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "comfrey",
+      "name": "聚合草",
+      "emoji": "💚",
+      "need": "comfrey",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "feverfew",
+      "name": "小白菊",
+      "emoji": "🤍",
+      "need": "feverfew",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "lemon_verbena",
+      "name": "柠檬马鞭草",
+      "emoji": "🍃",
+      "need": "lemon_verbena",
+      "tags": [
+        "草本",
+        "清爽"
       ]
     }
   ],
@@ -11006,6 +11118,66 @@
         "honey",
         "calendula",
         "tea_leaf"
+      ]
+    },
+    {
+      "name": "采紫锥菊的药师",
+      "avatar": "🌸",
+      "wish": "紫锥菊或蜜，花香草本，暖杯也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "echinacea",
+        "honey",
+        "yarrow",
+        "tea_leaf"
+      ]
+    },
+    {
+      "name": "采聚合草的旅人",
+      "avatar": "💚",
+      "wish": "聚合草或蜜，草本温柔，暖杯也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "comfrey",
+        "honey",
+        "nettle",
+        "tea_leaf"
+      ]
+    },
+    {
+      "name": "采小白菊的药师",
+      "avatar": "🤍",
+      "wish": "小白菊或蜜，花香清爽，凉杯也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "feverfew",
+        "honey",
+        "chamomile",
+        "mint"
+      ]
+    },
+    {
+      "name": "采柠檬马鞭草的旅人",
+      "avatar": "🍃",
+      "wish": "柠檬马鞭草或蜜，草本清爽，凉杯也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "lemon_verbena",
+        "honey",
+        "lemon",
+        "mint"
       ]
     }
   ],
