@@ -6552,5 +6552,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_bluebell_fresh",
+    "title": "鲜风铃草两份",
+    "body": "采鲜风铃草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bluebell_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_primula_veris",
+    "title": "黄花九轮两份",
+    "body": "采黄花九轮的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "primula_veris": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_oxlip",
+    "title": "高报春两份",
+    "body": "采高报春的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "oxlip": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cowslip_fresh",
+    "title": "鲜九轮草两份",
+    "body": "采鲜九轮草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cowslip_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood_anemone",
+    "title": "林银莲两份",
+    "body": "采林银莲的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood_anemone": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood_sorrel_pink",
+    "title": "粉酢浆草两份",
+    "body": "采粉酢浆草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood_sorrel_pink": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_greater_stitchwort",
+    "title": "大繁缕两份",
+    "body": "采大繁缕的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "greater_stitchwort": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_red_campion",
+    "title": "红剪秋罗两份",
+    "body": "采红剪秋罗的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "red_campion": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_white_campion",
+    "title": "白剪秋罗两份",
+    "body": "采白剪秋罗的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "white_campion": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ragged_robin",
+    "title": "剪秋罗羽两份",
+    "body": "采剪秋罗羽的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "ragged_robin": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cuckooflower",
+    "title": "布谷鸟剪两份",
+    "body": "采布谷鸟剪的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cuckooflower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lady_smock",
+    "title": "水田芥花两份",
+    "body": "采水田芥花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "lady_smock": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garlic_mustard_fl",
+    "title": "蒜芥花两份",
+    "body": "采蒜芥花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garlic_mustard_fl": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_hedge_garlic_seed",
+    "title": "蒜芥籽两份",
+    "body": "采蒜芥籽的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "hedge_garlic_seed": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_jack_hedge_leaf",
+    "title": "篱蒜芥叶两份",
+    "body": "采篱蒜芥叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "jack_hedge_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wild_mustard",
+    "title": "野芥两份",
+    "body": "采野芥的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wild_mustard": 2
+      },
+      "coins": 2
+    }
   }
 ]

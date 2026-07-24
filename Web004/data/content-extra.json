@@ -6151,6 +6151,118 @@
       "emoji": "🔴",
       "kind": "风味",
       "seed": "yew_berryPot"
+    },
+    "bluebell_fresh": {
+      "id": "bluebell_fresh",
+      "name": "鲜风铃草",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "bluebell_freshPot"
+    },
+    "primula_veris": {
+      "id": "primula_veris",
+      "name": "黄花九轮",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "primula_verisPot"
+    },
+    "oxlip": {
+      "id": "oxlip",
+      "name": "高报春",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "oxlipPot"
+    },
+    "cowslip_fresh": {
+      "id": "cowslip_fresh",
+      "name": "鲜九轮草",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "cowslip_freshPot"
+    },
+    "wood_anemone": {
+      "id": "wood_anemone",
+      "name": "林银莲",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "wood_anemonePot"
+    },
+    "wood_sorrel_pink": {
+      "id": "wood_sorrel_pink",
+      "name": "粉酢浆草",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "wood_sorrel_pinkPot"
+    },
+    "greater_stitchwort": {
+      "id": "greater_stitchwort",
+      "name": "大繁缕",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "greater_stitchwortPot"
+    },
+    "red_campion": {
+      "id": "red_campion",
+      "name": "红剪秋罗",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "red_campionPot"
+    },
+    "white_campion": {
+      "id": "white_campion",
+      "name": "白剪秋罗",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "white_campionPot"
+    },
+    "ragged_robin": {
+      "id": "ragged_robin",
+      "name": "剪秋罗羽",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "ragged_robinPot"
+    },
+    "cuckooflower": {
+      "id": "cuckooflower",
+      "name": "布谷鸟剪",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "cuckooflowerPot"
+    },
+    "lady_smock": {
+      "id": "lady_smock",
+      "name": "水田芥花",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "lady_smockPot"
+    },
+    "garlic_mustard_fl": {
+      "id": "garlic_mustard_fl",
+      "name": "蒜芥花",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "garlic_mustard_flPot"
+    },
+    "hedge_garlic_seed": {
+      "id": "hedge_garlic_seed",
+      "name": "蒜芥籽",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "hedge_garlic_seedPot"
+    },
+    "jack_hedge_leaf": {
+      "id": "jack_hedge_leaf",
+      "name": "篱蒜芥叶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "jack_hedge_leafPot"
+    },
+    "wild_mustard": {
+      "id": "wild_mustard",
+      "name": "野芥",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "wild_mustardPot"
     }
   },
   "plants": {
@@ -14013,6 +14125,182 @@
       ],
       "harvest": "yew_berry",
       "days": 4
+    },
+    "bluebell_freshPot": {
+      "id": "bluebell_freshPot",
+      "name": "鲜风铃草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "bluebell_fresh",
+      "days": 3
+    },
+    "primula_verisPot": {
+      "id": "primula_verisPot",
+      "name": "黄花九轮",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "primula_veris",
+      "days": 3
+    },
+    "oxlipPot": {
+      "id": "oxlipPot",
+      "name": "高报春",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "oxlip",
+      "days": 3
+    },
+    "cowslip_freshPot": {
+      "id": "cowslip_freshPot",
+      "name": "鲜九轮草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "cowslip_fresh",
+      "days": 3
+    },
+    "wood_anemonePot": {
+      "id": "wood_anemonePot",
+      "name": "林银莲",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "wood_anemone",
+      "days": 3
+    },
+    "wood_sorrel_pinkPot": {
+      "id": "wood_sorrel_pinkPot",
+      "name": "粉酢浆草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "wood_sorrel_pink",
+      "days": 3
+    },
+    "greater_stitchwortPot": {
+      "id": "greater_stitchwortPot",
+      "name": "大繁缕",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "greater_stitchwort",
+      "days": 3
+    },
+    "red_campionPot": {
+      "id": "red_campionPot",
+      "name": "红剪秋罗",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "red_campion",
+      "days": 3
+    },
+    "white_campionPot": {
+      "id": "white_campionPot",
+      "name": "白剪秋罗",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "white_campion",
+      "days": 3
+    },
+    "ragged_robinPot": {
+      "id": "ragged_robinPot",
+      "name": "剪秋罗羽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "ragged_robin",
+      "days": 3
+    },
+    "cuckooflowerPot": {
+      "id": "cuckooflowerPot",
+      "name": "布谷鸟剪",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "cuckooflower",
+      "days": 3
+    },
+    "lady_smockPot": {
+      "id": "lady_smockPot",
+      "name": "水田芥花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "lady_smock",
+      "days": 3
+    },
+    "garlic_mustard_flPot": {
+      "id": "garlic_mustard_flPot",
+      "name": "蒜芥花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "garlic_mustard_fl",
+      "days": 3
+    },
+    "hedge_garlic_seedPot": {
+      "id": "hedge_garlic_seedPot",
+      "name": "蒜芥籽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "hedge_garlic_seed",
+      "days": 3
+    },
+    "jack_hedge_leafPot": {
+      "id": "jack_hedge_leafPot",
+      "name": "篱蒜芥叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "jack_hedge_leaf",
+      "days": 3
+    },
+    "wild_mustardPot": {
+      "id": "wild_mustardPot",
+      "name": "野芥",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "wild_mustard",
+      "days": 3
     }
   },
   "cups": [
@@ -20267,6 +20555,166 @@
       "tags": [
         "果香",
         "草本"
+      ]
+    },
+    {
+      "id": "bluebell_fresh",
+      "name": "鲜风铃草",
+      "emoji": "💙",
+      "need": "bluebell_fresh",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "primula_veris",
+      "name": "黄花九轮",
+      "emoji": "🟡",
+      "need": "primula_veris",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "oxlip",
+      "name": "高报春",
+      "emoji": "💛",
+      "need": "oxlip",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "cowslip_fresh",
+      "name": "鲜九轮草",
+      "emoji": "🟡",
+      "need": "cowslip_fresh",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "wood_anemone",
+      "name": "林银莲",
+      "emoji": "🤍",
+      "need": "wood_anemone",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "wood_sorrel_pink",
+      "name": "粉酢浆草",
+      "emoji": "💗",
+      "need": "wood_sorrel_pink",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "greater_stitchwort",
+      "name": "大繁缕",
+      "emoji": "⚪",
+      "need": "greater_stitchwort",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "red_campion",
+      "name": "红剪秋罗",
+      "emoji": "🔴",
+      "need": "red_campion",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "white_campion",
+      "name": "白剪秋罗",
+      "emoji": "⚪",
+      "need": "white_campion",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "ragged_robin",
+      "name": "剪秋罗羽",
+      "emoji": "💗",
+      "need": "ragged_robin",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "cuckooflower",
+      "name": "布谷鸟剪",
+      "emoji": "🤍",
+      "need": "cuckooflower",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "lady_smock",
+      "name": "水田芥花",
+      "emoji": "🤍",
+      "need": "lady_smock",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "garlic_mustard_fl",
+      "name": "蒜芥花",
+      "emoji": "⚪",
+      "need": "garlic_mustard_fl",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "hedge_garlic_seed",
+      "name": "蒜芥籽",
+      "emoji": "🟢",
+      "need": "hedge_garlic_seed",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "jack_hedge_leaf",
+      "name": "篱蒜芥叶",
+      "emoji": "🟢",
+      "need": "jack_hedge_leaf",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "wild_mustard",
+      "name": "野芥",
+      "emoji": "🟡",
+      "need": "wild_mustard",
+      "tags": [
+        "草本",
+        "清爽"
       ]
     }
   ],
@@ -29625,6 +30073,246 @@
         "honey",
         "tea_leaf",
         "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜风铃草的旅人",
+      "avatar": "💙",
+      "wish": "鲜风铃草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "bluebell_fresh",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采黄花九轮的药师",
+      "avatar": "🟡",
+      "wish": "黄花九轮或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "primula_veris",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采高报春的旅人",
+      "avatar": "💛",
+      "wish": "高报春或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "oxlip",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜九轮草的药师",
+      "avatar": "🟡",
+      "wish": "鲜九轮草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "cowslip_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采林银莲的旅人",
+      "avatar": "🤍",
+      "wish": "林银莲或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "wood_anemone",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采粉酢浆草的药师",
+      "avatar": "💗",
+      "wish": "粉酢浆草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "wood_sorrel_pink",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采大繁缕的旅人",
+      "avatar": "⚪",
+      "wish": "大繁缕或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "greater_stitchwort",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采红剪秋罗的药师",
+      "avatar": "🔴",
+      "wish": "红剪秋罗或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "red_campion",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采白剪秋罗的旅人",
+      "avatar": "⚪",
+      "wish": "白剪秋罗或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "white_campion",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采剪秋罗羽的药师",
+      "avatar": "💗",
+      "wish": "剪秋罗羽或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "ragged_robin",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采布谷鸟剪的旅人",
+      "avatar": "🤍",
+      "wish": "布谷鸟剪或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "cuckooflower",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采水田芥花的药师",
+      "avatar": "🤍",
+      "wish": "水田芥花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "lady_smock",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采蒜芥花的旅人",
+      "avatar": "⚪",
+      "wish": "蒜芥花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "garlic_mustard_fl",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采蒜芥籽的药师",
+      "avatar": "🟢",
+      "wish": "蒜芥籽或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "hedge_garlic_seed",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采篱蒜芥叶的旅人",
+      "avatar": "🟢",
+      "wish": "篱蒜芥叶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "jack_hedge_leaf",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采野芥的药师",
+      "avatar": "🟡",
+      "wish": "野芥或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "wild_mustard",
+        "honey",
+        "tea_leaf",
+        "mint"
       ]
     }
   ],
