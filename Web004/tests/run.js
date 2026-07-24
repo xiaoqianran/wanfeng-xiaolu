@@ -3638,5 +3638,49 @@ test("parsley tarragon avocado date 102 themes path_hundred", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("hyssop chervil sorrel lovage 106 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["hyssop", "chervil", "sorrel", "lovage"];
+  const pots = ["hyssopPot", "chervilPot", "sorrelPot", "lovagePot"];
+  ids.forEach((id, i) => {
+    assert.ok(j.items[id] && j.plants[pots[i]], id);
+  });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id, i) => {
+    s.bag[id] = 1;
+    assert.ok(core.plantSeed(s, i, id, cat).ok, id);
+  });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["hyssop_path", "chervil_lane", "sorrel_path", "lovage_courtyard"].forEach((tid) => {
+    assert.ok(themes.some((th) => th.id === tid), tid);
+  });
+  assert.ok(themes.length >= 106);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  assert.ok(summerPool.includes("chervil") && summerPool.includes("sorrel"));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  assert.ok(winterPool.includes("hyssop") && winterPool.includes("lovage"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("hyssop_path") && game.includes("lovage_courtyard"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "神香草暖蜜"));
+  assert.ok(recipes.some((r) => r.name === "香芹汽泡"));
+  assert.ok(recipes.some((r) => r.name === "酸模汽泡"));
+  assert.ok(recipes.some((r) => r.name === "独活暖茶"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "hyssop_walker"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "lovage_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("神香草短径") && man.includes("独活小院"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("神香草") || t.includes("酸模")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_lovage_courtyard" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
