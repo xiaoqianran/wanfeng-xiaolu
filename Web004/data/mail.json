@@ -129400,5 +129400,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_wind0",
+    "title": "东风风信子两份",
+    "body": "采东风风信子的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind0": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind1",
+    "title": "东风风铃草两份",
+    "body": "采东风风铃草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind1": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind2",
+    "title": "东风风车草两份",
+    "body": "采东风风车草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind2": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind3",
+    "title": "东风风滚草两份",
+    "body": "采东风风滚草的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind3": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind4",
+    "title": "东风风媒花两份",
+    "body": "采东风风媒花的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind4": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind5",
+    "title": "东风风干草两份",
+    "body": "采东风风干草的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind5": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind6",
+    "title": "东风风渍叶两份",
+    "body": "采东风风渍叶的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind6": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind7",
+    "title": "东风风蚀石两份",
+    "body": "采东风风蚀石的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind7": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind8",
+    "title": "东风风磨砂两份",
+    "body": "采东风风磨砂的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind8": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind9",
+    "title": "东风风积土两份",
+    "body": "采东风风积土的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind9": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind10",
+    "title": "东风风向标两份",
+    "body": "采东风风向标的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind10": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind11",
+    "title": "东风风筝线两份",
+    "body": "采东风风筝线的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind11": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind12",
+    "title": "东风风幡影两份",
+    "body": "采东风风幡影的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind12": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind13",
+    "title": "东风风旗角两份",
+    "body": "采东风风旗角的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind13": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind14",
+    "title": "东风风帆边两份",
+    "body": "采东风风帆边的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind14": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind15",
+    "title": "东风风轮叶两份",
+    "body": "采东风风轮叶的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind15": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind16",
+    "title": "西风风信子两份",
+    "body": "采西风风信子的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind16": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind17",
+    "title": "西风风铃草两份",
+    "body": "采西风风铃草的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind17": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind18",
+    "title": "西风风车草两份",
+    "body": "采西风风车草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind18": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind19",
+    "title": "西风风滚草两份",
+    "body": "采西风风滚草的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind19": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind20",
+    "title": "西风风媒花两份",
+    "body": "采西风风媒花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind21",
+    "title": "西风风干草两份",
+    "body": "采西风风干草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind22",
+    "title": "西风风渍叶两份",
+    "body": "采西风风渍叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind23",
+    "title": "西风风蚀石两份",
+    "body": "采西风风蚀石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind24",
+    "title": "西风风磨砂两份",
+    "body": "采西风风磨砂的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind25",
+    "title": "西风风积土两份",
+    "body": "采西风风积土的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind26",
+    "title": "西风风向标两份",
+    "body": "采西风风向标的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind27",
+    "title": "西风风筝线两份",
+    "body": "采西风风筝线的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind28",
+    "title": "西风风幡影两份",
+    "body": "采西风风幡影的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind29",
+    "title": "西风风旗角两份",
+    "body": "采西风风旗角的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind30",
+    "title": "西风风帆边两份",
+    "body": "采西风风帆边的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind30": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind31",
+    "title": "西风风轮叶两份",
+    "body": "采西风风轮叶的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind31": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind32",
+    "title": "南风风信子两份",
+    "body": "采南风风信子的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind32": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind33",
+    "title": "南风风铃草两份",
+    "body": "采南风风铃草的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind33": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind34",
+    "title": "南风风车草两份",
+    "body": "采南风风车草的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind34": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind35",
+    "title": "南风风滚草两份",
+    "body": "采南风风滚草的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind35": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind36",
+    "title": "南风风媒花两份",
+    "body": "采南风风媒花的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind36": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind37",
+    "title": "南风风干草两份",
+    "body": "采南风风干草的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind37": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind38",
+    "title": "南风风渍叶两份",
+    "body": "采南风风渍叶的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind38": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind39",
+    "title": "南风风蚀石两份",
+    "body": "采南风风蚀石的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind39": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind40",
+    "title": "南风风磨砂两份",
+    "body": "采南风风磨砂的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind40": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind41",
+    "title": "南风风积土两份",
+    "body": "采南风风积土的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind41": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind42",
+    "title": "南风风向标两份",
+    "body": "采南风风向标的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind42": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind43",
+    "title": "南风风筝线两份",
+    "body": "采南风风筝线的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind43": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind44",
+    "title": "南风风幡影两份",
+    "body": "采南风风幡影的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind44": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind45",
+    "title": "南风风旗角两份",
+    "body": "采南风风旗角的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind45": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind46",
+    "title": "南风风帆边两份",
+    "body": "采南风风帆边的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind46": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind47",
+    "title": "南风风轮叶两份",
+    "body": "采南风风轮叶的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind47": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind48",
+    "title": "北风风信子两份",
+    "body": "采北风风信子的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind48": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind49",
+    "title": "北风风铃草两份",
+    "body": "采北风风铃草的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind49": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind50",
+    "title": "北风风车草两份",
+    "body": "采北风风车草的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind50": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind51",
+    "title": "北风风滚草两份",
+    "body": "采北风风滚草的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind51": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind52",
+    "title": "北风风媒花两份",
+    "body": "采北风风媒花的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind52": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind53",
+    "title": "北风风干草两份",
+    "body": "采北风风干草的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind53": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind54",
+    "title": "北风风渍叶两份",
+    "body": "采北风风渍叶的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind54": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind55",
+    "title": "北风风蚀石两份",
+    "body": "采北风风蚀石的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind55": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind56",
+    "title": "北风风磨砂两份",
+    "body": "采北风风磨砂的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind56": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind57",
+    "title": "北风风积土两份",
+    "body": "采北风风积土的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind57": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind58",
+    "title": "北风风向标两份",
+    "body": "采北风风向标的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind58": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind59",
+    "title": "北风风筝线两份",
+    "body": "采北风风筝线的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind59": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind60",
+    "title": "北风风幡影两份",
+    "body": "采北风风幡影的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind60": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind61",
+    "title": "北风风旗角两份",
+    "body": "采北风风旗角的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind61": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind62",
+    "title": "北风风帆边两份",
+    "body": "采北风风帆边的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind62": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind63",
+    "title": "北风风轮叶两份",
+    "body": "采北风风轮叶的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind63": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind64",
+    "title": "春风风信子两份",
+    "body": "采春风风信子的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind64": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind65",
+    "title": "春风风铃草两份",
+    "body": "采春风风铃草的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind65": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind66",
+    "title": "春风风车草两份",
+    "body": "采春风风车草的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind66": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind67",
+    "title": "春风风滚草两份",
+    "body": "采春风风滚草的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind67": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind68",
+    "title": "春风风媒花两份",
+    "body": "采春风风媒花的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind68": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind69",
+    "title": "春风风干草两份",
+    "body": "采春风风干草的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind69": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind70",
+    "title": "春风风渍叶两份",
+    "body": "采春风风渍叶的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind70": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind71",
+    "title": "春风风蚀石两份",
+    "body": "采春风风蚀石的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind71": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind72",
+    "title": "春风风磨砂两份",
+    "body": "采春风风磨砂的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind72": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind73",
+    "title": "春风风积土两份",
+    "body": "采春风风积土的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind73": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind74",
+    "title": "春风风向标两份",
+    "body": "采春风风向标的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind74": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind75",
+    "title": "春风风筝线两份",
+    "body": "采春风风筝线的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind75": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind76",
+    "title": "春风风幡影两份",
+    "body": "采春风风幡影的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind76": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind77",
+    "title": "春风风旗角两份",
+    "body": "采春风风旗角的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind77": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind78",
+    "title": "春风风帆边两份",
+    "body": "采春风风帆边的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind78": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind79",
+    "title": "春风风轮叶两份",
+    "body": "采春风风轮叶的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind79": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind80",
+    "title": "秋风风信子两份",
+    "body": "采秋风风信子的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind80": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind81",
+    "title": "秋风风铃草两份",
+    "body": "采秋风风铃草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind81": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind82",
+    "title": "秋风风车草两份",
+    "body": "采秋风风车草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind82": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind83",
+    "title": "秋风风滚草两份",
+    "body": "采秋风风滚草的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind83": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind84",
+    "title": "秋风风媒花两份",
+    "body": "采秋风风媒花的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind84": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind85",
+    "title": "秋风风干草两份",
+    "body": "采秋风风干草的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind85": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind86",
+    "title": "秋风风渍叶两份",
+    "body": "采秋风风渍叶的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind86": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind87",
+    "title": "秋风风蚀石两份",
+    "body": "采秋风风蚀石的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind87": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind88",
+    "title": "秋风风磨砂两份",
+    "body": "采秋风风磨砂的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind88": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind89",
+    "title": "秋风风积土两份",
+    "body": "采秋风风积土的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind89": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind90",
+    "title": "秋风风向标两份",
+    "body": "采秋风风向标的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind90": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind91",
+    "title": "秋风风筝线两份",
+    "body": "采秋风风筝线的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind91": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind92",
+    "title": "秋风风幡影两份",
+    "body": "采秋风风幡影的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind92": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind93",
+    "title": "秋风风旗角两份",
+    "body": "采秋风风旗角的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind93": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind94",
+    "title": "秋风风帆边两份",
+    "body": "采秋风风帆边的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind94": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind95",
+    "title": "秋风风轮叶两份",
+    "body": "采秋风风轮叶的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind95": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind96",
+    "title": "谷风风信子两份",
+    "body": "采谷风风信子的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind96": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind97",
+    "title": "谷风风铃草两份",
+    "body": "采谷风风铃草的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind97": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind98",
+    "title": "谷风风车草两份",
+    "body": "采谷风风车草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind98": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind99",
+    "title": "谷风风滚草两份",
+    "body": "采谷风风滚草的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind99": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind100",
+    "title": "谷风风媒花两份",
+    "body": "采谷风风媒花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind101",
+    "title": "谷风风干草两份",
+    "body": "采谷风风干草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind102",
+    "title": "谷风风渍叶两份",
+    "body": "采谷风风渍叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind103",
+    "title": "谷风风蚀石两份",
+    "body": "采谷风风蚀石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind104",
+    "title": "谷风风磨砂两份",
+    "body": "采谷风风磨砂的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind105",
+    "title": "谷风风积土两份",
+    "body": "采谷风风积土的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind106",
+    "title": "谷风风向标两份",
+    "body": "采谷风风向标的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind107",
+    "title": "谷风风筝线两份",
+    "body": "采谷风风筝线的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind108",
+    "title": "谷风风幡影两份",
+    "body": "采谷风风幡影的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind109",
+    "title": "谷风风旗角两份",
+    "body": "采谷风风旗角的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind110",
+    "title": "谷风风帆边两份",
+    "body": "采谷风风帆边的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind111",
+    "title": "谷风风轮叶两份",
+    "body": "采谷风风轮叶的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind112",
+    "title": "山风风信子两份",
+    "body": "采山风风信子的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind113",
+    "title": "山风风铃草两份",
+    "body": "采山风风铃草的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind114",
+    "title": "山风风车草两份",
+    "body": "采山风风车草的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind115",
+    "title": "山风风滚草两份",
+    "body": "采山风风滚草的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind116",
+    "title": "山风风媒花两份",
+    "body": "采山风风媒花的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind117",
+    "title": "山风风干草两份",
+    "body": "采山风风干草的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind118",
+    "title": "山风风渍叶两份",
+    "body": "采山风风渍叶的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind119",
+    "title": "山风风蚀石两份",
+    "body": "采山风风蚀石的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind120",
+    "title": "山风风磨砂两份",
+    "body": "采山风风磨砂的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind121",
+    "title": "山风风积土两份",
+    "body": "采山风风积土的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind122",
+    "title": "山风风向标两份",
+    "body": "采山风风向标的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind123",
+    "title": "山风风筝线两份",
+    "body": "采山风风筝线的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind124",
+    "title": "山风风幡影两份",
+    "body": "采山风风幡影的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind125",
+    "title": "山风风旗角两份",
+    "body": "采山风风旗角的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind126",
+    "title": "山风风帆边两份",
+    "body": "采山风风帆边的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind127",
+    "title": "山风风轮叶两份",
+    "body": "采山风风轮叶的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind128",
+    "title": "海风风信子两份",
+    "body": "采海风风信子的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind129",
+    "title": "海风风铃草两份",
+    "body": "采海风风铃草的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind130",
+    "title": "海风风车草两份",
+    "body": "采海风风车草的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind131",
+    "title": "海风风滚草两份",
+    "body": "采海风风滚草的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind132",
+    "title": "海风风媒花两份",
+    "body": "采海风风媒花的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind133",
+    "title": "海风风干草两份",
+    "body": "采海风风干草的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind134",
+    "title": "海风风渍叶两份",
+    "body": "采海风风渍叶的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind135",
+    "title": "海风风蚀石两份",
+    "body": "采海风风蚀石的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind136",
+    "title": "海风风磨砂两份",
+    "body": "采海风风磨砂的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind137",
+    "title": "海风风积土两份",
+    "body": "采海风风积土的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind138",
+    "title": "海风风向标两份",
+    "body": "采海风风向标的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind139",
+    "title": "海风风筝线两份",
+    "body": "采海风风筝线的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind140",
+    "title": "海风风幡影两份",
+    "body": "采海风风幡影的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind141",
+    "title": "海风风旗角两份",
+    "body": "采海风风旗角的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind142",
+    "title": "海风风帆边两份",
+    "body": "采海风风帆边的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind143",
+    "title": "海风风轮叶两份",
+    "body": "采海风风轮叶的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind144",
+    "title": "江风风信子两份",
+    "body": "采江风风信子的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind145",
+    "title": "江风风铃草两份",
+    "body": "采江风风铃草的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind146",
+    "title": "江风风车草两份",
+    "body": "采江风风车草的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind147",
+    "title": "江风风滚草两份",
+    "body": "采江风风滚草的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind148",
+    "title": "江风风媒花两份",
+    "body": "采江风风媒花的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind149",
+    "title": "江风风干草两份",
+    "body": "采江风风干草的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind150",
+    "title": "江风风渍叶两份",
+    "body": "采江风风渍叶的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind151",
+    "title": "江风风蚀石两份",
+    "body": "采江风风蚀石的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind152",
+    "title": "江风风磨砂两份",
+    "body": "采江风风磨砂的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind153",
+    "title": "江风风积土两份",
+    "body": "采江风风积土的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind154",
+    "title": "江风风向标两份",
+    "body": "采江风风向标的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind155",
+    "title": "江风风筝线两份",
+    "body": "采江风风筝线的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind156",
+    "title": "江风风幡影两份",
+    "body": "采江风风幡影的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind157",
+    "title": "江风风旗角两份",
+    "body": "采江风风旗角的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind158",
+    "title": "江风风帆边两份",
+    "body": "采江风风帆边的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind159",
+    "title": "江风风轮叶两份",
+    "body": "采江风风轮叶的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind160",
+    "title": "河风风信子两份",
+    "body": "采河风风信子的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind161",
+    "title": "河风风铃草两份",
+    "body": "采河风风铃草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind162",
+    "title": "河风风车草两份",
+    "body": "采河风风车草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind163",
+    "title": "河风风滚草两份",
+    "body": "采河风风滚草的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind164",
+    "title": "河风风媒花两份",
+    "body": "采河风风媒花的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind165",
+    "title": "河风风干草两份",
+    "body": "采河风风干草的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind166",
+    "title": "河风风渍叶两份",
+    "body": "采河风风渍叶的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind167",
+    "title": "河风风蚀石两份",
+    "body": "采河风风蚀石的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind168",
+    "title": "河风风磨砂两份",
+    "body": "采河风风磨砂的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind169",
+    "title": "河风风积土两份",
+    "body": "采河风风积土的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind170",
+    "title": "河风风向标两份",
+    "body": "采河风风向标的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind171",
+    "title": "河风风筝线两份",
+    "body": "采河风风筝线的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind172",
+    "title": "河风风幡影两份",
+    "body": "采河风风幡影的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind173",
+    "title": "河风风旗角两份",
+    "body": "采河风风旗角的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind174",
+    "title": "河风风帆边两份",
+    "body": "采河风风帆边的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind175",
+    "title": "河风风轮叶两份",
+    "body": "采河风风轮叶的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind176",
+    "title": "湖风风信子两份",
+    "body": "采湖风风信子的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind177",
+    "title": "湖风风铃草两份",
+    "body": "采湖风风铃草的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind178",
+    "title": "湖风风车草两份",
+    "body": "采湖风风车草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind179",
+    "title": "湖风风滚草两份",
+    "body": "采湖风风滚草的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind180",
+    "title": "湖风风媒花两份",
+    "body": "采湖风风媒花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind181",
+    "title": "湖风风干草两份",
+    "body": "采湖风风干草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind182",
+    "title": "湖风风渍叶两份",
+    "body": "采湖风风渍叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind183",
+    "title": "湖风风蚀石两份",
+    "body": "采湖风风蚀石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind184",
+    "title": "湖风风磨砂两份",
+    "body": "采湖风风磨砂的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind185",
+    "title": "湖风风积土两份",
+    "body": "采湖风风积土的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind186",
+    "title": "湖风风向标两份",
+    "body": "采湖风风向标的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind187",
+    "title": "湖风风筝线两份",
+    "body": "采湖风风筝线的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind188",
+    "title": "湖风风幡影两份",
+    "body": "采湖风风幡影的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind189",
+    "title": "湖风风旗角两份",
+    "body": "采湖风风旗角的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind190",
+    "title": "湖风风帆边两份",
+    "body": "采湖风风帆边的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind191",
+    "title": "湖风风轮叶两份",
+    "body": "采湖风风轮叶的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind192",
+    "title": "林风风信子两份",
+    "body": "采林风风信子的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind193",
+    "title": "林风风铃草两份",
+    "body": "采林风风铃草的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind194",
+    "title": "林风风车草两份",
+    "body": "采林风风车草的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind195",
+    "title": "林风风滚草两份",
+    "body": "采林风风滚草的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind196",
+    "title": "林风风媒花两份",
+    "body": "采林风风媒花的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind197",
+    "title": "林风风干草两份",
+    "body": "采林风风干草的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind198",
+    "title": "林风风渍叶两份",
+    "body": "采林风风渍叶的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind199",
+    "title": "林风风蚀石两份",
+    "body": "采林风风蚀石的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind200",
+    "title": "林风风磨砂两份",
+    "body": "采林风风磨砂的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind201",
+    "title": "林风风积土两份",
+    "body": "采林风风积土的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind202",
+    "title": "林风风向标两份",
+    "body": "采林风风向标的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind203",
+    "title": "林风风筝线两份",
+    "body": "采林风风筝线的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind204",
+    "title": "林风风幡影两份",
+    "body": "采林风风幡影的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind205",
+    "title": "林风风旗角两份",
+    "body": "采林风风旗角的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind206",
+    "title": "林风风帆边两份",
+    "body": "采林风风帆边的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind207",
+    "title": "林风风轮叶两份",
+    "body": "采林风风轮叶的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind208",
+    "title": "竹风风信子两份",
+    "body": "采竹风风信子的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind209",
+    "title": "竹风风铃草两份",
+    "body": "采竹风风铃草的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind210",
+    "title": "竹风风车草两份",
+    "body": "采竹风风车草的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind211",
+    "title": "竹风风滚草两份",
+    "body": "采竹风风滚草的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind212",
+    "title": "竹风风媒花两份",
+    "body": "采竹风风媒花的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind213",
+    "title": "竹风风干草两份",
+    "body": "采竹风风干草的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind214",
+    "title": "竹风风渍叶两份",
+    "body": "采竹风风渍叶的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind215",
+    "title": "竹风风蚀石两份",
+    "body": "采竹风风蚀石的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind216",
+    "title": "竹风风磨砂两份",
+    "body": "采竹风风磨砂的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind217",
+    "title": "竹风风积土两份",
+    "body": "采竹风风积土的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind218",
+    "title": "竹风风向标两份",
+    "body": "采竹风风向标的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind219",
+    "title": "竹风风筝线两份",
+    "body": "采竹风风筝线的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind220",
+    "title": "竹风风幡影两份",
+    "body": "采竹风风幡影的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind221",
+    "title": "竹风风旗角两份",
+    "body": "采竹风风旗角的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind222",
+    "title": "竹风风帆边两份",
+    "body": "采竹风风帆边的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind223",
+    "title": "竹风风轮叶两份",
+    "body": "采竹风风轮叶的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind224",
+    "title": "松风风信子两份",
+    "body": "采松风风信子的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind225",
+    "title": "松风风铃草两份",
+    "body": "采松风风铃草的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind226",
+    "title": "松风风车草两份",
+    "body": "采松风风车草的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind227",
+    "title": "松风风滚草两份",
+    "body": "采松风风滚草的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind228",
+    "title": "松风风媒花两份",
+    "body": "采松风风媒花的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind229",
+    "title": "松风风干草两份",
+    "body": "采松风风干草的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind230",
+    "title": "松风风渍叶两份",
+    "body": "采松风风渍叶的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind231",
+    "title": "松风风蚀石两份",
+    "body": "采松风风蚀石的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind232",
+    "title": "松风风磨砂两份",
+    "body": "采松风风磨砂的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind233",
+    "title": "松风风积土两份",
+    "body": "采松风风积土的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind234",
+    "title": "松风风向标两份",
+    "body": "采松风风向标的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind235",
+    "title": "松风风筝线两份",
+    "body": "采松风风筝线的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind236",
+    "title": "松风风幡影两份",
+    "body": "采松风风幡影的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind237",
+    "title": "松风风旗角两份",
+    "body": "采松风风旗角的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind238",
+    "title": "松风风帆边两份",
+    "body": "采松风风帆边的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind239",
+    "title": "松风风轮叶两份",
+    "body": "采松风风轮叶的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind240",
+    "title": "槐风风信子两份",
+    "body": "采槐风风信子的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind241",
+    "title": "槐风风铃草两份",
+    "body": "采槐风风铃草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind242",
+    "title": "槐风风车草两份",
+    "body": "采槐风风车草的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind243",
+    "title": "槐风风滚草两份",
+    "body": "采槐风风滚草的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind244",
+    "title": "槐风风媒花两份",
+    "body": "采槐风风媒花的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind245",
+    "title": "槐风风干草两份",
+    "body": "采槐风风干草的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind246",
+    "title": "槐风风渍叶两份",
+    "body": "采槐风风渍叶的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind247",
+    "title": "槐风风蚀石两份",
+    "body": "采槐风风蚀石的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind248",
+    "title": "槐风风磨砂两份",
+    "body": "采槐风风磨砂的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind249",
+    "title": "槐风风积土两份",
+    "body": "采槐风风积土的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind250",
+    "title": "槐风风向标两份",
+    "body": "采槐风风向标的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind251",
+    "title": "槐风风筝线两份",
+    "body": "采槐风风筝线的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind252",
+    "title": "槐风风幡影两份",
+    "body": "采槐风风幡影的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind253",
+    "title": "槐风风旗角两份",
+    "body": "采槐风风旗角的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind254",
+    "title": "槐风风帆边两份",
+    "body": "采槐风风帆边的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind255",
+    "title": "槐风风轮叶两份",
+    "body": "采槐风风轮叶的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind256",
+    "title": "柳风风信子两份",
+    "body": "采柳风风信子的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind257",
+    "title": "柳风风铃草两份",
+    "body": "采柳风风铃草的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind258",
+    "title": "柳风风车草两份",
+    "body": "采柳风风车草的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind259",
+    "title": "柳风风滚草两份",
+    "body": "采柳风风滚草的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind260",
+    "title": "柳风风媒花两份",
+    "body": "采柳风风媒花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind261",
+    "title": "柳风风干草两份",
+    "body": "采柳风风干草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind262",
+    "title": "柳风风渍叶两份",
+    "body": "采柳风风渍叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind263",
+    "title": "柳风风蚀石两份",
+    "body": "采柳风风蚀石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind264",
+    "title": "柳风风磨砂两份",
+    "body": "采柳风风磨砂的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind265",
+    "title": "柳风风积土两份",
+    "body": "采柳风风积土的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind266",
+    "title": "柳风风向标两份",
+    "body": "采柳风风向标的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind267",
+    "title": "柳风风筝线两份",
+    "body": "采柳风风筝线的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind268",
+    "title": "柳风风幡影两份",
+    "body": "采柳风风幡影的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind269",
+    "title": "柳风风旗角两份",
+    "body": "采柳风风旗角的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind270",
+    "title": "柳风风帆边两份",
+    "body": "采柳风风帆边的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind271",
+    "title": "柳风风轮叶两份",
+    "body": "采柳风风轮叶的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind272",
+    "title": "麦风风信子两份",
+    "body": "采麦风风信子的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind273",
+    "title": "麦风风铃草两份",
+    "body": "采麦风风铃草的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind274",
+    "title": "麦风风车草两份",
+    "body": "采麦风风车草的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind275",
+    "title": "麦风风滚草两份",
+    "body": "采麦风风滚草的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind276",
+    "title": "麦风风媒花两份",
+    "body": "采麦风风媒花的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind277",
+    "title": "麦风风干草两份",
+    "body": "采麦风风干草的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind278",
+    "title": "麦风风渍叶两份",
+    "body": "采麦风风渍叶的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind279",
+    "title": "麦风风蚀石两份",
+    "body": "采麦风风蚀石的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind280",
+    "title": "麦风风磨砂两份",
+    "body": "采麦风风磨砂的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind281",
+    "title": "麦风风积土两份",
+    "body": "采麦风风积土的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind282",
+    "title": "麦风风向标两份",
+    "body": "采麦风风向标的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind283",
+    "title": "麦风风筝线两份",
+    "body": "采麦风风筝线的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind284",
+    "title": "麦风风幡影两份",
+    "body": "采麦风风幡影的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind285",
+    "title": "麦风风旗角两份",
+    "body": "采麦风风旗角的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind286",
+    "title": "麦风风帆边两份",
+    "body": "采麦风风帆边的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind287",
+    "title": "麦风风轮叶两份",
+    "body": "采麦风风轮叶的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind288",
+    "title": "稻风风信子两份",
+    "body": "采稻风风信子的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind289",
+    "title": "稻风风铃草两份",
+    "body": "采稻风风铃草的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind290",
+    "title": "稻风风车草两份",
+    "body": "采稻风风车草的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind291",
+    "title": "稻风风滚草两份",
+    "body": "采稻风风滚草的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind292",
+    "title": "稻风风媒花两份",
+    "body": "采稻风风媒花的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind293",
+    "title": "稻风风干草两份",
+    "body": "采稻风风干草的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind294",
+    "title": "稻风风渍叶两份",
+    "body": "采稻风风渍叶的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind295",
+    "title": "稻风风蚀石两份",
+    "body": "采稻风风蚀石的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind296",
+    "title": "稻风风磨砂两份",
+    "body": "采稻风风磨砂的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind297",
+    "title": "稻风风积土两份",
+    "body": "采稻风风积土的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind298",
+    "title": "稻风风向标两份",
+    "body": "采稻风风向标的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind299",
+    "title": "稻风风筝线两份",
+    "body": "采稻风风筝线的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind300",
+    "title": "稻风风幡影两份",
+    "body": "采稻风风幡影的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind301",
+    "title": "稻风风旗角两份",
+    "body": "采稻风风旗角的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind302",
+    "title": "稻风风帆边两份",
+    "body": "采稻风风帆边的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind303",
+    "title": "稻风风轮叶两份",
+    "body": "采稻风风轮叶的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind304",
+    "title": "花风风信子两份",
+    "body": "采花风风信子的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind305",
+    "title": "花风风铃草两份",
+    "body": "采花风风铃草的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind306",
+    "title": "花风风车草两份",
+    "body": "采花风风车草的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind307",
+    "title": "花风风滚草两份",
+    "body": "采花风风滚草的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind308",
+    "title": "花风风媒花两份",
+    "body": "采花风风媒花的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind309",
+    "title": "花风风干草两份",
+    "body": "采花风风干草的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind310",
+    "title": "花风风渍叶两份",
+    "body": "采花风风渍叶的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind311",
+    "title": "花风风蚀石两份",
+    "body": "采花风风蚀石的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind312",
+    "title": "花风风磨砂两份",
+    "body": "采花风风磨砂的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind313",
+    "title": "花风风积土两份",
+    "body": "采花风风积土的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind314",
+    "title": "花风风向标两份",
+    "body": "采花风风向标的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind315",
+    "title": "花风风筝线两份",
+    "body": "采花风风筝线的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind316",
+    "title": "花风风幡影两份",
+    "body": "采花风风幡影的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind317",
+    "title": "花风风旗角两份",
+    "body": "采花风风旗角的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind318",
+    "title": "花风风帆边两份",
+    "body": "采花风风帆边的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wind319",
+    "title": "花风风轮叶两份",
+    "body": "采花风风轮叶的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wind319": 2
+      },
+      "coins": 2
+    }
   }
 ]
