@@ -7256,5 +7256,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_thyme_lemon",
+    "title": "柠檬百里香两份",
+    "body": "采柠檬百里香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "thyme_lemon": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_thyme_orange",
+    "title": "橙香百里香两份",
+    "body": "采橙香百里香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "thyme_orange": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_thyme_caraway",
+    "title": "葛缕子百里香两份",
+    "body": "采葛缕子百里香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "thyme_caraway": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_thyme_woolly",
+    "title": "绵毛百里香两份",
+    "body": "采绵毛百里香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "thyme_woolly": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_creeping_thyme",
+    "title": "铺地百里香两份",
+    "body": "采铺地百里香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "creeping_thyme": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_oregano_greek",
+    "title": "希腊牛至两份",
+    "body": "采希腊牛至的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "oregano_greek": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_oregano_italian",
+    "title": "意大利牛至两份",
+    "body": "采意大利牛至的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "oregano_italian": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_marjoram_sweet",
+    "title": "甜马郁兰两份",
+    "body": "采甜马郁兰的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "marjoram_sweet": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_savory_summer",
+    "title": "夏香薄荷两份",
+    "body": "采夏香薄荷的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "savory_summer": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_savory_winter",
+    "title": "冬香薄荷两份",
+    "body": "采冬香薄荷的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "savory_winter": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_basil_genovese",
+    "title": "热那亚罗勒两份",
+    "body": "采热那亚罗勒的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "basil_genovese": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_basil_cinnamon",
+    "title": "肉桂罗勒两份",
+    "body": "采肉桂罗勒的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "basil_cinnamon": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_basil_purple",
+    "title": "紫罗勒两份",
+    "body": "采紫罗勒的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "basil_purple": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_basil_lettuce",
+    "title": "生菜罗勒两份",
+    "body": "采生菜罗勒的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "basil_lettuce": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mint_peppermint",
+    "title": "胡椒薄荷两份",
+    "body": "采胡椒薄荷的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mint_peppermint": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mint_spearmint",
+    "title": "留兰香两份",
+    "body": "采留兰香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mint_spearmint": 2
+      },
+      "coins": 2
+    }
   }
 ]
