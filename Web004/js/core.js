@@ -3039,6 +3039,166 @@
       { flavor: "mn314", label: "玉盘桂花" },
       { flavor: "mn316", label: "玉盘白毫" },
       { flavor: "mn318", label: "玉盘碧螺" },
+      { flavor: "wx0", label: "微雨艾草" },
+      { flavor: "wx2", label: "微雨茴香" },
+      { flavor: "wx4", label: "微雨百里香" },
+      { flavor: "wx6", label: "微雨紫苏" },
+      { flavor: "wx8", label: "微雨柠檬草" },
+      { flavor: "wx10", label: "微雨鼠尾" },
+      { flavor: "wx12", label: "微雨金盏" },
+      { flavor: "wx14", label: "微雨藿香" },
+      { flavor: "wx16", label: "细雪艾草" },
+      { flavor: "wx18", label: "细雪茴香" },
+      { flavor: "wx20", label: "细雪百里香" },
+      { flavor: "wx22", label: "细雪紫苏" },
+      { flavor: "wx24", label: "细雪柠檬草" },
+      { flavor: "wx26", label: "细雪鼠尾" },
+      { flavor: "wx28", label: "细雪金盏" },
+      { flavor: "wx30", label: "细雪藿香" },
+      { flavor: "wx32", label: "薄雾艾草" },
+      { flavor: "wx34", label: "薄雾茴香" },
+      { flavor: "wx36", label: "薄雾百里香" },
+      { flavor: "wx38", label: "薄雾紫苏" },
+      { flavor: "wx40", label: "薄雾柠檬草" },
+      { flavor: "wx42", label: "薄雾鼠尾" },
+      { flavor: "wx44", label: "薄雾金盏" },
+      { flavor: "wx46", label: "薄雾藿香" },
+      { flavor: "wx48", label: "软风艾草" },
+      { flavor: "wx50", label: "软风茴香" },
+      { flavor: "wx52", label: "软风百里香" },
+      { flavor: "wx54", label: "软风紫苏" },
+      { flavor: "wx56", label: "软风柠檬草" },
+      { flavor: "wx58", label: "软风鼠尾" },
+      { flavor: "wx60", label: "软风金盏" },
+      { flavor: "wx62", label: "软风藿香" },
+      { flavor: "wx64", label: "晴岚艾草" },
+      { flavor: "wx66", label: "晴岚茴香" },
+      { flavor: "wx68", label: "晴岚百里香" },
+      { flavor: "wx70", label: "晴岚紫苏" },
+      { flavor: "wx72", label: "晴岚柠檬草" },
+      { flavor: "wx74", label: "晴岚鼠尾" },
+      { flavor: "wx76", label: "晴岚金盏" },
+      { flavor: "wx78", label: "晴岚藿香" },
+      { flavor: "wx80", label: "暮霞艾草" },
+      { flavor: "wx82", label: "暮霞茴香" },
+      { flavor: "wx84", label: "暮霞百里香" },
+      { flavor: "wx86", label: "暮霞紫苏" },
+      { flavor: "wx88", label: "暮霞柠檬草" },
+      { flavor: "wx90", label: "暮霞鼠尾" },
+      { flavor: "wx92", label: "暮霞金盏" },
+      { flavor: "wx94", label: "暮霞藿香" },
+      { flavor: "wx96", label: "夜露艾草" },
+      { flavor: "wx98", label: "夜露茴香" },
+      { flavor: "wx100", label: "夜露百里香" },
+      { flavor: "wx102", label: "夜露紫苏" },
+      { flavor: "wx104", label: "夜露柠檬草" },
+      { flavor: "wx106", label: "夜露鼠尾" },
+      { flavor: "wx108", label: "夜露金盏" },
+      { flavor: "wx110", label: "夜露藿香" },
+      { flavor: "wx112", label: "晨霜艾草" },
+      { flavor: "wx114", label: "晨霜茴香" },
+      { flavor: "wx116", label: "晨霜百里香" },
+      { flavor: "wx118", label: "晨霜紫苏" },
+      { flavor: "wx120", label: "晨霜柠檬草" },
+      { flavor: "wx122", label: "晨霜鼠尾" },
+      { flavor: "wx124", label: "晨霜金盏" },
+      { flavor: "wx126", label: "晨霜藿香" },
+      { flavor: "wx128", label: "雷远艾草" },
+      { flavor: "wx130", label: "雷远茴香" },
+      { flavor: "wx132", label: "雷远百里香" },
+      { flavor: "wx134", label: "雷远紫苏" },
+      { flavor: "wx136", label: "雷远柠檬草" },
+      { flavor: "wx138", label: "雷远鼠尾" },
+      { flavor: "wx140", label: "雷远金盏" },
+      { flavor: "wx142", label: "雷远藿香" },
+      { flavor: "wx144", label: "云疏艾草" },
+      { flavor: "wx146", label: "云疏茴香" },
+      { flavor: "wx148", label: "云疏百里香" },
+      { flavor: "wx150", label: "云疏紫苏" },
+      { flavor: "wx152", label: "云疏柠檬草" },
+      { flavor: "wx154", label: "云疏鼠尾" },
+      { flavor: "wx156", label: "云疏金盏" },
+      { flavor: "wx158", label: "云疏藿香" },
+      { flavor: "wx160", label: "虹余艾草" },
+      { flavor: "wx162", label: "虹余茴香" },
+      { flavor: "wx164", label: "虹余百里香" },
+      { flavor: "wx166", label: "虹余紫苏" },
+      { flavor: "wx168", label: "虹余柠檬草" },
+      { flavor: "wx170", label: "虹余鼠尾" },
+      { flavor: "wx172", label: "虹余金盏" },
+      { flavor: "wx174", label: "虹余藿香" },
+      { flavor: "wx176", label: "烟雨艾草" },
+      { flavor: "wx178", label: "烟雨茴香" },
+      { flavor: "wx180", label: "烟雨百里香" },
+      { flavor: "wx182", label: "烟雨紫苏" },
+      { flavor: "wx184", label: "烟雨柠檬草" },
+      { flavor: "wx186", label: "烟雨鼠尾" },
+      { flavor: "wx188", label: "烟雨金盏" },
+      { flavor: "wx190", label: "烟雨藿香" },
+      { flavor: "wx192", label: "霁色艾草" },
+      { flavor: "wx194", label: "霁色茴香" },
+      { flavor: "wx196", label: "霁色百里香" },
+      { flavor: "wx198", label: "霁色紫苏" },
+      { flavor: "wx200", label: "霁色柠檬草" },
+      { flavor: "wx202", label: "霁色鼠尾" },
+      { flavor: "wx204", label: "霁色金盏" },
+      { flavor: "wx206", label: "霁色藿香" },
+      { flavor: "wx208", label: "阴凉艾草" },
+      { flavor: "wx210", label: "阴凉茴香" },
+      { flavor: "wx212", label: "阴凉百里香" },
+      { flavor: "wx214", label: "阴凉紫苏" },
+      { flavor: "wx216", label: "阴凉柠檬草" },
+      { flavor: "wx218", label: "阴凉鼠尾" },
+      { flavor: "wx220", label: "阴凉金盏" },
+      { flavor: "wx222", label: "阴凉藿香" },
+      { flavor: "wx224", label: "暖阳艾草" },
+      { flavor: "wx226", label: "暖阳茴香" },
+      { flavor: "wx228", label: "暖阳百里香" },
+      { flavor: "wx230", label: "暖阳紫苏" },
+      { flavor: "wx232", label: "暖阳柠檬草" },
+      { flavor: "wx234", label: "暖阳鼠尾" },
+      { flavor: "wx236", label: "暖阳金盏" },
+      { flavor: "wx238", label: "暖阳藿香" },
+      { flavor: "wx240", label: "朔风艾草" },
+      { flavor: "wx242", label: "朔风茴香" },
+      { flavor: "wx244", label: "朔风百里香" },
+      { flavor: "wx246", label: "朔风紫苏" },
+      { flavor: "wx248", label: "朔风柠檬草" },
+      { flavor: "wx250", label: "朔风鼠尾" },
+      { flavor: "wx252", label: "朔风金盏" },
+      { flavor: "wx254", label: "朔风藿香" },
+      { flavor: "wx256", label: "海风艾草" },
+      { flavor: "wx258", label: "海风茴香" },
+      { flavor: "wx260", label: "海风百里香" },
+      { flavor: "wx262", label: "海风紫苏" },
+      { flavor: "wx264", label: "海风柠檬草" },
+      { flavor: "wx266", label: "海风鼠尾" },
+      { flavor: "wx268", label: "海风金盏" },
+      { flavor: "wx270", label: "海风藿香" },
+      { flavor: "wx272", label: "山岚艾草" },
+      { flavor: "wx274", label: "山岚茴香" },
+      { flavor: "wx276", label: "山岚百里香" },
+      { flavor: "wx278", label: "山岚紫苏" },
+      { flavor: "wx280", label: "山岚柠檬草" },
+      { flavor: "wx282", label: "山岚鼠尾" },
+      { flavor: "wx284", label: "山岚金盏" },
+      { flavor: "wx286", label: "山岚藿香" },
+      { flavor: "wx288", label: "谷风艾草" },
+      { flavor: "wx290", label: "谷风茴香" },
+      { flavor: "wx292", label: "谷风百里香" },
+      { flavor: "wx294", label: "谷风紫苏" },
+      { flavor: "wx296", label: "谷风柠檬草" },
+      { flavor: "wx298", label: "谷风鼠尾" },
+      { flavor: "wx300", label: "谷风金盏" },
+      { flavor: "wx302", label: "谷风藿香" },
+      { flavor: "wx304", label: "潮音艾草" },
+      { flavor: "wx306", label: "潮音茴香" },
+      { flavor: "wx308", label: "潮音百里香" },
+      { flavor: "wx310", label: "潮音紫苏" },
+      { flavor: "wx312", label: "潮音柠檬草" },
+      { flavor: "wx314", label: "潮音鼠尾" },
+      { flavor: "wx316", label: "潮音金盏" },
+      { flavor: "wx318", label: "潮音藿香" },
     ],
     autumn: [
       { flavor: "honey", label: "野蜜" },
@@ -4079,6 +4239,166 @@
       { flavor: "mn315", label: "玉盘茉莉" },
       { flavor: "mn317", label: "玉盘龙井" },
       { flavor: "mn319", label: "玉盘岩茶" },
+      { flavor: "wx1", label: "微雨薄荷" },
+      { flavor: "wx3", label: "微雨迷迭" },
+      { flavor: "wx5", label: "微雨罗勒" },
+      { flavor: "wx7", label: "微雨香茅" },
+      { flavor: "wx9", label: "微雨马鞭草" },
+      { flavor: "wx11", label: "微雨洋甘菊" },
+      { flavor: "wx13", label: "微雨矢车菊" },
+      { flavor: "wx15", label: "微雨荆芥" },
+      { flavor: "wx17", label: "细雪薄荷" },
+      { flavor: "wx19", label: "细雪迷迭" },
+      { flavor: "wx21", label: "细雪罗勒" },
+      { flavor: "wx23", label: "细雪香茅" },
+      { flavor: "wx25", label: "细雪马鞭草" },
+      { flavor: "wx27", label: "细雪洋甘菊" },
+      { flavor: "wx29", label: "细雪矢车菊" },
+      { flavor: "wx31", label: "细雪荆芥" },
+      { flavor: "wx33", label: "薄雾薄荷" },
+      { flavor: "wx35", label: "薄雾迷迭" },
+      { flavor: "wx37", label: "薄雾罗勒" },
+      { flavor: "wx39", label: "薄雾香茅" },
+      { flavor: "wx41", label: "薄雾马鞭草" },
+      { flavor: "wx43", label: "薄雾洋甘菊" },
+      { flavor: "wx45", label: "薄雾矢车菊" },
+      { flavor: "wx47", label: "薄雾荆芥" },
+      { flavor: "wx49", label: "软风薄荷" },
+      { flavor: "wx51", label: "软风迷迭" },
+      { flavor: "wx53", label: "软风罗勒" },
+      { flavor: "wx55", label: "软风香茅" },
+      { flavor: "wx57", label: "软风马鞭草" },
+      { flavor: "wx59", label: "软风洋甘菊" },
+      { flavor: "wx61", label: "软风矢车菊" },
+      { flavor: "wx63", label: "软风荆芥" },
+      { flavor: "wx65", label: "晴岚薄荷" },
+      { flavor: "wx67", label: "晴岚迷迭" },
+      { flavor: "wx69", label: "晴岚罗勒" },
+      { flavor: "wx71", label: "晴岚香茅" },
+      { flavor: "wx73", label: "晴岚马鞭草" },
+      { flavor: "wx75", label: "晴岚洋甘菊" },
+      { flavor: "wx77", label: "晴岚矢车菊" },
+      { flavor: "wx79", label: "晴岚荆芥" },
+      { flavor: "wx81", label: "暮霞薄荷" },
+      { flavor: "wx83", label: "暮霞迷迭" },
+      { flavor: "wx85", label: "暮霞罗勒" },
+      { flavor: "wx87", label: "暮霞香茅" },
+      { flavor: "wx89", label: "暮霞马鞭草" },
+      { flavor: "wx91", label: "暮霞洋甘菊" },
+      { flavor: "wx93", label: "暮霞矢车菊" },
+      { flavor: "wx95", label: "暮霞荆芥" },
+      { flavor: "wx97", label: "夜露薄荷" },
+      { flavor: "wx99", label: "夜露迷迭" },
+      { flavor: "wx101", label: "夜露罗勒" },
+      { flavor: "wx103", label: "夜露香茅" },
+      { flavor: "wx105", label: "夜露马鞭草" },
+      { flavor: "wx107", label: "夜露洋甘菊" },
+      { flavor: "wx109", label: "夜露矢车菊" },
+      { flavor: "wx111", label: "夜露荆芥" },
+      { flavor: "wx113", label: "晨霜薄荷" },
+      { flavor: "wx115", label: "晨霜迷迭" },
+      { flavor: "wx117", label: "晨霜罗勒" },
+      { flavor: "wx119", label: "晨霜香茅" },
+      { flavor: "wx121", label: "晨霜马鞭草" },
+      { flavor: "wx123", label: "晨霜洋甘菊" },
+      { flavor: "wx125", label: "晨霜矢车菊" },
+      { flavor: "wx127", label: "晨霜荆芥" },
+      { flavor: "wx129", label: "雷远薄荷" },
+      { flavor: "wx131", label: "雷远迷迭" },
+      { flavor: "wx133", label: "雷远罗勒" },
+      { flavor: "wx135", label: "雷远香茅" },
+      { flavor: "wx137", label: "雷远马鞭草" },
+      { flavor: "wx139", label: "雷远洋甘菊" },
+      { flavor: "wx141", label: "雷远矢车菊" },
+      { flavor: "wx143", label: "雷远荆芥" },
+      { flavor: "wx145", label: "云疏薄荷" },
+      { flavor: "wx147", label: "云疏迷迭" },
+      { flavor: "wx149", label: "云疏罗勒" },
+      { flavor: "wx151", label: "云疏香茅" },
+      { flavor: "wx153", label: "云疏马鞭草" },
+      { flavor: "wx155", label: "云疏洋甘菊" },
+      { flavor: "wx157", label: "云疏矢车菊" },
+      { flavor: "wx159", label: "云疏荆芥" },
+      { flavor: "wx161", label: "虹余薄荷" },
+      { flavor: "wx163", label: "虹余迷迭" },
+      { flavor: "wx165", label: "虹余罗勒" },
+      { flavor: "wx167", label: "虹余香茅" },
+      { flavor: "wx169", label: "虹余马鞭草" },
+      { flavor: "wx171", label: "虹余洋甘菊" },
+      { flavor: "wx173", label: "虹余矢车菊" },
+      { flavor: "wx175", label: "虹余荆芥" },
+      { flavor: "wx177", label: "烟雨薄荷" },
+      { flavor: "wx179", label: "烟雨迷迭" },
+      { flavor: "wx181", label: "烟雨罗勒" },
+      { flavor: "wx183", label: "烟雨香茅" },
+      { flavor: "wx185", label: "烟雨马鞭草" },
+      { flavor: "wx187", label: "烟雨洋甘菊" },
+      { flavor: "wx189", label: "烟雨矢车菊" },
+      { flavor: "wx191", label: "烟雨荆芥" },
+      { flavor: "wx193", label: "霁色薄荷" },
+      { flavor: "wx195", label: "霁色迷迭" },
+      { flavor: "wx197", label: "霁色罗勒" },
+      { flavor: "wx199", label: "霁色香茅" },
+      { flavor: "wx201", label: "霁色马鞭草" },
+      { flavor: "wx203", label: "霁色洋甘菊" },
+      { flavor: "wx205", label: "霁色矢车菊" },
+      { flavor: "wx207", label: "霁色荆芥" },
+      { flavor: "wx209", label: "阴凉薄荷" },
+      { flavor: "wx211", label: "阴凉迷迭" },
+      { flavor: "wx213", label: "阴凉罗勒" },
+      { flavor: "wx215", label: "阴凉香茅" },
+      { flavor: "wx217", label: "阴凉马鞭草" },
+      { flavor: "wx219", label: "阴凉洋甘菊" },
+      { flavor: "wx221", label: "阴凉矢车菊" },
+      { flavor: "wx223", label: "阴凉荆芥" },
+      { flavor: "wx225", label: "暖阳薄荷" },
+      { flavor: "wx227", label: "暖阳迷迭" },
+      { flavor: "wx229", label: "暖阳罗勒" },
+      { flavor: "wx231", label: "暖阳香茅" },
+      { flavor: "wx233", label: "暖阳马鞭草" },
+      { flavor: "wx235", label: "暖阳洋甘菊" },
+      { flavor: "wx237", label: "暖阳矢车菊" },
+      { flavor: "wx239", label: "暖阳荆芥" },
+      { flavor: "wx241", label: "朔风薄荷" },
+      { flavor: "wx243", label: "朔风迷迭" },
+      { flavor: "wx245", label: "朔风罗勒" },
+      { flavor: "wx247", label: "朔风香茅" },
+      { flavor: "wx249", label: "朔风马鞭草" },
+      { flavor: "wx251", label: "朔风洋甘菊" },
+      { flavor: "wx253", label: "朔风矢车菊" },
+      { flavor: "wx255", label: "朔风荆芥" },
+      { flavor: "wx257", label: "海风薄荷" },
+      { flavor: "wx259", label: "海风迷迭" },
+      { flavor: "wx261", label: "海风罗勒" },
+      { flavor: "wx263", label: "海风香茅" },
+      { flavor: "wx265", label: "海风马鞭草" },
+      { flavor: "wx267", label: "海风洋甘菊" },
+      { flavor: "wx269", label: "海风矢车菊" },
+      { flavor: "wx271", label: "海风荆芥" },
+      { flavor: "wx273", label: "山岚薄荷" },
+      { flavor: "wx275", label: "山岚迷迭" },
+      { flavor: "wx277", label: "山岚罗勒" },
+      { flavor: "wx279", label: "山岚香茅" },
+      { flavor: "wx281", label: "山岚马鞭草" },
+      { flavor: "wx283", label: "山岚洋甘菊" },
+      { flavor: "wx285", label: "山岚矢车菊" },
+      { flavor: "wx287", label: "山岚荆芥" },
+      { flavor: "wx289", label: "谷风薄荷" },
+      { flavor: "wx291", label: "谷风迷迭" },
+      { flavor: "wx293", label: "谷风罗勒" },
+      { flavor: "wx295", label: "谷风香茅" },
+      { flavor: "wx297", label: "谷风马鞭草" },
+      { flavor: "wx299", label: "谷风洋甘菊" },
+      { flavor: "wx301", label: "谷风矢车菊" },
+      { flavor: "wx303", label: "谷风荆芥" },
+      { flavor: "wx305", label: "潮音薄荷" },
+      { flavor: "wx307", label: "潮音迷迭" },
+      { flavor: "wx309", label: "潮音罗勒" },
+      { flavor: "wx311", label: "潮音香茅" },
+      { flavor: "wx313", label: "潮音马鞭草" },
+      { flavor: "wx315", label: "潮音洋甘菊" },
+      { flavor: "wx317", label: "潮音矢车菊" },
+      { flavor: "wx319", label: "潮音荆芥" },
     ],
     dusk: [
       { flavor: "lavender_bud", label: "薰衣草" },
@@ -26636,6 +26956,1926 @@
     { id: "mn319_walker", name: "玉盘岩茶径旅人", desc: "走过玉盘岩茶径", check: function (s) {
       return !!(s._themesTouched && s._themesTouched.mn319_path);
     } },
+    { id: "wx0_sill", name: "微雨艾草窗台", desc: "发现微雨艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx0);
+    } },
+    { id: "wx0_walker", name: "微雨艾草径旅人", desc: "走过微雨艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx0_path);
+    } },
+    { id: "wx1_sill", name: "微雨薄荷窗台", desc: "发现微雨薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx1);
+    } },
+    { id: "wx1_walker", name: "微雨薄荷径旅人", desc: "走过微雨薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx1_path);
+    } },
+    { id: "wx2_sill", name: "微雨茴香窗台", desc: "发现微雨茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx2);
+    } },
+    { id: "wx2_walker", name: "微雨茴香径旅人", desc: "走过微雨茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx2_path);
+    } },
+    { id: "wx3_sill", name: "微雨迷迭窗台", desc: "发现微雨迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx3);
+    } },
+    { id: "wx3_walker", name: "微雨迷迭径旅人", desc: "走过微雨迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx3_path);
+    } },
+    { id: "wx4_sill", name: "微雨百里香窗台", desc: "发现微雨百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx4);
+    } },
+    { id: "wx4_walker", name: "微雨百里香径旅人", desc: "走过微雨百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx4_path);
+    } },
+    { id: "wx5_sill", name: "微雨罗勒窗台", desc: "发现微雨罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx5);
+    } },
+    { id: "wx5_walker", name: "微雨罗勒径旅人", desc: "走过微雨罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx5_path);
+    } },
+    { id: "wx6_sill", name: "微雨紫苏窗台", desc: "发现微雨紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx6);
+    } },
+    { id: "wx6_walker", name: "微雨紫苏径旅人", desc: "走过微雨紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx6_path);
+    } },
+    { id: "wx7_sill", name: "微雨香茅窗台", desc: "发现微雨香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx7);
+    } },
+    { id: "wx7_walker", name: "微雨香茅径旅人", desc: "走过微雨香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx7_path);
+    } },
+    { id: "wx8_sill", name: "微雨柠檬草窗台", desc: "发现微雨柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx8);
+    } },
+    { id: "wx8_walker", name: "微雨柠檬草径旅人", desc: "走过微雨柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx8_path);
+    } },
+    { id: "wx9_sill", name: "微雨马鞭草窗台", desc: "发现微雨马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx9);
+    } },
+    { id: "wx9_walker", name: "微雨马鞭草径旅人", desc: "走过微雨马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx9_path);
+    } },
+    { id: "wx10_sill", name: "微雨鼠尾窗台", desc: "发现微雨鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx10);
+    } },
+    { id: "wx10_walker", name: "微雨鼠尾径旅人", desc: "走过微雨鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx10_path);
+    } },
+    { id: "wx11_sill", name: "微雨洋甘菊窗台", desc: "发现微雨洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx11);
+    } },
+    { id: "wx11_walker", name: "微雨洋甘菊径旅人", desc: "走过微雨洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx11_path);
+    } },
+    { id: "wx12_sill", name: "微雨金盏窗台", desc: "发现微雨金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx12);
+    } },
+    { id: "wx12_walker", name: "微雨金盏径旅人", desc: "走过微雨金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx12_path);
+    } },
+    { id: "wx13_sill", name: "微雨矢车菊窗台", desc: "发现微雨矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx13);
+    } },
+    { id: "wx13_walker", name: "微雨矢车菊径旅人", desc: "走过微雨矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx13_path);
+    } },
+    { id: "wx14_sill", name: "微雨藿香窗台", desc: "发现微雨藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx14);
+    } },
+    { id: "wx14_walker", name: "微雨藿香径旅人", desc: "走过微雨藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx14_path);
+    } },
+    { id: "wx15_sill", name: "微雨荆芥窗台", desc: "发现微雨荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx15);
+    } },
+    { id: "wx15_walker", name: "微雨荆芥径旅人", desc: "走过微雨荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx15_path);
+    } },
+    { id: "wx16_sill", name: "细雪艾草窗台", desc: "发现细雪艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx16);
+    } },
+    { id: "wx16_walker", name: "细雪艾草径旅人", desc: "走过细雪艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx16_path);
+    } },
+    { id: "wx17_sill", name: "细雪薄荷窗台", desc: "发现细雪薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx17);
+    } },
+    { id: "wx17_walker", name: "细雪薄荷径旅人", desc: "走过细雪薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx17_path);
+    } },
+    { id: "wx18_sill", name: "细雪茴香窗台", desc: "发现细雪茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx18);
+    } },
+    { id: "wx18_walker", name: "细雪茴香径旅人", desc: "走过细雪茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx18_path);
+    } },
+    { id: "wx19_sill", name: "细雪迷迭窗台", desc: "发现细雪迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx19);
+    } },
+    { id: "wx19_walker", name: "细雪迷迭径旅人", desc: "走过细雪迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx19_path);
+    } },
+    { id: "wx20_sill", name: "细雪百里香窗台", desc: "发现细雪百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx20);
+    } },
+    { id: "wx20_walker", name: "细雪百里香径旅人", desc: "走过细雪百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx20_path);
+    } },
+    { id: "wx21_sill", name: "细雪罗勒窗台", desc: "发现细雪罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx21);
+    } },
+    { id: "wx21_walker", name: "细雪罗勒径旅人", desc: "走过细雪罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx21_path);
+    } },
+    { id: "wx22_sill", name: "细雪紫苏窗台", desc: "发现细雪紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx22);
+    } },
+    { id: "wx22_walker", name: "细雪紫苏径旅人", desc: "走过细雪紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx22_path);
+    } },
+    { id: "wx23_sill", name: "细雪香茅窗台", desc: "发现细雪香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx23);
+    } },
+    { id: "wx23_walker", name: "细雪香茅径旅人", desc: "走过细雪香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx23_path);
+    } },
+    { id: "wx24_sill", name: "细雪柠檬草窗台", desc: "发现细雪柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx24);
+    } },
+    { id: "wx24_walker", name: "细雪柠檬草径旅人", desc: "走过细雪柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx24_path);
+    } },
+    { id: "wx25_sill", name: "细雪马鞭草窗台", desc: "发现细雪马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx25);
+    } },
+    { id: "wx25_walker", name: "细雪马鞭草径旅人", desc: "走过细雪马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx25_path);
+    } },
+    { id: "wx26_sill", name: "细雪鼠尾窗台", desc: "发现细雪鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx26);
+    } },
+    { id: "wx26_walker", name: "细雪鼠尾径旅人", desc: "走过细雪鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx26_path);
+    } },
+    { id: "wx27_sill", name: "细雪洋甘菊窗台", desc: "发现细雪洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx27);
+    } },
+    { id: "wx27_walker", name: "细雪洋甘菊径旅人", desc: "走过细雪洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx27_path);
+    } },
+    { id: "wx28_sill", name: "细雪金盏窗台", desc: "发现细雪金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx28);
+    } },
+    { id: "wx28_walker", name: "细雪金盏径旅人", desc: "走过细雪金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx28_path);
+    } },
+    { id: "wx29_sill", name: "细雪矢车菊窗台", desc: "发现细雪矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx29);
+    } },
+    { id: "wx29_walker", name: "细雪矢车菊径旅人", desc: "走过细雪矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx29_path);
+    } },
+    { id: "wx30_sill", name: "细雪藿香窗台", desc: "发现细雪藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx30);
+    } },
+    { id: "wx30_walker", name: "细雪藿香径旅人", desc: "走过细雪藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx30_path);
+    } },
+    { id: "wx31_sill", name: "细雪荆芥窗台", desc: "发现细雪荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx31);
+    } },
+    { id: "wx31_walker", name: "细雪荆芥径旅人", desc: "走过细雪荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx31_path);
+    } },
+    { id: "wx32_sill", name: "薄雾艾草窗台", desc: "发现薄雾艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx32);
+    } },
+    { id: "wx32_walker", name: "薄雾艾草径旅人", desc: "走过薄雾艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx32_path);
+    } },
+    { id: "wx33_sill", name: "薄雾薄荷窗台", desc: "发现薄雾薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx33);
+    } },
+    { id: "wx33_walker", name: "薄雾薄荷径旅人", desc: "走过薄雾薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx33_path);
+    } },
+    { id: "wx34_sill", name: "薄雾茴香窗台", desc: "发现薄雾茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx34);
+    } },
+    { id: "wx34_walker", name: "薄雾茴香径旅人", desc: "走过薄雾茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx34_path);
+    } },
+    { id: "wx35_sill", name: "薄雾迷迭窗台", desc: "发现薄雾迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx35);
+    } },
+    { id: "wx35_walker", name: "薄雾迷迭径旅人", desc: "走过薄雾迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx35_path);
+    } },
+    { id: "wx36_sill", name: "薄雾百里香窗台", desc: "发现薄雾百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx36);
+    } },
+    { id: "wx36_walker", name: "薄雾百里香径旅人", desc: "走过薄雾百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx36_path);
+    } },
+    { id: "wx37_sill", name: "薄雾罗勒窗台", desc: "发现薄雾罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx37);
+    } },
+    { id: "wx37_walker", name: "薄雾罗勒径旅人", desc: "走过薄雾罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx37_path);
+    } },
+    { id: "wx38_sill", name: "薄雾紫苏窗台", desc: "发现薄雾紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx38);
+    } },
+    { id: "wx38_walker", name: "薄雾紫苏径旅人", desc: "走过薄雾紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx38_path);
+    } },
+    { id: "wx39_sill", name: "薄雾香茅窗台", desc: "发现薄雾香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx39);
+    } },
+    { id: "wx39_walker", name: "薄雾香茅径旅人", desc: "走过薄雾香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx39_path);
+    } },
+    { id: "wx40_sill", name: "薄雾柠檬草窗台", desc: "发现薄雾柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx40);
+    } },
+    { id: "wx40_walker", name: "薄雾柠檬草径旅人", desc: "走过薄雾柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx40_path);
+    } },
+    { id: "wx41_sill", name: "薄雾马鞭草窗台", desc: "发现薄雾马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx41);
+    } },
+    { id: "wx41_walker", name: "薄雾马鞭草径旅人", desc: "走过薄雾马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx41_path);
+    } },
+    { id: "wx42_sill", name: "薄雾鼠尾窗台", desc: "发现薄雾鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx42);
+    } },
+    { id: "wx42_walker", name: "薄雾鼠尾径旅人", desc: "走过薄雾鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx42_path);
+    } },
+    { id: "wx43_sill", name: "薄雾洋甘菊窗台", desc: "发现薄雾洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx43);
+    } },
+    { id: "wx43_walker", name: "薄雾洋甘菊径旅人", desc: "走过薄雾洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx43_path);
+    } },
+    { id: "wx44_sill", name: "薄雾金盏窗台", desc: "发现薄雾金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx44);
+    } },
+    { id: "wx44_walker", name: "薄雾金盏径旅人", desc: "走过薄雾金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx44_path);
+    } },
+    { id: "wx45_sill", name: "薄雾矢车菊窗台", desc: "发现薄雾矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx45);
+    } },
+    { id: "wx45_walker", name: "薄雾矢车菊径旅人", desc: "走过薄雾矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx45_path);
+    } },
+    { id: "wx46_sill", name: "薄雾藿香窗台", desc: "发现薄雾藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx46);
+    } },
+    { id: "wx46_walker", name: "薄雾藿香径旅人", desc: "走过薄雾藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx46_path);
+    } },
+    { id: "wx47_sill", name: "薄雾荆芥窗台", desc: "发现薄雾荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx47);
+    } },
+    { id: "wx47_walker", name: "薄雾荆芥径旅人", desc: "走过薄雾荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx47_path);
+    } },
+    { id: "wx48_sill", name: "软风艾草窗台", desc: "发现软风艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx48);
+    } },
+    { id: "wx48_walker", name: "软风艾草径旅人", desc: "走过软风艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx48_path);
+    } },
+    { id: "wx49_sill", name: "软风薄荷窗台", desc: "发现软风薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx49);
+    } },
+    { id: "wx49_walker", name: "软风薄荷径旅人", desc: "走过软风薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx49_path);
+    } },
+    { id: "wx50_sill", name: "软风茴香窗台", desc: "发现软风茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx50);
+    } },
+    { id: "wx50_walker", name: "软风茴香径旅人", desc: "走过软风茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx50_path);
+    } },
+    { id: "wx51_sill", name: "软风迷迭窗台", desc: "发现软风迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx51);
+    } },
+    { id: "wx51_walker", name: "软风迷迭径旅人", desc: "走过软风迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx51_path);
+    } },
+    { id: "wx52_sill", name: "软风百里香窗台", desc: "发现软风百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx52);
+    } },
+    { id: "wx52_walker", name: "软风百里香径旅人", desc: "走过软风百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx52_path);
+    } },
+    { id: "wx53_sill", name: "软风罗勒窗台", desc: "发现软风罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx53);
+    } },
+    { id: "wx53_walker", name: "软风罗勒径旅人", desc: "走过软风罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx53_path);
+    } },
+    { id: "wx54_sill", name: "软风紫苏窗台", desc: "发现软风紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx54);
+    } },
+    { id: "wx54_walker", name: "软风紫苏径旅人", desc: "走过软风紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx54_path);
+    } },
+    { id: "wx55_sill", name: "软风香茅窗台", desc: "发现软风香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx55);
+    } },
+    { id: "wx55_walker", name: "软风香茅径旅人", desc: "走过软风香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx55_path);
+    } },
+    { id: "wx56_sill", name: "软风柠檬草窗台", desc: "发现软风柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx56);
+    } },
+    { id: "wx56_walker", name: "软风柠檬草径旅人", desc: "走过软风柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx56_path);
+    } },
+    { id: "wx57_sill", name: "软风马鞭草窗台", desc: "发现软风马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx57);
+    } },
+    { id: "wx57_walker", name: "软风马鞭草径旅人", desc: "走过软风马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx57_path);
+    } },
+    { id: "wx58_sill", name: "软风鼠尾窗台", desc: "发现软风鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx58);
+    } },
+    { id: "wx58_walker", name: "软风鼠尾径旅人", desc: "走过软风鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx58_path);
+    } },
+    { id: "wx59_sill", name: "软风洋甘菊窗台", desc: "发现软风洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx59);
+    } },
+    { id: "wx59_walker", name: "软风洋甘菊径旅人", desc: "走过软风洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx59_path);
+    } },
+    { id: "wx60_sill", name: "软风金盏窗台", desc: "发现软风金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx60);
+    } },
+    { id: "wx60_walker", name: "软风金盏径旅人", desc: "走过软风金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx60_path);
+    } },
+    { id: "wx61_sill", name: "软风矢车菊窗台", desc: "发现软风矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx61);
+    } },
+    { id: "wx61_walker", name: "软风矢车菊径旅人", desc: "走过软风矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx61_path);
+    } },
+    { id: "wx62_sill", name: "软风藿香窗台", desc: "发现软风藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx62);
+    } },
+    { id: "wx62_walker", name: "软风藿香径旅人", desc: "走过软风藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx62_path);
+    } },
+    { id: "wx63_sill", name: "软风荆芥窗台", desc: "发现软风荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx63);
+    } },
+    { id: "wx63_walker", name: "软风荆芥径旅人", desc: "走过软风荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx63_path);
+    } },
+    { id: "wx64_sill", name: "晴岚艾草窗台", desc: "发现晴岚艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx64);
+    } },
+    { id: "wx64_walker", name: "晴岚艾草径旅人", desc: "走过晴岚艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx64_path);
+    } },
+    { id: "wx65_sill", name: "晴岚薄荷窗台", desc: "发现晴岚薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx65);
+    } },
+    { id: "wx65_walker", name: "晴岚薄荷径旅人", desc: "走过晴岚薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx65_path);
+    } },
+    { id: "wx66_sill", name: "晴岚茴香窗台", desc: "发现晴岚茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx66);
+    } },
+    { id: "wx66_walker", name: "晴岚茴香径旅人", desc: "走过晴岚茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx66_path);
+    } },
+    { id: "wx67_sill", name: "晴岚迷迭窗台", desc: "发现晴岚迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx67);
+    } },
+    { id: "wx67_walker", name: "晴岚迷迭径旅人", desc: "走过晴岚迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx67_path);
+    } },
+    { id: "wx68_sill", name: "晴岚百里香窗台", desc: "发现晴岚百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx68);
+    } },
+    { id: "wx68_walker", name: "晴岚百里香径旅人", desc: "走过晴岚百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx68_path);
+    } },
+    { id: "wx69_sill", name: "晴岚罗勒窗台", desc: "发现晴岚罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx69);
+    } },
+    { id: "wx69_walker", name: "晴岚罗勒径旅人", desc: "走过晴岚罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx69_path);
+    } },
+    { id: "wx70_sill", name: "晴岚紫苏窗台", desc: "发现晴岚紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx70);
+    } },
+    { id: "wx70_walker", name: "晴岚紫苏径旅人", desc: "走过晴岚紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx70_path);
+    } },
+    { id: "wx71_sill", name: "晴岚香茅窗台", desc: "发现晴岚香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx71);
+    } },
+    { id: "wx71_walker", name: "晴岚香茅径旅人", desc: "走过晴岚香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx71_path);
+    } },
+    { id: "wx72_sill", name: "晴岚柠檬草窗台", desc: "发现晴岚柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx72);
+    } },
+    { id: "wx72_walker", name: "晴岚柠檬草径旅人", desc: "走过晴岚柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx72_path);
+    } },
+    { id: "wx73_sill", name: "晴岚马鞭草窗台", desc: "发现晴岚马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx73);
+    } },
+    { id: "wx73_walker", name: "晴岚马鞭草径旅人", desc: "走过晴岚马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx73_path);
+    } },
+    { id: "wx74_sill", name: "晴岚鼠尾窗台", desc: "发现晴岚鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx74);
+    } },
+    { id: "wx74_walker", name: "晴岚鼠尾径旅人", desc: "走过晴岚鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx74_path);
+    } },
+    { id: "wx75_sill", name: "晴岚洋甘菊窗台", desc: "发现晴岚洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx75);
+    } },
+    { id: "wx75_walker", name: "晴岚洋甘菊径旅人", desc: "走过晴岚洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx75_path);
+    } },
+    { id: "wx76_sill", name: "晴岚金盏窗台", desc: "发现晴岚金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx76);
+    } },
+    { id: "wx76_walker", name: "晴岚金盏径旅人", desc: "走过晴岚金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx76_path);
+    } },
+    { id: "wx77_sill", name: "晴岚矢车菊窗台", desc: "发现晴岚矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx77);
+    } },
+    { id: "wx77_walker", name: "晴岚矢车菊径旅人", desc: "走过晴岚矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx77_path);
+    } },
+    { id: "wx78_sill", name: "晴岚藿香窗台", desc: "发现晴岚藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx78);
+    } },
+    { id: "wx78_walker", name: "晴岚藿香径旅人", desc: "走过晴岚藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx78_path);
+    } },
+    { id: "wx79_sill", name: "晴岚荆芥窗台", desc: "发现晴岚荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx79);
+    } },
+    { id: "wx79_walker", name: "晴岚荆芥径旅人", desc: "走过晴岚荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx79_path);
+    } },
+    { id: "wx80_sill", name: "暮霞艾草窗台", desc: "发现暮霞艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx80);
+    } },
+    { id: "wx80_walker", name: "暮霞艾草径旅人", desc: "走过暮霞艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx80_path);
+    } },
+    { id: "wx81_sill", name: "暮霞薄荷窗台", desc: "发现暮霞薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx81);
+    } },
+    { id: "wx81_walker", name: "暮霞薄荷径旅人", desc: "走过暮霞薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx81_path);
+    } },
+    { id: "wx82_sill", name: "暮霞茴香窗台", desc: "发现暮霞茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx82);
+    } },
+    { id: "wx82_walker", name: "暮霞茴香径旅人", desc: "走过暮霞茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx82_path);
+    } },
+    { id: "wx83_sill", name: "暮霞迷迭窗台", desc: "发现暮霞迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx83);
+    } },
+    { id: "wx83_walker", name: "暮霞迷迭径旅人", desc: "走过暮霞迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx83_path);
+    } },
+    { id: "wx84_sill", name: "暮霞百里香窗台", desc: "发现暮霞百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx84);
+    } },
+    { id: "wx84_walker", name: "暮霞百里香径旅人", desc: "走过暮霞百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx84_path);
+    } },
+    { id: "wx85_sill", name: "暮霞罗勒窗台", desc: "发现暮霞罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx85);
+    } },
+    { id: "wx85_walker", name: "暮霞罗勒径旅人", desc: "走过暮霞罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx85_path);
+    } },
+    { id: "wx86_sill", name: "暮霞紫苏窗台", desc: "发现暮霞紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx86);
+    } },
+    { id: "wx86_walker", name: "暮霞紫苏径旅人", desc: "走过暮霞紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx86_path);
+    } },
+    { id: "wx87_sill", name: "暮霞香茅窗台", desc: "发现暮霞香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx87);
+    } },
+    { id: "wx87_walker", name: "暮霞香茅径旅人", desc: "走过暮霞香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx87_path);
+    } },
+    { id: "wx88_sill", name: "暮霞柠檬草窗台", desc: "发现暮霞柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx88);
+    } },
+    { id: "wx88_walker", name: "暮霞柠檬草径旅人", desc: "走过暮霞柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx88_path);
+    } },
+    { id: "wx89_sill", name: "暮霞马鞭草窗台", desc: "发现暮霞马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx89);
+    } },
+    { id: "wx89_walker", name: "暮霞马鞭草径旅人", desc: "走过暮霞马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx89_path);
+    } },
+    { id: "wx90_sill", name: "暮霞鼠尾窗台", desc: "发现暮霞鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx90);
+    } },
+    { id: "wx90_walker", name: "暮霞鼠尾径旅人", desc: "走过暮霞鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx90_path);
+    } },
+    { id: "wx91_sill", name: "暮霞洋甘菊窗台", desc: "发现暮霞洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx91);
+    } },
+    { id: "wx91_walker", name: "暮霞洋甘菊径旅人", desc: "走过暮霞洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx91_path);
+    } },
+    { id: "wx92_sill", name: "暮霞金盏窗台", desc: "发现暮霞金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx92);
+    } },
+    { id: "wx92_walker", name: "暮霞金盏径旅人", desc: "走过暮霞金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx92_path);
+    } },
+    { id: "wx93_sill", name: "暮霞矢车菊窗台", desc: "发现暮霞矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx93);
+    } },
+    { id: "wx93_walker", name: "暮霞矢车菊径旅人", desc: "走过暮霞矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx93_path);
+    } },
+    { id: "wx94_sill", name: "暮霞藿香窗台", desc: "发现暮霞藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx94);
+    } },
+    { id: "wx94_walker", name: "暮霞藿香径旅人", desc: "走过暮霞藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx94_path);
+    } },
+    { id: "wx95_sill", name: "暮霞荆芥窗台", desc: "发现暮霞荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx95);
+    } },
+    { id: "wx95_walker", name: "暮霞荆芥径旅人", desc: "走过暮霞荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx95_path);
+    } },
+    { id: "wx96_sill", name: "夜露艾草窗台", desc: "发现夜露艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx96);
+    } },
+    { id: "wx96_walker", name: "夜露艾草径旅人", desc: "走过夜露艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx96_path);
+    } },
+    { id: "wx97_sill", name: "夜露薄荷窗台", desc: "发现夜露薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx97);
+    } },
+    { id: "wx97_walker", name: "夜露薄荷径旅人", desc: "走过夜露薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx97_path);
+    } },
+    { id: "wx98_sill", name: "夜露茴香窗台", desc: "发现夜露茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx98);
+    } },
+    { id: "wx98_walker", name: "夜露茴香径旅人", desc: "走过夜露茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx98_path);
+    } },
+    { id: "wx99_sill", name: "夜露迷迭窗台", desc: "发现夜露迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx99);
+    } },
+    { id: "wx99_walker", name: "夜露迷迭径旅人", desc: "走过夜露迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx99_path);
+    } },
+    { id: "wx100_sill", name: "夜露百里香窗台", desc: "发现夜露百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx100);
+    } },
+    { id: "wx100_walker", name: "夜露百里香径旅人", desc: "走过夜露百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx100_path);
+    } },
+    { id: "wx101_sill", name: "夜露罗勒窗台", desc: "发现夜露罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx101);
+    } },
+    { id: "wx101_walker", name: "夜露罗勒径旅人", desc: "走过夜露罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx101_path);
+    } },
+    { id: "wx102_sill", name: "夜露紫苏窗台", desc: "发现夜露紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx102);
+    } },
+    { id: "wx102_walker", name: "夜露紫苏径旅人", desc: "走过夜露紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx102_path);
+    } },
+    { id: "wx103_sill", name: "夜露香茅窗台", desc: "发现夜露香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx103);
+    } },
+    { id: "wx103_walker", name: "夜露香茅径旅人", desc: "走过夜露香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx103_path);
+    } },
+    { id: "wx104_sill", name: "夜露柠檬草窗台", desc: "发现夜露柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx104);
+    } },
+    { id: "wx104_walker", name: "夜露柠檬草径旅人", desc: "走过夜露柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx104_path);
+    } },
+    { id: "wx105_sill", name: "夜露马鞭草窗台", desc: "发现夜露马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx105);
+    } },
+    { id: "wx105_walker", name: "夜露马鞭草径旅人", desc: "走过夜露马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx105_path);
+    } },
+    { id: "wx106_sill", name: "夜露鼠尾窗台", desc: "发现夜露鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx106);
+    } },
+    { id: "wx106_walker", name: "夜露鼠尾径旅人", desc: "走过夜露鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx106_path);
+    } },
+    { id: "wx107_sill", name: "夜露洋甘菊窗台", desc: "发现夜露洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx107);
+    } },
+    { id: "wx107_walker", name: "夜露洋甘菊径旅人", desc: "走过夜露洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx107_path);
+    } },
+    { id: "wx108_sill", name: "夜露金盏窗台", desc: "发现夜露金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx108);
+    } },
+    { id: "wx108_walker", name: "夜露金盏径旅人", desc: "走过夜露金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx108_path);
+    } },
+    { id: "wx109_sill", name: "夜露矢车菊窗台", desc: "发现夜露矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx109);
+    } },
+    { id: "wx109_walker", name: "夜露矢车菊径旅人", desc: "走过夜露矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx109_path);
+    } },
+    { id: "wx110_sill", name: "夜露藿香窗台", desc: "发现夜露藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx110);
+    } },
+    { id: "wx110_walker", name: "夜露藿香径旅人", desc: "走过夜露藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx110_path);
+    } },
+    { id: "wx111_sill", name: "夜露荆芥窗台", desc: "发现夜露荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx111);
+    } },
+    { id: "wx111_walker", name: "夜露荆芥径旅人", desc: "走过夜露荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx111_path);
+    } },
+    { id: "wx112_sill", name: "晨霜艾草窗台", desc: "发现晨霜艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx112);
+    } },
+    { id: "wx112_walker", name: "晨霜艾草径旅人", desc: "走过晨霜艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx112_path);
+    } },
+    { id: "wx113_sill", name: "晨霜薄荷窗台", desc: "发现晨霜薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx113);
+    } },
+    { id: "wx113_walker", name: "晨霜薄荷径旅人", desc: "走过晨霜薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx113_path);
+    } },
+    { id: "wx114_sill", name: "晨霜茴香窗台", desc: "发现晨霜茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx114);
+    } },
+    { id: "wx114_walker", name: "晨霜茴香径旅人", desc: "走过晨霜茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx114_path);
+    } },
+    { id: "wx115_sill", name: "晨霜迷迭窗台", desc: "发现晨霜迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx115);
+    } },
+    { id: "wx115_walker", name: "晨霜迷迭径旅人", desc: "走过晨霜迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx115_path);
+    } },
+    { id: "wx116_sill", name: "晨霜百里香窗台", desc: "发现晨霜百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx116);
+    } },
+    { id: "wx116_walker", name: "晨霜百里香径旅人", desc: "走过晨霜百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx116_path);
+    } },
+    { id: "wx117_sill", name: "晨霜罗勒窗台", desc: "发现晨霜罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx117);
+    } },
+    { id: "wx117_walker", name: "晨霜罗勒径旅人", desc: "走过晨霜罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx117_path);
+    } },
+    { id: "wx118_sill", name: "晨霜紫苏窗台", desc: "发现晨霜紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx118);
+    } },
+    { id: "wx118_walker", name: "晨霜紫苏径旅人", desc: "走过晨霜紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx118_path);
+    } },
+    { id: "wx119_sill", name: "晨霜香茅窗台", desc: "发现晨霜香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx119);
+    } },
+    { id: "wx119_walker", name: "晨霜香茅径旅人", desc: "走过晨霜香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx119_path);
+    } },
+    { id: "wx120_sill", name: "晨霜柠檬草窗台", desc: "发现晨霜柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx120);
+    } },
+    { id: "wx120_walker", name: "晨霜柠檬草径旅人", desc: "走过晨霜柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx120_path);
+    } },
+    { id: "wx121_sill", name: "晨霜马鞭草窗台", desc: "发现晨霜马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx121);
+    } },
+    { id: "wx121_walker", name: "晨霜马鞭草径旅人", desc: "走过晨霜马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx121_path);
+    } },
+    { id: "wx122_sill", name: "晨霜鼠尾窗台", desc: "发现晨霜鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx122);
+    } },
+    { id: "wx122_walker", name: "晨霜鼠尾径旅人", desc: "走过晨霜鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx122_path);
+    } },
+    { id: "wx123_sill", name: "晨霜洋甘菊窗台", desc: "发现晨霜洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx123);
+    } },
+    { id: "wx123_walker", name: "晨霜洋甘菊径旅人", desc: "走过晨霜洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx123_path);
+    } },
+    { id: "wx124_sill", name: "晨霜金盏窗台", desc: "发现晨霜金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx124);
+    } },
+    { id: "wx124_walker", name: "晨霜金盏径旅人", desc: "走过晨霜金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx124_path);
+    } },
+    { id: "wx125_sill", name: "晨霜矢车菊窗台", desc: "发现晨霜矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx125);
+    } },
+    { id: "wx125_walker", name: "晨霜矢车菊径旅人", desc: "走过晨霜矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx125_path);
+    } },
+    { id: "wx126_sill", name: "晨霜藿香窗台", desc: "发现晨霜藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx126);
+    } },
+    { id: "wx126_walker", name: "晨霜藿香径旅人", desc: "走过晨霜藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx126_path);
+    } },
+    { id: "wx127_sill", name: "晨霜荆芥窗台", desc: "发现晨霜荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx127);
+    } },
+    { id: "wx127_walker", name: "晨霜荆芥径旅人", desc: "走过晨霜荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx127_path);
+    } },
+    { id: "wx128_sill", name: "雷远艾草窗台", desc: "发现雷远艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx128);
+    } },
+    { id: "wx128_walker", name: "雷远艾草径旅人", desc: "走过雷远艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx128_path);
+    } },
+    { id: "wx129_sill", name: "雷远薄荷窗台", desc: "发现雷远薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx129);
+    } },
+    { id: "wx129_walker", name: "雷远薄荷径旅人", desc: "走过雷远薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx129_path);
+    } },
+    { id: "wx130_sill", name: "雷远茴香窗台", desc: "发现雷远茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx130);
+    } },
+    { id: "wx130_walker", name: "雷远茴香径旅人", desc: "走过雷远茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx130_path);
+    } },
+    { id: "wx131_sill", name: "雷远迷迭窗台", desc: "发现雷远迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx131);
+    } },
+    { id: "wx131_walker", name: "雷远迷迭径旅人", desc: "走过雷远迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx131_path);
+    } },
+    { id: "wx132_sill", name: "雷远百里香窗台", desc: "发现雷远百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx132);
+    } },
+    { id: "wx132_walker", name: "雷远百里香径旅人", desc: "走过雷远百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx132_path);
+    } },
+    { id: "wx133_sill", name: "雷远罗勒窗台", desc: "发现雷远罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx133);
+    } },
+    { id: "wx133_walker", name: "雷远罗勒径旅人", desc: "走过雷远罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx133_path);
+    } },
+    { id: "wx134_sill", name: "雷远紫苏窗台", desc: "发现雷远紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx134);
+    } },
+    { id: "wx134_walker", name: "雷远紫苏径旅人", desc: "走过雷远紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx134_path);
+    } },
+    { id: "wx135_sill", name: "雷远香茅窗台", desc: "发现雷远香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx135);
+    } },
+    { id: "wx135_walker", name: "雷远香茅径旅人", desc: "走过雷远香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx135_path);
+    } },
+    { id: "wx136_sill", name: "雷远柠檬草窗台", desc: "发现雷远柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx136);
+    } },
+    { id: "wx136_walker", name: "雷远柠檬草径旅人", desc: "走过雷远柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx136_path);
+    } },
+    { id: "wx137_sill", name: "雷远马鞭草窗台", desc: "发现雷远马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx137);
+    } },
+    { id: "wx137_walker", name: "雷远马鞭草径旅人", desc: "走过雷远马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx137_path);
+    } },
+    { id: "wx138_sill", name: "雷远鼠尾窗台", desc: "发现雷远鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx138);
+    } },
+    { id: "wx138_walker", name: "雷远鼠尾径旅人", desc: "走过雷远鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx138_path);
+    } },
+    { id: "wx139_sill", name: "雷远洋甘菊窗台", desc: "发现雷远洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx139);
+    } },
+    { id: "wx139_walker", name: "雷远洋甘菊径旅人", desc: "走过雷远洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx139_path);
+    } },
+    { id: "wx140_sill", name: "雷远金盏窗台", desc: "发现雷远金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx140);
+    } },
+    { id: "wx140_walker", name: "雷远金盏径旅人", desc: "走过雷远金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx140_path);
+    } },
+    { id: "wx141_sill", name: "雷远矢车菊窗台", desc: "发现雷远矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx141);
+    } },
+    { id: "wx141_walker", name: "雷远矢车菊径旅人", desc: "走过雷远矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx141_path);
+    } },
+    { id: "wx142_sill", name: "雷远藿香窗台", desc: "发现雷远藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx142);
+    } },
+    { id: "wx142_walker", name: "雷远藿香径旅人", desc: "走过雷远藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx142_path);
+    } },
+    { id: "wx143_sill", name: "雷远荆芥窗台", desc: "发现雷远荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx143);
+    } },
+    { id: "wx143_walker", name: "雷远荆芥径旅人", desc: "走过雷远荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx143_path);
+    } },
+    { id: "wx144_sill", name: "云疏艾草窗台", desc: "发现云疏艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx144);
+    } },
+    { id: "wx144_walker", name: "云疏艾草径旅人", desc: "走过云疏艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx144_path);
+    } },
+    { id: "wx145_sill", name: "云疏薄荷窗台", desc: "发现云疏薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx145);
+    } },
+    { id: "wx145_walker", name: "云疏薄荷径旅人", desc: "走过云疏薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx145_path);
+    } },
+    { id: "wx146_sill", name: "云疏茴香窗台", desc: "发现云疏茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx146);
+    } },
+    { id: "wx146_walker", name: "云疏茴香径旅人", desc: "走过云疏茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx146_path);
+    } },
+    { id: "wx147_sill", name: "云疏迷迭窗台", desc: "发现云疏迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx147);
+    } },
+    { id: "wx147_walker", name: "云疏迷迭径旅人", desc: "走过云疏迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx147_path);
+    } },
+    { id: "wx148_sill", name: "云疏百里香窗台", desc: "发现云疏百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx148);
+    } },
+    { id: "wx148_walker", name: "云疏百里香径旅人", desc: "走过云疏百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx148_path);
+    } },
+    { id: "wx149_sill", name: "云疏罗勒窗台", desc: "发现云疏罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx149);
+    } },
+    { id: "wx149_walker", name: "云疏罗勒径旅人", desc: "走过云疏罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx149_path);
+    } },
+    { id: "wx150_sill", name: "云疏紫苏窗台", desc: "发现云疏紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx150);
+    } },
+    { id: "wx150_walker", name: "云疏紫苏径旅人", desc: "走过云疏紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx150_path);
+    } },
+    { id: "wx151_sill", name: "云疏香茅窗台", desc: "发现云疏香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx151);
+    } },
+    { id: "wx151_walker", name: "云疏香茅径旅人", desc: "走过云疏香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx151_path);
+    } },
+    { id: "wx152_sill", name: "云疏柠檬草窗台", desc: "发现云疏柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx152);
+    } },
+    { id: "wx152_walker", name: "云疏柠檬草径旅人", desc: "走过云疏柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx152_path);
+    } },
+    { id: "wx153_sill", name: "云疏马鞭草窗台", desc: "发现云疏马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx153);
+    } },
+    { id: "wx153_walker", name: "云疏马鞭草径旅人", desc: "走过云疏马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx153_path);
+    } },
+    { id: "wx154_sill", name: "云疏鼠尾窗台", desc: "发现云疏鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx154);
+    } },
+    { id: "wx154_walker", name: "云疏鼠尾径旅人", desc: "走过云疏鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx154_path);
+    } },
+    { id: "wx155_sill", name: "云疏洋甘菊窗台", desc: "发现云疏洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx155);
+    } },
+    { id: "wx155_walker", name: "云疏洋甘菊径旅人", desc: "走过云疏洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx155_path);
+    } },
+    { id: "wx156_sill", name: "云疏金盏窗台", desc: "发现云疏金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx156);
+    } },
+    { id: "wx156_walker", name: "云疏金盏径旅人", desc: "走过云疏金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx156_path);
+    } },
+    { id: "wx157_sill", name: "云疏矢车菊窗台", desc: "发现云疏矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx157);
+    } },
+    { id: "wx157_walker", name: "云疏矢车菊径旅人", desc: "走过云疏矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx157_path);
+    } },
+    { id: "wx158_sill", name: "云疏藿香窗台", desc: "发现云疏藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx158);
+    } },
+    { id: "wx158_walker", name: "云疏藿香径旅人", desc: "走过云疏藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx158_path);
+    } },
+    { id: "wx159_sill", name: "云疏荆芥窗台", desc: "发现云疏荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx159);
+    } },
+    { id: "wx159_walker", name: "云疏荆芥径旅人", desc: "走过云疏荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx159_path);
+    } },
+    { id: "wx160_sill", name: "虹余艾草窗台", desc: "发现虹余艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx160);
+    } },
+    { id: "wx160_walker", name: "虹余艾草径旅人", desc: "走过虹余艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx160_path);
+    } },
+    { id: "wx161_sill", name: "虹余薄荷窗台", desc: "发现虹余薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx161);
+    } },
+    { id: "wx161_walker", name: "虹余薄荷径旅人", desc: "走过虹余薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx161_path);
+    } },
+    { id: "wx162_sill", name: "虹余茴香窗台", desc: "发现虹余茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx162);
+    } },
+    { id: "wx162_walker", name: "虹余茴香径旅人", desc: "走过虹余茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx162_path);
+    } },
+    { id: "wx163_sill", name: "虹余迷迭窗台", desc: "发现虹余迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx163);
+    } },
+    { id: "wx163_walker", name: "虹余迷迭径旅人", desc: "走过虹余迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx163_path);
+    } },
+    { id: "wx164_sill", name: "虹余百里香窗台", desc: "发现虹余百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx164);
+    } },
+    { id: "wx164_walker", name: "虹余百里香径旅人", desc: "走过虹余百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx164_path);
+    } },
+    { id: "wx165_sill", name: "虹余罗勒窗台", desc: "发现虹余罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx165);
+    } },
+    { id: "wx165_walker", name: "虹余罗勒径旅人", desc: "走过虹余罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx165_path);
+    } },
+    { id: "wx166_sill", name: "虹余紫苏窗台", desc: "发现虹余紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx166);
+    } },
+    { id: "wx166_walker", name: "虹余紫苏径旅人", desc: "走过虹余紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx166_path);
+    } },
+    { id: "wx167_sill", name: "虹余香茅窗台", desc: "发现虹余香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx167);
+    } },
+    { id: "wx167_walker", name: "虹余香茅径旅人", desc: "走过虹余香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx167_path);
+    } },
+    { id: "wx168_sill", name: "虹余柠檬草窗台", desc: "发现虹余柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx168);
+    } },
+    { id: "wx168_walker", name: "虹余柠檬草径旅人", desc: "走过虹余柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx168_path);
+    } },
+    { id: "wx169_sill", name: "虹余马鞭草窗台", desc: "发现虹余马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx169);
+    } },
+    { id: "wx169_walker", name: "虹余马鞭草径旅人", desc: "走过虹余马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx169_path);
+    } },
+    { id: "wx170_sill", name: "虹余鼠尾窗台", desc: "发现虹余鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx170);
+    } },
+    { id: "wx170_walker", name: "虹余鼠尾径旅人", desc: "走过虹余鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx170_path);
+    } },
+    { id: "wx171_sill", name: "虹余洋甘菊窗台", desc: "发现虹余洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx171);
+    } },
+    { id: "wx171_walker", name: "虹余洋甘菊径旅人", desc: "走过虹余洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx171_path);
+    } },
+    { id: "wx172_sill", name: "虹余金盏窗台", desc: "发现虹余金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx172);
+    } },
+    { id: "wx172_walker", name: "虹余金盏径旅人", desc: "走过虹余金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx172_path);
+    } },
+    { id: "wx173_sill", name: "虹余矢车菊窗台", desc: "发现虹余矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx173);
+    } },
+    { id: "wx173_walker", name: "虹余矢车菊径旅人", desc: "走过虹余矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx173_path);
+    } },
+    { id: "wx174_sill", name: "虹余藿香窗台", desc: "发现虹余藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx174);
+    } },
+    { id: "wx174_walker", name: "虹余藿香径旅人", desc: "走过虹余藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx174_path);
+    } },
+    { id: "wx175_sill", name: "虹余荆芥窗台", desc: "发现虹余荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx175);
+    } },
+    { id: "wx175_walker", name: "虹余荆芥径旅人", desc: "走过虹余荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx175_path);
+    } },
+    { id: "wx176_sill", name: "烟雨艾草窗台", desc: "发现烟雨艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx176);
+    } },
+    { id: "wx176_walker", name: "烟雨艾草径旅人", desc: "走过烟雨艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx176_path);
+    } },
+    { id: "wx177_sill", name: "烟雨薄荷窗台", desc: "发现烟雨薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx177);
+    } },
+    { id: "wx177_walker", name: "烟雨薄荷径旅人", desc: "走过烟雨薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx177_path);
+    } },
+    { id: "wx178_sill", name: "烟雨茴香窗台", desc: "发现烟雨茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx178);
+    } },
+    { id: "wx178_walker", name: "烟雨茴香径旅人", desc: "走过烟雨茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx178_path);
+    } },
+    { id: "wx179_sill", name: "烟雨迷迭窗台", desc: "发现烟雨迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx179);
+    } },
+    { id: "wx179_walker", name: "烟雨迷迭径旅人", desc: "走过烟雨迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx179_path);
+    } },
+    { id: "wx180_sill", name: "烟雨百里香窗台", desc: "发现烟雨百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx180);
+    } },
+    { id: "wx180_walker", name: "烟雨百里香径旅人", desc: "走过烟雨百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx180_path);
+    } },
+    { id: "wx181_sill", name: "烟雨罗勒窗台", desc: "发现烟雨罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx181);
+    } },
+    { id: "wx181_walker", name: "烟雨罗勒径旅人", desc: "走过烟雨罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx181_path);
+    } },
+    { id: "wx182_sill", name: "烟雨紫苏窗台", desc: "发现烟雨紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx182);
+    } },
+    { id: "wx182_walker", name: "烟雨紫苏径旅人", desc: "走过烟雨紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx182_path);
+    } },
+    { id: "wx183_sill", name: "烟雨香茅窗台", desc: "发现烟雨香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx183);
+    } },
+    { id: "wx183_walker", name: "烟雨香茅径旅人", desc: "走过烟雨香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx183_path);
+    } },
+    { id: "wx184_sill", name: "烟雨柠檬草窗台", desc: "发现烟雨柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx184);
+    } },
+    { id: "wx184_walker", name: "烟雨柠檬草径旅人", desc: "走过烟雨柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx184_path);
+    } },
+    { id: "wx185_sill", name: "烟雨马鞭草窗台", desc: "发现烟雨马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx185);
+    } },
+    { id: "wx185_walker", name: "烟雨马鞭草径旅人", desc: "走过烟雨马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx185_path);
+    } },
+    { id: "wx186_sill", name: "烟雨鼠尾窗台", desc: "发现烟雨鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx186);
+    } },
+    { id: "wx186_walker", name: "烟雨鼠尾径旅人", desc: "走过烟雨鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx186_path);
+    } },
+    { id: "wx187_sill", name: "烟雨洋甘菊窗台", desc: "发现烟雨洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx187);
+    } },
+    { id: "wx187_walker", name: "烟雨洋甘菊径旅人", desc: "走过烟雨洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx187_path);
+    } },
+    { id: "wx188_sill", name: "烟雨金盏窗台", desc: "发现烟雨金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx188);
+    } },
+    { id: "wx188_walker", name: "烟雨金盏径旅人", desc: "走过烟雨金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx188_path);
+    } },
+    { id: "wx189_sill", name: "烟雨矢车菊窗台", desc: "发现烟雨矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx189);
+    } },
+    { id: "wx189_walker", name: "烟雨矢车菊径旅人", desc: "走过烟雨矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx189_path);
+    } },
+    { id: "wx190_sill", name: "烟雨藿香窗台", desc: "发现烟雨藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx190);
+    } },
+    { id: "wx190_walker", name: "烟雨藿香径旅人", desc: "走过烟雨藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx190_path);
+    } },
+    { id: "wx191_sill", name: "烟雨荆芥窗台", desc: "发现烟雨荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx191);
+    } },
+    { id: "wx191_walker", name: "烟雨荆芥径旅人", desc: "走过烟雨荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx191_path);
+    } },
+    { id: "wx192_sill", name: "霁色艾草窗台", desc: "发现霁色艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx192);
+    } },
+    { id: "wx192_walker", name: "霁色艾草径旅人", desc: "走过霁色艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx192_path);
+    } },
+    { id: "wx193_sill", name: "霁色薄荷窗台", desc: "发现霁色薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx193);
+    } },
+    { id: "wx193_walker", name: "霁色薄荷径旅人", desc: "走过霁色薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx193_path);
+    } },
+    { id: "wx194_sill", name: "霁色茴香窗台", desc: "发现霁色茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx194);
+    } },
+    { id: "wx194_walker", name: "霁色茴香径旅人", desc: "走过霁色茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx194_path);
+    } },
+    { id: "wx195_sill", name: "霁色迷迭窗台", desc: "发现霁色迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx195);
+    } },
+    { id: "wx195_walker", name: "霁色迷迭径旅人", desc: "走过霁色迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx195_path);
+    } },
+    { id: "wx196_sill", name: "霁色百里香窗台", desc: "发现霁色百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx196);
+    } },
+    { id: "wx196_walker", name: "霁色百里香径旅人", desc: "走过霁色百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx196_path);
+    } },
+    { id: "wx197_sill", name: "霁色罗勒窗台", desc: "发现霁色罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx197);
+    } },
+    { id: "wx197_walker", name: "霁色罗勒径旅人", desc: "走过霁色罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx197_path);
+    } },
+    { id: "wx198_sill", name: "霁色紫苏窗台", desc: "发现霁色紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx198);
+    } },
+    { id: "wx198_walker", name: "霁色紫苏径旅人", desc: "走过霁色紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx198_path);
+    } },
+    { id: "wx199_sill", name: "霁色香茅窗台", desc: "发现霁色香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx199);
+    } },
+    { id: "wx199_walker", name: "霁色香茅径旅人", desc: "走过霁色香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx199_path);
+    } },
+    { id: "wx200_sill", name: "霁色柠檬草窗台", desc: "发现霁色柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx200);
+    } },
+    { id: "wx200_walker", name: "霁色柠檬草径旅人", desc: "走过霁色柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx200_path);
+    } },
+    { id: "wx201_sill", name: "霁色马鞭草窗台", desc: "发现霁色马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx201);
+    } },
+    { id: "wx201_walker", name: "霁色马鞭草径旅人", desc: "走过霁色马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx201_path);
+    } },
+    { id: "wx202_sill", name: "霁色鼠尾窗台", desc: "发现霁色鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx202);
+    } },
+    { id: "wx202_walker", name: "霁色鼠尾径旅人", desc: "走过霁色鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx202_path);
+    } },
+    { id: "wx203_sill", name: "霁色洋甘菊窗台", desc: "发现霁色洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx203);
+    } },
+    { id: "wx203_walker", name: "霁色洋甘菊径旅人", desc: "走过霁色洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx203_path);
+    } },
+    { id: "wx204_sill", name: "霁色金盏窗台", desc: "发现霁色金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx204);
+    } },
+    { id: "wx204_walker", name: "霁色金盏径旅人", desc: "走过霁色金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx204_path);
+    } },
+    { id: "wx205_sill", name: "霁色矢车菊窗台", desc: "发现霁色矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx205);
+    } },
+    { id: "wx205_walker", name: "霁色矢车菊径旅人", desc: "走过霁色矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx205_path);
+    } },
+    { id: "wx206_sill", name: "霁色藿香窗台", desc: "发现霁色藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx206);
+    } },
+    { id: "wx206_walker", name: "霁色藿香径旅人", desc: "走过霁色藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx206_path);
+    } },
+    { id: "wx207_sill", name: "霁色荆芥窗台", desc: "发现霁色荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx207);
+    } },
+    { id: "wx207_walker", name: "霁色荆芥径旅人", desc: "走过霁色荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx207_path);
+    } },
+    { id: "wx208_sill", name: "阴凉艾草窗台", desc: "发现阴凉艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx208);
+    } },
+    { id: "wx208_walker", name: "阴凉艾草径旅人", desc: "走过阴凉艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx208_path);
+    } },
+    { id: "wx209_sill", name: "阴凉薄荷窗台", desc: "发现阴凉薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx209);
+    } },
+    { id: "wx209_walker", name: "阴凉薄荷径旅人", desc: "走过阴凉薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx209_path);
+    } },
+    { id: "wx210_sill", name: "阴凉茴香窗台", desc: "发现阴凉茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx210);
+    } },
+    { id: "wx210_walker", name: "阴凉茴香径旅人", desc: "走过阴凉茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx210_path);
+    } },
+    { id: "wx211_sill", name: "阴凉迷迭窗台", desc: "发现阴凉迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx211);
+    } },
+    { id: "wx211_walker", name: "阴凉迷迭径旅人", desc: "走过阴凉迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx211_path);
+    } },
+    { id: "wx212_sill", name: "阴凉百里香窗台", desc: "发现阴凉百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx212);
+    } },
+    { id: "wx212_walker", name: "阴凉百里香径旅人", desc: "走过阴凉百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx212_path);
+    } },
+    { id: "wx213_sill", name: "阴凉罗勒窗台", desc: "发现阴凉罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx213);
+    } },
+    { id: "wx213_walker", name: "阴凉罗勒径旅人", desc: "走过阴凉罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx213_path);
+    } },
+    { id: "wx214_sill", name: "阴凉紫苏窗台", desc: "发现阴凉紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx214);
+    } },
+    { id: "wx214_walker", name: "阴凉紫苏径旅人", desc: "走过阴凉紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx214_path);
+    } },
+    { id: "wx215_sill", name: "阴凉香茅窗台", desc: "发现阴凉香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx215);
+    } },
+    { id: "wx215_walker", name: "阴凉香茅径旅人", desc: "走过阴凉香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx215_path);
+    } },
+    { id: "wx216_sill", name: "阴凉柠檬草窗台", desc: "发现阴凉柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx216);
+    } },
+    { id: "wx216_walker", name: "阴凉柠檬草径旅人", desc: "走过阴凉柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx216_path);
+    } },
+    { id: "wx217_sill", name: "阴凉马鞭草窗台", desc: "发现阴凉马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx217);
+    } },
+    { id: "wx217_walker", name: "阴凉马鞭草径旅人", desc: "走过阴凉马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx217_path);
+    } },
+    { id: "wx218_sill", name: "阴凉鼠尾窗台", desc: "发现阴凉鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx218);
+    } },
+    { id: "wx218_walker", name: "阴凉鼠尾径旅人", desc: "走过阴凉鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx218_path);
+    } },
+    { id: "wx219_sill", name: "阴凉洋甘菊窗台", desc: "发现阴凉洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx219);
+    } },
+    { id: "wx219_walker", name: "阴凉洋甘菊径旅人", desc: "走过阴凉洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx219_path);
+    } },
+    { id: "wx220_sill", name: "阴凉金盏窗台", desc: "发现阴凉金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx220);
+    } },
+    { id: "wx220_walker", name: "阴凉金盏径旅人", desc: "走过阴凉金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx220_path);
+    } },
+    { id: "wx221_sill", name: "阴凉矢车菊窗台", desc: "发现阴凉矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx221);
+    } },
+    { id: "wx221_walker", name: "阴凉矢车菊径旅人", desc: "走过阴凉矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx221_path);
+    } },
+    { id: "wx222_sill", name: "阴凉藿香窗台", desc: "发现阴凉藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx222);
+    } },
+    { id: "wx222_walker", name: "阴凉藿香径旅人", desc: "走过阴凉藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx222_path);
+    } },
+    { id: "wx223_sill", name: "阴凉荆芥窗台", desc: "发现阴凉荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx223);
+    } },
+    { id: "wx223_walker", name: "阴凉荆芥径旅人", desc: "走过阴凉荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx223_path);
+    } },
+    { id: "wx224_sill", name: "暖阳艾草窗台", desc: "发现暖阳艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx224);
+    } },
+    { id: "wx224_walker", name: "暖阳艾草径旅人", desc: "走过暖阳艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx224_path);
+    } },
+    { id: "wx225_sill", name: "暖阳薄荷窗台", desc: "发现暖阳薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx225);
+    } },
+    { id: "wx225_walker", name: "暖阳薄荷径旅人", desc: "走过暖阳薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx225_path);
+    } },
+    { id: "wx226_sill", name: "暖阳茴香窗台", desc: "发现暖阳茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx226);
+    } },
+    { id: "wx226_walker", name: "暖阳茴香径旅人", desc: "走过暖阳茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx226_path);
+    } },
+    { id: "wx227_sill", name: "暖阳迷迭窗台", desc: "发现暖阳迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx227);
+    } },
+    { id: "wx227_walker", name: "暖阳迷迭径旅人", desc: "走过暖阳迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx227_path);
+    } },
+    { id: "wx228_sill", name: "暖阳百里香窗台", desc: "发现暖阳百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx228);
+    } },
+    { id: "wx228_walker", name: "暖阳百里香径旅人", desc: "走过暖阳百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx228_path);
+    } },
+    { id: "wx229_sill", name: "暖阳罗勒窗台", desc: "发现暖阳罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx229);
+    } },
+    { id: "wx229_walker", name: "暖阳罗勒径旅人", desc: "走过暖阳罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx229_path);
+    } },
+    { id: "wx230_sill", name: "暖阳紫苏窗台", desc: "发现暖阳紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx230);
+    } },
+    { id: "wx230_walker", name: "暖阳紫苏径旅人", desc: "走过暖阳紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx230_path);
+    } },
+    { id: "wx231_sill", name: "暖阳香茅窗台", desc: "发现暖阳香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx231);
+    } },
+    { id: "wx231_walker", name: "暖阳香茅径旅人", desc: "走过暖阳香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx231_path);
+    } },
+    { id: "wx232_sill", name: "暖阳柠檬草窗台", desc: "发现暖阳柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx232);
+    } },
+    { id: "wx232_walker", name: "暖阳柠檬草径旅人", desc: "走过暖阳柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx232_path);
+    } },
+    { id: "wx233_sill", name: "暖阳马鞭草窗台", desc: "发现暖阳马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx233);
+    } },
+    { id: "wx233_walker", name: "暖阳马鞭草径旅人", desc: "走过暖阳马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx233_path);
+    } },
+    { id: "wx234_sill", name: "暖阳鼠尾窗台", desc: "发现暖阳鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx234);
+    } },
+    { id: "wx234_walker", name: "暖阳鼠尾径旅人", desc: "走过暖阳鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx234_path);
+    } },
+    { id: "wx235_sill", name: "暖阳洋甘菊窗台", desc: "发现暖阳洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx235);
+    } },
+    { id: "wx235_walker", name: "暖阳洋甘菊径旅人", desc: "走过暖阳洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx235_path);
+    } },
+    { id: "wx236_sill", name: "暖阳金盏窗台", desc: "发现暖阳金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx236);
+    } },
+    { id: "wx236_walker", name: "暖阳金盏径旅人", desc: "走过暖阳金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx236_path);
+    } },
+    { id: "wx237_sill", name: "暖阳矢车菊窗台", desc: "发现暖阳矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx237);
+    } },
+    { id: "wx237_walker", name: "暖阳矢车菊径旅人", desc: "走过暖阳矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx237_path);
+    } },
+    { id: "wx238_sill", name: "暖阳藿香窗台", desc: "发现暖阳藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx238);
+    } },
+    { id: "wx238_walker", name: "暖阳藿香径旅人", desc: "走过暖阳藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx238_path);
+    } },
+    { id: "wx239_sill", name: "暖阳荆芥窗台", desc: "发现暖阳荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx239);
+    } },
+    { id: "wx239_walker", name: "暖阳荆芥径旅人", desc: "走过暖阳荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx239_path);
+    } },
+    { id: "wx240_sill", name: "朔风艾草窗台", desc: "发现朔风艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx240);
+    } },
+    { id: "wx240_walker", name: "朔风艾草径旅人", desc: "走过朔风艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx240_path);
+    } },
+    { id: "wx241_sill", name: "朔风薄荷窗台", desc: "发现朔风薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx241);
+    } },
+    { id: "wx241_walker", name: "朔风薄荷径旅人", desc: "走过朔风薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx241_path);
+    } },
+    { id: "wx242_sill", name: "朔风茴香窗台", desc: "发现朔风茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx242);
+    } },
+    { id: "wx242_walker", name: "朔风茴香径旅人", desc: "走过朔风茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx242_path);
+    } },
+    { id: "wx243_sill", name: "朔风迷迭窗台", desc: "发现朔风迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx243);
+    } },
+    { id: "wx243_walker", name: "朔风迷迭径旅人", desc: "走过朔风迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx243_path);
+    } },
+    { id: "wx244_sill", name: "朔风百里香窗台", desc: "发现朔风百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx244);
+    } },
+    { id: "wx244_walker", name: "朔风百里香径旅人", desc: "走过朔风百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx244_path);
+    } },
+    { id: "wx245_sill", name: "朔风罗勒窗台", desc: "发现朔风罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx245);
+    } },
+    { id: "wx245_walker", name: "朔风罗勒径旅人", desc: "走过朔风罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx245_path);
+    } },
+    { id: "wx246_sill", name: "朔风紫苏窗台", desc: "发现朔风紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx246);
+    } },
+    { id: "wx246_walker", name: "朔风紫苏径旅人", desc: "走过朔风紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx246_path);
+    } },
+    { id: "wx247_sill", name: "朔风香茅窗台", desc: "发现朔风香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx247);
+    } },
+    { id: "wx247_walker", name: "朔风香茅径旅人", desc: "走过朔风香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx247_path);
+    } },
+    { id: "wx248_sill", name: "朔风柠檬草窗台", desc: "发现朔风柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx248);
+    } },
+    { id: "wx248_walker", name: "朔风柠檬草径旅人", desc: "走过朔风柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx248_path);
+    } },
+    { id: "wx249_sill", name: "朔风马鞭草窗台", desc: "发现朔风马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx249);
+    } },
+    { id: "wx249_walker", name: "朔风马鞭草径旅人", desc: "走过朔风马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx249_path);
+    } },
+    { id: "wx250_sill", name: "朔风鼠尾窗台", desc: "发现朔风鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx250);
+    } },
+    { id: "wx250_walker", name: "朔风鼠尾径旅人", desc: "走过朔风鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx250_path);
+    } },
+    { id: "wx251_sill", name: "朔风洋甘菊窗台", desc: "发现朔风洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx251);
+    } },
+    { id: "wx251_walker", name: "朔风洋甘菊径旅人", desc: "走过朔风洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx251_path);
+    } },
+    { id: "wx252_sill", name: "朔风金盏窗台", desc: "发现朔风金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx252);
+    } },
+    { id: "wx252_walker", name: "朔风金盏径旅人", desc: "走过朔风金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx252_path);
+    } },
+    { id: "wx253_sill", name: "朔风矢车菊窗台", desc: "发现朔风矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx253);
+    } },
+    { id: "wx253_walker", name: "朔风矢车菊径旅人", desc: "走过朔风矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx253_path);
+    } },
+    { id: "wx254_sill", name: "朔风藿香窗台", desc: "发现朔风藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx254);
+    } },
+    { id: "wx254_walker", name: "朔风藿香径旅人", desc: "走过朔风藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx254_path);
+    } },
+    { id: "wx255_sill", name: "朔风荆芥窗台", desc: "发现朔风荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx255);
+    } },
+    { id: "wx255_walker", name: "朔风荆芥径旅人", desc: "走过朔风荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx255_path);
+    } },
+    { id: "wx256_sill", name: "海风艾草窗台", desc: "发现海风艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx256);
+    } },
+    { id: "wx256_walker", name: "海风艾草径旅人", desc: "走过海风艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx256_path);
+    } },
+    { id: "wx257_sill", name: "海风薄荷窗台", desc: "发现海风薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx257);
+    } },
+    { id: "wx257_walker", name: "海风薄荷径旅人", desc: "走过海风薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx257_path);
+    } },
+    { id: "wx258_sill", name: "海风茴香窗台", desc: "发现海风茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx258);
+    } },
+    { id: "wx258_walker", name: "海风茴香径旅人", desc: "走过海风茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx258_path);
+    } },
+    { id: "wx259_sill", name: "海风迷迭窗台", desc: "发现海风迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx259);
+    } },
+    { id: "wx259_walker", name: "海风迷迭径旅人", desc: "走过海风迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx259_path);
+    } },
+    { id: "wx260_sill", name: "海风百里香窗台", desc: "发现海风百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx260);
+    } },
+    { id: "wx260_walker", name: "海风百里香径旅人", desc: "走过海风百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx260_path);
+    } },
+    { id: "wx261_sill", name: "海风罗勒窗台", desc: "发现海风罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx261);
+    } },
+    { id: "wx261_walker", name: "海风罗勒径旅人", desc: "走过海风罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx261_path);
+    } },
+    { id: "wx262_sill", name: "海风紫苏窗台", desc: "发现海风紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx262);
+    } },
+    { id: "wx262_walker", name: "海风紫苏径旅人", desc: "走过海风紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx262_path);
+    } },
+    { id: "wx263_sill", name: "海风香茅窗台", desc: "发现海风香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx263);
+    } },
+    { id: "wx263_walker", name: "海风香茅径旅人", desc: "走过海风香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx263_path);
+    } },
+    { id: "wx264_sill", name: "海风柠檬草窗台", desc: "发现海风柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx264);
+    } },
+    { id: "wx264_walker", name: "海风柠檬草径旅人", desc: "走过海风柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx264_path);
+    } },
+    { id: "wx265_sill", name: "海风马鞭草窗台", desc: "发现海风马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx265);
+    } },
+    { id: "wx265_walker", name: "海风马鞭草径旅人", desc: "走过海风马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx265_path);
+    } },
+    { id: "wx266_sill", name: "海风鼠尾窗台", desc: "发现海风鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx266);
+    } },
+    { id: "wx266_walker", name: "海风鼠尾径旅人", desc: "走过海风鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx266_path);
+    } },
+    { id: "wx267_sill", name: "海风洋甘菊窗台", desc: "发现海风洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx267);
+    } },
+    { id: "wx267_walker", name: "海风洋甘菊径旅人", desc: "走过海风洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx267_path);
+    } },
+    { id: "wx268_sill", name: "海风金盏窗台", desc: "发现海风金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx268);
+    } },
+    { id: "wx268_walker", name: "海风金盏径旅人", desc: "走过海风金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx268_path);
+    } },
+    { id: "wx269_sill", name: "海风矢车菊窗台", desc: "发现海风矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx269);
+    } },
+    { id: "wx269_walker", name: "海风矢车菊径旅人", desc: "走过海风矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx269_path);
+    } },
+    { id: "wx270_sill", name: "海风藿香窗台", desc: "发现海风藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx270);
+    } },
+    { id: "wx270_walker", name: "海风藿香径旅人", desc: "走过海风藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx270_path);
+    } },
+    { id: "wx271_sill", name: "海风荆芥窗台", desc: "发现海风荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx271);
+    } },
+    { id: "wx271_walker", name: "海风荆芥径旅人", desc: "走过海风荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx271_path);
+    } },
+    { id: "wx272_sill", name: "山岚艾草窗台", desc: "发现山岚艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx272);
+    } },
+    { id: "wx272_walker", name: "山岚艾草径旅人", desc: "走过山岚艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx272_path);
+    } },
+    { id: "wx273_sill", name: "山岚薄荷窗台", desc: "发现山岚薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx273);
+    } },
+    { id: "wx273_walker", name: "山岚薄荷径旅人", desc: "走过山岚薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx273_path);
+    } },
+    { id: "wx274_sill", name: "山岚茴香窗台", desc: "发现山岚茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx274);
+    } },
+    { id: "wx274_walker", name: "山岚茴香径旅人", desc: "走过山岚茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx274_path);
+    } },
+    { id: "wx275_sill", name: "山岚迷迭窗台", desc: "发现山岚迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx275);
+    } },
+    { id: "wx275_walker", name: "山岚迷迭径旅人", desc: "走过山岚迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx275_path);
+    } },
+    { id: "wx276_sill", name: "山岚百里香窗台", desc: "发现山岚百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx276);
+    } },
+    { id: "wx276_walker", name: "山岚百里香径旅人", desc: "走过山岚百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx276_path);
+    } },
+    { id: "wx277_sill", name: "山岚罗勒窗台", desc: "发现山岚罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx277);
+    } },
+    { id: "wx277_walker", name: "山岚罗勒径旅人", desc: "走过山岚罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx277_path);
+    } },
+    { id: "wx278_sill", name: "山岚紫苏窗台", desc: "发现山岚紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx278);
+    } },
+    { id: "wx278_walker", name: "山岚紫苏径旅人", desc: "走过山岚紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx278_path);
+    } },
+    { id: "wx279_sill", name: "山岚香茅窗台", desc: "发现山岚香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx279);
+    } },
+    { id: "wx279_walker", name: "山岚香茅径旅人", desc: "走过山岚香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx279_path);
+    } },
+    { id: "wx280_sill", name: "山岚柠檬草窗台", desc: "发现山岚柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx280);
+    } },
+    { id: "wx280_walker", name: "山岚柠檬草径旅人", desc: "走过山岚柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx280_path);
+    } },
+    { id: "wx281_sill", name: "山岚马鞭草窗台", desc: "发现山岚马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx281);
+    } },
+    { id: "wx281_walker", name: "山岚马鞭草径旅人", desc: "走过山岚马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx281_path);
+    } },
+    { id: "wx282_sill", name: "山岚鼠尾窗台", desc: "发现山岚鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx282);
+    } },
+    { id: "wx282_walker", name: "山岚鼠尾径旅人", desc: "走过山岚鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx282_path);
+    } },
+    { id: "wx283_sill", name: "山岚洋甘菊窗台", desc: "发现山岚洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx283);
+    } },
+    { id: "wx283_walker", name: "山岚洋甘菊径旅人", desc: "走过山岚洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx283_path);
+    } },
+    { id: "wx284_sill", name: "山岚金盏窗台", desc: "发现山岚金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx284);
+    } },
+    { id: "wx284_walker", name: "山岚金盏径旅人", desc: "走过山岚金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx284_path);
+    } },
+    { id: "wx285_sill", name: "山岚矢车菊窗台", desc: "发现山岚矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx285);
+    } },
+    { id: "wx285_walker", name: "山岚矢车菊径旅人", desc: "走过山岚矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx285_path);
+    } },
+    { id: "wx286_sill", name: "山岚藿香窗台", desc: "发现山岚藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx286);
+    } },
+    { id: "wx286_walker", name: "山岚藿香径旅人", desc: "走过山岚藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx286_path);
+    } },
+    { id: "wx287_sill", name: "山岚荆芥窗台", desc: "发现山岚荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx287);
+    } },
+    { id: "wx287_walker", name: "山岚荆芥径旅人", desc: "走过山岚荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx287_path);
+    } },
+    { id: "wx288_sill", name: "谷风艾草窗台", desc: "发现谷风艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx288);
+    } },
+    { id: "wx288_walker", name: "谷风艾草径旅人", desc: "走过谷风艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx288_path);
+    } },
+    { id: "wx289_sill", name: "谷风薄荷窗台", desc: "发现谷风薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx289);
+    } },
+    { id: "wx289_walker", name: "谷风薄荷径旅人", desc: "走过谷风薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx289_path);
+    } },
+    { id: "wx290_sill", name: "谷风茴香窗台", desc: "发现谷风茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx290);
+    } },
+    { id: "wx290_walker", name: "谷风茴香径旅人", desc: "走过谷风茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx290_path);
+    } },
+    { id: "wx291_sill", name: "谷风迷迭窗台", desc: "发现谷风迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx291);
+    } },
+    { id: "wx291_walker", name: "谷风迷迭径旅人", desc: "走过谷风迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx291_path);
+    } },
+    { id: "wx292_sill", name: "谷风百里香窗台", desc: "发现谷风百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx292);
+    } },
+    { id: "wx292_walker", name: "谷风百里香径旅人", desc: "走过谷风百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx292_path);
+    } },
+    { id: "wx293_sill", name: "谷风罗勒窗台", desc: "发现谷风罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx293);
+    } },
+    { id: "wx293_walker", name: "谷风罗勒径旅人", desc: "走过谷风罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx293_path);
+    } },
+    { id: "wx294_sill", name: "谷风紫苏窗台", desc: "发现谷风紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx294);
+    } },
+    { id: "wx294_walker", name: "谷风紫苏径旅人", desc: "走过谷风紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx294_path);
+    } },
+    { id: "wx295_sill", name: "谷风香茅窗台", desc: "发现谷风香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx295);
+    } },
+    { id: "wx295_walker", name: "谷风香茅径旅人", desc: "走过谷风香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx295_path);
+    } },
+    { id: "wx296_sill", name: "谷风柠檬草窗台", desc: "发现谷风柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx296);
+    } },
+    { id: "wx296_walker", name: "谷风柠檬草径旅人", desc: "走过谷风柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx296_path);
+    } },
+    { id: "wx297_sill", name: "谷风马鞭草窗台", desc: "发现谷风马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx297);
+    } },
+    { id: "wx297_walker", name: "谷风马鞭草径旅人", desc: "走过谷风马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx297_path);
+    } },
+    { id: "wx298_sill", name: "谷风鼠尾窗台", desc: "发现谷风鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx298);
+    } },
+    { id: "wx298_walker", name: "谷风鼠尾径旅人", desc: "走过谷风鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx298_path);
+    } },
+    { id: "wx299_sill", name: "谷风洋甘菊窗台", desc: "发现谷风洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx299);
+    } },
+    { id: "wx299_walker", name: "谷风洋甘菊径旅人", desc: "走过谷风洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx299_path);
+    } },
+    { id: "wx300_sill", name: "谷风金盏窗台", desc: "发现谷风金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx300);
+    } },
+    { id: "wx300_walker", name: "谷风金盏径旅人", desc: "走过谷风金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx300_path);
+    } },
+    { id: "wx301_sill", name: "谷风矢车菊窗台", desc: "发现谷风矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx301);
+    } },
+    { id: "wx301_walker", name: "谷风矢车菊径旅人", desc: "走过谷风矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx301_path);
+    } },
+    { id: "wx302_sill", name: "谷风藿香窗台", desc: "发现谷风藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx302);
+    } },
+    { id: "wx302_walker", name: "谷风藿香径旅人", desc: "走过谷风藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx302_path);
+    } },
+    { id: "wx303_sill", name: "谷风荆芥窗台", desc: "发现谷风荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx303);
+    } },
+    { id: "wx303_walker", name: "谷风荆芥径旅人", desc: "走过谷风荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx303_path);
+    } },
+    { id: "wx304_sill", name: "潮音艾草窗台", desc: "发现潮音艾草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx304);
+    } },
+    { id: "wx304_walker", name: "潮音艾草径旅人", desc: "走过潮音艾草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx304_path);
+    } },
+    { id: "wx305_sill", name: "潮音薄荷窗台", desc: "发现潮音薄荷", check: function (s) {
+      return !!(s.discovered && s.discovered.wx305);
+    } },
+    { id: "wx305_walker", name: "潮音薄荷径旅人", desc: "走过潮音薄荷径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx305_path);
+    } },
+    { id: "wx306_sill", name: "潮音茴香窗台", desc: "发现潮音茴香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx306);
+    } },
+    { id: "wx306_walker", name: "潮音茴香径旅人", desc: "走过潮音茴香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx306_path);
+    } },
+    { id: "wx307_sill", name: "潮音迷迭窗台", desc: "发现潮音迷迭", check: function (s) {
+      return !!(s.discovered && s.discovered.wx307);
+    } },
+    { id: "wx307_walker", name: "潮音迷迭径旅人", desc: "走过潮音迷迭径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx307_path);
+    } },
+    { id: "wx308_sill", name: "潮音百里香窗台", desc: "发现潮音百里香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx308);
+    } },
+    { id: "wx308_walker", name: "潮音百里香径旅人", desc: "走过潮音百里香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx308_path);
+    } },
+    { id: "wx309_sill", name: "潮音罗勒窗台", desc: "发现潮音罗勒", check: function (s) {
+      return !!(s.discovered && s.discovered.wx309);
+    } },
+    { id: "wx309_walker", name: "潮音罗勒径旅人", desc: "走过潮音罗勒径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx309_path);
+    } },
+    { id: "wx310_sill", name: "潮音紫苏窗台", desc: "发现潮音紫苏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx310);
+    } },
+    { id: "wx310_walker", name: "潮音紫苏径旅人", desc: "走过潮音紫苏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx310_path);
+    } },
+    { id: "wx311_sill", name: "潮音香茅窗台", desc: "发现潮音香茅", check: function (s) {
+      return !!(s.discovered && s.discovered.wx311);
+    } },
+    { id: "wx311_walker", name: "潮音香茅径旅人", desc: "走过潮音香茅径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx311_path);
+    } },
+    { id: "wx312_sill", name: "潮音柠檬草窗台", desc: "发现潮音柠檬草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx312);
+    } },
+    { id: "wx312_walker", name: "潮音柠檬草径旅人", desc: "走过潮音柠檬草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx312_path);
+    } },
+    { id: "wx313_sill", name: "潮音马鞭草窗台", desc: "发现潮音马鞭草", check: function (s) {
+      return !!(s.discovered && s.discovered.wx313);
+    } },
+    { id: "wx313_walker", name: "潮音马鞭草径旅人", desc: "走过潮音马鞭草径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx313_path);
+    } },
+    { id: "wx314_sill", name: "潮音鼠尾窗台", desc: "发现潮音鼠尾", check: function (s) {
+      return !!(s.discovered && s.discovered.wx314);
+    } },
+    { id: "wx314_walker", name: "潮音鼠尾径旅人", desc: "走过潮音鼠尾径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx314_path);
+    } },
+    { id: "wx315_sill", name: "潮音洋甘菊窗台", desc: "发现潮音洋甘菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx315);
+    } },
+    { id: "wx315_walker", name: "潮音洋甘菊径旅人", desc: "走过潮音洋甘菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx315_path);
+    } },
+    { id: "wx316_sill", name: "潮音金盏窗台", desc: "发现潮音金盏", check: function (s) {
+      return !!(s.discovered && s.discovered.wx316);
+    } },
+    { id: "wx316_walker", name: "潮音金盏径旅人", desc: "走过潮音金盏径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx316_path);
+    } },
+    { id: "wx317_sill", name: "潮音矢车菊窗台", desc: "发现潮音矢车菊", check: function (s) {
+      return !!(s.discovered && s.discovered.wx317);
+    } },
+    { id: "wx317_walker", name: "潮音矢车菊径旅人", desc: "走过潮音矢车菊径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx317_path);
+    } },
+    { id: "wx318_sill", name: "潮音藿香窗台", desc: "发现潮音藿香", check: function (s) {
+      return !!(s.discovered && s.discovered.wx318);
+    } },
+    { id: "wx318_walker", name: "潮音藿香径旅人", desc: "走过潮音藿香径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx318_path);
+    } },
+    { id: "wx319_sill", name: "潮音荆芥窗台", desc: "发现潮音荆芥", check: function (s) {
+      return !!(s.discovered && s.discovered.wx319);
+    } },
+    { id: "wx319_walker", name: "潮音荆芥径旅人", desc: "走过潮音荆芥径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.wx319_path);
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "path_ninety", name: "九十路图鉴", desc: "切换过 90 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 90; } },
     { id: "flavor_pin", name: "调味架钉子", desc: "钉过 1 次风味", check: function (s) { return (s.stats && s.stats.flavorPins || 0) >= 1; } },
@@ -27179,7 +29419,7 @@
       score += 0.5;
       notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || flavorDef.id === "litchi" || flavorDef.id === "olive" || flavorDef.id === "mango" || flavorDef.id === "pineapple" || flavorDef.id === "coconut" || flavorDef.id === "starfruit" || flavorDef.id === "passion_fruit" || flavorDef.id === "kiwi" || flavorDef.id === "dragonfruit" || flavorDef.id === "guava" || flavorDef.id === "cherry" || flavorDef.id === "apricot" || flavorDef.id === "grapefruit" || flavorDef.id === "tangerine" || flavorDef.id === "wax_apple" || flavorDef.id === "sugarcane" || flavorDef.id === "lemon" || flavorDef.id === "lime" || flavorDef.id === "cranberry" || flavorDef.id === "elderberry" || flavorDef.id === "honeydew" || flavorDef.id === "watermelon" || flavorDef.id === "cantaloupe" || flavorDef.id === "papaya" || flavorDef.id === "rambutan" || flavorDef.id === "jackfruit" || flavorDef.id === "oregano" || flavorDef.id === "chive" || flavorDef.id === "parsley" || flavorDef.id === "avocado" || flavorDef.id === "chervil" || flavorDef.id === "sorrel" || flavorDef.id === "verbena" || flavorDef.id === "savory" || flavorDef.id === "celery_seed" || flavorDef.id === "galangal" || flavorDef.id === "kaffir_lime" || flavorDef.id === "pandan" || flavorDef.id === "juniper" || flavorDef.id === "sumac" || flavorDef.id === "nigella" || flavorDef.id === "mustard_seed" || flavorDef.id === "wasabi" || flavorDef.id === "dandelion" || flavorDef.id === "nettle" || flavorDef.id === "borage" || flavorDef.id === "hops" || flavorDef.id === "heather" || flavorDef.id === "arnica" || flavorDef.id === "echinacea" || flavorDef.id === "feverfew" || flavorDef.id === "lemon_verbena" || flavorDef.id === "mullein" || flavorDef.id === "plantain_leaf" || flavorDef.id === "bee_balm" || flavorDef.id === "marshmallow" || flavorDef.id === "goldenrod" || flavorDef.id === "red_clover" || flavorDef.id === "white_clover" || flavorDef.id === "catnip" || flavorDef.id === "tansy" || flavorDef.id === "agrimony" || flavorDef.id === "rue" || flavorDef.id === "costmary" || flavorDef.id === "elecampane" || flavorDef.id === "meadow_clary" || flavorDef.id === "soapwort" || flavorDef.id === "milfoil" || flavorDef.id === "lady_mantle" || flavorDef.id === "speedwell" || flavorDef.id === "stitchwort" || flavorDef.id === "campion" || flavorDef.id === "silverweed" || flavorDef.id === "loosestrife" || flavorDef.id === "willowherb" || flavorDef.id === "bedstraw" || flavorDef.id === "cleavers" || flavorDef.id === "bugle" || flavorDef.id === "primrose" || flavorDef.id === "cowslip" || flavorDef.id === "oxeye" || flavorDef.id === "knapweed" || flavorDef.id === "scabious" || flavorDef.id === "nettle_seed" || flavorDef.id === "rowan" || flavorDef.id === "crabapple" || flavorDef.id === "serviceberry" || flavorDef.id === "elderflower_fresh" || flavorDef.id === "meadowsweet_fresh" || flavorDef.id === "wood_sorrel" || flavorDef.id === "wild_garlic" || flavorDef.id === "ramsons" || flavorDef.id === "jack_by_hedge" || flavorDef.id === "hedge_mustard" || flavorDef.id === "watercress" || flavorDef.id === "brooklime" || flavorDef.id === "cloudberry" || flavorDef.id === "lingonberry" || flavorDef.id === "bilberry" || flavorDef.id === "gooseberry" || flavorDef.id === "currant_red" || flavorDef.id === "currant_black" || flavorDef.id === "whitecurrant" || flavorDef.id === "sea_buckthorn" || flavorDef.id === "damson" || flavorDef.id === "greengage" || flavorDef.id === "mirabelle" || flavorDef.id === "saskatoon" || flavorDef.id === "chokeberry" || flavorDef.id === "yarrow_white" || flavorDef.id === "achillea_pink" || flavorDef.id === "cornflower" || flavorDef.id === "poppy_seed" || flavorDef.id === "flax_flower" || flavorDef.id === "chia_seed" || flavorDef.id === "sunflower_seed" || flavorDef.id === "fennel_pollen" || flavorDef.id === "fennel_frond" || flavorDef.id === "dill_pollen" || flavorDef.id === "celery_leaf" || flavorDef.id === "rooibos" || flavorDef.id === "honeybush" || flavorDef.id === "yerba_mate" || flavorDef.id === "guayusa" || flavorDef.id === "gardenia" || flavorDef.id === "magnolia" || flavorDef.id === "frangipani" || flavorDef.id === "plumeria" || flavorDef.id === "stephanotis" || flavorDef.id === "garden_phlox" || flavorDef.id === "osmanthus_fresh" || flavorDef.id === "galangal_fresh" || flavorDef.id === "ginger_flower" || flavorDef.id === "turmeric_fresh" || flavorDef.id === "cubeb" || flavorDef.id === "makrut_leaf" || flavorDef.id === "curry_leaf" || flavorDef.id === "holy_basil" || flavorDef.id === "thai_basil" || flavorDef.id === "lemon_basil" || flavorDef.id === "rambutan_fresh" || flavorDef.id === "lychee_fresh" || flavorDef.id === "mangosteen" || flavorDef.id === "durian_flower" || flavorDef.id === "tamarind" || flavorDef.id === "calamansi" || flavorDef.id === "fig_fresh" || flavorDef.id === "pomegranate_seed" || flavorDef.id === "cactus_pear" || flavorDef.id === "prickly_pear" || flavorDef.id === "sapodilla" || flavorDef.id === "soursop" || flavorDef.id === "cherimoya" || flavorDef.id === "feijoa" || flavorDef.id === "loquat_fresh" || flavorDef.id === "jujube_fresh" || flavorDef.id === "mulberry_white" || flavorDef.id === "mulberry_black" || flavorDef.id === "elderberry_fresh" || flavorDef.id === "bergamot_fresh" || flavorDef.id === "sudachi" || flavorDef.id === "kabosu" || flavorDef.id === "amanatsu" || flavorDef.id === "shiso_green" || flavorDef.id === "shiso_red" || flavorDef.id === "mitsuba" || flavorDef.id === "myoga" || flavorDef.id === "wasabi_leaf" || flavorDef.id === "sansho" || flavorDef.id === "kinome" || flavorDef.id === "gentian" || flavorDef.id === "arnica_montana" || flavorDef.id === "alpine_strawberry" || flavorDef.id === "bilberry_leaf" || flavorDef.id === "spruce_tip" || flavorDef.id === "olive_leaf" || flavorDef.id === "caper" || flavorDef.id === "zaatar" || flavorDef.id === "sumac_berry" || flavorDef.id === "orange_blossom" || flavorDef.id === "lavender_honey" || flavorDef.id === "thyme_honey" || flavorDef.id === "acacia_honey" || flavorDef.id === "manuka" || flavorDef.id === "bee_pollen" || flavorDef.id === "comb_honey" || flavorDef.id === "linden_honey" || flavorDef.id === "heather_honey_wild" || flavorDef.id === "wildflower_honey" || flavorDef.id === "clover_honey" || flavorDef.id === "eucalyptus_honey" || flavorDef.id === "mesquite" || flavorDef.id === "lucuma" || flavorDef.id === "camu_camu" || flavorDef.id === "acai" || flavorDef.id === "maqui" || flavorDef.id === "goji_fresh" || flavorDef.id === "amla" || flavorDef.id === "baobab" || flavorDef.id === "morinda" || flavorDef.id === "noni" || flavorDef.id === "cupuacu" || flavorDef.id === "matcha_ceremonial" || flavorDef.id === "sencha" || flavorDef.id === "gyokuro" || flavorDef.id === "bancha" || flavorDef.id === "kukicha" || flavorDef.id === "mugicha" || flavorDef.id === "barley_grass" || flavorDef.id === "wheatgrass" || flavorDef.id === "spirulina" || flavorDef.id === "chlorella" || flavorDef.id === "kelp" || flavorDef.id === "nori" || flavorDef.id === "hibiscus_fresh" || flavorDef.id === "chrysanthemum_fresh" || flavorDef.id === "peony" || flavorDef.id === "lotus_leaf_fresh" || flavorDef.id === "osmanthus_sugar" || flavorDef.id === "orchid_petal" || flavorDef.id === "bamboo_leaf_fresh" || flavorDef.id === "bamboo_shoot_fresh" || flavorDef.id === "safflower" || flavorDef.id === "calendula_fresh" || flavorDef.id === "pot_marigold" || flavorDef.id === "coreopsis" || flavorDef.id === "cosmos" || flavorDef.id === "zinnia" || flavorDef.id === "dahlia" || flavorDef.id === "gladiolus" || flavorDef.id === "iris" || flavorDef.id === "tulip" || flavorDef.id === "ranunculus" || flavorDef.id === "sweet_pea" || flavorDef.id === "nasturtium" || flavorDef.id === "morning_glory" || flavorDef.id === "clematis" || flavorDef.id === "wisteria_fresh" || flavorDef.id === "jasmine_sambac" || flavorDef.id === "gardenia_tea" || flavorDef.id === "boysenberry" || flavorDef.id === "loganberry" || flavorDef.id === "tayberry" || flavorDef.id === "marionberry" || flavorDef.id === "wineberry" || flavorDef.id === "salmonberry" || flavorDef.id === "thimbleberry" || flavorDef.id === "cloudberry_leaf" || flavorDef.id === "lovage_fresh" || flavorDef.id === "sweet_cicely" || flavorDef.id === "ramsons_flower" || flavorDef.id === "sea_kale" || flavorDef.id === "scurvygrass" || flavorDef.id === "marsh_samphire" || flavorDef.id === "agave_nectar" || flavorDef.id === "prickly_pear_pad" || flavorDef.id === "jojoba" || flavorDef.id === "mesquite_pod" || flavorDef.id === "creosote" || flavorDef.id === "desert_sage" || flavorDef.id === "yucca_flower" || flavorDef.id === "yerba_santa" || flavorDef.id === "cedron" || flavorDef.id === "muña" || flavorDef.id === "coca_leaf_tea" || flavorDef.id === "guarana" || flavorDef.id === "stevia_leaf" || flavorDef.id === "rooibos_green" || flavorDef.id === "honeybush_fresh" || flavorDef.id === "buchu" || flavorDef.id === "baobab_leaf" || flavorDef.id === "marula" || flavorDef.id === "kinkeliba" || flavorDef.id === "hibiscus_sab" || flavorDef.id === "pandan_fresh" || flavorDef.id === "lemongrass_fresh" || flavorDef.id === "galangal_leaf" || flavorDef.id === "torch_ginger" || flavorDef.id === "butterfly_pea" || flavorDef.id === "chrysanthemum_ind" || flavorDef.id === "tamarind_leaf" || flavorDef.id === "coconut_flower" || flavorDef.id === "bergamot_leaf" || flavorDef.id === "neroli" || flavorDef.id === "petitgrain" || flavorDef.id === "immortelle" || flavorDef.id === "helichrysum" || flavorDef.id === "cistus" || flavorDef.id === "spruce_beer" || flavorDef.id === "fireweed" || flavorDef.id === "fireweed_honey" || flavorDef.id === "crowberry" || flavorDef.id === "bearberry" || flavorDef.id === "labrador_violet" || flavorDef.id === "matcha_salt" || flavorDef.id === "sansho_leaf" || flavorDef.id === "shiso_flower" || flavorDef.id === "sakura_leaf" || flavorDef.id === "lavender_sugar" || flavorDef.id === "rose_water" || flavorDef.id === "orange_flower_water" || flavorDef.id === "almond_blossom" || flavorDef.id === "chestnut_flower" || flavorDef.id === "maesil" || flavorDef.id === "persimmon_leaf" || flavorDef.id === "pine_flower" || flavorDef.id === "tulsi" || flavorDef.id === "neem_flower" || flavorDef.id === "curry_blossom" || flavorDef.id === "ajwain_leaf" || flavorDef.id === "fenugreek_leaf" || flavorDef.id === "moringa" || flavorDef.id === "gotu_kola" || flavorDef.id === "brahmi" || flavorDef.id === "hibiscus_rosa" || flavorDef.id === "allspice_berry" || flavorDef.id === "annatto" || flavorDef.id === "epazote" || flavorDef.id === "papalo" || flavorDef.id === "hoja_santa" || flavorDef.id === "mexican_oregano" || flavorDef.id === "chile_flower" || flavorDef.id === "noni_leaf" || flavorDef.id === "ti_leaf" || flavorDef.id === "frangipani_tea" || flavorDef.id === "soursop_leaf" || flavorDef.id === "guava_leaf" || flavorDef.id === "passion_leaf" || flavorDef.id === "vanilla_orchid" || flavorDef.id === "longjing" || flavorDef.id === "biluochun" || flavorDef.id === "puer_raw" || flavorDef.id === "white_peony_tea" || flavorDef.id === "valerian_flower" || flavorDef.id === "hops_flower" || flavorDef.id === "meadowsweet_flower" || flavorDef.id === "yarrow_flower" || flavorDef.id === "nettle_seed_tea" || flavorDef.id === "silver_birch" || flavorDef.id === "copper_beech" || flavorDef.id === "hornbeam" || flavorDef.id === "field_maple" || flavorDef.id === "wild_service" || flavorDef.id === "guelder_rose" || flavorDef.id === "wayfaring" || flavorDef.id === "dogwood" || flavorDef.id === "spindle" || flavorDef.id === "buckthorn" || flavorDef.id === "privet" || flavorDef.id === "boxwood" || flavorDef.id === "bluebell_fresh" || flavorDef.id === "primula_veris" || flavorDef.id === "oxlip" || flavorDef.id === "cowslip_fresh" || flavorDef.id === "wood_anemone" || flavorDef.id === "wood_sorrel_pink" || flavorDef.id === "greater_stitchwort" || flavorDef.id === "red_campion" || flavorDef.id === "white_campion" || flavorDef.id === "ragged_robin" || flavorDef.id === "cuckooflower" || flavorDef.id === "lady_smock" || flavorDef.id === "garlic_mustard_fl" || flavorDef.id === "hedge_garlic_seed" || flavorDef.id === "jack_hedge_leaf" || flavorDef.id === "wild_mustard" || flavorDef.id === "meadow_buttercup" || flavorDef.id === "creeping_buttercup" || flavorDef.id === "lesser_celandine" || flavorDef.id === "marsh_marigold" || flavorDef.id === "globe_flower" || flavorDef.id === "columbine" || flavorDef.id === "monkshood" || flavorDef.id === "larkspur" || flavorDef.id === "delphinium" || flavorDef.id === "pasque_flower" || flavorDef.id === "anemone_coronaria" || flavorDef.id === "hepatic" || flavorDef.id === "clematis_vitalba" || flavorDef.id === "speedwell_germander" || flavorDef.id === "germander" || flavorDef.id === "betony_fresh" || flavorDef.id === "selfheal_fresh" || flavorDef.id === "woundwort" || flavorDef.id === "hedge_woundwort" || flavorDef.id === "marsh_woundwort" || flavorDef.id === "motherwort_fresh" || flavorDef.id === "scutellaria" || flavorDef.id === "bugle_fresh" || flavorDef.id === "alehoof" || flavorDef.id === "clary_sage" || flavorDef.id === "pineapple_sage" || flavorDef.id === "fruit_sage" || flavorDef.id === "white_sage" || flavorDef.id === "russian_sage" || flavorDef.id === "meadow_clary_fresh" || flavorDef.id === "wood_sage" || flavorDef.id === "jerusalem_sage" || flavorDef.id === "catmint" || flavorDef.id === "catnip_fresh" || flavorDef.id === "hyssop_fresh" || flavorDef.id === "anise_hyssop" || flavorDef.id === "korean_mint" || flavorDef.id === "agastache" || flavorDef.id === "lavender_spike" || flavorDef.id === "lavender_sto" || flavorDef.id === "thyme_lemon" || flavorDef.id === "thyme_orange" || flavorDef.id === "thyme_caraway" || flavorDef.id === "thyme_woolly" || flavorDef.id === "creeping_thyme" || flavorDef.id === "oregano_greek" || flavorDef.id === "oregano_italian" || flavorDef.id === "marjoram_sweet" || flavorDef.id === "savory_summer" || flavorDef.id === "basil_genovese" || flavorDef.id === "basil_cinnamon" || flavorDef.id === "basil_purple" || flavorDef.id === "basil_lettuce" || flavorDef.id === "mint_peppermint" || flavorDef.id === "mint_spearmint" || flavorDef.id === "mint_chocolate" || flavorDef.id === "mint_apple" || flavorDef.id === "mint_ginger" || flavorDef.id === "mint_orange" || flavorDef.id === "mint_lavender" || flavorDef.id === "mint_bergamot" || flavorDef.id === "mint_corsican" || flavorDef.id === "mint_water" || flavorDef.id === "melissa_fresh" || flavorDef.id === "lemon_balm_var" || flavorDef.id === "bee_balm_pink" || flavorDef.id === "bee_balm_purple" || flavorDef.id === "oregano_hop" || flavorDef.id === "dittany" || flavorDef.id === "dictamnus" || flavorDef.id === "burning_bush" || flavorDef.id === "chamomile_roman" || flavorDef.id === "chamomile_german" || flavorDef.id === "feverfew_fresh" || flavorDef.id === "tansy_fresh" || flavorDef.id === "yarrow_pink" || flavorDef.id === "yarrow_gold" || flavorDef.id === "arnica_fresh" || flavorDef.id === "calendula_offic" || flavorDef.id === "pot_marigold_dbl" || flavorDef.id === "tagetes" || flavorDef.id === "marigold_french" || flavorDef.id === "signet_marigold" || flavorDef.id === "costmary_fresh" || flavorDef.id === "elecampane_fresh" || flavorDef.id === "inula" || flavorDef.id === "eupatorium" || flavorDef.id === "echinacea_purp" || flavorDef.id === "echinacea_ang" || flavorDef.id === "echinacea_pall" || flavorDef.id === "rudbeckia" || flavorDef.id === "black_eyed_susan" || flavorDef.id === "coneflower_yellow" || flavorDef.id === "helenium" || flavorDef.id === "helenium_autumn" || flavorDef.id === "coreopsis_lance" || flavorDef.id === "coreopsis_tick" || flavorDef.id === "gaillardia" || flavorDef.id === "gaillardia_fan" || flavorDef.id === "ratibida" || flavorDef.id === "silphium" || flavorDef.id === "cup_plant" || flavorDef.id === "compass_plant" || flavorDef.id === "aster_novae" || flavorDef.id === "aster_novi" || flavorDef.id === "michaelmas" || flavorDef.id === "goldenrod_fresh" || flavorDef.id === "solidago" || flavorDef.id === "boltonia" || flavorDef.id === "erigeron" || flavorDef.id === "fleabane" || flavorDef.id === "daisy_oxeye" || flavorDef.id === "daisy_english" || flavorDef.id === "daisy_shasta" || flavorDef.id === "chrysanthemum_ind_fresh" || flavorDef.id === "chrysanthemum_mor" || flavorDef.id === "chrysanthemum_yej" || flavorDef.id === "tanacetum" || flavorDef.id === "pyrethrum" || flavorDef.id === "sunflower_dwarf" || flavorDef.id === "sunflower_multi" || flavorDef.id === "sunflower_red" || flavorDef.id === "sunchoke_flower" || flavorDef.id === "dahlia_cactus" || flavorDef.id === "dahlia_pompom" || flavorDef.id === "zinnia_dwarf" || flavorDef.id === "zinnia_cactus" || flavorDef.id === "cosmos_sulph" || flavorDef.id === "cosmos_choco" || flavorDef.id === "tithonia" || flavorDef.id === "mexican_sunflower" || flavorDef.id === "heliopsis" || flavorDef.id === "inula_helenium" || flavorDef.id === "verbena_bon" || flavorDef.id === "verbena_rig" || flavorDef.id === "lantana" || flavorDef.id === "lantana_white" || flavorDef.id === "phlox_pan" || flavorDef.id === "phlox_sub" || flavorDef.id === "phlox_drum" || flavorDef.id === "dianthus_chin" || flavorDef.id === "dianthus_barb" || flavorDef.id === "sweet_william" || flavorDef.id === "carnation" || flavorDef.id === "pinks" || flavorDef.id === "gypsophila" || flavorDef.id === "baby_breath" || flavorDef.id === "saponaria" || flavorDef.id === "soapwort_fresh" || flavorDef.id === "campanula" || flavorDef.id === "campanula_med" || flavorDef.id === "lobelia" || flavorDef.id === "lobelia_card" || flavorDef.id === "penstemon" || flavorDef.id === "penstemon_fox" || flavorDef.id === "digitalis" || flavorDef.id === "digitalis_lutea" || flavorDef.id === "snapdragon" || flavorDef.id === "snapdragon_dwarf" || flavorDef.id === "antirrhinum" || flavorDef.id === "linaria" || flavorDef.id === "toadflax" || flavorDef.id === "verbascum_chaix" || flavorDef.id === "mullein_white" || flavorDef.id === "mimulus" || flavorDef.id === "monkeyflower" || flavorDef.id === "collinsia" || flavorDef.id === "castilleja" || flavorDef.id === "paintbrush" || flavorDef.id === "orthocarpus" || flavorDef.id === "pedicularis" || flavorDef.id === "lousewort" || flavorDef.id === "euphrasia" || flavorDef.id === "eyebright" || flavorDef.id === "rhinanthus" || flavorDef.id === "yellow_rattle" || flavorDef.id === "melampyrum" || flavorDef.id === "cow_wheat" || flavorDef.id === "bartisia" || flavorDef.id === "cattleya" || flavorDef.id === "dendrobium" || flavorDef.id === "phalaenopsis" || flavorDef.id === "oncidium" || flavorDef.id === "vanda" || flavorDef.id === "paphiopedilum" || flavorDef.id === "miltonia" || flavorDef.id === "odontoglossum" || flavorDef.id === "brassia" || flavorDef.id === "epidendrum" || flavorDef.id === "ludisia" || flavorDef.id === "anoectochilus" || flavorDef.id === "gastrodia" || flavorDef.id === "bletilla" || flavorDef.id === "calanthe" || flavorDef.id === "boston_fern" || flavorDef.id === "bird_nest_fern" || flavorDef.id === "staghorn" || flavorDef.id === "holly_fern" || flavorDef.id === "autumn_fern" || flavorDef.id === "ostrich_fern" || flavorDef.id === "cinnamon_fern" || flavorDef.id === "bracken_tip" || flavorDef.id === "adder_tongue" || flavorDef.id === "miscanthus" || flavorDef.id === "pampas" || flavorDef.id === "fountain_grass" || flavorDef.id === "japanese_forest" || flavorDef.id === "carex_morrow" || flavorDef.id === "scirpus" || flavorDef.id === "typha_pollen" || flavorDef.id === "phragmites" || flavorDef.id === "bamboo_black" || flavorDef.id === "bamboo_golden" || flavorDef.id === "echeveria" || flavorDef.id === "sedum_morgan" || flavorDef.id === "sedum_spect" || flavorDef.id === "sempervivum" || flavorDef.id === "aeonium" || flavorDef.id === "crassula" || flavorDef.id === "kalanchoe" || flavorDef.id === "haworthia" || flavorDef.id === "agave_flower" || flavorDef.id === "yucca_filament" || flavorDef.id === "sansevieria" || flavorDef.id === "jade_plant" || flavorDef.id === "panda_plant" || flavorDef.id === "boysen_leaf" || flavorDef.id === "logan_leaf" || flavorDef.id === "tay_leaf" || flavorDef.id === "marion_leaf" || flavorDef.id === "wine_leaf" || flavorDef.id === "salmon_leaf" || flavorDef.id === "thimble_leaf" || flavorDef.id === "cloud_flower" || flavorDef.id === "huckleberry" || flavorDef.id === "huckle_leaf" || flavorDef.id === "salal" || flavorDef.id === "salal_leaf" || flavorDef.id === "oregon_grape" || flavorDef.id === "mahonia" || flavorDef.id === "barberry_red" || flavorDef.id === "barberry_leaf" || flavorDef.id === "currant_flower" || flavorDef.id === "goose_flower" || flavorDef.id === "josta" || flavorDef.id === "worcesterberry" || flavorDef.id === "juneberry" || flavorDef.id === "shadbush" || flavorDef.id === "chokecherry" || flavorDef.id === "bird_cherry" || flavorDef.id === "pin_cherry" || flavorDef.id === "sand_cherry" || flavorDef.id === "nanking_cherry" || flavorDef.id === "cornelian" || flavorDef.id === "honeyberry" || flavorDef.id === "hascap" || flavorDef.id === "clematis_arm" || flavorDef.id === "clematis_mon" || flavorDef.id === "clematis_tang" || flavorDef.id === "clematis_ori" || flavorDef.id === "akibia" || flavorDef.id === "akebia_flower" || flavorDef.id === "kiwi_hardy" || flavorDef.id === "kiwi_flower" || flavorDef.id === "actinidia" || flavorDef.id === "silver_vine" || flavorDef.id === "hop_fresh" || flavorDef.id === "hop_leaf" || flavorDef.id === "humulus" || flavorDef.id === "japanese_hop" || flavorDef.id === "grape_leaf_fresh" || flavorDef.id === "vine_tendril" || flavorDef.id === "muscadine" || flavorDef.id === "scuppernong" || flavorDef.id === "passiflora_inc" || flavorDef.id === "passiflora_cae" || flavorDef.id === "passiflora_ed" || flavorDef.id === "maypop" || flavorDef.id === "morning_glory_red" || flavorDef.id === "morning_glory_blue" || flavorDef.id === "ipomoea_bat" || flavorDef.id === "moonvine" || flavorDef.id === "cypress_vine" || flavorDef.id === "cardinal_climber" || flavorDef.id === "black_eyed_susan_vine" || flavorDef.id === "thunbergia" || flavorDef.id === "sweet_potato_leaf" || flavorDef.id === "dioscorea" || flavorDef.id === "luffa_flower" || flavorDef.id === "luffa_leaf" || flavorDef.id === "bitter_melon_fl" || flavorDef.id === "bitter_melon_leaf" || flavorDef.id === "squash_blossom" || flavorDef.id === "zucchini_flower" || flavorDef.id === "cucumber_flower" || flavorDef.id === "melon_flower" || flavorDef.id === "okra_flower" || flavorDef.id === "okra_leaf" || flavorDef.id === "hibiscus_escul" || flavorDef.id === "roselle_fresh" || flavorDef.id === "cotton_flower" || flavorDef.id === "cotton_leaf" || flavorDef.id === "kenaf" || flavorDef.id === "jute_leaf" || flavorDef.id === "flax_blue" || flavorDef.id === "flax_red" || flavorDef.id === "hemp_flower" || flavorDef.id === "nettle_fresh" || flavorDef.id === "dead_nettle" || flavorDef.id === "purple_dead_nettle" || flavorDef.id === "henbit" || flavorDef.id === "lamium" || flavorDef.id === "galeopsis" || flavorDef.id === "stachys_byz" || flavorDef.id === "alpine_rosemary" || flavorDef.id === "alpine_marjoram" || flavorDef.id === "alpine_chive" || flavorDef.id === "alpine_cilantro" || flavorDef.id === "alpine_dill" || flavorDef.id === "alpine_lovage" || flavorDef.id === "alpine_sorrel" || flavorDef.id === "coastal_thyme" || flavorDef.id === "coastal_sage" || flavorDef.id === "coastal_oregano" || flavorDef.id === "coastal_basil" || flavorDef.id === "coastal_mint" || flavorDef.id === "coastal_lavender" || flavorDef.id === "coastal_marjoram" || flavorDef.id === "coastal_tarragon" || flavorDef.id === "coastal_chive" || flavorDef.id === "coastal_parsley" || flavorDef.id === "coastal_cilantro" || flavorDef.id === "coastal_dill" || flavorDef.id === "coastal_sorrel" || flavorDef.id === "meadow_thyme" || flavorDef.id === "meadow_sage" || flavorDef.id === "meadow_oregano" || flavorDef.id === "meadow_basil" || flavorDef.id === "meadow_mint" || flavorDef.id === "meadow_lavender" || flavorDef.id === "meadow_marjoram" || flavorDef.id === "meadow_tarragon" || flavorDef.id === "meadow_chive" || flavorDef.id === "meadow_parsley" || flavorDef.id === "meadow_cilantro" || flavorDef.id === "meadow_dill" || flavorDef.id === "meadow_sorrel" || flavorDef.id === "woodland_thyme" || flavorDef.id === "woodland_sage" || flavorDef.id === "woodland_oregano" || flavorDef.id === "woodland_basil" || flavorDef.id === "woodland_mint" || flavorDef.id === "woodland_lavender" || flavorDef.id === "woodland_marjoram" || flavorDef.id === "woodland_tarragon" || flavorDef.id === "woodland_chive" || flavorDef.id === "woodland_parsley" || flavorDef.id === "woodland_cilantro" || flavorDef.id === "woodland_dill" || flavorDef.id === "woodland_fennel" || flavorDef.id === "woodland_lovage" || flavorDef.id === "woodland_sorrel" || flavorDef.id === "garden_thyme" || flavorDef.id === "garden_sage" || flavorDef.id === "garden_oregano" || flavorDef.id === "garden_basil" || flavorDef.id === "garden_mint" || flavorDef.id === "garden_lavender" || flavorDef.id === "garden_marjoram" || flavorDef.id === "garden_tarragon" || flavorDef.id === "garden_chive" || flavorDef.id === "garden_parsley" || flavorDef.id === "garden_cilantro" || flavorDef.id === "garden_dill" || flavorDef.id === "garden_fennel" || flavorDef.id === "garden_lovage" || flavorDef.id === "garden_sorrel" || flavorDef.id === "wild_thyme" || flavorDef.id === "wild_sage" || flavorDef.id === "wild_oregano" || flavorDef.id === "wild_basil" || flavorDef.id === "wild_mint" || flavorDef.id === "wild_lavender" || flavorDef.id === "wild_rosemary" || flavorDef.id === "wild_marjoram" || flavorDef.id === "wild_tarragon" || flavorDef.id === "wild_chive" || flavorDef.id === "wild_parsley" || flavorDef.id === "wild_cilantro" || flavorDef.id === "wild_dill" || flavorDef.id === "wild_fennel" || flavorDef.id === "wild_lovage" || flavorDef.id === "wild_sorrel" || flavorDef.id === "dwarf_thyme" || flavorDef.id === "dwarf_sage" || flavorDef.id === "dwarf_oregano" || flavorDef.id === "dwarf_basil" || flavorDef.id === "dwarf_mint" || flavorDef.id === "dwarf_lavender" || flavorDef.id === "dwarf_marjoram" || flavorDef.id === "dwarf_chive" || flavorDef.id === "dwarf_parsley" || flavorDef.id === "dwarf_cilantro" || flavorDef.id === "dwarf_dill" || flavorDef.id === "dwarf_fennel" || flavorDef.id === "dwarf_lovage" || flavorDef.id === "dwarf_sorrel" || flavorDef.id === "giant_oregano" || flavorDef.id === "giant_basil" || flavorDef.id === "giant_marjoram" || flavorDef.id === "giant_tarragon" || flavorDef.id === "giant_chive" || flavorDef.id === "giant_parsley" || flavorDef.id === "giant_cilantro" || flavorDef.id === "giant_dill" || flavorDef.id === "giant_lovage" || flavorDef.id === "giant_sorrel" || flavorDef.id === "variegated_thyme" || flavorDef.id === "variegated_oregano" || flavorDef.id === "variegated_basil" || flavorDef.id === "variegated_mint" || flavorDef.id === "variegated_lavender" || flavorDef.id === "variegated_marjoram" || flavorDef.id === "variegated_chive" || flavorDef.id === "variegated_parsley" || flavorDef.id === "variegated_cilantro" || flavorDef.id === "variegated_dill" || flavorDef.id === "variegated_sorrel" || flavorDef.id === "golden_thyme" || flavorDef.id === "golden_oregano" || flavorDef.id === "golden_basil" || flavorDef.id === "golden_mint" || flavorDef.id === "golden_lavender" || flavorDef.id === "golden_marjoram" || flavorDef.id === "golden_chive" || flavorDef.id === "golden_parsley" || flavorDef.id === "golden_cilantro" || flavorDef.id === "golden_dill" || flavorDef.id === "golden_sorrel" || flavorDef.id === "silver_thyme" || flavorDef.id === "silver_oregano" || flavorDef.id === "silver_basil" || flavorDef.id === "silver_mint" || flavorDef.id === "silver_lavender" || flavorDef.id === "silver_marjoram" || flavorDef.id === "silver_chive" || flavorDef.id === "silver_parsley" || flavorDef.id === "silver_cilantro" || flavorDef.id === "silver_dill" || flavorDef.id === "silver_sorrel" || flavorDef.id === "purple_thyme" || flavorDef.id === "purple_oregano" || flavorDef.id === "purple_basil" || flavorDef.id === "purple_mint" || flavorDef.id === "purple_lavender" || flavorDef.id === "purple_marjoram" || flavorDef.id === "purple_chive" || flavorDef.id === "purple_parsley" || flavorDef.id === "purple_cilantro" || flavorDef.id === "purple_dill" || flavorDef.id === "purple_sorrel" || flavorDef.id === "red_thyme" || flavorDef.id === "red_oregano" || flavorDef.id === "red_basil" || flavorDef.id === "red_mint" || flavorDef.id === "red_lavender" || flavorDef.id === "red_marjoram" || flavorDef.id === "red_chive" || flavorDef.id === "red_parsley" || flavorDef.id === "red_cilantro" || flavorDef.id === "red_dill" || flavorDef.id === "red_sorrel" || flavorDef.id === "white_thyme" || flavorDef.id === "white_oregano" || flavorDef.id === "white_basil" || flavorDef.id === "white_mint" || flavorDef.id === "white_lavender" || flavorDef.id === "white_marjoram" || flavorDef.id === "white_chive" || flavorDef.id === "white_parsley" || flavorDef.id === "white_cilantro" || flavorDef.id === "white_dill" || flavorDef.id === "white_sorrel" || flavorDef.id === "pink_thyme" || flavorDef.id === "pink_oregano" || flavorDef.id === "pink_basil" || flavorDef.id === "pink_mint" || flavorDef.id === "pink_lavender" || flavorDef.id === "pink_marjoram" || flavorDef.id === "pink_chive" || flavorDef.id === "pink_parsley" || flavorDef.id === "pink_cilantro" || flavorDef.id === "pink_dill" || flavorDef.id === "pink_sorrel" || flavorDef.id === "blue_thyme" || flavorDef.id === "blue_oregano" || flavorDef.id === "blue_basil" || flavorDef.id === "blue_mint" || flavorDef.id === "blue_lavender" || flavorDef.id === "blue_marjoram" || flavorDef.id === "blue_chive" || flavorDef.id === "blue_parsley" || flavorDef.id === "blue_cilantro" || flavorDef.id === "blue_dill" || flavorDef.id === "blue_sorrel" || flavorDef.id === "yellow_thyme" || flavorDef.id === "yellow_oregano" || flavorDef.id === "yellow_basil" || flavorDef.id === "yellow_mint" || flavorDef.id === "yellow_lavender" || flavorDef.id === "yellow_marjoram" || flavorDef.id === "yellow_chive" || flavorDef.id === "yellow_parsley" || flavorDef.id === "yellow_cilantro" || flavorDef.id === "yellow_dill" || flavorDef.id === "yellow_sorrel" || flavorDef.id === "orange_thyme" || flavorDef.id === "orange_oregano" || flavorDef.id === "orange_basil" || flavorDef.id === "orange_mint" || flavorDef.id === "orange_lavender" || flavorDef.id === "orange_marjoram" || flavorDef.id === "orange_chive" || flavorDef.id === "orange_parsley" || flavorDef.id === "orange_cilantro" || flavorDef.id === "orange_dill" || flavorDef.id === "orange_sorrel" || flavorDef.id === "fragrant_thyme" || flavorDef.id === "fragrant_sage" || flavorDef.id === "fragrant_oregano" || flavorDef.id === "fragrant_basil" || flavorDef.id === "fragrant_mint" || flavorDef.id === "fragrant_lavender" || flavorDef.id === "fragrant_rosemary" || flavorDef.id === "fragrant_marjoram" || flavorDef.id === "fragrant_tarragon" || flavorDef.id === "fragrant_chive" || flavorDef.id === "fragrant_parsley" || flavorDef.id === "fragrant_cilantro" || flavorDef.id === "fragrant_dill" || flavorDef.id === "fragrant_fennel" || flavorDef.id === "fragrant_lovage" || flavorDef.id === "fragrant_sorrel" || flavorDef.id === "edible_thyme" || flavorDef.id === "edible_sage" || flavorDef.id === "edible_oregano" || flavorDef.id === "edible_basil" || flavorDef.id === "edible_mint" || flavorDef.id === "edible_lavender" || flavorDef.id === "edible_rosemary" || flavorDef.id === "edible_marjoram" || flavorDef.id === "edible_tarragon" || flavorDef.id === "edible_chive" || flavorDef.id === "edible_parsley" || flavorDef.id === "edible_cilantro" || flavorDef.id === "edible_dill" || flavorDef.id === "edible_fennel" || flavorDef.id === "edible_lovage" || flavorDef.id === "edible_sorrel" || flavorDef.id === "apple_blossom" || flavorDef.id === "pear_blossom" || flavorDef.id === "peach_blossom" || flavorDef.id === "plum_blossom_fresh" || flavorDef.id === "cherry_blossom" || flavorDef.id === "apricot_blossom" || flavorDef.id === "quince_blossom" || flavorDef.id === "medlar_blossom" || flavorDef.id === "mulberry_flower" || flavorDef.id === "fig_leaf" || flavorDef.id === "pomegranate_flower" || flavorDef.id === "persimmon_flower" || flavorDef.id === "walnut_flower" || flavorDef.id === "hazel_catkin" || flavorDef.id === "chestnut_catkin" || flavorDef.id === "almond_fresh_bl" || flavorDef.id === "pistachio_flower" || flavorDef.id === "pecan_flower" || flavorDef.id === "macadamia_flower" || flavorDef.id === "cashew_flower" || flavorDef.id === "brazil_nut_fl" || flavorDef.id === "coconut_inflo" || flavorDef.id === "date_flower" || flavorDef.id === "olive_flower" || flavorDef.id === "avocado_flower" || flavorDef.id === "mango_flower" || flavorDef.id === "lychee_flower" || flavorDef.id === "longan_flower" || flavorDef.id === "rambutan_flower" || flavorDef.id === "mangosteen_flower" || flavorDef.id === "guava_flower" || flavorDef.id === "papaya_flower" || flavorDef.id === "pineapple_flower" || flavorDef.id === "banana_flower" || flavorDef.id === "plantain_flower" || flavorDef.id === "breadfruit_fl" || flavorDef.id === "jackfruit_fl" || flavorDef.id === "durian_fresh_fl" || flavorDef.id === "soursop_fl" || flavorDef.id === "cherimoya_fl" || flavorDef.id === "custard_apple_fl" || flavorDef.id === "r1_e58c97e5a283" || flavorDef.id === "r2_e58c97e5a283" || flavorDef.id === "r3_e58c97e5a283" || flavorDef.id === "r4_e58c97e5a283" || flavorDef.id === "r6_e58c97e5a283" || flavorDef.id === "r7_e58c97e5a283" || flavorDef.id === "r8_e58c97e5a283" || flavorDef.id === "r9_e58c97e5a283" || flavorDef.id === "r11_e58c97e5a283" || flavorDef.id === "r12_e58c97e5a283" || flavorDef.id === "r13_e58c97e5a283" || flavorDef.id === "r14_e58c97e5a283" || flavorDef.id === "r16_e58c97e5a283" || flavorDef.id === "r17_e58c97e5a283" || flavorDef.id === "r18_e58c97e5a283" || flavorDef.id === "r19_e58c97e5a283" || flavorDef.id === "r21_e58c97e5a283" || flavorDef.id === "r22_e58c97e5a283" || flavorDef.id === "r23_e58c97e5a283" || flavorDef.id === "r24_e58c97e5a283" || flavorDef.id === "r26_e58c97e5a283" || flavorDef.id === "r27_e58c97e5a283" || flavorDef.id === "r28_e58c97e5a283" || flavorDef.id === "r29_e58c97e5a283" || flavorDef.id === "r31_e58c97e5a283" || flavorDef.id === "r32_e58c97e5a283" || flavorDef.id === "r33_e58c97e5a283" || flavorDef.id === "r34_e58c97e5a283" || flavorDef.id === "r36_e58c97e5a283" || flavorDef.id === "r37_e58c97e5a283" || flavorDef.id === "r38_e58c97e5a283" || flavorDef.id === "r39_e58c97e5a283" || flavorDef.id === "r41_e58c97e5a283" || flavorDef.id === "r42_e58c97e5a283" || flavorDef.id === "r43_e58c97e5a283" || flavorDef.id === "r44_e58c97e5a283" || flavorDef.id === "r46_e58c97e5a283" || flavorDef.id === "r47_e58c97e5a283" || flavorDef.id === "r48_e58c97e5a283" || flavorDef.id === "r49_e58c97e5a283" || flavorDef.id === "r51_e58c97e5a283" || flavorDef.id === "r52_e58c97e5a283" || flavorDef.id === "r53_e58c97e5a283" || flavorDef.id === "r54_e58c97e5a283" || flavorDef.id === "r56_e58c97e5a283" || flavorDef.id === "r57_e58c97e5a283" || flavorDef.id === "r58_e58c97e5a283" || flavorDef.id === "r59_e58c97e5a283" || flavorDef.id === "r61_e58c97e5a283" || flavorDef.id === "r62_e58c97e5a283" || flavorDef.id === "r63_e58c97e5a283" || flavorDef.id === "r64_e58c97e5a283" || flavorDef.id === "r66_e58c97e5a283" || flavorDef.id === "r67_e58c97e5a283" || flavorDef.id === "r68_e58c97e5a283" || flavorDef.id === "r69_e58c97e5a283" || flavorDef.id === "r71_e58c97e5a283" || flavorDef.id === "r72_e58c97e5a283" || flavorDef.id === "r73_e58c97e5a283" || flavorDef.id === "r74_e58c97e5a283" || flavorDef.id === "r76_e58c97e5a283" || flavorDef.id === "r77_e58c97e5a283" || flavorDef.id === "r78_e58c97e5a283" || flavorDef.id === "r79_e58c97e5a283" || flavorDef.id === "r81_e58c97e5a283" || flavorDef.id === "r82_e58c97e5a283" || flavorDef.id === "r83_e58c97e5a283" || flavorDef.id === "r84_e58c97e5a283" || flavorDef.id === "r86_e58c97e5a283" || flavorDef.id === "r87_e58c97e5a283" || flavorDef.id === "r88_e58c97e5a283" || flavorDef.id === "r89_e58c97e5a283" || flavorDef.id === "r91_e58c97e5a283" || flavorDef.id === "r92_e58c97e5a283" || flavorDef.id === "r93_e58c97e5a283" || flavorDef.id === "r94_e58c97e5a283" || flavorDef.id === "r96_e58c97e5a283" || flavorDef.id === "r97_e58c97e5a283" || flavorDef.id === "r98_e58c97e5a283" || flavorDef.id === "r99_e58c97e5a283" || flavorDef.id === "r101_e58c97e5a283" || flavorDef.id === "r102_e58c97e5a283" || flavorDef.id === "r103_e58c97e5a283" || flavorDef.id === "r104_e58d97e5a283" || flavorDef.id === "r106_e58d97e5a283" || flavorDef.id === "r107_e58d97e5a283" || flavorDef.id === "r108_e58d97e5a283" || flavorDef.id === "r109_e58d97e5a283" || flavorDef.id === "r111_e58d97e5a283" || flavorDef.id === "r112_e58d97e5a283" || flavorDef.id === "r113_e58d97e5a283" || flavorDef.id === "r114_e58d97e5a283" || flavorDef.id === "r116_e58d97e5a283" || flavorDef.id === "r117_e58d97e5a283" || flavorDef.id === "r118_e58d97e5a283" || flavorDef.id === "r119_e58d97e5a283" || flavorDef.id === "r121_e58d97e5a283" || flavorDef.id === "r122_e58d97e5a283" || flavorDef.id === "r123_e58d97e5a283" || flavorDef.id === "r124_e58d97e5a283" || flavorDef.id === "r126_e58d97e5a283" || flavorDef.id === "r127_e58d97e5a283" || flavorDef.id === "r128_e58d97e5a283" || flavorDef.id === "r129_e58d97e5a283" || flavorDef.id === "r131_e58d97e5a283" || flavorDef.id === "r132_e58d97e5a283" || flavorDef.id === "r133_e58d97e5a283" || flavorDef.id === "r134_e58d97e5a283" || flavorDef.id === "r136_e58d97e5a283" || flavorDef.id === "r137_e58d97e5a283" || flavorDef.id === "r138_e58d97e5a283" || flavorDef.id === "r139_e58d97e5a283" || flavorDef.id === "r141_e58d97e5a283" || flavorDef.id === "r142_e58d97e5a283" || flavorDef.id === "r143_e58d97e5a283" || flavorDef.id === "r144_e58d97e5a283" || flavorDef.id === "r146_e58d97e5a283" || flavorDef.id === "r147_e58d97e5a283" || flavorDef.id === "r148_e58d97e5a283" || flavorDef.id === "r149_e58d97e5a283" || flavorDef.id === "r151_e58d97e5a283" || flavorDef.id === "r152_e58d97e5a283" || flavorDef.id === "r153_e58d97e5a283" || flavorDef.id === "r154_e58d97e5a283" || flavorDef.id === "r156_e58d97e5a283" || flavorDef.id === "r157_e58d97e5a283" || flavorDef.id === "r158_e58d97e5a283" || flavorDef.id === "r159_e58d97e5a283" || flavorDef.id === "r161_e58d97e5a283" || flavorDef.id === "r162_e58d97e5a283" || flavorDef.id === "r163_e58d97e5a283" || flavorDef.id === "r164_e58d97e5a283" || flavorDef.id === "r166_e58d97e5a283" || flavorDef.id === "r167_e58d97e5a283" || flavorDef.id === "r168_e58d97e5a283" || flavorDef.id === "r169_e58d97e5a283" || flavorDef.id === "r171_e58d97e5a283" || flavorDef.id === "r172_e58d97e5a283" || flavorDef.id === "r173_e58d97e5a283" || flavorDef.id === "r174_e58d97e5a283" || flavorDef.id === "r176_e58d97e5a283" || flavorDef.id === "r177_e58d97e5a283" || flavorDef.id === "r178_e58d97e5a283" || flavorDef.id === "r179_e58d97e5a283" || flavorDef.id === "r181_e58d97e5a283" || flavorDef.id === "r182_e58d97e5a283" || flavorDef.id === "r183_e58d97e5a283" || flavorDef.id === "r184_e58d97e5a283" || flavorDef.id === "r186_e58d97e5a283" || flavorDef.id === "r187_e58d97e5a283" || flavorDef.id === "r188_e58d97e5a283" || flavorDef.id === "r189_e58d97e5a283" || flavorDef.id === "r191_e58d97e5a283" || flavorDef.id === "r192_e58d97e5a283" || flavorDef.id === "r193_e58d97e5a283" || flavorDef.id === "r194_e58d97e5a283" || flavorDef.id === "r196_e58d97e5a283" || flavorDef.id === "r197_e58d97e5a283" || flavorDef.id === "r198_e58d97e5a283" || flavorDef.id === "r199_e58d97e5a283" || flavorDef.id === "loc1" || flavorDef.id === "loc2" || flavorDef.id === "loc3" || flavorDef.id === "loc5" || flavorDef.id === "loc6" || flavorDef.id === "loc7" || flavorDef.id === "loc9" || flavorDef.id === "loc10" || flavorDef.id === "loc11" || flavorDef.id === "loc13" || flavorDef.id === "loc14" || flavorDef.id === "loc15" || flavorDef.id === "loc17" || flavorDef.id === "loc18" || flavorDef.id === "loc19" || flavorDef.id === "loc21" || flavorDef.id === "loc22" || flavorDef.id === "loc23" || flavorDef.id === "loc25" || flavorDef.id === "loc26" || flavorDef.id === "loc27" || flavorDef.id === "loc29" || flavorDef.id === "loc30" || flavorDef.id === "loc31" || flavorDef.id === "loc33" || flavorDef.id === "loc34" || flavorDef.id === "loc35" || flavorDef.id === "loc37" || flavorDef.id === "loc38" || flavorDef.id === "loc39" || flavorDef.id === "loc41" || flavorDef.id === "loc42" || flavorDef.id === "loc43" || flavorDef.id === "loc45" || flavorDef.id === "loc46" || flavorDef.id === "loc47" || flavorDef.id === "loc49" || flavorDef.id === "loc50" || flavorDef.id === "loc51" || flavorDef.id === "loc53" || flavorDef.id === "loc54" || flavorDef.id === "loc55" || flavorDef.id === "loc57" || flavorDef.id === "loc58" || flavorDef.id === "loc59" || flavorDef.id === "loc61" || flavorDef.id === "loc62" || flavorDef.id === "loc63" || flavorDef.id === "loc65" || flavorDef.id === "loc66" || flavorDef.id === "loc67" || flavorDef.id === "loc69" || flavorDef.id === "loc70" || flavorDef.id === "loc71" || flavorDef.id === "loc73" || flavorDef.id === "loc74" || flavorDef.id === "loc75" || flavorDef.id === "loc77" || flavorDef.id === "loc78" || flavorDef.id === "loc79" || flavorDef.id === "loc81" || flavorDef.id === "loc82" || flavorDef.id === "loc83" || flavorDef.id === "loc85" || flavorDef.id === "loc86" || flavorDef.id === "loc87" || flavorDef.id === "loc89" || flavorDef.id === "loc90" || flavorDef.id === "loc91" || flavorDef.id === "loc93" || flavorDef.id === "loc94" || flavorDef.id === "loc95" || flavorDef.id === "loc97" || flavorDef.id === "loc98" || flavorDef.id === "loc99" || flavorDef.id === "loc101" || flavorDef.id === "loc102" || flavorDef.id === "loc103" || flavorDef.id === "loc105" || flavorDef.id === "loc106" || flavorDef.id === "loc107" || flavorDef.id === "loc109" || flavorDef.id === "loc110" || flavorDef.id === "loc111" || flavorDef.id === "loc113" || flavorDef.id === "loc114" || flavorDef.id === "loc115" || flavorDef.id === "loc117" || flavorDef.id === "loc118" || flavorDef.id === "loc119" || flavorDef.id === "loc121" || flavorDef.id === "loc122" || flavorDef.id === "loc123" || flavorDef.id === "loc125" || flavorDef.id === "loc126" || flavorDef.id === "loc127" || flavorDef.id === "loc129" || flavorDef.id === "loc130" || flavorDef.id === "loc131" || flavorDef.id === "loc133" || flavorDef.id === "loc134" || flavorDef.id === "loc135" || flavorDef.id === "loc137" || flavorDef.id === "loc138" || flavorDef.id === "loc139" || flavorDef.id === "loc141" || flavorDef.id === "loc142" || flavorDef.id === "loc143" || flavorDef.id === "loc145" || flavorDef.id === "loc146" || flavorDef.id === "loc147" || flavorDef.id === "loc149" || flavorDef.id === "loc150" || flavorDef.id === "loc151" || flavorDef.id === "loc153" || flavorDef.id === "loc154" || flavorDef.id === "loc155" || flavorDef.id === "loc157" || flavorDef.id === "loc158" || flavorDef.id === "loc159" || flavorDef.id === "loc161" || flavorDef.id === "loc162" || flavorDef.id === "loc163" || flavorDef.id === "loc165" || flavorDef.id === "loc166" || flavorDef.id === "loc167" || flavorDef.id === "loc169" || flavorDef.id === "loc170" || flavorDef.id === "loc171" || flavorDef.id === "loc173" || flavorDef.id === "loc174" || flavorDef.id === "loc175" || flavorDef.id === "loc177" || flavorDef.id === "loc178" || flavorDef.id === "loc179" || flavorDef.id === "loc181" || flavorDef.id === "loc182" || flavorDef.id === "loc183" || flavorDef.id === "loc185" || flavorDef.id === "loc186" || flavorDef.id === "loc187" || flavorDef.id === "loc189" || flavorDef.id === "loc190" || flavorDef.id === "loc191" || flavorDef.id === "loc193" || flavorDef.id === "loc194" || flavorDef.id === "loc195" || flavorDef.id === "loc197" || flavorDef.id === "loc198" || flavorDef.id === "loc199" || flavorDef.id === "loc201" || flavorDef.id === "loc202" || flavorDef.id === "loc203" || flavorDef.id === "loc205" || flavorDef.id === "loc206" || flavorDef.id === "loc207" || flavorDef.id === "loc209" || flavorDef.id === "loc210" || flavorDef.id === "loc211" || flavorDef.id === "loc213" || flavorDef.id === "loc214" || flavorDef.id === "loc215" || flavorDef.id === "loc217" || flavorDef.id === "loc218" || flavorDef.id === "loc219" || flavorDef.id === "loc221" || flavorDef.id === "loc222" || flavorDef.id === "loc223" || flavorDef.id === "loc225" || flavorDef.id === "loc226" || flavorDef.id === "loc227" || flavorDef.id === "loc229" || flavorDef.id === "loc230" || flavorDef.id === "loc231" || flavorDef.id === "loc233" || flavorDef.id === "loc234" || flavorDef.id === "loc235" || flavorDef.id === "loc237" || flavorDef.id === "loc238" || flavorDef.id === "loc239" || flavorDef.id === "loc241" || flavorDef.id === "loc242" || flavorDef.id === "loc243" || flavorDef.id === "loc245" || flavorDef.id === "loc246" || flavorDef.id === "loc247" || flavorDef.id === "loc249" || flavorDef.id === "loc250" || flavorDef.id === "loc251" || flavorDef.id === "loc253" || flavorDef.id === "loc254" || flavorDef.id === "loc255" || flavorDef.id === "loc257" || flavorDef.id === "loc258" || flavorDef.id === "loc259" || flavorDef.id === "loc261" || flavorDef.id === "loc262" || flavorDef.id === "loc263" || flavorDef.id === "loc265" || flavorDef.id === "loc266" || flavorDef.id === "loc267" || flavorDef.id === "loc269" || flavorDef.id === "loc270" || flavorDef.id === "loc271" || flavorDef.id === "loc273" || flavorDef.id === "loc274" || flavorDef.id === "loc275" || flavorDef.id === "loc277" || flavorDef.id === "loc278" || flavorDef.id === "loc279" || flavorDef.id === "loc281" || flavorDef.id === "loc282" || flavorDef.id === "loc283" || flavorDef.id === "loc285" || flavorDef.id === "loc286" || flavorDef.id === "loc287" || flavorDef.id === "loc289" || flavorDef.id === "loc290" || flavorDef.id === "loc291" || flavorDef.id === "loc293" || flavorDef.id === "loc294" || flavorDef.id === "loc295" || flavorDef.id === "loc297" || flavorDef.id === "loc298" || flavorDef.id === "loc299" || flavorDef.id === "loc301" || flavorDef.id === "loc302" || flavorDef.id === "loc303" || flavorDef.id === "loc305" || flavorDef.id === "loc306" || flavorDef.id === "loc307" || flavorDef.id === "loc309" || flavorDef.id === "loc310" || flavorDef.id === "loc311" || flavorDef.id === "loc313" || flavorDef.id === "loc314" || flavorDef.id === "loc315" || flavorDef.id === "loc317" || flavorDef.id === "loc318" || flavorDef.id === "loc319" || flavorDef.id === "loc321" || flavorDef.id === "loc322" || flavorDef.id === "loc323" || flavorDef.id === "loc325" || flavorDef.id === "loc326" || flavorDef.id === "loc327" || flavorDef.id === "loc329" || flavorDef.id === "loc330" || flavorDef.id === "loc331" || flavorDef.id === "loc333" || flavorDef.id === "loc334" || flavorDef.id === "loc335" || flavorDef.id === "loc337" || flavorDef.id === "loc338" || flavorDef.id === "loc339" || flavorDef.id === "loc341" || flavorDef.id === "loc342" || flavorDef.id === "loc343" || flavorDef.id === "loc345" || flavorDef.id === "loc346" || flavorDef.id === "loc347" || flavorDef.id === "loc349" || flavorDef.id === "loc350" || flavorDef.id === "loc351" || flavorDef.id === "loc353" || flavorDef.id === "loc354" || flavorDef.id === "loc355" || flavorDef.id === "loc357" || flavorDef.id === "loc358" || flavorDef.id === "loc359" || flavorDef.id === "loc361" || flavorDef.id === "loc362" || flavorDef.id === "loc363" || flavorDef.id === "loc365" || flavorDef.id === "loc366" || flavorDef.id === "loc367" || flavorDef.id === "loc369" || flavorDef.id === "loc370" || flavorDef.id === "loc371" || flavorDef.id === "loc373" || flavorDef.id === "loc374" || flavorDef.id === "loc375" || flavorDef.id === "loc377" || flavorDef.id === "loc378" || flavorDef.id === "loc379" || flavorDef.id === "loc381" || flavorDef.id === "loc382" || flavorDef.id === "loc383" || flavorDef.id === "loc385" || flavorDef.id === "loc386" || flavorDef.id === "loc387" || flavorDef.id === "loc389" || flavorDef.id === "loc390" || flavorDef.id === "loc391" || flavorDef.id === "loc393" || flavorDef.id === "loc394" || flavorDef.id === "loc395" || flavorDef.id === "loc397" || flavorDef.id === "loc398" || flavorDef.id === "loc399" || flavorDef.id === "loc401" || flavorDef.id === "loc402" || flavorDef.id === "loc403" || flavorDef.id === "loc405" || flavorDef.id === "loc406" || flavorDef.id === "loc407" || flavorDef.id === "loc409" || flavorDef.id === "loc410" || flavorDef.id === "loc411" || flavorDef.id === "loc413" || flavorDef.id === "loc414" || flavorDef.id === "loc415" || flavorDef.id === "loc417" || flavorDef.id === "loc418" || flavorDef.id === "loc419" || flavorDef.id === "loc421" || flavorDef.id === "loc422" || flavorDef.id === "loc423" || flavorDef.id === "loc425" || flavorDef.id === "loc426" || flavorDef.id === "loc427" || flavorDef.id === "loc429" || flavorDef.id === "loc430" || flavorDef.id === "loc431" || flavorDef.id === "loc433" || flavorDef.id === "loc434" || flavorDef.id === "loc435" || flavorDef.id === "loc437" || flavorDef.id === "loc438" || flavorDef.id === "loc439" || flavorDef.id === "loc441" || flavorDef.id === "loc442" || flavorDef.id === "loc443" || flavorDef.id === "loc445" || flavorDef.id === "loc446" || flavorDef.id === "loc447" || flavorDef.id === "loc449" || flavorDef.id === "loc450" || flavorDef.id === "loc451" || flavorDef.id === "loc453" || flavorDef.id === "loc454" || flavorDef.id === "loc455" || flavorDef.id === "loc457" || flavorDef.id === "loc458" || flavorDef.id === "loc459" || flavorDef.id === "loc461" || flavorDef.id === "loc462" || flavorDef.id === "loc463" || flavorDef.id === "loc465" || flavorDef.id === "loc466" || flavorDef.id === "loc467" || flavorDef.id === "loc469" || flavorDef.id === "loc470" || flavorDef.id === "loc471" || flavorDef.id === "loc473" || flavorDef.id === "loc474" || flavorDef.id === "loc475" || flavorDef.id === "loc477" || flavorDef.id === "loc478" || flavorDef.id === "loc479" || flavorDef.id === "atm1" || flavorDef.id === "atm2" || flavorDef.id === "atm3" || flavorDef.id === "atm4" || flavorDef.id === "atm6" || flavorDef.id === "atm7" || flavorDef.id === "atm8" || flavorDef.id === "atm9" || flavorDef.id === "atm11" || flavorDef.id === "atm12" || flavorDef.id === "atm13" || flavorDef.id === "atm14" || flavorDef.id === "atm16" || flavorDef.id === "atm17" || flavorDef.id === "atm18" || flavorDef.id === "atm19" || flavorDef.id === "atm21" || flavorDef.id === "atm22" || flavorDef.id === "atm23" || flavorDef.id === "atm24" || flavorDef.id === "atm26" || flavorDef.id === "atm27" || flavorDef.id === "atm28" || flavorDef.id === "atm29" || flavorDef.id === "atm31" || flavorDef.id === "atm32" || flavorDef.id === "atm33" || flavorDef.id === "atm34" || flavorDef.id === "atm36" || flavorDef.id === "atm37" || flavorDef.id === "atm38" || flavorDef.id === "atm39" || flavorDef.id === "atm41" || flavorDef.id === "atm42" || flavorDef.id === "atm43" || flavorDef.id === "atm44" || flavorDef.id === "atm46" || flavorDef.id === "atm47" || flavorDef.id === "atm48" || flavorDef.id === "atm49" || flavorDef.id === "atm51" || flavorDef.id === "atm52" || flavorDef.id === "atm53" || flavorDef.id === "atm54" || flavorDef.id === "atm56" || flavorDef.id === "atm57" || flavorDef.id === "atm58" || flavorDef.id === "atm59" || flavorDef.id === "atm61" || flavorDef.id === "atm62" || flavorDef.id === "atm63" || flavorDef.id === "atm64" || flavorDef.id === "atm66" || flavorDef.id === "atm67" || flavorDef.id === "atm68" || flavorDef.id === "atm69" || flavorDef.id === "atm71" || flavorDef.id === "atm72" || flavorDef.id === "atm73" || flavorDef.id === "atm74" || flavorDef.id === "atm76" || flavorDef.id === "atm77" || flavorDef.id === "atm78" || flavorDef.id === "atm79" || flavorDef.id === "atm81" || flavorDef.id === "atm82" || flavorDef.id === "atm83" || flavorDef.id === "atm84" || flavorDef.id === "atm86" || flavorDef.id === "atm87" || flavorDef.id === "atm88" || flavorDef.id === "atm89" || flavorDef.id === "atm91" || flavorDef.id === "atm92" || flavorDef.id === "atm93" || flavorDef.id === "atm94" || flavorDef.id === "atm96" || flavorDef.id === "atm97" || flavorDef.id === "atm98" || flavorDef.id === "atm99" || flavorDef.id === "atm101" || flavorDef.id === "atm102" || flavorDef.id === "atm103" || flavorDef.id === "atm104" || flavorDef.id === "atm106" || flavorDef.id === "atm107" || flavorDef.id === "atm108" || flavorDef.id === "atm109" || flavorDef.id === "atm111" || flavorDef.id === "atm112" || flavorDef.id === "atm113" || flavorDef.id === "atm114" || flavorDef.id === "atm116" || flavorDef.id === "atm117" || flavorDef.id === "atm118" || flavorDef.id === "atm119" || flavorDef.id === "atm121" || flavorDef.id === "atm122" || flavorDef.id === "atm123" || flavorDef.id === "atm124" || flavorDef.id === "atm126" || flavorDef.id === "atm127" || flavorDef.id === "atm128" || flavorDef.id === "atm129" || flavorDef.id === "atm131" || flavorDef.id === "atm132" || flavorDef.id === "atm133" || flavorDef.id === "atm134" || flavorDef.id === "atm136" || flavorDef.id === "atm137" || flavorDef.id === "atm138" || flavorDef.id === "atm139" || flavorDef.id === "atm141" || flavorDef.id === "atm142" || flavorDef.id === "atm143" || flavorDef.id === "atm144" || flavorDef.id === "atm146" || flavorDef.id === "atm147" || flavorDef.id === "atm148" || flavorDef.id === "atm149" || flavorDef.id === "atm151" || flavorDef.id === "atm152" || flavorDef.id === "atm153" || flavorDef.id === "atm154" || flavorDef.id === "atm156" || flavorDef.id === "atm157" || flavorDef.id === "atm158" || flavorDef.id === "atm159" || flavorDef.id === "atm161" || flavorDef.id === "atm162" || flavorDef.id === "atm163" || flavorDef.id === "atm164" || flavorDef.id === "atm166" || flavorDef.id === "atm167" || flavorDef.id === "atm168" || flavorDef.id === "atm169" || flavorDef.id === "atm171" || flavorDef.id === "atm172" || flavorDef.id === "atm173" || flavorDef.id === "atm174" || flavorDef.id === "atm176" || flavorDef.id === "atm177" || flavorDef.id === "atm178" || flavorDef.id === "atm179" || flavorDef.id === "atm181" || flavorDef.id === "atm182" || flavorDef.id === "atm183" || flavorDef.id === "atm184" || flavorDef.id === "atm186" || flavorDef.id === "atm187" || flavorDef.id === "atm188" || flavorDef.id === "atm189" || flavorDef.id === "atm191" || flavorDef.id === "atm192" || flavorDef.id === "atm193" || flavorDef.id === "atm194" || flavorDef.id === "atm196" || flavorDef.id === "atm197" || flavorDef.id === "atm198" || flavorDef.id === "atm199" || flavorDef.id === "atm201" || flavorDef.id === "atm202" || flavorDef.id === "atm203" || flavorDef.id === "atm204" || flavorDef.id === "atm206" || flavorDef.id === "atm207" || flavorDef.id === "atm208" || flavorDef.id === "atm209" || flavorDef.id === "atm211" || flavorDef.id === "atm212" || flavorDef.id === "atm213" || flavorDef.id === "atm214" || flavorDef.id === "atm216" || flavorDef.id === "atm217" || flavorDef.id === "atm218" || flavorDef.id === "atm219" || flavorDef.id === "atm221" || flavorDef.id === "atm222" || flavorDef.id === "atm223" || flavorDef.id === "atm224" || flavorDef.id === "atm226" || flavorDef.id === "atm227" || flavorDef.id === "atm228" || flavorDef.id === "atm229" || flavorDef.id === "atm231" || flavorDef.id === "atm232" || flavorDef.id === "atm233" || flavorDef.id === "atm234" || flavorDef.id === "atm236" || flavorDef.id === "atm237" || flavorDef.id === "atm238" || flavorDef.id === "atm239" || flavorDef.id === "atm241" || flavorDef.id === "atm242" || flavorDef.id === "atm243" || flavorDef.id === "atm244" || flavorDef.id === "atm246" || flavorDef.id === "atm247" || flavorDef.id === "atm248" || flavorDef.id === "atm249" || flavorDef.id === "atm251" || flavorDef.id === "atm252" || flavorDef.id === "atm253" || flavorDef.id === "atm254" || flavorDef.id === "atm256" || flavorDef.id === "atm257" || flavorDef.id === "atm258" || flavorDef.id === "atm259" || flavorDef.id === "atm261" || flavorDef.id === "atm262" || flavorDef.id === "atm263" || flavorDef.id === "atm264" || flavorDef.id === "atm266" || flavorDef.id === "atm267" || flavorDef.id === "atm268" || flavorDef.id === "atm269" || flavorDef.id === "atm271" || flavorDef.id === "atm272" || flavorDef.id === "atm273" || flavorDef.id === "atm274" || flavorDef.id === "atm276" || flavorDef.id === "atm277" || flavorDef.id === "atm278" || flavorDef.id === "atm279" || flavorDef.id === "atm281" || flavorDef.id === "atm282" || flavorDef.id === "atm283" || flavorDef.id === "atm284" || flavorDef.id === "atm286" || flavorDef.id === "atm287" || flavorDef.id === "atm288" || flavorDef.id === "atm289" || flavorDef.id === "atm291" || flavorDef.id === "atm292" || flavorDef.id === "atm293" || flavorDef.id === "atm294" || flavorDef.id === "atm296" || flavorDef.id === "atm297" || flavorDef.id === "atm298" || flavorDef.id === "atm299" || flavorDef.id === "atm301" || flavorDef.id === "atm302" || flavorDef.id === "atm303" || flavorDef.id === "atm304" || flavorDef.id === "atm306" || flavorDef.id === "atm307" || flavorDef.id === "atm308" || flavorDef.id === "atm309" || flavorDef.id === "atm311" || flavorDef.id === "atm312" || flavorDef.id === "atm313" || flavorDef.id === "atm314" || flavorDef.id === "atm316" || flavorDef.id === "atm317" || flavorDef.id === "atm318" || flavorDef.id === "atm319" || flavorDef.id === "atm321" || flavorDef.id === "atm322" || flavorDef.id === "atm323" || flavorDef.id === "atm324" || flavorDef.id === "atm326" || flavorDef.id === "atm327" || flavorDef.id === "atm328" || flavorDef.id === "atm329" || flavorDef.id === "atm331" || flavorDef.id === "atm332" || flavorDef.id === "atm333" || flavorDef.id === "atm334" || flavorDef.id === "atm336" || flavorDef.id === "atm337" || flavorDef.id === "atm338" || flavorDef.id === "atm339" || flavorDef.id === "atm341" || flavorDef.id === "atm342" || flavorDef.id === "atm343" || flavorDef.id === "atm344" || flavorDef.id === "atm346" || flavorDef.id === "atm347" || flavorDef.id === "atm348" || flavorDef.id === "atm349" || flavorDef.id === "atm351" || flavorDef.id === "atm352" || flavorDef.id === "atm353" || flavorDef.id === "atm354" || flavorDef.id === "atm356" || flavorDef.id === "atm357" || flavorDef.id === "atm358" || flavorDef.id === "atm359" || flavorDef.id === "atm361" || flavorDef.id === "atm362" || flavorDef.id === "atm363" || flavorDef.id === "atm364" || flavorDef.id === "atm366" || flavorDef.id === "atm367" || flavorDef.id === "atm368" || flavorDef.id === "atm369" || flavorDef.id === "atm371" || flavorDef.id === "atm372" || flavorDef.id === "atm373" || flavorDef.id === "atm374" || flavorDef.id === "atm376" || flavorDef.id === "atm377" || flavorDef.id === "atm378" || flavorDef.id === "atm379" || flavorDef.id === "atm381" || flavorDef.id === "atm382" || flavorDef.id === "atm383" || flavorDef.id === "atm384" || flavorDef.id === "atm386" || flavorDef.id === "atm387" || flavorDef.id === "atm388" || flavorDef.id === "atm389" || flavorDef.id === "atm391" || flavorDef.id === "atm392" || flavorDef.id === "atm393" || flavorDef.id === "atm394" || flavorDef.id === "atm396" || flavorDef.id === "atm397" || flavorDef.id === "atm398" || flavorDef.id === "atm399" || flavorDef.id === "atm401" || flavorDef.id === "atm402" || flavorDef.id === "atm403" || flavorDef.id === "atm404" || flavorDef.id === "atm406" || flavorDef.id === "atm407" || flavorDef.id === "atm408" || flavorDef.id === "atm409" || flavorDef.id === "atm411" || flavorDef.id === "atm412" || flavorDef.id === "atm413" || flavorDef.id === "atm414" || flavorDef.id === "atm416" || flavorDef.id === "atm417" || flavorDef.id === "atm418" || flavorDef.id === "atm419" || flavorDef.id === "atm421" || flavorDef.id === "atm422" || flavorDef.id === "atm423" || flavorDef.id === "atm424" || flavorDef.id === "atm426" || flavorDef.id === "atm427" || flavorDef.id === "atm428" || flavorDef.id === "atm429" || flavorDef.id === "atm431" || flavorDef.id === "atm432" || flavorDef.id === "atm433" || flavorDef.id === "atm434" || flavorDef.id === "atm436" || flavorDef.id === "atm437" || flavorDef.id === "atm438" || flavorDef.id === "atm439" || flavorDef.id === "atm441" || flavorDef.id === "atm442" || flavorDef.id === "atm443" || flavorDef.id === "atm444" || flavorDef.id === "atm446" || flavorDef.id === "atm447" || flavorDef.id === "atm448" || flavorDef.id === "atm449" || flavorDef.id === "atm451" || flavorDef.id === "atm452" || flavorDef.id === "atm453" || flavorDef.id === "atm454" || flavorDef.id === "atm456" || flavorDef.id === "atm457" || flavorDef.id === "atm458" || flavorDef.id === "atm459" || flavorDef.id === "atm461" || flavorDef.id === "atm462" || flavorDef.id === "atm463" || flavorDef.id === "atm464" || flavorDef.id === "atm466" || flavorDef.id === "atm467" || flavorDef.id === "atm468" || flavorDef.id === "atm469" || flavorDef.id === "atm471" || flavorDef.id === "atm472" || flavorDef.id === "atm473" || flavorDef.id === "atm474" || flavorDef.id === "atm476" || flavorDef.id === "atm477" || flavorDef.id === "atm478" || flavorDef.id === "atm479" || flavorDef.id === "fx20" || flavorDef.id === "fx21" || flavorDef.id === "fx22" || flavorDef.id === "fx23" || flavorDef.id === "fx24" || flavorDef.id === "fx25" || flavorDef.id === "fx26" || flavorDef.id === "fx27" || flavorDef.id === "fx28" || flavorDef.id === "fx30" || flavorDef.id === "fx31" || flavorDef.id === "fx32" || flavorDef.id === "fx33" || flavorDef.id === "fx34" || flavorDef.id === "fx35" || flavorDef.id === "fx36" || flavorDef.id === "fx37" || flavorDef.id === "fx38" || flavorDef.id === "fx60" || flavorDef.id === "fx61" || flavorDef.id === "fx62" || flavorDef.id === "fx63" || flavorDef.id === "fx64" || flavorDef.id === "fx65" || flavorDef.id === "fx66" || flavorDef.id === "fx67" || flavorDef.id === "fx68" || flavorDef.id === "fx70" || flavorDef.id === "fx71" || flavorDef.id === "fx72" || flavorDef.id === "fx73" || flavorDef.id === "fx74" || flavorDef.id === "fx75" || flavorDef.id === "fx76" || flavorDef.id === "fx77" || flavorDef.id === "fx78" || flavorDef.id === "fx80" || flavorDef.id === "fx81" || flavorDef.id === "fx82" || flavorDef.id === "fx83" || flavorDef.id === "fx84" || flavorDef.id === "fx85" || flavorDef.id === "fx86" || flavorDef.id === "fx87" || flavorDef.id === "fx88" || flavorDef.id === "fx90" || flavorDef.id === "fx91" || flavorDef.id === "fx92" || flavorDef.id === "fx93" || flavorDef.id === "fx94" || flavorDef.id === "fx95" || flavorDef.id === "fx96" || flavorDef.id === "fx97" || flavorDef.id === "fx98" || flavorDef.id === "fx100" || flavorDef.id === "fx101" || flavorDef.id === "fx102" || flavorDef.id === "fx103" || flavorDef.id === "fx104" || flavorDef.id === "fx105" || flavorDef.id === "fx106" || flavorDef.id === "fx107" || flavorDef.id === "fx108" || flavorDef.id === "fx110" || flavorDef.id === "fx111" || flavorDef.id === "fx112" || flavorDef.id === "fx113" || flavorDef.id === "fx114" || flavorDef.id === "fx115" || flavorDef.id === "fx116" || flavorDef.id === "fx117" || flavorDef.id === "fx118" || flavorDef.id === "fx120" || flavorDef.id === "fx121" || flavorDef.id === "fx122" || flavorDef.id === "fx123" || flavorDef.id === "fx124" || flavorDef.id === "fx125" || flavorDef.id === "fx126" || flavorDef.id === "fx127" || flavorDef.id === "fx128" || flavorDef.id === "fx130" || flavorDef.id === "fx131" || flavorDef.id === "fx132" || flavorDef.id === "fx133" || flavorDef.id === "fx134" || flavorDef.id === "fx135" || flavorDef.id === "fx136" || flavorDef.id === "fx137" || flavorDef.id === "fx138" || flavorDef.id === "fx140" || flavorDef.id === "fx141" || flavorDef.id === "fx142" || flavorDef.id === "fx143" || flavorDef.id === "fx144" || flavorDef.id === "fx145" || flavorDef.id === "fx146" || flavorDef.id === "fx147" || flavorDef.id === "fx148" || flavorDef.id === "fx150" || flavorDef.id === "fx151" || flavorDef.id === "fx152" || flavorDef.id === "fx153" || flavorDef.id === "fx154" || flavorDef.id === "fx155" || flavorDef.id === "fx156" || flavorDef.id === "fx157" || flavorDef.id === "fx158" || flavorDef.id === "fx160" || flavorDef.id === "fx161" || flavorDef.id === "fx162" || flavorDef.id === "fx163" || flavorDef.id === "fx164" || flavorDef.id === "fx165" || flavorDef.id === "fx166" || flavorDef.id === "fx167" || flavorDef.id === "fx168" || flavorDef.id === "fx170" || flavorDef.id === "fx171" || flavorDef.id === "fx172" || flavorDef.id === "fx173" || flavorDef.id === "fx174" || flavorDef.id === "fx175" || flavorDef.id === "fx176" || flavorDef.id === "fx177" || flavorDef.id === "fx178" || flavorDef.id === "fx200" || flavorDef.id === "fx201" || flavorDef.id === "fx202" || flavorDef.id === "fx203" || flavorDef.id === "fx204" || flavorDef.id === "fx205" || flavorDef.id === "fx206" || flavorDef.id === "fx207" || flavorDef.id === "fx208" || flavorDef.id === "fx210" || flavorDef.id === "fx211" || flavorDef.id === "fx212" || flavorDef.id === "fx213" || flavorDef.id === "fx214" || flavorDef.id === "fx215" || flavorDef.id === "fx216" || flavorDef.id === "fx217" || flavorDef.id === "fx218" || flavorDef.id === "fx240" || flavorDef.id === "fx241" || flavorDef.id === "fx242" || flavorDef.id === "fx243" || flavorDef.id === "fx244" || flavorDef.id === "fx245" || flavorDef.id === "fx246" || flavorDef.id === "fx247" || flavorDef.id === "fx248" || flavorDef.id === "fx250" || flavorDef.id === "fx251" || flavorDef.id === "fx252" || flavorDef.id === "fx253" || flavorDef.id === "fx254" || flavorDef.id === "fx255" || flavorDef.id === "fx256" || flavorDef.id === "fx257" || flavorDef.id === "fx258" || flavorDef.id === "fx260" || flavorDef.id === "fx261" || flavorDef.id === "fx262" || flavorDef.id === "fx263" || flavorDef.id === "fx264" || flavorDef.id === "fx265" || flavorDef.id === "fx266" || flavorDef.id === "fx267" || flavorDef.id === "fx268" || flavorDef.id === "fx270" || flavorDef.id === "fx271" || flavorDef.id === "fx272" || flavorDef.id === "fx273" || flavorDef.id === "fx274" || flavorDef.id === "fx275" || flavorDef.id === "fx276" || flavorDef.id === "fx277" || flavorDef.id === "fx278" || flavorDef.id === "fx280" || flavorDef.id === "fx281" || flavorDef.id === "fx282" || flavorDef.id === "fx283" || flavorDef.id === "fx284" || flavorDef.id === "fx285" || flavorDef.id === "fx286" || flavorDef.id === "fx287" || flavorDef.id === "fx288" || flavorDef.id === "fx290" || flavorDef.id === "fx291" || flavorDef.id === "fx292" || flavorDef.id === "fx293" || flavorDef.id === "fx294" || flavorDef.id === "fx295" || flavorDef.id === "fx296" || flavorDef.id === "fx297" || flavorDef.id === "fx298" || flavorDef.id === "fx300" || flavorDef.id === "fx301" || flavorDef.id === "fx302" || flavorDef.id === "fx303" || flavorDef.id === "fx304" || flavorDef.id === "fx305" || flavorDef.id === "fx306" || flavorDef.id === "fx307" || flavorDef.id === "fx308" || flavorDef.id === "fx310" || flavorDef.id === "fx311" || flavorDef.id === "fx312" || flavorDef.id === "fx313" || flavorDef.id === "fx314" || flavorDef.id === "fx315" || flavorDef.id === "fx316" || flavorDef.id === "fx317" || flavorDef.id === "fx318" || flavorDef.id === "fx320" || flavorDef.id === "fx321" || flavorDef.id === "fx322" || flavorDef.id === "fx323" || flavorDef.id === "fx324" || flavorDef.id === "fx325" || flavorDef.id === "fx326" || flavorDef.id === "fx327" || flavorDef.id === "fx328" || flavorDef.id === "fx330" || flavorDef.id === "fx331" || flavorDef.id === "fx332" || flavorDef.id === "fx333" || flavorDef.id === "fx334" || flavorDef.id === "fx335" || flavorDef.id === "fx336" || flavorDef.id === "fx337" || flavorDef.id === "fx338" || flavorDef.id === "fx340" || flavorDef.id === "fx341" || flavorDef.id === "fx342" || flavorDef.id === "fx343" || flavorDef.id === "fx344" || flavorDef.id === "fx345" || flavorDef.id === "fx346" || flavorDef.id === "fx347" || flavorDef.id === "fx348" || flavorDef.id === "fx350" || flavorDef.id === "fx351" || flavorDef.id === "fx352" || flavorDef.id === "fx353" || flavorDef.id === "fx354" || flavorDef.id === "fx355" || flavorDef.id === "fx356" || flavorDef.id === "fx357" || flavorDef.id === "fx358" || flavorDef.id === "fx360" || flavorDef.id === "fx361" || flavorDef.id === "fx362" || flavorDef.id === "fx363" || flavorDef.id === "fx364" || flavorDef.id === "fx365" || flavorDef.id === "fx366" || flavorDef.id === "fx367" || flavorDef.id === "fx368" || flavorDef.id === "fx370" || flavorDef.id === "fx371" || flavorDef.id === "fx372" || flavorDef.id === "fx373" || flavorDef.id === "fx374" || flavorDef.id === "fx375" || flavorDef.id === "fx376" || flavorDef.id === "fx377" || flavorDef.id === "fx378" || flavorDef.id === "gf400" || flavorDef.id === "gf401" || flavorDef.id === "gf402" || flavorDef.id === "gf403" || flavorDef.id === "gf404" || flavorDef.id === "gf405" || flavorDef.id === "gf406" || flavorDef.id === "gf407" || flavorDef.id === "gf408" || flavorDef.id === "gf409" || flavorDef.id === "gf410" || flavorDef.id === "gf411" || flavorDef.id === "gf412" || flavorDef.id === "gf413" || flavorDef.id === "gf414" || flavorDef.id === "gf415" || flavorDef.id === "gf416" || flavorDef.id === "gf417" || flavorDef.id === "gf418" || flavorDef.id === "gf419" || flavorDef.id === "gf420" || flavorDef.id === "gf421" || flavorDef.id === "gf422" || flavorDef.id === "gf423" || flavorDef.id === "gf424" || flavorDef.id === "gf425" || flavorDef.id === "gf426" || flavorDef.id === "gf427" || flavorDef.id === "gf428" || flavorDef.id === "gf429" || flavorDef.id === "gf430" || flavorDef.id === "gf431" || flavorDef.id === "gf432" || flavorDef.id === "gf433" || flavorDef.id === "gf434" || flavorDef.id === "gf435" || flavorDef.id === "gf436" || flavorDef.id === "gf437" || flavorDef.id === "gf438" || flavorDef.id === "gf439" || flavorDef.id === "gf440" || flavorDef.id === "gf441" || flavorDef.id === "gf442" || flavorDef.id === "gf443" || flavorDef.id === "gf444" || flavorDef.id === "gf445" || flavorDef.id === "gf446" || flavorDef.id === "gf447" || flavorDef.id === "gf448" || flavorDef.id === "gf449" || flavorDef.id === "gf450" || flavorDef.id === "gf451" || flavorDef.id === "gf452" || flavorDef.id === "gf453" || flavorDef.id === "gf454" || flavorDef.id === "gf455" || flavorDef.id === "gf456" || flavorDef.id === "gf457" || flavorDef.id === "gf458" || flavorDef.id === "gf459" || flavorDef.id === "gf460" || flavorDef.id === "gf461" || flavorDef.id === "gf462" || flavorDef.id === "gf463" || flavorDef.id === "gf464" || flavorDef.id === "gf465" || flavorDef.id === "gf466" || flavorDef.id === "gf467" || flavorDef.id === "gf468" || flavorDef.id === "gf469" || flavorDef.id === "gf470" || flavorDef.id === "gf471" || flavorDef.id === "gf472" || flavorDef.id === "gf473" || flavorDef.id === "gf474" || flavorDef.id === "gf475" || flavorDef.id === "gf476" || flavorDef.id === "gf477" || flavorDef.id === "gf478" || flavorDef.id === "gf479" || flavorDef.id === "gf480" || flavorDef.id === "gf481" || flavorDef.id === "gf482" || flavorDef.id === "gf483" || flavorDef.id === "gf484" || flavorDef.id === "gf485" || flavorDef.id === "gf486" || flavorDef.id === "gf487" || flavorDef.id === "gf488" || flavorDef.id === "gf489" || flavorDef.id === "gf490" || flavorDef.id === "gf491" || flavorDef.id === "gf492" || flavorDef.id === "gf493" || flavorDef.id === "gf494" || flavorDef.id === "gf495" || flavorDef.id === "gf496" || flavorDef.id === "gf497" || flavorDef.id === "gf498" || flavorDef.id === "gf499" || flavorDef.id === "gf500" || flavorDef.id === "gf501" || flavorDef.id === "gf502" || flavorDef.id === "gf503" || flavorDef.id === "gf504" || flavorDef.id === "gf505" || flavorDef.id === "gf506" || flavorDef.id === "gf507" || flavorDef.id === "gf508" || flavorDef.id === "gf509" || flavorDef.id === "gf510" || flavorDef.id === "gf511" || flavorDef.id === "gf512" || flavorDef.id === "gf513" || flavorDef.id === "gf514" || flavorDef.id === "gf515" || flavorDef.id === "gf516" || flavorDef.id === "gf517" || flavorDef.id === "gf518" || flavorDef.id === "gf519" || flavorDef.id === "gf520" || flavorDef.id === "gf521" || flavorDef.id === "gf522" || flavorDef.id === "gf523" || flavorDef.id === "gf524" || flavorDef.id === "gf525" || flavorDef.id === "gf526" || flavorDef.id === "gf527" || flavorDef.id === "gf528" || flavorDef.id === "gf529" || flavorDef.id === "gf530" || flavorDef.id === "gf531" || flavorDef.id === "gf532" || flavorDef.id === "gf533" || flavorDef.id === "gf534" || flavorDef.id === "gf535" || flavorDef.id === "gf536" || flavorDef.id === "gf537" || flavorDef.id === "gf538" || flavorDef.id === "gf539" || flavorDef.id === "gf540" || flavorDef.id === "gf541" || flavorDef.id === "gf542" || flavorDef.id === "gf543" || flavorDef.id === "gf544" || flavorDef.id === "gf545" || flavorDef.id === "gf546" || flavorDef.id === "gf547" || flavorDef.id === "gf548" || flavorDef.id === "gf549" || flavorDef.id === "gf550" || flavorDef.id === "gf551" || flavorDef.id === "gf552" || flavorDef.id === "gf553" || flavorDef.id === "gf554" || flavorDef.id === "gf555" || flavorDef.id === "gf556" || flavorDef.id === "gf557" || flavorDef.id === "gf558" || flavorDef.id === "gf559" || flavorDef.id === "gf560" || flavorDef.id === "gf561" || flavorDef.id === "gf562" || flavorDef.id === "gf563" || flavorDef.id === "gf564" || flavorDef.id === "gf565" || flavorDef.id === "gf566" || flavorDef.id === "gf567" || flavorDef.id === "gf568" || flavorDef.id === "gf569" || flavorDef.id === "gf570" || flavorDef.id === "gf571" || flavorDef.id === "gf572" || flavorDef.id === "gf573" || flavorDef.id === "gf574" || flavorDef.id === "gf575" || flavorDef.id === "gf576" || flavorDef.id === "gf577" || flavorDef.id === "gf578" || flavorDef.id === "gf579" || flavorDef.id === "gf580" || flavorDef.id === "gf581" || flavorDef.id === "gf582" || flavorDef.id === "gf583" || flavorDef.id === "gf584" || flavorDef.id === "gf585" || flavorDef.id === "gf586" || flavorDef.id === "gf587" || flavorDef.id === "gf588" || flavorDef.id === "gf589" || flavorDef.id === "gf590" || flavorDef.id === "gf591" || flavorDef.id === "gf592" || flavorDef.id === "gf593" || flavorDef.id === "gf594" || flavorDef.id === "gf595" || flavorDef.id === "gf596" || flavorDef.id === "gf597" || flavorDef.id === "gf598" || flavorDef.id === "gf599" || flavorDef.id === "gf600" || flavorDef.id === "gf601" || flavorDef.id === "gf602" || flavorDef.id === "gf603" || flavorDef.id === "gf604" || flavorDef.id === "gf605" || flavorDef.id === "gf606" || flavorDef.id === "gf607" || flavorDef.id === "gf608" || flavorDef.id === "gf609" || flavorDef.id === "gf610" || flavorDef.id === "gf611" || flavorDef.id === "gf612" || flavorDef.id === "gf613" || flavorDef.id === "gf614" || flavorDef.id === "gf615" || flavorDef.id === "gf616" || flavorDef.id === "gf617" || flavorDef.id === "gf618" || flavorDef.id === "gf619" || flavorDef.id === "gf620" || flavorDef.id === "gf621" || flavorDef.id === "gf622" || flavorDef.id === "gf623" || flavorDef.id === "gf624" || flavorDef.id === "gf625" || flavorDef.id === "gf626" || flavorDef.id === "gf627" || flavorDef.id === "gf628" || flavorDef.id === "gf629" || flavorDef.id === "gf630" || flavorDef.id === "gf631" || flavorDef.id === "gf632" || flavorDef.id === "gf633" || flavorDef.id === "gf634" || flavorDef.id === "gf635" || flavorDef.id === "gf636" || flavorDef.id === "gf637" || flavorDef.id === "gf638" || flavorDef.id === "gf639" || flavorDef.id === "ht48" || flavorDef.id === "ht49" || flavorDef.id === "ht50" || flavorDef.id === "ht51" || flavorDef.id === "ht52" || flavorDef.id === "ht53" || flavorDef.id === "ht55" || flavorDef.id === "ht57" || flavorDef.id === "ht58" || flavorDef.id === "ht59" || flavorDef.id === "ht60" || flavorDef.id === "ht61" || flavorDef.id === "ht62" || flavorDef.id === "ht63" || flavorDef.id === "ht64" || flavorDef.id === "ht65" || flavorDef.id === "ht66" || flavorDef.id === "ht67" || flavorDef.id === "ht68" || flavorDef.id === "ht69" || flavorDef.id === "ht71" || flavorDef.id === "ht73" || flavorDef.id === "ht74" || flavorDef.id === "ht75" || flavorDef.id === "ht76" || flavorDef.id === "ht77" || flavorDef.id === "ht78" || flavorDef.id === "ht79" || flavorDef.id === "ht80" || flavorDef.id === "ht81" || flavorDef.id === "ht82" || flavorDef.id === "ht83" || flavorDef.id === "ht84" || flavorDef.id === "ht85" || flavorDef.id === "ht87" || flavorDef.id === "ht89" || flavorDef.id === "ht90" || flavorDef.id === "ht91" || flavorDef.id === "ht92" || flavorDef.id === "ht93" || flavorDef.id === "ht94" || flavorDef.id === "ht95" || flavorDef.id === "ht96" || flavorDef.id === "ht97" || flavorDef.id === "ht98" || flavorDef.id === "ht99" || flavorDef.id === "ht100" || flavorDef.id === "ht101" || flavorDef.id === "ht103" || flavorDef.id === "ht105" || flavorDef.id === "ht106" || flavorDef.id === "ht107" || flavorDef.id === "ht108" || flavorDef.id === "ht109" || flavorDef.id === "ht110" || flavorDef.id === "ht111" || flavorDef.id === "ht112" || flavorDef.id === "ht113" || flavorDef.id === "ht114" || flavorDef.id === "ht115" || flavorDef.id === "ht116" || flavorDef.id === "ht117" || flavorDef.id === "ht119" || flavorDef.id === "ht121" || flavorDef.id === "ht122" || flavorDef.id === "ht123" || flavorDef.id === "ht124" || flavorDef.id === "ht125" || flavorDef.id === "ht126" || flavorDef.id === "ht127" || flavorDef.id === "ht128" || flavorDef.id === "ht129" || flavorDef.id === "ht130" || flavorDef.id === "ht131" || flavorDef.id === "ht132" || flavorDef.id === "ht133" || flavorDef.id === "ht135" || flavorDef.id === "ht137" || flavorDef.id === "ht138" || flavorDef.id === "ht139" || flavorDef.id === "ht140" || flavorDef.id === "ht141" || flavorDef.id === "ht142" || flavorDef.id === "ht143" || flavorDef.id === "ht144" || flavorDef.id === "ht145" || flavorDef.id === "ht146" || flavorDef.id === "ht147" || flavorDef.id === "ht148" || flavorDef.id === "ht149" || flavorDef.id === "ht151" || flavorDef.id === "ht153" || flavorDef.id === "ht154" || flavorDef.id === "ht155" || flavorDef.id === "ht156" || flavorDef.id === "ht157" || flavorDef.id === "ht158" || flavorDef.id === "ht159" || flavorDef.id === "ht160" || flavorDef.id === "ht161" || flavorDef.id === "ht162" || flavorDef.id === "ht163" || flavorDef.id === "ht164" || flavorDef.id === "ht165" || flavorDef.id === "ht167" || flavorDef.id === "ht169" || flavorDef.id === "ht170" || flavorDef.id === "ht171" || flavorDef.id === "ht172" || flavorDef.id === "ht173" || flavorDef.id === "ht174" || flavorDef.id === "ht175" || flavorDef.id === "ht176" || flavorDef.id === "ht177" || flavorDef.id === "ht178" || flavorDef.id === "ht179" || flavorDef.id === "ht180" || flavorDef.id === "ht181" || flavorDef.id === "ht183" || flavorDef.id === "ht185" || flavorDef.id === "ht186" || flavorDef.id === "ht187" || flavorDef.id === "ht188" || flavorDef.id === "ht189" || flavorDef.id === "ht190" || flavorDef.id === "ht191" || flavorDef.id === "ht192" || flavorDef.id === "ht193" || flavorDef.id === "ht194" || flavorDef.id === "ht195" || flavorDef.id === "ht196" || flavorDef.id === "ht197" || flavorDef.id === "ht199" || flavorDef.id === "ht201" || flavorDef.id === "ht202" || flavorDef.id === "ht203" || flavorDef.id === "ht204" || flavorDef.id === "ht205" || flavorDef.id === "ht206" || flavorDef.id === "ht207" || flavorDef.id === "ht208" || flavorDef.id === "ht209" || flavorDef.id === "ht210" || flavorDef.id === "ht211" || flavorDef.id === "ht212" || flavorDef.id === "ht213" || flavorDef.id === "ht215" || flavorDef.id === "ht217" || flavorDef.id === "ht218" || flavorDef.id === "ht219" || flavorDef.id === "ht220" || flavorDef.id === "ht221" || flavorDef.id === "ht222" || flavorDef.id === "ht223" || flavorDef.id === "ht224" || flavorDef.id === "ht225" || flavorDef.id === "ht226" || flavorDef.id === "ht227" || flavorDef.id === "ht228" || flavorDef.id === "ht229" || flavorDef.id === "ht231" || flavorDef.id === "ht233" || flavorDef.id === "ht234" || flavorDef.id === "ht235" || flavorDef.id === "ht236" || flavorDef.id === "ht237" || flavorDef.id === "ht238" || flavorDef.id === "ht239" || flavorDef.id === "ht240" || flavorDef.id === "ht241" || flavorDef.id === "ht242" || flavorDef.id === "ht243" || flavorDef.id === "ht244" || flavorDef.id === "ht245" || flavorDef.id === "ht247" || flavorDef.id === "ht249" || flavorDef.id === "ht250" || flavorDef.id === "ht251" || flavorDef.id === "ht252" || flavorDef.id === "ht253" || flavorDef.id === "ht254" || flavorDef.id === "ht255" || flavorDef.id === "ht256" || flavorDef.id === "ht257" || flavorDef.id === "ht258" || flavorDef.id === "ht259" || flavorDef.id === "ht260" || flavorDef.id === "ht261" || flavorDef.id === "ht263" || flavorDef.id === "ht265" || flavorDef.id === "ht266" || flavorDef.id === "ht267" || flavorDef.id === "ht268" || flavorDef.id === "ht269" || flavorDef.id === "ht270" || flavorDef.id === "ht271" || flavorDef.id === "ht272" || flavorDef.id === "ht273" || flavorDef.id === "ht274" || flavorDef.id === "ht275" || flavorDef.id === "ht276" || flavorDef.id === "ht277" || flavorDef.id === "ht279" || flavorDef.id === "ht281" || flavorDef.id === "ht282" || flavorDef.id === "ht283" || flavorDef.id === "ht284" || flavorDef.id === "ht285" || flavorDef.id === "ht286" || flavorDef.id === "ht287" || flavorDef.id === "mn0" || flavorDef.id === "mn2" || flavorDef.id === "mn4" || flavorDef.id === "mn6" || flavorDef.id === "mn8" || flavorDef.id === "mn10" || flavorDef.id === "mn12" || flavorDef.id === "mn14" || flavorDef.id === "mn16" || flavorDef.id === "mn18" || flavorDef.id === "mn20" || flavorDef.id === "mn22" || flavorDef.id === "mn24" || flavorDef.id === "mn26" || flavorDef.id === "mn28" || flavorDef.id === "mn30" || flavorDef.id === "mn32" || flavorDef.id === "mn34" || flavorDef.id === "mn36" || flavorDef.id === "mn38" || flavorDef.id === "mn40" || flavorDef.id === "mn42" || flavorDef.id === "mn44" || flavorDef.id === "mn46" || flavorDef.id === "mn48" || flavorDef.id === "mn50" || flavorDef.id === "mn52" || flavorDef.id === "mn54" || flavorDef.id === "mn56" || flavorDef.id === "mn58" || flavorDef.id === "mn60" || flavorDef.id === "mn62" || flavorDef.id === "mn64" || flavorDef.id === "mn66" || flavorDef.id === "mn68" || flavorDef.id === "mn70" || flavorDef.id === "mn72" || flavorDef.id === "mn74" || flavorDef.id === "mn76" || flavorDef.id === "mn78" || flavorDef.id === "mn80" || flavorDef.id === "mn82" || flavorDef.id === "mn84" || flavorDef.id === "mn86" || flavorDef.id === "mn88" || flavorDef.id === "mn90" || flavorDef.id === "mn92" || flavorDef.id === "mn94" || flavorDef.id === "mn96" || flavorDef.id === "mn98" || flavorDef.id === "mn100" || flavorDef.id === "mn102" || flavorDef.id === "mn104" || flavorDef.id === "mn106" || flavorDef.id === "mn108" || flavorDef.id === "mn110" || flavorDef.id === "mn112" || flavorDef.id === "mn114" || flavorDef.id === "mn116" || flavorDef.id === "mn118" || flavorDef.id === "mn120" || flavorDef.id === "mn122" || flavorDef.id === "mn124" || flavorDef.id === "mn126" || flavorDef.id === "mn128" || flavorDef.id === "mn130" || flavorDef.id === "mn132" || flavorDef.id === "mn134" || flavorDef.id === "mn136" || flavorDef.id === "mn138" || flavorDef.id === "mn140" || flavorDef.id === "mn142" || flavorDef.id === "mn144" || flavorDef.id === "mn146" || flavorDef.id === "mn148" || flavorDef.id === "mn150" || flavorDef.id === "mn152" || flavorDef.id === "mn154" || flavorDef.id === "mn156" || flavorDef.id === "mn158" || flavorDef.id === "mn160" || flavorDef.id === "mn162" || flavorDef.id === "mn164" || flavorDef.id === "mn166" || flavorDef.id === "mn168" || flavorDef.id === "mn170" || flavorDef.id === "mn172" || flavorDef.id === "mn174" || flavorDef.id === "mn176" || flavorDef.id === "mn178" || flavorDef.id === "mn180" || flavorDef.id === "mn182" || flavorDef.id === "mn184" || flavorDef.id === "mn186" || flavorDef.id === "mn188" || flavorDef.id === "mn190" || flavorDef.id === "mn192" || flavorDef.id === "mn194" || flavorDef.id === "mn196" || flavorDef.id === "mn198" || flavorDef.id === "mn200" || flavorDef.id === "mn202" || flavorDef.id === "mn204" || flavorDef.id === "mn206" || flavorDef.id === "mn208" || flavorDef.id === "mn210" || flavorDef.id === "mn212" || flavorDef.id === "mn214" || flavorDef.id === "mn216" || flavorDef.id === "mn218" || flavorDef.id === "mn220" || flavorDef.id === "mn222" || flavorDef.id === "mn224" || flavorDef.id === "mn226" || flavorDef.id === "mn228" || flavorDef.id === "mn230" || flavorDef.id === "mn232" || flavorDef.id === "mn234" || flavorDef.id === "mn236" || flavorDef.id === "mn238" || flavorDef.id === "mn240" || flavorDef.id === "mn242" || flavorDef.id === "mn244" || flavorDef.id === "mn246" || flavorDef.id === "mn248" || flavorDef.id === "mn250" || flavorDef.id === "mn252" || flavorDef.id === "mn254" || flavorDef.id === "mn256" || flavorDef.id === "mn258" || flavorDef.id === "mn260" || flavorDef.id === "mn262" || flavorDef.id === "mn264" || flavorDef.id === "mn266" || flavorDef.id === "mn268" || flavorDef.id === "mn270" || flavorDef.id === "mn272" || flavorDef.id === "mn274" || flavorDef.id === "mn276" || flavorDef.id === "mn278" || flavorDef.id === "mn280" || flavorDef.id === "mn282" || flavorDef.id === "mn284" || flavorDef.id === "mn286" || flavorDef.id === "mn288" || flavorDef.id === "mn290" || flavorDef.id === "mn292" || flavorDef.id === "mn294" || flavorDef.id === "mn296" || flavorDef.id === "mn298" || flavorDef.id === "mn300" || flavorDef.id === "mn302" || flavorDef.id === "mn304" || flavorDef.id === "mn306" || flavorDef.id === "mn308" || flavorDef.id === "mn310" || flavorDef.id === "mn312" || flavorDef.id === "mn314" || flavorDef.id === "mn316" || flavorDef.id === "mn318" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || flavorDef.id === "litchi" || flavorDef.id === "olive" || flavorDef.id === "mango" || flavorDef.id === "pineapple" || flavorDef.id === "coconut" || flavorDef.id === "starfruit" || flavorDef.id === "passion_fruit" || flavorDef.id === "kiwi" || flavorDef.id === "dragonfruit" || flavorDef.id === "guava" || flavorDef.id === "cherry" || flavorDef.id === "apricot" || flavorDef.id === "grapefruit" || flavorDef.id === "tangerine" || flavorDef.id === "wax_apple" || flavorDef.id === "sugarcane" || flavorDef.id === "lemon" || flavorDef.id === "lime" || flavorDef.id === "cranberry" || flavorDef.id === "elderberry" || flavorDef.id === "honeydew" || flavorDef.id === "watermelon" || flavorDef.id === "cantaloupe" || flavorDef.id === "papaya" || flavorDef.id === "rambutan" || flavorDef.id === "jackfruit" || flavorDef.id === "oregano" || flavorDef.id === "chive" || flavorDef.id === "parsley" || flavorDef.id === "avocado" || flavorDef.id === "chervil" || flavorDef.id === "sorrel" || flavorDef.id === "verbena" || flavorDef.id === "savory" || flavorDef.id === "celery_seed" || flavorDef.id === "galangal" || flavorDef.id === "kaffir_lime" || flavorDef.id === "pandan" || flavorDef.id === "juniper" || flavorDef.id === "sumac" || flavorDef.id === "nigella" || flavorDef.id === "mustard_seed" || flavorDef.id === "wasabi" || flavorDef.id === "dandelion" || flavorDef.id === "nettle" || flavorDef.id === "borage" || flavorDef.id === "hops" || flavorDef.id === "heather" || flavorDef.id === "arnica" || flavorDef.id === "echinacea" || flavorDef.id === "feverfew" || flavorDef.id === "lemon_verbena" || flavorDef.id === "mullein" || flavorDef.id === "plantain_leaf" || flavorDef.id === "bee_balm" || flavorDef.id === "marshmallow" || flavorDef.id === "goldenrod" || flavorDef.id === "red_clover" || flavorDef.id === "white_clover" || flavorDef.id === "catnip" || flavorDef.id === "tansy" || flavorDef.id === "agrimony" || flavorDef.id === "rue" || flavorDef.id === "costmary" || flavorDef.id === "elecampane" || flavorDef.id === "meadow_clary" || flavorDef.id === "soapwort" || flavorDef.id === "milfoil" || flavorDef.id === "lady_mantle" || flavorDef.id === "speedwell" || flavorDef.id === "stitchwort" || flavorDef.id === "campion" || flavorDef.id === "silverweed" || flavorDef.id === "loosestrife" || flavorDef.id === "willowherb" || flavorDef.id === "bedstraw" || flavorDef.id === "cleavers" || flavorDef.id === "bugle" || flavorDef.id === "primrose" || flavorDef.id === "cowslip" || flavorDef.id === "oxeye" || flavorDef.id === "knapweed" || flavorDef.id === "scabious" || flavorDef.id === "nettle_seed" || flavorDef.id === "rowan" || flavorDef.id === "crabapple" || flavorDef.id === "serviceberry" || flavorDef.id === "elderflower_fresh" || flavorDef.id === "meadowsweet_fresh" || flavorDef.id === "wood_sorrel" || flavorDef.id === "wild_garlic" || flavorDef.id === "ramsons" || flavorDef.id === "jack_by_hedge" || flavorDef.id === "hedge_mustard" || flavorDef.id === "watercress" || flavorDef.id === "brooklime" || flavorDef.id === "cloudberry" || flavorDef.id === "lingonberry" || flavorDef.id === "bilberry" || flavorDef.id === "gooseberry" || flavorDef.id === "currant_red" || flavorDef.id === "currant_black" || flavorDef.id === "whitecurrant" || flavorDef.id === "sea_buckthorn" || flavorDef.id === "damson" || flavorDef.id === "greengage" || flavorDef.id === "mirabelle" || flavorDef.id === "saskatoon" || flavorDef.id === "chokeberry" || flavorDef.id === "yarrow_white" || flavorDef.id === "achillea_pink" || flavorDef.id === "cornflower" || flavorDef.id === "poppy_seed" || flavorDef.id === "flax_flower" || flavorDef.id === "chia_seed" || flavorDef.id === "sunflower_seed" || flavorDef.id === "fennel_pollen" || flavorDef.id === "fennel_frond" || flavorDef.id === "dill_pollen" || flavorDef.id === "celery_leaf" || flavorDef.id === "rooibos" || flavorDef.id === "honeybush" || flavorDef.id === "yerba_mate" || flavorDef.id === "guayusa" || flavorDef.id === "gardenia" || flavorDef.id === "magnolia" || flavorDef.id === "frangipani" || flavorDef.id === "plumeria" || flavorDef.id === "stephanotis" || flavorDef.id === "garden_phlox" || flavorDef.id === "osmanthus_fresh" || flavorDef.id === "galangal_fresh" || flavorDef.id === "ginger_flower" || flavorDef.id === "turmeric_fresh" || flavorDef.id === "cubeb" || flavorDef.id === "makrut_leaf" || flavorDef.id === "curry_leaf" || flavorDef.id === "holy_basil" || flavorDef.id === "thai_basil" || flavorDef.id === "lemon_basil" || flavorDef.id === "rambutan_fresh" || flavorDef.id === "lychee_fresh" || flavorDef.id === "mangosteen" || flavorDef.id === "durian_flower" || flavorDef.id === "tamarind" || flavorDef.id === "calamansi" || flavorDef.id === "fig_fresh" || flavorDef.id === "pomegranate_seed" || flavorDef.id === "cactus_pear" || flavorDef.id === "prickly_pear" || flavorDef.id === "sapodilla" || flavorDef.id === "soursop" || flavorDef.id === "cherimoya" || flavorDef.id === "feijoa" || flavorDef.id === "loquat_fresh" || flavorDef.id === "jujube_fresh" || flavorDef.id === "mulberry_white" || flavorDef.id === "mulberry_black" || flavorDef.id === "elderberry_fresh" || flavorDef.id === "bergamot_fresh" || flavorDef.id === "sudachi" || flavorDef.id === "kabosu" || flavorDef.id === "amanatsu" || flavorDef.id === "shiso_green" || flavorDef.id === "shiso_red" || flavorDef.id === "mitsuba" || flavorDef.id === "myoga" || flavorDef.id === "wasabi_leaf" || flavorDef.id === "sansho" || flavorDef.id === "kinome" || flavorDef.id === "gentian" || flavorDef.id === "arnica_montana" || flavorDef.id === "alpine_strawberry" || flavorDef.id === "bilberry_leaf" || flavorDef.id === "spruce_tip" || flavorDef.id === "olive_leaf" || flavorDef.id === "caper" || flavorDef.id === "zaatar" || flavorDef.id === "sumac_berry" || flavorDef.id === "orange_blossom" || flavorDef.id === "lavender_honey" || flavorDef.id === "thyme_honey" || flavorDef.id === "acacia_honey" || flavorDef.id === "manuka" || flavorDef.id === "bee_pollen" || flavorDef.id === "comb_honey" || flavorDef.id === "linden_honey" || flavorDef.id === "heather_honey_wild" || flavorDef.id === "wildflower_honey" || flavorDef.id === "clover_honey" || flavorDef.id === "eucalyptus_honey" || flavorDef.id === "mesquite" || flavorDef.id === "lucuma" || flavorDef.id === "camu_camu" || flavorDef.id === "acai" || flavorDef.id === "maqui" || flavorDef.id === "goji_fresh" || flavorDef.id === "amla" || flavorDef.id === "baobab" || flavorDef.id === "morinda" || flavorDef.id === "noni" || flavorDef.id === "cupuacu" || flavorDef.id === "matcha_ceremonial" || flavorDef.id === "sencha" || flavorDef.id === "gyokuro" || flavorDef.id === "bancha" || flavorDef.id === "kukicha" || flavorDef.id === "mugicha" || flavorDef.id === "barley_grass" || flavorDef.id === "wheatgrass" || flavorDef.id === "spirulina" || flavorDef.id === "chlorella" || flavorDef.id === "kelp" || flavorDef.id === "nori" || flavorDef.id === "hibiscus_fresh" || flavorDef.id === "chrysanthemum_fresh" || flavorDef.id === "peony" || flavorDef.id === "lotus_leaf_fresh" || flavorDef.id === "osmanthus_sugar" || flavorDef.id === "orchid_petal" || flavorDef.id === "bamboo_leaf_fresh" || flavorDef.id === "bamboo_shoot_fresh" || flavorDef.id === "safflower" || flavorDef.id === "calendula_fresh" || flavorDef.id === "pot_marigold" || flavorDef.id === "coreopsis" || flavorDef.id === "cosmos" || flavorDef.id === "zinnia" || flavorDef.id === "dahlia" || flavorDef.id === "gladiolus" || flavorDef.id === "iris" || flavorDef.id === "tulip" || flavorDef.id === "ranunculus" || flavorDef.id === "sweet_pea" || flavorDef.id === "nasturtium" || flavorDef.id === "morning_glory" || flavorDef.id === "clematis" || flavorDef.id === "wisteria_fresh" || flavorDef.id === "jasmine_sambac" || flavorDef.id === "gardenia_tea" || flavorDef.id === "boysenberry" || flavorDef.id === "loganberry" || flavorDef.id === "tayberry" || flavorDef.id === "marionberry" || flavorDef.id === "wineberry" || flavorDef.id === "salmonberry" || flavorDef.id === "thimbleberry" || flavorDef.id === "cloudberry_leaf" || flavorDef.id === "lovage_fresh" || flavorDef.id === "sweet_cicely" || flavorDef.id === "ramsons_flower" || flavorDef.id === "sea_kale" || flavorDef.id === "scurvygrass" || flavorDef.id === "marsh_samphire" || flavorDef.id === "agave_nectar" || flavorDef.id === "prickly_pear_pad" || flavorDef.id === "jojoba" || flavorDef.id === "mesquite_pod" || flavorDef.id === "creosote" || flavorDef.id === "desert_sage" || flavorDef.id === "yucca_flower" || flavorDef.id === "yerba_santa" || flavorDef.id === "cedron" || flavorDef.id === "muña" || flavorDef.id === "coca_leaf_tea" || flavorDef.id === "guarana" || flavorDef.id === "stevia_leaf" || flavorDef.id === "rooibos_green" || flavorDef.id === "honeybush_fresh" || flavorDef.id === "buchu" || flavorDef.id === "baobab_leaf" || flavorDef.id === "marula" || flavorDef.id === "kinkeliba" || flavorDef.id === "hibiscus_sab" || flavorDef.id === "pandan_fresh" || flavorDef.id === "lemongrass_fresh" || flavorDef.id === "galangal_leaf" || flavorDef.id === "torch_ginger" || flavorDef.id === "butterfly_pea" || flavorDef.id === "chrysanthemum_ind" || flavorDef.id === "tamarind_leaf" || flavorDef.id === "coconut_flower" || flavorDef.id === "bergamot_leaf" || flavorDef.id === "neroli" || flavorDef.id === "petitgrain" || flavorDef.id === "immortelle" || flavorDef.id === "helichrysum" || flavorDef.id === "cistus" || flavorDef.id === "spruce_beer" || flavorDef.id === "fireweed" || flavorDef.id === "fireweed_honey" || flavorDef.id === "crowberry" || flavorDef.id === "bearberry" || flavorDef.id === "labrador_violet" || flavorDef.id === "matcha_salt" || flavorDef.id === "sansho_leaf" || flavorDef.id === "shiso_flower" || flavorDef.id === "sakura_leaf" || flavorDef.id === "lavender_sugar" || flavorDef.id === "rose_water" || flavorDef.id === "orange_flower_water" || flavorDef.id === "almond_blossom" || flavorDef.id === "chestnut_flower" || flavorDef.id === "maesil" || flavorDef.id === "persimmon_leaf" || flavorDef.id === "pine_flower" || flavorDef.id === "tulsi" || flavorDef.id === "neem_flower" || flavorDef.id === "curry_blossom" || flavorDef.id === "ajwain_leaf" || flavorDef.id === "fenugreek_leaf" || flavorDef.id === "moringa" || flavorDef.id === "gotu_kola" || flavorDef.id === "brahmi" || flavorDef.id === "hibiscus_rosa" || flavorDef.id === "allspice_berry" || flavorDef.id === "annatto" || flavorDef.id === "epazote" || flavorDef.id === "papalo" || flavorDef.id === "hoja_santa" || flavorDef.id === "mexican_oregano" || flavorDef.id === "chile_flower" || flavorDef.id === "noni_leaf" || flavorDef.id === "ti_leaf" || flavorDef.id === "frangipani_tea" || flavorDef.id === "soursop_leaf" || flavorDef.id === "guava_leaf" || flavorDef.id === "passion_leaf" || flavorDef.id === "vanilla_orchid" || flavorDef.id === "longjing" || flavorDef.id === "biluochun" || flavorDef.id === "puer_raw" || flavorDef.id === "white_peony_tea" || flavorDef.id === "valerian_flower" || flavorDef.id === "hops_flower" || flavorDef.id === "meadowsweet_flower" || flavorDef.id === "yarrow_flower" || flavorDef.id === "nettle_seed_tea" || flavorDef.id === "silver_birch" || flavorDef.id === "copper_beech" || flavorDef.id === "hornbeam" || flavorDef.id === "field_maple" || flavorDef.id === "wild_service" || flavorDef.id === "guelder_rose" || flavorDef.id === "wayfaring" || flavorDef.id === "dogwood" || flavorDef.id === "spindle" || flavorDef.id === "buckthorn" || flavorDef.id === "privet" || flavorDef.id === "boxwood" || flavorDef.id === "bluebell_fresh" || flavorDef.id === "primula_veris" || flavorDef.id === "oxlip" || flavorDef.id === "cowslip_fresh" || flavorDef.id === "wood_anemone" || flavorDef.id === "wood_sorrel_pink" || flavorDef.id === "greater_stitchwort" || flavorDef.id === "red_campion" || flavorDef.id === "white_campion" || flavorDef.id === "ragged_robin" || flavorDef.id === "cuckooflower" || flavorDef.id === "lady_smock" || flavorDef.id === "garlic_mustard_fl" || flavorDef.id === "hedge_garlic_seed" || flavorDef.id === "jack_hedge_leaf" || flavorDef.id === "wild_mustard" || flavorDef.id === "meadow_buttercup" || flavorDef.id === "creeping_buttercup" || flavorDef.id === "lesser_celandine" || flavorDef.id === "marsh_marigold" || flavorDef.id === "globe_flower" || flavorDef.id === "columbine" || flavorDef.id === "monkshood" || flavorDef.id === "larkspur" || flavorDef.id === "delphinium" || flavorDef.id === "pasque_flower" || flavorDef.id === "anemone_coronaria" || flavorDef.id === "hepatic" || flavorDef.id === "clematis_vitalba" || flavorDef.id === "speedwell_germander" || flavorDef.id === "germander" || flavorDef.id === "betony_fresh" || flavorDef.id === "selfheal_fresh" || flavorDef.id === "woundwort" || flavorDef.id === "hedge_woundwort" || flavorDef.id === "marsh_woundwort" || flavorDef.id === "motherwort_fresh" || flavorDef.id === "scutellaria" || flavorDef.id === "bugle_fresh" || flavorDef.id === "alehoof" || flavorDef.id === "clary_sage" || flavorDef.id === "pineapple_sage" || flavorDef.id === "fruit_sage" || flavorDef.id === "white_sage" || flavorDef.id === "russian_sage" || flavorDef.id === "meadow_clary_fresh" || flavorDef.id === "wood_sage" || flavorDef.id === "jerusalem_sage" || flavorDef.id === "catmint" || flavorDef.id === "catnip_fresh" || flavorDef.id === "hyssop_fresh" || flavorDef.id === "anise_hyssop" || flavorDef.id === "korean_mint" || flavorDef.id === "agastache" || flavorDef.id === "lavender_spike" || flavorDef.id === "lavender_sto" || flavorDef.id === "thyme_lemon" || flavorDef.id === "thyme_orange" || flavorDef.id === "thyme_caraway" || flavorDef.id === "thyme_woolly" || flavorDef.id === "creeping_thyme" || flavorDef.id === "oregano_greek" || flavorDef.id === "oregano_italian" || flavorDef.id === "marjoram_sweet" || flavorDef.id === "savory_summer" || flavorDef.id === "basil_genovese" || flavorDef.id === "basil_cinnamon" || flavorDef.id === "basil_purple" || flavorDef.id === "basil_lettuce" || flavorDef.id === "mint_peppermint" || flavorDef.id === "mint_spearmint" || flavorDef.id === "mint_chocolate" || flavorDef.id === "mint_apple" || flavorDef.id === "mint_ginger" || flavorDef.id === "mint_orange" || flavorDef.id === "mint_lavender" || flavorDef.id === "mint_bergamot" || flavorDef.id === "mint_corsican" || flavorDef.id === "mint_water" || flavorDef.id === "melissa_fresh" || flavorDef.id === "lemon_balm_var" || flavorDef.id === "bee_balm_pink" || flavorDef.id === "bee_balm_purple" || flavorDef.id === "oregano_hop" || flavorDef.id === "dittany" || flavorDef.id === "dictamnus" || flavorDef.id === "burning_bush" || flavorDef.id === "chamomile_roman" || flavorDef.id === "chamomile_german" || flavorDef.id === "feverfew_fresh" || flavorDef.id === "tansy_fresh" || flavorDef.id === "yarrow_pink" || flavorDef.id === "yarrow_gold" || flavorDef.id === "arnica_fresh" || flavorDef.id === "calendula_offic" || flavorDef.id === "pot_marigold_dbl" || flavorDef.id === "tagetes" || flavorDef.id === "marigold_french" || flavorDef.id === "signet_marigold" || flavorDef.id === "costmary_fresh" || flavorDef.id === "elecampane_fresh" || flavorDef.id === "inula" || flavorDef.id === "eupatorium" || flavorDef.id === "echinacea_purp" || flavorDef.id === "echinacea_ang" || flavorDef.id === "echinacea_pall" || flavorDef.id === "rudbeckia" || flavorDef.id === "black_eyed_susan" || flavorDef.id === "coneflower_yellow" || flavorDef.id === "helenium" || flavorDef.id === "helenium_autumn" || flavorDef.id === "coreopsis_lance" || flavorDef.id === "coreopsis_tick" || flavorDef.id === "gaillardia" || flavorDef.id === "gaillardia_fan" || flavorDef.id === "ratibida" || flavorDef.id === "silphium" || flavorDef.id === "cup_plant" || flavorDef.id === "compass_plant" || flavorDef.id === "aster_novae" || flavorDef.id === "aster_novi" || flavorDef.id === "michaelmas" || flavorDef.id === "goldenrod_fresh" || flavorDef.id === "solidago" || flavorDef.id === "boltonia" || flavorDef.id === "erigeron" || flavorDef.id === "fleabane" || flavorDef.id === "daisy_oxeye" || flavorDef.id === "daisy_english" || flavorDef.id === "daisy_shasta" || flavorDef.id === "chrysanthemum_ind_fresh" || flavorDef.id === "chrysanthemum_mor" || flavorDef.id === "chrysanthemum_yej" || flavorDef.id === "tanacetum" || flavorDef.id === "pyrethrum" || flavorDef.id === "sunflower_dwarf" || flavorDef.id === "sunflower_multi" || flavorDef.id === "sunflower_red" || flavorDef.id === "sunchoke_flower" || flavorDef.id === "dahlia_cactus" || flavorDef.id === "dahlia_pompom" || flavorDef.id === "zinnia_dwarf" || flavorDef.id === "zinnia_cactus" || flavorDef.id === "cosmos_sulph" || flavorDef.id === "cosmos_choco" || flavorDef.id === "tithonia" || flavorDef.id === "mexican_sunflower" || flavorDef.id === "heliopsis" || flavorDef.id === "inula_helenium" || flavorDef.id === "verbena_bon" || flavorDef.id === "verbena_rig" || flavorDef.id === "lantana" || flavorDef.id === "lantana_white" || flavorDef.id === "phlox_pan" || flavorDef.id === "phlox_sub" || flavorDef.id === "phlox_drum" || flavorDef.id === "dianthus_chin" || flavorDef.id === "dianthus_barb" || flavorDef.id === "sweet_william" || flavorDef.id === "carnation" || flavorDef.id === "pinks" || flavorDef.id === "gypsophila" || flavorDef.id === "baby_breath" || flavorDef.id === "saponaria" || flavorDef.id === "soapwort_fresh" || flavorDef.id === "campanula" || flavorDef.id === "campanula_med" || flavorDef.id === "lobelia" || flavorDef.id === "lobelia_card" || flavorDef.id === "penstemon" || flavorDef.id === "penstemon_fox" || flavorDef.id === "digitalis" || flavorDef.id === "digitalis_lutea" || flavorDef.id === "snapdragon" || flavorDef.id === "snapdragon_dwarf" || flavorDef.id === "antirrhinum" || flavorDef.id === "linaria" || flavorDef.id === "toadflax" || flavorDef.id === "verbascum_chaix" || flavorDef.id === "mullein_white" || flavorDef.id === "mimulus" || flavorDef.id === "monkeyflower" || flavorDef.id === "collinsia" || flavorDef.id === "castilleja" || flavorDef.id === "paintbrush" || flavorDef.id === "orthocarpus" || flavorDef.id === "pedicularis" || flavorDef.id === "lousewort" || flavorDef.id === "euphrasia" || flavorDef.id === "eyebright" || flavorDef.id === "rhinanthus" || flavorDef.id === "yellow_rattle" || flavorDef.id === "melampyrum" || flavorDef.id === "cow_wheat" || flavorDef.id === "bartisia" || flavorDef.id === "cattleya" || flavorDef.id === "dendrobium" || flavorDef.id === "phalaenopsis" || flavorDef.id === "oncidium" || flavorDef.id === "vanda" || flavorDef.id === "paphiopedilum" || flavorDef.id === "miltonia" || flavorDef.id === "odontoglossum" || flavorDef.id === "brassia" || flavorDef.id === "epidendrum" || flavorDef.id === "ludisia" || flavorDef.id === "anoectochilus" || flavorDef.id === "gastrodia" || flavorDef.id === "bletilla" || flavorDef.id === "calanthe" || flavorDef.id === "boston_fern" || flavorDef.id === "bird_nest_fern" || flavorDef.id === "staghorn" || flavorDef.id === "holly_fern" || flavorDef.id === "autumn_fern" || flavorDef.id === "ostrich_fern" || flavorDef.id === "cinnamon_fern" || flavorDef.id === "bracken_tip" || flavorDef.id === "adder_tongue" || flavorDef.id === "miscanthus" || flavorDef.id === "pampas" || flavorDef.id === "fountain_grass" || flavorDef.id === "japanese_forest" || flavorDef.id === "carex_morrow" || flavorDef.id === "scirpus" || flavorDef.id === "typha_pollen" || flavorDef.id === "phragmites" || flavorDef.id === "bamboo_black" || flavorDef.id === "bamboo_golden" || flavorDef.id === "echeveria" || flavorDef.id === "sedum_morgan" || flavorDef.id === "sedum_spect" || flavorDef.id === "sempervivum" || flavorDef.id === "aeonium" || flavorDef.id === "crassula" || flavorDef.id === "kalanchoe" || flavorDef.id === "haworthia" || flavorDef.id === "agave_flower" || flavorDef.id === "yucca_filament" || flavorDef.id === "sansevieria" || flavorDef.id === "jade_plant" || flavorDef.id === "panda_plant" || flavorDef.id === "boysen_leaf" || flavorDef.id === "logan_leaf" || flavorDef.id === "tay_leaf" || flavorDef.id === "marion_leaf" || flavorDef.id === "wine_leaf" || flavorDef.id === "salmon_leaf" || flavorDef.id === "thimble_leaf" || flavorDef.id === "cloud_flower" || flavorDef.id === "huckleberry" || flavorDef.id === "huckle_leaf" || flavorDef.id === "salal" || flavorDef.id === "salal_leaf" || flavorDef.id === "oregon_grape" || flavorDef.id === "mahonia" || flavorDef.id === "barberry_red" || flavorDef.id === "barberry_leaf" || flavorDef.id === "currant_flower" || flavorDef.id === "goose_flower" || flavorDef.id === "josta" || flavorDef.id === "worcesterberry" || flavorDef.id === "juneberry" || flavorDef.id === "shadbush" || flavorDef.id === "chokecherry" || flavorDef.id === "bird_cherry" || flavorDef.id === "pin_cherry" || flavorDef.id === "sand_cherry" || flavorDef.id === "nanking_cherry" || flavorDef.id === "cornelian" || flavorDef.id === "honeyberry" || flavorDef.id === "hascap" || flavorDef.id === "clematis_arm" || flavorDef.id === "clematis_mon" || flavorDef.id === "clematis_tang" || flavorDef.id === "clematis_ori" || flavorDef.id === "akibia" || flavorDef.id === "akebia_flower" || flavorDef.id === "kiwi_hardy" || flavorDef.id === "kiwi_flower" || flavorDef.id === "actinidia" || flavorDef.id === "silver_vine" || flavorDef.id === "hop_fresh" || flavorDef.id === "hop_leaf" || flavorDef.id === "humulus" || flavorDef.id === "japanese_hop" || flavorDef.id === "grape_leaf_fresh" || flavorDef.id === "vine_tendril" || flavorDef.id === "muscadine" || flavorDef.id === "scuppernong" || flavorDef.id === "passiflora_inc" || flavorDef.id === "passiflora_cae" || flavorDef.id === "passiflora_ed" || flavorDef.id === "maypop" || flavorDef.id === "morning_glory_red" || flavorDef.id === "morning_glory_blue" || flavorDef.id === "ipomoea_bat" || flavorDef.id === "moonvine" || flavorDef.id === "cypress_vine" || flavorDef.id === "cardinal_climber" || flavorDef.id === "black_eyed_susan_vine" || flavorDef.id === "thunbergia" || flavorDef.id === "sweet_potato_leaf" || flavorDef.id === "dioscorea" || flavorDef.id === "luffa_flower" || flavorDef.id === "luffa_leaf" || flavorDef.id === "bitter_melon_fl" || flavorDef.id === "bitter_melon_leaf" || flavorDef.id === "squash_blossom" || flavorDef.id === "zucchini_flower" || flavorDef.id === "cucumber_flower" || flavorDef.id === "melon_flower" || flavorDef.id === "okra_flower" || flavorDef.id === "okra_leaf" || flavorDef.id === "hibiscus_escul" || flavorDef.id === "roselle_fresh" || flavorDef.id === "cotton_flower" || flavorDef.id === "cotton_leaf" || flavorDef.id === "kenaf" || flavorDef.id === "jute_leaf" || flavorDef.id === "flax_blue" || flavorDef.id === "flax_red" || flavorDef.id === "hemp_flower" || flavorDef.id === "nettle_fresh" || flavorDef.id === "dead_nettle" || flavorDef.id === "purple_dead_nettle" || flavorDef.id === "henbit" || flavorDef.id === "lamium" || flavorDef.id === "galeopsis" || flavorDef.id === "stachys_byz" || flavorDef.id === "alpine_rosemary" || flavorDef.id === "alpine_marjoram" || flavorDef.id === "alpine_chive" || flavorDef.id === "alpine_cilantro" || flavorDef.id === "alpine_dill" || flavorDef.id === "alpine_lovage" || flavorDef.id === "alpine_sorrel" || flavorDef.id === "coastal_thyme" || flavorDef.id === "coastal_sage" || flavorDef.id === "coastal_oregano" || flavorDef.id === "coastal_basil" || flavorDef.id === "coastal_mint" || flavorDef.id === "coastal_lavender" || flavorDef.id === "coastal_marjoram" || flavorDef.id === "coastal_tarragon" || flavorDef.id === "coastal_chive" || flavorDef.id === "coastal_parsley" || flavorDef.id === "coastal_cilantro" || flavorDef.id === "coastal_dill" || flavorDef.id === "coastal_sorrel" || flavorDef.id === "meadow_thyme" || flavorDef.id === "meadow_sage" || flavorDef.id === "meadow_oregano" || flavorDef.id === "meadow_basil" || flavorDef.id === "meadow_mint" || flavorDef.id === "meadow_lavender" || flavorDef.id === "meadow_marjoram" || flavorDef.id === "meadow_tarragon" || flavorDef.id === "meadow_chive" || flavorDef.id === "meadow_parsley" || flavorDef.id === "meadow_cilantro" || flavorDef.id === "meadow_dill" || flavorDef.id === "meadow_sorrel" || flavorDef.id === "woodland_thyme" || flavorDef.id === "woodland_sage" || flavorDef.id === "woodland_oregano" || flavorDef.id === "woodland_basil" || flavorDef.id === "woodland_mint" || flavorDef.id === "woodland_lavender" || flavorDef.id === "woodland_marjoram" || flavorDef.id === "woodland_tarragon" || flavorDef.id === "woodland_chive" || flavorDef.id === "woodland_parsley" || flavorDef.id === "woodland_cilantro" || flavorDef.id === "woodland_dill" || flavorDef.id === "woodland_fennel" || flavorDef.id === "woodland_lovage" || flavorDef.id === "woodland_sorrel" || flavorDef.id === "garden_thyme" || flavorDef.id === "garden_sage" || flavorDef.id === "garden_oregano" || flavorDef.id === "garden_basil" || flavorDef.id === "garden_mint" || flavorDef.id === "garden_lavender" || flavorDef.id === "garden_marjoram" || flavorDef.id === "garden_tarragon" || flavorDef.id === "garden_chive" || flavorDef.id === "garden_parsley" || flavorDef.id === "garden_cilantro" || flavorDef.id === "garden_dill" || flavorDef.id === "garden_fennel" || flavorDef.id === "garden_lovage" || flavorDef.id === "garden_sorrel" || flavorDef.id === "wild_thyme" || flavorDef.id === "wild_sage" || flavorDef.id === "wild_oregano" || flavorDef.id === "wild_basil" || flavorDef.id === "wild_mint" || flavorDef.id === "wild_lavender" || flavorDef.id === "wild_rosemary" || flavorDef.id === "wild_marjoram" || flavorDef.id === "wild_tarragon" || flavorDef.id === "wild_chive" || flavorDef.id === "wild_parsley" || flavorDef.id === "wild_cilantro" || flavorDef.id === "wild_dill" || flavorDef.id === "wild_fennel" || flavorDef.id === "wild_lovage" || flavorDef.id === "wild_sorrel" || flavorDef.id === "dwarf_thyme" || flavorDef.id === "dwarf_sage" || flavorDef.id === "dwarf_oregano" || flavorDef.id === "dwarf_basil" || flavorDef.id === "dwarf_mint" || flavorDef.id === "dwarf_lavender" || flavorDef.id === "dwarf_marjoram" || flavorDef.id === "dwarf_chive" || flavorDef.id === "dwarf_parsley" || flavorDef.id === "dwarf_cilantro" || flavorDef.id === "dwarf_dill" || flavorDef.id === "dwarf_fennel" || flavorDef.id === "dwarf_lovage" || flavorDef.id === "dwarf_sorrel" || flavorDef.id === "giant_oregano" || flavorDef.id === "giant_basil" || flavorDef.id === "giant_marjoram" || flavorDef.id === "giant_tarragon" || flavorDef.id === "giant_chive" || flavorDef.id === "giant_parsley" || flavorDef.id === "giant_cilantro" || flavorDef.id === "giant_dill" || flavorDef.id === "giant_lovage" || flavorDef.id === "giant_sorrel" || flavorDef.id === "variegated_thyme" || flavorDef.id === "variegated_oregano" || flavorDef.id === "variegated_basil" || flavorDef.id === "variegated_mint" || flavorDef.id === "variegated_lavender" || flavorDef.id === "variegated_marjoram" || flavorDef.id === "variegated_chive" || flavorDef.id === "variegated_parsley" || flavorDef.id === "variegated_cilantro" || flavorDef.id === "variegated_dill" || flavorDef.id === "variegated_sorrel" || flavorDef.id === "golden_thyme" || flavorDef.id === "golden_oregano" || flavorDef.id === "golden_basil" || flavorDef.id === "golden_mint" || flavorDef.id === "golden_lavender" || flavorDef.id === "golden_marjoram" || flavorDef.id === "golden_chive" || flavorDef.id === "golden_parsley" || flavorDef.id === "golden_cilantro" || flavorDef.id === "golden_dill" || flavorDef.id === "golden_sorrel" || flavorDef.id === "silver_thyme" || flavorDef.id === "silver_oregano" || flavorDef.id === "silver_basil" || flavorDef.id === "silver_mint" || flavorDef.id === "silver_lavender" || flavorDef.id === "silver_marjoram" || flavorDef.id === "silver_chive" || flavorDef.id === "silver_parsley" || flavorDef.id === "silver_cilantro" || flavorDef.id === "silver_dill" || flavorDef.id === "silver_sorrel" || flavorDef.id === "purple_thyme" || flavorDef.id === "purple_oregano" || flavorDef.id === "purple_basil" || flavorDef.id === "purple_mint" || flavorDef.id === "purple_lavender" || flavorDef.id === "purple_marjoram" || flavorDef.id === "purple_chive" || flavorDef.id === "purple_parsley" || flavorDef.id === "purple_cilantro" || flavorDef.id === "purple_dill" || flavorDef.id === "purple_sorrel" || flavorDef.id === "red_thyme" || flavorDef.id === "red_oregano" || flavorDef.id === "red_basil" || flavorDef.id === "red_mint" || flavorDef.id === "red_lavender" || flavorDef.id === "red_marjoram" || flavorDef.id === "red_chive" || flavorDef.id === "red_parsley" || flavorDef.id === "red_cilantro" || flavorDef.id === "red_dill" || flavorDef.id === "red_sorrel" || flavorDef.id === "white_thyme" || flavorDef.id === "white_oregano" || flavorDef.id === "white_basil" || flavorDef.id === "white_mint" || flavorDef.id === "white_lavender" || flavorDef.id === "white_marjoram" || flavorDef.id === "white_chive" || flavorDef.id === "white_parsley" || flavorDef.id === "white_cilantro" || flavorDef.id === "white_dill" || flavorDef.id === "white_sorrel" || flavorDef.id === "pink_thyme" || flavorDef.id === "pink_oregano" || flavorDef.id === "pink_basil" || flavorDef.id === "pink_mint" || flavorDef.id === "pink_lavender" || flavorDef.id === "pink_marjoram" || flavorDef.id === "pink_chive" || flavorDef.id === "pink_parsley" || flavorDef.id === "pink_cilantro" || flavorDef.id === "pink_dill" || flavorDef.id === "pink_sorrel" || flavorDef.id === "blue_thyme" || flavorDef.id === "blue_oregano" || flavorDef.id === "blue_basil" || flavorDef.id === "blue_mint" || flavorDef.id === "blue_lavender" || flavorDef.id === "blue_marjoram" || flavorDef.id === "blue_chive" || flavorDef.id === "blue_parsley" || flavorDef.id === "blue_cilantro" || flavorDef.id === "blue_dill" || flavorDef.id === "blue_sorrel" || flavorDef.id === "yellow_thyme" || flavorDef.id === "yellow_oregano" || flavorDef.id === "yellow_basil" || flavorDef.id === "yellow_mint" || flavorDef.id === "yellow_lavender" || flavorDef.id === "yellow_marjoram" || flavorDef.id === "yellow_chive" || flavorDef.id === "yellow_parsley" || flavorDef.id === "yellow_cilantro" || flavorDef.id === "yellow_dill" || flavorDef.id === "yellow_sorrel" || flavorDef.id === "orange_thyme" || flavorDef.id === "orange_oregano" || flavorDef.id === "orange_basil" || flavorDef.id === "orange_mint" || flavorDef.id === "orange_lavender" || flavorDef.id === "orange_marjoram" || flavorDef.id === "orange_chive" || flavorDef.id === "orange_parsley" || flavorDef.id === "orange_cilantro" || flavorDef.id === "orange_dill" || flavorDef.id === "orange_sorrel" || flavorDef.id === "fragrant_thyme" || flavorDef.id === "fragrant_sage" || flavorDef.id === "fragrant_oregano" || flavorDef.id === "fragrant_basil" || flavorDef.id === "fragrant_mint" || flavorDef.id === "fragrant_lavender" || flavorDef.id === "fragrant_rosemary" || flavorDef.id === "fragrant_marjoram" || flavorDef.id === "fragrant_tarragon" || flavorDef.id === "fragrant_chive" || flavorDef.id === "fragrant_parsley" || flavorDef.id === "fragrant_cilantro" || flavorDef.id === "fragrant_dill" || flavorDef.id === "fragrant_fennel" || flavorDef.id === "fragrant_lovage" || flavorDef.id === "fragrant_sorrel" || flavorDef.id === "edible_thyme" || flavorDef.id === "edible_sage" || flavorDef.id === "edible_oregano" || flavorDef.id === "edible_basil" || flavorDef.id === "edible_mint" || flavorDef.id === "edible_lavender" || flavorDef.id === "edible_rosemary" || flavorDef.id === "edible_marjoram" || flavorDef.id === "edible_tarragon" || flavorDef.id === "edible_chive" || flavorDef.id === "edible_parsley" || flavorDef.id === "edible_cilantro" || flavorDef.id === "edible_dill" || flavorDef.id === "edible_fennel" || flavorDef.id === "edible_lovage" || flavorDef.id === "edible_sorrel" || flavorDef.id === "apple_blossom" || flavorDef.id === "pear_blossom" || flavorDef.id === "peach_blossom" || flavorDef.id === "plum_blossom_fresh" || flavorDef.id === "cherry_blossom" || flavorDef.id === "apricot_blossom" || flavorDef.id === "quince_blossom" || flavorDef.id === "medlar_blossom" || flavorDef.id === "mulberry_flower" || flavorDef.id === "fig_leaf" || flavorDef.id === "pomegranate_flower" || flavorDef.id === "persimmon_flower" || flavorDef.id === "walnut_flower" || flavorDef.id === "hazel_catkin" || flavorDef.id === "chestnut_catkin" || flavorDef.id === "almond_fresh_bl" || flavorDef.id === "pistachio_flower" || flavorDef.id === "pecan_flower" || flavorDef.id === "macadamia_flower" || flavorDef.id === "cashew_flower" || flavorDef.id === "brazil_nut_fl" || flavorDef.id === "coconut_inflo" || flavorDef.id === "date_flower" || flavorDef.id === "olive_flower" || flavorDef.id === "avocado_flower" || flavorDef.id === "mango_flower" || flavorDef.id === "lychee_flower" || flavorDef.id === "longan_flower" || flavorDef.id === "rambutan_flower" || flavorDef.id === "mangosteen_flower" || flavorDef.id === "guava_flower" || flavorDef.id === "papaya_flower" || flavorDef.id === "pineapple_flower" || flavorDef.id === "banana_flower" || flavorDef.id === "plantain_flower" || flavorDef.id === "breadfruit_fl" || flavorDef.id === "jackfruit_fl" || flavorDef.id === "durian_fresh_fl" || flavorDef.id === "soursop_fl" || flavorDef.id === "cherimoya_fl" || flavorDef.id === "custard_apple_fl" || flavorDef.id === "r1_e58c97e5a283" || flavorDef.id === "r2_e58c97e5a283" || flavorDef.id === "r3_e58c97e5a283" || flavorDef.id === "r4_e58c97e5a283" || flavorDef.id === "r6_e58c97e5a283" || flavorDef.id === "r7_e58c97e5a283" || flavorDef.id === "r8_e58c97e5a283" || flavorDef.id === "r9_e58c97e5a283" || flavorDef.id === "r11_e58c97e5a283" || flavorDef.id === "r12_e58c97e5a283" || flavorDef.id === "r13_e58c97e5a283" || flavorDef.id === "r14_e58c97e5a283" || flavorDef.id === "r16_e58c97e5a283" || flavorDef.id === "r17_e58c97e5a283" || flavorDef.id === "r18_e58c97e5a283" || flavorDef.id === "r19_e58c97e5a283" || flavorDef.id === "r21_e58c97e5a283" || flavorDef.id === "r22_e58c97e5a283" || flavorDef.id === "r23_e58c97e5a283" || flavorDef.id === "r24_e58c97e5a283" || flavorDef.id === "r26_e58c97e5a283" || flavorDef.id === "r27_e58c97e5a283" || flavorDef.id === "r28_e58c97e5a283" || flavorDef.id === "r29_e58c97e5a283" || flavorDef.id === "r31_e58c97e5a283" || flavorDef.id === "r32_e58c97e5a283" || flavorDef.id === "r33_e58c97e5a283" || flavorDef.id === "r34_e58c97e5a283" || flavorDef.id === "r36_e58c97e5a283" || flavorDef.id === "r37_e58c97e5a283" || flavorDef.id === "r38_e58c97e5a283" || flavorDef.id === "r39_e58c97e5a283" || flavorDef.id === "r41_e58c97e5a283" || flavorDef.id === "r42_e58c97e5a283" || flavorDef.id === "r43_e58c97e5a283" || flavorDef.id === "r44_e58c97e5a283" || flavorDef.id === "r46_e58c97e5a283" || flavorDef.id === "r47_e58c97e5a283" || flavorDef.id === "r48_e58c97e5a283" || flavorDef.id === "r49_e58c97e5a283" || flavorDef.id === "r51_e58c97e5a283" || flavorDef.id === "r52_e58c97e5a283" || flavorDef.id === "r53_e58c97e5a283" || flavorDef.id === "r54_e58c97e5a283" || flavorDef.id === "r56_e58c97e5a283" || flavorDef.id === "r57_e58c97e5a283" || flavorDef.id === "r58_e58c97e5a283" || flavorDef.id === "r59_e58c97e5a283" || flavorDef.id === "r61_e58c97e5a283" || flavorDef.id === "r62_e58c97e5a283" || flavorDef.id === "r63_e58c97e5a283" || flavorDef.id === "r64_e58c97e5a283" || flavorDef.id === "r66_e58c97e5a283" || flavorDef.id === "r67_e58c97e5a283" || flavorDef.id === "r68_e58c97e5a283" || flavorDef.id === "r69_e58c97e5a283" || flavorDef.id === "r71_e58c97e5a283" || flavorDef.id === "r72_e58c97e5a283" || flavorDef.id === "r73_e58c97e5a283" || flavorDef.id === "r74_e58c97e5a283" || flavorDef.id === "r76_e58c97e5a283" || flavorDef.id === "r77_e58c97e5a283" || flavorDef.id === "r78_e58c97e5a283" || flavorDef.id === "r79_e58c97e5a283" || flavorDef.id === "r81_e58c97e5a283" || flavorDef.id === "r82_e58c97e5a283" || flavorDef.id === "r83_e58c97e5a283" || flavorDef.id === "r84_e58c97e5a283" || flavorDef.id === "r86_e58c97e5a283" || flavorDef.id === "r87_e58c97e5a283" || flavorDef.id === "r88_e58c97e5a283" || flavorDef.id === "r89_e58c97e5a283" || flavorDef.id === "r91_e58c97e5a283" || flavorDef.id === "r92_e58c97e5a283" || flavorDef.id === "r93_e58c97e5a283" || flavorDef.id === "r94_e58c97e5a283" || flavorDef.id === "r96_e58c97e5a283" || flavorDef.id === "r97_e58c97e5a283" || flavorDef.id === "r98_e58c97e5a283" || flavorDef.id === "r99_e58c97e5a283" || flavorDef.id === "r101_e58c97e5a283" || flavorDef.id === "r102_e58c97e5a283" || flavorDef.id === "r103_e58c97e5a283" || flavorDef.id === "r104_e58d97e5a283" || flavorDef.id === "r106_e58d97e5a283" || flavorDef.id === "r107_e58d97e5a283" || flavorDef.id === "r108_e58d97e5a283" || flavorDef.id === "r109_e58d97e5a283" || flavorDef.id === "r111_e58d97e5a283" || flavorDef.id === "r112_e58d97e5a283" || flavorDef.id === "r113_e58d97e5a283" || flavorDef.id === "r114_e58d97e5a283" || flavorDef.id === "r116_e58d97e5a283" || flavorDef.id === "r117_e58d97e5a283" || flavorDef.id === "r118_e58d97e5a283" || flavorDef.id === "r119_e58d97e5a283" || flavorDef.id === "r121_e58d97e5a283" || flavorDef.id === "r122_e58d97e5a283" || flavorDef.id === "r123_e58d97e5a283" || flavorDef.id === "r124_e58d97e5a283" || flavorDef.id === "r126_e58d97e5a283" || flavorDef.id === "r127_e58d97e5a283" || flavorDef.id === "r128_e58d97e5a283" || flavorDef.id === "r129_e58d97e5a283" || flavorDef.id === "r131_e58d97e5a283" || flavorDef.id === "r132_e58d97e5a283" || flavorDef.id === "r133_e58d97e5a283" || flavorDef.id === "r134_e58d97e5a283" || flavorDef.id === "r136_e58d97e5a283" || flavorDef.id === "r137_e58d97e5a283" || flavorDef.id === "r138_e58d97e5a283" || flavorDef.id === "r139_e58d97e5a283" || flavorDef.id === "r141_e58d97e5a283" || flavorDef.id === "r142_e58d97e5a283" || flavorDef.id === "r143_e58d97e5a283" || flavorDef.id === "r144_e58d97e5a283" || flavorDef.id === "r146_e58d97e5a283" || flavorDef.id === "r147_e58d97e5a283" || flavorDef.id === "r148_e58d97e5a283" || flavorDef.id === "r149_e58d97e5a283" || flavorDef.id === "r151_e58d97e5a283" || flavorDef.id === "r152_e58d97e5a283" || flavorDef.id === "r153_e58d97e5a283" || flavorDef.id === "r154_e58d97e5a283" || flavorDef.id === "r156_e58d97e5a283" || flavorDef.id === "r157_e58d97e5a283" || flavorDef.id === "r158_e58d97e5a283" || flavorDef.id === "r159_e58d97e5a283" || flavorDef.id === "r161_e58d97e5a283" || flavorDef.id === "r162_e58d97e5a283" || flavorDef.id === "r163_e58d97e5a283" || flavorDef.id === "r164_e58d97e5a283" || flavorDef.id === "r166_e58d97e5a283" || flavorDef.id === "r167_e58d97e5a283" || flavorDef.id === "r168_e58d97e5a283" || flavorDef.id === "r169_e58d97e5a283" || flavorDef.id === "r171_e58d97e5a283" || flavorDef.id === "r172_e58d97e5a283" || flavorDef.id === "r173_e58d97e5a283" || flavorDef.id === "r174_e58d97e5a283" || flavorDef.id === "r176_e58d97e5a283" || flavorDef.id === "r177_e58d97e5a283" || flavorDef.id === "r178_e58d97e5a283" || flavorDef.id === "r179_e58d97e5a283" || flavorDef.id === "r181_e58d97e5a283" || flavorDef.id === "r182_e58d97e5a283" || flavorDef.id === "r183_e58d97e5a283" || flavorDef.id === "r184_e58d97e5a283" || flavorDef.id === "r186_e58d97e5a283" || flavorDef.id === "r187_e58d97e5a283" || flavorDef.id === "r188_e58d97e5a283" || flavorDef.id === "r189_e58d97e5a283" || flavorDef.id === "r191_e58d97e5a283" || flavorDef.id === "r192_e58d97e5a283" || flavorDef.id === "r193_e58d97e5a283" || flavorDef.id === "r194_e58d97e5a283" || flavorDef.id === "r196_e58d97e5a283" || flavorDef.id === "r197_e58d97e5a283" || flavorDef.id === "r198_e58d97e5a283" || flavorDef.id === "r199_e58d97e5a283" || flavorDef.id === "loc1" || flavorDef.id === "loc2" || flavorDef.id === "loc3" || flavorDef.id === "loc5" || flavorDef.id === "loc6" || flavorDef.id === "loc7" || flavorDef.id === "loc9" || flavorDef.id === "loc10" || flavorDef.id === "loc11" || flavorDef.id === "loc13" || flavorDef.id === "loc14" || flavorDef.id === "loc15" || flavorDef.id === "loc17" || flavorDef.id === "loc18" || flavorDef.id === "loc19" || flavorDef.id === "loc21" || flavorDef.id === "loc22" || flavorDef.id === "loc23" || flavorDef.id === "loc25" || flavorDef.id === "loc26" || flavorDef.id === "loc27" || flavorDef.id === "loc29" || flavorDef.id === "loc30" || flavorDef.id === "loc31" || flavorDef.id === "loc33" || flavorDef.id === "loc34" || flavorDef.id === "loc35" || flavorDef.id === "loc37" || flavorDef.id === "loc38" || flavorDef.id === "loc39" || flavorDef.id === "loc41" || flavorDef.id === "loc42" || flavorDef.id === "loc43" || flavorDef.id === "loc45" || flavorDef.id === "loc46" || flavorDef.id === "loc47" || flavorDef.id === "loc49" || flavorDef.id === "loc50" || flavorDef.id === "loc51" || flavorDef.id === "loc53" || flavorDef.id === "loc54" || flavorDef.id === "loc55" || flavorDef.id === "loc57" || flavorDef.id === "loc58" || flavorDef.id === "loc59" || flavorDef.id === "loc61" || flavorDef.id === "loc62" || flavorDef.id === "loc63" || flavorDef.id === "loc65" || flavorDef.id === "loc66" || flavorDef.id === "loc67" || flavorDef.id === "loc69" || flavorDef.id === "loc70" || flavorDef.id === "loc71" || flavorDef.id === "loc73" || flavorDef.id === "loc74" || flavorDef.id === "loc75" || flavorDef.id === "loc77" || flavorDef.id === "loc78" || flavorDef.id === "loc79" || flavorDef.id === "loc81" || flavorDef.id === "loc82" || flavorDef.id === "loc83" || flavorDef.id === "loc85" || flavorDef.id === "loc86" || flavorDef.id === "loc87" || flavorDef.id === "loc89" || flavorDef.id === "loc90" || flavorDef.id === "loc91" || flavorDef.id === "loc93" || flavorDef.id === "loc94" || flavorDef.id === "loc95" || flavorDef.id === "loc97" || flavorDef.id === "loc98" || flavorDef.id === "loc99" || flavorDef.id === "loc101" || flavorDef.id === "loc102" || flavorDef.id === "loc103" || flavorDef.id === "loc105" || flavorDef.id === "loc106" || flavorDef.id === "loc107" || flavorDef.id === "loc109" || flavorDef.id === "loc110" || flavorDef.id === "loc111" || flavorDef.id === "loc113" || flavorDef.id === "loc114" || flavorDef.id === "loc115" || flavorDef.id === "loc117" || flavorDef.id === "loc118" || flavorDef.id === "loc119" || flavorDef.id === "loc121" || flavorDef.id === "loc122" || flavorDef.id === "loc123" || flavorDef.id === "loc125" || flavorDef.id === "loc126" || flavorDef.id === "loc127" || flavorDef.id === "loc129" || flavorDef.id === "loc130" || flavorDef.id === "loc131" || flavorDef.id === "loc133" || flavorDef.id === "loc134" || flavorDef.id === "loc135" || flavorDef.id === "loc137" || flavorDef.id === "loc138" || flavorDef.id === "loc139" || flavorDef.id === "loc141" || flavorDef.id === "loc142" || flavorDef.id === "loc143" || flavorDef.id === "loc145" || flavorDef.id === "loc146" || flavorDef.id === "loc147" || flavorDef.id === "loc149" || flavorDef.id === "loc150" || flavorDef.id === "loc151" || flavorDef.id === "loc153" || flavorDef.id === "loc154" || flavorDef.id === "loc155" || flavorDef.id === "loc157" || flavorDef.id === "loc158" || flavorDef.id === "loc159" || flavorDef.id === "loc161" || flavorDef.id === "loc162" || flavorDef.id === "loc163" || flavorDef.id === "loc165" || flavorDef.id === "loc166" || flavorDef.id === "loc167" || flavorDef.id === "loc169" || flavorDef.id === "loc170" || flavorDef.id === "loc171" || flavorDef.id === "loc173" || flavorDef.id === "loc174" || flavorDef.id === "loc175" || flavorDef.id === "loc177" || flavorDef.id === "loc178" || flavorDef.id === "loc179" || flavorDef.id === "loc181" || flavorDef.id === "loc182" || flavorDef.id === "loc183" || flavorDef.id === "loc185" || flavorDef.id === "loc186" || flavorDef.id === "loc187" || flavorDef.id === "loc189" || flavorDef.id === "loc190" || flavorDef.id === "loc191" || flavorDef.id === "loc193" || flavorDef.id === "loc194" || flavorDef.id === "loc195" || flavorDef.id === "loc197" || flavorDef.id === "loc198" || flavorDef.id === "loc199" || flavorDef.id === "loc201" || flavorDef.id === "loc202" || flavorDef.id === "loc203" || flavorDef.id === "loc205" || flavorDef.id === "loc206" || flavorDef.id === "loc207" || flavorDef.id === "loc209" || flavorDef.id === "loc210" || flavorDef.id === "loc211" || flavorDef.id === "loc213" || flavorDef.id === "loc214" || flavorDef.id === "loc215" || flavorDef.id === "loc217" || flavorDef.id === "loc218" || flavorDef.id === "loc219" || flavorDef.id === "loc221" || flavorDef.id === "loc222" || flavorDef.id === "loc223" || flavorDef.id === "loc225" || flavorDef.id === "loc226" || flavorDef.id === "loc227" || flavorDef.id === "loc229" || flavorDef.id === "loc230" || flavorDef.id === "loc231" || flavorDef.id === "loc233" || flavorDef.id === "loc234" || flavorDef.id === "loc235" || flavorDef.id === "loc237" || flavorDef.id === "loc238" || flavorDef.id === "loc239" || flavorDef.id === "loc241" || flavorDef.id === "loc242" || flavorDef.id === "loc243" || flavorDef.id === "loc245" || flavorDef.id === "loc246" || flavorDef.id === "loc247" || flavorDef.id === "loc249" || flavorDef.id === "loc250" || flavorDef.id === "loc251" || flavorDef.id === "loc253" || flavorDef.id === "loc254" || flavorDef.id === "loc255" || flavorDef.id === "loc257" || flavorDef.id === "loc258" || flavorDef.id === "loc259" || flavorDef.id === "loc261" || flavorDef.id === "loc262" || flavorDef.id === "loc263" || flavorDef.id === "loc265" || flavorDef.id === "loc266" || flavorDef.id === "loc267" || flavorDef.id === "loc269" || flavorDef.id === "loc270" || flavorDef.id === "loc271" || flavorDef.id === "loc273" || flavorDef.id === "loc274" || flavorDef.id === "loc275" || flavorDef.id === "loc277" || flavorDef.id === "loc278" || flavorDef.id === "loc279" || flavorDef.id === "loc281" || flavorDef.id === "loc282" || flavorDef.id === "loc283" || flavorDef.id === "loc285" || flavorDef.id === "loc286" || flavorDef.id === "loc287" || flavorDef.id === "loc289" || flavorDef.id === "loc290" || flavorDef.id === "loc291" || flavorDef.id === "loc293" || flavorDef.id === "loc294" || flavorDef.id === "loc295" || flavorDef.id === "loc297" || flavorDef.id === "loc298" || flavorDef.id === "loc299" || flavorDef.id === "loc301" || flavorDef.id === "loc302" || flavorDef.id === "loc303" || flavorDef.id === "loc305" || flavorDef.id === "loc306" || flavorDef.id === "loc307" || flavorDef.id === "loc309" || flavorDef.id === "loc310" || flavorDef.id === "loc311" || flavorDef.id === "loc313" || flavorDef.id === "loc314" || flavorDef.id === "loc315" || flavorDef.id === "loc317" || flavorDef.id === "loc318" || flavorDef.id === "loc319" || flavorDef.id === "loc321" || flavorDef.id === "loc322" || flavorDef.id === "loc323" || flavorDef.id === "loc325" || flavorDef.id === "loc326" || flavorDef.id === "loc327" || flavorDef.id === "loc329" || flavorDef.id === "loc330" || flavorDef.id === "loc331" || flavorDef.id === "loc333" || flavorDef.id === "loc334" || flavorDef.id === "loc335" || flavorDef.id === "loc337" || flavorDef.id === "loc338" || flavorDef.id === "loc339" || flavorDef.id === "loc341" || flavorDef.id === "loc342" || flavorDef.id === "loc343" || flavorDef.id === "loc345" || flavorDef.id === "loc346" || flavorDef.id === "loc347" || flavorDef.id === "loc349" || flavorDef.id === "loc350" || flavorDef.id === "loc351" || flavorDef.id === "loc353" || flavorDef.id === "loc354" || flavorDef.id === "loc355" || flavorDef.id === "loc357" || flavorDef.id === "loc358" || flavorDef.id === "loc359" || flavorDef.id === "loc361" || flavorDef.id === "loc362" || flavorDef.id === "loc363" || flavorDef.id === "loc365" || flavorDef.id === "loc366" || flavorDef.id === "loc367" || flavorDef.id === "loc369" || flavorDef.id === "loc370" || flavorDef.id === "loc371" || flavorDef.id === "loc373" || flavorDef.id === "loc374" || flavorDef.id === "loc375" || flavorDef.id === "loc377" || flavorDef.id === "loc378" || flavorDef.id === "loc379" || flavorDef.id === "loc381" || flavorDef.id === "loc382" || flavorDef.id === "loc383" || flavorDef.id === "loc385" || flavorDef.id === "loc386" || flavorDef.id === "loc387" || flavorDef.id === "loc389" || flavorDef.id === "loc390" || flavorDef.id === "loc391" || flavorDef.id === "loc393" || flavorDef.id === "loc394" || flavorDef.id === "loc395" || flavorDef.id === "loc397" || flavorDef.id === "loc398" || flavorDef.id === "loc399" || flavorDef.id === "loc401" || flavorDef.id === "loc402" || flavorDef.id === "loc403" || flavorDef.id === "loc405" || flavorDef.id === "loc406" || flavorDef.id === "loc407" || flavorDef.id === "loc409" || flavorDef.id === "loc410" || flavorDef.id === "loc411" || flavorDef.id === "loc413" || flavorDef.id === "loc414" || flavorDef.id === "loc415" || flavorDef.id === "loc417" || flavorDef.id === "loc418" || flavorDef.id === "loc419" || flavorDef.id === "loc421" || flavorDef.id === "loc422" || flavorDef.id === "loc423" || flavorDef.id === "loc425" || flavorDef.id === "loc426" || flavorDef.id === "loc427" || flavorDef.id === "loc429" || flavorDef.id === "loc430" || flavorDef.id === "loc431" || flavorDef.id === "loc433" || flavorDef.id === "loc434" || flavorDef.id === "loc435" || flavorDef.id === "loc437" || flavorDef.id === "loc438" || flavorDef.id === "loc439" || flavorDef.id === "loc441" || flavorDef.id === "loc442" || flavorDef.id === "loc443" || flavorDef.id === "loc445" || flavorDef.id === "loc446" || flavorDef.id === "loc447" || flavorDef.id === "loc449" || flavorDef.id === "loc450" || flavorDef.id === "loc451" || flavorDef.id === "loc453" || flavorDef.id === "loc454" || flavorDef.id === "loc455" || flavorDef.id === "loc457" || flavorDef.id === "loc458" || flavorDef.id === "loc459" || flavorDef.id === "loc461" || flavorDef.id === "loc462" || flavorDef.id === "loc463" || flavorDef.id === "loc465" || flavorDef.id === "loc466" || flavorDef.id === "loc467" || flavorDef.id === "loc469" || flavorDef.id === "loc470" || flavorDef.id === "loc471" || flavorDef.id === "loc473" || flavorDef.id === "loc474" || flavorDef.id === "loc475" || flavorDef.id === "loc477" || flavorDef.id === "loc478" || flavorDef.id === "loc479" || flavorDef.id === "atm1" || flavorDef.id === "atm2" || flavorDef.id === "atm3" || flavorDef.id === "atm4" || flavorDef.id === "atm6" || flavorDef.id === "atm7" || flavorDef.id === "atm8" || flavorDef.id === "atm9" || flavorDef.id === "atm11" || flavorDef.id === "atm12" || flavorDef.id === "atm13" || flavorDef.id === "atm14" || flavorDef.id === "atm16" || flavorDef.id === "atm17" || flavorDef.id === "atm18" || flavorDef.id === "atm19" || flavorDef.id === "atm21" || flavorDef.id === "atm22" || flavorDef.id === "atm23" || flavorDef.id === "atm24" || flavorDef.id === "atm26" || flavorDef.id === "atm27" || flavorDef.id === "atm28" || flavorDef.id === "atm29" || flavorDef.id === "atm31" || flavorDef.id === "atm32" || flavorDef.id === "atm33" || flavorDef.id === "atm34" || flavorDef.id === "atm36" || flavorDef.id === "atm37" || flavorDef.id === "atm38" || flavorDef.id === "atm39" || flavorDef.id === "atm41" || flavorDef.id === "atm42" || flavorDef.id === "atm43" || flavorDef.id === "atm44" || flavorDef.id === "atm46" || flavorDef.id === "atm47" || flavorDef.id === "atm48" || flavorDef.id === "atm49" || flavorDef.id === "atm51" || flavorDef.id === "atm52" || flavorDef.id === "atm53" || flavorDef.id === "atm54" || flavorDef.id === "atm56" || flavorDef.id === "atm57" || flavorDef.id === "atm58" || flavorDef.id === "atm59" || flavorDef.id === "atm61" || flavorDef.id === "atm62" || flavorDef.id === "atm63" || flavorDef.id === "atm64" || flavorDef.id === "atm66" || flavorDef.id === "atm67" || flavorDef.id === "atm68" || flavorDef.id === "atm69" || flavorDef.id === "atm71" || flavorDef.id === "atm72" || flavorDef.id === "atm73" || flavorDef.id === "atm74" || flavorDef.id === "atm76" || flavorDef.id === "atm77" || flavorDef.id === "atm78" || flavorDef.id === "atm79" || flavorDef.id === "atm81" || flavorDef.id === "atm82" || flavorDef.id === "atm83" || flavorDef.id === "atm84" || flavorDef.id === "atm86" || flavorDef.id === "atm87" || flavorDef.id === "atm88" || flavorDef.id === "atm89" || flavorDef.id === "atm91" || flavorDef.id === "atm92" || flavorDef.id === "atm93" || flavorDef.id === "atm94" || flavorDef.id === "atm96" || flavorDef.id === "atm97" || flavorDef.id === "atm98" || flavorDef.id === "atm99" || flavorDef.id === "atm101" || flavorDef.id === "atm102" || flavorDef.id === "atm103" || flavorDef.id === "atm104" || flavorDef.id === "atm106" || flavorDef.id === "atm107" || flavorDef.id === "atm108" || flavorDef.id === "atm109" || flavorDef.id === "atm111" || flavorDef.id === "atm112" || flavorDef.id === "atm113" || flavorDef.id === "atm114" || flavorDef.id === "atm116" || flavorDef.id === "atm117" || flavorDef.id === "atm118" || flavorDef.id === "atm119" || flavorDef.id === "atm121" || flavorDef.id === "atm122" || flavorDef.id === "atm123" || flavorDef.id === "atm124" || flavorDef.id === "atm126" || flavorDef.id === "atm127" || flavorDef.id === "atm128" || flavorDef.id === "atm129" || flavorDef.id === "atm131" || flavorDef.id === "atm132" || flavorDef.id === "atm133" || flavorDef.id === "atm134" || flavorDef.id === "atm136" || flavorDef.id === "atm137" || flavorDef.id === "atm138" || flavorDef.id === "atm139" || flavorDef.id === "atm141" || flavorDef.id === "atm142" || flavorDef.id === "atm143" || flavorDef.id === "atm144" || flavorDef.id === "atm146" || flavorDef.id === "atm147" || flavorDef.id === "atm148" || flavorDef.id === "atm149" || flavorDef.id === "atm151" || flavorDef.id === "atm152" || flavorDef.id === "atm153" || flavorDef.id === "atm154" || flavorDef.id === "atm156" || flavorDef.id === "atm157" || flavorDef.id === "atm158" || flavorDef.id === "atm159" || flavorDef.id === "atm161" || flavorDef.id === "atm162" || flavorDef.id === "atm163" || flavorDef.id === "atm164" || flavorDef.id === "atm166" || flavorDef.id === "atm167" || flavorDef.id === "atm168" || flavorDef.id === "atm169" || flavorDef.id === "atm171" || flavorDef.id === "atm172" || flavorDef.id === "atm173" || flavorDef.id === "atm174" || flavorDef.id === "atm176" || flavorDef.id === "atm177" || flavorDef.id === "atm178" || flavorDef.id === "atm179" || flavorDef.id === "atm181" || flavorDef.id === "atm182" || flavorDef.id === "atm183" || flavorDef.id === "atm184" || flavorDef.id === "atm186" || flavorDef.id === "atm187" || flavorDef.id === "atm188" || flavorDef.id === "atm189" || flavorDef.id === "atm191" || flavorDef.id === "atm192" || flavorDef.id === "atm193" || flavorDef.id === "atm194" || flavorDef.id === "atm196" || flavorDef.id === "atm197" || flavorDef.id === "atm198" || flavorDef.id === "atm199" || flavorDef.id === "atm201" || flavorDef.id === "atm202" || flavorDef.id === "atm203" || flavorDef.id === "atm204" || flavorDef.id === "atm206" || flavorDef.id === "atm207" || flavorDef.id === "atm208" || flavorDef.id === "atm209" || flavorDef.id === "atm211" || flavorDef.id === "atm212" || flavorDef.id === "atm213" || flavorDef.id === "atm214" || flavorDef.id === "atm216" || flavorDef.id === "atm217" || flavorDef.id === "atm218" || flavorDef.id === "atm219" || flavorDef.id === "atm221" || flavorDef.id === "atm222" || flavorDef.id === "atm223" || flavorDef.id === "atm224" || flavorDef.id === "atm226" || flavorDef.id === "atm227" || flavorDef.id === "atm228" || flavorDef.id === "atm229" || flavorDef.id === "atm231" || flavorDef.id === "atm232" || flavorDef.id === "atm233" || flavorDef.id === "atm234" || flavorDef.id === "atm236" || flavorDef.id === "atm237" || flavorDef.id === "atm238" || flavorDef.id === "atm239" || flavorDef.id === "atm241" || flavorDef.id === "atm242" || flavorDef.id === "atm243" || flavorDef.id === "atm244" || flavorDef.id === "atm246" || flavorDef.id === "atm247" || flavorDef.id === "atm248" || flavorDef.id === "atm249" || flavorDef.id === "atm251" || flavorDef.id === "atm252" || flavorDef.id === "atm253" || flavorDef.id === "atm254" || flavorDef.id === "atm256" || flavorDef.id === "atm257" || flavorDef.id === "atm258" || flavorDef.id === "atm259" || flavorDef.id === "atm261" || flavorDef.id === "atm262" || flavorDef.id === "atm263" || flavorDef.id === "atm264" || flavorDef.id === "atm266" || flavorDef.id === "atm267" || flavorDef.id === "atm268" || flavorDef.id === "atm269" || flavorDef.id === "atm271" || flavorDef.id === "atm272" || flavorDef.id === "atm273" || flavorDef.id === "atm274" || flavorDef.id === "atm276" || flavorDef.id === "atm277" || flavorDef.id === "atm278" || flavorDef.id === "atm279" || flavorDef.id === "atm281" || flavorDef.id === "atm282" || flavorDef.id === "atm283" || flavorDef.id === "atm284" || flavorDef.id === "atm286" || flavorDef.id === "atm287" || flavorDef.id === "atm288" || flavorDef.id === "atm289" || flavorDef.id === "atm291" || flavorDef.id === "atm292" || flavorDef.id === "atm293" || flavorDef.id === "atm294" || flavorDef.id === "atm296" || flavorDef.id === "atm297" || flavorDef.id === "atm298" || flavorDef.id === "atm299" || flavorDef.id === "atm301" || flavorDef.id === "atm302" || flavorDef.id === "atm303" || flavorDef.id === "atm304" || flavorDef.id === "atm306" || flavorDef.id === "atm307" || flavorDef.id === "atm308" || flavorDef.id === "atm309" || flavorDef.id === "atm311" || flavorDef.id === "atm312" || flavorDef.id === "atm313" || flavorDef.id === "atm314" || flavorDef.id === "atm316" || flavorDef.id === "atm317" || flavorDef.id === "atm318" || flavorDef.id === "atm319" || flavorDef.id === "atm321" || flavorDef.id === "atm322" || flavorDef.id === "atm323" || flavorDef.id === "atm324" || flavorDef.id === "atm326" || flavorDef.id === "atm327" || flavorDef.id === "atm328" || flavorDef.id === "atm329" || flavorDef.id === "atm331" || flavorDef.id === "atm332" || flavorDef.id === "atm333" || flavorDef.id === "atm334" || flavorDef.id === "atm336" || flavorDef.id === "atm337" || flavorDef.id === "atm338" || flavorDef.id === "atm339" || flavorDef.id === "atm341" || flavorDef.id === "atm342" || flavorDef.id === "atm343" || flavorDef.id === "atm344" || flavorDef.id === "atm346" || flavorDef.id === "atm347" || flavorDef.id === "atm348" || flavorDef.id === "atm349" || flavorDef.id === "atm351" || flavorDef.id === "atm352" || flavorDef.id === "atm353" || flavorDef.id === "atm354" || flavorDef.id === "atm356" || flavorDef.id === "atm357" || flavorDef.id === "atm358" || flavorDef.id === "atm359" || flavorDef.id === "atm361" || flavorDef.id === "atm362" || flavorDef.id === "atm363" || flavorDef.id === "atm364" || flavorDef.id === "atm366" || flavorDef.id === "atm367" || flavorDef.id === "atm368" || flavorDef.id === "atm369" || flavorDef.id === "atm371" || flavorDef.id === "atm372" || flavorDef.id === "atm373" || flavorDef.id === "atm374" || flavorDef.id === "atm376" || flavorDef.id === "atm377" || flavorDef.id === "atm378" || flavorDef.id === "atm379" || flavorDef.id === "atm381" || flavorDef.id === "atm382" || flavorDef.id === "atm383" || flavorDef.id === "atm384" || flavorDef.id === "atm386" || flavorDef.id === "atm387" || flavorDef.id === "atm388" || flavorDef.id === "atm389" || flavorDef.id === "atm391" || flavorDef.id === "atm392" || flavorDef.id === "atm393" || flavorDef.id === "atm394" || flavorDef.id === "atm396" || flavorDef.id === "atm397" || flavorDef.id === "atm398" || flavorDef.id === "atm399" || flavorDef.id === "atm401" || flavorDef.id === "atm402" || flavorDef.id === "atm403" || flavorDef.id === "atm404" || flavorDef.id === "atm406" || flavorDef.id === "atm407" || flavorDef.id === "atm408" || flavorDef.id === "atm409" || flavorDef.id === "atm411" || flavorDef.id === "atm412" || flavorDef.id === "atm413" || flavorDef.id === "atm414" || flavorDef.id === "atm416" || flavorDef.id === "atm417" || flavorDef.id === "atm418" || flavorDef.id === "atm419" || flavorDef.id === "atm421" || flavorDef.id === "atm422" || flavorDef.id === "atm423" || flavorDef.id === "atm424" || flavorDef.id === "atm426" || flavorDef.id === "atm427" || flavorDef.id === "atm428" || flavorDef.id === "atm429" || flavorDef.id === "atm431" || flavorDef.id === "atm432" || flavorDef.id === "atm433" || flavorDef.id === "atm434" || flavorDef.id === "atm436" || flavorDef.id === "atm437" || flavorDef.id === "atm438" || flavorDef.id === "atm439" || flavorDef.id === "atm441" || flavorDef.id === "atm442" || flavorDef.id === "atm443" || flavorDef.id === "atm444" || flavorDef.id === "atm446" || flavorDef.id === "atm447" || flavorDef.id === "atm448" || flavorDef.id === "atm449" || flavorDef.id === "atm451" || flavorDef.id === "atm452" || flavorDef.id === "atm453" || flavorDef.id === "atm454" || flavorDef.id === "atm456" || flavorDef.id === "atm457" || flavorDef.id === "atm458" || flavorDef.id === "atm459" || flavorDef.id === "atm461" || flavorDef.id === "atm462" || flavorDef.id === "atm463" || flavorDef.id === "atm464" || flavorDef.id === "atm466" || flavorDef.id === "atm467" || flavorDef.id === "atm468" || flavorDef.id === "atm469" || flavorDef.id === "atm471" || flavorDef.id === "atm472" || flavorDef.id === "atm473" || flavorDef.id === "atm474" || flavorDef.id === "atm476" || flavorDef.id === "atm477" || flavorDef.id === "atm478" || flavorDef.id === "atm479" || flavorDef.id === "fx20" || flavorDef.id === "fx21" || flavorDef.id === "fx22" || flavorDef.id === "fx23" || flavorDef.id === "fx24" || flavorDef.id === "fx25" || flavorDef.id === "fx26" || flavorDef.id === "fx27" || flavorDef.id === "fx28" || flavorDef.id === "fx30" || flavorDef.id === "fx31" || flavorDef.id === "fx32" || flavorDef.id === "fx33" || flavorDef.id === "fx34" || flavorDef.id === "fx35" || flavorDef.id === "fx36" || flavorDef.id === "fx37" || flavorDef.id === "fx38" || flavorDef.id === "fx60" || flavorDef.id === "fx61" || flavorDef.id === "fx62" || flavorDef.id === "fx63" || flavorDef.id === "fx64" || flavorDef.id === "fx65" || flavorDef.id === "fx66" || flavorDef.id === "fx67" || flavorDef.id === "fx68" || flavorDef.id === "fx70" || flavorDef.id === "fx71" || flavorDef.id === "fx72" || flavorDef.id === "fx73" || flavorDef.id === "fx74" || flavorDef.id === "fx75" || flavorDef.id === "fx76" || flavorDef.id === "fx77" || flavorDef.id === "fx78" || flavorDef.id === "fx80" || flavorDef.id === "fx81" || flavorDef.id === "fx82" || flavorDef.id === "fx83" || flavorDef.id === "fx84" || flavorDef.id === "fx85" || flavorDef.id === "fx86" || flavorDef.id === "fx87" || flavorDef.id === "fx88" || flavorDef.id === "fx90" || flavorDef.id === "fx91" || flavorDef.id === "fx92" || flavorDef.id === "fx93" || flavorDef.id === "fx94" || flavorDef.id === "fx95" || flavorDef.id === "fx96" || flavorDef.id === "fx97" || flavorDef.id === "fx98" || flavorDef.id === "fx100" || flavorDef.id === "fx101" || flavorDef.id === "fx102" || flavorDef.id === "fx103" || flavorDef.id === "fx104" || flavorDef.id === "fx105" || flavorDef.id === "fx106" || flavorDef.id === "fx107" || flavorDef.id === "fx108" || flavorDef.id === "fx110" || flavorDef.id === "fx111" || flavorDef.id === "fx112" || flavorDef.id === "fx113" || flavorDef.id === "fx114" || flavorDef.id === "fx115" || flavorDef.id === "fx116" || flavorDef.id === "fx117" || flavorDef.id === "fx118" || flavorDef.id === "fx120" || flavorDef.id === "fx121" || flavorDef.id === "fx122" || flavorDef.id === "fx123" || flavorDef.id === "fx124" || flavorDef.id === "fx125" || flavorDef.id === "fx126" || flavorDef.id === "fx127" || flavorDef.id === "fx128" || flavorDef.id === "fx130" || flavorDef.id === "fx131" || flavorDef.id === "fx132" || flavorDef.id === "fx133" || flavorDef.id === "fx134" || flavorDef.id === "fx135" || flavorDef.id === "fx136" || flavorDef.id === "fx137" || flavorDef.id === "fx138" || flavorDef.id === "fx140" || flavorDef.id === "fx141" || flavorDef.id === "fx142" || flavorDef.id === "fx143" || flavorDef.id === "fx144" || flavorDef.id === "fx145" || flavorDef.id === "fx146" || flavorDef.id === "fx147" || flavorDef.id === "fx148" || flavorDef.id === "fx150" || flavorDef.id === "fx151" || flavorDef.id === "fx152" || flavorDef.id === "fx153" || flavorDef.id === "fx154" || flavorDef.id === "fx155" || flavorDef.id === "fx156" || flavorDef.id === "fx157" || flavorDef.id === "fx158" || flavorDef.id === "fx160" || flavorDef.id === "fx161" || flavorDef.id === "fx162" || flavorDef.id === "fx163" || flavorDef.id === "fx164" || flavorDef.id === "fx165" || flavorDef.id === "fx166" || flavorDef.id === "fx167" || flavorDef.id === "fx168" || flavorDef.id === "fx170" || flavorDef.id === "fx171" || flavorDef.id === "fx172" || flavorDef.id === "fx173" || flavorDef.id === "fx174" || flavorDef.id === "fx175" || flavorDef.id === "fx176" || flavorDef.id === "fx177" || flavorDef.id === "fx178" || flavorDef.id === "fx200" || flavorDef.id === "fx201" || flavorDef.id === "fx202" || flavorDef.id === "fx203" || flavorDef.id === "fx204" || flavorDef.id === "fx205" || flavorDef.id === "fx206" || flavorDef.id === "fx207" || flavorDef.id === "fx208" || flavorDef.id === "fx210" || flavorDef.id === "fx211" || flavorDef.id === "fx212" || flavorDef.id === "fx213" || flavorDef.id === "fx214" || flavorDef.id === "fx215" || flavorDef.id === "fx216" || flavorDef.id === "fx217" || flavorDef.id === "fx218" || flavorDef.id === "fx240" || flavorDef.id === "fx241" || flavorDef.id === "fx242" || flavorDef.id === "fx243" || flavorDef.id === "fx244" || flavorDef.id === "fx245" || flavorDef.id === "fx246" || flavorDef.id === "fx247" || flavorDef.id === "fx248" || flavorDef.id === "fx250" || flavorDef.id === "fx251" || flavorDef.id === "fx252" || flavorDef.id === "fx253" || flavorDef.id === "fx254" || flavorDef.id === "fx255" || flavorDef.id === "fx256" || flavorDef.id === "fx257" || flavorDef.id === "fx258" || flavorDef.id === "fx260" || flavorDef.id === "fx261" || flavorDef.id === "fx262" || flavorDef.id === "fx263" || flavorDef.id === "fx264" || flavorDef.id === "fx265" || flavorDef.id === "fx266" || flavorDef.id === "fx267" || flavorDef.id === "fx268" || flavorDef.id === "fx270" || flavorDef.id === "fx271" || flavorDef.id === "fx272" || flavorDef.id === "fx273" || flavorDef.id === "fx274" || flavorDef.id === "fx275" || flavorDef.id === "fx276" || flavorDef.id === "fx277" || flavorDef.id === "fx278" || flavorDef.id === "fx280" || flavorDef.id === "fx281" || flavorDef.id === "fx282" || flavorDef.id === "fx283" || flavorDef.id === "fx284" || flavorDef.id === "fx285" || flavorDef.id === "fx286" || flavorDef.id === "fx287" || flavorDef.id === "fx288" || flavorDef.id === "fx290" || flavorDef.id === "fx291" || flavorDef.id === "fx292" || flavorDef.id === "fx293" || flavorDef.id === "fx294" || flavorDef.id === "fx295" || flavorDef.id === "fx296" || flavorDef.id === "fx297" || flavorDef.id === "fx298" || flavorDef.id === "fx300" || flavorDef.id === "fx301" || flavorDef.id === "fx302" || flavorDef.id === "fx303" || flavorDef.id === "fx304" || flavorDef.id === "fx305" || flavorDef.id === "fx306" || flavorDef.id === "fx307" || flavorDef.id === "fx308" || flavorDef.id === "fx310" || flavorDef.id === "fx311" || flavorDef.id === "fx312" || flavorDef.id === "fx313" || flavorDef.id === "fx314" || flavorDef.id === "fx315" || flavorDef.id === "fx316" || flavorDef.id === "fx317" || flavorDef.id === "fx318" || flavorDef.id === "fx320" || flavorDef.id === "fx321" || flavorDef.id === "fx322" || flavorDef.id === "fx323" || flavorDef.id === "fx324" || flavorDef.id === "fx325" || flavorDef.id === "fx326" || flavorDef.id === "fx327" || flavorDef.id === "fx328" || flavorDef.id === "fx330" || flavorDef.id === "fx331" || flavorDef.id === "fx332" || flavorDef.id === "fx333" || flavorDef.id === "fx334" || flavorDef.id === "fx335" || flavorDef.id === "fx336" || flavorDef.id === "fx337" || flavorDef.id === "fx338" || flavorDef.id === "fx340" || flavorDef.id === "fx341" || flavorDef.id === "fx342" || flavorDef.id === "fx343" || flavorDef.id === "fx344" || flavorDef.id === "fx345" || flavorDef.id === "fx346" || flavorDef.id === "fx347" || flavorDef.id === "fx348" || flavorDef.id === "fx350" || flavorDef.id === "fx351" || flavorDef.id === "fx352" || flavorDef.id === "fx353" || flavorDef.id === "fx354" || flavorDef.id === "fx355" || flavorDef.id === "fx356" || flavorDef.id === "fx357" || flavorDef.id === "fx358" || flavorDef.id === "fx360" || flavorDef.id === "fx361" || flavorDef.id === "fx362" || flavorDef.id === "fx363" || flavorDef.id === "fx364" || flavorDef.id === "fx365" || flavorDef.id === "fx366" || flavorDef.id === "fx367" || flavorDef.id === "fx368" || flavorDef.id === "fx370" || flavorDef.id === "fx371" || flavorDef.id === "fx372" || flavorDef.id === "fx373" || flavorDef.id === "fx374" || flavorDef.id === "fx375" || flavorDef.id === "fx376" || flavorDef.id === "fx377" || flavorDef.id === "fx378" || flavorDef.id === "gf400" || flavorDef.id === "gf401" || flavorDef.id === "gf402" || flavorDef.id === "gf403" || flavorDef.id === "gf404" || flavorDef.id === "gf405" || flavorDef.id === "gf406" || flavorDef.id === "gf407" || flavorDef.id === "gf408" || flavorDef.id === "gf409" || flavorDef.id === "gf410" || flavorDef.id === "gf411" || flavorDef.id === "gf412" || flavorDef.id === "gf413" || flavorDef.id === "gf414" || flavorDef.id === "gf415" || flavorDef.id === "gf416" || flavorDef.id === "gf417" || flavorDef.id === "gf418" || flavorDef.id === "gf419" || flavorDef.id === "gf420" || flavorDef.id === "gf421" || flavorDef.id === "gf422" || flavorDef.id === "gf423" || flavorDef.id === "gf424" || flavorDef.id === "gf425" || flavorDef.id === "gf426" || flavorDef.id === "gf427" || flavorDef.id === "gf428" || flavorDef.id === "gf429" || flavorDef.id === "gf430" || flavorDef.id === "gf431" || flavorDef.id === "gf432" || flavorDef.id === "gf433" || flavorDef.id === "gf434" || flavorDef.id === "gf435" || flavorDef.id === "gf436" || flavorDef.id === "gf437" || flavorDef.id === "gf438" || flavorDef.id === "gf439" || flavorDef.id === "gf440" || flavorDef.id === "gf441" || flavorDef.id === "gf442" || flavorDef.id === "gf443" || flavorDef.id === "gf444" || flavorDef.id === "gf445" || flavorDef.id === "gf446" || flavorDef.id === "gf447" || flavorDef.id === "gf448" || flavorDef.id === "gf449" || flavorDef.id === "gf450" || flavorDef.id === "gf451" || flavorDef.id === "gf452" || flavorDef.id === "gf453" || flavorDef.id === "gf454" || flavorDef.id === "gf455" || flavorDef.id === "gf456" || flavorDef.id === "gf457" || flavorDef.id === "gf458" || flavorDef.id === "gf459" || flavorDef.id === "gf460" || flavorDef.id === "gf461" || flavorDef.id === "gf462" || flavorDef.id === "gf463" || flavorDef.id === "gf464" || flavorDef.id === "gf465" || flavorDef.id === "gf466" || flavorDef.id === "gf467" || flavorDef.id === "gf468" || flavorDef.id === "gf469" || flavorDef.id === "gf470" || flavorDef.id === "gf471" || flavorDef.id === "gf472" || flavorDef.id === "gf473" || flavorDef.id === "gf474" || flavorDef.id === "gf475" || flavorDef.id === "gf476" || flavorDef.id === "gf477" || flavorDef.id === "gf478" || flavorDef.id === "gf479" || flavorDef.id === "gf480" || flavorDef.id === "gf481" || flavorDef.id === "gf482" || flavorDef.id === "gf483" || flavorDef.id === "gf484" || flavorDef.id === "gf485" || flavorDef.id === "gf486" || flavorDef.id === "gf487" || flavorDef.id === "gf488" || flavorDef.id === "gf489" || flavorDef.id === "gf490" || flavorDef.id === "gf491" || flavorDef.id === "gf492" || flavorDef.id === "gf493" || flavorDef.id === "gf494" || flavorDef.id === "gf495" || flavorDef.id === "gf496" || flavorDef.id === "gf497" || flavorDef.id === "gf498" || flavorDef.id === "gf499" || flavorDef.id === "gf500" || flavorDef.id === "gf501" || flavorDef.id === "gf502" || flavorDef.id === "gf503" || flavorDef.id === "gf504" || flavorDef.id === "gf505" || flavorDef.id === "gf506" || flavorDef.id === "gf507" || flavorDef.id === "gf508" || flavorDef.id === "gf509" || flavorDef.id === "gf510" || flavorDef.id === "gf511" || flavorDef.id === "gf512" || flavorDef.id === "gf513" || flavorDef.id === "gf514" || flavorDef.id === "gf515" || flavorDef.id === "gf516" || flavorDef.id === "gf517" || flavorDef.id === "gf518" || flavorDef.id === "gf519" || flavorDef.id === "gf520" || flavorDef.id === "gf521" || flavorDef.id === "gf522" || flavorDef.id === "gf523" || flavorDef.id === "gf524" || flavorDef.id === "gf525" || flavorDef.id === "gf526" || flavorDef.id === "gf527" || flavorDef.id === "gf528" || flavorDef.id === "gf529" || flavorDef.id === "gf530" || flavorDef.id === "gf531" || flavorDef.id === "gf532" || flavorDef.id === "gf533" || flavorDef.id === "gf534" || flavorDef.id === "gf535" || flavorDef.id === "gf536" || flavorDef.id === "gf537" || flavorDef.id === "gf538" || flavorDef.id === "gf539" || flavorDef.id === "gf540" || flavorDef.id === "gf541" || flavorDef.id === "gf542" || flavorDef.id === "gf543" || flavorDef.id === "gf544" || flavorDef.id === "gf545" || flavorDef.id === "gf546" || flavorDef.id === "gf547" || flavorDef.id === "gf548" || flavorDef.id === "gf549" || flavorDef.id === "gf550" || flavorDef.id === "gf551" || flavorDef.id === "gf552" || flavorDef.id === "gf553" || flavorDef.id === "gf554" || flavorDef.id === "gf555" || flavorDef.id === "gf556" || flavorDef.id === "gf557" || flavorDef.id === "gf558" || flavorDef.id === "gf559" || flavorDef.id === "gf560" || flavorDef.id === "gf561" || flavorDef.id === "gf562" || flavorDef.id === "gf563" || flavorDef.id === "gf564" || flavorDef.id === "gf565" || flavorDef.id === "gf566" || flavorDef.id === "gf567" || flavorDef.id === "gf568" || flavorDef.id === "gf569" || flavorDef.id === "gf570" || flavorDef.id === "gf571" || flavorDef.id === "gf572" || flavorDef.id === "gf573" || flavorDef.id === "gf574" || flavorDef.id === "gf575" || flavorDef.id === "gf576" || flavorDef.id === "gf577" || flavorDef.id === "gf578" || flavorDef.id === "gf579" || flavorDef.id === "gf580" || flavorDef.id === "gf581" || flavorDef.id === "gf582" || flavorDef.id === "gf583" || flavorDef.id === "gf584" || flavorDef.id === "gf585" || flavorDef.id === "gf586" || flavorDef.id === "gf587" || flavorDef.id === "gf588" || flavorDef.id === "gf589" || flavorDef.id === "gf590" || flavorDef.id === "gf591" || flavorDef.id === "gf592" || flavorDef.id === "gf593" || flavorDef.id === "gf594" || flavorDef.id === "gf595" || flavorDef.id === "gf596" || flavorDef.id === "gf597" || flavorDef.id === "gf598" || flavorDef.id === "gf599" || flavorDef.id === "gf600" || flavorDef.id === "gf601" || flavorDef.id === "gf602" || flavorDef.id === "gf603" || flavorDef.id === "gf604" || flavorDef.id === "gf605" || flavorDef.id === "gf606" || flavorDef.id === "gf607" || flavorDef.id === "gf608" || flavorDef.id === "gf609" || flavorDef.id === "gf610" || flavorDef.id === "gf611" || flavorDef.id === "gf612" || flavorDef.id === "gf613" || flavorDef.id === "gf614" || flavorDef.id === "gf615" || flavorDef.id === "gf616" || flavorDef.id === "gf617" || flavorDef.id === "gf618" || flavorDef.id === "gf619" || flavorDef.id === "gf620" || flavorDef.id === "gf621" || flavorDef.id === "gf622" || flavorDef.id === "gf623" || flavorDef.id === "gf624" || flavorDef.id === "gf625" || flavorDef.id === "gf626" || flavorDef.id === "gf627" || flavorDef.id === "gf628" || flavorDef.id === "gf629" || flavorDef.id === "gf630" || flavorDef.id === "gf631" || flavorDef.id === "gf632" || flavorDef.id === "gf633" || flavorDef.id === "gf634" || flavorDef.id === "gf635" || flavorDef.id === "gf636" || flavorDef.id === "gf637" || flavorDef.id === "gf638" || flavorDef.id === "gf639" || flavorDef.id === "ht48" || flavorDef.id === "ht49" || flavorDef.id === "ht50" || flavorDef.id === "ht51" || flavorDef.id === "ht52" || flavorDef.id === "ht53" || flavorDef.id === "ht55" || flavorDef.id === "ht57" || flavorDef.id === "ht58" || flavorDef.id === "ht59" || flavorDef.id === "ht60" || flavorDef.id === "ht61" || flavorDef.id === "ht62" || flavorDef.id === "ht63" || flavorDef.id === "ht64" || flavorDef.id === "ht65" || flavorDef.id === "ht66" || flavorDef.id === "ht67" || flavorDef.id === "ht68" || flavorDef.id === "ht69" || flavorDef.id === "ht71" || flavorDef.id === "ht73" || flavorDef.id === "ht74" || flavorDef.id === "ht75" || flavorDef.id === "ht76" || flavorDef.id === "ht77" || flavorDef.id === "ht78" || flavorDef.id === "ht79" || flavorDef.id === "ht80" || flavorDef.id === "ht81" || flavorDef.id === "ht82" || flavorDef.id === "ht83" || flavorDef.id === "ht84" || flavorDef.id === "ht85" || flavorDef.id === "ht87" || flavorDef.id === "ht89" || flavorDef.id === "ht90" || flavorDef.id === "ht91" || flavorDef.id === "ht92" || flavorDef.id === "ht93" || flavorDef.id === "ht94" || flavorDef.id === "ht95" || flavorDef.id === "ht96" || flavorDef.id === "ht97" || flavorDef.id === "ht98" || flavorDef.id === "ht99" || flavorDef.id === "ht100" || flavorDef.id === "ht101" || flavorDef.id === "ht103" || flavorDef.id === "ht105" || flavorDef.id === "ht106" || flavorDef.id === "ht107" || flavorDef.id === "ht108" || flavorDef.id === "ht109" || flavorDef.id === "ht110" || flavorDef.id === "ht111" || flavorDef.id === "ht112" || flavorDef.id === "ht113" || flavorDef.id === "ht114" || flavorDef.id === "ht115" || flavorDef.id === "ht116" || flavorDef.id === "ht117" || flavorDef.id === "ht119" || flavorDef.id === "ht121" || flavorDef.id === "ht122" || flavorDef.id === "ht123" || flavorDef.id === "ht124" || flavorDef.id === "ht125" || flavorDef.id === "ht126" || flavorDef.id === "ht127" || flavorDef.id === "ht128" || flavorDef.id === "ht129" || flavorDef.id === "ht130" || flavorDef.id === "ht131" || flavorDef.id === "ht132" || flavorDef.id === "ht133" || flavorDef.id === "ht135" || flavorDef.id === "ht137" || flavorDef.id === "ht138" || flavorDef.id === "ht139" || flavorDef.id === "ht140" || flavorDef.id === "ht141" || flavorDef.id === "ht142" || flavorDef.id === "ht143" || flavorDef.id === "ht144" || flavorDef.id === "ht145" || flavorDef.id === "ht146" || flavorDef.id === "ht147" || flavorDef.id === "ht148" || flavorDef.id === "ht149" || flavorDef.id === "ht151" || flavorDef.id === "ht153" || flavorDef.id === "ht154" || flavorDef.id === "ht155" || flavorDef.id === "ht156" || flavorDef.id === "ht157" || flavorDef.id === "ht158" || flavorDef.id === "ht159" || flavorDef.id === "ht160" || flavorDef.id === "ht161" || flavorDef.id === "ht162" || flavorDef.id === "ht163" || flavorDef.id === "ht164" || flavorDef.id === "ht165" || flavorDef.id === "ht167" || flavorDef.id === "ht169" || flavorDef.id === "ht170" || flavorDef.id === "ht171" || flavorDef.id === "ht172" || flavorDef.id === "ht173" || flavorDef.id === "ht174" || flavorDef.id === "ht175" || flavorDef.id === "ht176" || flavorDef.id === "ht177" || flavorDef.id === "ht178" || flavorDef.id === "ht179" || flavorDef.id === "ht180" || flavorDef.id === "ht181" || flavorDef.id === "ht183" || flavorDef.id === "ht185" || flavorDef.id === "ht186" || flavorDef.id === "ht187" || flavorDef.id === "ht188" || flavorDef.id === "ht189" || flavorDef.id === "ht190" || flavorDef.id === "ht191" || flavorDef.id === "ht192" || flavorDef.id === "ht193" || flavorDef.id === "ht194" || flavorDef.id === "ht195" || flavorDef.id === "ht196" || flavorDef.id === "ht197" || flavorDef.id === "ht199" || flavorDef.id === "ht201" || flavorDef.id === "ht202" || flavorDef.id === "ht203" || flavorDef.id === "ht204" || flavorDef.id === "ht205" || flavorDef.id === "ht206" || flavorDef.id === "ht207" || flavorDef.id === "ht208" || flavorDef.id === "ht209" || flavorDef.id === "ht210" || flavorDef.id === "ht211" || flavorDef.id === "ht212" || flavorDef.id === "ht213" || flavorDef.id === "ht215" || flavorDef.id === "ht217" || flavorDef.id === "ht218" || flavorDef.id === "ht219" || flavorDef.id === "ht220" || flavorDef.id === "ht221" || flavorDef.id === "ht222" || flavorDef.id === "ht223" || flavorDef.id === "ht224" || flavorDef.id === "ht225" || flavorDef.id === "ht226" || flavorDef.id === "ht227" || flavorDef.id === "ht228" || flavorDef.id === "ht229" || flavorDef.id === "ht231" || flavorDef.id === "ht233" || flavorDef.id === "ht234" || flavorDef.id === "ht235" || flavorDef.id === "ht236" || flavorDef.id === "ht237" || flavorDef.id === "ht238" || flavorDef.id === "ht239" || flavorDef.id === "ht240" || flavorDef.id === "ht241" || flavorDef.id === "ht242" || flavorDef.id === "ht243" || flavorDef.id === "ht244" || flavorDef.id === "ht245" || flavorDef.id === "ht247" || flavorDef.id === "ht249" || flavorDef.id === "ht250" || flavorDef.id === "ht251" || flavorDef.id === "ht252" || flavorDef.id === "ht253" || flavorDef.id === "ht254" || flavorDef.id === "ht255" || flavorDef.id === "ht256" || flavorDef.id === "ht257" || flavorDef.id === "ht258" || flavorDef.id === "ht259" || flavorDef.id === "ht260" || flavorDef.id === "ht261" || flavorDef.id === "ht263" || flavorDef.id === "ht265" || flavorDef.id === "ht266" || flavorDef.id === "ht267" || flavorDef.id === "ht268" || flavorDef.id === "ht269" || flavorDef.id === "ht270" || flavorDef.id === "ht271" || flavorDef.id === "ht272" || flavorDef.id === "ht273" || flavorDef.id === "ht274" || flavorDef.id === "ht275" || flavorDef.id === "ht276" || flavorDef.id === "ht277" || flavorDef.id === "ht279" || flavorDef.id === "ht281" || flavorDef.id === "ht282" || flavorDef.id === "ht283" || flavorDef.id === "ht284" || flavorDef.id === "ht285" || flavorDef.id === "ht286" || flavorDef.id === "ht287" || flavorDef.id === "mn0" || flavorDef.id === "mn2" || flavorDef.id === "mn4" || flavorDef.id === "mn6" || flavorDef.id === "mn8" || flavorDef.id === "mn10" || flavorDef.id === "mn12" || flavorDef.id === "mn14" || flavorDef.id === "mn16" || flavorDef.id === "mn18" || flavorDef.id === "mn20" || flavorDef.id === "mn22" || flavorDef.id === "mn24" || flavorDef.id === "mn26" || flavorDef.id === "mn28" || flavorDef.id === "mn30" || flavorDef.id === "mn32" || flavorDef.id === "mn34" || flavorDef.id === "mn36" || flavorDef.id === "mn38" || flavorDef.id === "mn40" || flavorDef.id === "mn42" || flavorDef.id === "mn44" || flavorDef.id === "mn46" || flavorDef.id === "mn48" || flavorDef.id === "mn50" || flavorDef.id === "mn52" || flavorDef.id === "mn54" || flavorDef.id === "mn56" || flavorDef.id === "mn58" || flavorDef.id === "mn60" || flavorDef.id === "mn62" || flavorDef.id === "mn64" || flavorDef.id === "mn66" || flavorDef.id === "mn68" || flavorDef.id === "mn70" || flavorDef.id === "mn72" || flavorDef.id === "mn74" || flavorDef.id === "mn76" || flavorDef.id === "mn78" || flavorDef.id === "mn80" || flavorDef.id === "mn82" || flavorDef.id === "mn84" || flavorDef.id === "mn86" || flavorDef.id === "mn88" || flavorDef.id === "mn90" || flavorDef.id === "mn92" || flavorDef.id === "mn94" || flavorDef.id === "mn96" || flavorDef.id === "mn98" || flavorDef.id === "mn100" || flavorDef.id === "mn102" || flavorDef.id === "mn104" || flavorDef.id === "mn106" || flavorDef.id === "mn108" || flavorDef.id === "mn110" || flavorDef.id === "mn112" || flavorDef.id === "mn114" || flavorDef.id === "mn116" || flavorDef.id === "mn118" || flavorDef.id === "mn120" || flavorDef.id === "mn122" || flavorDef.id === "mn124" || flavorDef.id === "mn126" || flavorDef.id === "mn128" || flavorDef.id === "mn130" || flavorDef.id === "mn132" || flavorDef.id === "mn134" || flavorDef.id === "mn136" || flavorDef.id === "mn138" || flavorDef.id === "mn140" || flavorDef.id === "mn142" || flavorDef.id === "mn144" || flavorDef.id === "mn146" || flavorDef.id === "mn148" || flavorDef.id === "mn150" || flavorDef.id === "mn152" || flavorDef.id === "mn154" || flavorDef.id === "mn156" || flavorDef.id === "mn158" || flavorDef.id === "mn160" || flavorDef.id === "mn162" || flavorDef.id === "mn164" || flavorDef.id === "mn166" || flavorDef.id === "mn168" || flavorDef.id === "mn170" || flavorDef.id === "mn172" || flavorDef.id === "mn174" || flavorDef.id === "mn176" || flavorDef.id === "mn178" || flavorDef.id === "mn180" || flavorDef.id === "mn182" || flavorDef.id === "mn184" || flavorDef.id === "mn186" || flavorDef.id === "mn188" || flavorDef.id === "mn190" || flavorDef.id === "mn192" || flavorDef.id === "mn194" || flavorDef.id === "mn196" || flavorDef.id === "mn198" || flavorDef.id === "mn200" || flavorDef.id === "mn202" || flavorDef.id === "mn204" || flavorDef.id === "mn206" || flavorDef.id === "mn208" || flavorDef.id === "mn210" || flavorDef.id === "mn212" || flavorDef.id === "mn214" || flavorDef.id === "mn216" || flavorDef.id === "mn218" || flavorDef.id === "mn220" || flavorDef.id === "mn222" || flavorDef.id === "mn224" || flavorDef.id === "mn226" || flavorDef.id === "mn228" || flavorDef.id === "mn230" || flavorDef.id === "mn232" || flavorDef.id === "mn234" || flavorDef.id === "mn236" || flavorDef.id === "mn238" || flavorDef.id === "mn240" || flavorDef.id === "mn242" || flavorDef.id === "mn244" || flavorDef.id === "mn246" || flavorDef.id === "mn248" || flavorDef.id === "mn250" || flavorDef.id === "mn252" || flavorDef.id === "mn254" || flavorDef.id === "mn256" || flavorDef.id === "mn258" || flavorDef.id === "mn260" || flavorDef.id === "mn262" || flavorDef.id === "mn264" || flavorDef.id === "mn266" || flavorDef.id === "mn268" || flavorDef.id === "mn270" || flavorDef.id === "mn272" || flavorDef.id === "mn274" || flavorDef.id === "mn276" || flavorDef.id === "mn278" || flavorDef.id === "mn280" || flavorDef.id === "mn282" || flavorDef.id === "mn284" || flavorDef.id === "mn286" || flavorDef.id === "mn288" || flavorDef.id === "mn290" || flavorDef.id === "mn292" || flavorDef.id === "mn294" || flavorDef.id === "mn296" || flavorDef.id === "mn298" || flavorDef.id === "mn300" || flavorDef.id === "mn302" || flavorDef.id === "mn304" || flavorDef.id === "mn306" || flavorDef.id === "mn308" || flavorDef.id === "mn310" || flavorDef.id === "mn312" || flavorDef.id === "mn314" || flavorDef.id === "mn316" || flavorDef.id === "mn318" || flavorDef.id === "wx0" || flavorDef.id === "wx2" || flavorDef.id === "wx4" || flavorDef.id === "wx6" || flavorDef.id === "wx8" || flavorDef.id === "wx10" || flavorDef.id === "wx12" || flavorDef.id === "wx14" || flavorDef.id === "wx16" || flavorDef.id === "wx18" || flavorDef.id === "wx20" || flavorDef.id === "wx22" || flavorDef.id === "wx24" || flavorDef.id === "wx26" || flavorDef.id === "wx28" || flavorDef.id === "wx30" || flavorDef.id === "wx32" || flavorDef.id === "wx34" || flavorDef.id === "wx36" || flavorDef.id === "wx38" || flavorDef.id === "wx40" || flavorDef.id === "wx42" || flavorDef.id === "wx44" || flavorDef.id === "wx46" || flavorDef.id === "wx48" || flavorDef.id === "wx50" || flavorDef.id === "wx52" || flavorDef.id === "wx54" || flavorDef.id === "wx56" || flavorDef.id === "wx58" || flavorDef.id === "wx60" || flavorDef.id === "wx62" || flavorDef.id === "wx64" || flavorDef.id === "wx66" || flavorDef.id === "wx68" || flavorDef.id === "wx70" || flavorDef.id === "wx72" || flavorDef.id === "wx74" || flavorDef.id === "wx76" || flavorDef.id === "wx78" || flavorDef.id === "wx80" || flavorDef.id === "wx82" || flavorDef.id === "wx84" || flavorDef.id === "wx86" || flavorDef.id === "wx88" || flavorDef.id === "wx90" || flavorDef.id === "wx92" || flavorDef.id === "wx94" || flavorDef.id === "wx96" || flavorDef.id === "wx98" || flavorDef.id === "wx100" || flavorDef.id === "wx102" || flavorDef.id === "wx104" || flavorDef.id === "wx106" || flavorDef.id === "wx108" || flavorDef.id === "wx110" || flavorDef.id === "wx112" || flavorDef.id === "wx114" || flavorDef.id === "wx116" || flavorDef.id === "wx118" || flavorDef.id === "wx120" || flavorDef.id === "wx122" || flavorDef.id === "wx124" || flavorDef.id === "wx126" || flavorDef.id === "wx128" || flavorDef.id === "wx130" || flavorDef.id === "wx132" || flavorDef.id === "wx134" || flavorDef.id === "wx136" || flavorDef.id === "wx138" || flavorDef.id === "wx140" || flavorDef.id === "wx142" || flavorDef.id === "wx144" || flavorDef.id === "wx146" || flavorDef.id === "wx148" || flavorDef.id === "wx150" || flavorDef.id === "wx152" || flavorDef.id === "wx154" || flavorDef.id === "wx156" || flavorDef.id === "wx158" || flavorDef.id === "wx160" || flavorDef.id === "wx162" || flavorDef.id === "wx164" || flavorDef.id === "wx166" || flavorDef.id === "wx168" || flavorDef.id === "wx170" || flavorDef.id === "wx172" || flavorDef.id === "wx174" || flavorDef.id === "wx176" || flavorDef.id === "wx178" || flavorDef.id === "wx180" || flavorDef.id === "wx182" || flavorDef.id === "wx184" || flavorDef.id === "wx186" || flavorDef.id === "wx188" || flavorDef.id === "wx190" || flavorDef.id === "wx192" || flavorDef.id === "wx194" || flavorDef.id === "wx196" || flavorDef.id === "wx198" || flavorDef.id === "wx200" || flavorDef.id === "wx202" || flavorDef.id === "wx204" || flavorDef.id === "wx206" || flavorDef.id === "wx208" || flavorDef.id === "wx210" || flavorDef.id === "wx212" || flavorDef.id === "wx214" || flavorDef.id === "wx216" || flavorDef.id === "wx218" || flavorDef.id === "wx220" || flavorDef.id === "wx222" || flavorDef.id === "wx224" || flavorDef.id === "wx226" || flavorDef.id === "wx228" || flavorDef.id === "wx230" || flavorDef.id === "wx232" || flavorDef.id === "wx234" || flavorDef.id === "wx236" || flavorDef.id === "wx238" || flavorDef.id === "wx240" || flavorDef.id === "wx242" || flavorDef.id === "wx244" || flavorDef.id === "wx246" || flavorDef.id === "wx248" || flavorDef.id === "wx250" || flavorDef.id === "wx252" || flavorDef.id === "wx254" || flavorDef.id === "wx256" || flavorDef.id === "wx258" || flavorDef.id === "wx260" || flavorDef.id === "wx262" || flavorDef.id === "wx264" || flavorDef.id === "wx266" || flavorDef.id === "wx268" || flavorDef.id === "wx270" || flavorDef.id === "wx272" || flavorDef.id === "wx274" || flavorDef.id === "wx276" || flavorDef.id === "wx278" || flavorDef.id === "wx280" || flavorDef.id === "wx282" || flavorDef.id === "wx284" || flavorDef.id === "wx286" || flavorDef.id === "wx288" || flavorDef.id === "wx290" || flavorDef.id === "wx292" || flavorDef.id === "wx294" || flavorDef.id === "wx296" || flavorDef.id === "wx298" || flavorDef.id === "wx300" || flavorDef.id === "wx302" || flavorDef.id === "wx304" || flavorDef.id === "wx306" || flavorDef.id === "wx308" || flavorDef.id === "wx310" || flavorDef.id === "wx312" || flavorDef.id === "wx314" || flavorDef.id === "wx316" || flavorDef.id === "wx318" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5;
       notes.push("夏日清爽");
     }
@@ -27187,7 +29427,7 @@
       score += 0.5;
       notes.push("秋日温甜");
     }
-    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube" || flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron" || flavorDef.id === "pistachio" || flavorDef.id === "chestnut" || flavorDef.id === "cinnamon" || flavorDef.id === "clove" || flavorDef.id === "star_anise" || flavorDef.id === "nutmeg" || flavorDef.id === "goji" || flavorDef.id === "bay_leaf" || flavorDef.id === "tarragon" || flavorDef.id === "date_fruit" || flavorDef.id === "hyssop" || flavorDef.id === "lovage" || flavorDef.id === "anise_seed" || flavorDef.id === "turmeric" || flavorDef.id === "allspice" || flavorDef.id === "mace" || flavorDef.id === "caraway" || flavorDef.id === "cumin" || flavorDef.id === "fenugreek" || flavorDef.id === "ajwain" || flavorDef.id === "myrtle" || flavorDef.id === "chicory" || flavorDef.id === "nettle" || flavorDef.id === "yarrow" || flavorDef.id === "woodruff" || flavorDef.id === "valerian" || flavorDef.id === "meadowsweet" || flavorDef.id === "angelica" || flavorDef.id === "comfrey" || flavorDef.id === "selfheal" || flavorDef.id === "skullcap" || flavorDef.id === "linden" || flavorDef.id === "horehound" || flavorDef.id === "motherwort" || flavorDef.id === "betony" || flavorDef.id === "solomon_seal" || flavorDef.id === "wormwood" || flavorDef.id === "valerian_root" || flavorDef.id === "avens" || flavorDef.id === "tormentil" || flavorDef.id === "figwort" || flavorDef.id === "ground_ivy" || flavorDef.id === "self_heal_spike" || flavorDef.id === "teasel" || flavorDef.id === "burdock" || flavorDef.id === "hawthorn_berry" || flavorDef.id === "rosehip" || flavorDef.id === "sloe" || flavorDef.id === "wintercress" || flavorDef.id === "medlar" || flavorDef.id === "quince" || flavorDef.id === "aronia" || flavorDef.id === "flax_seed" || flavorDef.id === "hemp_seed" || flavorDef.id === "pumpkin_seed" || flavorDef.id === "sesame_black" || flavorDef.id === "sesame_white" || flavorDef.id === "lapacho" || flavorDef.id === "sassafras" || flavorDef.id === "birch_bark" || flavorDef.id === "pine_resin" || flavorDef.id === "tuberose" || flavorDef.id === "cardamom_green" || flavorDef.id === "cardamom_black" || flavorDef.id === "long_pepper" || flavorDef.id === "grains_of_paradise" || flavorDef.id === "cinnamon_leaf" || flavorDef.id === "clove_bud" || flavorDef.id === "allspice_leaf" || flavorDef.id === "reindeer_moss" || flavorDef.id === "iceland_moss" || flavorDef.id === "oak_moss" || flavorDef.id === "usnea" || flavorDef.id === "chaga" || flavorDef.id === "reishi" || flavorDef.id === "lion_mane" || flavorDef.id === "maitake" || flavorDef.id === "jackfruit_seed" || flavorDef.id === "rowan_jelly" || flavorDef.id === "quince_paste" || flavorDef.id === "yuzu_fresh" || flavorDef.id === "ponkan" || flavorDef.id === "dekopon" || flavorDef.id === "hassaku" || flavorDef.id === "yuzu_kosho" || flavorDef.id === "edelweiss" || flavorDef.id === "juniper_berry" || flavorDef.id === "fir_needle" || flavorDef.id === "myrtle_berry" || flavorDef.id === "mastic" || flavorDef.id === "saffron_crocus" || flavorDef.id === "buckwheat_honey" || flavorDef.id === "chestnut_honey" || flavorDef.id === "propolis" || flavorDef.id === "royal_jelly" || flavorDef.id === "mead_herb" || flavorDef.id === "cacao_nibs" || flavorDef.id === "cacao_husk" || flavorDef.id === "carob" || flavorDef.id === "maca" || flavorDef.id === "schisandra" || flavorDef.id === "hojicha" || flavorDef.id === "genmaicha" || flavorDef.id === "sobacha" || flavorDef.id === "job_tears" || flavorDef.id === "rose_hip_tea" || flavorDef.id === "camellia_fresh" || flavorDef.id === "lotus_seed_fresh" || flavorDef.id === "plum_blossom" || flavorDef.id === "wintersweet" || flavorDef.id === "ginkgo_leaf_fresh" || flavorDef.id === "ginkgo_nut_fresh" || flavorDef.id === "osmanthus_wine" || flavorDef.id === "crocus" || flavorDef.id === "snowdrop" || flavorDef.id === "crocus_yellow" || flavorDef.id === "hyacinth" || flavorDef.id === "daffodil" || flavorDef.id === "moonflower" || flavorDef.id === "magnolia_bark" || flavorDef.id === "eucommia" || flavorDef.id === "astragalus" || flavorDef.id === "codonopsis" || flavorDef.id === "rehmannia" || flavorDef.id === "polygonatum" || flavorDef.id === "ophiopogon" || flavorDef.id === "angelica_arch" || flavorDef.id === "wood_avense" || flavorDef.id === "ephedra" || flavorDef.id === "boldo" || flavorDef.id === "cupuacu_butter" || flavorDef.id === "sutherlandia" || flavorDef.id === "citron" || flavorDef.id === "bergamot_peel" || flavorDef.id === "labrador_tea" || flavorDef.id === "arctic_willow" || flavorDef.id === "kinako" || flavorDef.id === "kuromitsu" || flavorDef.id === "yuzu_peel" || flavorDef.id === "ume_blossom" || flavorDef.id === "vanilla_bean" || flavorDef.id === "tonka_bean" || flavorDef.id === "hazelnut_flower" || flavorDef.id === "omija" || flavorDef.id === "yuja" || flavorDef.id === "ssanghwa" || flavorDef.id === "jujube_tea" || flavorDef.id === "ginger_tea_kr" || flavorDef.id === "kava" || flavorDef.id === "tieguanyin" || flavorDef.id === "dahongpao" || flavorDef.id === "puer_ripe" || flavorDef.id === "shoumei" || flavorDef.id === "burdock_root" || flavorDef.id === "dandelion_root" || flavorDef.id === "chicory_root" || flavorDef.id === "holly_leaf" || flavorDef.id === "ivy_berry" || flavorDef.id === "mistletoe" || flavorDef.id === "yew_berry" || flavorDef.id === "aconite" || flavorDef.id === "helleborus" || flavorDef.id === "christmas_rose" || flavorDef.id === "black_horehound" || flavorDef.id === "white_horehound" || flavorDef.id === "skullcap_fresh" || flavorDef.id === "baikal_skullcap" || flavorDef.id === "ground_ivy_fresh" || flavorDef.id === "savory_winter" || flavorDef.id === "jerusalem_artichoke" || flavorDef.id === "topinambur" || flavorDef.id === "figwort_fresh" || flavorDef.id === "scrophularia" || flavorDef.id === "cymbidium" || flavorDef.id === "maidenhair" || flavorDef.id === "sword_fern" || flavorDef.id === "japanese_painted" || flavorDef.id === "royal_fern" || flavorDef.id === "sensitive_fern" || flavorDef.id === "fiddlehead" || flavorDef.id === "moonwort" || flavorDef.id === "blue_fescue" || flavorDef.id === "hakonechloa" || flavorDef.id === "carex_buch" || flavorDef.id === "juncus" || flavorDef.id === "bamboo_moso" || flavorDef.id === "arrow_bamboo" || flavorDef.id === "aloe_vera_fl" || flavorDef.id === "string_pearls" || flavorDef.id === "burros_tail" || flavorDef.id === "honeysuckle_blue" || flavorDef.id === "arctic_berry" || flavorDef.id === "schisandra_chin" || flavorDef.id === "schisandra_leaf" || flavorDef.id === "yam_leaf" || flavorDef.id === "chinese_yam" || flavorDef.id === "linseed_oil" || flavorDef.id === "nettle_root" || flavorDef.id === "alpine_thyme" || flavorDef.id === "alpine_sage" || flavorDef.id === "alpine_oregano" || flavorDef.id === "alpine_basil" || flavorDef.id === "alpine_mint" || flavorDef.id === "alpine_lavender" || flavorDef.id === "alpine_tarragon" || flavorDef.id === "alpine_parsley" || flavorDef.id === "alpine_fennel" || flavorDef.id === "coastal_rosemary" || flavorDef.id === "coastal_fennel" || flavorDef.id === "coastal_lovage" || flavorDef.id === "meadow_rosemary" || flavorDef.id === "meadow_fennel" || flavorDef.id === "meadow_lovage" || flavorDef.id === "woodland_rosemary" || flavorDef.id === "garden_rosemary" || flavorDef.id === "dwarf_rosemary" || flavorDef.id === "dwarf_tarragon" || flavorDef.id === "giant_thyme" || flavorDef.id === "giant_sage" || flavorDef.id === "giant_mint" || flavorDef.id === "giant_lavender" || flavorDef.id === "giant_rosemary" || flavorDef.id === "giant_fennel" || flavorDef.id === "variegated_sage" || flavorDef.id === "variegated_rosemary" || flavorDef.id === "variegated_tarragon" || flavorDef.id === "variegated_fennel" || flavorDef.id === "variegated_lovage" || flavorDef.id === "golden_sage" || flavorDef.id === "golden_rosemary" || flavorDef.id === "golden_tarragon" || flavorDef.id === "golden_fennel" || flavorDef.id === "golden_lovage" || flavorDef.id === "silver_sage" || flavorDef.id === "silver_rosemary" || flavorDef.id === "silver_tarragon" || flavorDef.id === "silver_fennel" || flavorDef.id === "silver_lovage" || flavorDef.id === "purple_sage" || flavorDef.id === "purple_rosemary" || flavorDef.id === "purple_tarragon" || flavorDef.id === "purple_fennel" || flavorDef.id === "purple_lovage" || flavorDef.id === "red_sage" || flavorDef.id === "red_rosemary" || flavorDef.id === "red_tarragon" || flavorDef.id === "red_fennel" || flavorDef.id === "red_lovage" || flavorDef.id === "white_rosemary" || flavorDef.id === "white_tarragon" || flavorDef.id === "white_fennel" || flavorDef.id === "white_lovage" || flavorDef.id === "pink_sage" || flavorDef.id === "pink_rosemary" || flavorDef.id === "pink_tarragon" || flavorDef.id === "pink_fennel" || flavorDef.id === "pink_lovage" || flavorDef.id === "blue_sage" || flavorDef.id === "blue_rosemary" || flavorDef.id === "blue_tarragon" || flavorDef.id === "blue_fennel" || flavorDef.id === "blue_lovage" || flavorDef.id === "yellow_sage" || flavorDef.id === "yellow_rosemary" || flavorDef.id === "yellow_tarragon" || flavorDef.id === "yellow_fennel" || flavorDef.id === "yellow_lovage" || flavorDef.id === "orange_sage" || flavorDef.id === "orange_rosemary" || flavorDef.id === "orange_tarragon" || flavorDef.id === "orange_fennel" || flavorDef.id === "orange_lovage" || flavorDef.id === "r0_e58c97e5a283" || flavorDef.id === "r5_e58c97e5a283" || flavorDef.id === "r10_e58c97e5a283" || flavorDef.id === "r15_e58c97e5a283" || flavorDef.id === "r20_e58c97e5a283" || flavorDef.id === "r25_e58c97e5a283" || flavorDef.id === "r30_e58c97e5a283" || flavorDef.id === "r35_e58c97e5a283" || flavorDef.id === "r40_e58c97e5a283" || flavorDef.id === "r45_e58c97e5a283" || flavorDef.id === "r50_e58c97e5a283" || flavorDef.id === "r55_e58c97e5a283" || flavorDef.id === "r60_e58c97e5a283" || flavorDef.id === "r65_e58c97e5a283" || flavorDef.id === "r70_e58c97e5a283" || flavorDef.id === "r75_e58c97e5a283" || flavorDef.id === "r80_e58c97e5a283" || flavorDef.id === "r85_e58c97e5a283" || flavorDef.id === "r90_e58c97e5a283" || flavorDef.id === "r95_e58c97e5a283" || flavorDef.id === "r100_e58c97e5a283" || flavorDef.id === "r105_e58d97e5a283" || flavorDef.id === "r110_e58d97e5a283" || flavorDef.id === "r115_e58d97e5a283" || flavorDef.id === "r120_e58d97e5a283" || flavorDef.id === "r125_e58d97e5a283" || flavorDef.id === "r130_e58d97e5a283" || flavorDef.id === "r135_e58d97e5a283" || flavorDef.id === "r140_e58d97e5a283" || flavorDef.id === "r145_e58d97e5a283" || flavorDef.id === "r150_e58d97e5a283" || flavorDef.id === "r155_e58d97e5a283" || flavorDef.id === "r160_e58d97e5a283" || flavorDef.id === "r165_e58d97e5a283" || flavorDef.id === "r170_e58d97e5a283" || flavorDef.id === "r175_e58d97e5a283" || flavorDef.id === "r180_e58d97e5a283" || flavorDef.id === "r185_e58d97e5a283" || flavorDef.id === "r190_e58d97e5a283" || flavorDef.id === "r195_e58d97e5a283" || flavorDef.id === "loc0" || flavorDef.id === "loc4" || flavorDef.id === "loc8" || flavorDef.id === "loc12" || flavorDef.id === "loc16" || flavorDef.id === "loc20" || flavorDef.id === "loc24" || flavorDef.id === "loc28" || flavorDef.id === "loc32" || flavorDef.id === "loc36" || flavorDef.id === "loc40" || flavorDef.id === "loc44" || flavorDef.id === "loc48" || flavorDef.id === "loc52" || flavorDef.id === "loc56" || flavorDef.id === "loc60" || flavorDef.id === "loc64" || flavorDef.id === "loc68" || flavorDef.id === "loc72" || flavorDef.id === "loc76" || flavorDef.id === "loc80" || flavorDef.id === "loc84" || flavorDef.id === "loc88" || flavorDef.id === "loc92" || flavorDef.id === "loc96" || flavorDef.id === "loc100" || flavorDef.id === "loc104" || flavorDef.id === "loc108" || flavorDef.id === "loc112" || flavorDef.id === "loc116" || flavorDef.id === "loc120" || flavorDef.id === "loc124" || flavorDef.id === "loc128" || flavorDef.id === "loc132" || flavorDef.id === "loc136" || flavorDef.id === "loc140" || flavorDef.id === "loc144" || flavorDef.id === "loc148" || flavorDef.id === "loc152" || flavorDef.id === "loc156" || flavorDef.id === "loc160" || flavorDef.id === "loc164" || flavorDef.id === "loc168" || flavorDef.id === "loc172" || flavorDef.id === "loc176" || flavorDef.id === "loc180" || flavorDef.id === "loc184" || flavorDef.id === "loc188" || flavorDef.id === "loc192" || flavorDef.id === "loc196" || flavorDef.id === "loc200" || flavorDef.id === "loc204" || flavorDef.id === "loc208" || flavorDef.id === "loc212" || flavorDef.id === "loc216" || flavorDef.id === "loc220" || flavorDef.id === "loc224" || flavorDef.id === "loc228" || flavorDef.id === "loc232" || flavorDef.id === "loc236" || flavorDef.id === "loc240" || flavorDef.id === "loc244" || flavorDef.id === "loc248" || flavorDef.id === "loc252" || flavorDef.id === "loc256" || flavorDef.id === "loc260" || flavorDef.id === "loc264" || flavorDef.id === "loc268" || flavorDef.id === "loc272" || flavorDef.id === "loc276" || flavorDef.id === "loc280" || flavorDef.id === "loc284" || flavorDef.id === "loc288" || flavorDef.id === "loc292" || flavorDef.id === "loc296" || flavorDef.id === "loc300" || flavorDef.id === "loc304" || flavorDef.id === "loc308" || flavorDef.id === "loc312" || flavorDef.id === "loc316" || flavorDef.id === "loc320" || flavorDef.id === "loc324" || flavorDef.id === "loc328" || flavorDef.id === "loc332" || flavorDef.id === "loc336" || flavorDef.id === "loc340" || flavorDef.id === "loc344" || flavorDef.id === "loc348" || flavorDef.id === "loc352" || flavorDef.id === "loc356" || flavorDef.id === "loc360" || flavorDef.id === "loc364" || flavorDef.id === "loc368" || flavorDef.id === "loc372" || flavorDef.id === "loc376" || flavorDef.id === "loc380" || flavorDef.id === "loc384" || flavorDef.id === "loc388" || flavorDef.id === "loc392" || flavorDef.id === "loc396" || flavorDef.id === "loc400" || flavorDef.id === "loc404" || flavorDef.id === "loc408" || flavorDef.id === "loc412" || flavorDef.id === "loc416" || flavorDef.id === "loc420" || flavorDef.id === "loc424" || flavorDef.id === "loc428" || flavorDef.id === "loc432" || flavorDef.id === "loc436" || flavorDef.id === "loc440" || flavorDef.id === "loc444" || flavorDef.id === "loc448" || flavorDef.id === "loc452" || flavorDef.id === "loc456" || flavorDef.id === "loc460" || flavorDef.id === "loc464" || flavorDef.id === "loc468" || flavorDef.id === "loc472" || flavorDef.id === "loc476" || flavorDef.id === "atm0" || flavorDef.id === "atm5" || flavorDef.id === "atm10" || flavorDef.id === "atm15" || flavorDef.id === "atm20" || flavorDef.id === "atm25" || flavorDef.id === "atm30" || flavorDef.id === "atm35" || flavorDef.id === "atm40" || flavorDef.id === "atm45" || flavorDef.id === "atm50" || flavorDef.id === "atm55" || flavorDef.id === "atm60" || flavorDef.id === "atm65" || flavorDef.id === "atm70" || flavorDef.id === "atm75" || flavorDef.id === "atm80" || flavorDef.id === "atm85" || flavorDef.id === "atm90" || flavorDef.id === "atm95" || flavorDef.id === "atm100" || flavorDef.id === "atm105" || flavorDef.id === "atm110" || flavorDef.id === "atm115" || flavorDef.id === "atm120" || flavorDef.id === "atm125" || flavorDef.id === "atm130" || flavorDef.id === "atm135" || flavorDef.id === "atm140" || flavorDef.id === "atm145" || flavorDef.id === "atm150" || flavorDef.id === "atm155" || flavorDef.id === "atm160" || flavorDef.id === "atm165" || flavorDef.id === "atm170" || flavorDef.id === "atm175" || flavorDef.id === "atm180" || flavorDef.id === "atm185" || flavorDef.id === "atm190" || flavorDef.id === "atm195" || flavorDef.id === "atm200" || flavorDef.id === "atm205" || flavorDef.id === "atm210" || flavorDef.id === "atm215" || flavorDef.id === "atm220" || flavorDef.id === "atm225" || flavorDef.id === "atm230" || flavorDef.id === "atm235" || flavorDef.id === "atm240" || flavorDef.id === "atm245" || flavorDef.id === "atm250" || flavorDef.id === "atm255" || flavorDef.id === "atm260" || flavorDef.id === "atm265" || flavorDef.id === "atm270" || flavorDef.id === "atm275" || flavorDef.id === "atm280" || flavorDef.id === "atm285" || flavorDef.id === "atm290" || flavorDef.id === "atm295" || flavorDef.id === "atm300" || flavorDef.id === "atm305" || flavorDef.id === "atm310" || flavorDef.id === "atm315" || flavorDef.id === "atm320" || flavorDef.id === "atm325" || flavorDef.id === "atm330" || flavorDef.id === "atm335" || flavorDef.id === "atm340" || flavorDef.id === "atm345" || flavorDef.id === "atm350" || flavorDef.id === "atm355" || flavorDef.id === "atm360" || flavorDef.id === "atm365" || flavorDef.id === "atm370" || flavorDef.id === "atm375" || flavorDef.id === "atm380" || flavorDef.id === "atm385" || flavorDef.id === "atm390" || flavorDef.id === "atm395" || flavorDef.id === "atm400" || flavorDef.id === "atm405" || flavorDef.id === "atm410" || flavorDef.id === "atm415" || flavorDef.id === "atm420" || flavorDef.id === "atm425" || flavorDef.id === "atm430" || flavorDef.id === "atm435" || flavorDef.id === "atm440" || flavorDef.id === "atm445" || flavorDef.id === "atm450" || flavorDef.id === "atm455" || flavorDef.id === "atm460" || flavorDef.id === "atm465" || flavorDef.id === "atm470" || flavorDef.id === "atm475" || flavorDef.id === "fx0" || flavorDef.id === "fx1" || flavorDef.id === "fx2" || flavorDef.id === "fx3" || flavorDef.id === "fx4" || flavorDef.id === "fx5" || flavorDef.id === "fx6" || flavorDef.id === "fx7" || flavorDef.id === "fx8" || flavorDef.id === "fx9" || flavorDef.id === "fx10" || flavorDef.id === "fx11" || flavorDef.id === "fx12" || flavorDef.id === "fx13" || flavorDef.id === "fx14" || flavorDef.id === "fx15" || flavorDef.id === "fx16" || flavorDef.id === "fx17" || flavorDef.id === "fx18" || flavorDef.id === "fx19" || flavorDef.id === "fx29" || flavorDef.id === "fx39" || flavorDef.id === "fx40" || flavorDef.id === "fx41" || flavorDef.id === "fx42" || flavorDef.id === "fx43" || flavorDef.id === "fx44" || flavorDef.id === "fx45" || flavorDef.id === "fx46" || flavorDef.id === "fx47" || flavorDef.id === "fx48" || flavorDef.id === "fx49" || flavorDef.id === "fx50" || flavorDef.id === "fx51" || flavorDef.id === "fx52" || flavorDef.id === "fx53" || flavorDef.id === "fx54" || flavorDef.id === "fx55" || flavorDef.id === "fx56" || flavorDef.id === "fx57" || flavorDef.id === "fx58" || flavorDef.id === "fx59" || flavorDef.id === "fx69" || flavorDef.id === "fx79" || flavorDef.id === "fx89" || flavorDef.id === "fx99" || flavorDef.id === "fx109" || flavorDef.id === "fx119" || flavorDef.id === "fx129" || flavorDef.id === "fx139" || flavorDef.id === "fx149" || flavorDef.id === "fx159" || flavorDef.id === "fx169" || flavorDef.id === "fx179" || flavorDef.id === "fx180" || flavorDef.id === "fx181" || flavorDef.id === "fx182" || flavorDef.id === "fx183" || flavorDef.id === "fx184" || flavorDef.id === "fx185" || flavorDef.id === "fx186" || flavorDef.id === "fx187" || flavorDef.id === "fx188" || flavorDef.id === "fx189" || flavorDef.id === "fx190" || flavorDef.id === "fx191" || flavorDef.id === "fx192" || flavorDef.id === "fx193" || flavorDef.id === "fx194" || flavorDef.id === "fx195" || flavorDef.id === "fx196" || flavorDef.id === "fx197" || flavorDef.id === "fx198" || flavorDef.id === "fx199" || flavorDef.id === "fx209" || flavorDef.id === "fx219" || flavorDef.id === "fx220" || flavorDef.id === "fx221" || flavorDef.id === "fx222" || flavorDef.id === "fx223" || flavorDef.id === "fx224" || flavorDef.id === "fx225" || flavorDef.id === "fx226" || flavorDef.id === "fx227" || flavorDef.id === "fx228" || flavorDef.id === "fx229" || flavorDef.id === "fx230" || flavorDef.id === "fx231" || flavorDef.id === "fx232" || flavorDef.id === "fx233" || flavorDef.id === "fx234" || flavorDef.id === "fx235" || flavorDef.id === "fx236" || flavorDef.id === "fx237" || flavorDef.id === "fx238" || flavorDef.id === "fx239" || flavorDef.id === "fx249" || flavorDef.id === "fx259" || flavorDef.id === "fx269" || flavorDef.id === "fx279" || flavorDef.id === "fx289" || flavorDef.id === "fx299" || flavorDef.id === "fx309" || flavorDef.id === "fx319" || flavorDef.id === "fx329" || flavorDef.id === "fx339" || flavorDef.id === "fx349" || flavorDef.id === "fx359" || flavorDef.id === "fx369" || flavorDef.id === "fx379" || flavorDef.id === "fx380" || flavorDef.id === "fx381" || flavorDef.id === "fx382" || flavorDef.id === "fx383" || flavorDef.id === "fx384" || flavorDef.id === "fx385" || flavorDef.id === "fx386" || flavorDef.id === "fx387" || flavorDef.id === "fx388" || flavorDef.id === "fx389" || flavorDef.id === "fx390" || flavorDef.id === "fx391" || flavorDef.id === "fx392" || flavorDef.id === "fx393" || flavorDef.id === "fx394" || flavorDef.id === "fx395" || flavorDef.id === "fx396" || flavorDef.id === "fx397" || flavorDef.id === "fx398" || flavorDef.id === "fx399" || flavorDef.id === "ht0" || flavorDef.id === "ht1" || flavorDef.id === "ht2" || flavorDef.id === "ht3" || flavorDef.id === "ht4" || flavorDef.id === "ht5" || flavorDef.id === "ht6" || flavorDef.id === "ht7" || flavorDef.id === "ht8" || flavorDef.id === "ht9" || flavorDef.id === "ht10" || flavorDef.id === "ht11" || flavorDef.id === "ht12" || flavorDef.id === "ht13" || flavorDef.id === "ht14" || flavorDef.id === "ht15" || flavorDef.id === "ht16" || flavorDef.id === "ht17" || flavorDef.id === "ht18" || flavorDef.id === "ht19" || flavorDef.id === "ht20" || flavorDef.id === "ht21" || flavorDef.id === "ht22" || flavorDef.id === "ht23" || flavorDef.id === "ht24" || flavorDef.id === "ht25" || flavorDef.id === "ht26" || flavorDef.id === "ht27" || flavorDef.id === "ht28" || flavorDef.id === "ht29" || flavorDef.id === "ht30" || flavorDef.id === "ht31" || flavorDef.id === "ht32" || flavorDef.id === "ht33" || flavorDef.id === "ht34" || flavorDef.id === "ht35" || flavorDef.id === "ht36" || flavorDef.id === "ht37" || flavorDef.id === "ht38" || flavorDef.id === "ht39" || flavorDef.id === "ht40" || flavorDef.id === "ht41" || flavorDef.id === "ht42" || flavorDef.id === "ht43" || flavorDef.id === "ht44" || flavorDef.id === "ht45" || flavorDef.id === "ht46" || flavorDef.id === "ht47" || flavorDef.id === "ht54" || flavorDef.id === "ht56" || flavorDef.id === "ht70" || flavorDef.id === "ht72" || flavorDef.id === "ht86" || flavorDef.id === "ht88" || flavorDef.id === "ht102" || flavorDef.id === "ht104" || flavorDef.id === "ht118" || flavorDef.id === "ht120" || flavorDef.id === "ht134" || flavorDef.id === "ht136" || flavorDef.id === "ht150" || flavorDef.id === "ht152" || flavorDef.id === "ht166" || flavorDef.id === "ht168" || flavorDef.id === "ht182" || flavorDef.id === "ht184" || flavorDef.id === "ht198" || flavorDef.id === "ht200" || flavorDef.id === "ht214" || flavorDef.id === "ht216" || flavorDef.id === "ht230" || flavorDef.id === "ht232" || flavorDef.id === "ht246" || flavorDef.id === "ht248" || flavorDef.id === "ht262" || flavorDef.id === "ht264" || flavorDef.id === "ht278" || flavorDef.id === "ht280" || flavorDef.id === "ht288" || flavorDef.id === "ht289" || flavorDef.id === "ht290" || flavorDef.id === "ht291" || flavorDef.id === "ht292" || flavorDef.id === "ht293" || flavorDef.id === "ht294" || flavorDef.id === "ht295" || flavorDef.id === "ht296" || flavorDef.id === "ht297" || flavorDef.id === "ht298" || flavorDef.id === "ht299" || flavorDef.id === "ht300" || flavorDef.id === "ht301" || flavorDef.id === "ht302" || flavorDef.id === "ht303" || flavorDef.id === "ht304" || flavorDef.id === "ht305" || flavorDef.id === "ht306" || flavorDef.id === "ht307" || flavorDef.id === "ht308" || flavorDef.id === "ht309" || flavorDef.id === "ht310" || flavorDef.id === "ht311" || flavorDef.id === "ht312" || flavorDef.id === "ht313" || flavorDef.id === "ht314" || flavorDef.id === "ht315" || flavorDef.id === "ht316" || flavorDef.id === "ht317" || flavorDef.id === "ht318" || flavorDef.id === "ht319" || flavorDef.id === "mn1" || flavorDef.id === "mn3" || flavorDef.id === "mn5" || flavorDef.id === "mn7" || flavorDef.id === "mn9" || flavorDef.id === "mn11" || flavorDef.id === "mn13" || flavorDef.id === "mn15" || flavorDef.id === "mn17" || flavorDef.id === "mn19" || flavorDef.id === "mn21" || flavorDef.id === "mn23" || flavorDef.id === "mn25" || flavorDef.id === "mn27" || flavorDef.id === "mn29" || flavorDef.id === "mn31" || flavorDef.id === "mn33" || flavorDef.id === "mn35" || flavorDef.id === "mn37" || flavorDef.id === "mn39" || flavorDef.id === "mn41" || flavorDef.id === "mn43" || flavorDef.id === "mn45" || flavorDef.id === "mn47" || flavorDef.id === "mn49" || flavorDef.id === "mn51" || flavorDef.id === "mn53" || flavorDef.id === "mn55" || flavorDef.id === "mn57" || flavorDef.id === "mn59" || flavorDef.id === "mn61" || flavorDef.id === "mn63" || flavorDef.id === "mn65" || flavorDef.id === "mn67" || flavorDef.id === "mn69" || flavorDef.id === "mn71" || flavorDef.id === "mn73" || flavorDef.id === "mn75" || flavorDef.id === "mn77" || flavorDef.id === "mn79" || flavorDef.id === "mn81" || flavorDef.id === "mn83" || flavorDef.id === "mn85" || flavorDef.id === "mn87" || flavorDef.id === "mn89" || flavorDef.id === "mn91" || flavorDef.id === "mn93" || flavorDef.id === "mn95" || flavorDef.id === "mn97" || flavorDef.id === "mn99" || flavorDef.id === "mn101" || flavorDef.id === "mn103" || flavorDef.id === "mn105" || flavorDef.id === "mn107" || flavorDef.id === "mn109" || flavorDef.id === "mn111" || flavorDef.id === "mn113" || flavorDef.id === "mn115" || flavorDef.id === "mn117" || flavorDef.id === "mn119" || flavorDef.id === "mn121" || flavorDef.id === "mn123" || flavorDef.id === "mn125" || flavorDef.id === "mn127" || flavorDef.id === "mn129" || flavorDef.id === "mn131" || flavorDef.id === "mn133" || flavorDef.id === "mn135" || flavorDef.id === "mn137" || flavorDef.id === "mn139" || flavorDef.id === "mn141" || flavorDef.id === "mn143" || flavorDef.id === "mn145" || flavorDef.id === "mn147" || flavorDef.id === "mn149" || flavorDef.id === "mn151" || flavorDef.id === "mn153" || flavorDef.id === "mn155" || flavorDef.id === "mn157" || flavorDef.id === "mn159" || flavorDef.id === "mn161" || flavorDef.id === "mn163" || flavorDef.id === "mn165" || flavorDef.id === "mn167" || flavorDef.id === "mn169" || flavorDef.id === "mn171" || flavorDef.id === "mn173" || flavorDef.id === "mn175" || flavorDef.id === "mn177" || flavorDef.id === "mn179" || flavorDef.id === "mn181" || flavorDef.id === "mn183" || flavorDef.id === "mn185" || flavorDef.id === "mn187" || flavorDef.id === "mn189" || flavorDef.id === "mn191" || flavorDef.id === "mn193" || flavorDef.id === "mn195" || flavorDef.id === "mn197" || flavorDef.id === "mn199" || flavorDef.id === "mn201" || flavorDef.id === "mn203" || flavorDef.id === "mn205" || flavorDef.id === "mn207" || flavorDef.id === "mn209" || flavorDef.id === "mn211" || flavorDef.id === "mn213" || flavorDef.id === "mn215" || flavorDef.id === "mn217" || flavorDef.id === "mn219" || flavorDef.id === "mn221" || flavorDef.id === "mn223" || flavorDef.id === "mn225" || flavorDef.id === "mn227" || flavorDef.id === "mn229" || flavorDef.id === "mn231" || flavorDef.id === "mn233" || flavorDef.id === "mn235" || flavorDef.id === "mn237" || flavorDef.id === "mn239" || flavorDef.id === "mn241" || flavorDef.id === "mn243" || flavorDef.id === "mn245" || flavorDef.id === "mn247" || flavorDef.id === "mn249" || flavorDef.id === "mn251" || flavorDef.id === "mn253" || flavorDef.id === "mn255" || flavorDef.id === "mn257" || flavorDef.id === "mn259" || flavorDef.id === "mn261" || flavorDef.id === "mn263" || flavorDef.id === "mn265" || flavorDef.id === "mn267" || flavorDef.id === "mn269" || flavorDef.id === "mn271" || flavorDef.id === "mn273" || flavorDef.id === "mn275" || flavorDef.id === "mn277" || flavorDef.id === "mn279" || flavorDef.id === "mn281" || flavorDef.id === "mn283" || flavorDef.id === "mn285" || flavorDef.id === "mn287" || flavorDef.id === "mn289" || flavorDef.id === "mn291" || flavorDef.id === "mn293" || flavorDef.id === "mn295" || flavorDef.id === "mn297" || flavorDef.id === "mn299" || flavorDef.id === "mn301" || flavorDef.id === "mn303" || flavorDef.id === "mn305" || flavorDef.id === "mn307" || flavorDef.id === "mn309" || flavorDef.id === "mn311" || flavorDef.id === "mn313" || flavorDef.id === "mn315" || flavorDef.id === "mn317" || flavorDef.id === "mn319")) {
+    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube" || flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron" || flavorDef.id === "pistachio" || flavorDef.id === "chestnut" || flavorDef.id === "cinnamon" || flavorDef.id === "clove" || flavorDef.id === "star_anise" || flavorDef.id === "nutmeg" || flavorDef.id === "goji" || flavorDef.id === "bay_leaf" || flavorDef.id === "tarragon" || flavorDef.id === "date_fruit" || flavorDef.id === "hyssop" || flavorDef.id === "lovage" || flavorDef.id === "anise_seed" || flavorDef.id === "turmeric" || flavorDef.id === "allspice" || flavorDef.id === "mace" || flavorDef.id === "caraway" || flavorDef.id === "cumin" || flavorDef.id === "fenugreek" || flavorDef.id === "ajwain" || flavorDef.id === "myrtle" || flavorDef.id === "chicory" || flavorDef.id === "nettle" || flavorDef.id === "yarrow" || flavorDef.id === "woodruff" || flavorDef.id === "valerian" || flavorDef.id === "meadowsweet" || flavorDef.id === "angelica" || flavorDef.id === "comfrey" || flavorDef.id === "selfheal" || flavorDef.id === "skullcap" || flavorDef.id === "linden" || flavorDef.id === "horehound" || flavorDef.id === "motherwort" || flavorDef.id === "betony" || flavorDef.id === "solomon_seal" || flavorDef.id === "wormwood" || flavorDef.id === "valerian_root" || flavorDef.id === "avens" || flavorDef.id === "tormentil" || flavorDef.id === "figwort" || flavorDef.id === "ground_ivy" || flavorDef.id === "self_heal_spike" || flavorDef.id === "teasel" || flavorDef.id === "burdock" || flavorDef.id === "hawthorn_berry" || flavorDef.id === "rosehip" || flavorDef.id === "sloe" || flavorDef.id === "wintercress" || flavorDef.id === "medlar" || flavorDef.id === "quince" || flavorDef.id === "aronia" || flavorDef.id === "flax_seed" || flavorDef.id === "hemp_seed" || flavorDef.id === "pumpkin_seed" || flavorDef.id === "sesame_black" || flavorDef.id === "sesame_white" || flavorDef.id === "lapacho" || flavorDef.id === "sassafras" || flavorDef.id === "birch_bark" || flavorDef.id === "pine_resin" || flavorDef.id === "tuberose" || flavorDef.id === "cardamom_green" || flavorDef.id === "cardamom_black" || flavorDef.id === "long_pepper" || flavorDef.id === "grains_of_paradise" || flavorDef.id === "cinnamon_leaf" || flavorDef.id === "clove_bud" || flavorDef.id === "allspice_leaf" || flavorDef.id === "reindeer_moss" || flavorDef.id === "iceland_moss" || flavorDef.id === "oak_moss" || flavorDef.id === "usnea" || flavorDef.id === "chaga" || flavorDef.id === "reishi" || flavorDef.id === "lion_mane" || flavorDef.id === "maitake" || flavorDef.id === "jackfruit_seed" || flavorDef.id === "rowan_jelly" || flavorDef.id === "quince_paste" || flavorDef.id === "yuzu_fresh" || flavorDef.id === "ponkan" || flavorDef.id === "dekopon" || flavorDef.id === "hassaku" || flavorDef.id === "yuzu_kosho" || flavorDef.id === "edelweiss" || flavorDef.id === "juniper_berry" || flavorDef.id === "fir_needle" || flavorDef.id === "myrtle_berry" || flavorDef.id === "mastic" || flavorDef.id === "saffron_crocus" || flavorDef.id === "buckwheat_honey" || flavorDef.id === "chestnut_honey" || flavorDef.id === "propolis" || flavorDef.id === "royal_jelly" || flavorDef.id === "mead_herb" || flavorDef.id === "cacao_nibs" || flavorDef.id === "cacao_husk" || flavorDef.id === "carob" || flavorDef.id === "maca" || flavorDef.id === "schisandra" || flavorDef.id === "hojicha" || flavorDef.id === "genmaicha" || flavorDef.id === "sobacha" || flavorDef.id === "job_tears" || flavorDef.id === "rose_hip_tea" || flavorDef.id === "camellia_fresh" || flavorDef.id === "lotus_seed_fresh" || flavorDef.id === "plum_blossom" || flavorDef.id === "wintersweet" || flavorDef.id === "ginkgo_leaf_fresh" || flavorDef.id === "ginkgo_nut_fresh" || flavorDef.id === "osmanthus_wine" || flavorDef.id === "crocus" || flavorDef.id === "snowdrop" || flavorDef.id === "crocus_yellow" || flavorDef.id === "hyacinth" || flavorDef.id === "daffodil" || flavorDef.id === "moonflower" || flavorDef.id === "magnolia_bark" || flavorDef.id === "eucommia" || flavorDef.id === "astragalus" || flavorDef.id === "codonopsis" || flavorDef.id === "rehmannia" || flavorDef.id === "polygonatum" || flavorDef.id === "ophiopogon" || flavorDef.id === "angelica_arch" || flavorDef.id === "wood_avense" || flavorDef.id === "ephedra" || flavorDef.id === "boldo" || flavorDef.id === "cupuacu_butter" || flavorDef.id === "sutherlandia" || flavorDef.id === "citron" || flavorDef.id === "bergamot_peel" || flavorDef.id === "labrador_tea" || flavorDef.id === "arctic_willow" || flavorDef.id === "kinako" || flavorDef.id === "kuromitsu" || flavorDef.id === "yuzu_peel" || flavorDef.id === "ume_blossom" || flavorDef.id === "vanilla_bean" || flavorDef.id === "tonka_bean" || flavorDef.id === "hazelnut_flower" || flavorDef.id === "omija" || flavorDef.id === "yuja" || flavorDef.id === "ssanghwa" || flavorDef.id === "jujube_tea" || flavorDef.id === "ginger_tea_kr" || flavorDef.id === "kava" || flavorDef.id === "tieguanyin" || flavorDef.id === "dahongpao" || flavorDef.id === "puer_ripe" || flavorDef.id === "shoumei" || flavorDef.id === "burdock_root" || flavorDef.id === "dandelion_root" || flavorDef.id === "chicory_root" || flavorDef.id === "holly_leaf" || flavorDef.id === "ivy_berry" || flavorDef.id === "mistletoe" || flavorDef.id === "yew_berry" || flavorDef.id === "aconite" || flavorDef.id === "helleborus" || flavorDef.id === "christmas_rose" || flavorDef.id === "black_horehound" || flavorDef.id === "white_horehound" || flavorDef.id === "skullcap_fresh" || flavorDef.id === "baikal_skullcap" || flavorDef.id === "ground_ivy_fresh" || flavorDef.id === "savory_winter" || flavorDef.id === "jerusalem_artichoke" || flavorDef.id === "topinambur" || flavorDef.id === "figwort_fresh" || flavorDef.id === "scrophularia" || flavorDef.id === "cymbidium" || flavorDef.id === "maidenhair" || flavorDef.id === "sword_fern" || flavorDef.id === "japanese_painted" || flavorDef.id === "royal_fern" || flavorDef.id === "sensitive_fern" || flavorDef.id === "fiddlehead" || flavorDef.id === "moonwort" || flavorDef.id === "blue_fescue" || flavorDef.id === "hakonechloa" || flavorDef.id === "carex_buch" || flavorDef.id === "juncus" || flavorDef.id === "bamboo_moso" || flavorDef.id === "arrow_bamboo" || flavorDef.id === "aloe_vera_fl" || flavorDef.id === "string_pearls" || flavorDef.id === "burros_tail" || flavorDef.id === "honeysuckle_blue" || flavorDef.id === "arctic_berry" || flavorDef.id === "schisandra_chin" || flavorDef.id === "schisandra_leaf" || flavorDef.id === "yam_leaf" || flavorDef.id === "chinese_yam" || flavorDef.id === "linseed_oil" || flavorDef.id === "nettle_root" || flavorDef.id === "alpine_thyme" || flavorDef.id === "alpine_sage" || flavorDef.id === "alpine_oregano" || flavorDef.id === "alpine_basil" || flavorDef.id === "alpine_mint" || flavorDef.id === "alpine_lavender" || flavorDef.id === "alpine_tarragon" || flavorDef.id === "alpine_parsley" || flavorDef.id === "alpine_fennel" || flavorDef.id === "coastal_rosemary" || flavorDef.id === "coastal_fennel" || flavorDef.id === "coastal_lovage" || flavorDef.id === "meadow_rosemary" || flavorDef.id === "meadow_fennel" || flavorDef.id === "meadow_lovage" || flavorDef.id === "woodland_rosemary" || flavorDef.id === "garden_rosemary" || flavorDef.id === "dwarf_rosemary" || flavorDef.id === "dwarf_tarragon" || flavorDef.id === "giant_thyme" || flavorDef.id === "giant_sage" || flavorDef.id === "giant_mint" || flavorDef.id === "giant_lavender" || flavorDef.id === "giant_rosemary" || flavorDef.id === "giant_fennel" || flavorDef.id === "variegated_sage" || flavorDef.id === "variegated_rosemary" || flavorDef.id === "variegated_tarragon" || flavorDef.id === "variegated_fennel" || flavorDef.id === "variegated_lovage" || flavorDef.id === "golden_sage" || flavorDef.id === "golden_rosemary" || flavorDef.id === "golden_tarragon" || flavorDef.id === "golden_fennel" || flavorDef.id === "golden_lovage" || flavorDef.id === "silver_sage" || flavorDef.id === "silver_rosemary" || flavorDef.id === "silver_tarragon" || flavorDef.id === "silver_fennel" || flavorDef.id === "silver_lovage" || flavorDef.id === "purple_sage" || flavorDef.id === "purple_rosemary" || flavorDef.id === "purple_tarragon" || flavorDef.id === "purple_fennel" || flavorDef.id === "purple_lovage" || flavorDef.id === "red_sage" || flavorDef.id === "red_rosemary" || flavorDef.id === "red_tarragon" || flavorDef.id === "red_fennel" || flavorDef.id === "red_lovage" || flavorDef.id === "white_rosemary" || flavorDef.id === "white_tarragon" || flavorDef.id === "white_fennel" || flavorDef.id === "white_lovage" || flavorDef.id === "pink_sage" || flavorDef.id === "pink_rosemary" || flavorDef.id === "pink_tarragon" || flavorDef.id === "pink_fennel" || flavorDef.id === "pink_lovage" || flavorDef.id === "blue_sage" || flavorDef.id === "blue_rosemary" || flavorDef.id === "blue_tarragon" || flavorDef.id === "blue_fennel" || flavorDef.id === "blue_lovage" || flavorDef.id === "yellow_sage" || flavorDef.id === "yellow_rosemary" || flavorDef.id === "yellow_tarragon" || flavorDef.id === "yellow_fennel" || flavorDef.id === "yellow_lovage" || flavorDef.id === "orange_sage" || flavorDef.id === "orange_rosemary" || flavorDef.id === "orange_tarragon" || flavorDef.id === "orange_fennel" || flavorDef.id === "orange_lovage" || flavorDef.id === "r0_e58c97e5a283" || flavorDef.id === "r5_e58c97e5a283" || flavorDef.id === "r10_e58c97e5a283" || flavorDef.id === "r15_e58c97e5a283" || flavorDef.id === "r20_e58c97e5a283" || flavorDef.id === "r25_e58c97e5a283" || flavorDef.id === "r30_e58c97e5a283" || flavorDef.id === "r35_e58c97e5a283" || flavorDef.id === "r40_e58c97e5a283" || flavorDef.id === "r45_e58c97e5a283" || flavorDef.id === "r50_e58c97e5a283" || flavorDef.id === "r55_e58c97e5a283" || flavorDef.id === "r60_e58c97e5a283" || flavorDef.id === "r65_e58c97e5a283" || flavorDef.id === "r70_e58c97e5a283" || flavorDef.id === "r75_e58c97e5a283" || flavorDef.id === "r80_e58c97e5a283" || flavorDef.id === "r85_e58c97e5a283" || flavorDef.id === "r90_e58c97e5a283" || flavorDef.id === "r95_e58c97e5a283" || flavorDef.id === "r100_e58c97e5a283" || flavorDef.id === "r105_e58d97e5a283" || flavorDef.id === "r110_e58d97e5a283" || flavorDef.id === "r115_e58d97e5a283" || flavorDef.id === "r120_e58d97e5a283" || flavorDef.id === "r125_e58d97e5a283" || flavorDef.id === "r130_e58d97e5a283" || flavorDef.id === "r135_e58d97e5a283" || flavorDef.id === "r140_e58d97e5a283" || flavorDef.id === "r145_e58d97e5a283" || flavorDef.id === "r150_e58d97e5a283" || flavorDef.id === "r155_e58d97e5a283" || flavorDef.id === "r160_e58d97e5a283" || flavorDef.id === "r165_e58d97e5a283" || flavorDef.id === "r170_e58d97e5a283" || flavorDef.id === "r175_e58d97e5a283" || flavorDef.id === "r180_e58d97e5a283" || flavorDef.id === "r185_e58d97e5a283" || flavorDef.id === "r190_e58d97e5a283" || flavorDef.id === "r195_e58d97e5a283" || flavorDef.id === "loc0" || flavorDef.id === "loc4" || flavorDef.id === "loc8" || flavorDef.id === "loc12" || flavorDef.id === "loc16" || flavorDef.id === "loc20" || flavorDef.id === "loc24" || flavorDef.id === "loc28" || flavorDef.id === "loc32" || flavorDef.id === "loc36" || flavorDef.id === "loc40" || flavorDef.id === "loc44" || flavorDef.id === "loc48" || flavorDef.id === "loc52" || flavorDef.id === "loc56" || flavorDef.id === "loc60" || flavorDef.id === "loc64" || flavorDef.id === "loc68" || flavorDef.id === "loc72" || flavorDef.id === "loc76" || flavorDef.id === "loc80" || flavorDef.id === "loc84" || flavorDef.id === "loc88" || flavorDef.id === "loc92" || flavorDef.id === "loc96" || flavorDef.id === "loc100" || flavorDef.id === "loc104" || flavorDef.id === "loc108" || flavorDef.id === "loc112" || flavorDef.id === "loc116" || flavorDef.id === "loc120" || flavorDef.id === "loc124" || flavorDef.id === "loc128" || flavorDef.id === "loc132" || flavorDef.id === "loc136" || flavorDef.id === "loc140" || flavorDef.id === "loc144" || flavorDef.id === "loc148" || flavorDef.id === "loc152" || flavorDef.id === "loc156" || flavorDef.id === "loc160" || flavorDef.id === "loc164" || flavorDef.id === "loc168" || flavorDef.id === "loc172" || flavorDef.id === "loc176" || flavorDef.id === "loc180" || flavorDef.id === "loc184" || flavorDef.id === "loc188" || flavorDef.id === "loc192" || flavorDef.id === "loc196" || flavorDef.id === "loc200" || flavorDef.id === "loc204" || flavorDef.id === "loc208" || flavorDef.id === "loc212" || flavorDef.id === "loc216" || flavorDef.id === "loc220" || flavorDef.id === "loc224" || flavorDef.id === "loc228" || flavorDef.id === "loc232" || flavorDef.id === "loc236" || flavorDef.id === "loc240" || flavorDef.id === "loc244" || flavorDef.id === "loc248" || flavorDef.id === "loc252" || flavorDef.id === "loc256" || flavorDef.id === "loc260" || flavorDef.id === "loc264" || flavorDef.id === "loc268" || flavorDef.id === "loc272" || flavorDef.id === "loc276" || flavorDef.id === "loc280" || flavorDef.id === "loc284" || flavorDef.id === "loc288" || flavorDef.id === "loc292" || flavorDef.id === "loc296" || flavorDef.id === "loc300" || flavorDef.id === "loc304" || flavorDef.id === "loc308" || flavorDef.id === "loc312" || flavorDef.id === "loc316" || flavorDef.id === "loc320" || flavorDef.id === "loc324" || flavorDef.id === "loc328" || flavorDef.id === "loc332" || flavorDef.id === "loc336" || flavorDef.id === "loc340" || flavorDef.id === "loc344" || flavorDef.id === "loc348" || flavorDef.id === "loc352" || flavorDef.id === "loc356" || flavorDef.id === "loc360" || flavorDef.id === "loc364" || flavorDef.id === "loc368" || flavorDef.id === "loc372" || flavorDef.id === "loc376" || flavorDef.id === "loc380" || flavorDef.id === "loc384" || flavorDef.id === "loc388" || flavorDef.id === "loc392" || flavorDef.id === "loc396" || flavorDef.id === "loc400" || flavorDef.id === "loc404" || flavorDef.id === "loc408" || flavorDef.id === "loc412" || flavorDef.id === "loc416" || flavorDef.id === "loc420" || flavorDef.id === "loc424" || flavorDef.id === "loc428" || flavorDef.id === "loc432" || flavorDef.id === "loc436" || flavorDef.id === "loc440" || flavorDef.id === "loc444" || flavorDef.id === "loc448" || flavorDef.id === "loc452" || flavorDef.id === "loc456" || flavorDef.id === "loc460" || flavorDef.id === "loc464" || flavorDef.id === "loc468" || flavorDef.id === "loc472" || flavorDef.id === "loc476" || flavorDef.id === "atm0" || flavorDef.id === "atm5" || flavorDef.id === "atm10" || flavorDef.id === "atm15" || flavorDef.id === "atm20" || flavorDef.id === "atm25" || flavorDef.id === "atm30" || flavorDef.id === "atm35" || flavorDef.id === "atm40" || flavorDef.id === "atm45" || flavorDef.id === "atm50" || flavorDef.id === "atm55" || flavorDef.id === "atm60" || flavorDef.id === "atm65" || flavorDef.id === "atm70" || flavorDef.id === "atm75" || flavorDef.id === "atm80" || flavorDef.id === "atm85" || flavorDef.id === "atm90" || flavorDef.id === "atm95" || flavorDef.id === "atm100" || flavorDef.id === "atm105" || flavorDef.id === "atm110" || flavorDef.id === "atm115" || flavorDef.id === "atm120" || flavorDef.id === "atm125" || flavorDef.id === "atm130" || flavorDef.id === "atm135" || flavorDef.id === "atm140" || flavorDef.id === "atm145" || flavorDef.id === "atm150" || flavorDef.id === "atm155" || flavorDef.id === "atm160" || flavorDef.id === "atm165" || flavorDef.id === "atm170" || flavorDef.id === "atm175" || flavorDef.id === "atm180" || flavorDef.id === "atm185" || flavorDef.id === "atm190" || flavorDef.id === "atm195" || flavorDef.id === "atm200" || flavorDef.id === "atm205" || flavorDef.id === "atm210" || flavorDef.id === "atm215" || flavorDef.id === "atm220" || flavorDef.id === "atm225" || flavorDef.id === "atm230" || flavorDef.id === "atm235" || flavorDef.id === "atm240" || flavorDef.id === "atm245" || flavorDef.id === "atm250" || flavorDef.id === "atm255" || flavorDef.id === "atm260" || flavorDef.id === "atm265" || flavorDef.id === "atm270" || flavorDef.id === "atm275" || flavorDef.id === "atm280" || flavorDef.id === "atm285" || flavorDef.id === "atm290" || flavorDef.id === "atm295" || flavorDef.id === "atm300" || flavorDef.id === "atm305" || flavorDef.id === "atm310" || flavorDef.id === "atm315" || flavorDef.id === "atm320" || flavorDef.id === "atm325" || flavorDef.id === "atm330" || flavorDef.id === "atm335" || flavorDef.id === "atm340" || flavorDef.id === "atm345" || flavorDef.id === "atm350" || flavorDef.id === "atm355" || flavorDef.id === "atm360" || flavorDef.id === "atm365" || flavorDef.id === "atm370" || flavorDef.id === "atm375" || flavorDef.id === "atm380" || flavorDef.id === "atm385" || flavorDef.id === "atm390" || flavorDef.id === "atm395" || flavorDef.id === "atm400" || flavorDef.id === "atm405" || flavorDef.id === "atm410" || flavorDef.id === "atm415" || flavorDef.id === "atm420" || flavorDef.id === "atm425" || flavorDef.id === "atm430" || flavorDef.id === "atm435" || flavorDef.id === "atm440" || flavorDef.id === "atm445" || flavorDef.id === "atm450" || flavorDef.id === "atm455" || flavorDef.id === "atm460" || flavorDef.id === "atm465" || flavorDef.id === "atm470" || flavorDef.id === "atm475" || flavorDef.id === "fx0" || flavorDef.id === "fx1" || flavorDef.id === "fx2" || flavorDef.id === "fx3" || flavorDef.id === "fx4" || flavorDef.id === "fx5" || flavorDef.id === "fx6" || flavorDef.id === "fx7" || flavorDef.id === "fx8" || flavorDef.id === "fx9" || flavorDef.id === "fx10" || flavorDef.id === "fx11" || flavorDef.id === "fx12" || flavorDef.id === "fx13" || flavorDef.id === "fx14" || flavorDef.id === "fx15" || flavorDef.id === "fx16" || flavorDef.id === "fx17" || flavorDef.id === "fx18" || flavorDef.id === "fx19" || flavorDef.id === "fx29" || flavorDef.id === "fx39" || flavorDef.id === "fx40" || flavorDef.id === "fx41" || flavorDef.id === "fx42" || flavorDef.id === "fx43" || flavorDef.id === "fx44" || flavorDef.id === "fx45" || flavorDef.id === "fx46" || flavorDef.id === "fx47" || flavorDef.id === "fx48" || flavorDef.id === "fx49" || flavorDef.id === "fx50" || flavorDef.id === "fx51" || flavorDef.id === "fx52" || flavorDef.id === "fx53" || flavorDef.id === "fx54" || flavorDef.id === "fx55" || flavorDef.id === "fx56" || flavorDef.id === "fx57" || flavorDef.id === "fx58" || flavorDef.id === "fx59" || flavorDef.id === "fx69" || flavorDef.id === "fx79" || flavorDef.id === "fx89" || flavorDef.id === "fx99" || flavorDef.id === "fx109" || flavorDef.id === "fx119" || flavorDef.id === "fx129" || flavorDef.id === "fx139" || flavorDef.id === "fx149" || flavorDef.id === "fx159" || flavorDef.id === "fx169" || flavorDef.id === "fx179" || flavorDef.id === "fx180" || flavorDef.id === "fx181" || flavorDef.id === "fx182" || flavorDef.id === "fx183" || flavorDef.id === "fx184" || flavorDef.id === "fx185" || flavorDef.id === "fx186" || flavorDef.id === "fx187" || flavorDef.id === "fx188" || flavorDef.id === "fx189" || flavorDef.id === "fx190" || flavorDef.id === "fx191" || flavorDef.id === "fx192" || flavorDef.id === "fx193" || flavorDef.id === "fx194" || flavorDef.id === "fx195" || flavorDef.id === "fx196" || flavorDef.id === "fx197" || flavorDef.id === "fx198" || flavorDef.id === "fx199" || flavorDef.id === "fx209" || flavorDef.id === "fx219" || flavorDef.id === "fx220" || flavorDef.id === "fx221" || flavorDef.id === "fx222" || flavorDef.id === "fx223" || flavorDef.id === "fx224" || flavorDef.id === "fx225" || flavorDef.id === "fx226" || flavorDef.id === "fx227" || flavorDef.id === "fx228" || flavorDef.id === "fx229" || flavorDef.id === "fx230" || flavorDef.id === "fx231" || flavorDef.id === "fx232" || flavorDef.id === "fx233" || flavorDef.id === "fx234" || flavorDef.id === "fx235" || flavorDef.id === "fx236" || flavorDef.id === "fx237" || flavorDef.id === "fx238" || flavorDef.id === "fx239" || flavorDef.id === "fx249" || flavorDef.id === "fx259" || flavorDef.id === "fx269" || flavorDef.id === "fx279" || flavorDef.id === "fx289" || flavorDef.id === "fx299" || flavorDef.id === "fx309" || flavorDef.id === "fx319" || flavorDef.id === "fx329" || flavorDef.id === "fx339" || flavorDef.id === "fx349" || flavorDef.id === "fx359" || flavorDef.id === "fx369" || flavorDef.id === "fx379" || flavorDef.id === "fx380" || flavorDef.id === "fx381" || flavorDef.id === "fx382" || flavorDef.id === "fx383" || flavorDef.id === "fx384" || flavorDef.id === "fx385" || flavorDef.id === "fx386" || flavorDef.id === "fx387" || flavorDef.id === "fx388" || flavorDef.id === "fx389" || flavorDef.id === "fx390" || flavorDef.id === "fx391" || flavorDef.id === "fx392" || flavorDef.id === "fx393" || flavorDef.id === "fx394" || flavorDef.id === "fx395" || flavorDef.id === "fx396" || flavorDef.id === "fx397" || flavorDef.id === "fx398" || flavorDef.id === "fx399" || flavorDef.id === "ht0" || flavorDef.id === "ht1" || flavorDef.id === "ht2" || flavorDef.id === "ht3" || flavorDef.id === "ht4" || flavorDef.id === "ht5" || flavorDef.id === "ht6" || flavorDef.id === "ht7" || flavorDef.id === "ht8" || flavorDef.id === "ht9" || flavorDef.id === "ht10" || flavorDef.id === "ht11" || flavorDef.id === "ht12" || flavorDef.id === "ht13" || flavorDef.id === "ht14" || flavorDef.id === "ht15" || flavorDef.id === "ht16" || flavorDef.id === "ht17" || flavorDef.id === "ht18" || flavorDef.id === "ht19" || flavorDef.id === "ht20" || flavorDef.id === "ht21" || flavorDef.id === "ht22" || flavorDef.id === "ht23" || flavorDef.id === "ht24" || flavorDef.id === "ht25" || flavorDef.id === "ht26" || flavorDef.id === "ht27" || flavorDef.id === "ht28" || flavorDef.id === "ht29" || flavorDef.id === "ht30" || flavorDef.id === "ht31" || flavorDef.id === "ht32" || flavorDef.id === "ht33" || flavorDef.id === "ht34" || flavorDef.id === "ht35" || flavorDef.id === "ht36" || flavorDef.id === "ht37" || flavorDef.id === "ht38" || flavorDef.id === "ht39" || flavorDef.id === "ht40" || flavorDef.id === "ht41" || flavorDef.id === "ht42" || flavorDef.id === "ht43" || flavorDef.id === "ht44" || flavorDef.id === "ht45" || flavorDef.id === "ht46" || flavorDef.id === "ht47" || flavorDef.id === "ht54" || flavorDef.id === "ht56" || flavorDef.id === "ht70" || flavorDef.id === "ht72" || flavorDef.id === "ht86" || flavorDef.id === "ht88" || flavorDef.id === "ht102" || flavorDef.id === "ht104" || flavorDef.id === "ht118" || flavorDef.id === "ht120" || flavorDef.id === "ht134" || flavorDef.id === "ht136" || flavorDef.id === "ht150" || flavorDef.id === "ht152" || flavorDef.id === "ht166" || flavorDef.id === "ht168" || flavorDef.id === "ht182" || flavorDef.id === "ht184" || flavorDef.id === "ht198" || flavorDef.id === "ht200" || flavorDef.id === "ht214" || flavorDef.id === "ht216" || flavorDef.id === "ht230" || flavorDef.id === "ht232" || flavorDef.id === "ht246" || flavorDef.id === "ht248" || flavorDef.id === "ht262" || flavorDef.id === "ht264" || flavorDef.id === "ht278" || flavorDef.id === "ht280" || flavorDef.id === "ht288" || flavorDef.id === "ht289" || flavorDef.id === "ht290" || flavorDef.id === "ht291" || flavorDef.id === "ht292" || flavorDef.id === "ht293" || flavorDef.id === "ht294" || flavorDef.id === "ht295" || flavorDef.id === "ht296" || flavorDef.id === "ht297" || flavorDef.id === "ht298" || flavorDef.id === "ht299" || flavorDef.id === "ht300" || flavorDef.id === "ht301" || flavorDef.id === "ht302" || flavorDef.id === "ht303" || flavorDef.id === "ht304" || flavorDef.id === "ht305" || flavorDef.id === "ht306" || flavorDef.id === "ht307" || flavorDef.id === "ht308" || flavorDef.id === "ht309" || flavorDef.id === "ht310" || flavorDef.id === "ht311" || flavorDef.id === "ht312" || flavorDef.id === "ht313" || flavorDef.id === "ht314" || flavorDef.id === "ht315" || flavorDef.id === "ht316" || flavorDef.id === "ht317" || flavorDef.id === "ht318" || flavorDef.id === "ht319" || flavorDef.id === "mn1" || flavorDef.id === "mn3" || flavorDef.id === "mn5" || flavorDef.id === "mn7" || flavorDef.id === "mn9" || flavorDef.id === "mn11" || flavorDef.id === "mn13" || flavorDef.id === "mn15" || flavorDef.id === "mn17" || flavorDef.id === "mn19" || flavorDef.id === "mn21" || flavorDef.id === "mn23" || flavorDef.id === "mn25" || flavorDef.id === "mn27" || flavorDef.id === "mn29" || flavorDef.id === "mn31" || flavorDef.id === "mn33" || flavorDef.id === "mn35" || flavorDef.id === "mn37" || flavorDef.id === "mn39" || flavorDef.id === "mn41" || flavorDef.id === "mn43" || flavorDef.id === "mn45" || flavorDef.id === "mn47" || flavorDef.id === "mn49" || flavorDef.id === "mn51" || flavorDef.id === "mn53" || flavorDef.id === "mn55" || flavorDef.id === "mn57" || flavorDef.id === "mn59" || flavorDef.id === "mn61" || flavorDef.id === "mn63" || flavorDef.id === "mn65" || flavorDef.id === "mn67" || flavorDef.id === "mn69" || flavorDef.id === "mn71" || flavorDef.id === "mn73" || flavorDef.id === "mn75" || flavorDef.id === "mn77" || flavorDef.id === "mn79" || flavorDef.id === "mn81" || flavorDef.id === "mn83" || flavorDef.id === "mn85" || flavorDef.id === "mn87" || flavorDef.id === "mn89" || flavorDef.id === "mn91" || flavorDef.id === "mn93" || flavorDef.id === "mn95" || flavorDef.id === "mn97" || flavorDef.id === "mn99" || flavorDef.id === "mn101" || flavorDef.id === "mn103" || flavorDef.id === "mn105" || flavorDef.id === "mn107" || flavorDef.id === "mn109" || flavorDef.id === "mn111" || flavorDef.id === "mn113" || flavorDef.id === "mn115" || flavorDef.id === "mn117" || flavorDef.id === "mn119" || flavorDef.id === "mn121" || flavorDef.id === "mn123" || flavorDef.id === "mn125" || flavorDef.id === "mn127" || flavorDef.id === "mn129" || flavorDef.id === "mn131" || flavorDef.id === "mn133" || flavorDef.id === "mn135" || flavorDef.id === "mn137" || flavorDef.id === "mn139" || flavorDef.id === "mn141" || flavorDef.id === "mn143" || flavorDef.id === "mn145" || flavorDef.id === "mn147" || flavorDef.id === "mn149" || flavorDef.id === "mn151" || flavorDef.id === "mn153" || flavorDef.id === "mn155" || flavorDef.id === "mn157" || flavorDef.id === "mn159" || flavorDef.id === "mn161" || flavorDef.id === "mn163" || flavorDef.id === "mn165" || flavorDef.id === "mn167" || flavorDef.id === "mn169" || flavorDef.id === "mn171" || flavorDef.id === "mn173" || flavorDef.id === "mn175" || flavorDef.id === "mn177" || flavorDef.id === "mn179" || flavorDef.id === "mn181" || flavorDef.id === "mn183" || flavorDef.id === "mn185" || flavorDef.id === "mn187" || flavorDef.id === "mn189" || flavorDef.id === "mn191" || flavorDef.id === "mn193" || flavorDef.id === "mn195" || flavorDef.id === "mn197" || flavorDef.id === "mn199" || flavorDef.id === "mn201" || flavorDef.id === "mn203" || flavorDef.id === "mn205" || flavorDef.id === "mn207" || flavorDef.id === "mn209" || flavorDef.id === "mn211" || flavorDef.id === "mn213" || flavorDef.id === "mn215" || flavorDef.id === "mn217" || flavorDef.id === "mn219" || flavorDef.id === "mn221" || flavorDef.id === "mn223" || flavorDef.id === "mn225" || flavorDef.id === "mn227" || flavorDef.id === "mn229" || flavorDef.id === "mn231" || flavorDef.id === "mn233" || flavorDef.id === "mn235" || flavorDef.id === "mn237" || flavorDef.id === "mn239" || flavorDef.id === "mn241" || flavorDef.id === "mn243" || flavorDef.id === "mn245" || flavorDef.id === "mn247" || flavorDef.id === "mn249" || flavorDef.id === "mn251" || flavorDef.id === "mn253" || flavorDef.id === "mn255" || flavorDef.id === "mn257" || flavorDef.id === "mn259" || flavorDef.id === "mn261" || flavorDef.id === "mn263" || flavorDef.id === "mn265" || flavorDef.id === "mn267" || flavorDef.id === "mn269" || flavorDef.id === "mn271" || flavorDef.id === "mn273" || flavorDef.id === "mn275" || flavorDef.id === "mn277" || flavorDef.id === "mn279" || flavorDef.id === "mn281" || flavorDef.id === "mn283" || flavorDef.id === "mn285" || flavorDef.id === "mn287" || flavorDef.id === "mn289" || flavorDef.id === "mn291" || flavorDef.id === "mn293" || flavorDef.id === "mn295" || flavorDef.id === "mn297" || flavorDef.id === "mn299" || flavorDef.id === "mn301" || flavorDef.id === "mn303" || flavorDef.id === "mn305" || flavorDef.id === "mn307" || flavorDef.id === "mn309" || flavorDef.id === "mn311" || flavorDef.id === "mn313" || flavorDef.id === "mn315" || flavorDef.id === "mn317" || flavorDef.id === "mn319" || flavorDef.id === "wx1" || flavorDef.id === "wx3" || flavorDef.id === "wx5" || flavorDef.id === "wx7" || flavorDef.id === "wx9" || flavorDef.id === "wx11" || flavorDef.id === "wx13" || flavorDef.id === "wx15" || flavorDef.id === "wx17" || flavorDef.id === "wx19" || flavorDef.id === "wx21" || flavorDef.id === "wx23" || flavorDef.id === "wx25" || flavorDef.id === "wx27" || flavorDef.id === "wx29" || flavorDef.id === "wx31" || flavorDef.id === "wx33" || flavorDef.id === "wx35" || flavorDef.id === "wx37" || flavorDef.id === "wx39" || flavorDef.id === "wx41" || flavorDef.id === "wx43" || flavorDef.id === "wx45" || flavorDef.id === "wx47" || flavorDef.id === "wx49" || flavorDef.id === "wx51" || flavorDef.id === "wx53" || flavorDef.id === "wx55" || flavorDef.id === "wx57" || flavorDef.id === "wx59" || flavorDef.id === "wx61" || flavorDef.id === "wx63" || flavorDef.id === "wx65" || flavorDef.id === "wx67" || flavorDef.id === "wx69" || flavorDef.id === "wx71" || flavorDef.id === "wx73" || flavorDef.id === "wx75" || flavorDef.id === "wx77" || flavorDef.id === "wx79" || flavorDef.id === "wx81" || flavorDef.id === "wx83" || flavorDef.id === "wx85" || flavorDef.id === "wx87" || flavorDef.id === "wx89" || flavorDef.id === "wx91" || flavorDef.id === "wx93" || flavorDef.id === "wx95" || flavorDef.id === "wx97" || flavorDef.id === "wx99" || flavorDef.id === "wx101" || flavorDef.id === "wx103" || flavorDef.id === "wx105" || flavorDef.id === "wx107" || flavorDef.id === "wx109" || flavorDef.id === "wx111" || flavorDef.id === "wx113" || flavorDef.id === "wx115" || flavorDef.id === "wx117" || flavorDef.id === "wx119" || flavorDef.id === "wx121" || flavorDef.id === "wx123" || flavorDef.id === "wx125" || flavorDef.id === "wx127" || flavorDef.id === "wx129" || flavorDef.id === "wx131" || flavorDef.id === "wx133" || flavorDef.id === "wx135" || flavorDef.id === "wx137" || flavorDef.id === "wx139" || flavorDef.id === "wx141" || flavorDef.id === "wx143" || flavorDef.id === "wx145" || flavorDef.id === "wx147" || flavorDef.id === "wx149" || flavorDef.id === "wx151" || flavorDef.id === "wx153" || flavorDef.id === "wx155" || flavorDef.id === "wx157" || flavorDef.id === "wx159" || flavorDef.id === "wx161" || flavorDef.id === "wx163" || flavorDef.id === "wx165" || flavorDef.id === "wx167" || flavorDef.id === "wx169" || flavorDef.id === "wx171" || flavorDef.id === "wx173" || flavorDef.id === "wx175" || flavorDef.id === "wx177" || flavorDef.id === "wx179" || flavorDef.id === "wx181" || flavorDef.id === "wx183" || flavorDef.id === "wx185" || flavorDef.id === "wx187" || flavorDef.id === "wx189" || flavorDef.id === "wx191" || flavorDef.id === "wx193" || flavorDef.id === "wx195" || flavorDef.id === "wx197" || flavorDef.id === "wx199" || flavorDef.id === "wx201" || flavorDef.id === "wx203" || flavorDef.id === "wx205" || flavorDef.id === "wx207" || flavorDef.id === "wx209" || flavorDef.id === "wx211" || flavorDef.id === "wx213" || flavorDef.id === "wx215" || flavorDef.id === "wx217" || flavorDef.id === "wx219" || flavorDef.id === "wx221" || flavorDef.id === "wx223" || flavorDef.id === "wx225" || flavorDef.id === "wx227" || flavorDef.id === "wx229" || flavorDef.id === "wx231" || flavorDef.id === "wx233" || flavorDef.id === "wx235" || flavorDef.id === "wx237" || flavorDef.id === "wx239" || flavorDef.id === "wx241" || flavorDef.id === "wx243" || flavorDef.id === "wx245" || flavorDef.id === "wx247" || flavorDef.id === "wx249" || flavorDef.id === "wx251" || flavorDef.id === "wx253" || flavorDef.id === "wx255" || flavorDef.id === "wx257" || flavorDef.id === "wx259" || flavorDef.id === "wx261" || flavorDef.id === "wx263" || flavorDef.id === "wx265" || flavorDef.id === "wx267" || flavorDef.id === "wx269" || flavorDef.id === "wx271" || flavorDef.id === "wx273" || flavorDef.id === "wx275" || flavorDef.id === "wx277" || flavorDef.id === "wx279" || flavorDef.id === "wx281" || flavorDef.id === "wx283" || flavorDef.id === "wx285" || flavorDef.id === "wx287" || flavorDef.id === "wx289" || flavorDef.id === "wx291" || flavorDef.id === "wx293" || flavorDef.id === "wx295" || flavorDef.id === "wx297" || flavorDef.id === "wx299" || flavorDef.id === "wx301" || flavorDef.id === "wx303" || flavorDef.id === "wx305" || flavorDef.id === "wx307" || flavorDef.id === "wx309" || flavorDef.id === "wx311" || flavorDef.id === "wx313" || flavorDef.id === "wx315" || flavorDef.id === "wx317" || flavorDef.id === "wx319")) {
       score += 0.5;
       notes.push("冬日暖茶");
     }
@@ -30819,7 +33059,327 @@
       mn316: true,
       mn317: true,
       mn318: true,
-      mn319: true
+      mn319: true,
+      wx0: true,
+      wx1: true,
+      wx2: true,
+      wx3: true,
+      wx4: true,
+      wx5: true,
+      wx6: true,
+      wx7: true,
+      wx8: true,
+      wx9: true,
+      wx10: true,
+      wx11: true,
+      wx12: true,
+      wx13: true,
+      wx14: true,
+      wx15: true,
+      wx16: true,
+      wx17: true,
+      wx18: true,
+      wx19: true,
+      wx20: true,
+      wx21: true,
+      wx22: true,
+      wx23: true,
+      wx24: true,
+      wx25: true,
+      wx26: true,
+      wx27: true,
+      wx28: true,
+      wx29: true,
+      wx30: true,
+      wx31: true,
+      wx32: true,
+      wx33: true,
+      wx34: true,
+      wx35: true,
+      wx36: true,
+      wx37: true,
+      wx38: true,
+      wx39: true,
+      wx40: true,
+      wx41: true,
+      wx42: true,
+      wx43: true,
+      wx44: true,
+      wx45: true,
+      wx46: true,
+      wx47: true,
+      wx48: true,
+      wx49: true,
+      wx50: true,
+      wx51: true,
+      wx52: true,
+      wx53: true,
+      wx54: true,
+      wx55: true,
+      wx56: true,
+      wx57: true,
+      wx58: true,
+      wx59: true,
+      wx60: true,
+      wx61: true,
+      wx62: true,
+      wx63: true,
+      wx64: true,
+      wx65: true,
+      wx66: true,
+      wx67: true,
+      wx68: true,
+      wx69: true,
+      wx70: true,
+      wx71: true,
+      wx72: true,
+      wx73: true,
+      wx74: true,
+      wx75: true,
+      wx76: true,
+      wx77: true,
+      wx78: true,
+      wx79: true,
+      wx80: true,
+      wx81: true,
+      wx82: true,
+      wx83: true,
+      wx84: true,
+      wx85: true,
+      wx86: true,
+      wx87: true,
+      wx88: true,
+      wx89: true,
+      wx90: true,
+      wx91: true,
+      wx92: true,
+      wx93: true,
+      wx94: true,
+      wx95: true,
+      wx96: true,
+      wx97: true,
+      wx98: true,
+      wx99: true,
+      wx100: true,
+      wx101: true,
+      wx102: true,
+      wx103: true,
+      wx104: true,
+      wx105: true,
+      wx106: true,
+      wx107: true,
+      wx108: true,
+      wx109: true,
+      wx110: true,
+      wx111: true,
+      wx112: true,
+      wx113: true,
+      wx114: true,
+      wx115: true,
+      wx116: true,
+      wx117: true,
+      wx118: true,
+      wx119: true,
+      wx120: true,
+      wx121: true,
+      wx122: true,
+      wx123: true,
+      wx124: true,
+      wx125: true,
+      wx126: true,
+      wx127: true,
+      wx128: true,
+      wx129: true,
+      wx130: true,
+      wx131: true,
+      wx132: true,
+      wx133: true,
+      wx134: true,
+      wx135: true,
+      wx136: true,
+      wx137: true,
+      wx138: true,
+      wx139: true,
+      wx140: true,
+      wx141: true,
+      wx142: true,
+      wx143: true,
+      wx144: true,
+      wx145: true,
+      wx146: true,
+      wx147: true,
+      wx148: true,
+      wx149: true,
+      wx150: true,
+      wx151: true,
+      wx152: true,
+      wx153: true,
+      wx154: true,
+      wx155: true,
+      wx156: true,
+      wx157: true,
+      wx158: true,
+      wx159: true,
+      wx160: true,
+      wx161: true,
+      wx162: true,
+      wx163: true,
+      wx164: true,
+      wx165: true,
+      wx166: true,
+      wx167: true,
+      wx168: true,
+      wx169: true,
+      wx170: true,
+      wx171: true,
+      wx172: true,
+      wx173: true,
+      wx174: true,
+      wx175: true,
+      wx176: true,
+      wx177: true,
+      wx178: true,
+      wx179: true,
+      wx180: true,
+      wx181: true,
+      wx182: true,
+      wx183: true,
+      wx184: true,
+      wx185: true,
+      wx186: true,
+      wx187: true,
+      wx188: true,
+      wx189: true,
+      wx190: true,
+      wx191: true,
+      wx192: true,
+      wx193: true,
+      wx194: true,
+      wx195: true,
+      wx196: true,
+      wx197: true,
+      wx198: true,
+      wx199: true,
+      wx200: true,
+      wx201: true,
+      wx202: true,
+      wx203: true,
+      wx204: true,
+      wx205: true,
+      wx206: true,
+      wx207: true,
+      wx208: true,
+      wx209: true,
+      wx210: true,
+      wx211: true,
+      wx212: true,
+      wx213: true,
+      wx214: true,
+      wx215: true,
+      wx216: true,
+      wx217: true,
+      wx218: true,
+      wx219: true,
+      wx220: true,
+      wx221: true,
+      wx222: true,
+      wx223: true,
+      wx224: true,
+      wx225: true,
+      wx226: true,
+      wx227: true,
+      wx228: true,
+      wx229: true,
+      wx230: true,
+      wx231: true,
+      wx232: true,
+      wx233: true,
+      wx234: true,
+      wx235: true,
+      wx236: true,
+      wx237: true,
+      wx238: true,
+      wx239: true,
+      wx240: true,
+      wx241: true,
+      wx242: true,
+      wx243: true,
+      wx244: true,
+      wx245: true,
+      wx246: true,
+      wx247: true,
+      wx248: true,
+      wx249: true,
+      wx250: true,
+      wx251: true,
+      wx252: true,
+      wx253: true,
+      wx254: true,
+      wx255: true,
+      wx256: true,
+      wx257: true,
+      wx258: true,
+      wx259: true,
+      wx260: true,
+      wx261: true,
+      wx262: true,
+      wx263: true,
+      wx264: true,
+      wx265: true,
+      wx266: true,
+      wx267: true,
+      wx268: true,
+      wx269: true,
+      wx270: true,
+      wx271: true,
+      wx272: true,
+      wx273: true,
+      wx274: true,
+      wx275: true,
+      wx276: true,
+      wx277: true,
+      wx278: true,
+      wx279: true,
+      wx280: true,
+      wx281: true,
+      wx282: true,
+      wx283: true,
+      wx284: true,
+      wx285: true,
+      wx286: true,
+      wx287: true,
+      wx288: true,
+      wx289: true,
+      wx290: true,
+      wx291: true,
+      wx292: true,
+      wx293: true,
+      wx294: true,
+      wx295: true,
+      wx296: true,
+      wx297: true,
+      wx298: true,
+      wx299: true,
+      wx300: true,
+      wx301: true,
+      wx302: true,
+      wx303: true,
+      wx304: true,
+      wx305: true,
+      wx306: true,
+      wx307: true,
+      wx308: true,
+      wx309: true,
+      wx310: true,
+      wx311: true,
+      wx312: true,
+      wx313: true,
+      wx314: true,
+      wx315: true,
+      wx316: true,
+      wx317: true,
+      wx318: true,
+      wx319: true
     };
     if (FORAGE_FLAVORS[flavorDef.id] && (baseDef.id === "tea" || baseDef.id === "honey_water" || baseDef.id === "soda" || baseDef.id === "floral_tea")) {
       score += 0.3;
