@@ -7608,5 +7608,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_chamomile_roman",
+    "title": "罗马洋甘菊两份",
+    "body": "采罗马洋甘菊的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "chamomile_roman": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_chamomile_german",
+    "title": "德国洋甘菊两份",
+    "body": "采德国洋甘菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "chamomile_german": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_feverfew_fresh",
+    "title": "鲜小白菊两份",
+    "body": "采鲜小白菊的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "feverfew_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tansy_fresh",
+    "title": "鲜艾菊两份",
+    "body": "采鲜艾菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tansy_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_yarrow_pink",
+    "title": "粉蓍草两份",
+    "body": "采粉蓍草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "yarrow_pink": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_yarrow_gold",
+    "title": "金蓍草两份",
+    "body": "采金蓍草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "yarrow_gold": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_arnica_fresh",
+    "title": "鲜山金车两份",
+    "body": "采鲜山金车的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "arnica_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_calendula_offic",
+    "title": "药用金盏两份",
+    "body": "采药用金盏的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "calendula_offic": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_pot_marigold_dbl",
+    "title": "重瓣金盏两份",
+    "body": "采重瓣金盏的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "pot_marigold_dbl": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tagetes",
+    "title": "万寿菊两份",
+    "body": "采万寿菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tagetes": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_marigold_french",
+    "title": "法国万寿两份",
+    "body": "采法国万寿的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "marigold_french": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_signet_marigold",
+    "title": "香叶万寿两份",
+    "body": "采香叶万寿的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "signet_marigold": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_costmary_fresh",
+    "title": "鲜艾菊薄荷两份",
+    "body": "采鲜艾菊薄荷的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "costmary_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_elecampane_fresh",
+    "title": "鲜土木香两份",
+    "body": "采鲜土木香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "elecampane_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_inula",
+    "title": "旋覆花两份",
+    "body": "采旋覆花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "inula": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_eupatorium",
+    "title": "佩兰两份",
+    "body": "采佩兰的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "eupatorium": 2
+      },
+      "coins": 2
+    }
   }
 ]

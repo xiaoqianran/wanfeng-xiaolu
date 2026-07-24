@@ -6823,6 +6823,118 @@
       "emoji": "🔴",
       "kind": "风味",
       "seed": "burning_bushPot"
+    },
+    "chamomile_roman": {
+      "id": "chamomile_roman",
+      "name": "罗马洋甘菊",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "chamomile_romanPot"
+    },
+    "chamomile_german": {
+      "id": "chamomile_german",
+      "name": "德国洋甘菊",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "chamomile_germanPot"
+    },
+    "feverfew_fresh": {
+      "id": "feverfew_fresh",
+      "name": "鲜小白菊",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "feverfew_freshPot"
+    },
+    "tansy_fresh": {
+      "id": "tansy_fresh",
+      "name": "鲜艾菊",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "tansy_freshPot"
+    },
+    "yarrow_pink": {
+      "id": "yarrow_pink",
+      "name": "粉蓍草",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "yarrow_pinkPot"
+    },
+    "yarrow_gold": {
+      "id": "yarrow_gold",
+      "name": "金蓍草",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "yarrow_goldPot"
+    },
+    "arnica_fresh": {
+      "id": "arnica_fresh",
+      "name": "鲜山金车",
+      "emoji": "🌼",
+      "kind": "风味",
+      "seed": "arnica_freshPot"
+    },
+    "calendula_offic": {
+      "id": "calendula_offic",
+      "name": "药用金盏",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "calendula_officPot"
+    },
+    "pot_marigold_dbl": {
+      "id": "pot_marigold_dbl",
+      "name": "重瓣金盏",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "pot_marigold_dblPot"
+    },
+    "tagetes": {
+      "id": "tagetes",
+      "name": "万寿菊",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "tagetesPot"
+    },
+    "marigold_french": {
+      "id": "marigold_french",
+      "name": "法国万寿",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "marigold_frenchPot"
+    },
+    "signet_marigold": {
+      "id": "signet_marigold",
+      "name": "香叶万寿",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "signet_marigoldPot"
+    },
+    "costmary_fresh": {
+      "id": "costmary_fresh",
+      "name": "鲜艾菊薄荷",
+      "emoji": "🍃",
+      "kind": "风味",
+      "seed": "costmary_freshPot"
+    },
+    "elecampane_fresh": {
+      "id": "elecampane_fresh",
+      "name": "鲜土木香",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "elecampane_freshPot"
+    },
+    "inula": {
+      "id": "inula",
+      "name": "旋覆花",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "inulaPot"
+    },
+    "eupatorium": {
+      "id": "eupatorium",
+      "name": "佩兰",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "eupatoriumPot"
     }
   },
   "plants": {
@@ -15741,6 +15853,182 @@
       ],
       "harvest": "burning_bush",
       "days": 3
+    },
+    "chamomile_romanPot": {
+      "id": "chamomile_romanPot",
+      "name": "罗马洋甘菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "chamomile_roman",
+      "days": 3
+    },
+    "chamomile_germanPot": {
+      "id": "chamomile_germanPot",
+      "name": "德国洋甘菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "chamomile_german",
+      "days": 3
+    },
+    "feverfew_freshPot": {
+      "id": "feverfew_freshPot",
+      "name": "鲜小白菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "feverfew_fresh",
+      "days": 3
+    },
+    "tansy_freshPot": {
+      "id": "tansy_freshPot",
+      "name": "鲜艾菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "tansy_fresh",
+      "days": 3
+    },
+    "yarrow_pinkPot": {
+      "id": "yarrow_pinkPot",
+      "name": "粉蓍草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "yarrow_pink",
+      "days": 3
+    },
+    "yarrow_goldPot": {
+      "id": "yarrow_goldPot",
+      "name": "金蓍草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "yarrow_gold",
+      "days": 3
+    },
+    "arnica_freshPot": {
+      "id": "arnica_freshPot",
+      "name": "鲜山金车",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌼"
+      ],
+      "harvest": "arnica_fresh",
+      "days": 3
+    },
+    "calendula_officPot": {
+      "id": "calendula_officPot",
+      "name": "药用金盏",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "calendula_offic",
+      "days": 3
+    },
+    "pot_marigold_dblPot": {
+      "id": "pot_marigold_dblPot",
+      "name": "重瓣金盏",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "pot_marigold_dbl",
+      "days": 3
+    },
+    "tagetesPot": {
+      "id": "tagetesPot",
+      "name": "万寿菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "tagetes",
+      "days": 3
+    },
+    "marigold_frenchPot": {
+      "id": "marigold_frenchPot",
+      "name": "法国万寿",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "marigold_french",
+      "days": 3
+    },
+    "signet_marigoldPot": {
+      "id": "signet_marigoldPot",
+      "name": "香叶万寿",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "signet_marigold",
+      "days": 3
+    },
+    "costmary_freshPot": {
+      "id": "costmary_freshPot",
+      "name": "鲜艾菊薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍃"
+      ],
+      "harvest": "costmary_fresh",
+      "days": 3
+    },
+    "elecampane_freshPot": {
+      "id": "elecampane_freshPot",
+      "name": "鲜土木香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "elecampane_fresh",
+      "days": 3
+    },
+    "inulaPot": {
+      "id": "inulaPot",
+      "name": "旋覆花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "inula",
+      "days": 3
+    },
+    "eupatoriumPot": {
+      "id": "eupatoriumPot",
+      "name": "佩兰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "eupatorium",
+      "days": 3
     }
   },
   "cups": [
@@ -22952,6 +23240,166 @@
       "name": "燃烧灌木",
       "emoji": "🔴",
       "need": "burning_bush",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "chamomile_roman",
+      "name": "罗马洋甘菊",
+      "emoji": "🤍",
+      "need": "chamomile_roman",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "chamomile_german",
+      "name": "德国洋甘菊",
+      "emoji": "💛",
+      "need": "chamomile_german",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "feverfew_fresh",
+      "name": "鲜小白菊",
+      "emoji": "🤍",
+      "need": "feverfew_fresh",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "tansy_fresh",
+      "name": "鲜艾菊",
+      "emoji": "🟡",
+      "need": "tansy_fresh",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "yarrow_pink",
+      "name": "粉蓍草",
+      "emoji": "💗",
+      "need": "yarrow_pink",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "yarrow_gold",
+      "name": "金蓍草",
+      "emoji": "🟡",
+      "need": "yarrow_gold",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "arnica_fresh",
+      "name": "鲜山金车",
+      "emoji": "🌼",
+      "need": "arnica_fresh",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "calendula_offic",
+      "name": "药用金盏",
+      "emoji": "🧡",
+      "need": "calendula_offic",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "pot_marigold_dbl",
+      "name": "重瓣金盏",
+      "emoji": "🧡",
+      "need": "pot_marigold_dbl",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "tagetes",
+      "name": "万寿菊",
+      "emoji": "🟡",
+      "need": "tagetes",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "marigold_french",
+      "name": "法国万寿",
+      "emoji": "🧡",
+      "need": "marigold_french",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "signet_marigold",
+      "name": "香叶万寿",
+      "emoji": "🟡",
+      "need": "signet_marigold",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "costmary_fresh",
+      "name": "鲜艾菊薄荷",
+      "emoji": "🍃",
+      "need": "costmary_fresh",
+      "tags": [
+        "草本",
+        "花香"
+      ]
+    },
+    {
+      "id": "elecampane_fresh",
+      "name": "鲜土木香",
+      "emoji": "💛",
+      "need": "elecampane_fresh",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "inula",
+      "name": "旋覆花",
+      "emoji": "🟡",
+      "need": "inula",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "eupatorium",
+      "name": "佩兰",
+      "emoji": "🤍",
+      "need": "eupatorium",
       "tags": [
         "花香",
         "草本"
@@ -33750,6 +34198,246 @@
       ],
       "flavors": [
         "burning_bush",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采罗马洋甘菊的旅人",
+      "avatar": "🤍",
+      "wish": "罗马洋甘菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "chamomile_roman",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采德国洋甘菊的药师",
+      "avatar": "💛",
+      "wish": "德国洋甘菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "chamomile_german",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜小白菊的旅人",
+      "avatar": "🤍",
+      "wish": "鲜小白菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "feverfew_fresh",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采鲜艾菊的药师",
+      "avatar": "🟡",
+      "wish": "鲜艾菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "tansy_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采粉蓍草的旅人",
+      "avatar": "💗",
+      "wish": "粉蓍草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "yarrow_pink",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采金蓍草的药师",
+      "avatar": "🟡",
+      "wish": "金蓍草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "yarrow_gold",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜山金车的旅人",
+      "avatar": "🌼",
+      "wish": "鲜山金车或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "arnica_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采药用金盏的药师",
+      "avatar": "🧡",
+      "wish": "药用金盏或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "calendula_offic",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采重瓣金盏的旅人",
+      "avatar": "🧡",
+      "wish": "重瓣金盏或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "pot_marigold_dbl",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采万寿菊的药师",
+      "avatar": "🟡",
+      "wish": "万寿菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "tagetes",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采法国万寿的旅人",
+      "avatar": "🧡",
+      "wish": "法国万寿或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "marigold_french",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采香叶万寿的药师",
+      "avatar": "🟡",
+      "wish": "香叶万寿或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "signet_marigold",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜艾菊薄荷的旅人",
+      "avatar": "🍃",
+      "wish": "鲜艾菊薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "花香"
+      ],
+      "flavors": [
+        "costmary_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜土木香的药师",
+      "avatar": "💛",
+      "wish": "鲜土木香或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "elecampane_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采旋覆花的旅人",
+      "avatar": "🟡",
+      "wish": "旋覆花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "inula",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采佩兰的药师",
+      "avatar": "🤍",
+      "wish": "佩兰或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "eupatorium",
         "honey",
         "tea_leaf",
         "lavender_bud"
