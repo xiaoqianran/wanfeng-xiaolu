@@ -1525,5 +1525,49 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_juniper",
+    "title": "杜松子一小把",
+    "body": "采杜松的旅人来信：新摘的。给你一小把，别放太久。",
+    "effect": {
+      "items": {
+        "juniper": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_allspice",
+    "title": "多香果一小袋",
+    "body": "磨多香果的厨子来信：新晒的。给你一小袋，别放太久。",
+    "effect": {
+      "items": {
+        "allspice": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mace",
+    "title": "肉豆蔻衣两片",
+    "body": "撕肉豆蔻衣的糕点师来信：新晒的。给你两片，别放太久。",
+    "effect": {
+      "items": {
+        "mace": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sumac",
+    "title": "盐肤木一小袋",
+    "body": "撒盐肤木的厨子来信：新晒的。给你一小袋，别放太久。",
+    "effect": {
+      "items": {
+        "sumac": 2
+      },
+      "coins": 2
+    }
   }
 ]
