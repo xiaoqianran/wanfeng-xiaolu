@@ -2770,6 +2770,34 @@
       "emoji": "🟤",
       "kind": "风味",
       "seed": "nutmegPot"
+    },
+    "honeydew": {
+      "id": "honeydew",
+      "name": "哈密瓜",
+      "emoji": "🍈",
+      "kind": "风味",
+      "seed": "honeydewPot"
+    },
+    "watermelon": {
+      "id": "watermelon",
+      "name": "西瓜",
+      "emoji": "🍉",
+      "kind": "风味",
+      "seed": "watermelonPot"
+    },
+    "cantaloupe": {
+      "id": "cantaloupe",
+      "name": "甜瓜",
+      "emoji": "🍈",
+      "kind": "风味",
+      "seed": "cantaloupePot"
+    },
+    "papaya": {
+      "id": "papaya",
+      "name": "木瓜",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "papayaPot"
     }
   },
   "plants": {
@@ -5319,6 +5347,50 @@
       ],
       "harvest": "nutmeg",
       "days": 4
+    },
+    "honeydewPot": {
+      "id": "honeydewPot",
+      "name": "哈密瓜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍈"
+      ],
+      "harvest": "honeydew",
+      "days": 3
+    },
+    "watermelonPot": {
+      "id": "watermelonPot",
+      "name": "西瓜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍉"
+      ],
+      "harvest": "watermelon",
+      "days": 4
+    },
+    "cantaloupePot": {
+      "id": "cantaloupePot",
+      "name": "甜瓜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍈"
+      ],
+      "harvest": "cantaloupe",
+      "days": 3
+    },
+    "papayaPot": {
+      "id": "papayaPot",
+      "name": "木瓜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "papaya",
+      "days": 4
     }
   },
   "cups": [
@@ -6743,6 +6815,46 @@
       "tags": [
         "温暖",
         "甜蜜"
+      ]
+    },
+    {
+      "id": "honeydew",
+      "name": "哈密瓜",
+      "emoji": "🍈",
+      "need": "honeydew",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "watermelon",
+      "name": "西瓜",
+      "emoji": "🍉",
+      "need": "watermelon",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "cantaloupe",
+      "name": "甜瓜",
+      "emoji": "🍈",
+      "need": "cantaloupe",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "papaya",
+      "name": "木瓜",
+      "emoji": "🧡",
+      "need": "papaya",
+      "tags": [
+        "果香",
+        "清爽"
       ]
     }
   ],
@@ -8853,6 +8965,67 @@
         "honey",
         "cocoa",
         "vanilla"
+      ]
+    },
+    {
+      "name": "切哈密瓜的阿姨",
+      "avatar": "🍈",
+      "wish": "哈密瓜或蜜，清爽甜蜜，装饰随意。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "honeydew",
+        "honey",
+        "mint",
+        "lemon"
+      ]
+    },
+    {
+      "name": "卖西瓜的少年",
+      "avatar": "🍉",
+      "wish": "西瓜或薄荷，清爽一点，气泡最好。",
+      "tags": [
+        "清爽",
+        "果香"
+      ],
+      "flavors": [
+        "watermelon",
+        "mint",
+        "lemon",
+        "honey"
+      ]
+    },
+    {
+      "name": "选甜瓜的女孩",
+      "avatar": "🧺",
+      "wish": "甜瓜或蜜，甜蜜一点，装饰好看。",
+      "tags": [
+        "甜蜜",
+        "果香"
+      ],
+      "flavors": [
+        "cantaloupe",
+        "honey",
+        "honeydew",
+        "vanilla"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "炖木瓜的阿婆",
+      "avatar": "🍲",
+      "wish": "木瓜或蜜，清爽一点，暖杯也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "papaya",
+        "honey",
+        "lime",
+        "mango"
       ]
     }
   ],
