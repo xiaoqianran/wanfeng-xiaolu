@@ -7271,6 +7271,118 @@
       "emoji": "💛",
       "kind": "风味",
       "seed": "inula_heleniumPot"
+    },
+    "verbena_bon": {
+      "id": "verbena_bon",
+      "name": "柳叶马鞭草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "verbena_bonPot"
+    },
+    "verbena_rig": {
+      "id": "verbena_rig",
+      "name": "硬枝马鞭草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "verbena_rigPot"
+    },
+    "lantana": {
+      "id": "lantana",
+      "name": "马缨丹",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "lantanaPot"
+    },
+    "lantana_white": {
+      "id": "lantana_white",
+      "name": "白马缨丹",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "lantana_whitePot"
+    },
+    "phlox_pan": {
+      "id": "phlox_pan",
+      "name": "锥花福禄考",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "phlox_panPot"
+    },
+    "phlox_sub": {
+      "id": "phlox_sub",
+      "name": "针叶福禄考",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "phlox_subPot"
+    },
+    "phlox_drum": {
+      "id": "phlox_drum",
+      "name": "小福禄考",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "phlox_drumPot"
+    },
+    "dianthus_chin": {
+      "id": "dianthus_chin",
+      "name": "石竹",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "dianthus_chinPot"
+    },
+    "dianthus_barb": {
+      "id": "dianthus_barb",
+      "name": "须苞石竹",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "dianthus_barbPot"
+    },
+    "sweet_william": {
+      "id": "sweet_william",
+      "name": "美国石竹",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "sweet_williamPot"
+    },
+    "carnation": {
+      "id": "carnation",
+      "name": "康乃馨",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "carnationPot"
+    },
+    "pinks": {
+      "id": "pinks",
+      "name": "常夏石竹",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "pinksPot"
+    },
+    "gypsophila": {
+      "id": "gypsophila",
+      "name": "满天星",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "gypsophilaPot"
+    },
+    "baby_breath": {
+      "id": "baby_breath",
+      "name": "霞草",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "baby_breathPot"
+    },
+    "saponaria": {
+      "id": "saponaria",
+      "name": "肥皂草",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "saponariaPot"
+    },
+    "soapwort_fresh": {
+      "id": "soapwort_fresh",
+      "name": "鲜皂草",
+      "emoji": "🩷",
+      "kind": "风味",
+      "seed": "soapwort_freshPot"
     }
   },
   "plants": {
@@ -16893,6 +17005,182 @@
       ],
       "harvest": "inula_helenium",
       "days": 4
+    },
+    "verbena_bonPot": {
+      "id": "verbena_bonPot",
+      "name": "柳叶马鞭草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "verbena_bon",
+      "days": 3
+    },
+    "verbena_rigPot": {
+      "id": "verbena_rigPot",
+      "name": "硬枝马鞭草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "verbena_rig",
+      "days": 3
+    },
+    "lantanaPot": {
+      "id": "lantanaPot",
+      "name": "马缨丹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "lantana",
+      "days": 3
+    },
+    "lantana_whitePot": {
+      "id": "lantana_whitePot",
+      "name": "白马缨丹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "lantana_white",
+      "days": 3
+    },
+    "phlox_panPot": {
+      "id": "phlox_panPot",
+      "name": "锥花福禄考",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "phlox_pan",
+      "days": 3
+    },
+    "phlox_subPot": {
+      "id": "phlox_subPot",
+      "name": "针叶福禄考",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "phlox_sub",
+      "days": 3
+    },
+    "phlox_drumPot": {
+      "id": "phlox_drumPot",
+      "name": "小福禄考",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "phlox_drum",
+      "days": 3
+    },
+    "dianthus_chinPot": {
+      "id": "dianthus_chinPot",
+      "name": "石竹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "dianthus_chin",
+      "days": 3
+    },
+    "dianthus_barbPot": {
+      "id": "dianthus_barbPot",
+      "name": "须苞石竹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "dianthus_barb",
+      "days": 3
+    },
+    "sweet_williamPot": {
+      "id": "sweet_williamPot",
+      "name": "美国石竹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "sweet_william",
+      "days": 3
+    },
+    "carnationPot": {
+      "id": "carnationPot",
+      "name": "康乃馨",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "carnation",
+      "days": 3
+    },
+    "pinksPot": {
+      "id": "pinksPot",
+      "name": "常夏石竹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "pinks",
+      "days": 3
+    },
+    "gypsophilaPot": {
+      "id": "gypsophilaPot",
+      "name": "满天星",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "gypsophila",
+      "days": 3
+    },
+    "baby_breathPot": {
+      "id": "baby_breathPot",
+      "name": "霞草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "baby_breath",
+      "days": 3
+    },
+    "saponariaPot": {
+      "id": "saponariaPot",
+      "name": "肥皂草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "saponaria",
+      "days": 3
+    },
+    "soapwort_freshPot": {
+      "id": "soapwort_freshPot",
+      "name": "鲜皂草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🩷"
+      ],
+      "harvest": "soapwort_fresh",
+      "days": 3
     }
   },
   "cups": [
@@ -24747,6 +25035,166 @@
       "tags": [
         "花香",
         "草本"
+      ]
+    },
+    {
+      "id": "verbena_bon",
+      "name": "柳叶马鞭草",
+      "emoji": "💜",
+      "need": "verbena_bon",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "verbena_rig",
+      "name": "硬枝马鞭草",
+      "emoji": "💜",
+      "need": "verbena_rig",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "lantana",
+      "name": "马缨丹",
+      "emoji": "🧡",
+      "need": "lantana",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "lantana_white",
+      "name": "白马缨丹",
+      "emoji": "⚪",
+      "need": "lantana_white",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "phlox_pan",
+      "name": "锥花福禄考",
+      "emoji": "💗",
+      "need": "phlox_pan",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "phlox_sub",
+      "name": "针叶福禄考",
+      "emoji": "💗",
+      "need": "phlox_sub",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "phlox_drum",
+      "name": "小福禄考",
+      "emoji": "🔴",
+      "need": "phlox_drum",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "dianthus_chin",
+      "name": "石竹",
+      "emoji": "💗",
+      "need": "dianthus_chin",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "dianthus_barb",
+      "name": "须苞石竹",
+      "emoji": "🔴",
+      "need": "dianthus_barb",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "sweet_william",
+      "name": "美国石竹",
+      "emoji": "💗",
+      "need": "sweet_william",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "carnation",
+      "name": "康乃馨",
+      "emoji": "💗",
+      "need": "carnation",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "pinks",
+      "name": "常夏石竹",
+      "emoji": "💗",
+      "need": "pinks",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "gypsophila",
+      "name": "满天星",
+      "emoji": "⚪",
+      "need": "gypsophila",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "baby_breath",
+      "name": "霞草",
+      "emoji": "⚪",
+      "need": "baby_breath",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "saponaria",
+      "name": "肥皂草",
+      "emoji": "💗",
+      "need": "saponaria",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "soapwort_fresh",
+      "name": "鲜皂草",
+      "emoji": "🩷",
+      "need": "soapwort_fresh",
+      "tags": [
+        "花香",
+        "温柔"
       ]
     }
   ],
@@ -36502,6 +36950,246 @@
       ],
       "flavors": [
         "inula_helenium",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采柳叶马鞭草的旅人",
+      "avatar": "💜",
+      "wish": "柳叶马鞭草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "verbena_bon",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采硬枝马鞭草的药师",
+      "avatar": "💜",
+      "wish": "硬枝马鞭草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "verbena_rig",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采马缨丹的旅人",
+      "avatar": "🧡",
+      "wish": "马缨丹或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "lantana",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采白马缨丹的药师",
+      "avatar": "⚪",
+      "wish": "白马缨丹或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "lantana_white",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采锥花福禄考的旅人",
+      "avatar": "💗",
+      "wish": "锥花福禄考或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "phlox_pan",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采针叶福禄考的药师",
+      "avatar": "💗",
+      "wish": "针叶福禄考或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "phlox_sub",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采小福禄考的旅人",
+      "avatar": "🔴",
+      "wish": "小福禄考或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "phlox_drum",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采石竹的药师",
+      "avatar": "💗",
+      "wish": "石竹或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "dianthus_chin",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采须苞石竹的旅人",
+      "avatar": "🔴",
+      "wish": "须苞石竹或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "dianthus_barb",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采美国石竹的药师",
+      "avatar": "💗",
+      "wish": "美国石竹或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "sweet_william",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采康乃馨的旅人",
+      "avatar": "💗",
+      "wish": "康乃馨或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "carnation",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采常夏石竹的药师",
+      "avatar": "💗",
+      "wish": "常夏石竹或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "pinks",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采满天星的旅人",
+      "avatar": "⚪",
+      "wish": "满天星或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "gypsophila",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采霞草的药师",
+      "avatar": "⚪",
+      "wish": "霞草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "baby_breath",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采肥皂草的旅人",
+      "avatar": "💗",
+      "wish": "肥皂草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "saponaria",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜皂草的药师",
+      "avatar": "🩷",
+      "wish": "鲜皂草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "soapwort_fresh",
         "honey",
         "tea_leaf",
         "lavender_bud"
