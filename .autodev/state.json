@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 753,
+  "current_round": 757,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 747,
-  "authentic_game_integrated_rounds": 537,
+  "authentic_rounds_completed": 751,
+  "authentic_game_integrated_rounds": 540,
   "template_spam_archived": true,
-  "current_milestone": "authentic rebuild A0755+",
-  "current_task_id": "A0755-next",
-  "last_completed_task_id": "A0754",
-  "last_commit": "test(docs): A0754 小路风味回归与手册",
+  "current_milestone": "authentic rebuild A0759+",
+  "current_task_id": "A0759-next",
+  "last_completed_task_id": "A0758",
+  "last_commit": "test(docs): A0758",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "514 passed, 0 failed",
+  "last_test_summary": "554 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~253) multi-session"
+    "gap to 1000 authentic (~249) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -34,14 +34,14 @@
     "audio feedback",
     "UI polish"
   ],
-  "resume_instructions": "Continue A0755+. Spam DISABLED. authenticRows 747. Themes 2459. path soft bonus shipped.",
-  "updated_at": "2026-07-24T02:17:40.315480+00:00",
-  "lastAuthenticId": "A0754",
+  "resume_instructions": "Continue A0759+. Spam DISABLED. authenticRows 751. Themes 2779.",
+  "updated_at": "2026-07-24T02:19:54.163282+00:00",
+  "lastAuthenticId": "A0758",
   "authenticCount": 547,
   "lastGoal": "草药径 beerhops batch",
-  "themes": 2459,
-  "testsPass": 514,
-  "authenticRows": 747,
-  "lastRound": 753,
-  "lastId": "A0754"
+  "themes": 2779,
+  "testsPass": 554,
+  "authenticRows": 751,
+  "lastRound": 757,
+  "lastId": "A0758"
 }
