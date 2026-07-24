@@ -2630,6 +2630,20 @@
       "emoji": "🍊",
       "kind": "风味",
       "seed": "tangerinePot"
+    },
+    "wax_apple": {
+      "id": "wax_apple",
+      "name": "莲雾",
+      "emoji": "🩷",
+      "kind": "风味",
+      "seed": "waxApplePot"
+    },
+    "sugarcane": {
+      "id": "sugarcane",
+      "name": "甘蔗",
+      "emoji": "🎋",
+      "kind": "风味",
+      "seed": "sugarcanePot"
     }
   },
   "plants": {
@@ -4959,6 +4973,28 @@
       ],
       "harvest": "tangerine",
       "days": 2
+    },
+    "waxApplePot": {
+      "id": "waxApplePot",
+      "name": "莲雾",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🩷"
+      ],
+      "harvest": "wax_apple",
+      "days": 3
+    },
+    "sugarcanePot": {
+      "id": "sugarcanePot",
+      "name": "甘蔗",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🎋"
+      ],
+      "harvest": "sugarcane",
+      "days": 4
     }
   },
   "cups": [
@@ -6183,6 +6219,26 @@
       "tags": [
         "甜蜜",
         "果香"
+      ]
+    },
+    {
+      "id": "wax_apple",
+      "name": "莲雾",
+      "emoji": "🩷",
+      "need": "wax_apple",
+      "tags": [
+        "清爽",
+        "果香"
+      ]
+    },
+    {
+      "id": "sugarcane",
+      "name": "甘蔗",
+      "emoji": "🎋",
+      "need": "sugarcane",
+      "tags": [
+        "甜蜜",
+        "清爽"
       ]
     }
   ],
@@ -7993,6 +8049,36 @@
         "honey",
         "kumquat",
         "grapefruit"
+      ]
+    },
+    {
+      "name": "摘莲雾的阿伯",
+      "avatar": "🌳",
+      "wish": "莲雾或蜜，清爽一点，装饰随意。",
+      "tags": [
+        "清爽",
+        "果香"
+      ],
+      "flavors": [
+        "wax_apple",
+        "honey",
+        "mint",
+        "leaf"
+      ]
+    },
+    {
+      "name": "榨甘蔗的小伙",
+      "avatar": "🥤",
+      "wish": "甘蔗或蜜，甜蜜清爽，气泡最好。",
+      "tags": [
+        "甜蜜",
+        "清爽"
+      ],
+      "flavors": [
+        "sugarcane",
+        "honey",
+        "mint",
+        "lemon_balm"
       ]
     }
   ],
