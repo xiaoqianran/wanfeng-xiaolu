@@ -9623,6 +9623,1126 @@
       "emoji": "🟢",
       "kind": "风味",
       "seed": "giant_sorrelPot"
+    },
+    "variegated_thyme": {
+      "id": "variegated_thyme",
+      "name": "斑叶百里香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "variegated_thymePot"
+    },
+    "variegated_sage": {
+      "id": "variegated_sage",
+      "name": "斑叶鼠尾草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "variegated_sagePot"
+    },
+    "variegated_oregano": {
+      "id": "variegated_oregano",
+      "name": "斑叶牛至",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "variegated_oreganoPot"
+    },
+    "variegated_basil": {
+      "id": "variegated_basil",
+      "name": "斑叶罗勒",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "variegated_basilPot"
+    },
+    "variegated_mint": {
+      "id": "variegated_mint",
+      "name": "斑叶薄荷",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "variegated_mintPot"
+    },
+    "variegated_lavender": {
+      "id": "variegated_lavender",
+      "name": "斑叶薰衣草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "variegated_lavenderPot"
+    },
+    "variegated_rosemary": {
+      "id": "variegated_rosemary",
+      "name": "斑叶迷迭香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "variegated_rosemaryPot"
+    },
+    "variegated_marjoram": {
+      "id": "variegated_marjoram",
+      "name": "斑叶马郁兰",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "variegated_marjoramPot"
+    },
+    "variegated_tarragon": {
+      "id": "variegated_tarragon",
+      "name": "斑叶龙蒿",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "variegated_tarragonPot"
+    },
+    "variegated_chive": {
+      "id": "variegated_chive",
+      "name": "斑叶香葱",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "variegated_chivePot"
+    },
+    "variegated_parsley": {
+      "id": "variegated_parsley",
+      "name": "斑叶欧芹",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "variegated_parsleyPot"
+    },
+    "variegated_cilantro": {
+      "id": "variegated_cilantro",
+      "name": "斑叶香菜",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "variegated_cilantroPot"
+    },
+    "variegated_dill": {
+      "id": "variegated_dill",
+      "name": "斑叶莳萝",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "variegated_dillPot"
+    },
+    "variegated_fennel": {
+      "id": "variegated_fennel",
+      "name": "斑叶茴香",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "variegated_fennelPot"
+    },
+    "variegated_lovage": {
+      "id": "variegated_lovage",
+      "name": "斑叶独活",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "variegated_lovagePot"
+    },
+    "variegated_sorrel": {
+      "id": "variegated_sorrel",
+      "name": "斑叶酸模",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "variegated_sorrelPot"
+    },
+    "golden_thyme": {
+      "id": "golden_thyme",
+      "name": "金叶百里香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "golden_thymePot"
+    },
+    "golden_sage": {
+      "id": "golden_sage",
+      "name": "金叶鼠尾草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "golden_sagePot"
+    },
+    "golden_oregano": {
+      "id": "golden_oregano",
+      "name": "金叶牛至",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "golden_oreganoPot"
+    },
+    "golden_basil": {
+      "id": "golden_basil",
+      "name": "金叶罗勒",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "golden_basilPot"
+    },
+    "golden_mint": {
+      "id": "golden_mint",
+      "name": "金叶薄荷",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "golden_mintPot"
+    },
+    "golden_lavender": {
+      "id": "golden_lavender",
+      "name": "金叶薰衣草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "golden_lavenderPot"
+    },
+    "golden_rosemary": {
+      "id": "golden_rosemary",
+      "name": "金叶迷迭香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "golden_rosemaryPot"
+    },
+    "golden_marjoram": {
+      "id": "golden_marjoram",
+      "name": "金叶马郁兰",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "golden_marjoramPot"
+    },
+    "golden_tarragon": {
+      "id": "golden_tarragon",
+      "name": "金叶龙蒿",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "golden_tarragonPot"
+    },
+    "golden_chive": {
+      "id": "golden_chive",
+      "name": "金叶香葱",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "golden_chivePot"
+    },
+    "golden_parsley": {
+      "id": "golden_parsley",
+      "name": "金叶欧芹",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "golden_parsleyPot"
+    },
+    "golden_cilantro": {
+      "id": "golden_cilantro",
+      "name": "金叶香菜",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "golden_cilantroPot"
+    },
+    "golden_dill": {
+      "id": "golden_dill",
+      "name": "金叶莳萝",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "golden_dillPot"
+    },
+    "golden_fennel": {
+      "id": "golden_fennel",
+      "name": "金叶茴香",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "golden_fennelPot"
+    },
+    "golden_lovage": {
+      "id": "golden_lovage",
+      "name": "金叶独活",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "golden_lovagePot"
+    },
+    "golden_sorrel": {
+      "id": "golden_sorrel",
+      "name": "金叶酸模",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "golden_sorrelPot"
+    },
+    "silver_thyme": {
+      "id": "silver_thyme",
+      "name": "银叶百里香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "silver_thymePot"
+    },
+    "silver_sage": {
+      "id": "silver_sage",
+      "name": "银叶鼠尾草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "silver_sagePot"
+    },
+    "silver_oregano": {
+      "id": "silver_oregano",
+      "name": "银叶牛至",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "silver_oreganoPot"
+    },
+    "silver_basil": {
+      "id": "silver_basil",
+      "name": "银叶罗勒",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "silver_basilPot"
+    },
+    "silver_mint": {
+      "id": "silver_mint",
+      "name": "银叶薄荷",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "silver_mintPot"
+    },
+    "silver_lavender": {
+      "id": "silver_lavender",
+      "name": "银叶薰衣草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "silver_lavenderPot"
+    },
+    "silver_rosemary": {
+      "id": "silver_rosemary",
+      "name": "银叶迷迭香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "silver_rosemaryPot"
+    },
+    "silver_marjoram": {
+      "id": "silver_marjoram",
+      "name": "银叶马郁兰",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "silver_marjoramPot"
+    },
+    "silver_tarragon": {
+      "id": "silver_tarragon",
+      "name": "银叶龙蒿",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "silver_tarragonPot"
+    },
+    "silver_chive": {
+      "id": "silver_chive",
+      "name": "银叶香葱",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "silver_chivePot"
+    },
+    "silver_parsley": {
+      "id": "silver_parsley",
+      "name": "银叶欧芹",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "silver_parsleyPot"
+    },
+    "silver_cilantro": {
+      "id": "silver_cilantro",
+      "name": "银叶香菜",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "silver_cilantroPot"
+    },
+    "silver_dill": {
+      "id": "silver_dill",
+      "name": "银叶莳萝",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "silver_dillPot"
+    },
+    "silver_fennel": {
+      "id": "silver_fennel",
+      "name": "银叶茴香",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "silver_fennelPot"
+    },
+    "silver_lovage": {
+      "id": "silver_lovage",
+      "name": "银叶独活",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "silver_lovagePot"
+    },
+    "silver_sorrel": {
+      "id": "silver_sorrel",
+      "name": "银叶酸模",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "silver_sorrelPot"
+    },
+    "purple_thyme": {
+      "id": "purple_thyme",
+      "name": "紫叶百里香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "purple_thymePot"
+    },
+    "purple_sage": {
+      "id": "purple_sage",
+      "name": "紫叶鼠尾草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "purple_sagePot"
+    },
+    "purple_oregano": {
+      "id": "purple_oregano",
+      "name": "紫叶牛至",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "purple_oreganoPot"
+    },
+    "purple_basil": {
+      "id": "purple_basil",
+      "name": "紫叶罗勒",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "purple_basilPot"
+    },
+    "purple_mint": {
+      "id": "purple_mint",
+      "name": "紫叶薄荷",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "purple_mintPot"
+    },
+    "purple_lavender": {
+      "id": "purple_lavender",
+      "name": "紫叶薰衣草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "purple_lavenderPot"
+    },
+    "purple_rosemary": {
+      "id": "purple_rosemary",
+      "name": "紫叶迷迭香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "purple_rosemaryPot"
+    },
+    "purple_marjoram": {
+      "id": "purple_marjoram",
+      "name": "紫叶马郁兰",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "purple_marjoramPot"
+    },
+    "purple_tarragon": {
+      "id": "purple_tarragon",
+      "name": "紫叶龙蒿",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "purple_tarragonPot"
+    },
+    "purple_chive": {
+      "id": "purple_chive",
+      "name": "紫叶香葱",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "purple_chivePot"
+    },
+    "purple_parsley": {
+      "id": "purple_parsley",
+      "name": "紫叶欧芹",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "purple_parsleyPot"
+    },
+    "purple_cilantro": {
+      "id": "purple_cilantro",
+      "name": "紫叶香菜",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "purple_cilantroPot"
+    },
+    "purple_dill": {
+      "id": "purple_dill",
+      "name": "紫叶莳萝",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "purple_dillPot"
+    },
+    "purple_fennel": {
+      "id": "purple_fennel",
+      "name": "紫叶茴香",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "purple_fennelPot"
+    },
+    "purple_lovage": {
+      "id": "purple_lovage",
+      "name": "紫叶独活",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "purple_lovagePot"
+    },
+    "purple_sorrel": {
+      "id": "purple_sorrel",
+      "name": "紫叶酸模",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "purple_sorrelPot"
+    },
+    "red_thyme": {
+      "id": "red_thyme",
+      "name": "红叶百里香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "red_thymePot"
+    },
+    "red_sage": {
+      "id": "red_sage",
+      "name": "红叶鼠尾草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "red_sagePot"
+    },
+    "red_oregano": {
+      "id": "red_oregano",
+      "name": "红叶牛至",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "red_oreganoPot"
+    },
+    "red_basil": {
+      "id": "red_basil",
+      "name": "红叶罗勒",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "red_basilPot"
+    },
+    "red_mint": {
+      "id": "red_mint",
+      "name": "红叶薄荷",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "red_mintPot"
+    },
+    "red_lavender": {
+      "id": "red_lavender",
+      "name": "红叶薰衣草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "red_lavenderPot"
+    },
+    "red_rosemary": {
+      "id": "red_rosemary",
+      "name": "红叶迷迭香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "red_rosemaryPot"
+    },
+    "red_marjoram": {
+      "id": "red_marjoram",
+      "name": "红叶马郁兰",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "red_marjoramPot"
+    },
+    "red_tarragon": {
+      "id": "red_tarragon",
+      "name": "红叶龙蒿",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "red_tarragonPot"
+    },
+    "red_chive": {
+      "id": "red_chive",
+      "name": "红叶香葱",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "red_chivePot"
+    },
+    "red_parsley": {
+      "id": "red_parsley",
+      "name": "红叶欧芹",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "red_parsleyPot"
+    },
+    "red_cilantro": {
+      "id": "red_cilantro",
+      "name": "红叶香菜",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "red_cilantroPot"
+    },
+    "red_dill": {
+      "id": "red_dill",
+      "name": "红叶莳萝",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "red_dillPot"
+    },
+    "red_fennel": {
+      "id": "red_fennel",
+      "name": "红叶茴香",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "red_fennelPot"
+    },
+    "red_lovage": {
+      "id": "red_lovage",
+      "name": "红叶独活",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "red_lovagePot"
+    },
+    "red_sorrel": {
+      "id": "red_sorrel",
+      "name": "红叶酸模",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "red_sorrelPot"
+    },
+    "white_thyme": {
+      "id": "white_thyme",
+      "name": "白花百里香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "white_thymePot"
+    },
+    "white_oregano": {
+      "id": "white_oregano",
+      "name": "白花牛至",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "white_oreganoPot"
+    },
+    "white_basil": {
+      "id": "white_basil",
+      "name": "白花罗勒",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "white_basilPot"
+    },
+    "white_mint": {
+      "id": "white_mint",
+      "name": "白花薄荷",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "white_mintPot"
+    },
+    "white_lavender": {
+      "id": "white_lavender",
+      "name": "白花薰衣草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "white_lavenderPot"
+    },
+    "white_rosemary": {
+      "id": "white_rosemary",
+      "name": "白花迷迭香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "white_rosemaryPot"
+    },
+    "white_marjoram": {
+      "id": "white_marjoram",
+      "name": "白花马郁兰",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "white_marjoramPot"
+    },
+    "white_tarragon": {
+      "id": "white_tarragon",
+      "name": "白花龙蒿",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "white_tarragonPot"
+    },
+    "white_chive": {
+      "id": "white_chive",
+      "name": "白花香葱",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "white_chivePot"
+    },
+    "white_parsley": {
+      "id": "white_parsley",
+      "name": "白花欧芹",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "white_parsleyPot"
+    },
+    "white_cilantro": {
+      "id": "white_cilantro",
+      "name": "白花香菜",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "white_cilantroPot"
+    },
+    "white_dill": {
+      "id": "white_dill",
+      "name": "白花莳萝",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "white_dillPot"
+    },
+    "white_fennel": {
+      "id": "white_fennel",
+      "name": "白花茴香",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "white_fennelPot"
+    },
+    "white_lovage": {
+      "id": "white_lovage",
+      "name": "白花独活",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "white_lovagePot"
+    },
+    "white_sorrel": {
+      "id": "white_sorrel",
+      "name": "白花酸模",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "white_sorrelPot"
+    },
+    "pink_thyme": {
+      "id": "pink_thyme",
+      "name": "粉花百里香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "pink_thymePot"
+    },
+    "pink_sage": {
+      "id": "pink_sage",
+      "name": "粉花鼠尾草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "pink_sagePot"
+    },
+    "pink_oregano": {
+      "id": "pink_oregano",
+      "name": "粉花牛至",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "pink_oreganoPot"
+    },
+    "pink_basil": {
+      "id": "pink_basil",
+      "name": "粉花罗勒",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "pink_basilPot"
+    },
+    "pink_mint": {
+      "id": "pink_mint",
+      "name": "粉花薄荷",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "pink_mintPot"
+    },
+    "pink_lavender": {
+      "id": "pink_lavender",
+      "name": "粉花薰衣草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "pink_lavenderPot"
+    },
+    "pink_rosemary": {
+      "id": "pink_rosemary",
+      "name": "粉花迷迭香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "pink_rosemaryPot"
+    },
+    "pink_marjoram": {
+      "id": "pink_marjoram",
+      "name": "粉花马郁兰",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "pink_marjoramPot"
+    },
+    "pink_tarragon": {
+      "id": "pink_tarragon",
+      "name": "粉花龙蒿",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "pink_tarragonPot"
+    },
+    "pink_chive": {
+      "id": "pink_chive",
+      "name": "粉花香葱",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "pink_chivePot"
+    },
+    "pink_parsley": {
+      "id": "pink_parsley",
+      "name": "粉花欧芹",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "pink_parsleyPot"
+    },
+    "pink_cilantro": {
+      "id": "pink_cilantro",
+      "name": "粉花香菜",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "pink_cilantroPot"
+    },
+    "pink_dill": {
+      "id": "pink_dill",
+      "name": "粉花莳萝",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "pink_dillPot"
+    },
+    "pink_fennel": {
+      "id": "pink_fennel",
+      "name": "粉花茴香",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "pink_fennelPot"
+    },
+    "pink_lovage": {
+      "id": "pink_lovage",
+      "name": "粉花独活",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "pink_lovagePot"
+    },
+    "pink_sorrel": {
+      "id": "pink_sorrel",
+      "name": "粉花酸模",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "pink_sorrelPot"
+    },
+    "blue_thyme": {
+      "id": "blue_thyme",
+      "name": "蓝花百里香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "blue_thymePot"
+    },
+    "blue_sage": {
+      "id": "blue_sage",
+      "name": "蓝花鼠尾草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "blue_sagePot"
+    },
+    "blue_oregano": {
+      "id": "blue_oregano",
+      "name": "蓝花牛至",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "blue_oreganoPot"
+    },
+    "blue_basil": {
+      "id": "blue_basil",
+      "name": "蓝花罗勒",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "blue_basilPot"
+    },
+    "blue_mint": {
+      "id": "blue_mint",
+      "name": "蓝花薄荷",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "blue_mintPot"
+    },
+    "blue_lavender": {
+      "id": "blue_lavender",
+      "name": "蓝花薰衣草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "blue_lavenderPot"
+    },
+    "blue_rosemary": {
+      "id": "blue_rosemary",
+      "name": "蓝花迷迭香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "blue_rosemaryPot"
+    },
+    "blue_marjoram": {
+      "id": "blue_marjoram",
+      "name": "蓝花马郁兰",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "blue_marjoramPot"
+    },
+    "blue_tarragon": {
+      "id": "blue_tarragon",
+      "name": "蓝花龙蒿",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "blue_tarragonPot"
+    },
+    "blue_chive": {
+      "id": "blue_chive",
+      "name": "蓝花香葱",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "blue_chivePot"
+    },
+    "blue_parsley": {
+      "id": "blue_parsley",
+      "name": "蓝花欧芹",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "blue_parsleyPot"
+    },
+    "blue_cilantro": {
+      "id": "blue_cilantro",
+      "name": "蓝花香菜",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "blue_cilantroPot"
+    },
+    "blue_dill": {
+      "id": "blue_dill",
+      "name": "蓝花莳萝",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "blue_dillPot"
+    },
+    "blue_fennel": {
+      "id": "blue_fennel",
+      "name": "蓝花茴香",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "blue_fennelPot"
+    },
+    "blue_lovage": {
+      "id": "blue_lovage",
+      "name": "蓝花独活",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "blue_lovagePot"
+    },
+    "blue_sorrel": {
+      "id": "blue_sorrel",
+      "name": "蓝花酸模",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "blue_sorrelPot"
+    },
+    "yellow_thyme": {
+      "id": "yellow_thyme",
+      "name": "黄花百里香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "yellow_thymePot"
+    },
+    "yellow_sage": {
+      "id": "yellow_sage",
+      "name": "黄花鼠尾草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "yellow_sagePot"
+    },
+    "yellow_oregano": {
+      "id": "yellow_oregano",
+      "name": "黄花牛至",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "yellow_oreganoPot"
+    },
+    "yellow_basil": {
+      "id": "yellow_basil",
+      "name": "黄花罗勒",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "yellow_basilPot"
+    },
+    "yellow_mint": {
+      "id": "yellow_mint",
+      "name": "黄花薄荷",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "yellow_mintPot"
+    },
+    "yellow_lavender": {
+      "id": "yellow_lavender",
+      "name": "黄花薰衣草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "yellow_lavenderPot"
+    },
+    "yellow_rosemary": {
+      "id": "yellow_rosemary",
+      "name": "黄花迷迭香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "yellow_rosemaryPot"
+    },
+    "yellow_marjoram": {
+      "id": "yellow_marjoram",
+      "name": "黄花马郁兰",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "yellow_marjoramPot"
+    },
+    "yellow_tarragon": {
+      "id": "yellow_tarragon",
+      "name": "黄花龙蒿",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "yellow_tarragonPot"
+    },
+    "yellow_chive": {
+      "id": "yellow_chive",
+      "name": "黄花香葱",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "yellow_chivePot"
+    },
+    "yellow_parsley": {
+      "id": "yellow_parsley",
+      "name": "黄花欧芹",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "yellow_parsleyPot"
+    },
+    "yellow_cilantro": {
+      "id": "yellow_cilantro",
+      "name": "黄花香菜",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "yellow_cilantroPot"
+    },
+    "yellow_dill": {
+      "id": "yellow_dill",
+      "name": "黄花莳萝",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "yellow_dillPot"
+    },
+    "yellow_fennel": {
+      "id": "yellow_fennel",
+      "name": "黄花茴香",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "yellow_fennelPot"
+    },
+    "yellow_lovage": {
+      "id": "yellow_lovage",
+      "name": "黄花独活",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "yellow_lovagePot"
+    },
+    "yellow_sorrel": {
+      "id": "yellow_sorrel",
+      "name": "黄花酸模",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "yellow_sorrelPot"
+    },
+    "orange_thyme": {
+      "id": "orange_thyme",
+      "name": "橙花百里香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "orange_thymePot"
+    },
+    "orange_sage": {
+      "id": "orange_sage",
+      "name": "橙花鼠尾草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "orange_sagePot"
+    },
+    "orange_oregano": {
+      "id": "orange_oregano",
+      "name": "橙花牛至",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "orange_oreganoPot"
+    },
+    "orange_basil": {
+      "id": "orange_basil",
+      "name": "橙花罗勒",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "orange_basilPot"
+    },
+    "orange_mint": {
+      "id": "orange_mint",
+      "name": "橙花薄荷",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "orange_mintPot"
+    },
+    "orange_lavender": {
+      "id": "orange_lavender",
+      "name": "橙花薰衣草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "orange_lavenderPot"
+    },
+    "orange_rosemary": {
+      "id": "orange_rosemary",
+      "name": "橙花迷迭香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "orange_rosemaryPot"
+    },
+    "orange_marjoram": {
+      "id": "orange_marjoram",
+      "name": "橙花马郁兰",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "orange_marjoramPot"
+    },
+    "orange_tarragon": {
+      "id": "orange_tarragon",
+      "name": "橙花龙蒿",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "orange_tarragonPot"
+    },
+    "orange_chive": {
+      "id": "orange_chive",
+      "name": "橙花香葱",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "orange_chivePot"
+    },
+    "orange_parsley": {
+      "id": "orange_parsley",
+      "name": "橙花欧芹",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "orange_parsleyPot"
+    },
+    "orange_cilantro": {
+      "id": "orange_cilantro",
+      "name": "橙花香菜",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "orange_cilantroPot"
+    },
+    "orange_dill": {
+      "id": "orange_dill",
+      "name": "橙花莳萝",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "orange_dillPot"
+    },
+    "orange_fennel": {
+      "id": "orange_fennel",
+      "name": "橙花茴香",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "orange_fennelPot"
+    },
+    "orange_lovage": {
+      "id": "orange_lovage",
+      "name": "橙花独活",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "orange_lovagePot"
+    },
+    "orange_sorrel": {
+      "id": "orange_sorrel",
+      "name": "橙花酸模",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "orange_sorrelPot"
+    },
+    "fragrant_thyme": {
+      "id": "fragrant_thyme",
+      "name": "香型百里香",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "fragrant_thymePot"
     }
   },
   "plants": {
@@ -22941,6 +24061,1766 @@
       ],
       "harvest": "giant_sorrel",
       "days": 3
+    },
+    "variegated_thymePot": {
+      "id": "variegated_thymePot",
+      "name": "斑叶百里香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "variegated_thyme",
+      "days": 3
+    },
+    "variegated_sagePot": {
+      "id": "variegated_sagePot",
+      "name": "斑叶鼠尾草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "variegated_sage",
+      "days": 3
+    },
+    "variegated_oreganoPot": {
+      "id": "variegated_oreganoPot",
+      "name": "斑叶牛至",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "variegated_oregano",
+      "days": 3
+    },
+    "variegated_basilPot": {
+      "id": "variegated_basilPot",
+      "name": "斑叶罗勒",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "variegated_basil",
+      "days": 3
+    },
+    "variegated_mintPot": {
+      "id": "variegated_mintPot",
+      "name": "斑叶薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "variegated_mint",
+      "days": 3
+    },
+    "variegated_lavenderPot": {
+      "id": "variegated_lavenderPot",
+      "name": "斑叶薰衣草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "variegated_lavender",
+      "days": 3
+    },
+    "variegated_rosemaryPot": {
+      "id": "variegated_rosemaryPot",
+      "name": "斑叶迷迭香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "variegated_rosemary",
+      "days": 3
+    },
+    "variegated_marjoramPot": {
+      "id": "variegated_marjoramPot",
+      "name": "斑叶马郁兰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "variegated_marjoram",
+      "days": 3
+    },
+    "variegated_tarragonPot": {
+      "id": "variegated_tarragonPot",
+      "name": "斑叶龙蒿",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "variegated_tarragon",
+      "days": 3
+    },
+    "variegated_chivePot": {
+      "id": "variegated_chivePot",
+      "name": "斑叶香葱",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "variegated_chive",
+      "days": 3
+    },
+    "variegated_parsleyPot": {
+      "id": "variegated_parsleyPot",
+      "name": "斑叶欧芹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "variegated_parsley",
+      "days": 3
+    },
+    "variegated_cilantroPot": {
+      "id": "variegated_cilantroPot",
+      "name": "斑叶香菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "variegated_cilantro",
+      "days": 3
+    },
+    "variegated_dillPot": {
+      "id": "variegated_dillPot",
+      "name": "斑叶莳萝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "variegated_dill",
+      "days": 3
+    },
+    "variegated_fennelPot": {
+      "id": "variegated_fennelPot",
+      "name": "斑叶茴香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "variegated_fennel",
+      "days": 3
+    },
+    "variegated_lovagePot": {
+      "id": "variegated_lovagePot",
+      "name": "斑叶独活",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "variegated_lovage",
+      "days": 3
+    },
+    "variegated_sorrelPot": {
+      "id": "variegated_sorrelPot",
+      "name": "斑叶酸模",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "variegated_sorrel",
+      "days": 3
+    },
+    "golden_thymePot": {
+      "id": "golden_thymePot",
+      "name": "金叶百里香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "golden_thyme",
+      "days": 3
+    },
+    "golden_sagePot": {
+      "id": "golden_sagePot",
+      "name": "金叶鼠尾草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "golden_sage",
+      "days": 3
+    },
+    "golden_oreganoPot": {
+      "id": "golden_oreganoPot",
+      "name": "金叶牛至",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "golden_oregano",
+      "days": 3
+    },
+    "golden_basilPot": {
+      "id": "golden_basilPot",
+      "name": "金叶罗勒",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "golden_basil",
+      "days": 3
+    },
+    "golden_mintPot": {
+      "id": "golden_mintPot",
+      "name": "金叶薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "golden_mint",
+      "days": 3
+    },
+    "golden_lavenderPot": {
+      "id": "golden_lavenderPot",
+      "name": "金叶薰衣草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "golden_lavender",
+      "days": 3
+    },
+    "golden_rosemaryPot": {
+      "id": "golden_rosemaryPot",
+      "name": "金叶迷迭香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "golden_rosemary",
+      "days": 3
+    },
+    "golden_marjoramPot": {
+      "id": "golden_marjoramPot",
+      "name": "金叶马郁兰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "golden_marjoram",
+      "days": 3
+    },
+    "golden_tarragonPot": {
+      "id": "golden_tarragonPot",
+      "name": "金叶龙蒿",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "golden_tarragon",
+      "days": 3
+    },
+    "golden_chivePot": {
+      "id": "golden_chivePot",
+      "name": "金叶香葱",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "golden_chive",
+      "days": 3
+    },
+    "golden_parsleyPot": {
+      "id": "golden_parsleyPot",
+      "name": "金叶欧芹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "golden_parsley",
+      "days": 3
+    },
+    "golden_cilantroPot": {
+      "id": "golden_cilantroPot",
+      "name": "金叶香菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "golden_cilantro",
+      "days": 3
+    },
+    "golden_dillPot": {
+      "id": "golden_dillPot",
+      "name": "金叶莳萝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "golden_dill",
+      "days": 3
+    },
+    "golden_fennelPot": {
+      "id": "golden_fennelPot",
+      "name": "金叶茴香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "golden_fennel",
+      "days": 3
+    },
+    "golden_lovagePot": {
+      "id": "golden_lovagePot",
+      "name": "金叶独活",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "golden_lovage",
+      "days": 3
+    },
+    "golden_sorrelPot": {
+      "id": "golden_sorrelPot",
+      "name": "金叶酸模",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "golden_sorrel",
+      "days": 3
+    },
+    "silver_thymePot": {
+      "id": "silver_thymePot",
+      "name": "银叶百里香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "silver_thyme",
+      "days": 3
+    },
+    "silver_sagePot": {
+      "id": "silver_sagePot",
+      "name": "银叶鼠尾草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "silver_sage",
+      "days": 3
+    },
+    "silver_oreganoPot": {
+      "id": "silver_oreganoPot",
+      "name": "银叶牛至",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "silver_oregano",
+      "days": 3
+    },
+    "silver_basilPot": {
+      "id": "silver_basilPot",
+      "name": "银叶罗勒",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "silver_basil",
+      "days": 3
+    },
+    "silver_mintPot": {
+      "id": "silver_mintPot",
+      "name": "银叶薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "silver_mint",
+      "days": 3
+    },
+    "silver_lavenderPot": {
+      "id": "silver_lavenderPot",
+      "name": "银叶薰衣草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "silver_lavender",
+      "days": 3
+    },
+    "silver_rosemaryPot": {
+      "id": "silver_rosemaryPot",
+      "name": "银叶迷迭香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "silver_rosemary",
+      "days": 3
+    },
+    "silver_marjoramPot": {
+      "id": "silver_marjoramPot",
+      "name": "银叶马郁兰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "silver_marjoram",
+      "days": 3
+    },
+    "silver_tarragonPot": {
+      "id": "silver_tarragonPot",
+      "name": "银叶龙蒿",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "silver_tarragon",
+      "days": 3
+    },
+    "silver_chivePot": {
+      "id": "silver_chivePot",
+      "name": "银叶香葱",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "silver_chive",
+      "days": 3
+    },
+    "silver_parsleyPot": {
+      "id": "silver_parsleyPot",
+      "name": "银叶欧芹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "silver_parsley",
+      "days": 3
+    },
+    "silver_cilantroPot": {
+      "id": "silver_cilantroPot",
+      "name": "银叶香菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "silver_cilantro",
+      "days": 3
+    },
+    "silver_dillPot": {
+      "id": "silver_dillPot",
+      "name": "银叶莳萝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "silver_dill",
+      "days": 3
+    },
+    "silver_fennelPot": {
+      "id": "silver_fennelPot",
+      "name": "银叶茴香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "silver_fennel",
+      "days": 3
+    },
+    "silver_lovagePot": {
+      "id": "silver_lovagePot",
+      "name": "银叶独活",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "silver_lovage",
+      "days": 3
+    },
+    "silver_sorrelPot": {
+      "id": "silver_sorrelPot",
+      "name": "银叶酸模",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "silver_sorrel",
+      "days": 3
+    },
+    "purple_thymePot": {
+      "id": "purple_thymePot",
+      "name": "紫叶百里香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "purple_thyme",
+      "days": 3
+    },
+    "purple_sagePot": {
+      "id": "purple_sagePot",
+      "name": "紫叶鼠尾草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "purple_sage",
+      "days": 3
+    },
+    "purple_oreganoPot": {
+      "id": "purple_oreganoPot",
+      "name": "紫叶牛至",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "purple_oregano",
+      "days": 3
+    },
+    "purple_basilPot": {
+      "id": "purple_basilPot",
+      "name": "紫叶罗勒",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "purple_basil",
+      "days": 3
+    },
+    "purple_mintPot": {
+      "id": "purple_mintPot",
+      "name": "紫叶薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "purple_mint",
+      "days": 3
+    },
+    "purple_lavenderPot": {
+      "id": "purple_lavenderPot",
+      "name": "紫叶薰衣草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "purple_lavender",
+      "days": 3
+    },
+    "purple_rosemaryPot": {
+      "id": "purple_rosemaryPot",
+      "name": "紫叶迷迭香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "purple_rosemary",
+      "days": 3
+    },
+    "purple_marjoramPot": {
+      "id": "purple_marjoramPot",
+      "name": "紫叶马郁兰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "purple_marjoram",
+      "days": 3
+    },
+    "purple_tarragonPot": {
+      "id": "purple_tarragonPot",
+      "name": "紫叶龙蒿",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "purple_tarragon",
+      "days": 3
+    },
+    "purple_chivePot": {
+      "id": "purple_chivePot",
+      "name": "紫叶香葱",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "purple_chive",
+      "days": 3
+    },
+    "purple_parsleyPot": {
+      "id": "purple_parsleyPot",
+      "name": "紫叶欧芹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "purple_parsley",
+      "days": 3
+    },
+    "purple_cilantroPot": {
+      "id": "purple_cilantroPot",
+      "name": "紫叶香菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "purple_cilantro",
+      "days": 3
+    },
+    "purple_dillPot": {
+      "id": "purple_dillPot",
+      "name": "紫叶莳萝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "purple_dill",
+      "days": 3
+    },
+    "purple_fennelPot": {
+      "id": "purple_fennelPot",
+      "name": "紫叶茴香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "purple_fennel",
+      "days": 3
+    },
+    "purple_lovagePot": {
+      "id": "purple_lovagePot",
+      "name": "紫叶独活",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "purple_lovage",
+      "days": 3
+    },
+    "purple_sorrelPot": {
+      "id": "purple_sorrelPot",
+      "name": "紫叶酸模",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "purple_sorrel",
+      "days": 3
+    },
+    "red_thymePot": {
+      "id": "red_thymePot",
+      "name": "红叶百里香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "red_thyme",
+      "days": 3
+    },
+    "red_sagePot": {
+      "id": "red_sagePot",
+      "name": "红叶鼠尾草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "red_sage",
+      "days": 3
+    },
+    "red_oreganoPot": {
+      "id": "red_oreganoPot",
+      "name": "红叶牛至",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "red_oregano",
+      "days": 3
+    },
+    "red_basilPot": {
+      "id": "red_basilPot",
+      "name": "红叶罗勒",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "red_basil",
+      "days": 3
+    },
+    "red_mintPot": {
+      "id": "red_mintPot",
+      "name": "红叶薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "red_mint",
+      "days": 3
+    },
+    "red_lavenderPot": {
+      "id": "red_lavenderPot",
+      "name": "红叶薰衣草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "red_lavender",
+      "days": 3
+    },
+    "red_rosemaryPot": {
+      "id": "red_rosemaryPot",
+      "name": "红叶迷迭香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "red_rosemary",
+      "days": 3
+    },
+    "red_marjoramPot": {
+      "id": "red_marjoramPot",
+      "name": "红叶马郁兰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "red_marjoram",
+      "days": 3
+    },
+    "red_tarragonPot": {
+      "id": "red_tarragonPot",
+      "name": "红叶龙蒿",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "red_tarragon",
+      "days": 3
+    },
+    "red_chivePot": {
+      "id": "red_chivePot",
+      "name": "红叶香葱",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "red_chive",
+      "days": 3
+    },
+    "red_parsleyPot": {
+      "id": "red_parsleyPot",
+      "name": "红叶欧芹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "red_parsley",
+      "days": 3
+    },
+    "red_cilantroPot": {
+      "id": "red_cilantroPot",
+      "name": "红叶香菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "red_cilantro",
+      "days": 3
+    },
+    "red_dillPot": {
+      "id": "red_dillPot",
+      "name": "红叶莳萝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "red_dill",
+      "days": 3
+    },
+    "red_fennelPot": {
+      "id": "red_fennelPot",
+      "name": "红叶茴香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "red_fennel",
+      "days": 3
+    },
+    "red_lovagePot": {
+      "id": "red_lovagePot",
+      "name": "红叶独活",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "red_lovage",
+      "days": 3
+    },
+    "red_sorrelPot": {
+      "id": "red_sorrelPot",
+      "name": "红叶酸模",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "red_sorrel",
+      "days": 3
+    },
+    "white_thymePot": {
+      "id": "white_thymePot",
+      "name": "白花百里香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "white_thyme",
+      "days": 3
+    },
+    "white_oreganoPot": {
+      "id": "white_oreganoPot",
+      "name": "白花牛至",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "white_oregano",
+      "days": 3
+    },
+    "white_basilPot": {
+      "id": "white_basilPot",
+      "name": "白花罗勒",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "white_basil",
+      "days": 3
+    },
+    "white_mintPot": {
+      "id": "white_mintPot",
+      "name": "白花薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "white_mint",
+      "days": 3
+    },
+    "white_lavenderPot": {
+      "id": "white_lavenderPot",
+      "name": "白花薰衣草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "white_lavender",
+      "days": 3
+    },
+    "white_rosemaryPot": {
+      "id": "white_rosemaryPot",
+      "name": "白花迷迭香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "white_rosemary",
+      "days": 3
+    },
+    "white_marjoramPot": {
+      "id": "white_marjoramPot",
+      "name": "白花马郁兰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "white_marjoram",
+      "days": 3
+    },
+    "white_tarragonPot": {
+      "id": "white_tarragonPot",
+      "name": "白花龙蒿",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "white_tarragon",
+      "days": 3
+    },
+    "white_chivePot": {
+      "id": "white_chivePot",
+      "name": "白花香葱",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "white_chive",
+      "days": 3
+    },
+    "white_parsleyPot": {
+      "id": "white_parsleyPot",
+      "name": "白花欧芹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "white_parsley",
+      "days": 3
+    },
+    "white_cilantroPot": {
+      "id": "white_cilantroPot",
+      "name": "白花香菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "white_cilantro",
+      "days": 3
+    },
+    "white_dillPot": {
+      "id": "white_dillPot",
+      "name": "白花莳萝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "white_dill",
+      "days": 3
+    },
+    "white_fennelPot": {
+      "id": "white_fennelPot",
+      "name": "白花茴香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "white_fennel",
+      "days": 3
+    },
+    "white_lovagePot": {
+      "id": "white_lovagePot",
+      "name": "白花独活",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "white_lovage",
+      "days": 3
+    },
+    "white_sorrelPot": {
+      "id": "white_sorrelPot",
+      "name": "白花酸模",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "white_sorrel",
+      "days": 3
+    },
+    "pink_thymePot": {
+      "id": "pink_thymePot",
+      "name": "粉花百里香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "pink_thyme",
+      "days": 3
+    },
+    "pink_sagePot": {
+      "id": "pink_sagePot",
+      "name": "粉花鼠尾草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "pink_sage",
+      "days": 3
+    },
+    "pink_oreganoPot": {
+      "id": "pink_oreganoPot",
+      "name": "粉花牛至",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "pink_oregano",
+      "days": 3
+    },
+    "pink_basilPot": {
+      "id": "pink_basilPot",
+      "name": "粉花罗勒",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "pink_basil",
+      "days": 3
+    },
+    "pink_mintPot": {
+      "id": "pink_mintPot",
+      "name": "粉花薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "pink_mint",
+      "days": 3
+    },
+    "pink_lavenderPot": {
+      "id": "pink_lavenderPot",
+      "name": "粉花薰衣草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "pink_lavender",
+      "days": 3
+    },
+    "pink_rosemaryPot": {
+      "id": "pink_rosemaryPot",
+      "name": "粉花迷迭香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "pink_rosemary",
+      "days": 3
+    },
+    "pink_marjoramPot": {
+      "id": "pink_marjoramPot",
+      "name": "粉花马郁兰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "pink_marjoram",
+      "days": 3
+    },
+    "pink_tarragonPot": {
+      "id": "pink_tarragonPot",
+      "name": "粉花龙蒿",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "pink_tarragon",
+      "days": 3
+    },
+    "pink_chivePot": {
+      "id": "pink_chivePot",
+      "name": "粉花香葱",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "pink_chive",
+      "days": 3
+    },
+    "pink_parsleyPot": {
+      "id": "pink_parsleyPot",
+      "name": "粉花欧芹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "pink_parsley",
+      "days": 3
+    },
+    "pink_cilantroPot": {
+      "id": "pink_cilantroPot",
+      "name": "粉花香菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "pink_cilantro",
+      "days": 3
+    },
+    "pink_dillPot": {
+      "id": "pink_dillPot",
+      "name": "粉花莳萝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "pink_dill",
+      "days": 3
+    },
+    "pink_fennelPot": {
+      "id": "pink_fennelPot",
+      "name": "粉花茴香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "pink_fennel",
+      "days": 3
+    },
+    "pink_lovagePot": {
+      "id": "pink_lovagePot",
+      "name": "粉花独活",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "pink_lovage",
+      "days": 3
+    },
+    "pink_sorrelPot": {
+      "id": "pink_sorrelPot",
+      "name": "粉花酸模",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "pink_sorrel",
+      "days": 3
+    },
+    "blue_thymePot": {
+      "id": "blue_thymePot",
+      "name": "蓝花百里香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "blue_thyme",
+      "days": 3
+    },
+    "blue_sagePot": {
+      "id": "blue_sagePot",
+      "name": "蓝花鼠尾草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "blue_sage",
+      "days": 3
+    },
+    "blue_oreganoPot": {
+      "id": "blue_oreganoPot",
+      "name": "蓝花牛至",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "blue_oregano",
+      "days": 3
+    },
+    "blue_basilPot": {
+      "id": "blue_basilPot",
+      "name": "蓝花罗勒",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "blue_basil",
+      "days": 3
+    },
+    "blue_mintPot": {
+      "id": "blue_mintPot",
+      "name": "蓝花薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "blue_mint",
+      "days": 3
+    },
+    "blue_lavenderPot": {
+      "id": "blue_lavenderPot",
+      "name": "蓝花薰衣草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "blue_lavender",
+      "days": 3
+    },
+    "blue_rosemaryPot": {
+      "id": "blue_rosemaryPot",
+      "name": "蓝花迷迭香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "blue_rosemary",
+      "days": 3
+    },
+    "blue_marjoramPot": {
+      "id": "blue_marjoramPot",
+      "name": "蓝花马郁兰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "blue_marjoram",
+      "days": 3
+    },
+    "blue_tarragonPot": {
+      "id": "blue_tarragonPot",
+      "name": "蓝花龙蒿",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "blue_tarragon",
+      "days": 3
+    },
+    "blue_chivePot": {
+      "id": "blue_chivePot",
+      "name": "蓝花香葱",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "blue_chive",
+      "days": 3
+    },
+    "blue_parsleyPot": {
+      "id": "blue_parsleyPot",
+      "name": "蓝花欧芹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "blue_parsley",
+      "days": 3
+    },
+    "blue_cilantroPot": {
+      "id": "blue_cilantroPot",
+      "name": "蓝花香菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "blue_cilantro",
+      "days": 3
+    },
+    "blue_dillPot": {
+      "id": "blue_dillPot",
+      "name": "蓝花莳萝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "blue_dill",
+      "days": 3
+    },
+    "blue_fennelPot": {
+      "id": "blue_fennelPot",
+      "name": "蓝花茴香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "blue_fennel",
+      "days": 3
+    },
+    "blue_lovagePot": {
+      "id": "blue_lovagePot",
+      "name": "蓝花独活",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "blue_lovage",
+      "days": 3
+    },
+    "blue_sorrelPot": {
+      "id": "blue_sorrelPot",
+      "name": "蓝花酸模",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "blue_sorrel",
+      "days": 3
+    },
+    "yellow_thymePot": {
+      "id": "yellow_thymePot",
+      "name": "黄花百里香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "yellow_thyme",
+      "days": 3
+    },
+    "yellow_sagePot": {
+      "id": "yellow_sagePot",
+      "name": "黄花鼠尾草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "yellow_sage",
+      "days": 3
+    },
+    "yellow_oreganoPot": {
+      "id": "yellow_oreganoPot",
+      "name": "黄花牛至",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "yellow_oregano",
+      "days": 3
+    },
+    "yellow_basilPot": {
+      "id": "yellow_basilPot",
+      "name": "黄花罗勒",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "yellow_basil",
+      "days": 3
+    },
+    "yellow_mintPot": {
+      "id": "yellow_mintPot",
+      "name": "黄花薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "yellow_mint",
+      "days": 3
+    },
+    "yellow_lavenderPot": {
+      "id": "yellow_lavenderPot",
+      "name": "黄花薰衣草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "yellow_lavender",
+      "days": 3
+    },
+    "yellow_rosemaryPot": {
+      "id": "yellow_rosemaryPot",
+      "name": "黄花迷迭香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "yellow_rosemary",
+      "days": 3
+    },
+    "yellow_marjoramPot": {
+      "id": "yellow_marjoramPot",
+      "name": "黄花马郁兰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "yellow_marjoram",
+      "days": 3
+    },
+    "yellow_tarragonPot": {
+      "id": "yellow_tarragonPot",
+      "name": "黄花龙蒿",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "yellow_tarragon",
+      "days": 3
+    },
+    "yellow_chivePot": {
+      "id": "yellow_chivePot",
+      "name": "黄花香葱",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "yellow_chive",
+      "days": 3
+    },
+    "yellow_parsleyPot": {
+      "id": "yellow_parsleyPot",
+      "name": "黄花欧芹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "yellow_parsley",
+      "days": 3
+    },
+    "yellow_cilantroPot": {
+      "id": "yellow_cilantroPot",
+      "name": "黄花香菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "yellow_cilantro",
+      "days": 3
+    },
+    "yellow_dillPot": {
+      "id": "yellow_dillPot",
+      "name": "黄花莳萝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "yellow_dill",
+      "days": 3
+    },
+    "yellow_fennelPot": {
+      "id": "yellow_fennelPot",
+      "name": "黄花茴香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "yellow_fennel",
+      "days": 3
+    },
+    "yellow_lovagePot": {
+      "id": "yellow_lovagePot",
+      "name": "黄花独活",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "yellow_lovage",
+      "days": 3
+    },
+    "yellow_sorrelPot": {
+      "id": "yellow_sorrelPot",
+      "name": "黄花酸模",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "yellow_sorrel",
+      "days": 3
+    },
+    "orange_thymePot": {
+      "id": "orange_thymePot",
+      "name": "橙花百里香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "orange_thyme",
+      "days": 3
+    },
+    "orange_sagePot": {
+      "id": "orange_sagePot",
+      "name": "橙花鼠尾草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "orange_sage",
+      "days": 3
+    },
+    "orange_oreganoPot": {
+      "id": "orange_oreganoPot",
+      "name": "橙花牛至",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "orange_oregano",
+      "days": 3
+    },
+    "orange_basilPot": {
+      "id": "orange_basilPot",
+      "name": "橙花罗勒",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "orange_basil",
+      "days": 3
+    },
+    "orange_mintPot": {
+      "id": "orange_mintPot",
+      "name": "橙花薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "orange_mint",
+      "days": 3
+    },
+    "orange_lavenderPot": {
+      "id": "orange_lavenderPot",
+      "name": "橙花薰衣草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "orange_lavender",
+      "days": 3
+    },
+    "orange_rosemaryPot": {
+      "id": "orange_rosemaryPot",
+      "name": "橙花迷迭香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "orange_rosemary",
+      "days": 3
+    },
+    "orange_marjoramPot": {
+      "id": "orange_marjoramPot",
+      "name": "橙花马郁兰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "orange_marjoram",
+      "days": 3
+    },
+    "orange_tarragonPot": {
+      "id": "orange_tarragonPot",
+      "name": "橙花龙蒿",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "orange_tarragon",
+      "days": 3
+    },
+    "orange_chivePot": {
+      "id": "orange_chivePot",
+      "name": "橙花香葱",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "orange_chive",
+      "days": 3
+    },
+    "orange_parsleyPot": {
+      "id": "orange_parsleyPot",
+      "name": "橙花欧芹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "orange_parsley",
+      "days": 3
+    },
+    "orange_cilantroPot": {
+      "id": "orange_cilantroPot",
+      "name": "橙花香菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "orange_cilantro",
+      "days": 3
+    },
+    "orange_dillPot": {
+      "id": "orange_dillPot",
+      "name": "橙花莳萝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "orange_dill",
+      "days": 3
+    },
+    "orange_fennelPot": {
+      "id": "orange_fennelPot",
+      "name": "橙花茴香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "orange_fennel",
+      "days": 3
+    },
+    "orange_lovagePot": {
+      "id": "orange_lovagePot",
+      "name": "橙花独活",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "orange_lovage",
+      "days": 3
+    },
+    "orange_sorrelPot": {
+      "id": "orange_sorrelPot",
+      "name": "橙花酸模",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "orange_sorrel",
+      "days": 3
+    },
+    "fragrant_thymePot": {
+      "id": "fragrant_thymePot",
+      "name": "香型百里香",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "fragrant_thyme",
+      "days": 3
     }
   },
   "cups": [
@@ -34152,6 +37032,1606 @@
       "name": "巨生酸模",
       "emoji": "🟢",
       "need": "giant_sorrel",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "variegated_thyme",
+      "name": "斑叶百里香",
+      "emoji": "🟢",
+      "need": "variegated_thyme",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "variegated_sage",
+      "name": "斑叶鼠尾草",
+      "emoji": "💜",
+      "need": "variegated_sage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "variegated_oregano",
+      "name": "斑叶牛至",
+      "emoji": "🟢",
+      "need": "variegated_oregano",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "variegated_basil",
+      "name": "斑叶罗勒",
+      "emoji": "🟢",
+      "need": "variegated_basil",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "variegated_mint",
+      "name": "斑叶薄荷",
+      "emoji": "🟢",
+      "need": "variegated_mint",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "variegated_lavender",
+      "name": "斑叶薰衣草",
+      "emoji": "💜",
+      "need": "variegated_lavender",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "variegated_rosemary",
+      "name": "斑叶迷迭香",
+      "emoji": "🟢",
+      "need": "variegated_rosemary",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "variegated_marjoram",
+      "name": "斑叶马郁兰",
+      "emoji": "🟢",
+      "need": "variegated_marjoram",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "variegated_tarragon",
+      "name": "斑叶龙蒿",
+      "emoji": "🟢",
+      "need": "variegated_tarragon",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "variegated_chive",
+      "name": "斑叶香葱",
+      "emoji": "🟢",
+      "need": "variegated_chive",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "variegated_parsley",
+      "name": "斑叶欧芹",
+      "emoji": "🟢",
+      "need": "variegated_parsley",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "variegated_cilantro",
+      "name": "斑叶香菜",
+      "emoji": "🟢",
+      "need": "variegated_cilantro",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "variegated_dill",
+      "name": "斑叶莳萝",
+      "emoji": "🟡",
+      "need": "variegated_dill",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "variegated_fennel",
+      "name": "斑叶茴香",
+      "emoji": "🟡",
+      "need": "variegated_fennel",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "variegated_lovage",
+      "name": "斑叶独活",
+      "emoji": "🟢",
+      "need": "variegated_lovage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "variegated_sorrel",
+      "name": "斑叶酸模",
+      "emoji": "🟢",
+      "need": "variegated_sorrel",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "golden_thyme",
+      "name": "金叶百里香",
+      "emoji": "🟢",
+      "need": "golden_thyme",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "golden_sage",
+      "name": "金叶鼠尾草",
+      "emoji": "💜",
+      "need": "golden_sage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "golden_oregano",
+      "name": "金叶牛至",
+      "emoji": "🟢",
+      "need": "golden_oregano",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "golden_basil",
+      "name": "金叶罗勒",
+      "emoji": "🟢",
+      "need": "golden_basil",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "golden_mint",
+      "name": "金叶薄荷",
+      "emoji": "🟢",
+      "need": "golden_mint",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "golden_lavender",
+      "name": "金叶薰衣草",
+      "emoji": "💜",
+      "need": "golden_lavender",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "golden_rosemary",
+      "name": "金叶迷迭香",
+      "emoji": "🟢",
+      "need": "golden_rosemary",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "golden_marjoram",
+      "name": "金叶马郁兰",
+      "emoji": "🟢",
+      "need": "golden_marjoram",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "golden_tarragon",
+      "name": "金叶龙蒿",
+      "emoji": "🟢",
+      "need": "golden_tarragon",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "golden_chive",
+      "name": "金叶香葱",
+      "emoji": "🟢",
+      "need": "golden_chive",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "golden_parsley",
+      "name": "金叶欧芹",
+      "emoji": "🟢",
+      "need": "golden_parsley",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "golden_cilantro",
+      "name": "金叶香菜",
+      "emoji": "🟢",
+      "need": "golden_cilantro",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "golden_dill",
+      "name": "金叶莳萝",
+      "emoji": "🟡",
+      "need": "golden_dill",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "golden_fennel",
+      "name": "金叶茴香",
+      "emoji": "🟡",
+      "need": "golden_fennel",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "golden_lovage",
+      "name": "金叶独活",
+      "emoji": "🟢",
+      "need": "golden_lovage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "golden_sorrel",
+      "name": "金叶酸模",
+      "emoji": "🟢",
+      "need": "golden_sorrel",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "silver_thyme",
+      "name": "银叶百里香",
+      "emoji": "🟢",
+      "need": "silver_thyme",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "silver_sage",
+      "name": "银叶鼠尾草",
+      "emoji": "💜",
+      "need": "silver_sage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "silver_oregano",
+      "name": "银叶牛至",
+      "emoji": "🟢",
+      "need": "silver_oregano",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "silver_basil",
+      "name": "银叶罗勒",
+      "emoji": "🟢",
+      "need": "silver_basil",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "silver_mint",
+      "name": "银叶薄荷",
+      "emoji": "🟢",
+      "need": "silver_mint",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "silver_lavender",
+      "name": "银叶薰衣草",
+      "emoji": "💜",
+      "need": "silver_lavender",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "silver_rosemary",
+      "name": "银叶迷迭香",
+      "emoji": "🟢",
+      "need": "silver_rosemary",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "silver_marjoram",
+      "name": "银叶马郁兰",
+      "emoji": "🟢",
+      "need": "silver_marjoram",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "silver_tarragon",
+      "name": "银叶龙蒿",
+      "emoji": "🟢",
+      "need": "silver_tarragon",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "silver_chive",
+      "name": "银叶香葱",
+      "emoji": "🟢",
+      "need": "silver_chive",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "silver_parsley",
+      "name": "银叶欧芹",
+      "emoji": "🟢",
+      "need": "silver_parsley",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "silver_cilantro",
+      "name": "银叶香菜",
+      "emoji": "🟢",
+      "need": "silver_cilantro",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "silver_dill",
+      "name": "银叶莳萝",
+      "emoji": "🟡",
+      "need": "silver_dill",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "silver_fennel",
+      "name": "银叶茴香",
+      "emoji": "🟡",
+      "need": "silver_fennel",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "silver_lovage",
+      "name": "银叶独活",
+      "emoji": "🟢",
+      "need": "silver_lovage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "silver_sorrel",
+      "name": "银叶酸模",
+      "emoji": "🟢",
+      "need": "silver_sorrel",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "purple_thyme",
+      "name": "紫叶百里香",
+      "emoji": "🟢",
+      "need": "purple_thyme",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "purple_sage",
+      "name": "紫叶鼠尾草",
+      "emoji": "💜",
+      "need": "purple_sage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "purple_oregano",
+      "name": "紫叶牛至",
+      "emoji": "🟢",
+      "need": "purple_oregano",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "purple_basil",
+      "name": "紫叶罗勒",
+      "emoji": "🟢",
+      "need": "purple_basil",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "purple_mint",
+      "name": "紫叶薄荷",
+      "emoji": "🟢",
+      "need": "purple_mint",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "purple_lavender",
+      "name": "紫叶薰衣草",
+      "emoji": "💜",
+      "need": "purple_lavender",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "purple_rosemary",
+      "name": "紫叶迷迭香",
+      "emoji": "🟢",
+      "need": "purple_rosemary",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "purple_marjoram",
+      "name": "紫叶马郁兰",
+      "emoji": "🟢",
+      "need": "purple_marjoram",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "purple_tarragon",
+      "name": "紫叶龙蒿",
+      "emoji": "🟢",
+      "need": "purple_tarragon",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "purple_chive",
+      "name": "紫叶香葱",
+      "emoji": "🟢",
+      "need": "purple_chive",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "purple_parsley",
+      "name": "紫叶欧芹",
+      "emoji": "🟢",
+      "need": "purple_parsley",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "purple_cilantro",
+      "name": "紫叶香菜",
+      "emoji": "🟢",
+      "need": "purple_cilantro",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "purple_dill",
+      "name": "紫叶莳萝",
+      "emoji": "🟡",
+      "need": "purple_dill",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "purple_fennel",
+      "name": "紫叶茴香",
+      "emoji": "🟡",
+      "need": "purple_fennel",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "purple_lovage",
+      "name": "紫叶独活",
+      "emoji": "🟢",
+      "need": "purple_lovage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "purple_sorrel",
+      "name": "紫叶酸模",
+      "emoji": "🟢",
+      "need": "purple_sorrel",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "red_thyme",
+      "name": "红叶百里香",
+      "emoji": "🟢",
+      "need": "red_thyme",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "red_sage",
+      "name": "红叶鼠尾草",
+      "emoji": "💜",
+      "need": "red_sage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "red_oregano",
+      "name": "红叶牛至",
+      "emoji": "🟢",
+      "need": "red_oregano",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "red_basil",
+      "name": "红叶罗勒",
+      "emoji": "🟢",
+      "need": "red_basil",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "red_mint",
+      "name": "红叶薄荷",
+      "emoji": "🟢",
+      "need": "red_mint",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "red_lavender",
+      "name": "红叶薰衣草",
+      "emoji": "💜",
+      "need": "red_lavender",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "red_rosemary",
+      "name": "红叶迷迭香",
+      "emoji": "🟢",
+      "need": "red_rosemary",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "red_marjoram",
+      "name": "红叶马郁兰",
+      "emoji": "🟢",
+      "need": "red_marjoram",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "red_tarragon",
+      "name": "红叶龙蒿",
+      "emoji": "🟢",
+      "need": "red_tarragon",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "red_chive",
+      "name": "红叶香葱",
+      "emoji": "🟢",
+      "need": "red_chive",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "red_parsley",
+      "name": "红叶欧芹",
+      "emoji": "🟢",
+      "need": "red_parsley",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "red_cilantro",
+      "name": "红叶香菜",
+      "emoji": "🟢",
+      "need": "red_cilantro",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "red_dill",
+      "name": "红叶莳萝",
+      "emoji": "🟡",
+      "need": "red_dill",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "red_fennel",
+      "name": "红叶茴香",
+      "emoji": "🟡",
+      "need": "red_fennel",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "red_lovage",
+      "name": "红叶独活",
+      "emoji": "🟢",
+      "need": "red_lovage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "red_sorrel",
+      "name": "红叶酸模",
+      "emoji": "🟢",
+      "need": "red_sorrel",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "white_thyme",
+      "name": "白花百里香",
+      "emoji": "🟢",
+      "need": "white_thyme",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "white_oregano",
+      "name": "白花牛至",
+      "emoji": "🟢",
+      "need": "white_oregano",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "white_basil",
+      "name": "白花罗勒",
+      "emoji": "🟢",
+      "need": "white_basil",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "white_mint",
+      "name": "白花薄荷",
+      "emoji": "🟢",
+      "need": "white_mint",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "white_lavender",
+      "name": "白花薰衣草",
+      "emoji": "💜",
+      "need": "white_lavender",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "white_rosemary",
+      "name": "白花迷迭香",
+      "emoji": "🟢",
+      "need": "white_rosemary",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "white_marjoram",
+      "name": "白花马郁兰",
+      "emoji": "🟢",
+      "need": "white_marjoram",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "white_tarragon",
+      "name": "白花龙蒿",
+      "emoji": "🟢",
+      "need": "white_tarragon",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "white_chive",
+      "name": "白花香葱",
+      "emoji": "🟢",
+      "need": "white_chive",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "white_parsley",
+      "name": "白花欧芹",
+      "emoji": "🟢",
+      "need": "white_parsley",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "white_cilantro",
+      "name": "白花香菜",
+      "emoji": "🟢",
+      "need": "white_cilantro",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "white_dill",
+      "name": "白花莳萝",
+      "emoji": "🟡",
+      "need": "white_dill",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "white_fennel",
+      "name": "白花茴香",
+      "emoji": "🟡",
+      "need": "white_fennel",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "white_lovage",
+      "name": "白花独活",
+      "emoji": "🟢",
+      "need": "white_lovage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "white_sorrel",
+      "name": "白花酸模",
+      "emoji": "🟢",
+      "need": "white_sorrel",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "pink_thyme",
+      "name": "粉花百里香",
+      "emoji": "🟢",
+      "need": "pink_thyme",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "pink_sage",
+      "name": "粉花鼠尾草",
+      "emoji": "💜",
+      "need": "pink_sage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "pink_oregano",
+      "name": "粉花牛至",
+      "emoji": "🟢",
+      "need": "pink_oregano",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "pink_basil",
+      "name": "粉花罗勒",
+      "emoji": "🟢",
+      "need": "pink_basil",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "pink_mint",
+      "name": "粉花薄荷",
+      "emoji": "🟢",
+      "need": "pink_mint",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "pink_lavender",
+      "name": "粉花薰衣草",
+      "emoji": "💜",
+      "need": "pink_lavender",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "pink_rosemary",
+      "name": "粉花迷迭香",
+      "emoji": "🟢",
+      "need": "pink_rosemary",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "pink_marjoram",
+      "name": "粉花马郁兰",
+      "emoji": "🟢",
+      "need": "pink_marjoram",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "pink_tarragon",
+      "name": "粉花龙蒿",
+      "emoji": "🟢",
+      "need": "pink_tarragon",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "pink_chive",
+      "name": "粉花香葱",
+      "emoji": "🟢",
+      "need": "pink_chive",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "pink_parsley",
+      "name": "粉花欧芹",
+      "emoji": "🟢",
+      "need": "pink_parsley",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "pink_cilantro",
+      "name": "粉花香菜",
+      "emoji": "🟢",
+      "need": "pink_cilantro",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "pink_dill",
+      "name": "粉花莳萝",
+      "emoji": "🟡",
+      "need": "pink_dill",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "pink_fennel",
+      "name": "粉花茴香",
+      "emoji": "🟡",
+      "need": "pink_fennel",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "pink_lovage",
+      "name": "粉花独活",
+      "emoji": "🟢",
+      "need": "pink_lovage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "pink_sorrel",
+      "name": "粉花酸模",
+      "emoji": "🟢",
+      "need": "pink_sorrel",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "blue_thyme",
+      "name": "蓝花百里香",
+      "emoji": "🟢",
+      "need": "blue_thyme",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "blue_sage",
+      "name": "蓝花鼠尾草",
+      "emoji": "💜",
+      "need": "blue_sage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "blue_oregano",
+      "name": "蓝花牛至",
+      "emoji": "🟢",
+      "need": "blue_oregano",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "blue_basil",
+      "name": "蓝花罗勒",
+      "emoji": "🟢",
+      "need": "blue_basil",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "blue_mint",
+      "name": "蓝花薄荷",
+      "emoji": "🟢",
+      "need": "blue_mint",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "blue_lavender",
+      "name": "蓝花薰衣草",
+      "emoji": "💜",
+      "need": "blue_lavender",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "blue_rosemary",
+      "name": "蓝花迷迭香",
+      "emoji": "🟢",
+      "need": "blue_rosemary",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "blue_marjoram",
+      "name": "蓝花马郁兰",
+      "emoji": "🟢",
+      "need": "blue_marjoram",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "blue_tarragon",
+      "name": "蓝花龙蒿",
+      "emoji": "🟢",
+      "need": "blue_tarragon",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "blue_chive",
+      "name": "蓝花香葱",
+      "emoji": "🟢",
+      "need": "blue_chive",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "blue_parsley",
+      "name": "蓝花欧芹",
+      "emoji": "🟢",
+      "need": "blue_parsley",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "blue_cilantro",
+      "name": "蓝花香菜",
+      "emoji": "🟢",
+      "need": "blue_cilantro",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "blue_dill",
+      "name": "蓝花莳萝",
+      "emoji": "🟡",
+      "need": "blue_dill",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "blue_fennel",
+      "name": "蓝花茴香",
+      "emoji": "🟡",
+      "need": "blue_fennel",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "blue_lovage",
+      "name": "蓝花独活",
+      "emoji": "🟢",
+      "need": "blue_lovage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "blue_sorrel",
+      "name": "蓝花酸模",
+      "emoji": "🟢",
+      "need": "blue_sorrel",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "yellow_thyme",
+      "name": "黄花百里香",
+      "emoji": "🟢",
+      "need": "yellow_thyme",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "yellow_sage",
+      "name": "黄花鼠尾草",
+      "emoji": "💜",
+      "need": "yellow_sage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "yellow_oregano",
+      "name": "黄花牛至",
+      "emoji": "🟢",
+      "need": "yellow_oregano",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "yellow_basil",
+      "name": "黄花罗勒",
+      "emoji": "🟢",
+      "need": "yellow_basil",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "yellow_mint",
+      "name": "黄花薄荷",
+      "emoji": "🟢",
+      "need": "yellow_mint",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "yellow_lavender",
+      "name": "黄花薰衣草",
+      "emoji": "💜",
+      "need": "yellow_lavender",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "yellow_rosemary",
+      "name": "黄花迷迭香",
+      "emoji": "🟢",
+      "need": "yellow_rosemary",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "yellow_marjoram",
+      "name": "黄花马郁兰",
+      "emoji": "🟢",
+      "need": "yellow_marjoram",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "yellow_tarragon",
+      "name": "黄花龙蒿",
+      "emoji": "🟢",
+      "need": "yellow_tarragon",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "yellow_chive",
+      "name": "黄花香葱",
+      "emoji": "🟢",
+      "need": "yellow_chive",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "yellow_parsley",
+      "name": "黄花欧芹",
+      "emoji": "🟢",
+      "need": "yellow_parsley",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "yellow_cilantro",
+      "name": "黄花香菜",
+      "emoji": "🟢",
+      "need": "yellow_cilantro",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "yellow_dill",
+      "name": "黄花莳萝",
+      "emoji": "🟡",
+      "need": "yellow_dill",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "yellow_fennel",
+      "name": "黄花茴香",
+      "emoji": "🟡",
+      "need": "yellow_fennel",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "yellow_lovage",
+      "name": "黄花独活",
+      "emoji": "🟢",
+      "need": "yellow_lovage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "yellow_sorrel",
+      "name": "黄花酸模",
+      "emoji": "🟢",
+      "need": "yellow_sorrel",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "orange_thyme",
+      "name": "橙花百里香",
+      "emoji": "🟢",
+      "need": "orange_thyme",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "orange_sage",
+      "name": "橙花鼠尾草",
+      "emoji": "💜",
+      "need": "orange_sage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "orange_oregano",
+      "name": "橙花牛至",
+      "emoji": "🟢",
+      "need": "orange_oregano",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "orange_basil",
+      "name": "橙花罗勒",
+      "emoji": "🟢",
+      "need": "orange_basil",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "orange_mint",
+      "name": "橙花薄荷",
+      "emoji": "🟢",
+      "need": "orange_mint",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "orange_lavender",
+      "name": "橙花薰衣草",
+      "emoji": "💜",
+      "need": "orange_lavender",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "orange_rosemary",
+      "name": "橙花迷迭香",
+      "emoji": "🟢",
+      "need": "orange_rosemary",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "orange_marjoram",
+      "name": "橙花马郁兰",
+      "emoji": "🟢",
+      "need": "orange_marjoram",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "orange_tarragon",
+      "name": "橙花龙蒿",
+      "emoji": "🟢",
+      "need": "orange_tarragon",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "orange_chive",
+      "name": "橙花香葱",
+      "emoji": "🟢",
+      "need": "orange_chive",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "orange_parsley",
+      "name": "橙花欧芹",
+      "emoji": "🟢",
+      "need": "orange_parsley",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "orange_cilantro",
+      "name": "橙花香菜",
+      "emoji": "🟢",
+      "need": "orange_cilantro",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "orange_dill",
+      "name": "橙花莳萝",
+      "emoji": "🟡",
+      "need": "orange_dill",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "orange_fennel",
+      "name": "橙花茴香",
+      "emoji": "🟡",
+      "need": "orange_fennel",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "orange_lovage",
+      "name": "橙花独活",
+      "emoji": "🟢",
+      "need": "orange_lovage",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "orange_sorrel",
+      "name": "橙花酸模",
+      "emoji": "🟢",
+      "need": "orange_sorrel",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "fragrant_thyme",
+      "name": "香型百里香",
+      "emoji": "🟢",
+      "need": "fragrant_thyme",
       "tags": [
         "草本",
         "清爽"
@@ -50950,6 +55430,2406 @@
       ],
       "flavors": [
         "giant_sorrel",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采斑叶百里香的旅人",
+      "avatar": "🟢",
+      "wish": "斑叶百里香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "variegated_thyme",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采斑叶鼠尾草的旅人",
+      "avatar": "💜",
+      "wish": "斑叶鼠尾草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "variegated_sage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采斑叶牛至的旅人",
+      "avatar": "🟢",
+      "wish": "斑叶牛至或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "variegated_oregano",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采斑叶罗勒的旅人",
+      "avatar": "🟢",
+      "wish": "斑叶罗勒或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "variegated_basil",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采斑叶薄荷的旅人",
+      "avatar": "🟢",
+      "wish": "斑叶薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "variegated_mint",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采斑叶薰衣草的旅人",
+      "avatar": "💜",
+      "wish": "斑叶薰衣草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "variegated_lavender",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采斑叶迷迭香的旅人",
+      "avatar": "🟢",
+      "wish": "斑叶迷迭香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "variegated_rosemary",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采斑叶马郁兰的旅人",
+      "avatar": "🟢",
+      "wish": "斑叶马郁兰或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "variegated_marjoram",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采斑叶龙蒿的旅人",
+      "avatar": "🟢",
+      "wish": "斑叶龙蒿或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "variegated_tarragon",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采斑叶香葱的旅人",
+      "avatar": "🟢",
+      "wish": "斑叶香葱或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "variegated_chive",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采斑叶欧芹的旅人",
+      "avatar": "🟢",
+      "wish": "斑叶欧芹或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "variegated_parsley",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采斑叶香菜的旅人",
+      "avatar": "🟢",
+      "wish": "斑叶香菜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "variegated_cilantro",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采斑叶莳萝的旅人",
+      "avatar": "🟡",
+      "wish": "斑叶莳萝或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "variegated_dill",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采斑叶茴香的旅人",
+      "avatar": "🟡",
+      "wish": "斑叶茴香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "variegated_fennel",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采斑叶独活的旅人",
+      "avatar": "🟢",
+      "wish": "斑叶独活或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "variegated_lovage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采斑叶酸模的旅人",
+      "avatar": "🟢",
+      "wish": "斑叶酸模或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "variegated_sorrel",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采金叶百里香的旅人",
+      "avatar": "🟢",
+      "wish": "金叶百里香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "golden_thyme",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采金叶鼠尾草的旅人",
+      "avatar": "💜",
+      "wish": "金叶鼠尾草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "golden_sage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采金叶牛至的旅人",
+      "avatar": "🟢",
+      "wish": "金叶牛至或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "golden_oregano",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采金叶罗勒的旅人",
+      "avatar": "🟢",
+      "wish": "金叶罗勒或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "golden_basil",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采金叶薄荷的旅人",
+      "avatar": "🟢",
+      "wish": "金叶薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "golden_mint",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采金叶薰衣草的旅人",
+      "avatar": "💜",
+      "wish": "金叶薰衣草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "golden_lavender",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采金叶迷迭香的旅人",
+      "avatar": "🟢",
+      "wish": "金叶迷迭香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "golden_rosemary",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采金叶马郁兰的旅人",
+      "avatar": "🟢",
+      "wish": "金叶马郁兰或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "golden_marjoram",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采金叶龙蒿的旅人",
+      "avatar": "🟢",
+      "wish": "金叶龙蒿或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "golden_tarragon",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采金叶香葱的旅人",
+      "avatar": "🟢",
+      "wish": "金叶香葱或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "golden_chive",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采金叶欧芹的旅人",
+      "avatar": "🟢",
+      "wish": "金叶欧芹或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "golden_parsley",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采金叶香菜的旅人",
+      "avatar": "🟢",
+      "wish": "金叶香菜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "golden_cilantro",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采金叶莳萝的旅人",
+      "avatar": "🟡",
+      "wish": "金叶莳萝或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "golden_dill",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采金叶茴香的旅人",
+      "avatar": "🟡",
+      "wish": "金叶茴香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "golden_fennel",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采金叶独活的旅人",
+      "avatar": "🟢",
+      "wish": "金叶独活或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "golden_lovage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采金叶酸模的旅人",
+      "avatar": "🟢",
+      "wish": "金叶酸模或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "golden_sorrel",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采银叶百里香的旅人",
+      "avatar": "🟢",
+      "wish": "银叶百里香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "silver_thyme",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采银叶鼠尾草的旅人",
+      "avatar": "💜",
+      "wish": "银叶鼠尾草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "silver_sage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采银叶牛至的旅人",
+      "avatar": "🟢",
+      "wish": "银叶牛至或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "silver_oregano",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采银叶罗勒的旅人",
+      "avatar": "🟢",
+      "wish": "银叶罗勒或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "silver_basil",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采银叶薄荷的旅人",
+      "avatar": "🟢",
+      "wish": "银叶薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "silver_mint",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采银叶薰衣草的旅人",
+      "avatar": "💜",
+      "wish": "银叶薰衣草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "silver_lavender",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采银叶迷迭香的旅人",
+      "avatar": "🟢",
+      "wish": "银叶迷迭香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "silver_rosemary",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采银叶马郁兰的旅人",
+      "avatar": "🟢",
+      "wish": "银叶马郁兰或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "silver_marjoram",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采银叶龙蒿的旅人",
+      "avatar": "🟢",
+      "wish": "银叶龙蒿或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "silver_tarragon",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采银叶香葱的旅人",
+      "avatar": "🟢",
+      "wish": "银叶香葱或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "silver_chive",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采银叶欧芹的旅人",
+      "avatar": "🟢",
+      "wish": "银叶欧芹或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "silver_parsley",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采银叶香菜的旅人",
+      "avatar": "🟢",
+      "wish": "银叶香菜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "silver_cilantro",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采银叶莳萝的旅人",
+      "avatar": "🟡",
+      "wish": "银叶莳萝或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "silver_dill",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采银叶茴香的旅人",
+      "avatar": "🟡",
+      "wish": "银叶茴香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "silver_fennel",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采银叶独活的旅人",
+      "avatar": "🟢",
+      "wish": "银叶独活或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "silver_lovage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采银叶酸模的旅人",
+      "avatar": "🟢",
+      "wish": "银叶酸模或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "silver_sorrel",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采紫叶百里香的旅人",
+      "avatar": "🟢",
+      "wish": "紫叶百里香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "purple_thyme",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采紫叶鼠尾草的旅人",
+      "avatar": "💜",
+      "wish": "紫叶鼠尾草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "purple_sage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采紫叶牛至的旅人",
+      "avatar": "🟢",
+      "wish": "紫叶牛至或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "purple_oregano",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采紫叶罗勒的旅人",
+      "avatar": "🟢",
+      "wish": "紫叶罗勒或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "purple_basil",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采紫叶薄荷的旅人",
+      "avatar": "🟢",
+      "wish": "紫叶薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "purple_mint",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采紫叶薰衣草的旅人",
+      "avatar": "💜",
+      "wish": "紫叶薰衣草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "purple_lavender",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采紫叶迷迭香的旅人",
+      "avatar": "🟢",
+      "wish": "紫叶迷迭香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "purple_rosemary",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采紫叶马郁兰的旅人",
+      "avatar": "🟢",
+      "wish": "紫叶马郁兰或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "purple_marjoram",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采紫叶龙蒿的旅人",
+      "avatar": "🟢",
+      "wish": "紫叶龙蒿或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "purple_tarragon",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采紫叶香葱的旅人",
+      "avatar": "🟢",
+      "wish": "紫叶香葱或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "purple_chive",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采紫叶欧芹的旅人",
+      "avatar": "🟢",
+      "wish": "紫叶欧芹或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "purple_parsley",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采紫叶香菜的旅人",
+      "avatar": "🟢",
+      "wish": "紫叶香菜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "purple_cilantro",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采紫叶莳萝的旅人",
+      "avatar": "🟡",
+      "wish": "紫叶莳萝或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "purple_dill",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采紫叶茴香的旅人",
+      "avatar": "🟡",
+      "wish": "紫叶茴香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "purple_fennel",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采紫叶独活的旅人",
+      "avatar": "🟢",
+      "wish": "紫叶独活或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "purple_lovage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采紫叶酸模的旅人",
+      "avatar": "🟢",
+      "wish": "紫叶酸模或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "purple_sorrel",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采红叶百里香的旅人",
+      "avatar": "🟢",
+      "wish": "红叶百里香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "red_thyme",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采红叶鼠尾草的旅人",
+      "avatar": "💜",
+      "wish": "红叶鼠尾草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "red_sage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采红叶牛至的旅人",
+      "avatar": "🟢",
+      "wish": "红叶牛至或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "red_oregano",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采红叶罗勒的旅人",
+      "avatar": "🟢",
+      "wish": "红叶罗勒或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "red_basil",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采红叶薄荷的旅人",
+      "avatar": "🟢",
+      "wish": "红叶薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "red_mint",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采红叶薰衣草的旅人",
+      "avatar": "💜",
+      "wish": "红叶薰衣草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "red_lavender",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采红叶迷迭香的旅人",
+      "avatar": "🟢",
+      "wish": "红叶迷迭香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "red_rosemary",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采红叶马郁兰的旅人",
+      "avatar": "🟢",
+      "wish": "红叶马郁兰或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "red_marjoram",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采红叶龙蒿的旅人",
+      "avatar": "🟢",
+      "wish": "红叶龙蒿或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "red_tarragon",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采红叶香葱的旅人",
+      "avatar": "🟢",
+      "wish": "红叶香葱或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "red_chive",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采红叶欧芹的旅人",
+      "avatar": "🟢",
+      "wish": "红叶欧芹或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "red_parsley",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采红叶香菜的旅人",
+      "avatar": "🟢",
+      "wish": "红叶香菜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "red_cilantro",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采红叶莳萝的旅人",
+      "avatar": "🟡",
+      "wish": "红叶莳萝或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "red_dill",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采红叶茴香的旅人",
+      "avatar": "🟡",
+      "wish": "红叶茴香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "red_fennel",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采红叶独活的旅人",
+      "avatar": "🟢",
+      "wish": "红叶独活或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "red_lovage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采红叶酸模的旅人",
+      "avatar": "🟢",
+      "wish": "红叶酸模或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "red_sorrel",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采白花百里香的旅人",
+      "avatar": "🟢",
+      "wish": "白花百里香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "white_thyme",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采白花牛至的旅人",
+      "avatar": "🟢",
+      "wish": "白花牛至或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "white_oregano",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采白花罗勒的旅人",
+      "avatar": "🟢",
+      "wish": "白花罗勒或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "white_basil",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采白花薄荷的旅人",
+      "avatar": "🟢",
+      "wish": "白花薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "white_mint",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采白花薰衣草的旅人",
+      "avatar": "💜",
+      "wish": "白花薰衣草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "white_lavender",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采白花迷迭香的旅人",
+      "avatar": "🟢",
+      "wish": "白花迷迭香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "white_rosemary",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采白花马郁兰的旅人",
+      "avatar": "🟢",
+      "wish": "白花马郁兰或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "white_marjoram",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采白花龙蒿的旅人",
+      "avatar": "🟢",
+      "wish": "白花龙蒿或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "white_tarragon",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采白花香葱的旅人",
+      "avatar": "🟢",
+      "wish": "白花香葱或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "white_chive",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采白花欧芹的旅人",
+      "avatar": "🟢",
+      "wish": "白花欧芹或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "white_parsley",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采白花香菜的旅人",
+      "avatar": "🟢",
+      "wish": "白花香菜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "white_cilantro",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采白花莳萝的旅人",
+      "avatar": "🟡",
+      "wish": "白花莳萝或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "white_dill",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采白花茴香的旅人",
+      "avatar": "🟡",
+      "wish": "白花茴香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "white_fennel",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采白花独活的旅人",
+      "avatar": "🟢",
+      "wish": "白花独活或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "white_lovage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采白花酸模的旅人",
+      "avatar": "🟢",
+      "wish": "白花酸模或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "white_sorrel",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采粉花百里香的旅人",
+      "avatar": "🟢",
+      "wish": "粉花百里香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "pink_thyme",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采粉花鼠尾草的旅人",
+      "avatar": "💜",
+      "wish": "粉花鼠尾草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "pink_sage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采粉花牛至的旅人",
+      "avatar": "🟢",
+      "wish": "粉花牛至或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "pink_oregano",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采粉花罗勒的旅人",
+      "avatar": "🟢",
+      "wish": "粉花罗勒或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "pink_basil",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采粉花薄荷的旅人",
+      "avatar": "🟢",
+      "wish": "粉花薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "pink_mint",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采粉花薰衣草的旅人",
+      "avatar": "💜",
+      "wish": "粉花薰衣草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "pink_lavender",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采粉花迷迭香的旅人",
+      "avatar": "🟢",
+      "wish": "粉花迷迭香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "pink_rosemary",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采粉花马郁兰的旅人",
+      "avatar": "🟢",
+      "wish": "粉花马郁兰或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "pink_marjoram",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采粉花龙蒿的旅人",
+      "avatar": "🟢",
+      "wish": "粉花龙蒿或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "pink_tarragon",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采粉花香葱的旅人",
+      "avatar": "🟢",
+      "wish": "粉花香葱或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "pink_chive",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采粉花欧芹的旅人",
+      "avatar": "🟢",
+      "wish": "粉花欧芹或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "pink_parsley",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采粉花香菜的旅人",
+      "avatar": "🟢",
+      "wish": "粉花香菜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "pink_cilantro",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采粉花莳萝的旅人",
+      "avatar": "🟡",
+      "wish": "粉花莳萝或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "pink_dill",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采粉花茴香的旅人",
+      "avatar": "🟡",
+      "wish": "粉花茴香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "pink_fennel",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采粉花独活的旅人",
+      "avatar": "🟢",
+      "wish": "粉花独活或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "pink_lovage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采粉花酸模的旅人",
+      "avatar": "🟢",
+      "wish": "粉花酸模或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "pink_sorrel",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采蓝花百里香的旅人",
+      "avatar": "🟢",
+      "wish": "蓝花百里香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "blue_thyme",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采蓝花鼠尾草的旅人",
+      "avatar": "💜",
+      "wish": "蓝花鼠尾草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "blue_sage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采蓝花牛至的旅人",
+      "avatar": "🟢",
+      "wish": "蓝花牛至或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "blue_oregano",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采蓝花罗勒的旅人",
+      "avatar": "🟢",
+      "wish": "蓝花罗勒或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "blue_basil",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采蓝花薄荷的旅人",
+      "avatar": "🟢",
+      "wish": "蓝花薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "blue_mint",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采蓝花薰衣草的旅人",
+      "avatar": "💜",
+      "wish": "蓝花薰衣草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "blue_lavender",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采蓝花迷迭香的旅人",
+      "avatar": "🟢",
+      "wish": "蓝花迷迭香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "blue_rosemary",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采蓝花马郁兰的旅人",
+      "avatar": "🟢",
+      "wish": "蓝花马郁兰或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "blue_marjoram",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采蓝花龙蒿的旅人",
+      "avatar": "🟢",
+      "wish": "蓝花龙蒿或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "blue_tarragon",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采蓝花香葱的旅人",
+      "avatar": "🟢",
+      "wish": "蓝花香葱或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "blue_chive",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采蓝花欧芹的旅人",
+      "avatar": "🟢",
+      "wish": "蓝花欧芹或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "blue_parsley",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采蓝花香菜的旅人",
+      "avatar": "🟢",
+      "wish": "蓝花香菜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "blue_cilantro",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采蓝花莳萝的旅人",
+      "avatar": "🟡",
+      "wish": "蓝花莳萝或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "blue_dill",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采蓝花茴香的旅人",
+      "avatar": "🟡",
+      "wish": "蓝花茴香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "blue_fennel",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采蓝花独活的旅人",
+      "avatar": "🟢",
+      "wish": "蓝花独活或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "blue_lovage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采蓝花酸模的旅人",
+      "avatar": "🟢",
+      "wish": "蓝花酸模或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "blue_sorrel",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采黄花百里香的旅人",
+      "avatar": "🟢",
+      "wish": "黄花百里香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "yellow_thyme",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采黄花鼠尾草的旅人",
+      "avatar": "💜",
+      "wish": "黄花鼠尾草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "yellow_sage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采黄花牛至的旅人",
+      "avatar": "🟢",
+      "wish": "黄花牛至或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "yellow_oregano",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采黄花罗勒的旅人",
+      "avatar": "🟢",
+      "wish": "黄花罗勒或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "yellow_basil",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采黄花薄荷的旅人",
+      "avatar": "🟢",
+      "wish": "黄花薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "yellow_mint",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采黄花薰衣草的旅人",
+      "avatar": "💜",
+      "wish": "黄花薰衣草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "yellow_lavender",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采黄花迷迭香的旅人",
+      "avatar": "🟢",
+      "wish": "黄花迷迭香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "yellow_rosemary",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采黄花马郁兰的旅人",
+      "avatar": "🟢",
+      "wish": "黄花马郁兰或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "yellow_marjoram",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采黄花龙蒿的旅人",
+      "avatar": "🟢",
+      "wish": "黄花龙蒿或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "yellow_tarragon",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采黄花香葱的旅人",
+      "avatar": "🟢",
+      "wish": "黄花香葱或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "yellow_chive",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采黄花欧芹的旅人",
+      "avatar": "🟢",
+      "wish": "黄花欧芹或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "yellow_parsley",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采黄花香菜的旅人",
+      "avatar": "🟢",
+      "wish": "黄花香菜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "yellow_cilantro",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采黄花莳萝的旅人",
+      "avatar": "🟡",
+      "wish": "黄花莳萝或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "yellow_dill",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采黄花茴香的旅人",
+      "avatar": "🟡",
+      "wish": "黄花茴香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "yellow_fennel",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采黄花独活的旅人",
+      "avatar": "🟢",
+      "wish": "黄花独活或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "yellow_lovage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采黄花酸模的旅人",
+      "avatar": "🟢",
+      "wish": "黄花酸模或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "yellow_sorrel",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采橙花百里香的旅人",
+      "avatar": "🟢",
+      "wish": "橙花百里香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "orange_thyme",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采橙花鼠尾草的旅人",
+      "avatar": "💜",
+      "wish": "橙花鼠尾草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "orange_sage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采橙花牛至的旅人",
+      "avatar": "🟢",
+      "wish": "橙花牛至或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "orange_oregano",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采橙花罗勒的旅人",
+      "avatar": "🟢",
+      "wish": "橙花罗勒或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "orange_basil",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采橙花薄荷的旅人",
+      "avatar": "🟢",
+      "wish": "橙花薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "orange_mint",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采橙花薰衣草的旅人",
+      "avatar": "💜",
+      "wish": "橙花薰衣草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "orange_lavender",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采橙花迷迭香的旅人",
+      "avatar": "🟢",
+      "wish": "橙花迷迭香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "orange_rosemary",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采橙花马郁兰的旅人",
+      "avatar": "🟢",
+      "wish": "橙花马郁兰或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "orange_marjoram",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采橙花龙蒿的旅人",
+      "avatar": "🟢",
+      "wish": "橙花龙蒿或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "orange_tarragon",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采橙花香葱的旅人",
+      "avatar": "🟢",
+      "wish": "橙花香葱或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "orange_chive",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采橙花欧芹的旅人",
+      "avatar": "🟢",
+      "wish": "橙花欧芹或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "orange_parsley",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采橙花香菜的旅人",
+      "avatar": "🟢",
+      "wish": "橙花香菜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "orange_cilantro",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采橙花莳萝的旅人",
+      "avatar": "🟡",
+      "wish": "橙花莳萝或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "orange_dill",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采橙花茴香的旅人",
+      "avatar": "🟡",
+      "wish": "橙花茴香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "orange_fennel",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采橙花独活的旅人",
+      "avatar": "🟢",
+      "wish": "橙花独活或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "orange_lovage",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采橙花酸模的旅人",
+      "avatar": "🟢",
+      "wish": "橙花酸模或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "orange_sorrel",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采香型百里香的旅人",
+      "avatar": "🟢",
+      "wish": "香型百里香或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "fragrant_thyme",
         "honey",
         "tea_leaf",
         "mint"
