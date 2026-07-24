@@ -3946,5 +3946,74 @@ test("mustard ajwain wasabi myrtle 126 themes", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("chicory dandelion nettle yarrow forage brew 130 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["chicory", "dandelion", "nettle", "yarrow"];
+  const pots = ["chicoryPot", "dandelionPot", "nettlePot", "yarrowPot"];
+  ids.forEach((id, i) => {
+    assert.ok(j.items[id] && j.plants[pots[i]], id);
+  });
+  assert.ok(j.customers.some((c) => c.name === "泡菊苣的旅人"));
+  assert.ok(j.customers.some((c) => c.name === "采蒲公英的女孩"));
+  assert.ok(j.customers.some((c) => c.name === "煮荨麻的厨娘"));
+  assert.ok(j.customers.some((c) => c.name === "采蓍草的药师"));
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id, i) => {
+    s.bag[id] = 1;
+    assert.ok(core.plantSeed(s, i, id, cat).ok, id);
+  });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["chicory_path", "dandelion_field", "nettle_path", "yarrow_meadow"].forEach((tid) => {
+    assert.ok(themes.some((th) => th.id === tid), tid);
+  });
+  assert.ok(themes.length >= 130);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  // forage brew soft bonus
+  const score = core.scoreDrink(
+    { name: "采蓍草的药师", tags: ["花香", "草本"], flavors: ["yarrow"] },
+    { cup: "mug", base: "honey_water", flavor: "yarrow", topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }], season: "winter" }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  // serve tracks forageBrews
+  const st = core.defaultState();
+  st.bag.honey = 3;
+  st.bag.yarrow = 3;
+  const served = core.serveDrink(
+    st,
+    { name: "药师", tags: ["草本"], flavors: ["yarrow"] },
+    { cup: "mug", base: "honey_water", flavor: "yarrow", topping: "none" },
+    { cups: [{ id: "mug" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(served.ok, served.reason || "serve failed");
+  assert.ok((st.stats && st.stats.forageBrews) >= 1);
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "forage_brewer"));
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  assert.ok(summerPool.includes("dandelion"));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  assert.ok(winterPool.includes("chicory") && winterPool.includes("yarrow"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("dandelion_field") && game.includes("yarrow_meadow"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "菊苣暖蜜"));
+  assert.ok(recipes.some((r) => r.name === "蒲公英汽泡"));
+  assert.ok(recipes.some((r) => r.name === "荨麻暖茶"));
+  assert.ok(recipes.some((r) => r.name === "蓍草暖蜜"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "chicory_walker"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "yarrow_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("菊苣短径") && man.includes("蓍草草甸"));
+  assert.ok(man.includes("野草特调"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("蒲公英") || t.includes("野草")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_nettle_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
