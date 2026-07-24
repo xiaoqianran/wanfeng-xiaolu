@@ -6024,5 +6024,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_hibiscus_rosa",
+    "title": "朱槿两份",
+    "body": "采朱槿的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "hibiscus_rosa": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_allspice_berry",
+    "title": "多香果鲜两份",
+    "body": "采多香果鲜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "allspice_berry": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_annatto",
+    "title": "胭脂树两份",
+    "body": "采胭脂树的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "annatto": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_epazote",
+    "title": "土荆芥两份",
+    "body": "采土荆芥的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "epazote": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_papalo",
+    "title": "帕帕洛两份",
+    "body": "采帕帕洛的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "papalo": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_hoja_santa",
+    "title": "圣叶两份",
+    "body": "采圣叶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "hoja_santa": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mexican_oregano",
+    "title": "墨西哥牛至两份",
+    "body": "采墨西哥牛至的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mexican_oregano": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_chile_flower",
+    "title": "辣椒花两份",
+    "body": "采辣椒花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "chile_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_noni_leaf",
+    "title": "诺丽叶两份",
+    "body": "采诺丽叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "noni_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kava",
+    "title": "卡瓦两份",
+    "body": "磨卡瓦的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kava": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ti_leaf",
+    "title": "铁树叶两份",
+    "body": "采铁树叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "ti_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_frangipani_tea",
+    "title": "鸡蛋花茶两份",
+    "body": "泡鸡蛋花茶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "frangipani_tea": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soursop_leaf",
+    "title": "刺果番荔枝叶两份",
+    "body": "采刺果番荔枝叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soursop_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_guava_leaf",
+    "title": "番石榴叶两份",
+    "body": "采番石榴叶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "guava_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_passion_leaf",
+    "title": "百香果叶两份",
+    "body": "采百香果叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "passion_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_vanilla_orchid",
+    "title": "香荚兰两份",
+    "body": "采香荚兰的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "vanilla_orchid": 2
+      },
+      "coins": 2
+    }
   }
 ]
