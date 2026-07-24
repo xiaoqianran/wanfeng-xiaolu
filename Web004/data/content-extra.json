@@ -3036,6 +3036,34 @@
       "emoji": "🍃",
       "kind": "风味",
       "seed": "myrtlePot"
+    },
+    "chicory": {
+      "id": "chicory",
+      "name": "菊苣",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "chicoryPot"
+    },
+    "dandelion": {
+      "id": "dandelion",
+      "name": "蒲公英",
+      "emoji": "🌼",
+      "kind": "风味",
+      "seed": "dandelionPot"
+    },
+    "nettle": {
+      "id": "nettle",
+      "name": "荨麻",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "nettlePot"
+    },
+    "yarrow": {
+      "id": "yarrow",
+      "name": "蓍草",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "yarrowPot"
     }
   },
   "plants": {
@@ -6003,6 +6031,50 @@
       ],
       "harvest": "myrtle",
       "days": 3
+    },
+    "chicoryPot": {
+      "id": "chicoryPot",
+      "name": "菊苣",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "chicory",
+      "days": 3
+    },
+    "dandelionPot": {
+      "id": "dandelionPot",
+      "name": "蒲公英",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌼"
+      ],
+      "harvest": "dandelion",
+      "days": 2
+    },
+    "nettlePot": {
+      "id": "nettlePot",
+      "name": "荨麻",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "nettle",
+      "days": 3
+    },
+    "yarrowPot": {
+      "id": "yarrowPot",
+      "name": "蓍草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "yarrow",
+      "days": 3
     }
   },
   "cups": [
@@ -7804,6 +7876,46 @@
       "name": "香桃木",
       "emoji": "🍃",
       "need": "myrtle",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "chicory",
+      "name": "菊苣",
+      "emoji": "💙",
+      "need": "chicory",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "dandelion",
+      "name": "蒲公英",
+      "emoji": "🌼",
+      "need": "dandelion",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "nettle",
+      "name": "荨麻",
+      "emoji": "🌿",
+      "need": "nettle",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "yarrow",
+      "name": "蓍草",
+      "emoji": "🤍",
+      "need": "yarrow",
       "tags": [
         "花香",
         "草本"
@@ -10489,6 +10601,66 @@
         "honey",
         "jasmine",
         "bay_leaf"
+      ]
+    },
+    {
+      "name": "泡菊苣的旅人",
+      "avatar": "💙",
+      "wish": "菊苣或蜜，温柔一点，暖杯最好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "chicory",
+        "honey",
+        "tea_leaf",
+        "dandelion"
+      ]
+    },
+    {
+      "name": "采蒲公英的女孩",
+      "avatar": "🌼",
+      "wish": "蒲公英或蜜，清爽甜蜜，装饰好看。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "dandelion",
+        "honey",
+        "mint",
+        "chicory"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "煮荨麻的厨娘",
+      "avatar": "🌿",
+      "wish": "荨麻或蜜，清爽草本，暖杯也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "nettle",
+        "honey",
+        "mint"
+      ]
+    },
+    {
+      "name": "采蓍草的药师",
+      "avatar": "🤍",
+      "wish": "蓍草或蜜，温柔花香，暖杯最好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "yarrow",
+        "honey",
+        "chamomile",
+        "tea_leaf"
       ]
     }
   ],
