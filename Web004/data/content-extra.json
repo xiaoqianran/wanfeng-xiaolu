@@ -2812,6 +2812,34 @@
       "emoji": "🟡",
       "kind": "风味",
       "seed": "jackfruitPot"
+    },
+    "goji": {
+      "id": "goji",
+      "name": "枸杞",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "gojiPot"
+    },
+    "bay_leaf": {
+      "id": "bay_leaf",
+      "name": "月桂",
+      "emoji": "🍃",
+      "kind": "风味",
+      "seed": "bayLeafPot"
+    },
+    "oregano": {
+      "id": "oregano",
+      "name": "牛至",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "oreganoPot"
+    },
+    "chive": {
+      "id": "chive",
+      "name": "细香葱",
+      "emoji": "🧅",
+      "kind": "风味",
+      "seed": "chivePot"
     }
   },
   "plants": {
@@ -5427,6 +5455,50 @@
       ],
       "harvest": "jackfruit",
       "days": 5
+    },
+    "gojiPot": {
+      "id": "gojiPot",
+      "name": "枸杞",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "goji",
+      "days": 3
+    },
+    "bayLeafPot": {
+      "id": "bayLeafPot",
+      "name": "月桂",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍃"
+      ],
+      "harvest": "bay_leaf",
+      "days": 3
+    },
+    "oreganoPot": {
+      "id": "oreganoPot",
+      "name": "牛至",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "oregano",
+      "days": 2
+    },
+    "chivePot": {
+      "id": "chivePot",
+      "name": "细香葱",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧅"
+      ],
+      "harvest": "chive",
+      "days": 2
     }
   },
   "cups": [
@@ -6911,6 +6983,46 @@
       "tags": [
         "果香",
         "甜蜜"
+      ]
+    },
+    {
+      "id": "goji",
+      "name": "枸杞",
+      "emoji": "🔴",
+      "need": "goji",
+      "tags": [
+        "果香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "bay_leaf",
+      "name": "月桂",
+      "emoji": "🍃",
+      "need": "bay_leaf",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "oregano",
+      "name": "牛至",
+      "emoji": "🌿",
+      "need": "oregano",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "chive",
+      "name": "细香葱",
+      "emoji": "🧅",
+      "need": "chive",
+      "tags": [
+        "草本",
+        "清爽"
       ]
     }
   ],
@@ -9112,6 +9224,66 @@
         "honey",
         "pineapple",
         "mango"
+      ]
+    },
+    {
+      "name": "泡枸杞的爷爷",
+      "avatar": "🫖",
+      "wish": "枸杞或蜜，温暖一点，暖杯最好。",
+      "tags": [
+        "温暖",
+        "果香"
+      ],
+      "flavors": [
+        "goji",
+        "honey",
+        "tea_leaf",
+        "jujube"
+      ]
+    },
+    {
+      "name": "炖月桂的厨子",
+      "avatar": "🍃",
+      "wish": "月桂或蜜，温暖草本，暖杯也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "bay_leaf",
+        "honey",
+        "tea_leaf",
+        "rosemary"
+      ]
+    },
+    {
+      "name": "撒牛至的店员",
+      "avatar": "🌿",
+      "wish": "牛至或薄荷，清爽一点，装饰随意。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "oregano",
+        "mint",
+        "basil",
+        "thyme"
+      ]
+    },
+    {
+      "name": "切细香葱的厨娘",
+      "avatar": "🧅",
+      "wish": "细香葱或薄荷，清爽一点，装饰随意。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "chive",
+        "mint",
+        "oregano",
+        "leaf"
       ]
     }
   ],
