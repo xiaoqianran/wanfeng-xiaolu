@@ -104760,5 +104760,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_well0",
+    "title": "古井井绳草两份",
+    "body": "采古井井绳草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well0": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well1",
+    "title": "古井辘轳花两份",
+    "body": "采古井辘轳花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well1": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well2",
+    "title": "古井井栏苔两份",
+    "body": "采古井井栏苔的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well2": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well3",
+    "title": "古井井台石两份",
+    "body": "采古井井台石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well3": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well4",
+    "title": "古井井水甜两份",
+    "body": "采古井井水甜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well4": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well5",
+    "title": "古井井水清两份",
+    "body": "采古井井水清的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well5": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well6",
+    "title": "古井井边柳两份",
+    "body": "采古井井边柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well6": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well7",
+    "title": "古井井边槐两份",
+    "body": "采古井井边槐的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well7": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well8",
+    "title": "古井井台兰两份",
+    "body": "采古井井台兰的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well8": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well9",
+    "title": "古井井台菊两份",
+    "body": "采古井井台菊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well9": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well10",
+    "title": "古井辘轳声两份",
+    "body": "采古井辘轳声的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well10": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well11",
+    "title": "古井汲水香两份",
+    "body": "采古井汲水香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well11": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well12",
+    "title": "古井桶边露两份",
+    "body": "采古井桶边露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well12": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well13",
+    "title": "古井绳痕湿两份",
+    "body": "采古井绳痕湿的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well13": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well14",
+    "title": "古井井口雾两份",
+    "body": "采古井井口雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well14": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well15",
+    "title": "古井井底凉两份",
+    "body": "采古井井底凉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well15": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well16",
+    "title": "古井井沿暖两份",
+    "body": "采古井井沿暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well16": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well17",
+    "title": "古井井壁湿两份",
+    "body": "采古井井壁湿的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well17": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well18",
+    "title": "古井井盖尘两份",
+    "body": "采古井井盖尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well18": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well19",
+    "title": "古井井亭风两份",
+    "body": "采古井井亭风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well19": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well20",
+    "title": "新井井绳草两份",
+    "body": "采新井井绳草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well21",
+    "title": "新井辘轳花两份",
+    "body": "采新井辘轳花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well22",
+    "title": "新井井栏苔两份",
+    "body": "采新井井栏苔的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well23",
+    "title": "新井井台石两份",
+    "body": "采新井井台石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well24",
+    "title": "新井井水甜两份",
+    "body": "采新井井水甜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well25",
+    "title": "新井井水清两份",
+    "body": "采新井井水清的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well26",
+    "title": "新井井边柳两份",
+    "body": "采新井井边柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well27",
+    "title": "新井井边槐两份",
+    "body": "采新井井边槐的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well28",
+    "title": "新井井台兰两份",
+    "body": "采新井井台兰的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well29",
+    "title": "新井井台菊两份",
+    "body": "采新井井台菊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well30",
+    "title": "新井辘轳声两份",
+    "body": "采新井辘轳声的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well30": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well31",
+    "title": "新井汲水香两份",
+    "body": "采新井汲水香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well31": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well32",
+    "title": "新井桶边露两份",
+    "body": "采新井桶边露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well32": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well33",
+    "title": "新井绳痕湿两份",
+    "body": "采新井绳痕湿的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well33": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well34",
+    "title": "新井井口雾两份",
+    "body": "采新井井口雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well34": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well35",
+    "title": "新井井底凉两份",
+    "body": "采新井井底凉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well35": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well36",
+    "title": "新井井沿暖两份",
+    "body": "采新井井沿暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well36": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well37",
+    "title": "新井井壁湿两份",
+    "body": "采新井井壁湿的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well37": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well38",
+    "title": "新井井盖尘两份",
+    "body": "采新井井盖尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well38": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well39",
+    "title": "新井井亭风两份",
+    "body": "采新井井亭风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well39": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well40",
+    "title": "深井井绳草两份",
+    "body": "采深井井绳草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well40": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well41",
+    "title": "深井辘轳花两份",
+    "body": "采深井辘轳花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well41": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well42",
+    "title": "深井井栏苔两份",
+    "body": "采深井井栏苔的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well42": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well43",
+    "title": "深井井台石两份",
+    "body": "采深井井台石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well43": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well44",
+    "title": "深井井水甜两份",
+    "body": "采深井井水甜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well44": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well45",
+    "title": "深井井水清两份",
+    "body": "采深井井水清的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well45": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well46",
+    "title": "深井井边柳两份",
+    "body": "采深井井边柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well46": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well47",
+    "title": "深井井边槐两份",
+    "body": "采深井井边槐的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well47": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well48",
+    "title": "深井井台兰两份",
+    "body": "采深井井台兰的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well48": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well49",
+    "title": "深井井台菊两份",
+    "body": "采深井井台菊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well49": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well50",
+    "title": "深井辘轳声两份",
+    "body": "采深井辘轳声的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well50": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well51",
+    "title": "深井汲水香两份",
+    "body": "采深井汲水香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well51": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well52",
+    "title": "深井桶边露两份",
+    "body": "采深井桶边露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well52": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well53",
+    "title": "深井绳痕湿两份",
+    "body": "采深井绳痕湿的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well53": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well54",
+    "title": "深井井口雾两份",
+    "body": "采深井井口雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well54": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well55",
+    "title": "深井井底凉两份",
+    "body": "采深井井底凉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well55": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well56",
+    "title": "深井井沿暖两份",
+    "body": "采深井井沿暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well56": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well57",
+    "title": "深井井壁湿两份",
+    "body": "采深井井壁湿的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well57": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well58",
+    "title": "深井井盖尘两份",
+    "body": "采深井井盖尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well58": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well59",
+    "title": "深井井亭风两份",
+    "body": "采深井井亭风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well59": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well60",
+    "title": "浅井井绳草两份",
+    "body": "采浅井井绳草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well60": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well61",
+    "title": "浅井辘轳花两份",
+    "body": "采浅井辘轳花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well61": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well62",
+    "title": "浅井井栏苔两份",
+    "body": "采浅井井栏苔的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well62": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well63",
+    "title": "浅井井台石两份",
+    "body": "采浅井井台石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well63": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well64",
+    "title": "浅井井水甜两份",
+    "body": "采浅井井水甜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well64": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well65",
+    "title": "浅井井水清两份",
+    "body": "采浅井井水清的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well65": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well66",
+    "title": "浅井井边柳两份",
+    "body": "采浅井井边柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well66": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well67",
+    "title": "浅井井边槐两份",
+    "body": "采浅井井边槐的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well67": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well68",
+    "title": "浅井井台兰两份",
+    "body": "采浅井井台兰的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well68": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well69",
+    "title": "浅井井台菊两份",
+    "body": "采浅井井台菊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well69": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well70",
+    "title": "浅井辘轳声两份",
+    "body": "采浅井辘轳声的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well70": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well71",
+    "title": "浅井汲水香两份",
+    "body": "采浅井汲水香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well71": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well72",
+    "title": "浅井桶边露两份",
+    "body": "采浅井桶边露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well72": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well73",
+    "title": "浅井绳痕湿两份",
+    "body": "采浅井绳痕湿的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well73": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well74",
+    "title": "浅井井口雾两份",
+    "body": "采浅井井口雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well74": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well75",
+    "title": "浅井井底凉两份",
+    "body": "采浅井井底凉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well75": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well76",
+    "title": "浅井井沿暖两份",
+    "body": "采浅井井沿暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well76": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well77",
+    "title": "浅井井壁湿两份",
+    "body": "采浅井井壁湿的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well77": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well78",
+    "title": "浅井井盖尘两份",
+    "body": "采浅井井盖尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well78": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well79",
+    "title": "浅井井亭风两份",
+    "body": "采浅井井亭风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well79": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well80",
+    "title": "砖井井绳草两份",
+    "body": "采砖井井绳草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well80": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well81",
+    "title": "砖井辘轳花两份",
+    "body": "采砖井辘轳花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well81": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well82",
+    "title": "砖井井栏苔两份",
+    "body": "采砖井井栏苔的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well82": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well83",
+    "title": "砖井井台石两份",
+    "body": "采砖井井台石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well83": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well84",
+    "title": "砖井井水甜两份",
+    "body": "采砖井井水甜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well84": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well85",
+    "title": "砖井井水清两份",
+    "body": "采砖井井水清的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well85": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well86",
+    "title": "砖井井边柳两份",
+    "body": "采砖井井边柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well86": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well87",
+    "title": "砖井井边槐两份",
+    "body": "采砖井井边槐的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well87": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well88",
+    "title": "砖井井台兰两份",
+    "body": "采砖井井台兰的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well88": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well89",
+    "title": "砖井井台菊两份",
+    "body": "采砖井井台菊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well89": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well90",
+    "title": "砖井辘轳声两份",
+    "body": "采砖井辘轳声的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well90": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well91",
+    "title": "砖井汲水香两份",
+    "body": "采砖井汲水香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well91": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well92",
+    "title": "砖井桶边露两份",
+    "body": "采砖井桶边露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well92": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well93",
+    "title": "砖井绳痕湿两份",
+    "body": "采砖井绳痕湿的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well93": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well94",
+    "title": "砖井井口雾两份",
+    "body": "采砖井井口雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well94": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well95",
+    "title": "砖井井底凉两份",
+    "body": "采砖井井底凉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well95": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well96",
+    "title": "砖井井沿暖两份",
+    "body": "采砖井井沿暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well96": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well97",
+    "title": "砖井井壁湿两份",
+    "body": "采砖井井壁湿的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well97": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well98",
+    "title": "砖井井盖尘两份",
+    "body": "采砖井井盖尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well98": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well99",
+    "title": "砖井井亭风两份",
+    "body": "采砖井井亭风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well99": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well100",
+    "title": "石井井绳草两份",
+    "body": "采石井井绳草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well101",
+    "title": "石井辘轳花两份",
+    "body": "采石井辘轳花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well102",
+    "title": "石井井栏苔两份",
+    "body": "采石井井栏苔的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well103",
+    "title": "石井井台石两份",
+    "body": "采石井井台石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well104",
+    "title": "石井井水甜两份",
+    "body": "采石井井水甜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well105",
+    "title": "石井井水清两份",
+    "body": "采石井井水清的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well106",
+    "title": "石井井边柳两份",
+    "body": "采石井井边柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well107",
+    "title": "石井井边槐两份",
+    "body": "采石井井边槐的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well108",
+    "title": "石井井台兰两份",
+    "body": "采石井井台兰的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well109",
+    "title": "石井井台菊两份",
+    "body": "采石井井台菊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well110",
+    "title": "石井辘轳声两份",
+    "body": "采石井辘轳声的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well111",
+    "title": "石井汲水香两份",
+    "body": "采石井汲水香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well112",
+    "title": "石井桶边露两份",
+    "body": "采石井桶边露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well113",
+    "title": "石井绳痕湿两份",
+    "body": "采石井绳痕湿的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well114",
+    "title": "石井井口雾两份",
+    "body": "采石井井口雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well115",
+    "title": "石井井底凉两份",
+    "body": "采石井井底凉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well116",
+    "title": "石井井沿暖两份",
+    "body": "采石井井沿暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well117",
+    "title": "石井井壁湿两份",
+    "body": "采石井井壁湿的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well118",
+    "title": "石井井盖尘两份",
+    "body": "采石井井盖尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well119",
+    "title": "石井井亭风两份",
+    "body": "采石井井亭风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well120",
+    "title": "木井井绳草两份",
+    "body": "采木井井绳草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well121",
+    "title": "木井辘轳花两份",
+    "body": "采木井辘轳花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well122",
+    "title": "木井井栏苔两份",
+    "body": "采木井井栏苔的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well123",
+    "title": "木井井台石两份",
+    "body": "采木井井台石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well124",
+    "title": "木井井水甜两份",
+    "body": "采木井井水甜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well125",
+    "title": "木井井水清两份",
+    "body": "采木井井水清的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well126",
+    "title": "木井井边柳两份",
+    "body": "采木井井边柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well127",
+    "title": "木井井边槐两份",
+    "body": "采木井井边槐的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well128",
+    "title": "木井井台兰两份",
+    "body": "采木井井台兰的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well129",
+    "title": "木井井台菊两份",
+    "body": "采木井井台菊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well130",
+    "title": "木井辘轳声两份",
+    "body": "采木井辘轳声的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well131",
+    "title": "木井汲水香两份",
+    "body": "采木井汲水香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well132",
+    "title": "木井桶边露两份",
+    "body": "采木井桶边露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well133",
+    "title": "木井绳痕湿两份",
+    "body": "采木井绳痕湿的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well134",
+    "title": "木井井口雾两份",
+    "body": "采木井井口雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well135",
+    "title": "木井井底凉两份",
+    "body": "采木井井底凉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well136",
+    "title": "木井井沿暖两份",
+    "body": "采木井井沿暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well137",
+    "title": "木井井壁湿两份",
+    "body": "采木井井壁湿的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well138",
+    "title": "木井井盖尘两份",
+    "body": "采木井井盖尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well139",
+    "title": "木井井亭风两份",
+    "body": "采木井井亭风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well140",
+    "title": "竹井井绳草两份",
+    "body": "采竹井井绳草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well141",
+    "title": "竹井辘轳花两份",
+    "body": "采竹井辘轳花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well142",
+    "title": "竹井井栏苔两份",
+    "body": "采竹井井栏苔的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well143",
+    "title": "竹井井台石两份",
+    "body": "采竹井井台石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well144",
+    "title": "竹井井水甜两份",
+    "body": "采竹井井水甜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well145",
+    "title": "竹井井水清两份",
+    "body": "采竹井井水清的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well146",
+    "title": "竹井井边柳两份",
+    "body": "采竹井井边柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well147",
+    "title": "竹井井边槐两份",
+    "body": "采竹井井边槐的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well148",
+    "title": "竹井井台兰两份",
+    "body": "采竹井井台兰的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well149",
+    "title": "竹井井台菊两份",
+    "body": "采竹井井台菊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well150",
+    "title": "竹井辘轳声两份",
+    "body": "采竹井辘轳声的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well151",
+    "title": "竹井汲水香两份",
+    "body": "采竹井汲水香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well152",
+    "title": "竹井桶边露两份",
+    "body": "采竹井桶边露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well153",
+    "title": "竹井绳痕湿两份",
+    "body": "采竹井绳痕湿的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well154",
+    "title": "竹井井口雾两份",
+    "body": "采竹井井口雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well155",
+    "title": "竹井井底凉两份",
+    "body": "采竹井井底凉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well156",
+    "title": "竹井井沿暖两份",
+    "body": "采竹井井沿暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well157",
+    "title": "竹井井壁湿两份",
+    "body": "采竹井井壁湿的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well158",
+    "title": "竹井井盖尘两份",
+    "body": "采竹井井盖尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well159",
+    "title": "竹井井亭风两份",
+    "body": "采竹井井亭风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well160",
+    "title": "甜井井绳草两份",
+    "body": "采甜井井绳草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well161",
+    "title": "甜井辘轳花两份",
+    "body": "采甜井辘轳花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well162",
+    "title": "甜井井栏苔两份",
+    "body": "采甜井井栏苔的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well163",
+    "title": "甜井井台石两份",
+    "body": "采甜井井台石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well164",
+    "title": "甜井井水甜两份",
+    "body": "采甜井井水甜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well165",
+    "title": "甜井井水清两份",
+    "body": "采甜井井水清的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well166",
+    "title": "甜井井边柳两份",
+    "body": "采甜井井边柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well167",
+    "title": "甜井井边槐两份",
+    "body": "采甜井井边槐的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well168",
+    "title": "甜井井台兰两份",
+    "body": "采甜井井台兰的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well169",
+    "title": "甜井井台菊两份",
+    "body": "采甜井井台菊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well170",
+    "title": "甜井辘轳声两份",
+    "body": "采甜井辘轳声的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well171",
+    "title": "甜井汲水香两份",
+    "body": "采甜井汲水香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well172",
+    "title": "甜井桶边露两份",
+    "body": "采甜井桶边露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well173",
+    "title": "甜井绳痕湿两份",
+    "body": "采甜井绳痕湿的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well174",
+    "title": "甜井井口雾两份",
+    "body": "采甜井井口雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well175",
+    "title": "甜井井底凉两份",
+    "body": "采甜井井底凉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well176",
+    "title": "甜井井沿暖两份",
+    "body": "采甜井井沿暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well177",
+    "title": "甜井井壁湿两份",
+    "body": "采甜井井壁湿的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well178",
+    "title": "甜井井盖尘两份",
+    "body": "采甜井井盖尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well179",
+    "title": "甜井井亭风两份",
+    "body": "采甜井井亭风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well180",
+    "title": "苦井井绳草两份",
+    "body": "采苦井井绳草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well181",
+    "title": "苦井辘轳花两份",
+    "body": "采苦井辘轳花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well182",
+    "title": "苦井井栏苔两份",
+    "body": "采苦井井栏苔的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well183",
+    "title": "苦井井台石两份",
+    "body": "采苦井井台石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well184",
+    "title": "苦井井水甜两份",
+    "body": "采苦井井水甜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well185",
+    "title": "苦井井水清两份",
+    "body": "采苦井井水清的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well186",
+    "title": "苦井井边柳两份",
+    "body": "采苦井井边柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well187",
+    "title": "苦井井边槐两份",
+    "body": "采苦井井边槐的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well188",
+    "title": "苦井井台兰两份",
+    "body": "采苦井井台兰的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well189",
+    "title": "苦井井台菊两份",
+    "body": "采苦井井台菊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well190",
+    "title": "苦井辘轳声两份",
+    "body": "采苦井辘轳声的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well191",
+    "title": "苦井汲水香两份",
+    "body": "采苦井汲水香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well192",
+    "title": "苦井桶边露两份",
+    "body": "采苦井桶边露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well193",
+    "title": "苦井绳痕湿两份",
+    "body": "采苦井绳痕湿的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well194",
+    "title": "苦井井口雾两份",
+    "body": "采苦井井口雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well195",
+    "title": "苦井井底凉两份",
+    "body": "采苦井井底凉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well196",
+    "title": "苦井井沿暖两份",
+    "body": "采苦井井沿暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well197",
+    "title": "苦井井壁湿两份",
+    "body": "采苦井井壁湿的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well198",
+    "title": "苦井井盖尘两份",
+    "body": "采苦井井盖尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well199",
+    "title": "苦井井亭风两份",
+    "body": "采苦井井亭风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well200",
+    "title": "温泉井井绳草两份",
+    "body": "采温泉井井绳草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well201",
+    "title": "温泉井辘轳花两份",
+    "body": "采温泉井辘轳花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well202",
+    "title": "温泉井井栏苔两份",
+    "body": "采温泉井井栏苔的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well203",
+    "title": "温泉井井台石两份",
+    "body": "采温泉井井台石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well204",
+    "title": "温泉井井水甜两份",
+    "body": "采温泉井井水甜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well205",
+    "title": "温泉井井水清两份",
+    "body": "采温泉井井水清的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well206",
+    "title": "温泉井井边柳两份",
+    "body": "采温泉井井边柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well207",
+    "title": "温泉井井边槐两份",
+    "body": "采温泉井井边槐的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well208",
+    "title": "温泉井井台兰两份",
+    "body": "采温泉井井台兰的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well209",
+    "title": "温泉井井台菊两份",
+    "body": "采温泉井井台菊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well210",
+    "title": "温泉井辘轳声两份",
+    "body": "采温泉井辘轳声的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well211",
+    "title": "温泉井汲水香两份",
+    "body": "采温泉井汲水香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well212",
+    "title": "温泉井桶边露两份",
+    "body": "采温泉井桶边露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well213",
+    "title": "温泉井绳痕湿两份",
+    "body": "采温泉井绳痕湿的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well214",
+    "title": "温泉井井口雾两份",
+    "body": "采温泉井井口雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well215",
+    "title": "温泉井井底凉两份",
+    "body": "采温泉井井底凉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well216",
+    "title": "温泉井井沿暖两份",
+    "body": "采温泉井井沿暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well217",
+    "title": "温泉井井壁湿两份",
+    "body": "采温泉井井壁湿的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well218",
+    "title": "温泉井井盖尘两份",
+    "body": "采温泉井井盖尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well219",
+    "title": "温泉井井亭风两份",
+    "body": "采温泉井井亭风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well220",
+    "title": "冷泉井井绳草两份",
+    "body": "采冷泉井井绳草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well221",
+    "title": "冷泉井辘轳花两份",
+    "body": "采冷泉井辘轳花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well222",
+    "title": "冷泉井井栏苔两份",
+    "body": "采冷泉井井栏苔的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well223",
+    "title": "冷泉井井台石两份",
+    "body": "采冷泉井井台石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well224",
+    "title": "冷泉井井水甜两份",
+    "body": "采冷泉井井水甜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well225",
+    "title": "冷泉井井水清两份",
+    "body": "采冷泉井井水清的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well226",
+    "title": "冷泉井井边柳两份",
+    "body": "采冷泉井井边柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well227",
+    "title": "冷泉井井边槐两份",
+    "body": "采冷泉井井边槐的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well228",
+    "title": "冷泉井井台兰两份",
+    "body": "采冷泉井井台兰的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well229",
+    "title": "冷泉井井台菊两份",
+    "body": "采冷泉井井台菊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well230",
+    "title": "冷泉井辘轳声两份",
+    "body": "采冷泉井辘轳声的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well231",
+    "title": "冷泉井汲水香两份",
+    "body": "采冷泉井汲水香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well232",
+    "title": "冷泉井桶边露两份",
+    "body": "采冷泉井桶边露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well233",
+    "title": "冷泉井绳痕湿两份",
+    "body": "采冷泉井绳痕湿的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well234",
+    "title": "冷泉井井口雾两份",
+    "body": "采冷泉井井口雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well235",
+    "title": "冷泉井井底凉两份",
+    "body": "采冷泉井井底凉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well236",
+    "title": "冷泉井井沿暖两份",
+    "body": "采冷泉井井沿暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well237",
+    "title": "冷泉井井壁湿两份",
+    "body": "采冷泉井井壁湿的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well238",
+    "title": "冷泉井井盖尘两份",
+    "body": "采冷泉井井盖尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well239",
+    "title": "冷泉井井亭风两份",
+    "body": "采冷泉井井亭风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well240",
+    "title": "村井井绳草两份",
+    "body": "采村井井绳草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well241",
+    "title": "村井辘轳花两份",
+    "body": "采村井辘轳花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well242",
+    "title": "村井井栏苔两份",
+    "body": "采村井井栏苔的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well243",
+    "title": "村井井台石两份",
+    "body": "采村井井台石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well244",
+    "title": "村井井水甜两份",
+    "body": "采村井井水甜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well245",
+    "title": "村井井水清两份",
+    "body": "采村井井水清的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well246",
+    "title": "村井井边柳两份",
+    "body": "采村井井边柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well247",
+    "title": "村井井边槐两份",
+    "body": "采村井井边槐的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well248",
+    "title": "村井井台兰两份",
+    "body": "采村井井台兰的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well249",
+    "title": "村井井台菊两份",
+    "body": "采村井井台菊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well250",
+    "title": "村井辘轳声两份",
+    "body": "采村井辘轳声的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well251",
+    "title": "村井汲水香两份",
+    "body": "采村井汲水香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well252",
+    "title": "村井桶边露两份",
+    "body": "采村井桶边露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well253",
+    "title": "村井绳痕湿两份",
+    "body": "采村井绳痕湿的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well254",
+    "title": "村井井口雾两份",
+    "body": "采村井井口雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well255",
+    "title": "村井井底凉两份",
+    "body": "采村井井底凉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well256",
+    "title": "村井井沿暖两份",
+    "body": "采村井井沿暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well257",
+    "title": "村井井壁湿两份",
+    "body": "采村井井壁湿的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well258",
+    "title": "村井井盖尘两份",
+    "body": "采村井井盖尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well259",
+    "title": "村井井亭风两份",
+    "body": "采村井井亭风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well260",
+    "title": "寺井井绳草两份",
+    "body": "采寺井井绳草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well261",
+    "title": "寺井辘轳花两份",
+    "body": "采寺井辘轳花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well262",
+    "title": "寺井井栏苔两份",
+    "body": "采寺井井栏苔的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well263",
+    "title": "寺井井台石两份",
+    "body": "采寺井井台石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well264",
+    "title": "寺井井水甜两份",
+    "body": "采寺井井水甜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well265",
+    "title": "寺井井水清两份",
+    "body": "采寺井井水清的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well266",
+    "title": "寺井井边柳两份",
+    "body": "采寺井井边柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well267",
+    "title": "寺井井边槐两份",
+    "body": "采寺井井边槐的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well268",
+    "title": "寺井井台兰两份",
+    "body": "采寺井井台兰的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well269",
+    "title": "寺井井台菊两份",
+    "body": "采寺井井台菊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well270",
+    "title": "寺井辘轳声两份",
+    "body": "采寺井辘轳声的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well271",
+    "title": "寺井汲水香两份",
+    "body": "采寺井汲水香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well272",
+    "title": "寺井桶边露两份",
+    "body": "采寺井桶边露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well273",
+    "title": "寺井绳痕湿两份",
+    "body": "采寺井绳痕湿的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well274",
+    "title": "寺井井口雾两份",
+    "body": "采寺井井口雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well275",
+    "title": "寺井井底凉两份",
+    "body": "采寺井井底凉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well276",
+    "title": "寺井井沿暖两份",
+    "body": "采寺井井沿暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well277",
+    "title": "寺井井壁湿两份",
+    "body": "采寺井井壁湿的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well278",
+    "title": "寺井井盖尘两份",
+    "body": "采寺井井盖尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well279",
+    "title": "寺井井亭风两份",
+    "body": "采寺井井亭风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well280",
+    "title": "宅井井绳草两份",
+    "body": "采宅井井绳草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well281",
+    "title": "宅井辘轳花两份",
+    "body": "采宅井辘轳花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well282",
+    "title": "宅井井栏苔两份",
+    "body": "采宅井井栏苔的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well283",
+    "title": "宅井井台石两份",
+    "body": "采宅井井台石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well284",
+    "title": "宅井井水甜两份",
+    "body": "采宅井井水甜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well285",
+    "title": "宅井井水清两份",
+    "body": "采宅井井水清的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well286",
+    "title": "宅井井边柳两份",
+    "body": "采宅井井边柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well287",
+    "title": "宅井井边槐两份",
+    "body": "采宅井井边槐的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well288",
+    "title": "宅井井台兰两份",
+    "body": "采宅井井台兰的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well289",
+    "title": "宅井井台菊两份",
+    "body": "采宅井井台菊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well290",
+    "title": "宅井辘轳声两份",
+    "body": "采宅井辘轳声的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well291",
+    "title": "宅井汲水香两份",
+    "body": "采宅井汲水香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well292",
+    "title": "宅井桶边露两份",
+    "body": "采宅井桶边露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well293",
+    "title": "宅井绳痕湿两份",
+    "body": "采宅井绳痕湿的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well294",
+    "title": "宅井井口雾两份",
+    "body": "采宅井井口雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well295",
+    "title": "宅井井底凉两份",
+    "body": "采宅井井底凉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well296",
+    "title": "宅井井沿暖两份",
+    "body": "采宅井井沿暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well297",
+    "title": "宅井井壁湿两份",
+    "body": "采宅井井壁湿的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well298",
+    "title": "宅井井盖尘两份",
+    "body": "采宅井井盖尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well299",
+    "title": "宅井井亭风两份",
+    "body": "采宅井井亭风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well300",
+    "title": "园井井绳草两份",
+    "body": "采园井井绳草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well301",
+    "title": "园井辘轳花两份",
+    "body": "采园井辘轳花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well302",
+    "title": "园井井栏苔两份",
+    "body": "采园井井栏苔的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well303",
+    "title": "园井井台石两份",
+    "body": "采园井井台石的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well304",
+    "title": "园井井水甜两份",
+    "body": "采园井井水甜的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well305",
+    "title": "园井井水清两份",
+    "body": "采园井井水清的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well306",
+    "title": "园井井边柳两份",
+    "body": "采园井井边柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well307",
+    "title": "园井井边槐两份",
+    "body": "采园井井边槐的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well308",
+    "title": "园井井台兰两份",
+    "body": "采园井井台兰的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well309",
+    "title": "园井井台菊两份",
+    "body": "采园井井台菊的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well310",
+    "title": "园井辘轳声两份",
+    "body": "采园井辘轳声的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well311",
+    "title": "园井汲水香两份",
+    "body": "采园井汲水香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well312",
+    "title": "园井桶边露两份",
+    "body": "采园井桶边露的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well313",
+    "title": "园井绳痕湿两份",
+    "body": "采园井绳痕湿的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well314",
+    "title": "园井井口雾两份",
+    "body": "采园井井口雾的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well315",
+    "title": "园井井底凉两份",
+    "body": "采园井井底凉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well316",
+    "title": "园井井沿暖两份",
+    "body": "采园井井沿暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well317",
+    "title": "园井井壁湿两份",
+    "body": "采园井井壁湿的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well318",
+    "title": "园井井盖尘两份",
+    "body": "采园井井盖尘的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_well319",
+    "title": "园井井亭风两份",
+    "body": "采园井井亭风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "well319": 2
+      },
+      "coins": 2
+    }
   }
 ]
