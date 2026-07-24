@@ -1,4 +1,3 @@
-# 晚风小路 Web004 → GitHub Pages（Actions）
 name: Deploy GitHub Pages
 
 on:
@@ -13,7 +12,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -26,20 +25,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Prepare site from Web004
+      - name: Prepare site
         run: |
-          set -euo pipefail
-          test -f Web004/index.html
           mkdir -p _site
-          # 将可运行游戏作为站点根，保证相对路径可用
           cp -a Web004/. _site/
-          # 防止 Jekyll 处理
           touch _site/.nojekyll
-          # 去掉开发/测试/进度大包，缩小 Pages 产物
-          rm -rf _site/tests _site/tools _site/progress _site/node_modules 2>/dev/null || true
-          # 保留 data + js 运行时（file:// 与 https 均用 js/*）
-          ls -la _site/index.html _site/game.js _site/js/core.js
-          du -sh _site
+          rm -rf _site/tests _site/tools _site/progress _site/node_modules || true
+          test -f _site/index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
