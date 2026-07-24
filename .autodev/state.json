@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 480,
+  "current_round": 483,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 474,
-  "authentic_game_integrated_rounds": 334,
+  "authentic_rounds_completed": 477,
+  "authentic_game_integrated_rounds": 336,
   "template_spam_archived": true,
-  "current_milestone": "authentic rebuild A0482+",
-  "current_task_id": "A0482-next",
-  "last_completed_task_id": "A0481",
+  "current_milestone": "authentic rebuild A0485+",
+  "current_task_id": "A0485-next",
+  "last_completed_task_id": "A0484",
   "last_commit": "pending",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "203 passed, 0 failed",
+  "last_test_summary": "204 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~526) multi-session"
+    "gap to 1000 authentic (~523) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -34,6 +34,6 @@
     "audio feedback",
     "UI polish"
   ],
-  "resume_instructions": "Continue A0482+. Spam DISABLED. Gap ~526. Themes 78. dessert-corner active. All three pillars.",
-  "updated_at": "2026-07-24T00:19:37.896933+00:00"
+  "resume_instructions": "Continue A0485+. Spam DISABLED. Gap ~523. Themes 80. dessert-corner + path_eighty. All three pillars.",
+  "updated_at": "2026-07-24T00:21:41.332061+00:00"
 }
