@@ -147000,5 +147000,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_wood0",
+    "title": "楠木木香两份",
+    "body": "采楠木木香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood0": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood1",
+    "title": "楠木刨花两份",
+    "body": "采楠木刨花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood1": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood2",
+    "title": "楠木锯末两份",
+    "body": "采楠木锯末的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood2": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood3",
+    "title": "楠木木屑两份",
+    "body": "采楠木木屑的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood3": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood4",
+    "title": "楠木木节两份",
+    "body": "采楠木木节的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood4": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood5",
+    "title": "楠木木纹两份",
+    "body": "采楠木木纹的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood5": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood6",
+    "title": "楠木木心两份",
+    "body": "采楠木木心的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood6": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood7",
+    "title": "楠木木皮两份",
+    "body": "采楠木木皮的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood7": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood8",
+    "title": "楠木木脂两份",
+    "body": "采楠木木脂的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood8": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood9",
+    "title": "楠木木油两份",
+    "body": "采楠木木油的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood9": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood10",
+    "title": "楠木木蜡两份",
+    "body": "采楠木木蜡的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood10": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood11",
+    "title": "楠木木漆两份",
+    "body": "采楠木木漆的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood11": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood12",
+    "title": "楠木木油香两份",
+    "body": "采楠木木油香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood12": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood13",
+    "title": "楠木榫卯香两份",
+    "body": "采楠木榫卯香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood13": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood14",
+    "title": "楠木斗拱香两份",
+    "body": "采楠木斗拱香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood14": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood15",
+    "title": "楠木梁柱香两份",
+    "body": "采楠木梁柱香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood15": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood16",
+    "title": "樟木木香两份",
+    "body": "采樟木木香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood16": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood17",
+    "title": "樟木刨花两份",
+    "body": "采樟木刨花的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood17": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood18",
+    "title": "樟木锯末两份",
+    "body": "采樟木锯末的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood18": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood19",
+    "title": "樟木木屑两份",
+    "body": "采樟木木屑的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood19": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood20",
+    "title": "樟木木节两份",
+    "body": "采樟木木节的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood21",
+    "title": "樟木木纹两份",
+    "body": "采樟木木纹的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood22",
+    "title": "樟木木心两份",
+    "body": "采樟木木心的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood23",
+    "title": "樟木木皮两份",
+    "body": "采樟木木皮的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood24",
+    "title": "樟木木脂两份",
+    "body": "采樟木木脂的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood25",
+    "title": "樟木木油两份",
+    "body": "采樟木木油的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood26",
+    "title": "樟木木蜡两份",
+    "body": "采樟木木蜡的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood27",
+    "title": "樟木木漆两份",
+    "body": "采樟木木漆的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood28",
+    "title": "樟木木油香两份",
+    "body": "采樟木木油香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood29",
+    "title": "樟木榫卯香两份",
+    "body": "采樟木榫卯香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood30",
+    "title": "樟木斗拱香两份",
+    "body": "采樟木斗拱香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood30": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood31",
+    "title": "樟木梁柱香两份",
+    "body": "采樟木梁柱香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood31": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood32",
+    "title": "柏木木香两份",
+    "body": "采柏木木香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood32": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood33",
+    "title": "柏木刨花两份",
+    "body": "采柏木刨花的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood33": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood34",
+    "title": "柏木锯末两份",
+    "body": "采柏木锯末的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood34": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood35",
+    "title": "柏木木屑两份",
+    "body": "采柏木木屑的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood35": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood36",
+    "title": "柏木木节两份",
+    "body": "采柏木木节的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood36": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood37",
+    "title": "柏木木纹两份",
+    "body": "采柏木木纹的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood37": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood38",
+    "title": "柏木木心两份",
+    "body": "采柏木木心的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood38": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood39",
+    "title": "柏木木皮两份",
+    "body": "采柏木木皮的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood39": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood40",
+    "title": "柏木木脂两份",
+    "body": "采柏木木脂的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood40": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood41",
+    "title": "柏木木油两份",
+    "body": "采柏木木油的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood41": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood42",
+    "title": "柏木木蜡两份",
+    "body": "采柏木木蜡的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood42": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood43",
+    "title": "柏木木漆两份",
+    "body": "采柏木木漆的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood43": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood44",
+    "title": "柏木木油香两份",
+    "body": "采柏木木油香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood44": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood45",
+    "title": "柏木榫卯香两份",
+    "body": "采柏木榫卯香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood45": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood46",
+    "title": "柏木斗拱香两份",
+    "body": "采柏木斗拱香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood46": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood47",
+    "title": "柏木梁柱香两份",
+    "body": "采柏木梁柱香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood47": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood48",
+    "title": "杉木木香两份",
+    "body": "采杉木木香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood48": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood49",
+    "title": "杉木刨花两份",
+    "body": "采杉木刨花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood49": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood50",
+    "title": "杉木锯末两份",
+    "body": "采杉木锯末的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood50": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood51",
+    "title": "杉木木屑两份",
+    "body": "采杉木木屑的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood51": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood52",
+    "title": "杉木木节两份",
+    "body": "采杉木木节的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood52": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood53",
+    "title": "杉木木纹两份",
+    "body": "采杉木木纹的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood53": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood54",
+    "title": "杉木木心两份",
+    "body": "采杉木木心的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood54": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood55",
+    "title": "杉木木皮两份",
+    "body": "采杉木木皮的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood55": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood56",
+    "title": "杉木木脂两份",
+    "body": "采杉木木脂的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood56": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood57",
+    "title": "杉木木油两份",
+    "body": "采杉木木油的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood57": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood58",
+    "title": "杉木木蜡两份",
+    "body": "采杉木木蜡的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood58": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood59",
+    "title": "杉木木漆两份",
+    "body": "采杉木木漆的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood59": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood60",
+    "title": "杉木木油香两份",
+    "body": "采杉木木油香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood60": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood61",
+    "title": "杉木榫卯香两份",
+    "body": "采杉木榫卯香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood61": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood62",
+    "title": "杉木斗拱香两份",
+    "body": "采杉木斗拱香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood62": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood63",
+    "title": "杉木梁柱香两份",
+    "body": "采杉木梁柱香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood63": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood64",
+    "title": "松木木香两份",
+    "body": "采松木木香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood64": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood65",
+    "title": "松木刨花两份",
+    "body": "采松木刨花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood65": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood66",
+    "title": "松木锯末两份",
+    "body": "采松木锯末的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood66": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood67",
+    "title": "松木木屑两份",
+    "body": "采松木木屑的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood67": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood68",
+    "title": "松木木节两份",
+    "body": "采松木木节的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood68": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood69",
+    "title": "松木木纹两份",
+    "body": "采松木木纹的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood69": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood70",
+    "title": "松木木心两份",
+    "body": "采松木木心的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood70": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood71",
+    "title": "松木木皮两份",
+    "body": "采松木木皮的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood71": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood72",
+    "title": "松木木脂两份",
+    "body": "采松木木脂的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood72": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood73",
+    "title": "松木木油两份",
+    "body": "采松木木油的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood73": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood74",
+    "title": "松木木蜡两份",
+    "body": "采松木木蜡的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood74": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood75",
+    "title": "松木木漆两份",
+    "body": "采松木木漆的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood75": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood76",
+    "title": "松木木油香两份",
+    "body": "采松木木油香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood76": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood77",
+    "title": "松木榫卯香两份",
+    "body": "采松木榫卯香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood77": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood78",
+    "title": "松木斗拱香两份",
+    "body": "采松木斗拱香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood78": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood79",
+    "title": "松木梁柱香两份",
+    "body": "采松木梁柱香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood79": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood80",
+    "title": "榆木木香两份",
+    "body": "采榆木木香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood80": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood81",
+    "title": "榆木刨花两份",
+    "body": "采榆木刨花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood81": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood82",
+    "title": "榆木锯末两份",
+    "body": "采榆木锯末的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood82": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood83",
+    "title": "榆木木屑两份",
+    "body": "采榆木木屑的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood83": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood84",
+    "title": "榆木木节两份",
+    "body": "采榆木木节的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood84": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood85",
+    "title": "榆木木纹两份",
+    "body": "采榆木木纹的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood85": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood86",
+    "title": "榆木木心两份",
+    "body": "采榆木木心的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood86": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood87",
+    "title": "榆木木皮两份",
+    "body": "采榆木木皮的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood87": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood88",
+    "title": "榆木木脂两份",
+    "body": "采榆木木脂的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood88": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood89",
+    "title": "榆木木油两份",
+    "body": "采榆木木油的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood89": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood90",
+    "title": "榆木木蜡两份",
+    "body": "采榆木木蜡的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood90": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood91",
+    "title": "榆木木漆两份",
+    "body": "采榆木木漆的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood91": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood92",
+    "title": "榆木木油香两份",
+    "body": "采榆木木油香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood92": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood93",
+    "title": "榆木榫卯香两份",
+    "body": "采榆木榫卯香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood93": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood94",
+    "title": "榆木斗拱香两份",
+    "body": "采榆木斗拱香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood94": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood95",
+    "title": "榆木梁柱香两份",
+    "body": "采榆木梁柱香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood95": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood96",
+    "title": "槐木木香两份",
+    "body": "采槐木木香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood96": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood97",
+    "title": "槐木刨花两份",
+    "body": "采槐木刨花的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood97": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood98",
+    "title": "槐木锯末两份",
+    "body": "采槐木锯末的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood98": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood99",
+    "title": "槐木木屑两份",
+    "body": "采槐木木屑的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood99": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood100",
+    "title": "槐木木节两份",
+    "body": "采槐木木节的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood101",
+    "title": "槐木木纹两份",
+    "body": "采槐木木纹的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood102",
+    "title": "槐木木心两份",
+    "body": "采槐木木心的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood103",
+    "title": "槐木木皮两份",
+    "body": "采槐木木皮的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood104",
+    "title": "槐木木脂两份",
+    "body": "采槐木木脂的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood105",
+    "title": "槐木木油两份",
+    "body": "采槐木木油的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood106",
+    "title": "槐木木蜡两份",
+    "body": "采槐木木蜡的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood107",
+    "title": "槐木木漆两份",
+    "body": "采槐木木漆的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood108",
+    "title": "槐木木油香两份",
+    "body": "采槐木木油香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood109",
+    "title": "槐木榫卯香两份",
+    "body": "采槐木榫卯香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood110",
+    "title": "槐木斗拱香两份",
+    "body": "采槐木斗拱香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood111",
+    "title": "槐木梁柱香两份",
+    "body": "采槐木梁柱香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood112",
+    "title": "桐木木香两份",
+    "body": "采桐木木香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood113",
+    "title": "桐木刨花两份",
+    "body": "采桐木刨花的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood114",
+    "title": "桐木锯末两份",
+    "body": "采桐木锯末的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood115",
+    "title": "桐木木屑两份",
+    "body": "采桐木木屑的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood116",
+    "title": "桐木木节两份",
+    "body": "采桐木木节的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood117",
+    "title": "桐木木纹两份",
+    "body": "采桐木木纹的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood118",
+    "title": "桐木木心两份",
+    "body": "采桐木木心的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood119",
+    "title": "桐木木皮两份",
+    "body": "采桐木木皮的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood120",
+    "title": "桐木木脂两份",
+    "body": "采桐木木脂的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood121",
+    "title": "桐木木油两份",
+    "body": "采桐木木油的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood122",
+    "title": "桐木木蜡两份",
+    "body": "采桐木木蜡的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood123",
+    "title": "桐木木漆两份",
+    "body": "采桐木木漆的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood124",
+    "title": "桐木木油香两份",
+    "body": "采桐木木油香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood125",
+    "title": "桐木榫卯香两份",
+    "body": "采桐木榫卯香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood126",
+    "title": "桐木斗拱香两份",
+    "body": "采桐木斗拱香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood127",
+    "title": "桐木梁柱香两份",
+    "body": "采桐木梁柱香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood128",
+    "title": "梓木木香两份",
+    "body": "采梓木木香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood129",
+    "title": "梓木刨花两份",
+    "body": "采梓木刨花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood130",
+    "title": "梓木锯末两份",
+    "body": "采梓木锯末的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood131",
+    "title": "梓木木屑两份",
+    "body": "采梓木木屑的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood132",
+    "title": "梓木木节两份",
+    "body": "采梓木木节的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood133",
+    "title": "梓木木纹两份",
+    "body": "采梓木木纹的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood134",
+    "title": "梓木木心两份",
+    "body": "采梓木木心的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood135",
+    "title": "梓木木皮两份",
+    "body": "采梓木木皮的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood136",
+    "title": "梓木木脂两份",
+    "body": "采梓木木脂的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood137",
+    "title": "梓木木油两份",
+    "body": "采梓木木油的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood138",
+    "title": "梓木木蜡两份",
+    "body": "采梓木木蜡的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood139",
+    "title": "梓木木漆两份",
+    "body": "采梓木木漆的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood140",
+    "title": "梓木木油香两份",
+    "body": "采梓木木油香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood141",
+    "title": "梓木榫卯香两份",
+    "body": "采梓木榫卯香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood142",
+    "title": "梓木斗拱香两份",
+    "body": "采梓木斗拱香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood143",
+    "title": "梓木梁柱香两份",
+    "body": "采梓木梁柱香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood144",
+    "title": "楸木木香两份",
+    "body": "采楸木木香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood145",
+    "title": "楸木刨花两份",
+    "body": "采楸木刨花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood146",
+    "title": "楸木锯末两份",
+    "body": "采楸木锯末的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood147",
+    "title": "楸木木屑两份",
+    "body": "采楸木木屑的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood148",
+    "title": "楸木木节两份",
+    "body": "采楸木木节的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood149",
+    "title": "楸木木纹两份",
+    "body": "采楸木木纹的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood150",
+    "title": "楸木木心两份",
+    "body": "采楸木木心的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood151",
+    "title": "楸木木皮两份",
+    "body": "采楸木木皮的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood152",
+    "title": "楸木木脂两份",
+    "body": "采楸木木脂的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood153",
+    "title": "楸木木油两份",
+    "body": "采楸木木油的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood154",
+    "title": "楸木木蜡两份",
+    "body": "采楸木木蜡的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood155",
+    "title": "楸木木漆两份",
+    "body": "采楸木木漆的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood156",
+    "title": "楸木木油香两份",
+    "body": "采楸木木油香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood157",
+    "title": "楸木榫卯香两份",
+    "body": "采楸木榫卯香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood158",
+    "title": "楸木斗拱香两份",
+    "body": "采楸木斗拱香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood159",
+    "title": "楸木梁柱香两份",
+    "body": "采楸木梁柱香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood160",
+    "title": "梨木木香两份",
+    "body": "采梨木木香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood161",
+    "title": "梨木刨花两份",
+    "body": "采梨木刨花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood162",
+    "title": "梨木锯末两份",
+    "body": "采梨木锯末的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood163",
+    "title": "梨木木屑两份",
+    "body": "采梨木木屑的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood164",
+    "title": "梨木木节两份",
+    "body": "采梨木木节的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood165",
+    "title": "梨木木纹两份",
+    "body": "采梨木木纹的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood166",
+    "title": "梨木木心两份",
+    "body": "采梨木木心的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood167",
+    "title": "梨木木皮两份",
+    "body": "采梨木木皮的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood168",
+    "title": "梨木木脂两份",
+    "body": "采梨木木脂的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood169",
+    "title": "梨木木油两份",
+    "body": "采梨木木油的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood170",
+    "title": "梨木木蜡两份",
+    "body": "采梨木木蜡的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood171",
+    "title": "梨木木漆两份",
+    "body": "采梨木木漆的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood172",
+    "title": "梨木木油香两份",
+    "body": "采梨木木油香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood173",
+    "title": "梨木榫卯香两份",
+    "body": "采梨木榫卯香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood174",
+    "title": "梨木斗拱香两份",
+    "body": "采梨木斗拱香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood175",
+    "title": "梨木梁柱香两份",
+    "body": "采梨木梁柱香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood176",
+    "title": "枣木木香两份",
+    "body": "采枣木木香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood177",
+    "title": "枣木刨花两份",
+    "body": "采枣木刨花的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood178",
+    "title": "枣木锯末两份",
+    "body": "采枣木锯末的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood179",
+    "title": "枣木木屑两份",
+    "body": "采枣木木屑的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood180",
+    "title": "枣木木节两份",
+    "body": "采枣木木节的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood181",
+    "title": "枣木木纹两份",
+    "body": "采枣木木纹的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood182",
+    "title": "枣木木心两份",
+    "body": "采枣木木心的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood183",
+    "title": "枣木木皮两份",
+    "body": "采枣木木皮的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood184",
+    "title": "枣木木脂两份",
+    "body": "采枣木木脂的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood185",
+    "title": "枣木木油两份",
+    "body": "采枣木木油的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood186",
+    "title": "枣木木蜡两份",
+    "body": "采枣木木蜡的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood187",
+    "title": "枣木木漆两份",
+    "body": "采枣木木漆的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood188",
+    "title": "枣木木油香两份",
+    "body": "采枣木木油香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood189",
+    "title": "枣木榫卯香两份",
+    "body": "采枣木榫卯香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood190",
+    "title": "枣木斗拱香两份",
+    "body": "采枣木斗拱香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood191",
+    "title": "枣木梁柱香两份",
+    "body": "采枣木梁柱香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood192",
+    "title": "樱桃木木香两份",
+    "body": "采樱桃木木香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood193",
+    "title": "樱桃木刨花两份",
+    "body": "采樱桃木刨花的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood194",
+    "title": "樱桃木锯末两份",
+    "body": "采樱桃木锯末的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood195",
+    "title": "樱桃木木屑两份",
+    "body": "采樱桃木木屑的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood196",
+    "title": "樱桃木木节两份",
+    "body": "采樱桃木木节的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood197",
+    "title": "樱桃木木纹两份",
+    "body": "采樱桃木木纹的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood198",
+    "title": "樱桃木木心两份",
+    "body": "采樱桃木木心的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood199",
+    "title": "樱桃木木皮两份",
+    "body": "采樱桃木木皮的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood200",
+    "title": "樱桃木木脂两份",
+    "body": "采樱桃木木脂的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood201",
+    "title": "樱桃木木油两份",
+    "body": "采樱桃木木油的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood202",
+    "title": "樱桃木木蜡两份",
+    "body": "采樱桃木木蜡的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood203",
+    "title": "樱桃木木漆两份",
+    "body": "采樱桃木木漆的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood204",
+    "title": "樱桃木木油香两份",
+    "body": "采樱桃木木油香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood205",
+    "title": "樱桃木榫卯香两份",
+    "body": "采樱桃木榫卯香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood206",
+    "title": "樱桃木斗拱香两份",
+    "body": "采樱桃木斗拱香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood207",
+    "title": "樱桃木梁柱香两份",
+    "body": "采樱桃木梁柱香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood208",
+    "title": "胡桃木香两份",
+    "body": "采胡桃木香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood209",
+    "title": "胡桃刨花两份",
+    "body": "采胡桃刨花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood210",
+    "title": "胡桃锯末两份",
+    "body": "采胡桃锯末的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood211",
+    "title": "胡桃木屑两份",
+    "body": "采胡桃木屑的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood212",
+    "title": "胡桃木节两份",
+    "body": "采胡桃木节的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood213",
+    "title": "胡桃木纹两份",
+    "body": "采胡桃木纹的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood214",
+    "title": "胡桃木心两份",
+    "body": "采胡桃木心的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood215",
+    "title": "胡桃木皮两份",
+    "body": "采胡桃木皮的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood216",
+    "title": "胡桃木脂两份",
+    "body": "采胡桃木脂的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood217",
+    "title": "胡桃木油两份",
+    "body": "采胡桃木油的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood218",
+    "title": "胡桃木蜡两份",
+    "body": "采胡桃木蜡的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood219",
+    "title": "胡桃木漆两份",
+    "body": "采胡桃木漆的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood220",
+    "title": "胡桃木油香两份",
+    "body": "采胡桃木油香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood221",
+    "title": "胡桃榫卯香两份",
+    "body": "采胡桃榫卯香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood222",
+    "title": "胡桃斗拱香两份",
+    "body": "采胡桃斗拱香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood223",
+    "title": "胡桃梁柱香两份",
+    "body": "采胡桃梁柱香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood224",
+    "title": "橡木木香两份",
+    "body": "采橡木木香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood225",
+    "title": "橡木刨花两份",
+    "body": "采橡木刨花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood226",
+    "title": "橡木锯末两份",
+    "body": "采橡木锯末的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood227",
+    "title": "橡木木屑两份",
+    "body": "采橡木木屑的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood228",
+    "title": "橡木木节两份",
+    "body": "采橡木木节的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood229",
+    "title": "橡木木纹两份",
+    "body": "采橡木木纹的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood230",
+    "title": "橡木木心两份",
+    "body": "采橡木木心的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood231",
+    "title": "橡木木皮两份",
+    "body": "采橡木木皮的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood232",
+    "title": "橡木木脂两份",
+    "body": "采橡木木脂的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood233",
+    "title": "橡木木油两份",
+    "body": "采橡木木油的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood234",
+    "title": "橡木木蜡两份",
+    "body": "采橡木木蜡的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood235",
+    "title": "橡木木漆两份",
+    "body": "采橡木木漆的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood236",
+    "title": "橡木木油香两份",
+    "body": "采橡木木油香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood237",
+    "title": "橡木榫卯香两份",
+    "body": "采橡木榫卯香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood238",
+    "title": "橡木斗拱香两份",
+    "body": "采橡木斗拱香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood239",
+    "title": "橡木梁柱香两份",
+    "body": "采橡木梁柱香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood240",
+    "title": "枫木木香两份",
+    "body": "采枫木木香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood241",
+    "title": "枫木刨花两份",
+    "body": "采枫木刨花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood242",
+    "title": "枫木锯末两份",
+    "body": "采枫木锯末的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood243",
+    "title": "枫木木屑两份",
+    "body": "采枫木木屑的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood244",
+    "title": "枫木木节两份",
+    "body": "采枫木木节的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood245",
+    "title": "枫木木纹两份",
+    "body": "采枫木木纹的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood246",
+    "title": "枫木木心两份",
+    "body": "采枫木木心的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood247",
+    "title": "枫木木皮两份",
+    "body": "采枫木木皮的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood248",
+    "title": "枫木木脂两份",
+    "body": "采枫木木脂的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood249",
+    "title": "枫木木油两份",
+    "body": "采枫木木油的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood250",
+    "title": "枫木木蜡两份",
+    "body": "采枫木木蜡的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood251",
+    "title": "枫木木漆两份",
+    "body": "采枫木木漆的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood252",
+    "title": "枫木木油香两份",
+    "body": "采枫木木油香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood253",
+    "title": "枫木榫卯香两份",
+    "body": "采枫木榫卯香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood254",
+    "title": "枫木斗拱香两份",
+    "body": "采枫木斗拱香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood255",
+    "title": "枫木梁柱香两份",
+    "body": "采枫木梁柱香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood256",
+    "title": "桦木木香两份",
+    "body": "采桦木木香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood257",
+    "title": "桦木刨花两份",
+    "body": "采桦木刨花的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood258",
+    "title": "桦木锯末两份",
+    "body": "采桦木锯末的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood259",
+    "title": "桦木木屑两份",
+    "body": "采桦木木屑的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood260",
+    "title": "桦木木节两份",
+    "body": "采桦木木节的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood261",
+    "title": "桦木木纹两份",
+    "body": "采桦木木纹的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood262",
+    "title": "桦木木心两份",
+    "body": "采桦木木心的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood263",
+    "title": "桦木木皮两份",
+    "body": "采桦木木皮的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood264",
+    "title": "桦木木脂两份",
+    "body": "采桦木木脂的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood265",
+    "title": "桦木木油两份",
+    "body": "采桦木木油的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood266",
+    "title": "桦木木蜡两份",
+    "body": "采桦木木蜡的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood267",
+    "title": "桦木木漆两份",
+    "body": "采桦木木漆的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood268",
+    "title": "桦木木油香两份",
+    "body": "采桦木木油香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood269",
+    "title": "桦木榫卯香两份",
+    "body": "采桦木榫卯香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood270",
+    "title": "桦木斗拱香两份",
+    "body": "采桦木斗拱香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood271",
+    "title": "桦木梁柱香两份",
+    "body": "采桦木梁柱香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood272",
+    "title": "杨木木香两份",
+    "body": "采杨木木香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood273",
+    "title": "杨木刨花两份",
+    "body": "采杨木刨花的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood274",
+    "title": "杨木锯末两份",
+    "body": "采杨木锯末的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood275",
+    "title": "杨木木屑两份",
+    "body": "采杨木木屑的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood276",
+    "title": "杨木木节两份",
+    "body": "采杨木木节的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood277",
+    "title": "杨木木纹两份",
+    "body": "采杨木木纹的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood278",
+    "title": "杨木木心两份",
+    "body": "采杨木木心的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood279",
+    "title": "杨木木皮两份",
+    "body": "采杨木木皮的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood280",
+    "title": "杨木木脂两份",
+    "body": "采杨木木脂的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood281",
+    "title": "杨木木油两份",
+    "body": "采杨木木油的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood282",
+    "title": "杨木木蜡两份",
+    "body": "采杨木木蜡的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood283",
+    "title": "杨木木漆两份",
+    "body": "采杨木木漆的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood284",
+    "title": "杨木木油香两份",
+    "body": "采杨木木油香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood285",
+    "title": "杨木榫卯香两份",
+    "body": "采杨木榫卯香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood286",
+    "title": "杨木斗拱香两份",
+    "body": "采杨木斗拱香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood287",
+    "title": "杨木梁柱香两份",
+    "body": "采杨木梁柱香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood288",
+    "title": "柳木木香两份",
+    "body": "采柳木木香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood289",
+    "title": "柳木刨花两份",
+    "body": "采柳木刨花的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood290",
+    "title": "柳木锯末两份",
+    "body": "采柳木锯末的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood291",
+    "title": "柳木木屑两份",
+    "body": "采柳木木屑的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood292",
+    "title": "柳木木节两份",
+    "body": "采柳木木节的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood293",
+    "title": "柳木木纹两份",
+    "body": "采柳木木纹的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood294",
+    "title": "柳木木心两份",
+    "body": "采柳木木心的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood295",
+    "title": "柳木木皮两份",
+    "body": "采柳木木皮的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood296",
+    "title": "柳木木脂两份",
+    "body": "采柳木木脂的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood297",
+    "title": "柳木木油两份",
+    "body": "采柳木木油的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood298",
+    "title": "柳木木蜡两份",
+    "body": "采柳木木蜡的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood299",
+    "title": "柳木木漆两份",
+    "body": "采柳木木漆的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood300",
+    "title": "柳木木油香两份",
+    "body": "采柳木木油香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood301",
+    "title": "柳木榫卯香两份",
+    "body": "采柳木榫卯香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood302",
+    "title": "柳木斗拱香两份",
+    "body": "采柳木斗拱香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood303",
+    "title": "柳木梁柱香两份",
+    "body": "采柳木梁柱香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood304",
+    "title": "竹材木香两份",
+    "body": "采竹材木香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood305",
+    "title": "竹材刨花两份",
+    "body": "采竹材刨花的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood306",
+    "title": "竹材锯末两份",
+    "body": "采竹材锯末的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood307",
+    "title": "竹材木屑两份",
+    "body": "采竹材木屑的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood308",
+    "title": "竹材木节两份",
+    "body": "采竹材木节的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood309",
+    "title": "竹材木纹两份",
+    "body": "采竹材木纹的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood310",
+    "title": "竹材木心两份",
+    "body": "采竹材木心的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood311",
+    "title": "竹材木皮两份",
+    "body": "采竹材木皮的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood312",
+    "title": "竹材木脂两份",
+    "body": "采竹材木脂的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood313",
+    "title": "竹材木油两份",
+    "body": "采竹材木油的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood314",
+    "title": "竹材木蜡两份",
+    "body": "采竹材木蜡的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood315",
+    "title": "竹材木漆两份",
+    "body": "采竹材木漆的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood316",
+    "title": "竹材木油香两份",
+    "body": "采竹材木油香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood317",
+    "title": "竹材榫卯香两份",
+    "body": "采竹材榫卯香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood318",
+    "title": "竹材斗拱香两份",
+    "body": "采竹材斗拱香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood319",
+    "title": "竹材梁柱香两份",
+    "body": "采竹材梁柱香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood319": 2
+      },
+      "coins": 2
+    }
   }
 ]
