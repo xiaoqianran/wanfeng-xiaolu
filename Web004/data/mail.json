@@ -13768,5 +13768,797 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_fragrant_sage",
+    "title": "香型鼠尾草两份",
+    "body": "采香型鼠尾草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fragrant_sage": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fragrant_oregano",
+    "title": "香型牛至两份",
+    "body": "采香型牛至的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fragrant_oregano": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fragrant_basil",
+    "title": "香型罗勒两份",
+    "body": "采香型罗勒的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fragrant_basil": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fragrant_mint",
+    "title": "香型薄荷两份",
+    "body": "采香型薄荷的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fragrant_mint": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fragrant_lavender",
+    "title": "香型薰衣草两份",
+    "body": "采香型薰衣草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fragrant_lavender": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fragrant_rosemary",
+    "title": "香型迷迭香两份",
+    "body": "采香型迷迭香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fragrant_rosemary": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fragrant_marjoram",
+    "title": "香型马郁兰两份",
+    "body": "采香型马郁兰的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fragrant_marjoram": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fragrant_tarragon",
+    "title": "香型龙蒿两份",
+    "body": "采香型龙蒿的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fragrant_tarragon": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fragrant_chive",
+    "title": "香型香葱两份",
+    "body": "采香型香葱的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fragrant_chive": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fragrant_parsley",
+    "title": "香型欧芹两份",
+    "body": "采香型欧芹的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fragrant_parsley": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fragrant_cilantro",
+    "title": "香型香菜两份",
+    "body": "采香型香菜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fragrant_cilantro": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fragrant_dill",
+    "title": "香型莳萝两份",
+    "body": "采香型莳萝的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fragrant_dill": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fragrant_fennel",
+    "title": "香型茴香两份",
+    "body": "采香型茴香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fragrant_fennel": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fragrant_lovage",
+    "title": "香型独活两份",
+    "body": "采香型独活的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fragrant_lovage": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fragrant_sorrel",
+    "title": "香型酸模两份",
+    "body": "采香型酸模的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fragrant_sorrel": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_edible_thyme",
+    "title": "可食百里香两份",
+    "body": "采可食百里香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "edible_thyme": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_edible_sage",
+    "title": "可食鼠尾草两份",
+    "body": "采可食鼠尾草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "edible_sage": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_edible_oregano",
+    "title": "可食牛至两份",
+    "body": "采可食牛至的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "edible_oregano": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_edible_basil",
+    "title": "可食罗勒两份",
+    "body": "采可食罗勒的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "edible_basil": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_edible_mint",
+    "title": "可食薄荷两份",
+    "body": "采可食薄荷的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "edible_mint": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_edible_lavender",
+    "title": "可食薰衣草两份",
+    "body": "采可食薰衣草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "edible_lavender": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_edible_rosemary",
+    "title": "可食迷迭香两份",
+    "body": "采可食迷迭香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "edible_rosemary": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_edible_marjoram",
+    "title": "可食马郁兰两份",
+    "body": "采可食马郁兰的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "edible_marjoram": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_edible_tarragon",
+    "title": "可食龙蒿两份",
+    "body": "采可食龙蒿的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "edible_tarragon": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_edible_chive",
+    "title": "可食香葱两份",
+    "body": "采可食香葱的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "edible_chive": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_edible_parsley",
+    "title": "可食欧芹两份",
+    "body": "采可食欧芹的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "edible_parsley": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_edible_cilantro",
+    "title": "可食香菜两份",
+    "body": "采可食香菜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "edible_cilantro": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_edible_dill",
+    "title": "可食莳萝两份",
+    "body": "采可食莳萝的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "edible_dill": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_edible_fennel",
+    "title": "可食茴香两份",
+    "body": "采可食茴香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "edible_fennel": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_edible_lovage",
+    "title": "可食独活两份",
+    "body": "采可食独活的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "edible_lovage": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_edible_sorrel",
+    "title": "可食酸模两份",
+    "body": "采可食酸模的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "edible_sorrel": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_apple_blossom",
+    "title": "苹果花两份",
+    "body": "采苹果花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "apple_blossom": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_pear_blossom",
+    "title": "梨花两份",
+    "body": "采梨花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "pear_blossom": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_peach_blossom",
+    "title": "桃花两份",
+    "body": "采桃花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "peach_blossom": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_plum_blossom_fresh",
+    "title": "鲜梅花两份",
+    "body": "采鲜梅花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "plum_blossom_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cherry_blossom",
+    "title": "樱花两份",
+    "body": "采樱花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cherry_blossom": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_apricot_blossom",
+    "title": "杏花鲜两份",
+    "body": "采杏花鲜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "apricot_blossom": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quince_blossom",
+    "title": "榅桲花两份",
+    "body": "采榅桲花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quince_blossom": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_medlar_blossom",
+    "title": "欧楂花两份",
+    "body": "采欧楂花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "medlar_blossom": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mulberry_flower",
+    "title": "桑花两份",
+    "body": "采桑花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mulberry_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fig_leaf",
+    "title": "无花果叶两份",
+    "body": "采无花果叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fig_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_pomegranate_flower",
+    "title": "石榴花两份",
+    "body": "采石榴花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "pomegranate_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_persimmon_flower",
+    "title": "柿花两份",
+    "body": "采柿花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "persimmon_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_walnut_flower",
+    "title": "核桃花两份",
+    "body": "采核桃花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "walnut_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_hazel_catkin",
+    "title": "榛花序两份",
+    "body": "采榛花序的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "hazel_catkin": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_chestnut_catkin",
+    "title": "板栗花序两份",
+    "body": "采板栗花序的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "chestnut_catkin": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_almond_fresh_bl",
+    "title": "鲜杏花两份",
+    "body": "采鲜杏花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "almond_fresh_bl": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_pistachio_flower",
+    "title": "开心果花两份",
+    "body": "采开心果花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "pistachio_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_pecan_flower",
+    "title": "山核桃花两份",
+    "body": "采山核桃花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "pecan_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_macadamia_flower",
+    "title": "夏威夷果花两份",
+    "body": "采夏威夷果花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "macadamia_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cashew_flower",
+    "title": "腰果花两份",
+    "body": "采腰果花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cashew_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_brazil_nut_fl",
+    "title": "巴西坚果花两份",
+    "body": "采巴西坚果花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "brazil_nut_fl": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_coconut_inflo",
+    "title": "椰子花序两份",
+    "body": "采椰子花序的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "coconut_inflo": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_date_flower",
+    "title": "椰枣花两份",
+    "body": "采椰枣花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "date_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_olive_flower",
+    "title": "橄榄花两份",
+    "body": "采橄榄花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "olive_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_avocado_flower",
+    "title": "牛油果花两份",
+    "body": "采牛油果花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "avocado_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mango_flower",
+    "title": "芒果花两份",
+    "body": "采芒果花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mango_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lychee_flower",
+    "title": "荔枝花两份",
+    "body": "采荔枝花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "lychee_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_longan_flower",
+    "title": "龙眼花两份",
+    "body": "采龙眼花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "longan_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rambutan_flower",
+    "title": "红毛丹花两份",
+    "body": "采红毛丹花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rambutan_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mangosteen_flower",
+    "title": "山竹花两份",
+    "body": "采山竹花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mangosteen_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_guava_flower",
+    "title": "番石榴花两份",
+    "body": "采番石榴花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "guava_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_papaya_flower",
+    "title": "木瓜花两份",
+    "body": "采木瓜花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "papaya_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_pineapple_flower",
+    "title": "菠萝花两份",
+    "body": "采菠萝花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "pineapple_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_banana_flower",
+    "title": "香蕉花两份",
+    "body": "采香蕉花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "banana_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_plantain_flower",
+    "title": "大蕉花两份",
+    "body": "采大蕉花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "plantain_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_breadfruit_fl",
+    "title": "面包果花两份",
+    "body": "采面包果花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "breadfruit_fl": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_jackfruit_fl",
+    "title": "波罗蜜花两份",
+    "body": "采波罗蜜花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "jackfruit_fl": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_durian_fresh_fl",
+    "title": "鲜榴莲花两份",
+    "body": "采鲜榴莲花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "durian_fresh_fl": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soursop_fl",
+    "title": "刺番荔枝花两份",
+    "body": "采刺番荔枝花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soursop_fl": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cherimoya_fl",
+    "title": "毛番荔枝花两份",
+    "body": "采毛番荔枝花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cherimoya_fl": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_custard_apple_fl",
+    "title": "番荔枝花两份",
+    "body": "采番荔枝花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "custard_apple_fl": 2
+      },
+      "coins": 2
+    }
   }
 ]
