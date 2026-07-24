@@ -5703,6 +5703,118 @@
       "emoji": "💛",
       "kind": "风味",
       "seed": "chestnut_flowerPot"
+    },
+    "omija": {
+      "id": "omija",
+      "name": "五味子韩",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "omijaPot"
+    },
+    "yuja": {
+      "id": "yuja",
+      "name": "柚子茶果",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "yujaPot"
+    },
+    "ssanghwa": {
+      "id": "ssanghwa",
+      "name": "双和茶料",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "ssanghwaPot"
+    },
+    "maesil": {
+      "id": "maesil",
+      "name": "梅实",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "maesilPot"
+    },
+    "jujube_tea": {
+      "id": "jujube_tea",
+      "name": "大枣茶",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "jujube_teaPot"
+    },
+    "ginger_tea_kr": {
+      "id": "ginger_tea_kr",
+      "name": "韩式姜茶",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "ginger_tea_krPot"
+    },
+    "persimmon_leaf": {
+      "id": "persimmon_leaf",
+      "name": "柿叶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "persimmon_leafPot"
+    },
+    "pine_flower": {
+      "id": "pine_flower",
+      "name": "松花",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "pine_flowerPot"
+    },
+    "tulsi": {
+      "id": "tulsi",
+      "name": "圣罗勒印",
+      "emoji": "💚",
+      "kind": "风味",
+      "seed": "tulsiPot"
+    },
+    "neem_flower": {
+      "id": "neem_flower",
+      "name": "苦楝花",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "neem_flowerPot"
+    },
+    "curry_blossom": {
+      "id": "curry_blossom",
+      "name": "咖喱花",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "curry_blossomPot"
+    },
+    "ajwain_leaf": {
+      "id": "ajwain_leaf",
+      "name": "香旱芹叶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "ajwain_leafPot"
+    },
+    "fenugreek_leaf": {
+      "id": "fenugreek_leaf",
+      "name": "胡芦巴叶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "fenugreek_leafPot"
+    },
+    "moringa": {
+      "id": "moringa",
+      "name": "辣木",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "moringaPot"
+    },
+    "gotu_kola": {
+      "id": "gotu_kola",
+      "name": "积雪草",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "gotu_kolaPot"
+    },
+    "brahmi": {
+      "id": "brahmi",
+      "name": "假马齿苋",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "brahmiPot"
     }
   },
   "plants": {
@@ -12861,6 +12973,182 @@
       ],
       "harvest": "chestnut_flower",
       "days": 3
+    },
+    "omijaPot": {
+      "id": "omijaPot",
+      "name": "五味子韩",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "omija",
+      "days": 3
+    },
+    "yujaPot": {
+      "id": "yujaPot",
+      "name": "柚子茶果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "yuja",
+      "days": 3
+    },
+    "ssanghwaPot": {
+      "id": "ssanghwaPot",
+      "name": "双和茶料",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "ssanghwa",
+      "days": 4
+    },
+    "maesilPot": {
+      "id": "maesilPot",
+      "name": "梅实",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "maesil",
+      "days": 3
+    },
+    "jujube_teaPot": {
+      "id": "jujube_teaPot",
+      "name": "大枣茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "jujube_tea",
+      "days": 3
+    },
+    "ginger_tea_krPot": {
+      "id": "ginger_tea_krPot",
+      "name": "韩式姜茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "ginger_tea_kr",
+      "days": 3
+    },
+    "persimmon_leafPot": {
+      "id": "persimmon_leafPot",
+      "name": "柿叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "persimmon_leaf",
+      "days": 3
+    },
+    "pine_flowerPot": {
+      "id": "pine_flowerPot",
+      "name": "松花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "pine_flower",
+      "days": 3
+    },
+    "tulsiPot": {
+      "id": "tulsiPot",
+      "name": "圣罗勒印",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💚"
+      ],
+      "harvest": "tulsi",
+      "days": 3
+    },
+    "neem_flowerPot": {
+      "id": "neem_flowerPot",
+      "name": "苦楝花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "neem_flower",
+      "days": 3
+    },
+    "curry_blossomPot": {
+      "id": "curry_blossomPot",
+      "name": "咖喱花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "curry_blossom",
+      "days": 3
+    },
+    "ajwain_leafPot": {
+      "id": "ajwain_leafPot",
+      "name": "香旱芹叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "ajwain_leaf",
+      "days": 3
+    },
+    "fenugreek_leafPot": {
+      "id": "fenugreek_leafPot",
+      "name": "胡芦巴叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "fenugreek_leaf",
+      "days": 3
+    },
+    "moringaPot": {
+      "id": "moringaPot",
+      "name": "辣木",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "moringa",
+      "days": 3
+    },
+    "gotu_kolaPot": {
+      "id": "gotu_kolaPot",
+      "name": "积雪草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "gotu_kola",
+      "days": 3
+    },
+    "brahmiPot": {
+      "id": "brahmiPot",
+      "name": "假马齿苋",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "brahmi",
+      "days": 3
     }
   },
   "cups": [
@@ -18475,6 +18763,166 @@
       "tags": [
         "花香",
         "温暖"
+      ]
+    },
+    {
+      "id": "omija",
+      "name": "五味子韩",
+      "emoji": "🔴",
+      "need": "omija",
+      "tags": [
+        "果香",
+        "草本"
+      ]
+    },
+    {
+      "id": "yuja",
+      "name": "柚子茶果",
+      "emoji": "🟡",
+      "need": "yuja",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "ssanghwa",
+      "name": "双和茶料",
+      "emoji": "🟤",
+      "need": "ssanghwa",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "maesil",
+      "name": "梅实",
+      "emoji": "🟢",
+      "need": "maesil",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "jujube_tea",
+      "name": "大枣茶",
+      "emoji": "🔴",
+      "need": "jujube_tea",
+      "tags": [
+        "果香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "ginger_tea_kr",
+      "name": "韩式姜茶",
+      "emoji": "🧡",
+      "need": "ginger_tea_kr",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "persimmon_leaf",
+      "name": "柿叶",
+      "emoji": "🟢",
+      "need": "persimmon_leaf",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "pine_flower",
+      "name": "松花",
+      "emoji": "🟡",
+      "need": "pine_flower",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "tulsi",
+      "name": "圣罗勒印",
+      "emoji": "💚",
+      "need": "tulsi",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "neem_flower",
+      "name": "苦楝花",
+      "emoji": "🤍",
+      "need": "neem_flower",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "curry_blossom",
+      "name": "咖喱花",
+      "emoji": "🤍",
+      "need": "curry_blossom",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "ajwain_leaf",
+      "name": "香旱芹叶",
+      "emoji": "🟢",
+      "need": "ajwain_leaf",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "fenugreek_leaf",
+      "name": "胡芦巴叶",
+      "emoji": "🟢",
+      "need": "fenugreek_leaf",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "moringa",
+      "name": "辣木",
+      "emoji": "🟢",
+      "need": "moringa",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "gotu_kola",
+      "name": "积雪草",
+      "emoji": "🟢",
+      "need": "gotu_kola",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "brahmi",
+      "name": "假马齿苋",
+      "emoji": "🟢",
+      "need": "brahmi",
+      "tags": [
+        "草本",
+        "清爽"
       ]
     }
   ],
@@ -26873,6 +27321,246 @@
         "honey",
         "tea_leaf",
         "lavender_bud"
+      ]
+    },
+    {
+      "name": "泡五味子韩的药师",
+      "avatar": "🔴",
+      "wish": "五味子韩或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "草本"
+      ],
+      "flavors": [
+        "omija",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "做柚子茶的旅人",
+      "avatar": "🟡",
+      "wish": "柚子茶果或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "yuja",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖双和茶料的药师",
+      "avatar": "🟤",
+      "wish": "双和茶料或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "ssanghwa",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "腌梅实的旅人",
+      "avatar": "🟢",
+      "wish": "梅实或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "maesil",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "泡大枣茶的药师",
+      "avatar": "🔴",
+      "wish": "大枣茶或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "温暖"
+      ],
+      "flavors": [
+        "jujube_tea",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "熬韩式姜茶的旅人",
+      "avatar": "🧡",
+      "wish": "韩式姜茶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "ginger_tea_kr",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采柿叶的药师",
+      "avatar": "🟢",
+      "wish": "柿叶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "persimmon_leaf",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采松花的旅人",
+      "avatar": "🟡",
+      "wish": "松花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "pine_flower",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采圣罗勒印的药师",
+      "avatar": "💚",
+      "wish": "圣罗勒印或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "tulsi",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采苦楝花的旅人",
+      "avatar": "🤍",
+      "wish": "苦楝花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "neem_flower",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采咖喱花的药师",
+      "avatar": "🤍",
+      "wish": "咖喱花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "curry_blossom",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采香旱芹叶的旅人",
+      "avatar": "🟢",
+      "wish": "香旱芹叶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "ajwain_leaf",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采胡芦巴叶的药师",
+      "avatar": "🟢",
+      "wish": "胡芦巴叶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "fenugreek_leaf",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采辣木的旅人",
+      "avatar": "🟢",
+      "wish": "辣木或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "moringa",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采积雪草的药师",
+      "avatar": "🟢",
+      "wish": "积雪草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "gotu_kola",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采假马齿苋的旅人",
+      "avatar": "🟢",
+      "wish": "假马齿苋或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "brahmi",
+        "honey",
+        "tea_leaf",
+        "mint"
       ]
     }
   ],

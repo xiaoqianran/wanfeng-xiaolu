@@ -5848,5 +5848,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_omija",
+    "title": "五味子韩两份",
+    "body": "泡五味子韩的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "omija": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_yuja",
+    "title": "柚子茶果两份",
+    "body": "做柚子茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "yuja": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ssanghwa",
+    "title": "双和茶料两份",
+    "body": "炖双和茶料的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "ssanghwa": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_maesil",
+    "title": "梅实两份",
+    "body": "腌梅实的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "maesil": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_jujube_tea",
+    "title": "大枣茶两份",
+    "body": "泡大枣茶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "jujube_tea": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ginger_tea_kr",
+    "title": "韩式姜茶两份",
+    "body": "熬韩式姜茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "ginger_tea_kr": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_persimmon_leaf",
+    "title": "柿叶两份",
+    "body": "采柿叶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "persimmon_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_pine_flower",
+    "title": "松花两份",
+    "body": "采松花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "pine_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tulsi",
+    "title": "圣罗勒印两份",
+    "body": "采圣罗勒印的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tulsi": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_neem_flower",
+    "title": "苦楝花两份",
+    "body": "采苦楝花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "neem_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_curry_blossom",
+    "title": "咖喱花两份",
+    "body": "采咖喱花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "curry_blossom": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ajwain_leaf",
+    "title": "香旱芹叶两份",
+    "body": "采香旱芹叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "ajwain_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_fenugreek_leaf",
+    "title": "胡芦巴叶两份",
+    "body": "采胡芦巴叶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fenugreek_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_moringa",
+    "title": "辣木两份",
+    "body": "采辣木的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "moringa": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_gotu_kola",
+    "title": "积雪草两份",
+    "body": "采积雪草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "gotu_kola": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_brahmi",
+    "title": "假马齿苋两份",
+    "body": "采假马齿苋的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "brahmi": 2
+      },
+      "coins": 2
+    }
   }
 ]
