@@ -157560,5 +157560,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_garden20",
+    "title": "前院院门风两份",
+    "body": "采前院院门风的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden21",
+    "title": "前院院墙影两份",
+    "body": "采前院院墙影的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden22",
+    "title": "前院院角井两份",
+    "body": "采前院院角井的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden23",
+    "title": "前院院中亭两份",
+    "body": "采前院院中亭的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden24",
+    "title": "前院院边柳两份",
+    "body": "采前院院边柳的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden25",
+    "title": "前院院后竹两份",
+    "body": "采前院院后竹的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden26",
+    "title": "前院院前梅两份",
+    "body": "采前院院前梅的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden27",
+    "title": "前院院内兰两份",
+    "body": "采前院院内兰的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden28",
+    "title": "前院院外菊两份",
+    "body": "采前院院外菊的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden29",
+    "title": "前院院心荷两份",
+    "body": "采前院院心荷的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden210",
+    "title": "前院天井光两份",
+    "body": "采前院天井光的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden211",
+    "title": "前院花圃露两份",
+    "body": "采前院花圃露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden212",
+    "title": "前院菜圃土两份",
+    "body": "采前院菜圃土的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden213",
+    "title": "前院药圃香两份",
+    "body": "采前院药圃香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden214",
+    "title": "前院果圃甜两份",
+    "body": "采前院果圃甜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden215",
+    "title": "前院竹圃清两份",
+    "body": "采前院竹圃清的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden216",
+    "title": "后院院门风两份",
+    "body": "采后院院门风的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden217",
+    "title": "后院院墙影两份",
+    "body": "采后院院墙影的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden218",
+    "title": "后院院角井两份",
+    "body": "采后院院角井的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden219",
+    "title": "后院院中亭两份",
+    "body": "采后院院中亭的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden220",
+    "title": "后院院边柳两份",
+    "body": "采后院院边柳的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden221",
+    "title": "后院院后竹两份",
+    "body": "采后院院后竹的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden222",
+    "title": "后院院前梅两份",
+    "body": "采后院院前梅的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden223",
+    "title": "后院院内兰两份",
+    "body": "采后院院内兰的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden224",
+    "title": "后院院外菊两份",
+    "body": "采后院院外菊的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden225",
+    "title": "后院院心荷两份",
+    "body": "采后院院心荷的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden226",
+    "title": "后院天井光两份",
+    "body": "采后院天井光的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden227",
+    "title": "后院花圃露两份",
+    "body": "采后院花圃露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden228",
+    "title": "后院菜圃土两份",
+    "body": "采后院菜圃土的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden229",
+    "title": "后院药圃香两份",
+    "body": "采后院药圃香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden230",
+    "title": "后院果圃甜两份",
+    "body": "采后院果圃甜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden231",
+    "title": "后院竹圃清两份",
+    "body": "采后院竹圃清的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden232",
+    "title": "侧院院门风两份",
+    "body": "采侧院院门风的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden233",
+    "title": "侧院院墙影两份",
+    "body": "采侧院院墙影的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden234",
+    "title": "侧院院角井两份",
+    "body": "采侧院院角井的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden235",
+    "title": "侧院院中亭两份",
+    "body": "采侧院院中亭的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden236",
+    "title": "侧院院边柳两份",
+    "body": "采侧院院边柳的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden237",
+    "title": "侧院院后竹两份",
+    "body": "采侧院院后竹的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden238",
+    "title": "侧院院前梅两份",
+    "body": "采侧院院前梅的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden239",
+    "title": "侧院院内兰两份",
+    "body": "采侧院院内兰的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden240",
+    "title": "侧院院外菊两份",
+    "body": "采侧院院外菊的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden241",
+    "title": "侧院院心荷两份",
+    "body": "采侧院院心荷的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden242",
+    "title": "侧院天井光两份",
+    "body": "采侧院天井光的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden243",
+    "title": "侧院花圃露两份",
+    "body": "采侧院花圃露的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden244",
+    "title": "侧院菜圃土两份",
+    "body": "采侧院菜圃土的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden245",
+    "title": "侧院药圃香两份",
+    "body": "采侧院药圃香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden246",
+    "title": "侧院果圃甜两份",
+    "body": "采侧院果圃甜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden247",
+    "title": "侧院竹圃清两份",
+    "body": "采侧院竹圃清的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden248",
+    "title": "中庭院门风两份",
+    "body": "采中庭院门风的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden249",
+    "title": "中庭院墙影两份",
+    "body": "采中庭院墙影的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden250",
+    "title": "中庭院角井两份",
+    "body": "采中庭院角井的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden251",
+    "title": "中庭院中亭两份",
+    "body": "采中庭院中亭的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden252",
+    "title": "中庭院边柳两份",
+    "body": "采中庭院边柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden253",
+    "title": "中庭院后竹两份",
+    "body": "采中庭院后竹的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden254",
+    "title": "中庭院前梅两份",
+    "body": "采中庭院前梅的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden255",
+    "title": "中庭院内兰两份",
+    "body": "采中庭院内兰的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden256",
+    "title": "中庭院外菊两份",
+    "body": "采中庭院外菊的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden257",
+    "title": "中庭院心荷两份",
+    "body": "采中庭院心荷的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden258",
+    "title": "中庭天井光两份",
+    "body": "采中庭天井光的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden259",
+    "title": "中庭花圃露两份",
+    "body": "采中庭花圃露的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden260",
+    "title": "中庭菜圃土两份",
+    "body": "采中庭菜圃土的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden261",
+    "title": "中庭药圃香两份",
+    "body": "采中庭药圃香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden262",
+    "title": "中庭果圃甜两份",
+    "body": "采中庭果圃甜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden263",
+    "title": "中庭竹圃清两份",
+    "body": "采中庭竹圃清的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden264",
+    "title": "天井院门风两份",
+    "body": "采天井院门风的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden265",
+    "title": "天井院墙影两份",
+    "body": "采天井院墙影的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden266",
+    "title": "天井院角井两份",
+    "body": "采天井院角井的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden267",
+    "title": "天井院中亭两份",
+    "body": "采天井院中亭的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden268",
+    "title": "天井院边柳两份",
+    "body": "采天井院边柳的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden269",
+    "title": "天井院后竹两份",
+    "body": "采天井院后竹的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden270",
+    "title": "天井院前梅两份",
+    "body": "采天井院前梅的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden271",
+    "title": "天井院内兰两份",
+    "body": "采天井院内兰的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden272",
+    "title": "天井院外菊两份",
+    "body": "采天井院外菊的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden273",
+    "title": "天井院心荷两份",
+    "body": "采天井院心荷的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden274",
+    "title": "天井天井光两份",
+    "body": "采天井天井光的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden275",
+    "title": "天井花圃露两份",
+    "body": "采天井花圃露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden276",
+    "title": "天井菜圃土两份",
+    "body": "采天井菜圃土的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden277",
+    "title": "天井药圃香两份",
+    "body": "采天井药圃香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden278",
+    "title": "天井果圃甜两份",
+    "body": "采天井果圃甜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden279",
+    "title": "天井竹圃清两份",
+    "body": "采天井竹圃清的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden280",
+    "title": "花圃院门风两份",
+    "body": "采花圃院门风的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden281",
+    "title": "花圃院墙影两份",
+    "body": "采花圃院墙影的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden282",
+    "title": "花圃院角井两份",
+    "body": "采花圃院角井的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden283",
+    "title": "花圃院中亭两份",
+    "body": "采花圃院中亭的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden284",
+    "title": "花圃院边柳两份",
+    "body": "采花圃院边柳的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden285",
+    "title": "花圃院后竹两份",
+    "body": "采花圃院后竹的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden286",
+    "title": "花圃院前梅两份",
+    "body": "采花圃院前梅的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden287",
+    "title": "花圃院内兰两份",
+    "body": "采花圃院内兰的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden288",
+    "title": "花圃院外菊两份",
+    "body": "采花圃院外菊的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden289",
+    "title": "花圃院心荷两份",
+    "body": "采花圃院心荷的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden290",
+    "title": "花圃天井光两份",
+    "body": "采花圃天井光的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden291",
+    "title": "花圃花圃露两份",
+    "body": "采花圃花圃露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden292",
+    "title": "花圃菜圃土两份",
+    "body": "采花圃菜圃土的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden293",
+    "title": "花圃药圃香两份",
+    "body": "采花圃药圃香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden294",
+    "title": "花圃果圃甜两份",
+    "body": "采花圃果圃甜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden295",
+    "title": "花圃竹圃清两份",
+    "body": "采花圃竹圃清的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden296",
+    "title": "菜圃院门风两份",
+    "body": "采菜圃院门风的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden297",
+    "title": "菜圃院墙影两份",
+    "body": "采菜圃院墙影的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden298",
+    "title": "菜圃院角井两份",
+    "body": "采菜圃院角井的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden299",
+    "title": "菜圃院中亭两份",
+    "body": "采菜圃院中亭的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2100",
+    "title": "菜圃院边柳两份",
+    "body": "采菜圃院边柳的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2101",
+    "title": "菜圃院后竹两份",
+    "body": "采菜圃院后竹的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2102",
+    "title": "菜圃院前梅两份",
+    "body": "采菜圃院前梅的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2103",
+    "title": "菜圃院内兰两份",
+    "body": "采菜圃院内兰的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2104",
+    "title": "菜圃院外菊两份",
+    "body": "采菜圃院外菊的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2105",
+    "title": "菜圃院心荷两份",
+    "body": "采菜圃院心荷的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2106",
+    "title": "菜圃天井光两份",
+    "body": "采菜圃天井光的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2107",
+    "title": "菜圃花圃露两份",
+    "body": "采菜圃花圃露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2108",
+    "title": "菜圃菜圃土两份",
+    "body": "采菜圃菜圃土的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2109",
+    "title": "菜圃药圃香两份",
+    "body": "采菜圃药圃香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2110",
+    "title": "菜圃果圃甜两份",
+    "body": "采菜圃果圃甜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2111",
+    "title": "菜圃竹圃清两份",
+    "body": "采菜圃竹圃清的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2112",
+    "title": "药圃院门风两份",
+    "body": "采药圃院门风的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2113",
+    "title": "药圃院墙影两份",
+    "body": "采药圃院墙影的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2114",
+    "title": "药圃院角井两份",
+    "body": "采药圃院角井的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2115",
+    "title": "药圃院中亭两份",
+    "body": "采药圃院中亭的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2116",
+    "title": "药圃院边柳两份",
+    "body": "采药圃院边柳的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2117",
+    "title": "药圃院后竹两份",
+    "body": "采药圃院后竹的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2118",
+    "title": "药圃院前梅两份",
+    "body": "采药圃院前梅的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2119",
+    "title": "药圃院内兰两份",
+    "body": "采药圃院内兰的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2120",
+    "title": "药圃院外菊两份",
+    "body": "采药圃院外菊的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2121",
+    "title": "药圃院心荷两份",
+    "body": "采药圃院心荷的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2122",
+    "title": "药圃天井光两份",
+    "body": "采药圃天井光的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2123",
+    "title": "药圃花圃露两份",
+    "body": "采药圃花圃露的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2124",
+    "title": "药圃菜圃土两份",
+    "body": "采药圃菜圃土的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2125",
+    "title": "药圃药圃香两份",
+    "body": "采药圃药圃香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2126",
+    "title": "药圃果圃甜两份",
+    "body": "采药圃果圃甜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2127",
+    "title": "药圃竹圃清两份",
+    "body": "采药圃竹圃清的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2128",
+    "title": "果圃院门风两份",
+    "body": "采果圃院门风的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2129",
+    "title": "果圃院墙影两份",
+    "body": "采果圃院墙影的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2130",
+    "title": "果圃院角井两份",
+    "body": "采果圃院角井的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2131",
+    "title": "果圃院中亭两份",
+    "body": "采果圃院中亭的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2132",
+    "title": "果圃院边柳两份",
+    "body": "采果圃院边柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2133",
+    "title": "果圃院后竹两份",
+    "body": "采果圃院后竹的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2134",
+    "title": "果圃院前梅两份",
+    "body": "采果圃院前梅的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2135",
+    "title": "果圃院内兰两份",
+    "body": "采果圃院内兰的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2136",
+    "title": "果圃院外菊两份",
+    "body": "采果圃院外菊的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2137",
+    "title": "果圃院心荷两份",
+    "body": "采果圃院心荷的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2138",
+    "title": "果圃天井光两份",
+    "body": "采果圃天井光的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2139",
+    "title": "果圃花圃露两份",
+    "body": "采果圃花圃露的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2140",
+    "title": "果圃菜圃土两份",
+    "body": "采果圃菜圃土的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2141",
+    "title": "果圃药圃香两份",
+    "body": "采果圃药圃香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2142",
+    "title": "果圃果圃甜两份",
+    "body": "采果圃果圃甜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2143",
+    "title": "果圃竹圃清两份",
+    "body": "采果圃竹圃清的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2144",
+    "title": "竹圃院门风两份",
+    "body": "采竹圃院门风的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2145",
+    "title": "竹圃院墙影两份",
+    "body": "采竹圃院墙影的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2146",
+    "title": "竹圃院角井两份",
+    "body": "采竹圃院角井的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2147",
+    "title": "竹圃院中亭两份",
+    "body": "采竹圃院中亭的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2148",
+    "title": "竹圃院边柳两份",
+    "body": "采竹圃院边柳的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2149",
+    "title": "竹圃院后竹两份",
+    "body": "采竹圃院后竹的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2150",
+    "title": "竹圃院前梅两份",
+    "body": "采竹圃院前梅的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2151",
+    "title": "竹圃院内兰两份",
+    "body": "采竹圃院内兰的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2152",
+    "title": "竹圃院外菊两份",
+    "body": "采竹圃院外菊的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2153",
+    "title": "竹圃院心荷两份",
+    "body": "采竹圃院心荷的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2154",
+    "title": "竹圃天井光两份",
+    "body": "采竹圃天井光的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2155",
+    "title": "竹圃花圃露两份",
+    "body": "采竹圃花圃露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2156",
+    "title": "竹圃菜圃土两份",
+    "body": "采竹圃菜圃土的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2157",
+    "title": "竹圃药圃香两份",
+    "body": "采竹圃药圃香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2158",
+    "title": "竹圃果圃甜两份",
+    "body": "采竹圃果圃甜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2159",
+    "title": "竹圃竹圃清两份",
+    "body": "采竹圃竹圃清的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2160",
+    "title": "梅圃院门风两份",
+    "body": "采梅圃院门风的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2161",
+    "title": "梅圃院墙影两份",
+    "body": "采梅圃院墙影的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2162",
+    "title": "梅圃院角井两份",
+    "body": "采梅圃院角井的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2163",
+    "title": "梅圃院中亭两份",
+    "body": "采梅圃院中亭的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2164",
+    "title": "梅圃院边柳两份",
+    "body": "采梅圃院边柳的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2165",
+    "title": "梅圃院后竹两份",
+    "body": "采梅圃院后竹的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2166",
+    "title": "梅圃院前梅两份",
+    "body": "采梅圃院前梅的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2167",
+    "title": "梅圃院内兰两份",
+    "body": "采梅圃院内兰的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2168",
+    "title": "梅圃院外菊两份",
+    "body": "采梅圃院外菊的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2169",
+    "title": "梅圃院心荷两份",
+    "body": "采梅圃院心荷的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2170",
+    "title": "梅圃天井光两份",
+    "body": "采梅圃天井光的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2171",
+    "title": "梅圃花圃露两份",
+    "body": "采梅圃花圃露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2172",
+    "title": "梅圃菜圃土两份",
+    "body": "采梅圃菜圃土的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2173",
+    "title": "梅圃药圃香两份",
+    "body": "采梅圃药圃香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2174",
+    "title": "梅圃果圃甜两份",
+    "body": "采梅圃果圃甜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2175",
+    "title": "梅圃竹圃清两份",
+    "body": "采梅圃竹圃清的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2176",
+    "title": "兰圃院门风两份",
+    "body": "采兰圃院门风的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2177",
+    "title": "兰圃院墙影两份",
+    "body": "采兰圃院墙影的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2178",
+    "title": "兰圃院角井两份",
+    "body": "采兰圃院角井的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2179",
+    "title": "兰圃院中亭两份",
+    "body": "采兰圃院中亭的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2180",
+    "title": "兰圃院边柳两份",
+    "body": "采兰圃院边柳的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2181",
+    "title": "兰圃院后竹两份",
+    "body": "采兰圃院后竹的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2182",
+    "title": "兰圃院前梅两份",
+    "body": "采兰圃院前梅的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2183",
+    "title": "兰圃院内兰两份",
+    "body": "采兰圃院内兰的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2184",
+    "title": "兰圃院外菊两份",
+    "body": "采兰圃院外菊的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2185",
+    "title": "兰圃院心荷两份",
+    "body": "采兰圃院心荷的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2186",
+    "title": "兰圃天井光两份",
+    "body": "采兰圃天井光的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2187",
+    "title": "兰圃花圃露两份",
+    "body": "采兰圃花圃露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2188",
+    "title": "兰圃菜圃土两份",
+    "body": "采兰圃菜圃土的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2189",
+    "title": "兰圃药圃香两份",
+    "body": "采兰圃药圃香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2190",
+    "title": "兰圃果圃甜两份",
+    "body": "采兰圃果圃甜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2191",
+    "title": "兰圃竹圃清两份",
+    "body": "采兰圃竹圃清的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2192",
+    "title": "菊圃院门风两份",
+    "body": "采菊圃院门风的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2193",
+    "title": "菊圃院墙影两份",
+    "body": "采菊圃院墙影的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2194",
+    "title": "菊圃院角井两份",
+    "body": "采菊圃院角井的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2195",
+    "title": "菊圃院中亭两份",
+    "body": "采菊圃院中亭的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2196",
+    "title": "菊圃院边柳两份",
+    "body": "采菊圃院边柳的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2197",
+    "title": "菊圃院后竹两份",
+    "body": "采菊圃院后竹的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2198",
+    "title": "菊圃院前梅两份",
+    "body": "采菊圃院前梅的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2199",
+    "title": "菊圃院内兰两份",
+    "body": "采菊圃院内兰的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2200",
+    "title": "菊圃院外菊两份",
+    "body": "采菊圃院外菊的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2201",
+    "title": "菊圃院心荷两份",
+    "body": "采菊圃院心荷的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2202",
+    "title": "菊圃天井光两份",
+    "body": "采菊圃天井光的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2203",
+    "title": "菊圃花圃露两份",
+    "body": "采菊圃花圃露的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2204",
+    "title": "菊圃菜圃土两份",
+    "body": "采菊圃菜圃土的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2205",
+    "title": "菊圃药圃香两份",
+    "body": "采菊圃药圃香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2206",
+    "title": "菊圃果圃甜两份",
+    "body": "采菊圃果圃甜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2207",
+    "title": "菊圃竹圃清两份",
+    "body": "采菊圃竹圃清的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2208",
+    "title": "荷塘院门风两份",
+    "body": "采荷塘院门风的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2209",
+    "title": "荷塘院墙影两份",
+    "body": "采荷塘院墙影的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2210",
+    "title": "荷塘院角井两份",
+    "body": "采荷塘院角井的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2211",
+    "title": "荷塘院中亭两份",
+    "body": "采荷塘院中亭的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2212",
+    "title": "荷塘院边柳两份",
+    "body": "采荷塘院边柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2213",
+    "title": "荷塘院后竹两份",
+    "body": "采荷塘院后竹的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2214",
+    "title": "荷塘院前梅两份",
+    "body": "采荷塘院前梅的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2215",
+    "title": "荷塘院内兰两份",
+    "body": "采荷塘院内兰的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2216",
+    "title": "荷塘院外菊两份",
+    "body": "采荷塘院外菊的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2217",
+    "title": "荷塘院心荷两份",
+    "body": "采荷塘院心荷的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2218",
+    "title": "荷塘天井光两份",
+    "body": "采荷塘天井光的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2219",
+    "title": "荷塘花圃露两份",
+    "body": "采荷塘花圃露的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2220",
+    "title": "荷塘菜圃土两份",
+    "body": "采荷塘菜圃土的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2221",
+    "title": "荷塘药圃香两份",
+    "body": "采荷塘药圃香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2222",
+    "title": "荷塘果圃甜两份",
+    "body": "采荷塘果圃甜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2223",
+    "title": "荷塘竹圃清两份",
+    "body": "采荷塘竹圃清的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2224",
+    "title": "鱼池院门风两份",
+    "body": "采鱼池院门风的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2225",
+    "title": "鱼池院墙影两份",
+    "body": "采鱼池院墙影的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2226",
+    "title": "鱼池院角井两份",
+    "body": "采鱼池院角井的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2227",
+    "title": "鱼池院中亭两份",
+    "body": "采鱼池院中亭的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2228",
+    "title": "鱼池院边柳两份",
+    "body": "采鱼池院边柳的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2229",
+    "title": "鱼池院后竹两份",
+    "body": "采鱼池院后竹的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2230",
+    "title": "鱼池院前梅两份",
+    "body": "采鱼池院前梅的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2231",
+    "title": "鱼池院内兰两份",
+    "body": "采鱼池院内兰的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2232",
+    "title": "鱼池院外菊两份",
+    "body": "采鱼池院外菊的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2233",
+    "title": "鱼池院心荷两份",
+    "body": "采鱼池院心荷的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2234",
+    "title": "鱼池天井光两份",
+    "body": "采鱼池天井光的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2235",
+    "title": "鱼池花圃露两份",
+    "body": "采鱼池花圃露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2236",
+    "title": "鱼池菜圃土两份",
+    "body": "采鱼池菜圃土的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2237",
+    "title": "鱼池药圃香两份",
+    "body": "采鱼池药圃香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2238",
+    "title": "鱼池果圃甜两份",
+    "body": "采鱼池果圃甜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2239",
+    "title": "鱼池竹圃清两份",
+    "body": "采鱼池竹圃清的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2240",
+    "title": "石径院门风两份",
+    "body": "采石径院门风的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2241",
+    "title": "石径院墙影两份",
+    "body": "采石径院墙影的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2242",
+    "title": "石径院角井两份",
+    "body": "采石径院角井的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2243",
+    "title": "石径院中亭两份",
+    "body": "采石径院中亭的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2244",
+    "title": "石径院边柳两份",
+    "body": "采石径院边柳的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2245",
+    "title": "石径院后竹两份",
+    "body": "采石径院后竹的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2246",
+    "title": "石径院前梅两份",
+    "body": "采石径院前梅的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2247",
+    "title": "石径院内兰两份",
+    "body": "采石径院内兰的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2248",
+    "title": "石径院外菊两份",
+    "body": "采石径院外菊的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2249",
+    "title": "石径院心荷两份",
+    "body": "采石径院心荷的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2250",
+    "title": "石径天井光两份",
+    "body": "采石径天井光的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2251",
+    "title": "石径花圃露两份",
+    "body": "采石径花圃露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2252",
+    "title": "石径菜圃土两份",
+    "body": "采石径菜圃土的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2253",
+    "title": "石径药圃香两份",
+    "body": "采石径药圃香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2254",
+    "title": "石径果圃甜两份",
+    "body": "采石径果圃甜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2255",
+    "title": "石径竹圃清两份",
+    "body": "采石径竹圃清的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2256",
+    "title": "苔径院门风两份",
+    "body": "采苔径院门风的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2257",
+    "title": "苔径院墙影两份",
+    "body": "采苔径院墙影的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2258",
+    "title": "苔径院角井两份",
+    "body": "采苔径院角井的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2259",
+    "title": "苔径院中亭两份",
+    "body": "采苔径院中亭的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2260",
+    "title": "苔径院边柳两份",
+    "body": "采苔径院边柳的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2261",
+    "title": "苔径院后竹两份",
+    "body": "采苔径院后竹的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2262",
+    "title": "苔径院前梅两份",
+    "body": "采苔径院前梅的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2263",
+    "title": "苔径院内兰两份",
+    "body": "采苔径院内兰的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2264",
+    "title": "苔径院外菊两份",
+    "body": "采苔径院外菊的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2265",
+    "title": "苔径院心荷两份",
+    "body": "采苔径院心荷的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2266",
+    "title": "苔径天井光两份",
+    "body": "采苔径天井光的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2267",
+    "title": "苔径花圃露两份",
+    "body": "采苔径花圃露的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2268",
+    "title": "苔径菜圃土两份",
+    "body": "采苔径菜圃土的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2269",
+    "title": "苔径药圃香两份",
+    "body": "采苔径药圃香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2270",
+    "title": "苔径果圃甜两份",
+    "body": "采苔径果圃甜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2271",
+    "title": "苔径竹圃清两份",
+    "body": "采苔径竹圃清的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2272",
+    "title": "沙径院门风两份",
+    "body": "采沙径院门风的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2273",
+    "title": "沙径院墙影两份",
+    "body": "采沙径院墙影的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2274",
+    "title": "沙径院角井两份",
+    "body": "采沙径院角井的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2275",
+    "title": "沙径院中亭两份",
+    "body": "采沙径院中亭的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2276",
+    "title": "沙径院边柳两份",
+    "body": "采沙径院边柳的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2277",
+    "title": "沙径院后竹两份",
+    "body": "采沙径院后竹的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2278",
+    "title": "沙径院前梅两份",
+    "body": "采沙径院前梅的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2279",
+    "title": "沙径院内兰两份",
+    "body": "采沙径院内兰的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2280",
+    "title": "沙径院外菊两份",
+    "body": "采沙径院外菊的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2281",
+    "title": "沙径院心荷两份",
+    "body": "采沙径院心荷的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2282",
+    "title": "沙径天井光两份",
+    "body": "采沙径天井光的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2283",
+    "title": "沙径花圃露两份",
+    "body": "采沙径花圃露的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2284",
+    "title": "沙径菜圃土两份",
+    "body": "采沙径菜圃土的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2285",
+    "title": "沙径药圃香两份",
+    "body": "采沙径药圃香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2286",
+    "title": "沙径果圃甜两份",
+    "body": "采沙径果圃甜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2287",
+    "title": "沙径竹圃清两份",
+    "body": "采沙径竹圃清的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2288",
+    "title": "砖径院门风两份",
+    "body": "采砖径院门风的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2289",
+    "title": "砖径院墙影两份",
+    "body": "采砖径院墙影的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2290",
+    "title": "砖径院角井两份",
+    "body": "采砖径院角井的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2291",
+    "title": "砖径院中亭两份",
+    "body": "采砖径院中亭的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2292",
+    "title": "砖径院边柳两份",
+    "body": "采砖径院边柳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2293",
+    "title": "砖径院后竹两份",
+    "body": "采砖径院后竹的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2294",
+    "title": "砖径院前梅两份",
+    "body": "采砖径院前梅的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2295",
+    "title": "砖径院内兰两份",
+    "body": "采砖径院内兰的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2296",
+    "title": "砖径院外菊两份",
+    "body": "采砖径院外菊的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2297",
+    "title": "砖径院心荷两份",
+    "body": "采砖径院心荷的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2298",
+    "title": "砖径天井光两份",
+    "body": "采砖径天井光的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2299",
+    "title": "砖径花圃露两份",
+    "body": "采砖径花圃露的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2300",
+    "title": "砖径菜圃土两份",
+    "body": "采砖径菜圃土的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2301",
+    "title": "砖径药圃香两份",
+    "body": "采砖径药圃香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2302",
+    "title": "砖径果圃甜两份",
+    "body": "采砖径果圃甜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2303",
+    "title": "砖径竹圃清两份",
+    "body": "采砖径竹圃清的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2304",
+    "title": "木径院门风两份",
+    "body": "采木径院门风的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2305",
+    "title": "木径院墙影两份",
+    "body": "采木径院墙影的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2306",
+    "title": "木径院角井两份",
+    "body": "采木径院角井的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2307",
+    "title": "木径院中亭两份",
+    "body": "采木径院中亭的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2308",
+    "title": "木径院边柳两份",
+    "body": "采木径院边柳的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2309",
+    "title": "木径院后竹两份",
+    "body": "采木径院后竹的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2310",
+    "title": "木径院前梅两份",
+    "body": "采木径院前梅的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2311",
+    "title": "木径院内兰两份",
+    "body": "采木径院内兰的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2312",
+    "title": "木径院外菊两份",
+    "body": "采木径院外菊的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2313",
+    "title": "木径院心荷两份",
+    "body": "采木径院心荷的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2314",
+    "title": "木径天井光两份",
+    "body": "采木径天井光的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2315",
+    "title": "木径花圃露两份",
+    "body": "采木径花圃露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2316",
+    "title": "木径菜圃土两份",
+    "body": "采木径菜圃土的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2317",
+    "title": "木径药圃香两份",
+    "body": "采木径药圃香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2318",
+    "title": "木径果圃甜两份",
+    "body": "采木径果圃甜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_garden2319",
+    "title": "木径竹圃清两份",
+    "body": "采木径竹圃清的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "garden2319": 2
+      },
+      "coins": 2
+    }
   }
 ]
