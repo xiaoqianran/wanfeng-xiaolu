@@ -1393,5 +1393,49 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_hyssop",
+    "title": "神香草两枝",
+    "body": "泡神香草的修女来信：新摘的。给你两枝，别放太久。",
+    "effect": {
+      "items": {
+        "hyssop": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_chervil",
+    "title": "香芹一小把",
+    "body": "点香芹的厨娘来信：新剪的。给你一小把，别放太久。",
+    "effect": {
+      "items": {
+        "chervil": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sorrel",
+    "title": "酸模一小把",
+    "body": "切酸模的厨子来信：新摘的。给你一小把，别放太久。",
+    "effect": {
+      "items": {
+        "sorrel": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lovage",
+    "title": "独活两枝",
+    "body": "炖独活的厨娘来信：新摘的。给你两枝，别放太久。",
+    "effect": {
+      "items": {
+        "lovage": 2
+      },
+      "coins": 2
+    }
   }
 ]
