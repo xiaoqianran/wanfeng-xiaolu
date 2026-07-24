@@ -270,6 +270,7 @@
       { flavor: "lilac", label: "丁香" },
       { flavor: "cherry", label: "樱桃" },
       { flavor: "apricot", label: "杏" },
+      { flavor: "vanilla", label: "香草" },
     ],
     summer: [
       { flavor: "mint", label: "薄荷" },
@@ -301,6 +302,8 @@
       { flavor: "jujube", label: "红枣" },
       { flavor: "tangerine", label: "蜜橘" },
       { flavor: "kumquat", label: "金桔" },
+      { flavor: "cocoa", label: "可可" },
+      { flavor: "vanilla", label: "香草" },
     ],
     dusk: [
       { flavor: "lavender_bud", label: "薰衣草" },
@@ -846,6 +849,18 @@
     { id: "lime_walker", name: "青柠径旅人", desc: "走过青柠小径", check: function (s) {
       return !!(s._themesTouched && s._themesTouched.lime_path);
     } },
+    { id: "vanilla_sill", name: "香草窗台", desc: "发现香草", check: function (s) {
+      return !!(s.discovered && s.discovered.vanilla);
+    } },
+    { id: "vanilla_walker", name: "香草径旅人", desc: "走过香草短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.vanilla_lane);
+    } },
+    { id: "cocoa_sill", name: "可可窗台", desc: "发现可可", check: function (s) {
+      return !!(s.discovered && s.discovered.cocoa);
+    } },
+    { id: "cocoa_walker", name: "可可院旅人", desc: "走过可可小院", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.cocoa_courtyard);
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "path_sixty", name: "六十路图鉴", desc: "切换过 60 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 60; } },
     { id: "fav_path", name: "最爱的小路", desc: "标记一条最爱小路", check: function (s) { return !!(s.favoritePathThemeId); } },
@@ -1381,7 +1396,7 @@
     }
     // soft seasonal affinity (optional catalogs.season)
     var season = catalogs.season || customer.season;
-    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || flavorDef.id === "rose_petal" || flavorDef.id === "elderflower" || flavorDef.id === "loquat" || baseDef.id === "floral_tea")) {
+    if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || flavorDef.id === "rose_petal" || flavorDef.id === "elderflower" || flavorDef.id === "loquat" || flavorDef.id === "vanilla" || baseDef.id === "floral_tea")) {
       score += 0.5;
       notes.push("春日花香");
     }
@@ -1393,7 +1408,7 @@
       score += 0.5;
       notes.push("秋日温甜");
     }
-    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube")) {
+    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube" || flavorDef.id === "cocoa" || flavorDef.id === "vanilla")) {
       score += 0.5;
       notes.push("冬日暖茶");
     }

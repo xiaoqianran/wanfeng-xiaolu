@@ -2658,6 +2658,20 @@
       "emoji": "🟢",
       "kind": "风味",
       "seed": "limePot"
+    },
+    "vanilla": {
+      "id": "vanilla",
+      "name": "香草",
+      "emoji": "🌼",
+      "kind": "风味",
+      "seed": "vanillaPot"
+    },
+    "cocoa": {
+      "id": "cocoa",
+      "name": "可可",
+      "emoji": "🍫",
+      "kind": "风味",
+      "seed": "cocoaPot"
     }
   },
   "plants": {
@@ -5031,6 +5045,28 @@
       ],
       "harvest": "lime",
       "days": 2
+    },
+    "vanillaPot": {
+      "id": "vanillaPot",
+      "name": "香草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌼"
+      ],
+      "harvest": "vanilla",
+      "days": 3
+    },
+    "cocoaPot": {
+      "id": "cocoaPot",
+      "name": "可可",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍫"
+      ],
+      "harvest": "cocoa",
+      "days": 4
     }
   },
   "cups": [
@@ -6295,6 +6331,26 @@
       "tags": [
         "清爽",
         "果香"
+      ]
+    },
+    {
+      "id": "vanilla",
+      "name": "香草",
+      "emoji": "🌼",
+      "need": "vanilla",
+      "tags": [
+        "甜蜜",
+        "花香"
+      ]
+    },
+    {
+      "id": "cocoa",
+      "name": "可可",
+      "emoji": "🍫",
+      "need": "cocoa",
+      "tags": [
+        "甜蜜",
+        "温暖"
       ]
     }
   ],
@@ -8165,6 +8221,36 @@
         "mint",
         "lemon",
         "honey"
+      ]
+    },
+    {
+      "name": "做香草布丁的厨娘",
+      "avatar": "🍮",
+      "wish": "香草或蜜，甜蜜一点，暖杯也好。",
+      "tags": [
+        "甜蜜",
+        "花香"
+      ],
+      "flavors": [
+        "vanilla",
+        "honey",
+        "jasmine",
+        "cocoa"
+      ]
+    },
+    {
+      "name": "搅热可可的老人",
+      "avatar": "☕",
+      "wish": "可可或蜜，温暖甜蜜，暖杯最好。",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ],
+      "flavors": [
+        "cocoa",
+        "honey",
+        "vanilla",
+        "tea_leaf"
       ]
     }
   ],
