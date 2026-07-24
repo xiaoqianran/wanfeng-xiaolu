@@ -4149,6 +4149,111 @@
       "emoji": "🟢",
       "kind": "风味",
       "seed": "calamansiPot"
+    },
+    "fig_fresh": {
+      "id": "fig_fresh",
+      "name": "无花果鲜",
+      "emoji": "🩷",
+      "kind": "风味",
+      "seed": "fig_freshPot"
+    },
+    "pomegranate_seed": {
+      "id": "pomegranate_seed",
+      "name": "石榴籽",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "pomegranate_seedPot"
+    },
+    "cactus_pear": {
+      "id": "cactus_pear",
+      "name": "仙人掌果",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "cactus_pearPot"
+    },
+    "prickly_pear": {
+      "id": "prickly_pear",
+      "name": "霸王树果",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "prickly_pearPot"
+    },
+    "sapodilla": {
+      "id": "sapodilla",
+      "name": "人心果",
+      "emoji": "🤎",
+      "kind": "风味",
+      "seed": "sapodillaPot"
+    },
+    "soursop": {
+      "id": "soursop",
+      "name": "刺果番荔枝",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "soursopPot"
+    },
+    "cherimoya": {
+      "id": "cherimoya",
+      "name": "毛叶番荔枝",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "cherimoyaPot"
+    },
+    "feijoa": {
+      "id": "feijoa",
+      "name": "费约果",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "feijoaPot"
+    },
+    "loquat_fresh": {
+      "id": "loquat_fresh",
+      "name": "鲜枇杷",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "loquat_freshPot"
+    },
+    "jujube_fresh": {
+      "id": "jujube_fresh",
+      "name": "鲜枣",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "jujube_freshPot"
+    },
+    "mulberry_white": {
+      "id": "mulberry_white",
+      "name": "白桑",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "mulberry_whitePot"
+    },
+    "mulberry_black": {
+      "id": "mulberry_black",
+      "name": "黑桑",
+      "emoji": "⚫",
+      "kind": "风味",
+      "seed": "mulberry_blackPot"
+    },
+    "elderberry_fresh": {
+      "id": "elderberry_fresh",
+      "name": "鲜接骨木果",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "elderberry_freshPot"
+    },
+    "rowan_jelly": {
+      "id": "rowan_jelly",
+      "name": "花楸果冻",
+      "emoji": "🟠",
+      "kind": "风味",
+      "seed": "rowan_jellyPot"
+    },
+    "quince_paste": {
+      "id": "quince_paste",
+      "name": "榅桲膏",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "quince_pastePot"
     }
   },
   "plants": {
@@ -8865,6 +8970,171 @@
       ],
       "harvest": "calamansi",
       "days": 3
+    },
+    "fig_freshPot": {
+      "id": "fig_freshPot",
+      "name": "无花果鲜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🩷"
+      ],
+      "harvest": "fig_fresh",
+      "days": 3
+    },
+    "pomegranate_seedPot": {
+      "id": "pomegranate_seedPot",
+      "name": "石榴籽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "pomegranate_seed",
+      "days": 3
+    },
+    "cactus_pearPot": {
+      "id": "cactus_pearPot",
+      "name": "仙人掌果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "cactus_pear",
+      "days": 3
+    },
+    "prickly_pearPot": {
+      "id": "prickly_pearPot",
+      "name": "霸王树果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "prickly_pear",
+      "days": 3
+    },
+    "sapodillaPot": {
+      "id": "sapodillaPot",
+      "name": "人心果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤎"
+      ],
+      "harvest": "sapodilla",
+      "days": 3
+    },
+    "soursopPot": {
+      "id": "soursopPot",
+      "name": "刺果番荔枝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "soursop",
+      "days": 3
+    },
+    "cherimoyaPot": {
+      "id": "cherimoyaPot",
+      "name": "毛叶番荔枝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "cherimoya",
+      "days": 3
+    },
+    "feijoaPot": {
+      "id": "feijoaPot",
+      "name": "费约果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "feijoa",
+      "days": 3
+    },
+    "loquat_freshPot": {
+      "id": "loquat_freshPot",
+      "name": "鲜枇杷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "loquat_fresh",
+      "days": 3
+    },
+    "jujube_freshPot": {
+      "id": "jujube_freshPot",
+      "name": "鲜枣",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "jujube_fresh",
+      "days": 3
+    },
+    "mulberry_whitePot": {
+      "id": "mulberry_whitePot",
+      "name": "白桑",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "mulberry_white",
+      "days": 3
+    },
+    "mulberry_blackPot": {
+      "id": "mulberry_blackPot",
+      "name": "黑桑",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚫"
+      ],
+      "harvest": "mulberry_black",
+      "days": 3
+    },
+    "elderberry_freshPot": {
+      "id": "elderberry_freshPot",
+      "name": "鲜接骨木果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "elderberry_fresh",
+      "days": 3
+    },
+    "rowan_jellyPot": {
+      "id": "rowan_jellyPot",
+      "name": "花楸果冻",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟠"
+      ],
+      "harvest": "rowan_jelly",
+      "days": 3
+    },
+    "quince_pastePot": {
+      "id": "quince_pastePot",
+      "name": "榅桲膏",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "quince_paste",
+      "days": 3
     }
   },
   "cups": [
@@ -12259,6 +12529,156 @@
       "tags": [
         "果香",
         "清爽"
+      ]
+    },
+    {
+      "id": "fig_fresh",
+      "name": "无花果鲜",
+      "emoji": "🩷",
+      "need": "fig_fresh",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "pomegranate_seed",
+      "name": "石榴籽",
+      "emoji": "🔴",
+      "need": "pomegranate_seed",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "cactus_pear",
+      "name": "仙人掌果",
+      "emoji": "🔴",
+      "need": "cactus_pear",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "prickly_pear",
+      "name": "霸王树果",
+      "emoji": "🧡",
+      "need": "prickly_pear",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "sapodilla",
+      "name": "人心果",
+      "emoji": "🤎",
+      "need": "sapodilla",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "soursop",
+      "name": "刺果番荔枝",
+      "emoji": "🟢",
+      "need": "soursop",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "cherimoya",
+      "name": "毛叶番荔枝",
+      "emoji": "🟢",
+      "need": "cherimoya",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "feijoa",
+      "name": "费约果",
+      "emoji": "🟢",
+      "need": "feijoa",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "loquat_fresh",
+      "name": "鲜枇杷",
+      "emoji": "🟡",
+      "need": "loquat_fresh",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "jujube_fresh",
+      "name": "鲜枣",
+      "emoji": "🔴",
+      "need": "jujube_fresh",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "mulberry_white",
+      "name": "白桑",
+      "emoji": "⚪",
+      "need": "mulberry_white",
+      "tags": [
+        "果香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "mulberry_black",
+      "name": "黑桑",
+      "emoji": "⚫",
+      "need": "mulberry_black",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "elderberry_fresh",
+      "name": "鲜接骨木果",
+      "emoji": "🟣",
+      "need": "elderberry_fresh",
+      "tags": [
+        "果香",
+        "草本"
+      ]
+    },
+    {
+      "id": "rowan_jelly",
+      "name": "花楸果冻",
+      "emoji": "🟠",
+      "need": "rowan_jelly",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "quince_paste",
+      "name": "榅桲膏",
+      "emoji": "💛",
+      "need": "quince_paste",
+      "tags": [
+        "果香",
+        "甜蜜"
       ]
     }
   ],
@@ -17327,6 +17747,231 @@
         "honey",
         "tea_leaf",
         "mint"
+      ]
+    },
+    {
+      "name": "采无花果鲜的药师",
+      "avatar": "🩷",
+      "wish": "无花果鲜或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "fig_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采石榴籽的旅人",
+      "avatar": "🔴",
+      "wish": "石榴籽或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "pomegranate_seed",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采仙人掌果的旅人",
+      "avatar": "🔴",
+      "wish": "仙人掌果或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "cactus_pear",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采霸王树果的药师",
+      "avatar": "🧡",
+      "wish": "霸王树果或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "prickly_pear",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采人心果的旅人",
+      "avatar": "🤎",
+      "wish": "人心果或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "sapodilla",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采刺果番荔枝的药师",
+      "avatar": "🟢",
+      "wish": "刺果番荔枝或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "soursop",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采毛叶番荔枝的旅人",
+      "avatar": "🟢",
+      "wish": "毛叶番荔枝或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "cherimoya",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采费约果的旅人",
+      "avatar": "🟢",
+      "wish": "费约果或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "feijoa",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采鲜枇杷的药师",
+      "avatar": "🟡",
+      "wish": "鲜枇杷或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "loquat_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜枣的旅人",
+      "avatar": "🔴",
+      "wish": "鲜枣或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "jujube_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采白桑的药师",
+      "avatar": "⚪",
+      "wish": "白桑或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "温柔"
+      ],
+      "flavors": [
+        "mulberry_white",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采黑桑的旅人",
+      "avatar": "⚫",
+      "wish": "黑桑或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "mulberry_black",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜接骨木果的药师",
+      "avatar": "🟣",
+      "wish": "鲜接骨木果或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "草本"
+      ],
+      "flavors": [
+        "elderberry_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "熬花楸果冻的药师",
+      "avatar": "🟠",
+      "wish": "花楸果冻或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "rowan_jelly",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "熬榅桲膏的药师",
+      "avatar": "💛",
+      "wish": "榅桲膏或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "quince_paste",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
       ]
     }
   ],

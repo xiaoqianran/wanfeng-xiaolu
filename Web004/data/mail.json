@@ -3406,5 +3406,170 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_fig_fresh",
+    "title": "无花果鲜两份",
+    "body": "采无花果鲜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "fig_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_pomegranate_seed",
+    "title": "石榴籽两份",
+    "body": "采石榴籽的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "pomegranate_seed": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cactus_pear",
+    "title": "仙人掌果两份",
+    "body": "采仙人掌果的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cactus_pear": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_prickly_pear",
+    "title": "霸王树果两份",
+    "body": "采霸王树果的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "prickly_pear": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sapodilla",
+    "title": "人心果两份",
+    "body": "采人心果的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sapodilla": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soursop",
+    "title": "刺果番荔枝两份",
+    "body": "采刺果番荔枝的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soursop": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cherimoya",
+    "title": "毛叶番荔枝两份",
+    "body": "采毛叶番荔枝的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cherimoya": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_feijoa",
+    "title": "费约果两份",
+    "body": "采费约果的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "feijoa": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_loquat_fresh",
+    "title": "鲜枇杷两份",
+    "body": "采鲜枇杷的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "loquat_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_jujube_fresh",
+    "title": "鲜枣两份",
+    "body": "采鲜枣的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "jujube_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mulberry_white",
+    "title": "白桑两份",
+    "body": "采白桑的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mulberry_white": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mulberry_black",
+    "title": "黑桑两份",
+    "body": "采黑桑的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mulberry_black": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_elderberry_fresh",
+    "title": "鲜接骨木果两份",
+    "body": "采鲜接骨木果的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "elderberry_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_rowan_jelly",
+    "title": "花楸果冻两份",
+    "body": "熬花楸果冻的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rowan_jelly": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quince_paste",
+    "title": "榅桲膏两份",
+    "body": "熬榅桲膏的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quince_paste": 2
+      },
+      "coins": 2
+    }
   }
 ]
