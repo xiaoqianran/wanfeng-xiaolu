@@ -150520,5 +150520,7045 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_metal0",
+    "title": "黄铜铜香两份",
+    "body": "采黄铜铜香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal0": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal1",
+    "title": "黄铜锡香两份",
+    "body": "采黄铜锡香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal1": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal2",
+    "title": "黄铜银香两份",
+    "body": "采黄铜银香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal2": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal3",
+    "title": "黄铜金香两份",
+    "body": "采黄铜金香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal3": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal4",
+    "title": "黄铜铁香两份",
+    "body": "采黄铜铁香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal4": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal5",
+    "title": "黄铜钢香两份",
+    "body": "采黄铜钢香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal5": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal6",
+    "title": "黄铜铝香两份",
+    "body": "采黄铜铝香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal6": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal7",
+    "title": "黄铜铅香两份",
+    "body": "采黄铜铅香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal7": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal8",
+    "title": "黄铜乌香两份",
+    "body": "采黄铜乌香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal8": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal9",
+    "title": "黄铜斑香两份",
+    "body": "采黄铜斑香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal9": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal10",
+    "title": "黄铜鎏香两份",
+    "body": "采黄铜鎏香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal10": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal11",
+    "title": "黄铜錾香两份",
+    "body": "采黄铜錾香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal11": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal12",
+    "title": "黄铜镂香两份",
+    "body": "采黄铜镂香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal12": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal13",
+    "title": "黄铜嵌香两份",
+    "body": "采黄铜嵌香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal13": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal14",
+    "title": "黄铜丝香两份",
+    "body": "采黄铜丝香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal14": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal15",
+    "title": "黄铜蓝香两份",
+    "body": "采黄铜蓝香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal15": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal16",
+    "title": "红铜铜香两份",
+    "body": "采红铜铜香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal16": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal17",
+    "title": "红铜锡香两份",
+    "body": "采红铜锡香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal17": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal18",
+    "title": "红铜银香两份",
+    "body": "采红铜银香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal18": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal19",
+    "title": "红铜金香两份",
+    "body": "采红铜金香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal19": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal20",
+    "title": "红铜铁香两份",
+    "body": "采红铜铁香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal21",
+    "title": "红铜钢香两份",
+    "body": "采红铜钢香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal22",
+    "title": "红铜铝香两份",
+    "body": "采红铜铝香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal23",
+    "title": "红铜铅香两份",
+    "body": "采红铜铅香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal24",
+    "title": "红铜乌香两份",
+    "body": "采红铜乌香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal25",
+    "title": "红铜斑香两份",
+    "body": "采红铜斑香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal26",
+    "title": "红铜鎏香两份",
+    "body": "采红铜鎏香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal27",
+    "title": "红铜錾香两份",
+    "body": "采红铜錾香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal28",
+    "title": "红铜镂香两份",
+    "body": "采红铜镂香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal29",
+    "title": "红铜嵌香两份",
+    "body": "采红铜嵌香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal30",
+    "title": "红铜丝香两份",
+    "body": "采红铜丝香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal30": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal31",
+    "title": "红铜蓝香两份",
+    "body": "采红铜蓝香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal31": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal32",
+    "title": "青铜铜香两份",
+    "body": "采青铜铜香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal32": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal33",
+    "title": "青铜锡香两份",
+    "body": "采青铜锡香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal33": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal34",
+    "title": "青铜银香两份",
+    "body": "采青铜银香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal34": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal35",
+    "title": "青铜金香两份",
+    "body": "采青铜金香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal35": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal36",
+    "title": "青铜铁香两份",
+    "body": "采青铜铁香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal36": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal37",
+    "title": "青铜钢香两份",
+    "body": "采青铜钢香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal37": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal38",
+    "title": "青铜铝香两份",
+    "body": "采青铜铝香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal38": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal39",
+    "title": "青铜铅香两份",
+    "body": "采青铜铅香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal39": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal40",
+    "title": "青铜乌香两份",
+    "body": "采青铜乌香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal40": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal41",
+    "title": "青铜斑香两份",
+    "body": "采青铜斑香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal41": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal42",
+    "title": "青铜鎏香两份",
+    "body": "采青铜鎏香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal42": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal43",
+    "title": "青铜錾香两份",
+    "body": "采青铜錾香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal43": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal44",
+    "title": "青铜镂香两份",
+    "body": "采青铜镂香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal44": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal45",
+    "title": "青铜嵌香两份",
+    "body": "采青铜嵌香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal45": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal46",
+    "title": "青铜丝香两份",
+    "body": "采青铜丝香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal46": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal47",
+    "title": "青铜蓝香两份",
+    "body": "采青铜蓝香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal47": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal48",
+    "title": "白铜铜香两份",
+    "body": "采白铜铜香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal48": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal49",
+    "title": "白铜锡香两份",
+    "body": "采白铜锡香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal49": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal50",
+    "title": "白铜银香两份",
+    "body": "采白铜银香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal50": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal51",
+    "title": "白铜金香两份",
+    "body": "采白铜金香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal51": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal52",
+    "title": "白铜铁香两份",
+    "body": "采白铜铁香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal52": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal53",
+    "title": "白铜钢香两份",
+    "body": "采白铜钢香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal53": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal54",
+    "title": "白铜铝香两份",
+    "body": "采白铜铝香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal54": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal55",
+    "title": "白铜铅香两份",
+    "body": "采白铜铅香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal55": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal56",
+    "title": "白铜乌香两份",
+    "body": "采白铜乌香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal56": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal57",
+    "title": "白铜斑香两份",
+    "body": "采白铜斑香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal57": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal58",
+    "title": "白铜鎏香两份",
+    "body": "采白铜鎏香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal58": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal59",
+    "title": "白铜錾香两份",
+    "body": "采白铜錾香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal59": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal60",
+    "title": "白铜镂香两份",
+    "body": "采白铜镂香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal60": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal61",
+    "title": "白铜嵌香两份",
+    "body": "采白铜嵌香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal61": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal62",
+    "title": "白铜丝香两份",
+    "body": "采白铜丝香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal62": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal63",
+    "title": "白铜蓝香两份",
+    "body": "采白铜蓝香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal63": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal64",
+    "title": "紫铜铜香两份",
+    "body": "采紫铜铜香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal64": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal65",
+    "title": "紫铜锡香两份",
+    "body": "采紫铜锡香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal65": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal66",
+    "title": "紫铜银香两份",
+    "body": "采紫铜银香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal66": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal67",
+    "title": "紫铜金香两份",
+    "body": "采紫铜金香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal67": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal68",
+    "title": "紫铜铁香两份",
+    "body": "采紫铜铁香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal68": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal69",
+    "title": "紫铜钢香两份",
+    "body": "采紫铜钢香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal69": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal70",
+    "title": "紫铜铝香两份",
+    "body": "采紫铜铝香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal70": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal71",
+    "title": "紫铜铅香两份",
+    "body": "采紫铜铅香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal71": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal72",
+    "title": "紫铜乌香两份",
+    "body": "采紫铜乌香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal72": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal73",
+    "title": "紫铜斑香两份",
+    "body": "采紫铜斑香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal73": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal74",
+    "title": "紫铜鎏香两份",
+    "body": "采紫铜鎏香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal74": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal75",
+    "title": "紫铜錾香两份",
+    "body": "采紫铜錾香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal75": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal76",
+    "title": "紫铜镂香两份",
+    "body": "采紫铜镂香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal76": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal77",
+    "title": "紫铜嵌香两份",
+    "body": "采紫铜嵌香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal77": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal78",
+    "title": "紫铜丝香两份",
+    "body": "采紫铜丝香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal78": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal79",
+    "title": "紫铜蓝香两份",
+    "body": "采紫铜蓝香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal79": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal80",
+    "title": "锡器铜香两份",
+    "body": "采锡器铜香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal80": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal81",
+    "title": "锡器锡香两份",
+    "body": "采锡器锡香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal81": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal82",
+    "title": "锡器银香两份",
+    "body": "采锡器银香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal82": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal83",
+    "title": "锡器金香两份",
+    "body": "采锡器金香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal83": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal84",
+    "title": "锡器铁香两份",
+    "body": "采锡器铁香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal84": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal85",
+    "title": "锡器钢香两份",
+    "body": "采锡器钢香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal85": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal86",
+    "title": "锡器铝香两份",
+    "body": "采锡器铝香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal86": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal87",
+    "title": "锡器铅香两份",
+    "body": "采锡器铅香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal87": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal88",
+    "title": "锡器乌香两份",
+    "body": "采锡器乌香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal88": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal89",
+    "title": "锡器斑香两份",
+    "body": "采锡器斑香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal89": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal90",
+    "title": "锡器鎏香两份",
+    "body": "采锡器鎏香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal90": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal91",
+    "title": "锡器錾香两份",
+    "body": "采锡器錾香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal91": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal92",
+    "title": "锡器镂香两份",
+    "body": "采锡器镂香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal92": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal93",
+    "title": "锡器嵌香两份",
+    "body": "采锡器嵌香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal93": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal94",
+    "title": "锡器丝香两份",
+    "body": "采锡器丝香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal94": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal95",
+    "title": "锡器蓝香两份",
+    "body": "采锡器蓝香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal95": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal96",
+    "title": "银器铜香两份",
+    "body": "采银器铜香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal96": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal97",
+    "title": "银器锡香两份",
+    "body": "采银器锡香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal97": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal98",
+    "title": "银器银香两份",
+    "body": "采银器银香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal98": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal99",
+    "title": "银器金香两份",
+    "body": "采银器金香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal99": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal100",
+    "title": "银器铁香两份",
+    "body": "采银器铁香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal101",
+    "title": "银器钢香两份",
+    "body": "采银器钢香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal102",
+    "title": "银器铝香两份",
+    "body": "采银器铝香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal103",
+    "title": "银器铅香两份",
+    "body": "采银器铅香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal104",
+    "title": "银器乌香两份",
+    "body": "采银器乌香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal105",
+    "title": "银器斑香两份",
+    "body": "采银器斑香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal106",
+    "title": "银器鎏香两份",
+    "body": "采银器鎏香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal107",
+    "title": "银器錾香两份",
+    "body": "采银器錾香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal108",
+    "title": "银器镂香两份",
+    "body": "采银器镂香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal109",
+    "title": "银器嵌香两份",
+    "body": "采银器嵌香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal110",
+    "title": "银器丝香两份",
+    "body": "采银器丝香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal111",
+    "title": "银器蓝香两份",
+    "body": "采银器蓝香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal112",
+    "title": "金箔铜香两份",
+    "body": "采金箔铜香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal113",
+    "title": "金箔锡香两份",
+    "body": "采金箔锡香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal114",
+    "title": "金箔银香两份",
+    "body": "采金箔银香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal115",
+    "title": "金箔金香两份",
+    "body": "采金箔金香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal116",
+    "title": "金箔铁香两份",
+    "body": "采金箔铁香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal117",
+    "title": "金箔钢香两份",
+    "body": "采金箔钢香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal118",
+    "title": "金箔铝香两份",
+    "body": "采金箔铝香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal119",
+    "title": "金箔铅香两份",
+    "body": "采金箔铅香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal120",
+    "title": "金箔乌香两份",
+    "body": "采金箔乌香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal121",
+    "title": "金箔斑香两份",
+    "body": "采金箔斑香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal122",
+    "title": "金箔鎏香两份",
+    "body": "采金箔鎏香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal123",
+    "title": "金箔錾香两份",
+    "body": "采金箔錾香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal124",
+    "title": "金箔镂香两份",
+    "body": "采金箔镂香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal125",
+    "title": "金箔嵌香两份",
+    "body": "采金箔嵌香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal126",
+    "title": "金箔丝香两份",
+    "body": "采金箔丝香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal127",
+    "title": "金箔蓝香两份",
+    "body": "采金箔蓝香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal128",
+    "title": "铁器铜香两份",
+    "body": "采铁器铜香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal129",
+    "title": "铁器锡香两份",
+    "body": "采铁器锡香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal130",
+    "title": "铁器银香两份",
+    "body": "采铁器银香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal131",
+    "title": "铁器金香两份",
+    "body": "采铁器金香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal132",
+    "title": "铁器铁香两份",
+    "body": "采铁器铁香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal133",
+    "title": "铁器钢香两份",
+    "body": "采铁器钢香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal134",
+    "title": "铁器铝香两份",
+    "body": "采铁器铝香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal135",
+    "title": "铁器铅香两份",
+    "body": "采铁器铅香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal136",
+    "title": "铁器乌香两份",
+    "body": "采铁器乌香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal137",
+    "title": "铁器斑香两份",
+    "body": "采铁器斑香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal138",
+    "title": "铁器鎏香两份",
+    "body": "采铁器鎏香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal139",
+    "title": "铁器錾香两份",
+    "body": "采铁器錾香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal140",
+    "title": "铁器镂香两份",
+    "body": "采铁器镂香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal141",
+    "title": "铁器嵌香两份",
+    "body": "采铁器嵌香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal142",
+    "title": "铁器丝香两份",
+    "body": "采铁器丝香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal143",
+    "title": "铁器蓝香两份",
+    "body": "采铁器蓝香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal144",
+    "title": "钢器铜香两份",
+    "body": "采钢器铜香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal145",
+    "title": "钢器锡香两份",
+    "body": "采钢器锡香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal146",
+    "title": "钢器银香两份",
+    "body": "采钢器银香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal147",
+    "title": "钢器金香两份",
+    "body": "采钢器金香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal148",
+    "title": "钢器铁香两份",
+    "body": "采钢器铁香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal149",
+    "title": "钢器钢香两份",
+    "body": "采钢器钢香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal150",
+    "title": "钢器铝香两份",
+    "body": "采钢器铝香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal151",
+    "title": "钢器铅香两份",
+    "body": "采钢器铅香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal152",
+    "title": "钢器乌香两份",
+    "body": "采钢器乌香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal153",
+    "title": "钢器斑香两份",
+    "body": "采钢器斑香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal154",
+    "title": "钢器鎏香两份",
+    "body": "采钢器鎏香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal155",
+    "title": "钢器錾香两份",
+    "body": "采钢器錾香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal156",
+    "title": "钢器镂香两份",
+    "body": "采钢器镂香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal157",
+    "title": "钢器嵌香两份",
+    "body": "采钢器嵌香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal158",
+    "title": "钢器丝香两份",
+    "body": "采钢器丝香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal159",
+    "title": "钢器蓝香两份",
+    "body": "采钢器蓝香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal160",
+    "title": "铝器铜香两份",
+    "body": "采铝器铜香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal161",
+    "title": "铝器锡香两份",
+    "body": "采铝器锡香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal162",
+    "title": "铝器银香两份",
+    "body": "采铝器银香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal163",
+    "title": "铝器金香两份",
+    "body": "采铝器金香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal164",
+    "title": "铝器铁香两份",
+    "body": "采铝器铁香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal165",
+    "title": "铝器钢香两份",
+    "body": "采铝器钢香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal166",
+    "title": "铝器铝香两份",
+    "body": "采铝器铝香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal167",
+    "title": "铝器铅香两份",
+    "body": "采铝器铅香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal168",
+    "title": "铝器乌香两份",
+    "body": "采铝器乌香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal169",
+    "title": "铝器斑香两份",
+    "body": "采铝器斑香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal170",
+    "title": "铝器鎏香两份",
+    "body": "采铝器鎏香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal171",
+    "title": "铝器錾香两份",
+    "body": "采铝器錾香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal172",
+    "title": "铝器镂香两份",
+    "body": "采铝器镂香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal173",
+    "title": "铝器嵌香两份",
+    "body": "采铝器嵌香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal174",
+    "title": "铝器丝香两份",
+    "body": "采铝器丝香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal175",
+    "title": "铝器蓝香两份",
+    "body": "采铝器蓝香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal176",
+    "title": "铅锡铜香两份",
+    "body": "采铅锡铜香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal177",
+    "title": "铅锡锡香两份",
+    "body": "采铅锡锡香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal178",
+    "title": "铅锡银香两份",
+    "body": "采铅锡银香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal179",
+    "title": "铅锡金香两份",
+    "body": "采铅锡金香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal180",
+    "title": "铅锡铁香两份",
+    "body": "采铅锡铁香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal181",
+    "title": "铅锡钢香两份",
+    "body": "采铅锡钢香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal182",
+    "title": "铅锡铝香两份",
+    "body": "采铅锡铝香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal183",
+    "title": "铅锡铅香两份",
+    "body": "采铅锡铅香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal184",
+    "title": "铅锡乌香两份",
+    "body": "采铅锡乌香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal185",
+    "title": "铅锡斑香两份",
+    "body": "采铅锡斑香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal186",
+    "title": "铅锡鎏香两份",
+    "body": "采铅锡鎏香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal187",
+    "title": "铅锡錾香两份",
+    "body": "采铅锡錾香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal188",
+    "title": "铅锡镂香两份",
+    "body": "采铅锡镂香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal189",
+    "title": "铅锡嵌香两份",
+    "body": "采铅锡嵌香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal190",
+    "title": "铅锡丝香两份",
+    "body": "采铅锡丝香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal191",
+    "title": "铅锡蓝香两份",
+    "body": "采铅锡蓝香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal192",
+    "title": "乌铜铜香两份",
+    "body": "采乌铜铜香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal193",
+    "title": "乌铜锡香两份",
+    "body": "采乌铜锡香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal194",
+    "title": "乌铜银香两份",
+    "body": "采乌铜银香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal195",
+    "title": "乌铜金香两份",
+    "body": "采乌铜金香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal196",
+    "title": "乌铜铁香两份",
+    "body": "采乌铜铁香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal197",
+    "title": "乌铜钢香两份",
+    "body": "采乌铜钢香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal198",
+    "title": "乌铜铝香两份",
+    "body": "采乌铜铝香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal199",
+    "title": "乌铜铅香两份",
+    "body": "采乌铜铅香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal200",
+    "title": "乌铜乌香两份",
+    "body": "采乌铜乌香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal201",
+    "title": "乌铜斑香两份",
+    "body": "采乌铜斑香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal202",
+    "title": "乌铜鎏香两份",
+    "body": "采乌铜鎏香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal203",
+    "title": "乌铜錾香两份",
+    "body": "采乌铜錾香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal204",
+    "title": "乌铜镂香两份",
+    "body": "采乌铜镂香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal205",
+    "title": "乌铜嵌香两份",
+    "body": "采乌铜嵌香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal206",
+    "title": "乌铜丝香两份",
+    "body": "采乌铜丝香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal207",
+    "title": "乌铜蓝香两份",
+    "body": "采乌铜蓝香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal208",
+    "title": "斑铜铜香两份",
+    "body": "采斑铜铜香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal209",
+    "title": "斑铜锡香两份",
+    "body": "采斑铜锡香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal210",
+    "title": "斑铜银香两份",
+    "body": "采斑铜银香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal211",
+    "title": "斑铜金香两份",
+    "body": "采斑铜金香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal212",
+    "title": "斑铜铁香两份",
+    "body": "采斑铜铁香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal213",
+    "title": "斑铜钢香两份",
+    "body": "采斑铜钢香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal214",
+    "title": "斑铜铝香两份",
+    "body": "采斑铜铝香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal215",
+    "title": "斑铜铅香两份",
+    "body": "采斑铜铅香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal216",
+    "title": "斑铜乌香两份",
+    "body": "采斑铜乌香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal217",
+    "title": "斑铜斑香两份",
+    "body": "采斑铜斑香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal218",
+    "title": "斑铜鎏香两份",
+    "body": "采斑铜鎏香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal219",
+    "title": "斑铜錾香两份",
+    "body": "采斑铜錾香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal220",
+    "title": "斑铜镂香两份",
+    "body": "采斑铜镂香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal221",
+    "title": "斑铜嵌香两份",
+    "body": "采斑铜嵌香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal222",
+    "title": "斑铜丝香两份",
+    "body": "采斑铜丝香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal223",
+    "title": "斑铜蓝香两份",
+    "body": "采斑铜蓝香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal224",
+    "title": "鎏金铜香两份",
+    "body": "采鎏金铜香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal225",
+    "title": "鎏金锡香两份",
+    "body": "采鎏金锡香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal226",
+    "title": "鎏金银香两份",
+    "body": "采鎏金银香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal227",
+    "title": "鎏金金香两份",
+    "body": "采鎏金金香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal228",
+    "title": "鎏金铁香两份",
+    "body": "采鎏金铁香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal229",
+    "title": "鎏金钢香两份",
+    "body": "采鎏金钢香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal230",
+    "title": "鎏金铝香两份",
+    "body": "采鎏金铝香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal231",
+    "title": "鎏金铅香两份",
+    "body": "采鎏金铅香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal232",
+    "title": "鎏金乌香两份",
+    "body": "采鎏金乌香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal233",
+    "title": "鎏金斑香两份",
+    "body": "采鎏金斑香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal234",
+    "title": "鎏金鎏香两份",
+    "body": "采鎏金鎏香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal235",
+    "title": "鎏金錾香两份",
+    "body": "采鎏金錾香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal236",
+    "title": "鎏金镂香两份",
+    "body": "采鎏金镂香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal237",
+    "title": "鎏金嵌香两份",
+    "body": "采鎏金嵌香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal238",
+    "title": "鎏金丝香两份",
+    "body": "采鎏金丝香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal239",
+    "title": "鎏金蓝香两份",
+    "body": "采鎏金蓝香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal240",
+    "title": "錾花铜香两份",
+    "body": "采錾花铜香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal241",
+    "title": "錾花锡香两份",
+    "body": "采錾花锡香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal242",
+    "title": "錾花银香两份",
+    "body": "采錾花银香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal243",
+    "title": "錾花金香两份",
+    "body": "采錾花金香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal244",
+    "title": "錾花铁香两份",
+    "body": "采錾花铁香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal245",
+    "title": "錾花钢香两份",
+    "body": "采錾花钢香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal246",
+    "title": "錾花铝香两份",
+    "body": "采錾花铝香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal247",
+    "title": "錾花铅香两份",
+    "body": "采錾花铅香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal248",
+    "title": "錾花乌香两份",
+    "body": "采錾花乌香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal249",
+    "title": "錾花斑香两份",
+    "body": "采錾花斑香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal250",
+    "title": "錾花鎏香两份",
+    "body": "采錾花鎏香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal251",
+    "title": "錾花錾香两份",
+    "body": "采錾花錾香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal252",
+    "title": "錾花镂香两份",
+    "body": "采錾花镂香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal253",
+    "title": "錾花嵌香两份",
+    "body": "采錾花嵌香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal254",
+    "title": "錾花丝香两份",
+    "body": "采錾花丝香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal255",
+    "title": "錾花蓝香两份",
+    "body": "采錾花蓝香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal256",
+    "title": "镂空铜香两份",
+    "body": "采镂空铜香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal257",
+    "title": "镂空锡香两份",
+    "body": "采镂空锡香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal258",
+    "title": "镂空银香两份",
+    "body": "采镂空银香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal259",
+    "title": "镂空金香两份",
+    "body": "采镂空金香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal260",
+    "title": "镂空铁香两份",
+    "body": "采镂空铁香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal261",
+    "title": "镂空钢香两份",
+    "body": "采镂空钢香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal262",
+    "title": "镂空铝香两份",
+    "body": "采镂空铝香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal263",
+    "title": "镂空铅香两份",
+    "body": "采镂空铅香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal264",
+    "title": "镂空乌香两份",
+    "body": "采镂空乌香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal265",
+    "title": "镂空斑香两份",
+    "body": "采镂空斑香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal266",
+    "title": "镂空鎏香两份",
+    "body": "采镂空鎏香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal267",
+    "title": "镂空錾香两份",
+    "body": "采镂空錾香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal268",
+    "title": "镂空镂香两份",
+    "body": "采镂空镂香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal269",
+    "title": "镂空嵌香两份",
+    "body": "采镂空嵌香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal270",
+    "title": "镂空丝香两份",
+    "body": "采镂空丝香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal271",
+    "title": "镂空蓝香两份",
+    "body": "采镂空蓝香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal272",
+    "title": "镶嵌铜香两份",
+    "body": "采镶嵌铜香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal273",
+    "title": "镶嵌锡香两份",
+    "body": "采镶嵌锡香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal274",
+    "title": "镶嵌银香两份",
+    "body": "采镶嵌银香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal275",
+    "title": "镶嵌金香两份",
+    "body": "采镶嵌金香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal276",
+    "title": "镶嵌铁香两份",
+    "body": "采镶嵌铁香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal277",
+    "title": "镶嵌钢香两份",
+    "body": "采镶嵌钢香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal278",
+    "title": "镶嵌铝香两份",
+    "body": "采镶嵌铝香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal279",
+    "title": "镶嵌铅香两份",
+    "body": "采镶嵌铅香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal280",
+    "title": "镶嵌乌香两份",
+    "body": "采镶嵌乌香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal281",
+    "title": "镶嵌斑香两份",
+    "body": "采镶嵌斑香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal282",
+    "title": "镶嵌鎏香两份",
+    "body": "采镶嵌鎏香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal283",
+    "title": "镶嵌錾香两份",
+    "body": "采镶嵌錾香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal284",
+    "title": "镶嵌镂香两份",
+    "body": "采镶嵌镂香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal285",
+    "title": "镶嵌嵌香两份",
+    "body": "采镶嵌嵌香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal286",
+    "title": "镶嵌丝香两份",
+    "body": "采镶嵌丝香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal287",
+    "title": "镶嵌蓝香两份",
+    "body": "采镶嵌蓝香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal288",
+    "title": "掐丝铜香两份",
+    "body": "采掐丝铜香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal289",
+    "title": "掐丝锡香两份",
+    "body": "采掐丝锡香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal290",
+    "title": "掐丝银香两份",
+    "body": "采掐丝银香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal291",
+    "title": "掐丝金香两份",
+    "body": "采掐丝金香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal292",
+    "title": "掐丝铁香两份",
+    "body": "采掐丝铁香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal293",
+    "title": "掐丝钢香两份",
+    "body": "采掐丝钢香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal294",
+    "title": "掐丝铝香两份",
+    "body": "采掐丝铝香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal295",
+    "title": "掐丝铅香两份",
+    "body": "采掐丝铅香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal296",
+    "title": "掐丝乌香两份",
+    "body": "采掐丝乌香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal297",
+    "title": "掐丝斑香两份",
+    "body": "采掐丝斑香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal298",
+    "title": "掐丝鎏香两份",
+    "body": "采掐丝鎏香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal299",
+    "title": "掐丝錾香两份",
+    "body": "采掐丝錾香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal300",
+    "title": "掐丝镂香两份",
+    "body": "采掐丝镂香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal301",
+    "title": "掐丝嵌香两份",
+    "body": "采掐丝嵌香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal302",
+    "title": "掐丝丝香两份",
+    "body": "采掐丝丝香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal303",
+    "title": "掐丝蓝香两份",
+    "body": "采掐丝蓝香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal304",
+    "title": "景泰蓝铜香两份",
+    "body": "采景泰蓝铜香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal305",
+    "title": "景泰蓝锡香两份",
+    "body": "采景泰蓝锡香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal306",
+    "title": "景泰蓝银香两份",
+    "body": "采景泰蓝银香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal307",
+    "title": "景泰蓝金香两份",
+    "body": "采景泰蓝金香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal308",
+    "title": "景泰蓝铁香两份",
+    "body": "采景泰蓝铁香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal309",
+    "title": "景泰蓝钢香两份",
+    "body": "采景泰蓝钢香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal310",
+    "title": "景泰蓝铝香两份",
+    "body": "采景泰蓝铝香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal311",
+    "title": "景泰蓝铅香两份",
+    "body": "采景泰蓝铅香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal312",
+    "title": "景泰蓝乌香两份",
+    "body": "采景泰蓝乌香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal313",
+    "title": "景泰蓝斑香两份",
+    "body": "采景泰蓝斑香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal314",
+    "title": "景泰蓝鎏香两份",
+    "body": "采景泰蓝鎏香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal315",
+    "title": "景泰蓝錾香两份",
+    "body": "采景泰蓝錾香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal316",
+    "title": "景泰蓝镂香两份",
+    "body": "采景泰蓝镂香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal317",
+    "title": "景泰蓝嵌香两份",
+    "body": "采景泰蓝嵌香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal318",
+    "title": "景泰蓝丝香两份",
+    "body": "采景泰蓝丝香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_metal319",
+    "title": "景泰蓝蓝香两份",
+    "body": "采景泰蓝蓝香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "metal319": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor20",
+    "title": "红灯灯下盐两份",
+    "body": "采红灯灯下盐的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor21",
+    "title": "红灯灯下鱼两份",
+    "body": "采红灯灯下鱼的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor22",
+    "title": "红灯灯下潮两份",
+    "body": "采红灯灯下潮的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor23",
+    "title": "红灯灯下雾两份",
+    "body": "采红灯灯下雾的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor24",
+    "title": "红灯灯下风两份",
+    "body": "采红灯灯下风的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor25",
+    "title": "红灯灯下鸥两份",
+    "body": "采红灯灯下鸥的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor26",
+    "title": "红灯灯下缆两份",
+    "body": "采红灯灯下缆的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor27",
+    "title": "红灯灯下锚两份",
+    "body": "采红灯灯下锚的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor28",
+    "title": "红灯灯下浪两份",
+    "body": "采红灯灯下浪的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor29",
+    "title": "红灯灯下沙两份",
+    "body": "采红灯灯下沙的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor210",
+    "title": "红灯灯下石两份",
+    "body": "采红灯灯下石的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor211",
+    "title": "红灯灯下泥两份",
+    "body": "采红灯灯下泥的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor212",
+    "title": "红灯灯下笛两份",
+    "body": "采红灯灯下笛的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor213",
+    "title": "红灯灯下号两份",
+    "body": "采红灯灯下号的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor214",
+    "title": "红灯灯下旗两份",
+    "body": "采红灯灯下旗的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor215",
+    "title": "红灯灯下影两份",
+    "body": "采红灯灯下影的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor216",
+    "title": "绿灯灯下盐两份",
+    "body": "采绿灯灯下盐的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor217",
+    "title": "绿灯灯下鱼两份",
+    "body": "采绿灯灯下鱼的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor218",
+    "title": "绿灯灯下潮两份",
+    "body": "采绿灯灯下潮的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor219",
+    "title": "绿灯灯下雾两份",
+    "body": "采绿灯灯下雾的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor220",
+    "title": "绿灯灯下风两份",
+    "body": "采绿灯灯下风的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor221",
+    "title": "绿灯灯下鸥两份",
+    "body": "采绿灯灯下鸥的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor222",
+    "title": "绿灯灯下缆两份",
+    "body": "采绿灯灯下缆的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor223",
+    "title": "绿灯灯下锚两份",
+    "body": "采绿灯灯下锚的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor224",
+    "title": "绿灯灯下浪两份",
+    "body": "采绿灯灯下浪的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor225",
+    "title": "绿灯灯下沙两份",
+    "body": "采绿灯灯下沙的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor226",
+    "title": "绿灯灯下石两份",
+    "body": "采绿灯灯下石的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor227",
+    "title": "绿灯灯下泥两份",
+    "body": "采绿灯灯下泥的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor228",
+    "title": "绿灯灯下笛两份",
+    "body": "采绿灯灯下笛的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor229",
+    "title": "绿灯灯下号两份",
+    "body": "采绿灯灯下号的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor230",
+    "title": "绿灯灯下旗两份",
+    "body": "采绿灯灯下旗的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor231",
+    "title": "绿灯灯下影两份",
+    "body": "采绿灯灯下影的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor232",
+    "title": "白灯灯下盐两份",
+    "body": "采白灯灯下盐的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor233",
+    "title": "白灯灯下鱼两份",
+    "body": "采白灯灯下鱼的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor234",
+    "title": "白灯灯下潮两份",
+    "body": "采白灯灯下潮的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor235",
+    "title": "白灯灯下雾两份",
+    "body": "采白灯灯下雾的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor236",
+    "title": "白灯灯下风两份",
+    "body": "采白灯灯下风的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor237",
+    "title": "白灯灯下鸥两份",
+    "body": "采白灯灯下鸥的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor238",
+    "title": "白灯灯下缆两份",
+    "body": "采白灯灯下缆的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor239",
+    "title": "白灯灯下锚两份",
+    "body": "采白灯灯下锚的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor240",
+    "title": "白灯灯下浪两份",
+    "body": "采白灯灯下浪的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor241",
+    "title": "白灯灯下沙两份",
+    "body": "采白灯灯下沙的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor242",
+    "title": "白灯灯下石两份",
+    "body": "采白灯灯下石的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor243",
+    "title": "白灯灯下泥两份",
+    "body": "采白灯灯下泥的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor244",
+    "title": "白灯灯下笛两份",
+    "body": "采白灯灯下笛的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor245",
+    "title": "白灯灯下号两份",
+    "body": "采白灯灯下号的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor246",
+    "title": "白灯灯下旗两份",
+    "body": "采白灯灯下旗的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor247",
+    "title": "白灯灯下影两份",
+    "body": "采白灯灯下影的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor248",
+    "title": "雾灯灯下盐两份",
+    "body": "采雾灯灯下盐的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor249",
+    "title": "雾灯灯下鱼两份",
+    "body": "采雾灯灯下鱼的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor250",
+    "title": "雾灯灯下潮两份",
+    "body": "采雾灯灯下潮的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor251",
+    "title": "雾灯灯下雾两份",
+    "body": "采雾灯灯下雾的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor252",
+    "title": "雾灯灯下风两份",
+    "body": "采雾灯灯下风的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor253",
+    "title": "雾灯灯下鸥两份",
+    "body": "采雾灯灯下鸥的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor254",
+    "title": "雾灯灯下缆两份",
+    "body": "采雾灯灯下缆的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor255",
+    "title": "雾灯灯下锚两份",
+    "body": "采雾灯灯下锚的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor256",
+    "title": "雾灯灯下浪两份",
+    "body": "采雾灯灯下浪的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor257",
+    "title": "雾灯灯下沙两份",
+    "body": "采雾灯灯下沙的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor258",
+    "title": "雾灯灯下石两份",
+    "body": "采雾灯灯下石的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor259",
+    "title": "雾灯灯下泥两份",
+    "body": "采雾灯灯下泥的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor260",
+    "title": "雾灯灯下笛两份",
+    "body": "采雾灯灯下笛的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor261",
+    "title": "雾灯灯下号两份",
+    "body": "采雾灯灯下号的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor262",
+    "title": "雾灯灯下旗两份",
+    "body": "采雾灯灯下旗的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor263",
+    "title": "雾灯灯下影两份",
+    "body": "采雾灯灯下影的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor264",
+    "title": "锚灯灯下盐两份",
+    "body": "采锚灯灯下盐的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor265",
+    "title": "锚灯灯下鱼两份",
+    "body": "采锚灯灯下鱼的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor266",
+    "title": "锚灯灯下潮两份",
+    "body": "采锚灯灯下潮的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor267",
+    "title": "锚灯灯下雾两份",
+    "body": "采锚灯灯下雾的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor268",
+    "title": "锚灯灯下风两份",
+    "body": "采锚灯灯下风的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor269",
+    "title": "锚灯灯下鸥两份",
+    "body": "采锚灯灯下鸥的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor270",
+    "title": "锚灯灯下缆两份",
+    "body": "采锚灯灯下缆的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor271",
+    "title": "锚灯灯下锚两份",
+    "body": "采锚灯灯下锚的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor272",
+    "title": "锚灯灯下浪两份",
+    "body": "采锚灯灯下浪的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor273",
+    "title": "锚灯灯下沙两份",
+    "body": "采锚灯灯下沙的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor274",
+    "title": "锚灯灯下石两份",
+    "body": "采锚灯灯下石的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor275",
+    "title": "锚灯灯下泥两份",
+    "body": "采锚灯灯下泥的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor276",
+    "title": "锚灯灯下笛两份",
+    "body": "采锚灯灯下笛的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor277",
+    "title": "锚灯灯下号两份",
+    "body": "采锚灯灯下号的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor278",
+    "title": "锚灯灯下旗两份",
+    "body": "采锚灯灯下旗的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor279",
+    "title": "锚灯灯下影两份",
+    "body": "采锚灯灯下影的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor280",
+    "title": "舷灯灯下盐两份",
+    "body": "采舷灯灯下盐的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor281",
+    "title": "舷灯灯下鱼两份",
+    "body": "采舷灯灯下鱼的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor282",
+    "title": "舷灯灯下潮两份",
+    "body": "采舷灯灯下潮的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor283",
+    "title": "舷灯灯下雾两份",
+    "body": "采舷灯灯下雾的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor284",
+    "title": "舷灯灯下风两份",
+    "body": "采舷灯灯下风的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor285",
+    "title": "舷灯灯下鸥两份",
+    "body": "采舷灯灯下鸥的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor286",
+    "title": "舷灯灯下缆两份",
+    "body": "采舷灯灯下缆的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor287",
+    "title": "舷灯灯下锚两份",
+    "body": "采舷灯灯下锚的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor288",
+    "title": "舷灯灯下浪两份",
+    "body": "采舷灯灯下浪的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor289",
+    "title": "舷灯灯下沙两份",
+    "body": "采舷灯灯下沙的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor290",
+    "title": "舷灯灯下石两份",
+    "body": "采舷灯灯下石的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor291",
+    "title": "舷灯灯下泥两份",
+    "body": "采舷灯灯下泥的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor292",
+    "title": "舷灯灯下笛两份",
+    "body": "采舷灯灯下笛的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor293",
+    "title": "舷灯灯下号两份",
+    "body": "采舷灯灯下号的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor294",
+    "title": "舷灯灯下旗两份",
+    "body": "采舷灯灯下旗的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor295",
+    "title": "舷灯灯下影两份",
+    "body": "采舷灯灯下影的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor296",
+    "title": "桅灯灯下盐两份",
+    "body": "采桅灯灯下盐的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor297",
+    "title": "桅灯灯下鱼两份",
+    "body": "采桅灯灯下鱼的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor298",
+    "title": "桅灯灯下潮两份",
+    "body": "采桅灯灯下潮的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor299",
+    "title": "桅灯灯下雾两份",
+    "body": "采桅灯灯下雾的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2100",
+    "title": "桅灯灯下风两份",
+    "body": "采桅灯灯下风的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2101",
+    "title": "桅灯灯下鸥两份",
+    "body": "采桅灯灯下鸥的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2102",
+    "title": "桅灯灯下缆两份",
+    "body": "采桅灯灯下缆的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2103",
+    "title": "桅灯灯下锚两份",
+    "body": "采桅灯灯下锚的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2104",
+    "title": "桅灯灯下浪两份",
+    "body": "采桅灯灯下浪的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2105",
+    "title": "桅灯灯下沙两份",
+    "body": "采桅灯灯下沙的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2106",
+    "title": "桅灯灯下石两份",
+    "body": "采桅灯灯下石的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2107",
+    "title": "桅灯灯下泥两份",
+    "body": "采桅灯灯下泥的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2108",
+    "title": "桅灯灯下笛两份",
+    "body": "采桅灯灯下笛的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2109",
+    "title": "桅灯灯下号两份",
+    "body": "采桅灯灯下号的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2110",
+    "title": "桅灯灯下旗两份",
+    "body": "采桅灯灯下旗的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2111",
+    "title": "桅灯灯下影两份",
+    "body": "采桅灯灯下影的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2112",
+    "title": "甲板灯灯下盐两份",
+    "body": "采甲板灯灯下盐的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2113",
+    "title": "甲板灯灯下鱼两份",
+    "body": "采甲板灯灯下鱼的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2114",
+    "title": "甲板灯灯下潮两份",
+    "body": "采甲板灯灯下潮的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2115",
+    "title": "甲板灯灯下雾两份",
+    "body": "采甲板灯灯下雾的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2116",
+    "title": "甲板灯灯下风两份",
+    "body": "采甲板灯灯下风的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2117",
+    "title": "甲板灯灯下鸥两份",
+    "body": "采甲板灯灯下鸥的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2118",
+    "title": "甲板灯灯下缆两份",
+    "body": "采甲板灯灯下缆的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2119",
+    "title": "甲板灯灯下锚两份",
+    "body": "采甲板灯灯下锚的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2120",
+    "title": "甲板灯灯下浪两份",
+    "body": "采甲板灯灯下浪的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2121",
+    "title": "甲板灯灯下沙两份",
+    "body": "采甲板灯灯下沙的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2122",
+    "title": "甲板灯灯下石两份",
+    "body": "采甲板灯灯下石的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2123",
+    "title": "甲板灯灯下泥两份",
+    "body": "采甲板灯灯下泥的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2124",
+    "title": "甲板灯灯下笛两份",
+    "body": "采甲板灯灯下笛的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2125",
+    "title": "甲板灯灯下号两份",
+    "body": "采甲板灯灯下号的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2126",
+    "title": "甲板灯灯下旗两份",
+    "body": "采甲板灯灯下旗的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2127",
+    "title": "甲板灯灯下影两份",
+    "body": "采甲板灯灯下影的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2128",
+    "title": "舱灯灯下盐两份",
+    "body": "采舱灯灯下盐的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2129",
+    "title": "舱灯灯下鱼两份",
+    "body": "采舱灯灯下鱼的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2130",
+    "title": "舱灯灯下潮两份",
+    "body": "采舱灯灯下潮的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2131",
+    "title": "舱灯灯下雾两份",
+    "body": "采舱灯灯下雾的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2132",
+    "title": "舱灯灯下风两份",
+    "body": "采舱灯灯下风的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2133",
+    "title": "舱灯灯下鸥两份",
+    "body": "采舱灯灯下鸥的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2134",
+    "title": "舱灯灯下缆两份",
+    "body": "采舱灯灯下缆的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2135",
+    "title": "舱灯灯下锚两份",
+    "body": "采舱灯灯下锚的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2136",
+    "title": "舱灯灯下浪两份",
+    "body": "采舱灯灯下浪的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2137",
+    "title": "舱灯灯下沙两份",
+    "body": "采舱灯灯下沙的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2138",
+    "title": "舱灯灯下石两份",
+    "body": "采舱灯灯下石的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2139",
+    "title": "舱灯灯下泥两份",
+    "body": "采舱灯灯下泥的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2140",
+    "title": "舱灯灯下笛两份",
+    "body": "采舱灯灯下笛的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2141",
+    "title": "舱灯灯下号两份",
+    "body": "采舱灯灯下号的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2142",
+    "title": "舱灯灯下旗两份",
+    "body": "采舱灯灯下旗的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2143",
+    "title": "舱灯灯下影两份",
+    "body": "采舱灯灯下影的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2144",
+    "title": "浮标灯灯下盐两份",
+    "body": "采浮标灯灯下盐的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2145",
+    "title": "浮标灯灯下鱼两份",
+    "body": "采浮标灯灯下鱼的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2146",
+    "title": "浮标灯灯下潮两份",
+    "body": "采浮标灯灯下潮的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2147",
+    "title": "浮标灯灯下雾两份",
+    "body": "采浮标灯灯下雾的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2148",
+    "title": "浮标灯灯下风两份",
+    "body": "采浮标灯灯下风的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2149",
+    "title": "浮标灯灯下鸥两份",
+    "body": "采浮标灯灯下鸥的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2150",
+    "title": "浮标灯灯下缆两份",
+    "body": "采浮标灯灯下缆的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2151",
+    "title": "浮标灯灯下锚两份",
+    "body": "采浮标灯灯下锚的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2152",
+    "title": "浮标灯灯下浪两份",
+    "body": "采浮标灯灯下浪的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2153",
+    "title": "浮标灯灯下沙两份",
+    "body": "采浮标灯灯下沙的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2154",
+    "title": "浮标灯灯下石两份",
+    "body": "采浮标灯灯下石的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2155",
+    "title": "浮标灯灯下泥两份",
+    "body": "采浮标灯灯下泥的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2156",
+    "title": "浮标灯灯下笛两份",
+    "body": "采浮标灯灯下笛的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2157",
+    "title": "浮标灯灯下号两份",
+    "body": "采浮标灯灯下号的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2158",
+    "title": "浮标灯灯下旗两份",
+    "body": "采浮标灯灯下旗的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2159",
+    "title": "浮标灯灯下影两份",
+    "body": "采浮标灯灯下影的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2160",
+    "title": "灯塔光灯下盐两份",
+    "body": "采灯塔光灯下盐的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2161",
+    "title": "灯塔光灯下鱼两份",
+    "body": "采灯塔光灯下鱼的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2162",
+    "title": "灯塔光灯下潮两份",
+    "body": "采灯塔光灯下潮的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2163",
+    "title": "灯塔光灯下雾两份",
+    "body": "采灯塔光灯下雾的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2164",
+    "title": "灯塔光灯下风两份",
+    "body": "采灯塔光灯下风的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2165",
+    "title": "灯塔光灯下鸥两份",
+    "body": "采灯塔光灯下鸥的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2166",
+    "title": "灯塔光灯下缆两份",
+    "body": "采灯塔光灯下缆的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2167",
+    "title": "灯塔光灯下锚两份",
+    "body": "采灯塔光灯下锚的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2168",
+    "title": "灯塔光灯下浪两份",
+    "body": "采灯塔光灯下浪的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2169",
+    "title": "灯塔光灯下沙两份",
+    "body": "采灯塔光灯下沙的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2170",
+    "title": "灯塔光灯下石两份",
+    "body": "采灯塔光灯下石的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2171",
+    "title": "灯塔光灯下泥两份",
+    "body": "采灯塔光灯下泥的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2172",
+    "title": "灯塔光灯下笛两份",
+    "body": "采灯塔光灯下笛的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2173",
+    "title": "灯塔光灯下号两份",
+    "body": "采灯塔光灯下号的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2174",
+    "title": "灯塔光灯下旗两份",
+    "body": "采灯塔光灯下旗的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2175",
+    "title": "灯塔光灯下影两份",
+    "body": "采灯塔光灯下影的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2176",
+    "title": "岸灯灯下盐两份",
+    "body": "采岸灯灯下盐的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2177",
+    "title": "岸灯灯下鱼两份",
+    "body": "采岸灯灯下鱼的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2178",
+    "title": "岸灯灯下潮两份",
+    "body": "采岸灯灯下潮的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2179",
+    "title": "岸灯灯下雾两份",
+    "body": "采岸灯灯下雾的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2180",
+    "title": "岸灯灯下风两份",
+    "body": "采岸灯灯下风的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2181",
+    "title": "岸灯灯下鸥两份",
+    "body": "采岸灯灯下鸥的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2182",
+    "title": "岸灯灯下缆两份",
+    "body": "采岸灯灯下缆的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2183",
+    "title": "岸灯灯下锚两份",
+    "body": "采岸灯灯下锚的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2184",
+    "title": "岸灯灯下浪两份",
+    "body": "采岸灯灯下浪的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2185",
+    "title": "岸灯灯下沙两份",
+    "body": "采岸灯灯下沙的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2186",
+    "title": "岸灯灯下石两份",
+    "body": "采岸灯灯下石的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2187",
+    "title": "岸灯灯下泥两份",
+    "body": "采岸灯灯下泥的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2188",
+    "title": "岸灯灯下笛两份",
+    "body": "采岸灯灯下笛的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2189",
+    "title": "岸灯灯下号两份",
+    "body": "采岸灯灯下号的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2190",
+    "title": "岸灯灯下旗两份",
+    "body": "采岸灯灯下旗的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2191",
+    "title": "岸灯灯下影两份",
+    "body": "采岸灯灯下影的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2192",
+    "title": "堤灯灯下盐两份",
+    "body": "采堤灯灯下盐的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2193",
+    "title": "堤灯灯下鱼两份",
+    "body": "采堤灯灯下鱼的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2194",
+    "title": "堤灯灯下潮两份",
+    "body": "采堤灯灯下潮的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2195",
+    "title": "堤灯灯下雾两份",
+    "body": "采堤灯灯下雾的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2196",
+    "title": "堤灯灯下风两份",
+    "body": "采堤灯灯下风的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2197",
+    "title": "堤灯灯下鸥两份",
+    "body": "采堤灯灯下鸥的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2198",
+    "title": "堤灯灯下缆两份",
+    "body": "采堤灯灯下缆的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2199",
+    "title": "堤灯灯下锚两份",
+    "body": "采堤灯灯下锚的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2200",
+    "title": "堤灯灯下浪两份",
+    "body": "采堤灯灯下浪的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2201",
+    "title": "堤灯灯下沙两份",
+    "body": "采堤灯灯下沙的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2202",
+    "title": "堤灯灯下石两份",
+    "body": "采堤灯灯下石的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2203",
+    "title": "堤灯灯下泥两份",
+    "body": "采堤灯灯下泥的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2204",
+    "title": "堤灯灯下笛两份",
+    "body": "采堤灯灯下笛的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2205",
+    "title": "堤灯灯下号两份",
+    "body": "采堤灯灯下号的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2206",
+    "title": "堤灯灯下旗两份",
+    "body": "采堤灯灯下旗的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2207",
+    "title": "堤灯灯下影两份",
+    "body": "采堤灯灯下影的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2208",
+    "title": "闸灯灯下盐两份",
+    "body": "采闸灯灯下盐的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2209",
+    "title": "闸灯灯下鱼两份",
+    "body": "采闸灯灯下鱼的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2210",
+    "title": "闸灯灯下潮两份",
+    "body": "采闸灯灯下潮的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2211",
+    "title": "闸灯灯下雾两份",
+    "body": "采闸灯灯下雾的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2212",
+    "title": "闸灯灯下风两份",
+    "body": "采闸灯灯下风的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2213",
+    "title": "闸灯灯下鸥两份",
+    "body": "采闸灯灯下鸥的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2214",
+    "title": "闸灯灯下缆两份",
+    "body": "采闸灯灯下缆的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2215",
+    "title": "闸灯灯下锚两份",
+    "body": "采闸灯灯下锚的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2216",
+    "title": "闸灯灯下浪两份",
+    "body": "采闸灯灯下浪的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2217",
+    "title": "闸灯灯下沙两份",
+    "body": "采闸灯灯下沙的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2218",
+    "title": "闸灯灯下石两份",
+    "body": "采闸灯灯下石的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2219",
+    "title": "闸灯灯下泥两份",
+    "body": "采闸灯灯下泥的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2220",
+    "title": "闸灯灯下笛两份",
+    "body": "采闸灯灯下笛的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2221",
+    "title": "闸灯灯下号两份",
+    "body": "采闸灯灯下号的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2222",
+    "title": "闸灯灯下旗两份",
+    "body": "采闸灯灯下旗的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2223",
+    "title": "闸灯灯下影两份",
+    "body": "采闸灯灯下影的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2224",
+    "title": "坞灯灯下盐两份",
+    "body": "采坞灯灯下盐的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2225",
+    "title": "坞灯灯下鱼两份",
+    "body": "采坞灯灯下鱼的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2226",
+    "title": "坞灯灯下潮两份",
+    "body": "采坞灯灯下潮的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2227",
+    "title": "坞灯灯下雾两份",
+    "body": "采坞灯灯下雾的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2228",
+    "title": "坞灯灯下风两份",
+    "body": "采坞灯灯下风的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2229",
+    "title": "坞灯灯下鸥两份",
+    "body": "采坞灯灯下鸥的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2230",
+    "title": "坞灯灯下缆两份",
+    "body": "采坞灯灯下缆的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2231",
+    "title": "坞灯灯下锚两份",
+    "body": "采坞灯灯下锚的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2232",
+    "title": "坞灯灯下浪两份",
+    "body": "采坞灯灯下浪的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2233",
+    "title": "坞灯灯下沙两份",
+    "body": "采坞灯灯下沙的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2234",
+    "title": "坞灯灯下石两份",
+    "body": "采坞灯灯下石的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2235",
+    "title": "坞灯灯下泥两份",
+    "body": "采坞灯灯下泥的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2236",
+    "title": "坞灯灯下笛两份",
+    "body": "采坞灯灯下笛的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2237",
+    "title": "坞灯灯下号两份",
+    "body": "采坞灯灯下号的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2238",
+    "title": "坞灯灯下旗两份",
+    "body": "采坞灯灯下旗的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2239",
+    "title": "坞灯灯下影两份",
+    "body": "采坞灯灯下影的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2240",
+    "title": "港湾灯灯下盐两份",
+    "body": "采港湾灯灯下盐的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2241",
+    "title": "港湾灯灯下鱼两份",
+    "body": "采港湾灯灯下鱼的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2242",
+    "title": "港湾灯灯下潮两份",
+    "body": "采港湾灯灯下潮的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2243",
+    "title": "港湾灯灯下雾两份",
+    "body": "采港湾灯灯下雾的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2244",
+    "title": "港湾灯灯下风两份",
+    "body": "采港湾灯灯下风的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2245",
+    "title": "港湾灯灯下鸥两份",
+    "body": "采港湾灯灯下鸥的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2246",
+    "title": "港湾灯灯下缆两份",
+    "body": "采港湾灯灯下缆的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2247",
+    "title": "港湾灯灯下锚两份",
+    "body": "采港湾灯灯下锚的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2248",
+    "title": "港湾灯灯下浪两份",
+    "body": "采港湾灯灯下浪的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2249",
+    "title": "港湾灯灯下沙两份",
+    "body": "采港湾灯灯下沙的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2250",
+    "title": "港湾灯灯下石两份",
+    "body": "采港湾灯灯下石的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2251",
+    "title": "港湾灯灯下泥两份",
+    "body": "采港湾灯灯下泥的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2252",
+    "title": "港湾灯灯下笛两份",
+    "body": "采港湾灯灯下笛的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2253",
+    "title": "港湾灯灯下号两份",
+    "body": "采港湾灯灯下号的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2254",
+    "title": "港湾灯灯下旗两份",
+    "body": "采港湾灯灯下旗的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2255",
+    "title": "港湾灯灯下影两份",
+    "body": "采港湾灯灯下影的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2256",
+    "title": "渔火灯下盐两份",
+    "body": "采渔火灯下盐的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2257",
+    "title": "渔火灯下鱼两份",
+    "body": "采渔火灯下鱼的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2258",
+    "title": "渔火灯下潮两份",
+    "body": "采渔火灯下潮的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2259",
+    "title": "渔火灯下雾两份",
+    "body": "采渔火灯下雾的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2260",
+    "title": "渔火灯下风两份",
+    "body": "采渔火灯下风的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2261",
+    "title": "渔火灯下鸥两份",
+    "body": "采渔火灯下鸥的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2262",
+    "title": "渔火灯下缆两份",
+    "body": "采渔火灯下缆的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2263",
+    "title": "渔火灯下锚两份",
+    "body": "采渔火灯下锚的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2264",
+    "title": "渔火灯下浪两份",
+    "body": "采渔火灯下浪的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2265",
+    "title": "渔火灯下沙两份",
+    "body": "采渔火灯下沙的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2266",
+    "title": "渔火灯下石两份",
+    "body": "采渔火灯下石的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2267",
+    "title": "渔火灯下泥两份",
+    "body": "采渔火灯下泥的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2268",
+    "title": "渔火灯下笛两份",
+    "body": "采渔火灯下笛的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2269",
+    "title": "渔火灯下号两份",
+    "body": "采渔火灯下号的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2270",
+    "title": "渔火灯下旗两份",
+    "body": "采渔火灯下旗的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2271",
+    "title": "渔火灯下影两份",
+    "body": "采渔火灯下影的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2272",
+    "title": "商灯灯下盐两份",
+    "body": "采商灯灯下盐的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2273",
+    "title": "商灯灯下鱼两份",
+    "body": "采商灯灯下鱼的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2274",
+    "title": "商灯灯下潮两份",
+    "body": "采商灯灯下潮的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2275",
+    "title": "商灯灯下雾两份",
+    "body": "采商灯灯下雾的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2276",
+    "title": "商灯灯下风两份",
+    "body": "采商灯灯下风的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2277",
+    "title": "商灯灯下鸥两份",
+    "body": "采商灯灯下鸥的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2278",
+    "title": "商灯灯下缆两份",
+    "body": "采商灯灯下缆的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2279",
+    "title": "商灯灯下锚两份",
+    "body": "采商灯灯下锚的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2280",
+    "title": "商灯灯下浪两份",
+    "body": "采商灯灯下浪的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2281",
+    "title": "商灯灯下沙两份",
+    "body": "采商灯灯下沙的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2282",
+    "title": "商灯灯下石两份",
+    "body": "采商灯灯下石的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2283",
+    "title": "商灯灯下泥两份",
+    "body": "采商灯灯下泥的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2284",
+    "title": "商灯灯下笛两份",
+    "body": "采商灯灯下笛的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2285",
+    "title": "商灯灯下号两份",
+    "body": "采商灯灯下号的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2286",
+    "title": "商灯灯下旗两份",
+    "body": "采商灯灯下旗的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2287",
+    "title": "商灯灯下影两份",
+    "body": "采商灯灯下影的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2288",
+    "title": "夜航灯灯下盐两份",
+    "body": "采夜航灯灯下盐的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2289",
+    "title": "夜航灯灯下鱼两份",
+    "body": "采夜航灯灯下鱼的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2290",
+    "title": "夜航灯灯下潮两份",
+    "body": "采夜航灯灯下潮的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2291",
+    "title": "夜航灯灯下雾两份",
+    "body": "采夜航灯灯下雾的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2292",
+    "title": "夜航灯灯下风两份",
+    "body": "采夜航灯灯下风的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2293",
+    "title": "夜航灯灯下鸥两份",
+    "body": "采夜航灯灯下鸥的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2294",
+    "title": "夜航灯灯下缆两份",
+    "body": "采夜航灯灯下缆的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2295",
+    "title": "夜航灯灯下锚两份",
+    "body": "采夜航灯灯下锚的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2296",
+    "title": "夜航灯灯下浪两份",
+    "body": "采夜航灯灯下浪的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2297",
+    "title": "夜航灯灯下沙两份",
+    "body": "采夜航灯灯下沙的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2298",
+    "title": "夜航灯灯下石两份",
+    "body": "采夜航灯灯下石的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2299",
+    "title": "夜航灯灯下泥两份",
+    "body": "采夜航灯灯下泥的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2300",
+    "title": "夜航灯灯下笛两份",
+    "body": "采夜航灯灯下笛的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2301",
+    "title": "夜航灯灯下号两份",
+    "body": "采夜航灯灯下号的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2302",
+    "title": "夜航灯灯下旗两份",
+    "body": "采夜航灯灯下旗的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2303",
+    "title": "夜航灯灯下影两份",
+    "body": "采夜航灯灯下影的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2304",
+    "title": "引航灯灯下盐两份",
+    "body": "采引航灯灯下盐的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2305",
+    "title": "引航灯灯下鱼两份",
+    "body": "采引航灯灯下鱼的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2306",
+    "title": "引航灯灯下潮两份",
+    "body": "采引航灯灯下潮的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2307",
+    "title": "引航灯灯下雾两份",
+    "body": "采引航灯灯下雾的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2308",
+    "title": "引航灯灯下风两份",
+    "body": "采引航灯灯下风的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2309",
+    "title": "引航灯灯下鸥两份",
+    "body": "采引航灯灯下鸥的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2310",
+    "title": "引航灯灯下缆两份",
+    "body": "采引航灯灯下缆的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2311",
+    "title": "引航灯灯下锚两份",
+    "body": "采引航灯灯下锚的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2312",
+    "title": "引航灯灯下浪两份",
+    "body": "采引航灯灯下浪的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2313",
+    "title": "引航灯灯下沙两份",
+    "body": "采引航灯灯下沙的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2314",
+    "title": "引航灯灯下石两份",
+    "body": "采引航灯灯下石的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2315",
+    "title": "引航灯灯下泥两份",
+    "body": "采引航灯灯下泥的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2316",
+    "title": "引航灯灯下笛两份",
+    "body": "采引航灯灯下笛的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2317",
+    "title": "引航灯灯下号两份",
+    "body": "采引航灯灯下号的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2318",
+    "title": "引航灯灯下旗两份",
+    "body": "采引航灯灯下旗的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_harbor2319",
+    "title": "引航灯灯下影两份",
+    "body": "采引航灯灯下影的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "harbor2319": 2
+      },
+      "coins": 2
+    }
   }
 ]
