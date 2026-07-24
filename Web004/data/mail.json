@@ -115320,5 +115320,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_herb20",
+    "title": "当归根香两份",
+    "body": "采当归根香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb21",
+    "title": "当归茎香两份",
+    "body": "采当归茎香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb22",
+    "title": "当归叶香两份",
+    "body": "采当归叶香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb23",
+    "title": "当归花香两份",
+    "body": "采当归花香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb24",
+    "title": "当归子香两份",
+    "body": "采当归子香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb25",
+    "title": "当归皮香两份",
+    "body": "采当归皮香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb26",
+    "title": "当归仁香两份",
+    "body": "采当归仁香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb27",
+    "title": "当归胶香两份",
+    "body": "采当归胶香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb28",
+    "title": "当归脂香两份",
+    "body": "采当归脂香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb29",
+    "title": "当归膏香两份",
+    "body": "采当归膏香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb210",
+    "title": "当归汤香两份",
+    "body": "采当归汤香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb211",
+    "title": "当归酒浸两份",
+    "body": "采当归酒浸的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb212",
+    "title": "当归蜜炙两份",
+    "body": "采当归蜜炙的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb213",
+    "title": "当归盐炙两份",
+    "body": "采当归盐炙的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb214",
+    "title": "当归醋炙两份",
+    "body": "采当归醋炙的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb215",
+    "title": "当归姜炙两份",
+    "body": "采当归姜炙的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb216",
+    "title": "川芎根香两份",
+    "body": "采川芎根香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb217",
+    "title": "川芎茎香两份",
+    "body": "采川芎茎香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb218",
+    "title": "川芎叶香两份",
+    "body": "采川芎叶香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb219",
+    "title": "川芎花香两份",
+    "body": "采川芎花香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb220",
+    "title": "川芎子香两份",
+    "body": "采川芎子香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb221",
+    "title": "川芎皮香两份",
+    "body": "采川芎皮香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb222",
+    "title": "川芎仁香两份",
+    "body": "采川芎仁香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb223",
+    "title": "川芎胶香两份",
+    "body": "采川芎胶香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb224",
+    "title": "川芎脂香两份",
+    "body": "采川芎脂香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb225",
+    "title": "川芎膏香两份",
+    "body": "采川芎膏香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb226",
+    "title": "川芎汤香两份",
+    "body": "采川芎汤香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb227",
+    "title": "川芎酒浸两份",
+    "body": "采川芎酒浸的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb228",
+    "title": "川芎蜜炙两份",
+    "body": "采川芎蜜炙的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb229",
+    "title": "川芎盐炙两份",
+    "body": "采川芎盐炙的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb230",
+    "title": "川芎醋炙两份",
+    "body": "采川芎醋炙的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb231",
+    "title": "川芎姜炙两份",
+    "body": "采川芎姜炙的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb232",
+    "title": "白芍根香两份",
+    "body": "采白芍根香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb233",
+    "title": "白芍茎香两份",
+    "body": "采白芍茎香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb234",
+    "title": "白芍叶香两份",
+    "body": "采白芍叶香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb235",
+    "title": "白芍花香两份",
+    "body": "采白芍花香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb236",
+    "title": "白芍子香两份",
+    "body": "采白芍子香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb237",
+    "title": "白芍皮香两份",
+    "body": "采白芍皮香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb238",
+    "title": "白芍仁香两份",
+    "body": "采白芍仁香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb239",
+    "title": "白芍胶香两份",
+    "body": "采白芍胶香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb240",
+    "title": "白芍脂香两份",
+    "body": "采白芍脂香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb241",
+    "title": "白芍膏香两份",
+    "body": "采白芍膏香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb242",
+    "title": "白芍汤香两份",
+    "body": "采白芍汤香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb243",
+    "title": "白芍酒浸两份",
+    "body": "采白芍酒浸的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb244",
+    "title": "白芍蜜炙两份",
+    "body": "采白芍蜜炙的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb245",
+    "title": "白芍盐炙两份",
+    "body": "采白芍盐炙的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb246",
+    "title": "白芍醋炙两份",
+    "body": "采白芍醋炙的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb247",
+    "title": "白芍姜炙两份",
+    "body": "采白芍姜炙的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb248",
+    "title": "熟地根香两份",
+    "body": "采熟地根香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb249",
+    "title": "熟地茎香两份",
+    "body": "采熟地茎香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb250",
+    "title": "熟地叶香两份",
+    "body": "采熟地叶香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb251",
+    "title": "熟地花香两份",
+    "body": "采熟地花香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb252",
+    "title": "熟地子香两份",
+    "body": "采熟地子香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb253",
+    "title": "熟地皮香两份",
+    "body": "采熟地皮香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb254",
+    "title": "熟地仁香两份",
+    "body": "采熟地仁香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb255",
+    "title": "熟地胶香两份",
+    "body": "采熟地胶香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb256",
+    "title": "熟地脂香两份",
+    "body": "采熟地脂香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb257",
+    "title": "熟地膏香两份",
+    "body": "采熟地膏香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb258",
+    "title": "熟地汤香两份",
+    "body": "采熟地汤香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb259",
+    "title": "熟地酒浸两份",
+    "body": "采熟地酒浸的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb260",
+    "title": "熟地蜜炙两份",
+    "body": "采熟地蜜炙的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb261",
+    "title": "熟地盐炙两份",
+    "body": "采熟地盐炙的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb262",
+    "title": "熟地醋炙两份",
+    "body": "采熟地醋炙的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb263",
+    "title": "熟地姜炙两份",
+    "body": "采熟地姜炙的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb264",
+    "title": "黄芪根香两份",
+    "body": "采黄芪根香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb265",
+    "title": "黄芪茎香两份",
+    "body": "采黄芪茎香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb266",
+    "title": "黄芪叶香两份",
+    "body": "采黄芪叶香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb267",
+    "title": "黄芪花香两份",
+    "body": "采黄芪花香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb268",
+    "title": "黄芪子香两份",
+    "body": "采黄芪子香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb269",
+    "title": "黄芪皮香两份",
+    "body": "采黄芪皮香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb270",
+    "title": "黄芪仁香两份",
+    "body": "采黄芪仁香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb271",
+    "title": "黄芪胶香两份",
+    "body": "采黄芪胶香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb272",
+    "title": "黄芪脂香两份",
+    "body": "采黄芪脂香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb273",
+    "title": "黄芪膏香两份",
+    "body": "采黄芪膏香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb274",
+    "title": "黄芪汤香两份",
+    "body": "采黄芪汤香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb275",
+    "title": "黄芪酒浸两份",
+    "body": "采黄芪酒浸的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb276",
+    "title": "黄芪蜜炙两份",
+    "body": "采黄芪蜜炙的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb277",
+    "title": "黄芪盐炙两份",
+    "body": "采黄芪盐炙的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb278",
+    "title": "黄芪醋炙两份",
+    "body": "采黄芪醋炙的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb279",
+    "title": "黄芪姜炙两份",
+    "body": "采黄芪姜炙的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb280",
+    "title": "党参根香两份",
+    "body": "采党参根香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb281",
+    "title": "党参茎香两份",
+    "body": "采党参茎香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb282",
+    "title": "党参叶香两份",
+    "body": "采党参叶香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb283",
+    "title": "党参花香两份",
+    "body": "采党参花香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb284",
+    "title": "党参子香两份",
+    "body": "采党参子香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb285",
+    "title": "党参皮香两份",
+    "body": "采党参皮香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb286",
+    "title": "党参仁香两份",
+    "body": "采党参仁香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb287",
+    "title": "党参胶香两份",
+    "body": "采党参胶香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb288",
+    "title": "党参脂香两份",
+    "body": "采党参脂香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb289",
+    "title": "党参膏香两份",
+    "body": "采党参膏香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb290",
+    "title": "党参汤香两份",
+    "body": "采党参汤香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb291",
+    "title": "党参酒浸两份",
+    "body": "采党参酒浸的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb292",
+    "title": "党参蜜炙两份",
+    "body": "采党参蜜炙的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb293",
+    "title": "党参盐炙两份",
+    "body": "采党参盐炙的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb294",
+    "title": "党参醋炙两份",
+    "body": "采党参醋炙的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb295",
+    "title": "党参姜炙两份",
+    "body": "采党参姜炙的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb296",
+    "title": "白术根香两份",
+    "body": "采白术根香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb297",
+    "title": "白术茎香两份",
+    "body": "采白术茎香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb298",
+    "title": "白术叶香两份",
+    "body": "采白术叶香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb299",
+    "title": "白术花香两份",
+    "body": "采白术花香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2100",
+    "title": "白术子香两份",
+    "body": "采白术子香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2101",
+    "title": "白术皮香两份",
+    "body": "采白术皮香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2102",
+    "title": "白术仁香两份",
+    "body": "采白术仁香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2103",
+    "title": "白术胶香两份",
+    "body": "采白术胶香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2104",
+    "title": "白术脂香两份",
+    "body": "采白术脂香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2105",
+    "title": "白术膏香两份",
+    "body": "采白术膏香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2106",
+    "title": "白术汤香两份",
+    "body": "采白术汤香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2107",
+    "title": "白术酒浸两份",
+    "body": "采白术酒浸的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2108",
+    "title": "白术蜜炙两份",
+    "body": "采白术蜜炙的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2109",
+    "title": "白术盐炙两份",
+    "body": "采白术盐炙的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2110",
+    "title": "白术醋炙两份",
+    "body": "采白术醋炙的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2111",
+    "title": "白术姜炙两份",
+    "body": "采白术姜炙的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2112",
+    "title": "茯苓根香两份",
+    "body": "采茯苓根香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2113",
+    "title": "茯苓茎香两份",
+    "body": "采茯苓茎香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2114",
+    "title": "茯苓叶香两份",
+    "body": "采茯苓叶香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2115",
+    "title": "茯苓花香两份",
+    "body": "采茯苓花香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2116",
+    "title": "茯苓子香两份",
+    "body": "采茯苓子香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2117",
+    "title": "茯苓皮香两份",
+    "body": "采茯苓皮香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2118",
+    "title": "茯苓仁香两份",
+    "body": "采茯苓仁香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2119",
+    "title": "茯苓胶香两份",
+    "body": "采茯苓胶香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2120",
+    "title": "茯苓脂香两份",
+    "body": "采茯苓脂香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2121",
+    "title": "茯苓膏香两份",
+    "body": "采茯苓膏香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2122",
+    "title": "茯苓汤香两份",
+    "body": "采茯苓汤香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2123",
+    "title": "茯苓酒浸两份",
+    "body": "采茯苓酒浸的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2124",
+    "title": "茯苓蜜炙两份",
+    "body": "采茯苓蜜炙的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2125",
+    "title": "茯苓盐炙两份",
+    "body": "采茯苓盐炙的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2126",
+    "title": "茯苓醋炙两份",
+    "body": "采茯苓醋炙的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2127",
+    "title": "茯苓姜炙两份",
+    "body": "采茯苓姜炙的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2128",
+    "title": "甘草根香两份",
+    "body": "采甘草根香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2129",
+    "title": "甘草茎香两份",
+    "body": "采甘草茎香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2130",
+    "title": "甘草叶香两份",
+    "body": "采甘草叶香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2131",
+    "title": "甘草花香两份",
+    "body": "采甘草花香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2132",
+    "title": "甘草子香两份",
+    "body": "采甘草子香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2133",
+    "title": "甘草皮香两份",
+    "body": "采甘草皮香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2134",
+    "title": "甘草仁香两份",
+    "body": "采甘草仁香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2135",
+    "title": "甘草胶香两份",
+    "body": "采甘草胶香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2136",
+    "title": "甘草脂香两份",
+    "body": "采甘草脂香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2137",
+    "title": "甘草膏香两份",
+    "body": "采甘草膏香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2138",
+    "title": "甘草汤香两份",
+    "body": "采甘草汤香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2139",
+    "title": "甘草酒浸两份",
+    "body": "采甘草酒浸的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2140",
+    "title": "甘草蜜炙两份",
+    "body": "采甘草蜜炙的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2141",
+    "title": "甘草盐炙两份",
+    "body": "采甘草盐炙的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2142",
+    "title": "甘草醋炙两份",
+    "body": "采甘草醋炙的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2143",
+    "title": "甘草姜炙两份",
+    "body": "采甘草姜炙的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2144",
+    "title": "陈皮根香两份",
+    "body": "采陈皮根香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2145",
+    "title": "陈皮茎香两份",
+    "body": "采陈皮茎香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2146",
+    "title": "陈皮叶香两份",
+    "body": "采陈皮叶香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2147",
+    "title": "陈皮花香两份",
+    "body": "采陈皮花香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2148",
+    "title": "陈皮子香两份",
+    "body": "采陈皮子香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2149",
+    "title": "陈皮皮香两份",
+    "body": "采陈皮皮香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2150",
+    "title": "陈皮仁香两份",
+    "body": "采陈皮仁香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2151",
+    "title": "陈皮胶香两份",
+    "body": "采陈皮胶香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2152",
+    "title": "陈皮脂香两份",
+    "body": "采陈皮脂香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2153",
+    "title": "陈皮膏香两份",
+    "body": "采陈皮膏香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2154",
+    "title": "陈皮汤香两份",
+    "body": "采陈皮汤香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2155",
+    "title": "陈皮酒浸两份",
+    "body": "采陈皮酒浸的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2156",
+    "title": "陈皮蜜炙两份",
+    "body": "采陈皮蜜炙的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2157",
+    "title": "陈皮盐炙两份",
+    "body": "采陈皮盐炙的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2158",
+    "title": "陈皮醋炙两份",
+    "body": "采陈皮醋炙的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2159",
+    "title": "陈皮姜炙两份",
+    "body": "采陈皮姜炙的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2160",
+    "title": "半夏根香两份",
+    "body": "采半夏根香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2161",
+    "title": "半夏茎香两份",
+    "body": "采半夏茎香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2162",
+    "title": "半夏叶香两份",
+    "body": "采半夏叶香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2163",
+    "title": "半夏花香两份",
+    "body": "采半夏花香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2164",
+    "title": "半夏子香两份",
+    "body": "采半夏子香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2165",
+    "title": "半夏皮香两份",
+    "body": "采半夏皮香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2166",
+    "title": "半夏仁香两份",
+    "body": "采半夏仁香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2167",
+    "title": "半夏胶香两份",
+    "body": "采半夏胶香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2168",
+    "title": "半夏脂香两份",
+    "body": "采半夏脂香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2169",
+    "title": "半夏膏香两份",
+    "body": "采半夏膏香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2170",
+    "title": "半夏汤香两份",
+    "body": "采半夏汤香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2171",
+    "title": "半夏酒浸两份",
+    "body": "采半夏酒浸的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2172",
+    "title": "半夏蜜炙两份",
+    "body": "采半夏蜜炙的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2173",
+    "title": "半夏盐炙两份",
+    "body": "采半夏盐炙的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2174",
+    "title": "半夏醋炙两份",
+    "body": "采半夏醋炙的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2175",
+    "title": "半夏姜炙两份",
+    "body": "采半夏姜炙的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2176",
+    "title": "桔梗根香两份",
+    "body": "采桔梗根香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2177",
+    "title": "桔梗茎香两份",
+    "body": "采桔梗茎香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2178",
+    "title": "桔梗叶香两份",
+    "body": "采桔梗叶香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2179",
+    "title": "桔梗花香两份",
+    "body": "采桔梗花香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2180",
+    "title": "桔梗子香两份",
+    "body": "采桔梗子香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2181",
+    "title": "桔梗皮香两份",
+    "body": "采桔梗皮香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2182",
+    "title": "桔梗仁香两份",
+    "body": "采桔梗仁香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2183",
+    "title": "桔梗胶香两份",
+    "body": "采桔梗胶香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2184",
+    "title": "桔梗脂香两份",
+    "body": "采桔梗脂香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2185",
+    "title": "桔梗膏香两份",
+    "body": "采桔梗膏香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2186",
+    "title": "桔梗汤香两份",
+    "body": "采桔梗汤香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2187",
+    "title": "桔梗酒浸两份",
+    "body": "采桔梗酒浸的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2188",
+    "title": "桔梗蜜炙两份",
+    "body": "采桔梗蜜炙的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2189",
+    "title": "桔梗盐炙两份",
+    "body": "采桔梗盐炙的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2190",
+    "title": "桔梗醋炙两份",
+    "body": "采桔梗醋炙的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2191",
+    "title": "桔梗姜炙两份",
+    "body": "采桔梗姜炙的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2192",
+    "title": "杏仁根香两份",
+    "body": "采杏仁根香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2193",
+    "title": "杏仁茎香两份",
+    "body": "采杏仁茎香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2194",
+    "title": "杏仁叶香两份",
+    "body": "采杏仁叶香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2195",
+    "title": "杏仁花香两份",
+    "body": "采杏仁花香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2196",
+    "title": "杏仁子香两份",
+    "body": "采杏仁子香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2197",
+    "title": "杏仁皮香两份",
+    "body": "采杏仁皮香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2198",
+    "title": "杏仁仁香两份",
+    "body": "采杏仁仁香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2199",
+    "title": "杏仁胶香两份",
+    "body": "采杏仁胶香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2200",
+    "title": "杏仁脂香两份",
+    "body": "采杏仁脂香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2201",
+    "title": "杏仁膏香两份",
+    "body": "采杏仁膏香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2202",
+    "title": "杏仁汤香两份",
+    "body": "采杏仁汤香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2203",
+    "title": "杏仁酒浸两份",
+    "body": "采杏仁酒浸的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2204",
+    "title": "杏仁蜜炙两份",
+    "body": "采杏仁蜜炙的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2205",
+    "title": "杏仁盐炙两份",
+    "body": "采杏仁盐炙的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2206",
+    "title": "杏仁醋炙两份",
+    "body": "采杏仁醋炙的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2207",
+    "title": "杏仁姜炙两份",
+    "body": "采杏仁姜炙的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2208",
+    "title": "贝母根香两份",
+    "body": "采贝母根香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2209",
+    "title": "贝母茎香两份",
+    "body": "采贝母茎香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2210",
+    "title": "贝母叶香两份",
+    "body": "采贝母叶香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2211",
+    "title": "贝母花香两份",
+    "body": "采贝母花香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2212",
+    "title": "贝母子香两份",
+    "body": "采贝母子香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2213",
+    "title": "贝母皮香两份",
+    "body": "采贝母皮香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2214",
+    "title": "贝母仁香两份",
+    "body": "采贝母仁香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2215",
+    "title": "贝母胶香两份",
+    "body": "采贝母胶香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2216",
+    "title": "贝母脂香两份",
+    "body": "采贝母脂香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2217",
+    "title": "贝母膏香两份",
+    "body": "采贝母膏香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2218",
+    "title": "贝母汤香两份",
+    "body": "采贝母汤香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2219",
+    "title": "贝母酒浸两份",
+    "body": "采贝母酒浸的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2220",
+    "title": "贝母蜜炙两份",
+    "body": "采贝母蜜炙的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2221",
+    "title": "贝母盐炙两份",
+    "body": "采贝母盐炙的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2222",
+    "title": "贝母醋炙两份",
+    "body": "采贝母醋炙的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2223",
+    "title": "贝母姜炙两份",
+    "body": "采贝母姜炙的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2224",
+    "title": "沙参根香两份",
+    "body": "采沙参根香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2225",
+    "title": "沙参茎香两份",
+    "body": "采沙参茎香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2226",
+    "title": "沙参叶香两份",
+    "body": "采沙参叶香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2227",
+    "title": "沙参花香两份",
+    "body": "采沙参花香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2228",
+    "title": "沙参子香两份",
+    "body": "采沙参子香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2229",
+    "title": "沙参皮香两份",
+    "body": "采沙参皮香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2230",
+    "title": "沙参仁香两份",
+    "body": "采沙参仁香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2231",
+    "title": "沙参胶香两份",
+    "body": "采沙参胶香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2232",
+    "title": "沙参脂香两份",
+    "body": "采沙参脂香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2233",
+    "title": "沙参膏香两份",
+    "body": "采沙参膏香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2234",
+    "title": "沙参汤香两份",
+    "body": "采沙参汤香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2235",
+    "title": "沙参酒浸两份",
+    "body": "采沙参酒浸的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2236",
+    "title": "沙参蜜炙两份",
+    "body": "采沙参蜜炙的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2237",
+    "title": "沙参盐炙两份",
+    "body": "采沙参盐炙的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2238",
+    "title": "沙参醋炙两份",
+    "body": "采沙参醋炙的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2239",
+    "title": "沙参姜炙两份",
+    "body": "采沙参姜炙的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2240",
+    "title": "麦冬根香两份",
+    "body": "采麦冬根香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2241",
+    "title": "麦冬茎香两份",
+    "body": "采麦冬茎香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2242",
+    "title": "麦冬叶香两份",
+    "body": "采麦冬叶香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2243",
+    "title": "麦冬花香两份",
+    "body": "采麦冬花香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2244",
+    "title": "麦冬子香两份",
+    "body": "采麦冬子香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2245",
+    "title": "麦冬皮香两份",
+    "body": "采麦冬皮香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2246",
+    "title": "麦冬仁香两份",
+    "body": "采麦冬仁香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2247",
+    "title": "麦冬胶香两份",
+    "body": "采麦冬胶香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2248",
+    "title": "麦冬脂香两份",
+    "body": "采麦冬脂香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2249",
+    "title": "麦冬膏香两份",
+    "body": "采麦冬膏香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2250",
+    "title": "麦冬汤香两份",
+    "body": "采麦冬汤香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2251",
+    "title": "麦冬酒浸两份",
+    "body": "采麦冬酒浸的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2252",
+    "title": "麦冬蜜炙两份",
+    "body": "采麦冬蜜炙的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2253",
+    "title": "麦冬盐炙两份",
+    "body": "采麦冬盐炙的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2254",
+    "title": "麦冬醋炙两份",
+    "body": "采麦冬醋炙的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2255",
+    "title": "麦冬姜炙两份",
+    "body": "采麦冬姜炙的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2256",
+    "title": "天冬根香两份",
+    "body": "采天冬根香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2257",
+    "title": "天冬茎香两份",
+    "body": "采天冬茎香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2258",
+    "title": "天冬叶香两份",
+    "body": "采天冬叶香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2259",
+    "title": "天冬花香两份",
+    "body": "采天冬花香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2260",
+    "title": "天冬子香两份",
+    "body": "采天冬子香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2261",
+    "title": "天冬皮香两份",
+    "body": "采天冬皮香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2262",
+    "title": "天冬仁香两份",
+    "body": "采天冬仁香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2263",
+    "title": "天冬胶香两份",
+    "body": "采天冬胶香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2264",
+    "title": "天冬脂香两份",
+    "body": "采天冬脂香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2265",
+    "title": "天冬膏香两份",
+    "body": "采天冬膏香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2266",
+    "title": "天冬汤香两份",
+    "body": "采天冬汤香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2267",
+    "title": "天冬酒浸两份",
+    "body": "采天冬酒浸的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2268",
+    "title": "天冬蜜炙两份",
+    "body": "采天冬蜜炙的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2269",
+    "title": "天冬盐炙两份",
+    "body": "采天冬盐炙的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2270",
+    "title": "天冬醋炙两份",
+    "body": "采天冬醋炙的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2271",
+    "title": "天冬姜炙两份",
+    "body": "采天冬姜炙的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2272",
+    "title": "玉竹根香两份",
+    "body": "采玉竹根香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2273",
+    "title": "玉竹茎香两份",
+    "body": "采玉竹茎香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2274",
+    "title": "玉竹叶香两份",
+    "body": "采玉竹叶香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2275",
+    "title": "玉竹花香两份",
+    "body": "采玉竹花香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2276",
+    "title": "玉竹子香两份",
+    "body": "采玉竹子香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2277",
+    "title": "玉竹皮香两份",
+    "body": "采玉竹皮香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2278",
+    "title": "玉竹仁香两份",
+    "body": "采玉竹仁香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2279",
+    "title": "玉竹胶香两份",
+    "body": "采玉竹胶香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2280",
+    "title": "玉竹脂香两份",
+    "body": "采玉竹脂香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2281",
+    "title": "玉竹膏香两份",
+    "body": "采玉竹膏香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2282",
+    "title": "玉竹汤香两份",
+    "body": "采玉竹汤香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2283",
+    "title": "玉竹酒浸两份",
+    "body": "采玉竹酒浸的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2284",
+    "title": "玉竹蜜炙两份",
+    "body": "采玉竹蜜炙的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2285",
+    "title": "玉竹盐炙两份",
+    "body": "采玉竹盐炙的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2286",
+    "title": "玉竹醋炙两份",
+    "body": "采玉竹醋炙的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2287",
+    "title": "玉竹姜炙两份",
+    "body": "采玉竹姜炙的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2288",
+    "title": "黄精根香两份",
+    "body": "采黄精根香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2289",
+    "title": "黄精茎香两份",
+    "body": "采黄精茎香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2290",
+    "title": "黄精叶香两份",
+    "body": "采黄精叶香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2291",
+    "title": "黄精花香两份",
+    "body": "采黄精花香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2292",
+    "title": "黄精子香两份",
+    "body": "采黄精子香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2293",
+    "title": "黄精皮香两份",
+    "body": "采黄精皮香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2294",
+    "title": "黄精仁香两份",
+    "body": "采黄精仁香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2295",
+    "title": "黄精胶香两份",
+    "body": "采黄精胶香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2296",
+    "title": "黄精脂香两份",
+    "body": "采黄精脂香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2297",
+    "title": "黄精膏香两份",
+    "body": "采黄精膏香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2298",
+    "title": "黄精汤香两份",
+    "body": "采黄精汤香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2299",
+    "title": "黄精酒浸两份",
+    "body": "采黄精酒浸的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2300",
+    "title": "黄精蜜炙两份",
+    "body": "采黄精蜜炙的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2301",
+    "title": "黄精盐炙两份",
+    "body": "采黄精盐炙的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2302",
+    "title": "黄精醋炙两份",
+    "body": "采黄精醋炙的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2303",
+    "title": "黄精姜炙两份",
+    "body": "采黄精姜炙的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2304",
+    "title": "枸杞子根香两份",
+    "body": "采枸杞子根香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2305",
+    "title": "枸杞子茎香两份",
+    "body": "采枸杞子茎香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2306",
+    "title": "枸杞子叶香两份",
+    "body": "采枸杞子叶香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2307",
+    "title": "枸杞子花香两份",
+    "body": "采枸杞子花香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2308",
+    "title": "枸杞子子香两份",
+    "body": "采枸杞子子香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2309",
+    "title": "枸杞子皮香两份",
+    "body": "采枸杞子皮香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2310",
+    "title": "枸杞子仁香两份",
+    "body": "采枸杞子仁香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2311",
+    "title": "枸杞子胶香两份",
+    "body": "采枸杞子胶香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2312",
+    "title": "枸杞子脂香两份",
+    "body": "采枸杞子脂香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2313",
+    "title": "枸杞子膏香两份",
+    "body": "采枸杞子膏香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2314",
+    "title": "枸杞子汤香两份",
+    "body": "采枸杞子汤香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2315",
+    "title": "枸杞子酒浸两份",
+    "body": "采枸杞子酒浸的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2316",
+    "title": "枸杞子蜜炙两份",
+    "body": "采枸杞子蜜炙的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2317",
+    "title": "枸杞子盐炙两份",
+    "body": "采枸杞子盐炙的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2318",
+    "title": "枸杞子醋炙两份",
+    "body": "采枸杞子醋炙的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_herb2319",
+    "title": "枸杞子姜炙两份",
+    "body": "采枸杞子姜炙的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "herb2319": 2
+      },
+      "coins": 2
+    }
   }
 ]
