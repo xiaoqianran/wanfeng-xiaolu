@@ -3020,5 +3020,47 @@ test("apricot plantable apricot_grove 64 themes", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("pear jujube plantable setFavoritePathTheme 66 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.pear && j.plants.pearPot);
+  assert.ok(j.items.jujube && j.plants.jujubePot);
+  assert.ok(j.flavors.some((f) => f.id === "pear"));
+  assert.ok(j.flavors.some((f) => f.id === "jujube"));
+  assert.ok(j.customers.some((c) => c.name === "收梨的阿姨"));
+  assert.ok(j.customers.some((c) => c.name === "煮红枣茶的奶奶"));
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  s.bag.pear = 1;
+  s.bag.jujube = 1;
+  assert.ok(core.plantSeed(s, 0, "pear", cat).ok);
+  assert.ok(core.plantSeed(s, 1, "jujube", cat).ok);
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "pear_orchard"));
+  assert.ok(themes.some((th) => th.id === "jujube_path"));
+  assert.ok(themes.length >= 66);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const fav = core.setFavoritePathTheme(s, "pear_orchard");
+  assert.ok(fav.ok);
+  assert.strictEqual(s.favoritePathThemeId, "pear_orchard");
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "fav_path" && a.check(s)));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "path_sixty"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "pear_walker"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "jujube_walker"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("pear_orchard") && game.includes("jujube_path"));
+  assert.ok(game.includes("setFavoritePathTheme"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "梨子暖蜜"));
+  assert.ok(recipes.some((r) => r.name === "红枣暖茶"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("梨园慢径") && man.includes("红枣短径"));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_jujube_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
