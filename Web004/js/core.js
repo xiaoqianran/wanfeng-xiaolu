@@ -782,7 +782,21 @@
     { id: "apricot_walker", name: "杏径旅人", desc: "走过杏花小径", check: function (s) {
       return !!(s._themesTouched && s._themesTouched.apricot_grove);
     } },
+    { id: "pear_sill", name: "梨子窗台", desc: "发现梨", check: function (s) {
+      return !!(s.discovered && s.discovered.pear);
+    } },
+    { id: "pear_walker", name: "梨园旅人", desc: "走过梨园慢径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.pear_orchard);
+    } },
+    { id: "jujube_sill", name: "红枣窗台", desc: "发现红枣", check: function (s) {
+      return !!(s.discovered && s.discovered.jujube);
+    } },
+    { id: "jujube_walker", name: "红枣径旅人", desc: "走过红枣短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.jujube_path);
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
+    { id: "path_sixty", name: "六十路图鉴", desc: "切换过 60 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 60; } },
+    { id: "fav_path", name: "最爱的小路", desc: "标记一条最爱小路", check: function (s) { return !!(s.favoritePathThemeId); } },
     { id: "specialist_hand", name: "特调熟手", desc: "今日小特调命中 8 次", check: function (s) { return (s.stats && s.stats.dailySpecialHits || 0) >= 8; } },
     { id: "tip_friend", name: "小费罐朋友", desc: "小费罐累计换得 3 点心情", check: function (s) { return (s.stats && s.stats.tipJarHearts || 0) >= 3; } },
   ];
@@ -1323,11 +1337,11 @@
       score += 0.5;
       notes.push("夏日清爽");
     }
-    if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel" || flavorDef.id === "cardamom" || flavorDef.id === "ginger" || flavorDef.id === "calendula" || flavorDef.id === "chrysanthemum" || flavorDef.id === "hibiscus" || flavorDef.id === "plum" || flavorDef.id === "grape" || flavorDef.id === "mulberry" || flavorDef.id === "persimmon" || flavorDef.id === "fig" || flavorDef.id === "longan" || flavorDef.id === "hawthorn")) {
+    if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel" || flavorDef.id === "cardamom" || flavorDef.id === "ginger" || flavorDef.id === "calendula" || flavorDef.id === "chrysanthemum" || flavorDef.id === "hibiscus" || flavorDef.id === "plum" || flavorDef.id === "grape" || flavorDef.id === "mulberry" || flavorDef.id === "persimmon" || flavorDef.id === "fig" || flavorDef.id === "longan" || flavorDef.id === "hawthorn" || flavorDef.id === "pear" || flavorDef.id === "apricot")) {
       score += 0.5;
       notes.push("秋日温甜");
     }
-    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat")) {
+    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube")) {
       score += 0.5;
       notes.push("冬日暖茶");
     }
@@ -1509,6 +1523,17 @@
     state.stats.plantFavs = (state.stats.plantFavs || 0) + 1;
     appendJournal(state, "把「" + plantId + "」记成窗台最想照料的那盆。");
     return { ok: true, plantId: plantId };
+  }
+
+  /** Soft favorite path theme for walk preference (collection, no combat) */
+  function setFavoritePathTheme(state, themeId) {
+    themeId = String(themeId || "").trim();
+    if (!themeId) return { ok: false, reason: "empty" };
+    state.favoritePathThemeId = themeId;
+    if (!state.stats) state.stats = {};
+    state.stats.pathFavs = (state.stats.pathFavs || 0) + 1;
+    appendJournal(state, "把「" + themeId + "」记成最想再走一遍的小路。");
+    return { ok: true, themeId: themeId };
   }
 
   /** Soft end-of-day shop close: journal a calm summary (no fail state) */
@@ -1838,6 +1863,7 @@ function recallGuestCraft(state, guestName) {
     getPinnedRecipe: getPinnedRecipe,
     closeShopDay: closeShopDay,
     setFavoritePlant: setFavoritePlant,
+    setFavoritePathTheme: setFavoritePathTheme,
     setGuestNote: setGuestNote,
     claimFirstWalkBonus: claimFirstWalkBonus,
     upgradeWateringCan: upgradeWateringCan,

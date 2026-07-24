@@ -2602,6 +2602,20 @@
       "emoji": "🟠",
       "kind": "风味",
       "seed": "apricotPot"
+    },
+    "pear": {
+      "id": "pear",
+      "name": "梨",
+      "emoji": "🍐",
+      "kind": "风味",
+      "seed": "pearPot"
+    },
+    "jujube": {
+      "id": "jujube",
+      "name": "红枣",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "jujubePot"
     }
   },
   "plants": {
@@ -4887,6 +4901,28 @@
       ],
       "harvest": "apricot",
       "days": 3
+    },
+    "pearPot": {
+      "id": "pearPot",
+      "name": "梨",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍐"
+      ],
+      "harvest": "pear",
+      "days": 3
+    },
+    "jujubePot": {
+      "id": "jujubePot",
+      "name": "红枣",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "jujube",
+      "days": 3
     }
   },
   "cups": [
@@ -6071,6 +6107,26 @@
       "tags": [
         "果香",
         "清爽"
+      ]
+    },
+    {
+      "id": "pear",
+      "name": "梨",
+      "emoji": "🍐",
+      "need": "pear",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "jujube",
+      "name": "红枣",
+      "emoji": "🟤",
+      "need": "jujube",
+      "tags": [
+        "甜蜜",
+        "果香"
       ]
     }
   ],
@@ -7821,6 +7877,36 @@
         "honey",
         "peach",
         "leaf"
+      ]
+    },
+    {
+      "name": "收梨的阿姨",
+      "avatar": "🍐",
+      "wish": "梨或蜜，清爽一点，暖杯也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "pear",
+        "honey",
+        "leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "煮红枣茶的奶奶",
+      "avatar": "🫖",
+      "wish": "红枣或蜜，甜蜜一点，暖杯最好。",
+      "tags": [
+        "甜蜜",
+        "温暖"
+      ],
+      "flavors": [
+        "jujube",
+        "honey",
+        "tea_leaf",
+        "ginger"
       ]
     }
   ],
