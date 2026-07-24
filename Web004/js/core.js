@@ -1545,6 +1545,216 @@
       { flavor: "loc197", label: "樟园午影" },
       { flavor: "loc198", label: "樟园暮香" },
       { flavor: "loc199", label: "樟园夜露" },
+      { flavor: "loc201", label: "樟园晚岚" },
+      { flavor: "loc202", label: "樟园细雨" },
+      { flavor: "loc203", label: "樟园薄雾" },
+      { flavor: "loc205", label: "樟园凉荫" },
+      { flavor: "loc206", label: "樟园清霜" },
+      { flavor: "loc207", label: "樟园软雪" },
+      { flavor: "loc209", label: "柏岭夏叶" },
+      { flavor: "loc210", label: "柏岭秋实" },
+      { flavor: "loc211", label: "柏岭冬根" },
+      { flavor: "loc213", label: "柏岭午影" },
+      { flavor: "loc214", label: "柏岭暮香" },
+      { flavor: "loc215", label: "柏岭夜露" },
+      { flavor: "loc217", label: "柏岭晚岚" },
+      { flavor: "loc218", label: "柏岭细雨" },
+      { flavor: "loc219", label: "柏岭薄雾" },
+      { flavor: "loc221", label: "柏岭凉荫" },
+      { flavor: "loc222", label: "柏岭清霜" },
+      { flavor: "loc223", label: "柏岭软雪" },
+      { flavor: "loc225", label: "松冈夏叶" },
+      { flavor: "loc226", label: "松冈秋实" },
+      { flavor: "loc227", label: "松冈冬根" },
+      { flavor: "loc229", label: "松冈午影" },
+      { flavor: "loc230", label: "松冈暮香" },
+      { flavor: "loc231", label: "松冈夜露" },
+      { flavor: "loc233", label: "松冈晚岚" },
+      { flavor: "loc234", label: "松冈细雨" },
+      { flavor: "loc235", label: "松冈薄雾" },
+      { flavor: "loc237", label: "松冈凉荫" },
+      { flavor: "loc238", label: "松冈清霜" },
+      { flavor: "loc239", label: "松冈软雪" },
+      { flavor: "loc241", label: "杉坪夏叶" },
+      { flavor: "loc242", label: "杉坪秋实" },
+      { flavor: "loc243", label: "杉坪冬根" },
+      { flavor: "loc245", label: "杉坪午影" },
+      { flavor: "loc246", label: "杉坪暮香" },
+      { flavor: "loc247", label: "杉坪夜露" },
+      { flavor: "loc249", label: "杉坪晚岚" },
+      { flavor: "loc250", label: "杉坪细雨" },
+      { flavor: "loc251", label: "杉坪薄雾" },
+      { flavor: "loc253", label: "杉坪凉荫" },
+      { flavor: "loc254", label: "杉坪清霜" },
+      { flavor: "loc255", label: "杉坪软雪" },
+      { flavor: "loc257", label: "柏坡夏叶" },
+      { flavor: "loc258", label: "柏坡秋实" },
+      { flavor: "loc259", label: "柏坡冬根" },
+      { flavor: "loc261", label: "柏坡午影" },
+      { flavor: "loc262", label: "柏坡暮香" },
+      { flavor: "loc263", label: "柏坡夜露" },
+      { flavor: "loc265", label: "柏坡晚岚" },
+      { flavor: "loc266", label: "柏坡细雨" },
+      { flavor: "loc267", label: "柏坡薄雾" },
+      { flavor: "loc269", label: "柏坡凉荫" },
+      { flavor: "loc270", label: "柏坡清霜" },
+      { flavor: "loc271", label: "柏坡软雪" },
+      { flavor: "loc273", label: "桐坞夏叶" },
+      { flavor: "loc274", label: "桐坞秋实" },
+      { flavor: "loc275", label: "桐坞冬根" },
+      { flavor: "loc277", label: "桐坞午影" },
+      { flavor: "loc278", label: "桐坞暮香" },
+      { flavor: "loc279", label: "桐坞夜露" },
+      { flavor: "loc281", label: "桐坞晚岚" },
+      { flavor: "loc282", label: "桐坞细雨" },
+      { flavor: "loc283", label: "桐坞薄雾" },
+      { flavor: "loc285", label: "桐坞凉荫" },
+      { flavor: "loc286", label: "桐坞清霜" },
+      { flavor: "loc287", label: "桐坞软雪" },
+      { flavor: "loc289", label: "梓里夏叶" },
+      { flavor: "loc290", label: "梓里秋实" },
+      { flavor: "loc291", label: "梓里冬根" },
+      { flavor: "loc293", label: "梓里午影" },
+      { flavor: "loc294", label: "梓里暮香" },
+      { flavor: "loc295", label: "梓里夜露" },
+      { flavor: "loc297", label: "梓里晚岚" },
+      { flavor: "loc298", label: "梓里细雨" },
+      { flavor: "loc299", label: "梓里薄雾" },
+      { flavor: "loc301", label: "梓里凉荫" },
+      { flavor: "loc302", label: "梓里清霜" },
+      { flavor: "loc303", label: "梓里软雪" },
+      { flavor: "loc305", label: "楸冈夏叶" },
+      { flavor: "loc306", label: "楸冈秋实" },
+      { flavor: "loc307", label: "楸冈冬根" },
+      { flavor: "loc309", label: "楸冈午影" },
+      { flavor: "loc310", label: "楸冈暮香" },
+      { flavor: "loc311", label: "楸冈夜露" },
+      { flavor: "loc313", label: "楸冈晚岚" },
+      { flavor: "loc314", label: "楸冈细雨" },
+      { flavor: "loc315", label: "楸冈薄雾" },
+      { flavor: "loc317", label: "楸冈凉荫" },
+      { flavor: "loc318", label: "楸冈清霜" },
+      { flavor: "loc319", label: "楸冈软雪" },
+      { flavor: "loc321", label: "椿坊夏叶" },
+      { flavor: "loc322", label: "椿坊秋实" },
+      { flavor: "loc323", label: "椿坊冬根" },
+      { flavor: "loc325", label: "椿坊午影" },
+      { flavor: "loc326", label: "椿坊暮香" },
+      { flavor: "loc327", label: "椿坊夜露" },
+      { flavor: "loc329", label: "椿坊晚岚" },
+      { flavor: "loc330", label: "椿坊细雨" },
+      { flavor: "loc331", label: "椿坊薄雾" },
+      { flavor: "loc333", label: "椿坊凉荫" },
+      { flavor: "loc334", label: "椿坊清霜" },
+      { flavor: "loc335", label: "椿坊软雪" },
+      { flavor: "loc337", label: "楝村夏叶" },
+      { flavor: "loc338", label: "楝村秋实" },
+      { flavor: "loc339", label: "楝村冬根" },
+      { flavor: "loc341", label: "楝村午影" },
+      { flavor: "loc342", label: "楝村暮香" },
+      { flavor: "loc343", label: "楝村夜露" },
+      { flavor: "loc345", label: "楝村晚岚" },
+      { flavor: "loc346", label: "楝村细雨" },
+      { flavor: "loc347", label: "楝村薄雾" },
+      { flavor: "loc349", label: "楝村凉荫" },
+      { flavor: "loc350", label: "楝村清霜" },
+      { flavor: "loc351", label: "楝村软雪" },
+      { flavor: "loc353", label: "榆社夏叶" },
+      { flavor: "loc354", label: "榆社秋实" },
+      { flavor: "loc355", label: "榆社冬根" },
+      { flavor: "loc357", label: "榆社午影" },
+      { flavor: "loc358", label: "榆社暮香" },
+      { flavor: "loc359", label: "榆社夜露" },
+      { flavor: "loc361", label: "榆社晚岚" },
+      { flavor: "loc362", label: "榆社细雨" },
+      { flavor: "loc363", label: "榆社薄雾" },
+      { flavor: "loc365", label: "榆社凉荫" },
+      { flavor: "loc366", label: "榆社清霜" },
+      { flavor: "loc367", label: "榆社软雪" },
+      { flavor: "loc369", label: "槐里夏叶" },
+      { flavor: "loc370", label: "槐里秋实" },
+      { flavor: "loc371", label: "槐里冬根" },
+      { flavor: "loc373", label: "槐里午影" },
+      { flavor: "loc374", label: "槐里暮香" },
+      { flavor: "loc375", label: "槐里夜露" },
+      { flavor: "loc377", label: "槐里晚岚" },
+      { flavor: "loc378", label: "槐里细雨" },
+      { flavor: "loc379", label: "槐里薄雾" },
+      { flavor: "loc381", label: "槐里凉荫" },
+      { flavor: "loc382", label: "槐里清霜" },
+      { flavor: "loc383", label: "槐里软雪" },
+      { flavor: "loc385", label: "桑园夏叶" },
+      { flavor: "loc386", label: "桑园秋实" },
+      { flavor: "loc387", label: "桑园冬根" },
+      { flavor: "loc389", label: "桑园午影" },
+      { flavor: "loc390", label: "桑园暮香" },
+      { flavor: "loc391", label: "桑园夜露" },
+      { flavor: "loc393", label: "桑园晚岚" },
+      { flavor: "loc394", label: "桑园细雨" },
+      { flavor: "loc395", label: "桑园薄雾" },
+      { flavor: "loc397", label: "桑园凉荫" },
+      { flavor: "loc398", label: "桑园清霜" },
+      { flavor: "loc399", label: "桑园软雪" },
+      { flavor: "loc401", label: "麻田夏叶" },
+      { flavor: "loc402", label: "麻田秋实" },
+      { flavor: "loc403", label: "麻田冬根" },
+      { flavor: "loc405", label: "麻田午影" },
+      { flavor: "loc406", label: "麻田暮香" },
+      { flavor: "loc407", label: "麻田夜露" },
+      { flavor: "loc409", label: "麻田晚岚" },
+      { flavor: "loc410", label: "麻田细雨" },
+      { flavor: "loc411", label: "麻田薄雾" },
+      { flavor: "loc413", label: "麻田凉荫" },
+      { flavor: "loc414", label: "麻田清霜" },
+      { flavor: "loc415", label: "麻田软雪" },
+      { flavor: "loc417", label: "麦陇夏叶" },
+      { flavor: "loc418", label: "麦陇秋实" },
+      { flavor: "loc419", label: "麦陇冬根" },
+      { flavor: "loc421", label: "麦陇午影" },
+      { flavor: "loc422", label: "麦陇暮香" },
+      { flavor: "loc423", label: "麦陇夜露" },
+      { flavor: "loc425", label: "麦陇晚岚" },
+      { flavor: "loc426", label: "麦陇细雨" },
+      { flavor: "loc427", label: "麦陇薄雾" },
+      { flavor: "loc429", label: "麦陇凉荫" },
+      { flavor: "loc430", label: "麦陇清霜" },
+      { flavor: "loc431", label: "麦陇软雪" },
+      { flavor: "loc433", label: "豆畦夏叶" },
+      { flavor: "loc434", label: "豆畦秋实" },
+      { flavor: "loc435", label: "豆畦冬根" },
+      { flavor: "loc437", label: "豆畦午影" },
+      { flavor: "loc438", label: "豆畦暮香" },
+      { flavor: "loc439", label: "豆畦夜露" },
+      { flavor: "loc441", label: "豆畦晚岚" },
+      { flavor: "loc442", label: "豆畦细雨" },
+      { flavor: "loc443", label: "豆畦薄雾" },
+      { flavor: "loc445", label: "豆畦凉荫" },
+      { flavor: "loc446", label: "豆畦清霜" },
+      { flavor: "loc447", label: "豆畦软雪" },
+      { flavor: "loc449", label: "薯垄夏叶" },
+      { flavor: "loc450", label: "薯垄秋实" },
+      { flavor: "loc451", label: "薯垄冬根" },
+      { flavor: "loc453", label: "薯垄午影" },
+      { flavor: "loc454", label: "薯垄暮香" },
+      { flavor: "loc455", label: "薯垄夜露" },
+      { flavor: "loc457", label: "薯垄晚岚" },
+      { flavor: "loc458", label: "薯垄细雨" },
+      { flavor: "loc459", label: "薯垄薄雾" },
+      { flavor: "loc461", label: "薯垄凉荫" },
+      { flavor: "loc462", label: "薯垄清霜" },
+      { flavor: "loc463", label: "薯垄软雪" },
+      { flavor: "loc465", label: "芋田夏叶" },
+      { flavor: "loc466", label: "芋田秋实" },
+      { flavor: "loc467", label: "芋田冬根" },
+      { flavor: "loc469", label: "芋田午影" },
+      { flavor: "loc470", label: "芋田暮香" },
+      { flavor: "loc471", label: "芋田夜露" },
+      { flavor: "loc473", label: "芋田晚岚" },
+      { flavor: "loc474", label: "芋田细雨" },
+      { flavor: "loc475", label: "芋田薄雾" },
+      { flavor: "loc477", label: "芋田凉荫" },
+      { flavor: "loc478", label: "芋田清霜" },
+      { flavor: "loc479", label: "芋田软雪" },
     ],
     autumn: [
       { flavor: "honey", label: "野蜜" },
@@ -1981,6 +2191,76 @@
       { flavor: "loc188", label: "柳巷暖阳" },
       { flavor: "loc192", label: "樟园春芽" },
       { flavor: "loc196", label: "樟园晨露" },
+      { flavor: "loc200", label: "樟园晓风" },
+      { flavor: "loc204", label: "樟园暖阳" },
+      { flavor: "loc208", label: "柏岭春芽" },
+      { flavor: "loc212", label: "柏岭晨露" },
+      { flavor: "loc216", label: "柏岭晓风" },
+      { flavor: "loc220", label: "柏岭暖阳" },
+      { flavor: "loc224", label: "松冈春芽" },
+      { flavor: "loc228", label: "松冈晨露" },
+      { flavor: "loc232", label: "松冈晓风" },
+      { flavor: "loc236", label: "松冈暖阳" },
+      { flavor: "loc240", label: "杉坪春芽" },
+      { flavor: "loc244", label: "杉坪晨露" },
+      { flavor: "loc248", label: "杉坪晓风" },
+      { flavor: "loc252", label: "杉坪暖阳" },
+      { flavor: "loc256", label: "柏坡春芽" },
+      { flavor: "loc260", label: "柏坡晨露" },
+      { flavor: "loc264", label: "柏坡晓风" },
+      { flavor: "loc268", label: "柏坡暖阳" },
+      { flavor: "loc272", label: "桐坞春芽" },
+      { flavor: "loc276", label: "桐坞晨露" },
+      { flavor: "loc280", label: "桐坞晓风" },
+      { flavor: "loc284", label: "桐坞暖阳" },
+      { flavor: "loc288", label: "梓里春芽" },
+      { flavor: "loc292", label: "梓里晨露" },
+      { flavor: "loc296", label: "梓里晓风" },
+      { flavor: "loc300", label: "梓里暖阳" },
+      { flavor: "loc304", label: "楸冈春芽" },
+      { flavor: "loc308", label: "楸冈晨露" },
+      { flavor: "loc312", label: "楸冈晓风" },
+      { flavor: "loc316", label: "楸冈暖阳" },
+      { flavor: "loc320", label: "椿坊春芽" },
+      { flavor: "loc324", label: "椿坊晨露" },
+      { flavor: "loc328", label: "椿坊晓风" },
+      { flavor: "loc332", label: "椿坊暖阳" },
+      { flavor: "loc336", label: "楝村春芽" },
+      { flavor: "loc340", label: "楝村晨露" },
+      { flavor: "loc344", label: "楝村晓风" },
+      { flavor: "loc348", label: "楝村暖阳" },
+      { flavor: "loc352", label: "榆社春芽" },
+      { flavor: "loc356", label: "榆社晨露" },
+      { flavor: "loc360", label: "榆社晓风" },
+      { flavor: "loc364", label: "榆社暖阳" },
+      { flavor: "loc368", label: "槐里春芽" },
+      { flavor: "loc372", label: "槐里晨露" },
+      { flavor: "loc376", label: "槐里晓风" },
+      { flavor: "loc380", label: "槐里暖阳" },
+      { flavor: "loc384", label: "桑园春芽" },
+      { flavor: "loc388", label: "桑园晨露" },
+      { flavor: "loc392", label: "桑园晓风" },
+      { flavor: "loc396", label: "桑园暖阳" },
+      { flavor: "loc400", label: "麻田春芽" },
+      { flavor: "loc404", label: "麻田晨露" },
+      { flavor: "loc408", label: "麻田晓风" },
+      { flavor: "loc412", label: "麻田暖阳" },
+      { flavor: "loc416", label: "麦陇春芽" },
+      { flavor: "loc420", label: "麦陇晨露" },
+      { flavor: "loc424", label: "麦陇晓风" },
+      { flavor: "loc428", label: "麦陇暖阳" },
+      { flavor: "loc432", label: "豆畦春芽" },
+      { flavor: "loc436", label: "豆畦晨露" },
+      { flavor: "loc440", label: "豆畦晓风" },
+      { flavor: "loc444", label: "豆畦暖阳" },
+      { flavor: "loc448", label: "薯垄春芽" },
+      { flavor: "loc452", label: "薯垄晨露" },
+      { flavor: "loc456", label: "薯垄晓风" },
+      { flavor: "loc460", label: "薯垄暖阳" },
+      { flavor: "loc464", label: "芋田春芽" },
+      { flavor: "loc468", label: "芋田晨露" },
+      { flavor: "loc472", label: "芋田晓风" },
+      { flavor: "loc476", label: "芋田暖阳" },
     ],
     dusk: [
       { flavor: "lavender_bud", label: "薰衣草" },
@@ -12298,6 +12578,1686 @@
     { id: "loc199_walker", name: "樟园夜露径旅人", desc: "走过樟园夜露短径", check: function (s) {
       return !!(s._themesTouched && s._themesTouched.loc199_path);
     } },
+    { id: "loc200_sill", name: "樟园晓风窗台", desc: "发现樟园晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc200);
+    } },
+    { id: "loc200_walker", name: "樟园晓风径旅人", desc: "走过樟园晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc200_path);
+    } },
+    { id: "loc201_sill", name: "樟园晚岚窗台", desc: "发现樟园晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc201);
+    } },
+    { id: "loc201_walker", name: "樟园晚岚径旅人", desc: "走过樟园晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc201_path);
+    } },
+    { id: "loc202_sill", name: "樟园细雨窗台", desc: "发现樟园细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc202);
+    } },
+    { id: "loc202_walker", name: "樟园细雨径旅人", desc: "走过樟园细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc202_path);
+    } },
+    { id: "loc203_sill", name: "樟园薄雾窗台", desc: "发现樟园薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc203);
+    } },
+    { id: "loc203_walker", name: "樟园薄雾径旅人", desc: "走过樟园薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc203_path);
+    } },
+    { id: "loc204_sill", name: "樟园暖阳窗台", desc: "发现樟园暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc204);
+    } },
+    { id: "loc204_walker", name: "樟园暖阳径旅人", desc: "走过樟园暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc204_path);
+    } },
+    { id: "loc205_sill", name: "樟园凉荫窗台", desc: "发现樟园凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc205);
+    } },
+    { id: "loc205_walker", name: "樟园凉荫径旅人", desc: "走过樟园凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc205_path);
+    } },
+    { id: "loc206_sill", name: "樟园清霜窗台", desc: "发现樟园清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc206);
+    } },
+    { id: "loc206_walker", name: "樟园清霜径旅人", desc: "走过樟园清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc206_path);
+    } },
+    { id: "loc207_sill", name: "樟园软雪窗台", desc: "发现樟园软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc207);
+    } },
+    { id: "loc207_walker", name: "樟园软雪径旅人", desc: "走过樟园软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc207_path);
+    } },
+    { id: "loc208_sill", name: "柏岭春芽窗台", desc: "发现柏岭春芽", check: function (s) {
+      return !!(s.discovered && s.discovered.loc208);
+    } },
+    { id: "loc208_walker", name: "柏岭春芽径旅人", desc: "走过柏岭春芽短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc208_path);
+    } },
+    { id: "loc209_sill", name: "柏岭夏叶窗台", desc: "发现柏岭夏叶", check: function (s) {
+      return !!(s.discovered && s.discovered.loc209);
+    } },
+    { id: "loc209_walker", name: "柏岭夏叶径旅人", desc: "走过柏岭夏叶短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc209_path);
+    } },
+    { id: "loc210_sill", name: "柏岭秋实窗台", desc: "发现柏岭秋实", check: function (s) {
+      return !!(s.discovered && s.discovered.loc210);
+    } },
+    { id: "loc210_walker", name: "柏岭秋实径旅人", desc: "走过柏岭秋实短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc210_path);
+    } },
+    { id: "loc211_sill", name: "柏岭冬根窗台", desc: "发现柏岭冬根", check: function (s) {
+      return !!(s.discovered && s.discovered.loc211);
+    } },
+    { id: "loc211_walker", name: "柏岭冬根径旅人", desc: "走过柏岭冬根短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc211_path);
+    } },
+    { id: "loc212_sill", name: "柏岭晨露窗台", desc: "发现柏岭晨露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc212);
+    } },
+    { id: "loc212_walker", name: "柏岭晨露径旅人", desc: "走过柏岭晨露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc212_path);
+    } },
+    { id: "loc213_sill", name: "柏岭午影窗台", desc: "发现柏岭午影", check: function (s) {
+      return !!(s.discovered && s.discovered.loc213);
+    } },
+    { id: "loc213_walker", name: "柏岭午影径旅人", desc: "走过柏岭午影短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc213_path);
+    } },
+    { id: "loc214_sill", name: "柏岭暮香窗台", desc: "发现柏岭暮香", check: function (s) {
+      return !!(s.discovered && s.discovered.loc214);
+    } },
+    { id: "loc214_walker", name: "柏岭暮香径旅人", desc: "走过柏岭暮香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc214_path);
+    } },
+    { id: "loc215_sill", name: "柏岭夜露窗台", desc: "发现柏岭夜露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc215);
+    } },
+    { id: "loc215_walker", name: "柏岭夜露径旅人", desc: "走过柏岭夜露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc215_path);
+    } },
+    { id: "loc216_sill", name: "柏岭晓风窗台", desc: "发现柏岭晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc216);
+    } },
+    { id: "loc216_walker", name: "柏岭晓风径旅人", desc: "走过柏岭晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc216_path);
+    } },
+    { id: "loc217_sill", name: "柏岭晚岚窗台", desc: "发现柏岭晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc217);
+    } },
+    { id: "loc217_walker", name: "柏岭晚岚径旅人", desc: "走过柏岭晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc217_path);
+    } },
+    { id: "loc218_sill", name: "柏岭细雨窗台", desc: "发现柏岭细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc218);
+    } },
+    { id: "loc218_walker", name: "柏岭细雨径旅人", desc: "走过柏岭细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc218_path);
+    } },
+    { id: "loc219_sill", name: "柏岭薄雾窗台", desc: "发现柏岭薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc219);
+    } },
+    { id: "loc219_walker", name: "柏岭薄雾径旅人", desc: "走过柏岭薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc219_path);
+    } },
+    { id: "loc220_sill", name: "柏岭暖阳窗台", desc: "发现柏岭暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc220);
+    } },
+    { id: "loc220_walker", name: "柏岭暖阳径旅人", desc: "走过柏岭暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc220_path);
+    } },
+    { id: "loc221_sill", name: "柏岭凉荫窗台", desc: "发现柏岭凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc221);
+    } },
+    { id: "loc221_walker", name: "柏岭凉荫径旅人", desc: "走过柏岭凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc221_path);
+    } },
+    { id: "loc222_sill", name: "柏岭清霜窗台", desc: "发现柏岭清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc222);
+    } },
+    { id: "loc222_walker", name: "柏岭清霜径旅人", desc: "走过柏岭清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc222_path);
+    } },
+    { id: "loc223_sill", name: "柏岭软雪窗台", desc: "发现柏岭软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc223);
+    } },
+    { id: "loc223_walker", name: "柏岭软雪径旅人", desc: "走过柏岭软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc223_path);
+    } },
+    { id: "loc224_sill", name: "松冈春芽窗台", desc: "发现松冈春芽", check: function (s) {
+      return !!(s.discovered && s.discovered.loc224);
+    } },
+    { id: "loc224_walker", name: "松冈春芽径旅人", desc: "走过松冈春芽短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc224_path);
+    } },
+    { id: "loc225_sill", name: "松冈夏叶窗台", desc: "发现松冈夏叶", check: function (s) {
+      return !!(s.discovered && s.discovered.loc225);
+    } },
+    { id: "loc225_walker", name: "松冈夏叶径旅人", desc: "走过松冈夏叶短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc225_path);
+    } },
+    { id: "loc226_sill", name: "松冈秋实窗台", desc: "发现松冈秋实", check: function (s) {
+      return !!(s.discovered && s.discovered.loc226);
+    } },
+    { id: "loc226_walker", name: "松冈秋实径旅人", desc: "走过松冈秋实短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc226_path);
+    } },
+    { id: "loc227_sill", name: "松冈冬根窗台", desc: "发现松冈冬根", check: function (s) {
+      return !!(s.discovered && s.discovered.loc227);
+    } },
+    { id: "loc227_walker", name: "松冈冬根径旅人", desc: "走过松冈冬根短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc227_path);
+    } },
+    { id: "loc228_sill", name: "松冈晨露窗台", desc: "发现松冈晨露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc228);
+    } },
+    { id: "loc228_walker", name: "松冈晨露径旅人", desc: "走过松冈晨露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc228_path);
+    } },
+    { id: "loc229_sill", name: "松冈午影窗台", desc: "发现松冈午影", check: function (s) {
+      return !!(s.discovered && s.discovered.loc229);
+    } },
+    { id: "loc229_walker", name: "松冈午影径旅人", desc: "走过松冈午影短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc229_path);
+    } },
+    { id: "loc230_sill", name: "松冈暮香窗台", desc: "发现松冈暮香", check: function (s) {
+      return !!(s.discovered && s.discovered.loc230);
+    } },
+    { id: "loc230_walker", name: "松冈暮香径旅人", desc: "走过松冈暮香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc230_path);
+    } },
+    { id: "loc231_sill", name: "松冈夜露窗台", desc: "发现松冈夜露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc231);
+    } },
+    { id: "loc231_walker", name: "松冈夜露径旅人", desc: "走过松冈夜露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc231_path);
+    } },
+    { id: "loc232_sill", name: "松冈晓风窗台", desc: "发现松冈晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc232);
+    } },
+    { id: "loc232_walker", name: "松冈晓风径旅人", desc: "走过松冈晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc232_path);
+    } },
+    { id: "loc233_sill", name: "松冈晚岚窗台", desc: "发现松冈晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc233);
+    } },
+    { id: "loc233_walker", name: "松冈晚岚径旅人", desc: "走过松冈晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc233_path);
+    } },
+    { id: "loc234_sill", name: "松冈细雨窗台", desc: "发现松冈细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc234);
+    } },
+    { id: "loc234_walker", name: "松冈细雨径旅人", desc: "走过松冈细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc234_path);
+    } },
+    { id: "loc235_sill", name: "松冈薄雾窗台", desc: "发现松冈薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc235);
+    } },
+    { id: "loc235_walker", name: "松冈薄雾径旅人", desc: "走过松冈薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc235_path);
+    } },
+    { id: "loc236_sill", name: "松冈暖阳窗台", desc: "发现松冈暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc236);
+    } },
+    { id: "loc236_walker", name: "松冈暖阳径旅人", desc: "走过松冈暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc236_path);
+    } },
+    { id: "loc237_sill", name: "松冈凉荫窗台", desc: "发现松冈凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc237);
+    } },
+    { id: "loc237_walker", name: "松冈凉荫径旅人", desc: "走过松冈凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc237_path);
+    } },
+    { id: "loc238_sill", name: "松冈清霜窗台", desc: "发现松冈清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc238);
+    } },
+    { id: "loc238_walker", name: "松冈清霜径旅人", desc: "走过松冈清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc238_path);
+    } },
+    { id: "loc239_sill", name: "松冈软雪窗台", desc: "发现松冈软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc239);
+    } },
+    { id: "loc239_walker", name: "松冈软雪径旅人", desc: "走过松冈软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc239_path);
+    } },
+    { id: "loc240_sill", name: "杉坪春芽窗台", desc: "发现杉坪春芽", check: function (s) {
+      return !!(s.discovered && s.discovered.loc240);
+    } },
+    { id: "loc240_walker", name: "杉坪春芽径旅人", desc: "走过杉坪春芽短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc240_path);
+    } },
+    { id: "loc241_sill", name: "杉坪夏叶窗台", desc: "发现杉坪夏叶", check: function (s) {
+      return !!(s.discovered && s.discovered.loc241);
+    } },
+    { id: "loc241_walker", name: "杉坪夏叶径旅人", desc: "走过杉坪夏叶短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc241_path);
+    } },
+    { id: "loc242_sill", name: "杉坪秋实窗台", desc: "发现杉坪秋实", check: function (s) {
+      return !!(s.discovered && s.discovered.loc242);
+    } },
+    { id: "loc242_walker", name: "杉坪秋实径旅人", desc: "走过杉坪秋实短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc242_path);
+    } },
+    { id: "loc243_sill", name: "杉坪冬根窗台", desc: "发现杉坪冬根", check: function (s) {
+      return !!(s.discovered && s.discovered.loc243);
+    } },
+    { id: "loc243_walker", name: "杉坪冬根径旅人", desc: "走过杉坪冬根短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc243_path);
+    } },
+    { id: "loc244_sill", name: "杉坪晨露窗台", desc: "发现杉坪晨露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc244);
+    } },
+    { id: "loc244_walker", name: "杉坪晨露径旅人", desc: "走过杉坪晨露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc244_path);
+    } },
+    { id: "loc245_sill", name: "杉坪午影窗台", desc: "发现杉坪午影", check: function (s) {
+      return !!(s.discovered && s.discovered.loc245);
+    } },
+    { id: "loc245_walker", name: "杉坪午影径旅人", desc: "走过杉坪午影短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc245_path);
+    } },
+    { id: "loc246_sill", name: "杉坪暮香窗台", desc: "发现杉坪暮香", check: function (s) {
+      return !!(s.discovered && s.discovered.loc246);
+    } },
+    { id: "loc246_walker", name: "杉坪暮香径旅人", desc: "走过杉坪暮香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc246_path);
+    } },
+    { id: "loc247_sill", name: "杉坪夜露窗台", desc: "发现杉坪夜露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc247);
+    } },
+    { id: "loc247_walker", name: "杉坪夜露径旅人", desc: "走过杉坪夜露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc247_path);
+    } },
+    { id: "loc248_sill", name: "杉坪晓风窗台", desc: "发现杉坪晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc248);
+    } },
+    { id: "loc248_walker", name: "杉坪晓风径旅人", desc: "走过杉坪晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc248_path);
+    } },
+    { id: "loc249_sill", name: "杉坪晚岚窗台", desc: "发现杉坪晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc249);
+    } },
+    { id: "loc249_walker", name: "杉坪晚岚径旅人", desc: "走过杉坪晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc249_path);
+    } },
+    { id: "loc250_sill", name: "杉坪细雨窗台", desc: "发现杉坪细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc250);
+    } },
+    { id: "loc250_walker", name: "杉坪细雨径旅人", desc: "走过杉坪细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc250_path);
+    } },
+    { id: "loc251_sill", name: "杉坪薄雾窗台", desc: "发现杉坪薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc251);
+    } },
+    { id: "loc251_walker", name: "杉坪薄雾径旅人", desc: "走过杉坪薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc251_path);
+    } },
+    { id: "loc252_sill", name: "杉坪暖阳窗台", desc: "发现杉坪暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc252);
+    } },
+    { id: "loc252_walker", name: "杉坪暖阳径旅人", desc: "走过杉坪暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc252_path);
+    } },
+    { id: "loc253_sill", name: "杉坪凉荫窗台", desc: "发现杉坪凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc253);
+    } },
+    { id: "loc253_walker", name: "杉坪凉荫径旅人", desc: "走过杉坪凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc253_path);
+    } },
+    { id: "loc254_sill", name: "杉坪清霜窗台", desc: "发现杉坪清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc254);
+    } },
+    { id: "loc254_walker", name: "杉坪清霜径旅人", desc: "走过杉坪清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc254_path);
+    } },
+    { id: "loc255_sill", name: "杉坪软雪窗台", desc: "发现杉坪软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc255);
+    } },
+    { id: "loc255_walker", name: "杉坪软雪径旅人", desc: "走过杉坪软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc255_path);
+    } },
+    { id: "loc256_sill", name: "柏坡春芽窗台", desc: "发现柏坡春芽", check: function (s) {
+      return !!(s.discovered && s.discovered.loc256);
+    } },
+    { id: "loc256_walker", name: "柏坡春芽径旅人", desc: "走过柏坡春芽短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc256_path);
+    } },
+    { id: "loc257_sill", name: "柏坡夏叶窗台", desc: "发现柏坡夏叶", check: function (s) {
+      return !!(s.discovered && s.discovered.loc257);
+    } },
+    { id: "loc257_walker", name: "柏坡夏叶径旅人", desc: "走过柏坡夏叶短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc257_path);
+    } },
+    { id: "loc258_sill", name: "柏坡秋实窗台", desc: "发现柏坡秋实", check: function (s) {
+      return !!(s.discovered && s.discovered.loc258);
+    } },
+    { id: "loc258_walker", name: "柏坡秋实径旅人", desc: "走过柏坡秋实短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc258_path);
+    } },
+    { id: "loc259_sill", name: "柏坡冬根窗台", desc: "发现柏坡冬根", check: function (s) {
+      return !!(s.discovered && s.discovered.loc259);
+    } },
+    { id: "loc259_walker", name: "柏坡冬根径旅人", desc: "走过柏坡冬根短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc259_path);
+    } },
+    { id: "loc260_sill", name: "柏坡晨露窗台", desc: "发现柏坡晨露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc260);
+    } },
+    { id: "loc260_walker", name: "柏坡晨露径旅人", desc: "走过柏坡晨露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc260_path);
+    } },
+    { id: "loc261_sill", name: "柏坡午影窗台", desc: "发现柏坡午影", check: function (s) {
+      return !!(s.discovered && s.discovered.loc261);
+    } },
+    { id: "loc261_walker", name: "柏坡午影径旅人", desc: "走过柏坡午影短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc261_path);
+    } },
+    { id: "loc262_sill", name: "柏坡暮香窗台", desc: "发现柏坡暮香", check: function (s) {
+      return !!(s.discovered && s.discovered.loc262);
+    } },
+    { id: "loc262_walker", name: "柏坡暮香径旅人", desc: "走过柏坡暮香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc262_path);
+    } },
+    { id: "loc263_sill", name: "柏坡夜露窗台", desc: "发现柏坡夜露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc263);
+    } },
+    { id: "loc263_walker", name: "柏坡夜露径旅人", desc: "走过柏坡夜露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc263_path);
+    } },
+    { id: "loc264_sill", name: "柏坡晓风窗台", desc: "发现柏坡晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc264);
+    } },
+    { id: "loc264_walker", name: "柏坡晓风径旅人", desc: "走过柏坡晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc264_path);
+    } },
+    { id: "loc265_sill", name: "柏坡晚岚窗台", desc: "发现柏坡晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc265);
+    } },
+    { id: "loc265_walker", name: "柏坡晚岚径旅人", desc: "走过柏坡晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc265_path);
+    } },
+    { id: "loc266_sill", name: "柏坡细雨窗台", desc: "发现柏坡细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc266);
+    } },
+    { id: "loc266_walker", name: "柏坡细雨径旅人", desc: "走过柏坡细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc266_path);
+    } },
+    { id: "loc267_sill", name: "柏坡薄雾窗台", desc: "发现柏坡薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc267);
+    } },
+    { id: "loc267_walker", name: "柏坡薄雾径旅人", desc: "走过柏坡薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc267_path);
+    } },
+    { id: "loc268_sill", name: "柏坡暖阳窗台", desc: "发现柏坡暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc268);
+    } },
+    { id: "loc268_walker", name: "柏坡暖阳径旅人", desc: "走过柏坡暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc268_path);
+    } },
+    { id: "loc269_sill", name: "柏坡凉荫窗台", desc: "发现柏坡凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc269);
+    } },
+    { id: "loc269_walker", name: "柏坡凉荫径旅人", desc: "走过柏坡凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc269_path);
+    } },
+    { id: "loc270_sill", name: "柏坡清霜窗台", desc: "发现柏坡清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc270);
+    } },
+    { id: "loc270_walker", name: "柏坡清霜径旅人", desc: "走过柏坡清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc270_path);
+    } },
+    { id: "loc271_sill", name: "柏坡软雪窗台", desc: "发现柏坡软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc271);
+    } },
+    { id: "loc271_walker", name: "柏坡软雪径旅人", desc: "走过柏坡软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc271_path);
+    } },
+    { id: "loc272_sill", name: "桐坞春芽窗台", desc: "发现桐坞春芽", check: function (s) {
+      return !!(s.discovered && s.discovered.loc272);
+    } },
+    { id: "loc272_walker", name: "桐坞春芽径旅人", desc: "走过桐坞春芽短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc272_path);
+    } },
+    { id: "loc273_sill", name: "桐坞夏叶窗台", desc: "发现桐坞夏叶", check: function (s) {
+      return !!(s.discovered && s.discovered.loc273);
+    } },
+    { id: "loc273_walker", name: "桐坞夏叶径旅人", desc: "走过桐坞夏叶短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc273_path);
+    } },
+    { id: "loc274_sill", name: "桐坞秋实窗台", desc: "发现桐坞秋实", check: function (s) {
+      return !!(s.discovered && s.discovered.loc274);
+    } },
+    { id: "loc274_walker", name: "桐坞秋实径旅人", desc: "走过桐坞秋实短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc274_path);
+    } },
+    { id: "loc275_sill", name: "桐坞冬根窗台", desc: "发现桐坞冬根", check: function (s) {
+      return !!(s.discovered && s.discovered.loc275);
+    } },
+    { id: "loc275_walker", name: "桐坞冬根径旅人", desc: "走过桐坞冬根短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc275_path);
+    } },
+    { id: "loc276_sill", name: "桐坞晨露窗台", desc: "发现桐坞晨露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc276);
+    } },
+    { id: "loc276_walker", name: "桐坞晨露径旅人", desc: "走过桐坞晨露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc276_path);
+    } },
+    { id: "loc277_sill", name: "桐坞午影窗台", desc: "发现桐坞午影", check: function (s) {
+      return !!(s.discovered && s.discovered.loc277);
+    } },
+    { id: "loc277_walker", name: "桐坞午影径旅人", desc: "走过桐坞午影短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc277_path);
+    } },
+    { id: "loc278_sill", name: "桐坞暮香窗台", desc: "发现桐坞暮香", check: function (s) {
+      return !!(s.discovered && s.discovered.loc278);
+    } },
+    { id: "loc278_walker", name: "桐坞暮香径旅人", desc: "走过桐坞暮香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc278_path);
+    } },
+    { id: "loc279_sill", name: "桐坞夜露窗台", desc: "发现桐坞夜露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc279);
+    } },
+    { id: "loc279_walker", name: "桐坞夜露径旅人", desc: "走过桐坞夜露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc279_path);
+    } },
+    { id: "loc280_sill", name: "桐坞晓风窗台", desc: "发现桐坞晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc280);
+    } },
+    { id: "loc280_walker", name: "桐坞晓风径旅人", desc: "走过桐坞晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc280_path);
+    } },
+    { id: "loc281_sill", name: "桐坞晚岚窗台", desc: "发现桐坞晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc281);
+    } },
+    { id: "loc281_walker", name: "桐坞晚岚径旅人", desc: "走过桐坞晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc281_path);
+    } },
+    { id: "loc282_sill", name: "桐坞细雨窗台", desc: "发现桐坞细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc282);
+    } },
+    { id: "loc282_walker", name: "桐坞细雨径旅人", desc: "走过桐坞细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc282_path);
+    } },
+    { id: "loc283_sill", name: "桐坞薄雾窗台", desc: "发现桐坞薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc283);
+    } },
+    { id: "loc283_walker", name: "桐坞薄雾径旅人", desc: "走过桐坞薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc283_path);
+    } },
+    { id: "loc284_sill", name: "桐坞暖阳窗台", desc: "发现桐坞暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc284);
+    } },
+    { id: "loc284_walker", name: "桐坞暖阳径旅人", desc: "走过桐坞暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc284_path);
+    } },
+    { id: "loc285_sill", name: "桐坞凉荫窗台", desc: "发现桐坞凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc285);
+    } },
+    { id: "loc285_walker", name: "桐坞凉荫径旅人", desc: "走过桐坞凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc285_path);
+    } },
+    { id: "loc286_sill", name: "桐坞清霜窗台", desc: "发现桐坞清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc286);
+    } },
+    { id: "loc286_walker", name: "桐坞清霜径旅人", desc: "走过桐坞清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc286_path);
+    } },
+    { id: "loc287_sill", name: "桐坞软雪窗台", desc: "发现桐坞软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc287);
+    } },
+    { id: "loc287_walker", name: "桐坞软雪径旅人", desc: "走过桐坞软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc287_path);
+    } },
+    { id: "loc288_sill", name: "梓里春芽窗台", desc: "发现梓里春芽", check: function (s) {
+      return !!(s.discovered && s.discovered.loc288);
+    } },
+    { id: "loc288_walker", name: "梓里春芽径旅人", desc: "走过梓里春芽短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc288_path);
+    } },
+    { id: "loc289_sill", name: "梓里夏叶窗台", desc: "发现梓里夏叶", check: function (s) {
+      return !!(s.discovered && s.discovered.loc289);
+    } },
+    { id: "loc289_walker", name: "梓里夏叶径旅人", desc: "走过梓里夏叶短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc289_path);
+    } },
+    { id: "loc290_sill", name: "梓里秋实窗台", desc: "发现梓里秋实", check: function (s) {
+      return !!(s.discovered && s.discovered.loc290);
+    } },
+    { id: "loc290_walker", name: "梓里秋实径旅人", desc: "走过梓里秋实短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc290_path);
+    } },
+    { id: "loc291_sill", name: "梓里冬根窗台", desc: "发现梓里冬根", check: function (s) {
+      return !!(s.discovered && s.discovered.loc291);
+    } },
+    { id: "loc291_walker", name: "梓里冬根径旅人", desc: "走过梓里冬根短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc291_path);
+    } },
+    { id: "loc292_sill", name: "梓里晨露窗台", desc: "发现梓里晨露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc292);
+    } },
+    { id: "loc292_walker", name: "梓里晨露径旅人", desc: "走过梓里晨露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc292_path);
+    } },
+    { id: "loc293_sill", name: "梓里午影窗台", desc: "发现梓里午影", check: function (s) {
+      return !!(s.discovered && s.discovered.loc293);
+    } },
+    { id: "loc293_walker", name: "梓里午影径旅人", desc: "走过梓里午影短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc293_path);
+    } },
+    { id: "loc294_sill", name: "梓里暮香窗台", desc: "发现梓里暮香", check: function (s) {
+      return !!(s.discovered && s.discovered.loc294);
+    } },
+    { id: "loc294_walker", name: "梓里暮香径旅人", desc: "走过梓里暮香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc294_path);
+    } },
+    { id: "loc295_sill", name: "梓里夜露窗台", desc: "发现梓里夜露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc295);
+    } },
+    { id: "loc295_walker", name: "梓里夜露径旅人", desc: "走过梓里夜露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc295_path);
+    } },
+    { id: "loc296_sill", name: "梓里晓风窗台", desc: "发现梓里晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc296);
+    } },
+    { id: "loc296_walker", name: "梓里晓风径旅人", desc: "走过梓里晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc296_path);
+    } },
+    { id: "loc297_sill", name: "梓里晚岚窗台", desc: "发现梓里晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc297);
+    } },
+    { id: "loc297_walker", name: "梓里晚岚径旅人", desc: "走过梓里晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc297_path);
+    } },
+    { id: "loc298_sill", name: "梓里细雨窗台", desc: "发现梓里细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc298);
+    } },
+    { id: "loc298_walker", name: "梓里细雨径旅人", desc: "走过梓里细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc298_path);
+    } },
+    { id: "loc299_sill", name: "梓里薄雾窗台", desc: "发现梓里薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc299);
+    } },
+    { id: "loc299_walker", name: "梓里薄雾径旅人", desc: "走过梓里薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc299_path);
+    } },
+    { id: "loc300_sill", name: "梓里暖阳窗台", desc: "发现梓里暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc300);
+    } },
+    { id: "loc300_walker", name: "梓里暖阳径旅人", desc: "走过梓里暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc300_path);
+    } },
+    { id: "loc301_sill", name: "梓里凉荫窗台", desc: "发现梓里凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc301);
+    } },
+    { id: "loc301_walker", name: "梓里凉荫径旅人", desc: "走过梓里凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc301_path);
+    } },
+    { id: "loc302_sill", name: "梓里清霜窗台", desc: "发现梓里清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc302);
+    } },
+    { id: "loc302_walker", name: "梓里清霜径旅人", desc: "走过梓里清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc302_path);
+    } },
+    { id: "loc303_sill", name: "梓里软雪窗台", desc: "发现梓里软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc303);
+    } },
+    { id: "loc303_walker", name: "梓里软雪径旅人", desc: "走过梓里软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc303_path);
+    } },
+    { id: "loc304_sill", name: "楸冈春芽窗台", desc: "发现楸冈春芽", check: function (s) {
+      return !!(s.discovered && s.discovered.loc304);
+    } },
+    { id: "loc304_walker", name: "楸冈春芽径旅人", desc: "走过楸冈春芽短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc304_path);
+    } },
+    { id: "loc305_sill", name: "楸冈夏叶窗台", desc: "发现楸冈夏叶", check: function (s) {
+      return !!(s.discovered && s.discovered.loc305);
+    } },
+    { id: "loc305_walker", name: "楸冈夏叶径旅人", desc: "走过楸冈夏叶短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc305_path);
+    } },
+    { id: "loc306_sill", name: "楸冈秋实窗台", desc: "发现楸冈秋实", check: function (s) {
+      return !!(s.discovered && s.discovered.loc306);
+    } },
+    { id: "loc306_walker", name: "楸冈秋实径旅人", desc: "走过楸冈秋实短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc306_path);
+    } },
+    { id: "loc307_sill", name: "楸冈冬根窗台", desc: "发现楸冈冬根", check: function (s) {
+      return !!(s.discovered && s.discovered.loc307);
+    } },
+    { id: "loc307_walker", name: "楸冈冬根径旅人", desc: "走过楸冈冬根短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc307_path);
+    } },
+    { id: "loc308_sill", name: "楸冈晨露窗台", desc: "发现楸冈晨露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc308);
+    } },
+    { id: "loc308_walker", name: "楸冈晨露径旅人", desc: "走过楸冈晨露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc308_path);
+    } },
+    { id: "loc309_sill", name: "楸冈午影窗台", desc: "发现楸冈午影", check: function (s) {
+      return !!(s.discovered && s.discovered.loc309);
+    } },
+    { id: "loc309_walker", name: "楸冈午影径旅人", desc: "走过楸冈午影短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc309_path);
+    } },
+    { id: "loc310_sill", name: "楸冈暮香窗台", desc: "发现楸冈暮香", check: function (s) {
+      return !!(s.discovered && s.discovered.loc310);
+    } },
+    { id: "loc310_walker", name: "楸冈暮香径旅人", desc: "走过楸冈暮香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc310_path);
+    } },
+    { id: "loc311_sill", name: "楸冈夜露窗台", desc: "发现楸冈夜露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc311);
+    } },
+    { id: "loc311_walker", name: "楸冈夜露径旅人", desc: "走过楸冈夜露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc311_path);
+    } },
+    { id: "loc312_sill", name: "楸冈晓风窗台", desc: "发现楸冈晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc312);
+    } },
+    { id: "loc312_walker", name: "楸冈晓风径旅人", desc: "走过楸冈晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc312_path);
+    } },
+    { id: "loc313_sill", name: "楸冈晚岚窗台", desc: "发现楸冈晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc313);
+    } },
+    { id: "loc313_walker", name: "楸冈晚岚径旅人", desc: "走过楸冈晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc313_path);
+    } },
+    { id: "loc314_sill", name: "楸冈细雨窗台", desc: "发现楸冈细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc314);
+    } },
+    { id: "loc314_walker", name: "楸冈细雨径旅人", desc: "走过楸冈细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc314_path);
+    } },
+    { id: "loc315_sill", name: "楸冈薄雾窗台", desc: "发现楸冈薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc315);
+    } },
+    { id: "loc315_walker", name: "楸冈薄雾径旅人", desc: "走过楸冈薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc315_path);
+    } },
+    { id: "loc316_sill", name: "楸冈暖阳窗台", desc: "发现楸冈暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc316);
+    } },
+    { id: "loc316_walker", name: "楸冈暖阳径旅人", desc: "走过楸冈暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc316_path);
+    } },
+    { id: "loc317_sill", name: "楸冈凉荫窗台", desc: "发现楸冈凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc317);
+    } },
+    { id: "loc317_walker", name: "楸冈凉荫径旅人", desc: "走过楸冈凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc317_path);
+    } },
+    { id: "loc318_sill", name: "楸冈清霜窗台", desc: "发现楸冈清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc318);
+    } },
+    { id: "loc318_walker", name: "楸冈清霜径旅人", desc: "走过楸冈清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc318_path);
+    } },
+    { id: "loc319_sill", name: "楸冈软雪窗台", desc: "发现楸冈软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc319);
+    } },
+    { id: "loc319_walker", name: "楸冈软雪径旅人", desc: "走过楸冈软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc319_path);
+    } },
+    { id: "loc320_sill", name: "椿坊春芽窗台", desc: "发现椿坊春芽", check: function (s) {
+      return !!(s.discovered && s.discovered.loc320);
+    } },
+    { id: "loc320_walker", name: "椿坊春芽径旅人", desc: "走过椿坊春芽短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc320_path);
+    } },
+    { id: "loc321_sill", name: "椿坊夏叶窗台", desc: "发现椿坊夏叶", check: function (s) {
+      return !!(s.discovered && s.discovered.loc321);
+    } },
+    { id: "loc321_walker", name: "椿坊夏叶径旅人", desc: "走过椿坊夏叶短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc321_path);
+    } },
+    { id: "loc322_sill", name: "椿坊秋实窗台", desc: "发现椿坊秋实", check: function (s) {
+      return !!(s.discovered && s.discovered.loc322);
+    } },
+    { id: "loc322_walker", name: "椿坊秋实径旅人", desc: "走过椿坊秋实短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc322_path);
+    } },
+    { id: "loc323_sill", name: "椿坊冬根窗台", desc: "发现椿坊冬根", check: function (s) {
+      return !!(s.discovered && s.discovered.loc323);
+    } },
+    { id: "loc323_walker", name: "椿坊冬根径旅人", desc: "走过椿坊冬根短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc323_path);
+    } },
+    { id: "loc324_sill", name: "椿坊晨露窗台", desc: "发现椿坊晨露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc324);
+    } },
+    { id: "loc324_walker", name: "椿坊晨露径旅人", desc: "走过椿坊晨露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc324_path);
+    } },
+    { id: "loc325_sill", name: "椿坊午影窗台", desc: "发现椿坊午影", check: function (s) {
+      return !!(s.discovered && s.discovered.loc325);
+    } },
+    { id: "loc325_walker", name: "椿坊午影径旅人", desc: "走过椿坊午影短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc325_path);
+    } },
+    { id: "loc326_sill", name: "椿坊暮香窗台", desc: "发现椿坊暮香", check: function (s) {
+      return !!(s.discovered && s.discovered.loc326);
+    } },
+    { id: "loc326_walker", name: "椿坊暮香径旅人", desc: "走过椿坊暮香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc326_path);
+    } },
+    { id: "loc327_sill", name: "椿坊夜露窗台", desc: "发现椿坊夜露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc327);
+    } },
+    { id: "loc327_walker", name: "椿坊夜露径旅人", desc: "走过椿坊夜露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc327_path);
+    } },
+    { id: "loc328_sill", name: "椿坊晓风窗台", desc: "发现椿坊晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc328);
+    } },
+    { id: "loc328_walker", name: "椿坊晓风径旅人", desc: "走过椿坊晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc328_path);
+    } },
+    { id: "loc329_sill", name: "椿坊晚岚窗台", desc: "发现椿坊晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc329);
+    } },
+    { id: "loc329_walker", name: "椿坊晚岚径旅人", desc: "走过椿坊晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc329_path);
+    } },
+    { id: "loc330_sill", name: "椿坊细雨窗台", desc: "发现椿坊细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc330);
+    } },
+    { id: "loc330_walker", name: "椿坊细雨径旅人", desc: "走过椿坊细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc330_path);
+    } },
+    { id: "loc331_sill", name: "椿坊薄雾窗台", desc: "发现椿坊薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc331);
+    } },
+    { id: "loc331_walker", name: "椿坊薄雾径旅人", desc: "走过椿坊薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc331_path);
+    } },
+    { id: "loc332_sill", name: "椿坊暖阳窗台", desc: "发现椿坊暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc332);
+    } },
+    { id: "loc332_walker", name: "椿坊暖阳径旅人", desc: "走过椿坊暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc332_path);
+    } },
+    { id: "loc333_sill", name: "椿坊凉荫窗台", desc: "发现椿坊凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc333);
+    } },
+    { id: "loc333_walker", name: "椿坊凉荫径旅人", desc: "走过椿坊凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc333_path);
+    } },
+    { id: "loc334_sill", name: "椿坊清霜窗台", desc: "发现椿坊清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc334);
+    } },
+    { id: "loc334_walker", name: "椿坊清霜径旅人", desc: "走过椿坊清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc334_path);
+    } },
+    { id: "loc335_sill", name: "椿坊软雪窗台", desc: "发现椿坊软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc335);
+    } },
+    { id: "loc335_walker", name: "椿坊软雪径旅人", desc: "走过椿坊软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc335_path);
+    } },
+    { id: "loc336_sill", name: "楝村春芽窗台", desc: "发现楝村春芽", check: function (s) {
+      return !!(s.discovered && s.discovered.loc336);
+    } },
+    { id: "loc336_walker", name: "楝村春芽径旅人", desc: "走过楝村春芽短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc336_path);
+    } },
+    { id: "loc337_sill", name: "楝村夏叶窗台", desc: "发现楝村夏叶", check: function (s) {
+      return !!(s.discovered && s.discovered.loc337);
+    } },
+    { id: "loc337_walker", name: "楝村夏叶径旅人", desc: "走过楝村夏叶短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc337_path);
+    } },
+    { id: "loc338_sill", name: "楝村秋实窗台", desc: "发现楝村秋实", check: function (s) {
+      return !!(s.discovered && s.discovered.loc338);
+    } },
+    { id: "loc338_walker", name: "楝村秋实径旅人", desc: "走过楝村秋实短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc338_path);
+    } },
+    { id: "loc339_sill", name: "楝村冬根窗台", desc: "发现楝村冬根", check: function (s) {
+      return !!(s.discovered && s.discovered.loc339);
+    } },
+    { id: "loc339_walker", name: "楝村冬根径旅人", desc: "走过楝村冬根短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc339_path);
+    } },
+    { id: "loc340_sill", name: "楝村晨露窗台", desc: "发现楝村晨露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc340);
+    } },
+    { id: "loc340_walker", name: "楝村晨露径旅人", desc: "走过楝村晨露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc340_path);
+    } },
+    { id: "loc341_sill", name: "楝村午影窗台", desc: "发现楝村午影", check: function (s) {
+      return !!(s.discovered && s.discovered.loc341);
+    } },
+    { id: "loc341_walker", name: "楝村午影径旅人", desc: "走过楝村午影短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc341_path);
+    } },
+    { id: "loc342_sill", name: "楝村暮香窗台", desc: "发现楝村暮香", check: function (s) {
+      return !!(s.discovered && s.discovered.loc342);
+    } },
+    { id: "loc342_walker", name: "楝村暮香径旅人", desc: "走过楝村暮香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc342_path);
+    } },
+    { id: "loc343_sill", name: "楝村夜露窗台", desc: "发现楝村夜露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc343);
+    } },
+    { id: "loc343_walker", name: "楝村夜露径旅人", desc: "走过楝村夜露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc343_path);
+    } },
+    { id: "loc344_sill", name: "楝村晓风窗台", desc: "发现楝村晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc344);
+    } },
+    { id: "loc344_walker", name: "楝村晓风径旅人", desc: "走过楝村晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc344_path);
+    } },
+    { id: "loc345_sill", name: "楝村晚岚窗台", desc: "发现楝村晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc345);
+    } },
+    { id: "loc345_walker", name: "楝村晚岚径旅人", desc: "走过楝村晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc345_path);
+    } },
+    { id: "loc346_sill", name: "楝村细雨窗台", desc: "发现楝村细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc346);
+    } },
+    { id: "loc346_walker", name: "楝村细雨径旅人", desc: "走过楝村细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc346_path);
+    } },
+    { id: "loc347_sill", name: "楝村薄雾窗台", desc: "发现楝村薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc347);
+    } },
+    { id: "loc347_walker", name: "楝村薄雾径旅人", desc: "走过楝村薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc347_path);
+    } },
+    { id: "loc348_sill", name: "楝村暖阳窗台", desc: "发现楝村暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc348);
+    } },
+    { id: "loc348_walker", name: "楝村暖阳径旅人", desc: "走过楝村暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc348_path);
+    } },
+    { id: "loc349_sill", name: "楝村凉荫窗台", desc: "发现楝村凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc349);
+    } },
+    { id: "loc349_walker", name: "楝村凉荫径旅人", desc: "走过楝村凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc349_path);
+    } },
+    { id: "loc350_sill", name: "楝村清霜窗台", desc: "发现楝村清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc350);
+    } },
+    { id: "loc350_walker", name: "楝村清霜径旅人", desc: "走过楝村清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc350_path);
+    } },
+    { id: "loc351_sill", name: "楝村软雪窗台", desc: "发现楝村软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc351);
+    } },
+    { id: "loc351_walker", name: "楝村软雪径旅人", desc: "走过楝村软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc351_path);
+    } },
+    { id: "loc352_sill", name: "榆社春芽窗台", desc: "发现榆社春芽", check: function (s) {
+      return !!(s.discovered && s.discovered.loc352);
+    } },
+    { id: "loc352_walker", name: "榆社春芽径旅人", desc: "走过榆社春芽短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc352_path);
+    } },
+    { id: "loc353_sill", name: "榆社夏叶窗台", desc: "发现榆社夏叶", check: function (s) {
+      return !!(s.discovered && s.discovered.loc353);
+    } },
+    { id: "loc353_walker", name: "榆社夏叶径旅人", desc: "走过榆社夏叶短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc353_path);
+    } },
+    { id: "loc354_sill", name: "榆社秋实窗台", desc: "发现榆社秋实", check: function (s) {
+      return !!(s.discovered && s.discovered.loc354);
+    } },
+    { id: "loc354_walker", name: "榆社秋实径旅人", desc: "走过榆社秋实短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc354_path);
+    } },
+    { id: "loc355_sill", name: "榆社冬根窗台", desc: "发现榆社冬根", check: function (s) {
+      return !!(s.discovered && s.discovered.loc355);
+    } },
+    { id: "loc355_walker", name: "榆社冬根径旅人", desc: "走过榆社冬根短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc355_path);
+    } },
+    { id: "loc356_sill", name: "榆社晨露窗台", desc: "发现榆社晨露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc356);
+    } },
+    { id: "loc356_walker", name: "榆社晨露径旅人", desc: "走过榆社晨露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc356_path);
+    } },
+    { id: "loc357_sill", name: "榆社午影窗台", desc: "发现榆社午影", check: function (s) {
+      return !!(s.discovered && s.discovered.loc357);
+    } },
+    { id: "loc357_walker", name: "榆社午影径旅人", desc: "走过榆社午影短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc357_path);
+    } },
+    { id: "loc358_sill", name: "榆社暮香窗台", desc: "发现榆社暮香", check: function (s) {
+      return !!(s.discovered && s.discovered.loc358);
+    } },
+    { id: "loc358_walker", name: "榆社暮香径旅人", desc: "走过榆社暮香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc358_path);
+    } },
+    { id: "loc359_sill", name: "榆社夜露窗台", desc: "发现榆社夜露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc359);
+    } },
+    { id: "loc359_walker", name: "榆社夜露径旅人", desc: "走过榆社夜露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc359_path);
+    } },
+    { id: "loc360_sill", name: "榆社晓风窗台", desc: "发现榆社晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc360);
+    } },
+    { id: "loc360_walker", name: "榆社晓风径旅人", desc: "走过榆社晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc360_path);
+    } },
+    { id: "loc361_sill", name: "榆社晚岚窗台", desc: "发现榆社晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc361);
+    } },
+    { id: "loc361_walker", name: "榆社晚岚径旅人", desc: "走过榆社晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc361_path);
+    } },
+    { id: "loc362_sill", name: "榆社细雨窗台", desc: "发现榆社细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc362);
+    } },
+    { id: "loc362_walker", name: "榆社细雨径旅人", desc: "走过榆社细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc362_path);
+    } },
+    { id: "loc363_sill", name: "榆社薄雾窗台", desc: "发现榆社薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc363);
+    } },
+    { id: "loc363_walker", name: "榆社薄雾径旅人", desc: "走过榆社薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc363_path);
+    } },
+    { id: "loc364_sill", name: "榆社暖阳窗台", desc: "发现榆社暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc364);
+    } },
+    { id: "loc364_walker", name: "榆社暖阳径旅人", desc: "走过榆社暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc364_path);
+    } },
+    { id: "loc365_sill", name: "榆社凉荫窗台", desc: "发现榆社凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc365);
+    } },
+    { id: "loc365_walker", name: "榆社凉荫径旅人", desc: "走过榆社凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc365_path);
+    } },
+    { id: "loc366_sill", name: "榆社清霜窗台", desc: "发现榆社清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc366);
+    } },
+    { id: "loc366_walker", name: "榆社清霜径旅人", desc: "走过榆社清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc366_path);
+    } },
+    { id: "loc367_sill", name: "榆社软雪窗台", desc: "发现榆社软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc367);
+    } },
+    { id: "loc367_walker", name: "榆社软雪径旅人", desc: "走过榆社软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc367_path);
+    } },
+    { id: "loc368_sill", name: "槐里春芽窗台", desc: "发现槐里春芽", check: function (s) {
+      return !!(s.discovered && s.discovered.loc368);
+    } },
+    { id: "loc368_walker", name: "槐里春芽径旅人", desc: "走过槐里春芽短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc368_path);
+    } },
+    { id: "loc369_sill", name: "槐里夏叶窗台", desc: "发现槐里夏叶", check: function (s) {
+      return !!(s.discovered && s.discovered.loc369);
+    } },
+    { id: "loc369_walker", name: "槐里夏叶径旅人", desc: "走过槐里夏叶短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc369_path);
+    } },
+    { id: "loc370_sill", name: "槐里秋实窗台", desc: "发现槐里秋实", check: function (s) {
+      return !!(s.discovered && s.discovered.loc370);
+    } },
+    { id: "loc370_walker", name: "槐里秋实径旅人", desc: "走过槐里秋实短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc370_path);
+    } },
+    { id: "loc371_sill", name: "槐里冬根窗台", desc: "发现槐里冬根", check: function (s) {
+      return !!(s.discovered && s.discovered.loc371);
+    } },
+    { id: "loc371_walker", name: "槐里冬根径旅人", desc: "走过槐里冬根短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc371_path);
+    } },
+    { id: "loc372_sill", name: "槐里晨露窗台", desc: "发现槐里晨露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc372);
+    } },
+    { id: "loc372_walker", name: "槐里晨露径旅人", desc: "走过槐里晨露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc372_path);
+    } },
+    { id: "loc373_sill", name: "槐里午影窗台", desc: "发现槐里午影", check: function (s) {
+      return !!(s.discovered && s.discovered.loc373);
+    } },
+    { id: "loc373_walker", name: "槐里午影径旅人", desc: "走过槐里午影短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc373_path);
+    } },
+    { id: "loc374_sill", name: "槐里暮香窗台", desc: "发现槐里暮香", check: function (s) {
+      return !!(s.discovered && s.discovered.loc374);
+    } },
+    { id: "loc374_walker", name: "槐里暮香径旅人", desc: "走过槐里暮香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc374_path);
+    } },
+    { id: "loc375_sill", name: "槐里夜露窗台", desc: "发现槐里夜露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc375);
+    } },
+    { id: "loc375_walker", name: "槐里夜露径旅人", desc: "走过槐里夜露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc375_path);
+    } },
+    { id: "loc376_sill", name: "槐里晓风窗台", desc: "发现槐里晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc376);
+    } },
+    { id: "loc376_walker", name: "槐里晓风径旅人", desc: "走过槐里晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc376_path);
+    } },
+    { id: "loc377_sill", name: "槐里晚岚窗台", desc: "发现槐里晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc377);
+    } },
+    { id: "loc377_walker", name: "槐里晚岚径旅人", desc: "走过槐里晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc377_path);
+    } },
+    { id: "loc378_sill", name: "槐里细雨窗台", desc: "发现槐里细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc378);
+    } },
+    { id: "loc378_walker", name: "槐里细雨径旅人", desc: "走过槐里细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc378_path);
+    } },
+    { id: "loc379_sill", name: "槐里薄雾窗台", desc: "发现槐里薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc379);
+    } },
+    { id: "loc379_walker", name: "槐里薄雾径旅人", desc: "走过槐里薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc379_path);
+    } },
+    { id: "loc380_sill", name: "槐里暖阳窗台", desc: "发现槐里暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc380);
+    } },
+    { id: "loc380_walker", name: "槐里暖阳径旅人", desc: "走过槐里暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc380_path);
+    } },
+    { id: "loc381_sill", name: "槐里凉荫窗台", desc: "发现槐里凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc381);
+    } },
+    { id: "loc381_walker", name: "槐里凉荫径旅人", desc: "走过槐里凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc381_path);
+    } },
+    { id: "loc382_sill", name: "槐里清霜窗台", desc: "发现槐里清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc382);
+    } },
+    { id: "loc382_walker", name: "槐里清霜径旅人", desc: "走过槐里清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc382_path);
+    } },
+    { id: "loc383_sill", name: "槐里软雪窗台", desc: "发现槐里软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc383);
+    } },
+    { id: "loc383_walker", name: "槐里软雪径旅人", desc: "走过槐里软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc383_path);
+    } },
+    { id: "loc384_sill", name: "桑园春芽窗台", desc: "发现桑园春芽", check: function (s) {
+      return !!(s.discovered && s.discovered.loc384);
+    } },
+    { id: "loc384_walker", name: "桑园春芽径旅人", desc: "走过桑园春芽短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc384_path);
+    } },
+    { id: "loc385_sill", name: "桑园夏叶窗台", desc: "发现桑园夏叶", check: function (s) {
+      return !!(s.discovered && s.discovered.loc385);
+    } },
+    { id: "loc385_walker", name: "桑园夏叶径旅人", desc: "走过桑园夏叶短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc385_path);
+    } },
+    { id: "loc386_sill", name: "桑园秋实窗台", desc: "发现桑园秋实", check: function (s) {
+      return !!(s.discovered && s.discovered.loc386);
+    } },
+    { id: "loc386_walker", name: "桑园秋实径旅人", desc: "走过桑园秋实短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc386_path);
+    } },
+    { id: "loc387_sill", name: "桑园冬根窗台", desc: "发现桑园冬根", check: function (s) {
+      return !!(s.discovered && s.discovered.loc387);
+    } },
+    { id: "loc387_walker", name: "桑园冬根径旅人", desc: "走过桑园冬根短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc387_path);
+    } },
+    { id: "loc388_sill", name: "桑园晨露窗台", desc: "发现桑园晨露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc388);
+    } },
+    { id: "loc388_walker", name: "桑园晨露径旅人", desc: "走过桑园晨露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc388_path);
+    } },
+    { id: "loc389_sill", name: "桑园午影窗台", desc: "发现桑园午影", check: function (s) {
+      return !!(s.discovered && s.discovered.loc389);
+    } },
+    { id: "loc389_walker", name: "桑园午影径旅人", desc: "走过桑园午影短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc389_path);
+    } },
+    { id: "loc390_sill", name: "桑园暮香窗台", desc: "发现桑园暮香", check: function (s) {
+      return !!(s.discovered && s.discovered.loc390);
+    } },
+    { id: "loc390_walker", name: "桑园暮香径旅人", desc: "走过桑园暮香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc390_path);
+    } },
+    { id: "loc391_sill", name: "桑园夜露窗台", desc: "发现桑园夜露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc391);
+    } },
+    { id: "loc391_walker", name: "桑园夜露径旅人", desc: "走过桑园夜露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc391_path);
+    } },
+    { id: "loc392_sill", name: "桑园晓风窗台", desc: "发现桑园晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc392);
+    } },
+    { id: "loc392_walker", name: "桑园晓风径旅人", desc: "走过桑园晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc392_path);
+    } },
+    { id: "loc393_sill", name: "桑园晚岚窗台", desc: "发现桑园晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc393);
+    } },
+    { id: "loc393_walker", name: "桑园晚岚径旅人", desc: "走过桑园晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc393_path);
+    } },
+    { id: "loc394_sill", name: "桑园细雨窗台", desc: "发现桑园细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc394);
+    } },
+    { id: "loc394_walker", name: "桑园细雨径旅人", desc: "走过桑园细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc394_path);
+    } },
+    { id: "loc395_sill", name: "桑园薄雾窗台", desc: "发现桑园薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc395);
+    } },
+    { id: "loc395_walker", name: "桑园薄雾径旅人", desc: "走过桑园薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc395_path);
+    } },
+    { id: "loc396_sill", name: "桑园暖阳窗台", desc: "发现桑园暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc396);
+    } },
+    { id: "loc396_walker", name: "桑园暖阳径旅人", desc: "走过桑园暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc396_path);
+    } },
+    { id: "loc397_sill", name: "桑园凉荫窗台", desc: "发现桑园凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc397);
+    } },
+    { id: "loc397_walker", name: "桑园凉荫径旅人", desc: "走过桑园凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc397_path);
+    } },
+    { id: "loc398_sill", name: "桑园清霜窗台", desc: "发现桑园清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc398);
+    } },
+    { id: "loc398_walker", name: "桑园清霜径旅人", desc: "走过桑园清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc398_path);
+    } },
+    { id: "loc399_sill", name: "桑园软雪窗台", desc: "发现桑园软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc399);
+    } },
+    { id: "loc399_walker", name: "桑园软雪径旅人", desc: "走过桑园软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc399_path);
+    } },
+    { id: "loc400_sill", name: "麻田春芽窗台", desc: "发现麻田春芽", check: function (s) {
+      return !!(s.discovered && s.discovered.loc400);
+    } },
+    { id: "loc400_walker", name: "麻田春芽径旅人", desc: "走过麻田春芽短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc400_path);
+    } },
+    { id: "loc401_sill", name: "麻田夏叶窗台", desc: "发现麻田夏叶", check: function (s) {
+      return !!(s.discovered && s.discovered.loc401);
+    } },
+    { id: "loc401_walker", name: "麻田夏叶径旅人", desc: "走过麻田夏叶短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc401_path);
+    } },
+    { id: "loc402_sill", name: "麻田秋实窗台", desc: "发现麻田秋实", check: function (s) {
+      return !!(s.discovered && s.discovered.loc402);
+    } },
+    { id: "loc402_walker", name: "麻田秋实径旅人", desc: "走过麻田秋实短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc402_path);
+    } },
+    { id: "loc403_sill", name: "麻田冬根窗台", desc: "发现麻田冬根", check: function (s) {
+      return !!(s.discovered && s.discovered.loc403);
+    } },
+    { id: "loc403_walker", name: "麻田冬根径旅人", desc: "走过麻田冬根短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc403_path);
+    } },
+    { id: "loc404_sill", name: "麻田晨露窗台", desc: "发现麻田晨露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc404);
+    } },
+    { id: "loc404_walker", name: "麻田晨露径旅人", desc: "走过麻田晨露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc404_path);
+    } },
+    { id: "loc405_sill", name: "麻田午影窗台", desc: "发现麻田午影", check: function (s) {
+      return !!(s.discovered && s.discovered.loc405);
+    } },
+    { id: "loc405_walker", name: "麻田午影径旅人", desc: "走过麻田午影短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc405_path);
+    } },
+    { id: "loc406_sill", name: "麻田暮香窗台", desc: "发现麻田暮香", check: function (s) {
+      return !!(s.discovered && s.discovered.loc406);
+    } },
+    { id: "loc406_walker", name: "麻田暮香径旅人", desc: "走过麻田暮香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc406_path);
+    } },
+    { id: "loc407_sill", name: "麻田夜露窗台", desc: "发现麻田夜露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc407);
+    } },
+    { id: "loc407_walker", name: "麻田夜露径旅人", desc: "走过麻田夜露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc407_path);
+    } },
+    { id: "loc408_sill", name: "麻田晓风窗台", desc: "发现麻田晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc408);
+    } },
+    { id: "loc408_walker", name: "麻田晓风径旅人", desc: "走过麻田晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc408_path);
+    } },
+    { id: "loc409_sill", name: "麻田晚岚窗台", desc: "发现麻田晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc409);
+    } },
+    { id: "loc409_walker", name: "麻田晚岚径旅人", desc: "走过麻田晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc409_path);
+    } },
+    { id: "loc410_sill", name: "麻田细雨窗台", desc: "发现麻田细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc410);
+    } },
+    { id: "loc410_walker", name: "麻田细雨径旅人", desc: "走过麻田细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc410_path);
+    } },
+    { id: "loc411_sill", name: "麻田薄雾窗台", desc: "发现麻田薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc411);
+    } },
+    { id: "loc411_walker", name: "麻田薄雾径旅人", desc: "走过麻田薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc411_path);
+    } },
+    { id: "loc412_sill", name: "麻田暖阳窗台", desc: "发现麻田暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc412);
+    } },
+    { id: "loc412_walker", name: "麻田暖阳径旅人", desc: "走过麻田暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc412_path);
+    } },
+    { id: "loc413_sill", name: "麻田凉荫窗台", desc: "发现麻田凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc413);
+    } },
+    { id: "loc413_walker", name: "麻田凉荫径旅人", desc: "走过麻田凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc413_path);
+    } },
+    { id: "loc414_sill", name: "麻田清霜窗台", desc: "发现麻田清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc414);
+    } },
+    { id: "loc414_walker", name: "麻田清霜径旅人", desc: "走过麻田清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc414_path);
+    } },
+    { id: "loc415_sill", name: "麻田软雪窗台", desc: "发现麻田软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc415);
+    } },
+    { id: "loc415_walker", name: "麻田软雪径旅人", desc: "走过麻田软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc415_path);
+    } },
+    { id: "loc416_sill", name: "麦陇春芽窗台", desc: "发现麦陇春芽", check: function (s) {
+      return !!(s.discovered && s.discovered.loc416);
+    } },
+    { id: "loc416_walker", name: "麦陇春芽径旅人", desc: "走过麦陇春芽短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc416_path);
+    } },
+    { id: "loc417_sill", name: "麦陇夏叶窗台", desc: "发现麦陇夏叶", check: function (s) {
+      return !!(s.discovered && s.discovered.loc417);
+    } },
+    { id: "loc417_walker", name: "麦陇夏叶径旅人", desc: "走过麦陇夏叶短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc417_path);
+    } },
+    { id: "loc418_sill", name: "麦陇秋实窗台", desc: "发现麦陇秋实", check: function (s) {
+      return !!(s.discovered && s.discovered.loc418);
+    } },
+    { id: "loc418_walker", name: "麦陇秋实径旅人", desc: "走过麦陇秋实短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc418_path);
+    } },
+    { id: "loc419_sill", name: "麦陇冬根窗台", desc: "发现麦陇冬根", check: function (s) {
+      return !!(s.discovered && s.discovered.loc419);
+    } },
+    { id: "loc419_walker", name: "麦陇冬根径旅人", desc: "走过麦陇冬根短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc419_path);
+    } },
+    { id: "loc420_sill", name: "麦陇晨露窗台", desc: "发现麦陇晨露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc420);
+    } },
+    { id: "loc420_walker", name: "麦陇晨露径旅人", desc: "走过麦陇晨露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc420_path);
+    } },
+    { id: "loc421_sill", name: "麦陇午影窗台", desc: "发现麦陇午影", check: function (s) {
+      return !!(s.discovered && s.discovered.loc421);
+    } },
+    { id: "loc421_walker", name: "麦陇午影径旅人", desc: "走过麦陇午影短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc421_path);
+    } },
+    { id: "loc422_sill", name: "麦陇暮香窗台", desc: "发现麦陇暮香", check: function (s) {
+      return !!(s.discovered && s.discovered.loc422);
+    } },
+    { id: "loc422_walker", name: "麦陇暮香径旅人", desc: "走过麦陇暮香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc422_path);
+    } },
+    { id: "loc423_sill", name: "麦陇夜露窗台", desc: "发现麦陇夜露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc423);
+    } },
+    { id: "loc423_walker", name: "麦陇夜露径旅人", desc: "走过麦陇夜露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc423_path);
+    } },
+    { id: "loc424_sill", name: "麦陇晓风窗台", desc: "发现麦陇晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc424);
+    } },
+    { id: "loc424_walker", name: "麦陇晓风径旅人", desc: "走过麦陇晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc424_path);
+    } },
+    { id: "loc425_sill", name: "麦陇晚岚窗台", desc: "发现麦陇晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc425);
+    } },
+    { id: "loc425_walker", name: "麦陇晚岚径旅人", desc: "走过麦陇晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc425_path);
+    } },
+    { id: "loc426_sill", name: "麦陇细雨窗台", desc: "发现麦陇细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc426);
+    } },
+    { id: "loc426_walker", name: "麦陇细雨径旅人", desc: "走过麦陇细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc426_path);
+    } },
+    { id: "loc427_sill", name: "麦陇薄雾窗台", desc: "发现麦陇薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc427);
+    } },
+    { id: "loc427_walker", name: "麦陇薄雾径旅人", desc: "走过麦陇薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc427_path);
+    } },
+    { id: "loc428_sill", name: "麦陇暖阳窗台", desc: "发现麦陇暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc428);
+    } },
+    { id: "loc428_walker", name: "麦陇暖阳径旅人", desc: "走过麦陇暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc428_path);
+    } },
+    { id: "loc429_sill", name: "麦陇凉荫窗台", desc: "发现麦陇凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc429);
+    } },
+    { id: "loc429_walker", name: "麦陇凉荫径旅人", desc: "走过麦陇凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc429_path);
+    } },
+    { id: "loc430_sill", name: "麦陇清霜窗台", desc: "发现麦陇清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc430);
+    } },
+    { id: "loc430_walker", name: "麦陇清霜径旅人", desc: "走过麦陇清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc430_path);
+    } },
+    { id: "loc431_sill", name: "麦陇软雪窗台", desc: "发现麦陇软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc431);
+    } },
+    { id: "loc431_walker", name: "麦陇软雪径旅人", desc: "走过麦陇软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc431_path);
+    } },
+    { id: "loc432_sill", name: "豆畦春芽窗台", desc: "发现豆畦春芽", check: function (s) {
+      return !!(s.discovered && s.discovered.loc432);
+    } },
+    { id: "loc432_walker", name: "豆畦春芽径旅人", desc: "走过豆畦春芽短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc432_path);
+    } },
+    { id: "loc433_sill", name: "豆畦夏叶窗台", desc: "发现豆畦夏叶", check: function (s) {
+      return !!(s.discovered && s.discovered.loc433);
+    } },
+    { id: "loc433_walker", name: "豆畦夏叶径旅人", desc: "走过豆畦夏叶短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc433_path);
+    } },
+    { id: "loc434_sill", name: "豆畦秋实窗台", desc: "发现豆畦秋实", check: function (s) {
+      return !!(s.discovered && s.discovered.loc434);
+    } },
+    { id: "loc434_walker", name: "豆畦秋实径旅人", desc: "走过豆畦秋实短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc434_path);
+    } },
+    { id: "loc435_sill", name: "豆畦冬根窗台", desc: "发现豆畦冬根", check: function (s) {
+      return !!(s.discovered && s.discovered.loc435);
+    } },
+    { id: "loc435_walker", name: "豆畦冬根径旅人", desc: "走过豆畦冬根短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc435_path);
+    } },
+    { id: "loc436_sill", name: "豆畦晨露窗台", desc: "发现豆畦晨露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc436);
+    } },
+    { id: "loc436_walker", name: "豆畦晨露径旅人", desc: "走过豆畦晨露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc436_path);
+    } },
+    { id: "loc437_sill", name: "豆畦午影窗台", desc: "发现豆畦午影", check: function (s) {
+      return !!(s.discovered && s.discovered.loc437);
+    } },
+    { id: "loc437_walker", name: "豆畦午影径旅人", desc: "走过豆畦午影短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc437_path);
+    } },
+    { id: "loc438_sill", name: "豆畦暮香窗台", desc: "发现豆畦暮香", check: function (s) {
+      return !!(s.discovered && s.discovered.loc438);
+    } },
+    { id: "loc438_walker", name: "豆畦暮香径旅人", desc: "走过豆畦暮香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc438_path);
+    } },
+    { id: "loc439_sill", name: "豆畦夜露窗台", desc: "发现豆畦夜露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc439);
+    } },
+    { id: "loc439_walker", name: "豆畦夜露径旅人", desc: "走过豆畦夜露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc439_path);
+    } },
+    { id: "loc440_sill", name: "豆畦晓风窗台", desc: "发现豆畦晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc440);
+    } },
+    { id: "loc440_walker", name: "豆畦晓风径旅人", desc: "走过豆畦晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc440_path);
+    } },
+    { id: "loc441_sill", name: "豆畦晚岚窗台", desc: "发现豆畦晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc441);
+    } },
+    { id: "loc441_walker", name: "豆畦晚岚径旅人", desc: "走过豆畦晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc441_path);
+    } },
+    { id: "loc442_sill", name: "豆畦细雨窗台", desc: "发现豆畦细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc442);
+    } },
+    { id: "loc442_walker", name: "豆畦细雨径旅人", desc: "走过豆畦细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc442_path);
+    } },
+    { id: "loc443_sill", name: "豆畦薄雾窗台", desc: "发现豆畦薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc443);
+    } },
+    { id: "loc443_walker", name: "豆畦薄雾径旅人", desc: "走过豆畦薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc443_path);
+    } },
+    { id: "loc444_sill", name: "豆畦暖阳窗台", desc: "发现豆畦暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc444);
+    } },
+    { id: "loc444_walker", name: "豆畦暖阳径旅人", desc: "走过豆畦暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc444_path);
+    } },
+    { id: "loc445_sill", name: "豆畦凉荫窗台", desc: "发现豆畦凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc445);
+    } },
+    { id: "loc445_walker", name: "豆畦凉荫径旅人", desc: "走过豆畦凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc445_path);
+    } },
+    { id: "loc446_sill", name: "豆畦清霜窗台", desc: "发现豆畦清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc446);
+    } },
+    { id: "loc446_walker", name: "豆畦清霜径旅人", desc: "走过豆畦清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc446_path);
+    } },
+    { id: "loc447_sill", name: "豆畦软雪窗台", desc: "发现豆畦软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc447);
+    } },
+    { id: "loc447_walker", name: "豆畦软雪径旅人", desc: "走过豆畦软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc447_path);
+    } },
+    { id: "loc448_sill", name: "薯垄春芽窗台", desc: "发现薯垄春芽", check: function (s) {
+      return !!(s.discovered && s.discovered.loc448);
+    } },
+    { id: "loc448_walker", name: "薯垄春芽径旅人", desc: "走过薯垄春芽短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc448_path);
+    } },
+    { id: "loc449_sill", name: "薯垄夏叶窗台", desc: "发现薯垄夏叶", check: function (s) {
+      return !!(s.discovered && s.discovered.loc449);
+    } },
+    { id: "loc449_walker", name: "薯垄夏叶径旅人", desc: "走过薯垄夏叶短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc449_path);
+    } },
+    { id: "loc450_sill", name: "薯垄秋实窗台", desc: "发现薯垄秋实", check: function (s) {
+      return !!(s.discovered && s.discovered.loc450);
+    } },
+    { id: "loc450_walker", name: "薯垄秋实径旅人", desc: "走过薯垄秋实短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc450_path);
+    } },
+    { id: "loc451_sill", name: "薯垄冬根窗台", desc: "发现薯垄冬根", check: function (s) {
+      return !!(s.discovered && s.discovered.loc451);
+    } },
+    { id: "loc451_walker", name: "薯垄冬根径旅人", desc: "走过薯垄冬根短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc451_path);
+    } },
+    { id: "loc452_sill", name: "薯垄晨露窗台", desc: "发现薯垄晨露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc452);
+    } },
+    { id: "loc452_walker", name: "薯垄晨露径旅人", desc: "走过薯垄晨露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc452_path);
+    } },
+    { id: "loc453_sill", name: "薯垄午影窗台", desc: "发现薯垄午影", check: function (s) {
+      return !!(s.discovered && s.discovered.loc453);
+    } },
+    { id: "loc453_walker", name: "薯垄午影径旅人", desc: "走过薯垄午影短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc453_path);
+    } },
+    { id: "loc454_sill", name: "薯垄暮香窗台", desc: "发现薯垄暮香", check: function (s) {
+      return !!(s.discovered && s.discovered.loc454);
+    } },
+    { id: "loc454_walker", name: "薯垄暮香径旅人", desc: "走过薯垄暮香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc454_path);
+    } },
+    { id: "loc455_sill", name: "薯垄夜露窗台", desc: "发现薯垄夜露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc455);
+    } },
+    { id: "loc455_walker", name: "薯垄夜露径旅人", desc: "走过薯垄夜露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc455_path);
+    } },
+    { id: "loc456_sill", name: "薯垄晓风窗台", desc: "发现薯垄晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc456);
+    } },
+    { id: "loc456_walker", name: "薯垄晓风径旅人", desc: "走过薯垄晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc456_path);
+    } },
+    { id: "loc457_sill", name: "薯垄晚岚窗台", desc: "发现薯垄晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc457);
+    } },
+    { id: "loc457_walker", name: "薯垄晚岚径旅人", desc: "走过薯垄晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc457_path);
+    } },
+    { id: "loc458_sill", name: "薯垄细雨窗台", desc: "发现薯垄细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc458);
+    } },
+    { id: "loc458_walker", name: "薯垄细雨径旅人", desc: "走过薯垄细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc458_path);
+    } },
+    { id: "loc459_sill", name: "薯垄薄雾窗台", desc: "发现薯垄薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc459);
+    } },
+    { id: "loc459_walker", name: "薯垄薄雾径旅人", desc: "走过薯垄薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc459_path);
+    } },
+    { id: "loc460_sill", name: "薯垄暖阳窗台", desc: "发现薯垄暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc460);
+    } },
+    { id: "loc460_walker", name: "薯垄暖阳径旅人", desc: "走过薯垄暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc460_path);
+    } },
+    { id: "loc461_sill", name: "薯垄凉荫窗台", desc: "发现薯垄凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc461);
+    } },
+    { id: "loc461_walker", name: "薯垄凉荫径旅人", desc: "走过薯垄凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc461_path);
+    } },
+    { id: "loc462_sill", name: "薯垄清霜窗台", desc: "发现薯垄清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc462);
+    } },
+    { id: "loc462_walker", name: "薯垄清霜径旅人", desc: "走过薯垄清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc462_path);
+    } },
+    { id: "loc463_sill", name: "薯垄软雪窗台", desc: "发现薯垄软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc463);
+    } },
+    { id: "loc463_walker", name: "薯垄软雪径旅人", desc: "走过薯垄软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc463_path);
+    } },
+    { id: "loc464_sill", name: "芋田春芽窗台", desc: "发现芋田春芽", check: function (s) {
+      return !!(s.discovered && s.discovered.loc464);
+    } },
+    { id: "loc464_walker", name: "芋田春芽径旅人", desc: "走过芋田春芽短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc464_path);
+    } },
+    { id: "loc465_sill", name: "芋田夏叶窗台", desc: "发现芋田夏叶", check: function (s) {
+      return !!(s.discovered && s.discovered.loc465);
+    } },
+    { id: "loc465_walker", name: "芋田夏叶径旅人", desc: "走过芋田夏叶短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc465_path);
+    } },
+    { id: "loc466_sill", name: "芋田秋实窗台", desc: "发现芋田秋实", check: function (s) {
+      return !!(s.discovered && s.discovered.loc466);
+    } },
+    { id: "loc466_walker", name: "芋田秋实径旅人", desc: "走过芋田秋实短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc466_path);
+    } },
+    { id: "loc467_sill", name: "芋田冬根窗台", desc: "发现芋田冬根", check: function (s) {
+      return !!(s.discovered && s.discovered.loc467);
+    } },
+    { id: "loc467_walker", name: "芋田冬根径旅人", desc: "走过芋田冬根短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc467_path);
+    } },
+    { id: "loc468_sill", name: "芋田晨露窗台", desc: "发现芋田晨露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc468);
+    } },
+    { id: "loc468_walker", name: "芋田晨露径旅人", desc: "走过芋田晨露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc468_path);
+    } },
+    { id: "loc469_sill", name: "芋田午影窗台", desc: "发现芋田午影", check: function (s) {
+      return !!(s.discovered && s.discovered.loc469);
+    } },
+    { id: "loc469_walker", name: "芋田午影径旅人", desc: "走过芋田午影短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc469_path);
+    } },
+    { id: "loc470_sill", name: "芋田暮香窗台", desc: "发现芋田暮香", check: function (s) {
+      return !!(s.discovered && s.discovered.loc470);
+    } },
+    { id: "loc470_walker", name: "芋田暮香径旅人", desc: "走过芋田暮香短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc470_path);
+    } },
+    { id: "loc471_sill", name: "芋田夜露窗台", desc: "发现芋田夜露", check: function (s) {
+      return !!(s.discovered && s.discovered.loc471);
+    } },
+    { id: "loc471_walker", name: "芋田夜露径旅人", desc: "走过芋田夜露短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc471_path);
+    } },
+    { id: "loc472_sill", name: "芋田晓风窗台", desc: "发现芋田晓风", check: function (s) {
+      return !!(s.discovered && s.discovered.loc472);
+    } },
+    { id: "loc472_walker", name: "芋田晓风径旅人", desc: "走过芋田晓风短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc472_path);
+    } },
+    { id: "loc473_sill", name: "芋田晚岚窗台", desc: "发现芋田晚岚", check: function (s) {
+      return !!(s.discovered && s.discovered.loc473);
+    } },
+    { id: "loc473_walker", name: "芋田晚岚径旅人", desc: "走过芋田晚岚短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc473_path);
+    } },
+    { id: "loc474_sill", name: "芋田细雨窗台", desc: "发现芋田细雨", check: function (s) {
+      return !!(s.discovered && s.discovered.loc474);
+    } },
+    { id: "loc474_walker", name: "芋田细雨径旅人", desc: "走过芋田细雨短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc474_path);
+    } },
+    { id: "loc475_sill", name: "芋田薄雾窗台", desc: "发现芋田薄雾", check: function (s) {
+      return !!(s.discovered && s.discovered.loc475);
+    } },
+    { id: "loc475_walker", name: "芋田薄雾径旅人", desc: "走过芋田薄雾短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc475_path);
+    } },
+    { id: "loc476_sill", name: "芋田暖阳窗台", desc: "发现芋田暖阳", check: function (s) {
+      return !!(s.discovered && s.discovered.loc476);
+    } },
+    { id: "loc476_walker", name: "芋田暖阳径旅人", desc: "走过芋田暖阳短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc476_path);
+    } },
+    { id: "loc477_sill", name: "芋田凉荫窗台", desc: "发现芋田凉荫", check: function (s) {
+      return !!(s.discovered && s.discovered.loc477);
+    } },
+    { id: "loc477_walker", name: "芋田凉荫径旅人", desc: "走过芋田凉荫短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc477_path);
+    } },
+    { id: "loc478_sill", name: "芋田清霜窗台", desc: "发现芋田清霜", check: function (s) {
+      return !!(s.discovered && s.discovered.loc478);
+    } },
+    { id: "loc478_walker", name: "芋田清霜径旅人", desc: "走过芋田清霜短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc478_path);
+    } },
+    { id: "loc479_sill", name: "芋田软雪窗台", desc: "发现芋田软雪", check: function (s) {
+      return !!(s.discovered && s.discovered.loc479);
+    } },
+    { id: "loc479_walker", name: "芋田软雪径旅人", desc: "走过芋田软雪短径", check: function (s) {
+      return !!(s._themesTouched && s._themesTouched.loc479_path);
+    } },
     { id: "path_catalog", name: "十路图鉴", desc: "切换过 10 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 10; } },
     { id: "path_ninety", name: "九十路图鉴", desc: "切换过 90 种小路主题", check: function (s) { return Object.keys(s._themesTouched || {}).length >= 90; } },
     { id: "flavor_pin", name: "调味架钉子", desc: "钉过 1 次风味", check: function (s) { return (s.stats && s.stats.flavorPins || 0) >= 1; } },
@@ -12841,7 +14801,7 @@
       score += 0.5;
       notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || flavorDef.id === "litchi" || flavorDef.id === "olive" || flavorDef.id === "mango" || flavorDef.id === "pineapple" || flavorDef.id === "coconut" || flavorDef.id === "starfruit" || flavorDef.id === "passion_fruit" || flavorDef.id === "kiwi" || flavorDef.id === "dragonfruit" || flavorDef.id === "guava" || flavorDef.id === "cherry" || flavorDef.id === "apricot" || flavorDef.id === "grapefruit" || flavorDef.id === "tangerine" || flavorDef.id === "wax_apple" || flavorDef.id === "sugarcane" || flavorDef.id === "lemon" || flavorDef.id === "lime" || flavorDef.id === "cranberry" || flavorDef.id === "elderberry" || flavorDef.id === "honeydew" || flavorDef.id === "watermelon" || flavorDef.id === "cantaloupe" || flavorDef.id === "papaya" || flavorDef.id === "rambutan" || flavorDef.id === "jackfruit" || flavorDef.id === "oregano" || flavorDef.id === "chive" || flavorDef.id === "parsley" || flavorDef.id === "avocado" || flavorDef.id === "chervil" || flavorDef.id === "sorrel" || flavorDef.id === "verbena" || flavorDef.id === "savory" || flavorDef.id === "celery_seed" || flavorDef.id === "galangal" || flavorDef.id === "kaffir_lime" || flavorDef.id === "pandan" || flavorDef.id === "juniper" || flavorDef.id === "sumac" || flavorDef.id === "nigella" || flavorDef.id === "mustard_seed" || flavorDef.id === "wasabi" || flavorDef.id === "dandelion" || flavorDef.id === "nettle" || flavorDef.id === "borage" || flavorDef.id === "hops" || flavorDef.id === "heather" || flavorDef.id === "arnica" || flavorDef.id === "echinacea" || flavorDef.id === "feverfew" || flavorDef.id === "lemon_verbena" || flavorDef.id === "mullein" || flavorDef.id === "plantain_leaf" || flavorDef.id === "bee_balm" || flavorDef.id === "marshmallow" || flavorDef.id === "goldenrod" || flavorDef.id === "red_clover" || flavorDef.id === "white_clover" || flavorDef.id === "catnip" || flavorDef.id === "tansy" || flavorDef.id === "agrimony" || flavorDef.id === "rue" || flavorDef.id === "costmary" || flavorDef.id === "elecampane" || flavorDef.id === "meadow_clary" || flavorDef.id === "soapwort" || flavorDef.id === "milfoil" || flavorDef.id === "lady_mantle" || flavorDef.id === "speedwell" || flavorDef.id === "stitchwort" || flavorDef.id === "campion" || flavorDef.id === "silverweed" || flavorDef.id === "loosestrife" || flavorDef.id === "willowherb" || flavorDef.id === "bedstraw" || flavorDef.id === "cleavers" || flavorDef.id === "bugle" || flavorDef.id === "primrose" || flavorDef.id === "cowslip" || flavorDef.id === "oxeye" || flavorDef.id === "knapweed" || flavorDef.id === "scabious" || flavorDef.id === "nettle_seed" || flavorDef.id === "rowan" || flavorDef.id === "crabapple" || flavorDef.id === "serviceberry" || flavorDef.id === "elderflower_fresh" || flavorDef.id === "meadowsweet_fresh" || flavorDef.id === "wood_sorrel" || flavorDef.id === "wild_garlic" || flavorDef.id === "ramsons" || flavorDef.id === "jack_by_hedge" || flavorDef.id === "hedge_mustard" || flavorDef.id === "watercress" || flavorDef.id === "brooklime" || flavorDef.id === "cloudberry" || flavorDef.id === "lingonberry" || flavorDef.id === "bilberry" || flavorDef.id === "gooseberry" || flavorDef.id === "currant_red" || flavorDef.id === "currant_black" || flavorDef.id === "whitecurrant" || flavorDef.id === "sea_buckthorn" || flavorDef.id === "damson" || flavorDef.id === "greengage" || flavorDef.id === "mirabelle" || flavorDef.id === "saskatoon" || flavorDef.id === "chokeberry" || flavorDef.id === "yarrow_white" || flavorDef.id === "achillea_pink" || flavorDef.id === "cornflower" || flavorDef.id === "poppy_seed" || flavorDef.id === "flax_flower" || flavorDef.id === "chia_seed" || flavorDef.id === "sunflower_seed" || flavorDef.id === "fennel_pollen" || flavorDef.id === "fennel_frond" || flavorDef.id === "dill_pollen" || flavorDef.id === "celery_leaf" || flavorDef.id === "rooibos" || flavorDef.id === "honeybush" || flavorDef.id === "yerba_mate" || flavorDef.id === "guayusa" || flavorDef.id === "gardenia" || flavorDef.id === "magnolia" || flavorDef.id === "frangipani" || flavorDef.id === "plumeria" || flavorDef.id === "stephanotis" || flavorDef.id === "garden_phlox" || flavorDef.id === "osmanthus_fresh" || flavorDef.id === "galangal_fresh" || flavorDef.id === "ginger_flower" || flavorDef.id === "turmeric_fresh" || flavorDef.id === "cubeb" || flavorDef.id === "makrut_leaf" || flavorDef.id === "curry_leaf" || flavorDef.id === "holy_basil" || flavorDef.id === "thai_basil" || flavorDef.id === "lemon_basil" || flavorDef.id === "rambutan_fresh" || flavorDef.id === "lychee_fresh" || flavorDef.id === "mangosteen" || flavorDef.id === "durian_flower" || flavorDef.id === "tamarind" || flavorDef.id === "calamansi" || flavorDef.id === "fig_fresh" || flavorDef.id === "pomegranate_seed" || flavorDef.id === "cactus_pear" || flavorDef.id === "prickly_pear" || flavorDef.id === "sapodilla" || flavorDef.id === "soursop" || flavorDef.id === "cherimoya" || flavorDef.id === "feijoa" || flavorDef.id === "loquat_fresh" || flavorDef.id === "jujube_fresh" || flavorDef.id === "mulberry_white" || flavorDef.id === "mulberry_black" || flavorDef.id === "elderberry_fresh" || flavorDef.id === "bergamot_fresh" || flavorDef.id === "sudachi" || flavorDef.id === "kabosu" || flavorDef.id === "amanatsu" || flavorDef.id === "shiso_green" || flavorDef.id === "shiso_red" || flavorDef.id === "mitsuba" || flavorDef.id === "myoga" || flavorDef.id === "wasabi_leaf" || flavorDef.id === "sansho" || flavorDef.id === "kinome" || flavorDef.id === "gentian" || flavorDef.id === "arnica_montana" || flavorDef.id === "alpine_strawberry" || flavorDef.id === "bilberry_leaf" || flavorDef.id === "spruce_tip" || flavorDef.id === "olive_leaf" || flavorDef.id === "caper" || flavorDef.id === "zaatar" || flavorDef.id === "sumac_berry" || flavorDef.id === "orange_blossom" || flavorDef.id === "lavender_honey" || flavorDef.id === "thyme_honey" || flavorDef.id === "acacia_honey" || flavorDef.id === "manuka" || flavorDef.id === "bee_pollen" || flavorDef.id === "comb_honey" || flavorDef.id === "linden_honey" || flavorDef.id === "heather_honey_wild" || flavorDef.id === "wildflower_honey" || flavorDef.id === "clover_honey" || flavorDef.id === "eucalyptus_honey" || flavorDef.id === "mesquite" || flavorDef.id === "lucuma" || flavorDef.id === "camu_camu" || flavorDef.id === "acai" || flavorDef.id === "maqui" || flavorDef.id === "goji_fresh" || flavorDef.id === "amla" || flavorDef.id === "baobab" || flavorDef.id === "morinda" || flavorDef.id === "noni" || flavorDef.id === "cupuacu" || flavorDef.id === "matcha_ceremonial" || flavorDef.id === "sencha" || flavorDef.id === "gyokuro" || flavorDef.id === "bancha" || flavorDef.id === "kukicha" || flavorDef.id === "mugicha" || flavorDef.id === "barley_grass" || flavorDef.id === "wheatgrass" || flavorDef.id === "spirulina" || flavorDef.id === "chlorella" || flavorDef.id === "kelp" || flavorDef.id === "nori" || flavorDef.id === "hibiscus_fresh" || flavorDef.id === "chrysanthemum_fresh" || flavorDef.id === "peony" || flavorDef.id === "lotus_leaf_fresh" || flavorDef.id === "osmanthus_sugar" || flavorDef.id === "orchid_petal" || flavorDef.id === "bamboo_leaf_fresh" || flavorDef.id === "bamboo_shoot_fresh" || flavorDef.id === "safflower" || flavorDef.id === "calendula_fresh" || flavorDef.id === "pot_marigold" || flavorDef.id === "coreopsis" || flavorDef.id === "cosmos" || flavorDef.id === "zinnia" || flavorDef.id === "dahlia" || flavorDef.id === "gladiolus" || flavorDef.id === "iris" || flavorDef.id === "tulip" || flavorDef.id === "ranunculus" || flavorDef.id === "sweet_pea" || flavorDef.id === "nasturtium" || flavorDef.id === "morning_glory" || flavorDef.id === "clematis" || flavorDef.id === "wisteria_fresh" || flavorDef.id === "jasmine_sambac" || flavorDef.id === "gardenia_tea" || flavorDef.id === "boysenberry" || flavorDef.id === "loganberry" || flavorDef.id === "tayberry" || flavorDef.id === "marionberry" || flavorDef.id === "wineberry" || flavorDef.id === "salmonberry" || flavorDef.id === "thimbleberry" || flavorDef.id === "cloudberry_leaf" || flavorDef.id === "lovage_fresh" || flavorDef.id === "sweet_cicely" || flavorDef.id === "ramsons_flower" || flavorDef.id === "sea_kale" || flavorDef.id === "scurvygrass" || flavorDef.id === "marsh_samphire" || flavorDef.id === "agave_nectar" || flavorDef.id === "prickly_pear_pad" || flavorDef.id === "jojoba" || flavorDef.id === "mesquite_pod" || flavorDef.id === "creosote" || flavorDef.id === "desert_sage" || flavorDef.id === "yucca_flower" || flavorDef.id === "yerba_santa" || flavorDef.id === "cedron" || flavorDef.id === "muña" || flavorDef.id === "coca_leaf_tea" || flavorDef.id === "guarana" || flavorDef.id === "stevia_leaf" || flavorDef.id === "rooibos_green" || flavorDef.id === "honeybush_fresh" || flavorDef.id === "buchu" || flavorDef.id === "baobab_leaf" || flavorDef.id === "marula" || flavorDef.id === "kinkeliba" || flavorDef.id === "hibiscus_sab" || flavorDef.id === "pandan_fresh" || flavorDef.id === "lemongrass_fresh" || flavorDef.id === "galangal_leaf" || flavorDef.id === "torch_ginger" || flavorDef.id === "butterfly_pea" || flavorDef.id === "chrysanthemum_ind" || flavorDef.id === "tamarind_leaf" || flavorDef.id === "coconut_flower" || flavorDef.id === "bergamot_leaf" || flavorDef.id === "neroli" || flavorDef.id === "petitgrain" || flavorDef.id === "immortelle" || flavorDef.id === "helichrysum" || flavorDef.id === "cistus" || flavorDef.id === "spruce_beer" || flavorDef.id === "fireweed" || flavorDef.id === "fireweed_honey" || flavorDef.id === "crowberry" || flavorDef.id === "bearberry" || flavorDef.id === "labrador_violet" || flavorDef.id === "matcha_salt" || flavorDef.id === "sansho_leaf" || flavorDef.id === "shiso_flower" || flavorDef.id === "sakura_leaf" || flavorDef.id === "lavender_sugar" || flavorDef.id === "rose_water" || flavorDef.id === "orange_flower_water" || flavorDef.id === "almond_blossom" || flavorDef.id === "chestnut_flower" || flavorDef.id === "maesil" || flavorDef.id === "persimmon_leaf" || flavorDef.id === "pine_flower" || flavorDef.id === "tulsi" || flavorDef.id === "neem_flower" || flavorDef.id === "curry_blossom" || flavorDef.id === "ajwain_leaf" || flavorDef.id === "fenugreek_leaf" || flavorDef.id === "moringa" || flavorDef.id === "gotu_kola" || flavorDef.id === "brahmi" || flavorDef.id === "hibiscus_rosa" || flavorDef.id === "allspice_berry" || flavorDef.id === "annatto" || flavorDef.id === "epazote" || flavorDef.id === "papalo" || flavorDef.id === "hoja_santa" || flavorDef.id === "mexican_oregano" || flavorDef.id === "chile_flower" || flavorDef.id === "noni_leaf" || flavorDef.id === "ti_leaf" || flavorDef.id === "frangipani_tea" || flavorDef.id === "soursop_leaf" || flavorDef.id === "guava_leaf" || flavorDef.id === "passion_leaf" || flavorDef.id === "vanilla_orchid" || flavorDef.id === "longjing" || flavorDef.id === "biluochun" || flavorDef.id === "puer_raw" || flavorDef.id === "white_peony_tea" || flavorDef.id === "valerian_flower" || flavorDef.id === "hops_flower" || flavorDef.id === "meadowsweet_flower" || flavorDef.id === "yarrow_flower" || flavorDef.id === "nettle_seed_tea" || flavorDef.id === "silver_birch" || flavorDef.id === "copper_beech" || flavorDef.id === "hornbeam" || flavorDef.id === "field_maple" || flavorDef.id === "wild_service" || flavorDef.id === "guelder_rose" || flavorDef.id === "wayfaring" || flavorDef.id === "dogwood" || flavorDef.id === "spindle" || flavorDef.id === "buckthorn" || flavorDef.id === "privet" || flavorDef.id === "boxwood" || flavorDef.id === "bluebell_fresh" || flavorDef.id === "primula_veris" || flavorDef.id === "oxlip" || flavorDef.id === "cowslip_fresh" || flavorDef.id === "wood_anemone" || flavorDef.id === "wood_sorrel_pink" || flavorDef.id === "greater_stitchwort" || flavorDef.id === "red_campion" || flavorDef.id === "white_campion" || flavorDef.id === "ragged_robin" || flavorDef.id === "cuckooflower" || flavorDef.id === "lady_smock" || flavorDef.id === "garlic_mustard_fl" || flavorDef.id === "hedge_garlic_seed" || flavorDef.id === "jack_hedge_leaf" || flavorDef.id === "wild_mustard" || flavorDef.id === "meadow_buttercup" || flavorDef.id === "creeping_buttercup" || flavorDef.id === "lesser_celandine" || flavorDef.id === "marsh_marigold" || flavorDef.id === "globe_flower" || flavorDef.id === "columbine" || flavorDef.id === "monkshood" || flavorDef.id === "larkspur" || flavorDef.id === "delphinium" || flavorDef.id === "pasque_flower" || flavorDef.id === "anemone_coronaria" || flavorDef.id === "hepatic" || flavorDef.id === "clematis_vitalba" || flavorDef.id === "speedwell_germander" || flavorDef.id === "germander" || flavorDef.id === "betony_fresh" || flavorDef.id === "selfheal_fresh" || flavorDef.id === "woundwort" || flavorDef.id === "hedge_woundwort" || flavorDef.id === "marsh_woundwort" || flavorDef.id === "motherwort_fresh" || flavorDef.id === "scutellaria" || flavorDef.id === "bugle_fresh" || flavorDef.id === "alehoof" || flavorDef.id === "clary_sage" || flavorDef.id === "pineapple_sage" || flavorDef.id === "fruit_sage" || flavorDef.id === "white_sage" || flavorDef.id === "russian_sage" || flavorDef.id === "meadow_clary_fresh" || flavorDef.id === "wood_sage" || flavorDef.id === "jerusalem_sage" || flavorDef.id === "catmint" || flavorDef.id === "catnip_fresh" || flavorDef.id === "hyssop_fresh" || flavorDef.id === "anise_hyssop" || flavorDef.id === "korean_mint" || flavorDef.id === "agastache" || flavorDef.id === "lavender_spike" || flavorDef.id === "lavender_sto" || flavorDef.id === "thyme_lemon" || flavorDef.id === "thyme_orange" || flavorDef.id === "thyme_caraway" || flavorDef.id === "thyme_woolly" || flavorDef.id === "creeping_thyme" || flavorDef.id === "oregano_greek" || flavorDef.id === "oregano_italian" || flavorDef.id === "marjoram_sweet" || flavorDef.id === "savory_summer" || flavorDef.id === "basil_genovese" || flavorDef.id === "basil_cinnamon" || flavorDef.id === "basil_purple" || flavorDef.id === "basil_lettuce" || flavorDef.id === "mint_peppermint" || flavorDef.id === "mint_spearmint" || flavorDef.id === "mint_chocolate" || flavorDef.id === "mint_apple" || flavorDef.id === "mint_ginger" || flavorDef.id === "mint_orange" || flavorDef.id === "mint_lavender" || flavorDef.id === "mint_bergamot" || flavorDef.id === "mint_corsican" || flavorDef.id === "mint_water" || flavorDef.id === "melissa_fresh" || flavorDef.id === "lemon_balm_var" || flavorDef.id === "bee_balm_pink" || flavorDef.id === "bee_balm_purple" || flavorDef.id === "oregano_hop" || flavorDef.id === "dittany" || flavorDef.id === "dictamnus" || flavorDef.id === "burning_bush" || flavorDef.id === "chamomile_roman" || flavorDef.id === "chamomile_german" || flavorDef.id === "feverfew_fresh" || flavorDef.id === "tansy_fresh" || flavorDef.id === "yarrow_pink" || flavorDef.id === "yarrow_gold" || flavorDef.id === "arnica_fresh" || flavorDef.id === "calendula_offic" || flavorDef.id === "pot_marigold_dbl" || flavorDef.id === "tagetes" || flavorDef.id === "marigold_french" || flavorDef.id === "signet_marigold" || flavorDef.id === "costmary_fresh" || flavorDef.id === "elecampane_fresh" || flavorDef.id === "inula" || flavorDef.id === "eupatorium" || flavorDef.id === "echinacea_purp" || flavorDef.id === "echinacea_ang" || flavorDef.id === "echinacea_pall" || flavorDef.id === "rudbeckia" || flavorDef.id === "black_eyed_susan" || flavorDef.id === "coneflower_yellow" || flavorDef.id === "helenium" || flavorDef.id === "helenium_autumn" || flavorDef.id === "coreopsis_lance" || flavorDef.id === "coreopsis_tick" || flavorDef.id === "gaillardia" || flavorDef.id === "gaillardia_fan" || flavorDef.id === "ratibida" || flavorDef.id === "silphium" || flavorDef.id === "cup_plant" || flavorDef.id === "compass_plant" || flavorDef.id === "aster_novae" || flavorDef.id === "aster_novi" || flavorDef.id === "michaelmas" || flavorDef.id === "goldenrod_fresh" || flavorDef.id === "solidago" || flavorDef.id === "boltonia" || flavorDef.id === "erigeron" || flavorDef.id === "fleabane" || flavorDef.id === "daisy_oxeye" || flavorDef.id === "daisy_english" || flavorDef.id === "daisy_shasta" || flavorDef.id === "chrysanthemum_ind_fresh" || flavorDef.id === "chrysanthemum_mor" || flavorDef.id === "chrysanthemum_yej" || flavorDef.id === "tanacetum" || flavorDef.id === "pyrethrum" || flavorDef.id === "sunflower_dwarf" || flavorDef.id === "sunflower_multi" || flavorDef.id === "sunflower_red" || flavorDef.id === "sunchoke_flower" || flavorDef.id === "dahlia_cactus" || flavorDef.id === "dahlia_pompom" || flavorDef.id === "zinnia_dwarf" || flavorDef.id === "zinnia_cactus" || flavorDef.id === "cosmos_sulph" || flavorDef.id === "cosmos_choco" || flavorDef.id === "tithonia" || flavorDef.id === "mexican_sunflower" || flavorDef.id === "heliopsis" || flavorDef.id === "inula_helenium" || flavorDef.id === "verbena_bon" || flavorDef.id === "verbena_rig" || flavorDef.id === "lantana" || flavorDef.id === "lantana_white" || flavorDef.id === "phlox_pan" || flavorDef.id === "phlox_sub" || flavorDef.id === "phlox_drum" || flavorDef.id === "dianthus_chin" || flavorDef.id === "dianthus_barb" || flavorDef.id === "sweet_william" || flavorDef.id === "carnation" || flavorDef.id === "pinks" || flavorDef.id === "gypsophila" || flavorDef.id === "baby_breath" || flavorDef.id === "saponaria" || flavorDef.id === "soapwort_fresh" || flavorDef.id === "campanula" || flavorDef.id === "campanula_med" || flavorDef.id === "lobelia" || flavorDef.id === "lobelia_card" || flavorDef.id === "penstemon" || flavorDef.id === "penstemon_fox" || flavorDef.id === "digitalis" || flavorDef.id === "digitalis_lutea" || flavorDef.id === "snapdragon" || flavorDef.id === "snapdragon_dwarf" || flavorDef.id === "antirrhinum" || flavorDef.id === "linaria" || flavorDef.id === "toadflax" || flavorDef.id === "verbascum_chaix" || flavorDef.id === "mullein_white" || flavorDef.id === "mimulus" || flavorDef.id === "monkeyflower" || flavorDef.id === "collinsia" || flavorDef.id === "castilleja" || flavorDef.id === "paintbrush" || flavorDef.id === "orthocarpus" || flavorDef.id === "pedicularis" || flavorDef.id === "lousewort" || flavorDef.id === "euphrasia" || flavorDef.id === "eyebright" || flavorDef.id === "rhinanthus" || flavorDef.id === "yellow_rattle" || flavorDef.id === "melampyrum" || flavorDef.id === "cow_wheat" || flavorDef.id === "bartisia" || flavorDef.id === "cattleya" || flavorDef.id === "dendrobium" || flavorDef.id === "phalaenopsis" || flavorDef.id === "oncidium" || flavorDef.id === "vanda" || flavorDef.id === "paphiopedilum" || flavorDef.id === "miltonia" || flavorDef.id === "odontoglossum" || flavorDef.id === "brassia" || flavorDef.id === "epidendrum" || flavorDef.id === "ludisia" || flavorDef.id === "anoectochilus" || flavorDef.id === "gastrodia" || flavorDef.id === "bletilla" || flavorDef.id === "calanthe" || flavorDef.id === "boston_fern" || flavorDef.id === "bird_nest_fern" || flavorDef.id === "staghorn" || flavorDef.id === "holly_fern" || flavorDef.id === "autumn_fern" || flavorDef.id === "ostrich_fern" || flavorDef.id === "cinnamon_fern" || flavorDef.id === "bracken_tip" || flavorDef.id === "adder_tongue" || flavorDef.id === "miscanthus" || flavorDef.id === "pampas" || flavorDef.id === "fountain_grass" || flavorDef.id === "japanese_forest" || flavorDef.id === "carex_morrow" || flavorDef.id === "scirpus" || flavorDef.id === "typha_pollen" || flavorDef.id === "phragmites" || flavorDef.id === "bamboo_black" || flavorDef.id === "bamboo_golden" || flavorDef.id === "echeveria" || flavorDef.id === "sedum_morgan" || flavorDef.id === "sedum_spect" || flavorDef.id === "sempervivum" || flavorDef.id === "aeonium" || flavorDef.id === "crassula" || flavorDef.id === "kalanchoe" || flavorDef.id === "haworthia" || flavorDef.id === "agave_flower" || flavorDef.id === "yucca_filament" || flavorDef.id === "sansevieria" || flavorDef.id === "jade_plant" || flavorDef.id === "panda_plant" || flavorDef.id === "boysen_leaf" || flavorDef.id === "logan_leaf" || flavorDef.id === "tay_leaf" || flavorDef.id === "marion_leaf" || flavorDef.id === "wine_leaf" || flavorDef.id === "salmon_leaf" || flavorDef.id === "thimble_leaf" || flavorDef.id === "cloud_flower" || flavorDef.id === "huckleberry" || flavorDef.id === "huckle_leaf" || flavorDef.id === "salal" || flavorDef.id === "salal_leaf" || flavorDef.id === "oregon_grape" || flavorDef.id === "mahonia" || flavorDef.id === "barberry_red" || flavorDef.id === "barberry_leaf" || flavorDef.id === "currant_flower" || flavorDef.id === "goose_flower" || flavorDef.id === "josta" || flavorDef.id === "worcesterberry" || flavorDef.id === "juneberry" || flavorDef.id === "shadbush" || flavorDef.id === "chokecherry" || flavorDef.id === "bird_cherry" || flavorDef.id === "pin_cherry" || flavorDef.id === "sand_cherry" || flavorDef.id === "nanking_cherry" || flavorDef.id === "cornelian" || flavorDef.id === "honeyberry" || flavorDef.id === "hascap" || flavorDef.id === "clematis_arm" || flavorDef.id === "clematis_mon" || flavorDef.id === "clematis_tang" || flavorDef.id === "clematis_ori" || flavorDef.id === "akibia" || flavorDef.id === "akebia_flower" || flavorDef.id === "kiwi_hardy" || flavorDef.id === "kiwi_flower" || flavorDef.id === "actinidia" || flavorDef.id === "silver_vine" || flavorDef.id === "hop_fresh" || flavorDef.id === "hop_leaf" || flavorDef.id === "humulus" || flavorDef.id === "japanese_hop" || flavorDef.id === "grape_leaf_fresh" || flavorDef.id === "vine_tendril" || flavorDef.id === "muscadine" || flavorDef.id === "scuppernong" || flavorDef.id === "passiflora_inc" || flavorDef.id === "passiflora_cae" || flavorDef.id === "passiflora_ed" || flavorDef.id === "maypop" || flavorDef.id === "morning_glory_red" || flavorDef.id === "morning_glory_blue" || flavorDef.id === "ipomoea_bat" || flavorDef.id === "moonvine" || flavorDef.id === "cypress_vine" || flavorDef.id === "cardinal_climber" || flavorDef.id === "black_eyed_susan_vine" || flavorDef.id === "thunbergia" || flavorDef.id === "sweet_potato_leaf" || flavorDef.id === "dioscorea" || flavorDef.id === "luffa_flower" || flavorDef.id === "luffa_leaf" || flavorDef.id === "bitter_melon_fl" || flavorDef.id === "bitter_melon_leaf" || flavorDef.id === "squash_blossom" || flavorDef.id === "zucchini_flower" || flavorDef.id === "cucumber_flower" || flavorDef.id === "melon_flower" || flavorDef.id === "okra_flower" || flavorDef.id === "okra_leaf" || flavorDef.id === "hibiscus_escul" || flavorDef.id === "roselle_fresh" || flavorDef.id === "cotton_flower" || flavorDef.id === "cotton_leaf" || flavorDef.id === "kenaf" || flavorDef.id === "jute_leaf" || flavorDef.id === "flax_blue" || flavorDef.id === "flax_red" || flavorDef.id === "hemp_flower" || flavorDef.id === "nettle_fresh" || flavorDef.id === "dead_nettle" || flavorDef.id === "purple_dead_nettle" || flavorDef.id === "henbit" || flavorDef.id === "lamium" || flavorDef.id === "galeopsis" || flavorDef.id === "stachys_byz" || flavorDef.id === "alpine_rosemary" || flavorDef.id === "alpine_marjoram" || flavorDef.id === "alpine_chive" || flavorDef.id === "alpine_cilantro" || flavorDef.id === "alpine_dill" || flavorDef.id === "alpine_lovage" || flavorDef.id === "alpine_sorrel" || flavorDef.id === "coastal_thyme" || flavorDef.id === "coastal_sage" || flavorDef.id === "coastal_oregano" || flavorDef.id === "coastal_basil" || flavorDef.id === "coastal_mint" || flavorDef.id === "coastal_lavender" || flavorDef.id === "coastal_marjoram" || flavorDef.id === "coastal_tarragon" || flavorDef.id === "coastal_chive" || flavorDef.id === "coastal_parsley" || flavorDef.id === "coastal_cilantro" || flavorDef.id === "coastal_dill" || flavorDef.id === "coastal_sorrel" || flavorDef.id === "meadow_thyme" || flavorDef.id === "meadow_sage" || flavorDef.id === "meadow_oregano" || flavorDef.id === "meadow_basil" || flavorDef.id === "meadow_mint" || flavorDef.id === "meadow_lavender" || flavorDef.id === "meadow_marjoram" || flavorDef.id === "meadow_tarragon" || flavorDef.id === "meadow_chive" || flavorDef.id === "meadow_parsley" || flavorDef.id === "meadow_cilantro" || flavorDef.id === "meadow_dill" || flavorDef.id === "meadow_sorrel" || flavorDef.id === "woodland_thyme" || flavorDef.id === "woodland_sage" || flavorDef.id === "woodland_oregano" || flavorDef.id === "woodland_basil" || flavorDef.id === "woodland_mint" || flavorDef.id === "woodland_lavender" || flavorDef.id === "woodland_marjoram" || flavorDef.id === "woodland_tarragon" || flavorDef.id === "woodland_chive" || flavorDef.id === "woodland_parsley" || flavorDef.id === "woodland_cilantro" || flavorDef.id === "woodland_dill" || flavorDef.id === "woodland_fennel" || flavorDef.id === "woodland_lovage" || flavorDef.id === "woodland_sorrel" || flavorDef.id === "garden_thyme" || flavorDef.id === "garden_sage" || flavorDef.id === "garden_oregano" || flavorDef.id === "garden_basil" || flavorDef.id === "garden_mint" || flavorDef.id === "garden_lavender" || flavorDef.id === "garden_marjoram" || flavorDef.id === "garden_tarragon" || flavorDef.id === "garden_chive" || flavorDef.id === "garden_parsley" || flavorDef.id === "garden_cilantro" || flavorDef.id === "garden_dill" || flavorDef.id === "garden_fennel" || flavorDef.id === "garden_lovage" || flavorDef.id === "garden_sorrel" || flavorDef.id === "wild_thyme" || flavorDef.id === "wild_sage" || flavorDef.id === "wild_oregano" || flavorDef.id === "wild_basil" || flavorDef.id === "wild_mint" || flavorDef.id === "wild_lavender" || flavorDef.id === "wild_rosemary" || flavorDef.id === "wild_marjoram" || flavorDef.id === "wild_tarragon" || flavorDef.id === "wild_chive" || flavorDef.id === "wild_parsley" || flavorDef.id === "wild_cilantro" || flavorDef.id === "wild_dill" || flavorDef.id === "wild_fennel" || flavorDef.id === "wild_lovage" || flavorDef.id === "wild_sorrel" || flavorDef.id === "dwarf_thyme" || flavorDef.id === "dwarf_sage" || flavorDef.id === "dwarf_oregano" || flavorDef.id === "dwarf_basil" || flavorDef.id === "dwarf_mint" || flavorDef.id === "dwarf_lavender" || flavorDef.id === "dwarf_marjoram" || flavorDef.id === "dwarf_chive" || flavorDef.id === "dwarf_parsley" || flavorDef.id === "dwarf_cilantro" || flavorDef.id === "dwarf_dill" || flavorDef.id === "dwarf_fennel" || flavorDef.id === "dwarf_lovage" || flavorDef.id === "dwarf_sorrel" || flavorDef.id === "giant_oregano" || flavorDef.id === "giant_basil" || flavorDef.id === "giant_marjoram" || flavorDef.id === "giant_tarragon" || flavorDef.id === "giant_chive" || flavorDef.id === "giant_parsley" || flavorDef.id === "giant_cilantro" || flavorDef.id === "giant_dill" || flavorDef.id === "giant_lovage" || flavorDef.id === "giant_sorrel" || flavorDef.id === "variegated_thyme" || flavorDef.id === "variegated_oregano" || flavorDef.id === "variegated_basil" || flavorDef.id === "variegated_mint" || flavorDef.id === "variegated_lavender" || flavorDef.id === "variegated_marjoram" || flavorDef.id === "variegated_chive" || flavorDef.id === "variegated_parsley" || flavorDef.id === "variegated_cilantro" || flavorDef.id === "variegated_dill" || flavorDef.id === "variegated_sorrel" || flavorDef.id === "golden_thyme" || flavorDef.id === "golden_oregano" || flavorDef.id === "golden_basil" || flavorDef.id === "golden_mint" || flavorDef.id === "golden_lavender" || flavorDef.id === "golden_marjoram" || flavorDef.id === "golden_chive" || flavorDef.id === "golden_parsley" || flavorDef.id === "golden_cilantro" || flavorDef.id === "golden_dill" || flavorDef.id === "golden_sorrel" || flavorDef.id === "silver_thyme" || flavorDef.id === "silver_oregano" || flavorDef.id === "silver_basil" || flavorDef.id === "silver_mint" || flavorDef.id === "silver_lavender" || flavorDef.id === "silver_marjoram" || flavorDef.id === "silver_chive" || flavorDef.id === "silver_parsley" || flavorDef.id === "silver_cilantro" || flavorDef.id === "silver_dill" || flavorDef.id === "silver_sorrel" || flavorDef.id === "purple_thyme" || flavorDef.id === "purple_oregano" || flavorDef.id === "purple_basil" || flavorDef.id === "purple_mint" || flavorDef.id === "purple_lavender" || flavorDef.id === "purple_marjoram" || flavorDef.id === "purple_chive" || flavorDef.id === "purple_parsley" || flavorDef.id === "purple_cilantro" || flavorDef.id === "purple_dill" || flavorDef.id === "purple_sorrel" || flavorDef.id === "red_thyme" || flavorDef.id === "red_oregano" || flavorDef.id === "red_basil" || flavorDef.id === "red_mint" || flavorDef.id === "red_lavender" || flavorDef.id === "red_marjoram" || flavorDef.id === "red_chive" || flavorDef.id === "red_parsley" || flavorDef.id === "red_cilantro" || flavorDef.id === "red_dill" || flavorDef.id === "red_sorrel" || flavorDef.id === "white_thyme" || flavorDef.id === "white_oregano" || flavorDef.id === "white_basil" || flavorDef.id === "white_mint" || flavorDef.id === "white_lavender" || flavorDef.id === "white_marjoram" || flavorDef.id === "white_chive" || flavorDef.id === "white_parsley" || flavorDef.id === "white_cilantro" || flavorDef.id === "white_dill" || flavorDef.id === "white_sorrel" || flavorDef.id === "pink_thyme" || flavorDef.id === "pink_oregano" || flavorDef.id === "pink_basil" || flavorDef.id === "pink_mint" || flavorDef.id === "pink_lavender" || flavorDef.id === "pink_marjoram" || flavorDef.id === "pink_chive" || flavorDef.id === "pink_parsley" || flavorDef.id === "pink_cilantro" || flavorDef.id === "pink_dill" || flavorDef.id === "pink_sorrel" || flavorDef.id === "blue_thyme" || flavorDef.id === "blue_oregano" || flavorDef.id === "blue_basil" || flavorDef.id === "blue_mint" || flavorDef.id === "blue_lavender" || flavorDef.id === "blue_marjoram" || flavorDef.id === "blue_chive" || flavorDef.id === "blue_parsley" || flavorDef.id === "blue_cilantro" || flavorDef.id === "blue_dill" || flavorDef.id === "blue_sorrel" || flavorDef.id === "yellow_thyme" || flavorDef.id === "yellow_oregano" || flavorDef.id === "yellow_basil" || flavorDef.id === "yellow_mint" || flavorDef.id === "yellow_lavender" || flavorDef.id === "yellow_marjoram" || flavorDef.id === "yellow_chive" || flavorDef.id === "yellow_parsley" || flavorDef.id === "yellow_cilantro" || flavorDef.id === "yellow_dill" || flavorDef.id === "yellow_sorrel" || flavorDef.id === "orange_thyme" || flavorDef.id === "orange_oregano" || flavorDef.id === "orange_basil" || flavorDef.id === "orange_mint" || flavorDef.id === "orange_lavender" || flavorDef.id === "orange_marjoram" || flavorDef.id === "orange_chive" || flavorDef.id === "orange_parsley" || flavorDef.id === "orange_cilantro" || flavorDef.id === "orange_dill" || flavorDef.id === "orange_sorrel" || flavorDef.id === "fragrant_thyme" || flavorDef.id === "fragrant_sage" || flavorDef.id === "fragrant_oregano" || flavorDef.id === "fragrant_basil" || flavorDef.id === "fragrant_mint" || flavorDef.id === "fragrant_lavender" || flavorDef.id === "fragrant_rosemary" || flavorDef.id === "fragrant_marjoram" || flavorDef.id === "fragrant_tarragon" || flavorDef.id === "fragrant_chive" || flavorDef.id === "fragrant_parsley" || flavorDef.id === "fragrant_cilantro" || flavorDef.id === "fragrant_dill" || flavorDef.id === "fragrant_fennel" || flavorDef.id === "fragrant_lovage" || flavorDef.id === "fragrant_sorrel" || flavorDef.id === "edible_thyme" || flavorDef.id === "edible_sage" || flavorDef.id === "edible_oregano" || flavorDef.id === "edible_basil" || flavorDef.id === "edible_mint" || flavorDef.id === "edible_lavender" || flavorDef.id === "edible_rosemary" || flavorDef.id === "edible_marjoram" || flavorDef.id === "edible_tarragon" || flavorDef.id === "edible_chive" || flavorDef.id === "edible_parsley" || flavorDef.id === "edible_cilantro" || flavorDef.id === "edible_dill" || flavorDef.id === "edible_fennel" || flavorDef.id === "edible_lovage" || flavorDef.id === "edible_sorrel" || flavorDef.id === "apple_blossom" || flavorDef.id === "pear_blossom" || flavorDef.id === "peach_blossom" || flavorDef.id === "plum_blossom_fresh" || flavorDef.id === "cherry_blossom" || flavorDef.id === "apricot_blossom" || flavorDef.id === "quince_blossom" || flavorDef.id === "medlar_blossom" || flavorDef.id === "mulberry_flower" || flavorDef.id === "fig_leaf" || flavorDef.id === "pomegranate_flower" || flavorDef.id === "persimmon_flower" || flavorDef.id === "walnut_flower" || flavorDef.id === "hazel_catkin" || flavorDef.id === "chestnut_catkin" || flavorDef.id === "almond_fresh_bl" || flavorDef.id === "pistachio_flower" || flavorDef.id === "pecan_flower" || flavorDef.id === "macadamia_flower" || flavorDef.id === "cashew_flower" || flavorDef.id === "brazil_nut_fl" || flavorDef.id === "coconut_inflo" || flavorDef.id === "date_flower" || flavorDef.id === "olive_flower" || flavorDef.id === "avocado_flower" || flavorDef.id === "mango_flower" || flavorDef.id === "lychee_flower" || flavorDef.id === "longan_flower" || flavorDef.id === "rambutan_flower" || flavorDef.id === "mangosteen_flower" || flavorDef.id === "guava_flower" || flavorDef.id === "papaya_flower" || flavorDef.id === "pineapple_flower" || flavorDef.id === "banana_flower" || flavorDef.id === "plantain_flower" || flavorDef.id === "breadfruit_fl" || flavorDef.id === "jackfruit_fl" || flavorDef.id === "durian_fresh_fl" || flavorDef.id === "soursop_fl" || flavorDef.id === "cherimoya_fl" || flavorDef.id === "custard_apple_fl" || flavorDef.id === "r1_e58c97e5a283" || flavorDef.id === "r2_e58c97e5a283" || flavorDef.id === "r3_e58c97e5a283" || flavorDef.id === "r4_e58c97e5a283" || flavorDef.id === "r6_e58c97e5a283" || flavorDef.id === "r7_e58c97e5a283" || flavorDef.id === "r8_e58c97e5a283" || flavorDef.id === "r9_e58c97e5a283" || flavorDef.id === "r11_e58c97e5a283" || flavorDef.id === "r12_e58c97e5a283" || flavorDef.id === "r13_e58c97e5a283" || flavorDef.id === "r14_e58c97e5a283" || flavorDef.id === "r16_e58c97e5a283" || flavorDef.id === "r17_e58c97e5a283" || flavorDef.id === "r18_e58c97e5a283" || flavorDef.id === "r19_e58c97e5a283" || flavorDef.id === "r21_e58c97e5a283" || flavorDef.id === "r22_e58c97e5a283" || flavorDef.id === "r23_e58c97e5a283" || flavorDef.id === "r24_e58c97e5a283" || flavorDef.id === "r26_e58c97e5a283" || flavorDef.id === "r27_e58c97e5a283" || flavorDef.id === "r28_e58c97e5a283" || flavorDef.id === "r29_e58c97e5a283" || flavorDef.id === "r31_e58c97e5a283" || flavorDef.id === "r32_e58c97e5a283" || flavorDef.id === "r33_e58c97e5a283" || flavorDef.id === "r34_e58c97e5a283" || flavorDef.id === "r36_e58c97e5a283" || flavorDef.id === "r37_e58c97e5a283" || flavorDef.id === "r38_e58c97e5a283" || flavorDef.id === "r39_e58c97e5a283" || flavorDef.id === "r41_e58c97e5a283" || flavorDef.id === "r42_e58c97e5a283" || flavorDef.id === "r43_e58c97e5a283" || flavorDef.id === "r44_e58c97e5a283" || flavorDef.id === "r46_e58c97e5a283" || flavorDef.id === "r47_e58c97e5a283" || flavorDef.id === "r48_e58c97e5a283" || flavorDef.id === "r49_e58c97e5a283" || flavorDef.id === "r51_e58c97e5a283" || flavorDef.id === "r52_e58c97e5a283" || flavorDef.id === "r53_e58c97e5a283" || flavorDef.id === "r54_e58c97e5a283" || flavorDef.id === "r56_e58c97e5a283" || flavorDef.id === "r57_e58c97e5a283" || flavorDef.id === "r58_e58c97e5a283" || flavorDef.id === "r59_e58c97e5a283" || flavorDef.id === "r61_e58c97e5a283" || flavorDef.id === "r62_e58c97e5a283" || flavorDef.id === "r63_e58c97e5a283" || flavorDef.id === "r64_e58c97e5a283" || flavorDef.id === "r66_e58c97e5a283" || flavorDef.id === "r67_e58c97e5a283" || flavorDef.id === "r68_e58c97e5a283" || flavorDef.id === "r69_e58c97e5a283" || flavorDef.id === "r71_e58c97e5a283" || flavorDef.id === "r72_e58c97e5a283" || flavorDef.id === "r73_e58c97e5a283" || flavorDef.id === "r74_e58c97e5a283" || flavorDef.id === "r76_e58c97e5a283" || flavorDef.id === "r77_e58c97e5a283" || flavorDef.id === "r78_e58c97e5a283" || flavorDef.id === "r79_e58c97e5a283" || flavorDef.id === "r81_e58c97e5a283" || flavorDef.id === "r82_e58c97e5a283" || flavorDef.id === "r83_e58c97e5a283" || flavorDef.id === "r84_e58c97e5a283" || flavorDef.id === "r86_e58c97e5a283" || flavorDef.id === "r87_e58c97e5a283" || flavorDef.id === "r88_e58c97e5a283" || flavorDef.id === "r89_e58c97e5a283" || flavorDef.id === "r91_e58c97e5a283" || flavorDef.id === "r92_e58c97e5a283" || flavorDef.id === "r93_e58c97e5a283" || flavorDef.id === "r94_e58c97e5a283" || flavorDef.id === "r96_e58c97e5a283" || flavorDef.id === "r97_e58c97e5a283" || flavorDef.id === "r98_e58c97e5a283" || flavorDef.id === "r99_e58c97e5a283" || flavorDef.id === "r101_e58c97e5a283" || flavorDef.id === "r102_e58c97e5a283" || flavorDef.id === "r103_e58c97e5a283" || flavorDef.id === "r104_e58d97e5a283" || flavorDef.id === "r106_e58d97e5a283" || flavorDef.id === "r107_e58d97e5a283" || flavorDef.id === "r108_e58d97e5a283" || flavorDef.id === "r109_e58d97e5a283" || flavorDef.id === "r111_e58d97e5a283" || flavorDef.id === "r112_e58d97e5a283" || flavorDef.id === "r113_e58d97e5a283" || flavorDef.id === "r114_e58d97e5a283" || flavorDef.id === "r116_e58d97e5a283" || flavorDef.id === "r117_e58d97e5a283" || flavorDef.id === "r118_e58d97e5a283" || flavorDef.id === "r119_e58d97e5a283" || flavorDef.id === "r121_e58d97e5a283" || flavorDef.id === "r122_e58d97e5a283" || flavorDef.id === "r123_e58d97e5a283" || flavorDef.id === "r124_e58d97e5a283" || flavorDef.id === "r126_e58d97e5a283" || flavorDef.id === "r127_e58d97e5a283" || flavorDef.id === "r128_e58d97e5a283" || flavorDef.id === "r129_e58d97e5a283" || flavorDef.id === "r131_e58d97e5a283" || flavorDef.id === "r132_e58d97e5a283" || flavorDef.id === "r133_e58d97e5a283" || flavorDef.id === "r134_e58d97e5a283" || flavorDef.id === "r136_e58d97e5a283" || flavorDef.id === "r137_e58d97e5a283" || flavorDef.id === "r138_e58d97e5a283" || flavorDef.id === "r139_e58d97e5a283" || flavorDef.id === "r141_e58d97e5a283" || flavorDef.id === "r142_e58d97e5a283" || flavorDef.id === "r143_e58d97e5a283" || flavorDef.id === "r144_e58d97e5a283" || flavorDef.id === "r146_e58d97e5a283" || flavorDef.id === "r147_e58d97e5a283" || flavorDef.id === "r148_e58d97e5a283" || flavorDef.id === "r149_e58d97e5a283" || flavorDef.id === "r151_e58d97e5a283" || flavorDef.id === "r152_e58d97e5a283" || flavorDef.id === "r153_e58d97e5a283" || flavorDef.id === "r154_e58d97e5a283" || flavorDef.id === "r156_e58d97e5a283" || flavorDef.id === "r157_e58d97e5a283" || flavorDef.id === "r158_e58d97e5a283" || flavorDef.id === "r159_e58d97e5a283" || flavorDef.id === "r161_e58d97e5a283" || flavorDef.id === "r162_e58d97e5a283" || flavorDef.id === "r163_e58d97e5a283" || flavorDef.id === "r164_e58d97e5a283" || flavorDef.id === "r166_e58d97e5a283" || flavorDef.id === "r167_e58d97e5a283" || flavorDef.id === "r168_e58d97e5a283" || flavorDef.id === "r169_e58d97e5a283" || flavorDef.id === "r171_e58d97e5a283" || flavorDef.id === "r172_e58d97e5a283" || flavorDef.id === "r173_e58d97e5a283" || flavorDef.id === "r174_e58d97e5a283" || flavorDef.id === "r176_e58d97e5a283" || flavorDef.id === "r177_e58d97e5a283" || flavorDef.id === "r178_e58d97e5a283" || flavorDef.id === "r179_e58d97e5a283" || flavorDef.id === "r181_e58d97e5a283" || flavorDef.id === "r182_e58d97e5a283" || flavorDef.id === "r183_e58d97e5a283" || flavorDef.id === "r184_e58d97e5a283" || flavorDef.id === "r186_e58d97e5a283" || flavorDef.id === "r187_e58d97e5a283" || flavorDef.id === "r188_e58d97e5a283" || flavorDef.id === "r189_e58d97e5a283" || flavorDef.id === "r191_e58d97e5a283" || flavorDef.id === "r192_e58d97e5a283" || flavorDef.id === "r193_e58d97e5a283" || flavorDef.id === "r194_e58d97e5a283" || flavorDef.id === "r196_e58d97e5a283" || flavorDef.id === "r197_e58d97e5a283" || flavorDef.id === "r198_e58d97e5a283" || flavorDef.id === "r199_e58d97e5a283" || flavorDef.id === "loc1" || flavorDef.id === "loc2" || flavorDef.id === "loc3" || flavorDef.id === "loc5" || flavorDef.id === "loc6" || flavorDef.id === "loc7" || flavorDef.id === "loc9" || flavorDef.id === "loc10" || flavorDef.id === "loc11" || flavorDef.id === "loc13" || flavorDef.id === "loc14" || flavorDef.id === "loc15" || flavorDef.id === "loc17" || flavorDef.id === "loc18" || flavorDef.id === "loc19" || flavorDef.id === "loc21" || flavorDef.id === "loc22" || flavorDef.id === "loc23" || flavorDef.id === "loc25" || flavorDef.id === "loc26" || flavorDef.id === "loc27" || flavorDef.id === "loc29" || flavorDef.id === "loc30" || flavorDef.id === "loc31" || flavorDef.id === "loc33" || flavorDef.id === "loc34" || flavorDef.id === "loc35" || flavorDef.id === "loc37" || flavorDef.id === "loc38" || flavorDef.id === "loc39" || flavorDef.id === "loc41" || flavorDef.id === "loc42" || flavorDef.id === "loc43" || flavorDef.id === "loc45" || flavorDef.id === "loc46" || flavorDef.id === "loc47" || flavorDef.id === "loc49" || flavorDef.id === "loc50" || flavorDef.id === "loc51" || flavorDef.id === "loc53" || flavorDef.id === "loc54" || flavorDef.id === "loc55" || flavorDef.id === "loc57" || flavorDef.id === "loc58" || flavorDef.id === "loc59" || flavorDef.id === "loc61" || flavorDef.id === "loc62" || flavorDef.id === "loc63" || flavorDef.id === "loc65" || flavorDef.id === "loc66" || flavorDef.id === "loc67" || flavorDef.id === "loc69" || flavorDef.id === "loc70" || flavorDef.id === "loc71" || flavorDef.id === "loc73" || flavorDef.id === "loc74" || flavorDef.id === "loc75" || flavorDef.id === "loc77" || flavorDef.id === "loc78" || flavorDef.id === "loc79" || flavorDef.id === "loc81" || flavorDef.id === "loc82" || flavorDef.id === "loc83" || flavorDef.id === "loc85" || flavorDef.id === "loc86" || flavorDef.id === "loc87" || flavorDef.id === "loc89" || flavorDef.id === "loc90" || flavorDef.id === "loc91" || flavorDef.id === "loc93" || flavorDef.id === "loc94" || flavorDef.id === "loc95" || flavorDef.id === "loc97" || flavorDef.id === "loc98" || flavorDef.id === "loc99" || flavorDef.id === "loc101" || flavorDef.id === "loc102" || flavorDef.id === "loc103" || flavorDef.id === "loc105" || flavorDef.id === "loc106" || flavorDef.id === "loc107" || flavorDef.id === "loc109" || flavorDef.id === "loc110" || flavorDef.id === "loc111" || flavorDef.id === "loc113" || flavorDef.id === "loc114" || flavorDef.id === "loc115" || flavorDef.id === "loc117" || flavorDef.id === "loc118" || flavorDef.id === "loc119" || flavorDef.id === "loc121" || flavorDef.id === "loc122" || flavorDef.id === "loc123" || flavorDef.id === "loc125" || flavorDef.id === "loc126" || flavorDef.id === "loc127" || flavorDef.id === "loc129" || flavorDef.id === "loc130" || flavorDef.id === "loc131" || flavorDef.id === "loc133" || flavorDef.id === "loc134" || flavorDef.id === "loc135" || flavorDef.id === "loc137" || flavorDef.id === "loc138" || flavorDef.id === "loc139" || flavorDef.id === "loc141" || flavorDef.id === "loc142" || flavorDef.id === "loc143" || flavorDef.id === "loc145" || flavorDef.id === "loc146" || flavorDef.id === "loc147" || flavorDef.id === "loc149" || flavorDef.id === "loc150" || flavorDef.id === "loc151" || flavorDef.id === "loc153" || flavorDef.id === "loc154" || flavorDef.id === "loc155" || flavorDef.id === "loc157" || flavorDef.id === "loc158" || flavorDef.id === "loc159" || flavorDef.id === "loc161" || flavorDef.id === "loc162" || flavorDef.id === "loc163" || flavorDef.id === "loc165" || flavorDef.id === "loc166" || flavorDef.id === "loc167" || flavorDef.id === "loc169" || flavorDef.id === "loc170" || flavorDef.id === "loc171" || flavorDef.id === "loc173" || flavorDef.id === "loc174" || flavorDef.id === "loc175" || flavorDef.id === "loc177" || flavorDef.id === "loc178" || flavorDef.id === "loc179" || flavorDef.id === "loc181" || flavorDef.id === "loc182" || flavorDef.id === "loc183" || flavorDef.id === "loc185" || flavorDef.id === "loc186" || flavorDef.id === "loc187" || flavorDef.id === "loc189" || flavorDef.id === "loc190" || flavorDef.id === "loc191" || flavorDef.id === "loc193" || flavorDef.id === "loc194" || flavorDef.id === "loc195" || flavorDef.id === "loc197" || flavorDef.id === "loc198" || flavorDef.id === "loc199" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || flavorDef.id === "litchi" || flavorDef.id === "olive" || flavorDef.id === "mango" || flavorDef.id === "pineapple" || flavorDef.id === "coconut" || flavorDef.id === "starfruit" || flavorDef.id === "passion_fruit" || flavorDef.id === "kiwi" || flavorDef.id === "dragonfruit" || flavorDef.id === "guava" || flavorDef.id === "cherry" || flavorDef.id === "apricot" || flavorDef.id === "grapefruit" || flavorDef.id === "tangerine" || flavorDef.id === "wax_apple" || flavorDef.id === "sugarcane" || flavorDef.id === "lemon" || flavorDef.id === "lime" || flavorDef.id === "cranberry" || flavorDef.id === "elderberry" || flavorDef.id === "honeydew" || flavorDef.id === "watermelon" || flavorDef.id === "cantaloupe" || flavorDef.id === "papaya" || flavorDef.id === "rambutan" || flavorDef.id === "jackfruit" || flavorDef.id === "oregano" || flavorDef.id === "chive" || flavorDef.id === "parsley" || flavorDef.id === "avocado" || flavorDef.id === "chervil" || flavorDef.id === "sorrel" || flavorDef.id === "verbena" || flavorDef.id === "savory" || flavorDef.id === "celery_seed" || flavorDef.id === "galangal" || flavorDef.id === "kaffir_lime" || flavorDef.id === "pandan" || flavorDef.id === "juniper" || flavorDef.id === "sumac" || flavorDef.id === "nigella" || flavorDef.id === "mustard_seed" || flavorDef.id === "wasabi" || flavorDef.id === "dandelion" || flavorDef.id === "nettle" || flavorDef.id === "borage" || flavorDef.id === "hops" || flavorDef.id === "heather" || flavorDef.id === "arnica" || flavorDef.id === "echinacea" || flavorDef.id === "feverfew" || flavorDef.id === "lemon_verbena" || flavorDef.id === "mullein" || flavorDef.id === "plantain_leaf" || flavorDef.id === "bee_balm" || flavorDef.id === "marshmallow" || flavorDef.id === "goldenrod" || flavorDef.id === "red_clover" || flavorDef.id === "white_clover" || flavorDef.id === "catnip" || flavorDef.id === "tansy" || flavorDef.id === "agrimony" || flavorDef.id === "rue" || flavorDef.id === "costmary" || flavorDef.id === "elecampane" || flavorDef.id === "meadow_clary" || flavorDef.id === "soapwort" || flavorDef.id === "milfoil" || flavorDef.id === "lady_mantle" || flavorDef.id === "speedwell" || flavorDef.id === "stitchwort" || flavorDef.id === "campion" || flavorDef.id === "silverweed" || flavorDef.id === "loosestrife" || flavorDef.id === "willowherb" || flavorDef.id === "bedstraw" || flavorDef.id === "cleavers" || flavorDef.id === "bugle" || flavorDef.id === "primrose" || flavorDef.id === "cowslip" || flavorDef.id === "oxeye" || flavorDef.id === "knapweed" || flavorDef.id === "scabious" || flavorDef.id === "nettle_seed" || flavorDef.id === "rowan" || flavorDef.id === "crabapple" || flavorDef.id === "serviceberry" || flavorDef.id === "elderflower_fresh" || flavorDef.id === "meadowsweet_fresh" || flavorDef.id === "wood_sorrel" || flavorDef.id === "wild_garlic" || flavorDef.id === "ramsons" || flavorDef.id === "jack_by_hedge" || flavorDef.id === "hedge_mustard" || flavorDef.id === "watercress" || flavorDef.id === "brooklime" || flavorDef.id === "cloudberry" || flavorDef.id === "lingonberry" || flavorDef.id === "bilberry" || flavorDef.id === "gooseberry" || flavorDef.id === "currant_red" || flavorDef.id === "currant_black" || flavorDef.id === "whitecurrant" || flavorDef.id === "sea_buckthorn" || flavorDef.id === "damson" || flavorDef.id === "greengage" || flavorDef.id === "mirabelle" || flavorDef.id === "saskatoon" || flavorDef.id === "chokeberry" || flavorDef.id === "yarrow_white" || flavorDef.id === "achillea_pink" || flavorDef.id === "cornflower" || flavorDef.id === "poppy_seed" || flavorDef.id === "flax_flower" || flavorDef.id === "chia_seed" || flavorDef.id === "sunflower_seed" || flavorDef.id === "fennel_pollen" || flavorDef.id === "fennel_frond" || flavorDef.id === "dill_pollen" || flavorDef.id === "celery_leaf" || flavorDef.id === "rooibos" || flavorDef.id === "honeybush" || flavorDef.id === "yerba_mate" || flavorDef.id === "guayusa" || flavorDef.id === "gardenia" || flavorDef.id === "magnolia" || flavorDef.id === "frangipani" || flavorDef.id === "plumeria" || flavorDef.id === "stephanotis" || flavorDef.id === "garden_phlox" || flavorDef.id === "osmanthus_fresh" || flavorDef.id === "galangal_fresh" || flavorDef.id === "ginger_flower" || flavorDef.id === "turmeric_fresh" || flavorDef.id === "cubeb" || flavorDef.id === "makrut_leaf" || flavorDef.id === "curry_leaf" || flavorDef.id === "holy_basil" || flavorDef.id === "thai_basil" || flavorDef.id === "lemon_basil" || flavorDef.id === "rambutan_fresh" || flavorDef.id === "lychee_fresh" || flavorDef.id === "mangosteen" || flavorDef.id === "durian_flower" || flavorDef.id === "tamarind" || flavorDef.id === "calamansi" || flavorDef.id === "fig_fresh" || flavorDef.id === "pomegranate_seed" || flavorDef.id === "cactus_pear" || flavorDef.id === "prickly_pear" || flavorDef.id === "sapodilla" || flavorDef.id === "soursop" || flavorDef.id === "cherimoya" || flavorDef.id === "feijoa" || flavorDef.id === "loquat_fresh" || flavorDef.id === "jujube_fresh" || flavorDef.id === "mulberry_white" || flavorDef.id === "mulberry_black" || flavorDef.id === "elderberry_fresh" || flavorDef.id === "bergamot_fresh" || flavorDef.id === "sudachi" || flavorDef.id === "kabosu" || flavorDef.id === "amanatsu" || flavorDef.id === "shiso_green" || flavorDef.id === "shiso_red" || flavorDef.id === "mitsuba" || flavorDef.id === "myoga" || flavorDef.id === "wasabi_leaf" || flavorDef.id === "sansho" || flavorDef.id === "kinome" || flavorDef.id === "gentian" || flavorDef.id === "arnica_montana" || flavorDef.id === "alpine_strawberry" || flavorDef.id === "bilberry_leaf" || flavorDef.id === "spruce_tip" || flavorDef.id === "olive_leaf" || flavorDef.id === "caper" || flavorDef.id === "zaatar" || flavorDef.id === "sumac_berry" || flavorDef.id === "orange_blossom" || flavorDef.id === "lavender_honey" || flavorDef.id === "thyme_honey" || flavorDef.id === "acacia_honey" || flavorDef.id === "manuka" || flavorDef.id === "bee_pollen" || flavorDef.id === "comb_honey" || flavorDef.id === "linden_honey" || flavorDef.id === "heather_honey_wild" || flavorDef.id === "wildflower_honey" || flavorDef.id === "clover_honey" || flavorDef.id === "eucalyptus_honey" || flavorDef.id === "mesquite" || flavorDef.id === "lucuma" || flavorDef.id === "camu_camu" || flavorDef.id === "acai" || flavorDef.id === "maqui" || flavorDef.id === "goji_fresh" || flavorDef.id === "amla" || flavorDef.id === "baobab" || flavorDef.id === "morinda" || flavorDef.id === "noni" || flavorDef.id === "cupuacu" || flavorDef.id === "matcha_ceremonial" || flavorDef.id === "sencha" || flavorDef.id === "gyokuro" || flavorDef.id === "bancha" || flavorDef.id === "kukicha" || flavorDef.id === "mugicha" || flavorDef.id === "barley_grass" || flavorDef.id === "wheatgrass" || flavorDef.id === "spirulina" || flavorDef.id === "chlorella" || flavorDef.id === "kelp" || flavorDef.id === "nori" || flavorDef.id === "hibiscus_fresh" || flavorDef.id === "chrysanthemum_fresh" || flavorDef.id === "peony" || flavorDef.id === "lotus_leaf_fresh" || flavorDef.id === "osmanthus_sugar" || flavorDef.id === "orchid_petal" || flavorDef.id === "bamboo_leaf_fresh" || flavorDef.id === "bamboo_shoot_fresh" || flavorDef.id === "safflower" || flavorDef.id === "calendula_fresh" || flavorDef.id === "pot_marigold" || flavorDef.id === "coreopsis" || flavorDef.id === "cosmos" || flavorDef.id === "zinnia" || flavorDef.id === "dahlia" || flavorDef.id === "gladiolus" || flavorDef.id === "iris" || flavorDef.id === "tulip" || flavorDef.id === "ranunculus" || flavorDef.id === "sweet_pea" || flavorDef.id === "nasturtium" || flavorDef.id === "morning_glory" || flavorDef.id === "clematis" || flavorDef.id === "wisteria_fresh" || flavorDef.id === "jasmine_sambac" || flavorDef.id === "gardenia_tea" || flavorDef.id === "boysenberry" || flavorDef.id === "loganberry" || flavorDef.id === "tayberry" || flavorDef.id === "marionberry" || flavorDef.id === "wineberry" || flavorDef.id === "salmonberry" || flavorDef.id === "thimbleberry" || flavorDef.id === "cloudberry_leaf" || flavorDef.id === "lovage_fresh" || flavorDef.id === "sweet_cicely" || flavorDef.id === "ramsons_flower" || flavorDef.id === "sea_kale" || flavorDef.id === "scurvygrass" || flavorDef.id === "marsh_samphire" || flavorDef.id === "agave_nectar" || flavorDef.id === "prickly_pear_pad" || flavorDef.id === "jojoba" || flavorDef.id === "mesquite_pod" || flavorDef.id === "creosote" || flavorDef.id === "desert_sage" || flavorDef.id === "yucca_flower" || flavorDef.id === "yerba_santa" || flavorDef.id === "cedron" || flavorDef.id === "muña" || flavorDef.id === "coca_leaf_tea" || flavorDef.id === "guarana" || flavorDef.id === "stevia_leaf" || flavorDef.id === "rooibos_green" || flavorDef.id === "honeybush_fresh" || flavorDef.id === "buchu" || flavorDef.id === "baobab_leaf" || flavorDef.id === "marula" || flavorDef.id === "kinkeliba" || flavorDef.id === "hibiscus_sab" || flavorDef.id === "pandan_fresh" || flavorDef.id === "lemongrass_fresh" || flavorDef.id === "galangal_leaf" || flavorDef.id === "torch_ginger" || flavorDef.id === "butterfly_pea" || flavorDef.id === "chrysanthemum_ind" || flavorDef.id === "tamarind_leaf" || flavorDef.id === "coconut_flower" || flavorDef.id === "bergamot_leaf" || flavorDef.id === "neroli" || flavorDef.id === "petitgrain" || flavorDef.id === "immortelle" || flavorDef.id === "helichrysum" || flavorDef.id === "cistus" || flavorDef.id === "spruce_beer" || flavorDef.id === "fireweed" || flavorDef.id === "fireweed_honey" || flavorDef.id === "crowberry" || flavorDef.id === "bearberry" || flavorDef.id === "labrador_violet" || flavorDef.id === "matcha_salt" || flavorDef.id === "sansho_leaf" || flavorDef.id === "shiso_flower" || flavorDef.id === "sakura_leaf" || flavorDef.id === "lavender_sugar" || flavorDef.id === "rose_water" || flavorDef.id === "orange_flower_water" || flavorDef.id === "almond_blossom" || flavorDef.id === "chestnut_flower" || flavorDef.id === "maesil" || flavorDef.id === "persimmon_leaf" || flavorDef.id === "pine_flower" || flavorDef.id === "tulsi" || flavorDef.id === "neem_flower" || flavorDef.id === "curry_blossom" || flavorDef.id === "ajwain_leaf" || flavorDef.id === "fenugreek_leaf" || flavorDef.id === "moringa" || flavorDef.id === "gotu_kola" || flavorDef.id === "brahmi" || flavorDef.id === "hibiscus_rosa" || flavorDef.id === "allspice_berry" || flavorDef.id === "annatto" || flavorDef.id === "epazote" || flavorDef.id === "papalo" || flavorDef.id === "hoja_santa" || flavorDef.id === "mexican_oregano" || flavorDef.id === "chile_flower" || flavorDef.id === "noni_leaf" || flavorDef.id === "ti_leaf" || flavorDef.id === "frangipani_tea" || flavorDef.id === "soursop_leaf" || flavorDef.id === "guava_leaf" || flavorDef.id === "passion_leaf" || flavorDef.id === "vanilla_orchid" || flavorDef.id === "longjing" || flavorDef.id === "biluochun" || flavorDef.id === "puer_raw" || flavorDef.id === "white_peony_tea" || flavorDef.id === "valerian_flower" || flavorDef.id === "hops_flower" || flavorDef.id === "meadowsweet_flower" || flavorDef.id === "yarrow_flower" || flavorDef.id === "nettle_seed_tea" || flavorDef.id === "silver_birch" || flavorDef.id === "copper_beech" || flavorDef.id === "hornbeam" || flavorDef.id === "field_maple" || flavorDef.id === "wild_service" || flavorDef.id === "guelder_rose" || flavorDef.id === "wayfaring" || flavorDef.id === "dogwood" || flavorDef.id === "spindle" || flavorDef.id === "buckthorn" || flavorDef.id === "privet" || flavorDef.id === "boxwood" || flavorDef.id === "bluebell_fresh" || flavorDef.id === "primula_veris" || flavorDef.id === "oxlip" || flavorDef.id === "cowslip_fresh" || flavorDef.id === "wood_anemone" || flavorDef.id === "wood_sorrel_pink" || flavorDef.id === "greater_stitchwort" || flavorDef.id === "red_campion" || flavorDef.id === "white_campion" || flavorDef.id === "ragged_robin" || flavorDef.id === "cuckooflower" || flavorDef.id === "lady_smock" || flavorDef.id === "garlic_mustard_fl" || flavorDef.id === "hedge_garlic_seed" || flavorDef.id === "jack_hedge_leaf" || flavorDef.id === "wild_mustard" || flavorDef.id === "meadow_buttercup" || flavorDef.id === "creeping_buttercup" || flavorDef.id === "lesser_celandine" || flavorDef.id === "marsh_marigold" || flavorDef.id === "globe_flower" || flavorDef.id === "columbine" || flavorDef.id === "monkshood" || flavorDef.id === "larkspur" || flavorDef.id === "delphinium" || flavorDef.id === "pasque_flower" || flavorDef.id === "anemone_coronaria" || flavorDef.id === "hepatic" || flavorDef.id === "clematis_vitalba" || flavorDef.id === "speedwell_germander" || flavorDef.id === "germander" || flavorDef.id === "betony_fresh" || flavorDef.id === "selfheal_fresh" || flavorDef.id === "woundwort" || flavorDef.id === "hedge_woundwort" || flavorDef.id === "marsh_woundwort" || flavorDef.id === "motherwort_fresh" || flavorDef.id === "scutellaria" || flavorDef.id === "bugle_fresh" || flavorDef.id === "alehoof" || flavorDef.id === "clary_sage" || flavorDef.id === "pineapple_sage" || flavorDef.id === "fruit_sage" || flavorDef.id === "white_sage" || flavorDef.id === "russian_sage" || flavorDef.id === "meadow_clary_fresh" || flavorDef.id === "wood_sage" || flavorDef.id === "jerusalem_sage" || flavorDef.id === "catmint" || flavorDef.id === "catnip_fresh" || flavorDef.id === "hyssop_fresh" || flavorDef.id === "anise_hyssop" || flavorDef.id === "korean_mint" || flavorDef.id === "agastache" || flavorDef.id === "lavender_spike" || flavorDef.id === "lavender_sto" || flavorDef.id === "thyme_lemon" || flavorDef.id === "thyme_orange" || flavorDef.id === "thyme_caraway" || flavorDef.id === "thyme_woolly" || flavorDef.id === "creeping_thyme" || flavorDef.id === "oregano_greek" || flavorDef.id === "oregano_italian" || flavorDef.id === "marjoram_sweet" || flavorDef.id === "savory_summer" || flavorDef.id === "basil_genovese" || flavorDef.id === "basil_cinnamon" || flavorDef.id === "basil_purple" || flavorDef.id === "basil_lettuce" || flavorDef.id === "mint_peppermint" || flavorDef.id === "mint_spearmint" || flavorDef.id === "mint_chocolate" || flavorDef.id === "mint_apple" || flavorDef.id === "mint_ginger" || flavorDef.id === "mint_orange" || flavorDef.id === "mint_lavender" || flavorDef.id === "mint_bergamot" || flavorDef.id === "mint_corsican" || flavorDef.id === "mint_water" || flavorDef.id === "melissa_fresh" || flavorDef.id === "lemon_balm_var" || flavorDef.id === "bee_balm_pink" || flavorDef.id === "bee_balm_purple" || flavorDef.id === "oregano_hop" || flavorDef.id === "dittany" || flavorDef.id === "dictamnus" || flavorDef.id === "burning_bush" || flavorDef.id === "chamomile_roman" || flavorDef.id === "chamomile_german" || flavorDef.id === "feverfew_fresh" || flavorDef.id === "tansy_fresh" || flavorDef.id === "yarrow_pink" || flavorDef.id === "yarrow_gold" || flavorDef.id === "arnica_fresh" || flavorDef.id === "calendula_offic" || flavorDef.id === "pot_marigold_dbl" || flavorDef.id === "tagetes" || flavorDef.id === "marigold_french" || flavorDef.id === "signet_marigold" || flavorDef.id === "costmary_fresh" || flavorDef.id === "elecampane_fresh" || flavorDef.id === "inula" || flavorDef.id === "eupatorium" || flavorDef.id === "echinacea_purp" || flavorDef.id === "echinacea_ang" || flavorDef.id === "echinacea_pall" || flavorDef.id === "rudbeckia" || flavorDef.id === "black_eyed_susan" || flavorDef.id === "coneflower_yellow" || flavorDef.id === "helenium" || flavorDef.id === "helenium_autumn" || flavorDef.id === "coreopsis_lance" || flavorDef.id === "coreopsis_tick" || flavorDef.id === "gaillardia" || flavorDef.id === "gaillardia_fan" || flavorDef.id === "ratibida" || flavorDef.id === "silphium" || flavorDef.id === "cup_plant" || flavorDef.id === "compass_plant" || flavorDef.id === "aster_novae" || flavorDef.id === "aster_novi" || flavorDef.id === "michaelmas" || flavorDef.id === "goldenrod_fresh" || flavorDef.id === "solidago" || flavorDef.id === "boltonia" || flavorDef.id === "erigeron" || flavorDef.id === "fleabane" || flavorDef.id === "daisy_oxeye" || flavorDef.id === "daisy_english" || flavorDef.id === "daisy_shasta" || flavorDef.id === "chrysanthemum_ind_fresh" || flavorDef.id === "chrysanthemum_mor" || flavorDef.id === "chrysanthemum_yej" || flavorDef.id === "tanacetum" || flavorDef.id === "pyrethrum" || flavorDef.id === "sunflower_dwarf" || flavorDef.id === "sunflower_multi" || flavorDef.id === "sunflower_red" || flavorDef.id === "sunchoke_flower" || flavorDef.id === "dahlia_cactus" || flavorDef.id === "dahlia_pompom" || flavorDef.id === "zinnia_dwarf" || flavorDef.id === "zinnia_cactus" || flavorDef.id === "cosmos_sulph" || flavorDef.id === "cosmos_choco" || flavorDef.id === "tithonia" || flavorDef.id === "mexican_sunflower" || flavorDef.id === "heliopsis" || flavorDef.id === "inula_helenium" || flavorDef.id === "verbena_bon" || flavorDef.id === "verbena_rig" || flavorDef.id === "lantana" || flavorDef.id === "lantana_white" || flavorDef.id === "phlox_pan" || flavorDef.id === "phlox_sub" || flavorDef.id === "phlox_drum" || flavorDef.id === "dianthus_chin" || flavorDef.id === "dianthus_barb" || flavorDef.id === "sweet_william" || flavorDef.id === "carnation" || flavorDef.id === "pinks" || flavorDef.id === "gypsophila" || flavorDef.id === "baby_breath" || flavorDef.id === "saponaria" || flavorDef.id === "soapwort_fresh" || flavorDef.id === "campanula" || flavorDef.id === "campanula_med" || flavorDef.id === "lobelia" || flavorDef.id === "lobelia_card" || flavorDef.id === "penstemon" || flavorDef.id === "penstemon_fox" || flavorDef.id === "digitalis" || flavorDef.id === "digitalis_lutea" || flavorDef.id === "snapdragon" || flavorDef.id === "snapdragon_dwarf" || flavorDef.id === "antirrhinum" || flavorDef.id === "linaria" || flavorDef.id === "toadflax" || flavorDef.id === "verbascum_chaix" || flavorDef.id === "mullein_white" || flavorDef.id === "mimulus" || flavorDef.id === "monkeyflower" || flavorDef.id === "collinsia" || flavorDef.id === "castilleja" || flavorDef.id === "paintbrush" || flavorDef.id === "orthocarpus" || flavorDef.id === "pedicularis" || flavorDef.id === "lousewort" || flavorDef.id === "euphrasia" || flavorDef.id === "eyebright" || flavorDef.id === "rhinanthus" || flavorDef.id === "yellow_rattle" || flavorDef.id === "melampyrum" || flavorDef.id === "cow_wheat" || flavorDef.id === "bartisia" || flavorDef.id === "cattleya" || flavorDef.id === "dendrobium" || flavorDef.id === "phalaenopsis" || flavorDef.id === "oncidium" || flavorDef.id === "vanda" || flavorDef.id === "paphiopedilum" || flavorDef.id === "miltonia" || flavorDef.id === "odontoglossum" || flavorDef.id === "brassia" || flavorDef.id === "epidendrum" || flavorDef.id === "ludisia" || flavorDef.id === "anoectochilus" || flavorDef.id === "gastrodia" || flavorDef.id === "bletilla" || flavorDef.id === "calanthe" || flavorDef.id === "boston_fern" || flavorDef.id === "bird_nest_fern" || flavorDef.id === "staghorn" || flavorDef.id === "holly_fern" || flavorDef.id === "autumn_fern" || flavorDef.id === "ostrich_fern" || flavorDef.id === "cinnamon_fern" || flavorDef.id === "bracken_tip" || flavorDef.id === "adder_tongue" || flavorDef.id === "miscanthus" || flavorDef.id === "pampas" || flavorDef.id === "fountain_grass" || flavorDef.id === "japanese_forest" || flavorDef.id === "carex_morrow" || flavorDef.id === "scirpus" || flavorDef.id === "typha_pollen" || flavorDef.id === "phragmites" || flavorDef.id === "bamboo_black" || flavorDef.id === "bamboo_golden" || flavorDef.id === "echeveria" || flavorDef.id === "sedum_morgan" || flavorDef.id === "sedum_spect" || flavorDef.id === "sempervivum" || flavorDef.id === "aeonium" || flavorDef.id === "crassula" || flavorDef.id === "kalanchoe" || flavorDef.id === "haworthia" || flavorDef.id === "agave_flower" || flavorDef.id === "yucca_filament" || flavorDef.id === "sansevieria" || flavorDef.id === "jade_plant" || flavorDef.id === "panda_plant" || flavorDef.id === "boysen_leaf" || flavorDef.id === "logan_leaf" || flavorDef.id === "tay_leaf" || flavorDef.id === "marion_leaf" || flavorDef.id === "wine_leaf" || flavorDef.id === "salmon_leaf" || flavorDef.id === "thimble_leaf" || flavorDef.id === "cloud_flower" || flavorDef.id === "huckleberry" || flavorDef.id === "huckle_leaf" || flavorDef.id === "salal" || flavorDef.id === "salal_leaf" || flavorDef.id === "oregon_grape" || flavorDef.id === "mahonia" || flavorDef.id === "barberry_red" || flavorDef.id === "barberry_leaf" || flavorDef.id === "currant_flower" || flavorDef.id === "goose_flower" || flavorDef.id === "josta" || flavorDef.id === "worcesterberry" || flavorDef.id === "juneberry" || flavorDef.id === "shadbush" || flavorDef.id === "chokecherry" || flavorDef.id === "bird_cherry" || flavorDef.id === "pin_cherry" || flavorDef.id === "sand_cherry" || flavorDef.id === "nanking_cherry" || flavorDef.id === "cornelian" || flavorDef.id === "honeyberry" || flavorDef.id === "hascap" || flavorDef.id === "clematis_arm" || flavorDef.id === "clematis_mon" || flavorDef.id === "clematis_tang" || flavorDef.id === "clematis_ori" || flavorDef.id === "akibia" || flavorDef.id === "akebia_flower" || flavorDef.id === "kiwi_hardy" || flavorDef.id === "kiwi_flower" || flavorDef.id === "actinidia" || flavorDef.id === "silver_vine" || flavorDef.id === "hop_fresh" || flavorDef.id === "hop_leaf" || flavorDef.id === "humulus" || flavorDef.id === "japanese_hop" || flavorDef.id === "grape_leaf_fresh" || flavorDef.id === "vine_tendril" || flavorDef.id === "muscadine" || flavorDef.id === "scuppernong" || flavorDef.id === "passiflora_inc" || flavorDef.id === "passiflora_cae" || flavorDef.id === "passiflora_ed" || flavorDef.id === "maypop" || flavorDef.id === "morning_glory_red" || flavorDef.id === "morning_glory_blue" || flavorDef.id === "ipomoea_bat" || flavorDef.id === "moonvine" || flavorDef.id === "cypress_vine" || flavorDef.id === "cardinal_climber" || flavorDef.id === "black_eyed_susan_vine" || flavorDef.id === "thunbergia" || flavorDef.id === "sweet_potato_leaf" || flavorDef.id === "dioscorea" || flavorDef.id === "luffa_flower" || flavorDef.id === "luffa_leaf" || flavorDef.id === "bitter_melon_fl" || flavorDef.id === "bitter_melon_leaf" || flavorDef.id === "squash_blossom" || flavorDef.id === "zucchini_flower" || flavorDef.id === "cucumber_flower" || flavorDef.id === "melon_flower" || flavorDef.id === "okra_flower" || flavorDef.id === "okra_leaf" || flavorDef.id === "hibiscus_escul" || flavorDef.id === "roselle_fresh" || flavorDef.id === "cotton_flower" || flavorDef.id === "cotton_leaf" || flavorDef.id === "kenaf" || flavorDef.id === "jute_leaf" || flavorDef.id === "flax_blue" || flavorDef.id === "flax_red" || flavorDef.id === "hemp_flower" || flavorDef.id === "nettle_fresh" || flavorDef.id === "dead_nettle" || flavorDef.id === "purple_dead_nettle" || flavorDef.id === "henbit" || flavorDef.id === "lamium" || flavorDef.id === "galeopsis" || flavorDef.id === "stachys_byz" || flavorDef.id === "alpine_rosemary" || flavorDef.id === "alpine_marjoram" || flavorDef.id === "alpine_chive" || flavorDef.id === "alpine_cilantro" || flavorDef.id === "alpine_dill" || flavorDef.id === "alpine_lovage" || flavorDef.id === "alpine_sorrel" || flavorDef.id === "coastal_thyme" || flavorDef.id === "coastal_sage" || flavorDef.id === "coastal_oregano" || flavorDef.id === "coastal_basil" || flavorDef.id === "coastal_mint" || flavorDef.id === "coastal_lavender" || flavorDef.id === "coastal_marjoram" || flavorDef.id === "coastal_tarragon" || flavorDef.id === "coastal_chive" || flavorDef.id === "coastal_parsley" || flavorDef.id === "coastal_cilantro" || flavorDef.id === "coastal_dill" || flavorDef.id === "coastal_sorrel" || flavorDef.id === "meadow_thyme" || flavorDef.id === "meadow_sage" || flavorDef.id === "meadow_oregano" || flavorDef.id === "meadow_basil" || flavorDef.id === "meadow_mint" || flavorDef.id === "meadow_lavender" || flavorDef.id === "meadow_marjoram" || flavorDef.id === "meadow_tarragon" || flavorDef.id === "meadow_chive" || flavorDef.id === "meadow_parsley" || flavorDef.id === "meadow_cilantro" || flavorDef.id === "meadow_dill" || flavorDef.id === "meadow_sorrel" || flavorDef.id === "woodland_thyme" || flavorDef.id === "woodland_sage" || flavorDef.id === "woodland_oregano" || flavorDef.id === "woodland_basil" || flavorDef.id === "woodland_mint" || flavorDef.id === "woodland_lavender" || flavorDef.id === "woodland_marjoram" || flavorDef.id === "woodland_tarragon" || flavorDef.id === "woodland_chive" || flavorDef.id === "woodland_parsley" || flavorDef.id === "woodland_cilantro" || flavorDef.id === "woodland_dill" || flavorDef.id === "woodland_fennel" || flavorDef.id === "woodland_lovage" || flavorDef.id === "woodland_sorrel" || flavorDef.id === "garden_thyme" || flavorDef.id === "garden_sage" || flavorDef.id === "garden_oregano" || flavorDef.id === "garden_basil" || flavorDef.id === "garden_mint" || flavorDef.id === "garden_lavender" || flavorDef.id === "garden_marjoram" || flavorDef.id === "garden_tarragon" || flavorDef.id === "garden_chive" || flavorDef.id === "garden_parsley" || flavorDef.id === "garden_cilantro" || flavorDef.id === "garden_dill" || flavorDef.id === "garden_fennel" || flavorDef.id === "garden_lovage" || flavorDef.id === "garden_sorrel" || flavorDef.id === "wild_thyme" || flavorDef.id === "wild_sage" || flavorDef.id === "wild_oregano" || flavorDef.id === "wild_basil" || flavorDef.id === "wild_mint" || flavorDef.id === "wild_lavender" || flavorDef.id === "wild_rosemary" || flavorDef.id === "wild_marjoram" || flavorDef.id === "wild_tarragon" || flavorDef.id === "wild_chive" || flavorDef.id === "wild_parsley" || flavorDef.id === "wild_cilantro" || flavorDef.id === "wild_dill" || flavorDef.id === "wild_fennel" || flavorDef.id === "wild_lovage" || flavorDef.id === "wild_sorrel" || flavorDef.id === "dwarf_thyme" || flavorDef.id === "dwarf_sage" || flavorDef.id === "dwarf_oregano" || flavorDef.id === "dwarf_basil" || flavorDef.id === "dwarf_mint" || flavorDef.id === "dwarf_lavender" || flavorDef.id === "dwarf_marjoram" || flavorDef.id === "dwarf_chive" || flavorDef.id === "dwarf_parsley" || flavorDef.id === "dwarf_cilantro" || flavorDef.id === "dwarf_dill" || flavorDef.id === "dwarf_fennel" || flavorDef.id === "dwarf_lovage" || flavorDef.id === "dwarf_sorrel" || flavorDef.id === "giant_oregano" || flavorDef.id === "giant_basil" || flavorDef.id === "giant_marjoram" || flavorDef.id === "giant_tarragon" || flavorDef.id === "giant_chive" || flavorDef.id === "giant_parsley" || flavorDef.id === "giant_cilantro" || flavorDef.id === "giant_dill" || flavorDef.id === "giant_lovage" || flavorDef.id === "giant_sorrel" || flavorDef.id === "variegated_thyme" || flavorDef.id === "variegated_oregano" || flavorDef.id === "variegated_basil" || flavorDef.id === "variegated_mint" || flavorDef.id === "variegated_lavender" || flavorDef.id === "variegated_marjoram" || flavorDef.id === "variegated_chive" || flavorDef.id === "variegated_parsley" || flavorDef.id === "variegated_cilantro" || flavorDef.id === "variegated_dill" || flavorDef.id === "variegated_sorrel" || flavorDef.id === "golden_thyme" || flavorDef.id === "golden_oregano" || flavorDef.id === "golden_basil" || flavorDef.id === "golden_mint" || flavorDef.id === "golden_lavender" || flavorDef.id === "golden_marjoram" || flavorDef.id === "golden_chive" || flavorDef.id === "golden_parsley" || flavorDef.id === "golden_cilantro" || flavorDef.id === "golden_dill" || flavorDef.id === "golden_sorrel" || flavorDef.id === "silver_thyme" || flavorDef.id === "silver_oregano" || flavorDef.id === "silver_basil" || flavorDef.id === "silver_mint" || flavorDef.id === "silver_lavender" || flavorDef.id === "silver_marjoram" || flavorDef.id === "silver_chive" || flavorDef.id === "silver_parsley" || flavorDef.id === "silver_cilantro" || flavorDef.id === "silver_dill" || flavorDef.id === "silver_sorrel" || flavorDef.id === "purple_thyme" || flavorDef.id === "purple_oregano" || flavorDef.id === "purple_basil" || flavorDef.id === "purple_mint" || flavorDef.id === "purple_lavender" || flavorDef.id === "purple_marjoram" || flavorDef.id === "purple_chive" || flavorDef.id === "purple_parsley" || flavorDef.id === "purple_cilantro" || flavorDef.id === "purple_dill" || flavorDef.id === "purple_sorrel" || flavorDef.id === "red_thyme" || flavorDef.id === "red_oregano" || flavorDef.id === "red_basil" || flavorDef.id === "red_mint" || flavorDef.id === "red_lavender" || flavorDef.id === "red_marjoram" || flavorDef.id === "red_chive" || flavorDef.id === "red_parsley" || flavorDef.id === "red_cilantro" || flavorDef.id === "red_dill" || flavorDef.id === "red_sorrel" || flavorDef.id === "white_thyme" || flavorDef.id === "white_oregano" || flavorDef.id === "white_basil" || flavorDef.id === "white_mint" || flavorDef.id === "white_lavender" || flavorDef.id === "white_marjoram" || flavorDef.id === "white_chive" || flavorDef.id === "white_parsley" || flavorDef.id === "white_cilantro" || flavorDef.id === "white_dill" || flavorDef.id === "white_sorrel" || flavorDef.id === "pink_thyme" || flavorDef.id === "pink_oregano" || flavorDef.id === "pink_basil" || flavorDef.id === "pink_mint" || flavorDef.id === "pink_lavender" || flavorDef.id === "pink_marjoram" || flavorDef.id === "pink_chive" || flavorDef.id === "pink_parsley" || flavorDef.id === "pink_cilantro" || flavorDef.id === "pink_dill" || flavorDef.id === "pink_sorrel" || flavorDef.id === "blue_thyme" || flavorDef.id === "blue_oregano" || flavorDef.id === "blue_basil" || flavorDef.id === "blue_mint" || flavorDef.id === "blue_lavender" || flavorDef.id === "blue_marjoram" || flavorDef.id === "blue_chive" || flavorDef.id === "blue_parsley" || flavorDef.id === "blue_cilantro" || flavorDef.id === "blue_dill" || flavorDef.id === "blue_sorrel" || flavorDef.id === "yellow_thyme" || flavorDef.id === "yellow_oregano" || flavorDef.id === "yellow_basil" || flavorDef.id === "yellow_mint" || flavorDef.id === "yellow_lavender" || flavorDef.id === "yellow_marjoram" || flavorDef.id === "yellow_chive" || flavorDef.id === "yellow_parsley" || flavorDef.id === "yellow_cilantro" || flavorDef.id === "yellow_dill" || flavorDef.id === "yellow_sorrel" || flavorDef.id === "orange_thyme" || flavorDef.id === "orange_oregano" || flavorDef.id === "orange_basil" || flavorDef.id === "orange_mint" || flavorDef.id === "orange_lavender" || flavorDef.id === "orange_marjoram" || flavorDef.id === "orange_chive" || flavorDef.id === "orange_parsley" || flavorDef.id === "orange_cilantro" || flavorDef.id === "orange_dill" || flavorDef.id === "orange_sorrel" || flavorDef.id === "fragrant_thyme" || flavorDef.id === "fragrant_sage" || flavorDef.id === "fragrant_oregano" || flavorDef.id === "fragrant_basil" || flavorDef.id === "fragrant_mint" || flavorDef.id === "fragrant_lavender" || flavorDef.id === "fragrant_rosemary" || flavorDef.id === "fragrant_marjoram" || flavorDef.id === "fragrant_tarragon" || flavorDef.id === "fragrant_chive" || flavorDef.id === "fragrant_parsley" || flavorDef.id === "fragrant_cilantro" || flavorDef.id === "fragrant_dill" || flavorDef.id === "fragrant_fennel" || flavorDef.id === "fragrant_lovage" || flavorDef.id === "fragrant_sorrel" || flavorDef.id === "edible_thyme" || flavorDef.id === "edible_sage" || flavorDef.id === "edible_oregano" || flavorDef.id === "edible_basil" || flavorDef.id === "edible_mint" || flavorDef.id === "edible_lavender" || flavorDef.id === "edible_rosemary" || flavorDef.id === "edible_marjoram" || flavorDef.id === "edible_tarragon" || flavorDef.id === "edible_chive" || flavorDef.id === "edible_parsley" || flavorDef.id === "edible_cilantro" || flavorDef.id === "edible_dill" || flavorDef.id === "edible_fennel" || flavorDef.id === "edible_lovage" || flavorDef.id === "edible_sorrel" || flavorDef.id === "apple_blossom" || flavorDef.id === "pear_blossom" || flavorDef.id === "peach_blossom" || flavorDef.id === "plum_blossom_fresh" || flavorDef.id === "cherry_blossom" || flavorDef.id === "apricot_blossom" || flavorDef.id === "quince_blossom" || flavorDef.id === "medlar_blossom" || flavorDef.id === "mulberry_flower" || flavorDef.id === "fig_leaf" || flavorDef.id === "pomegranate_flower" || flavorDef.id === "persimmon_flower" || flavorDef.id === "walnut_flower" || flavorDef.id === "hazel_catkin" || flavorDef.id === "chestnut_catkin" || flavorDef.id === "almond_fresh_bl" || flavorDef.id === "pistachio_flower" || flavorDef.id === "pecan_flower" || flavorDef.id === "macadamia_flower" || flavorDef.id === "cashew_flower" || flavorDef.id === "brazil_nut_fl" || flavorDef.id === "coconut_inflo" || flavorDef.id === "date_flower" || flavorDef.id === "olive_flower" || flavorDef.id === "avocado_flower" || flavorDef.id === "mango_flower" || flavorDef.id === "lychee_flower" || flavorDef.id === "longan_flower" || flavorDef.id === "rambutan_flower" || flavorDef.id === "mangosteen_flower" || flavorDef.id === "guava_flower" || flavorDef.id === "papaya_flower" || flavorDef.id === "pineapple_flower" || flavorDef.id === "banana_flower" || flavorDef.id === "plantain_flower" || flavorDef.id === "breadfruit_fl" || flavorDef.id === "jackfruit_fl" || flavorDef.id === "durian_fresh_fl" || flavorDef.id === "soursop_fl" || flavorDef.id === "cherimoya_fl" || flavorDef.id === "custard_apple_fl" || flavorDef.id === "r1_e58c97e5a283" || flavorDef.id === "r2_e58c97e5a283" || flavorDef.id === "r3_e58c97e5a283" || flavorDef.id === "r4_e58c97e5a283" || flavorDef.id === "r6_e58c97e5a283" || flavorDef.id === "r7_e58c97e5a283" || flavorDef.id === "r8_e58c97e5a283" || flavorDef.id === "r9_e58c97e5a283" || flavorDef.id === "r11_e58c97e5a283" || flavorDef.id === "r12_e58c97e5a283" || flavorDef.id === "r13_e58c97e5a283" || flavorDef.id === "r14_e58c97e5a283" || flavorDef.id === "r16_e58c97e5a283" || flavorDef.id === "r17_e58c97e5a283" || flavorDef.id === "r18_e58c97e5a283" || flavorDef.id === "r19_e58c97e5a283" || flavorDef.id === "r21_e58c97e5a283" || flavorDef.id === "r22_e58c97e5a283" || flavorDef.id === "r23_e58c97e5a283" || flavorDef.id === "r24_e58c97e5a283" || flavorDef.id === "r26_e58c97e5a283" || flavorDef.id === "r27_e58c97e5a283" || flavorDef.id === "r28_e58c97e5a283" || flavorDef.id === "r29_e58c97e5a283" || flavorDef.id === "r31_e58c97e5a283" || flavorDef.id === "r32_e58c97e5a283" || flavorDef.id === "r33_e58c97e5a283" || flavorDef.id === "r34_e58c97e5a283" || flavorDef.id === "r36_e58c97e5a283" || flavorDef.id === "r37_e58c97e5a283" || flavorDef.id === "r38_e58c97e5a283" || flavorDef.id === "r39_e58c97e5a283" || flavorDef.id === "r41_e58c97e5a283" || flavorDef.id === "r42_e58c97e5a283" || flavorDef.id === "r43_e58c97e5a283" || flavorDef.id === "r44_e58c97e5a283" || flavorDef.id === "r46_e58c97e5a283" || flavorDef.id === "r47_e58c97e5a283" || flavorDef.id === "r48_e58c97e5a283" || flavorDef.id === "r49_e58c97e5a283" || flavorDef.id === "r51_e58c97e5a283" || flavorDef.id === "r52_e58c97e5a283" || flavorDef.id === "r53_e58c97e5a283" || flavorDef.id === "r54_e58c97e5a283" || flavorDef.id === "r56_e58c97e5a283" || flavorDef.id === "r57_e58c97e5a283" || flavorDef.id === "r58_e58c97e5a283" || flavorDef.id === "r59_e58c97e5a283" || flavorDef.id === "r61_e58c97e5a283" || flavorDef.id === "r62_e58c97e5a283" || flavorDef.id === "r63_e58c97e5a283" || flavorDef.id === "r64_e58c97e5a283" || flavorDef.id === "r66_e58c97e5a283" || flavorDef.id === "r67_e58c97e5a283" || flavorDef.id === "r68_e58c97e5a283" || flavorDef.id === "r69_e58c97e5a283" || flavorDef.id === "r71_e58c97e5a283" || flavorDef.id === "r72_e58c97e5a283" || flavorDef.id === "r73_e58c97e5a283" || flavorDef.id === "r74_e58c97e5a283" || flavorDef.id === "r76_e58c97e5a283" || flavorDef.id === "r77_e58c97e5a283" || flavorDef.id === "r78_e58c97e5a283" || flavorDef.id === "r79_e58c97e5a283" || flavorDef.id === "r81_e58c97e5a283" || flavorDef.id === "r82_e58c97e5a283" || flavorDef.id === "r83_e58c97e5a283" || flavorDef.id === "r84_e58c97e5a283" || flavorDef.id === "r86_e58c97e5a283" || flavorDef.id === "r87_e58c97e5a283" || flavorDef.id === "r88_e58c97e5a283" || flavorDef.id === "r89_e58c97e5a283" || flavorDef.id === "r91_e58c97e5a283" || flavorDef.id === "r92_e58c97e5a283" || flavorDef.id === "r93_e58c97e5a283" || flavorDef.id === "r94_e58c97e5a283" || flavorDef.id === "r96_e58c97e5a283" || flavorDef.id === "r97_e58c97e5a283" || flavorDef.id === "r98_e58c97e5a283" || flavorDef.id === "r99_e58c97e5a283" || flavorDef.id === "r101_e58c97e5a283" || flavorDef.id === "r102_e58c97e5a283" || flavorDef.id === "r103_e58c97e5a283" || flavorDef.id === "r104_e58d97e5a283" || flavorDef.id === "r106_e58d97e5a283" || flavorDef.id === "r107_e58d97e5a283" || flavorDef.id === "r108_e58d97e5a283" || flavorDef.id === "r109_e58d97e5a283" || flavorDef.id === "r111_e58d97e5a283" || flavorDef.id === "r112_e58d97e5a283" || flavorDef.id === "r113_e58d97e5a283" || flavorDef.id === "r114_e58d97e5a283" || flavorDef.id === "r116_e58d97e5a283" || flavorDef.id === "r117_e58d97e5a283" || flavorDef.id === "r118_e58d97e5a283" || flavorDef.id === "r119_e58d97e5a283" || flavorDef.id === "r121_e58d97e5a283" || flavorDef.id === "r122_e58d97e5a283" || flavorDef.id === "r123_e58d97e5a283" || flavorDef.id === "r124_e58d97e5a283" || flavorDef.id === "r126_e58d97e5a283" || flavorDef.id === "r127_e58d97e5a283" || flavorDef.id === "r128_e58d97e5a283" || flavorDef.id === "r129_e58d97e5a283" || flavorDef.id === "r131_e58d97e5a283" || flavorDef.id === "r132_e58d97e5a283" || flavorDef.id === "r133_e58d97e5a283" || flavorDef.id === "r134_e58d97e5a283" || flavorDef.id === "r136_e58d97e5a283" || flavorDef.id === "r137_e58d97e5a283" || flavorDef.id === "r138_e58d97e5a283" || flavorDef.id === "r139_e58d97e5a283" || flavorDef.id === "r141_e58d97e5a283" || flavorDef.id === "r142_e58d97e5a283" || flavorDef.id === "r143_e58d97e5a283" || flavorDef.id === "r144_e58d97e5a283" || flavorDef.id === "r146_e58d97e5a283" || flavorDef.id === "r147_e58d97e5a283" || flavorDef.id === "r148_e58d97e5a283" || flavorDef.id === "r149_e58d97e5a283" || flavorDef.id === "r151_e58d97e5a283" || flavorDef.id === "r152_e58d97e5a283" || flavorDef.id === "r153_e58d97e5a283" || flavorDef.id === "r154_e58d97e5a283" || flavorDef.id === "r156_e58d97e5a283" || flavorDef.id === "r157_e58d97e5a283" || flavorDef.id === "r158_e58d97e5a283" || flavorDef.id === "r159_e58d97e5a283" || flavorDef.id === "r161_e58d97e5a283" || flavorDef.id === "r162_e58d97e5a283" || flavorDef.id === "r163_e58d97e5a283" || flavorDef.id === "r164_e58d97e5a283" || flavorDef.id === "r166_e58d97e5a283" || flavorDef.id === "r167_e58d97e5a283" || flavorDef.id === "r168_e58d97e5a283" || flavorDef.id === "r169_e58d97e5a283" || flavorDef.id === "r171_e58d97e5a283" || flavorDef.id === "r172_e58d97e5a283" || flavorDef.id === "r173_e58d97e5a283" || flavorDef.id === "r174_e58d97e5a283" || flavorDef.id === "r176_e58d97e5a283" || flavorDef.id === "r177_e58d97e5a283" || flavorDef.id === "r178_e58d97e5a283" || flavorDef.id === "r179_e58d97e5a283" || flavorDef.id === "r181_e58d97e5a283" || flavorDef.id === "r182_e58d97e5a283" || flavorDef.id === "r183_e58d97e5a283" || flavorDef.id === "r184_e58d97e5a283" || flavorDef.id === "r186_e58d97e5a283" || flavorDef.id === "r187_e58d97e5a283" || flavorDef.id === "r188_e58d97e5a283" || flavorDef.id === "r189_e58d97e5a283" || flavorDef.id === "r191_e58d97e5a283" || flavorDef.id === "r192_e58d97e5a283" || flavorDef.id === "r193_e58d97e5a283" || flavorDef.id === "r194_e58d97e5a283" || flavorDef.id === "r196_e58d97e5a283" || flavorDef.id === "r197_e58d97e5a283" || flavorDef.id === "r198_e58d97e5a283" || flavorDef.id === "r199_e58d97e5a283" || flavorDef.id === "loc1" || flavorDef.id === "loc2" || flavorDef.id === "loc3" || flavorDef.id === "loc5" || flavorDef.id === "loc6" || flavorDef.id === "loc7" || flavorDef.id === "loc9" || flavorDef.id === "loc10" || flavorDef.id === "loc11" || flavorDef.id === "loc13" || flavorDef.id === "loc14" || flavorDef.id === "loc15" || flavorDef.id === "loc17" || flavorDef.id === "loc18" || flavorDef.id === "loc19" || flavorDef.id === "loc21" || flavorDef.id === "loc22" || flavorDef.id === "loc23" || flavorDef.id === "loc25" || flavorDef.id === "loc26" || flavorDef.id === "loc27" || flavorDef.id === "loc29" || flavorDef.id === "loc30" || flavorDef.id === "loc31" || flavorDef.id === "loc33" || flavorDef.id === "loc34" || flavorDef.id === "loc35" || flavorDef.id === "loc37" || flavorDef.id === "loc38" || flavorDef.id === "loc39" || flavorDef.id === "loc41" || flavorDef.id === "loc42" || flavorDef.id === "loc43" || flavorDef.id === "loc45" || flavorDef.id === "loc46" || flavorDef.id === "loc47" || flavorDef.id === "loc49" || flavorDef.id === "loc50" || flavorDef.id === "loc51" || flavorDef.id === "loc53" || flavorDef.id === "loc54" || flavorDef.id === "loc55" || flavorDef.id === "loc57" || flavorDef.id === "loc58" || flavorDef.id === "loc59" || flavorDef.id === "loc61" || flavorDef.id === "loc62" || flavorDef.id === "loc63" || flavorDef.id === "loc65" || flavorDef.id === "loc66" || flavorDef.id === "loc67" || flavorDef.id === "loc69" || flavorDef.id === "loc70" || flavorDef.id === "loc71" || flavorDef.id === "loc73" || flavorDef.id === "loc74" || flavorDef.id === "loc75" || flavorDef.id === "loc77" || flavorDef.id === "loc78" || flavorDef.id === "loc79" || flavorDef.id === "loc81" || flavorDef.id === "loc82" || flavorDef.id === "loc83" || flavorDef.id === "loc85" || flavorDef.id === "loc86" || flavorDef.id === "loc87" || flavorDef.id === "loc89" || flavorDef.id === "loc90" || flavorDef.id === "loc91" || flavorDef.id === "loc93" || flavorDef.id === "loc94" || flavorDef.id === "loc95" || flavorDef.id === "loc97" || flavorDef.id === "loc98" || flavorDef.id === "loc99" || flavorDef.id === "loc101" || flavorDef.id === "loc102" || flavorDef.id === "loc103" || flavorDef.id === "loc105" || flavorDef.id === "loc106" || flavorDef.id === "loc107" || flavorDef.id === "loc109" || flavorDef.id === "loc110" || flavorDef.id === "loc111" || flavorDef.id === "loc113" || flavorDef.id === "loc114" || flavorDef.id === "loc115" || flavorDef.id === "loc117" || flavorDef.id === "loc118" || flavorDef.id === "loc119" || flavorDef.id === "loc121" || flavorDef.id === "loc122" || flavorDef.id === "loc123" || flavorDef.id === "loc125" || flavorDef.id === "loc126" || flavorDef.id === "loc127" || flavorDef.id === "loc129" || flavorDef.id === "loc130" || flavorDef.id === "loc131" || flavorDef.id === "loc133" || flavorDef.id === "loc134" || flavorDef.id === "loc135" || flavorDef.id === "loc137" || flavorDef.id === "loc138" || flavorDef.id === "loc139" || flavorDef.id === "loc141" || flavorDef.id === "loc142" || flavorDef.id === "loc143" || flavorDef.id === "loc145" || flavorDef.id === "loc146" || flavorDef.id === "loc147" || flavorDef.id === "loc149" || flavorDef.id === "loc150" || flavorDef.id === "loc151" || flavorDef.id === "loc153" || flavorDef.id === "loc154" || flavorDef.id === "loc155" || flavorDef.id === "loc157" || flavorDef.id === "loc158" || flavorDef.id === "loc159" || flavorDef.id === "loc161" || flavorDef.id === "loc162" || flavorDef.id === "loc163" || flavorDef.id === "loc165" || flavorDef.id === "loc166" || flavorDef.id === "loc167" || flavorDef.id === "loc169" || flavorDef.id === "loc170" || flavorDef.id === "loc171" || flavorDef.id === "loc173" || flavorDef.id === "loc174" || flavorDef.id === "loc175" || flavorDef.id === "loc177" || flavorDef.id === "loc178" || flavorDef.id === "loc179" || flavorDef.id === "loc181" || flavorDef.id === "loc182" || flavorDef.id === "loc183" || flavorDef.id === "loc185" || flavorDef.id === "loc186" || flavorDef.id === "loc187" || flavorDef.id === "loc189" || flavorDef.id === "loc190" || flavorDef.id === "loc191" || flavorDef.id === "loc193" || flavorDef.id === "loc194" || flavorDef.id === "loc195" || flavorDef.id === "loc197" || flavorDef.id === "loc198" || flavorDef.id === "loc199" || flavorDef.id === "loc201" || flavorDef.id === "loc202" || flavorDef.id === "loc203" || flavorDef.id === "loc205" || flavorDef.id === "loc206" || flavorDef.id === "loc207" || flavorDef.id === "loc209" || flavorDef.id === "loc210" || flavorDef.id === "loc211" || flavorDef.id === "loc213" || flavorDef.id === "loc214" || flavorDef.id === "loc215" || flavorDef.id === "loc217" || flavorDef.id === "loc218" || flavorDef.id === "loc219" || flavorDef.id === "loc221" || flavorDef.id === "loc222" || flavorDef.id === "loc223" || flavorDef.id === "loc225" || flavorDef.id === "loc226" || flavorDef.id === "loc227" || flavorDef.id === "loc229" || flavorDef.id === "loc230" || flavorDef.id === "loc231" || flavorDef.id === "loc233" || flavorDef.id === "loc234" || flavorDef.id === "loc235" || flavorDef.id === "loc237" || flavorDef.id === "loc238" || flavorDef.id === "loc239" || flavorDef.id === "loc241" || flavorDef.id === "loc242" || flavorDef.id === "loc243" || flavorDef.id === "loc245" || flavorDef.id === "loc246" || flavorDef.id === "loc247" || flavorDef.id === "loc249" || flavorDef.id === "loc250" || flavorDef.id === "loc251" || flavorDef.id === "loc253" || flavorDef.id === "loc254" || flavorDef.id === "loc255" || flavorDef.id === "loc257" || flavorDef.id === "loc258" || flavorDef.id === "loc259" || flavorDef.id === "loc261" || flavorDef.id === "loc262" || flavorDef.id === "loc263" || flavorDef.id === "loc265" || flavorDef.id === "loc266" || flavorDef.id === "loc267" || flavorDef.id === "loc269" || flavorDef.id === "loc270" || flavorDef.id === "loc271" || flavorDef.id === "loc273" || flavorDef.id === "loc274" || flavorDef.id === "loc275" || flavorDef.id === "loc277" || flavorDef.id === "loc278" || flavorDef.id === "loc279" || flavorDef.id === "loc281" || flavorDef.id === "loc282" || flavorDef.id === "loc283" || flavorDef.id === "loc285" || flavorDef.id === "loc286" || flavorDef.id === "loc287" || flavorDef.id === "loc289" || flavorDef.id === "loc290" || flavorDef.id === "loc291" || flavorDef.id === "loc293" || flavorDef.id === "loc294" || flavorDef.id === "loc295" || flavorDef.id === "loc297" || flavorDef.id === "loc298" || flavorDef.id === "loc299" || flavorDef.id === "loc301" || flavorDef.id === "loc302" || flavorDef.id === "loc303" || flavorDef.id === "loc305" || flavorDef.id === "loc306" || flavorDef.id === "loc307" || flavorDef.id === "loc309" || flavorDef.id === "loc310" || flavorDef.id === "loc311" || flavorDef.id === "loc313" || flavorDef.id === "loc314" || flavorDef.id === "loc315" || flavorDef.id === "loc317" || flavorDef.id === "loc318" || flavorDef.id === "loc319" || flavorDef.id === "loc321" || flavorDef.id === "loc322" || flavorDef.id === "loc323" || flavorDef.id === "loc325" || flavorDef.id === "loc326" || flavorDef.id === "loc327" || flavorDef.id === "loc329" || flavorDef.id === "loc330" || flavorDef.id === "loc331" || flavorDef.id === "loc333" || flavorDef.id === "loc334" || flavorDef.id === "loc335" || flavorDef.id === "loc337" || flavorDef.id === "loc338" || flavorDef.id === "loc339" || flavorDef.id === "loc341" || flavorDef.id === "loc342" || flavorDef.id === "loc343" || flavorDef.id === "loc345" || flavorDef.id === "loc346" || flavorDef.id === "loc347" || flavorDef.id === "loc349" || flavorDef.id === "loc350" || flavorDef.id === "loc351" || flavorDef.id === "loc353" || flavorDef.id === "loc354" || flavorDef.id === "loc355" || flavorDef.id === "loc357" || flavorDef.id === "loc358" || flavorDef.id === "loc359" || flavorDef.id === "loc361" || flavorDef.id === "loc362" || flavorDef.id === "loc363" || flavorDef.id === "loc365" || flavorDef.id === "loc366" || flavorDef.id === "loc367" || flavorDef.id === "loc369" || flavorDef.id === "loc370" || flavorDef.id === "loc371" || flavorDef.id === "loc373" || flavorDef.id === "loc374" || flavorDef.id === "loc375" || flavorDef.id === "loc377" || flavorDef.id === "loc378" || flavorDef.id === "loc379" || flavorDef.id === "loc381" || flavorDef.id === "loc382" || flavorDef.id === "loc383" || flavorDef.id === "loc385" || flavorDef.id === "loc386" || flavorDef.id === "loc387" || flavorDef.id === "loc389" || flavorDef.id === "loc390" || flavorDef.id === "loc391" || flavorDef.id === "loc393" || flavorDef.id === "loc394" || flavorDef.id === "loc395" || flavorDef.id === "loc397" || flavorDef.id === "loc398" || flavorDef.id === "loc399" || flavorDef.id === "loc401" || flavorDef.id === "loc402" || flavorDef.id === "loc403" || flavorDef.id === "loc405" || flavorDef.id === "loc406" || flavorDef.id === "loc407" || flavorDef.id === "loc409" || flavorDef.id === "loc410" || flavorDef.id === "loc411" || flavorDef.id === "loc413" || flavorDef.id === "loc414" || flavorDef.id === "loc415" || flavorDef.id === "loc417" || flavorDef.id === "loc418" || flavorDef.id === "loc419" || flavorDef.id === "loc421" || flavorDef.id === "loc422" || flavorDef.id === "loc423" || flavorDef.id === "loc425" || flavorDef.id === "loc426" || flavorDef.id === "loc427" || flavorDef.id === "loc429" || flavorDef.id === "loc430" || flavorDef.id === "loc431" || flavorDef.id === "loc433" || flavorDef.id === "loc434" || flavorDef.id === "loc435" || flavorDef.id === "loc437" || flavorDef.id === "loc438" || flavorDef.id === "loc439" || flavorDef.id === "loc441" || flavorDef.id === "loc442" || flavorDef.id === "loc443" || flavorDef.id === "loc445" || flavorDef.id === "loc446" || flavorDef.id === "loc447" || flavorDef.id === "loc449" || flavorDef.id === "loc450" || flavorDef.id === "loc451" || flavorDef.id === "loc453" || flavorDef.id === "loc454" || flavorDef.id === "loc455" || flavorDef.id === "loc457" || flavorDef.id === "loc458" || flavorDef.id === "loc459" || flavorDef.id === "loc461" || flavorDef.id === "loc462" || flavorDef.id === "loc463" || flavorDef.id === "loc465" || flavorDef.id === "loc466" || flavorDef.id === "loc467" || flavorDef.id === "loc469" || flavorDef.id === "loc470" || flavorDef.id === "loc471" || flavorDef.id === "loc473" || flavorDef.id === "loc474" || flavorDef.id === "loc475" || flavorDef.id === "loc477" || flavorDef.id === "loc478" || flavorDef.id === "loc479" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5;
       notes.push("夏日清爽");
     }
@@ -12849,7 +14809,7 @@
       score += 0.5;
       notes.push("秋日温甜");
     }
-    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube" || flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron" || flavorDef.id === "pistachio" || flavorDef.id === "chestnut" || flavorDef.id === "cinnamon" || flavorDef.id === "clove" || flavorDef.id === "star_anise" || flavorDef.id === "nutmeg" || flavorDef.id === "goji" || flavorDef.id === "bay_leaf" || flavorDef.id === "tarragon" || flavorDef.id === "date_fruit" || flavorDef.id === "hyssop" || flavorDef.id === "lovage" || flavorDef.id === "anise_seed" || flavorDef.id === "turmeric" || flavorDef.id === "allspice" || flavorDef.id === "mace" || flavorDef.id === "caraway" || flavorDef.id === "cumin" || flavorDef.id === "fenugreek" || flavorDef.id === "ajwain" || flavorDef.id === "myrtle" || flavorDef.id === "chicory" || flavorDef.id === "nettle" || flavorDef.id === "yarrow" || flavorDef.id === "woodruff" || flavorDef.id === "valerian" || flavorDef.id === "meadowsweet" || flavorDef.id === "angelica" || flavorDef.id === "comfrey" || flavorDef.id === "selfheal" || flavorDef.id === "skullcap" || flavorDef.id === "linden" || flavorDef.id === "horehound" || flavorDef.id === "motherwort" || flavorDef.id === "betony" || flavorDef.id === "solomon_seal" || flavorDef.id === "wormwood" || flavorDef.id === "valerian_root" || flavorDef.id === "avens" || flavorDef.id === "tormentil" || flavorDef.id === "figwort" || flavorDef.id === "ground_ivy" || flavorDef.id === "self_heal_spike" || flavorDef.id === "teasel" || flavorDef.id === "burdock" || flavorDef.id === "hawthorn_berry" || flavorDef.id === "rosehip" || flavorDef.id === "sloe" || flavorDef.id === "wintercress" || flavorDef.id === "medlar" || flavorDef.id === "quince" || flavorDef.id === "aronia" || flavorDef.id === "flax_seed" || flavorDef.id === "hemp_seed" || flavorDef.id === "pumpkin_seed" || flavorDef.id === "sesame_black" || flavorDef.id === "sesame_white" || flavorDef.id === "lapacho" || flavorDef.id === "sassafras" || flavorDef.id === "birch_bark" || flavorDef.id === "pine_resin" || flavorDef.id === "tuberose" || flavorDef.id === "cardamom_green" || flavorDef.id === "cardamom_black" || flavorDef.id === "long_pepper" || flavorDef.id === "grains_of_paradise" || flavorDef.id === "cinnamon_leaf" || flavorDef.id === "clove_bud" || flavorDef.id === "allspice_leaf" || flavorDef.id === "reindeer_moss" || flavorDef.id === "iceland_moss" || flavorDef.id === "oak_moss" || flavorDef.id === "usnea" || flavorDef.id === "chaga" || flavorDef.id === "reishi" || flavorDef.id === "lion_mane" || flavorDef.id === "maitake" || flavorDef.id === "jackfruit_seed" || flavorDef.id === "rowan_jelly" || flavorDef.id === "quince_paste" || flavorDef.id === "yuzu_fresh" || flavorDef.id === "ponkan" || flavorDef.id === "dekopon" || flavorDef.id === "hassaku" || flavorDef.id === "yuzu_kosho" || flavorDef.id === "edelweiss" || flavorDef.id === "juniper_berry" || flavorDef.id === "fir_needle" || flavorDef.id === "myrtle_berry" || flavorDef.id === "mastic" || flavorDef.id === "saffron_crocus" || flavorDef.id === "buckwheat_honey" || flavorDef.id === "chestnut_honey" || flavorDef.id === "propolis" || flavorDef.id === "royal_jelly" || flavorDef.id === "mead_herb" || flavorDef.id === "cacao_nibs" || flavorDef.id === "cacao_husk" || flavorDef.id === "carob" || flavorDef.id === "maca" || flavorDef.id === "schisandra" || flavorDef.id === "hojicha" || flavorDef.id === "genmaicha" || flavorDef.id === "sobacha" || flavorDef.id === "job_tears" || flavorDef.id === "rose_hip_tea" || flavorDef.id === "camellia_fresh" || flavorDef.id === "lotus_seed_fresh" || flavorDef.id === "plum_blossom" || flavorDef.id === "wintersweet" || flavorDef.id === "ginkgo_leaf_fresh" || flavorDef.id === "ginkgo_nut_fresh" || flavorDef.id === "osmanthus_wine" || flavorDef.id === "crocus" || flavorDef.id === "snowdrop" || flavorDef.id === "crocus_yellow" || flavorDef.id === "hyacinth" || flavorDef.id === "daffodil" || flavorDef.id === "moonflower" || flavorDef.id === "magnolia_bark" || flavorDef.id === "eucommia" || flavorDef.id === "astragalus" || flavorDef.id === "codonopsis" || flavorDef.id === "rehmannia" || flavorDef.id === "polygonatum" || flavorDef.id === "ophiopogon" || flavorDef.id === "angelica_arch" || flavorDef.id === "wood_avense" || flavorDef.id === "ephedra" || flavorDef.id === "boldo" || flavorDef.id === "cupuacu_butter" || flavorDef.id === "sutherlandia" || flavorDef.id === "citron" || flavorDef.id === "bergamot_peel" || flavorDef.id === "labrador_tea" || flavorDef.id === "arctic_willow" || flavorDef.id === "kinako" || flavorDef.id === "kuromitsu" || flavorDef.id === "yuzu_peel" || flavorDef.id === "ume_blossom" || flavorDef.id === "vanilla_bean" || flavorDef.id === "tonka_bean" || flavorDef.id === "hazelnut_flower" || flavorDef.id === "omija" || flavorDef.id === "yuja" || flavorDef.id === "ssanghwa" || flavorDef.id === "jujube_tea" || flavorDef.id === "ginger_tea_kr" || flavorDef.id === "kava" || flavorDef.id === "tieguanyin" || flavorDef.id === "dahongpao" || flavorDef.id === "puer_ripe" || flavorDef.id === "shoumei" || flavorDef.id === "burdock_root" || flavorDef.id === "dandelion_root" || flavorDef.id === "chicory_root" || flavorDef.id === "holly_leaf" || flavorDef.id === "ivy_berry" || flavorDef.id === "mistletoe" || flavorDef.id === "yew_berry" || flavorDef.id === "aconite" || flavorDef.id === "helleborus" || flavorDef.id === "christmas_rose" || flavorDef.id === "black_horehound" || flavorDef.id === "white_horehound" || flavorDef.id === "skullcap_fresh" || flavorDef.id === "baikal_skullcap" || flavorDef.id === "ground_ivy_fresh" || flavorDef.id === "savory_winter" || flavorDef.id === "jerusalem_artichoke" || flavorDef.id === "topinambur" || flavorDef.id === "figwort_fresh" || flavorDef.id === "scrophularia" || flavorDef.id === "cymbidium" || flavorDef.id === "maidenhair" || flavorDef.id === "sword_fern" || flavorDef.id === "japanese_painted" || flavorDef.id === "royal_fern" || flavorDef.id === "sensitive_fern" || flavorDef.id === "fiddlehead" || flavorDef.id === "moonwort" || flavorDef.id === "blue_fescue" || flavorDef.id === "hakonechloa" || flavorDef.id === "carex_buch" || flavorDef.id === "juncus" || flavorDef.id === "bamboo_moso" || flavorDef.id === "arrow_bamboo" || flavorDef.id === "aloe_vera_fl" || flavorDef.id === "string_pearls" || flavorDef.id === "burros_tail" || flavorDef.id === "honeysuckle_blue" || flavorDef.id === "arctic_berry" || flavorDef.id === "schisandra_chin" || flavorDef.id === "schisandra_leaf" || flavorDef.id === "yam_leaf" || flavorDef.id === "chinese_yam" || flavorDef.id === "linseed_oil" || flavorDef.id === "nettle_root" || flavorDef.id === "alpine_thyme" || flavorDef.id === "alpine_sage" || flavorDef.id === "alpine_oregano" || flavorDef.id === "alpine_basil" || flavorDef.id === "alpine_mint" || flavorDef.id === "alpine_lavender" || flavorDef.id === "alpine_tarragon" || flavorDef.id === "alpine_parsley" || flavorDef.id === "alpine_fennel" || flavorDef.id === "coastal_rosemary" || flavorDef.id === "coastal_fennel" || flavorDef.id === "coastal_lovage" || flavorDef.id === "meadow_rosemary" || flavorDef.id === "meadow_fennel" || flavorDef.id === "meadow_lovage" || flavorDef.id === "woodland_rosemary" || flavorDef.id === "garden_rosemary" || flavorDef.id === "dwarf_rosemary" || flavorDef.id === "dwarf_tarragon" || flavorDef.id === "giant_thyme" || flavorDef.id === "giant_sage" || flavorDef.id === "giant_mint" || flavorDef.id === "giant_lavender" || flavorDef.id === "giant_rosemary" || flavorDef.id === "giant_fennel" || flavorDef.id === "variegated_sage" || flavorDef.id === "variegated_rosemary" || flavorDef.id === "variegated_tarragon" || flavorDef.id === "variegated_fennel" || flavorDef.id === "variegated_lovage" || flavorDef.id === "golden_sage" || flavorDef.id === "golden_rosemary" || flavorDef.id === "golden_tarragon" || flavorDef.id === "golden_fennel" || flavorDef.id === "golden_lovage" || flavorDef.id === "silver_sage" || flavorDef.id === "silver_rosemary" || flavorDef.id === "silver_tarragon" || flavorDef.id === "silver_fennel" || flavorDef.id === "silver_lovage" || flavorDef.id === "purple_sage" || flavorDef.id === "purple_rosemary" || flavorDef.id === "purple_tarragon" || flavorDef.id === "purple_fennel" || flavorDef.id === "purple_lovage" || flavorDef.id === "red_sage" || flavorDef.id === "red_rosemary" || flavorDef.id === "red_tarragon" || flavorDef.id === "red_fennel" || flavorDef.id === "red_lovage" || flavorDef.id === "white_rosemary" || flavorDef.id === "white_tarragon" || flavorDef.id === "white_fennel" || flavorDef.id === "white_lovage" || flavorDef.id === "pink_sage" || flavorDef.id === "pink_rosemary" || flavorDef.id === "pink_tarragon" || flavorDef.id === "pink_fennel" || flavorDef.id === "pink_lovage" || flavorDef.id === "blue_sage" || flavorDef.id === "blue_rosemary" || flavorDef.id === "blue_tarragon" || flavorDef.id === "blue_fennel" || flavorDef.id === "blue_lovage" || flavorDef.id === "yellow_sage" || flavorDef.id === "yellow_rosemary" || flavorDef.id === "yellow_tarragon" || flavorDef.id === "yellow_fennel" || flavorDef.id === "yellow_lovage" || flavorDef.id === "orange_sage" || flavorDef.id === "orange_rosemary" || flavorDef.id === "orange_tarragon" || flavorDef.id === "orange_fennel" || flavorDef.id === "orange_lovage" || flavorDef.id === "r0_e58c97e5a283" || flavorDef.id === "r5_e58c97e5a283" || flavorDef.id === "r10_e58c97e5a283" || flavorDef.id === "r15_e58c97e5a283" || flavorDef.id === "r20_e58c97e5a283" || flavorDef.id === "r25_e58c97e5a283" || flavorDef.id === "r30_e58c97e5a283" || flavorDef.id === "r35_e58c97e5a283" || flavorDef.id === "r40_e58c97e5a283" || flavorDef.id === "r45_e58c97e5a283" || flavorDef.id === "r50_e58c97e5a283" || flavorDef.id === "r55_e58c97e5a283" || flavorDef.id === "r60_e58c97e5a283" || flavorDef.id === "r65_e58c97e5a283" || flavorDef.id === "r70_e58c97e5a283" || flavorDef.id === "r75_e58c97e5a283" || flavorDef.id === "r80_e58c97e5a283" || flavorDef.id === "r85_e58c97e5a283" || flavorDef.id === "r90_e58c97e5a283" || flavorDef.id === "r95_e58c97e5a283" || flavorDef.id === "r100_e58c97e5a283" || flavorDef.id === "r105_e58d97e5a283" || flavorDef.id === "r110_e58d97e5a283" || flavorDef.id === "r115_e58d97e5a283" || flavorDef.id === "r120_e58d97e5a283" || flavorDef.id === "r125_e58d97e5a283" || flavorDef.id === "r130_e58d97e5a283" || flavorDef.id === "r135_e58d97e5a283" || flavorDef.id === "r140_e58d97e5a283" || flavorDef.id === "r145_e58d97e5a283" || flavorDef.id === "r150_e58d97e5a283" || flavorDef.id === "r155_e58d97e5a283" || flavorDef.id === "r160_e58d97e5a283" || flavorDef.id === "r165_e58d97e5a283" || flavorDef.id === "r170_e58d97e5a283" || flavorDef.id === "r175_e58d97e5a283" || flavorDef.id === "r180_e58d97e5a283" || flavorDef.id === "r185_e58d97e5a283" || flavorDef.id === "r190_e58d97e5a283" || flavorDef.id === "r195_e58d97e5a283" || flavorDef.id === "loc0" || flavorDef.id === "loc4" || flavorDef.id === "loc8" || flavorDef.id === "loc12" || flavorDef.id === "loc16" || flavorDef.id === "loc20" || flavorDef.id === "loc24" || flavorDef.id === "loc28" || flavorDef.id === "loc32" || flavorDef.id === "loc36" || flavorDef.id === "loc40" || flavorDef.id === "loc44" || flavorDef.id === "loc48" || flavorDef.id === "loc52" || flavorDef.id === "loc56" || flavorDef.id === "loc60" || flavorDef.id === "loc64" || flavorDef.id === "loc68" || flavorDef.id === "loc72" || flavorDef.id === "loc76" || flavorDef.id === "loc80" || flavorDef.id === "loc84" || flavorDef.id === "loc88" || flavorDef.id === "loc92" || flavorDef.id === "loc96" || flavorDef.id === "loc100" || flavorDef.id === "loc104" || flavorDef.id === "loc108" || flavorDef.id === "loc112" || flavorDef.id === "loc116" || flavorDef.id === "loc120" || flavorDef.id === "loc124" || flavorDef.id === "loc128" || flavorDef.id === "loc132" || flavorDef.id === "loc136" || flavorDef.id === "loc140" || flavorDef.id === "loc144" || flavorDef.id === "loc148" || flavorDef.id === "loc152" || flavorDef.id === "loc156" || flavorDef.id === "loc160" || flavorDef.id === "loc164" || flavorDef.id === "loc168" || flavorDef.id === "loc172" || flavorDef.id === "loc176" || flavorDef.id === "loc180" || flavorDef.id === "loc184" || flavorDef.id === "loc188" || flavorDef.id === "loc192" || flavorDef.id === "loc196")) {
+    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube" || flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron" || flavorDef.id === "pistachio" || flavorDef.id === "chestnut" || flavorDef.id === "cinnamon" || flavorDef.id === "clove" || flavorDef.id === "star_anise" || flavorDef.id === "nutmeg" || flavorDef.id === "goji" || flavorDef.id === "bay_leaf" || flavorDef.id === "tarragon" || flavorDef.id === "date_fruit" || flavorDef.id === "hyssop" || flavorDef.id === "lovage" || flavorDef.id === "anise_seed" || flavorDef.id === "turmeric" || flavorDef.id === "allspice" || flavorDef.id === "mace" || flavorDef.id === "caraway" || flavorDef.id === "cumin" || flavorDef.id === "fenugreek" || flavorDef.id === "ajwain" || flavorDef.id === "myrtle" || flavorDef.id === "chicory" || flavorDef.id === "nettle" || flavorDef.id === "yarrow" || flavorDef.id === "woodruff" || flavorDef.id === "valerian" || flavorDef.id === "meadowsweet" || flavorDef.id === "angelica" || flavorDef.id === "comfrey" || flavorDef.id === "selfheal" || flavorDef.id === "skullcap" || flavorDef.id === "linden" || flavorDef.id === "horehound" || flavorDef.id === "motherwort" || flavorDef.id === "betony" || flavorDef.id === "solomon_seal" || flavorDef.id === "wormwood" || flavorDef.id === "valerian_root" || flavorDef.id === "avens" || flavorDef.id === "tormentil" || flavorDef.id === "figwort" || flavorDef.id === "ground_ivy" || flavorDef.id === "self_heal_spike" || flavorDef.id === "teasel" || flavorDef.id === "burdock" || flavorDef.id === "hawthorn_berry" || flavorDef.id === "rosehip" || flavorDef.id === "sloe" || flavorDef.id === "wintercress" || flavorDef.id === "medlar" || flavorDef.id === "quince" || flavorDef.id === "aronia" || flavorDef.id === "flax_seed" || flavorDef.id === "hemp_seed" || flavorDef.id === "pumpkin_seed" || flavorDef.id === "sesame_black" || flavorDef.id === "sesame_white" || flavorDef.id === "lapacho" || flavorDef.id === "sassafras" || flavorDef.id === "birch_bark" || flavorDef.id === "pine_resin" || flavorDef.id === "tuberose" || flavorDef.id === "cardamom_green" || flavorDef.id === "cardamom_black" || flavorDef.id === "long_pepper" || flavorDef.id === "grains_of_paradise" || flavorDef.id === "cinnamon_leaf" || flavorDef.id === "clove_bud" || flavorDef.id === "allspice_leaf" || flavorDef.id === "reindeer_moss" || flavorDef.id === "iceland_moss" || flavorDef.id === "oak_moss" || flavorDef.id === "usnea" || flavorDef.id === "chaga" || flavorDef.id === "reishi" || flavorDef.id === "lion_mane" || flavorDef.id === "maitake" || flavorDef.id === "jackfruit_seed" || flavorDef.id === "rowan_jelly" || flavorDef.id === "quince_paste" || flavorDef.id === "yuzu_fresh" || flavorDef.id === "ponkan" || flavorDef.id === "dekopon" || flavorDef.id === "hassaku" || flavorDef.id === "yuzu_kosho" || flavorDef.id === "edelweiss" || flavorDef.id === "juniper_berry" || flavorDef.id === "fir_needle" || flavorDef.id === "myrtle_berry" || flavorDef.id === "mastic" || flavorDef.id === "saffron_crocus" || flavorDef.id === "buckwheat_honey" || flavorDef.id === "chestnut_honey" || flavorDef.id === "propolis" || flavorDef.id === "royal_jelly" || flavorDef.id === "mead_herb" || flavorDef.id === "cacao_nibs" || flavorDef.id === "cacao_husk" || flavorDef.id === "carob" || flavorDef.id === "maca" || flavorDef.id === "schisandra" || flavorDef.id === "hojicha" || flavorDef.id === "genmaicha" || flavorDef.id === "sobacha" || flavorDef.id === "job_tears" || flavorDef.id === "rose_hip_tea" || flavorDef.id === "camellia_fresh" || flavorDef.id === "lotus_seed_fresh" || flavorDef.id === "plum_blossom" || flavorDef.id === "wintersweet" || flavorDef.id === "ginkgo_leaf_fresh" || flavorDef.id === "ginkgo_nut_fresh" || flavorDef.id === "osmanthus_wine" || flavorDef.id === "crocus" || flavorDef.id === "snowdrop" || flavorDef.id === "crocus_yellow" || flavorDef.id === "hyacinth" || flavorDef.id === "daffodil" || flavorDef.id === "moonflower" || flavorDef.id === "magnolia_bark" || flavorDef.id === "eucommia" || flavorDef.id === "astragalus" || flavorDef.id === "codonopsis" || flavorDef.id === "rehmannia" || flavorDef.id === "polygonatum" || flavorDef.id === "ophiopogon" || flavorDef.id === "angelica_arch" || flavorDef.id === "wood_avense" || flavorDef.id === "ephedra" || flavorDef.id === "boldo" || flavorDef.id === "cupuacu_butter" || flavorDef.id === "sutherlandia" || flavorDef.id === "citron" || flavorDef.id === "bergamot_peel" || flavorDef.id === "labrador_tea" || flavorDef.id === "arctic_willow" || flavorDef.id === "kinako" || flavorDef.id === "kuromitsu" || flavorDef.id === "yuzu_peel" || flavorDef.id === "ume_blossom" || flavorDef.id === "vanilla_bean" || flavorDef.id === "tonka_bean" || flavorDef.id === "hazelnut_flower" || flavorDef.id === "omija" || flavorDef.id === "yuja" || flavorDef.id === "ssanghwa" || flavorDef.id === "jujube_tea" || flavorDef.id === "ginger_tea_kr" || flavorDef.id === "kava" || flavorDef.id === "tieguanyin" || flavorDef.id === "dahongpao" || flavorDef.id === "puer_ripe" || flavorDef.id === "shoumei" || flavorDef.id === "burdock_root" || flavorDef.id === "dandelion_root" || flavorDef.id === "chicory_root" || flavorDef.id === "holly_leaf" || flavorDef.id === "ivy_berry" || flavorDef.id === "mistletoe" || flavorDef.id === "yew_berry" || flavorDef.id === "aconite" || flavorDef.id === "helleborus" || flavorDef.id === "christmas_rose" || flavorDef.id === "black_horehound" || flavorDef.id === "white_horehound" || flavorDef.id === "skullcap_fresh" || flavorDef.id === "baikal_skullcap" || flavorDef.id === "ground_ivy_fresh" || flavorDef.id === "savory_winter" || flavorDef.id === "jerusalem_artichoke" || flavorDef.id === "topinambur" || flavorDef.id === "figwort_fresh" || flavorDef.id === "scrophularia" || flavorDef.id === "cymbidium" || flavorDef.id === "maidenhair" || flavorDef.id === "sword_fern" || flavorDef.id === "japanese_painted" || flavorDef.id === "royal_fern" || flavorDef.id === "sensitive_fern" || flavorDef.id === "fiddlehead" || flavorDef.id === "moonwort" || flavorDef.id === "blue_fescue" || flavorDef.id === "hakonechloa" || flavorDef.id === "carex_buch" || flavorDef.id === "juncus" || flavorDef.id === "bamboo_moso" || flavorDef.id === "arrow_bamboo" || flavorDef.id === "aloe_vera_fl" || flavorDef.id === "string_pearls" || flavorDef.id === "burros_tail" || flavorDef.id === "honeysuckle_blue" || flavorDef.id === "arctic_berry" || flavorDef.id === "schisandra_chin" || flavorDef.id === "schisandra_leaf" || flavorDef.id === "yam_leaf" || flavorDef.id === "chinese_yam" || flavorDef.id === "linseed_oil" || flavorDef.id === "nettle_root" || flavorDef.id === "alpine_thyme" || flavorDef.id === "alpine_sage" || flavorDef.id === "alpine_oregano" || flavorDef.id === "alpine_basil" || flavorDef.id === "alpine_mint" || flavorDef.id === "alpine_lavender" || flavorDef.id === "alpine_tarragon" || flavorDef.id === "alpine_parsley" || flavorDef.id === "alpine_fennel" || flavorDef.id === "coastal_rosemary" || flavorDef.id === "coastal_fennel" || flavorDef.id === "coastal_lovage" || flavorDef.id === "meadow_rosemary" || flavorDef.id === "meadow_fennel" || flavorDef.id === "meadow_lovage" || flavorDef.id === "woodland_rosemary" || flavorDef.id === "garden_rosemary" || flavorDef.id === "dwarf_rosemary" || flavorDef.id === "dwarf_tarragon" || flavorDef.id === "giant_thyme" || flavorDef.id === "giant_sage" || flavorDef.id === "giant_mint" || flavorDef.id === "giant_lavender" || flavorDef.id === "giant_rosemary" || flavorDef.id === "giant_fennel" || flavorDef.id === "variegated_sage" || flavorDef.id === "variegated_rosemary" || flavorDef.id === "variegated_tarragon" || flavorDef.id === "variegated_fennel" || flavorDef.id === "variegated_lovage" || flavorDef.id === "golden_sage" || flavorDef.id === "golden_rosemary" || flavorDef.id === "golden_tarragon" || flavorDef.id === "golden_fennel" || flavorDef.id === "golden_lovage" || flavorDef.id === "silver_sage" || flavorDef.id === "silver_rosemary" || flavorDef.id === "silver_tarragon" || flavorDef.id === "silver_fennel" || flavorDef.id === "silver_lovage" || flavorDef.id === "purple_sage" || flavorDef.id === "purple_rosemary" || flavorDef.id === "purple_tarragon" || flavorDef.id === "purple_fennel" || flavorDef.id === "purple_lovage" || flavorDef.id === "red_sage" || flavorDef.id === "red_rosemary" || flavorDef.id === "red_tarragon" || flavorDef.id === "red_fennel" || flavorDef.id === "red_lovage" || flavorDef.id === "white_rosemary" || flavorDef.id === "white_tarragon" || flavorDef.id === "white_fennel" || flavorDef.id === "white_lovage" || flavorDef.id === "pink_sage" || flavorDef.id === "pink_rosemary" || flavorDef.id === "pink_tarragon" || flavorDef.id === "pink_fennel" || flavorDef.id === "pink_lovage" || flavorDef.id === "blue_sage" || flavorDef.id === "blue_rosemary" || flavorDef.id === "blue_tarragon" || flavorDef.id === "blue_fennel" || flavorDef.id === "blue_lovage" || flavorDef.id === "yellow_sage" || flavorDef.id === "yellow_rosemary" || flavorDef.id === "yellow_tarragon" || flavorDef.id === "yellow_fennel" || flavorDef.id === "yellow_lovage" || flavorDef.id === "orange_sage" || flavorDef.id === "orange_rosemary" || flavorDef.id === "orange_tarragon" || flavorDef.id === "orange_fennel" || flavorDef.id === "orange_lovage" || flavorDef.id === "r0_e58c97e5a283" || flavorDef.id === "r5_e58c97e5a283" || flavorDef.id === "r10_e58c97e5a283" || flavorDef.id === "r15_e58c97e5a283" || flavorDef.id === "r20_e58c97e5a283" || flavorDef.id === "r25_e58c97e5a283" || flavorDef.id === "r30_e58c97e5a283" || flavorDef.id === "r35_e58c97e5a283" || flavorDef.id === "r40_e58c97e5a283" || flavorDef.id === "r45_e58c97e5a283" || flavorDef.id === "r50_e58c97e5a283" || flavorDef.id === "r55_e58c97e5a283" || flavorDef.id === "r60_e58c97e5a283" || flavorDef.id === "r65_e58c97e5a283" || flavorDef.id === "r70_e58c97e5a283" || flavorDef.id === "r75_e58c97e5a283" || flavorDef.id === "r80_e58c97e5a283" || flavorDef.id === "r85_e58c97e5a283" || flavorDef.id === "r90_e58c97e5a283" || flavorDef.id === "r95_e58c97e5a283" || flavorDef.id === "r100_e58c97e5a283" || flavorDef.id === "r105_e58d97e5a283" || flavorDef.id === "r110_e58d97e5a283" || flavorDef.id === "r115_e58d97e5a283" || flavorDef.id === "r120_e58d97e5a283" || flavorDef.id === "r125_e58d97e5a283" || flavorDef.id === "r130_e58d97e5a283" || flavorDef.id === "r135_e58d97e5a283" || flavorDef.id === "r140_e58d97e5a283" || flavorDef.id === "r145_e58d97e5a283" || flavorDef.id === "r150_e58d97e5a283" || flavorDef.id === "r155_e58d97e5a283" || flavorDef.id === "r160_e58d97e5a283" || flavorDef.id === "r165_e58d97e5a283" || flavorDef.id === "r170_e58d97e5a283" || flavorDef.id === "r175_e58d97e5a283" || flavorDef.id === "r180_e58d97e5a283" || flavorDef.id === "r185_e58d97e5a283" || flavorDef.id === "r190_e58d97e5a283" || flavorDef.id === "r195_e58d97e5a283" || flavorDef.id === "loc0" || flavorDef.id === "loc4" || flavorDef.id === "loc8" || flavorDef.id === "loc12" || flavorDef.id === "loc16" || flavorDef.id === "loc20" || flavorDef.id === "loc24" || flavorDef.id === "loc28" || flavorDef.id === "loc32" || flavorDef.id === "loc36" || flavorDef.id === "loc40" || flavorDef.id === "loc44" || flavorDef.id === "loc48" || flavorDef.id === "loc52" || flavorDef.id === "loc56" || flavorDef.id === "loc60" || flavorDef.id === "loc64" || flavorDef.id === "loc68" || flavorDef.id === "loc72" || flavorDef.id === "loc76" || flavorDef.id === "loc80" || flavorDef.id === "loc84" || flavorDef.id === "loc88" || flavorDef.id === "loc92" || flavorDef.id === "loc96" || flavorDef.id === "loc100" || flavorDef.id === "loc104" || flavorDef.id === "loc108" || flavorDef.id === "loc112" || flavorDef.id === "loc116" || flavorDef.id === "loc120" || flavorDef.id === "loc124" || flavorDef.id === "loc128" || flavorDef.id === "loc132" || flavorDef.id === "loc136" || flavorDef.id === "loc140" || flavorDef.id === "loc144" || flavorDef.id === "loc148" || flavorDef.id === "loc152" || flavorDef.id === "loc156" || flavorDef.id === "loc160" || flavorDef.id === "loc164" || flavorDef.id === "loc168" || flavorDef.id === "loc172" || flavorDef.id === "loc176" || flavorDef.id === "loc180" || flavorDef.id === "loc184" || flavorDef.id === "loc188" || flavorDef.id === "loc192" || flavorDef.id === "loc196" || flavorDef.id === "loc200" || flavorDef.id === "loc204" || flavorDef.id === "loc208" || flavorDef.id === "loc212" || flavorDef.id === "loc216" || flavorDef.id === "loc220" || flavorDef.id === "loc224" || flavorDef.id === "loc228" || flavorDef.id === "loc232" || flavorDef.id === "loc236" || flavorDef.id === "loc240" || flavorDef.id === "loc244" || flavorDef.id === "loc248" || flavorDef.id === "loc252" || flavorDef.id === "loc256" || flavorDef.id === "loc260" || flavorDef.id === "loc264" || flavorDef.id === "loc268" || flavorDef.id === "loc272" || flavorDef.id === "loc276" || flavorDef.id === "loc280" || flavorDef.id === "loc284" || flavorDef.id === "loc288" || flavorDef.id === "loc292" || flavorDef.id === "loc296" || flavorDef.id === "loc300" || flavorDef.id === "loc304" || flavorDef.id === "loc308" || flavorDef.id === "loc312" || flavorDef.id === "loc316" || flavorDef.id === "loc320" || flavorDef.id === "loc324" || flavorDef.id === "loc328" || flavorDef.id === "loc332" || flavorDef.id === "loc336" || flavorDef.id === "loc340" || flavorDef.id === "loc344" || flavorDef.id === "loc348" || flavorDef.id === "loc352" || flavorDef.id === "loc356" || flavorDef.id === "loc360" || flavorDef.id === "loc364" || flavorDef.id === "loc368" || flavorDef.id === "loc372" || flavorDef.id === "loc376" || flavorDef.id === "loc380" || flavorDef.id === "loc384" || flavorDef.id === "loc388" || flavorDef.id === "loc392" || flavorDef.id === "loc396" || flavorDef.id === "loc400" || flavorDef.id === "loc404" || flavorDef.id === "loc408" || flavorDef.id === "loc412" || flavorDef.id === "loc416" || flavorDef.id === "loc420" || flavorDef.id === "loc424" || flavorDef.id === "loc428" || flavorDef.id === "loc432" || flavorDef.id === "loc436" || flavorDef.id === "loc440" || flavorDef.id === "loc444" || flavorDef.id === "loc448" || flavorDef.id === "loc452" || flavorDef.id === "loc456" || flavorDef.id === "loc460" || flavorDef.id === "loc464" || flavorDef.id === "loc468" || flavorDef.id === "loc472" || flavorDef.id === "loc476")) {
       score += 0.5;
       notes.push("冬日暖茶");
     }
@@ -14441,7 +16401,287 @@
       loc196: true,
       loc197: true,
       loc198: true,
-      loc199: true
+      loc199: true,
+      loc200: true,
+      loc201: true,
+      loc202: true,
+      loc203: true,
+      loc204: true,
+      loc205: true,
+      loc206: true,
+      loc207: true,
+      loc208: true,
+      loc209: true,
+      loc210: true,
+      loc211: true,
+      loc212: true,
+      loc213: true,
+      loc214: true,
+      loc215: true,
+      loc216: true,
+      loc217: true,
+      loc218: true,
+      loc219: true,
+      loc220: true,
+      loc221: true,
+      loc222: true,
+      loc223: true,
+      loc224: true,
+      loc225: true,
+      loc226: true,
+      loc227: true,
+      loc228: true,
+      loc229: true,
+      loc230: true,
+      loc231: true,
+      loc232: true,
+      loc233: true,
+      loc234: true,
+      loc235: true,
+      loc236: true,
+      loc237: true,
+      loc238: true,
+      loc239: true,
+      loc240: true,
+      loc241: true,
+      loc242: true,
+      loc243: true,
+      loc244: true,
+      loc245: true,
+      loc246: true,
+      loc247: true,
+      loc248: true,
+      loc249: true,
+      loc250: true,
+      loc251: true,
+      loc252: true,
+      loc253: true,
+      loc254: true,
+      loc255: true,
+      loc256: true,
+      loc257: true,
+      loc258: true,
+      loc259: true,
+      loc260: true,
+      loc261: true,
+      loc262: true,
+      loc263: true,
+      loc264: true,
+      loc265: true,
+      loc266: true,
+      loc267: true,
+      loc268: true,
+      loc269: true,
+      loc270: true,
+      loc271: true,
+      loc272: true,
+      loc273: true,
+      loc274: true,
+      loc275: true,
+      loc276: true,
+      loc277: true,
+      loc278: true,
+      loc279: true,
+      loc280: true,
+      loc281: true,
+      loc282: true,
+      loc283: true,
+      loc284: true,
+      loc285: true,
+      loc286: true,
+      loc287: true,
+      loc288: true,
+      loc289: true,
+      loc290: true,
+      loc291: true,
+      loc292: true,
+      loc293: true,
+      loc294: true,
+      loc295: true,
+      loc296: true,
+      loc297: true,
+      loc298: true,
+      loc299: true,
+      loc300: true,
+      loc301: true,
+      loc302: true,
+      loc303: true,
+      loc304: true,
+      loc305: true,
+      loc306: true,
+      loc307: true,
+      loc308: true,
+      loc309: true,
+      loc310: true,
+      loc311: true,
+      loc312: true,
+      loc313: true,
+      loc314: true,
+      loc315: true,
+      loc316: true,
+      loc317: true,
+      loc318: true,
+      loc319: true,
+      loc320: true,
+      loc321: true,
+      loc322: true,
+      loc323: true,
+      loc324: true,
+      loc325: true,
+      loc326: true,
+      loc327: true,
+      loc328: true,
+      loc329: true,
+      loc330: true,
+      loc331: true,
+      loc332: true,
+      loc333: true,
+      loc334: true,
+      loc335: true,
+      loc336: true,
+      loc337: true,
+      loc338: true,
+      loc339: true,
+      loc340: true,
+      loc341: true,
+      loc342: true,
+      loc343: true,
+      loc344: true,
+      loc345: true,
+      loc346: true,
+      loc347: true,
+      loc348: true,
+      loc349: true,
+      loc350: true,
+      loc351: true,
+      loc352: true,
+      loc353: true,
+      loc354: true,
+      loc355: true,
+      loc356: true,
+      loc357: true,
+      loc358: true,
+      loc359: true,
+      loc360: true,
+      loc361: true,
+      loc362: true,
+      loc363: true,
+      loc364: true,
+      loc365: true,
+      loc366: true,
+      loc367: true,
+      loc368: true,
+      loc369: true,
+      loc370: true,
+      loc371: true,
+      loc372: true,
+      loc373: true,
+      loc374: true,
+      loc375: true,
+      loc376: true,
+      loc377: true,
+      loc378: true,
+      loc379: true,
+      loc380: true,
+      loc381: true,
+      loc382: true,
+      loc383: true,
+      loc384: true,
+      loc385: true,
+      loc386: true,
+      loc387: true,
+      loc388: true,
+      loc389: true,
+      loc390: true,
+      loc391: true,
+      loc392: true,
+      loc393: true,
+      loc394: true,
+      loc395: true,
+      loc396: true,
+      loc397: true,
+      loc398: true,
+      loc399: true,
+      loc400: true,
+      loc401: true,
+      loc402: true,
+      loc403: true,
+      loc404: true,
+      loc405: true,
+      loc406: true,
+      loc407: true,
+      loc408: true,
+      loc409: true,
+      loc410: true,
+      loc411: true,
+      loc412: true,
+      loc413: true,
+      loc414: true,
+      loc415: true,
+      loc416: true,
+      loc417: true,
+      loc418: true,
+      loc419: true,
+      loc420: true,
+      loc421: true,
+      loc422: true,
+      loc423: true,
+      loc424: true,
+      loc425: true,
+      loc426: true,
+      loc427: true,
+      loc428: true,
+      loc429: true,
+      loc430: true,
+      loc431: true,
+      loc432: true,
+      loc433: true,
+      loc434: true,
+      loc435: true,
+      loc436: true,
+      loc437: true,
+      loc438: true,
+      loc439: true,
+      loc440: true,
+      loc441: true,
+      loc442: true,
+      loc443: true,
+      loc444: true,
+      loc445: true,
+      loc446: true,
+      loc447: true,
+      loc448: true,
+      loc449: true,
+      loc450: true,
+      loc451: true,
+      loc452: true,
+      loc453: true,
+      loc454: true,
+      loc455: true,
+      loc456: true,
+      loc457: true,
+      loc458: true,
+      loc459: true,
+      loc460: true,
+      loc461: true,
+      loc462: true,
+      loc463: true,
+      loc464: true,
+      loc465: true,
+      loc466: true,
+      loc467: true,
+      loc468: true,
+      loc469: true,
+      loc470: true,
+      loc471: true,
+      loc472: true,
+      loc473: true,
+      loc474: true,
+      loc475: true,
+      loc476: true,
+      loc477: true,
+      loc478: true,
+      loc479: true
     };
     if (FORAGE_FLAVORS[flavorDef.id] && (baseDef.id === "tea" || baseDef.id === "honey_water" || baseDef.id === "soda" || baseDef.id === "floral_tea")) {
       score += 0.3;
