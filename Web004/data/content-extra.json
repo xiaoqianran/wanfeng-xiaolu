@@ -3820,6 +3820,118 @@
       "emoji": "🟢",
       "kind": "风味",
       "seed": "celery_leafPot"
+    },
+    "rooibos": {
+      "id": "rooibos",
+      "name": "路易波士",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "rooibosPot"
+    },
+    "honeybush": {
+      "id": "honeybush",
+      "name": "蜜树茶",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "honeybushPot"
+    },
+    "yerba_mate": {
+      "id": "yerba_mate",
+      "name": "马黛茶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "yerba_matePot"
+    },
+    "guayusa": {
+      "id": "guayusa",
+      "name": "瓜尤萨",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "guayusaPot"
+    },
+    "lapacho": {
+      "id": "lapacho",
+      "name": "拉帕乔",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "lapachoPot"
+    },
+    "sassafras": {
+      "id": "sassafras",
+      "name": "檫树",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "sassafrasPot"
+    },
+    "birch_bark": {
+      "id": "birch_bark",
+      "name": "白桦皮",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "birch_barkPot"
+    },
+    "pine_resin": {
+      "id": "pine_resin",
+      "name": "松脂",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "pine_resinPot"
+    },
+    "gardenia": {
+      "id": "gardenia",
+      "name": "栀子花",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "gardeniaPot"
+    },
+    "magnolia": {
+      "id": "magnolia",
+      "name": "玉兰花",
+      "emoji": "🩷",
+      "kind": "风味",
+      "seed": "magnoliaPot"
+    },
+    "frangipani": {
+      "id": "frangipani",
+      "name": "鸡蛋花",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "frangipaniPot"
+    },
+    "plumeria": {
+      "id": "plumeria",
+      "name": "缅栀",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "plumeriaPot"
+    },
+    "tuberose": {
+      "id": "tuberose",
+      "name": "晚香玉",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "tuberosePot"
+    },
+    "stephanotis": {
+      "id": "stephanotis",
+      "name": "马达加斯加茉莉",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "stephanotisPot"
+    },
+    "garden_phlox": {
+      "id": "garden_phlox",
+      "name": "福禄考",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "garden_phloxPot"
+    },
+    "osmanthus_fresh": {
+      "id": "osmanthus_fresh",
+      "name": "桂花鲜瓣",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "osmanthus_freshPot"
     }
   },
   "plants": {
@@ -8019,6 +8131,182 @@
       ],
       "harvest": "celery_leaf",
       "days": 3
+    },
+    "rooibosPot": {
+      "id": "rooibosPot",
+      "name": "路易波士",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "rooibos",
+      "days": 3
+    },
+    "honeybushPot": {
+      "id": "honeybushPot",
+      "name": "蜜树茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "honeybush",
+      "days": 3
+    },
+    "yerba_matePot": {
+      "id": "yerba_matePot",
+      "name": "马黛茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "yerba_mate",
+      "days": 3
+    },
+    "guayusaPot": {
+      "id": "guayusaPot",
+      "name": "瓜尤萨",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "guayusa",
+      "days": 3
+    },
+    "lapachoPot": {
+      "id": "lapachoPot",
+      "name": "拉帕乔",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "lapacho",
+      "days": 4
+    },
+    "sassafrasPot": {
+      "id": "sassafrasPot",
+      "name": "檫树",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "sassafras",
+      "days": 4
+    },
+    "birch_barkPot": {
+      "id": "birch_barkPot",
+      "name": "白桦皮",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "birch_bark",
+      "days": 4
+    },
+    "pine_resinPot": {
+      "id": "pine_resinPot",
+      "name": "松脂",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "pine_resin",
+      "days": 4
+    },
+    "gardeniaPot": {
+      "id": "gardeniaPot",
+      "name": "栀子花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "gardenia",
+      "days": 3
+    },
+    "magnoliaPot": {
+      "id": "magnoliaPot",
+      "name": "玉兰花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🩷"
+      ],
+      "harvest": "magnolia",
+      "days": 3
+    },
+    "frangipaniPot": {
+      "id": "frangipaniPot",
+      "name": "鸡蛋花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "frangipani",
+      "days": 3
+    },
+    "plumeriaPot": {
+      "id": "plumeriaPot",
+      "name": "缅栀",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "plumeria",
+      "days": 3
+    },
+    "tuberosePot": {
+      "id": "tuberosePot",
+      "name": "晚香玉",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "tuberose",
+      "days": 3
+    },
+    "stephanotisPot": {
+      "id": "stephanotisPot",
+      "name": "马达加斯加茉莉",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "stephanotis",
+      "days": 3
+    },
+    "garden_phloxPot": {
+      "id": "garden_phloxPot",
+      "name": "福禄考",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "garden_phlox",
+      "days": 3
+    },
+    "osmanthus_freshPot": {
+      "id": "osmanthus_freshPot",
+      "name": "桂花鲜瓣",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "osmanthus_fresh",
+      "days": 3
     }
   },
   "cups": [
@@ -10943,6 +11231,166 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "rooibos",
+      "name": "路易波士",
+      "emoji": "🧡",
+      "need": "rooibos",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "honeybush",
+      "name": "蜜树茶",
+      "emoji": "💛",
+      "need": "honeybush",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "yerba_mate",
+      "name": "马黛茶",
+      "emoji": "🟢",
+      "need": "yerba_mate",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "guayusa",
+      "name": "瓜尤萨",
+      "emoji": "🌿",
+      "need": "guayusa",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "lapacho",
+      "name": "拉帕乔",
+      "emoji": "🟤",
+      "need": "lapacho",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "sassafras",
+      "name": "檫树",
+      "emoji": "🟤",
+      "need": "sassafras",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "birch_bark",
+      "name": "白桦皮",
+      "emoji": "⚪",
+      "need": "birch_bark",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "pine_resin",
+      "name": "松脂",
+      "emoji": "🟡",
+      "need": "pine_resin",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "gardenia",
+      "name": "栀子花",
+      "emoji": "🤍",
+      "need": "gardenia",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "magnolia",
+      "name": "玉兰花",
+      "emoji": "🩷",
+      "need": "magnolia",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "frangipani",
+      "name": "鸡蛋花",
+      "emoji": "💛",
+      "need": "frangipani",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "plumeria",
+      "name": "缅栀",
+      "emoji": "🤍",
+      "need": "plumeria",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "tuberose",
+      "name": "晚香玉",
+      "emoji": "🤍",
+      "need": "tuberose",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "stephanotis",
+      "name": "马达加斯加茉莉",
+      "emoji": "⚪",
+      "need": "stephanotis",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "garden_phlox",
+      "name": "福禄考",
+      "emoji": "💗",
+      "need": "garden_phlox",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "osmanthus_fresh",
+      "name": "桂花鲜瓣",
+      "emoji": "🧡",
+      "need": "osmanthus_fresh",
+      "tags": [
+        "花香",
+        "甜蜜"
       ]
     }
   ],
@@ -15306,6 +15754,246 @@
         "honey",
         "tea_leaf",
         "mint"
+      ]
+    },
+    {
+      "name": "泡路易波士的旅人",
+      "avatar": "🧡",
+      "wish": "路易波士或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "rooibos",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "泡蜜树茶的药师",
+      "avatar": "💛",
+      "wish": "蜜树茶或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "honeybush",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "泡马黛茶的旅人",
+      "avatar": "🟢",
+      "wish": "马黛茶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "yerba_mate",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "泡瓜尤萨的旅人",
+      "avatar": "🌿",
+      "wish": "瓜尤萨或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "guayusa",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "炖拉帕乔的药师",
+      "avatar": "🟤",
+      "wish": "拉帕乔或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "lapacho",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采檫树的药师",
+      "avatar": "🟤",
+      "wish": "檫树或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "sassafras",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采白桦皮的旅人",
+      "avatar": "⚪",
+      "wish": "白桦皮或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "birch_bark",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采松脂的药师",
+      "avatar": "🟡",
+      "wish": "松脂或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "pine_resin",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采栀子花的药师",
+      "avatar": "🤍",
+      "wish": "栀子花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "gardenia",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采玉兰花的旅人",
+      "avatar": "🩷",
+      "wish": "玉兰花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "magnolia",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鸡蛋花的旅人",
+      "avatar": "💛",
+      "wish": "鸡蛋花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "frangipani",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采缅栀的药师",
+      "avatar": "🤍",
+      "wish": "缅栀或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "plumeria",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采晚香玉的旅人",
+      "avatar": "🤍",
+      "wish": "晚香玉或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "tuberose",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采马达加斯加茉莉的药师",
+      "avatar": "⚪",
+      "wish": "马达加斯加茉莉或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "stephanotis",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采福禄考的旅人",
+      "avatar": "💗",
+      "wish": "福禄考或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "garden_phlox",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采桂花鲜瓣的旅人",
+      "avatar": "🧡",
+      "wish": "桂花鲜瓣或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "osmanthus_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
       ]
     }
   ],
