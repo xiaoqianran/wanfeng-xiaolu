@@ -143480,5 +143480,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_soil0",
+    "title": "黑土土香两份",
+    "body": "采黑土土香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil0": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil1",
+    "title": "黑土泥香两份",
+    "body": "采黑土泥香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil1": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil2",
+    "title": "黑土壤香两份",
+    "body": "采黑土壤香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil2": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil3",
+    "title": "黑土肥香两份",
+    "body": "采黑土肥香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil3": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil4",
+    "title": "黑土腐香两份",
+    "body": "采黑土腐香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil4": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil5",
+    "title": "黑土炭香两份",
+    "body": "采黑土炭香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil5": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil6",
+    "title": "黑土灰香两份",
+    "body": "采黑土灰香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil6": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil7",
+    "title": "黑土盐香两份",
+    "body": "采黑土盐香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil7": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil8",
+    "title": "黑土碱香两份",
+    "body": "采黑土碱香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil8": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil9",
+    "title": "黑土火香两份",
+    "body": "采黑土火香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil9": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil10",
+    "title": "黑土沙香两份",
+    "body": "采黑土沙香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil10": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil11",
+    "title": "黑土粉香两份",
+    "body": "采黑土粉香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil11": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil12",
+    "title": "黑土砾香两份",
+    "body": "采黑土砾香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil12": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil13",
+    "title": "黑土石香两份",
+    "body": "采黑土石香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil13": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil14",
+    "title": "黑土灰土香两份",
+    "body": "采黑土灰土香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil14": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil15",
+    "title": "黑土青泥香两份",
+    "body": "采黑土青泥香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil15": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil16",
+    "title": "黄土土香两份",
+    "body": "采黄土土香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil16": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil17",
+    "title": "黄土泥香两份",
+    "body": "采黄土泥香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil17": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil18",
+    "title": "黄土壤香两份",
+    "body": "采黄土壤香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil18": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil19",
+    "title": "黄土肥香两份",
+    "body": "采黄土肥香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil19": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil20",
+    "title": "黄土腐香两份",
+    "body": "采黄土腐香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil21",
+    "title": "黄土炭香两份",
+    "body": "采黄土炭香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil22",
+    "title": "黄土灰香两份",
+    "body": "采黄土灰香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil23",
+    "title": "黄土盐香两份",
+    "body": "采黄土盐香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil24",
+    "title": "黄土碱香两份",
+    "body": "采黄土碱香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil25",
+    "title": "黄土火香两份",
+    "body": "采黄土火香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil26",
+    "title": "黄土沙香两份",
+    "body": "采黄土沙香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil27",
+    "title": "黄土粉香两份",
+    "body": "采黄土粉香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil28",
+    "title": "黄土砾香两份",
+    "body": "采黄土砾香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil29",
+    "title": "黄土石香两份",
+    "body": "采黄土石香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil30",
+    "title": "黄土灰土香两份",
+    "body": "采黄土灰土香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil30": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil31",
+    "title": "黄土青泥香两份",
+    "body": "采黄土青泥香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil31": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil32",
+    "title": "红土土香两份",
+    "body": "采红土土香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil32": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil33",
+    "title": "红土泥香两份",
+    "body": "采红土泥香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil33": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil34",
+    "title": "红土壤香两份",
+    "body": "采红土壤香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil34": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil35",
+    "title": "红土肥香两份",
+    "body": "采红土肥香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil35": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil36",
+    "title": "红土腐香两份",
+    "body": "采红土腐香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil36": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil37",
+    "title": "红土炭香两份",
+    "body": "采红土炭香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil37": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil38",
+    "title": "红土灰香两份",
+    "body": "采红土灰香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil38": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil39",
+    "title": "红土盐香两份",
+    "body": "采红土盐香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil39": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil40",
+    "title": "红土碱香两份",
+    "body": "采红土碱香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil40": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil41",
+    "title": "红土火香两份",
+    "body": "采红土火香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil41": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil42",
+    "title": "红土沙香两份",
+    "body": "采红土沙香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil42": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil43",
+    "title": "红土粉香两份",
+    "body": "采红土粉香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil43": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil44",
+    "title": "红土砾香两份",
+    "body": "采红土砾香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil44": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil45",
+    "title": "红土石香两份",
+    "body": "采红土石香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil45": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil46",
+    "title": "红土灰土香两份",
+    "body": "采红土灰土香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil46": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil47",
+    "title": "红土青泥香两份",
+    "body": "采红土青泥香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil47": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil48",
+    "title": "白土土香两份",
+    "body": "采白土土香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil48": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil49",
+    "title": "白土泥香两份",
+    "body": "采白土泥香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil49": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil50",
+    "title": "白土壤香两份",
+    "body": "采白土壤香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil50": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil51",
+    "title": "白土肥香两份",
+    "body": "采白土肥香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil51": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil52",
+    "title": "白土腐香两份",
+    "body": "采白土腐香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil52": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil53",
+    "title": "白土炭香两份",
+    "body": "采白土炭香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil53": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil54",
+    "title": "白土灰香两份",
+    "body": "采白土灰香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil54": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil55",
+    "title": "白土盐香两份",
+    "body": "采白土盐香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil55": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil56",
+    "title": "白土碱香两份",
+    "body": "采白土碱香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil56": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil57",
+    "title": "白土火香两份",
+    "body": "采白土火香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil57": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil58",
+    "title": "白土沙香两份",
+    "body": "采白土沙香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil58": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil59",
+    "title": "白土粉香两份",
+    "body": "采白土粉香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil59": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil60",
+    "title": "白土砾香两份",
+    "body": "采白土砾香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil60": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil61",
+    "title": "白土石香两份",
+    "body": "采白土石香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil61": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil62",
+    "title": "白土灰土香两份",
+    "body": "采白土灰土香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil62": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil63",
+    "title": "白土青泥香两份",
+    "body": "采白土青泥香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil63": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil64",
+    "title": "砂土土香两份",
+    "body": "采砂土土香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil64": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil65",
+    "title": "砂土泥香两份",
+    "body": "采砂土泥香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil65": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil66",
+    "title": "砂土壤香两份",
+    "body": "采砂土壤香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil66": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil67",
+    "title": "砂土肥香两份",
+    "body": "采砂土肥香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil67": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil68",
+    "title": "砂土腐香两份",
+    "body": "采砂土腐香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil68": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil69",
+    "title": "砂土炭香两份",
+    "body": "采砂土炭香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil69": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil70",
+    "title": "砂土灰香两份",
+    "body": "采砂土灰香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil70": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil71",
+    "title": "砂土盐香两份",
+    "body": "采砂土盐香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil71": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil72",
+    "title": "砂土碱香两份",
+    "body": "采砂土碱香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil72": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil73",
+    "title": "砂土火香两份",
+    "body": "采砂土火香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil73": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil74",
+    "title": "砂土沙香两份",
+    "body": "采砂土沙香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil74": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil75",
+    "title": "砂土粉香两份",
+    "body": "采砂土粉香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil75": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil76",
+    "title": "砂土砾香两份",
+    "body": "采砂土砾香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil76": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil77",
+    "title": "砂土石香两份",
+    "body": "采砂土石香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil77": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil78",
+    "title": "砂土灰土香两份",
+    "body": "采砂土灰土香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil78": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil79",
+    "title": "砂土青泥香两份",
+    "body": "采砂土青泥香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil79": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil80",
+    "title": "粘土土香两份",
+    "body": "采粘土土香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil80": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil81",
+    "title": "粘土泥香两份",
+    "body": "采粘土泥香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil81": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil82",
+    "title": "粘土壤香两份",
+    "body": "采粘土壤香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil82": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil83",
+    "title": "粘土肥香两份",
+    "body": "采粘土肥香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil83": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil84",
+    "title": "粘土腐香两份",
+    "body": "采粘土腐香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil84": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil85",
+    "title": "粘土炭香两份",
+    "body": "采粘土炭香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil85": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil86",
+    "title": "粘土灰香两份",
+    "body": "采粘土灰香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil86": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil87",
+    "title": "粘土盐香两份",
+    "body": "采粘土盐香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil87": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil88",
+    "title": "粘土碱香两份",
+    "body": "采粘土碱香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil88": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil89",
+    "title": "粘土火香两份",
+    "body": "采粘土火香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil89": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil90",
+    "title": "粘土沙香两份",
+    "body": "采粘土沙香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil90": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil91",
+    "title": "粘土粉香两份",
+    "body": "采粘土粉香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil91": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil92",
+    "title": "粘土砾香两份",
+    "body": "采粘土砾香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil92": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil93",
+    "title": "粘土石香两份",
+    "body": "采粘土石香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil93": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil94",
+    "title": "粘土灰土香两份",
+    "body": "采粘土灰土香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil94": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil95",
+    "title": "粘土青泥香两份",
+    "body": "采粘土青泥香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil95": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil96",
+    "title": "壤土土香两份",
+    "body": "采壤土土香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil96": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil97",
+    "title": "壤土泥香两份",
+    "body": "采壤土泥香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil97": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil98",
+    "title": "壤土壤香两份",
+    "body": "采壤土壤香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil98": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil99",
+    "title": "壤土肥香两份",
+    "body": "采壤土肥香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil99": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil100",
+    "title": "壤土腐香两份",
+    "body": "采壤土腐香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil101",
+    "title": "壤土炭香两份",
+    "body": "采壤土炭香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil102",
+    "title": "壤土灰香两份",
+    "body": "采壤土灰香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil103",
+    "title": "壤土盐香两份",
+    "body": "采壤土盐香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil104",
+    "title": "壤土碱香两份",
+    "body": "采壤土碱香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil105",
+    "title": "壤土火香两份",
+    "body": "采壤土火香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil106",
+    "title": "壤土沙香两份",
+    "body": "采壤土沙香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil107",
+    "title": "壤土粉香两份",
+    "body": "采壤土粉香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil108",
+    "title": "壤土砾香两份",
+    "body": "采壤土砾香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil109",
+    "title": "壤土石香两份",
+    "body": "采壤土石香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil110",
+    "title": "壤土灰土香两份",
+    "body": "采壤土灰土香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil111",
+    "title": "壤土青泥香两份",
+    "body": "采壤土青泥香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil112",
+    "title": "腐殖土香两份",
+    "body": "采腐殖土香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil113",
+    "title": "腐殖泥香两份",
+    "body": "采腐殖泥香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil114",
+    "title": "腐殖壤香两份",
+    "body": "采腐殖壤香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil115",
+    "title": "腐殖肥香两份",
+    "body": "采腐殖肥香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil116",
+    "title": "腐殖腐香两份",
+    "body": "采腐殖腐香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil117",
+    "title": "腐殖炭香两份",
+    "body": "采腐殖炭香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil118",
+    "title": "腐殖灰香两份",
+    "body": "采腐殖灰香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil119",
+    "title": "腐殖盐香两份",
+    "body": "采腐殖盐香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil120",
+    "title": "腐殖碱香两份",
+    "body": "采腐殖碱香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil121",
+    "title": "腐殖火香两份",
+    "body": "采腐殖火香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil122",
+    "title": "腐殖沙香两份",
+    "body": "采腐殖沙香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil123",
+    "title": "腐殖粉香两份",
+    "body": "采腐殖粉香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil124",
+    "title": "腐殖砾香两份",
+    "body": "采腐殖砾香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil125",
+    "title": "腐殖石香两份",
+    "body": "采腐殖石香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil126",
+    "title": "腐殖灰土香两份",
+    "body": "采腐殖灰土香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil127",
+    "title": "腐殖青泥香两份",
+    "body": "采腐殖青泥香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil128",
+    "title": "泥炭土香两份",
+    "body": "采泥炭土香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil129",
+    "title": "泥炭泥香两份",
+    "body": "采泥炭泥香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil130",
+    "title": "泥炭壤香两份",
+    "body": "采泥炭壤香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil131",
+    "title": "泥炭肥香两份",
+    "body": "采泥炭肥香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil132",
+    "title": "泥炭腐香两份",
+    "body": "采泥炭腐香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil133",
+    "title": "泥炭炭香两份",
+    "body": "采泥炭炭香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil134",
+    "title": "泥炭灰香两份",
+    "body": "采泥炭灰香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil135",
+    "title": "泥炭盐香两份",
+    "body": "采泥炭盐香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil136",
+    "title": "泥炭碱香两份",
+    "body": "采泥炭碱香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil137",
+    "title": "泥炭火香两份",
+    "body": "采泥炭火香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil138",
+    "title": "泥炭沙香两份",
+    "body": "采泥炭沙香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil139",
+    "title": "泥炭粉香两份",
+    "body": "采泥炭粉香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil140",
+    "title": "泥炭砾香两份",
+    "body": "采泥炭砾香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil141",
+    "title": "泥炭石香两份",
+    "body": "采泥炭石香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil142",
+    "title": "泥炭灰土香两份",
+    "body": "采泥炭灰土香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil143",
+    "title": "泥炭青泥香两份",
+    "body": "采泥炭青泥香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil144",
+    "title": "火山土土香两份",
+    "body": "采火山土土香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil145",
+    "title": "火山土泥香两份",
+    "body": "采火山土泥香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil146",
+    "title": "火山土壤香两份",
+    "body": "采火山土壤香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil147",
+    "title": "火山土肥香两份",
+    "body": "采火山土肥香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil148",
+    "title": "火山土腐香两份",
+    "body": "采火山土腐香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil149",
+    "title": "火山土炭香两份",
+    "body": "采火山土炭香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil150",
+    "title": "火山土灰香两份",
+    "body": "采火山土灰香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil151",
+    "title": "火山土盐香两份",
+    "body": "采火山土盐香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil152",
+    "title": "火山土碱香两份",
+    "body": "采火山土碱香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil153",
+    "title": "火山土火香两份",
+    "body": "采火山土火香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil154",
+    "title": "火山土沙香两份",
+    "body": "采火山土沙香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil155",
+    "title": "火山土粉香两份",
+    "body": "采火山土粉香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil156",
+    "title": "火山土砾香两份",
+    "body": "采火山土砾香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil157",
+    "title": "火山土石香两份",
+    "body": "采火山土石香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil158",
+    "title": "火山土灰土香两份",
+    "body": "采火山土灰土香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil159",
+    "title": "火山土青泥香两份",
+    "body": "采火山土青泥香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil160",
+    "title": "盐碱土香两份",
+    "body": "采盐碱土香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil161",
+    "title": "盐碱泥香两份",
+    "body": "采盐碱泥香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil162",
+    "title": "盐碱壤香两份",
+    "body": "采盐碱壤香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil163",
+    "title": "盐碱肥香两份",
+    "body": "采盐碱肥香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil164",
+    "title": "盐碱腐香两份",
+    "body": "采盐碱腐香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil165",
+    "title": "盐碱炭香两份",
+    "body": "采盐碱炭香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil166",
+    "title": "盐碱灰香两份",
+    "body": "采盐碱灰香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil167",
+    "title": "盐碱盐香两份",
+    "body": "采盐碱盐香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil168",
+    "title": "盐碱碱香两份",
+    "body": "采盐碱碱香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil169",
+    "title": "盐碱火香两份",
+    "body": "采盐碱火香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil170",
+    "title": "盐碱沙香两份",
+    "body": "采盐碱沙香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil171",
+    "title": "盐碱粉香两份",
+    "body": "采盐碱粉香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil172",
+    "title": "盐碱砾香两份",
+    "body": "采盐碱砾香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil173",
+    "title": "盐碱石香两份",
+    "body": "采盐碱石香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil174",
+    "title": "盐碱灰土香两份",
+    "body": "采盐碱灰土香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil175",
+    "title": "盐碱青泥香两份",
+    "body": "采盐碱青泥香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil176",
+    "title": "沙壤土香两份",
+    "body": "采沙壤土香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil177",
+    "title": "沙壤泥香两份",
+    "body": "采沙壤泥香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil178",
+    "title": "沙壤壤香两份",
+    "body": "采沙壤壤香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil179",
+    "title": "沙壤肥香两份",
+    "body": "采沙壤肥香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil180",
+    "title": "沙壤腐香两份",
+    "body": "采沙壤腐香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil181",
+    "title": "沙壤炭香两份",
+    "body": "采沙壤炭香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil182",
+    "title": "沙壤灰香两份",
+    "body": "采沙壤灰香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil183",
+    "title": "沙壤盐香两份",
+    "body": "采沙壤盐香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil184",
+    "title": "沙壤碱香两份",
+    "body": "采沙壤碱香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil185",
+    "title": "沙壤火香两份",
+    "body": "采沙壤火香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil186",
+    "title": "沙壤沙香两份",
+    "body": "采沙壤沙香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil187",
+    "title": "沙壤粉香两份",
+    "body": "采沙壤粉香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil188",
+    "title": "沙壤砾香两份",
+    "body": "采沙壤砾香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil189",
+    "title": "沙壤石香两份",
+    "body": "采沙壤石香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil190",
+    "title": "沙壤灰土香两份",
+    "body": "采沙壤灰土香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil191",
+    "title": "沙壤青泥香两份",
+    "body": "采沙壤青泥香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil192",
+    "title": "粉土土香两份",
+    "body": "采粉土土香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil193",
+    "title": "粉土泥香两份",
+    "body": "采粉土泥香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil194",
+    "title": "粉土壤香两份",
+    "body": "采粉土壤香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil195",
+    "title": "粉土肥香两份",
+    "body": "采粉土肥香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil196",
+    "title": "粉土腐香两份",
+    "body": "采粉土腐香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil197",
+    "title": "粉土炭香两份",
+    "body": "采粉土炭香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil198",
+    "title": "粉土灰香两份",
+    "body": "采粉土灰香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil199",
+    "title": "粉土盐香两份",
+    "body": "采粉土盐香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil200",
+    "title": "粉土碱香两份",
+    "body": "采粉土碱香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil201",
+    "title": "粉土火香两份",
+    "body": "采粉土火香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil202",
+    "title": "粉土沙香两份",
+    "body": "采粉土沙香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil203",
+    "title": "粉土粉香两份",
+    "body": "采粉土粉香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil204",
+    "title": "粉土砾香两份",
+    "body": "采粉土砾香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil205",
+    "title": "粉土石香两份",
+    "body": "采粉土石香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil206",
+    "title": "粉土灰土香两份",
+    "body": "采粉土灰土香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil207",
+    "title": "粉土青泥香两份",
+    "body": "采粉土青泥香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil208",
+    "title": "砾土土香两份",
+    "body": "采砾土土香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil209",
+    "title": "砾土泥香两份",
+    "body": "采砾土泥香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil210",
+    "title": "砾土壤香两份",
+    "body": "采砾土壤香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil211",
+    "title": "砾土肥香两份",
+    "body": "采砾土肥香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil212",
+    "title": "砾土腐香两份",
+    "body": "采砾土腐香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil213",
+    "title": "砾土炭香两份",
+    "body": "采砾土炭香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil214",
+    "title": "砾土灰香两份",
+    "body": "采砾土灰香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil215",
+    "title": "砾土盐香两份",
+    "body": "采砾土盐香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil216",
+    "title": "砾土碱香两份",
+    "body": "采砾土碱香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil217",
+    "title": "砾土火香两份",
+    "body": "采砾土火香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil218",
+    "title": "砾土沙香两份",
+    "body": "采砾土沙香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil219",
+    "title": "砾土粉香两份",
+    "body": "采砾土粉香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil220",
+    "title": "砾土砾香两份",
+    "body": "采砾土砾香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil221",
+    "title": "砾土石香两份",
+    "body": "采砾土石香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil222",
+    "title": "砾土灰土香两份",
+    "body": "采砾土灰土香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil223",
+    "title": "砾土青泥香两份",
+    "body": "采砾土青泥香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil224",
+    "title": "石土土香两份",
+    "body": "采石土土香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil225",
+    "title": "石土泥香两份",
+    "body": "采石土泥香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil226",
+    "title": "石土壤香两份",
+    "body": "采石土壤香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil227",
+    "title": "石土肥香两份",
+    "body": "采石土肥香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil228",
+    "title": "石土腐香两份",
+    "body": "采石土腐香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil229",
+    "title": "石土炭香两份",
+    "body": "采石土炭香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil230",
+    "title": "石土灰香两份",
+    "body": "采石土灰香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil231",
+    "title": "石土盐香两份",
+    "body": "采石土盐香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil232",
+    "title": "石土碱香两份",
+    "body": "采石土碱香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil233",
+    "title": "石土火香两份",
+    "body": "采石土火香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil234",
+    "title": "石土沙香两份",
+    "body": "采石土沙香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil235",
+    "title": "石土粉香两份",
+    "body": "采石土粉香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil236",
+    "title": "石土砾香两份",
+    "body": "采石土砾香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil237",
+    "title": "石土石香两份",
+    "body": "采石土石香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil238",
+    "title": "石土灰土香两份",
+    "body": "采石土灰土香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil239",
+    "title": "石土青泥香两份",
+    "body": "采石土青泥香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil240",
+    "title": "灰土土香两份",
+    "body": "采灰土土香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil241",
+    "title": "灰土泥香两份",
+    "body": "采灰土泥香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil242",
+    "title": "灰土壤香两份",
+    "body": "采灰土壤香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil243",
+    "title": "灰土肥香两份",
+    "body": "采灰土肥香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil244",
+    "title": "灰土腐香两份",
+    "body": "采灰土腐香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil245",
+    "title": "灰土炭香两份",
+    "body": "采灰土炭香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil246",
+    "title": "灰土灰香两份",
+    "body": "采灰土灰香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil247",
+    "title": "灰土盐香两份",
+    "body": "采灰土盐香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil248",
+    "title": "灰土碱香两份",
+    "body": "采灰土碱香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil249",
+    "title": "灰土火香两份",
+    "body": "采灰土火香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil250",
+    "title": "灰土沙香两份",
+    "body": "采灰土沙香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil251",
+    "title": "灰土粉香两份",
+    "body": "采灰土粉香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil252",
+    "title": "灰土砾香两份",
+    "body": "采灰土砾香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil253",
+    "title": "灰土石香两份",
+    "body": "采灰土石香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil254",
+    "title": "灰土灰土香两份",
+    "body": "采灰土灰土香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil255",
+    "title": "灰土青泥香两份",
+    "body": "采灰土青泥香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil256",
+    "title": "青泥土香两份",
+    "body": "采青泥土香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil257",
+    "title": "青泥泥香两份",
+    "body": "采青泥泥香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil258",
+    "title": "青泥壤香两份",
+    "body": "采青泥壤香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil259",
+    "title": "青泥肥香两份",
+    "body": "采青泥肥香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil260",
+    "title": "青泥腐香两份",
+    "body": "采青泥腐香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil261",
+    "title": "青泥炭香两份",
+    "body": "采青泥炭香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil262",
+    "title": "青泥灰香两份",
+    "body": "采青泥灰香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil263",
+    "title": "青泥盐香两份",
+    "body": "采青泥盐香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil264",
+    "title": "青泥碱香两份",
+    "body": "采青泥碱香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil265",
+    "title": "青泥火香两份",
+    "body": "采青泥火香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil266",
+    "title": "青泥沙香两份",
+    "body": "采青泥沙香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil267",
+    "title": "青泥粉香两份",
+    "body": "采青泥粉香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil268",
+    "title": "青泥砾香两份",
+    "body": "采青泥砾香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil269",
+    "title": "青泥石香两份",
+    "body": "采青泥石香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil270",
+    "title": "青泥灰土香两份",
+    "body": "采青泥灰土香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil271",
+    "title": "青泥青泥香两份",
+    "body": "采青泥青泥香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil272",
+    "title": "紫泥土香两份",
+    "body": "采紫泥土香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil273",
+    "title": "紫泥泥香两份",
+    "body": "采紫泥泥香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil274",
+    "title": "紫泥壤香两份",
+    "body": "采紫泥壤香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil275",
+    "title": "紫泥肥香两份",
+    "body": "采紫泥肥香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil276",
+    "title": "紫泥腐香两份",
+    "body": "采紫泥腐香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil277",
+    "title": "紫泥炭香两份",
+    "body": "采紫泥炭香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil278",
+    "title": "紫泥灰香两份",
+    "body": "采紫泥灰香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil279",
+    "title": "紫泥盐香两份",
+    "body": "采紫泥盐香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil280",
+    "title": "紫泥碱香两份",
+    "body": "采紫泥碱香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil281",
+    "title": "紫泥火香两份",
+    "body": "采紫泥火香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil282",
+    "title": "紫泥沙香两份",
+    "body": "采紫泥沙香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil283",
+    "title": "紫泥粉香两份",
+    "body": "采紫泥粉香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil284",
+    "title": "紫泥砾香两份",
+    "body": "采紫泥砾香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil285",
+    "title": "紫泥石香两份",
+    "body": "采紫泥石香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil286",
+    "title": "紫泥灰土香两份",
+    "body": "采紫泥灰土香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil287",
+    "title": "紫泥青泥香两份",
+    "body": "采紫泥青泥香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil288",
+    "title": "黄泥土香两份",
+    "body": "采黄泥土香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil289",
+    "title": "黄泥泥香两份",
+    "body": "采黄泥泥香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil290",
+    "title": "黄泥壤香两份",
+    "body": "采黄泥壤香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil291",
+    "title": "黄泥肥香两份",
+    "body": "采黄泥肥香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil292",
+    "title": "黄泥腐香两份",
+    "body": "采黄泥腐香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil293",
+    "title": "黄泥炭香两份",
+    "body": "采黄泥炭香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil294",
+    "title": "黄泥灰香两份",
+    "body": "采黄泥灰香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil295",
+    "title": "黄泥盐香两份",
+    "body": "采黄泥盐香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil296",
+    "title": "黄泥碱香两份",
+    "body": "采黄泥碱香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil297",
+    "title": "黄泥火香两份",
+    "body": "采黄泥火香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil298",
+    "title": "黄泥沙香两份",
+    "body": "采黄泥沙香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil299",
+    "title": "黄泥粉香两份",
+    "body": "采黄泥粉香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil300",
+    "title": "黄泥砾香两份",
+    "body": "采黄泥砾香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil301",
+    "title": "黄泥石香两份",
+    "body": "采黄泥石香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil302",
+    "title": "黄泥灰土香两份",
+    "body": "采黄泥灰土香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil303",
+    "title": "黄泥青泥香两份",
+    "body": "采黄泥青泥香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil304",
+    "title": "白泥土香两份",
+    "body": "采白泥土香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil305",
+    "title": "白泥泥香两份",
+    "body": "采白泥泥香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil306",
+    "title": "白泥壤香两份",
+    "body": "采白泥壤香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil307",
+    "title": "白泥肥香两份",
+    "body": "采白泥肥香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil308",
+    "title": "白泥腐香两份",
+    "body": "采白泥腐香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil309",
+    "title": "白泥炭香两份",
+    "body": "采白泥炭香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil310",
+    "title": "白泥灰香两份",
+    "body": "采白泥灰香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil311",
+    "title": "白泥盐香两份",
+    "body": "采白泥盐香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil312",
+    "title": "白泥碱香两份",
+    "body": "采白泥碱香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil313",
+    "title": "白泥火香两份",
+    "body": "采白泥火香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil314",
+    "title": "白泥沙香两份",
+    "body": "采白泥沙香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil315",
+    "title": "白泥粉香两份",
+    "body": "采白泥粉香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil316",
+    "title": "白泥砾香两份",
+    "body": "采白泥砾香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil317",
+    "title": "白泥石香两份",
+    "body": "采白泥石香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil318",
+    "title": "白泥灰土香两份",
+    "body": "采白泥灰土香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_soil319",
+    "title": "白泥青泥香两份",
+    "body": "采白泥青泥香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "soil319": 2
+      },
+      "coins": 2
+    }
   }
 ]
