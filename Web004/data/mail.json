@@ -1437,5 +1437,49 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_verbena",
+    "title": "马鞭草两枝",
+    "body": "泡马鞭草的姑娘来信：新摘的。给你两枝，别放太久。",
+    "effect": {
+      "items": {
+        "verbena": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_savory",
+    "title": "香薄荷一小把",
+    "body": "撒香薄荷的店员来信：新摘的。给你一小把，别放太久。",
+    "effect": {
+      "items": {
+        "savory": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_celery_seed",
+    "title": "芹菜籽一小袋",
+    "body": "磨芹菜籽的厨子来信：新晒的。给你一小袋，别放太久。",
+    "effect": {
+      "items": {
+        "celery_seed": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_anise_seed",
+    "title": "茴香籽一小袋",
+    "body": "煮茴香籽的阿婆来信：新晒的。给你一小袋，别放太久。",
+    "effect": {
+      "items": {
+        "anise_seed": 2
+      },
+      "coins": 2
+    }
   }
 ]
