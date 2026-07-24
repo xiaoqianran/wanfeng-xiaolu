@@ -97720,5 +97720,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_quilt0",
+    "title": "棉被安睡花两份",
+    "body": "采棉被安睡花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt0": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt1",
+    "title": "棉被入梦草两份",
+    "body": "采棉被入梦草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt1": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt2",
+    "title": "棉被浅眠叶两份",
+    "body": "采棉被浅眠叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt2": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt3",
+    "title": "棉被深眠果两份",
+    "body": "采棉被深眠果的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt3": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt4",
+    "title": "棉被回笼香两份",
+    "body": "采棉被回笼香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt4": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt5",
+    "title": "棉被午憩茶两份",
+    "body": "采棉被午憩茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt5": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt6",
+    "title": "棉被夜读蜜两份",
+    "body": "采棉被夜读蜜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt6": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt7",
+    "title": "棉被灯下姜两份",
+    "body": "采棉被灯下姜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt7": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt8",
+    "title": "棉被被角暖两份",
+    "body": "采棉被被角暖的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt8": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt9",
+    "title": "棉被枕边兰两份",
+    "body": "采棉被枕边兰的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt9": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt10",
+    "title": "棉被席间风两份",
+    "body": "采棉被席间风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt10": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt11",
+    "title": "棉被席上露两份",
+    "body": "采棉被席上露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt11": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt12",
+    "title": "棉被枕下笺两份",
+    "body": "采棉被枕下笺的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt12": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt13",
+    "title": "棉被被里香两份",
+    "body": "采棉被被里香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt13": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt14",
+    "title": "棉被毯边花两份",
+    "body": "采棉被毯边花的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt14": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt15",
+    "title": "棉被毯上露两份",
+    "body": "采棉被毯上露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt15": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt16",
+    "title": "棉被芯里暖两份",
+    "body": "采棉被芯里暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt16": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt17",
+    "title": "棉被套外香两份",
+    "body": "采棉被套外香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt17": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt18",
+    "title": "棉被单上洁两份",
+    "body": "采棉被单上洁的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt18": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt19",
+    "title": "棉被单下静两份",
+    "body": "采棉被单下静的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt19": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt20",
+    "title": "丝被安睡花两份",
+    "body": "采丝被安睡花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt21",
+    "title": "丝被入梦草两份",
+    "body": "采丝被入梦草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt22",
+    "title": "丝被浅眠叶两份",
+    "body": "采丝被浅眠叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt23",
+    "title": "丝被深眠果两份",
+    "body": "采丝被深眠果的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt24",
+    "title": "丝被回笼香两份",
+    "body": "采丝被回笼香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt25",
+    "title": "丝被午憩茶两份",
+    "body": "采丝被午憩茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt26",
+    "title": "丝被夜读蜜两份",
+    "body": "采丝被夜读蜜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt27",
+    "title": "丝被灯下姜两份",
+    "body": "采丝被灯下姜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt28",
+    "title": "丝被被角暖两份",
+    "body": "采丝被被角暖的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt29",
+    "title": "丝被枕边兰两份",
+    "body": "采丝被枕边兰的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt30",
+    "title": "丝被席间风两份",
+    "body": "采丝被席间风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt30": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt31",
+    "title": "丝被席上露两份",
+    "body": "采丝被席上露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt31": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt32",
+    "title": "丝被枕下笺两份",
+    "body": "采丝被枕下笺的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt32": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt33",
+    "title": "丝被被里香两份",
+    "body": "采丝被被里香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt33": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt34",
+    "title": "丝被毯边花两份",
+    "body": "采丝被毯边花的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt34": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt35",
+    "title": "丝被毯上露两份",
+    "body": "采丝被毯上露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt35": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt36",
+    "title": "丝被芯里暖两份",
+    "body": "采丝被芯里暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt36": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt37",
+    "title": "丝被套外香两份",
+    "body": "采丝被套外香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt37": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt38",
+    "title": "丝被单上洁两份",
+    "body": "采丝被单上洁的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt38": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt39",
+    "title": "丝被单下静两份",
+    "body": "采丝被单下静的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt39": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt40",
+    "title": "羽绒安睡花两份",
+    "body": "采羽绒安睡花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt40": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt41",
+    "title": "羽绒入梦草两份",
+    "body": "采羽绒入梦草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt41": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt42",
+    "title": "羽绒浅眠叶两份",
+    "body": "采羽绒浅眠叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt42": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt43",
+    "title": "羽绒深眠果两份",
+    "body": "采羽绒深眠果的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt43": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt44",
+    "title": "羽绒回笼香两份",
+    "body": "采羽绒回笼香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt44": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt45",
+    "title": "羽绒午憩茶两份",
+    "body": "采羽绒午憩茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt45": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt46",
+    "title": "羽绒夜读蜜两份",
+    "body": "采羽绒夜读蜜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt46": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt47",
+    "title": "羽绒灯下姜两份",
+    "body": "采羽绒灯下姜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt47": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt48",
+    "title": "羽绒被角暖两份",
+    "body": "采羽绒被角暖的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt48": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt49",
+    "title": "羽绒枕边兰两份",
+    "body": "采羽绒枕边兰的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt49": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt50",
+    "title": "羽绒席间风两份",
+    "body": "采羽绒席间风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt50": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt51",
+    "title": "羽绒席上露两份",
+    "body": "采羽绒席上露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt51": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt52",
+    "title": "羽绒枕下笺两份",
+    "body": "采羽绒枕下笺的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt52": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt53",
+    "title": "羽绒被里香两份",
+    "body": "采羽绒被里香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt53": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt54",
+    "title": "羽绒毯边花两份",
+    "body": "采羽绒毯边花的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt54": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt55",
+    "title": "羽绒毯上露两份",
+    "body": "采羽绒毯上露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt55": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt56",
+    "title": "羽绒芯里暖两份",
+    "body": "采羽绒芯里暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt56": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt57",
+    "title": "羽绒套外香两份",
+    "body": "采羽绒套外香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt57": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt58",
+    "title": "羽绒单上洁两份",
+    "body": "采羽绒单上洁的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt58": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt59",
+    "title": "羽绒单下静两份",
+    "body": "采羽绒单下静的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt59": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt60",
+    "title": "夹被安睡花两份",
+    "body": "采夹被安睡花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt60": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt61",
+    "title": "夹被入梦草两份",
+    "body": "采夹被入梦草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt61": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt62",
+    "title": "夹被浅眠叶两份",
+    "body": "采夹被浅眠叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt62": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt63",
+    "title": "夹被深眠果两份",
+    "body": "采夹被深眠果的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt63": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt64",
+    "title": "夹被回笼香两份",
+    "body": "采夹被回笼香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt64": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt65",
+    "title": "夹被午憩茶两份",
+    "body": "采夹被午憩茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt65": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt66",
+    "title": "夹被夜读蜜两份",
+    "body": "采夹被夜读蜜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt66": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt67",
+    "title": "夹被灯下姜两份",
+    "body": "采夹被灯下姜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt67": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt68",
+    "title": "夹被被角暖两份",
+    "body": "采夹被被角暖的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt68": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt69",
+    "title": "夹被枕边兰两份",
+    "body": "采夹被枕边兰的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt69": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt70",
+    "title": "夹被席间风两份",
+    "body": "采夹被席间风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt70": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt71",
+    "title": "夹被席上露两份",
+    "body": "采夹被席上露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt71": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt72",
+    "title": "夹被枕下笺两份",
+    "body": "采夹被枕下笺的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt72": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt73",
+    "title": "夹被被里香两份",
+    "body": "采夹被被里香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt73": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt74",
+    "title": "夹被毯边花两份",
+    "body": "采夹被毯边花的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt74": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt75",
+    "title": "夹被毯上露两份",
+    "body": "采夹被毯上露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt75": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt76",
+    "title": "夹被芯里暖两份",
+    "body": "采夹被芯里暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt76": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt77",
+    "title": "夹被套外香两份",
+    "body": "采夹被套外香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt77": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt78",
+    "title": "夹被单上洁两份",
+    "body": "采夹被单上洁的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt78": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt79",
+    "title": "夹被单下静两份",
+    "body": "采夹被单下静的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt79": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt80",
+    "title": "薄被安睡花两份",
+    "body": "采薄被安睡花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt80": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt81",
+    "title": "薄被入梦草两份",
+    "body": "采薄被入梦草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt81": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt82",
+    "title": "薄被浅眠叶两份",
+    "body": "采薄被浅眠叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt82": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt83",
+    "title": "薄被深眠果两份",
+    "body": "采薄被深眠果的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt83": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt84",
+    "title": "薄被回笼香两份",
+    "body": "采薄被回笼香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt84": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt85",
+    "title": "薄被午憩茶两份",
+    "body": "采薄被午憩茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt85": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt86",
+    "title": "薄被夜读蜜两份",
+    "body": "采薄被夜读蜜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt86": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt87",
+    "title": "薄被灯下姜两份",
+    "body": "采薄被灯下姜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt87": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt88",
+    "title": "薄被被角暖两份",
+    "body": "采薄被被角暖的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt88": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt89",
+    "title": "薄被枕边兰两份",
+    "body": "采薄被枕边兰的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt89": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt90",
+    "title": "薄被席间风两份",
+    "body": "采薄被席间风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt90": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt91",
+    "title": "薄被席上露两份",
+    "body": "采薄被席上露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt91": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt92",
+    "title": "薄被枕下笺两份",
+    "body": "采薄被枕下笺的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt92": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt93",
+    "title": "薄被被里香两份",
+    "body": "采薄被被里香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt93": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt94",
+    "title": "薄被毯边花两份",
+    "body": "采薄被毯边花的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt94": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt95",
+    "title": "薄被毯上露两份",
+    "body": "采薄被毯上露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt95": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt96",
+    "title": "薄被芯里暖两份",
+    "body": "采薄被芯里暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt96": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt97",
+    "title": "薄被套外香两份",
+    "body": "采薄被套外香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt97": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt98",
+    "title": "薄被单上洁两份",
+    "body": "采薄被单上洁的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt98": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt99",
+    "title": "薄被单下静两份",
+    "body": "采薄被单下静的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt99": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt100",
+    "title": "厚被安睡花两份",
+    "body": "采厚被安睡花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt101",
+    "title": "厚被入梦草两份",
+    "body": "采厚被入梦草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt102",
+    "title": "厚被浅眠叶两份",
+    "body": "采厚被浅眠叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt103",
+    "title": "厚被深眠果两份",
+    "body": "采厚被深眠果的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt104",
+    "title": "厚被回笼香两份",
+    "body": "采厚被回笼香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt105",
+    "title": "厚被午憩茶两份",
+    "body": "采厚被午憩茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt106",
+    "title": "厚被夜读蜜两份",
+    "body": "采厚被夜读蜜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt107",
+    "title": "厚被灯下姜两份",
+    "body": "采厚被灯下姜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt108",
+    "title": "厚被被角暖两份",
+    "body": "采厚被被角暖的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt109",
+    "title": "厚被枕边兰两份",
+    "body": "采厚被枕边兰的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt110",
+    "title": "厚被席间风两份",
+    "body": "采厚被席间风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt111",
+    "title": "厚被席上露两份",
+    "body": "采厚被席上露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt112",
+    "title": "厚被枕下笺两份",
+    "body": "采厚被枕下笺的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt113",
+    "title": "厚被被里香两份",
+    "body": "采厚被被里香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt114",
+    "title": "厚被毯边花两份",
+    "body": "采厚被毯边花的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt115",
+    "title": "厚被毯上露两份",
+    "body": "采厚被毯上露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt116",
+    "title": "厚被芯里暖两份",
+    "body": "采厚被芯里暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt117",
+    "title": "厚被套外香两份",
+    "body": "采厚被套外香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt118",
+    "title": "厚被单上洁两份",
+    "body": "采厚被单上洁的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt119",
+    "title": "厚被单下静两份",
+    "body": "采厚被单下静的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt120",
+    "title": "夏被安睡花两份",
+    "body": "采夏被安睡花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt121",
+    "title": "夏被入梦草两份",
+    "body": "采夏被入梦草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt122",
+    "title": "夏被浅眠叶两份",
+    "body": "采夏被浅眠叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt123",
+    "title": "夏被深眠果两份",
+    "body": "采夏被深眠果的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt124",
+    "title": "夏被回笼香两份",
+    "body": "采夏被回笼香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt125",
+    "title": "夏被午憩茶两份",
+    "body": "采夏被午憩茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt126",
+    "title": "夏被夜读蜜两份",
+    "body": "采夏被夜读蜜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt127",
+    "title": "夏被灯下姜两份",
+    "body": "采夏被灯下姜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt128",
+    "title": "夏被被角暖两份",
+    "body": "采夏被被角暖的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt129",
+    "title": "夏被枕边兰两份",
+    "body": "采夏被枕边兰的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt130",
+    "title": "夏被席间风两份",
+    "body": "采夏被席间风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt131",
+    "title": "夏被席上露两份",
+    "body": "采夏被席上露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt132",
+    "title": "夏被枕下笺两份",
+    "body": "采夏被枕下笺的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt133",
+    "title": "夏被被里香两份",
+    "body": "采夏被被里香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt134",
+    "title": "夏被毯边花两份",
+    "body": "采夏被毯边花的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt135",
+    "title": "夏被毯上露两份",
+    "body": "采夏被毯上露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt136",
+    "title": "夏被芯里暖两份",
+    "body": "采夏被芯里暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt137",
+    "title": "夏被套外香两份",
+    "body": "采夏被套外香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt138",
+    "title": "夏被单上洁两份",
+    "body": "采夏被单上洁的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt139",
+    "title": "夏被单下静两份",
+    "body": "采夏被单下静的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt140",
+    "title": "冬被安睡花两份",
+    "body": "采冬被安睡花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt141",
+    "title": "冬被入梦草两份",
+    "body": "采冬被入梦草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt142",
+    "title": "冬被浅眠叶两份",
+    "body": "采冬被浅眠叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt143",
+    "title": "冬被深眠果两份",
+    "body": "采冬被深眠果的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt144",
+    "title": "冬被回笼香两份",
+    "body": "采冬被回笼香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt145",
+    "title": "冬被午憩茶两份",
+    "body": "采冬被午憩茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt146",
+    "title": "冬被夜读蜜两份",
+    "body": "采冬被夜读蜜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt147",
+    "title": "冬被灯下姜两份",
+    "body": "采冬被灯下姜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt148",
+    "title": "冬被被角暖两份",
+    "body": "采冬被被角暖的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt149",
+    "title": "冬被枕边兰两份",
+    "body": "采冬被枕边兰的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt150",
+    "title": "冬被席间风两份",
+    "body": "采冬被席间风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt151",
+    "title": "冬被席上露两份",
+    "body": "采冬被席上露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt152",
+    "title": "冬被枕下笺两份",
+    "body": "采冬被枕下笺的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt153",
+    "title": "冬被被里香两份",
+    "body": "采冬被被里香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt154",
+    "title": "冬被毯边花两份",
+    "body": "采冬被毯边花的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt155",
+    "title": "冬被毯上露两份",
+    "body": "采冬被毯上露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt156",
+    "title": "冬被芯里暖两份",
+    "body": "采冬被芯里暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt157",
+    "title": "冬被套外香两份",
+    "body": "采冬被套外香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt158",
+    "title": "冬被单上洁两份",
+    "body": "采冬被单上洁的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt159",
+    "title": "冬被单下静两份",
+    "body": "采冬被单下静的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt160",
+    "title": "绒毯安睡花两份",
+    "body": "采绒毯安睡花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt161",
+    "title": "绒毯入梦草两份",
+    "body": "采绒毯入梦草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt162",
+    "title": "绒毯浅眠叶两份",
+    "body": "采绒毯浅眠叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt163",
+    "title": "绒毯深眠果两份",
+    "body": "采绒毯深眠果的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt164",
+    "title": "绒毯回笼香两份",
+    "body": "采绒毯回笼香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt165",
+    "title": "绒毯午憩茶两份",
+    "body": "采绒毯午憩茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt166",
+    "title": "绒毯夜读蜜两份",
+    "body": "采绒毯夜读蜜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt167",
+    "title": "绒毯灯下姜两份",
+    "body": "采绒毯灯下姜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt168",
+    "title": "绒毯被角暖两份",
+    "body": "采绒毯被角暖的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt169",
+    "title": "绒毯枕边兰两份",
+    "body": "采绒毯枕边兰的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt170",
+    "title": "绒毯席间风两份",
+    "body": "采绒毯席间风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt171",
+    "title": "绒毯席上露两份",
+    "body": "采绒毯席上露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt172",
+    "title": "绒毯枕下笺两份",
+    "body": "采绒毯枕下笺的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt173",
+    "title": "绒毯被里香两份",
+    "body": "采绒毯被里香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt174",
+    "title": "绒毯毯边花两份",
+    "body": "采绒毯毯边花的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt175",
+    "title": "绒毯毯上露两份",
+    "body": "采绒毯毯上露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt176",
+    "title": "绒毯芯里暖两份",
+    "body": "采绒毯芯里暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt177",
+    "title": "绒毯套外香两份",
+    "body": "采绒毯套外香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt178",
+    "title": "绒毯单上洁两份",
+    "body": "采绒毯单上洁的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt179",
+    "title": "绒毯单下静两份",
+    "body": "采绒毯单下静的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt180",
+    "title": "毛毯安睡花两份",
+    "body": "采毛毯安睡花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt181",
+    "title": "毛毯入梦草两份",
+    "body": "采毛毯入梦草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt182",
+    "title": "毛毯浅眠叶两份",
+    "body": "采毛毯浅眠叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt183",
+    "title": "毛毯深眠果两份",
+    "body": "采毛毯深眠果的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt184",
+    "title": "毛毯回笼香两份",
+    "body": "采毛毯回笼香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt185",
+    "title": "毛毯午憩茶两份",
+    "body": "采毛毯午憩茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt186",
+    "title": "毛毯夜读蜜两份",
+    "body": "采毛毯夜读蜜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt187",
+    "title": "毛毯灯下姜两份",
+    "body": "采毛毯灯下姜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt188",
+    "title": "毛毯被角暖两份",
+    "body": "采毛毯被角暖的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt189",
+    "title": "毛毯枕边兰两份",
+    "body": "采毛毯枕边兰的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt190",
+    "title": "毛毯席间风两份",
+    "body": "采毛毯席间风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt191",
+    "title": "毛毯席上露两份",
+    "body": "采毛毯席上露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt192",
+    "title": "毛毯枕下笺两份",
+    "body": "采毛毯枕下笺的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt193",
+    "title": "毛毯被里香两份",
+    "body": "采毛毯被里香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt194",
+    "title": "毛毯毯边花两份",
+    "body": "采毛毯毯边花的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt195",
+    "title": "毛毯毯上露两份",
+    "body": "采毛毯毯上露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt196",
+    "title": "毛毯芯里暖两份",
+    "body": "采毛毯芯里暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt197",
+    "title": "毛毯套外香两份",
+    "body": "采毛毯套外香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt198",
+    "title": "毛毯单上洁两份",
+    "body": "采毛毯单上洁的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt199",
+    "title": "毛毯单下静两份",
+    "body": "采毛毯单下静的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt200",
+    "title": "线毯安睡花两份",
+    "body": "采线毯安睡花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt201",
+    "title": "线毯入梦草两份",
+    "body": "采线毯入梦草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt202",
+    "title": "线毯浅眠叶两份",
+    "body": "采线毯浅眠叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt203",
+    "title": "线毯深眠果两份",
+    "body": "采线毯深眠果的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt204",
+    "title": "线毯回笼香两份",
+    "body": "采线毯回笼香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt205",
+    "title": "线毯午憩茶两份",
+    "body": "采线毯午憩茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt206",
+    "title": "线毯夜读蜜两份",
+    "body": "采线毯夜读蜜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt207",
+    "title": "线毯灯下姜两份",
+    "body": "采线毯灯下姜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt208",
+    "title": "线毯被角暖两份",
+    "body": "采线毯被角暖的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt209",
+    "title": "线毯枕边兰两份",
+    "body": "采线毯枕边兰的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt210",
+    "title": "线毯席间风两份",
+    "body": "采线毯席间风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt211",
+    "title": "线毯席上露两份",
+    "body": "采线毯席上露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt212",
+    "title": "线毯枕下笺两份",
+    "body": "采线毯枕下笺的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt213",
+    "title": "线毯被里香两份",
+    "body": "采线毯被里香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt214",
+    "title": "线毯毯边花两份",
+    "body": "采线毯毯边花的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt215",
+    "title": "线毯毯上露两份",
+    "body": "采线毯毯上露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt216",
+    "title": "线毯芯里暖两份",
+    "body": "采线毯芯里暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt217",
+    "title": "线毯套外香两份",
+    "body": "采线毯套外香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt218",
+    "title": "线毯单上洁两份",
+    "body": "采线毯单上洁的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt219",
+    "title": "线毯单下静两份",
+    "body": "采线毯单下静的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt220",
+    "title": "毛巾被安睡花两份",
+    "body": "采毛巾被安睡花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt221",
+    "title": "毛巾被入梦草两份",
+    "body": "采毛巾被入梦草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt222",
+    "title": "毛巾被浅眠叶两份",
+    "body": "采毛巾被浅眠叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt223",
+    "title": "毛巾被深眠果两份",
+    "body": "采毛巾被深眠果的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt224",
+    "title": "毛巾被回笼香两份",
+    "body": "采毛巾被回笼香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt225",
+    "title": "毛巾被午憩茶两份",
+    "body": "采毛巾被午憩茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt226",
+    "title": "毛巾被夜读蜜两份",
+    "body": "采毛巾被夜读蜜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt227",
+    "title": "毛巾被灯下姜两份",
+    "body": "采毛巾被灯下姜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt228",
+    "title": "毛巾被被角暖两份",
+    "body": "采毛巾被被角暖的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt229",
+    "title": "毛巾被枕边兰两份",
+    "body": "采毛巾被枕边兰的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt230",
+    "title": "毛巾被席间风两份",
+    "body": "采毛巾被席间风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt231",
+    "title": "毛巾被席上露两份",
+    "body": "采毛巾被席上露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt232",
+    "title": "毛巾被枕下笺两份",
+    "body": "采毛巾被枕下笺的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt233",
+    "title": "毛巾被被里香两份",
+    "body": "采毛巾被被里香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt234",
+    "title": "毛巾被毯边花两份",
+    "body": "采毛巾被毯边花的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt235",
+    "title": "毛巾被毯上露两份",
+    "body": "采毛巾被毯上露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt236",
+    "title": "毛巾被芯里暖两份",
+    "body": "采毛巾被芯里暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt237",
+    "title": "毛巾被套外香两份",
+    "body": "采毛巾被套外香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt238",
+    "title": "毛巾被单上洁两份",
+    "body": "采毛巾被单上洁的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt239",
+    "title": "毛巾被单下静两份",
+    "body": "采毛巾被单下静的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt240",
+    "title": "竹席安睡花两份",
+    "body": "采竹席安睡花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt241",
+    "title": "竹席入梦草两份",
+    "body": "采竹席入梦草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt242",
+    "title": "竹席浅眠叶两份",
+    "body": "采竹席浅眠叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt243",
+    "title": "竹席深眠果两份",
+    "body": "采竹席深眠果的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt244",
+    "title": "竹席回笼香两份",
+    "body": "采竹席回笼香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt245",
+    "title": "竹席午憩茶两份",
+    "body": "采竹席午憩茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt246",
+    "title": "竹席夜读蜜两份",
+    "body": "采竹席夜读蜜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt247",
+    "title": "竹席灯下姜两份",
+    "body": "采竹席灯下姜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt248",
+    "title": "竹席被角暖两份",
+    "body": "采竹席被角暖的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt249",
+    "title": "竹席枕边兰两份",
+    "body": "采竹席枕边兰的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt250",
+    "title": "竹席席间风两份",
+    "body": "采竹席席间风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt251",
+    "title": "竹席席上露两份",
+    "body": "采竹席席上露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt252",
+    "title": "竹席枕下笺两份",
+    "body": "采竹席枕下笺的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt253",
+    "title": "竹席被里香两份",
+    "body": "采竹席被里香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt254",
+    "title": "竹席毯边花两份",
+    "body": "采竹席毯边花的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt255",
+    "title": "竹席毯上露两份",
+    "body": "采竹席毯上露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt256",
+    "title": "竹席芯里暖两份",
+    "body": "采竹席芯里暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt257",
+    "title": "竹席套外香两份",
+    "body": "采竹席套外香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt258",
+    "title": "竹席单上洁两份",
+    "body": "采竹席单上洁的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt259",
+    "title": "竹席单下静两份",
+    "body": "采竹席单下静的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt260",
+    "title": "草席安睡花两份",
+    "body": "采草席安睡花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt261",
+    "title": "草席入梦草两份",
+    "body": "采草席入梦草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt262",
+    "title": "草席浅眠叶两份",
+    "body": "采草席浅眠叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt263",
+    "title": "草席深眠果两份",
+    "body": "采草席深眠果的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt264",
+    "title": "草席回笼香两份",
+    "body": "采草席回笼香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt265",
+    "title": "草席午憩茶两份",
+    "body": "采草席午憩茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt266",
+    "title": "草席夜读蜜两份",
+    "body": "采草席夜读蜜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt267",
+    "title": "草席灯下姜两份",
+    "body": "采草席灯下姜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt268",
+    "title": "草席被角暖两份",
+    "body": "采草席被角暖的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt269",
+    "title": "草席枕边兰两份",
+    "body": "采草席枕边兰的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt270",
+    "title": "草席席间风两份",
+    "body": "采草席席间风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt271",
+    "title": "草席席上露两份",
+    "body": "采草席席上露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt272",
+    "title": "草席枕下笺两份",
+    "body": "采草席枕下笺的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt273",
+    "title": "草席被里香两份",
+    "body": "采草席被里香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt274",
+    "title": "草席毯边花两份",
+    "body": "采草席毯边花的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt275",
+    "title": "草席毯上露两份",
+    "body": "采草席毯上露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt276",
+    "title": "草席芯里暖两份",
+    "body": "采草席芯里暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt277",
+    "title": "草席套外香两份",
+    "body": "采草席套外香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt278",
+    "title": "草席单上洁两份",
+    "body": "采草席单上洁的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt279",
+    "title": "草席单下静两份",
+    "body": "采草席单下静的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt280",
+    "title": "藤席安睡花两份",
+    "body": "采藤席安睡花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt281",
+    "title": "藤席入梦草两份",
+    "body": "采藤席入梦草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt282",
+    "title": "藤席浅眠叶两份",
+    "body": "采藤席浅眠叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt283",
+    "title": "藤席深眠果两份",
+    "body": "采藤席深眠果的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt284",
+    "title": "藤席回笼香两份",
+    "body": "采藤席回笼香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt285",
+    "title": "藤席午憩茶两份",
+    "body": "采藤席午憩茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt286",
+    "title": "藤席夜读蜜两份",
+    "body": "采藤席夜读蜜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt287",
+    "title": "藤席灯下姜两份",
+    "body": "采藤席灯下姜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt288",
+    "title": "藤席被角暖两份",
+    "body": "采藤席被角暖的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt289",
+    "title": "藤席枕边兰两份",
+    "body": "采藤席枕边兰的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt290",
+    "title": "藤席席间风两份",
+    "body": "采藤席席间风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt291",
+    "title": "藤席席上露两份",
+    "body": "采藤席席上露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt292",
+    "title": "藤席枕下笺两份",
+    "body": "采藤席枕下笺的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt293",
+    "title": "藤席被里香两份",
+    "body": "采藤席被里香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt294",
+    "title": "藤席毯边花两份",
+    "body": "采藤席毯边花的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt295",
+    "title": "藤席毯上露两份",
+    "body": "采藤席毯上露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt296",
+    "title": "藤席芯里暖两份",
+    "body": "采藤席芯里暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt297",
+    "title": "藤席套外香两份",
+    "body": "采藤席套外香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt298",
+    "title": "藤席单上洁两份",
+    "body": "采藤席单上洁的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt299",
+    "title": "藤席单下静两份",
+    "body": "采藤席单下静的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt300",
+    "title": "凉席安睡花两份",
+    "body": "采凉席安睡花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt301",
+    "title": "凉席入梦草两份",
+    "body": "采凉席入梦草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt302",
+    "title": "凉席浅眠叶两份",
+    "body": "采凉席浅眠叶的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt303",
+    "title": "凉席深眠果两份",
+    "body": "采凉席深眠果的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt304",
+    "title": "凉席回笼香两份",
+    "body": "采凉席回笼香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt305",
+    "title": "凉席午憩茶两份",
+    "body": "采凉席午憩茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt306",
+    "title": "凉席夜读蜜两份",
+    "body": "采凉席夜读蜜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt307",
+    "title": "凉席灯下姜两份",
+    "body": "采凉席灯下姜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt308",
+    "title": "凉席被角暖两份",
+    "body": "采凉席被角暖的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt309",
+    "title": "凉席枕边兰两份",
+    "body": "采凉席枕边兰的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt310",
+    "title": "凉席席间风两份",
+    "body": "采凉席席间风的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt311",
+    "title": "凉席席上露两份",
+    "body": "采凉席席上露的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt312",
+    "title": "凉席枕下笺两份",
+    "body": "采凉席枕下笺的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt313",
+    "title": "凉席被里香两份",
+    "body": "采凉席被里香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt314",
+    "title": "凉席毯边花两份",
+    "body": "采凉席毯边花的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt315",
+    "title": "凉席毯上露两份",
+    "body": "采凉席毯上露的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt316",
+    "title": "凉席芯里暖两份",
+    "body": "采凉席芯里暖的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt317",
+    "title": "凉席套外香两份",
+    "body": "采凉席套外香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt318",
+    "title": "凉席单上洁两份",
+    "body": "采凉席单上洁的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_quilt319",
+    "title": "凉席单下静两份",
+    "body": "采凉席单下静的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "quilt319": 2
+      },
+      "coins": 2
+    }
   }
 ]
