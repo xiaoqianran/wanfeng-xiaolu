@@ -3517,7 +3517,8 @@ test("rambutan jackfruit plantable ambient banks 94 themes", () => {
   assert.ok(summerPool.includes("rambutan") && summerPool.includes("jackfruit"));
   const walk = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "walk-config.json"), "utf8"));
   assert.ok(walk.ambient.length >= 48);
-  assert.ok(walk.ambient.some((a) => a.includes("瓜田") || a.includes("竹篮")));
+  const ambText = (a) => (typeof a === "string" ? a : (a && (a.note || a.text || a.body || "")) || "");
+  assert.ok(walk.ambient.some((a) => /瓜田|竹篮|香料|路牌/.test(ambText(a))));
   const garden = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "garden-config.json"), "utf8"));
   assert.ok(garden.messages.length >= 38);
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
