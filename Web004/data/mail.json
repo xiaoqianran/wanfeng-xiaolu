@@ -3571,5 +3571,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_bergamot_fresh",
+    "title": "鲜佛手柑两份",
+    "body": "采鲜佛手柑的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bergamot_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_yuzu_fresh",
+    "title": "鲜柚子两份",
+    "body": "采鲜柚子的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "yuzu_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sudachi",
+    "title": "酢橘两份",
+    "body": "采酢橘的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sudachi": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kabosu",
+    "title": "香酸柑两份",
+    "body": "采香酸柑的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kabosu": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ponkan",
+    "title": "椪柑两份",
+    "body": "采椪柑的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "ponkan": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_dekopon",
+    "title": "不知火两份",
+    "body": "采不知火的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "dekopon": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_hassaku",
+    "title": "八朔两份",
+    "body": "采八朔的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "hassaku": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_amanatsu",
+    "title": "甘夏两份",
+    "body": "采甘夏的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "amanatsu": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_shiso_green",
+    "title": "青紫苏两份",
+    "body": "采青紫苏的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "shiso_green": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_shiso_red",
+    "title": "赤紫苏两份",
+    "body": "采赤紫苏的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "shiso_red": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mitsuba",
+    "title": "三叶两份",
+    "body": "采三叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mitsuba": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_myoga",
+    "title": "茗荷两份",
+    "body": "采茗荷的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "myoga": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wasabi_leaf",
+    "title": "山葵叶两份",
+    "body": "采山葵叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wasabi_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sansho",
+    "title": "山椒两份",
+    "body": "采山椒的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sansho": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kinome",
+    "title": "木芽两份",
+    "body": "采木芽的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kinome": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_yuzu_kosho",
+    "title": "柚子胡椒两份",
+    "body": "磨柚子胡椒的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "yuzu_kosho": 2
+      },
+      "coins": 2
+    }
   }
 ]
