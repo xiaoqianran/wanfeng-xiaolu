@@ -2798,6 +2798,20 @@
       "emoji": "🧡",
       "kind": "风味",
       "seed": "papayaPot"
+    },
+    "rambutan": {
+      "id": "rambutan",
+      "name": "红毛丹",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "rambutanPot"
+    },
+    "jackfruit": {
+      "id": "jackfruit",
+      "name": "菠萝蜜",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "jackfruitPot"
     }
   },
   "plants": {
@@ -5391,6 +5405,28 @@
       ],
       "harvest": "papaya",
       "days": 4
+    },
+    "rambutanPot": {
+      "id": "rambutanPot",
+      "name": "红毛丹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "rambutan",
+      "days": 3
+    },
+    "jackfruitPot": {
+      "id": "jackfruitPot",
+      "name": "菠萝蜜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "jackfruit",
+      "days": 5
     }
   },
   "cups": [
@@ -6855,6 +6891,26 @@
       "tags": [
         "果香",
         "清爽"
+      ]
+    },
+    {
+      "id": "rambutan",
+      "name": "红毛丹",
+      "emoji": "🔴",
+      "need": "rambutan",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "jackfruit",
+      "name": "菠萝蜜",
+      "emoji": "🟡",
+      "need": "jackfruit",
+      "tags": [
+        "果香",
+        "甜蜜"
       ]
     }
   ],
@@ -9025,6 +9081,36 @@
         "papaya",
         "honey",
         "lime",
+        "mango"
+      ]
+    },
+    {
+      "name": "剥红毛丹的小孩",
+      "avatar": "🧒",
+      "wish": "红毛丹或蜜，甜蜜一点，装饰随意。",
+      "tags": [
+        "甜蜜",
+        "果香"
+      ],
+      "flavors": [
+        "rambutan",
+        "honey",
+        "litchi",
+        "longan"
+      ]
+    },
+    {
+      "name": "切菠萝蜜的大叔",
+      "avatar": "🔪",
+      "wish": "菠萝蜜或蜜，甜蜜一点，装饰随意。",
+      "tags": [
+        "甜蜜",
+        "果香"
+      ],
+      "flavors": [
+        "jackfruit",
+        "honey",
+        "pineapple",
         "mango"
       ]
     }
