@@ -3372,6 +3372,118 @@
       "emoji": "✨",
       "kind": "风味",
       "seed": "silverweedPot"
+    },
+    "figwort": {
+      "id": "figwort",
+      "name": "玄参",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "figwortPot"
+    },
+    "loosestrife": {
+      "id": "loosestrife",
+      "name": "千屈菜",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "loosestrifePot"
+    },
+    "willowherb": {
+      "id": "willowherb",
+      "name": "柳兰",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "willowherbPot"
+    },
+    "bedstraw": {
+      "id": "bedstraw",
+      "name": "猪殃殃",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "bedstrawPot"
+    },
+    "cleavers": {
+      "id": "cleavers",
+      "name": "拉拉藤",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "cleaversPot"
+    },
+    "ground_ivy": {
+      "id": "ground_ivy",
+      "name": "连钱草",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "ground_ivyPot"
+    },
+    "self_heal_spike": {
+      "id": "self_heal_spike",
+      "name": "夏枯穗",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "self_heal_spikePot"
+    },
+    "bugle": {
+      "id": "bugle",
+      "name": "筋骨草",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "buglePot"
+    },
+    "primrose": {
+      "id": "primrose",
+      "name": "报春花",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "primrosePot"
+    },
+    "cowslip": {
+      "id": "cowslip",
+      "name": "黄花九轮草",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "cowslipPot"
+    },
+    "oxeye": {
+      "id": "oxeye",
+      "name": "滨菊",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "oxeyePot"
+    },
+    "knapweed": {
+      "id": "knapweed",
+      "name": "矢车菊",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "knapweedPot"
+    },
+    "scabious": {
+      "id": "scabious",
+      "name": "山萝卜",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "scabiousPot"
+    },
+    "teasel": {
+      "id": "teasel",
+      "name": "川续断",
+      "emoji": "🩶",
+      "kind": "风味",
+      "seed": "teaselPot"
+    },
+    "burdock": {
+      "id": "burdock",
+      "name": "牛蒡",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "burdockPot"
+    },
+    "nettle_seed": {
+      "id": "nettle_seed",
+      "name": "荨麻籽",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "nettle_seedPot"
     }
   },
   "plants": {
@@ -6867,6 +6979,182 @@
       ],
       "harvest": "silverweed",
       "days": 3
+    },
+    "figwortPot": {
+      "id": "figwortPot",
+      "name": "玄参",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "figwort",
+      "days": 4
+    },
+    "loosestrifePot": {
+      "id": "loosestrifePot",
+      "name": "千屈菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "loosestrife",
+      "days": 3
+    },
+    "willowherbPot": {
+      "id": "willowherbPot",
+      "name": "柳兰",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "willowherb",
+      "days": 3
+    },
+    "bedstrawPot": {
+      "id": "bedstrawPot",
+      "name": "猪殃殃",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "bedstraw",
+      "days": 3
+    },
+    "cleaversPot": {
+      "id": "cleaversPot",
+      "name": "拉拉藤",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "cleavers",
+      "days": 3
+    },
+    "ground_ivyPot": {
+      "id": "ground_ivyPot",
+      "name": "连钱草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "ground_ivy",
+      "days": 3
+    },
+    "self_heal_spikePot": {
+      "id": "self_heal_spikePot",
+      "name": "夏枯穗",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "self_heal_spike",
+      "days": 3
+    },
+    "buglePot": {
+      "id": "buglePot",
+      "name": "筋骨草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "bugle",
+      "days": 3
+    },
+    "primrosePot": {
+      "id": "primrosePot",
+      "name": "报春花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "primrose",
+      "days": 3
+    },
+    "cowslipPot": {
+      "id": "cowslipPot",
+      "name": "黄花九轮草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "cowslip",
+      "days": 3
+    },
+    "oxeyePot": {
+      "id": "oxeyePot",
+      "name": "滨菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "oxeye",
+      "days": 3
+    },
+    "knapweedPot": {
+      "id": "knapweedPot",
+      "name": "矢车菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "knapweed",
+      "days": 3
+    },
+    "scabiousPot": {
+      "id": "scabiousPot",
+      "name": "山萝卜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "scabious",
+      "days": 3
+    },
+    "teaselPot": {
+      "id": "teaselPot",
+      "name": "川续断",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🩶"
+      ],
+      "harvest": "teasel",
+      "days": 4
+    },
+    "burdockPot": {
+      "id": "burdockPot",
+      "name": "牛蒡",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "burdock",
+      "days": 4
+    },
+    "nettle_seedPot": {
+      "id": "nettle_seedPot",
+      "name": "荨麻籽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "nettle_seed",
+      "days": 3
     }
   },
   "cups": [
@@ -9151,6 +9439,166 @@
       "tags": [
         "草本",
         "花香"
+      ]
+    },
+    {
+      "id": "figwort",
+      "name": "玄参",
+      "emoji": "🟤",
+      "need": "figwort",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "loosestrife",
+      "name": "千屈菜",
+      "emoji": "💜",
+      "need": "loosestrife",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "willowherb",
+      "name": "柳兰",
+      "emoji": "💗",
+      "need": "willowherb",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "bedstraw",
+      "name": "猪殃殃",
+      "emoji": "🤍",
+      "need": "bedstraw",
+      "tags": [
+        "草本",
+        "花香"
+      ]
+    },
+    {
+      "id": "cleavers",
+      "name": "拉拉藤",
+      "emoji": "🟢",
+      "need": "cleavers",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "ground_ivy",
+      "name": "连钱草",
+      "emoji": "🌿",
+      "need": "ground_ivy",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "self_heal_spike",
+      "name": "夏枯穗",
+      "emoji": "💙",
+      "need": "self_heal_spike",
+      "tags": [
+        "草本",
+        "花香"
+      ]
+    },
+    {
+      "id": "bugle",
+      "name": "筋骨草",
+      "emoji": "💙",
+      "need": "bugle",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "primrose",
+      "name": "报春花",
+      "emoji": "💛",
+      "need": "primrose",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "cowslip",
+      "name": "黄花九轮草",
+      "emoji": "🟡",
+      "need": "cowslip",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "oxeye",
+      "name": "滨菊",
+      "emoji": "⚪",
+      "need": "oxeye",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "knapweed",
+      "name": "矢车菊",
+      "emoji": "💜",
+      "need": "knapweed",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "scabious",
+      "name": "山萝卜",
+      "emoji": "💙",
+      "need": "scabious",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "teasel",
+      "name": "川续断",
+      "emoji": "🩶",
+      "need": "teasel",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "burdock",
+      "name": "牛蒡",
+      "emoji": "🟤",
+      "need": "burdock",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "nettle_seed",
+      "name": "荨麻籽",
+      "emoji": "🟢",
+      "need": "nettle_seed",
+      "tags": [
+        "草本",
+        "清爽"
       ]
     }
   ],
@@ -12551,6 +12999,246 @@
       ],
       "flavors": [
         "silverweed",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采玄参的药师",
+      "avatar": "🟤",
+      "wish": "玄参或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "figwort",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采千屈菜的旅人",
+      "avatar": "💜",
+      "wish": "千屈菜或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "loosestrife",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采柳兰的旅人",
+      "avatar": "💗",
+      "wish": "柳兰或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "willowherb",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采猪殃殃的药师",
+      "avatar": "🤍",
+      "wish": "猪殃殃或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "花香"
+      ],
+      "flavors": [
+        "bedstraw",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采拉拉藤的旅人",
+      "avatar": "🟢",
+      "wish": "拉拉藤或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "cleavers",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采连钱草的药师",
+      "avatar": "🌿",
+      "wish": "连钱草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "ground_ivy",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采夏枯穗的药师",
+      "avatar": "💙",
+      "wish": "夏枯穗或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "花香"
+      ],
+      "flavors": [
+        "self_heal_spike",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采筋骨草的旅人",
+      "avatar": "💙",
+      "wish": "筋骨草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "bugle",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采报春花的旅人",
+      "avatar": "💛",
+      "wish": "报春花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "primrose",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采黄花九轮草的药师",
+      "avatar": "🟡",
+      "wish": "黄花九轮草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "cowslip",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采滨菊的旅人",
+      "avatar": "⚪",
+      "wish": "滨菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "oxeye",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采矢车菊的药师",
+      "avatar": "💜",
+      "wish": "矢车菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "knapweed",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采山萝卜的旅人",
+      "avatar": "💙",
+      "wish": "山萝卜或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "scabious",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采川续断的药师",
+      "avatar": "🩶",
+      "wish": "川续断或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "teasel",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖牛蒡的药师",
+      "avatar": "🟤",
+      "wish": "牛蒡或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "burdock",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采荨麻籽的旅人",
+      "avatar": "🟢",
+      "wish": "荨麻籽或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "nettle_seed",
         "honey",
         "tea_leaf",
         "mint"

@@ -2185,5 +2185,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_figwort",
+    "title": "玄参两份",
+    "body": "采玄参的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "figwort": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_loosestrife",
+    "title": "千屈菜两份",
+    "body": "采千屈菜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "loosestrife": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_willowherb",
+    "title": "柳兰两份",
+    "body": "采柳兰的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "willowherb": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bedstraw",
+    "title": "猪殃殃两份",
+    "body": "采猪殃殃的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bedstraw": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cleavers",
+    "title": "拉拉藤两份",
+    "body": "采拉拉藤的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cleavers": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ground_ivy",
+    "title": "连钱草两份",
+    "body": "采连钱草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "ground_ivy": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_self_heal_spike",
+    "title": "夏枯穗两份",
+    "body": "采夏枯穗的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "self_heal_spike": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bugle",
+    "title": "筋骨草两份",
+    "body": "采筋骨草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bugle": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_primrose",
+    "title": "报春花两份",
+    "body": "采报春花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "primrose": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cowslip",
+    "title": "黄花九轮草两份",
+    "body": "采黄花九轮草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cowslip": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_oxeye",
+    "title": "滨菊两份",
+    "body": "采滨菊的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "oxeye": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_knapweed",
+    "title": "矢车菊两份",
+    "body": "采矢车菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "knapweed": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_scabious",
+    "title": "山萝卜两份",
+    "body": "采山萝卜的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "scabious": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_teasel",
+    "title": "川续断两份",
+    "body": "采川续断的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "teasel": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_burdock",
+    "title": "牛蒡两份",
+    "body": "炖牛蒡的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "burdock": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_nettle_seed",
+    "title": "荨麻籽两份",
+    "body": "采荨麻籽的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "nettle_seed": 2
+      },
+      "coins": 2
+    }
   }
 ]
