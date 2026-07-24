@@ -24991,6 +24991,16 @@ function renderJournal() {
       score += 0.5;
       notes.push("记得你上次的味道");
     }
+    // soft path affinity: flavor matching current path bias
+    try {
+      const th = (typeof currentTheme === "function" ? currentTheme() : null)
+        || (PATH_THEMES && PATH_THEMES.find((t) => t.id === (state.pathThemeId || "")));
+      const biasMap = th && th.bias;
+      if (biasMap && flavorDef && biasMap[flavorDef.id] >= 1.5) {
+        score += 0.2;
+        notes.push("小路风味");
+      }
+    } catch (e) { /* theme lookup optional */ }
 
     if (baseDef.vibe && c.tags.includes(baseDef.vibe)) {
       score += 1;

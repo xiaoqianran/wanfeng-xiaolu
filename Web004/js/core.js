@@ -20527,6 +20527,14 @@
       score += 0.3;
       notes.push("野草特调");
     }
+    // soft path affinity: flavor that matches current path bias feels "walked-in"
+    if (catalogs.pathThemeId && catalogs.pathBias && flavorDef && catalogs.pathBias[flavorDef.id]) {
+      var bias = Number(catalogs.pathBias[flavorDef.id]) || 0;
+      if (bias >= 1.5) {
+        score += 0.2;
+        notes.push("小路风味");
+      }
+    }
     // soft pin-shelf: using pinned flavor feels familiar
     if (catalogs.pinnedFlavorId && flavorDef.id === catalogs.pinnedFlavorId) {
       score += 0.35;

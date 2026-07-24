@@ -15861,5 +15861,37 @@ test("atm472 atm473 atm474 atm475 atm476 atm477 atm478 atm479 2459 themes", () =
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("path flavor soft bonus 小路风味", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const fl = j.flavors.find((f) => f && f.id) || j.flavors[0];
+  assert.ok(fl && fl.id, "need a flavor");
+  const bias = {};
+  bias[fl.id] = 2.5;
+  const score = core.scoreDrink(
+    { name: "t", tags: fl.tags || ["草本"], flavors: [fl.id] },
+    { cup: "mug", base: "honey_water", flavor: fl.id, topping: "none" },
+    {
+      cups: [{ id: "mug", vibe: "清爽" }],
+      bases: j.bases,
+      flavors: j.flavors,
+      toppings: [{ id: "none" }],
+      pathThemeId: "test_path",
+      pathBias: bias
+    }
+  );
+  assert.ok(score.notes.some((n) => n === "小路风味"), JSON.stringify(score.notes));
+  const score2 = core.scoreDrink(
+    { name: "t", tags: fl.tags || ["草本"], flavors: [fl.id] },
+    { cup: "mug", base: "honey_water", flavor: fl.id, topping: "none" },
+    {
+      cups: [{ id: "mug", vibe: "清爽" }],
+      bases: j.bases,
+      flavors: j.flavors,
+      toppings: [{ id: "none" }]
+    }
+  );
+  assert.ok(!score2.notes.some((n) => n === "小路风味"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
