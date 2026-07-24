@@ -122360,5 +122360,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_snow0",
+    "title": "初雪雪莲两份",
+    "body": "采初雪雪莲的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow0": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow1",
+    "title": "初雪雪茶两份",
+    "body": "采初雪雪茶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow1": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow2",
+    "title": "初雪雪菊两份",
+    "body": "采初雪雪菊的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow2": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow3",
+    "title": "初雪雪梅两份",
+    "body": "采初雪雪梅的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow3": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow4",
+    "title": "初雪雪松两份",
+    "body": "采初雪雪松的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow4": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow5",
+    "title": "初雪雪竹两份",
+    "body": "采初雪雪竹的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow5": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow6",
+    "title": "初雪雪柳两份",
+    "body": "采初雪雪柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow6": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow7",
+    "title": "初雪雪杉两份",
+    "body": "采初雪雪杉的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow7": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow8",
+    "title": "初雪雪耳两份",
+    "body": "采初雪雪耳的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow8": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow9",
+    "title": "初雪雪菇两份",
+    "body": "采初雪雪菇的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow9": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow10",
+    "title": "初雪雪葱两份",
+    "body": "采初雪雪葱的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow10": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow11",
+    "title": "初雪雪韭两份",
+    "body": "采初雪雪韭的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow11": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow12",
+    "title": "初雪雪芹两份",
+    "body": "采初雪雪芹的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow12": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow13",
+    "title": "初雪雪萝卜两份",
+    "body": "采初雪雪萝卜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow13": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow14",
+    "title": "初雪雪白菜两份",
+    "body": "采初雪雪白菜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow14": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow15",
+    "title": "初雪雪菠菜两份",
+    "body": "采初雪雪菠菜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow15": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow16",
+    "title": "残雪雪莲两份",
+    "body": "采残雪雪莲的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow16": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow17",
+    "title": "残雪雪茶两份",
+    "body": "采残雪雪茶的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow17": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow18",
+    "title": "残雪雪菊两份",
+    "body": "采残雪雪菊的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow18": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow19",
+    "title": "残雪雪梅两份",
+    "body": "采残雪雪梅的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow19": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow20",
+    "title": "残雪雪松两份",
+    "body": "采残雪雪松的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow21",
+    "title": "残雪雪竹两份",
+    "body": "采残雪雪竹的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow22",
+    "title": "残雪雪柳两份",
+    "body": "采残雪雪柳的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow23",
+    "title": "残雪雪杉两份",
+    "body": "采残雪雪杉的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow24",
+    "title": "残雪雪耳两份",
+    "body": "采残雪雪耳的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow25",
+    "title": "残雪雪菇两份",
+    "body": "采残雪雪菇的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow26",
+    "title": "残雪雪葱两份",
+    "body": "采残雪雪葱的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow27",
+    "title": "残雪雪韭两份",
+    "body": "采残雪雪韭的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow28",
+    "title": "残雪雪芹两份",
+    "body": "采残雪雪芹的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow29",
+    "title": "残雪雪萝卜两份",
+    "body": "采残雪雪萝卜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow30",
+    "title": "残雪雪白菜两份",
+    "body": "采残雪雪白菜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow30": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow31",
+    "title": "残雪雪菠菜两份",
+    "body": "采残雪雪菠菜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow31": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow32",
+    "title": "积雪雪莲两份",
+    "body": "采积雪雪莲的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow32": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow33",
+    "title": "积雪雪茶两份",
+    "body": "采积雪雪茶的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow33": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow34",
+    "title": "积雪雪菊两份",
+    "body": "采积雪雪菊的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow34": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow35",
+    "title": "积雪雪梅两份",
+    "body": "采积雪雪梅的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow35": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow36",
+    "title": "积雪雪松两份",
+    "body": "采积雪雪松的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow36": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow37",
+    "title": "积雪雪竹两份",
+    "body": "采积雪雪竹的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow37": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow38",
+    "title": "积雪雪柳两份",
+    "body": "采积雪雪柳的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow38": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow39",
+    "title": "积雪雪杉两份",
+    "body": "采积雪雪杉的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow39": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow40",
+    "title": "积雪雪耳两份",
+    "body": "采积雪雪耳的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow40": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow41",
+    "title": "积雪雪菇两份",
+    "body": "采积雪雪菇的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow41": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow42",
+    "title": "积雪雪葱两份",
+    "body": "采积雪雪葱的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow42": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow43",
+    "title": "积雪雪韭两份",
+    "body": "采积雪雪韭的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow43": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow44",
+    "title": "积雪雪芹两份",
+    "body": "采积雪雪芹的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow44": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow45",
+    "title": "积雪雪萝卜两份",
+    "body": "采积雪雪萝卜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow45": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow46",
+    "title": "积雪雪白菜两份",
+    "body": "采积雪雪白菜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow46": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow47",
+    "title": "积雪雪菠菜两份",
+    "body": "采积雪雪菠菜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow47": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow48",
+    "title": "飞雪雪莲两份",
+    "body": "采飞雪雪莲的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow48": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow49",
+    "title": "飞雪雪茶两份",
+    "body": "采飞雪雪茶的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow49": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow50",
+    "title": "飞雪雪菊两份",
+    "body": "采飞雪雪菊的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow50": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow51",
+    "title": "飞雪雪梅两份",
+    "body": "采飞雪雪梅的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow51": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow52",
+    "title": "飞雪雪松两份",
+    "body": "采飞雪雪松的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow52": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow53",
+    "title": "飞雪雪竹两份",
+    "body": "采飞雪雪竹的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow53": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow54",
+    "title": "飞雪雪柳两份",
+    "body": "采飞雪雪柳的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow54": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow55",
+    "title": "飞雪雪杉两份",
+    "body": "采飞雪雪杉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow55": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow56",
+    "title": "飞雪雪耳两份",
+    "body": "采飞雪雪耳的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow56": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow57",
+    "title": "飞雪雪菇两份",
+    "body": "采飞雪雪菇的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow57": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow58",
+    "title": "飞雪雪葱两份",
+    "body": "采飞雪雪葱的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow58": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow59",
+    "title": "飞雪雪韭两份",
+    "body": "采飞雪雪韭的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow59": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow60",
+    "title": "飞雪雪芹两份",
+    "body": "采飞雪雪芹的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow60": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow61",
+    "title": "飞雪雪萝卜两份",
+    "body": "采飞雪雪萝卜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow61": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow62",
+    "title": "飞雪雪白菜两份",
+    "body": "采飞雪雪白菜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow62": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow63",
+    "title": "飞雪雪菠菜两份",
+    "body": "采飞雪雪菠菜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow63": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow64",
+    "title": "细雪雪莲两份",
+    "body": "采细雪雪莲的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow64": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow65",
+    "title": "细雪雪茶两份",
+    "body": "采细雪雪茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow65": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow66",
+    "title": "细雪雪菊两份",
+    "body": "采细雪雪菊的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow66": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow67",
+    "title": "细雪雪梅两份",
+    "body": "采细雪雪梅的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow67": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow68",
+    "title": "细雪雪松两份",
+    "body": "采细雪雪松的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow68": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow69",
+    "title": "细雪雪竹两份",
+    "body": "采细雪雪竹的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow69": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow70",
+    "title": "细雪雪柳两份",
+    "body": "采细雪雪柳的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow70": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow71",
+    "title": "细雪雪杉两份",
+    "body": "采细雪雪杉的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow71": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow72",
+    "title": "细雪雪耳两份",
+    "body": "采细雪雪耳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow72": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow73",
+    "title": "细雪雪菇两份",
+    "body": "采细雪雪菇的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow73": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow74",
+    "title": "细雪雪葱两份",
+    "body": "采细雪雪葱的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow74": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow75",
+    "title": "细雪雪韭两份",
+    "body": "采细雪雪韭的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow75": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow76",
+    "title": "细雪雪芹两份",
+    "body": "采细雪雪芹的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow76": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow77",
+    "title": "细雪雪萝卜两份",
+    "body": "采细雪雪萝卜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow77": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow78",
+    "title": "细雪雪白菜两份",
+    "body": "采细雪雪白菜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow78": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow79",
+    "title": "细雪雪菠菜两份",
+    "body": "采细雪雪菠菜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow79": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow80",
+    "title": "鹅毛雪雪莲两份",
+    "body": "采鹅毛雪雪莲的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow80": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow81",
+    "title": "鹅毛雪雪茶两份",
+    "body": "采鹅毛雪雪茶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow81": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow82",
+    "title": "鹅毛雪雪菊两份",
+    "body": "采鹅毛雪雪菊的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow82": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow83",
+    "title": "鹅毛雪雪梅两份",
+    "body": "采鹅毛雪雪梅的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow83": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow84",
+    "title": "鹅毛雪雪松两份",
+    "body": "采鹅毛雪雪松的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow84": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow85",
+    "title": "鹅毛雪雪竹两份",
+    "body": "采鹅毛雪雪竹的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow85": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow86",
+    "title": "鹅毛雪雪柳两份",
+    "body": "采鹅毛雪雪柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow86": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow87",
+    "title": "鹅毛雪雪杉两份",
+    "body": "采鹅毛雪雪杉的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow87": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow88",
+    "title": "鹅毛雪雪耳两份",
+    "body": "采鹅毛雪雪耳的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow88": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow89",
+    "title": "鹅毛雪雪菇两份",
+    "body": "采鹅毛雪雪菇的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow89": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow90",
+    "title": "鹅毛雪雪葱两份",
+    "body": "采鹅毛雪雪葱的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow90": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow91",
+    "title": "鹅毛雪雪韭两份",
+    "body": "采鹅毛雪雪韭的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow91": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow92",
+    "title": "鹅毛雪雪芹两份",
+    "body": "采鹅毛雪雪芹的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow92": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow93",
+    "title": "鹅毛雪雪萝卜两份",
+    "body": "采鹅毛雪雪萝卜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow93": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow94",
+    "title": "鹅毛雪雪白菜两份",
+    "body": "采鹅毛雪雪白菜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow94": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow95",
+    "title": "鹅毛雪雪菠菜两份",
+    "body": "采鹅毛雪雪菠菜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow95": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow96",
+    "title": "米雪雪莲两份",
+    "body": "采米雪雪莲的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow96": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow97",
+    "title": "米雪雪茶两份",
+    "body": "采米雪雪茶的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow97": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow98",
+    "title": "米雪雪菊两份",
+    "body": "采米雪雪菊的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow98": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow99",
+    "title": "米雪雪梅两份",
+    "body": "采米雪雪梅的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow99": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow100",
+    "title": "米雪雪松两份",
+    "body": "采米雪雪松的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow101",
+    "title": "米雪雪竹两份",
+    "body": "采米雪雪竹的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow102",
+    "title": "米雪雪柳两份",
+    "body": "采米雪雪柳的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow103",
+    "title": "米雪雪杉两份",
+    "body": "采米雪雪杉的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow104",
+    "title": "米雪雪耳两份",
+    "body": "采米雪雪耳的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow105",
+    "title": "米雪雪菇两份",
+    "body": "采米雪雪菇的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow106",
+    "title": "米雪雪葱两份",
+    "body": "采米雪雪葱的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow107",
+    "title": "米雪雪韭两份",
+    "body": "采米雪雪韭的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow108",
+    "title": "米雪雪芹两份",
+    "body": "采米雪雪芹的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow109",
+    "title": "米雪雪萝卜两份",
+    "body": "采米雪雪萝卜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow110",
+    "title": "米雪雪白菜两份",
+    "body": "采米雪雪白菜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow111",
+    "title": "米雪雪菠菜两份",
+    "body": "采米雪雪菠菜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow112",
+    "title": "霰雪雪莲两份",
+    "body": "采霰雪雪莲的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow113",
+    "title": "霰雪雪茶两份",
+    "body": "采霰雪雪茶的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow114",
+    "title": "霰雪雪菊两份",
+    "body": "采霰雪雪菊的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow115",
+    "title": "霰雪雪梅两份",
+    "body": "采霰雪雪梅的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow116",
+    "title": "霰雪雪松两份",
+    "body": "采霰雪雪松的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow117",
+    "title": "霰雪雪竹两份",
+    "body": "采霰雪雪竹的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow118",
+    "title": "霰雪雪柳两份",
+    "body": "采霰雪雪柳的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow119",
+    "title": "霰雪雪杉两份",
+    "body": "采霰雪雪杉的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow120",
+    "title": "霰雪雪耳两份",
+    "body": "采霰雪雪耳的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow121",
+    "title": "霰雪雪菇两份",
+    "body": "采霰雪雪菇的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow122",
+    "title": "霰雪雪葱两份",
+    "body": "采霰雪雪葱的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow123",
+    "title": "霰雪雪韭两份",
+    "body": "采霰雪雪韭的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow124",
+    "title": "霰雪雪芹两份",
+    "body": "采霰雪雪芹的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow125",
+    "title": "霰雪雪萝卜两份",
+    "body": "采霰雪雪萝卜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow126",
+    "title": "霰雪雪白菜两份",
+    "body": "采霰雪雪白菜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow127",
+    "title": "霰雪雪菠菜两份",
+    "body": "采霰雪雪菠菜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow128",
+    "title": "雾凇雪莲两份",
+    "body": "采雾凇雪莲的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow129",
+    "title": "雾凇雪茶两份",
+    "body": "采雾凇雪茶的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow130",
+    "title": "雾凇雪菊两份",
+    "body": "采雾凇雪菊的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow131",
+    "title": "雾凇雪梅两份",
+    "body": "采雾凇雪梅的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow132",
+    "title": "雾凇雪松两份",
+    "body": "采雾凇雪松的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow133",
+    "title": "雾凇雪竹两份",
+    "body": "采雾凇雪竹的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow134",
+    "title": "雾凇雪柳两份",
+    "body": "采雾凇雪柳的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow135",
+    "title": "雾凇雪杉两份",
+    "body": "采雾凇雪杉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow136",
+    "title": "雾凇雪耳两份",
+    "body": "采雾凇雪耳的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow137",
+    "title": "雾凇雪菇两份",
+    "body": "采雾凇雪菇的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow138",
+    "title": "雾凇雪葱两份",
+    "body": "采雾凇雪葱的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow139",
+    "title": "雾凇雪韭两份",
+    "body": "采雾凇雪韭的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow140",
+    "title": "雾凇雪芹两份",
+    "body": "采雾凇雪芹的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow141",
+    "title": "雾凇雪萝卜两份",
+    "body": "采雾凇雪萝卜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow142",
+    "title": "雾凇雪白菜两份",
+    "body": "采雾凇雪白菜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow143",
+    "title": "雾凇雪菠菜两份",
+    "body": "采雾凇雪菠菜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow144",
+    "title": "雨凇雪莲两份",
+    "body": "采雨凇雪莲的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow145",
+    "title": "雨凇雪茶两份",
+    "body": "采雨凇雪茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow146",
+    "title": "雨凇雪菊两份",
+    "body": "采雨凇雪菊的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow147",
+    "title": "雨凇雪梅两份",
+    "body": "采雨凇雪梅的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow148",
+    "title": "雨凇雪松两份",
+    "body": "采雨凇雪松的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow149",
+    "title": "雨凇雪竹两份",
+    "body": "采雨凇雪竹的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow150",
+    "title": "雨凇雪柳两份",
+    "body": "采雨凇雪柳的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow151",
+    "title": "雨凇雪杉两份",
+    "body": "采雨凇雪杉的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow152",
+    "title": "雨凇雪耳两份",
+    "body": "采雨凇雪耳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow153",
+    "title": "雨凇雪菇两份",
+    "body": "采雨凇雪菇的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow154",
+    "title": "雨凇雪葱两份",
+    "body": "采雨凇雪葱的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow155",
+    "title": "雨凇雪韭两份",
+    "body": "采雨凇雪韭的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow156",
+    "title": "雨凇雪芹两份",
+    "body": "采雨凇雪芹的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow157",
+    "title": "雨凇雪萝卜两份",
+    "body": "采雨凇雪萝卜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow158",
+    "title": "雨凇雪白菜两份",
+    "body": "采雨凇雪白菜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow159",
+    "title": "雨凇雪菠菜两份",
+    "body": "采雨凇雪菠菜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow160",
+    "title": "雪檐雪莲两份",
+    "body": "采雪檐雪莲的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow161",
+    "title": "雪檐雪茶两份",
+    "body": "采雪檐雪茶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow162",
+    "title": "雪檐雪菊两份",
+    "body": "采雪檐雪菊的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow163",
+    "title": "雪檐雪梅两份",
+    "body": "采雪檐雪梅的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow164",
+    "title": "雪檐雪松两份",
+    "body": "采雪檐雪松的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow165",
+    "title": "雪檐雪竹两份",
+    "body": "采雪檐雪竹的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow166",
+    "title": "雪檐雪柳两份",
+    "body": "采雪檐雪柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow167",
+    "title": "雪檐雪杉两份",
+    "body": "采雪檐雪杉的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow168",
+    "title": "雪檐雪耳两份",
+    "body": "采雪檐雪耳的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow169",
+    "title": "雪檐雪菇两份",
+    "body": "采雪檐雪菇的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow170",
+    "title": "雪檐雪葱两份",
+    "body": "采雪檐雪葱的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow171",
+    "title": "雪檐雪韭两份",
+    "body": "采雪檐雪韭的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow172",
+    "title": "雪檐雪芹两份",
+    "body": "采雪檐雪芹的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow173",
+    "title": "雪檐雪萝卜两份",
+    "body": "采雪檐雪萝卜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow174",
+    "title": "雪檐雪白菜两份",
+    "body": "采雪檐雪白菜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow175",
+    "title": "雪檐雪菠菜两份",
+    "body": "采雪檐雪菠菜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow176",
+    "title": "雪人雪莲两份",
+    "body": "采雪人雪莲的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow177",
+    "title": "雪人雪茶两份",
+    "body": "采雪人雪茶的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow178",
+    "title": "雪人雪菊两份",
+    "body": "采雪人雪菊的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow179",
+    "title": "雪人雪梅两份",
+    "body": "采雪人雪梅的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow180",
+    "title": "雪人雪松两份",
+    "body": "采雪人雪松的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow181",
+    "title": "雪人雪竹两份",
+    "body": "采雪人雪竹的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow182",
+    "title": "雪人雪柳两份",
+    "body": "采雪人雪柳的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow183",
+    "title": "雪人雪杉两份",
+    "body": "采雪人雪杉的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow184",
+    "title": "雪人雪耳两份",
+    "body": "采雪人雪耳的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow185",
+    "title": "雪人雪菇两份",
+    "body": "采雪人雪菇的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow186",
+    "title": "雪人雪葱两份",
+    "body": "采雪人雪葱的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow187",
+    "title": "雪人雪韭两份",
+    "body": "采雪人雪韭的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow188",
+    "title": "雪人雪芹两份",
+    "body": "采雪人雪芹的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow189",
+    "title": "雪人雪萝卜两份",
+    "body": "采雪人雪萝卜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow190",
+    "title": "雪人雪白菜两份",
+    "body": "采雪人雪白菜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow191",
+    "title": "雪人雪菠菜两份",
+    "body": "采雪人雪菠菜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow192",
+    "title": "雪洞雪莲两份",
+    "body": "采雪洞雪莲的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow193",
+    "title": "雪洞雪茶两份",
+    "body": "采雪洞雪茶的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow194",
+    "title": "雪洞雪菊两份",
+    "body": "采雪洞雪菊的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow195",
+    "title": "雪洞雪梅两份",
+    "body": "采雪洞雪梅的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow196",
+    "title": "雪洞雪松两份",
+    "body": "采雪洞雪松的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow197",
+    "title": "雪洞雪竹两份",
+    "body": "采雪洞雪竹的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow198",
+    "title": "雪洞雪柳两份",
+    "body": "采雪洞雪柳的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow199",
+    "title": "雪洞雪杉两份",
+    "body": "采雪洞雪杉的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow200",
+    "title": "雪洞雪耳两份",
+    "body": "采雪洞雪耳的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow201",
+    "title": "雪洞雪菇两份",
+    "body": "采雪洞雪菇的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow202",
+    "title": "雪洞雪葱两份",
+    "body": "采雪洞雪葱的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow203",
+    "title": "雪洞雪韭两份",
+    "body": "采雪洞雪韭的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow204",
+    "title": "雪洞雪芹两份",
+    "body": "采雪洞雪芹的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow205",
+    "title": "雪洞雪萝卜两份",
+    "body": "采雪洞雪萝卜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow206",
+    "title": "雪洞雪白菜两份",
+    "body": "采雪洞雪白菜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow207",
+    "title": "雪洞雪菠菜两份",
+    "body": "采雪洞雪菠菜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow208",
+    "title": "雪径雪莲两份",
+    "body": "采雪径雪莲的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow209",
+    "title": "雪径雪茶两份",
+    "body": "采雪径雪茶的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow210",
+    "title": "雪径雪菊两份",
+    "body": "采雪径雪菊的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow211",
+    "title": "雪径雪梅两份",
+    "body": "采雪径雪梅的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow212",
+    "title": "雪径雪松两份",
+    "body": "采雪径雪松的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow213",
+    "title": "雪径雪竹两份",
+    "body": "采雪径雪竹的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow214",
+    "title": "雪径雪柳两份",
+    "body": "采雪径雪柳的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow215",
+    "title": "雪径雪杉两份",
+    "body": "采雪径雪杉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow216",
+    "title": "雪径雪耳两份",
+    "body": "采雪径雪耳的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow217",
+    "title": "雪径雪菇两份",
+    "body": "采雪径雪菇的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow218",
+    "title": "雪径雪葱两份",
+    "body": "采雪径雪葱的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow219",
+    "title": "雪径雪韭两份",
+    "body": "采雪径雪韭的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow220",
+    "title": "雪径雪芹两份",
+    "body": "采雪径雪芹的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow221",
+    "title": "雪径雪萝卜两份",
+    "body": "采雪径雪萝卜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow222",
+    "title": "雪径雪白菜两份",
+    "body": "采雪径雪白菜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow223",
+    "title": "雪径雪菠菜两份",
+    "body": "采雪径雪菠菜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow224",
+    "title": "雪桥雪莲两份",
+    "body": "采雪桥雪莲的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow225",
+    "title": "雪桥雪茶两份",
+    "body": "采雪桥雪茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow226",
+    "title": "雪桥雪菊两份",
+    "body": "采雪桥雪菊的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow227",
+    "title": "雪桥雪梅两份",
+    "body": "采雪桥雪梅的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow228",
+    "title": "雪桥雪松两份",
+    "body": "采雪桥雪松的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow229",
+    "title": "雪桥雪竹两份",
+    "body": "采雪桥雪竹的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow230",
+    "title": "雪桥雪柳两份",
+    "body": "采雪桥雪柳的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow231",
+    "title": "雪桥雪杉两份",
+    "body": "采雪桥雪杉的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow232",
+    "title": "雪桥雪耳两份",
+    "body": "采雪桥雪耳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow233",
+    "title": "雪桥雪菇两份",
+    "body": "采雪桥雪菇的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow234",
+    "title": "雪桥雪葱两份",
+    "body": "采雪桥雪葱的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow235",
+    "title": "雪桥雪韭两份",
+    "body": "采雪桥雪韭的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow236",
+    "title": "雪桥雪芹两份",
+    "body": "采雪桥雪芹的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow237",
+    "title": "雪桥雪萝卜两份",
+    "body": "采雪桥雪萝卜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow238",
+    "title": "雪桥雪白菜两份",
+    "body": "采雪桥雪白菜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow239",
+    "title": "雪桥雪菠菜两份",
+    "body": "采雪桥雪菠菜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow240",
+    "title": "雪屋雪莲两份",
+    "body": "采雪屋雪莲的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow241",
+    "title": "雪屋雪茶两份",
+    "body": "采雪屋雪茶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow242",
+    "title": "雪屋雪菊两份",
+    "body": "采雪屋雪菊的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow243",
+    "title": "雪屋雪梅两份",
+    "body": "采雪屋雪梅的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow244",
+    "title": "雪屋雪松两份",
+    "body": "采雪屋雪松的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow245",
+    "title": "雪屋雪竹两份",
+    "body": "采雪屋雪竹的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow246",
+    "title": "雪屋雪柳两份",
+    "body": "采雪屋雪柳的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow247",
+    "title": "雪屋雪杉两份",
+    "body": "采雪屋雪杉的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow248",
+    "title": "雪屋雪耳两份",
+    "body": "采雪屋雪耳的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow249",
+    "title": "雪屋雪菇两份",
+    "body": "采雪屋雪菇的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow250",
+    "title": "雪屋雪葱两份",
+    "body": "采雪屋雪葱的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow251",
+    "title": "雪屋雪韭两份",
+    "body": "采雪屋雪韭的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow252",
+    "title": "雪屋雪芹两份",
+    "body": "采雪屋雪芹的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow253",
+    "title": "雪屋雪萝卜两份",
+    "body": "采雪屋雪萝卜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow254",
+    "title": "雪屋雪白菜两份",
+    "body": "采雪屋雪白菜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow255",
+    "title": "雪屋雪菠菜两份",
+    "body": "采雪屋雪菠菜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow256",
+    "title": "雪灯雪莲两份",
+    "body": "采雪灯雪莲的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow257",
+    "title": "雪灯雪茶两份",
+    "body": "采雪灯雪茶的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow258",
+    "title": "雪灯雪菊其二两份",
+    "body": "采雪灯雪菊其二的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow259",
+    "title": "雪灯雪梅两份",
+    "body": "采雪灯雪梅的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow260",
+    "title": "雪灯雪松两份",
+    "body": "采雪灯雪松的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow261",
+    "title": "雪灯雪竹两份",
+    "body": "采雪灯雪竹的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow262",
+    "title": "雪灯雪柳两份",
+    "body": "采雪灯雪柳的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow263",
+    "title": "雪灯雪杉两份",
+    "body": "采雪灯雪杉的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow264",
+    "title": "雪灯雪耳两份",
+    "body": "采雪灯雪耳的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow265",
+    "title": "雪灯雪菇两份",
+    "body": "采雪灯雪菇的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow266",
+    "title": "雪灯雪葱两份",
+    "body": "采雪灯雪葱的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow267",
+    "title": "雪灯雪韭两份",
+    "body": "采雪灯雪韭的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow268",
+    "title": "雪灯雪芹两份",
+    "body": "采雪灯雪芹的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow269",
+    "title": "雪灯雪萝卜两份",
+    "body": "采雪灯雪萝卜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow270",
+    "title": "雪灯雪白菜两份",
+    "body": "采雪灯雪白菜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow271",
+    "title": "雪灯雪菠菜两份",
+    "body": "采雪灯雪菠菜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow272",
+    "title": "雪窗雪莲两份",
+    "body": "采雪窗雪莲的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow273",
+    "title": "雪窗雪茶两份",
+    "body": "采雪窗雪茶的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow274",
+    "title": "雪窗雪菊两份",
+    "body": "采雪窗雪菊的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow275",
+    "title": "雪窗雪梅两份",
+    "body": "采雪窗雪梅的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow276",
+    "title": "雪窗雪松两份",
+    "body": "采雪窗雪松的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow277",
+    "title": "雪窗雪竹两份",
+    "body": "采雪窗雪竹的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow278",
+    "title": "雪窗雪柳两份",
+    "body": "采雪窗雪柳的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow279",
+    "title": "雪窗雪杉两份",
+    "body": "采雪窗雪杉的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow280",
+    "title": "雪窗雪耳两份",
+    "body": "采雪窗雪耳的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow281",
+    "title": "雪窗雪菇两份",
+    "body": "采雪窗雪菇的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow282",
+    "title": "雪窗雪葱两份",
+    "body": "采雪窗雪葱的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow283",
+    "title": "雪窗雪韭两份",
+    "body": "采雪窗雪韭的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow284",
+    "title": "雪窗雪芹两份",
+    "body": "采雪窗雪芹的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow285",
+    "title": "雪窗雪萝卜两份",
+    "body": "采雪窗雪萝卜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow286",
+    "title": "雪窗雪白菜两份",
+    "body": "采雪窗雪白菜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow287",
+    "title": "雪窗雪菠菜两份",
+    "body": "采雪窗雪菠菜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow288",
+    "title": "雪阶雪莲两份",
+    "body": "采雪阶雪莲的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow289",
+    "title": "雪阶雪茶两份",
+    "body": "采雪阶雪茶的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow290",
+    "title": "雪阶雪菊两份",
+    "body": "采雪阶雪菊的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow291",
+    "title": "雪阶雪梅两份",
+    "body": "采雪阶雪梅的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow292",
+    "title": "雪阶雪松两份",
+    "body": "采雪阶雪松的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow293",
+    "title": "雪阶雪竹两份",
+    "body": "采雪阶雪竹的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow294",
+    "title": "雪阶雪柳两份",
+    "body": "采雪阶雪柳的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow295",
+    "title": "雪阶雪杉两份",
+    "body": "采雪阶雪杉的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow296",
+    "title": "雪阶雪耳两份",
+    "body": "采雪阶雪耳的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow297",
+    "title": "雪阶雪菇两份",
+    "body": "采雪阶雪菇的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow298",
+    "title": "雪阶雪葱两份",
+    "body": "采雪阶雪葱的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow299",
+    "title": "雪阶雪韭两份",
+    "body": "采雪阶雪韭的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow300",
+    "title": "雪阶雪芹两份",
+    "body": "采雪阶雪芹的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow301",
+    "title": "雪阶雪萝卜两份",
+    "body": "采雪阶雪萝卜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow302",
+    "title": "雪阶雪白菜两份",
+    "body": "采雪阶雪白菜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow303",
+    "title": "雪阶雪菠菜两份",
+    "body": "采雪阶雪菠菜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow304",
+    "title": "雪篱雪莲两份",
+    "body": "采雪篱雪莲的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow305",
+    "title": "雪篱雪茶两份",
+    "body": "采雪篱雪茶的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow306",
+    "title": "雪篱雪菊两份",
+    "body": "采雪篱雪菊的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow307",
+    "title": "雪篱雪梅两份",
+    "body": "采雪篱雪梅的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow308",
+    "title": "雪篱雪松两份",
+    "body": "采雪篱雪松的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow309",
+    "title": "雪篱雪竹两份",
+    "body": "采雪篱雪竹的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow310",
+    "title": "雪篱雪柳两份",
+    "body": "采雪篱雪柳的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow311",
+    "title": "雪篱雪杉两份",
+    "body": "采雪篱雪杉的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow312",
+    "title": "雪篱雪耳两份",
+    "body": "采雪篱雪耳的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow313",
+    "title": "雪篱雪菇两份",
+    "body": "采雪篱雪菇的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow314",
+    "title": "雪篱雪葱两份",
+    "body": "采雪篱雪葱的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow315",
+    "title": "雪篱雪韭两份",
+    "body": "采雪篱雪韭的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow316",
+    "title": "雪篱雪芹两份",
+    "body": "采雪篱雪芹的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow317",
+    "title": "雪篱雪萝卜两份",
+    "body": "采雪篱雪萝卜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow318",
+    "title": "雪篱雪白菜两份",
+    "body": "采雪篱雪白菜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_snow319",
+    "title": "雪篱雪菠菜两份",
+    "body": "采雪篱雪菠菜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "snow319": 2
+      },
+      "coins": 2
+    }
   }
 ]
