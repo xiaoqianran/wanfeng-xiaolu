@@ -628,10 +628,31 @@
     box.appendChild(frag);
     if (desc) {
       const favName = fav && PATH_THEMES.find((t) => t.id === fav);
-      desc.textContent =
-        (cur ? cur.desc || "" : "") +
-        (favName ? " · 常走：★ " + favName.name : "");
+      const curLine = cur ? (cur.emoji || "🍃") + " 当前：「" + cur.name + "」" + (cur.desc ? " — " + cur.desc : "") : "";
+      const favLine = favName ? "常走：★ " + favName.name : "常走：未标记（双击芯片或点「标为常走」）";
+      desc.innerHTML =
+        "<strong>精选小路</strong>：这里只展示推荐、常走与足迹（约 " +
+        list.length +
+        " 条），不会一次铺开全部 " +
+        PATH_THEMES.length +
+        " 条。" +
+        "<br/>" +
+        curLine +
+        " · " +
+        favLine +
+        "<br/>单击切换 · 双击标为常走 · 可用「再随机一条」遇见新路。";
     }
+  }
+
+  function pickRandomTheme() {
+    if (!PATH_THEMES.length) return null;
+    const curId = state.pathThemeId;
+    let pick = PATH_THEMES[Math.floor(Math.random() * PATH_THEMES.length)];
+    // try avoid same theme a few times
+    for (let i = 0; i < 6 && pick && pick.id === curId; i++) {
+      pick = PATH_THEMES[Math.floor(Math.random() * PATH_THEMES.length)];
+    }
+    return pick;
   }
 
   
@@ -1404,6 +1425,26 @@ function renderJournal() {
       const th = PATH_THEMES.find((t) => t.id === r.themeId);
       toast("★ 常走小路：「" + ((th && th.name) || r.themeId) + "」");
       sfx("pin");
+    });
+  }
+
+  const btnRandomTheme = document.getElementById("btn-random-theme");
+  if (btnRandomTheme) {
+    btnRandomTheme.addEventListener("click", () => {
+      const th = pickRandomTheme();
+      if (!th) {
+        toast("还没有可走的小路");
+        return;
+      }
+      Core.setPathTheme(state, th.id, PATH_THEMES);
+      if (!state._themesTouched) state._themesTouched = {};
+      state._themesTouched[th.id] = true;
+      save();
+      world = makeWorld(4000 + state.pathsWalked * 13 + Date.now() % 700);
+      if (walkRunning) resizeWalk();
+      renderThemePicker();
+      toast("🎲 遇见了「" + th.name + "」");
+      sfx("theme");
     });
   }
 
