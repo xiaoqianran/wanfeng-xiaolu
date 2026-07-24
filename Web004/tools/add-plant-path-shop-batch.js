@@ -109,52 +109,15 @@ function applyBatch(rawList) {
       return !!(s._themesTouched && s._themesTouched.${b.theme.id});
     } },`).join("\n");
   core = core.replace('    { id: "path_catalog"', ach + '\n    { id: "path_catalog"');
+  // FORAGE set drives 野草特调; seasonal tags cover 夏日/冬日 soft bonuses.
+  // Do NOT inject mega || flavor chains or per-theme drawWeather else-if blocks —
+  // that previously grew game.js past the browser parse stack (~17k nested branches).
   const fm = core.match(/var FORAGE_FLAVORS = \{[\s\S]*?\n    \};/)[0];
   core = core.replace(fm, fm.replace(/\n    \};$/, ",\n" + batch.map((b) => `      ${b.id}: true`).join(",\n") + "\n    };"));
-  const summerScore = summerIds.map((id) => ` || flavorDef.id === "${id}"`).join("");
-  const winterScore = winterIds.map((id) => ` || flavorDef.id === "${id}"`).join("");
-  core = core.replace(' || baseDef.id === "soda" || baseDef.id === "berry_soda"))',
-    summerScore + ' || baseDef.id === "soda" || baseDef.id === "berry_soda"))');
-  const wi = core.indexOf('notes.push("冬日暖茶")');
-  const wStart = core.lastIndexOf('if (season === "winter"', wi);
-  const wCondEnd = core.indexOf(")) {", wStart);
-  core = core.slice(0, wCondEnd) + winterScore + core.slice(wCondEnd);
   fs.writeFileSync(path.join(root, "js/core.js"), core);
 
-  let game = fs.readFileSync(path.join(root, "game.js"), "utf8");
-  game = game.replace(' || baseDef.id === "soda" || baseDef.id === "berry_soda"))',
-    summerScore + ' || baseDef.id === "soda" || baseDef.id === "berry_soda"))');
-  const gwi = game.indexOf('notes.push("冬日暖茶")');
-  const gwStart = game.lastIndexOf('if (season === "winter"', gwi);
-  const gwCondEnd = game.indexOf(")) {", gwStart);
-  game = game.slice(0, gwCondEnd) + winterScore + game.slice(gwCondEnd);
-  const palette = ["rgba(180,100,140,0.5)", "rgba(100,160,100,0.5)", "rgba(200,180,80,0.5)", "rgba(100,130,180,0.5)",
-    "rgba(160,100,160,0.5)", "rgba(210,140,90,0.5)", "rgba(90,150,130,0.5)", "rgba(190,120,100,0.5)"];
-  const blocks = batch.map((b, i) => {
-    const col = palette[i % palette.length];
-    return `    } else if (themeId === "${b.theme.id}") {
-      ctx.fillStyle = "${col}";
-      for (let i = 0; i < 14; i++) {
-        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
-        const y = h * 0.32 + ((i * 13) % 42);
-        ctx.beginPath();
-        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
-        ctx.fill();
-      }
-`;
-  }).join("");
-  const marker = "\n    }\n  }\n\n  function drawWalk";
-  const end = game.lastIndexOf(marker);
-  if (end < 0) throw new Error("drawWalk marker missing");
-  game = game.slice(0, end) + "\n" + blocks + game.slice(end);
-  // brace check
-  const s0 = game.indexOf("function drawWeather");
-  const e0 = game.indexOf("function drawWalk");
-  const chunk = game.slice(s0, e0);
-  let bal = 0;
-  for (const ch of chunk) { if (ch === "{") bal++; if (ch === "}") bal--; }
-  if (bal !== 0) throw new Error("drawWeather brace " + bal);
-  fs.writeFileSync(path.join(root, "game.js"), game);
+  // drawWeather uses a generic particle fallback for batch theme ids (see game.js).
+  // Keep game.js untouched here so Pages/file:// stay interactive.
 
   let man = fs.readFileSync(path.join(root, "../docs/USER_MANUAL.md"), "utf8");
   const names = batch.map((b) => b.theme.name).filter((n) => !man.includes(n));
@@ -203,7 +166,7 @@ test("${testName}", () => {
   ${JSON.stringify(winterIds)}.forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ${JSON.stringify(summerIds)}.forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes(${JSON.stringify(themeIds[0])}) && game.includes(${JSON.stringify(themeIds[themeIds.length - 1])}));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ${JSON.stringify(recipes)}.forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));

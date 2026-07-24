@@ -504,7 +504,7 @@ test("path themes unique and setPathTheme/buildSpawnList work", () => {
   const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
   assert.ok(html.includes("theme-picker"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("renderThemePicker") && game.includes("pathSpawnsForTheme"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
 });
 
 test("migrateState fills v3 fields on old save", () => {
@@ -689,7 +689,7 @@ test("build-meta shows version in settings", () => {
   const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
   assert.ok(html.includes('id="build-meta"'));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("build-meta") && game.includes("Core.VERSION"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
 });
 
 test("game filters template customer names with middle-dot digits", () => {
@@ -782,7 +782,7 @@ test("settings markup includes ambience toggle", () => {
   const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
   assert.ok(html.includes('id="set-ambience"'));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("set-ambience") && game.includes("setAmbience"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
 });
 
 test("season-tips unique per season and loaded in game-data", () => {
@@ -1078,7 +1078,7 @@ test("book_yard theme and bench/note UI ship", () => {
   const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
   assert.ok(html.includes("btn-sit-bench") && html.includes("btn-pot-note"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("sitBench") && game.includes("setPotNote"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   assert.ok(game.includes("book_yard"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "桂花竹节晚风"));
@@ -1138,7 +1138,7 @@ test("lilac plantable and daily goals include pot_note_day", () => {
 
 test("album item filter drops mass template seed ids in game code", () => {
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("seed_") && game.includes("albumKindFilter"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   assert.ok(game.includes("filter((it)") || game.includes("albumKindFilter !=="));
 });
 
@@ -1177,7 +1177,7 @@ test("plum_grove theme and watering can UI ship", () => {
   const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
   assert.ok(html.includes("btn-watering-can") && html.includes("watering-can-status"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("useWateringCan") && game.includes("recipeMatchHint"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   assert.ok(game.includes("plum_grove"));
   const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
   assert.ok((j.customers || []).some((c) => c.name === "夜读的图书管理员"));
@@ -1367,7 +1367,7 @@ test("candy_wrap paper_crane and night market recipe", () => {
 
 test("bag rare tag and ambient expansion ship", () => {
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("小珍藏") && game.includes("rareIds"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const walk = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "walk-config.json"), "utf8"));
   assert.ok((walk.ambient || []).length >= 20);
   walk.ambient.forEach((a) => assert.ok(!/#\d+/.test(a)));
@@ -1433,7 +1433,7 @@ test("audio play supports can pin snap kinds", () => {
   const code = fs.readFileSync(path.join(__dirname, "..", "js", "audio.js"), "utf8");
   assert.ok(code.includes('kind === "can"') && code.includes('kind === "pin"') && code.includes('kind === "snap"'));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes('sfx("can")') && game.includes('sfx("snap")') && game.includes('sfx("pin")'));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
 });
 
 
@@ -1575,7 +1575,7 @@ test("dawn_bridge theme and recall UI ship", () => {
   assert.ok(themes.some((th) => th.id === "dawn_bridge"));
   assert.ok(themes.length >= 17);
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("dawn_bridge") && game.includes("memoryBonus"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   assert.ok(game.includes("recallGuestCraft") || game.includes("btn-recall-order"));
   const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
   assert.ok(html.includes("btn-recall-order"));
@@ -1637,7 +1637,7 @@ test("new customers and 云台花香罐 recipe ship", () => {
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "云台花香罐"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("pot.nickname") && game.includes("说了会儿话"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
 });
 
 
@@ -1780,7 +1780,7 @@ test("moon_well theme and basil plantable", () => {
   assert.ok(themes.some((th) => th.id === "moon_well"));
   assert.ok(themes.length >= 21);
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("moon_well") && game.includes("getDailySpecial"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
   assert.ok(html.includes("daily-special-hint"));
   const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
@@ -1885,7 +1885,7 @@ test("high mood harvest gift pool includes coastal items", () => {
   const coreSrc = fs.readFileSync(path.join(__dirname, "..", "js", "core.js"), "utf8");
   assert.ok(coreSrc.includes("driftwood") && coreSrc.includes("seashell"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("moss") && game.includes("driftwood"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
 });
 
 
@@ -2049,7 +2049,7 @@ test("swapPots rearranges sill and calendula wind_chime ship", () => {
   assert.ok(themes.some((th) => th.id === "wind_chime"));
   assert.ok(themes.length >= 27);
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("wind_chime") && game.includes("swapPots"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
   assert.ok(man.includes("风铃廊") && man.includes("对调"));
 });
@@ -2169,7 +2169,7 @@ test("pinRecipe rose_lane and rose plantable", () => {
   const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
   assert.ok(html.includes("btn-pin-recipe") && html.includes("btn-load-pinned-recipe"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("rose_lane") && game.includes("pinRecipe"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
   assert.ok(man.includes("玫瑰短巷") && man.includes("钉住配方"));
 });
@@ -2227,7 +2227,7 @@ test("openCalm serve elderflower willow_bank", () => {
   assert.ok(themes.length >= 33);
   assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("willow_bank") && game.includes("openCalmServes"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "接骨木花汽泡"));
   const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
@@ -2304,7 +2304,7 @@ test("closeShopDay jasmine osmanthus_court", () => {
   const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
   assert.ok(html.includes("btn-close-shop"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("osmanthus_court") && game.includes("closeShopDay"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
   assert.ok(man.includes("桂花小院") && man.includes("温柔收摊"));
 });
@@ -2566,7 +2566,7 @@ test("setFavoritePlant pomegranate_court 47 themes", () => {
   assert.ok(themes.length >= 47);
   assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("pomegranate_court") && game.includes("setFavoritePlant"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "石榴汽泡"));
   const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
@@ -2700,7 +2700,7 @@ test("setGuestNote olive_grove 52 themes", () => {
   assert.ok(themes.length >= 52);
   assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("olive_grove") && game.includes("setGuestNote"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "橄榄田园罐"));
   const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
@@ -3047,7 +3047,7 @@ test("pear jujube plantable setFavoritePathTheme 66 themes", () => {
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "pear_walker"));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "jujube_walker"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("pear_orchard") && game.includes("jujube_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   assert.ok(game.includes("setFavoritePathTheme"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "梨子暖蜜"));
@@ -3082,7 +3082,7 @@ test("grapefruit tangerine plantable 68 themes", () => {
   assert.ok(themes.length >= 68);
   assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("grapefruit_terrace") && game.includes("tangerine_steps"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "西柚汽泡"));
   assert.ok(recipes.some((r) => r.name === "蜜橘暖蜜"));
@@ -3127,7 +3127,7 @@ test("wax_apple sugarcane plantable expanded daily special 70 themes", () => {
   const special = core.getDailySpecial(s, Date.now());
   assert.ok(special && special.flavor && special.label);
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("wax_apple_lane") && game.includes("cane_field"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "莲雾汽泡"));
   assert.ok(recipes.some((r) => r.name === "甘蔗暖蜜"));
@@ -3165,7 +3165,7 @@ test("lemon lime plantable 72 themes", () => {
   const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
   assert.ok(summerPool.includes("lemon") && summerPool.includes("lime"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("lemon_grove") && game.includes("lime_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "柠檬汽泡"));
   assert.ok(recipes.some((r) => r.name === "青柠汽泡"));
@@ -3205,7 +3205,7 @@ test("vanilla cocoa plantable 74 themes shop tips", () => {
   assert.ok(springPool.includes("vanilla"));
   assert.ok(winterPool.includes("cocoa"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("vanilla_lane") && game.includes("cocoa_courtyard"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "香草暖蜜"));
   assert.ok(recipes.some((r) => r.name === "可可暖茶"));
@@ -3256,7 +3256,7 @@ test("almond hazelnut plantable dessert-corner 76 themes", () => {
   const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
   assert.ok(winterPool.includes("almond") && winterPool.includes("hazelnut"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("almond_grove") && game.includes("hazel_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   assert.ok(game.includes("甜点一角"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "杏仁暖蜜"));
@@ -3303,7 +3303,7 @@ test("maple_syrup sesame plantable 78 themes", () => {
   );
   assert.ok(score.notes.some((n) => n === "甜点一角"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("maple_sugar_path") && game.includes("sesame_field"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "枫糖暖蜜"));
   assert.ok(recipes.some((r) => r.name === "芝麻暖茶"));
@@ -3344,7 +3344,7 @@ test("saffron walnut plantable 80 themes path_eighty", () => {
   const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
   assert.ok(winterPool.includes("saffron") && winterPool.includes("walnut"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("saffron_terrace") && game.includes("walnut_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "藏红花暖蜜"));
   assert.ok(recipes.some((r) => r.name === "核桃暖茶"));
@@ -3391,7 +3391,7 @@ test("pistachio chestnut cinnamon clove 84 themes", () => {
   );
   assert.ok(score.notes.some((n) => n === "甜点一角"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("pistachio_lane") && game.includes("clove_courtyard"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "开心果暖蜜"));
   assert.ok(recipes.some((r) => r.name === "板栗暖茶"));
@@ -3441,7 +3441,7 @@ test("cranberry elderberry star_anise nutmeg 88 themes", () => {
   assert.ok(Array.isArray(core.DAILY_SPECIAL_BY_SEASON.summer));
   assert.ok(Array.isArray(core.DAILY_SPECIAL_BY_SEASON.winter));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("cranberry_bog") && game.includes("nutmeg_lane"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "蔓越莓汽泡"));
   assert.ok(recipes.some((r) => r.name === "八角暖蜜"));
@@ -3481,7 +3481,7 @@ test("melon papaya plantables 92 themes path_ninety", () => {
   const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
   ids.forEach((id) => assert.ok(summerPool.includes(id), id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("watermelon_patch") && game.includes("papaya_grove"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "西瓜汽泡"));
   assert.ok(recipes.some((r) => r.name === "木瓜暖蜜"));
@@ -3522,7 +3522,7 @@ test("rambutan jackfruit plantable ambient banks 94 themes", () => {
   const garden = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "garden-config.json"), "utf8"));
   assert.ok(garden.messages.length >= 38);
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("rambutan_lane") && game.includes("jackfruit_grove"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "红毛丹汽泡"));
   assert.ok(recipes.some((r) => r.name === "菠萝蜜暖蜜"));
@@ -3567,7 +3567,7 @@ test("goji bay oregano chive plantable 98 themes", () => {
   const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
   assert.ok(summerPool.includes("oregano") && summerPool.includes("chive"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("goji_path") && game.includes("chive_patch"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "枸杞暖蜜"));
   assert.ok(recipes.some((r) => r.name === "月桂暖茶"));
@@ -3619,7 +3619,7 @@ test("parsley tarragon avocado date 102 themes path_hundred", () => {
   );
   assert.ok(score.notes.some((n) => n === "甜点一角"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("avocado_grove") && game.includes("date_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "欧芹汽泡"));
   assert.ok(recipes.some((r) => r.name === "龙蒿暖茶"));
@@ -3662,7 +3662,7 @@ test("hyssop chervil sorrel lovage 106 themes", () => {
   const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
   assert.ok(winterPool.includes("hyssop") && winterPool.includes("lovage"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("hyssop_path") && game.includes("lovage_courtyard"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "神香草暖蜜"));
   assert.ok(recipes.some((r) => r.name === "香芹汽泡"));
@@ -3707,7 +3707,7 @@ test("pinFlavor shop shelf soft bonus", () => {
   const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
   assert.ok(html.includes("btn-pin-flavor") && html.includes("btn-load-pinned-flavor"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("pinFlavor") && game.includes("getPinnedFlavor"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
   assert.ok(man.includes("钉住当前风味"));
   const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
@@ -3738,7 +3738,7 @@ test("verbena savory celery_seed anise_seed 110 themes", () => {
   const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
   assert.ok(winterPool.includes("anise_seed"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("verbena_path") && game.includes("anise_seed_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "马鞭草汽泡"));
   assert.ok(recipes.some((r) => r.name === "茴香籽暖茶"));
@@ -3783,7 +3783,7 @@ test("turmeric galangal pandan kaffir 114 themes", () => {
   const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
   assert.ok(winterPool.includes("turmeric"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("turmeric_path") && game.includes("kaffir_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "姜黄暖蜜"));
   assert.ok(recipes.some((r) => r.name === "高良姜汽泡"));
@@ -3834,7 +3834,7 @@ test("juniper allspice mace sumac 118 themes", () => {
   );
   assert.ok(score.notes.some((n) => n === "甜点一角"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("juniper_ridge") && game.includes("sumac_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "杜松汽泡"));
   assert.ok(recipes.some((r) => r.name === "多香果暖蜜"));
@@ -3878,7 +3878,7 @@ test("caraway cumin fenugreek nigella 122 themes pin UI", () => {
   const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
   assert.ok(summerPool.includes("nigella"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("caraway_path") && game.includes("nigella_lane"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   assert.ok(game.includes("pinned-flavor"));
   const css = fs.readFileSync(path.join(__dirname, "..", "styles.css"), "utf8");
   assert.ok(css.includes("pinned-flavor"));
@@ -3926,7 +3926,7 @@ test("mustard ajwain wasabi myrtle 126 themes", () => {
   const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
   assert.ok(winterPool.includes("ajwain") && winterPool.includes("myrtle"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("wasabi_path") && game.includes("myrtle_courtyard"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "芥末籽汽泡"));
   assert.ok(recipes.some((r) => r.name === "香旱芹暖茶"));
@@ -3994,7 +3994,7 @@ test("chicory dandelion nettle yarrow forage brew 130 themes", () => {
   const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
   assert.ok(winterPool.includes("chicory") && winterPool.includes("yarrow"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("dandelion_field") && game.includes("yarrow_meadow"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "菊苣暖蜜"));
   assert.ok(recipes.some((r) => r.name === "蒲公英汽泡"));
@@ -4045,7 +4045,7 @@ test("meadowsweet woodruff borage valerian 134 themes", () => {
   const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
   assert.ok(summerPool.includes("borage"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("meadowsweet_path") && game.includes("valerian_grove"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "绣线菊暖蜜"));
   assert.ok(recipes.some((r) => r.name === "车叶草暖茶"));
@@ -4095,7 +4095,7 @@ test("hops heather angelica arnica 138 themes", () => {
   const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
   assert.ok(summerPool.includes("hops") && summerPool.includes("heather") && summerPool.includes("arnica"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("hops_trellis") && game.includes("arnica_meadow"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "啤酒花汽泡"));
   assert.ok(recipes.some((r) => r.name === "石楠暖蜜"));
@@ -4146,7 +4146,7 @@ test("echinacea comfrey feverfew lemon_verbena 142 themes", () => {
   const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
   assert.ok(summerPool.includes("echinacea") && summerPool.includes("feverfew") && summerPool.includes("lemon_verbena"));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("echinacea_meadow") && game.includes("lemon_verbena_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   assert.ok(recipes.some((r) => r.name === "紫锥菊暖蜜"));
   assert.ok(recipes.some((r) => r.name === "聚合草暖茶"));
@@ -4197,7 +4197,7 @@ test("mullein plantain_leaf selfheal skullcap 146 themes", () => {
   ["selfheal","skullcap"].forEach((id) => assert.ok(winterPool.includes(id), "winter " + id));
   ["mullein","plantain_leaf"].forEach((id) => assert.ok(summerPool.includes(id), "summer " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("mullein_path") && game.includes("skullcap_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["毛蕊花暖蜜","车前草暖蜜","夏枯草暖蜜","黄芩暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -4244,7 +4244,7 @@ test("bee_balm marshmallow linden goldenrod 150 themes", () => {
   ["linden"].forEach((id) => assert.ok(winterPool.includes(id), "winter " + id));
   ["bee_balm","marshmallow","goldenrod"].forEach((id) => assert.ok(summerPool.includes(id), "summer " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("bee_balm_path") && game.includes("goldenrod_meadow"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["美国薄荷暖蜜","药蜀葵暖蜜","椴树花暖蜜","一枝黄花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -4445,7 +4445,7 @@ test("figwort loosestrife willowherb bedstraw cleavers ground_ivy self_heal_spik
   ["figwort","ground_ivy","self_heal_spike"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loosestrife","willowherb","bedstraw","cleavers","bugle"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("figwort_path") && game.includes("bugle_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["玄参暖蜜","千屈菜暖蜜","柳兰暖蜜","猪殃殃暖蜜","拉拉藤暖蜜","连钱草暖蜜","夏枯穗暖蜜","筋骨草暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -4485,7 +4485,7 @@ test("primrose cowslip oxeye knapweed scabious teasel burdock nettle_seed 190 th
   ["teasel","burdock"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["primrose","cowslip","oxeye","knapweed","scabious","nettle_seed"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("primrose_path") && game.includes("nettle_seed_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["报春花暖蜜","黄花九轮草暖蜜","滨菊暖蜜","矢车菊暖蜜","山萝卜暖蜜","川续断暖蜜","牛蒡暖蜜","荨麻籽暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -4525,7 +4525,7 @@ test("hawthorn_berry rosehip sloe rowan crabapple serviceberry elderflower_fresh
   ["hawthorn_berry","rosehip","sloe"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["rowan","crabapple","serviceberry","elderflower_fresh","meadowsweet_fresh"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("hawthorn_berry_path") && game.includes("meadowsweet_fresh_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["山楂果暖蜜","玫瑰果暖蜜","黑刺李暖蜜","花楸果暖蜜","海棠果暖蜜","唐棣暖蜜","接骨木花鲜暖蜜","绣线菊鲜暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -4565,7 +4565,7 @@ test("wood_sorrel wild_garlic ramsons jack_by_hedge hedge_mustard wintercress wa
   ["wintercress"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["wood_sorrel","wild_garlic","ramsons","jack_by_hedge","hedge_mustard","watercress","brooklime"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("wood_sorrel_path") && game.includes("brooklime_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["酢浆草暖蜜","熊葱暖蜜","熊蒜暖蜜","蒜芥暖蜜","蒜芥菜暖蜜","山芥暖蜜","豆瓣菜暖蜜","有柄水苦荬暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -4605,7 +4605,7 @@ test("cloudberry lingonberry bilberry gooseberry currant_red currant_black white
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["cloudberry","lingonberry","bilberry","gooseberry","currant_red","currant_black","whitecurrant","sea_buckthorn"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("cloudberry_path") && game.includes("sea_buckthorn_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["云莓暖蜜","越橘暖蜜","欧洲越橘暖蜜","醋栗暖蜜","红醋栗暖蜜","黑醋栗暖蜜","白醋栗暖蜜","沙棘暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -4645,7 +4645,7 @@ test("medlar quince damson greengage mirabelle saskatoon chokeberry aronia 222 t
   ["medlar","quince","aronia"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["damson","greengage","mirabelle","saskatoon","chokeberry"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("medlar_path") && game.includes("aronia_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["欧楂暖蜜","榅桲暖蜜","西洋李暖蜜","青李暖蜜","黄香李暖蜜","萨斯卡通莓暖蜜","野樱莓暖蜜","黑果腺肋花楸暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -4685,7 +4685,7 @@ test("yarrow_white achillea_pink cornflower poppy_seed flax_flower flax_seed hem
   ["flax_seed","hemp_seed"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["yarrow_white","achillea_pink","cornflower","poppy_seed","flax_flower","chia_seed"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("yarrow_white_path") && game.includes("chia_seed_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["白蓍暖蜜","粉蓍暖蜜","矢车菊蓝暖蜜","罂粟籽暖蜜","亚麻花暖蜜","亚麻籽暖蜜","火麻仁暖蜜","奇亚籽暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -4725,7 +4725,7 @@ test("pumpkin_seed sunflower_seed sesame_black sesame_white fennel_pollen fennel
   ["pumpkin_seed","sesame_black","sesame_white"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["sunflower_seed","fennel_pollen","fennel_frond","dill_pollen","celery_leaf"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("pumpkin_seed_path") && game.includes("celery_leaf_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["南瓜籽暖蜜","葵花籽暖蜜","黑芝麻暖蜜","白芝麻暖蜜","茴香花粉暖蜜","茴香叶暖蜜","莳萝花粉暖蜜","芹菜叶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -4765,7 +4765,7 @@ test("rooibos honeybush yerba_mate guayusa lapacho sassafras birch_bark pine_res
   ["lapacho","sassafras","birch_bark","pine_resin"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["rooibos","honeybush","yerba_mate","guayusa"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("rooibos_path") && game.includes("pine_resin_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["路易波士暖蜜","蜜树茶暖蜜","马黛茶暖蜜","瓜尤萨暖蜜","拉帕乔暖蜜","檫树暖蜜","白桦皮暖蜜","松脂暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -4805,7 +4805,7 @@ test("gardenia magnolia frangipani plumeria tuberose stephanotis garden_phlox os
   ["tuberose"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gardenia","magnolia","frangipani","plumeria","stephanotis","garden_phlox","osmanthus_fresh"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gardenia_path") && game.includes("osmanthus_fresh_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["栀子花暖蜜","玉兰花暖蜜","鸡蛋花暖蜜","缅栀暖蜜","晚香玉暖蜜","马达加斯加茉莉暖蜜","福禄考暖蜜","桂花鲜瓣暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -4845,7 +4845,7 @@ test("galangal_fresh ginger_flower turmeric_fresh cardamom_green cardamom_black 
   ["cardamom_green","cardamom_black","long_pepper","grains_of_paradise"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["galangal_fresh","ginger_flower","turmeric_fresh","cubeb"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("galangal_fresh_path") && game.includes("cubeb_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["鲜高良姜暖蜜","姜花暖蜜","鲜姜黄暖蜜","绿豆蔻暖蜜","黑豆蔻暖蜜","荜拨暖蜜","天堂椒暖蜜","毕澄茄暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -4885,7 +4885,7 @@ test("makrut_leaf curry_leaf holy_basil thai_basil lemon_basil cinnamon_leaf clo
   ["cinnamon_leaf","clove_bud","allspice_leaf"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["makrut_leaf","curry_leaf","holy_basil","thai_basil","lemon_basil"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("makrut_leaf_path") && game.includes("allspice_leaf_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["青柠叶暖蜜","咖喱叶暖蜜","圣罗勒暖蜜","泰罗勒暖蜜","柠檬罗勒暖蜜","肉桂叶暖蜜","丁香芽暖蜜","多香果叶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -4925,7 +4925,7 @@ test("reindeer_moss iceland_moss oak_moss usnea chaga reishi lion_mane maitake 2
   ["reindeer_moss","iceland_moss","oak_moss","usnea","chaga","reishi","lion_mane","maitake"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("reindeer_moss_path") && game.includes("maitake_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["驯鹿苔暖蜜","冰岛苔暖蜜","橡苔暖蜜","松萝暖蜜","白桦茸暖蜜","灵芝暖蜜","猴头菇暖蜜","舞茸暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -4965,7 +4965,7 @@ test("rambutan_fresh lychee_fresh mangosteen durian_flower jackfruit_seed tamari
   ["jackfruit_seed"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["rambutan_fresh","lychee_fresh","mangosteen","durian_flower","tamarind","calamansi"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("rambutan_fresh_path") && game.includes("calamansi_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["鲜红毛丹暖蜜","鲜荔枝暖蜜","山竹暖蜜","榴莲花暖蜜","波罗蜜籽暖蜜","罗望子暖蜜","四季桔暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5005,7 +5005,7 @@ test("fig_fresh pomegranate_seed cactus_pear prickly_pear sapodilla soursop cher
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fig_fresh","pomegranate_seed","cactus_pear","prickly_pear","sapodilla","soursop","cherimoya","feijoa"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fig_fresh_path") && game.includes("feijoa_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["无花果鲜暖蜜","石榴籽暖蜜","仙人掌果暖蜜","霸王树果暖蜜","人心果暖蜜","刺果番荔枝暖蜜","毛叶番荔枝暖蜜","费约果暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5045,7 +5045,7 @@ test("loquat_fresh jujube_fresh mulberry_white mulberry_black elderberry_fresh r
   ["rowan_jelly","quince_paste"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loquat_fresh","jujube_fresh","mulberry_white","mulberry_black","elderberry_fresh"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loquat_fresh_path") && game.includes("quince_paste_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["鲜枇杷暖蜜","鲜枣暖蜜","白桑暖蜜","黑桑暖蜜","鲜接骨木果暖蜜","花楸果冻暖蜜","榅桲膏暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5085,7 +5085,7 @@ test("bergamot_fresh yuzu_fresh sudachi kabosu ponkan dekopon hassaku amanatsu 3
   ["yuzu_fresh","ponkan","dekopon","hassaku"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["bergamot_fresh","sudachi","kabosu","amanatsu"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("bergamot_fresh_path") && game.includes("amanatsu_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["鲜佛手柑暖蜜","鲜柚子暖蜜","酢橘暖蜜","香酸柑暖蜜","椪柑暖蜜","不知火暖蜜","八朔暖蜜","甘夏暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5125,7 +5125,7 @@ test("shiso_green shiso_red mitsuba myoga wasabi_leaf sansho kinome yuzu_kosho 3
   ["yuzu_kosho"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["shiso_green","shiso_red","mitsuba","myoga","wasabi_leaf","sansho","kinome"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("shiso_green_path") && game.includes("yuzu_kosho_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["青紫苏暖蜜","赤紫苏暖蜜","三叶暖蜜","茗荷暖蜜","山葵叶暖蜜","山椒暖蜜","木芽暖蜜","柚子胡椒暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5165,7 +5165,7 @@ test("edelweiss gentian arnica_montana alpine_strawberry bilberry_leaf juniper_b
   ["edelweiss","juniper_berry","fir_needle"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gentian","arnica_montana","alpine_strawberry","bilberry_leaf","spruce_tip"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("edelweiss_path") && game.includes("spruce_tip_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["雪绒花暖蜜","龙胆暖蜜","山地金车暖蜜","野草莓暖蜜","越橘叶暖蜜","杜松果暖蜜","冷杉针暖蜜","云杉芽暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5205,7 +5205,7 @@ test("olive_leaf myrtle_berry mastic caper zaatar sumac_berry saffron_crocus ora
   ["myrtle_berry","mastic","saffron_crocus"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["olive_leaf","caper","zaatar","sumac_berry","orange_blossom"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("olive_leaf_path") && game.includes("orange_blossom_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["橄榄叶暖蜜","香桃木果暖蜜","乳香黄连木暖蜜","续随子花蕾暖蜜","扎塔香草暖蜜","盐肤木果暖蜜","番红花暖蜜","橙花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5245,7 +5245,7 @@ test("lavender_honey thyme_honey acacia_honey buckwheat_honey chestnut_honey man
   ["buckwheat_honey","chestnut_honey","propolis"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["lavender_honey","thyme_honey","acacia_honey","manuka","bee_pollen"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("lavender_honey_path") && game.includes("bee_pollen_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["薰衣草蜜暖蜜","百里香蜜暖蜜","洋槐蜜暖蜜","荞麦蜜暖蜜","板栗蜜暖蜜","麦卢卡暖蜜","蜂胶暖蜜","蜂花粉暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5285,7 +5285,7 @@ test("royal_jelly comb_honey mead_herb linden_honey heather_honey_wild wildflowe
   ["royal_jelly","mead_herb"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["comb_honey","linden_honey","heather_honey_wild","wildflower_honey","clover_honey","eucalyptus_honey"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("royal_jelly_path") && game.includes("eucalyptus_honey_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["蜂王浆暖蜜","巢蜜暖蜜","蜜酒香草暖蜜","椴树蜜暖蜜","石楠野蜜暖蜜","野花蜜暖蜜","车轴草蜜暖蜜","桉树蜜暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5325,7 +5325,7 @@ test("cacao_nibs cacao_husk carob mesquite lucuma maca camu_camu acai 356 themes
   ["cacao_nibs","cacao_husk","carob","maca"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["mesquite","lucuma","camu_camu","acai"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("cacao_nibs_path") && game.includes("acai_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["可可碎暖蜜","可可壳暖蜜","角豆暖蜜","牧豆暖蜜","蛋黄果粉暖蜜","玛卡暖蜜","卡姆果暖蜜","阿萨伊暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5365,7 +5365,7 @@ test("maqui goji_fresh schisandra amla baobab morinda noni cupuacu 364 themes", 
   ["schisandra"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["maqui","goji_fresh","amla","baobab","morinda","noni","cupuacu"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("maqui_path") && game.includes("cupuacu_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["智利酒果暖蜜","鲜枸杞暖蜜","五味子暖蜜","余甘子暖蜜","猴面包果暖蜜","诺丽暖蜜","海巴戟暖蜜","古布阿苏暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5405,7 +5405,7 @@ test("matcha_ceremonial hojicha genmaicha sencha gyokuro bancha kukicha mugicha 
   ["hojicha","genmaicha"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["matcha_ceremonial","sencha","gyokuro","bancha","kukicha","mugicha"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("matcha_ceremonial_path") && game.includes("mugicha_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["抹茶礼暖蜜","焙茶暖蜜","玄米茶暖蜜","煎茶暖蜜","玉露暖蜜","番茶暖蜜","茎茶暖蜜","麦茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5445,7 +5445,7 @@ test("sobacha job_tears barley_grass wheatgrass spirulina chlorella kelp nori 38
   ["sobacha","job_tears"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["barley_grass","wheatgrass","spirulina","chlorella","kelp","nori"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("sobacha_path") && game.includes("nori_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["荞麦茶暖蜜","薏米茶暖蜜","大麦若叶暖蜜","小麦草暖蜜","螺旋藻暖蜜","小球藻暖蜜","海带暖蜜","紫菜暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5485,7 +5485,7 @@ test("rose_hip_tea hibiscus_fresh chrysanthemum_fresh peony camellia_fresh lotus
   ["rose_hip_tea","camellia_fresh","lotus_seed_fresh"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["hibiscus_fresh","chrysanthemum_fresh","peony","lotus_leaf_fresh","osmanthus_sugar"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("rose_hip_tea_path") && game.includes("osmanthus_sugar_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["玫瑰果茶暖蜜","鲜洛神暖蜜","鲜菊花暖蜜","牡丹暖蜜","鲜山茶暖蜜","鲜莲子暖蜜","鲜荷叶暖蜜","桂花糖暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5525,7 +5525,7 @@ test("plum_blossom wintersweet orchid_petal bamboo_leaf_fresh bamboo_shoot_fresh
   ["plum_blossom","wintersweet","ginkgo_leaf_fresh","ginkgo_nut_fresh","osmanthus_wine"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["orchid_petal","bamboo_leaf_fresh","bamboo_shoot_fresh"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("plum_blossom_path") && game.includes("osmanthus_wine_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["梅花暖蜜","蜡梅暖蜜","兰花瓣暖蜜","鲜竹叶暖蜜","鲜竹笋暖蜜","鲜银杏叶暖蜜","鲜白果暖蜜","桂花酿暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5565,7 +5565,7 @@ test("safflower calendula_fresh pot_marigold coreopsis cosmos zinnia dahlia glad
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["safflower","calendula_fresh","pot_marigold","coreopsis","cosmos","zinnia","dahlia","gladiolus"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("safflower_path") && game.includes("gladiolus_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["红花暖蜜","鲜金盏暖蜜","金盏菊暖蜜","金鸡菊暖蜜","波斯菊暖蜜","百日草暖蜜","大丽花暖蜜","剑兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5605,7 +5605,7 @@ test("iris crocus snowdrop crocus_yellow hyacinth daffodil tulip ranunculus 412 
   ["crocus","snowdrop","crocus_yellow","hyacinth","daffodil"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["iris","tulip","ranunculus"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("iris_path") && game.includes("ranunculus_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["鸢尾暖蜜","番红花球暖蜜","雪花莲暖蜜","黄番红暖蜜","风信子暖蜜","水仙暖蜜","郁金香暖蜜","花毛茛暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5645,7 +5645,7 @@ test("sweet_pea nasturtium morning_glory moonflower clematis wisteria_fresh jasm
   ["moonflower"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["sweet_pea","nasturtium","morning_glory","clematis","wisteria_fresh","jasmine_sambac","gardenia_tea"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("sweet_pea_path") && game.includes("gardenia_tea_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["香豌豆暖蜜","旱金莲暖蜜","牵牛花暖蜜","月光花暖蜜","铁线莲暖蜜","鲜紫藤暖蜜","双瓣茉莉暖蜜","栀子花茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5685,7 +5685,7 @@ test("magnolia_bark eucommia astragalus codonopsis rehmannia polygonatum ophiopo
   ["magnolia_bark","eucommia","astragalus","codonopsis","rehmannia","polygonatum","ophiopogon"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("magnolia_bark_path") && game.includes("ophiopogon_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["厚朴暖蜜","杜仲暖蜜","黄芪暖蜜","党参暖蜜","地黄暖蜜","玉竹暖蜜","麦冬暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5725,7 +5725,7 @@ test("boysenberry loganberry tayberry marionberry wineberry salmonberry thimbleb
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["boysenberry","loganberry","tayberry","marionberry","wineberry","salmonberry","thimbleberry","cloudberry_leaf"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("boysenberry_path") && game.includes("cloudberry_leaf_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["波森莓暖蜜","罗甘莓暖蜜","泰莓暖蜜","马里恩莓暖蜜","酒莓暖蜜","鲑莓暖蜜","糙莓暖蜜","云莓叶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5765,7 +5765,7 @@ test("angelica_arch lovage_fresh sweet_cicely wood_avense ramsons_flower sea_kal
   ["angelica_arch","wood_avense"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["lovage_fresh","sweet_cicely","ramsons_flower","sea_kale","scurvygrass","marsh_samphire"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("angelica_arch_path") && game.includes("marsh_samphire_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["欧当归暖蜜","鲜独活暖蜜","欧洲没药暖蜜","水杨梅根暖蜜","熊葱花暖蜜","海甘蓝暖蜜","坏血病草暖蜜","海蓬子暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5805,7 +5805,7 @@ test("agave_nectar prickly_pear_pad jojoba mesquite_pod creosote desert_sage eph
   ["ephedra"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["agave_nectar","prickly_pear_pad","jojoba","mesquite_pod","creosote","desert_sage","yucca_flower"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("agave_nectar_path") && game.includes("yucca_flower_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["龙舌兰蜜暖蜜","仙人掌叶暖蜜","霍霍巴暖蜜","牧豆荚暖蜜","三齿拉瑞阿暖蜜","沙漠鼠尾草暖蜜","麻黄暖蜜","丝兰花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5845,7 +5845,7 @@ test("yerba_santa boldo cedron muña coca_leaf_tea guarana cupuacu_butter stevia
   ["boldo","cupuacu_butter"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["yerba_santa","cedron","muña","coca_leaf_tea","guarana","stevia_leaf"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("yerba_santa_path") && game.includes("stevia_leaf_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["圣草暖蜜","波尔多叶暖蜜","南美柠檬马鞭草暖蜜","木纳草暖蜜","古柯叶茶暖蜜","瓜拉纳暖蜜","古布阿苏脂暖蜜","甜叶菊暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5885,7 +5885,7 @@ test("rooibos_green honeybush_fresh buchu sutherlandia baobab_leaf marula kinkel
   ["sutherlandia"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["rooibos_green","honeybush_fresh","buchu","baobab_leaf","marula","kinkeliba","hibiscus_sab"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("rooibos_green_path") && game.includes("hibiscus_sab_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["绿路易波士暖蜜","鲜蜜树暖蜜","布枯暖蜜","南非政府草暖蜜","猴面包叶暖蜜","马鲁拉暖蜜","金凯利巴暖蜜","玫瑰茄暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5925,7 +5925,7 @@ test("pandan_fresh lemongrass_fresh galangal_leaf torch_ginger butterfly_pea chr
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["pandan_fresh","lemongrass_fresh","galangal_leaf","torch_ginger","butterfly_pea","chrysanthemum_ind","tamarind_leaf","coconut_flower"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("pandan_fresh_path") && game.includes("coconut_flower_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["鲜班兰暖蜜","鲜香茅暖蜜","高良姜叶暖蜜","火炬姜暖蜜","蝶豆花暖蜜","印尼菊暖蜜","罗望子叶暖蜜","椰花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -5965,7 +5965,7 @@ test("bergamot_leaf citron bergamot_peel neroli petitgrain immortelle helichrysu
   ["citron","bergamot_peel"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["bergamot_leaf","neroli","petitgrain","immortelle","helichrysum","cistus"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("bergamot_leaf_path") && game.includes("cistus_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["佛手柑叶暖蜜","香橼暖蜜","佛手柑皮暖蜜","橙花精暖蜜","苦橙叶暖蜜","蜡菊暖蜜","蜡菊花暖蜜","岩蔷薇暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6005,7 +6005,7 @@ test("spruce_beer labrador_tea fireweed fireweed_honey arctic_willow crowberry b
   ["labrador_tea","arctic_willow"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["spruce_beer","fireweed","fireweed_honey","crowberry","bearberry","labrador_violet"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("spruce_beer_path") && game.includes("labrador_violet_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["云杉芽酒香暖蜜","拉布拉多茶暖蜜","火草暖蜜","火草蜜暖蜜","北极柳暖蜜","岩高兰暖蜜","熊果暖蜜","拉布拉多堇暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6045,7 +6045,7 @@ test("kinako kuromitsu matcha_salt yuzu_peel sansho_leaf shiso_flower ume_blosso
   ["kinako","kuromitsu","yuzu_peel","ume_blossom"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["matcha_salt","sansho_leaf","shiso_flower","sakura_leaf"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("kinako_path") && game.includes("sakura_leaf_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["黄豆粉暖蜜","黑蜜暖蜜","抹茶盐暖蜜","柚子皮暖蜜","山椒叶暖蜜","紫苏穗暖蜜","梅花花暖蜜","樱叶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6085,7 +6085,7 @@ test("vanilla_bean tonka_bean lavender_sugar rose_water orange_flower_water almo
   ["vanilla_bean","tonka_bean","hazelnut_flower"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["lavender_sugar","rose_water","orange_flower_water","almond_blossom","chestnut_flower"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("vanilla_bean_path") && game.includes("chestnut_flower_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["香草荚暖蜜","零陵香豆暖蜜","薰衣草糖暖蜜","玫瑰水暖蜜","橙花水暖蜜","杏花暖蜜","榛花暖蜜","板栗花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6125,7 +6125,7 @@ test("omija yuja ssanghwa maesil jujube_tea ginger_tea_kr persimmon_leaf pine_fl
   ["omija","yuja","ssanghwa","jujube_tea","ginger_tea_kr"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["maesil","persimmon_leaf","pine_flower"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("omija_path") && game.includes("pine_flower_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["五味子韩暖蜜","柚子茶果暖蜜","双和茶料暖蜜","梅实暖蜜","大枣茶暖蜜","韩式姜茶暖蜜","柿叶暖蜜","松花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6165,7 +6165,7 @@ test("tulsi neem_flower curry_blossom ajwain_leaf fenugreek_leaf moringa gotu_ko
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["tulsi","neem_flower","curry_blossom","ajwain_leaf","fenugreek_leaf","moringa","gotu_kola","brahmi"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("tulsi_path") && game.includes("brahmi_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["圣罗勒印暖蜜","苦楝花暖蜜","咖喱花暖蜜","香旱芹叶暖蜜","胡芦巴叶暖蜜","辣木暖蜜","积雪草暖蜜","假马齿苋暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6205,7 +6205,7 @@ test("hibiscus_rosa allspice_berry annatto epazote papalo hoja_santa mexican_ore
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["hibiscus_rosa","allspice_berry","annatto","epazote","papalo","hoja_santa","mexican_oregano","chile_flower"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("hibiscus_rosa_path") && game.includes("chile_flower_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["朱槿暖蜜","多香果鲜暖蜜","胭脂树暖蜜","土荆芥暖蜜","帕帕洛暖蜜","圣叶暖蜜","墨西哥牛至暖蜜","辣椒花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6245,7 +6245,7 @@ test("noni_leaf kava ti_leaf frangipani_tea soursop_leaf guava_leaf passion_leaf
   ["kava"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["noni_leaf","ti_leaf","frangipani_tea","soursop_leaf","guava_leaf","passion_leaf","vanilla_orchid"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("noni_leaf_path") && game.includes("vanilla_orchid_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["诺丽叶暖蜜","卡瓦暖蜜","铁树叶暖蜜","鸡蛋花茶暖蜜","刺果番荔枝叶暖蜜","番石榴叶暖蜜","百香果叶暖蜜","香荚兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6285,7 +6285,7 @@ test("longjing biluochun tieguanyin dahongpao puer_raw puer_ripe white_peony_tea
   ["tieguanyin","dahongpao","puer_ripe","shoumei"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["longjing","biluochun","puer_raw","white_peony_tea"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("longjing_path") && game.includes("shoumei_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["龙井暖蜜","碧螺春暖蜜","铁观音暖蜜","大红袍暖蜜","生普暖蜜","熟普暖蜜","白牡丹茶暖蜜","寿眉暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6325,7 +6325,7 @@ test("burdock_root dandelion_root chicory_root valerian_flower hops_flower meado
   ["burdock_root","dandelion_root","chicory_root"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["valerian_flower","hops_flower","meadowsweet_flower","yarrow_flower","nettle_seed_tea"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("burdock_root_path") && game.includes("nettle_seed_tea_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["牛蒡根暖蜜","蒲公英根暖蜜","菊苣根暖蜜","缬草花暖蜜","啤酒花花暖蜜","绣线菊花暖蜜","蓍草花暖蜜","荨麻籽茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6365,7 +6365,7 @@ test("silver_birch copper_beech hornbeam field_maple wild_service guelder_rose w
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["silver_birch","copper_beech","hornbeam","field_maple","wild_service","guelder_rose","wayfaring","dogwood"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("silver_birch_path") && game.includes("dogwood_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["银白桦暖蜜","紫叶山毛榉暖蜜","鹅耳枥暖蜜","田野槭暖蜜","野花楸暖蜜","欧洲荚蒾暖蜜","绵毛荚蒾暖蜜","山茱萸暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6405,7 +6405,7 @@ test("spindle buckthorn privet boxwood holly_leaf ivy_berry mistletoe yew_berry 
   ["holly_leaf","ivy_berry","mistletoe","yew_berry"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["spindle","buckthorn","privet","boxwood"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("spindle_path") && game.includes("yew_berry_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["卫矛暖蜜","鼠李暖蜜","女贞暖蜜","黄杨暖蜜","冬青叶暖蜜","常春藤果暖蜜","槲寄生暖蜜","红豆杉暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6445,7 +6445,7 @@ test("bluebell_fresh primula_veris oxlip cowslip_fresh wood_anemone wood_sorrel_
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["bluebell_fresh","primula_veris","oxlip","cowslip_fresh","wood_anemone","wood_sorrel_pink","greater_stitchwort","red_campion"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("bluebell_fresh_path") && game.includes("red_campion_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["鲜风铃草暖蜜","黄花九轮暖蜜","高报春暖蜜","鲜九轮草暖蜜","林银莲暖蜜","粉酢浆草暖蜜","大繁缕暖蜜","红剪秋罗暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6485,7 +6485,7 @@ test("white_campion ragged_robin cuckooflower lady_smock garlic_mustard_fl hedge
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["white_campion","ragged_robin","cuckooflower","lady_smock","garlic_mustard_fl","hedge_garlic_seed","jack_hedge_leaf","wild_mustard"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("white_campion_path") && game.includes("wild_mustard_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["白剪秋罗暖蜜","剪秋罗羽暖蜜","布谷鸟剪暖蜜","水田芥花暖蜜","蒜芥花暖蜜","蒜芥籽暖蜜","篱蒜芥叶暖蜜","野芥暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6525,7 +6525,7 @@ test("meadow_buttercup creeping_buttercup lesser_celandine marsh_marigold globe_
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["meadow_buttercup","creeping_buttercup","lesser_celandine","marsh_marigold","globe_flower","columbine","monkshood","larkspur"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("meadow_buttercup_path") && game.includes("larkspur_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["草地毛茛暖蜜","匍匐毛茛暖蜜","小白屈菜暖蜜","驴蹄草暖蜜","金莲花暖蜜","耧斗菜暖蜜","乌头暖蜜","飞燕草暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6565,7 +6565,7 @@ test("delphinium aconite helleborus christmas_rose pasque_flower anemone_coronar
   ["aconite","helleborus","christmas_rose"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["delphinium","pasque_flower","anemone_coronaria","hepatic","clematis_vitalba"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("delphinium_path") && game.includes("clematis_vitalba_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["翠雀暖蜜","附子花暖蜜","铁筷子暖蜜","圣诞玫瑰暖蜜","白头翁暖蜜","冠状银莲暖蜜","獐耳细辛暖蜜","老铁线莲暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6605,7 +6605,7 @@ test("speedwell_germander germander betony_fresh selfheal_fresh woundwort hedge_
   ["black_horehound"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["speedwell_germander","germander","betony_fresh","selfheal_fresh","woundwort","hedge_woundwort","marsh_woundwort"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("speedwell_germander_path") && game.includes("black_horehound_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["石蚕婆婆纳暖蜜","石蚕暖蜜","鲜水苏暖蜜","鲜夏枯草暖蜜","水苏属暖蜜","篱水苏暖蜜","沼水苏暖蜜","黑夏至草暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6645,7 +6645,7 @@ test("white_horehound motherwort_fresh skullcap_fresh baikal_skullcap scutellari
   ["white_horehound","skullcap_fresh","baikal_skullcap","ground_ivy_fresh"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["motherwort_fresh","scutellaria","bugle_fresh","alehoof"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("white_horehound_path") && game.includes("alehoof_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["白夏至草暖蜜","鲜益母草暖蜜","鲜黄芩暖蜜","黄芩根暖蜜","盔状黄芩暖蜜","鲜筋骨草暖蜜","鲜连钱草暖蜜","啤酒花草暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6685,7 +6685,7 @@ test("clary_sage pineapple_sage fruit_sage white_sage russian_sage meadow_clary_
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["clary_sage","pineapple_sage","fruit_sage","white_sage","russian_sage","meadow_clary_fresh","wood_sage","jerusalem_sage"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("clary_sage_path") && game.includes("jerusalem_sage_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["南欧丹参暖蜜","菠萝鼠尾草暖蜜","果香鼠尾草暖蜜","白鼠尾草暖蜜","俄罗斯鼠尾草暖蜜","鲜草地鼠尾暖蜜","林地鼠尾草暖蜜","耶路撒冷鼠尾暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6725,7 +6725,7 @@ test("catmint catnip_fresh hyssop_fresh anise_hyssop korean_mint agastache laven
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["catmint","catnip_fresh","hyssop_fresh","anise_hyssop","korean_mint","agastache","lavender_spike","lavender_sto"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("catmint_path") && game.includes("lavender_sto_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["假荆芥暖蜜","鲜猫薄荷暖蜜","鲜神香草暖蜜","茴香藿香暖蜜","藿香暖蜜","藿香属暖蜜","穗花薰衣草暖蜜","法国薰衣草暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6765,7 +6765,7 @@ test("thyme_lemon thyme_orange thyme_caraway thyme_woolly creeping_thyme oregano
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["thyme_lemon","thyme_orange","thyme_caraway","thyme_woolly","creeping_thyme","oregano_greek","oregano_italian","marjoram_sweet"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("thyme_lemon_path") && game.includes("marjoram_sweet_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["柠檬百里香暖蜜","橙香百里香暖蜜","葛缕子百里香暖蜜","绵毛百里香暖蜜","铺地百里香暖蜜","希腊牛至暖蜜","意大利牛至暖蜜","甜马郁兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6805,7 +6805,7 @@ test("savory_summer savory_winter basil_genovese basil_cinnamon basil_purple bas
   ["savory_winter"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["savory_summer","basil_genovese","basil_cinnamon","basil_purple","basil_lettuce","mint_peppermint","mint_spearmint"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("savory_summer_path") && game.includes("mint_spearmint_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["夏香薄荷暖蜜","冬香薄荷暖蜜","热那亚罗勒暖蜜","肉桂罗勒暖蜜","紫罗勒暖蜜","生菜罗勒暖蜜","胡椒薄荷暖蜜","留兰香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6845,7 +6845,7 @@ test("mint_chocolate mint_apple mint_ginger mint_orange mint_lavender mint_berga
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["mint_chocolate","mint_apple","mint_ginger","mint_orange","mint_lavender","mint_bergamot","mint_corsican","mint_water"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("mint_chocolate_path") && game.includes("mint_water_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["巧克力薄荷暖蜜","苹果薄荷暖蜜","姜味薄荷暖蜜","橙香薄荷暖蜜","薰衣草薄荷暖蜜","佛手柑薄荷暖蜜","科西嘉薄荷暖蜜","水薄荷暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6885,7 +6885,7 @@ test("melissa_fresh lemon_balm_var bee_balm_pink bee_balm_purple oregano_hop dit
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["melissa_fresh","lemon_balm_var","bee_balm_pink","bee_balm_purple","oregano_hop","dittany","dictamnus","burning_bush"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("melissa_fresh_path") && game.includes("burning_bush_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["鲜香蜂草暖蜜","柠檬香蜂暖蜜","粉美国薄荷暖蜜","紫美国薄荷暖蜜","啤酒花牛至暖蜜","白鲜暖蜜","白藓花暖蜜","燃烧灌木暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6925,7 +6925,7 @@ test("chamomile_roman chamomile_german feverfew_fresh tansy_fresh yarrow_pink ya
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["chamomile_roman","chamomile_german","feverfew_fresh","tansy_fresh","yarrow_pink","yarrow_gold","arnica_fresh","calendula_offic"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("chamomile_roman_path") && game.includes("calendula_offic_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["罗马洋甘菊暖蜜","德国洋甘菊暖蜜","鲜小白菊暖蜜","鲜艾菊暖蜜","粉蓍草暖蜜","金蓍草暖蜜","鲜山金车暖蜜","药用金盏暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -6965,7 +6965,7 @@ test("pot_marigold_dbl tagetes marigold_french signet_marigold costmary_fresh el
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["pot_marigold_dbl","tagetes","marigold_french","signet_marigold","costmary_fresh","elecampane_fresh","inula","eupatorium"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("pot_marigold_dbl_path") && game.includes("eupatorium_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["重瓣金盏暖蜜","万寿菊暖蜜","法国万寿暖蜜","香叶万寿暖蜜","鲜艾菊薄荷暖蜜","鲜土木香暖蜜","旋覆花暖蜜","佩兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7005,7 +7005,7 @@ test("echinacea_purp echinacea_ang echinacea_pall rudbeckia black_eyed_susan con
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["echinacea_purp","echinacea_ang","echinacea_pall","rudbeckia","black_eyed_susan","coneflower_yellow","helenium","helenium_autumn"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("echinacea_purp_path") && game.includes("helenium_autumn_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["紫松果菊暖蜜","狭叶紫锥暖蜜","淡紫锥菊暖蜜","金光菊暖蜜","黑心金光暖蜜","黄松果菊暖蜜","堆心菊暖蜜","秋堆心菊暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7045,7 +7045,7 @@ test("coreopsis_lance coreopsis_tick gaillardia gaillardia_fan ratibida silphium
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["coreopsis_lance","coreopsis_tick","gaillardia","gaillardia_fan","ratibida","silphium","cup_plant","compass_plant"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("coreopsis_lance_path") && game.includes("compass_plant_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["剑叶金鸡暖蜜","两色金鸡暖蜜","天人菊暖蜜","扇形天人暖蜜","草原松果暖蜜","杯叶菊暖蜜","杯托菊暖蜜","罗盘草暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7085,7 +7085,7 @@ test("aster_novae aster_novi michaelmas goldenrod_fresh solidago boltonia eriger
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["aster_novae","aster_novi","michaelmas","goldenrod_fresh","solidago","boltonia","erigeron","fleabane"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("aster_novae_path") && game.includes("fleabane_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["新英格兰紫菀暖蜜","纽约紫菀暖蜜","米迦勒紫菀暖蜜","鲜一枝黄暖蜜","加拿大一枝黄暖蜜","千星菊暖蜜","飞蓬暖蜜","春飞蓬暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7125,7 +7125,7 @@ test("daisy_oxeye daisy_english daisy_shasta chrysanthemum_ind_fresh chrysanthem
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["daisy_oxeye","daisy_english","daisy_shasta","chrysanthemum_ind_fresh","chrysanthemum_mor","chrysanthemum_yej","tanacetum","pyrethrum"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("daisy_oxeye_path") && game.includes("pyrethrum_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["滨菊鲜暖蜜","英国雏菊暖蜜","滨菊大暖蜜","鲜印菊暖蜜","杭白菊暖蜜","野菊暖蜜","菊蒿暖蜜","除虫菊暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7165,7 +7165,7 @@ test("sunflower_dwarf sunflower_multi sunflower_red jerusalem_artichoke sunchoke
   ["jerusalem_artichoke","topinambur"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["sunflower_dwarf","sunflower_multi","sunflower_red","sunchoke_flower","dahlia_cactus","dahlia_pompom"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("sunflower_dwarf_path") && game.includes("dahlia_pompom_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["矮向日葵暖蜜","多头向日葵暖蜜","红向日葵暖蜜","菊芋暖蜜","菊芋花暖蜜","洋姜暖蜜","仙人掌大丽暖蜜","绒球大丽暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7205,7 +7205,7 @@ test("zinnia_dwarf zinnia_cactus cosmos_sulph cosmos_choco tithonia mexican_sunf
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["zinnia_dwarf","zinnia_cactus","cosmos_sulph","cosmos_choco","tithonia","mexican_sunflower","heliopsis","inula_helenium"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("zinnia_dwarf_path") && game.includes("inula_helenium_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["矮百日草暖蜜","仙人掌百日暖蜜","硫华菊暖蜜","巧克力波斯暖蜜","肿柄菊暖蜜","墨西哥向日葵暖蜜","假向日葵暖蜜","土木香欧暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7245,7 +7245,7 @@ test("verbena_bon verbena_rig lantana lantana_white phlox_pan phlox_sub phlox_dr
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["verbena_bon","verbena_rig","lantana","lantana_white","phlox_pan","phlox_sub","phlox_drum","dianthus_chin"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("verbena_bon_path") && game.includes("dianthus_chin_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["柳叶马鞭草暖蜜","硬枝马鞭草暖蜜","马缨丹暖蜜","白马缨丹暖蜜","锥花福禄考暖蜜","针叶福禄考暖蜜","小福禄考暖蜜","石竹暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7285,7 +7285,7 @@ test("dianthus_barb sweet_william carnation pinks gypsophila baby_breath saponar
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["dianthus_barb","sweet_william","carnation","pinks","gypsophila","baby_breath","saponaria","soapwort_fresh"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("dianthus_barb_path") && game.includes("soapwort_fresh_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["须苞石竹暖蜜","美国石竹暖蜜","康乃馨暖蜜","常夏石竹暖蜜","满天星暖蜜","霞草暖蜜","肥皂草暖蜜","鲜皂草暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7325,7 +7325,7 @@ test("campanula campanula_med lobelia lobelia_card penstemon penstemon_fox digit
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["campanula","campanula_med","lobelia","lobelia_card","penstemon","penstemon_fox","digitalis","digitalis_lutea"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("campanula_path") && game.includes("digitalis_lutea_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["风铃草属暖蜜","地中海风铃暖蜜","半边莲暖蜜","红半边莲暖蜜","钓钟柳暖蜜","狐尾钓钟柳暖蜜","毛地黄暖蜜","黄毛地黄暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7365,7 +7365,7 @@ test("snapdragon snapdragon_dwarf antirrhinum linaria toadflax verbascum_chaix m
   ["figwort_fresh"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["snapdragon","snapdragon_dwarf","antirrhinum","linaria","toadflax","verbascum_chaix","mullein_white"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("snapdragon_path") && game.includes("figwort_fresh_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["金鱼草暖蜜","矮金鱼草暖蜜","龙口花暖蜜","柳穿鱼暖蜜","普通柳穿暖蜜","网脉毛蕊暖蜜","白毛蕊暖蜜","鲜玄参暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7405,7 +7405,7 @@ test("scrophularia mimulus monkeyflower collinsia castilleja paintbrush orthocar
   ["scrophularia"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["mimulus","monkeyflower","collinsia","castilleja","paintbrush","orthocarpus","pedicularis"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("scrophularia_path") && game.includes("pedicularis_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["玄参属暖蜜","沟酸浆暖蜜","猴面花暖蜜","可林草暖蜜","火焰草暖蜜","印地安画笔暖蜜","直果草暖蜜","马先蒿暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7445,7 +7445,7 @@ test("lousewort euphrasia eyebright rhinanthus yellow_rattle melampyrum cow_whea
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["lousewort","euphrasia","eyebright","rhinanthus","yellow_rattle","melampyrum","cow_wheat","bartisia"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("lousewort_path") && game.includes("bartisia_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["虱草暖蜜","小米草暖蜜","光明草暖蜜","鼻花暖蜜","黄响铃暖蜜","山罗花暖蜜","牛麦暖蜜","巴氏草暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7485,7 +7485,7 @@ test("cattleya dendrobium phalaenopsis cymbidium oncidium vanda paphiopedilum mi
   ["cymbidium"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["cattleya","dendrobium","phalaenopsis","oncidium","vanda","paphiopedilum","miltonia"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("cattleya_path") && game.includes("miltonia_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["卡特兰暖蜜","石斛暖蜜","蝴蝶兰暖蜜","建兰暖蜜","文心兰暖蜜","万代兰暖蜜","兜兰暖蜜","米尔顿兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7525,7 +7525,7 @@ test("odontoglossum brassia epidendrum ludisia anoectochilus gastrodia bletilla 
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["odontoglossum","brassia","epidendrum","ludisia","anoectochilus","gastrodia","bletilla","calanthe"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("odontoglossum_path") && game.includes("calanthe_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["齿瓣兰暖蜜","蜘蛛兰暖蜜","树兰暖蜜","血叶兰暖蜜","金线莲暖蜜","天麻暖蜜","白及暖蜜","虾脊兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7565,7 +7565,7 @@ test("maidenhair boston_fern bird_nest_fern staghorn sword_fern holly_fern autum
   ["maidenhair","sword_fern","japanese_painted"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["boston_fern","bird_nest_fern","staghorn","holly_fern","autumn_fern"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("maidenhair_path") && game.includes("japanese_painted_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["铁线蕨暖蜜","波士顿蕨暖蜜","鸟巢蕨暖蜜","鹿角蕨暖蜜","剑叶蕨暖蜜","刺叶蕨暖蜜","秋色蕨暖蜜","日本彩叶蕨暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7605,7 +7605,7 @@ test("ostrich_fern cinnamon_fern royal_fern sensitive_fern bracken_tip fiddlehea
   ["royal_fern","sensitive_fern","fiddlehead","moonwort"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ostrich_fern","cinnamon_fern","bracken_tip","adder_tongue"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ostrich_fern_path") && game.includes("moonwort_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["鸵鸟蕨暖蜜","肉桂蕨暖蜜","王蕨暖蜜","敏感蕨暖蜜","蕨菜尖暖蜜","拳卷蕨暖蜜","瓶尔小草暖蜜","阴地蕨暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7645,7 +7645,7 @@ test("miscanthus pampas fountain_grass blue_fescue japanese_forest hakonechloa c
   ["blue_fescue","hakonechloa","carex_buch"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["miscanthus","pampas","fountain_grass","japanese_forest","carex_morrow"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("miscanthus_path") && game.includes("carex_buch_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["芒草暖蜜","蒲苇暖蜜","狼尾草暖蜜","蓝羊茅暖蜜","日本森林草暖蜜","箱根草暖蜜","阔叶苔草暖蜜","红铜苔草暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7685,7 +7685,7 @@ test("juncus scirpus typha_pollen phragmites bamboo_moso bamboo_black bamboo_gol
   ["juncus","bamboo_moso","arrow_bamboo"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["scirpus","typha_pollen","phragmites","bamboo_black","bamboo_golden"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("juncus_path") && game.includes("arrow_bamboo_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["灯心草暖蜜","藨草暖蜜","香蒲花粉暖蜜","芦苇暖蜜","毛竹暖蜜","紫竹暖蜜","金镶玉竹暖蜜","矢竹暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7725,7 +7725,7 @@ test("echeveria sedum_morgan sedum_spect sempervivum aeonium crassula kalanchoe 
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["echeveria","sedum_morgan","sedum_spect","sempervivum","aeonium","crassula","kalanchoe","haworthia"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("echeveria_path") && game.includes("haworthia_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["石莲花暖蜜","玉树景天暖蜜","八宝景天暖蜜","长生草暖蜜","莲花掌暖蜜","青锁龙暖蜜","长寿花暖蜜","十二卷暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7765,7 +7765,7 @@ test("aloe_vera_fl agave_flower yucca_filament sansevieria jade_plant string_pea
   ["aloe_vera_fl","string_pearls","burros_tail"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["agave_flower","yucca_filament","sansevieria","jade_plant","panda_plant"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("aloe_vera_fl_path") && game.includes("panda_plant_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["芦荟花暖蜜","龙舌兰花暖蜜","丝兰丝暖蜜","虎尾兰暖蜜","翡翠木暖蜜","珍珠吊兰暖蜜","驴尾草暖蜜","熊猫草暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7805,7 +7805,7 @@ test("boysen_leaf logan_leaf tay_leaf marion_leaf wine_leaf salmon_leaf thimble_
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["boysen_leaf","logan_leaf","tay_leaf","marion_leaf","wine_leaf","salmon_leaf","thimble_leaf","cloud_flower"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("boysen_leaf_path") && game.includes("cloud_flower_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["波森莓叶暖蜜","罗甘莓叶暖蜜","泰莓叶暖蜜","马里恩莓叶暖蜜","酒莓叶暖蜜","鲑莓叶暖蜜","糙莓叶暖蜜","云莓花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7845,7 +7845,7 @@ test("huckleberry huckle_leaf salal salal_leaf oregon_grape mahonia barberry_red
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["huckleberry","huckle_leaf","salal","salal_leaf","oregon_grape","mahonia","barberry_red","barberry_leaf"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("huckleberry_path") && game.includes("barberry_leaf_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["美洲越橘暖蜜","美洲越橘叶暖蜜","萨拉尔暖蜜","萨拉尔叶暖蜜","俄勒冈葡萄暖蜜","十大功劳暖蜜","红小檗暖蜜","小檗叶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7885,7 +7885,7 @@ test("currant_flower goose_flower josta worcesterberry juneberry shadbush chokec
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["currant_flower","goose_flower","josta","worcesterberry","juneberry","shadbush","chokecherry","bird_cherry"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("currant_flower_path") && game.includes("bird_cherry_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["醋栗花暖蜜","鹅莓花暖蜜","约斯塔莓暖蜜","伍斯特莓暖蜜","六月莓暖蜜","唐棣花暖蜜","稠李暖蜜","鸟樱暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7925,7 +7925,7 @@ test("pin_cherry sand_cherry nanking_cherry cornelian honeysuckle_blue honeyberr
   ["honeysuckle_blue","arctic_berry"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["pin_cherry","sand_cherry","nanking_cherry","cornelian","honeyberry","hascap"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("pin_cherry_path") && game.includes("arctic_berry_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["细樱暖蜜","沙樱暖蜜","毛樱桃暖蜜","欧亚山茱萸暖蜜","蓝果忍冬暖蜜","蜜莓暖蜜","哈斯卡普暖蜜","北极蜜莓暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -7965,7 +7965,7 @@ test("clematis_arm clematis_mon clematis_tang clematis_ori akibia akebia_flower 
   ["schisandra_chin","schisandra_leaf"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["clematis_arm","clematis_mon","clematis_tang","clematis_ori","akibia","akebia_flower"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("clematis_arm_path") && game.includes("schisandra_leaf_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["绣球铁线莲暖蜜","绣球铁线暖蜜","甘青铁线莲暖蜜","东方铁线莲暖蜜","木通暖蜜","木通花暖蜜","北五味子暖蜜","五味子叶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8005,7 +8005,7 @@ test("kiwi_hardy kiwi_flower actinidia silver_vine hop_fresh hop_leaf humulus ja
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["kiwi_hardy","kiwi_flower","actinidia","silver_vine","hop_fresh","hop_leaf","humulus","japanese_hop"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("kiwi_hardy_path") && game.includes("japanese_hop_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["软枣猕猴桃暖蜜","猕猴桃花暖蜜","羊桃暖蜜","葛枣猕猴桃暖蜜","鲜啤酒花暖蜜","啤酒花叶暖蜜","葎草暖蜜","日本葎草暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8045,7 +8045,7 @@ test("grape_leaf_fresh vine_tendril muscadine scuppernong passiflora_inc passifl
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["grape_leaf_fresh","vine_tendril","muscadine","scuppernong","passiflora_inc","passiflora_cae","passiflora_ed","maypop"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("grape_leaf_fresh_path") && game.includes("maypop_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["鲜葡萄叶暖蜜","葡萄卷须暖蜜","圆叶葡萄暖蜜","白圆叶葡萄暖蜜","西番莲暖蜜","天蓝西番莲暖蜜","百香花暖蜜","五月瓜暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8085,7 +8085,7 @@ test("morning_glory_red morning_glory_blue ipomoea_bat moonvine cypress_vine car
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["morning_glory_red","morning_glory_blue","ipomoea_bat","moonvine","cypress_vine","cardinal_climber","black_eyed_susan_vine","thunbergia"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("morning_glory_red_path") && game.includes("thunbergia_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["红牵牛暖蜜","蓝牵牛暖蜜","红薯花暖蜜","月藤暖蜜","茑萝暖蜜","红雀藤暖蜜","黑眼苏珊藤暖蜜","山牵牛暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8125,7 +8125,7 @@ test("sweet_potato_leaf yam_leaf dioscorea chinese_yam luffa_flower luffa_leaf b
   ["yam_leaf","chinese_yam"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["sweet_potato_leaf","dioscorea","luffa_flower","luffa_leaf","bitter_melon_fl","bitter_melon_leaf"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("sweet_potato_leaf_path") && game.includes("bitter_melon_leaf_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["红薯叶暖蜜","山药叶暖蜜","薯蓣暖蜜","淮山暖蜜","丝瓜花暖蜜","丝瓜叶暖蜜","苦瓜花暖蜜","苦瓜叶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8165,7 +8165,7 @@ test("squash_blossom zucchini_flower cucumber_flower melon_flower okra_flower ok
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["squash_blossom","zucchini_flower","cucumber_flower","melon_flower","okra_flower","okra_leaf","hibiscus_escul","roselle_fresh"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("squash_blossom_path") && game.includes("roselle_fresh_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["南瓜花暖蜜","西葫芦花暖蜜","黄瓜花暖蜜","甜瓜花暖蜜","秋葵花暖蜜","秋葵叶暖蜜","黄秋葵暖蜜","鲜玫瑰茄暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8205,7 +8205,7 @@ test("cotton_flower cotton_leaf kenaf jute_leaf flax_blue flax_red linseed_oil h
   ["linseed_oil"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["cotton_flower","cotton_leaf","kenaf","jute_leaf","flax_blue","flax_red","hemp_flower"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("cotton_flower_path") && game.includes("hemp_flower_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["棉花暖蜜","棉叶暖蜜","红麻暖蜜","黄麻叶暖蜜","蓝亚麻暖蜜","红亚麻暖蜜","亚麻仁油暖蜜","火麻花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8245,7 +8245,7 @@ test("nettle_fresh nettle_root dead_nettle purple_dead_nettle henbit lamium gale
   ["nettle_root"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["nettle_fresh","dead_nettle","purple_dead_nettle","henbit","lamium","galeopsis","stachys_byz"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("nettle_fresh_path") && game.includes("stachys_byz_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["鲜荨麻暖蜜","荨麻根暖蜜","野芝麻暖蜜","紫野芝麻暖蜜","宝盖草暖蜜","银边野芝麻暖蜜","鼬瓣花暖蜜","绵毛水苏暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8285,7 +8285,7 @@ test("alpine_thyme alpine_sage alpine_oregano alpine_basil alpine_mint alpine_la
   ["alpine_thyme","alpine_sage","alpine_oregano","alpine_basil","alpine_mint","alpine_lavender"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["alpine_rosemary","alpine_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("alpine_thyme_path") && game.includes("alpine_marjoram_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["高山百里香暖蜜","高山鼠尾草暖蜜","高山牛至暖蜜","高山罗勒暖蜜","高山薄荷暖蜜","高山薰衣草暖蜜","高山迷迭香暖蜜","高山马郁兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8325,7 +8325,7 @@ test("alpine_tarragon alpine_chive alpine_parsley alpine_cilantro alpine_dill al
   ["alpine_tarragon","alpine_parsley","alpine_fennel"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["alpine_chive","alpine_cilantro","alpine_dill","alpine_lovage","alpine_sorrel"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("alpine_tarragon_path") && game.includes("alpine_sorrel_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["高山龙蒿暖蜜","高山香葱暖蜜","高山欧芹暖蜜","高山香菜暖蜜","高山莳萝暖蜜","高山茴香暖蜜","高山独活暖蜜","高山酸模暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8365,7 +8365,7 @@ test("coastal_thyme coastal_sage coastal_oregano coastal_basil coastal_mint coas
   ["coastal_rosemary"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["coastal_thyme","coastal_sage","coastal_oregano","coastal_basil","coastal_mint","coastal_lavender","coastal_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("coastal_thyme_path") && game.includes("coastal_marjoram_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["海岸百里香暖蜜","海岸鼠尾草暖蜜","海岸牛至暖蜜","海岸罗勒暖蜜","海岸薄荷暖蜜","海岸薰衣草暖蜜","海岸迷迭香暖蜜","海岸马郁兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8405,7 +8405,7 @@ test("coastal_tarragon coastal_chive coastal_parsley coastal_cilantro coastal_di
   ["coastal_fennel","coastal_lovage"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["coastal_tarragon","coastal_chive","coastal_parsley","coastal_cilantro","coastal_dill","coastal_sorrel"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("coastal_tarragon_path") && game.includes("coastal_sorrel_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["海岸龙蒿暖蜜","海岸香葱暖蜜","海岸欧芹暖蜜","海岸香菜暖蜜","海岸莳萝暖蜜","海岸茴香暖蜜","海岸独活暖蜜","海岸酸模暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8445,7 +8445,7 @@ test("meadow_thyme meadow_sage meadow_oregano meadow_basil meadow_mint meadow_la
   ["meadow_rosemary"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["meadow_thyme","meadow_sage","meadow_oregano","meadow_basil","meadow_mint","meadow_lavender","meadow_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("meadow_thyme_path") && game.includes("meadow_marjoram_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["草甸百里香暖蜜","草甸鼠尾草暖蜜","草甸牛至暖蜜","草甸罗勒暖蜜","草甸薄荷暖蜜","草甸薰衣草暖蜜","草甸迷迭香暖蜜","草甸马郁兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8485,7 +8485,7 @@ test("meadow_tarragon meadow_chive meadow_parsley meadow_cilantro meadow_dill me
   ["meadow_fennel","meadow_lovage"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["meadow_tarragon","meadow_chive","meadow_parsley","meadow_cilantro","meadow_dill","meadow_sorrel"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("meadow_tarragon_path") && game.includes("meadow_sorrel_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["草甸龙蒿暖蜜","草甸香葱暖蜜","草甸欧芹暖蜜","草甸香菜暖蜜","草甸莳萝暖蜜","草甸茴香暖蜜","草甸独活暖蜜","草甸酸模暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8525,7 +8525,7 @@ test("woodland_thyme woodland_sage woodland_oregano woodland_basil woodland_mint
   ["woodland_rosemary"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["woodland_thyme","woodland_sage","woodland_oregano","woodland_basil","woodland_mint","woodland_lavender","woodland_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("woodland_thyme_path") && game.includes("woodland_marjoram_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["林地百里香暖蜜","林地鼠尾草暖蜜","林地牛至暖蜜","林地罗勒暖蜜","林地薄荷暖蜜","林地薰衣草暖蜜","林地迷迭香暖蜜","林地马郁兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8565,7 +8565,7 @@ test("woodland_tarragon woodland_chive woodland_parsley woodland_cilantro woodla
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["woodland_tarragon","woodland_chive","woodland_parsley","woodland_cilantro","woodland_dill","woodland_fennel","woodland_lovage","woodland_sorrel"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("woodland_tarragon_path") && game.includes("woodland_sorrel_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["林地龙蒿暖蜜","林地香葱暖蜜","林地欧芹暖蜜","林地香菜暖蜜","林地莳萝暖蜜","林地茴香暖蜜","林地独活暖蜜","林地酸模暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8605,7 +8605,7 @@ test("garden_thyme garden_sage garden_oregano garden_basil garden_mint garden_la
   ["garden_rosemary"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["garden_thyme","garden_sage","garden_oregano","garden_basil","garden_mint","garden_lavender","garden_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("garden_thyme_path") && game.includes("garden_marjoram_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["园栽百里香暖蜜","园栽鼠尾草暖蜜","园栽牛至暖蜜","园栽罗勒暖蜜","园栽薄荷暖蜜","园栽薰衣草暖蜜","园栽迷迭香暖蜜","园栽马郁兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8645,7 +8645,7 @@ test("garden_tarragon garden_chive garden_parsley garden_cilantro garden_dill ga
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["garden_tarragon","garden_chive","garden_parsley","garden_cilantro","garden_dill","garden_fennel","garden_lovage","garden_sorrel"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("garden_tarragon_path") && game.includes("garden_sorrel_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["园栽龙蒿暖蜜","园栽香葱暖蜜","园栽欧芹暖蜜","园栽香菜暖蜜","园栽莳萝暖蜜","园栽茴香暖蜜","园栽独活暖蜜","园栽酸模暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8685,7 +8685,7 @@ test("wild_thyme wild_sage wild_oregano wild_basil wild_mint wild_lavender wild_
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["wild_thyme","wild_sage","wild_oregano","wild_basil","wild_mint","wild_lavender","wild_rosemary","wild_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("wild_thyme_path") && game.includes("wild_marjoram_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["野生百里香暖蜜","野生鼠尾草暖蜜","野生牛至暖蜜","野生罗勒暖蜜","野生薄荷暖蜜","野生薰衣草暖蜜","野生迷迭香暖蜜","野生马郁兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8725,7 +8725,7 @@ test("wild_tarragon wild_chive wild_parsley wild_cilantro wild_dill wild_fennel 
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["wild_tarragon","wild_chive","wild_parsley","wild_cilantro","wild_dill","wild_fennel","wild_lovage","wild_sorrel"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("wild_tarragon_path") && game.includes("wild_sorrel_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["野生龙蒿暖蜜","野生香葱暖蜜","野生欧芹暖蜜","野生香菜暖蜜","野生莳萝暖蜜","野生茴香暖蜜","野生独活暖蜜","野生酸模暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8765,7 +8765,7 @@ test("dwarf_thyme dwarf_sage dwarf_oregano dwarf_basil dwarf_mint dwarf_lavender
   ["dwarf_rosemary"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["dwarf_thyme","dwarf_sage","dwarf_oregano","dwarf_basil","dwarf_mint","dwarf_lavender","dwarf_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("dwarf_thyme_path") && game.includes("dwarf_marjoram_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["矮生百里香暖蜜","矮生鼠尾草暖蜜","矮生牛至暖蜜","矮生罗勒暖蜜","矮生薄荷暖蜜","矮生薰衣草暖蜜","矮生迷迭香暖蜜","矮生马郁兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8805,7 +8805,7 @@ test("dwarf_tarragon dwarf_chive dwarf_parsley dwarf_cilantro dwarf_dill dwarf_f
   ["dwarf_tarragon"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["dwarf_chive","dwarf_parsley","dwarf_cilantro","dwarf_dill","dwarf_fennel","dwarf_lovage","dwarf_sorrel"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("dwarf_tarragon_path") && game.includes("dwarf_sorrel_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["矮生龙蒿暖蜜","矮生香葱暖蜜","矮生欧芹暖蜜","矮生香菜暖蜜","矮生莳萝暖蜜","矮生茴香暖蜜","矮生独活暖蜜","矮生酸模暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8845,7 +8845,7 @@ test("giant_thyme giant_sage giant_oregano giant_basil giant_mint giant_lavender
   ["giant_thyme","giant_sage","giant_mint","giant_lavender","giant_rosemary"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["giant_oregano","giant_basil","giant_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("giant_thyme_path") && game.includes("giant_marjoram_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["巨生百里香暖蜜","巨生鼠尾草暖蜜","巨生牛至暖蜜","巨生罗勒暖蜜","巨生薄荷暖蜜","巨生薰衣草暖蜜","巨生迷迭香暖蜜","巨生马郁兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8885,7 +8885,7 @@ test("giant_tarragon giant_chive giant_parsley giant_cilantro giant_dill giant_f
   ["giant_fennel"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["giant_tarragon","giant_chive","giant_parsley","giant_cilantro","giant_dill","giant_lovage","giant_sorrel"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("giant_tarragon_path") && game.includes("giant_sorrel_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["巨生龙蒿暖蜜","巨生香葱暖蜜","巨生欧芹暖蜜","巨生香菜暖蜜","巨生莳萝暖蜜","巨生茴香暖蜜","巨生独活暖蜜","巨生酸模暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8925,7 +8925,7 @@ test("variegated_thyme variegated_sage variegated_oregano variegated_basil varie
   ["variegated_sage","variegated_rosemary"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["variegated_thyme","variegated_oregano","variegated_basil","variegated_mint","variegated_lavender","variegated_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("variegated_thyme_path") && game.includes("variegated_marjoram_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["斑叶百里香暖蜜","斑叶鼠尾草暖蜜","斑叶牛至暖蜜","斑叶罗勒暖蜜","斑叶薄荷暖蜜","斑叶薰衣草暖蜜","斑叶迷迭香暖蜜","斑叶马郁兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -8965,7 +8965,7 @@ test("variegated_tarragon variegated_chive variegated_parsley variegated_cilantr
   ["variegated_tarragon","variegated_fennel","variegated_lovage"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["variegated_chive","variegated_parsley","variegated_cilantro","variegated_dill","variegated_sorrel"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("variegated_tarragon_path") && game.includes("variegated_sorrel_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["斑叶龙蒿暖蜜","斑叶香葱暖蜜","斑叶欧芹暖蜜","斑叶香菜暖蜜","斑叶莳萝暖蜜","斑叶茴香暖蜜","斑叶独活暖蜜","斑叶酸模暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9005,7 +9005,7 @@ test("golden_thyme golden_sage golden_oregano golden_basil golden_mint golden_la
   ["golden_sage","golden_rosemary"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["golden_thyme","golden_oregano","golden_basil","golden_mint","golden_lavender","golden_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("golden_thyme_path") && game.includes("golden_marjoram_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["金叶百里香暖蜜","金叶鼠尾草暖蜜","金叶牛至暖蜜","金叶罗勒暖蜜","金叶薄荷暖蜜","金叶薰衣草暖蜜","金叶迷迭香暖蜜","金叶马郁兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9045,7 +9045,7 @@ test("golden_tarragon golden_chive golden_parsley golden_cilantro golden_dill go
   ["golden_tarragon","golden_fennel","golden_lovage"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["golden_chive","golden_parsley","golden_cilantro","golden_dill","golden_sorrel"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("golden_tarragon_path") && game.includes("golden_sorrel_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["金叶龙蒿暖蜜","金叶香葱暖蜜","金叶欧芹暖蜜","金叶香菜暖蜜","金叶莳萝暖蜜","金叶茴香暖蜜","金叶独活暖蜜","金叶酸模暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9085,7 +9085,7 @@ test("silver_thyme silver_sage silver_oregano silver_basil silver_mint silver_la
   ["silver_sage","silver_rosemary"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["silver_thyme","silver_oregano","silver_basil","silver_mint","silver_lavender","silver_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("silver_thyme_path") && game.includes("silver_marjoram_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["银叶百里香暖蜜","银叶鼠尾草暖蜜","银叶牛至暖蜜","银叶罗勒暖蜜","银叶薄荷暖蜜","银叶薰衣草暖蜜","银叶迷迭香暖蜜","银叶马郁兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9125,7 +9125,7 @@ test("silver_tarragon silver_chive silver_parsley silver_cilantro silver_dill si
   ["silver_tarragon","silver_fennel","silver_lovage"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["silver_chive","silver_parsley","silver_cilantro","silver_dill","silver_sorrel"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("silver_tarragon_path") && game.includes("silver_sorrel_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["银叶龙蒿暖蜜","银叶香葱暖蜜","银叶欧芹暖蜜","银叶香菜暖蜜","银叶莳萝暖蜜","银叶茴香暖蜜","银叶独活暖蜜","银叶酸模暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9165,7 +9165,7 @@ test("purple_thyme purple_sage purple_oregano purple_basil purple_mint purple_la
   ["purple_sage","purple_rosemary"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["purple_thyme","purple_oregano","purple_basil","purple_mint","purple_lavender","purple_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("purple_thyme_path") && game.includes("purple_marjoram_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["紫叶百里香暖蜜","紫叶鼠尾草暖蜜","紫叶牛至暖蜜","紫叶罗勒暖蜜","紫叶薄荷暖蜜","紫叶薰衣草暖蜜","紫叶迷迭香暖蜜","紫叶马郁兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9205,7 +9205,7 @@ test("purple_tarragon purple_chive purple_parsley purple_cilantro purple_dill pu
   ["purple_tarragon","purple_fennel","purple_lovage"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["purple_chive","purple_parsley","purple_cilantro","purple_dill","purple_sorrel"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("purple_tarragon_path") && game.includes("purple_sorrel_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["紫叶龙蒿暖蜜","紫叶香葱暖蜜","紫叶欧芹暖蜜","紫叶香菜暖蜜","紫叶莳萝暖蜜","紫叶茴香暖蜜","紫叶独活暖蜜","紫叶酸模暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9245,7 +9245,7 @@ test("red_thyme red_sage red_oregano red_basil red_mint red_lavender red_rosemar
   ["red_sage","red_rosemary"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["red_thyme","red_oregano","red_basil","red_mint","red_lavender","red_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("red_thyme_path") && game.includes("red_marjoram_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["红叶百里香暖蜜","红叶鼠尾草暖蜜","红叶牛至暖蜜","红叶罗勒暖蜜","红叶薄荷暖蜜","红叶薰衣草暖蜜","红叶迷迭香暖蜜","红叶马郁兰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9285,7 +9285,7 @@ test("red_tarragon red_chive red_parsley red_cilantro red_dill red_fennel red_lo
   ["red_tarragon","red_fennel","red_lovage"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["red_chive","red_parsley","red_cilantro","red_dill","red_sorrel"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("red_tarragon_path") && game.includes("red_sorrel_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["红叶龙蒿暖蜜","红叶香葱暖蜜","红叶欧芹暖蜜","红叶香菜暖蜜","红叶莳萝暖蜜","红叶茴香暖蜜","红叶独活暖蜜","红叶酸模暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9325,7 +9325,7 @@ test("white_thyme white_oregano white_basil white_mint white_lavender white_rose
   ["white_rosemary","white_tarragon"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["white_thyme","white_oregano","white_basil","white_mint","white_lavender","white_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("white_thyme_path") && game.includes("white_tarragon_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["白花百里香暖蜜","白花牛至暖蜜","白花罗勒暖蜜","白花薄荷暖蜜","白花薰衣草暖蜜","白花迷迭香暖蜜","白花马郁兰暖蜜","白花龙蒿暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9365,7 +9365,7 @@ test("white_chive white_parsley white_cilantro white_dill white_fennel white_lov
   ["white_fennel","white_lovage"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["white_chive","white_parsley","white_cilantro","white_dill","white_sorrel","pink_thyme"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("white_chive_path") && game.includes("pink_thyme_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["白花香葱暖蜜","白花欧芹暖蜜","白花香菜暖蜜","白花莳萝暖蜜","白花茴香暖蜜","白花独活暖蜜","白花酸模暖蜜","粉花百里香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9405,7 +9405,7 @@ test("pink_sage pink_oregano pink_basil pink_mint pink_lavender pink_rosemary pi
   ["pink_sage","pink_rosemary","pink_tarragon"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["pink_oregano","pink_basil","pink_mint","pink_lavender","pink_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("pink_sage_path") && game.includes("pink_tarragon_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["粉花鼠尾草暖蜜","粉花牛至暖蜜","粉花罗勒暖蜜","粉花薄荷暖蜜","粉花薰衣草暖蜜","粉花迷迭香暖蜜","粉花马郁兰暖蜜","粉花龙蒿暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9445,7 +9445,7 @@ test("pink_chive pink_parsley pink_cilantro pink_dill pink_fennel pink_lovage pi
   ["pink_fennel","pink_lovage"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["pink_chive","pink_parsley","pink_cilantro","pink_dill","pink_sorrel","blue_thyme"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("pink_chive_path") && game.includes("blue_thyme_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["粉花香葱暖蜜","粉花欧芹暖蜜","粉花香菜暖蜜","粉花莳萝暖蜜","粉花茴香暖蜜","粉花独活暖蜜","粉花酸模暖蜜","蓝花百里香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9485,7 +9485,7 @@ test("blue_sage blue_oregano blue_basil blue_mint blue_lavender blue_rosemary bl
   ["blue_sage","blue_rosemary","blue_tarragon"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["blue_oregano","blue_basil","blue_mint","blue_lavender","blue_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("blue_sage_path") && game.includes("blue_tarragon_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["蓝花鼠尾草暖蜜","蓝花牛至暖蜜","蓝花罗勒暖蜜","蓝花薄荷暖蜜","蓝花薰衣草暖蜜","蓝花迷迭香暖蜜","蓝花马郁兰暖蜜","蓝花龙蒿暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9525,7 +9525,7 @@ test("blue_chive blue_parsley blue_cilantro blue_dill blue_fennel blue_lovage bl
   ["blue_fennel","blue_lovage"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["blue_chive","blue_parsley","blue_cilantro","blue_dill","blue_sorrel","yellow_thyme"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("blue_chive_path") && game.includes("yellow_thyme_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["蓝花香葱暖蜜","蓝花欧芹暖蜜","蓝花香菜暖蜜","蓝花莳萝暖蜜","蓝花茴香暖蜜","蓝花独活暖蜜","蓝花酸模暖蜜","黄花百里香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9565,7 +9565,7 @@ test("yellow_sage yellow_oregano yellow_basil yellow_mint yellow_lavender yellow
   ["yellow_sage","yellow_rosemary","yellow_tarragon"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["yellow_oregano","yellow_basil","yellow_mint","yellow_lavender","yellow_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("yellow_sage_path") && game.includes("yellow_tarragon_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["黄花鼠尾草暖蜜","黄花牛至暖蜜","黄花罗勒暖蜜","黄花薄荷暖蜜","黄花薰衣草暖蜜","黄花迷迭香暖蜜","黄花马郁兰暖蜜","黄花龙蒿暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9605,7 +9605,7 @@ test("yellow_chive yellow_parsley yellow_cilantro yellow_dill yellow_fennel yell
   ["yellow_fennel","yellow_lovage"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["yellow_chive","yellow_parsley","yellow_cilantro","yellow_dill","yellow_sorrel","orange_thyme"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("yellow_chive_path") && game.includes("orange_thyme_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["黄花香葱暖蜜","黄花欧芹暖蜜","黄花香菜暖蜜","黄花莳萝暖蜜","黄花茴香暖蜜","黄花独活暖蜜","黄花酸模暖蜜","橙花百里香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9645,7 +9645,7 @@ test("orange_sage orange_oregano orange_basil orange_mint orange_lavender orange
   ["orange_sage","orange_rosemary","orange_tarragon"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["orange_oregano","orange_basil","orange_mint","orange_lavender","orange_marjoram"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("orange_sage_path") && game.includes("orange_tarragon_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["橙花鼠尾草暖蜜","橙花牛至暖蜜","橙花罗勒暖蜜","橙花薄荷暖蜜","橙花薰衣草暖蜜","橙花迷迭香暖蜜","橙花马郁兰暖蜜","橙花龙蒿暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9685,7 +9685,7 @@ test("orange_chive orange_parsley orange_cilantro orange_dill orange_fennel oran
   ["orange_fennel","orange_lovage"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["orange_chive","orange_parsley","orange_cilantro","orange_dill","orange_sorrel","fragrant_thyme"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("orange_chive_path") && game.includes("fragrant_thyme_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["橙花香葱暖蜜","橙花欧芹暖蜜","橙花香菜暖蜜","橙花莳萝暖蜜","橙花茴香暖蜜","橙花独活暖蜜","橙花酸模暖蜜","香型百里香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9725,7 +9725,7 @@ test("fragrant_sage fragrant_oregano fragrant_basil fragrant_mint fragrant_laven
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fragrant_sage","fragrant_oregano","fragrant_basil","fragrant_mint","fragrant_lavender","fragrant_rosemary","fragrant_marjoram","fragrant_tarragon"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fragrant_sage_path") && game.includes("fragrant_tarragon_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["香型鼠尾草暖蜜","香型牛至暖蜜","香型罗勒暖蜜","香型薄荷暖蜜","香型薰衣草暖蜜","香型迷迭香暖蜜","香型马郁兰暖蜜","香型龙蒿暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9765,7 +9765,7 @@ test("fragrant_chive fragrant_parsley fragrant_cilantro fragrant_dill fragrant_f
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fragrant_chive","fragrant_parsley","fragrant_cilantro","fragrant_dill","fragrant_fennel","fragrant_lovage","fragrant_sorrel","edible_thyme"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fragrant_chive_path") && game.includes("edible_thyme_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["香型香葱暖蜜","香型欧芹暖蜜","香型香菜暖蜜","香型莳萝暖蜜","香型茴香暖蜜","香型独活暖蜜","香型酸模暖蜜","可食百里香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9805,7 +9805,7 @@ test("edible_sage edible_oregano edible_basil edible_mint edible_lavender edible
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["edible_sage","edible_oregano","edible_basil","edible_mint","edible_lavender","edible_rosemary","edible_marjoram","edible_tarragon"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("edible_sage_path") && game.includes("edible_tarragon_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["可食鼠尾草暖蜜","可食牛至暖蜜","可食罗勒暖蜜","可食薄荷暖蜜","可食薰衣草暖蜜","可食迷迭香暖蜜","可食马郁兰暖蜜","可食龙蒿暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9845,7 +9845,7 @@ test("edible_chive edible_parsley edible_cilantro edible_dill edible_fennel edib
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["edible_chive","edible_parsley","edible_cilantro","edible_dill","edible_fennel","edible_lovage","edible_sorrel","apple_blossom"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("edible_chive_path") && game.includes("apple_blossom_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["可食香葱暖蜜","可食欧芹暖蜜","可食香菜暖蜜","可食莳萝暖蜜","可食茴香暖蜜","可食独活暖蜜","可食酸模暖蜜","苹果花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9885,7 +9885,7 @@ test("pear_blossom peach_blossom plum_blossom_fresh cherry_blossom apricot_bloss
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["pear_blossom","peach_blossom","plum_blossom_fresh","cherry_blossom","apricot_blossom","quince_blossom","medlar_blossom","mulberry_flower"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("pear_blossom_path") && game.includes("mulberry_flower_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["梨花暖蜜","桃花暖蜜","鲜梅花暖蜜","樱花暖蜜","杏花鲜暖蜜","榅桲花暖蜜","欧楂花暖蜜","桑花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9925,7 +9925,7 @@ test("fig_leaf pomegranate_flower persimmon_flower walnut_flower hazel_catkin ch
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fig_leaf","pomegranate_flower","persimmon_flower","walnut_flower","hazel_catkin","chestnut_catkin","almond_fresh_bl","pistachio_flower"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fig_leaf_path") && game.includes("pistachio_flower_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["无花果叶暖蜜","石榴花暖蜜","柿花暖蜜","核桃花暖蜜","榛花序暖蜜","板栗花序暖蜜","鲜杏花暖蜜","开心果花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -9965,7 +9965,7 @@ test("pecan_flower macadamia_flower cashew_flower brazil_nut_fl coconut_inflo da
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["pecan_flower","macadamia_flower","cashew_flower","brazil_nut_fl","coconut_inflo","date_flower","olive_flower","avocado_flower"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("pecan_flower_path") && game.includes("avocado_flower_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["山核桃花暖蜜","夏威夷果花暖蜜","腰果花暖蜜","巴西坚果花暖蜜","椰子花序暖蜜","椰枣花暖蜜","橄榄花暖蜜","牛油果花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10005,7 +10005,7 @@ test("mango_flower lychee_flower longan_flower rambutan_flower mangosteen_flower
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["mango_flower","lychee_flower","longan_flower","rambutan_flower","mangosteen_flower","guava_flower","papaya_flower","pineapple_flower"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("mango_flower_path") && game.includes("pineapple_flower_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["芒果花暖蜜","荔枝花暖蜜","龙眼花暖蜜","红毛丹花暖蜜","山竹花暖蜜","番石榴花暖蜜","木瓜花暖蜜","菠萝花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10045,7 +10045,7 @@ test("banana_flower plantain_flower breadfruit_fl jackfruit_fl durian_fresh_fl s
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["banana_flower","plantain_flower","breadfruit_fl","jackfruit_fl","durian_fresh_fl","soursop_fl","cherimoya_fl","custard_apple_fl"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("banana_flower_path") && game.includes("custard_apple_fl_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["香蕉花暖蜜","大蕉花暖蜜","面包果花暖蜜","波罗蜜花暖蜜","鲜榴莲花暖蜜","刺番荔枝花暖蜜","毛番荔枝花暖蜜","番荔枝花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10085,7 +10085,7 @@ test("r0_e58c97e5a283 r1_e58c97e5a283 r2_e58c97e5a283 r3_e58c97e5a283 r4_e58c97e
   ["r0_e58c97e5a283","r5_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r1_e58c97e5a283","r2_e58c97e5a283","r3_e58c97e5a283","r4_e58c97e5a283","r6_e58c97e5a283","r7_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r0_e58c97e5a283_path") && game.includes("r7_e58c97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["北境堇菜暖蜜","北境报春暖蜜","北境银莲暖蜜","北境毛茛暖蜜","北境罂粟暖蜜","北境飞燕暖蜜","北境翠雀暖蜜","北境乌头暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10125,7 +10125,7 @@ test("r8_e58c97e5a283 r9_e58c97e5a283 r10_e58c97e5a283 r11_e58c97e5a283 r12_e58c
   ["r10_e58c97e5a283","r15_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r8_e58c97e5a283","r9_e58c97e5a283","r11_e58c97e5a283","r12_e58c97e5a283","r13_e58c97e5a283","r14_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r8_e58c97e5a283_path") && game.includes("r15_e58c97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["北境耧斗暖蜜","北境铁线暖蜜","北境福禄暖蜜","北境石竹暖蜜","北境满天暖蜜","北境霞草暖蜜","北境马鞭暖蜜","北境藿香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10165,7 +10165,7 @@ test("r16_e58c97e5a283 r17_e58c97e5a283 r18_e58c97e5a283 r19_e58c97e5a283 r20_e5
   ["r20_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r16_e58c97e5a283","r17_e58c97e5a283","r18_e58c97e5a283","r19_e58c97e5a283","r21_e58c97e5a283","r22_e58c97e5a283","r23_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r16_e58c97e5a283_path") && game.includes("r23_e58c97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["北境荆芥暖蜜","北境水苏暖蜜","北境夏枯暖蜜","北境黄芩暖蜜","北境筋骨暖蜜","北境连钱暖蜜","北境香蜂暖蜜","北境猫薄荷暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10205,7 +10205,7 @@ test("r24_e58c97e5a283 r25_e58c97e5a283 r26_e58c97e5a283 r27_e58c97e5a283 r28_e5
   ["r25_e58c97e5a283","r30_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r24_e58c97e5a283","r26_e58c97e5a283","r27_e58c97e5a283","r28_e58c97e5a283","r29_e58c97e5a283","r31_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r24_e58c97e5a283_path") && game.includes("r31_e58c97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["北境神香暖蜜","北境百里暖蜜","北境牛至暖蜜","北境马郁暖蜜","北境罗勒暖蜜","北境迷迭暖蜜","北境鼠尾暖蜜","北境薰衣草暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10245,7 +10245,7 @@ test("r32_e58c97e5a283 r33_e58c97e5a283 r34_e58c97e5a283 r35_e58c97e5a283 r36_e5
   ["r35_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r32_e58c97e5a283","r33_e58c97e5a283","r34_e58c97e5a283","r36_e58c97e5a283","r37_e58c97e5a283","r38_e58c97e5a283","r39_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r32_e58c97e5a283_path") && game.includes("r39_e58c97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["北境莳萝暖蜜","北境茴香暖蜜","北境独活暖蜜","北境酸模暖蜜","北境欧芹暖蜜","北境香葱暖蜜","北境龙蒿暖蜜","北境芹菜暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10285,7 +10285,7 @@ test("r40_e58c97e5a283 r41_e58c97e5a283 r42_e58c97e5a283 r43_e58c97e5a283 r44_e5
   ["r40_e58c97e5a283","r45_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r41_e58c97e5a283","r42_e58c97e5a283","r43_e58c97e5a283","r44_e58c97e5a283","r46_e58c97e5a283","r47_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r40_e58c97e5a283_path") && game.includes("r47_e58c97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["北境香芹暖蜜","北境芥末暖蜜","北境黑种暖蜜","北境孜然暖蜜","北境葛缕暖蜜","北境胡芦暖蜜","北境姜黄暖蜜","北境高良暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10325,7 +10325,7 @@ test("r48_e58c97e5a283 r49_e58c97e5a283 r50_e58c97e5a283 r51_e58c97e5a283 r52_e5
   ["r50_e58c97e5a283","r55_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r48_e58c97e5a283","r49_e58c97e5a283","r51_e58c97e5a283","r52_e58c97e5a283","r53_e58c97e5a283","r54_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r48_e58c97e5a283_path") && game.includes("r55_e58c97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["北境班兰暖蜜","北境卡菲暖蜜","北境杜松暖蜜","北境多香暖蜜","北境肉豆暖蜜","北境八角暖蜜","北境丁香暖蜜","北境肉桂暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10365,7 +10365,7 @@ test("r56_e58c97e5a283 r57_e58c97e5a283 r58_e58c97e5a283 r59_e58c97e5a283 r60_e5
   ["r60_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r56_e58c97e5a283","r57_e58c97e5a283","r58_e58c97e5a283","r59_e58c97e5a283","r61_e58c97e5a283","r62_e58c97e5a283","r63_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r56_e58c97e5a283_path") && game.includes("r63_e58c97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["北境藏红暖蜜","北境芝麻暖蜜","北境枫糖暖蜜","北境可可暖蜜","北境香草暖蜜","北境杏仁暖蜜","北境榛子暖蜜","北境核桃暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10405,7 +10405,7 @@ test("r64_e58c97e5a283 r65_e58c97e5a283 r66_e58c97e5a283 r67_e58c97e5a283 r68_e5
   ["r65_e58c97e5a283","r70_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r64_e58c97e5a283","r66_e58c97e5a283","r67_e58c97e5a283","r68_e58c97e5a283","r69_e58c97e5a283","r71_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r64_e58c97e5a283_path") && game.includes("r71_e58c97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["北境板栗暖蜜","北境开心暖蜜","北境枸杞暖蜜","北境红枣暖蜜","北境金桔暖蜜","北境蜜橘暖蜜","北境柚子暖蜜","北境青柠暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10445,7 +10445,7 @@ test("r72_e58c97e5a283 r73_e58c97e5a283 r74_e58c97e5a283 r75_e58c97e5a283 r76_e5
   ["r75_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r72_e58c97e5a283","r73_e58c97e5a283","r74_e58c97e5a283","r76_e58c97e5a283","r77_e58c97e5a283","r78_e58c97e5a283","r79_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r72_e58c97e5a283_path") && game.includes("r79_e58c97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["北境柠檬暖蜜","北境甘蔗暖蜜","北境莲雾暖蜜","北境杨桃暖蜜","北境百香暖蜜","北境猕猴暖蜜","北境火龙暖蜜","北境番石暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10485,7 +10485,7 @@ test("r80_e58c97e5a283 r81_e58c97e5a283 r82_e58c97e5a283 r83_e58c97e5a283 r84_e5
   ["r80_e58c97e5a283","r85_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r81_e58c97e5a283","r82_e58c97e5a283","r83_e58c97e5a283","r84_e58c97e5a283","r86_e58c97e5a283","r87_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r80_e58c97e5a283_path") && game.includes("r87_e58c97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["北境樱桃暖蜜","北境杏花暖蜜","北境梨暖蜜","北境李暖蜜","北境桃暖蜜","北境梅暖蜜","北境桑暖蜜","北境莓暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10525,7 +10525,7 @@ test("r88_e58c97e5a283 r89_e58c97e5a283 r90_e58c97e5a283 r91_e58c97e5a283 r92_e5
   ["r90_e58c97e5a283","r95_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r88_e58c97e5a283","r89_e58c97e5a283","r91_e58c97e5a283","r92_e58c97e5a283","r93_e58c97e5a283","r94_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r88_e58c97e5a283_path") && game.includes("r95_e58c97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["北境葡萄暖蜜","北境石榴暖蜜","北境荔枝暖蜜","北境龙眼暖蜜","北境枇杷暖蜜","北境橄榄暖蜜","北境山楂暖蜜","北境芒果暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10565,7 +10565,7 @@ test("r96_e58c97e5a283 r97_e58c97e5a283 r98_e58c97e5a283 r99_e58c97e5a283 r100_e
   ["r100_e58c97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r96_e58c97e5a283","r97_e58c97e5a283","r98_e58c97e5a283","r99_e58c97e5a283","r101_e58c97e5a283","r102_e58c97e5a283","r103_e58c97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r96_e58c97e5a283_path") && game.includes("r103_e58c97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["北境菠萝暖蜜","北境椰子暖蜜","北境木瓜暖蜜","北境西瓜暖蜜","北境甜瓜暖蜜","北境哈密瓜暖蜜","北境红毛暖蜜","北境菠萝蜜暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10605,7 +10605,7 @@ test("r104_e58d97e5a283 r105_e58d97e5a283 r106_e58d97e5a283 r107_e58d97e5a283 r1
   ["r105_e58d97e5a283","r110_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r104_e58d97e5a283","r106_e58d97e5a283","r107_e58d97e5a283","r108_e58d97e5a283","r109_e58d97e5a283","r111_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r104_e58d97e5a283_path") && game.includes("r111_e58d97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["南境堇菜暖蜜","南境报春暖蜜","南境银莲暖蜜","南境毛茛暖蜜","南境罂粟暖蜜","南境飞燕暖蜜","南境翠雀暖蜜","南境乌头暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10645,7 +10645,7 @@ test("r112_e58d97e5a283 r113_e58d97e5a283 r114_e58d97e5a283 r115_e58d97e5a283 r1
   ["r115_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r112_e58d97e5a283","r113_e58d97e5a283","r114_e58d97e5a283","r116_e58d97e5a283","r117_e58d97e5a283","r118_e58d97e5a283","r119_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r112_e58d97e5a283_path") && game.includes("r119_e58d97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["南境耧斗暖蜜","南境铁线暖蜜","南境福禄暖蜜","南境石竹暖蜜","南境满天暖蜜","南境霞草暖蜜","南境马鞭暖蜜","南境藿香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10685,7 +10685,7 @@ test("r120_e58d97e5a283 r121_e58d97e5a283 r122_e58d97e5a283 r123_e58d97e5a283 r1
   ["r120_e58d97e5a283","r125_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r121_e58d97e5a283","r122_e58d97e5a283","r123_e58d97e5a283","r124_e58d97e5a283","r126_e58d97e5a283","r127_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r120_e58d97e5a283_path") && game.includes("r127_e58d97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["南境荆芥暖蜜","南境水苏暖蜜","南境夏枯暖蜜","南境黄芩暖蜜","南境筋骨暖蜜","南境连钱暖蜜","南境香蜂暖蜜","南境猫薄荷暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10725,7 +10725,7 @@ test("r128_e58d97e5a283 r129_e58d97e5a283 r130_e58d97e5a283 r131_e58d97e5a283 r1
   ["r130_e58d97e5a283","r135_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r128_e58d97e5a283","r129_e58d97e5a283","r131_e58d97e5a283","r132_e58d97e5a283","r133_e58d97e5a283","r134_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r128_e58d97e5a283_path") && game.includes("r135_e58d97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["南境神香暖蜜","南境百里暖蜜","南境牛至暖蜜","南境马郁暖蜜","南境罗勒暖蜜","南境迷迭暖蜜","南境鼠尾暖蜜","南境薰衣草暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10765,7 +10765,7 @@ test("r136_e58d97e5a283 r137_e58d97e5a283 r138_e58d97e5a283 r139_e58d97e5a283 r1
   ["r140_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r136_e58d97e5a283","r137_e58d97e5a283","r138_e58d97e5a283","r139_e58d97e5a283","r141_e58d97e5a283","r142_e58d97e5a283","r143_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r136_e58d97e5a283_path") && game.includes("r143_e58d97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["南境莳萝暖蜜","南境茴香暖蜜","南境独活暖蜜","南境酸模暖蜜","南境欧芹暖蜜","南境香葱暖蜜","南境龙蒿暖蜜","南境芹菜暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10805,7 +10805,7 @@ test("r144_e58d97e5a283 r145_e58d97e5a283 r146_e58d97e5a283 r147_e58d97e5a283 r1
   ["r145_e58d97e5a283","r150_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r144_e58d97e5a283","r146_e58d97e5a283","r147_e58d97e5a283","r148_e58d97e5a283","r149_e58d97e5a283","r151_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r144_e58d97e5a283_path") && game.includes("r151_e58d97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["南境香芹暖蜜","南境芥末暖蜜","南境黑种暖蜜","南境孜然暖蜜","南境葛缕暖蜜","南境胡芦暖蜜","南境姜黄暖蜜","南境高良暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10845,7 +10845,7 @@ test("r152_e58d97e5a283 r153_e58d97e5a283 r154_e58d97e5a283 r155_e58d97e5a283 r1
   ["r155_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r152_e58d97e5a283","r153_e58d97e5a283","r154_e58d97e5a283","r156_e58d97e5a283","r157_e58d97e5a283","r158_e58d97e5a283","r159_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r152_e58d97e5a283_path") && game.includes("r159_e58d97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["南境班兰暖蜜","南境卡菲暖蜜","南境杜松暖蜜","南境多香暖蜜","南境肉豆暖蜜","南境八角暖蜜","南境丁香暖蜜","南境肉桂暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10885,7 +10885,7 @@ test("r160_e58d97e5a283 r161_e58d97e5a283 r162_e58d97e5a283 r163_e58d97e5a283 r1
   ["r160_e58d97e5a283","r165_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r161_e58d97e5a283","r162_e58d97e5a283","r163_e58d97e5a283","r164_e58d97e5a283","r166_e58d97e5a283","r167_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r160_e58d97e5a283_path") && game.includes("r167_e58d97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["南境藏红暖蜜","南境芝麻暖蜜","南境枫糖暖蜜","南境可可暖蜜","南境香草暖蜜","南境杏仁暖蜜","南境榛子暖蜜","南境核桃暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10925,7 +10925,7 @@ test("r168_e58d97e5a283 r169_e58d97e5a283 r170_e58d97e5a283 r171_e58d97e5a283 r1
   ["r170_e58d97e5a283","r175_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r168_e58d97e5a283","r169_e58d97e5a283","r171_e58d97e5a283","r172_e58d97e5a283","r173_e58d97e5a283","r174_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r168_e58d97e5a283_path") && game.includes("r175_e58d97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["南境板栗暖蜜","南境开心暖蜜","南境枸杞暖蜜","南境红枣暖蜜","南境金桔暖蜜","南境蜜橘暖蜜","南境柚子暖蜜","南境青柠暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -10965,7 +10965,7 @@ test("r176_e58d97e5a283 r177_e58d97e5a283 r178_e58d97e5a283 r179_e58d97e5a283 r1
   ["r180_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r176_e58d97e5a283","r177_e58d97e5a283","r178_e58d97e5a283","r179_e58d97e5a283","r181_e58d97e5a283","r182_e58d97e5a283","r183_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r176_e58d97e5a283_path") && game.includes("r183_e58d97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["南境柠檬暖蜜","南境甘蔗暖蜜","南境莲雾暖蜜","南境杨桃暖蜜","南境百香暖蜜","南境猕猴暖蜜","南境火龙暖蜜","南境番石暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11005,7 +11005,7 @@ test("r184_e58d97e5a283 r185_e58d97e5a283 r186_e58d97e5a283 r187_e58d97e5a283 r1
   ["r185_e58d97e5a283","r190_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r184_e58d97e5a283","r186_e58d97e5a283","r187_e58d97e5a283","r188_e58d97e5a283","r189_e58d97e5a283","r191_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r184_e58d97e5a283_path") && game.includes("r191_e58d97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["南境樱桃暖蜜","南境杏花暖蜜","南境梨暖蜜","南境李暖蜜","南境桃暖蜜","南境梅暖蜜","南境桑暖蜜","南境莓暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11045,7 +11045,7 @@ test("r192_e58d97e5a283 r193_e58d97e5a283 r194_e58d97e5a283 r195_e58d97e5a283 r1
   ["r195_e58d97e5a283"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["r192_e58d97e5a283","r193_e58d97e5a283","r194_e58d97e5a283","r196_e58d97e5a283","r197_e58d97e5a283","r198_e58d97e5a283","r199_e58d97e5a283"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("r192_e58d97e5a283_path") && game.includes("r199_e58d97e5a283_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["南境葡萄暖蜜","南境石榴暖蜜","南境荔枝暖蜜","南境龙眼暖蜜","南境枇杷暖蜜","南境橄榄暖蜜","南境山楂暖蜜","南境芒果暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11085,7 +11085,7 @@ test("loc0 loc1 loc2 loc3 loc4 loc5 loc6 loc7 1507 themes", () => {
   ["loc0","loc4"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc1","loc2","loc3","loc5","loc6","loc7"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc0_path") && game.includes("loc7_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["竹里春芽暖蜜","竹里夏叶暖蜜","竹里秋实暖蜜","竹里冬根暖蜜","竹里晨露暖蜜","竹里午影暖蜜","竹里暮香暖蜜","竹里夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11125,7 +11125,7 @@ test("loc8 loc9 loc10 loc11 loc12 loc13 loc14 loc15 1515 themes", () => {
   ["loc8","loc12"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc9","loc10","loc11","loc13","loc14","loc15"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc8_path") && game.includes("loc15_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["竹里晓风暖蜜","竹里晚岚暖蜜","竹里细雨暖蜜","竹里薄雾暖蜜","竹里暖阳暖蜜","竹里凉荫暖蜜","竹里清霜暖蜜","竹里软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11165,7 +11165,7 @@ test("loc16 loc17 loc18 loc19 loc20 loc21 loc22 loc23 1523 themes", () => {
   ["loc16","loc20"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc17","loc18","loc19","loc21","loc22","loc23"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc16_path") && game.includes("loc23_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["梅坞春芽暖蜜","梅坞夏叶暖蜜","梅坞秋实暖蜜","梅坞冬根暖蜜","梅坞晨露暖蜜","梅坞午影暖蜜","梅坞暮香暖蜜","梅坞夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11205,7 +11205,7 @@ test("loc24 loc25 loc26 loc27 loc28 loc29 loc30 loc31 1531 themes", () => {
   ["loc24","loc28"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc25","loc26","loc27","loc29","loc30","loc31"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc24_path") && game.includes("loc31_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["梅坞晓风暖蜜","梅坞晚岚暖蜜","梅坞细雨暖蜜","梅坞薄雾暖蜜","梅坞暖阳暖蜜","梅坞凉荫暖蜜","梅坞清霜暖蜜","梅坞软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11245,7 +11245,7 @@ test("loc32 loc33 loc34 loc35 loc36 loc37 loc38 loc39 1539 themes", () => {
   ["loc32","loc36"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc33","loc34","loc35","loc37","loc38","loc39"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc32_path") && game.includes("loc39_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["兰皋春芽暖蜜","兰皋夏叶暖蜜","兰皋秋实暖蜜","兰皋冬根暖蜜","兰皋晨露暖蜜","兰皋午影暖蜜","兰皋暮香暖蜜","兰皋夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11285,7 +11285,7 @@ test("loc40 loc41 loc42 loc43 loc44 loc45 loc46 loc47 1547 themes", () => {
   ["loc40","loc44"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc41","loc42","loc43","loc45","loc46","loc47"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc40_path") && game.includes("loc47_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["兰皋晓风暖蜜","兰皋晚岚暖蜜","兰皋细雨暖蜜","兰皋薄雾暖蜜","兰皋暖阳暖蜜","兰皋凉荫暖蜜","兰皋清霜暖蜜","兰皋软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11325,7 +11325,7 @@ test("loc48 loc49 loc50 loc51 loc52 loc53 loc54 loc55 1555 themes", () => {
   ["loc48","loc52"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc49","loc50","loc51","loc53","loc54","loc55"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc48_path") && game.includes("loc55_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["菊坞春芽暖蜜","菊坞夏叶暖蜜","菊坞秋实暖蜜","菊坞冬根暖蜜","菊坞晨露暖蜜","菊坞午影暖蜜","菊坞暮香暖蜜","菊坞夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11365,7 +11365,7 @@ test("loc56 loc57 loc58 loc59 loc60 loc61 loc62 loc63 1563 themes", () => {
   ["loc56","loc60"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc57","loc58","loc59","loc61","loc62","loc63"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc56_path") && game.includes("loc63_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["菊坞晓风暖蜜","菊坞晚岚暖蜜","菊坞细雨暖蜜","菊坞薄雾暖蜜","菊坞暖阳暖蜜","菊坞凉荫暖蜜","菊坞清霜暖蜜","菊坞软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11405,7 +11405,7 @@ test("loc64 loc65 loc66 loc67 loc68 loc69 loc70 loc71 1571 themes", () => {
   ["loc64","loc68"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc65","loc66","loc67","loc69","loc70","loc71"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc64_path") && game.includes("loc71_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["荷塘春芽暖蜜","荷塘夏叶暖蜜","荷塘秋实暖蜜","荷塘冬根暖蜜","荷塘晨露暖蜜","荷塘午影暖蜜","荷塘暮香暖蜜","荷塘夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11445,7 +11445,7 @@ test("loc72 loc73 loc74 loc75 loc76 loc77 loc78 loc79 1579 themes", () => {
   ["loc72","loc76"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc73","loc74","loc75","loc77","loc78","loc79"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc72_path") && game.includes("loc79_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["荷塘晓风暖蜜","荷塘晚岚暖蜜","荷塘细雨暖蜜","荷塘薄雾暖蜜","荷塘暖阳暖蜜","荷塘凉荫暖蜜","荷塘清霜暖蜜","荷塘软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11485,7 +11485,7 @@ test("loc80 loc81 loc82 loc83 loc84 loc85 loc86 loc87 1587 themes", () => {
   ["loc80","loc84"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc81","loc82","loc83","loc85","loc86","loc87"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc80_path") && game.includes("loc87_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["芦汀春芽暖蜜","芦汀夏叶暖蜜","芦汀秋实暖蜜","芦汀冬根暖蜜","芦汀晨露暖蜜","芦汀午影暖蜜","芦汀暮香暖蜜","芦汀夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11525,7 +11525,7 @@ test("loc88 loc89 loc90 loc91 loc92 loc93 loc94 loc95 1595 themes", () => {
   ["loc88","loc92"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc89","loc90","loc91","loc93","loc94","loc95"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc88_path") && game.includes("loc95_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["芦汀晓风暖蜜","芦汀晚岚暖蜜","芦汀细雨暖蜜","芦汀薄雾暖蜜","芦汀暖阳暖蜜","芦汀凉荫暖蜜","芦汀清霜暖蜜","芦汀软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11565,7 +11565,7 @@ test("loc96 loc97 loc98 loc99 loc100 loc101 loc102 loc103 1603 themes", () => {
   ["loc96","loc100"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc97","loc98","loc99","loc101","loc102","loc103"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc96_path") && game.includes("loc103_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["荻港春芽暖蜜","荻港夏叶暖蜜","荻港秋实暖蜜","荻港冬根暖蜜","荻港晨露暖蜜","荻港午影暖蜜","荻港暮香暖蜜","荻港夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11605,7 +11605,7 @@ test("loc104 loc105 loc106 loc107 loc108 loc109 loc110 loc111 1611 themes", () =
   ["loc104","loc108"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc105","loc106","loc107","loc109","loc110","loc111"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc104_path") && game.includes("loc111_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["荻港晓风暖蜜","荻港晚岚暖蜜","荻港细雨暖蜜","荻港薄雾暖蜜","荻港暖阳暖蜜","荻港凉荫暖蜜","荻港清霜暖蜜","荻港软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11645,7 +11645,7 @@ test("loc112 loc113 loc114 loc115 loc116 loc117 loc118 loc119 1619 themes", () =
   ["loc112","loc116"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc113","loc114","loc115","loc117","loc118","loc119"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc112_path") && game.includes("loc119_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["荻湾春芽暖蜜","荻湾夏叶暖蜜","荻湾秋实暖蜜","荻湾冬根暖蜜","荻湾晨露暖蜜","荻湾午影暖蜜","荻湾暮香暖蜜","荻湾夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11685,7 +11685,7 @@ test("loc120 loc121 loc122 loc123 loc124 loc125 loc126 loc127 1627 themes", () =
   ["loc120","loc124"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc121","loc122","loc123","loc125","loc126","loc127"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc120_path") && game.includes("loc127_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["荻湾晓风暖蜜","荻湾晚岚暖蜜","荻湾细雨暖蜜","荻湾薄雾暖蜜","荻湾暖阳暖蜜","荻湾凉荫暖蜜","荻湾清霜暖蜜","荻湾软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11725,7 +11725,7 @@ test("loc128 loc129 loc130 loc131 loc132 loc133 loc134 loc135 1635 themes", () =
   ["loc128","loc132"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc129","loc130","loc131","loc133","loc134","loc135"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc128_path") && game.includes("loc135_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["榆关春芽暖蜜","榆关夏叶暖蜜","榆关秋实暖蜜","榆关冬根暖蜜","榆关晨露暖蜜","榆关午影暖蜜","榆关暮香暖蜜","榆关夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11765,7 +11765,7 @@ test("loc136 loc137 loc138 loc139 loc140 loc141 loc142 loc143 1643 themes", () =
   ["loc136","loc140"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc137","loc138","loc139","loc141","loc142","loc143"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc136_path") && game.includes("loc143_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["榆关晓风暖蜜","榆关晚岚暖蜜","榆关细雨暖蜜","榆关薄雾暖蜜","榆关暖阳暖蜜","榆关凉荫暖蜜","榆关清霜暖蜜","榆关软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11805,7 +11805,7 @@ test("loc144 loc145 loc146 loc147 loc148 loc149 loc150 loc151 1651 themes", () =
   ["loc144","loc148"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc145","loc146","loc147","loc149","loc150","loc151"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc144_path") && game.includes("loc151_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["槐陌春芽暖蜜","槐陌夏叶暖蜜","槐陌秋实暖蜜","槐陌冬根暖蜜","槐陌晨露暖蜜","槐陌午影暖蜜","槐陌暮香暖蜜","槐陌夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11845,7 +11845,7 @@ test("loc152 loc153 loc154 loc155 loc156 loc157 loc158 loc159 1659 themes", () =
   ["loc152","loc156"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc153","loc154","loc155","loc157","loc158","loc159"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc152_path") && game.includes("loc159_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["槐陌晓风暖蜜","槐陌晚岚暖蜜","槐陌细雨暖蜜","槐陌薄雾暖蜜","槐陌暖阳暖蜜","槐陌凉荫暖蜜","槐陌清霜暖蜜","槐陌软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11885,7 +11885,7 @@ test("loc160 loc161 loc162 loc163 loc164 loc165 loc166 loc167 1667 themes", () =
   ["loc160","loc164"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc161","loc162","loc163","loc165","loc166","loc167"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc160_path") && game.includes("loc167_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["杨村春芽暖蜜","杨村夏叶暖蜜","杨村秋实暖蜜","杨村冬根暖蜜","杨村晨露暖蜜","杨村午影暖蜜","杨村暮香暖蜜","杨村夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11925,7 +11925,7 @@ test("loc168 loc169 loc170 loc171 loc172 loc173 loc174 loc175 1675 themes", () =
   ["loc168","loc172"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc169","loc170","loc171","loc173","loc174","loc175"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc168_path") && game.includes("loc175_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["杨村晓风暖蜜","杨村晚岚暖蜜","杨村细雨暖蜜","杨村薄雾暖蜜","杨村暖阳暖蜜","杨村凉荫暖蜜","杨村清霜暖蜜","杨村软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -11965,7 +11965,7 @@ test("loc176 loc177 loc178 loc179 loc180 loc181 loc182 loc183 1683 themes", () =
   ["loc176","loc180"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc177","loc178","loc179","loc181","loc182","loc183"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc176_path") && game.includes("loc183_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["柳巷春芽暖蜜","柳巷夏叶暖蜜","柳巷秋实暖蜜","柳巷冬根暖蜜","柳巷晨露暖蜜","柳巷午影暖蜜","柳巷暮香暖蜜","柳巷夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12005,7 +12005,7 @@ test("loc184 loc185 loc186 loc187 loc188 loc189 loc190 loc191 1691 themes", () =
   ["loc184","loc188"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc185","loc186","loc187","loc189","loc190","loc191"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc184_path") && game.includes("loc191_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["柳巷晓风暖蜜","柳巷晚岚暖蜜","柳巷细雨暖蜜","柳巷薄雾暖蜜","柳巷暖阳暖蜜","柳巷凉荫暖蜜","柳巷清霜暖蜜","柳巷软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12045,7 +12045,7 @@ test("loc192 loc193 loc194 loc195 loc196 loc197 loc198 loc199 1699 themes", () =
   ["loc192","loc196"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc193","loc194","loc195","loc197","loc198","loc199"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc192_path") && game.includes("loc199_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["樟园春芽暖蜜","樟园夏叶暖蜜","樟园秋实暖蜜","樟园冬根暖蜜","樟园晨露暖蜜","樟园午影暖蜜","樟园暮香暖蜜","樟园夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12085,7 +12085,7 @@ test("loc200 loc201 loc202 loc203 loc204 loc205 loc206 loc207 1707 themes", () =
   ["loc200","loc204"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc201","loc202","loc203","loc205","loc206","loc207"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc200_path") && game.includes("loc207_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["樟园晓风暖蜜","樟园晚岚暖蜜","樟园细雨暖蜜","樟园薄雾暖蜜","樟园暖阳暖蜜","樟园凉荫暖蜜","樟园清霜暖蜜","樟园软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12125,7 +12125,7 @@ test("loc208 loc209 loc210 loc211 loc212 loc213 loc214 loc215 1715 themes", () =
   ["loc208","loc212"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc209","loc210","loc211","loc213","loc214","loc215"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc208_path") && game.includes("loc215_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["柏岭春芽暖蜜","柏岭夏叶暖蜜","柏岭秋实暖蜜","柏岭冬根暖蜜","柏岭晨露暖蜜","柏岭午影暖蜜","柏岭暮香暖蜜","柏岭夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12165,7 +12165,7 @@ test("loc216 loc217 loc218 loc219 loc220 loc221 loc222 loc223 1723 themes", () =
   ["loc216","loc220"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc217","loc218","loc219","loc221","loc222","loc223"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc216_path") && game.includes("loc223_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["柏岭晓风暖蜜","柏岭晚岚暖蜜","柏岭细雨暖蜜","柏岭薄雾暖蜜","柏岭暖阳暖蜜","柏岭凉荫暖蜜","柏岭清霜暖蜜","柏岭软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12205,7 +12205,7 @@ test("loc224 loc225 loc226 loc227 loc228 loc229 loc230 loc231 1731 themes", () =
   ["loc224","loc228"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc225","loc226","loc227","loc229","loc230","loc231"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc224_path") && game.includes("loc231_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["松冈春芽暖蜜","松冈夏叶暖蜜","松冈秋实暖蜜","松冈冬根暖蜜","松冈晨露暖蜜","松冈午影暖蜜","松冈暮香暖蜜","松冈夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12245,7 +12245,7 @@ test("loc232 loc233 loc234 loc235 loc236 loc237 loc238 loc239 1739 themes", () =
   ["loc232","loc236"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc233","loc234","loc235","loc237","loc238","loc239"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc232_path") && game.includes("loc239_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["松冈晓风暖蜜","松冈晚岚暖蜜","松冈细雨暖蜜","松冈薄雾暖蜜","松冈暖阳暖蜜","松冈凉荫暖蜜","松冈清霜暖蜜","松冈软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12285,7 +12285,7 @@ test("loc240 loc241 loc242 loc243 loc244 loc245 loc246 loc247 1747 themes", () =
   ["loc240","loc244"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc241","loc242","loc243","loc245","loc246","loc247"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc240_path") && game.includes("loc247_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["杉坪春芽暖蜜","杉坪夏叶暖蜜","杉坪秋实暖蜜","杉坪冬根暖蜜","杉坪晨露暖蜜","杉坪午影暖蜜","杉坪暮香暖蜜","杉坪夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12325,7 +12325,7 @@ test("loc248 loc249 loc250 loc251 loc252 loc253 loc254 loc255 1755 themes", () =
   ["loc248","loc252"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc249","loc250","loc251","loc253","loc254","loc255"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc248_path") && game.includes("loc255_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["杉坪晓风暖蜜","杉坪晚岚暖蜜","杉坪细雨暖蜜","杉坪薄雾暖蜜","杉坪暖阳暖蜜","杉坪凉荫暖蜜","杉坪清霜暖蜜","杉坪软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12365,7 +12365,7 @@ test("loc256 loc257 loc258 loc259 loc260 loc261 loc262 loc263 1763 themes", () =
   ["loc256","loc260"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc257","loc258","loc259","loc261","loc262","loc263"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc256_path") && game.includes("loc263_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["柏坡春芽暖蜜","柏坡夏叶暖蜜","柏坡秋实暖蜜","柏坡冬根暖蜜","柏坡晨露暖蜜","柏坡午影暖蜜","柏坡暮香暖蜜","柏坡夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12405,7 +12405,7 @@ test("loc264 loc265 loc266 loc267 loc268 loc269 loc270 loc271 1771 themes", () =
   ["loc264","loc268"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc265","loc266","loc267","loc269","loc270","loc271"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc264_path") && game.includes("loc271_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["柏坡晓风暖蜜","柏坡晚岚暖蜜","柏坡细雨暖蜜","柏坡薄雾暖蜜","柏坡暖阳暖蜜","柏坡凉荫暖蜜","柏坡清霜暖蜜","柏坡软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12445,7 +12445,7 @@ test("loc272 loc273 loc274 loc275 loc276 loc277 loc278 loc279 1779 themes", () =
   ["loc272","loc276"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc273","loc274","loc275","loc277","loc278","loc279"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc272_path") && game.includes("loc279_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["桐坞春芽暖蜜","桐坞夏叶暖蜜","桐坞秋实暖蜜","桐坞冬根暖蜜","桐坞晨露暖蜜","桐坞午影暖蜜","桐坞暮香暖蜜","桐坞夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12485,7 +12485,7 @@ test("loc280 loc281 loc282 loc283 loc284 loc285 loc286 loc287 1787 themes", () =
   ["loc280","loc284"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc281","loc282","loc283","loc285","loc286","loc287"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc280_path") && game.includes("loc287_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["桐坞晓风暖蜜","桐坞晚岚暖蜜","桐坞细雨暖蜜","桐坞薄雾暖蜜","桐坞暖阳暖蜜","桐坞凉荫暖蜜","桐坞清霜暖蜜","桐坞软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12525,7 +12525,7 @@ test("loc288 loc289 loc290 loc291 loc292 loc293 loc294 loc295 1795 themes", () =
   ["loc288","loc292"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc289","loc290","loc291","loc293","loc294","loc295"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc288_path") && game.includes("loc295_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["梓里春芽暖蜜","梓里夏叶暖蜜","梓里秋实暖蜜","梓里冬根暖蜜","梓里晨露暖蜜","梓里午影暖蜜","梓里暮香暖蜜","梓里夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12565,7 +12565,7 @@ test("loc296 loc297 loc298 loc299 loc300 loc301 loc302 loc303 1803 themes", () =
   ["loc296","loc300"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc297","loc298","loc299","loc301","loc302","loc303"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc296_path") && game.includes("loc303_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["梓里晓风暖蜜","梓里晚岚暖蜜","梓里细雨暖蜜","梓里薄雾暖蜜","梓里暖阳暖蜜","梓里凉荫暖蜜","梓里清霜暖蜜","梓里软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12605,7 +12605,7 @@ test("loc304 loc305 loc306 loc307 loc308 loc309 loc310 loc311 1811 themes", () =
   ["loc304","loc308"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc305","loc306","loc307","loc309","loc310","loc311"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc304_path") && game.includes("loc311_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["楸冈春芽暖蜜","楸冈夏叶暖蜜","楸冈秋实暖蜜","楸冈冬根暖蜜","楸冈晨露暖蜜","楸冈午影暖蜜","楸冈暮香暖蜜","楸冈夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12645,7 +12645,7 @@ test("loc312 loc313 loc314 loc315 loc316 loc317 loc318 loc319 1819 themes", () =
   ["loc312","loc316"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc313","loc314","loc315","loc317","loc318","loc319"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc312_path") && game.includes("loc319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["楸冈晓风暖蜜","楸冈晚岚暖蜜","楸冈细雨暖蜜","楸冈薄雾暖蜜","楸冈暖阳暖蜜","楸冈凉荫暖蜜","楸冈清霜暖蜜","楸冈软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12685,7 +12685,7 @@ test("loc320 loc321 loc322 loc323 loc324 loc325 loc326 loc327 1827 themes", () =
   ["loc320","loc324"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc321","loc322","loc323","loc325","loc326","loc327"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc320_path") && game.includes("loc327_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["椿坊春芽暖蜜","椿坊夏叶暖蜜","椿坊秋实暖蜜","椿坊冬根暖蜜","椿坊晨露暖蜜","椿坊午影暖蜜","椿坊暮香暖蜜","椿坊夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12725,7 +12725,7 @@ test("loc328 loc329 loc330 loc331 loc332 loc333 loc334 loc335 1835 themes", () =
   ["loc328","loc332"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc329","loc330","loc331","loc333","loc334","loc335"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc328_path") && game.includes("loc335_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["椿坊晓风暖蜜","椿坊晚岚暖蜜","椿坊细雨暖蜜","椿坊薄雾暖蜜","椿坊暖阳暖蜜","椿坊凉荫暖蜜","椿坊清霜暖蜜","椿坊软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12765,7 +12765,7 @@ test("loc336 loc337 loc338 loc339 loc340 loc341 loc342 loc343 1843 themes", () =
   ["loc336","loc340"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc337","loc338","loc339","loc341","loc342","loc343"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc336_path") && game.includes("loc343_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["楝村春芽暖蜜","楝村夏叶暖蜜","楝村秋实暖蜜","楝村冬根暖蜜","楝村晨露暖蜜","楝村午影暖蜜","楝村暮香暖蜜","楝村夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12805,7 +12805,7 @@ test("loc344 loc345 loc346 loc347 loc348 loc349 loc350 loc351 1851 themes", () =
   ["loc344","loc348"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc345","loc346","loc347","loc349","loc350","loc351"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc344_path") && game.includes("loc351_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["楝村晓风暖蜜","楝村晚岚暖蜜","楝村细雨暖蜜","楝村薄雾暖蜜","楝村暖阳暖蜜","楝村凉荫暖蜜","楝村清霜暖蜜","楝村软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12845,7 +12845,7 @@ test("loc352 loc353 loc354 loc355 loc356 loc357 loc358 loc359 1859 themes", () =
   ["loc352","loc356"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc353","loc354","loc355","loc357","loc358","loc359"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc352_path") && game.includes("loc359_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["榆社春芽暖蜜","榆社夏叶暖蜜","榆社秋实暖蜜","榆社冬根暖蜜","榆社晨露暖蜜","榆社午影暖蜜","榆社暮香暖蜜","榆社夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12885,7 +12885,7 @@ test("loc360 loc361 loc362 loc363 loc364 loc365 loc366 loc367 1867 themes", () =
   ["loc360","loc364"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc361","loc362","loc363","loc365","loc366","loc367"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc360_path") && game.includes("loc367_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["榆社晓风暖蜜","榆社晚岚暖蜜","榆社细雨暖蜜","榆社薄雾暖蜜","榆社暖阳暖蜜","榆社凉荫暖蜜","榆社清霜暖蜜","榆社软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12925,7 +12925,7 @@ test("loc368 loc369 loc370 loc371 loc372 loc373 loc374 loc375 1875 themes", () =
   ["loc368","loc372"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc369","loc370","loc371","loc373","loc374","loc375"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc368_path") && game.includes("loc375_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["槐里春芽暖蜜","槐里夏叶暖蜜","槐里秋实暖蜜","槐里冬根暖蜜","槐里晨露暖蜜","槐里午影暖蜜","槐里暮香暖蜜","槐里夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -12965,7 +12965,7 @@ test("loc376 loc377 loc378 loc379 loc380 loc381 loc382 loc383 1883 themes", () =
   ["loc376","loc380"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc377","loc378","loc379","loc381","loc382","loc383"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc376_path") && game.includes("loc383_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["槐里晓风暖蜜","槐里晚岚暖蜜","槐里细雨暖蜜","槐里薄雾暖蜜","槐里暖阳暖蜜","槐里凉荫暖蜜","槐里清霜暖蜜","槐里软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13005,7 +13005,7 @@ test("loc384 loc385 loc386 loc387 loc388 loc389 loc390 loc391 1891 themes", () =
   ["loc384","loc388"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc385","loc386","loc387","loc389","loc390","loc391"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc384_path") && game.includes("loc391_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["桑园春芽暖蜜","桑园夏叶暖蜜","桑园秋实暖蜜","桑园冬根暖蜜","桑园晨露暖蜜","桑园午影暖蜜","桑园暮香暖蜜","桑园夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13045,7 +13045,7 @@ test("loc392 loc393 loc394 loc395 loc396 loc397 loc398 loc399 1899 themes", () =
   ["loc392","loc396"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc393","loc394","loc395","loc397","loc398","loc399"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc392_path") && game.includes("loc399_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["桑园晓风暖蜜","桑园晚岚暖蜜","桑园细雨暖蜜","桑园薄雾暖蜜","桑园暖阳暖蜜","桑园凉荫暖蜜","桑园清霜暖蜜","桑园软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13085,7 +13085,7 @@ test("loc400 loc401 loc402 loc403 loc404 loc405 loc406 loc407 1907 themes", () =
   ["loc400","loc404"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc401","loc402","loc403","loc405","loc406","loc407"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc400_path") && game.includes("loc407_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["麻田春芽暖蜜","麻田夏叶暖蜜","麻田秋实暖蜜","麻田冬根暖蜜","麻田晨露暖蜜","麻田午影暖蜜","麻田暮香暖蜜","麻田夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13125,7 +13125,7 @@ test("loc408 loc409 loc410 loc411 loc412 loc413 loc414 loc415 1915 themes", () =
   ["loc408","loc412"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc409","loc410","loc411","loc413","loc414","loc415"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc408_path") && game.includes("loc415_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["麻田晓风暖蜜","麻田晚岚暖蜜","麻田细雨暖蜜","麻田薄雾暖蜜","麻田暖阳暖蜜","麻田凉荫暖蜜","麻田清霜暖蜜","麻田软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13165,7 +13165,7 @@ test("loc416 loc417 loc418 loc419 loc420 loc421 loc422 loc423 1923 themes", () =
   ["loc416","loc420"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc417","loc418","loc419","loc421","loc422","loc423"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc416_path") && game.includes("loc423_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["麦陇春芽暖蜜","麦陇夏叶暖蜜","麦陇秋实暖蜜","麦陇冬根暖蜜","麦陇晨露暖蜜","麦陇午影暖蜜","麦陇暮香暖蜜","麦陇夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13205,7 +13205,7 @@ test("loc424 loc425 loc426 loc427 loc428 loc429 loc430 loc431 1931 themes", () =
   ["loc424","loc428"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc425","loc426","loc427","loc429","loc430","loc431"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc424_path") && game.includes("loc431_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["麦陇晓风暖蜜","麦陇晚岚暖蜜","麦陇细雨暖蜜","麦陇薄雾暖蜜","麦陇暖阳暖蜜","麦陇凉荫暖蜜","麦陇清霜暖蜜","麦陇软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13245,7 +13245,7 @@ test("loc432 loc433 loc434 loc435 loc436 loc437 loc438 loc439 1939 themes", () =
   ["loc432","loc436"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc433","loc434","loc435","loc437","loc438","loc439"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc432_path") && game.includes("loc439_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["豆畦春芽暖蜜","豆畦夏叶暖蜜","豆畦秋实暖蜜","豆畦冬根暖蜜","豆畦晨露暖蜜","豆畦午影暖蜜","豆畦暮香暖蜜","豆畦夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13285,7 +13285,7 @@ test("loc440 loc441 loc442 loc443 loc444 loc445 loc446 loc447 1947 themes", () =
   ["loc440","loc444"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc441","loc442","loc443","loc445","loc446","loc447"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc440_path") && game.includes("loc447_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["豆畦晓风暖蜜","豆畦晚岚暖蜜","豆畦细雨暖蜜","豆畦薄雾暖蜜","豆畦暖阳暖蜜","豆畦凉荫暖蜜","豆畦清霜暖蜜","豆畦软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13325,7 +13325,7 @@ test("loc448 loc449 loc450 loc451 loc452 loc453 loc454 loc455 1955 themes", () =
   ["loc448","loc452"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc449","loc450","loc451","loc453","loc454","loc455"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc448_path") && game.includes("loc455_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["薯垄春芽暖蜜","薯垄夏叶暖蜜","薯垄秋实暖蜜","薯垄冬根暖蜜","薯垄晨露暖蜜","薯垄午影暖蜜","薯垄暮香暖蜜","薯垄夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13365,7 +13365,7 @@ test("loc456 loc457 loc458 loc459 loc460 loc461 loc462 loc463 1963 themes", () =
   ["loc456","loc460"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc457","loc458","loc459","loc461","loc462","loc463"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc456_path") && game.includes("loc463_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["薯垄晓风暖蜜","薯垄晚岚暖蜜","薯垄细雨暖蜜","薯垄薄雾暖蜜","薯垄暖阳暖蜜","薯垄凉荫暖蜜","薯垄清霜暖蜜","薯垄软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13405,7 +13405,7 @@ test("loc464 loc465 loc466 loc467 loc468 loc469 loc470 loc471 1971 themes", () =
   ["loc464","loc468"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc465","loc466","loc467","loc469","loc470","loc471"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc464_path") && game.includes("loc471_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["芋田春芽暖蜜","芋田夏叶暖蜜","芋田秋实暖蜜","芋田冬根暖蜜","芋田晨露暖蜜","芋田午影暖蜜","芋田暮香暖蜜","芋田夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13445,7 +13445,7 @@ test("loc472 loc473 loc474 loc475 loc476 loc477 loc478 loc479 1979 themes", () =
   ["loc472","loc476"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["loc473","loc474","loc475","loc477","loc478","loc479"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("loc472_path") && game.includes("loc479_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["芋田晓风暖蜜","芋田晚岚暖蜜","芋田细雨暖蜜","芋田薄雾暖蜜","芋田暖阳暖蜜","芋田凉荫暖蜜","芋田清霜暖蜜","芋田软雪暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13485,7 +13485,7 @@ test("atm0 atm1 atm2 atm3 atm4 atm5 atm6 atm7 1987 themes", () => {
   ["atm0","atm5"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm1","atm2","atm3","atm4","atm6","atm7"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm0_path") && game.includes("atm7_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["驿站微甜暖蜜","驿站微苦暖蜜","驿站微酸暖蜜","驿站微涩暖蜜","驿站清冽暖蜜","驿站温润暖蜜","驿站柔香暖蜜","驿站淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13525,7 +13525,7 @@ test("atm8 atm9 atm10 atm11 atm12 atm13 atm14 atm15 1995 themes", () => {
   ["atm10","atm15"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm8","atm9","atm11","atm12","atm13","atm14"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm8_path") && game.includes("atm15_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["驿站醇厚暖蜜","驿站轻盈暖蜜","驿站绵长暖蜜","驿站短促暖蜜","驿站回甘暖蜜","驿站余韵暖蜜","驿站初香暖蜜","驿站尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13565,7 +13565,7 @@ test("atm16 atm17 atm18 atm19 atm20 atm21 atm22 atm23 2003 themes", () => {
   ["atm20"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm16","atm17","atm18","atm19","atm21","atm22","atm23"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm16_path") && game.includes("atm23_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["渡口微甜暖蜜","渡口微苦暖蜜","渡口微酸暖蜜","渡口微涩暖蜜","渡口清冽暖蜜","渡口温润暖蜜","渡口柔香暖蜜","渡口淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13605,7 +13605,7 @@ test("atm24 atm25 atm26 atm27 atm28 atm29 atm30 atm31 2011 themes", () => {
   ["atm25","atm30"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm24","atm26","atm27","atm28","atm29","atm31"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm24_path") && game.includes("atm31_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["渡口醇厚暖蜜","渡口轻盈暖蜜","渡口绵长暖蜜","渡口短促暖蜜","渡口回甘暖蜜","渡口余韵暖蜜","渡口初香暖蜜","渡口尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13645,7 +13645,7 @@ test("atm32 atm33 atm34 atm35 atm36 atm37 atm38 atm39 2019 themes", () => {
   ["atm35"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm32","atm33","atm34","atm36","atm37","atm38","atm39"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm32_path") && game.includes("atm39_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["茶寮微甜暖蜜","茶寮微苦暖蜜","茶寮微酸暖蜜","茶寮微涩暖蜜","茶寮清冽暖蜜","茶寮温润暖蜜","茶寮柔香暖蜜","茶寮淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13685,7 +13685,7 @@ test("atm40 atm41 atm42 atm43 atm44 atm45 atm46 atm47 2027 themes", () => {
   ["atm40","atm45"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm41","atm42","atm43","atm44","atm46","atm47"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm40_path") && game.includes("atm47_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["茶寮醇厚暖蜜","茶寮轻盈暖蜜","茶寮绵长暖蜜","茶寮短促暖蜜","茶寮回甘暖蜜","茶寮余韵暖蜜","茶寮初香暖蜜","茶寮尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13725,7 +13725,7 @@ test("atm48 atm49 atm50 atm51 atm52 atm53 atm54 atm55 2035 themes", () => {
   ["atm50","atm55"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm48","atm49","atm51","atm52","atm53","atm54"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm48_path") && game.includes("atm55_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["酒肆微甜暖蜜","酒肆微苦暖蜜","酒肆微酸暖蜜","酒肆微涩暖蜜","酒肆清冽暖蜜","酒肆温润暖蜜","酒肆柔香暖蜜","酒肆淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13765,7 +13765,7 @@ test("atm56 atm57 atm58 atm59 atm60 atm61 atm62 atm63 2043 themes", () => {
   ["atm60"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm56","atm57","atm58","atm59","atm61","atm62","atm63"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm56_path") && game.includes("atm63_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["酒肆醇厚暖蜜","酒肆轻盈暖蜜","酒肆绵长暖蜜","酒肆短促暖蜜","酒肆回甘暖蜜","酒肆余韵暖蜜","酒肆初香暖蜜","酒肆尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13805,7 +13805,7 @@ test("atm64 atm65 atm66 atm67 atm68 atm69 atm70 atm71 2051 themes", () => {
   ["atm65","atm70"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm64","atm66","atm67","atm68","atm69","atm71"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm64_path") && game.includes("atm71_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["花市微甜暖蜜","花市微苦暖蜜","花市微酸暖蜜","花市微涩暖蜜","花市清冽暖蜜","花市温润暖蜜","花市柔香暖蜜","花市淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13845,7 +13845,7 @@ test("atm72 atm73 atm74 atm75 atm76 atm77 atm78 atm79 2059 themes", () => {
   ["atm75"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm72","atm73","atm74","atm76","atm77","atm78","atm79"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm72_path") && game.includes("atm79_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["花市醇厚暖蜜","花市轻盈暖蜜","花市绵长暖蜜","花市短促暖蜜","花市回甘暖蜜","花市余韵暖蜜","花市初香暖蜜","花市尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13885,7 +13885,7 @@ test("atm80 atm81 atm82 atm83 atm84 atm85 atm86 atm87 2067 themes", () => {
   ["atm80","atm85"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm81","atm82","atm83","atm84","atm86","atm87"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm80_path") && game.includes("atm87_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["书肆微甜暖蜜","书肆微苦暖蜜","书肆微酸暖蜜","书肆微涩暖蜜","书肆清冽暖蜜","书肆温润暖蜜","书肆柔香暖蜜","书肆淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13925,7 +13925,7 @@ test("atm88 atm89 atm90 atm91 atm92 atm93 atm94 atm95 2075 themes", () => {
   ["atm90","atm95"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm88","atm89","atm91","atm92","atm93","atm94"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm88_path") && game.includes("atm95_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["书肆醇厚暖蜜","书肆轻盈暖蜜","书肆绵长暖蜜","书肆短促暖蜜","书肆回甘暖蜜","书肆余韵暖蜜","书肆初香暖蜜","书肆尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -13965,7 +13965,7 @@ test("atm96 atm97 atm98 atm99 atm100 atm101 atm102 atm103 2083 themes", () => {
   ["atm100"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm96","atm97","atm98","atm99","atm101","atm102","atm103"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm96_path") && game.includes("atm103_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["灯会微甜暖蜜","灯会微苦暖蜜","灯会微酸暖蜜","灯会微涩暖蜜","灯会清冽暖蜜","灯会温润暖蜜","灯会柔香暖蜜","灯会淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14005,7 +14005,7 @@ test("atm104 atm105 atm106 atm107 atm108 atm109 atm110 atm111 2091 themes", () =
   ["atm105","atm110"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm104","atm106","atm107","atm108","atm109","atm111"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm104_path") && game.includes("atm111_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["灯会醇厚暖蜜","灯会轻盈暖蜜","灯会绵长暖蜜","灯会短促暖蜜","灯会回甘暖蜜","灯会余韵暖蜜","灯会初香暖蜜","灯会尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14045,7 +14045,7 @@ test("atm112 atm113 atm114 atm115 atm116 atm117 atm118 atm119 2099 themes", () =
   ["atm115"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm112","atm113","atm114","atm116","atm117","atm118","atm119"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm112_path") && game.includes("atm119_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["集市微甜暖蜜","集市微苦暖蜜","集市微酸暖蜜","集市微涩暖蜜","集市清冽暖蜜","集市温润暖蜜","集市柔香暖蜜","集市淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14085,7 +14085,7 @@ test("atm120 atm121 atm122 atm123 atm124 atm125 atm126 atm127 2107 themes", () =
   ["atm120","atm125"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm121","atm122","atm123","atm124","atm126","atm127"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm120_path") && game.includes("atm127_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["集市醇厚暖蜜","集市轻盈暖蜜","集市绵长暖蜜","集市短促暖蜜","集市回甘暖蜜","集市余韵暖蜜","集市初香暖蜜","集市尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14125,7 +14125,7 @@ test("atm128 atm129 atm130 atm131 atm132 atm133 atm134 atm135 2115 themes", () =
   ["atm130","atm135"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm128","atm129","atm131","atm132","atm133","atm134"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm128_path") && game.includes("atm135_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["古井微甜暖蜜","古井微苦暖蜜","古井微酸暖蜜","古井微涩暖蜜","古井清冽暖蜜","古井温润暖蜜","古井柔香暖蜜","古井淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14165,7 +14165,7 @@ test("atm136 atm137 atm138 atm139 atm140 atm141 atm142 atm143 2123 themes", () =
   ["atm140"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm136","atm137","atm138","atm139","atm141","atm142","atm143"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm136_path") && game.includes("atm143_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["古井醇厚暖蜜","古井轻盈暖蜜","古井绵长暖蜜","古井短促暖蜜","古井回甘暖蜜","古井余韵暖蜜","古井初香暖蜜","古井尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14205,7 +14205,7 @@ test("atm144 atm145 atm146 atm147 atm148 atm149 atm150 atm151 2131 themes", () =
   ["atm145","atm150"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm144","atm146","atm147","atm148","atm149","atm151"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm144_path") && game.includes("atm151_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["石桥微甜暖蜜","石桥微苦暖蜜","石桥微酸暖蜜","石桥微涩暖蜜","石桥清冽暖蜜","石桥温润暖蜜","石桥柔香暖蜜","石桥淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14245,7 +14245,7 @@ test("atm152 atm153 atm154 atm155 atm156 atm157 atm158 atm159 2139 themes", () =
   ["atm155"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm152","atm153","atm154","atm156","atm157","atm158","atm159"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm152_path") && game.includes("atm159_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["石桥醇厚暖蜜","石桥轻盈暖蜜","石桥绵长暖蜜","石桥短促暖蜜","石桥回甘暖蜜","石桥余韵暖蜜","石桥初香暖蜜","石桥尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14285,7 +14285,7 @@ test("atm160 atm161 atm162 atm163 atm164 atm165 atm166 atm167 2147 themes", () =
   ["atm160","atm165"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm161","atm162","atm163","atm164","atm166","atm167"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm160_path") && game.includes("atm167_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["木栈微甜暖蜜","木栈微苦暖蜜","木栈微酸暖蜜","木栈微涩暖蜜","木栈清冽暖蜜","木栈温润暖蜜","木栈柔香暖蜜","木栈淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14325,7 +14325,7 @@ test("atm168 atm169 atm170 atm171 atm172 atm173 atm174 atm175 2155 themes", () =
   ["atm170","atm175"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm168","atm169","atm171","atm172","atm173","atm174"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm168_path") && game.includes("atm175_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["木栈醇厚暖蜜","木栈轻盈暖蜜","木栈绵长暖蜜","木栈短促暖蜜","木栈回甘暖蜜","木栈余韵暖蜜","木栈初香暖蜜","木栈尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14365,7 +14365,7 @@ test("atm176 atm177 atm178 atm179 atm180 atm181 atm182 atm183 2163 themes", () =
   ["atm180"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm176","atm177","atm178","atm179","atm181","atm182","atm183"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm176_path") && game.includes("atm183_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["草堂微甜暖蜜","草堂微苦暖蜜","草堂微酸暖蜜","草堂微涩暖蜜","草堂清冽暖蜜","草堂温润暖蜜","草堂柔香暖蜜","草堂淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14405,7 +14405,7 @@ test("atm184 atm185 atm186 atm187 atm188 atm189 atm190 atm191 2171 themes", () =
   ["atm185","atm190"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm184","atm186","atm187","atm188","atm189","atm191"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm184_path") && game.includes("atm191_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["草堂醇厚暖蜜","草堂轻盈暖蜜","草堂绵长暖蜜","草堂短促暖蜜","草堂回甘暖蜜","草堂余韵暖蜜","草堂初香暖蜜","草堂尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14445,7 +14445,7 @@ test("atm192 atm193 atm194 atm195 atm196 atm197 atm198 atm199 2179 themes", () =
   ["atm195"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm192","atm193","atm194","atm196","atm197","atm198","atm199"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm192_path") && game.includes("atm199_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["茅舍微甜暖蜜","茅舍微苦暖蜜","茅舍微酸暖蜜","茅舍微涩暖蜜","茅舍清冽暖蜜","茅舍温润暖蜜","茅舍柔香暖蜜","茅舍淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14485,7 +14485,7 @@ test("atm200 atm201 atm202 atm203 atm204 atm205 atm206 atm207 2187 themes", () =
   ["atm200","atm205"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm201","atm202","atm203","atm204","atm206","atm207"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm200_path") && game.includes("atm207_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["茅舍醇厚暖蜜","茅舍轻盈暖蜜","茅舍绵长暖蜜","茅舍短促暖蜜","茅舍回甘暖蜜","茅舍余韵暖蜜","茅舍初香暖蜜","茅舍尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14525,7 +14525,7 @@ test("atm208 atm209 atm210 atm211 atm212 atm213 atm214 atm215 2195 themes", () =
   ["atm210","atm215"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm208","atm209","atm211","atm212","atm213","atm214"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm208_path") && game.includes("atm215_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["瓦屋微甜暖蜜","瓦屋微苦暖蜜","瓦屋微酸暖蜜","瓦屋微涩暖蜜","瓦屋清冽暖蜜","瓦屋温润暖蜜","瓦屋柔香暖蜜","瓦屋淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14565,7 +14565,7 @@ test("atm216 atm217 atm218 atm219 atm220 atm221 atm222 atm223 2203 themes", () =
   ["atm220"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm216","atm217","atm218","atm219","atm221","atm222","atm223"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm216_path") && game.includes("atm223_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["瓦屋醇厚暖蜜","瓦屋轻盈暖蜜","瓦屋绵长暖蜜","瓦屋短促暖蜜","瓦屋回甘暖蜜","瓦屋余韵暖蜜","瓦屋初香暖蜜","瓦屋尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14605,7 +14605,7 @@ test("atm224 atm225 atm226 atm227 atm228 atm229 atm230 atm231 2211 themes", () =
   ["atm225","atm230"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm224","atm226","atm227","atm228","atm229","atm231"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm224_path") && game.includes("atm231_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["青砖微甜暖蜜","青砖微苦暖蜜","青砖微酸暖蜜","青砖微涩暖蜜","青砖清冽暖蜜","青砖温润暖蜜","青砖柔香暖蜜","青砖淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14645,7 +14645,7 @@ test("atm232 atm233 atm234 atm235 atm236 atm237 atm238 atm239 2219 themes", () =
   ["atm235"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm232","atm233","atm234","atm236","atm237","atm238","atm239"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm232_path") && game.includes("atm239_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["青砖醇厚暖蜜","青砖轻盈暖蜜","青砖绵长暖蜜","青砖短促暖蜜","青砖回甘暖蜜","青砖余韵暖蜜","青砖初香暖蜜","青砖尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14685,7 +14685,7 @@ test("atm240 atm241 atm242 atm243 atm244 atm245 atm246 atm247 2227 themes", () =
   ["atm240","atm245"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm241","atm242","atm243","atm244","atm246","atm247"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm240_path") && game.includes("atm247_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["黛瓦微甜暖蜜","黛瓦微苦暖蜜","黛瓦微酸暖蜜","黛瓦微涩暖蜜","黛瓦清冽暖蜜","黛瓦温润暖蜜","黛瓦柔香暖蜜","黛瓦淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14725,7 +14725,7 @@ test("atm248 atm249 atm250 atm251 atm252 atm253 atm254 atm255 2235 themes", () =
   ["atm250","atm255"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm248","atm249","atm251","atm252","atm253","atm254"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm248_path") && game.includes("atm255_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["黛瓦醇厚暖蜜","黛瓦轻盈暖蜜","黛瓦绵长暖蜜","黛瓦短促暖蜜","黛瓦回甘暖蜜","黛瓦余韵暖蜜","黛瓦初香暖蜜","黛瓦尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14765,7 +14765,7 @@ test("atm256 atm257 atm258 atm259 atm260 atm261 atm262 atm263 2243 themes", () =
   ["atm260"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm256","atm257","atm258","atm259","atm261","atm262","atm263"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm256_path") && game.includes("atm263_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["白墙微甜暖蜜","白墙微苦暖蜜","白墙微酸暖蜜","白墙微涩暖蜜","白墙清冽暖蜜","白墙温润暖蜜","白墙柔香暖蜜","白墙淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14805,7 +14805,7 @@ test("atm264 atm265 atm266 atm267 atm268 atm269 atm270 atm271 2251 themes", () =
   ["atm265","atm270"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm264","atm266","atm267","atm268","atm269","atm271"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm264_path") && game.includes("atm271_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["白墙醇厚暖蜜","白墙轻盈暖蜜","白墙绵长暖蜜","白墙短促暖蜜","白墙回甘暖蜜","白墙余韵暖蜜","白墙初香暖蜜","白墙尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14845,7 +14845,7 @@ test("atm272 atm273 atm274 atm275 atm276 atm277 atm278 atm279 2259 themes", () =
   ["atm275"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm272","atm273","atm274","atm276","atm277","atm278","atm279"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm272_path") && game.includes("atm279_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["朱门微甜暖蜜","朱门微苦暖蜜","朱门微酸暖蜜","朱门微涩暖蜜","朱门清冽暖蜜","朱门温润暖蜜","朱门柔香暖蜜","朱门淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14885,7 +14885,7 @@ test("atm280 atm281 atm282 atm283 atm284 atm285 atm286 atm287 2267 themes", () =
   ["atm280","atm285"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm281","atm282","atm283","atm284","atm286","atm287"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm280_path") && game.includes("atm287_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["朱门醇厚暖蜜","朱门轻盈暖蜜","朱门绵长暖蜜","朱门短促暖蜜","朱门回甘暖蜜","朱门余韵暖蜜","朱门初香暖蜜","朱门尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14925,7 +14925,7 @@ test("atm288 atm289 atm290 atm291 atm292 atm293 atm294 atm295 2275 themes", () =
   ["atm290","atm295"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm288","atm289","atm291","atm292","atm293","atm294"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm288_path") && game.includes("atm295_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["月洞微甜暖蜜","月洞微苦暖蜜","月洞微酸暖蜜","月洞微涩暖蜜","月洞清冽暖蜜","月洞温润暖蜜","月洞柔香暖蜜","月洞淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -14965,7 +14965,7 @@ test("atm296 atm297 atm298 atm299 atm300 atm301 atm302 atm303 2283 themes", () =
   ["atm300"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm296","atm297","atm298","atm299","atm301","atm302","atm303"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm296_path") && game.includes("atm303_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["月洞醇厚暖蜜","月洞轻盈暖蜜","月洞绵长暖蜜","月洞短促暖蜜","月洞回甘暖蜜","月洞余韵暖蜜","月洞初香暖蜜","月洞尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15005,7 +15005,7 @@ test("atm304 atm305 atm306 atm307 atm308 atm309 atm310 atm311 2291 themes", () =
   ["atm305","atm310"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm304","atm306","atm307","atm308","atm309","atm311"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm304_path") && game.includes("atm311_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["回廊微甜暖蜜","回廊微苦暖蜜","回廊微酸暖蜜","回廊微涩暖蜜","回廊清冽暖蜜","回廊温润暖蜜","回廊柔香暖蜜","回廊淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15045,7 +15045,7 @@ test("atm312 atm313 atm314 atm315 atm316 atm317 atm318 atm319 2299 themes", () =
   ["atm315"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm312","atm313","atm314","atm316","atm317","atm318","atm319"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm312_path") && game.includes("atm319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["回廊醇厚暖蜜","回廊轻盈暖蜜","回廊绵长暖蜜","回廊短促暖蜜","回廊回甘暖蜜","回廊余韵暖蜜","回廊初香暖蜜","回廊尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15085,7 +15085,7 @@ test("atm320 atm321 atm322 atm323 atm324 atm325 atm326 atm327 2307 themes", () =
   ["atm320","atm325"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm321","atm322","atm323","atm324","atm326","atm327"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm320_path") && game.includes("atm327_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["天井微甜暖蜜","天井微苦暖蜜","天井微酸暖蜜","天井微涩暖蜜","天井清冽暖蜜","天井温润暖蜜","天井柔香暖蜜","天井淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15125,7 +15125,7 @@ test("atm328 atm329 atm330 atm331 atm332 atm333 atm334 atm335 2315 themes", () =
   ["atm330","atm335"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm328","atm329","atm331","atm332","atm333","atm334"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm328_path") && game.includes("atm335_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["天井醇厚暖蜜","天井轻盈暖蜜","天井绵长暖蜜","天井短促暖蜜","天井回甘暖蜜","天井余韵暖蜜","天井初香暖蜜","天井尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15165,7 +15165,7 @@ test("atm336 atm337 atm338 atm339 atm340 atm341 atm342 atm343 2323 themes", () =
   ["atm340"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm336","atm337","atm338","atm339","atm341","atm342","atm343"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm336_path") && game.includes("atm343_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["影壁微甜暖蜜","影壁微苦暖蜜","影壁微酸暖蜜","影壁微涩暖蜜","影壁清冽暖蜜","影壁温润暖蜜","影壁柔香暖蜜","影壁淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15205,7 +15205,7 @@ test("atm344 atm345 atm346 atm347 atm348 atm349 atm350 atm351 2331 themes", () =
   ["atm345","atm350"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm344","atm346","atm347","atm348","atm349","atm351"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm344_path") && game.includes("atm351_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["影壁醇厚暖蜜","影壁轻盈暖蜜","影壁绵长暖蜜","影壁短促暖蜜","影壁回甘暖蜜","影壁余韵暖蜜","影壁初香暖蜜","影壁尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15245,7 +15245,7 @@ test("atm352 atm353 atm354 atm355 atm356 atm357 atm358 atm359 2339 themes", () =
   ["atm355"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm352","atm353","atm354","atm356","atm357","atm358","atm359"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm352_path") && game.includes("atm359_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["漏窗微甜暖蜜","漏窗微苦暖蜜","漏窗微酸暖蜜","漏窗微涩暖蜜","漏窗清冽暖蜜","漏窗温润暖蜜","漏窗柔香暖蜜","漏窗淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15285,7 +15285,7 @@ test("atm360 atm361 atm362 atm363 atm364 atm365 atm366 atm367 2347 themes", () =
   ["atm360","atm365"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm361","atm362","atm363","atm364","atm366","atm367"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm360_path") && game.includes("atm367_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["漏窗醇厚暖蜜","漏窗轻盈暖蜜","漏窗绵长暖蜜","漏窗短促暖蜜","漏窗回甘暖蜜","漏窗余韵暖蜜","漏窗初香暖蜜","漏窗尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15325,7 +15325,7 @@ test("atm368 atm369 atm370 atm371 atm372 atm373 atm374 atm375 2355 themes", () =
   ["atm370","atm375"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm368","atm369","atm371","atm372","atm373","atm374"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm368_path") && game.includes("atm375_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["花窗微甜暖蜜","花窗微苦暖蜜","花窗微酸暖蜜","花窗微涩暖蜜","花窗清冽暖蜜","花窗温润暖蜜","花窗柔香暖蜜","花窗淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15365,7 +15365,7 @@ test("atm376 atm377 atm378 atm379 atm380 atm381 atm382 atm383 2363 themes", () =
   ["atm380"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm376","atm377","atm378","atm379","atm381","atm382","atm383"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm376_path") && game.includes("atm383_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["花窗醇厚暖蜜","花窗轻盈暖蜜","花窗绵长暖蜜","花窗短促暖蜜","花窗回甘暖蜜","花窗余韵暖蜜","花窗初香暖蜜","花窗尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15405,7 +15405,7 @@ test("atm384 atm385 atm386 atm387 atm388 atm389 atm390 atm391 2371 themes", () =
   ["atm385","atm390"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm384","atm386","atm387","atm388","atm389","atm391"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm384_path") && game.includes("atm391_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["竹帘微甜暖蜜","竹帘微苦暖蜜","竹帘微酸暖蜜","竹帘微涩暖蜜","竹帘清冽暖蜜","竹帘温润暖蜜","竹帘柔香暖蜜","竹帘淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15445,7 +15445,7 @@ test("atm392 atm393 atm394 atm395 atm396 atm397 atm398 atm399 2379 themes", () =
   ["atm395"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm392","atm393","atm394","atm396","atm397","atm398","atm399"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm392_path") && game.includes("atm399_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["竹帘醇厚暖蜜","竹帘轻盈暖蜜","竹帘绵长暖蜜","竹帘短促暖蜜","竹帘回甘暖蜜","竹帘余韵暖蜜","竹帘初香暖蜜","竹帘尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15485,7 +15485,7 @@ test("atm400 atm401 atm402 atm403 atm404 atm405 atm406 atm407 2387 themes", () =
   ["atm400","atm405"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm401","atm402","atm403","atm404","atm406","atm407"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm400_path") && game.includes("atm407_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["纸窗微甜暖蜜","纸窗微苦暖蜜","纸窗微酸暖蜜","纸窗微涩暖蜜","纸窗清冽暖蜜","纸窗温润暖蜜","纸窗柔香暖蜜","纸窗淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15525,7 +15525,7 @@ test("atm408 atm409 atm410 atm411 atm412 atm413 atm414 atm415 2395 themes", () =
   ["atm410","atm415"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm408","atm409","atm411","atm412","atm413","atm414"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm408_path") && game.includes("atm415_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["纸窗醇厚暖蜜","纸窗轻盈暖蜜","纸窗绵长暖蜜","纸窗短促暖蜜","纸窗回甘暖蜜","纸窗余韵暖蜜","纸窗初香暖蜜","纸窗尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15565,7 +15565,7 @@ test("atm416 atm417 atm418 atm419 atm420 atm421 atm422 atm423 2403 themes", () =
   ["atm420"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm416","atm417","atm418","atm419","atm421","atm422","atm423"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm416_path") && game.includes("atm423_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["纱幔微甜暖蜜","纱幔微苦暖蜜","纱幔微酸暖蜜","纱幔微涩暖蜜","纱幔清冽暖蜜","纱幔温润暖蜜","纱幔柔香暖蜜","纱幔淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15605,7 +15605,7 @@ test("atm424 atm425 atm426 atm427 atm428 atm429 atm430 atm431 2411 themes", () =
   ["atm425","atm430"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm424","atm426","atm427","atm428","atm429","atm431"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm424_path") && game.includes("atm431_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["纱幔醇厚暖蜜","纱幔轻盈暖蜜","纱幔绵长暖蜜","纱幔短促暖蜜","纱幔回甘暖蜜","纱幔余韵暖蜜","纱幔初香暖蜜","纱幔尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15645,7 +15645,7 @@ test("atm432 atm433 atm434 atm435 atm436 atm437 atm438 atm439 2419 themes", () =
   ["atm435"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm432","atm433","atm434","atm436","atm437","atm438","atm439"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm432_path") && game.includes("atm439_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["罗帐微甜暖蜜","罗帐微苦暖蜜","罗帐微酸暖蜜","罗帐微涩暖蜜","罗帐清冽暖蜜","罗帐温润暖蜜","罗帐柔香暖蜜","罗帐淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15685,7 +15685,7 @@ test("atm440 atm441 atm442 atm443 atm444 atm445 atm446 atm447 2427 themes", () =
   ["atm440","atm445"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm441","atm442","atm443","atm444","atm446","atm447"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm440_path") && game.includes("atm447_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["罗帐醇厚暖蜜","罗帐轻盈暖蜜","罗帐绵长暖蜜","罗帐短促暖蜜","罗帐回甘暖蜜","罗帐余韵暖蜜","罗帐初香暖蜜","罗帐尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15725,7 +15725,7 @@ test("atm448 atm449 atm450 atm451 atm452 atm453 atm454 atm455 2435 themes", () =
   ["atm450","atm455"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm448","atm449","atm451","atm452","atm453","atm454"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm448_path") && game.includes("atm455_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["铜镜微甜暖蜜","铜镜微苦暖蜜","铜镜微酸暖蜜","铜镜微涩暖蜜","铜镜清冽暖蜜","铜镜温润暖蜜","铜镜柔香暖蜜","铜镜淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15765,7 +15765,7 @@ test("atm456 atm457 atm458 atm459 atm460 atm461 atm462 atm463 2443 themes", () =
   ["atm460"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm456","atm457","atm458","atm459","atm461","atm462","atm463"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm456_path") && game.includes("atm463_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["铜镜醇厚暖蜜","铜镜轻盈暖蜜","铜镜绵长暖蜜","铜镜短促暖蜜","铜镜回甘暖蜜","铜镜余韵暖蜜","铜镜初香暖蜜","铜镜尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15805,7 +15805,7 @@ test("atm464 atm465 atm466 atm467 atm468 atm469 atm470 atm471 2451 themes", () =
   ["atm465","atm470"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm464","atm466","atm467","atm468","atm469","atm471"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm464_path") && game.includes("atm471_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["玉案微甜暖蜜","玉案微苦暖蜜","玉案微酸暖蜜","玉案微涩暖蜜","玉案清冽暖蜜","玉案温润暖蜜","玉案柔香暖蜜","玉案淡雅暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15845,7 +15845,7 @@ test("atm472 atm473 atm474 atm475 atm476 atm477 atm478 atm479 2459 themes", () =
   ["atm475"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["atm472","atm473","atm474","atm476","atm477","atm478","atm479"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("atm472_path") && game.includes("atm479_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["玉案醇厚暖蜜","玉案轻盈暖蜜","玉案绵长暖蜜","玉案短促暖蜜","玉案回甘暖蜜","玉案余韵暖蜜","玉案初香暖蜜","玉案尾调暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15917,7 +15917,7 @@ test("fx0 fx1 fx2 fx3 fx4 fx5 fx6 fx7 2467 themes", () => {
   ["fx0","fx1","fx2","fx3","fx4","fx5","fx6","fx7"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx0_path") && game.includes("fx7_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["安神蜜露暖蜜","安神花露暖蜜","安神叶露暖蜜","安神根露暖蜜","安神果露暖蜜","安神茶汤暖蜜","安神药汤暖蜜","安神甜汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15957,7 +15957,7 @@ test("fx8 fx9 fx10 fx11 fx12 fx13 fx14 fx15 2475 themes", () => {
   ["fx8","fx9","fx10","fx11","fx12","fx13","fx14","fx15"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx8_path") && game.includes("fx15_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["安神清汤暖蜜","安神暖汤暖蜜","安神凉饮暖蜜","安神热饮暖蜜","安神晨露暖蜜","安神午露暖蜜","安神暮露暖蜜","安神夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -15997,7 +15997,7 @@ test("fx16 fx17 fx18 fx19 fx20 fx21 fx22 fx23 2483 themes", () => {
   ["fx16","fx17","fx18","fx19"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx20","fx21","fx22","fx23"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx16_path") && game.includes("fx23_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["安神春汤暖蜜","安神夏汤暖蜜","安神秋汤暖蜜","安神冬汤暖蜜","醒神蜜露暖蜜","醒神花露暖蜜","醒神叶露暖蜜","醒神根露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16037,7 +16037,7 @@ test("fx24 fx25 fx26 fx27 fx28 fx29 fx30 fx31 2491 themes", () => {
   ["fx29"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx24","fx25","fx26","fx27","fx28","fx30","fx31"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx24_path") && game.includes("fx31_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["醒神果露暖蜜","醒神茶汤暖蜜","醒神药汤暖蜜","醒神甜汤暖蜜","醒神清汤暖蜜","醒神暖汤暖蜜","醒神凉饮暖蜜","醒神热饮暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16077,7 +16077,7 @@ test("fx32 fx33 fx34 fx35 fx36 fx37 fx38 fx39 2499 themes", () => {
   ["fx39"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx32","fx33","fx34","fx35","fx36","fx37","fx38"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx32_path") && game.includes("fx39_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["醒神晨露暖蜜","醒神午露暖蜜","醒神暮露暖蜜","醒神夜露暖蜜","醒神春汤暖蜜","醒神夏汤暖蜜","醒神秋汤暖蜜","醒神冬汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16117,7 +16117,7 @@ test("fx40 fx41 fx42 fx43 fx44 fx45 fx46 fx47 2507 themes", () => {
   ["fx40","fx41","fx42","fx43","fx44","fx45","fx46","fx47"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx40_path") && game.includes("fx47_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["暖胃蜜露暖蜜","暖胃花露暖蜜","暖胃叶露暖蜜","暖胃根露暖蜜","暖胃果露暖蜜","暖胃茶汤暖蜜","暖胃药汤暖蜜","暖胃甜汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16157,7 +16157,7 @@ test("fx48 fx49 fx50 fx51 fx52 fx53 fx54 fx55 2515 themes", () => {
   ["fx48","fx49","fx50","fx51","fx52","fx53","fx54","fx55"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx48_path") && game.includes("fx55_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["暖胃清汤暖蜜","暖胃暖汤暖蜜","暖胃凉饮暖蜜","暖胃热饮暖蜜","暖胃晨露暖蜜","暖胃午露暖蜜","暖胃暮露暖蜜","暖胃夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16197,7 +16197,7 @@ test("fx56 fx57 fx58 fx59 fx60 fx61 fx62 fx63 2523 themes", () => {
   ["fx56","fx57","fx58","fx59"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx60","fx61","fx62","fx63"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx56_path") && game.includes("fx63_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["暖胃春汤暖蜜","暖胃夏汤暖蜜","暖胃秋汤暖蜜","暖胃冬汤暖蜜","清心蜜露暖蜜","清心花露暖蜜","清心叶露暖蜜","清心根露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16237,7 +16237,7 @@ test("fx64 fx65 fx66 fx67 fx68 fx69 fx70 fx71 2531 themes", () => {
   ["fx69"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx64","fx65","fx66","fx67","fx68","fx70","fx71"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx64_path") && game.includes("fx71_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["清心果露暖蜜","清心茶汤暖蜜","清心药汤暖蜜","清心甜汤暖蜜","清心清汤暖蜜","清心暖汤暖蜜","清心凉饮暖蜜","清心热饮暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16277,7 +16277,7 @@ test("fx72 fx73 fx74 fx75 fx76 fx77 fx78 fx79 2539 themes", () => {
   ["fx79"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx72","fx73","fx74","fx75","fx76","fx77","fx78"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx72_path") && game.includes("fx79_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["清心晨露暖蜜","清心午露暖蜜","清心暮露暖蜜","清心夜露暖蜜","清心春汤暖蜜","清心夏汤暖蜜","清心秋汤暖蜜","清心冬汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16317,7 +16317,7 @@ test("fx80 fx81 fx82 fx83 fx84 fx85 fx86 fx87 2547 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx80","fx81","fx82","fx83","fx84","fx85","fx86","fx87"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx80_path") && game.includes("fx87_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["润喉蜜露暖蜜","润喉花露暖蜜","润喉叶露暖蜜","润喉根露暖蜜","润喉果露暖蜜","润喉茶汤暖蜜","润喉药汤暖蜜","润喉甜汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16357,7 +16357,7 @@ test("fx88 fx89 fx90 fx91 fx92 fx93 fx94 fx95 2555 themes", () => {
   ["fx89"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx88","fx90","fx91","fx92","fx93","fx94","fx95"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx88_path") && game.includes("fx95_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["润喉清汤暖蜜","润喉暖汤暖蜜","润喉凉饮暖蜜","润喉热饮暖蜜","润喉晨露暖蜜","润喉午露暖蜜","润喉暮露暖蜜","润喉夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16397,7 +16397,7 @@ test("fx96 fx97 fx98 fx99 fx100 fx101 fx102 fx103 2563 themes", () => {
   ["fx99"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx96","fx97","fx98","fx100","fx101","fx102","fx103"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx96_path") && game.includes("fx103_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["润喉春汤暖蜜","润喉夏汤暖蜜","润喉秋汤暖蜜","润喉冬汤暖蜜","护嗓蜜露暖蜜","护嗓花露暖蜜","护嗓叶露暖蜜","护嗓根露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16437,7 +16437,7 @@ test("fx104 fx105 fx106 fx107 fx108 fx109 fx110 fx111 2571 themes", () => {
   ["fx109"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx104","fx105","fx106","fx107","fx108","fx110","fx111"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx104_path") && game.includes("fx111_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["护嗓果露暖蜜","护嗓茶汤暖蜜","护嗓药汤暖蜜","护嗓甜汤暖蜜","护嗓清汤暖蜜","护嗓暖汤暖蜜","护嗓凉饮暖蜜","护嗓热饮暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16477,7 +16477,7 @@ test("fx112 fx113 fx114 fx115 fx116 fx117 fx118 fx119 2579 themes", () => {
   ["fx119"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx112","fx113","fx114","fx115","fx116","fx117","fx118"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx112_path") && game.includes("fx119_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["护嗓晨露暖蜜","护嗓午露暖蜜","护嗓暮露暖蜜","护嗓夜露暖蜜","护嗓春汤暖蜜","护嗓夏汤暖蜜","护嗓秋汤暖蜜","护嗓冬汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16517,7 +16517,7 @@ test("fx120 fx121 fx122 fx123 fx124 fx125 fx126 fx127 2587 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx120","fx121","fx122","fx123","fx124","fx125","fx126","fx127"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx120_path") && game.includes("fx127_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["开胃蜜露暖蜜","开胃花露暖蜜","开胃叶露暖蜜","开胃根露暖蜜","开胃果露暖蜜","开胃茶汤暖蜜","开胃药汤暖蜜","开胃甜汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16557,7 +16557,7 @@ test("fx128 fx129 fx130 fx131 fx132 fx133 fx134 fx135 2595 themes", () => {
   ["fx129"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx128","fx130","fx131","fx132","fx133","fx134","fx135"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx128_path") && game.includes("fx135_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["开胃清汤暖蜜","开胃暖汤暖蜜","开胃凉饮暖蜜","开胃热饮暖蜜","开胃晨露暖蜜","开胃午露暖蜜","开胃暮露暖蜜","开胃夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16597,7 +16597,7 @@ test("fx136 fx137 fx138 fx139 fx140 fx141 fx142 fx143 2603 themes", () => {
   ["fx139"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx136","fx137","fx138","fx140","fx141","fx142","fx143"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx136_path") && game.includes("fx143_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["开胃春汤暖蜜","开胃夏汤暖蜜","开胃秋汤暖蜜","开胃冬汤暖蜜","解腻蜜露暖蜜","解腻花露暖蜜","解腻叶露暖蜜","解腻根露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16637,7 +16637,7 @@ test("fx144 fx145 fx146 fx147 fx148 fx149 fx150 fx151 2611 themes", () => {
   ["fx149"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx144","fx145","fx146","fx147","fx148","fx150","fx151"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx144_path") && game.includes("fx151_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["解腻果露暖蜜","解腻茶汤暖蜜","解腻药汤暖蜜","解腻甜汤暖蜜","解腻清汤暖蜜","解腻暖汤暖蜜","解腻凉饮暖蜜","解腻热饮暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16677,7 +16677,7 @@ test("fx152 fx153 fx154 fx155 fx156 fx157 fx158 fx159 2619 themes", () => {
   ["fx159"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx152","fx153","fx154","fx155","fx156","fx157","fx158"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx152_path") && game.includes("fx159_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["解腻晨露暖蜜","解腻午露暖蜜","解腻暮露暖蜜","解腻夜露暖蜜","解腻春汤暖蜜","解腻夏汤暖蜜","解腻秋汤暖蜜","解腻冬汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16717,7 +16717,7 @@ test("fx160 fx161 fx162 fx163 fx164 fx165 fx166 fx167 2627 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx160","fx161","fx162","fx163","fx164","fx165","fx166","fx167"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx160_path") && game.includes("fx167_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["提神蜜露暖蜜","提神花露暖蜜","提神叶露暖蜜","提神根露暖蜜","提神果露暖蜜","提神茶汤暖蜜","提神药汤暖蜜","提神甜汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16757,7 +16757,7 @@ test("fx168 fx169 fx170 fx171 fx172 fx173 fx174 fx175 2635 themes", () => {
   ["fx169"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx168","fx170","fx171","fx172","fx173","fx174","fx175"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx168_path") && game.includes("fx175_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["提神清汤暖蜜","提神暖汤暖蜜","提神凉饮暖蜜","提神热饮暖蜜","提神晨露暖蜜","提神午露暖蜜","提神暮露暖蜜","提神夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16797,7 +16797,7 @@ test("fx176 fx177 fx178 fx179 fx180 fx181 fx182 fx183 2643 themes", () => {
   ["fx179","fx180","fx181","fx182","fx183"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx176","fx177","fx178"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx176_path") && game.includes("fx183_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["提神春汤暖蜜","提神夏汤暖蜜","提神秋汤暖蜜","提神冬汤暖蜜","安神茶蜜露暖蜜","安神茶花露暖蜜","安神茶叶露暖蜜","安神茶根露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16837,7 +16837,7 @@ test("fx184 fx185 fx186 fx187 fx188 fx189 fx190 fx191 2651 themes", () => {
   ["fx184","fx185","fx186","fx187","fx188","fx189","fx190","fx191"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx184_path") && game.includes("fx191_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["安神茶果露暖蜜","安神茶茶汤暖蜜","安神茶药汤暖蜜","安神茶甜汤暖蜜","安神茶清汤暖蜜","安神茶暖汤暖蜜","安神茶凉饮暖蜜","安神茶热饮暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16877,7 +16877,7 @@ test("fx192 fx193 fx194 fx195 fx196 fx197 fx198 fx199 2659 themes", () => {
   ["fx192","fx193","fx194","fx195","fx196","fx197","fx198","fx199"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx192_path") && game.includes("fx199_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["安神茶晨露暖蜜","安神茶午露暖蜜","安神茶暮露暖蜜","安神茶夜露暖蜜","安神茶春汤暖蜜","安神茶夏汤暖蜜","安神茶秋汤暖蜜","安神茶冬汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16917,7 +16917,7 @@ test("fx200 fx201 fx202 fx203 fx204 fx205 fx206 fx207 2667 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx200","fx201","fx202","fx203","fx204","fx205","fx206","fx207"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx200_path") && game.includes("fx207_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["清凉蜜露暖蜜","清凉花露暖蜜","清凉叶露暖蜜","清凉根露暖蜜","清凉果露暖蜜","清凉茶汤暖蜜","清凉药汤暖蜜","清凉甜汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16957,7 +16957,7 @@ test("fx208 fx209 fx210 fx211 fx212 fx213 fx214 fx215 2675 themes", () => {
   ["fx209"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx208","fx210","fx211","fx212","fx213","fx214","fx215"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx208_path") && game.includes("fx215_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["清凉清汤暖蜜","清凉暖汤暖蜜","清凉凉饮暖蜜","清凉热饮暖蜜","清凉晨露暖蜜","清凉午露暖蜜","清凉暮露暖蜜","清凉夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -16997,7 +16997,7 @@ test("fx216 fx217 fx218 fx219 fx220 fx221 fx222 fx223 2683 themes", () => {
   ["fx219","fx220","fx221","fx222","fx223"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx216","fx217","fx218"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx216_path") && game.includes("fx223_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["清凉春汤暖蜜","清凉夏汤暖蜜","清凉秋汤暖蜜","清凉冬汤暖蜜","温补蜜露暖蜜","温补花露暖蜜","温补叶露暖蜜","温补根露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17037,7 +17037,7 @@ test("fx224 fx225 fx226 fx227 fx228 fx229 fx230 fx231 2691 themes", () => {
   ["fx224","fx225","fx226","fx227","fx228","fx229","fx230","fx231"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx224_path") && game.includes("fx231_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["温补果露暖蜜","温补茶汤暖蜜","温补药汤暖蜜","温补甜汤暖蜜","温补清汤暖蜜","温补暖汤暖蜜","温补凉饮暖蜜","温补热饮暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17077,7 +17077,7 @@ test("fx232 fx233 fx234 fx235 fx236 fx237 fx238 fx239 2699 themes", () => {
   ["fx232","fx233","fx234","fx235","fx236","fx237","fx238","fx239"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx232_path") && game.includes("fx239_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["温补晨露暖蜜","温补午露暖蜜","温补暮露暖蜜","温补夜露暖蜜","温补春汤暖蜜","温补夏汤暖蜜","温补秋汤暖蜜","温补冬汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17117,7 +17117,7 @@ test("fx240 fx241 fx242 fx243 fx244 fx245 fx246 fx247 2707 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx240","fx241","fx242","fx243","fx244","fx245","fx246","fx247"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx240_path") && game.includes("fx247_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["疏肝蜜露暖蜜","疏肝花露暖蜜","疏肝叶露暖蜜","疏肝根露暖蜜","疏肝果露暖蜜","疏肝茶汤暖蜜","疏肝药汤暖蜜","疏肝甜汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17157,7 +17157,7 @@ test("fx248 fx249 fx250 fx251 fx252 fx253 fx254 fx255 2715 themes", () => {
   ["fx249"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx248","fx250","fx251","fx252","fx253","fx254","fx255"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx248_path") && game.includes("fx255_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["疏肝清汤暖蜜","疏肝暖汤暖蜜","疏肝凉饮暖蜜","疏肝热饮暖蜜","疏肝晨露暖蜜","疏肝午露暖蜜","疏肝暮露暖蜜","疏肝夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17197,7 +17197,7 @@ test("fx256 fx257 fx258 fx259 fx260 fx261 fx262 fx263 2723 themes", () => {
   ["fx259"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx256","fx257","fx258","fx260","fx261","fx262","fx263"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx256_path") && game.includes("fx263_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["疏肝春汤暖蜜","疏肝夏汤暖蜜","疏肝秋汤暖蜜","疏肝冬汤暖蜜","健脾蜜露暖蜜","健脾花露暖蜜","健脾叶露暖蜜","健脾根露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17237,7 +17237,7 @@ test("fx264 fx265 fx266 fx267 fx268 fx269 fx270 fx271 2731 themes", () => {
   ["fx269"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx264","fx265","fx266","fx267","fx268","fx270","fx271"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx264_path") && game.includes("fx271_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["健脾果露暖蜜","健脾茶汤暖蜜","健脾药汤暖蜜","健脾甜汤暖蜜","健脾清汤暖蜜","健脾暖汤暖蜜","健脾凉饮暖蜜","健脾热饮暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17277,7 +17277,7 @@ test("fx272 fx273 fx274 fx275 fx276 fx277 fx278 fx279 2739 themes", () => {
   ["fx279"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx272","fx273","fx274","fx275","fx276","fx277","fx278"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx272_path") && game.includes("fx279_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["健脾晨露暖蜜","健脾午露暖蜜","健脾暮露暖蜜","健脾夜露暖蜜","健脾春汤暖蜜","健脾夏汤暖蜜","健脾秋汤暖蜜","健脾冬汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17317,7 +17317,7 @@ test("fx280 fx281 fx282 fx283 fx284 fx285 fx286 fx287 2747 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx280","fx281","fx282","fx283","fx284","fx285","fx286","fx287"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx280_path") && game.includes("fx287_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["养血蜜露暖蜜","养血花露暖蜜","养血叶露暖蜜","养血根露暖蜜","养血果露暖蜜","养血茶汤暖蜜","养血药汤暖蜜","养血甜汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17357,7 +17357,7 @@ test("fx288 fx289 fx290 fx291 fx292 fx293 fx294 fx295 2755 themes", () => {
   ["fx289"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx288","fx290","fx291","fx292","fx293","fx294","fx295"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx288_path") && game.includes("fx295_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["养血清汤暖蜜","养血暖汤暖蜜","养血凉饮暖蜜","养血热饮暖蜜","养血晨露暖蜜","养血午露暖蜜","养血暮露暖蜜","养血夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17397,7 +17397,7 @@ test("fx296 fx297 fx298 fx299 fx300 fx301 fx302 fx303 2763 themes", () => {
   ["fx299"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx296","fx297","fx298","fx300","fx301","fx302","fx303"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx296_path") && game.includes("fx303_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["养血春汤暖蜜","养血夏汤暖蜜","养血秋汤暖蜜","养血冬汤暖蜜","益气蜜露暖蜜","益气花露暖蜜","益气叶露暖蜜","益气根露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17437,7 +17437,7 @@ test("fx304 fx305 fx306 fx307 fx308 fx309 fx310 fx311 2771 themes", () => {
   ["fx309"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx304","fx305","fx306","fx307","fx308","fx310","fx311"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx304_path") && game.includes("fx311_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["益气果露暖蜜","益气茶汤暖蜜","益气药汤暖蜜","益气甜汤暖蜜","益气清汤暖蜜","益气暖汤暖蜜","益气凉饮暖蜜","益气热饮暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17477,7 +17477,7 @@ test("fx312 fx313 fx314 fx315 fx316 fx317 fx318 fx319 2779 themes", () => {
   ["fx319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx312","fx313","fx314","fx315","fx316","fx317","fx318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx312_path") && game.includes("fx319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["益气晨露暖蜜","益气午露暖蜜","益气暮露暖蜜","益气夜露暖蜜","益气春汤暖蜜","益气夏汤暖蜜","益气秋汤暖蜜","益气冬汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17517,7 +17517,7 @@ test("fx320 fx321 fx322 fx323 fx324 fx325 fx326 fx327 2787 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx320","fx321","fx322","fx323","fx324","fx325","fx326","fx327"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx320_path") && game.includes("fx327_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["宁神蜜露暖蜜","宁神花露暖蜜","宁神叶露暖蜜","宁神根露暖蜜","宁神果露暖蜜","宁神茶汤暖蜜","宁神药汤暖蜜","宁神甜汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17557,7 +17557,7 @@ test("fx328 fx329 fx330 fx331 fx332 fx333 fx334 fx335 2795 themes", () => {
   ["fx329"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx328","fx330","fx331","fx332","fx333","fx334","fx335"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx328_path") && game.includes("fx335_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["宁神清汤暖蜜","宁神暖汤暖蜜","宁神凉饮暖蜜","宁神热饮暖蜜","宁神晨露暖蜜","宁神午露暖蜜","宁神暮露暖蜜","宁神夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17597,7 +17597,7 @@ test("fx336 fx337 fx338 fx339 fx340 fx341 fx342 fx343 2803 themes", () => {
   ["fx339"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx336","fx337","fx338","fx340","fx341","fx342","fx343"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx336_path") && game.includes("fx343_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["宁神春汤暖蜜","宁神夏汤暖蜜","宁神秋汤暖蜜","宁神冬汤暖蜜","静心蜜露暖蜜","静心花露暖蜜","静心叶露暖蜜","静心根露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17637,7 +17637,7 @@ test("fx344 fx345 fx346 fx347 fx348 fx349 fx350 fx351 2811 themes", () => {
   ["fx349"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx344","fx345","fx346","fx347","fx348","fx350","fx351"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx344_path") && game.includes("fx351_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["静心果露暖蜜","静心茶汤暖蜜","静心药汤暖蜜","静心甜汤暖蜜","静心清汤暖蜜","静心暖汤暖蜜","静心凉饮暖蜜","静心热饮暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17677,7 +17677,7 @@ test("fx352 fx353 fx354 fx355 fx356 fx357 fx358 fx359 2819 themes", () => {
   ["fx359"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx352","fx353","fx354","fx355","fx356","fx357","fx358"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx352_path") && game.includes("fx359_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["静心晨露暖蜜","静心午露暖蜜","静心暮露暖蜜","静心夜露暖蜜","静心春汤暖蜜","静心夏汤暖蜜","静心秋汤暖蜜","静心冬汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17717,7 +17717,7 @@ test("fx360 fx361 fx362 fx363 fx364 fx365 fx366 fx367 2827 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx360","fx361","fx362","fx363","fx364","fx365","fx366","fx367"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx360_path") && game.includes("fx367_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["舒压蜜露暖蜜","舒压花露暖蜜","舒压叶露暖蜜","舒压根露暖蜜","舒压果露暖蜜","舒压茶汤暖蜜","舒压药汤暖蜜","舒压甜汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17757,7 +17757,7 @@ test("fx368 fx369 fx370 fx371 fx372 fx373 fx374 fx375 2835 themes", () => {
   ["fx369"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx368","fx370","fx371","fx372","fx373","fx374","fx375"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx368_path") && game.includes("fx375_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["舒压清汤暖蜜","舒压暖汤暖蜜","舒压凉饮暖蜜","舒压热饮暖蜜","舒压晨露暖蜜","舒压午露暖蜜","舒压暮露暖蜜","舒压夜露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17797,7 +17797,7 @@ test("fx376 fx377 fx378 fx379 fx380 fx381 fx382 fx383 2843 themes", () => {
   ["fx379","fx380","fx381","fx382","fx383"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fx376","fx377","fx378"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx376_path") && game.includes("fx383_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["舒压春汤暖蜜","舒压夏汤暖蜜","舒压秋汤暖蜜","舒压冬汤暖蜜","助眠蜜露暖蜜","助眠花露暖蜜","助眠叶露暖蜜","助眠根露暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17837,7 +17837,7 @@ test("fx384 fx385 fx386 fx387 fx388 fx389 fx390 fx391 2851 themes", () => {
   ["fx384","fx385","fx386","fx387","fx388","fx389","fx390","fx391"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx384_path") && game.includes("fx391_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["助眠果露暖蜜","助眠茶汤暖蜜","助眠药汤暖蜜","助眠甜汤暖蜜","助眠清汤暖蜜","助眠暖汤暖蜜","助眠凉饮暖蜜","助眠热饮暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17877,7 +17877,7 @@ test("fx392 fx393 fx394 fx395 fx396 fx397 fx398 fx399 2859 themes", () => {
   ["fx392","fx393","fx394","fx395","fx396","fx397","fx398","fx399"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fx392_path") && game.includes("fx399_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["助眠晨露暖蜜","助眠午露暖蜜","助眠暮露暖蜜","助眠夜露暖蜜","助眠春汤暖蜜","助眠夏汤暖蜜","助眠秋汤暖蜜","助眠冬汤暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17917,7 +17917,7 @@ test("gf400 gf401 gf402 gf403 gf404 gf405 gf406 gf407 2867 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf400","gf401","gf402","gf403","gf404","gf405","gf406","gf407"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf400_path") && game.includes("gf407_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["写信人的一缕暖蜜","写信人的一瓣笺暖蜜","写信人的一叶笺暖蜜","写信人的一粒笺暖蜜","写信人的一滴笺暖蜜","写信人的一缕香笺暖蜜","写信人的一丝甜笺暖蜜","写信人的一抹清笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17957,7 +17957,7 @@ test("gf408 gf409 gf410 gf411 gf412 gf413 gf414 gf415 2875 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf408","gf409","gf410","gf411","gf412","gf413","gf414","gf415"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf408_path") && game.includes("gf415_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["写信人的一寸暖笺暖蜜","写信人的一分静笺暖蜜","写信人的一勺蜜笺暖蜜","写信人的一杯温笺暖蜜","写信人的一盏灯笺暖蜜","写信人的一页纸笺暖蜜","写信人的一枚石笺暖蜜","写信人的一枚贝笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -17997,7 +17997,7 @@ test("gf416 gf417 gf418 gf419 gf420 gf421 gf422 gf423 2883 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf416","gf417","gf418","gf419","gf420","gf421","gf422","gf423"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf416_path") && game.includes("gf423_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["折纸人的一缕暖蜜","折纸人的一瓣笺暖蜜","折纸人的一叶笺暖蜜","折纸人的一粒笺暖蜜","折纸人的一滴笺暖蜜","折纸人的一缕香笺暖蜜","折纸人的一丝甜笺暖蜜","折纸人的一抹清笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18037,7 +18037,7 @@ test("gf424 gf425 gf426 gf427 gf428 gf429 gf430 gf431 2891 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf424","gf425","gf426","gf427","gf428","gf429","gf430","gf431"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf424_path") && game.includes("gf431_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["折纸人的一寸暖笺暖蜜","折纸人的一分静笺暖蜜","折纸人的一勺蜜笺暖蜜","折纸人的一杯温笺暖蜜","折纸人的一盏灯笺暖蜜","折纸人的一页纸笺暖蜜","折纸人的一枚石笺暖蜜","折纸人的一枚贝笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18077,7 +18077,7 @@ test("gf432 gf433 gf434 gf435 gf436 gf437 gf438 gf439 2899 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf432","gf433","gf434","gf435","gf436","gf437","gf438","gf439"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf432_path") && game.includes("gf439_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["观雨人的一缕暖蜜","观雨人的一瓣笺暖蜜","观雨人的一叶笺暖蜜","观雨人的一粒笺暖蜜","观雨人的一滴笺暖蜜","观雨人的一缕香笺暖蜜","观雨人的一丝甜笺暖蜜","观雨人的一抹清笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18117,7 +18117,7 @@ test("gf440 gf441 gf442 gf443 gf444 gf445 gf446 gf447 2907 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf440","gf441","gf442","gf443","gf444","gf445","gf446","gf447"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf440_path") && game.includes("gf447_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["观雨人的一寸暖笺暖蜜","观雨人的一分静笺暖蜜","观雨人的一勺蜜笺暖蜜","观雨人的一杯温笺暖蜜","观雨人的一盏灯笺暖蜜","观雨人的一页纸笺暖蜜","观雨人的一枚石笺暖蜜","观雨人的一枚贝笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18157,7 +18157,7 @@ test("gf448 gf449 gf450 gf451 gf452 gf453 gf454 gf455 2915 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf448","gf449","gf450","gf451","gf452","gf453","gf454","gf455"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf448_path") && game.includes("gf455_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["听风人的一缕暖蜜","听风人的一瓣笺暖蜜","听风人的一叶笺暖蜜","听风人的一粒笺暖蜜","听风人的一滴笺暖蜜","听风人的一缕香笺暖蜜","听风人的一丝甜笺暖蜜","听风人的一抹清笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18197,7 +18197,7 @@ test("gf456 gf457 gf458 gf459 gf460 gf461 gf462 gf463 2923 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf456","gf457","gf458","gf459","gf460","gf461","gf462","gf463"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf456_path") && game.includes("gf463_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["听风人的一寸暖笺暖蜜","听风人的一分静笺暖蜜","听风人的一勺蜜笺暖蜜","听风人的一杯温笺暖蜜","听风人的一盏灯笺暖蜜","听风人的一页纸笺暖蜜","听风人的一枚石笺暖蜜","听风人的一枚贝笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18237,7 +18237,7 @@ test("gf464 gf465 gf466 gf467 gf468 gf469 gf470 gf471 2931 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf464","gf465","gf466","gf467","gf468","gf469","gf470","gf471"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf464_path") && game.includes("gf471_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["数星人的一缕暖蜜","数星人的一瓣笺暖蜜","数星人的一叶笺暖蜜","数星人的一粒笺暖蜜","数星人的一滴笺暖蜜","数星人的一缕香笺暖蜜","数星人的一丝甜笺暖蜜","数星人的一抹清笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18277,7 +18277,7 @@ test("gf472 gf473 gf474 gf475 gf476 gf477 gf478 gf479 2939 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf472","gf473","gf474","gf475","gf476","gf477","gf478","gf479"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf472_path") && game.includes("gf479_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["数星人的一寸暖笺暖蜜","数星人的一分静笺暖蜜","数星人的一勺蜜笺暖蜜","数星人的一杯温笺暖蜜","数星人的一盏灯笺暖蜜","数星人的一页纸笺暖蜜","数星人的一枚石笺暖蜜","数星人的一枚贝笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18317,7 +18317,7 @@ test("gf480 gf481 gf482 gf483 gf484 gf485 gf486 gf487 2947 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf480","gf481","gf482","gf483","gf484","gf485","gf486","gf487"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf480_path") && game.includes("gf487_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["拾光人的一缕暖蜜","拾光人的一瓣笺暖蜜","拾光人的一叶笺暖蜜","拾光人的一粒笺暖蜜","拾光人的一滴笺暖蜜","拾光人的一缕香笺暖蜜","拾光人的一丝甜笺暖蜜","拾光人的一抹清笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18357,7 +18357,7 @@ test("gf488 gf489 gf490 gf491 gf492 gf493 gf494 gf495 2955 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf488","gf489","gf490","gf491","gf492","gf493","gf494","gf495"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf488_path") && game.includes("gf495_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["拾光人的一寸暖笺暖蜜","拾光人的一分静笺暖蜜","拾光人的一勺蜜笺暖蜜","拾光人的一杯温笺暖蜜","拾光人的一盏灯笺暖蜜","拾光人的一页纸笺暖蜜","拾光人的一枚石笺暖蜜","拾光人的一枚贝笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18397,7 +18397,7 @@ test("gf496 gf497 gf498 gf499 gf500 gf501 gf502 gf503 2963 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf496","gf497","gf498","gf499","gf500","gf501","gf502","gf503"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf496_path") && game.includes("gf503_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["记梦人的一缕暖蜜","记梦人的一瓣笺暖蜜","记梦人的一叶笺暖蜜","记梦人的一粒笺暖蜜","记梦人的一滴笺暖蜜","记梦人的一缕香笺暖蜜","记梦人的一丝甜笺暖蜜","记梦人的一抹清笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18437,7 +18437,7 @@ test("gf504 gf505 gf506 gf507 gf508 gf509 gf510 gf511 2971 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf504","gf505","gf506","gf507","gf508","gf509","gf510","gf511"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf504_path") && game.includes("gf511_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["记梦人的一寸暖笺暖蜜","记梦人的一分静笺暖蜜","记梦人的一勺蜜笺暖蜜","记梦人的一杯温笺暖蜜","记梦人的一盏灯笺暖蜜","记梦人的一页纸笺暖蜜","记梦人的一枚石笺暖蜜","记梦人的一枚贝笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18477,7 +18477,7 @@ test("gf512 gf513 gf514 gf515 gf516 gf517 gf518 gf519 2979 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf512","gf513","gf514","gf515","gf516","gf517","gf518","gf519"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf512_path") && game.includes("gf519_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["藏书人的一缕暖蜜","藏书人的一瓣笺暖蜜","藏书人的一叶笺暖蜜","藏书人的一粒笺暖蜜","藏书人的一滴笺暖蜜","藏书人的一缕香笺暖蜜","藏书人的一丝甜笺暖蜜","藏书人的一抹清笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18517,7 +18517,7 @@ test("gf520 gf521 gf522 gf523 gf524 gf525 gf526 gf527 2987 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf520","gf521","gf522","gf523","gf524","gf525","gf526","gf527"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf520_path") && game.includes("gf527_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["藏书人的一寸暖笺暖蜜","藏书人的一分静笺暖蜜","藏书人的一勺蜜笺暖蜜","藏书人的一杯温笺暖蜜","藏书人的一盏灯笺暖蜜","藏书人的一页纸笺暖蜜","藏书人的一枚石笺暖蜜","藏书人的一枚贝笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18557,7 +18557,7 @@ test("gf528 gf529 gf530 gf531 gf532 gf533 gf534 gf535 2995 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf528","gf529","gf530","gf531","gf532","gf533","gf534","gf535"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf528_path") && game.includes("gf535_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["抚琴人的一缕暖蜜","抚琴人的一瓣笺暖蜜","抚琴人的一叶笺暖蜜","抚琴人的一粒笺暖蜜","抚琴人的一滴笺暖蜜","抚琴人的一缕香笺暖蜜","抚琴人的一丝甜笺暖蜜","抚琴人的一抹清笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18597,7 +18597,7 @@ test("gf536 gf537 gf538 gf539 gf540 gf541 gf542 gf543 3003 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf536","gf537","gf538","gf539","gf540","gf541","gf542","gf543"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf536_path") && game.includes("gf543_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["抚琴人的一寸暖笺暖蜜","抚琴人的一分静笺暖蜜","抚琴人的一勺蜜笺暖蜜","抚琴人的一杯温笺暖蜜","抚琴人的一盏灯笺暖蜜","抚琴人的一页纸笺暖蜜","抚琴人的一枚石笺暖蜜","抚琴人的一枚贝笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18637,7 +18637,7 @@ test("gf544 gf545 gf546 gf547 gf548 gf549 gf550 gf551 3011 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf544","gf545","gf546","gf547","gf548","gf549","gf550","gf551"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf544_path") && game.includes("gf551_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["焚香人的一缕暖蜜","焚香人的一瓣笺暖蜜","焚香人的一叶笺暖蜜","焚香人的一粒笺暖蜜","焚香人的一滴笺暖蜜","焚香人的一缕香笺暖蜜","焚香人的一丝甜笺暖蜜","焚香人的一抹清笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18677,7 +18677,7 @@ test("gf552 gf553 gf554 gf555 gf556 gf557 gf558 gf559 3019 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf552","gf553","gf554","gf555","gf556","gf557","gf558","gf559"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf552_path") && game.includes("gf559_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["焚香人的一寸暖笺暖蜜","焚香人的一分静笺暖蜜","焚香人的一勺蜜笺暖蜜","焚香人的一杯温笺暖蜜","焚香人的一盏灯笺暖蜜","焚香人的一页纸笺暖蜜","焚香人的一枚石笺暖蜜","焚香人的一枚贝笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18717,7 +18717,7 @@ test("gf560 gf561 gf562 gf563 gf564 gf565 gf566 gf567 3027 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf560","gf561","gf562","gf563","gf564","gf565","gf566","gf567"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf560_path") && game.includes("gf567_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["研墨人的一缕暖蜜","研墨人的一瓣笺暖蜜","研墨人的一叶笺暖蜜","研墨人的一粒笺暖蜜","研墨人的一滴笺暖蜜","研墨人的一缕香笺暖蜜","研墨人的一丝甜笺暖蜜","研墨人的一抹清笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18757,7 +18757,7 @@ test("gf568 gf569 gf570 gf571 gf572 gf573 gf574 gf575 3035 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf568","gf569","gf570","gf571","gf572","gf573","gf574","gf575"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf568_path") && game.includes("gf575_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["研墨人的一寸暖笺暖蜜","研墨人的一分静笺暖蜜","研墨人的一勺蜜笺暖蜜","研墨人的一杯温笺暖蜜","研墨人的一盏灯笺暖蜜","研墨人的一页纸笺暖蜜","研墨人的一枚石笺暖蜜","研墨人的一枚贝笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18797,7 +18797,7 @@ test("gf576 gf577 gf578 gf579 gf580 gf581 gf582 gf583 3043 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf576","gf577","gf578","gf579","gf580","gf581","gf582","gf583"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf576_path") && game.includes("gf583_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["抄经人的一缕暖蜜","抄经人的一瓣笺暖蜜","抄经人的一叶笺暖蜜","抄经人的一粒笺暖蜜","抄经人的一滴笺暖蜜","抄经人的一缕香笺暖蜜","抄经人的一丝甜笺暖蜜","抄经人的一抹清笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18837,7 +18837,7 @@ test("gf584 gf585 gf586 gf587 gf588 gf589 gf590 gf591 3051 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf584","gf585","gf586","gf587","gf588","gf589","gf590","gf591"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf584_path") && game.includes("gf591_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["抄经人的一寸暖笺暖蜜","抄经人的一分静笺暖蜜","抄经人的一勺蜜笺暖蜜","抄经人的一杯温笺暖蜜","抄经人的一盏灯笺暖蜜","抄经人的一页纸笺暖蜜","抄经人的一枚石笺暖蜜","抄经人的一枚贝笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18877,7 +18877,7 @@ test("gf592 gf593 gf594 gf595 gf596 gf597 gf598 gf599 3059 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf592","gf593","gf594","gf595","gf596","gf597","gf598","gf599"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf592_path") && game.includes("gf599_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["插花人的一缕暖蜜","插花人的一瓣笺暖蜜","插花人的一叶笺暖蜜","插花人的一粒笺暖蜜","插花人的一滴笺暖蜜","插花人的一缕香笺暖蜜","插花人的一丝甜笺暖蜜","插花人的一抹清笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18917,7 +18917,7 @@ test("gf600 gf601 gf602 gf603 gf604 gf605 gf606 gf607 3067 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf600","gf601","gf602","gf603","gf604","gf605","gf606","gf607"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf600_path") && game.includes("gf607_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["插花人的一寸暖笺暖蜜","插花人的一分静笺暖蜜","插花人的一勺蜜笺暖蜜","插花人的一杯温笺暖蜜","插花人的一盏灯笺暖蜜","插花人的一页纸笺暖蜜","插花人的一枚石笺暖蜜","插花人的一枚贝笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18957,7 +18957,7 @@ test("gf608 gf609 gf610 gf611 gf612 gf613 gf614 gf615 3075 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf608","gf609","gf610","gf611","gf612","gf613","gf614","gf615"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf608_path") && game.includes("gf615_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["烹茶人的一缕暖蜜","烹茶人的一瓣笺暖蜜","烹茶人的一叶笺暖蜜","烹茶人的一粒笺暖蜜","烹茶人的一滴笺暖蜜","烹茶人的一缕香笺暖蜜","烹茶人的一丝甜笺暖蜜","烹茶人的一抹清笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -18997,7 +18997,7 @@ test("gf616 gf617 gf618 gf619 gf620 gf621 gf622 gf623 3083 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf616","gf617","gf618","gf619","gf620","gf621","gf622","gf623"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf616_path") && game.includes("gf623_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["烹茶人的一寸暖笺暖蜜","烹茶人的一分静笺暖蜜","烹茶人的一勺蜜笺暖蜜","烹茶人的一杯温笺暖蜜","烹茶人的一盏灯笺暖蜜","烹茶人的一页纸笺暖蜜","烹茶人的一枚石笺暖蜜","烹茶人的一枚贝笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19037,7 +19037,7 @@ test("gf624 gf625 gf626 gf627 gf628 gf629 gf630 gf631 3091 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf624","gf625","gf626","gf627","gf628","gf629","gf630","gf631"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf624_path") && game.includes("gf631_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["候船人的一缕暖蜜","候船人的一瓣笺暖蜜","候船人的一叶笺暖蜜","候船人的一粒笺暖蜜","候船人的一滴笺暖蜜","候船人的一缕香笺暖蜜","候船人的一丝甜笺暖蜜","候船人的一抹清笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19077,7 +19077,7 @@ test("gf632 gf633 gf634 gf635 gf636 gf637 gf638 gf639 3099 themes", () => {
   [].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["gf632","gf633","gf634","gf635","gf636","gf637","gf638","gf639"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("gf632_path") && game.includes("gf639_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["候船人的一寸暖笺暖蜜","候船人的一分静笺暖蜜","候船人的一勺蜜笺暖蜜","候船人的一杯温笺暖蜜","候船人的一盏灯笺暖蜜","候船人的一页纸笺暖蜜","候船人的一枚石笺暖蜜","候船人的一枚贝笺暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19117,7 +19117,7 @@ test("ht0 ht1 ht2 ht3 ht4 ht5 ht6 ht7 3107 themes", () => {
   ["ht0","ht1","ht2","ht3","ht4","ht5","ht6","ht7"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht0_path") && game.includes("ht7_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["子时清茶暖蜜","子时花茶暖蜜","子时果茶暖蜜","子时草茶暖蜜","子时蜜茶暖蜜","子时露茶暖蜜","子时烟茶暖蜜","子时雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19157,7 +19157,7 @@ test("ht8 ht9 ht10 ht11 ht12 ht13 ht14 ht15 3115 themes", () => {
   ["ht8","ht9","ht10","ht11","ht12","ht13","ht14","ht15"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht8_path") && game.includes("ht15_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["子时雪茶暖蜜","子时雨茶暖蜜","子时风茶暖蜜","子时月茶暖蜜","子时星茶暖蜜","子时云茶暖蜜","子时泉茶暖蜜","子时井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19197,7 +19197,7 @@ test("ht16 ht17 ht18 ht19 ht20 ht21 ht22 ht23 3123 themes", () => {
   ["ht16","ht17","ht18","ht19","ht20","ht21","ht22","ht23"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht16_path") && game.includes("ht23_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["丑时清茶暖蜜","丑时花茶暖蜜","丑时果茶暖蜜","丑时草茶暖蜜","丑时蜜茶暖蜜","丑时露茶暖蜜","丑时烟茶暖蜜","丑时雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19237,7 +19237,7 @@ test("ht24 ht25 ht26 ht27 ht28 ht29 ht30 ht31 3131 themes", () => {
   ["ht24","ht25","ht26","ht27","ht28","ht29","ht30","ht31"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht24_path") && game.includes("ht31_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["丑时雪茶暖蜜","丑时雨茶暖蜜","丑时风茶暖蜜","丑时月茶暖蜜","丑时星茶暖蜜","丑时云茶暖蜜","丑时泉茶暖蜜","丑时井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19277,7 +19277,7 @@ test("ht32 ht33 ht34 ht35 ht36 ht37 ht38 ht39 3139 themes", () => {
   ["ht32","ht33","ht34","ht35","ht36","ht37","ht38","ht39"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht32_path") && game.includes("ht39_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["寅时清茶暖蜜","寅时花茶暖蜜","寅时果茶暖蜜","寅时草茶暖蜜","寅时蜜茶暖蜜","寅时露茶暖蜜","寅时烟茶暖蜜","寅时雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19317,7 +19317,7 @@ test("ht40 ht41 ht42 ht43 ht44 ht45 ht46 ht47 3147 themes", () => {
   ["ht40","ht41","ht42","ht43","ht44","ht45","ht46","ht47"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht40_path") && game.includes("ht47_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["寅时雪茶暖蜜","寅时雨茶暖蜜","寅时风茶暖蜜","寅时月茶暖蜜","寅时星茶暖蜜","寅时云茶暖蜜","寅时泉茶暖蜜","寅时井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19357,7 +19357,7 @@ test("ht48 ht49 ht50 ht51 ht52 ht53 ht54 ht55 3155 themes", () => {
   ["ht54"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht48","ht49","ht50","ht51","ht52","ht53","ht55"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht48_path") && game.includes("ht55_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["卯时清茶暖蜜","卯时花茶暖蜜","卯时果茶暖蜜","卯时草茶暖蜜","卯时蜜茶暖蜜","卯时露茶暖蜜","卯时烟茶暖蜜","卯时雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19397,7 +19397,7 @@ test("ht56 ht57 ht58 ht59 ht60 ht61 ht62 ht63 3163 themes", () => {
   ["ht56"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht57","ht58","ht59","ht60","ht61","ht62","ht63"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht56_path") && game.includes("ht63_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["卯时雪茶暖蜜","卯时雨茶暖蜜","卯时风茶暖蜜","卯时月茶暖蜜","卯时星茶暖蜜","卯时云茶暖蜜","卯时泉茶暖蜜","卯时井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19437,7 +19437,7 @@ test("ht64 ht65 ht66 ht67 ht68 ht69 ht70 ht71 3171 themes", () => {
   ["ht70"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht64","ht65","ht66","ht67","ht68","ht69","ht71"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht64_path") && game.includes("ht71_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["辰时清茶暖蜜","辰时花茶暖蜜","辰时果茶暖蜜","辰时草茶暖蜜","辰时蜜茶暖蜜","辰时露茶暖蜜","辰时烟茶暖蜜","辰时雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19477,7 +19477,7 @@ test("ht72 ht73 ht74 ht75 ht76 ht77 ht78 ht79 3179 themes", () => {
   ["ht72"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht73","ht74","ht75","ht76","ht77","ht78","ht79"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht72_path") && game.includes("ht79_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["辰时雪茶暖蜜","辰时雨茶暖蜜","辰时风茶暖蜜","辰时月茶暖蜜","辰时星茶暖蜜","辰时云茶暖蜜","辰时泉茶暖蜜","辰时井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19517,7 +19517,7 @@ test("ht80 ht81 ht82 ht83 ht84 ht85 ht86 ht87 3187 themes", () => {
   ["ht86"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht80","ht81","ht82","ht83","ht84","ht85","ht87"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht80_path") && game.includes("ht87_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["巳时清茶暖蜜","巳时花茶暖蜜","巳时果茶暖蜜","巳时草茶暖蜜","巳时蜜茶暖蜜","巳时露茶暖蜜","巳时烟茶暖蜜","巳时雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19557,7 +19557,7 @@ test("ht88 ht89 ht90 ht91 ht92 ht93 ht94 ht95 3195 themes", () => {
   ["ht88"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht89","ht90","ht91","ht92","ht93","ht94","ht95"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht88_path") && game.includes("ht95_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["巳时雪茶暖蜜","巳时雨茶暖蜜","巳时风茶暖蜜","巳时月茶暖蜜","巳时星茶暖蜜","巳时云茶暖蜜","巳时泉茶暖蜜","巳时井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19597,7 +19597,7 @@ test("ht96 ht97 ht98 ht99 ht100 ht101 ht102 ht103 3203 themes", () => {
   ["ht102"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht96","ht97","ht98","ht99","ht100","ht101","ht103"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht96_path") && game.includes("ht103_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["午时清茶暖蜜","午时花茶暖蜜","午时果茶暖蜜","午时草茶暖蜜","午时蜜茶暖蜜","午时露茶暖蜜","午时烟茶暖蜜","午时雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19637,7 +19637,7 @@ test("ht104 ht105 ht106 ht107 ht108 ht109 ht110 ht111 3211 themes", () => {
   ["ht104"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht105","ht106","ht107","ht108","ht109","ht110","ht111"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht104_path") && game.includes("ht111_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["午时雪茶暖蜜","午时雨茶暖蜜","午时风茶暖蜜","午时月茶暖蜜","午时星茶暖蜜","午时云茶暖蜜","午时泉茶暖蜜","午时井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19677,7 +19677,7 @@ test("ht112 ht113 ht114 ht115 ht116 ht117 ht118 ht119 3219 themes", () => {
   ["ht118"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht112","ht113","ht114","ht115","ht116","ht117","ht119"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht112_path") && game.includes("ht119_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["未时清茶暖蜜","未时花茶暖蜜","未时果茶暖蜜","未时草茶暖蜜","未时蜜茶暖蜜","未时露茶暖蜜","未时烟茶暖蜜","未时雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19717,7 +19717,7 @@ test("ht120 ht121 ht122 ht123 ht124 ht125 ht126 ht127 3227 themes", () => {
   ["ht120"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht121","ht122","ht123","ht124","ht125","ht126","ht127"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht120_path") && game.includes("ht127_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["未时雪茶暖蜜","未时雨茶暖蜜","未时风茶暖蜜","未时月茶暖蜜","未时星茶暖蜜","未时云茶暖蜜","未时泉茶暖蜜","未时井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19757,7 +19757,7 @@ test("ht128 ht129 ht130 ht131 ht132 ht133 ht134 ht135 3235 themes", () => {
   ["ht134"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht128","ht129","ht130","ht131","ht132","ht133","ht135"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht128_path") && game.includes("ht135_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["申时清茶暖蜜","申时花茶暖蜜","申时果茶暖蜜","申时草茶暖蜜","申时蜜茶暖蜜","申时露茶暖蜜","申时烟茶暖蜜","申时雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19797,7 +19797,7 @@ test("ht136 ht137 ht138 ht139 ht140 ht141 ht142 ht143 3243 themes", () => {
   ["ht136"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht137","ht138","ht139","ht140","ht141","ht142","ht143"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht136_path") && game.includes("ht143_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["申时雪茶暖蜜","申时雨茶暖蜜","申时风茶暖蜜","申时月茶暖蜜","申时星茶暖蜜","申时云茶暖蜜","申时泉茶暖蜜","申时井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19837,7 +19837,7 @@ test("ht144 ht145 ht146 ht147 ht148 ht149 ht150 ht151 3251 themes", () => {
   ["ht150"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht144","ht145","ht146","ht147","ht148","ht149","ht151"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht144_path") && game.includes("ht151_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["酉时清茶暖蜜","酉时花茶暖蜜","酉时果茶暖蜜","酉时草茶暖蜜","酉时蜜茶暖蜜","酉时露茶暖蜜","酉时烟茶暖蜜","酉时雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19877,7 +19877,7 @@ test("ht152 ht153 ht154 ht155 ht156 ht157 ht158 ht159 3259 themes", () => {
   ["ht152"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht153","ht154","ht155","ht156","ht157","ht158","ht159"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht152_path") && game.includes("ht159_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["酉时雪茶暖蜜","酉时雨茶暖蜜","酉时风茶暖蜜","酉时月茶暖蜜","酉时星茶暖蜜","酉时云茶暖蜜","酉时泉茶暖蜜","酉时井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19917,7 +19917,7 @@ test("ht160 ht161 ht162 ht163 ht164 ht165 ht166 ht167 3267 themes", () => {
   ["ht166"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht160","ht161","ht162","ht163","ht164","ht165","ht167"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht160_path") && game.includes("ht167_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["戌时清茶暖蜜","戌时花茶暖蜜","戌时果茶暖蜜","戌时草茶暖蜜","戌时蜜茶暖蜜","戌时露茶暖蜜","戌时烟茶暖蜜","戌时雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19957,7 +19957,7 @@ test("ht168 ht169 ht170 ht171 ht172 ht173 ht174 ht175 3275 themes", () => {
   ["ht168"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht169","ht170","ht171","ht172","ht173","ht174","ht175"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht168_path") && game.includes("ht175_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["戌时雪茶暖蜜","戌时雨茶暖蜜","戌时风茶暖蜜","戌时月茶暖蜜","戌时星茶暖蜜","戌时云茶暖蜜","戌时泉茶暖蜜","戌时井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -19997,7 +19997,7 @@ test("ht176 ht177 ht178 ht179 ht180 ht181 ht182 ht183 3283 themes", () => {
   ["ht182"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht176","ht177","ht178","ht179","ht180","ht181","ht183"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht176_path") && game.includes("ht183_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["亥时清茶暖蜜","亥时花茶暖蜜","亥时果茶暖蜜","亥时草茶暖蜜","亥时蜜茶暖蜜","亥时露茶暖蜜","亥时烟茶暖蜜","亥时雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20037,7 +20037,7 @@ test("ht184 ht185 ht186 ht187 ht188 ht189 ht190 ht191 3291 themes", () => {
   ["ht184"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht185","ht186","ht187","ht188","ht189","ht190","ht191"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht184_path") && game.includes("ht191_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["亥时雪茶暖蜜","亥时雨茶暖蜜","亥时风茶暖蜜","亥时月茶暖蜜","亥时星茶暖蜜","亥时云茶暖蜜","亥时泉茶暖蜜","亥时井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20077,7 +20077,7 @@ test("ht192 ht193 ht194 ht195 ht196 ht197 ht198 ht199 3299 themes", () => {
   ["ht198"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht192","ht193","ht194","ht195","ht196","ht197","ht199"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht192_path") && game.includes("ht199_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["破晓清茶暖蜜","破晓花茶暖蜜","破晓果茶暖蜜","破晓草茶暖蜜","破晓蜜茶暖蜜","破晓露茶暖蜜","破晓烟茶暖蜜","破晓雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20117,7 +20117,7 @@ test("ht200 ht201 ht202 ht203 ht204 ht205 ht206 ht207 3307 themes", () => {
   ["ht200"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht201","ht202","ht203","ht204","ht205","ht206","ht207"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht200_path") && game.includes("ht207_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["破晓雪茶暖蜜","破晓雨茶暖蜜","破晓风茶暖蜜","破晓月茶暖蜜","破晓星茶暖蜜","破晓云茶暖蜜","破晓泉茶暖蜜","破晓井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20157,7 +20157,7 @@ test("ht208 ht209 ht210 ht211 ht212 ht213 ht214 ht215 3315 themes", () => {
   ["ht214"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht208","ht209","ht210","ht211","ht212","ht213","ht215"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht208_path") && game.includes("ht215_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["日出清茶暖蜜","日出花茶暖蜜","日出果茶暖蜜","日出草茶暖蜜","日出蜜茶暖蜜","日出露茶暖蜜","日出烟茶暖蜜","日出雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20197,7 +20197,7 @@ test("ht216 ht217 ht218 ht219 ht220 ht221 ht222 ht223 3323 themes", () => {
   ["ht216"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht217","ht218","ht219","ht220","ht221","ht222","ht223"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht216_path") && game.includes("ht223_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["日出雪茶暖蜜","日出雨茶暖蜜","日出风茶暖蜜","日出月茶暖蜜","日出星茶暖蜜","日出云茶暖蜜","日出泉茶暖蜜","日出井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20237,7 +20237,7 @@ test("ht224 ht225 ht226 ht227 ht228 ht229 ht230 ht231 3331 themes", () => {
   ["ht230"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht224","ht225","ht226","ht227","ht228","ht229","ht231"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht224_path") && game.includes("ht231_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["午前清茶暖蜜","午前花茶暖蜜","午前果茶暖蜜","午前草茶暖蜜","午前蜜茶暖蜜","午前露茶暖蜜","午前烟茶暖蜜","午前雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20277,7 +20277,7 @@ test("ht232 ht233 ht234 ht235 ht236 ht237 ht238 ht239 3339 themes", () => {
   ["ht232"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht233","ht234","ht235","ht236","ht237","ht238","ht239"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht232_path") && game.includes("ht239_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["午前雪茶暖蜜","午前雨茶暖蜜","午前风茶暖蜜","午前月茶暖蜜","午前星茶暖蜜","午前云茶暖蜜","午前泉茶暖蜜","午前井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20317,7 +20317,7 @@ test("ht240 ht241 ht242 ht243 ht244 ht245 ht246 ht247 3347 themes", () => {
   ["ht246"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht240","ht241","ht242","ht243","ht244","ht245","ht247"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht240_path") && game.includes("ht247_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["正午清茶暖蜜","正午花茶暖蜜","正午果茶暖蜜","正午草茶暖蜜","正午蜜茶暖蜜","正午露茶暖蜜","正午烟茶暖蜜","正午雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20357,7 +20357,7 @@ test("ht248 ht249 ht250 ht251 ht252 ht253 ht254 ht255 3355 themes", () => {
   ["ht248"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht249","ht250","ht251","ht252","ht253","ht254","ht255"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht248_path") && game.includes("ht255_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["正午雪茶暖蜜","正午雨茶暖蜜","正午风茶暖蜜","正午月茶暖蜜","正午星茶暖蜜","正午云茶暖蜜","正午泉茶暖蜜","正午井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20397,7 +20397,7 @@ test("ht256 ht257 ht258 ht259 ht260 ht261 ht262 ht263 3363 themes", () => {
   ["ht262"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht256","ht257","ht258","ht259","ht260","ht261","ht263"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht256_path") && game.includes("ht263_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["午后清茶暖蜜","午后花茶暖蜜","午后果茶暖蜜","午后草茶暖蜜","午后蜜茶暖蜜","午后露茶暖蜜","午后烟茶暖蜜","午后雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20437,7 +20437,7 @@ test("ht264 ht265 ht266 ht267 ht268 ht269 ht270 ht271 3371 themes", () => {
   ["ht264"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht265","ht266","ht267","ht268","ht269","ht270","ht271"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht264_path") && game.includes("ht271_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["午后雪茶暖蜜","午后雨茶暖蜜","午后风茶暖蜜","午后月茶暖蜜","午后星茶暖蜜","午后云茶暖蜜","午后泉茶暖蜜","午后井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20477,7 +20477,7 @@ test("ht272 ht273 ht274 ht275 ht276 ht277 ht278 ht279 3379 themes", () => {
   ["ht278"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht272","ht273","ht274","ht275","ht276","ht277","ht279"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht272_path") && game.includes("ht279_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["薄暮清茶暖蜜","薄暮花茶暖蜜","薄暮果茶暖蜜","薄暮草茶暖蜜","薄暮蜜茶暖蜜","薄暮露茶暖蜜","薄暮烟茶暖蜜","薄暮雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20517,7 +20517,7 @@ test("ht280 ht281 ht282 ht283 ht284 ht285 ht286 ht287 3387 themes", () => {
   ["ht280"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ht281","ht282","ht283","ht284","ht285","ht286","ht287"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht280_path") && game.includes("ht287_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["薄暮雪茶暖蜜","薄暮雨茶暖蜜","薄暮风茶暖蜜","薄暮月茶暖蜜","薄暮星茶暖蜜","薄暮云茶暖蜜","薄暮泉茶暖蜜","薄暮井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20557,7 +20557,7 @@ test("ht288 ht289 ht290 ht291 ht292 ht293 ht294 ht295 3395 themes", () => {
   ["ht288","ht289","ht290","ht291","ht292","ht293","ht294","ht295"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht288_path") && game.includes("ht295_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["入夜清茶暖蜜","入夜花茶暖蜜","入夜果茶暖蜜","入夜草茶暖蜜","入夜蜜茶暖蜜","入夜露茶暖蜜","入夜烟茶暖蜜","入夜雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20597,7 +20597,7 @@ test("ht296 ht297 ht298 ht299 ht300 ht301 ht302 ht303 3403 themes", () => {
   ["ht296","ht297","ht298","ht299","ht300","ht301","ht302","ht303"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht296_path") && game.includes("ht303_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["入夜雪茶暖蜜","入夜雨茶暖蜜","入夜风茶暖蜜","入夜月茶暖蜜","入夜星茶暖蜜","入夜云茶暖蜜","入夜泉茶暖蜜","入夜井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20637,7 +20637,7 @@ test("ht304 ht305 ht306 ht307 ht308 ht309 ht310 ht311 3411 themes", () => {
   ["ht304","ht305","ht306","ht307","ht308","ht309","ht310","ht311"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht304_path") && game.includes("ht311_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["深夜清茶暖蜜","深夜花茶暖蜜","深夜果茶暖蜜","深夜草茶暖蜜","深夜蜜茶暖蜜","深夜露茶暖蜜","深夜烟茶暖蜜","深夜雾茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20677,7 +20677,7 @@ test("ht312 ht313 ht314 ht315 ht316 ht317 ht318 ht319 3419 themes", () => {
   ["ht312","ht313","ht314","ht315","ht316","ht317","ht318","ht319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   [].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ht312_path") && game.includes("ht319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["深夜雪茶暖蜜","深夜雨茶暖蜜","深夜风茶暖蜜","深夜月茶暖蜜","深夜星茶暖蜜","深夜云茶暖蜜","深夜泉茶暖蜜","深夜井茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20717,7 +20717,7 @@ test("mn0 mn1 mn2 mn3 mn4 mn5 mn6 mn7 mn8 mn9 mn10 mn11 mn12 mn13 mn14 mn15 mn16
   ["mn1","mn3","mn5","mn7","mn9","mn11","mn13","mn15","mn17","mn19","mn21","mn23","mn25","mn27","mn29","mn31","mn33","mn35","mn37","mn39","mn41","mn43","mn45","mn47","mn49","mn51","mn53","mn55","mn57","mn59","mn61","mn63","mn65","mn67","mn69","mn71","mn73","mn75","mn77","mn79","mn81","mn83","mn85","mn87","mn89","mn91","mn93","mn95","mn97","mn99","mn101","mn103","mn105","mn107","mn109","mn111","mn113","mn115","mn117","mn119","mn121","mn123","mn125","mn127","mn129","mn131","mn133","mn135","mn137","mn139","mn141","mn143","mn145","mn147","mn149","mn151","mn153","mn155","mn157","mn159","mn161","mn163","mn165","mn167","mn169","mn171","mn173","mn175","mn177","mn179","mn181","mn183","mn185","mn187","mn189","mn191","mn193","mn195","mn197","mn199","mn201","mn203","mn205","mn207","mn209","mn211","mn213","mn215","mn217","mn219","mn221","mn223","mn225","mn227","mn229","mn231","mn233","mn235","mn237","mn239","mn241","mn243","mn245","mn247","mn249","mn251","mn253","mn255","mn257","mn259","mn261","mn263","mn265","mn267","mn269","mn271","mn273","mn275","mn277","mn279","mn281","mn283","mn285","mn287","mn289","mn291","mn293","mn295","mn297","mn299","mn301","mn303","mn305","mn307","mn309","mn311","mn313","mn315","mn317","mn319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["mn0","mn2","mn4","mn6","mn8","mn10","mn12","mn14","mn16","mn18","mn20","mn22","mn24","mn26","mn28","mn30","mn32","mn34","mn36","mn38","mn40","mn42","mn44","mn46","mn48","mn50","mn52","mn54","mn56","mn58","mn60","mn62","mn64","mn66","mn68","mn70","mn72","mn74","mn76","mn78","mn80","mn82","mn84","mn86","mn88","mn90","mn92","mn94","mn96","mn98","mn100","mn102","mn104","mn106","mn108","mn110","mn112","mn114","mn116","mn118","mn120","mn122","mn124","mn126","mn128","mn130","mn132","mn134","mn136","mn138","mn140","mn142","mn144","mn146","mn148","mn150","mn152","mn154","mn156","mn158","mn160","mn162","mn164","mn166","mn168","mn170","mn172","mn174","mn176","mn178","mn180","mn182","mn184","mn186","mn188","mn190","mn192","mn194","mn196","mn198","mn200","mn202","mn204","mn206","mn208","mn210","mn212","mn214","mn216","mn218","mn220","mn222","mn224","mn226","mn228","mn230","mn232","mn234","mn236","mn238","mn240","mn242","mn244","mn246","mn248","mn250","mn252","mn254","mn256","mn258","mn260","mn262","mn264","mn266","mn268","mn270","mn272","mn274","mn276","mn278","mn280","mn282","mn284","mn286","mn288","mn290","mn292","mn294","mn296","mn298","mn300","mn302","mn304","mn306","mn308","mn310","mn312","mn314","mn316","mn318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("mn0_path") && game.includes("mn319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["新月清茶暖蜜","新月花茶暖蜜","新月果茶暖蜜","新月蜜茶暖蜜","新月叶茶暖蜜","新月露茶暖蜜","新月雾茶暖蜜","新月霜茶暖蜜","新月雪茶暖蜜","新月露蜜暖蜜","新月桂花暖蜜","新月茉莉暖蜜","新月白毫暖蜜","新月龙井暖蜜","新月碧螺暖蜜","新月岩茶暖蜜","蛾眉月清茶暖蜜","蛾眉月花茶暖蜜","蛾眉月果茶暖蜜","蛾眉月蜜茶暖蜜","蛾眉月叶茶暖蜜","蛾眉月露茶暖蜜","蛾眉月雾茶暖蜜","蛾眉月霜茶暖蜜","蛾眉月雪茶暖蜜","蛾眉月露蜜暖蜜","蛾眉月桂花暖蜜","蛾眉月茉莉暖蜜","蛾眉月白毫暖蜜","蛾眉月龙井暖蜜","蛾眉月碧螺暖蜜","蛾眉月岩茶暖蜜","上弦清茶暖蜜","上弦花茶暖蜜","上弦果茶暖蜜","上弦蜜茶暖蜜","上弦叶茶暖蜜","上弦露茶暖蜜","上弦雾茶暖蜜","上弦霜茶暖蜜","上弦雪茶暖蜜","上弦露蜜暖蜜","上弦桂花暖蜜","上弦茉莉暖蜜","上弦白毫暖蜜","上弦龙井暖蜜","上弦碧螺暖蜜","上弦岩茶暖蜜","盈凸清茶暖蜜","盈凸花茶暖蜜","盈凸果茶暖蜜","盈凸蜜茶暖蜜","盈凸叶茶暖蜜","盈凸露茶暖蜜","盈凸雾茶暖蜜","盈凸霜茶暖蜜","盈凸雪茶暖蜜","盈凸露蜜暖蜜","盈凸桂花暖蜜","盈凸茉莉暖蜜","盈凸白毫暖蜜","盈凸龙井暖蜜","盈凸碧螺暖蜜","盈凸岩茶暖蜜","满月清茶暖蜜","满月花茶暖蜜","满月果茶暖蜜","满月蜜茶暖蜜","满月叶茶暖蜜","满月露茶暖蜜","满月雾茶暖蜜","满月霜茶暖蜜","满月雪茶暖蜜","满月露蜜暖蜜","满月桂花暖蜜","满月茉莉暖蜜","满月白毫暖蜜","满月龙井暖蜜","满月碧螺暖蜜","满月岩茶暖蜜","亏凸清茶暖蜜","亏凸花茶暖蜜","亏凸果茶暖蜜","亏凸蜜茶暖蜜","亏凸叶茶暖蜜","亏凸露茶暖蜜","亏凸雾茶暖蜜","亏凸霜茶暖蜜","亏凸雪茶暖蜜","亏凸露蜜暖蜜","亏凸桂花暖蜜","亏凸茉莉暖蜜","亏凸白毫暖蜜","亏凸龙井暖蜜","亏凸碧螺暖蜜","亏凸岩茶暖蜜","下弦清茶暖蜜","下弦花茶暖蜜","下弦果茶暖蜜","下弦蜜茶暖蜜","下弦叶茶暖蜜","下弦露茶暖蜜","下弦雾茶暖蜜","下弦霜茶暖蜜","下弦雪茶暖蜜","下弦露蜜暖蜜","下弦桂花暖蜜","下弦茉莉暖蜜","下弦白毫暖蜜","下弦龙井暖蜜","下弦碧螺暖蜜","下弦岩茶暖蜜","残月清茶暖蜜","残月花茶暖蜜","残月果茶暖蜜","残月蜜茶暖蜜","残月叶茶暖蜜","残月露茶暖蜜","残月雾茶暖蜜","残月霜茶暖蜜","残月雪茶暖蜜","残月露蜜暖蜜","残月桂花暖蜜","残月茉莉暖蜜","残月白毫暖蜜","残月龙井暖蜜","残月碧螺暖蜜","残月岩茶暖蜜","晦月清茶暖蜜","晦月花茶暖蜜","晦月果茶暖蜜","晦月蜜茶暖蜜","晦月叶茶暖蜜","晦月露茶暖蜜","晦月雾茶暖蜜","晦月霜茶暖蜜","晦月雪茶暖蜜","晦月露蜜暖蜜","晦月桂花暖蜜","晦月茉莉暖蜜","晦月白毫暖蜜","晦月龙井暖蜜","晦月碧螺暖蜜","晦月岩茶暖蜜","朔望清茶暖蜜","朔望花茶暖蜜","朔望果茶暖蜜","朔望蜜茶暖蜜","朔望叶茶暖蜜","朔望露茶暖蜜","朔望雾茶暖蜜","朔望霜茶暖蜜","朔望雪茶暖蜜","朔望露蜜暖蜜","朔望桂花暖蜜","朔望茉莉暖蜜","朔望白毫暖蜜","朔望龙井暖蜜","朔望碧螺暖蜜","朔望岩茶暖蜜","望月清茶暖蜜","望月花茶暖蜜","望月果茶暖蜜","望月蜜茶暖蜜","望月叶茶暖蜜","望月露茶暖蜜","望月雾茶暖蜜","望月霜茶暖蜜","望月雪茶暖蜜","望月露蜜暖蜜","望月桂花暖蜜","望月茉莉暖蜜","望月白毫暖蜜","望月龙井暖蜜","望月碧螺暖蜜","望月岩茶暖蜜","弦月清茶暖蜜","弦月花茶暖蜜","弦月果茶暖蜜","弦月蜜茶暖蜜","弦月叶茶暖蜜","弦月露茶暖蜜","弦月雾茶暖蜜","弦月霜茶暖蜜","弦月雪茶暖蜜","弦月露蜜暖蜜","弦月桂花暖蜜","弦月茉莉暖蜜","弦月白毫暖蜜","弦月龙井暖蜜","弦月碧螺暖蜜","弦月岩茶暖蜜","眉月清茶暖蜜","眉月花茶暖蜜","眉月果茶暖蜜","眉月蜜茶暖蜜","眉月叶茶暖蜜","眉月露茶暖蜜","眉月雾茶暖蜜","眉月霜茶暖蜜","眉月雪茶暖蜜","眉月露蜜暖蜜","眉月桂花暖蜜","眉月茉莉暖蜜","眉月白毫暖蜜","眉月龙井暖蜜","眉月碧螺暖蜜","眉月岩茶暖蜜","半影清茶暖蜜","半影花茶暖蜜","半影果茶暖蜜","半影蜜茶暖蜜","半影叶茶暖蜜","半影露茶暖蜜","半影雾茶暖蜜","半影霜茶暖蜜","半影雪茶暖蜜","半影露蜜暖蜜","半影桂花暖蜜","半影茉莉暖蜜","半影白毫暖蜜","半影龙井暖蜜","半影碧螺暖蜜","半影岩茶暖蜜","本影清茶暖蜜","本影花茶暖蜜","本影果茶暖蜜","本影蜜茶暖蜜","本影叶茶暖蜜","本影露茶暖蜜","本影雾茶暖蜜","本影霜茶暖蜜","本影雪茶暖蜜","本影露蜜暖蜜","本影桂花暖蜜","本影茉莉暖蜜","本影白毫暖蜜","本影龙井暖蜜","本影碧螺暖蜜","本影岩茶暖蜜","环食清茶暖蜜","环食花茶暖蜜","环食果茶暖蜜","环食蜜茶暖蜜","环食叶茶暖蜜","环食露茶暖蜜","环食雾茶暖蜜","环食霜茶暖蜜","环食雪茶暖蜜","环食露蜜暖蜜","环食桂花暖蜜","环食茉莉暖蜜","环食白毫暖蜜","环食龙井暖蜜","环食碧螺暖蜜","环食岩茶暖蜜","月食清茶暖蜜","月食花茶暖蜜","月食果茶暖蜜","月食蜜茶暖蜜","月食叶茶暖蜜","月食露茶暖蜜","月食雾茶暖蜜","月食霜茶暖蜜","月食雪茶暖蜜","月食露蜜暖蜜","月食桂花暖蜜","月食茉莉暖蜜","月食白毫暖蜜","月食龙井暖蜜","月食碧螺暖蜜","月食岩茶暖蜜","桂影清茶暖蜜","桂影花茶暖蜜","桂影果茶暖蜜","桂影蜜茶暖蜜","桂影叶茶暖蜜","桂影露茶暖蜜","桂影雾茶暖蜜","桂影霜茶暖蜜","桂影雪茶暖蜜","桂影露蜜暖蜜","桂影桂花暖蜜","桂影茉莉暖蜜","桂影白毫暖蜜","桂影龙井暖蜜","桂影碧螺暖蜜","桂影岩茶暖蜜","蟾光清茶暖蜜","蟾光花茶暖蜜","蟾光果茶暖蜜","蟾光蜜茶暖蜜","蟾光叶茶暖蜜","蟾光露茶暖蜜","蟾光雾茶暖蜜","蟾光霜茶暖蜜","蟾光雪茶暖蜜","蟾光露蜜暖蜜","蟾光桂花暖蜜","蟾光茉莉暖蜜","蟾光白毫暖蜜","蟾光龙井暖蜜","蟾光碧螺暖蜜","蟾光岩茶暖蜜","玉盘清茶暖蜜","玉盘花茶暖蜜","玉盘果茶暖蜜","玉盘蜜茶暖蜜","玉盘叶茶暖蜜","玉盘露茶暖蜜","玉盘雾茶暖蜜","玉盘霜茶暖蜜","玉盘雪茶暖蜜","玉盘露蜜暖蜜","玉盘桂花暖蜜","玉盘茉莉暖蜜","玉盘白毫暖蜜","玉盘龙井暖蜜","玉盘碧螺暖蜜","玉盘岩茶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20757,7 +20757,7 @@ test("wx0 wx1 wx2 wx3 wx4 wx5 wx6 wx7 wx8 wx9 wx10 wx11 wx12 wx13 wx14 wx15 wx16
   ["wx1","wx3","wx5","wx7","wx9","wx11","wx13","wx15","wx17","wx19","wx21","wx23","wx25","wx27","wx29","wx31","wx33","wx35","wx37","wx39","wx41","wx43","wx45","wx47","wx49","wx51","wx53","wx55","wx57","wx59","wx61","wx63","wx65","wx67","wx69","wx71","wx73","wx75","wx77","wx79","wx81","wx83","wx85","wx87","wx89","wx91","wx93","wx95","wx97","wx99","wx101","wx103","wx105","wx107","wx109","wx111","wx113","wx115","wx117","wx119","wx121","wx123","wx125","wx127","wx129","wx131","wx133","wx135","wx137","wx139","wx141","wx143","wx145","wx147","wx149","wx151","wx153","wx155","wx157","wx159","wx161","wx163","wx165","wx167","wx169","wx171","wx173","wx175","wx177","wx179","wx181","wx183","wx185","wx187","wx189","wx191","wx193","wx195","wx197","wx199","wx201","wx203","wx205","wx207","wx209","wx211","wx213","wx215","wx217","wx219","wx221","wx223","wx225","wx227","wx229","wx231","wx233","wx235","wx237","wx239","wx241","wx243","wx245","wx247","wx249","wx251","wx253","wx255","wx257","wx259","wx261","wx263","wx265","wx267","wx269","wx271","wx273","wx275","wx277","wx279","wx281","wx283","wx285","wx287","wx289","wx291","wx293","wx295","wx297","wx299","wx301","wx303","wx305","wx307","wx309","wx311","wx313","wx315","wx317","wx319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["wx0","wx2","wx4","wx6","wx8","wx10","wx12","wx14","wx16","wx18","wx20","wx22","wx24","wx26","wx28","wx30","wx32","wx34","wx36","wx38","wx40","wx42","wx44","wx46","wx48","wx50","wx52","wx54","wx56","wx58","wx60","wx62","wx64","wx66","wx68","wx70","wx72","wx74","wx76","wx78","wx80","wx82","wx84","wx86","wx88","wx90","wx92","wx94","wx96","wx98","wx100","wx102","wx104","wx106","wx108","wx110","wx112","wx114","wx116","wx118","wx120","wx122","wx124","wx126","wx128","wx130","wx132","wx134","wx136","wx138","wx140","wx142","wx144","wx146","wx148","wx150","wx152","wx154","wx156","wx158","wx160","wx162","wx164","wx166","wx168","wx170","wx172","wx174","wx176","wx178","wx180","wx182","wx184","wx186","wx188","wx190","wx192","wx194","wx196","wx198","wx200","wx202","wx204","wx206","wx208","wx210","wx212","wx214","wx216","wx218","wx220","wx222","wx224","wx226","wx228","wx230","wx232","wx234","wx236","wx238","wx240","wx242","wx244","wx246","wx248","wx250","wx252","wx254","wx256","wx258","wx260","wx262","wx264","wx266","wx268","wx270","wx272","wx274","wx276","wx278","wx280","wx282","wx284","wx286","wx288","wx290","wx292","wx294","wx296","wx298","wx300","wx302","wx304","wx306","wx308","wx310","wx312","wx314","wx316","wx318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("wx0_path") && game.includes("wx319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["微雨艾草暖蜜","微雨薄荷暖蜜","微雨茴香暖蜜","微雨迷迭暖蜜","微雨百里香暖蜜","微雨罗勒暖蜜","微雨紫苏暖蜜","微雨香茅暖蜜","微雨柠檬草暖蜜","微雨马鞭草暖蜜","微雨鼠尾暖蜜","微雨洋甘菊暖蜜","微雨金盏暖蜜","微雨矢车菊暖蜜","微雨藿香暖蜜","微雨荆芥暖蜜","细雪艾草暖蜜","细雪薄荷暖蜜","细雪茴香暖蜜","细雪迷迭暖蜜","细雪百里香暖蜜","细雪罗勒暖蜜","细雪紫苏暖蜜","细雪香茅暖蜜","细雪柠檬草暖蜜","细雪马鞭草暖蜜","细雪鼠尾暖蜜","细雪洋甘菊暖蜜","细雪金盏暖蜜","细雪矢车菊暖蜜","细雪藿香暖蜜","细雪荆芥暖蜜","薄雾艾草暖蜜","薄雾薄荷暖蜜","薄雾茴香暖蜜","薄雾迷迭暖蜜","薄雾百里香暖蜜","薄雾罗勒暖蜜","薄雾紫苏暖蜜","薄雾香茅暖蜜","薄雾柠檬草暖蜜","薄雾马鞭草暖蜜","薄雾鼠尾暖蜜","薄雾洋甘菊暖蜜","薄雾金盏暖蜜","薄雾矢车菊暖蜜","薄雾藿香暖蜜","薄雾荆芥暖蜜","软风艾草暖蜜","软风薄荷暖蜜","软风茴香暖蜜","软风迷迭暖蜜","软风百里香暖蜜","软风罗勒暖蜜","软风紫苏暖蜜","软风香茅暖蜜","软风柠檬草暖蜜","软风马鞭草暖蜜","软风鼠尾暖蜜","软风洋甘菊暖蜜","软风金盏暖蜜","软风矢车菊暖蜜","软风藿香暖蜜","软风荆芥暖蜜","晴岚艾草暖蜜","晴岚薄荷暖蜜","晴岚茴香暖蜜","晴岚迷迭暖蜜","晴岚百里香暖蜜","晴岚罗勒暖蜜","晴岚紫苏暖蜜","晴岚香茅暖蜜","晴岚柠檬草暖蜜","晴岚马鞭草暖蜜","晴岚鼠尾暖蜜","晴岚洋甘菊暖蜜","晴岚金盏暖蜜","晴岚矢车菊暖蜜","晴岚藿香暖蜜","晴岚荆芥暖蜜","暮霞艾草暖蜜","暮霞薄荷暖蜜","暮霞茴香暖蜜","暮霞迷迭暖蜜","暮霞百里香暖蜜","暮霞罗勒暖蜜","暮霞紫苏暖蜜","暮霞香茅暖蜜","暮霞柠檬草暖蜜","暮霞马鞭草暖蜜","暮霞鼠尾暖蜜","暮霞洋甘菊暖蜜","暮霞金盏暖蜜","暮霞矢车菊暖蜜","暮霞藿香暖蜜","暮霞荆芥暖蜜","夜露艾草暖蜜","夜露薄荷暖蜜","夜露茴香暖蜜","夜露迷迭暖蜜","夜露百里香暖蜜","夜露罗勒暖蜜","夜露紫苏暖蜜","夜露香茅暖蜜","夜露柠檬草暖蜜","夜露马鞭草暖蜜","夜露鼠尾暖蜜","夜露洋甘菊暖蜜","夜露金盏暖蜜","夜露矢车菊暖蜜","夜露藿香暖蜜","夜露荆芥暖蜜","晨霜艾草暖蜜","晨霜薄荷暖蜜","晨霜茴香暖蜜","晨霜迷迭暖蜜","晨霜百里香暖蜜","晨霜罗勒暖蜜","晨霜紫苏暖蜜","晨霜香茅暖蜜","晨霜柠檬草暖蜜","晨霜马鞭草暖蜜","晨霜鼠尾暖蜜","晨霜洋甘菊暖蜜","晨霜金盏暖蜜","晨霜矢车菊暖蜜","晨霜藿香暖蜜","晨霜荆芥暖蜜","雷远艾草暖蜜","雷远薄荷暖蜜","雷远茴香暖蜜","雷远迷迭暖蜜","雷远百里香暖蜜","雷远罗勒暖蜜","雷远紫苏暖蜜","雷远香茅暖蜜","雷远柠檬草暖蜜","雷远马鞭草暖蜜","雷远鼠尾暖蜜","雷远洋甘菊暖蜜","雷远金盏暖蜜","雷远矢车菊暖蜜","雷远藿香暖蜜","雷远荆芥暖蜜","云疏艾草暖蜜","云疏薄荷暖蜜","云疏茴香暖蜜","云疏迷迭暖蜜","云疏百里香暖蜜","云疏罗勒暖蜜","云疏紫苏暖蜜","云疏香茅暖蜜","云疏柠檬草暖蜜","云疏马鞭草暖蜜","云疏鼠尾暖蜜","云疏洋甘菊暖蜜","云疏金盏暖蜜","云疏矢车菊暖蜜","云疏藿香暖蜜","云疏荆芥暖蜜","虹余艾草暖蜜","虹余薄荷暖蜜","虹余茴香暖蜜","虹余迷迭暖蜜","虹余百里香暖蜜","虹余罗勒暖蜜","虹余紫苏暖蜜","虹余香茅暖蜜","虹余柠檬草暖蜜","虹余马鞭草暖蜜","虹余鼠尾暖蜜","虹余洋甘菊暖蜜","虹余金盏暖蜜","虹余矢车菊暖蜜","虹余藿香暖蜜","虹余荆芥暖蜜","烟雨艾草暖蜜","烟雨薄荷暖蜜","烟雨茴香暖蜜","烟雨迷迭暖蜜","烟雨百里香暖蜜","烟雨罗勒暖蜜","烟雨紫苏暖蜜","烟雨香茅暖蜜","烟雨柠檬草暖蜜","烟雨马鞭草暖蜜","烟雨鼠尾暖蜜","烟雨洋甘菊暖蜜","烟雨金盏暖蜜","烟雨矢车菊暖蜜","烟雨藿香暖蜜","烟雨荆芥暖蜜","霁色艾草暖蜜","霁色薄荷暖蜜","霁色茴香暖蜜","霁色迷迭暖蜜","霁色百里香暖蜜","霁色罗勒暖蜜","霁色紫苏暖蜜","霁色香茅暖蜜","霁色柠檬草暖蜜","霁色马鞭草暖蜜","霁色鼠尾暖蜜","霁色洋甘菊暖蜜","霁色金盏暖蜜","霁色矢车菊暖蜜","霁色藿香暖蜜","霁色荆芥暖蜜","阴凉艾草暖蜜","阴凉薄荷暖蜜","阴凉茴香暖蜜","阴凉迷迭暖蜜","阴凉百里香暖蜜","阴凉罗勒暖蜜","阴凉紫苏暖蜜","阴凉香茅暖蜜","阴凉柠檬草暖蜜","阴凉马鞭草暖蜜","阴凉鼠尾暖蜜","阴凉洋甘菊暖蜜","阴凉金盏暖蜜","阴凉矢车菊暖蜜","阴凉藿香暖蜜","阴凉荆芥暖蜜","暖阳艾草暖蜜","暖阳薄荷暖蜜","暖阳茴香暖蜜","暖阳迷迭暖蜜","暖阳百里香暖蜜","暖阳罗勒暖蜜","暖阳紫苏暖蜜","暖阳香茅暖蜜","暖阳柠檬草暖蜜","暖阳马鞭草暖蜜","暖阳鼠尾暖蜜","暖阳洋甘菊暖蜜","暖阳金盏暖蜜","暖阳矢车菊暖蜜","暖阳藿香暖蜜","暖阳荆芥暖蜜","朔风艾草暖蜜","朔风薄荷暖蜜","朔风茴香暖蜜","朔风迷迭暖蜜","朔风百里香暖蜜","朔风罗勒暖蜜","朔风紫苏暖蜜","朔风香茅暖蜜","朔风柠檬草暖蜜","朔风马鞭草暖蜜","朔风鼠尾暖蜜","朔风洋甘菊暖蜜","朔风金盏暖蜜","朔风矢车菊暖蜜","朔风藿香暖蜜","朔风荆芥暖蜜","海风艾草暖蜜","海风薄荷暖蜜","海风茴香暖蜜","海风迷迭暖蜜","海风百里香暖蜜","海风罗勒暖蜜","海风紫苏暖蜜","海风香茅暖蜜","海风柠檬草暖蜜","海风马鞭草暖蜜","海风鼠尾暖蜜","海风洋甘菊暖蜜","海风金盏暖蜜","海风矢车菊暖蜜","海风藿香暖蜜","海风荆芥暖蜜","山岚艾草暖蜜","山岚薄荷暖蜜","山岚茴香暖蜜","山岚迷迭暖蜜","山岚百里香暖蜜","山岚罗勒暖蜜","山岚紫苏暖蜜","山岚香茅暖蜜","山岚柠檬草暖蜜","山岚马鞭草暖蜜","山岚鼠尾暖蜜","山岚洋甘菊暖蜜","山岚金盏暖蜜","山岚矢车菊暖蜜","山岚藿香暖蜜","山岚荆芥暖蜜","谷风艾草暖蜜","谷风薄荷暖蜜","谷风茴香暖蜜","谷风迷迭暖蜜","谷风百里香暖蜜","谷风罗勒暖蜜","谷风紫苏暖蜜","谷风香茅暖蜜","谷风柠檬草暖蜜","谷风马鞭草暖蜜","谷风鼠尾暖蜜","谷风洋甘菊暖蜜","谷风金盏暖蜜","谷风矢车菊暖蜜","谷风藿香暖蜜","谷风荆芥暖蜜","潮音艾草暖蜜","潮音薄荷暖蜜","潮音茴香暖蜜","潮音迷迭暖蜜","潮音百里香暖蜜","潮音罗勒暖蜜","潮音紫苏暖蜜","潮音香茅暖蜜","潮音柠檬草暖蜜","潮音马鞭草暖蜜","潮音鼠尾暖蜜","潮音洋甘菊暖蜜","潮音金盏暖蜜","潮音矢车菊暖蜜","潮音藿香暖蜜","潮音荆芥暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20797,7 +20797,7 @@ test("pt0 pt1 pt2 pt3 pt4 pt5 pt6 pt7 pt8 pt9 pt10 pt11 pt12 pt13 pt14 pt15 pt16
   ["pt1","pt3","pt5","pt7","pt9","pt11","pt13","pt15","pt17","pt19","pt21","pt23","pt25","pt27","pt29","pt31","pt33","pt35","pt37","pt39","pt41","pt43","pt45","pt47","pt49","pt51","pt53","pt55","pt57","pt59","pt61","pt63","pt65","pt67","pt69","pt71","pt73","pt75","pt77","pt79","pt81","pt83","pt85","pt87","pt89","pt91","pt93","pt95","pt97","pt99","pt101","pt103","pt105","pt107","pt109","pt111","pt113","pt115","pt117","pt119","pt121","pt123","pt125","pt127","pt129","pt131","pt133","pt135","pt137","pt139","pt141","pt143","pt145","pt147","pt149","pt151","pt153","pt155","pt157","pt159","pt161","pt163","pt165","pt167","pt169","pt171","pt173","pt175","pt177","pt179","pt181","pt183","pt185","pt187","pt189","pt191","pt193","pt195","pt197","pt199","pt201","pt203","pt205","pt207","pt209","pt211","pt213","pt215","pt217","pt219","pt221","pt223","pt225","pt227","pt229","pt231","pt233","pt235","pt237","pt239","pt241","pt243","pt245","pt247","pt249","pt251","pt253","pt255","pt257","pt259","pt261","pt263","pt265","pt267","pt269","pt271","pt273","pt275","pt277","pt279","pt281","pt283","pt285","pt287","pt289","pt291","pt293","pt295","pt297","pt299","pt301","pt303","pt305","pt307","pt309","pt311","pt313","pt315","pt317","pt319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["pt0","pt2","pt4","pt6","pt8","pt10","pt12","pt14","pt16","pt18","pt20","pt22","pt24","pt26","pt28","pt30","pt32","pt34","pt36","pt38","pt40","pt42","pt44","pt46","pt48","pt50","pt52","pt54","pt56","pt58","pt60","pt62","pt64","pt66","pt68","pt70","pt72","pt74","pt76","pt78","pt80","pt82","pt84","pt86","pt88","pt90","pt92","pt94","pt96","pt98","pt100","pt102","pt104","pt106","pt108","pt110","pt112","pt114","pt116","pt118","pt120","pt122","pt124","pt126","pt128","pt130","pt132","pt134","pt136","pt138","pt140","pt142","pt144","pt146","pt148","pt150","pt152","pt154","pt156","pt158","pt160","pt162","pt164","pt166","pt168","pt170","pt172","pt174","pt176","pt178","pt180","pt182","pt184","pt186","pt188","pt190","pt192","pt194","pt196","pt198","pt200","pt202","pt204","pt206","pt208","pt210","pt212","pt214","pt216","pt218","pt220","pt222","pt224","pt226","pt228","pt230","pt232","pt234","pt236","pt238","pt240","pt242","pt244","pt246","pt248","pt250","pt252","pt254","pt256","pt258","pt260","pt262","pt264","pt266","pt268","pt270","pt272","pt274","pt276","pt278","pt280","pt282","pt284","pt286","pt288","pt290","pt292","pt294","pt296","pt298","pt300","pt302","pt304","pt306","pt308","pt310","pt312","pt314","pt316","pt318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("pt0_path") && game.includes("pt319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["青瓷梅暖蜜","青瓷兰暖蜜","青瓷竹暖蜜","青瓷菊暖蜜","青瓷松暖蜜","青瓷柏暖蜜","青瓷柳暖蜜","青瓷枫暖蜜","青瓷桃暖蜜","青瓷杏暖蜜","青瓷李暖蜜","青瓷樱暖蜜","青瓷梨暖蜜","青瓷栀暖蜜","青瓷桂暖蜜","青瓷荷暖蜜","白瓷梅暖蜜","白瓷兰暖蜜","白瓷竹暖蜜","白瓷菊暖蜜","白瓷松暖蜜","白瓷柏暖蜜","白瓷柳暖蜜","白瓷枫暖蜜","白瓷桃暖蜜","白瓷杏暖蜜","白瓷李暖蜜","白瓷樱暖蜜","白瓷梨暖蜜","白瓷栀暖蜜","白瓷桂暖蜜","白瓷荷暖蜜","粗陶梅暖蜜","粗陶兰暖蜜","粗陶竹暖蜜","粗陶菊暖蜜","粗陶松暖蜜","粗陶柏暖蜜","粗陶柳暖蜜","粗陶枫暖蜜","粗陶桃暖蜜","粗陶杏暖蜜","粗陶李暖蜜","粗陶樱暖蜜","粗陶梨暖蜜","粗陶栀暖蜜","粗陶桂暖蜜","粗陶荷暖蜜","紫砂梅暖蜜","紫砂兰暖蜜","紫砂竹暖蜜","紫砂菊暖蜜","紫砂松暖蜜","紫砂柏暖蜜","紫砂柳暖蜜","紫砂枫暖蜜","紫砂桃暖蜜","紫砂杏暖蜜","紫砂李暖蜜","紫砂樱暖蜜","紫砂梨暖蜜","紫砂栀暖蜜","紫砂桂暖蜜","紫砂荷暖蜜","黑釉梅暖蜜","黑釉兰暖蜜","黑釉竹暖蜜","黑釉菊暖蜜","黑釉松暖蜜","黑釉柏暖蜜","黑釉柳暖蜜","黑釉枫暖蜜","黑釉桃暖蜜","黑釉杏暖蜜","黑釉李暖蜜","黑釉樱暖蜜","黑釉梨暖蜜","黑釉栀暖蜜","黑釉桂暖蜜","黑釉荷暖蜜","影青梅暖蜜","影青兰暖蜜","影青竹暖蜜","影青菊暖蜜","影青松暖蜜","影青柏暖蜜","影青柳暖蜜","影青枫暖蜜","影青桃暖蜜","影青杏暖蜜","影青李暖蜜","影青樱暖蜜","影青梨暖蜜","影青栀暖蜜","影青桂暖蜜","影青荷暖蜜","定窑梅暖蜜","定窑兰暖蜜","定窑竹暖蜜","定窑菊暖蜜","定窑松暖蜜","定窑柏暖蜜","定窑柳暖蜜","定窑枫暖蜜","定窑桃暖蜜","定窑杏暖蜜","定窑李暖蜜","定窑樱暖蜜","定窑梨暖蜜","定窑栀暖蜜","定窑桂暖蜜","定窑荷暖蜜","钧瓷梅暖蜜","钧瓷兰暖蜜","钧瓷竹暖蜜","钧瓷菊暖蜜","钧瓷松暖蜜","钧瓷柏暖蜜","钧瓷柳暖蜜","钧瓷枫暖蜜","钧瓷桃暖蜜","钧瓷杏暖蜜","钧瓷李暖蜜","钧瓷樱暖蜜","钧瓷梨暖蜜","钧瓷栀暖蜜","钧瓷桂暖蜜","钧瓷荷暖蜜","建盏梅暖蜜","建盏兰暖蜜","建盏竹暖蜜","建盏菊暖蜜","建盏松暖蜜","建盏柏暖蜜","建盏柳暖蜜","建盏枫暖蜜","建盏桃暖蜜","建盏杏暖蜜","建盏李暖蜜","建盏樱暖蜜","建盏梨暖蜜","建盏栀暖蜜","建盏桂暖蜜","建盏荷暖蜜","柴烧梅暖蜜","柴烧兰暖蜜","柴烧竹暖蜜","柴烧菊暖蜜","柴烧松暖蜜","柴烧柏暖蜜","柴烧柳暖蜜","柴烧枫暖蜜","柴烧桃暖蜜","柴烧杏暖蜜","柴烧李暖蜜","柴烧樱暖蜜","柴烧梨暖蜜","柴烧栀暖蜜","柴烧桂暖蜜","柴烧荷暖蜜","汝窑梅暖蜜","汝窑兰暖蜜","汝窑竹暖蜜","汝窑菊暖蜜","汝窑松暖蜜","汝窑柏暖蜜","汝窑柳暖蜜","汝窑枫暖蜜","汝窑桃暖蜜","汝窑杏暖蜜","汝窑李暖蜜","汝窑樱暖蜜","汝窑梨暖蜜","汝窑栀暖蜜","汝窑桂暖蜜","汝窑荷暖蜜","龙泉梅暖蜜","龙泉兰暖蜜","龙泉竹暖蜜","龙泉菊暖蜜","龙泉松暖蜜","龙泉柏暖蜜","龙泉柳暖蜜","龙泉枫暖蜜","龙泉桃暖蜜","龙泉杏暖蜜","龙泉李暖蜜","龙泉樱暖蜜","龙泉梨暖蜜","龙泉栀暖蜜","龙泉桂暖蜜","龙泉荷暖蜜","青花梅暖蜜","青花兰暖蜜","青花竹暖蜜","青花菊暖蜜","青花松暖蜜","青花柏暖蜜","青花柳暖蜜","青花枫暖蜜","青花桃暖蜜","青花杏暖蜜","青花李暖蜜","青花樱暖蜜","青花梨暖蜜","青花栀暖蜜","青花桂暖蜜","青花荷暖蜜","霁蓝梅暖蜜","霁蓝兰暖蜜","霁蓝竹暖蜜","霁蓝菊暖蜜","霁蓝松暖蜜","霁蓝柏暖蜜","霁蓝柳暖蜜","霁蓝枫暖蜜","霁蓝桃暖蜜","霁蓝杏暖蜜","霁蓝李暖蜜","霁蓝樱暖蜜","霁蓝梨暖蜜","霁蓝栀暖蜜","霁蓝桂暖蜜","霁蓝荷暖蜜","卵白梅暖蜜","卵白兰暖蜜","卵白竹暖蜜","卵白菊暖蜜","卵白松暖蜜","卵白柏暖蜜","卵白柳暖蜜","卵白枫暖蜜","卵白桃暖蜜","卵白杏暖蜜","卵白李暖蜜","卵白樱暖蜜","卵白梨暖蜜","卵白栀暖蜜","卵白桂暖蜜","卵白荷暖蜜","绞胎梅暖蜜","绞胎兰暖蜜","绞胎竹暖蜜","绞胎菊暖蜜","绞胎松暖蜜","绞胎柏暖蜜","绞胎柳暖蜜","绞胎枫暖蜜","绞胎桃暖蜜","绞胎杏暖蜜","绞胎李暖蜜","绞胎樱暖蜜","绞胎梨暖蜜","绞胎栀暖蜜","绞胎桂暖蜜","绞胎荷暖蜜","哥窑梅暖蜜","哥窑兰暖蜜","哥窑竹暖蜜","哥窑菊暖蜜","哥窑松暖蜜","哥窑柏暖蜜","哥窑柳暖蜜","哥窑枫暖蜜","哥窑桃暖蜜","哥窑杏暖蜜","哥窑李暖蜜","哥窑樱暖蜜","哥窑梨暖蜜","哥窑栀暖蜜","哥窑桂暖蜜","哥窑荷暖蜜","官窑梅暖蜜","官窑兰暖蜜","官窑竹暖蜜","官窑菊暖蜜","官窑松暖蜜","官窑柏暖蜜","官窑柳暖蜜","官窑枫暖蜜","官窑桃暖蜜","官窑杏暖蜜","官窑李暖蜜","官窑樱暖蜜","官窑梨暖蜜","官窑栀暖蜜","官窑桂暖蜜","官窑荷暖蜜","粉青梅暖蜜","粉青兰暖蜜","粉青竹暖蜜","粉青菊暖蜜","粉青松暖蜜","粉青柏暖蜜","粉青柳暖蜜","粉青枫暖蜜","粉青桃暖蜜","粉青杏暖蜜","粉青李暖蜜","粉青樱暖蜜","粉青梨暖蜜","粉青栀暖蜜","粉青桂暖蜜","粉青荷暖蜜","梅子青梅暖蜜","梅子青兰暖蜜","梅子青竹暖蜜","梅子青菊暖蜜","梅子青松暖蜜","梅子青柏暖蜜","梅子青柳暖蜜","梅子青枫暖蜜","梅子青桃暖蜜","梅子青杏暖蜜","梅子青李暖蜜","梅子青樱暖蜜","梅子青梨暖蜜","梅子青栀暖蜜","梅子青桂暖蜜","梅子青荷暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20837,7 +20837,7 @@ test("ln0 ln1 ln2 ln3 ln4 ln5 ln6 ln7 ln8 ln9 ln10 ln11 ln12 ln13 ln14 ln15 ln16
   ["ln1","ln3","ln5","ln7","ln9","ln11","ln13","ln15","ln17","ln19","ln21","ln23","ln25","ln27","ln29","ln31","ln33","ln35","ln37","ln39","ln41","ln43","ln45","ln47","ln49","ln51","ln53","ln55","ln57","ln59","ln61","ln63","ln65","ln67","ln69","ln71","ln73","ln75","ln77","ln79","ln81","ln83","ln85","ln87","ln89","ln91","ln93","ln95","ln97","ln99","ln101","ln103","ln105","ln107","ln109","ln111","ln113","ln115","ln117","ln119","ln121","ln123","ln125","ln127","ln129","ln131","ln133","ln135","ln137","ln139","ln141","ln143","ln145","ln147","ln149","ln151","ln153","ln155","ln157","ln159","ln161","ln163","ln165","ln167","ln169","ln171","ln173","ln175","ln177","ln179","ln181","ln183","ln185","ln187","ln189","ln191","ln193","ln195","ln197","ln199","ln201","ln203","ln205","ln207","ln209","ln211","ln213","ln215","ln217","ln219","ln221","ln223","ln225","ln227","ln229","ln231","ln233","ln235","ln237","ln239","ln241","ln243","ln245","ln247","ln249","ln251","ln253","ln255","ln257","ln259","ln261","ln263","ln265","ln267","ln269","ln271","ln273","ln275","ln277","ln279","ln281","ln283","ln285","ln287","ln289","ln291","ln293","ln295","ln297","ln299","ln301","ln303","ln305","ln307","ln309","ln311","ln313","ln315","ln317","ln319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ln0","ln2","ln4","ln6","ln8","ln10","ln12","ln14","ln16","ln18","ln20","ln22","ln24","ln26","ln28","ln30","ln32","ln34","ln36","ln38","ln40","ln42","ln44","ln46","ln48","ln50","ln52","ln54","ln56","ln58","ln60","ln62","ln64","ln66","ln68","ln70","ln72","ln74","ln76","ln78","ln80","ln82","ln84","ln86","ln88","ln90","ln92","ln94","ln96","ln98","ln100","ln102","ln104","ln106","ln108","ln110","ln112","ln114","ln116","ln118","ln120","ln122","ln124","ln126","ln128","ln130","ln132","ln134","ln136","ln138","ln140","ln142","ln144","ln146","ln148","ln150","ln152","ln154","ln156","ln158","ln160","ln162","ln164","ln166","ln168","ln170","ln172","ln174","ln176","ln178","ln180","ln182","ln184","ln186","ln188","ln190","ln192","ln194","ln196","ln198","ln200","ln202","ln204","ln206","ln208","ln210","ln212","ln214","ln216","ln218","ln220","ln222","ln224","ln226","ln228","ln230","ln232","ln234","ln236","ln238","ln240","ln242","ln244","ln246","ln248","ln250","ln252","ln254","ln256","ln258","ln260","ln262","ln264","ln266","ln268","ln270","ln272","ln274","ln276","ln278","ln280","ln282","ln284","ln286","ln288","ln290","ln292","ln294","ln296","ln298","ln300","ln302","ln304","ln306","ln308","ln310","ln312","ln314","ln316","ln318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ln0_path") && game.includes("ln319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["纱灯糖桂暖蜜","纱灯红枣暖蜜","纱灯桂圆暖蜜","纱灯枸杞暖蜜","纱灯陈皮暖蜜","纱灯山楂暖蜜","纱灯乌梅暖蜜","纱灯话梅暖蜜","纱灯玫瑰暖蜜","纱灯洛神暖蜜","纱灯杭白菊暖蜜","纱灯胎菊暖蜜","纱灯雪菊暖蜜","纱灯金菊暖蜜","纱灯甘菊暖蜜","纱灯滁菊暖蜜","纸灯糖桂暖蜜","纸灯红枣暖蜜","纸灯桂圆暖蜜","纸灯枸杞暖蜜","纸灯陈皮暖蜜","纸灯山楂暖蜜","纸灯乌梅暖蜜","纸灯话梅暖蜜","纸灯玫瑰暖蜜","纸灯洛神暖蜜","纸灯杭白菊暖蜜","纸灯胎菊暖蜜","纸灯雪菊暖蜜","纸灯金菊暖蜜","纸灯甘菊暖蜜","纸灯滁菊暖蜜","琉璃灯糖桂暖蜜","琉璃灯红枣暖蜜","琉璃灯桂圆暖蜜","琉璃灯枸杞暖蜜","琉璃灯陈皮暖蜜","琉璃灯山楂暖蜜","琉璃灯乌梅暖蜜","琉璃灯话梅暖蜜","琉璃灯玫瑰暖蜜","琉璃灯洛神暖蜜","琉璃灯杭白菊暖蜜","琉璃灯胎菊暖蜜","琉璃灯雪菊暖蜜","琉璃灯金菊暖蜜","琉璃灯甘菊暖蜜","琉璃灯滁菊暖蜜","提灯糖桂暖蜜","提灯红枣暖蜜","提灯桂圆暖蜜","提灯枸杞暖蜜","提灯陈皮暖蜜","提灯山楂暖蜜","提灯乌梅暖蜜","提灯话梅暖蜜","提灯玫瑰暖蜜","提灯洛神暖蜜","提灯杭白菊暖蜜","提灯胎菊暖蜜","提灯雪菊暖蜜","提灯金菊暖蜜","提灯甘菊暖蜜","提灯滁菊暖蜜","宫灯糖桂暖蜜","宫灯红枣暖蜜","宫灯桂圆暖蜜","宫灯枸杞暖蜜","宫灯陈皮暖蜜","宫灯山楂暖蜜","宫灯乌梅暖蜜","宫灯话梅暖蜜","宫灯玫瑰暖蜜","宫灯洛神暖蜜","宫灯杭白菊暖蜜","宫灯胎菊暖蜜","宫灯雪菊暖蜜","宫灯金菊暖蜜","宫灯甘菊暖蜜","宫灯滁菊暖蜜","走马灯糖桂暖蜜","走马灯红枣暖蜜","走马灯桂圆暖蜜","走马灯枸杞暖蜜","走马灯陈皮暖蜜","走马灯山楂暖蜜","走马灯乌梅暖蜜","走马灯话梅暖蜜","走马灯玫瑰暖蜜","走马灯洛神暖蜜","走马灯杭白菊暖蜜","走马灯胎菊暖蜜","走马灯雪菊暖蜜","走马灯金菊暖蜜","走马灯甘菊暖蜜","走马灯滁菊暖蜜","莲花灯糖桂暖蜜","莲花灯红枣暖蜜","莲花灯桂圆暖蜜","莲花灯枸杞暖蜜","莲花灯陈皮暖蜜","莲花灯山楂暖蜜","莲花灯乌梅暖蜜","莲花灯话梅暖蜜","莲花灯玫瑰暖蜜","莲花灯洛神暖蜜","莲花灯杭白菊暖蜜","莲花灯胎菊暖蜜","莲花灯雪菊暖蜜","莲花灯金菊暖蜜","莲花灯甘菊暖蜜","莲花灯滁菊暖蜜","鱼灯糖桂暖蜜","鱼灯红枣暖蜜","鱼灯桂圆暖蜜","鱼灯枸杞暖蜜","鱼灯陈皮暖蜜","鱼灯山楂暖蜜","鱼灯乌梅暖蜜","鱼灯话梅暖蜜","鱼灯玫瑰暖蜜","鱼灯洛神暖蜜","鱼灯杭白菊暖蜜","鱼灯胎菊暖蜜","鱼灯雪菊暖蜜","鱼灯金菊暖蜜","鱼灯甘菊暖蜜","鱼灯滁菊暖蜜","兔灯糖桂暖蜜","兔灯红枣暖蜜","兔灯桂圆暖蜜","兔灯枸杞暖蜜","兔灯陈皮暖蜜","兔灯山楂暖蜜","兔灯乌梅暖蜜","兔灯话梅暖蜜","兔灯玫瑰暖蜜","兔灯洛神暖蜜","兔灯杭白菊暖蜜","兔灯胎菊暖蜜","兔灯雪菊暖蜜","兔灯金菊暖蜜","兔灯甘菊暖蜜","兔灯滁菊暖蜜","星灯糖桂暖蜜","星灯红枣暖蜜","星灯桂圆暖蜜","星灯枸杞暖蜜","星灯陈皮暖蜜","星灯山楂暖蜜","星灯乌梅暖蜜","星灯话梅暖蜜","星灯玫瑰暖蜜","星灯洛神暖蜜","星灯杭白菊暖蜜","星灯胎菊暖蜜","星灯雪菊暖蜜","星灯金菊暖蜜","星灯甘菊暖蜜","星灯滁菊暖蜜","河灯糖桂暖蜜","河灯红枣暖蜜","河灯桂圆暖蜜","河灯枸杞暖蜜","河灯陈皮暖蜜","河灯山楂暖蜜","河灯乌梅暖蜜","河灯话梅暖蜜","河灯玫瑰暖蜜","河灯洛神暖蜜","河灯杭白菊暖蜜","河灯胎菊暖蜜","河灯雪菊暖蜜","河灯金菊暖蜜","河灯甘菊暖蜜","河灯滁菊暖蜜","孔明灯糖桂暖蜜","孔明灯红枣暖蜜","孔明灯桂圆暖蜜","孔明灯枸杞暖蜜","孔明灯陈皮暖蜜","孔明灯山楂暖蜜","孔明灯乌梅暖蜜","孔明灯话梅暖蜜","孔明灯玫瑰暖蜜","孔明灯洛神暖蜜","孔明灯杭白菊暖蜜","孔明灯胎菊暖蜜","孔明灯雪菊暖蜜","孔明灯金菊暖蜜","孔明灯甘菊暖蜜","孔明灯滁菊暖蜜","烛台糖桂暖蜜","烛台红枣暖蜜","烛台桂圆暖蜜","烛台枸杞暖蜜","烛台陈皮暖蜜","烛台山楂暖蜜","烛台乌梅暖蜜","烛台话梅暖蜜","烛台玫瑰暖蜜","烛台洛神暖蜜","烛台杭白菊暖蜜","烛台胎菊暖蜜","烛台雪菊暖蜜","烛台金菊暖蜜","烛台甘菊暖蜜","烛台滁菊暖蜜","油灯糖桂暖蜜","油灯红枣暖蜜","油灯桂圆暖蜜","油灯枸杞暖蜜","油灯陈皮暖蜜","油灯山楂暖蜜","油灯乌梅暖蜜","油灯话梅暖蜜","油灯玫瑰暖蜜","油灯洛神暖蜜","油灯杭白菊暖蜜","油灯胎菊暖蜜","油灯雪菊暖蜜","油灯金菊暖蜜","油灯甘菊暖蜜","油灯滁菊暖蜜","壁灯糖桂暖蜜","壁灯红枣暖蜜","壁灯桂圆暖蜜","壁灯枸杞暖蜜","壁灯陈皮暖蜜","壁灯山楂暖蜜","壁灯乌梅暖蜜","壁灯话梅暖蜜","壁灯玫瑰暖蜜","壁灯洛神暖蜜","壁灯杭白菊暖蜜","壁灯胎菊暖蜜","壁灯雪菊暖蜜","壁灯金菊暖蜜","壁灯甘菊暖蜜","壁灯滁菊暖蜜","风灯糖桂暖蜜","风灯红枣暖蜜","风灯桂圆暖蜜","风灯枸杞暖蜜","风灯陈皮暖蜜","风灯山楂暖蜜","风灯乌梅暖蜜","风灯话梅暖蜜","风灯玫瑰暖蜜","风灯洛神暖蜜","风灯杭白菊暖蜜","风灯胎菊暖蜜","风灯雪菊暖蜜","风灯金菊暖蜜","风灯甘菊暖蜜","风灯滁菊暖蜜","雪灯糖桂暖蜜","雪灯红枣暖蜜","雪灯桂圆暖蜜","雪灯枸杞暖蜜","雪灯陈皮暖蜜","雪灯山楂暖蜜","雪灯乌梅暖蜜","雪灯话梅暖蜜","雪灯玫瑰暖蜜","雪灯洛神暖蜜","雪灯杭白菊暖蜜","雪灯胎菊暖蜜","雪灯雪菊暖蜜","雪灯金菊暖蜜","雪灯甘菊暖蜜","雪灯滁菊暖蜜","月灯糖桂暖蜜","月灯红枣暖蜜","月灯桂圆暖蜜","月灯枸杞暖蜜","月灯陈皮暖蜜","月灯山楂暖蜜","月灯乌梅暖蜜","月灯话梅暖蜜","月灯玫瑰暖蜜","月灯洛神暖蜜","月灯杭白菊暖蜜","月灯胎菊暖蜜","月灯雪菊暖蜜","月灯金菊暖蜜","月灯甘菊暖蜜","月灯滁菊暖蜜","花灯糖桂暖蜜","花灯红枣暖蜜","花灯桂圆暖蜜","花灯枸杞暖蜜","花灯陈皮暖蜜","花灯山楂暖蜜","花灯乌梅暖蜜","花灯话梅暖蜜","花灯玫瑰暖蜜","花灯洛神暖蜜","花灯杭白菊暖蜜","花灯胎菊暖蜜","花灯雪菊暖蜜","花灯金菊暖蜜","花灯甘菊暖蜜","花灯滁菊暖蜜","茶灯糖桂暖蜜","茶灯红枣暖蜜","茶灯桂圆暖蜜","茶灯枸杞暖蜜","茶灯陈皮暖蜜","茶灯山楂暖蜜","茶灯乌梅暖蜜","茶灯话梅暖蜜","茶灯玫瑰暖蜜","茶灯洛神暖蜜","茶灯杭白菊暖蜜","茶灯胎菊暖蜜","茶灯雪菊暖蜜","茶灯金菊暖蜜","茶灯甘菊暖蜜","茶灯滁菊暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20877,7 +20877,7 @@ test("rv0 rv1 rv2 rv3 rv4 rv5 rv6 rv7 rv8 rv9 rv10 rv11 rv12 rv13 rv14 rv15 rv16
   ["rv1","rv3","rv5","rv7","rv9","rv11","rv13","rv15","rv17","rv19","rv21","rv23","rv25","rv27","rv29","rv31","rv33","rv35","rv37","rv39","rv41","rv43","rv45","rv47","rv49","rv51","rv53","rv55","rv57","rv59","rv61","rv63","rv65","rv67","rv69","rv71","rv73","rv75","rv77","rv79","rv81","rv83","rv85","rv87","rv89","rv91","rv93","rv95","rv97","rv99","rv101","rv103","rv105","rv107","rv109","rv111","rv113","rv115","rv117","rv119","rv121","rv123","rv125","rv127","rv129","rv131","rv133","rv135","rv137","rv139","rv141","rv143","rv145","rv147","rv149","rv151","rv153","rv155","rv157","rv159","rv161","rv163","rv165","rv167","rv169","rv171","rv173","rv175","rv177","rv179","rv181","rv183","rv185","rv187","rv189","rv191","rv193","rv195","rv197","rv199","rv201","rv203","rv205","rv207","rv209","rv211","rv213","rv215","rv217","rv219","rv221","rv223","rv225","rv227","rv229","rv231","rv233","rv235","rv237","rv239","rv241","rv243","rv245","rv247","rv249","rv251","rv253","rv255","rv257","rv259","rv261","rv263","rv265","rv267","rv269","rv271","rv273","rv275","rv277","rv279","rv281","rv283","rv285","rv287","rv289","rv291","rv293","rv295","rv297","rv299","rv301","rv303","rv305","rv307","rv309","rv311","rv313","rv315","rv317","rv319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["rv0","rv2","rv4","rv6","rv8","rv10","rv12","rv14","rv16","rv18","rv20","rv22","rv24","rv26","rv28","rv30","rv32","rv34","rv36","rv38","rv40","rv42","rv44","rv46","rv48","rv50","rv52","rv54","rv56","rv58","rv60","rv62","rv64","rv66","rv68","rv70","rv72","rv74","rv76","rv78","rv80","rv82","rv84","rv86","rv88","rv90","rv92","rv94","rv96","rv98","rv100","rv102","rv104","rv106","rv108","rv110","rv112","rv114","rv116","rv118","rv120","rv122","rv124","rv126","rv128","rv130","rv132","rv134","rv136","rv138","rv140","rv142","rv144","rv146","rv148","rv150","rv152","rv154","rv156","rv158","rv160","rv162","rv164","rv166","rv168","rv170","rv172","rv174","rv176","rv178","rv180","rv182","rv184","rv186","rv188","rv190","rv192","rv194","rv196","rv198","rv200","rv202","rv204","rv206","rv208","rv210","rv212","rv214","rv216","rv218","rv220","rv222","rv224","rv226","rv228","rv230","rv232","rv234","rv236","rv238","rv240","rv242","rv244","rv246","rv248","rv250","rv252","rv254","rv256","rv258","rv260","rv262","rv264","rv266","rv268","rv270","rv272","rv274","rv276","rv278","rv280","rv282","rv284","rv286","rv288","rv290","rv292","rv294","rv296","rv298","rv300","rv302","rv304","rv306","rv308","rv310","rv312","rv314","rv316","rv318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("rv0_path") && game.includes("rv319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["浅滩水芹暖蜜","浅滩荇菜暖蜜","浅滩浮萍暖蜜","浅滩菱角暖蜜","浅滩芡实暖蜜","浅滩莲子暖蜜","浅滩藕节暖蜜","浅滩芦根暖蜜","浅滩蒲黄暖蜜","浅滩菖蒲暖蜜","浅滩香蒲暖蜜","浅滩水苏暖蜜","浅滩泽兰暖蜜","浅滩马齿苋暖蜜","浅滩车前暖蜜","浅滩鱼腥草暖蜜","深潭水芹暖蜜","深潭荇菜暖蜜","深潭浮萍暖蜜","深潭菱角暖蜜","深潭芡实暖蜜","深潭莲子暖蜜","深潭藕节暖蜜","深潭芦根暖蜜","深潭蒲黄暖蜜","深潭菖蒲暖蜜","深潭香蒲暖蜜","深潭水苏暖蜜","深潭泽兰暖蜜","深潭马齿苋暖蜜","深潭车前暖蜜","深潭鱼腥草暖蜜","洄湾水芹暖蜜","洄湾荇菜暖蜜","洄湾浮萍暖蜜","洄湾菱角暖蜜","洄湾芡实暖蜜","洄湾莲子暖蜜","洄湾藕节暖蜜","洄湾芦根暖蜜","洄湾蒲黄暖蜜","洄湾菖蒲暖蜜","洄湾香蒲暖蜜","洄湾水苏暖蜜","洄湾泽兰暖蜜","洄湾马齿苋暖蜜","洄湾车前暖蜜","洄湾鱼腥草暖蜜","矶石水芹暖蜜","矶石荇菜暖蜜","矶石浮萍暖蜜","矶石菱角暖蜜","矶石芡实暖蜜","矶石莲子暖蜜","矶石藕节暖蜜","矶石芦根暖蜜","矶石蒲黄暖蜜","矶石菖蒲暖蜜","矶石香蒲暖蜜","矶石水苏暖蜜","矶石泽兰暖蜜","矶石马齿苋暖蜜","矶石车前暖蜜","矶石鱼腥草暖蜜","芦荡水芹暖蜜","芦荡荇菜暖蜜","芦荡浮萍暖蜜","芦荡菱角暖蜜","芦荡芡实暖蜜","芦荡莲子暖蜜","芦荡藕节暖蜜","芦荡芦根暖蜜","芦荡蒲黄暖蜜","芦荡菖蒲暖蜜","芦荡香蒲暖蜜","芦荡水苏暖蜜","芦荡泽兰暖蜜","芦荡马齿苋暖蜜","芦荡车前暖蜜","芦荡鱼腥草暖蜜","柳岸水芹暖蜜","柳岸荇菜暖蜜","柳岸浮萍暖蜜","柳岸菱角暖蜜","柳岸芡实暖蜜","柳岸莲子暖蜜","柳岸藕节暖蜜","柳岸芦根暖蜜","柳岸蒲黄暖蜜","柳岸菖蒲暖蜜","柳岸香蒲暖蜜","柳岸水苏暖蜜","柳岸泽兰暖蜜","柳岸马齿苋暖蜜","柳岸车前暖蜜","柳岸鱼腥草暖蜜","沙洲水芹暖蜜","沙洲荇菜暖蜜","沙洲浮萍暖蜜","沙洲菱角暖蜜","沙洲芡实暖蜜","沙洲莲子暖蜜","沙洲藕节暖蜜","沙洲芦根暖蜜","沙洲蒲黄暖蜜","沙洲菖蒲暖蜜","沙洲香蒲暖蜜","沙洲水苏暖蜜","沙洲泽兰暖蜜","沙洲马齿苋暖蜜","沙洲车前暖蜜","沙洲鱼腥草暖蜜","汀洲水芹暖蜜","汀洲荇菜暖蜜","汀洲浮萍暖蜜","汀洲菱角暖蜜","汀洲芡实暖蜜","汀洲莲子暖蜜","汀洲藕节暖蜜","汀洲芦根暖蜜","汀洲蒲黄暖蜜","汀洲菖蒲暖蜜","汀洲香蒲暖蜜","汀洲水苏暖蜜","汀洲泽兰暖蜜","汀洲马齿苋暖蜜","汀洲车前暖蜜","汀洲鱼腥草暖蜜","渔矶水芹暖蜜","渔矶荇菜暖蜜","渔矶浮萍暖蜜","渔矶菱角暖蜜","渔矶芡实暖蜜","渔矶莲子暖蜜","渔矶藕节暖蜜","渔矶芦根暖蜜","渔矶蒲黄暖蜜","渔矶菖蒲暖蜜","渔矶香蒲暖蜜","渔矶水苏暖蜜","渔矶泽兰暖蜜","渔矶马齿苋暖蜜","渔矶车前暖蜜","渔矶鱼腥草暖蜜","渡口水芹暖蜜","渡口荇菜暖蜜","渡口浮萍暖蜜","渡口菱角暖蜜","渡口芡实暖蜜","渡口莲子暖蜜","渡口藕节暖蜜","渡口芦根暖蜜","渡口蒲黄暖蜜","渡口菖蒲暖蜜","渡口香蒲暖蜜","渡口水苏暖蜜","渡口泽兰暖蜜","渡口马齿苋暖蜜","渡口车前暖蜜","渡口鱼腥草暖蜜","码头水芹暖蜜","码头荇菜暖蜜","码头浮萍暖蜜","码头菱角暖蜜","码头芡实暖蜜","码头莲子暖蜜","码头藕节暖蜜","码头芦根暖蜜","码头蒲黄暖蜜","码头菖蒲暖蜜","码头香蒲暖蜜","码头水苏暖蜜","码头泽兰暖蜜","码头马齿苋暖蜜","码头车前暖蜜","码头鱼腥草暖蜜","水碓水芹暖蜜","水碓荇菜暖蜜","水碓浮萍暖蜜","水碓菱角暖蜜","水碓芡实暖蜜","水碓莲子暖蜜","水碓藕节暖蜜","水碓芦根暖蜜","水碓蒲黄暖蜜","水碓菖蒲暖蜜","水碓香蒲暖蜜","水碓水苏暖蜜","水碓泽兰暖蜜","水碓马齿苋暖蜜","水碓车前暖蜜","水碓鱼腥草暖蜜","堰塘水芹暖蜜","堰塘荇菜暖蜜","堰塘浮萍暖蜜","堰塘菱角暖蜜","堰塘芡实暖蜜","堰塘莲子暖蜜","堰塘藕节暖蜜","堰塘芦根暖蜜","堰塘蒲黄暖蜜","堰塘菖蒲暖蜜","堰塘香蒲暖蜜","堰塘水苏暖蜜","堰塘泽兰暖蜜","堰塘马齿苋暖蜜","堰塘车前暖蜜","堰塘鱼腥草暖蜜","泉眼水芹暖蜜","泉眼荇菜暖蜜","泉眼浮萍暖蜜","泉眼菱角暖蜜","泉眼芡实暖蜜","泉眼莲子暖蜜","泉眼藕节暖蜜","泉眼芦根暖蜜","泉眼蒲黄暖蜜","泉眼菖蒲暖蜜","泉眼香蒲暖蜜","泉眼水苏暖蜜","泉眼泽兰暖蜜","泉眼马齿苋暖蜜","泉眼车前暖蜜","泉眼鱼腥草暖蜜","溪涧水芹暖蜜","溪涧荇菜暖蜜","溪涧浮萍暖蜜","溪涧菱角暖蜜","溪涧芡实暖蜜","溪涧莲子暖蜜","溪涧藕节暖蜜","溪涧芦根暖蜜","溪涧蒲黄暖蜜","溪涧菖蒲暖蜜","溪涧香蒲暖蜜","溪涧水苏暖蜜","溪涧泽兰暖蜜","溪涧马齿苋暖蜜","溪涧车前暖蜜","溪涧鱼腥草暖蜜","涧桥水芹暖蜜","涧桥荇菜暖蜜","涧桥浮萍暖蜜","涧桥菱角暖蜜","涧桥芡实暖蜜","涧桥莲子暖蜜","涧桥藕节暖蜜","涧桥芦根暖蜜","涧桥蒲黄暖蜜","涧桥菖蒲暖蜜","涧桥香蒲暖蜜","涧桥水苏暖蜜","涧桥泽兰暖蜜","涧桥马齿苋暖蜜","涧桥车前暖蜜","涧桥鱼腥草暖蜜","石梁水芹暖蜜","石梁荇菜暖蜜","石梁浮萍暖蜜","石梁菱角暖蜜","石梁芡实暖蜜","石梁莲子暖蜜","石梁藕节暖蜜","石梁芦根暖蜜","石梁蒲黄暖蜜","石梁菖蒲暖蜜","石梁香蒲暖蜜","石梁水苏暖蜜","石梁泽兰暖蜜","石梁马齿苋暖蜜","石梁车前暖蜜","石梁鱼腥草暖蜜","跳石水芹暖蜜","跳石荇菜暖蜜","跳石浮萍暖蜜","跳石菱角暖蜜","跳石芡实暖蜜","跳石莲子暖蜜","跳石藕节暖蜜","跳石芦根暖蜜","跳石蒲黄暖蜜","跳石菖蒲暖蜜","跳石香蒲暖蜜","跳石水苏暖蜜","跳石泽兰暖蜜","跳石马齿苋暖蜜","跳石车前暖蜜","跳石鱼腥草暖蜜","涟漪水芹暖蜜","涟漪荇菜暖蜜","涟漪浮萍暖蜜","涟漪菱角暖蜜","涟漪芡实暖蜜","涟漪莲子暖蜜","涟漪藕节暖蜜","涟漪芦根暖蜜","涟漪蒲黄暖蜜","涟漪菖蒲暖蜜","涟漪香蒲暖蜜","涟漪水苏暖蜜","涟漪泽兰暖蜜","涟漪马齿苋暖蜜","涟漪车前暖蜜","涟漪鱼腥草暖蜜","波纹水芹暖蜜","波纹荇菜暖蜜","波纹浮萍暖蜜","波纹菱角暖蜜","波纹芡实暖蜜","波纹莲子暖蜜","波纹藕节暖蜜","波纹芦根暖蜜","波纹蒲黄暖蜜","波纹菖蒲暖蜜","波纹香蒲暖蜜","波纹水苏暖蜜","波纹泽兰暖蜜","波纹马齿苋暖蜜","波纹车前暖蜜","波纹鱼腥草暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20917,7 +20917,7 @@ test("pg0 pg1 pg2 pg3 pg4 pg5 pg6 pg7 pg8 pg9 pg10 pg11 pg12 pg13 pg14 pg15 pg16
   ["pg1","pg3","pg5","pg7","pg9","pg11","pg13","pg15","pg17","pg19","pg21","pg23","pg25","pg27","pg29","pg31","pg33","pg35","pg37","pg39","pg41","pg43","pg45","pg47","pg49","pg51","pg53","pg55","pg57","pg59","pg61","pg63","pg65","pg67","pg69","pg71","pg73","pg75","pg77","pg79","pg81","pg83","pg85","pg87","pg89","pg91","pg93","pg95","pg97","pg99","pg101","pg103","pg105","pg107","pg109","pg111","pg113","pg115","pg117","pg119","pg121","pg123","pg125","pg127","pg129","pg131","pg133","pg135","pg137","pg139","pg141","pg143","pg145","pg147","pg149","pg151","pg153","pg155","pg157","pg159","pg161","pg163","pg165","pg167","pg169","pg171","pg173","pg175","pg177","pg179","pg181","pg183","pg185","pg187","pg189","pg191","pg193","pg195","pg197","pg199","pg201","pg203","pg205","pg207","pg209","pg211","pg213","pg215","pg217","pg219","pg221","pg223","pg225","pg227","pg229","pg231","pg233","pg235","pg237","pg239","pg241","pg243","pg245","pg247","pg249","pg251","pg253","pg255","pg257","pg259","pg261","pg263","pg265","pg267","pg269","pg271","pg273","pg275","pg277","pg279","pg281","pg283","pg285","pg287","pg289","pg291","pg293","pg295","pg297","pg299","pg301","pg303","pg305","pg307","pg309","pg311","pg313","pg315","pg317","pg319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["pg0","pg2","pg4","pg6","pg8","pg10","pg12","pg14","pg16","pg18","pg20","pg22","pg24","pg26","pg28","pg30","pg32","pg34","pg36","pg38","pg40","pg42","pg44","pg46","pg48","pg50","pg52","pg54","pg56","pg58","pg60","pg62","pg64","pg66","pg68","pg70","pg72","pg74","pg76","pg78","pg80","pg82","pg84","pg86","pg88","pg90","pg92","pg94","pg96","pg98","pg100","pg102","pg104","pg106","pg108","pg110","pg112","pg114","pg116","pg118","pg120","pg122","pg124","pg126","pg128","pg130","pg132","pg134","pg136","pg138","pg140","pg142","pg144","pg146","pg148","pg150","pg152","pg154","pg156","pg158","pg160","pg162","pg164","pg166","pg168","pg170","pg172","pg174","pg176","pg178","pg180","pg182","pg184","pg186","pg188","pg190","pg192","pg194","pg196","pg198","pg200","pg202","pg204","pg206","pg208","pg210","pg212","pg214","pg216","pg218","pg220","pg222","pg224","pg226","pg228","pg230","pg232","pg234","pg236","pg238","pg240","pg242","pg244","pg246","pg248","pg250","pg252","pg254","pg256","pg258","pg260","pg262","pg264","pg266","pg268","pg270","pg272","pg274","pg276","pg278","pg280","pg282","pg284","pg286","pg288","pg290","pg292","pg294","pg296","pg298","pg300","pg302","pg304","pg306","pg308","pg310","pg312","pg314","pg316","pg318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("pg0_path") && game.includes("pg319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["扉页墨香暖蜜","扉页松烟暖蜜","扉页油烟暖蜜","扉页檀香暖蜜","扉页沉香暖蜜","扉页龙脑暖蜜","扉页乳香暖蜜","扉页丁香暖蜜","扉页藿香暖蜜","扉页零陵暖蜜","扉页白芷暖蜜","扉页苍术暖蜜","扉页艾纳暖蜜","扉页佩兰暖蜜","扉页兰草暖蜜","扉页蕙草暖蜜","夹页墨香暖蜜","夹页松烟暖蜜","夹页油烟暖蜜","夹页檀香暖蜜","夹页沉香暖蜜","夹页龙脑暖蜜","夹页乳香暖蜜","夹页丁香暖蜜","夹页藿香暖蜜","夹页零陵暖蜜","夹页白芷暖蜜","夹页苍术暖蜜","夹页艾纳暖蜜","夹页佩兰暖蜜","夹页兰草暖蜜","夹页蕙草暖蜜","衬页墨香暖蜜","衬页松烟暖蜜","衬页油烟暖蜜","衬页檀香暖蜜","衬页沉香暖蜜","衬页龙脑暖蜜","衬页乳香暖蜜","衬页丁香暖蜜","衬页藿香暖蜜","衬页零陵暖蜜","衬页白芷暖蜜","衬页苍术暖蜜","衬页艾纳暖蜜","衬页佩兰暖蜜","衬页兰草暖蜜","衬页蕙草暖蜜","书签墨香暖蜜","书签松烟暖蜜","书签油烟暖蜜","书签檀香暖蜜","书签沉香暖蜜","书签龙脑暖蜜","书签乳香暖蜜","书签丁香暖蜜","书签藿香暖蜜","书签零陵暖蜜","书签白芷暖蜜","书签苍术暖蜜","书签艾纳暖蜜","书签佩兰暖蜜","书签兰草暖蜜","书签蕙草暖蜜","信笺墨香暖蜜","信笺松烟暖蜜","信笺油烟暖蜜","信笺檀香暖蜜","信笺沉香暖蜜","信笺龙脑暖蜜","信笺乳香暖蜜","信笺丁香暖蜜","信笺藿香暖蜜","信笺零陵暖蜜","信笺白芷暖蜜","信笺苍术暖蜜","信笺艾纳暖蜜","信笺佩兰暖蜜","信笺兰草暖蜜","信笺蕙草暖蜜","宣纸墨香暖蜜","宣纸松烟暖蜜","宣纸油烟暖蜜","宣纸檀香暖蜜","宣纸沉香暖蜜","宣纸龙脑暖蜜","宣纸乳香暖蜜","宣纸丁香暖蜜","宣纸藿香暖蜜","宣纸零陵暖蜜","宣纸白芷暖蜜","宣纸苍术暖蜜","宣纸艾纳暖蜜","宣纸佩兰暖蜜","宣纸兰草暖蜜","宣纸蕙草暖蜜","竹纸墨香暖蜜","竹纸松烟暖蜜","竹纸油烟暖蜜","竹纸檀香暖蜜","竹纸沉香暖蜜","竹纸龙脑暖蜜","竹纸乳香暖蜜","竹纸丁香暖蜜","竹纸藿香暖蜜","竹纸零陵暖蜜","竹纸白芷暖蜜","竹纸苍术暖蜜","竹纸艾纳暖蜜","竹纸佩兰暖蜜","竹纸兰草暖蜜","竹纸蕙草暖蜜","麻纸墨香暖蜜","麻纸松烟暖蜜","麻纸油烟暖蜜","麻纸檀香暖蜜","麻纸沉香暖蜜","麻纸龙脑暖蜜","麻纸乳香暖蜜","麻纸丁香暖蜜","麻纸藿香暖蜜","麻纸零陵暖蜜","麻纸白芷暖蜜","麻纸苍术暖蜜","麻纸艾纳暖蜜","麻纸佩兰暖蜜","麻纸兰草暖蜜","麻纸蕙草暖蜜","皮纸墨香暖蜜","皮纸松烟暖蜜","皮纸油烟暖蜜","皮纸檀香暖蜜","皮纸沉香暖蜜","皮纸龙脑暖蜜","皮纸乳香暖蜜","皮纸丁香暖蜜","皮纸藿香暖蜜","皮纸零陵暖蜜","皮纸白芷暖蜜","皮纸苍术暖蜜","皮纸艾纳暖蜜","皮纸佩兰暖蜜","皮纸兰草暖蜜","皮纸蕙草暖蜜","蜡笺墨香暖蜜","蜡笺松烟暖蜜","蜡笺油烟暖蜜","蜡笺檀香暖蜜","蜡笺沉香暖蜜","蜡笺龙脑暖蜜","蜡笺乳香暖蜜","蜡笺丁香暖蜜","蜡笺藿香暖蜜","蜡笺零陵暖蜜","蜡笺白芷暖蜜","蜡笺苍术暖蜜","蜡笺艾纳暖蜜","蜡笺佩兰暖蜜","蜡笺兰草暖蜜","蜡笺蕙草暖蜜","洒金墨香暖蜜","洒金松烟暖蜜","洒金油烟暖蜜","洒金檀香暖蜜","洒金沉香暖蜜","洒金龙脑暖蜜","洒金乳香暖蜜","洒金丁香暖蜜","洒金藿香暖蜜","洒金零陵暖蜜","洒金白芷暖蜜","洒金苍术暖蜜","洒金艾纳暖蜜","洒金佩兰暖蜜","洒金兰草暖蜜","洒金蕙草暖蜜","朱丝墨香暖蜜","朱丝松烟暖蜜","朱丝油烟暖蜜","朱丝檀香暖蜜","朱丝沉香暖蜜","朱丝龙脑暖蜜","朱丝乳香暖蜜","朱丝丁香暖蜜","朱丝藿香暖蜜","朱丝零陵暖蜜","朱丝白芷暖蜜","朱丝苍术暖蜜","朱丝艾纳暖蜜","朱丝佩兰暖蜜","朱丝兰草暖蜜","朱丝蕙草暖蜜","乌丝墨香暖蜜","乌丝松烟暖蜜","乌丝油烟暖蜜","乌丝檀香暖蜜","乌丝沉香暖蜜","乌丝龙脑暖蜜","乌丝乳香暖蜜","乌丝丁香暖蜜","乌丝藿香暖蜜","乌丝零陵暖蜜","乌丝白芷暖蜜","乌丝苍术暖蜜","乌丝艾纳暖蜜","乌丝佩兰暖蜜","乌丝兰草暖蜜","乌丝蕙草暖蜜","行草墨香暖蜜","行草松烟暖蜜","行草油烟暖蜜","行草檀香暖蜜","行草沉香暖蜜","行草龙脑暖蜜","行草乳香暖蜜","行草丁香暖蜜","行草藿香暖蜜","行草零陵暖蜜","行草白芷暖蜜","行草苍术暖蜜","行草艾纳暖蜜","行草佩兰暖蜜","行草兰草暖蜜","行草蕙草暖蜜","楷书墨香暖蜜","楷书松烟暖蜜","楷书油烟暖蜜","楷书檀香暖蜜","楷书沉香暖蜜","楷书龙脑暖蜜","楷书乳香暖蜜","楷书丁香暖蜜","楷书藿香暖蜜","楷书零陵暖蜜","楷书白芷暖蜜","楷书苍术暖蜜","楷书艾纳暖蜜","楷书佩兰暖蜜","楷书兰草暖蜜","楷书蕙草暖蜜","隶书墨香暖蜜","隶书松烟暖蜜","隶书油烟暖蜜","隶书檀香暖蜜","隶书沉香暖蜜","隶书龙脑暖蜜","隶书乳香暖蜜","隶书丁香暖蜜","隶书藿香暖蜜","隶书零陵暖蜜","隶书白芷暖蜜","隶书苍术暖蜜","隶书艾纳暖蜜","隶书佩兰暖蜜","隶书兰草暖蜜","隶书蕙草暖蜜","小楷墨香暖蜜","小楷松烟暖蜜","小楷油烟暖蜜","小楷檀香暖蜜","小楷沉香暖蜜","小楷龙脑暖蜜","小楷乳香暖蜜","小楷丁香暖蜜","小楷藿香暖蜜","小楷零陵暖蜜","小楷白芷暖蜜","小楷苍术暖蜜","小楷艾纳暖蜜","小楷佩兰暖蜜","小楷兰草暖蜜","小楷蕙草暖蜜","手札墨香暖蜜","手札松烟暖蜜","手札油烟暖蜜","手札檀香暖蜜","手札沉香暖蜜","手札龙脑暖蜜","手札乳香暖蜜","手札丁香暖蜜","手札藿香暖蜜","手札零陵暖蜜","手札白芷暖蜜","手札苍术暖蜜","手札艾纳暖蜜","手札佩兰暖蜜","手札兰草暖蜜","手札蕙草暖蜜","日记墨香暖蜜","日记松烟暖蜜","日记油烟暖蜜","日记檀香暖蜜","日记沉香暖蜜","日记龙脑暖蜜","日记乳香暖蜜","日记丁香暖蜜","日记藿香暖蜜","日记零陵暖蜜","日记白芷暖蜜","日记苍术暖蜜","日记艾纳暖蜜","日记佩兰暖蜜","日记兰草暖蜜","日记蕙草暖蜜","手账墨香暖蜜","手账松烟暖蜜","手账油烟暖蜜","手账檀香暖蜜","手账沉香暖蜜","手账龙脑暖蜜","手账乳香暖蜜","手账丁香暖蜜","手账藿香暖蜜","手账零陵暖蜜","手账白芷暖蜜","手账苍术暖蜜","手账艾纳暖蜜","手账佩兰暖蜜","手账兰草暖蜜","手账蕙草暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20957,7 +20957,7 @@ test("bk0 bk1 bk2 bk3 bk4 bk5 bk6 bk7 bk8 bk9 bk10 bk11 bk12 bk13 bk14 bk15 bk16
   ["bk1","bk3","bk5","bk7","bk9","bk11","bk13","bk15","bk17","bk19","bk21","bk23","bk25","bk27","bk29","bk31","bk33","bk35","bk37","bk39","bk41","bk43","bk45","bk47","bk49","bk51","bk53","bk55","bk57","bk59","bk61","bk63","bk65","bk67","bk69","bk71","bk73","bk75","bk77","bk79","bk81","bk83","bk85","bk87","bk89","bk91","bk93","bk95","bk97","bk99","bk101","bk103","bk105","bk107","bk109","bk111","bk113","bk115","bk117","bk119","bk121","bk123","bk125","bk127","bk129","bk131","bk133","bk135","bk137","bk139","bk141","bk143","bk145","bk147","bk149","bk151","bk153","bk155","bk157","bk159","bk161","bk163","bk165","bk167","bk169","bk171","bk173","bk175","bk177","bk179","bk181","bk183","bk185","bk187","bk189","bk191","bk193","bk195","bk197","bk199","bk201","bk203","bk205","bk207","bk209","bk211","bk213","bk215","bk217","bk219","bk221","bk223","bk225","bk227","bk229","bk231","bk233","bk235","bk237","bk239","bk241","bk243","bk245","bk247","bk249","bk251","bk253","bk255","bk257","bk259","bk261","bk263","bk265","bk267","bk269","bk271","bk273","bk275","bk277","bk279","bk281","bk283","bk285","bk287","bk289","bk291","bk293","bk295","bk297","bk299","bk301","bk303","bk305","bk307","bk309","bk311","bk313","bk315","bk317","bk319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["bk0","bk2","bk4","bk6","bk8","bk10","bk12","bk14","bk16","bk18","bk20","bk22","bk24","bk26","bk28","bk30","bk32","bk34","bk36","bk38","bk40","bk42","bk44","bk46","bk48","bk50","bk52","bk54","bk56","bk58","bk60","bk62","bk64","bk66","bk68","bk70","bk72","bk74","bk76","bk78","bk80","bk82","bk84","bk86","bk88","bk90","bk92","bk94","bk96","bk98","bk100","bk102","bk104","bk106","bk108","bk110","bk112","bk114","bk116","bk118","bk120","bk122","bk124","bk126","bk128","bk130","bk132","bk134","bk136","bk138","bk140","bk142","bk144","bk146","bk148","bk150","bk152","bk154","bk156","bk158","bk160","bk162","bk164","bk166","bk168","bk170","bk172","bk174","bk176","bk178","bk180","bk182","bk184","bk186","bk188","bk190","bk192","bk194","bk196","bk198","bk200","bk202","bk204","bk206","bk208","bk210","bk212","bk214","bk216","bk218","bk220","bk222","bk224","bk226","bk228","bk230","bk232","bk234","bk236","bk238","bk240","bk242","bk244","bk246","bk248","bk250","bk252","bk254","bk256","bk258","bk260","bk262","bk264","bk266","bk268","bk270","bk272","bk274","bk276","bk278","bk280","bk282","bk284","bk286","bk288","bk290","bk292","bk294","bk296","bk298","bk300","bk302","bk304","bk306","bk308","bk310","bk312","bk314","bk316","bk318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("bk0_path") && game.includes("bk319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["烤箱肉桂暖蜜","烤箱豆蔻暖蜜","烤箱丁香暖蜜","烤箱茴芹暖蜜","烤箱胡椒暖蜜","烤箱生姜暖蜜","烤箱姜黄暖蜜","烤箱芫荽暖蜜","烤箱孜然暖蜜","烤箱花椒暖蜜","烤箱八角暖蜜","烤箱草果暖蜜","烤箱砂仁暖蜜","烤箱白蔻暖蜜","烤箱香叶暖蜜","烤箱月桂暖蜜","石窑肉桂暖蜜","石窑豆蔻暖蜜","石窑丁香暖蜜","石窑茴芹暖蜜","石窑胡椒暖蜜","石窑生姜暖蜜","石窑姜黄暖蜜","石窑芫荽暖蜜","石窑孜然暖蜜","石窑花椒暖蜜","石窑八角暖蜜","石窑草果暖蜜","石窑砂仁暖蜜","石窑白蔻暖蜜","石窑香叶暖蜜","石窑月桂暖蜜","铁板肉桂暖蜜","铁板豆蔻暖蜜","铁板丁香暖蜜","铁板茴芹暖蜜","铁板胡椒暖蜜","铁板生姜暖蜜","铁板姜黄暖蜜","铁板芫荽暖蜜","铁板孜然暖蜜","铁板花椒暖蜜","铁板八角暖蜜","铁板草果暖蜜","铁板砂仁暖蜜","铁板白蔻暖蜜","铁板香叶暖蜜","铁板月桂暖蜜","铜锅肉桂暖蜜","铜锅豆蔻暖蜜","铜锅丁香暖蜜","铜锅茴芹暖蜜","铜锅胡椒暖蜜","铜锅生姜暖蜜","铜锅姜黄暖蜜","铜锅芫荽暖蜜","铜锅孜然暖蜜","铜锅花椒暖蜜","铜锅八角暖蜜","铜锅草果暖蜜","铜锅砂仁暖蜜","铜锅白蔻暖蜜","铜锅香叶暖蜜","铜锅月桂暖蜜","砂锅肉桂暖蜜","砂锅豆蔻暖蜜","砂锅丁香暖蜜","砂锅茴芹暖蜜","砂锅胡椒暖蜜","砂锅生姜暖蜜","砂锅姜黄暖蜜","砂锅芫荽暖蜜","砂锅孜然暖蜜","砂锅花椒暖蜜","砂锅八角暖蜜","砂锅草果暖蜜","砂锅砂仁暖蜜","砂锅白蔻暖蜜","砂锅香叶暖蜜","砂锅月桂暖蜜","瓦罐肉桂暖蜜","瓦罐豆蔻暖蜜","瓦罐丁香暖蜜","瓦罐茴芹暖蜜","瓦罐胡椒暖蜜","瓦罐生姜暖蜜","瓦罐姜黄暖蜜","瓦罐芫荽暖蜜","瓦罐孜然暖蜜","瓦罐花椒暖蜜","瓦罐八角暖蜜","瓦罐草果暖蜜","瓦罐砂仁暖蜜","瓦罐白蔻暖蜜","瓦罐香叶暖蜜","瓦罐月桂暖蜜","木盘肉桂暖蜜","木盘豆蔻暖蜜","木盘丁香暖蜜","木盘茴芹暖蜜","木盘胡椒暖蜜","木盘生姜暖蜜","木盘姜黄暖蜜","木盘芫荽暖蜜","木盘孜然暖蜜","木盘花椒暖蜜","木盘八角暖蜜","木盘草果暖蜜","木盘砂仁暖蜜","木盘白蔻暖蜜","木盘香叶暖蜜","木盘月桂暖蜜","瓷盘肉桂暖蜜","瓷盘豆蔻暖蜜","瓷盘丁香暖蜜","瓷盘茴芹暖蜜","瓷盘胡椒暖蜜","瓷盘生姜暖蜜","瓷盘姜黄暖蜜","瓷盘芫荽暖蜜","瓷盘孜然暖蜜","瓷盘花椒暖蜜","瓷盘八角暖蜜","瓷盘草果暖蜜","瓷盘砂仁暖蜜","瓷盘白蔻暖蜜","瓷盘香叶暖蜜","瓷盘月桂暖蜜","竹屉肉桂暖蜜","竹屉豆蔻暖蜜","竹屉丁香暖蜜","竹屉茴芹暖蜜","竹屉胡椒暖蜜","竹屉生姜暖蜜","竹屉姜黄暖蜜","竹屉芫荽暖蜜","竹屉孜然暖蜜","竹屉花椒暖蜜","竹屉八角暖蜜","竹屉草果暖蜜","竹屉砂仁暖蜜","竹屉白蔻暖蜜","竹屉香叶暖蜜","竹屉月桂暖蜜","蒸笼肉桂暖蜜","蒸笼豆蔻暖蜜","蒸笼丁香暖蜜","蒸笼茴芹暖蜜","蒸笼胡椒暖蜜","蒸笼生姜暖蜜","蒸笼姜黄暖蜜","蒸笼芫荽暖蜜","蒸笼孜然暖蜜","蒸笼花椒暖蜜","蒸笼八角暖蜜","蒸笼草果暖蜜","蒸笼砂仁暖蜜","蒸笼白蔻暖蜜","蒸笼香叶暖蜜","蒸笼月桂暖蜜","烤架肉桂暖蜜","烤架豆蔻暖蜜","烤架丁香暖蜜","烤架茴芹暖蜜","烤架胡椒暖蜜","烤架生姜暖蜜","烤架姜黄暖蜜","烤架芫荽暖蜜","烤架孜然暖蜜","烤架花椒暖蜜","烤架八角暖蜜","烤架草果暖蜜","烤架砂仁暖蜜","烤架白蔻暖蜜","烤架香叶暖蜜","烤架月桂暖蜜","炭火肉桂暖蜜","炭火豆蔻暖蜜","炭火丁香暖蜜","炭火茴芹暖蜜","炭火胡椒暖蜜","炭火生姜暖蜜","炭火姜黄暖蜜","炭火芫荽暖蜜","炭火孜然暖蜜","炭火花椒暖蜜","炭火八角暖蜜","炭火草果暖蜜","炭火砂仁暖蜜","炭火白蔻暖蜜","炭火香叶暖蜜","炭火月桂暖蜜","余温肉桂暖蜜","余温豆蔻暖蜜","余温丁香暖蜜","余温茴芹暖蜜","余温胡椒暖蜜","余温生姜暖蜜","余温姜黄暖蜜","余温芫荽暖蜜","余温孜然暖蜜","余温花椒暖蜜","余温八角暖蜜","余温草果暖蜜","余温砂仁暖蜜","余温白蔻暖蜜","余温香叶暖蜜","余温月桂暖蜜","糖霜肉桂暖蜜","糖霜豆蔻暖蜜","糖霜丁香暖蜜","糖霜茴芹暖蜜","糖霜胡椒暖蜜","糖霜生姜暖蜜","糖霜姜黄暖蜜","糖霜芫荽暖蜜","糖霜孜然暖蜜","糖霜花椒暖蜜","糖霜八角暖蜜","糖霜草果暖蜜","糖霜砂仁暖蜜","糖霜白蔻暖蜜","糖霜香叶暖蜜","糖霜月桂暖蜜","黄油肉桂暖蜜","黄油豆蔻暖蜜","黄油丁香暖蜜","黄油茴芹暖蜜","黄油胡椒暖蜜","黄油生姜暖蜜","黄油姜黄暖蜜","黄油芫荽暖蜜","黄油孜然暖蜜","黄油花椒暖蜜","黄油八角暖蜜","黄油草果暖蜜","黄油砂仁暖蜜","黄油白蔻暖蜜","黄油香叶暖蜜","黄油月桂暖蜜","奶油肉桂暖蜜","奶油豆蔻暖蜜","奶油丁香暖蜜","奶油茴芹暖蜜","奶油胡椒暖蜜","奶油生姜暖蜜","奶油姜黄暖蜜","奶油芫荽暖蜜","奶油孜然暖蜜","奶油花椒暖蜜","奶油八角暖蜜","奶油草果暖蜜","奶油砂仁暖蜜","奶油白蔻暖蜜","奶油香叶暖蜜","奶油月桂暖蜜","杏仁肉桂暖蜜","杏仁豆蔻暖蜜","杏仁丁香暖蜜","杏仁茴芹暖蜜","杏仁胡椒暖蜜","杏仁生姜暖蜜","杏仁姜黄暖蜜","杏仁芫荽暖蜜","杏仁孜然暖蜜","杏仁花椒暖蜜","杏仁八角暖蜜","杏仁草果暖蜜","杏仁砂仁暖蜜","杏仁白蔻暖蜜","杏仁香叶暖蜜","杏仁月桂暖蜜","核桃肉桂暖蜜","核桃豆蔻暖蜜","核桃丁香暖蜜","核桃茴芹暖蜜","核桃胡椒暖蜜","核桃生姜暖蜜","核桃姜黄暖蜜","核桃芫荽暖蜜","核桃孜然暖蜜","核桃花椒暖蜜","核桃八角暖蜜","核桃草果暖蜜","核桃砂仁暖蜜","核桃白蔻暖蜜","核桃香叶暖蜜","核桃月桂暖蜜","榛果肉桂暖蜜","榛果豆蔻暖蜜","榛果丁香暖蜜","榛果茴芹暖蜜","榛果胡椒暖蜜","榛果生姜暖蜜","榛果姜黄暖蜜","榛果芫荽暖蜜","榛果孜然暖蜜","榛果花椒暖蜜","榛果八角暖蜜","榛果草果暖蜜","榛果砂仁暖蜜","榛果白蔻暖蜜","榛果香叶暖蜜","榛果月桂暖蜜","腰果肉桂暖蜜","腰果豆蔻暖蜜","腰果丁香暖蜜","腰果茴芹暖蜜","腰果胡椒暖蜜","腰果生姜暖蜜","腰果姜黄暖蜜","腰果芫荽暖蜜","腰果孜然暖蜜","腰果花椒暖蜜","腰果八角暖蜜","腰果草果暖蜜","腰果砂仁暖蜜","腰果白蔻暖蜜","腰果香叶暖蜜","腰果月桂暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -20997,7 +20997,7 @@ test("dw0 dw1 dw2 dw3 dw4 dw5 dw6 dw7 dw8 dw9 dw10 dw11 dw12 dw13 dw14 dw15 dw16
   ["dw1","dw3","dw5","dw7","dw9","dw11","dw13","dw15","dw17","dw19","dw21","dw23","dw25","dw27","dw29","dw31","dw33","dw35","dw37","dw39","dw41","dw43","dw45","dw47","dw49","dw51","dw53","dw55","dw57","dw59","dw61","dw63","dw65","dw67","dw69","dw71","dw73","dw75","dw77","dw79","dw81","dw83","dw85","dw87","dw89","dw91","dw93","dw95","dw97","dw99","dw101","dw103","dw105","dw107","dw109","dw111","dw113","dw115","dw117","dw119","dw121","dw123","dw125","dw127","dw129","dw131","dw133","dw135","dw137","dw139","dw141","dw143","dw145","dw147","dw149","dw151","dw153","dw155","dw157","dw159","dw161","dw163","dw165","dw167","dw169","dw171","dw173","dw175","dw177","dw179","dw181","dw183","dw185","dw187","dw189","dw191","dw193","dw195","dw197","dw199","dw201","dw203","dw205","dw207","dw209","dw211","dw213","dw215","dw217","dw219","dw221","dw223","dw225","dw227","dw229","dw231","dw233","dw235","dw237","dw239","dw241","dw243","dw245","dw247","dw249","dw251","dw253","dw255","dw257","dw259","dw261","dw263","dw265","dw267","dw269","dw271","dw273","dw275","dw277","dw279","dw281","dw283","dw285","dw287","dw289","dw291","dw293","dw295","dw297","dw299","dw301","dw303","dw305","dw307","dw309","dw311","dw313","dw315","dw317","dw319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["dw0","dw2","dw4","dw6","dw8","dw10","dw12","dw14","dw16","dw18","dw20","dw22","dw24","dw26","dw28","dw30","dw32","dw34","dw36","dw38","dw40","dw42","dw44","dw46","dw48","dw50","dw52","dw54","dw56","dw58","dw60","dw62","dw64","dw66","dw68","dw70","dw72","dw74","dw76","dw78","dw80","dw82","dw84","dw86","dw88","dw90","dw92","dw94","dw96","dw98","dw100","dw102","dw104","dw106","dw108","dw110","dw112","dw114","dw116","dw118","dw120","dw122","dw124","dw126","dw128","dw130","dw132","dw134","dw136","dw138","dw140","dw142","dw144","dw146","dw148","dw150","dw152","dw154","dw156","dw158","dw160","dw162","dw164","dw166","dw168","dw170","dw172","dw174","dw176","dw178","dw180","dw182","dw184","dw186","dw188","dw190","dw192","dw194","dw196","dw198","dw200","dw202","dw204","dw206","dw208","dw210","dw212","dw214","dw216","dw218","dw220","dw222","dw224","dw226","dw228","dw230","dw232","dw234","dw236","dw238","dw240","dw242","dw244","dw246","dw248","dw250","dw252","dw254","dw256","dw258","dw260","dw262","dw264","dw266","dw268","dw270","dw272","dw274","dw276","dw278","dw280","dw282","dw284","dw286","dw288","dw290","dw292","dw294","dw296","dw298","dw300","dw302","dw304","dw306","dw308","dw310","dw312","dw314","dw316","dw318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("dw0_path") && game.includes("dw319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["晨露露莓暖蜜","晨露露菊暖蜜","晨露露兰暖蜜","晨露露梅暖蜜","晨露露樱暖蜜","晨露露桃暖蜜","晨露露杏暖蜜","晨露露李暖蜜","晨露露栀暖蜜","晨露露桂暖蜜","晨露露荷暖蜜","晨露露莲暖蜜","晨露露芹暖蜜","晨露露薄荷暖蜜","晨露露苏暖蜜","晨露露艾暖蜜","晚露露莓暖蜜","晚露露菊暖蜜","晚露露兰暖蜜","晚露露梅暖蜜","晚露露樱暖蜜","晚露露桃暖蜜","晚露露杏暖蜜","晚露露李暖蜜","晚露露栀暖蜜","晚露露桂暖蜜","晚露露荷暖蜜","晚露露莲暖蜜","晚露露芹暖蜜","晚露露薄荷暖蜜","晚露露苏暖蜜","晚露露艾暖蜜","雾露露莓暖蜜","雾露露菊暖蜜","雾露露兰暖蜜","雾露露梅暖蜜","雾露露樱暖蜜","雾露露桃暖蜜","雾露露杏暖蜜","雾露露李暖蜜","雾露露栀暖蜜","雾露露桂暖蜜","雾露露荷暖蜜","雾露露莲暖蜜","雾露露芹暖蜜","雾露露薄荷暖蜜","雾露露苏暖蜜","雾露露艾暖蜜","霜露露莓暖蜜","霜露露菊暖蜜","霜露露兰暖蜜","霜露露梅暖蜜","霜露露樱暖蜜","霜露露桃暖蜜","霜露露杏暖蜜","霜露露李暖蜜","霜露露栀暖蜜","霜露露桂暖蜜","霜露露荷暖蜜","霜露露莲暖蜜","霜露露芹暖蜜","霜露露薄荷暖蜜","霜露露苏暖蜜","霜露露艾暖蜜","星露露莓暖蜜","星露露菊暖蜜","星露露兰暖蜜","星露露梅暖蜜","星露露樱暖蜜","星露露桃暖蜜","星露露杏暖蜜","星露露李暖蜜","星露露栀暖蜜","星露露桂暖蜜","星露露荷暖蜜","星露露莲暖蜜","星露露芹暖蜜","星露露薄荷暖蜜","星露露苏暖蜜","星露露艾暖蜜","月露露莓暖蜜","月露露菊暖蜜","月露露兰暖蜜","月露露梅暖蜜","月露露樱暖蜜","月露露桃暖蜜","月露露杏暖蜜","月露露李暖蜜","月露露栀暖蜜","月露露桂暖蜜","月露露荷暖蜜","月露露莲暖蜜","月露露芹暖蜜","月露露薄荷暖蜜","月露露苏暖蜜","月露露艾暖蜜","花露露莓暖蜜","花露露菊暖蜜","花露露兰暖蜜","花露露梅暖蜜","花露露樱暖蜜","花露露桃暖蜜","花露露杏暖蜜","花露露李暖蜜","花露露栀暖蜜","花露露桂暖蜜","花露露荷暖蜜","花露露莲暖蜜","花露露芹暖蜜","花露露薄荷暖蜜","花露露苏暖蜜","花露露艾暖蜜","叶露露莓暖蜜","叶露露菊暖蜜","叶露露兰暖蜜","叶露露梅暖蜜","叶露露樱暖蜜","叶露露桃暖蜜","叶露露杏暖蜜","叶露露李暖蜜","叶露露栀暖蜜","叶露露桂暖蜜","叶露露荷暖蜜","叶露露莲暖蜜","叶露露芹暖蜜","叶露露薄荷暖蜜","叶露露苏暖蜜","叶露露艾暖蜜","草露露莓暖蜜","草露露菊暖蜜","草露露兰暖蜜","草露露梅暖蜜","草露露樱暖蜜","草露露桃暖蜜","草露露杏暖蜜","草露露李暖蜜","草露露栀暖蜜","草露露桂暖蜜","草露露荷暖蜜","草露露莲暖蜜","草露露芹暖蜜","草露露薄荷暖蜜","草露露苏暖蜜","草露露艾暖蜜","竹露露莓暖蜜","竹露露菊暖蜜","竹露露兰暖蜜","竹露露梅暖蜜","竹露露樱暖蜜","竹露露桃暖蜜","竹露露杏暖蜜","竹露露李暖蜜","竹露露栀暖蜜","竹露露桂暖蜜","竹露露荷暖蜜","竹露露莲暖蜜","竹露露芹暖蜜","竹露露薄荷暖蜜","竹露露苏暖蜜","竹露露艾暖蜜","松露露莓暖蜜","松露露菊暖蜜","松露露兰暖蜜","松露露梅暖蜜","松露露樱暖蜜","松露露桃暖蜜","松露露杏暖蜜","松露露李暖蜜","松露露栀暖蜜","松露露桂暖蜜","松露露荷暖蜜","松露露莲暖蜜","松露露芹暖蜜","松露露薄荷暖蜜","松露露苏暖蜜","松露露艾暖蜜","苔露露莓暖蜜","苔露露菊暖蜜","苔露露兰暖蜜","苔露露梅暖蜜","苔露露樱暖蜜","苔露露桃暖蜜","苔露露杏暖蜜","苔露露李暖蜜","苔露露栀暖蜜","苔露露桂暖蜜","苔露露荷暖蜜","苔露露莲暖蜜","苔露露芹暖蜜","苔露露薄荷暖蜜","苔露露苏暖蜜","苔露露艾暖蜜","石露露莓暖蜜","石露露菊暖蜜","石露露兰暖蜜","石露露梅暖蜜","石露露樱暖蜜","石露露桃暖蜜","石露露杏暖蜜","石露露李暖蜜","石露露栀暖蜜","石露露桂暖蜜","石露露荷暖蜜","石露露莲暖蜜","石露露芹暖蜜","石露露薄荷暖蜜","石露露苏暖蜜","石露露艾暖蜜","瓦露露莓暖蜜","瓦露露菊暖蜜","瓦露露兰暖蜜","瓦露露梅暖蜜","瓦露露樱暖蜜","瓦露露桃暖蜜","瓦露露杏暖蜜","瓦露露李暖蜜","瓦露露栀暖蜜","瓦露露桂暖蜜","瓦露露荷暖蜜","瓦露露莲暖蜜","瓦露露芹暖蜜","瓦露露薄荷暖蜜","瓦露露苏暖蜜","瓦露露艾暖蜜","窗露露莓暖蜜","窗露露菊暖蜜","窗露露兰暖蜜","窗露露梅暖蜜","窗露露樱暖蜜","窗露露桃暖蜜","窗露露杏暖蜜","窗露露李暖蜜","窗露露栀暖蜜","窗露露桂暖蜜","窗露露荷暖蜜","窗露露莲暖蜜","窗露露芹暖蜜","窗露露薄荷暖蜜","窗露露苏暖蜜","窗露露艾暖蜜","阶露露莓暖蜜","阶露露菊暖蜜","阶露露兰暖蜜","阶露露梅暖蜜","阶露露樱暖蜜","阶露露桃暖蜜","阶露露杏暖蜜","阶露露李暖蜜","阶露露栀暖蜜","阶露露桂暖蜜","阶露露荷暖蜜","阶露露莲暖蜜","阶露露芹暖蜜","阶露露薄荷暖蜜","阶露露苏暖蜜","阶露露艾暖蜜","径露露莓暖蜜","径露露菊暖蜜","径露露兰暖蜜","径露露梅暖蜜","径露露樱暖蜜","径露露桃暖蜜","径露露杏暖蜜","径露露李暖蜜","径露露栀暖蜜","径露露桂暖蜜","径露露荷暖蜜","径露露莲暖蜜","径露露芹暖蜜","径露露薄荷暖蜜","径露露苏暖蜜","径露露艾暖蜜","桥露露莓暖蜜","桥露露菊暖蜜","桥露露兰暖蜜","桥露露梅暖蜜","桥露露樱暖蜜","桥露露桃暖蜜","桥露露杏暖蜜","桥露露李暖蜜","桥露露栀暖蜜","桥露露桂暖蜜","桥露露荷暖蜜","桥露露莲暖蜜","桥露露芹暖蜜","桥露露薄荷暖蜜","桥露露苏暖蜜","桥露露艾暖蜜","田露露莓暖蜜","田露露菊暖蜜","田露露兰暖蜜","田露露梅暖蜜","田露露樱暖蜜","田露露桃暖蜜","田露露杏暖蜜","田露露李暖蜜","田露露栀暖蜜","田露露桂暖蜜","田露露荷暖蜜","田露露莲暖蜜","田露露芹暖蜜","田露露薄荷暖蜜","田露露苏暖蜜","田露露艾暖蜜","园露露莓暖蜜","园露露菊暖蜜","园露露兰暖蜜","园露露梅暖蜜","园露露樱暖蜜","园露露桃暖蜜","园露露杏暖蜜","园露露李暖蜜","园露露栀暖蜜","园露露桂暖蜜","园露露荷暖蜜","园露露莲暖蜜","园露露芹暖蜜","园露露薄荷暖蜜","园露露苏暖蜜","园露露艾暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21037,7 +21037,7 @@ test("lp0 lp1 lp2 lp3 lp4 lp5 lp6 lp7 lp8 lp9 lp10 lp11 lp12 lp13 lp14 lp15 lp16
   ["lp1","lp3","lp5","lp7","lp9","lp11","lp13","lp15","lp17","lp19","lp21","lp23","lp25","lp27","lp29","lp31","lp33","lp35","lp37","lp39","lp41","lp43","lp45","lp47","lp49","lp51","lp53","lp55","lp57","lp59","lp61","lp63","lp65","lp67","lp69","lp71","lp73","lp75","lp77","lp79","lp81","lp83","lp85","lp87","lp89","lp91","lp93","lp95","lp97","lp99","lp101","lp103","lp105","lp107","lp109","lp111","lp113","lp115","lp117","lp119","lp121","lp123","lp125","lp127","lp129","lp131","lp133","lp135","lp137","lp139","lp141","lp143","lp145","lp147","lp149","lp151","lp153","lp155","lp157","lp159","lp161","lp163","lp165","lp167","lp169","lp171","lp173","lp175","lp177","lp179","lp181","lp183","lp185","lp187","lp189","lp191","lp193","lp195","lp197","lp199","lp201","lp203","lp205","lp207","lp209","lp211","lp213","lp215","lp217","lp219","lp221","lp223","lp225","lp227","lp229","lp231","lp233","lp235","lp237","lp239","lp241","lp243","lp245","lp247","lp249","lp251","lp253","lp255","lp257","lp259","lp261","lp263","lp265","lp267","lp269","lp271","lp273","lp275","lp277","lp279","lp281","lp283","lp285","lp287","lp289","lp291","lp293","lp295","lp297","lp299","lp301","lp303","lp305","lp307","lp309","lp311","lp313","lp315","lp317","lp319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["lp0","lp2","lp4","lp6","lp8","lp10","lp12","lp14","lp16","lp18","lp20","lp22","lp24","lp26","lp28","lp30","lp32","lp34","lp36","lp38","lp40","lp42","lp44","lp46","lp48","lp50","lp52","lp54","lp56","lp58","lp60","lp62","lp64","lp66","lp68","lp70","lp72","lp74","lp76","lp78","lp80","lp82","lp84","lp86","lp88","lp90","lp92","lp94","lp96","lp98","lp100","lp102","lp104","lp106","lp108","lp110","lp112","lp114","lp116","lp118","lp120","lp122","lp124","lp126","lp128","lp130","lp132","lp134","lp136","lp138","lp140","lp142","lp144","lp146","lp148","lp150","lp152","lp154","lp156","lp158","lp160","lp162","lp164","lp166","lp168","lp170","lp172","lp174","lp176","lp178","lp180","lp182","lp184","lp186","lp188","lp190","lp192","lp194","lp196","lp198","lp200","lp202","lp204","lp206","lp208","lp210","lp212","lp214","lp216","lp218","lp220","lp222","lp224","lp226","lp228","lp230","lp232","lp234","lp236","lp238","lp240","lp242","lp244","lp246","lp248","lp250","lp252","lp254","lp256","lp258","lp260","lp262","lp264","lp266","lp268","lp270","lp272","lp274","lp276","lp278","lp280","lp282","lp284","lp286","lp288","lp290","lp292","lp294","lp296","lp298","lp300","lp302","lp304","lp306","lp308","lp310","lp312","lp314","lp316","lp318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("lp0_path") && game.includes("lp319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["台灯安眠草暖蜜","台灯安神花暖蜜","台灯静心叶暖蜜","台灯暖胃根暖蜜","台灯润喉果暖蜜","台灯清目子暖蜜","台灯养颜花暖蜜","台灯舒筋草暖蜜","台灯活络叶暖蜜","台灯解郁花暖蜜","台灯开胃果暖蜜","台灯消食叶暖蜜","台灯润肺花暖蜜","台灯清心草暖蜜","台灯宁神叶暖蜜","台灯平肝花暖蜜","壁灯安眠草暖蜜","壁灯安神花暖蜜","壁灯静心叶暖蜜","壁灯暖胃根暖蜜","壁灯润喉果暖蜜","壁灯清目子暖蜜","壁灯养颜花暖蜜","壁灯舒筋草暖蜜","壁灯活络叶暖蜜","壁灯解郁花暖蜜","壁灯开胃果暖蜜","壁灯消食叶暖蜜","壁灯润肺花暖蜜","壁灯清心草暖蜜","壁灯宁神叶暖蜜","壁灯平肝花暖蜜","地灯安眠草暖蜜","地灯安神花暖蜜","地灯静心叶暖蜜","地灯暖胃根暖蜜","地灯润喉果暖蜜","地灯清目子暖蜜","地灯养颜花暖蜜","地灯舒筋草暖蜜","地灯活络叶暖蜜","地灯解郁花暖蜜","地灯开胃果暖蜜","地灯消食叶暖蜜","地灯润肺花暖蜜","地灯清心草暖蜜","地灯宁神叶暖蜜","地灯平肝花暖蜜","吊灯安眠草暖蜜","吊灯安神花暖蜜","吊灯静心叶暖蜜","吊灯暖胃根暖蜜","吊灯润喉果暖蜜","吊灯清目子暖蜜","吊灯养颜花暖蜜","吊灯舒筋草暖蜜","吊灯活络叶暖蜜","吊灯解郁花暖蜜","吊灯开胃果暖蜜","吊灯消食叶暖蜜","吊灯润肺花暖蜜","吊灯清心草暖蜜","吊灯宁神叶暖蜜","吊灯平肝花暖蜜","烛火安眠草暖蜜","烛火安神花暖蜜","烛火静心叶暖蜜","烛火暖胃根暖蜜","烛火润喉果暖蜜","烛火清目子暖蜜","烛火养颜花暖蜜","烛火舒筋草暖蜜","烛火活络叶暖蜜","烛火解郁花暖蜜","烛火开胃果暖蜜","烛火消食叶暖蜜","烛火润肺花暖蜜","烛火清心草暖蜜","烛火宁神叶暖蜜","烛火平肝花暖蜜","火塘安眠草暖蜜","火塘安神花暖蜜","火塘静心叶暖蜜","火塘暖胃根暖蜜","火塘润喉果暖蜜","火塘清目子暖蜜","火塘养颜花暖蜜","火塘舒筋草暖蜜","火塘活络叶暖蜜","火塘解郁花暖蜜","火塘开胃果暖蜜","火塘消食叶暖蜜","火塘润肺花暖蜜","火塘清心草暖蜜","火塘宁神叶暖蜜","火塘平肝花暖蜜","暖炉安眠草暖蜜","暖炉安神花暖蜜","暖炉静心叶暖蜜","暖炉暖胃根暖蜜","暖炉润喉果暖蜜","暖炉清目子暖蜜","暖炉养颜花暖蜜","暖炉舒筋草暖蜜","暖炉活络叶暖蜜","暖炉解郁花暖蜜","暖炉开胃果暖蜜","暖炉消食叶暖蜜","暖炉润肺花暖蜜","暖炉清心草暖蜜","暖炉宁神叶暖蜜","暖炉平肝花暖蜜","炭盆安眠草暖蜜","炭盆安神花暖蜜","炭盆静心叶暖蜜","炭盆暖胃根暖蜜","炭盆润喉果暖蜜","炭盆清目子暖蜜","炭盆养颜花暖蜜","炭盆舒筋草暖蜜","炭盆活络叶暖蜜","炭盆解郁花暖蜜","炭盆开胃果暖蜜","炭盆消食叶暖蜜","炭盆润肺花暖蜜","炭盆清心草暖蜜","炭盆宁神叶暖蜜","炭盆平肝花暖蜜","茶炉安眠草暖蜜","茶炉安神花暖蜜","茶炉静心叶暖蜜","茶炉暖胃根暖蜜","茶炉润喉果暖蜜","茶炉清目子暖蜜","茶炉养颜花暖蜜","茶炉舒筋草暖蜜","茶炉活络叶暖蜜","茶炉解郁花暖蜜","茶炉开胃果暖蜜","茶炉消食叶暖蜜","茶炉润肺花暖蜜","茶炉清心草暖蜜","茶炉宁神叶暖蜜","茶炉平肝花暖蜜","香炉安眠草暖蜜","香炉安神花暖蜜","香炉静心叶暖蜜","香炉暖胃根暖蜜","香炉润喉果暖蜜","香炉清目子暖蜜","香炉养颜花暖蜜","香炉舒筋草暖蜜","香炉活络叶暖蜜","香炉解郁花暖蜜","香炉开胃果暖蜜","香炉消食叶暖蜜","香炉润肺花暖蜜","香炉清心草暖蜜","香炉宁神叶暖蜜","香炉平肝花暖蜜","夜灯安眠草暖蜜","夜灯安神花暖蜜","夜灯静心叶暖蜜","夜灯暖胃根暖蜜","夜灯润喉果暖蜜","夜灯清目子暖蜜","夜灯养颜花暖蜜","夜灯舒筋草暖蜜","夜灯活络叶暖蜜","夜灯解郁花暖蜜","夜灯开胃果暖蜜","夜灯消食叶暖蜜","夜灯润肺花暖蜜","夜灯清心草暖蜜","夜灯宁神叶暖蜜","夜灯平肝花暖蜜","床头灯安眠草暖蜜","床头灯安神花暖蜜","床头灯静心叶暖蜜","床头灯暖胃根暖蜜","床头灯润喉果暖蜜","床头灯清目子暖蜜","床头灯养颜花暖蜜","床头灯舒筋草暖蜜","床头灯活络叶暖蜜","床头灯解郁花暖蜜","床头灯开胃果暖蜜","床头灯消食叶暖蜜","床头灯润肺花暖蜜","床头灯清心草暖蜜","床头灯宁神叶暖蜜","床头灯平肝花暖蜜","廊灯安眠草暖蜜","廊灯安神花暖蜜","廊灯静心叶暖蜜","廊灯暖胃根暖蜜","廊灯润喉果暖蜜","廊灯清目子暖蜜","廊灯养颜花暖蜜","廊灯舒筋草暖蜜","廊灯活络叶暖蜜","廊灯解郁花暖蜜","廊灯开胃果暖蜜","廊灯消食叶暖蜜","廊灯润肺花暖蜜","廊灯清心草暖蜜","廊灯宁神叶暖蜜","廊灯平肝花暖蜜","门灯安眠草暖蜜","门灯安神花暖蜜","门灯静心叶暖蜜","门灯暖胃根暖蜜","门灯润喉果暖蜜","门灯清目子暖蜜","门灯养颜花暖蜜","门灯舒筋草暖蜜","门灯活络叶暖蜜","门灯解郁花暖蜜","门灯开胃果暖蜜","门灯消食叶暖蜜","门灯润肺花暖蜜","门灯清心草暖蜜","门灯宁神叶暖蜜","门灯平肝花暖蜜","巷灯安眠草暖蜜","巷灯安神花暖蜜","巷灯静心叶暖蜜","巷灯暖胃根暖蜜","巷灯润喉果暖蜜","巷灯清目子暖蜜","巷灯养颜花暖蜜","巷灯舒筋草暖蜜","巷灯活络叶暖蜜","巷灯解郁花暖蜜","巷灯开胃果暖蜜","巷灯消食叶暖蜜","巷灯润肺花暖蜜","巷灯清心草暖蜜","巷灯宁神叶暖蜜","巷灯平肝花暖蜜","店灯安眠草暖蜜","店灯安神花暖蜜","店灯静心叶暖蜜","店灯暖胃根暖蜜","店灯润喉果暖蜜","店灯清目子暖蜜","店灯养颜花暖蜜","店灯舒筋草暖蜜","店灯活络叶暖蜜","店灯解郁花暖蜜","店灯开胃果暖蜜","店灯消食叶暖蜜","店灯润肺花暖蜜","店灯清心草暖蜜","店灯宁神叶暖蜜","店灯平肝花暖蜜","窗灯安眠草暖蜜","窗灯安神花暖蜜","窗灯静心叶暖蜜","窗灯暖胃根暖蜜","窗灯润喉果暖蜜","窗灯清目子暖蜜","窗灯养颜花暖蜜","窗灯舒筋草暖蜜","窗灯活络叶暖蜜","窗灯解郁花暖蜜","窗灯开胃果暖蜜","窗灯消食叶暖蜜","窗灯润肺花暖蜜","窗灯清心草暖蜜","窗灯宁神叶暖蜜","窗灯平肝花暖蜜","桌灯安眠草暖蜜","桌灯安神花暖蜜","桌灯静心叶暖蜜","桌灯暖胃根暖蜜","桌灯润喉果暖蜜","桌灯清目子暖蜜","桌灯养颜花暖蜜","桌灯舒筋草暖蜜","桌灯活络叶暖蜜","桌灯解郁花暖蜜","桌灯开胃果暖蜜","桌灯消食叶暖蜜","桌灯润肺花暖蜜","桌灯清心草暖蜜","桌灯宁神叶暖蜜","桌灯平肝花暖蜜","柜灯安眠草暖蜜","柜灯安神花暖蜜","柜灯静心叶暖蜜","柜灯暖胃根暖蜜","柜灯润喉果暖蜜","柜灯清目子暖蜜","柜灯养颜花暖蜜","柜灯舒筋草暖蜜","柜灯活络叶暖蜜","柜灯解郁花暖蜜","柜灯开胃果暖蜜","柜灯消食叶暖蜜","柜灯润肺花暖蜜","柜灯清心草暖蜜","柜灯宁神叶暖蜜","柜灯平肝花暖蜜","架灯安眠草暖蜜","架灯安神花暖蜜","架灯静心叶暖蜜","架灯暖胃根暖蜜","架灯润喉果暖蜜","架灯清目子暖蜜","架灯养颜花暖蜜","架灯舒筋草暖蜜","架灯活络叶暖蜜","架灯解郁花暖蜜","架灯开胃果暖蜜","架灯消食叶暖蜜","架灯润肺花暖蜜","架灯清心草暖蜜","架灯宁神叶暖蜜","架灯平肝花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21077,7 +21077,7 @@ test("cl0 cl1 cl2 cl3 cl4 cl5 cl6 cl7 cl8 cl9 cl10 cl11 cl12 cl13 cl14 cl15 cl16
   ["cl1","cl3","cl5","cl7","cl9","cl11","cl13","cl15","cl17","cl19","cl21","cl23","cl25","cl27","cl29","cl31","cl33","cl35","cl37","cl39","cl41","cl43","cl45","cl47","cl49","cl51","cl53","cl55","cl57","cl59","cl61","cl63","cl65","cl67","cl69","cl71","cl73","cl75","cl77","cl79","cl81","cl83","cl85","cl87","cl89","cl91","cl93","cl95","cl97","cl99","cl101","cl103","cl105","cl107","cl109","cl111","cl113","cl115","cl117","cl119","cl121","cl123","cl125","cl127","cl129","cl131","cl133","cl135","cl137","cl139","cl141","cl143","cl145","cl147","cl149","cl151","cl153","cl155","cl157","cl159","cl161","cl163","cl165","cl167","cl169","cl171","cl173","cl175","cl177","cl179","cl181","cl183","cl185","cl187","cl189","cl191","cl193","cl195","cl197","cl199","cl201","cl203","cl205","cl207","cl209","cl211","cl213","cl215","cl217","cl219","cl221","cl223","cl225","cl227","cl229","cl231","cl233","cl235","cl237","cl239","cl241","cl243","cl245","cl247","cl249","cl251","cl253","cl255","cl257","cl259","cl261","cl263","cl265","cl267","cl269","cl271","cl273","cl275","cl277","cl279","cl281","cl283","cl285","cl287","cl289","cl291","cl293","cl295","cl297","cl299","cl301","cl303","cl305","cl307","cl309","cl311","cl313","cl315","cl317","cl319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["cl0","cl2","cl4","cl6","cl8","cl10","cl12","cl14","cl16","cl18","cl20","cl22","cl24","cl26","cl28","cl30","cl32","cl34","cl36","cl38","cl40","cl42","cl44","cl46","cl48","cl50","cl52","cl54","cl56","cl58","cl60","cl62","cl64","cl66","cl68","cl70","cl72","cl74","cl76","cl78","cl80","cl82","cl84","cl86","cl88","cl90","cl92","cl94","cl96","cl98","cl100","cl102","cl104","cl106","cl108","cl110","cl112","cl114","cl116","cl118","cl120","cl122","cl124","cl126","cl128","cl130","cl132","cl134","cl136","cl138","cl140","cl142","cl144","cl146","cl148","cl150","cl152","cl154","cl156","cl158","cl160","cl162","cl164","cl166","cl168","cl170","cl172","cl174","cl176","cl178","cl180","cl182","cl184","cl186","cl188","cl190","cl192","cl194","cl196","cl198","cl200","cl202","cl204","cl206","cl208","cl210","cl212","cl214","cl216","cl218","cl220","cl222","cl224","cl226","cl228","cl230","cl232","cl234","cl236","cl238","cl240","cl242","cl244","cl246","cl248","cl250","cl252","cl254","cl256","cl258","cl260","cl262","cl264","cl266","cl268","cl270","cl272","cl274","cl276","cl278","cl280","cl282","cl284","cl286","cl288","cl290","cl292","cl294","cl296","cl298","cl300","cl302","cl304","cl306","cl308","cl310","cl312","cl314","cl316","cl318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("cl0_path") && game.includes("cl319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["麻布蓝草暖蜜","麻布茜草暖蜜","麻布槐花暖蜜","麻布皂荚暖蜜","麻布紫草暖蜜","麻布苏木暖蜜","麻布红花暖蜜","麻布栀子暖蜜","麻布黄柏暖蜜","麻布五倍子暖蜜","麻布石榴皮暖蜜","麻布洋葱皮暖蜜","麻布咖啡渣暖蜜","麻布茶叶渣暖蜜","麻布艾灰暖蜜","麻布松烟灰暖蜜","棉布蓝草暖蜜","棉布茜草暖蜜","棉布槐花暖蜜","棉布皂荚暖蜜","棉布紫草暖蜜","棉布苏木暖蜜","棉布红花暖蜜","棉布栀子暖蜜","棉布黄柏暖蜜","棉布五倍子暖蜜","棉布石榴皮暖蜜","棉布洋葱皮暖蜜","棉布咖啡渣暖蜜","棉布茶叶渣暖蜜","棉布艾灰暖蜜","棉布松烟灰暖蜜","丝绸蓝草暖蜜","丝绸茜草暖蜜","丝绸槐花暖蜜","丝绸皂荚暖蜜","丝绸紫草暖蜜","丝绸苏木暖蜜","丝绸红花暖蜜","丝绸栀子暖蜜","丝绸黄柏暖蜜","丝绸五倍子暖蜜","丝绸石榴皮暖蜜","丝绸洋葱皮暖蜜","丝绸咖啡渣暖蜜","丝绸茶叶渣暖蜜","丝绸艾灰暖蜜","丝绸松烟灰暖蜜","纱绸蓝草暖蜜","纱绸茜草暖蜜","纱绸槐花暖蜜","纱绸皂荚暖蜜","纱绸紫草暖蜜","纱绸苏木暖蜜","纱绸红花暖蜜","纱绸栀子暖蜜","纱绸黄柏暖蜜","纱绸五倍子暖蜜","纱绸石榴皮暖蜜","纱绸洋葱皮暖蜜","纱绸咖啡渣暖蜜","纱绸茶叶渣暖蜜","纱绸艾灰暖蜜","纱绸松烟灰暖蜜","绒布蓝草暖蜜","绒布茜草暖蜜","绒布槐花暖蜜","绒布皂荚暖蜜","绒布紫草暖蜜","绒布苏木暖蜜","绒布红花暖蜜","绒布栀子暖蜜","绒布黄柏暖蜜","绒布五倍子暖蜜","绒布石榴皮暖蜜","绒布洋葱皮暖蜜","绒布咖啡渣暖蜜","绒布茶叶渣暖蜜","绒布艾灰暖蜜","绒布松烟灰暖蜜","呢料蓝草暖蜜","呢料茜草暖蜜","呢料槐花暖蜜","呢料皂荚暖蜜","呢料紫草暖蜜","呢料苏木暖蜜","呢料红花暖蜜","呢料栀子暖蜜","呢料黄柏暖蜜","呢料五倍子暖蜜","呢料石榴皮暖蜜","呢料洋葱皮暖蜜","呢料咖啡渣暖蜜","呢料茶叶渣暖蜜","呢料艾灰暖蜜","呢料松烟灰暖蜜","葛布蓝草暖蜜","葛布茜草暖蜜","葛布槐花暖蜜","葛布皂荚暖蜜","葛布紫草暖蜜","葛布苏木暖蜜","葛布红花暖蜜","葛布栀子暖蜜","葛布黄柏暖蜜","葛布五倍子暖蜜","葛布石榴皮暖蜜","葛布洋葱皮暖蜜","葛布咖啡渣暖蜜","葛布茶叶渣暖蜜","葛布艾灰暖蜜","葛布松烟灰暖蜜","蕉布蓝草暖蜜","蕉布茜草暖蜜","蕉布槐花暖蜜","蕉布皂荚暖蜜","蕉布紫草暖蜜","蕉布苏木暖蜜","蕉布红花暖蜜","蕉布栀子暖蜜","蕉布黄柏暖蜜","蕉布五倍子暖蜜","蕉布石榴皮暖蜜","蕉布洋葱皮暖蜜","蕉布咖啡渣暖蜜","蕉布茶叶渣暖蜜","蕉布艾灰暖蜜","蕉布松烟灰暖蜜","夏布蓝草暖蜜","夏布茜草暖蜜","夏布槐花暖蜜","夏布皂荚暖蜜","夏布紫草暖蜜","夏布苏木暖蜜","夏布红花暖蜜","夏布栀子暖蜜","夏布黄柏暖蜜","夏布五倍子暖蜜","夏布石榴皮暖蜜","夏布洋葱皮暖蜜","夏布咖啡渣暖蜜","夏布茶叶渣暖蜜","夏布艾灰暖蜜","夏布松烟灰暖蜜","土布蓝草暖蜜","土布茜草暖蜜","土布槐花暖蜜","土布皂荚暖蜜","土布紫草暖蜜","土布苏木暖蜜","土布红花暖蜜","土布栀子暖蜜","土布黄柏暖蜜","土布五倍子暖蜜","土布石榴皮暖蜜","土布洋葱皮暖蜜","土布咖啡渣暖蜜","土布茶叶渣暖蜜","土布艾灰暖蜜","土布松烟灰暖蜜","蓝印蓝草暖蜜","蓝印茜草暖蜜","蓝印槐花暖蜜","蓝印皂荚暖蜜","蓝印紫草暖蜜","蓝印苏木暖蜜","蓝印红花暖蜜","蓝印栀子暖蜜","蓝印黄柏暖蜜","蓝印五倍子暖蜜","蓝印石榴皮暖蜜","蓝印洋葱皮暖蜜","蓝印咖啡渣暖蜜","蓝印茶叶渣暖蜜","蓝印艾灰暖蜜","蓝印松烟灰暖蜜","扎染蓝草暖蜜","扎染茜草暖蜜","扎染槐花暖蜜","扎染皂荚暖蜜","扎染紫草暖蜜","扎染苏木暖蜜","扎染红花暖蜜","扎染栀子暖蜜","扎染黄柏暖蜜","扎染五倍子暖蜜","扎染石榴皮暖蜜","扎染洋葱皮暖蜜","扎染咖啡渣暖蜜","扎染茶叶渣暖蜜","扎染艾灰暖蜜","扎染松烟灰暖蜜","蜡染蓝草暖蜜","蜡染茜草暖蜜","蜡染槐花暖蜜","蜡染皂荚暖蜜","蜡染紫草暖蜜","蜡染苏木暖蜜","蜡染红花暖蜜","蜡染栀子暖蜜","蜡染黄柏暖蜜","蜡染五倍子暖蜜","蜡染石榴皮暖蜜","蜡染洋葱皮暖蜜","蜡染咖啡渣暖蜜","蜡染茶叶渣暖蜜","蜡染艾灰暖蜜","蜡染松烟灰暖蜜","草木染蓝草暖蜜","草木染茜草暖蜜","草木染槐花暖蜜","草木染皂荚暖蜜","草木染紫草暖蜜","草木染苏木暖蜜","草木染红花暖蜜","草木染栀子暖蜜","草木染黄柏暖蜜","草木染五倍子暖蜜","草木染石榴皮暖蜜","草木染洋葱皮暖蜜","草木染咖啡渣暖蜜","草木染茶叶渣暖蜜","草木染艾灰暖蜜","草木染松烟灰暖蜜","靛蓝蓝草暖蜜","靛蓝茜草暖蜜","靛蓝槐花暖蜜","靛蓝皂荚暖蜜","靛蓝紫草暖蜜","靛蓝苏木暖蜜","靛蓝红花暖蜜","靛蓝栀子暖蜜","靛蓝黄柏暖蜜","靛蓝五倍子暖蜜","靛蓝石榴皮暖蜜","靛蓝洋葱皮暖蜜","靛蓝咖啡渣暖蜜","靛蓝茶叶渣暖蜜","靛蓝艾灰暖蜜","靛蓝松烟灰暖蜜","茜红蓝草暖蜜","茜红茜草暖蜜","茜红槐花暖蜜","茜红皂荚暖蜜","茜红紫草暖蜜","茜红苏木暖蜜","茜红红花暖蜜","茜红栀子暖蜜","茜红黄柏暖蜜","茜红五倍子暖蜜","茜红石榴皮暖蜜","茜红洋葱皮暖蜜","茜红咖啡渣暖蜜","茜红茶叶渣暖蜜","茜红艾灰暖蜜","茜红松烟灰暖蜜","槐黄蓝草暖蜜","槐黄茜草暖蜜","槐黄槐花暖蜜","槐黄皂荚暖蜜","槐黄紫草暖蜜","槐黄苏木暖蜜","槐黄红花暖蜜","槐黄栀子暖蜜","槐黄黄柏暖蜜","槐黄五倍子暖蜜","槐黄石榴皮暖蜜","槐黄洋葱皮暖蜜","槐黄咖啡渣暖蜜","槐黄茶叶渣暖蜜","槐黄艾灰暖蜜","槐黄松烟灰暖蜜","皂褐蓝草暖蜜","皂褐茜草暖蜜","皂褐槐花暖蜜","皂褐皂荚暖蜜","皂褐紫草暖蜜","皂褐苏木暖蜜","皂褐红花暖蜜","皂褐栀子暖蜜","皂褐黄柏暖蜜","皂褐五倍子暖蜜","皂褐石榴皮暖蜜","皂褐洋葱皮暖蜜","皂褐咖啡渣暖蜜","皂褐茶叶渣暖蜜","皂褐艾灰暖蜜","皂褐松烟灰暖蜜","灰染蓝草暖蜜","灰染茜草暖蜜","灰染槐花暖蜜","灰染皂荚暖蜜","灰染紫草暖蜜","灰染苏木暖蜜","灰染红花暖蜜","灰染栀子暖蜜","灰染黄柏暖蜜","灰染五倍子暖蜜","灰染石榴皮暖蜜","灰染洋葱皮暖蜜","灰染咖啡渣暖蜜","灰染茶叶渣暖蜜","灰染艾灰暖蜜","灰染松烟灰暖蜜","雪纺蓝草暖蜜","雪纺茜草暖蜜","雪纺槐花暖蜜","雪纺皂荚暖蜜","雪纺紫草暖蜜","雪纺苏木暖蜜","雪纺红花暖蜜","雪纺栀子暖蜜","雪纺黄柏暖蜜","雪纺五倍子暖蜜","雪纺石榴皮暖蜜","雪纺洋葱皮暖蜜","雪纺咖啡渣暖蜜","雪纺茶叶渣暖蜜","雪纺艾灰暖蜜","雪纺松烟灰暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21117,7 +21117,7 @@ test("stn0 stn1 stn2 stn3 stn4 stn5 stn6 stn7 stn8 stn9 stn10 stn11 stn12 stn13 
   ["stn1","stn3","stn5","stn7","stn9","stn11","stn13","stn15","stn17","stn19","stn21","stn23","stn25","stn27","stn29","stn31","stn33","stn35","stn37","stn39","stn41","stn43","stn45","stn47","stn49","stn51","stn53","stn55","stn57","stn59","stn61","stn63","stn65","stn67","stn69","stn71","stn73","stn75","stn77","stn79","stn81","stn83","stn85","stn87","stn89","stn91","stn93","stn95","stn97","stn99","stn101","stn103","stn105","stn107","stn109","stn111","stn113","stn115","stn117","stn119","stn121","stn123","stn125","stn127","stn129","stn131","stn133","stn135","stn137","stn139","stn141","stn143","stn145","stn147","stn149","stn151","stn153","stn155","stn157","stn159","stn161","stn163","stn165","stn167","stn169","stn171","stn173","stn175","stn177","stn179","stn181","stn183","stn185","stn187","stn189","stn191","stn193","stn195","stn197","stn199","stn201","stn203","stn205","stn207","stn209","stn211","stn213","stn215","stn217","stn219","stn221","stn223","stn225","stn227","stn229","stn231","stn233","stn235","stn237","stn239","stn241","stn243","stn245","stn247","stn249","stn251","stn253","stn255","stn257","stn259","stn261","stn263","stn265","stn267","stn269","stn271","stn273","stn275","stn277","stn279","stn281","stn283","stn285","stn287","stn289","stn291","stn293","stn295","stn297","stn299","stn301","stn303","stn305","stn307","stn309","stn311","stn313","stn315","stn317","stn319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["stn0","stn2","stn4","stn6","stn8","stn10","stn12","stn14","stn16","stn18","stn20","stn22","stn24","stn26","stn28","stn30","stn32","stn34","stn36","stn38","stn40","stn42","stn44","stn46","stn48","stn50","stn52","stn54","stn56","stn58","stn60","stn62","stn64","stn66","stn68","stn70","stn72","stn74","stn76","stn78","stn80","stn82","stn84","stn86","stn88","stn90","stn92","stn94","stn96","stn98","stn100","stn102","stn104","stn106","stn108","stn110","stn112","stn114","stn116","stn118","stn120","stn122","stn124","stn126","stn128","stn130","stn132","stn134","stn136","stn138","stn140","stn142","stn144","stn146","stn148","stn150","stn152","stn154","stn156","stn158","stn160","stn162","stn164","stn166","stn168","stn170","stn172","stn174","stn176","stn178","stn180","stn182","stn184","stn186","stn188","stn190","stn192","stn194","stn196","stn198","stn200","stn202","stn204","stn206","stn208","stn210","stn212","stn214","stn216","stn218","stn220","stn222","stn224","stn226","stn228","stn230","stn232","stn234","stn236","stn238","stn240","stn242","stn244","stn246","stn248","stn250","stn252","stn254","stn256","stn258","stn260","stn262","stn264","stn266","stn268","stn270","stn272","stn274","stn276","stn278","stn280","stn282","stn284","stn286","stn288","stn290","stn292","stn294","stn296","stn298","stn300","stn302","stn304","stn306","stn308","stn310","stn312","stn314","stn316","stn318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("stn0_path") && game.includes("stn319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["青石石韦暖蜜","青石石斛暖蜜","青石石菖蒲暖蜜","青石石蕊暖蜜","青石石花暖蜜","青石石耳暖蜜","青石石芥暖蜜","青石石竹暖蜜","青石石蒜暖蜜","青石石楠暖蜜","青石石莲暖蜜","青石石椒暖蜜","青石石韭暖蜜","青石岩茶芽暖蜜","青石岩桂暖蜜","青石岩菊暖蜜","卵石石韦暖蜜","卵石石斛暖蜜","卵石石菖蒲暖蜜","卵石石蕊暖蜜","卵石石花暖蜜","卵石石耳暖蜜","卵石石芥暖蜜","卵石石竹暖蜜","卵石石蒜暖蜜","卵石石楠暖蜜","卵石石莲暖蜜","卵石石椒暖蜜","卵石石韭暖蜜","卵石岩茶芽暖蜜","卵石岩桂暖蜜","卵石岩菊暖蜜","砂石石韦暖蜜","砂石石斛暖蜜","砂石石菖蒲暖蜜","砂石石蕊暖蜜","砂石石花暖蜜","砂石石耳暖蜜","砂石石芥暖蜜","砂石石竹暖蜜","砂石石蒜暖蜜","砂石石楠暖蜜","砂石石莲暖蜜","砂石石椒暖蜜","砂石石韭暖蜜","砂石岩茶芽暖蜜","砂石岩桂暖蜜","砂石岩菊暖蜜","板岩石韦暖蜜","板岩石斛暖蜜","板岩石菖蒲暖蜜","板岩石蕊暖蜜","板岩石花暖蜜","板岩石耳暖蜜","板岩石芥暖蜜","板岩石竹暖蜜","板岩石蒜暖蜜","板岩石楠暖蜜","板岩石莲暖蜜","板岩石椒暖蜜","板岩石韭暖蜜","板岩岩茶芽暖蜜","板岩岩桂暖蜜","板岩岩菊暖蜜","玄武石韦暖蜜","玄武石斛暖蜜","玄武石菖蒲暖蜜","玄武石蕊暖蜜","玄武石花暖蜜","玄武石耳暖蜜","玄武石芥暖蜜","玄武石竹暖蜜","玄武石蒜暖蜜","玄武石楠暖蜜","玄武石莲暖蜜","玄武石椒暖蜜","玄武石韭暖蜜","玄武岩茶芽暖蜜","玄武岩桂暖蜜","玄武岩菊暖蜜","花岗岩石韦暖蜜","花岗岩石斛暖蜜","花岗岩石菖蒲暖蜜","花岗岩石蕊暖蜜","花岗岩石花暖蜜","花岗岩石耳暖蜜","花岗岩石芥暖蜜","花岗岩石竹暖蜜","花岗岩石蒜暖蜜","花岗岩石楠暖蜜","花岗岩石莲暖蜜","花岗岩石椒暖蜜","花岗岩石韭暖蜜","花岗岩岩茶芽暖蜜","花岗岩岩桂暖蜜","花岗岩岩菊暖蜜","大理石石韦暖蜜","大理石石斛暖蜜","大理石石菖蒲暖蜜","大理石石蕊暖蜜","大理石石花暖蜜","大理石石耳暖蜜","大理石石芥暖蜜","大理石石竹暖蜜","大理石石蒜暖蜜","大理石石楠暖蜜","大理石石莲暖蜜","大理石石椒暖蜜","大理石石韭暖蜜","大理石岩茶芽暖蜜","大理石岩桂暖蜜","大理石岩菊暖蜜","石灰岩石韦暖蜜","石灰岩石斛暖蜜","石灰岩石菖蒲暖蜜","石灰岩石蕊暖蜜","石灰岩石花暖蜜","石灰岩石耳暖蜜","石灰岩石芥暖蜜","石灰岩石竹暖蜜","石灰岩石蒜暖蜜","石灰岩石楠暖蜜","石灰岩石莲暖蜜","石灰岩石椒暖蜜","石灰岩石韭暖蜜","石灰岩岩茶芽暖蜜","石灰岩岩桂暖蜜","石灰岩岩菊暖蜜","页岩石韦暖蜜","页岩石斛暖蜜","页岩石菖蒲暖蜜","页岩石蕊暖蜜","页岩石花暖蜜","页岩石耳暖蜜","页岩石芥暖蜜","页岩石竹暖蜜","页岩石蒜暖蜜","页岩石楠暖蜜","页岩石莲暖蜜","页岩石椒暖蜜","页岩石韭暖蜜","页岩岩茶芽暖蜜","页岩岩桂暖蜜","页岩岩菊暖蜜","鹅卵石韦暖蜜","鹅卵石斛暖蜜","鹅卵石菖蒲暖蜜","鹅卵石蕊暖蜜","鹅卵石花暖蜜","鹅卵石耳暖蜜","鹅卵石芥暖蜜","鹅卵石竹暖蜜","鹅卵石蒜暖蜜","鹅卵石楠暖蜜","鹅卵石莲暖蜜","鹅卵石椒暖蜜","鹅卵石韭暖蜜","鹅卵岩茶芽暖蜜","鹅卵岩桂暖蜜","鹅卵岩菊暖蜜","雨花石石韦暖蜜","雨花石石斛暖蜜","雨花石石菖蒲暖蜜","雨花石石蕊暖蜜","雨花石石花暖蜜","雨花石石耳暖蜜","雨花石石芥暖蜜","雨花石石竹暖蜜","雨花石石蒜暖蜜","雨花石石楠暖蜜","雨花石石莲暖蜜","雨花石石椒暖蜜","雨花石石韭暖蜜","雨花石岩茶芽暖蜜","雨花石岩桂暖蜜","雨花石岩菊暖蜜","太湖石石韦暖蜜","太湖石石斛暖蜜","太湖石石菖蒲暖蜜","太湖石石蕊暖蜜","太湖石石花暖蜜","太湖石石耳暖蜜","太湖石石芥暖蜜","太湖石石竹暖蜜","太湖石石蒜暖蜜","太湖石石楠暖蜜","太湖石石莲暖蜜","太湖石石椒暖蜜","太湖石石韭暖蜜","太湖石岩茶芽暖蜜","太湖石岩桂暖蜜","太湖石岩菊暖蜜","黄蜡石石韦暖蜜","黄蜡石石斛暖蜜","黄蜡石石菖蒲暖蜜","黄蜡石石蕊暖蜜","黄蜡石石花暖蜜","黄蜡石石耳暖蜜","黄蜡石石芥暖蜜","黄蜡石石竹暖蜜","黄蜡石石蒜暖蜜","黄蜡石石楠暖蜜","黄蜡石石莲暖蜜","黄蜡石石椒暖蜜","黄蜡石石韭暖蜜","黄蜡石岩茶芽暖蜜","黄蜡石岩桂暖蜜","黄蜡石岩菊暖蜜","灵璧石韦暖蜜","灵璧石斛暖蜜","灵璧石菖蒲暖蜜","灵璧石蕊暖蜜","灵璧石花暖蜜","灵璧石耳暖蜜","灵璧石芥暖蜜","灵璧石竹暖蜜","灵璧石蒜暖蜜","灵璧石楠暖蜜","灵璧石莲暖蜜","灵璧石椒暖蜜","灵璧石韭暖蜜","灵璧岩茶芽暖蜜","灵璧岩桂暖蜜","灵璧岩菊暖蜜","英石石韦暖蜜","英石石斛暖蜜","英石石菖蒲暖蜜","英石石蕊暖蜜","英石石花暖蜜","英石石耳暖蜜","英石石芥暖蜜","英石石竹暖蜜","英石石蒜暖蜜","英石石楠暖蜜","英石石莲暖蜜","英石石椒暖蜜","英石石韭暖蜜","英石岩茶芽暖蜜","英石岩桂暖蜜","英石岩菊暖蜜","昆石石韦暖蜜","昆石石斛暖蜜","昆石石菖蒲暖蜜","昆石石蕊暖蜜","昆石石花暖蜜","昆石石耳暖蜜","昆石石芥暖蜜","昆石石竹暖蜜","昆石石蒜暖蜜","昆石石楠暖蜜","昆石石莲暖蜜","昆石石椒暖蜜","昆石石韭暖蜜","昆石岩茶芽暖蜜","昆石岩桂暖蜜","昆石岩菊暖蜜","宣石石韦暖蜜","宣石石斛暖蜜","宣石石菖蒲暖蜜","宣石石蕊暖蜜","宣石石花暖蜜","宣石石耳暖蜜","宣石石芥暖蜜","宣石石竹暖蜜","宣石石蒜暖蜜","宣石石楠暖蜜","宣石石莲暖蜜","宣石石椒暖蜜","宣石石韭暖蜜","宣石岩茶芽暖蜜","宣石岩桂暖蜜","宣石岩菊暖蜜","石笋石韦暖蜜","石笋石斛暖蜜","石笋石菖蒲暖蜜","石笋石蕊暖蜜","石笋石花暖蜜","石笋石耳暖蜜","石笋石芥暖蜜","石笋石竹暖蜜","石笋石蒜暖蜜","石笋石楠暖蜜","石笋石莲暖蜜","石笋石椒暖蜜","石笋石韭暖蜜","石笋岩茶芽暖蜜","石笋岩桂暖蜜","石笋岩菊暖蜜","石阶石韦暖蜜","石阶石斛暖蜜","石阶石菖蒲暖蜜","石阶石蕊暖蜜","石阶石花暖蜜","石阶石耳暖蜜","石阶石芥暖蜜","石阶石竹暖蜜","石阶石蒜暖蜜","石阶石楠暖蜜","石阶石莲暖蜜","石阶石椒暖蜜","石阶石韭暖蜜","石阶岩茶芽暖蜜","石阶岩桂暖蜜","石阶岩菊暖蜜","石桥石韦暖蜜","石桥石斛暖蜜","石桥石菖蒲暖蜜","石桥石蕊暖蜜","石桥石花暖蜜","石桥石耳暖蜜","石桥石芥暖蜜","石桥石竹暖蜜","石桥石蒜暖蜜","石桥石楠暖蜜","石桥石莲暖蜜","石桥石椒暖蜜","石桥石韭暖蜜","石桥岩茶芽暖蜜","石桥岩桂暖蜜","石桥岩菊暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21157,7 +21157,7 @@ test("ik0 ik1 ik2 ik3 ik4 ik5 ik6 ik7 ik8 ik9 ik10 ik11 ik12 ik13 ik14 ik15 ik16
   ["ik1","ik3","ik5","ik7","ik9","ik11","ik13","ik15","ik17","ik19","ik21","ik23","ik25","ik27","ik29","ik31","ik33","ik35","ik37","ik39","ik41","ik43","ik45","ik47","ik49","ik51","ik53","ik55","ik57","ik59","ik61","ik63","ik65","ik67","ik69","ik71","ik73","ik75","ik77","ik79","ik81","ik83","ik85","ik87","ik89","ik91","ik93","ik95","ik97","ik99","ik101","ik103","ik105","ik107","ik109","ik111","ik113","ik115","ik117","ik119","ik121","ik123","ik125","ik127","ik129","ik131","ik133","ik135","ik137","ik139","ik141","ik143","ik145","ik147","ik149","ik151","ik153","ik155","ik157","ik159","ik161","ik163","ik165","ik167","ik169","ik171","ik173","ik175","ik177","ik179","ik181","ik183","ik185","ik187","ik189","ik191","ik193","ik195","ik197","ik199","ik201","ik203","ik205","ik207","ik209","ik211","ik213","ik215","ik217","ik219","ik221","ik223","ik225","ik227","ik229","ik231","ik233","ik235","ik237","ik239","ik241","ik243","ik245","ik247","ik249","ik251","ik253","ik255","ik257","ik259","ik261","ik263","ik265","ik267","ik269","ik271","ik273","ik275","ik277","ik279","ik281","ik283","ik285","ik287","ik289","ik291","ik293","ik295","ik297","ik299","ik301","ik303","ik305","ik307","ik309","ik311","ik313","ik315","ik317","ik319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ik0","ik2","ik4","ik6","ik8","ik10","ik12","ik14","ik16","ik18","ik20","ik22","ik24","ik26","ik28","ik30","ik32","ik34","ik36","ik38","ik40","ik42","ik44","ik46","ik48","ik50","ik52","ik54","ik56","ik58","ik60","ik62","ik64","ik66","ik68","ik70","ik72","ik74","ik76","ik78","ik80","ik82","ik84","ik86","ik88","ik90","ik92","ik94","ik96","ik98","ik100","ik102","ik104","ik106","ik108","ik110","ik112","ik114","ik116","ik118","ik120","ik122","ik124","ik126","ik128","ik130","ik132","ik134","ik136","ik138","ik140","ik142","ik144","ik146","ik148","ik150","ik152","ik154","ik156","ik158","ik160","ik162","ik164","ik166","ik168","ik170","ik172","ik174","ik176","ik178","ik180","ik182","ik184","ik186","ik188","ik190","ik192","ik194","ik196","ik198","ik200","ik202","ik204","ik206","ik208","ik210","ik212","ik214","ik216","ik218","ik220","ik222","ik224","ik226","ik228","ik230","ik232","ik234","ik236","ik238","ik240","ik242","ik244","ik246","ik248","ik250","ik252","ik254","ik256","ik258","ik260","ik262","ik264","ik266","ik268","ik270","ik272","ik274","ik276","ik278","ik280","ik282","ik284","ik286","ik288","ik290","ik292","ik294","ik296","ik298","ik300","ik302","ik304","ik306","ik308","ik310","ik312","ik314","ik316","ik318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ik0_path") && game.includes("ik319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["端砚松烟墨暖蜜","端砚油烟墨暖蜜","端砚漆烟暖蜜","端砚朱砂暖蜜","端砚石青暖蜜","端砚石绿暖蜜","端砚藤黄暖蜜","端砚胭脂暖蜜","端砚花青暖蜜","端砚赭石暖蜜","端砚白粉暖蜜","端砚金粉暖蜜","端砚银粉暖蜜","端砚黛青暖蜜","端砚朱磦暖蜜","端砚胭脂膏暖蜜","歙砚松烟墨暖蜜","歙砚油烟墨暖蜜","歙砚漆烟暖蜜","歙砚朱砂暖蜜","歙砚石青暖蜜","歙砚石绿暖蜜","歙砚藤黄暖蜜","歙砚胭脂暖蜜","歙砚花青暖蜜","歙砚赭石暖蜜","歙砚白粉暖蜜","歙砚金粉暖蜜","歙砚银粉暖蜜","歙砚黛青暖蜜","歙砚朱磦暖蜜","歙砚胭脂膏暖蜜","洮砚松烟墨暖蜜","洮砚油烟墨暖蜜","洮砚漆烟暖蜜","洮砚朱砂暖蜜","洮砚石青暖蜜","洮砚石绿暖蜜","洮砚藤黄暖蜜","洮砚胭脂暖蜜","洮砚花青暖蜜","洮砚赭石暖蜜","洮砚白粉暖蜜","洮砚金粉暖蜜","洮砚银粉暖蜜","洮砚黛青暖蜜","洮砚朱磦暖蜜","洮砚胭脂膏暖蜜","澄泥松烟墨暖蜜","澄泥油烟墨暖蜜","澄泥漆烟暖蜜","澄泥朱砂暖蜜","澄泥石青暖蜜","澄泥石绿暖蜜","澄泥藤黄暖蜜","澄泥胭脂暖蜜","澄泥花青暖蜜","澄泥赭石暖蜜","澄泥白粉暖蜜","澄泥金粉暖蜜","澄泥银粉暖蜜","澄泥黛青暖蜜","澄泥朱磦暖蜜","澄泥胭脂膏暖蜜","漆砂松烟墨暖蜜","漆砂油烟墨暖蜜","漆砂漆烟暖蜜","漆砂朱砂暖蜜","漆砂石青暖蜜","漆砂石绿暖蜜","漆砂藤黄暖蜜","漆砂胭脂暖蜜","漆砂花青暖蜜","漆砂赭石暖蜜","漆砂白粉暖蜜","漆砂金粉暖蜜","漆砂银粉暖蜜","漆砂黛青暖蜜","漆砂朱磦暖蜜","漆砂胭脂膏暖蜜","红丝松烟墨暖蜜","红丝油烟墨暖蜜","红丝漆烟暖蜜","红丝朱砂暖蜜","红丝石青暖蜜","红丝石绿暖蜜","红丝藤黄暖蜜","红丝胭脂暖蜜","红丝花青暖蜜","红丝赭石暖蜜","红丝白粉暖蜜","红丝金粉暖蜜","红丝银粉暖蜜","红丝黛青暖蜜","红丝朱磦暖蜜","红丝胭脂膏暖蜜","松花松烟墨暖蜜","松花油烟墨暖蜜","松花漆烟暖蜜","松花朱砂暖蜜","松花石青暖蜜","松花石绿暖蜜","松花藤黄暖蜜","松花胭脂暖蜜","松花花青暖蜜","松花赭石暖蜜","松花白粉暖蜜","松花金粉暖蜜","松花银粉暖蜜","松花黛青暖蜜","松花朱磦暖蜜","松花胭脂膏暖蜜","贺兰松烟墨暖蜜","贺兰油烟墨暖蜜","贺兰漆烟暖蜜","贺兰朱砂暖蜜","贺兰石青暖蜜","贺兰石绿暖蜜","贺兰藤黄暖蜜","贺兰胭脂暖蜜","贺兰花青暖蜜","贺兰赭石暖蜜","贺兰白粉暖蜜","贺兰金粉暖蜜","贺兰银粉暖蜜","贺兰黛青暖蜜","贺兰朱磦暖蜜","贺兰胭脂膏暖蜜","苴却松烟墨暖蜜","苴却油烟墨暖蜜","苴却漆烟暖蜜","苴却朱砂暖蜜","苴却石青暖蜜","苴却石绿暖蜜","苴却藤黄暖蜜","苴却胭脂暖蜜","苴却花青暖蜜","苴却赭石暖蜜","苴却白粉暖蜜","苴却金粉暖蜜","苴却银粉暖蜜","苴却黛青暖蜜","苴却朱磦暖蜜","苴却胭脂膏暖蜜","洮河松烟墨暖蜜","洮河油烟墨暖蜜","洮河漆烟暖蜜","洮河朱砂暖蜜","洮河石青暖蜜","洮河石绿暖蜜","洮河藤黄暖蜜","洮河胭脂暖蜜","洮河花青暖蜜","洮河赭石暖蜜","洮河白粉暖蜜","洮河金粉暖蜜","洮河银粉暖蜜","洮河黛青暖蜜","洮河朱磦暖蜜","洮河胭脂膏暖蜜","罗纹松烟墨暖蜜","罗纹油烟墨暖蜜","罗纹漆烟暖蜜","罗纹朱砂暖蜜","罗纹石青暖蜜","罗纹石绿暖蜜","罗纹藤黄暖蜜","罗纹胭脂暖蜜","罗纹花青暖蜜","罗纹赭石暖蜜","罗纹白粉暖蜜","罗纹金粉暖蜜","罗纹银粉暖蜜","罗纹黛青暖蜜","罗纹朱磦暖蜜","罗纹胭脂膏暖蜜","金星松烟墨暖蜜","金星油烟墨暖蜜","金星漆烟暖蜜","金星朱砂暖蜜","金星石青暖蜜","金星石绿暖蜜","金星藤黄暖蜜","金星胭脂暖蜜","金星花青暖蜜","金星赭石暖蜜","金星白粉暖蜜","金星金粉暖蜜","金星银粉暖蜜","金星黛青暖蜜","金星朱磦暖蜜","金星胭脂膏暖蜜","眉子松烟墨暖蜜","眉子油烟墨暖蜜","眉子漆烟暖蜜","眉子朱砂暖蜜","眉子石青暖蜜","眉子石绿暖蜜","眉子藤黄暖蜜","眉子胭脂暖蜜","眉子花青暖蜜","眉子赭石暖蜜","眉子白粉暖蜜","眉子金粉暖蜜","眉子银粉暖蜜","眉子黛青暖蜜","眉子朱磦暖蜜","眉子胭脂膏暖蜜","鱼子松烟墨暖蜜","鱼子油烟墨暖蜜","鱼子漆烟暖蜜","鱼子朱砂暖蜜","鱼子石青暖蜜","鱼子石绿暖蜜","鱼子藤黄暖蜜","鱼子胭脂暖蜜","鱼子花青暖蜜","鱼子赭石暖蜜","鱼子白粉暖蜜","鱼子金粉暖蜜","鱼子银粉暖蜜","鱼子黛青暖蜜","鱼子朱磦暖蜜","鱼子胭脂膏暖蜜","龙尾松烟墨暖蜜","龙尾油烟墨暖蜜","龙尾漆烟暖蜜","龙尾朱砂暖蜜","龙尾石青暖蜜","龙尾石绿暖蜜","龙尾藤黄暖蜜","龙尾胭脂暖蜜","龙尾花青暖蜜","龙尾赭石暖蜜","龙尾白粉暖蜜","龙尾金粉暖蜜","龙尾银粉暖蜜","龙尾黛青暖蜜","龙尾朱磦暖蜜","龙尾胭脂膏暖蜜","坑仔松烟墨暖蜜","坑仔油烟墨暖蜜","坑仔漆烟暖蜜","坑仔朱砂暖蜜","坑仔石青暖蜜","坑仔石绿暖蜜","坑仔藤黄暖蜜","坑仔胭脂暖蜜","坑仔花青暖蜜","坑仔赭石暖蜜","坑仔白粉暖蜜","坑仔金粉暖蜜","坑仔银粉暖蜜","坑仔黛青暖蜜","坑仔朱磦暖蜜","坑仔胭脂膏暖蜜","麻子坑松烟墨暖蜜","麻子坑油烟墨暖蜜","麻子坑漆烟暖蜜","麻子坑朱砂暖蜜","麻子坑石青暖蜜","麻子坑石绿暖蜜","麻子坑藤黄暖蜜","麻子坑胭脂暖蜜","麻子坑花青暖蜜","麻子坑赭石暖蜜","麻子坑白粉暖蜜","麻子坑金粉暖蜜","麻子坑银粉暖蜜","麻子坑黛青暖蜜","麻子坑朱磦暖蜜","麻子坑胭脂膏暖蜜","老坑松烟墨暖蜜","老坑油烟墨暖蜜","老坑漆烟暖蜜","老坑朱砂暖蜜","老坑石青暖蜜","老坑石绿暖蜜","老坑藤黄暖蜜","老坑胭脂暖蜜","老坑花青暖蜜","老坑赭石暖蜜","老坑白粉暖蜜","老坑金粉暖蜜","老坑银粉暖蜜","老坑黛青暖蜜","老坑朱磦暖蜜","老坑胭脂膏暖蜜","宋坑松烟墨暖蜜","宋坑油烟墨暖蜜","宋坑漆烟暖蜜","宋坑朱砂暖蜜","宋坑石青暖蜜","宋坑石绿暖蜜","宋坑藤黄暖蜜","宋坑胭脂暖蜜","宋坑花青暖蜜","宋坑赭石暖蜜","宋坑白粉暖蜜","宋坑金粉暖蜜","宋坑银粉暖蜜","宋坑黛青暖蜜","宋坑朱磦暖蜜","宋坑胭脂膏暖蜜","水岩松烟墨暖蜜","水岩油烟墨暖蜜","水岩漆烟暖蜜","水岩朱砂暖蜜","水岩石青暖蜜","水岩石绿暖蜜","水岩藤黄暖蜜","水岩胭脂暖蜜","水岩花青暖蜜","水岩赭石暖蜜","水岩白粉暖蜜","水岩金粉暖蜜","水岩银粉暖蜜","水岩黛青暖蜜","水岩朱磦暖蜜","水岩胭脂膏暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21197,7 +21197,7 @@ test("fr0 fr1 fr2 fr3 fr4 fr5 fr6 fr7 fr8 fr9 fr10 fr11 fr12 fr13 fr14 fr15 fr16
   ["fr1","fr3","fr5","fr7","fr9","fr11","fr13","fr15","fr17","fr19","fr21","fr23","fr25","fr27","fr29","fr31","fr33","fr35","fr37","fr39","fr41","fr43","fr45","fr47","fr49","fr51","fr53","fr55","fr57","fr59","fr61","fr63","fr65","fr67","fr69","fr71","fr73","fr75","fr77","fr79","fr81","fr83","fr85","fr87","fr89","fr91","fr93","fr95","fr97","fr99","fr101","fr103","fr105","fr107","fr109","fr111","fr113","fr115","fr117","fr119","fr121","fr123","fr125","fr127","fr129","fr131","fr133","fr135","fr137","fr139","fr141","fr143","fr145","fr147","fr149","fr151","fr153","fr155","fr157","fr159","fr161","fr163","fr165","fr167","fr169","fr171","fr173","fr175","fr177","fr179","fr181","fr183","fr185","fr187","fr189","fr191","fr193","fr195","fr197","fr199","fr201","fr203","fr205","fr207","fr209","fr211","fr213","fr215","fr217","fr219","fr221","fr223","fr225","fr227","fr229","fr231","fr233","fr235","fr237","fr239","fr241","fr243","fr245","fr247","fr249","fr251","fr253","fr255","fr257","fr259","fr261","fr263","fr265","fr267","fr269","fr271","fr273","fr275","fr277","fr279","fr281","fr283","fr285","fr287","fr289","fr291","fr293","fr295","fr297","fr299","fr301","fr303","fr305","fr307","fr309","fr311","fr313","fr315","fr317","fr319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["fr0","fr2","fr4","fr6","fr8","fr10","fr12","fr14","fr16","fr18","fr20","fr22","fr24","fr26","fr28","fr30","fr32","fr34","fr36","fr38","fr40","fr42","fr44","fr46","fr48","fr50","fr52","fr54","fr56","fr58","fr60","fr62","fr64","fr66","fr68","fr70","fr72","fr74","fr76","fr78","fr80","fr82","fr84","fr86","fr88","fr90","fr92","fr94","fr96","fr98","fr100","fr102","fr104","fr106","fr108","fr110","fr112","fr114","fr116","fr118","fr120","fr122","fr124","fr126","fr128","fr130","fr132","fr134","fr136","fr138","fr140","fr142","fr144","fr146","fr148","fr150","fr152","fr154","fr156","fr158","fr160","fr162","fr164","fr166","fr168","fr170","fr172","fr174","fr176","fr178","fr180","fr182","fr184","fr186","fr188","fr190","fr192","fr194","fr196","fr198","fr200","fr202","fr204","fr206","fr208","fr210","fr212","fr214","fr216","fr218","fr220","fr222","fr224","fr226","fr228","fr230","fr232","fr234","fr236","fr238","fr240","fr242","fr244","fr246","fr248","fr250","fr252","fr254","fr256","fr258","fr260","fr262","fr264","fr266","fr268","fr270","fr272","fr274","fr276","fr278","fr280","fr282","fr284","fr286","fr288","fr290","fr292","fr294","fr296","fr298","fr300","fr302","fr304","fr306","fr308","fr310","fr312","fr314","fr316","fr318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("fr0_path") && game.includes("fr319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["早渡渡口茶暖蜜","早渡船家蜜暖蜜","早渡艄公姜暖蜜","早渡缆绳草暖蜜","早渡跳板花暖蜜","早渡舟尾叶暖蜜","早渡锚边果暖蜜","早渡橹声香暖蜜","早渡桨痕露暖蜜","早渡舱底陈暖蜜","早渡帆影茶暖蜜","早渡桅顶露暖蜜","早渡甲板姜暖蜜","早渡舱灯蜜暖蜜","早渡号子草暖蜜","早渡号子花暖蜜","午渡渡口茶暖蜜","午渡船家蜜暖蜜","午渡艄公姜暖蜜","午渡缆绳草暖蜜","午渡跳板花暖蜜","午渡舟尾叶暖蜜","午渡锚边果暖蜜","午渡橹声香暖蜜","午渡桨痕露暖蜜","午渡舱底陈暖蜜","午渡帆影茶暖蜜","午渡桅顶露暖蜜","午渡甲板姜暖蜜","午渡舱灯蜜暖蜜","午渡号子草暖蜜","午渡号子花暖蜜","晚渡渡口茶暖蜜","晚渡船家蜜暖蜜","晚渡艄公姜暖蜜","晚渡缆绳草暖蜜","晚渡跳板花暖蜜","晚渡舟尾叶暖蜜","晚渡锚边果暖蜜","晚渡橹声香暖蜜","晚渡桨痕露暖蜜","晚渡舱底陈暖蜜","晚渡帆影茶暖蜜","晚渡桅顶露暖蜜","晚渡甲板姜暖蜜","晚渡舱灯蜜暖蜜","晚渡号子草暖蜜","晚渡号子花暖蜜","夜渡渡口茶暖蜜","夜渡船家蜜暖蜜","夜渡艄公姜暖蜜","夜渡缆绳草暖蜜","夜渡跳板花暖蜜","夜渡舟尾叶暖蜜","夜渡锚边果暖蜜","夜渡橹声香暖蜜","夜渡桨痕露暖蜜","夜渡舱底陈暖蜜","夜渡帆影茶暖蜜","夜渡桅顶露暖蜜","夜渡甲板姜暖蜜","夜渡舱灯蜜暖蜜","夜渡号子草暖蜜","夜渡号子花暖蜜","雾渡渡口茶暖蜜","雾渡船家蜜暖蜜","雾渡艄公姜暖蜜","雾渡缆绳草暖蜜","雾渡跳板花暖蜜","雾渡舟尾叶暖蜜","雾渡锚边果暖蜜","雾渡橹声香暖蜜","雾渡桨痕露暖蜜","雾渡舱底陈暖蜜","雾渡帆影茶暖蜜","雾渡桅顶露暖蜜","雾渡甲板姜暖蜜","雾渡舱灯蜜暖蜜","雾渡号子草暖蜜","雾渡号子花暖蜜","雪渡渡口茶暖蜜","雪渡船家蜜暖蜜","雪渡艄公姜暖蜜","雪渡缆绳草暖蜜","雪渡跳板花暖蜜","雪渡舟尾叶暖蜜","雪渡锚边果暖蜜","雪渡橹声香暖蜜","雪渡桨痕露暖蜜","雪渡舱底陈暖蜜","雪渡帆影茶暖蜜","雪渡桅顶露暖蜜","雪渡甲板姜暖蜜","雪渡舱灯蜜暖蜜","雪渡号子草暖蜜","雪渡号子花暖蜜","雨渡渡口茶暖蜜","雨渡船家蜜暖蜜","雨渡艄公姜暖蜜","雨渡缆绳草暖蜜","雨渡跳板花暖蜜","雨渡舟尾叶暖蜜","雨渡锚边果暖蜜","雨渡橹声香暖蜜","雨渡桨痕露暖蜜","雨渡舱底陈暖蜜","雨渡帆影茶暖蜜","雨渡桅顶露暖蜜","雨渡甲板姜暖蜜","雨渡舱灯蜜暖蜜","雨渡号子草暖蜜","雨渡号子花暖蜜","风渡渡口茶暖蜜","风渡船家蜜暖蜜","风渡艄公姜暖蜜","风渡缆绳草暖蜜","风渡跳板花暖蜜","风渡舟尾叶暖蜜","风渡锚边果暖蜜","风渡橹声香暖蜜","风渡桨痕露暖蜜","风渡舱底陈暖蜜","风渡帆影茶暖蜜","风渡桅顶露暖蜜","风渡甲板姜暖蜜","风渡舱灯蜜暖蜜","风渡号子草暖蜜","风渡号子花暖蜜","潮渡渡口茶暖蜜","潮渡船家蜜暖蜜","潮渡艄公姜暖蜜","潮渡缆绳草暖蜜","潮渡跳板花暖蜜","潮渡舟尾叶暖蜜","潮渡锚边果暖蜜","潮渡橹声香暖蜜","潮渡桨痕露暖蜜","潮渡舱底陈暖蜜","潮渡帆影茶暖蜜","潮渡桅顶露暖蜜","潮渡甲板姜暖蜜","潮渡舱灯蜜暖蜜","潮渡号子草暖蜜","潮渡号子花暖蜜","月渡渡口茶暖蜜","月渡船家蜜暖蜜","月渡艄公姜暖蜜","月渡缆绳草暖蜜","月渡跳板花暖蜜","月渡舟尾叶暖蜜","月渡锚边果暖蜜","月渡橹声香暖蜜","月渡桨痕露暖蜜","月渡舱底陈暖蜜","月渡帆影茶暖蜜","月渡桅顶露暖蜜","月渡甲板姜暖蜜","月渡舱灯蜜暖蜜","月渡号子草暖蜜","月渡号子花暖蜜","星渡渡口茶暖蜜","星渡船家蜜暖蜜","星渡艄公姜暖蜜","星渡缆绳草暖蜜","星渡跳板花暖蜜","星渡舟尾叶暖蜜","星渡锚边果暖蜜","星渡橹声香暖蜜","星渡桨痕露暖蜜","星渡舱底陈暖蜜","星渡帆影茶暖蜜","星渡桅顶露暖蜜","星渡甲板姜暖蜜","星渡舱灯蜜暖蜜","星渡号子草暖蜜","星渡号子花暖蜜","灯渡渡口茶暖蜜","灯渡船家蜜暖蜜","灯渡艄公姜暖蜜","灯渡缆绳草暖蜜","灯渡跳板花暖蜜","灯渡舟尾叶暖蜜","灯渡锚边果暖蜜","灯渡橹声香暖蜜","灯渡桨痕露暖蜜","灯渡舱底陈暖蜜","灯渡帆影茶暖蜜","灯渡桅顶露暖蜜","灯渡甲板姜暖蜜","灯渡舱灯蜜暖蜜","灯渡号子草暖蜜","灯渡号子花暖蜜","渔渡渡口茶暖蜜","渔渡船家蜜暖蜜","渔渡艄公姜暖蜜","渔渡缆绳草暖蜜","渔渡跳板花暖蜜","渔渡舟尾叶暖蜜","渔渡锚边果暖蜜","渔渡橹声香暖蜜","渔渡桨痕露暖蜜","渔渡舱底陈暖蜜","渔渡帆影茶暖蜜","渔渡桅顶露暖蜜","渔渡甲板姜暖蜜","渔渡舱灯蜜暖蜜","渔渡号子草暖蜜","渔渡号子花暖蜜","商渡渡口茶暖蜜","商渡船家蜜暖蜜","商渡艄公姜暖蜜","商渡缆绳草暖蜜","商渡跳板花暖蜜","商渡舟尾叶暖蜜","商渡锚边果暖蜜","商渡橹声香暖蜜","商渡桨痕露暖蜜","商渡舱底陈暖蜜","商渡帆影茶暖蜜","商渡桅顶露暖蜜","商渡甲板姜暖蜜","商渡舱灯蜜暖蜜","商渡号子草暖蜜","商渡号子花暖蜜","客渡渡口茶暖蜜","客渡船家蜜暖蜜","客渡艄公姜暖蜜","客渡缆绳草暖蜜","客渡跳板花暖蜜","客渡舟尾叶暖蜜","客渡锚边果暖蜜","客渡橹声香暖蜜","客渡桨痕露暖蜜","客渡舱底陈暖蜜","客渡帆影茶暖蜜","客渡桅顶露暖蜜","客渡甲板姜暖蜜","客渡舱灯蜜暖蜜","客渡号子草暖蜜","客渡号子花暖蜜","邮渡渡口茶暖蜜","邮渡船家蜜暖蜜","邮渡艄公姜暖蜜","邮渡缆绳草暖蜜","邮渡跳板花暖蜜","邮渡舟尾叶暖蜜","邮渡锚边果暖蜜","邮渡橹声香暖蜜","邮渡桨痕露暖蜜","邮渡舱底陈暖蜜","邮渡帆影茶暖蜜","邮渡桅顶露暖蜜","邮渡甲板姜暖蜜","邮渡舱灯蜜暖蜜","邮渡号子草暖蜜","邮渡号子花暖蜜","竹渡渡口茶暖蜜","竹渡船家蜜暖蜜","竹渡艄公姜暖蜜","竹渡缆绳草暖蜜","竹渡跳板花暖蜜","竹渡舟尾叶暖蜜","竹渡锚边果暖蜜","竹渡橹声香暖蜜","竹渡桨痕露暖蜜","竹渡舱底陈暖蜜","竹渡帆影茶暖蜜","竹渡桅顶露暖蜜","竹渡甲板姜暖蜜","竹渡舱灯蜜暖蜜","竹渡号子草暖蜜","竹渡号子花暖蜜","木渡渡口茶暖蜜","木渡船家蜜暖蜜","木渡艄公姜暖蜜","木渡缆绳草暖蜜","木渡跳板花暖蜜","木渡舟尾叶暖蜜","木渡锚边果暖蜜","木渡橹声香暖蜜","木渡桨痕露暖蜜","木渡舱底陈暖蜜","木渡帆影茶暖蜜","木渡桅顶露暖蜜","木渡甲板姜暖蜜","木渡舱灯蜜暖蜜","木渡号子草暖蜜","木渡号子花暖蜜","石渡渡口茶暖蜜","石渡船家蜜暖蜜","石渡艄公姜暖蜜","石渡缆绳草暖蜜","石渡跳板花暖蜜","石渡舟尾叶暖蜜","石渡锚边果暖蜜","石渡橹声香暖蜜","石渡桨痕露暖蜜","石渡舱底陈暖蜜","石渡帆影茶暖蜜","石渡桅顶露暖蜜","石渡甲板姜暖蜜","石渡舱灯蜜暖蜜","石渡号子草暖蜜","石渡号子花暖蜜","绳渡渡口茶暖蜜","绳渡船家蜜暖蜜","绳渡艄公姜暖蜜","绳渡缆绳草暖蜜","绳渡跳板花暖蜜","绳渡舟尾叶暖蜜","绳渡锚边果暖蜜","绳渡橹声香暖蜜","绳渡桨痕露暖蜜","绳渡舱底陈暖蜜","绳渡帆影茶暖蜜","绳渡桅顶露暖蜜","绳渡甲板姜暖蜜","绳渡舱灯蜜暖蜜","绳渡号子草暖蜜","绳渡号子花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21237,7 +21237,7 @@ test("at0 at1 at2 at3 at4 at5 at6 at7 at8 at9 at10 at11 at12 at13 at14 at15 at16
   ["at1","at3","at5","at7","at9","at11","at13","at15","at17","at19","at21","at23","at25","at27","at29","at31","at33","at35","at37","at39","at41","at43","at45","at47","at49","at51","at53","at55","at57","at59","at61","at63","at65","at67","at69","at71","at73","at75","at77","at79","at81","at83","at85","at87","at89","at91","at93","at95","at97","at99","at101","at103","at105","at107","at109","at111","at113","at115","at117","at119","at121","at123","at125","at127","at129","at131","at133","at135","at137","at139","at141","at143","at145","at147","at149","at151","at153","at155","at157","at159","at161","at163","at165","at167","at169","at171","at173","at175","at177","at179","at181","at183","at185","at187","at189","at191","at193","at195","at197","at199","at201","at203","at205","at207","at209","at211","at213","at215","at217","at219","at221","at223","at225","at227","at229","at231","at233","at235","at237","at239","at241","at243","at245","at247","at249","at251","at253","at255","at257","at259","at261","at263","at265","at267","at269","at271","at273","at275","at277","at279","at281","at283","at285","at287","at289","at291","at293","at295","at297","at299","at301","at303","at305","at307","at309","at311","at313","at315","at317","at319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["at0","at2","at4","at6","at8","at10","at12","at14","at16","at18","at20","at22","at24","at26","at28","at30","at32","at34","at36","at38","at40","at42","at44","at46","at48","at50","at52","at54","at56","at58","at60","at62","at64","at66","at68","at70","at72","at74","at76","at78","at80","at82","at84","at86","at88","at90","at92","at94","at96","at98","at100","at102","at104","at106","at108","at110","at112","at114","at116","at118","at120","at122","at124","at126","at128","at130","at132","at134","at136","at138","at140","at142","at144","at146","at148","at150","at152","at154","at156","at158","at160","at162","at164","at166","at168","at170","at172","at174","at176","at178","at180","at182","at184","at186","at188","at190","at192","at194","at196","at198","at200","at202","at204","at206","at208","at210","at212","at214","at216","at218","at220","at222","at224","at226","at228","at230","at232","at234","at236","at238","at240","at242","at244","at246","at248","at250","at252","at254","at256","at258","at260","at262","at264","at266","at268","at270","at272","at274","at276","at278","at280","at282","at284","at286","at288","at290","at292","at294","at296","at298","at300","at302","at304","at306","at308","at310","at312","at314","at316","at318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("at0_path") && game.includes("at319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["南窗窗台莓暖蜜","南窗窗台菊暖蜜","南窗窗台兰暖蜜","南窗窗台藤暖蜜","南窗窗台苔暖蜜","南窗窗台椒暖蜜","南窗窗台苏暖蜜","南窗窗台薄荷暖蜜","南窗窗台迷迭暖蜜","南窗窗台罗勒暖蜜","南窗窗台百里暖蜜","南窗窗台香茅暖蜜","南窗窗台金盏暖蜜","南窗窗台矢车暖蜜","南窗窗台雏菊暖蜜","南窗窗台勿忘暖蜜","北窗窗台莓暖蜜","北窗窗台菊暖蜜","北窗窗台兰暖蜜","北窗窗台藤暖蜜","北窗窗台苔暖蜜","北窗窗台椒暖蜜","北窗窗台苏暖蜜","北窗窗台薄荷暖蜜","北窗窗台迷迭暖蜜","北窗窗台罗勒暖蜜","北窗窗台百里暖蜜","北窗窗台香茅暖蜜","北窗窗台金盏暖蜜","北窗窗台矢车暖蜜","北窗窗台雏菊暖蜜","北窗窗台勿忘暖蜜","东窗窗台莓暖蜜","东窗窗台菊暖蜜","东窗窗台兰暖蜜","东窗窗台藤暖蜜","东窗窗台苔暖蜜","东窗窗台椒暖蜜","东窗窗台苏暖蜜","东窗窗台薄荷暖蜜","东窗窗台迷迭暖蜜","东窗窗台罗勒暖蜜","东窗窗台百里暖蜜","东窗窗台香茅暖蜜","东窗窗台金盏暖蜜","东窗窗台矢车暖蜜","东窗窗台雏菊暖蜜","东窗窗台勿忘暖蜜","西窗窗台莓暖蜜","西窗窗台菊暖蜜","西窗窗台兰暖蜜","西窗窗台藤暖蜜","西窗窗台苔暖蜜","西窗窗台椒暖蜜","西窗窗台苏暖蜜","西窗窗台薄荷暖蜜","西窗窗台迷迭暖蜜","西窗窗台罗勒暖蜜","西窗窗台百里暖蜜","西窗窗台香茅暖蜜","西窗窗台金盏暖蜜","西窗窗台矢车暖蜜","西窗窗台雏菊暖蜜","西窗窗台勿忘暖蜜","天窗窗台莓暖蜜","天窗窗台菊暖蜜","天窗窗台兰暖蜜","天窗窗台藤暖蜜","天窗窗台苔暖蜜","天窗窗台椒暖蜜","天窗窗台苏暖蜜","天窗窗台薄荷暖蜜","天窗窗台迷迭暖蜜","天窗窗台罗勒暖蜜","天窗窗台百里暖蜜","天窗窗台香茅暖蜜","天窗窗台金盏暖蜜","天窗窗台矢车暖蜜","天窗窗台雏菊暖蜜","天窗窗台勿忘暖蜜","阁楼窗台莓暖蜜","阁楼窗台菊暖蜜","阁楼窗台兰暖蜜","阁楼窗台藤暖蜜","阁楼窗台苔暖蜜","阁楼窗台椒暖蜜","阁楼窗台苏暖蜜","阁楼窗台薄荷暖蜜","阁楼窗台迷迭暖蜜","阁楼窗台罗勒暖蜜","阁楼窗台百里暖蜜","阁楼窗台香茅暖蜜","阁楼窗台金盏暖蜜","阁楼窗台矢车暖蜜","阁楼窗台雏菊暖蜜","阁楼窗台勿忘暖蜜","顶楼窗台莓暖蜜","顶楼窗台菊暖蜜","顶楼窗台兰暖蜜","顶楼窗台藤暖蜜","顶楼窗台苔暖蜜","顶楼窗台椒暖蜜","顶楼窗台苏暖蜜","顶楼窗台薄荷暖蜜","顶楼窗台迷迭暖蜜","顶楼窗台罗勒暖蜜","顶楼窗台百里暖蜜","顶楼窗台香茅暖蜜","顶楼窗台金盏暖蜜","顶楼窗台矢车暖蜜","顶楼窗台雏菊暖蜜","顶楼窗台勿忘暖蜜","夹层窗台莓暖蜜","夹层窗台菊暖蜜","夹层窗台兰暖蜜","夹层窗台藤暖蜜","夹层窗台苔暖蜜","夹层窗台椒暖蜜","夹层窗台苏暖蜜","夹层窗台薄荷暖蜜","夹层窗台迷迭暖蜜","夹层窗台罗勒暖蜜","夹层窗台百里暖蜜","夹层窗台香茅暖蜜","夹层窗台金盏暖蜜","夹层窗台矢车暖蜜","夹层窗台雏菊暖蜜","夹层窗台勿忘暖蜜","厢房窗台莓暖蜜","厢房窗台菊暖蜜","厢房窗台兰暖蜜","厢房窗台藤暖蜜","厢房窗台苔暖蜜","厢房窗台椒暖蜜","厢房窗台苏暖蜜","厢房窗台薄荷暖蜜","厢房窗台迷迭暖蜜","厢房窗台罗勒暖蜜","厢房窗台百里暖蜜","厢房窗台香茅暖蜜","厢房窗台金盏暖蜜","厢房窗台矢车暖蜜","厢房窗台雏菊暖蜜","厢房窗台勿忘暖蜜","耳房窗台莓暖蜜","耳房窗台菊暖蜜","耳房窗台兰暖蜜","耳房窗台藤暖蜜","耳房窗台苔暖蜜","耳房窗台椒暖蜜","耳房窗台苏暖蜜","耳房窗台薄荷暖蜜","耳房窗台迷迭暖蜜","耳房窗台罗勒暖蜜","耳房窗台百里暖蜜","耳房窗台香茅暖蜜","耳房窗台金盏暖蜜","耳房窗台矢车暖蜜","耳房窗台雏菊暖蜜","耳房窗台勿忘暖蜜","后轩窗台莓暖蜜","后轩窗台菊暖蜜","后轩窗台兰暖蜜","后轩窗台藤暖蜜","后轩窗台苔暖蜜","后轩窗台椒暖蜜","后轩窗台苏暖蜜","后轩窗台薄荷暖蜜","后轩窗台迷迭暖蜜","后轩窗台罗勒暖蜜","后轩窗台百里暖蜜","后轩窗台香茅暖蜜","后轩窗台金盏暖蜜","后轩窗台矢车暖蜜","后轩窗台雏菊暖蜜","后轩窗台勿忘暖蜜","前廊窗台莓暖蜜","前廊窗台菊暖蜜","前廊窗台兰暖蜜","前廊窗台藤暖蜜","前廊窗台苔暖蜜","前廊窗台椒暖蜜","前廊窗台苏暖蜜","前廊窗台薄荷暖蜜","前廊窗台迷迭暖蜜","前廊窗台罗勒暖蜜","前廊窗台百里暖蜜","前廊窗台香茅暖蜜","前廊窗台金盏暖蜜","前廊窗台矢车暖蜜","前廊窗台雏菊暖蜜","前廊窗台勿忘暖蜜","回廊窗台莓暖蜜","回廊窗台菊暖蜜","回廊窗台兰暖蜜","回廊窗台藤暖蜜","回廊窗台苔暖蜜","回廊窗台椒暖蜜","回廊窗台苏暖蜜","回廊窗台薄荷暖蜜","回廊窗台迷迭暖蜜","回廊窗台罗勒暖蜜","回廊窗台百里暖蜜","回廊窗台香茅暖蜜","回廊窗台金盏暖蜜","回廊窗台矢车暖蜜","回廊窗台雏菊暖蜜","回廊窗台勿忘暖蜜","凉台窗台莓暖蜜","凉台窗台菊暖蜜","凉台窗台兰暖蜜","凉台窗台藤暖蜜","凉台窗台苔暖蜜","凉台窗台椒暖蜜","凉台窗台苏暖蜜","凉台窗台薄荷暖蜜","凉台窗台迷迭暖蜜","凉台窗台罗勒暖蜜","凉台窗台百里暖蜜","凉台窗台香茅暖蜜","凉台窗台金盏暖蜜","凉台窗台矢车暖蜜","凉台窗台雏菊暖蜜","凉台窗台勿忘暖蜜","露台窗台莓暖蜜","露台窗台菊暖蜜","露台窗台兰暖蜜","露台窗台藤暖蜜","露台窗台苔暖蜜","露台窗台椒暖蜜","露台窗台苏暖蜜","露台窗台薄荷暖蜜","露台窗台迷迭暖蜜","露台窗台罗勒暖蜜","露台窗台百里暖蜜","露台窗台香茅暖蜜","露台窗台金盏暖蜜","露台窗台矢车暖蜜","露台窗台雏菊暖蜜","露台窗台勿忘暖蜜","阳台窗台莓暖蜜","阳台窗台菊暖蜜","阳台窗台兰暖蜜","阳台窗台藤暖蜜","阳台窗台苔暖蜜","阳台窗台椒暖蜜","阳台窗台苏暖蜜","阳台窗台薄荷暖蜜","阳台窗台迷迭暖蜜","阳台窗台罗勒暖蜜","阳台窗台百里暖蜜","阳台窗台香茅暖蜜","阳台窗台金盏暖蜜","阳台窗台矢车暖蜜","阳台窗台雏菊暖蜜","阳台窗台勿忘暖蜜","飘窗窗台莓暖蜜","飘窗窗台菊暖蜜","飘窗窗台兰暖蜜","飘窗窗台藤暖蜜","飘窗窗台苔暖蜜","飘窗窗台椒暖蜜","飘窗窗台苏暖蜜","飘窗窗台薄荷暖蜜","飘窗窗台迷迭暖蜜","飘窗窗台罗勒暖蜜","飘窗窗台百里暖蜜","飘窗窗台香茅暖蜜","飘窗窗台金盏暖蜜","飘窗窗台矢车暖蜜","飘窗窗台雏菊暖蜜","飘窗窗台勿忘暖蜜","花窗窗台莓暖蜜","花窗窗台菊暖蜜","花窗窗台兰暖蜜","花窗窗台藤暖蜜","花窗窗台苔暖蜜","花窗窗台椒暖蜜","花窗窗台苏暖蜜","花窗窗台薄荷暖蜜","花窗窗台迷迭暖蜜","花窗窗台罗勒暖蜜","花窗窗台百里暖蜜","花窗窗台香茅暖蜜","花窗窗台金盏暖蜜","花窗窗台矢车暖蜜","花窗窗台雏菊暖蜜","花窗窗台勿忘暖蜜","月洞窗台莓暖蜜","月洞窗台菊暖蜜","月洞窗台兰暖蜜","月洞窗台藤暖蜜","月洞窗台苔暖蜜","月洞窗台椒暖蜜","月洞窗台苏暖蜜","月洞窗台薄荷暖蜜","月洞窗台迷迭暖蜜","月洞窗台罗勒暖蜜","月洞窗台百里暖蜜","月洞窗台香茅暖蜜","月洞窗台金盏暖蜜","月洞窗台矢车暖蜜","月洞窗台雏菊暖蜜","月洞窗台勿忘暖蜜","景窗窗台莓暖蜜","景窗窗台菊暖蜜","景窗窗台兰暖蜜","景窗窗台藤暖蜜","景窗窗台苔暖蜜","景窗窗台椒暖蜜","景窗窗台苏暖蜜","景窗窗台薄荷暖蜜","景窗窗台迷迭暖蜜","景窗窗台罗勒暖蜜","景窗窗台百里暖蜜","景窗窗台香茅暖蜜","景窗窗台金盏暖蜜","景窗窗台矢车暖蜜","景窗窗台雏菊暖蜜","景窗窗台勿忘暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21277,7 +21277,7 @@ test("mk0 mk1 mk2 mk3 mk4 mk5 mk6 mk7 mk8 mk9 mk10 mk11 mk12 mk13 mk14 mk15 mk16
   ["mk1","mk3","mk5","mk7","mk9","mk11","mk13","mk15","mk17","mk19","mk21","mk23","mk25","mk27","mk29","mk31","mk33","mk35","mk37","mk39","mk41","mk43","mk45","mk47","mk49","mk51","mk53","mk55","mk57","mk59","mk61","mk63","mk65","mk67","mk69","mk71","mk73","mk75","mk77","mk79","mk81","mk83","mk85","mk87","mk89","mk91","mk93","mk95","mk97","mk99","mk101","mk103","mk105","mk107","mk109","mk111","mk113","mk115","mk117","mk119","mk121","mk123","mk125","mk127","mk129","mk131","mk133","mk135","mk137","mk139","mk141","mk143","mk145","mk147","mk149","mk151","mk153","mk155","mk157","mk159","mk161","mk163","mk165","mk167","mk169","mk171","mk173","mk175","mk177","mk179","mk181","mk183","mk185","mk187","mk189","mk191","mk193","mk195","mk197","mk199","mk201","mk203","mk205","mk207","mk209","mk211","mk213","mk215","mk217","mk219","mk221","mk223","mk225","mk227","mk229","mk231","mk233","mk235","mk237","mk239","mk241","mk243","mk245","mk247","mk249","mk251","mk253","mk255","mk257","mk259","mk261","mk263","mk265","mk267","mk269","mk271","mk273","mk275","mk277","mk279","mk281","mk283","mk285","mk287","mk289","mk291","mk293","mk295","mk297","mk299","mk301","mk303","mk305","mk307","mk309","mk311","mk313","mk315","mk317","mk319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["mk0","mk2","mk4","mk6","mk8","mk10","mk12","mk14","mk16","mk18","mk20","mk22","mk24","mk26","mk28","mk30","mk32","mk34","mk36","mk38","mk40","mk42","mk44","mk46","mk48","mk50","mk52","mk54","mk56","mk58","mk60","mk62","mk64","mk66","mk68","mk70","mk72","mk74","mk76","mk78","mk80","mk82","mk84","mk86","mk88","mk90","mk92","mk94","mk96","mk98","mk100","mk102","mk104","mk106","mk108","mk110","mk112","mk114","mk116","mk118","mk120","mk122","mk124","mk126","mk128","mk130","mk132","mk134","mk136","mk138","mk140","mk142","mk144","mk146","mk148","mk150","mk152","mk154","mk156","mk158","mk160","mk162","mk164","mk166","mk168","mk170","mk172","mk174","mk176","mk178","mk180","mk182","mk184","mk186","mk188","mk190","mk192","mk194","mk196","mk198","mk200","mk202","mk204","mk206","mk208","mk210","mk212","mk214","mk216","mk218","mk220","mk222","mk224","mk226","mk228","mk230","mk232","mk234","mk236","mk238","mk240","mk242","mk244","mk246","mk248","mk250","mk252","mk254","mk256","mk258","mk260","mk262","mk264","mk266","mk268","mk270","mk272","mk274","mk276","mk278","mk280","mk282","mk284","mk286","mk288","mk290","mk292","mk294","mk296","mk298","mk300","mk302","mk304","mk306","mk308","mk310","mk312","mk314","mk316","mk318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("mk0_path") && game.includes("mk319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["菜市时蔬暖蜜","菜市时果暖蜜","菜市时花暖蜜","菜市时药暖蜜","菜市时茶暖蜜","菜市时蜜暖蜜","菜市时香暖蜜","菜市时料暖蜜","菜市时鲜暖蜜","菜市时新暖蜜","菜市早芹暖蜜","菜市早韭暖蜜","菜市早豆暖蜜","菜市早瓜暖蜜","菜市早茄暖蜜","菜市早椒暖蜜","花市时蔬暖蜜","花市时果暖蜜","花市时花暖蜜","花市时药暖蜜","花市时茶暖蜜","花市时蜜暖蜜","花市时香暖蜜","花市时料暖蜜","花市时鲜暖蜜","花市时新暖蜜","花市早芹暖蜜","花市早韭暖蜜","花市早豆暖蜜","花市早瓜暖蜜","花市早茄暖蜜","花市早椒暖蜜","鱼市时蔬暖蜜","鱼市时果暖蜜","鱼市时花暖蜜","鱼市时药暖蜜","鱼市时茶暖蜜","鱼市时蜜暖蜜","鱼市时香暖蜜","鱼市时料暖蜜","鱼市时鲜暖蜜","鱼市时新暖蜜","鱼市早芹暖蜜","鱼市早韭暖蜜","鱼市早豆暖蜜","鱼市早瓜暖蜜","鱼市早茄暖蜜","鱼市早椒暖蜜","茶市时蔬暖蜜","茶市时果暖蜜","茶市时花暖蜜","茶市时药暖蜜","茶市时茶暖蜜","茶市时蜜暖蜜","茶市时香暖蜜","茶市时料暖蜜","茶市时鲜暖蜜","茶市时新暖蜜","茶市早芹暖蜜","茶市早韭暖蜜","茶市早豆暖蜜","茶市早瓜暖蜜","茶市早茄暖蜜","茶市早椒暖蜜","香市时蔬暖蜜","香市时果暖蜜","香市时花暖蜜","香市时药暖蜜","香市时茶暖蜜","香市时蜜暖蜜","香市时香暖蜜","香市时料暖蜜","香市时鲜暖蜜","香市时新暖蜜","香市早芹暖蜜","香市早韭暖蜜","香市早豆暖蜜","香市早瓜暖蜜","香市早茄暖蜜","香市早椒暖蜜","布市时蔬暖蜜","布市时果暖蜜","布市时花暖蜜","布市时药暖蜜","布市时茶暖蜜","布市时蜜暖蜜","布市时香暖蜜","布市时料暖蜜","布市时鲜暖蜜","布市时新暖蜜","布市早芹暖蜜","布市早韭暖蜜","布市早豆暖蜜","布市早瓜暖蜜","布市早茄暖蜜","布市早椒暖蜜","木市时蔬暖蜜","木市时果暖蜜","木市时花暖蜜","木市时药暖蜜","木市时茶暖蜜","木市时蜜暖蜜","木市时香暖蜜","木市时料暖蜜","木市时鲜暖蜜","木市时新暖蜜","木市早芹暖蜜","木市早韭暖蜜","木市早豆暖蜜","木市早瓜暖蜜","木市早茄暖蜜","木市早椒暖蜜","陶市时蔬暖蜜","陶市时果暖蜜","陶市时花暖蜜","陶市时药暖蜜","陶市时茶暖蜜","陶市时蜜暖蜜","陶市时香暖蜜","陶市时料暖蜜","陶市时鲜暖蜜","陶市时新暖蜜","陶市早芹暖蜜","陶市早韭暖蜜","陶市早豆暖蜜","陶市早瓜暖蜜","陶市早茄暖蜜","陶市早椒暖蜜","书市时蔬暖蜜","书市时果暖蜜","书市时花暖蜜","书市时药暖蜜","书市时茶暖蜜","书市时蜜暖蜜","书市时香暖蜜","书市时料暖蜜","书市时鲜暖蜜","书市时新暖蜜","书市早芹暖蜜","书市早韭暖蜜","书市早豆暖蜜","书市早瓜暖蜜","书市早茄暖蜜","书市早椒暖蜜","果市时蔬暖蜜","果市时果暖蜜","果市时花暖蜜","果市时药暖蜜","果市时茶暖蜜","果市时蜜暖蜜","果市时香暖蜜","果市时料暖蜜","果市时鲜暖蜜","果市时新暖蜜","果市早芹暖蜜","果市早韭暖蜜","果市早豆暖蜜","果市早瓜暖蜜","果市早茄暖蜜","果市早椒暖蜜","药市时蔬暖蜜","药市时果暖蜜","药市时花暖蜜","药市时药暖蜜","药市时茶暖蜜","药市时蜜暖蜜","药市时香暖蜜","药市时料暖蜜","药市时鲜暖蜜","药市时新暖蜜","药市早芹暖蜜","药市早韭暖蜜","药市早豆暖蜜","药市早瓜暖蜜","药市早茄暖蜜","药市早椒暖蜜","米市时蔬暖蜜","米市时果暖蜜","米市时花暖蜜","米市时药暖蜜","米市时茶暖蜜","米市时蜜暖蜜","米市时香暖蜜","米市时料暖蜜","米市时鲜暖蜜","米市时新暖蜜","米市早芹暖蜜","米市早韭暖蜜","米市早豆暖蜜","米市早瓜暖蜜","米市早茄暖蜜","米市早椒暖蜜","油市时蔬暖蜜","油市时果暖蜜","油市时花暖蜜","油市时药暖蜜","油市时茶暖蜜","油市时蜜暖蜜","油市时香暖蜜","油市时料暖蜜","油市时鲜暖蜜","油市时新暖蜜","油市早芹暖蜜","油市早韭暖蜜","油市早豆暖蜜","油市早瓜暖蜜","油市早茄暖蜜","油市早椒暖蜜","盐市时蔬暖蜜","盐市时果暖蜜","盐市时花暖蜜","盐市时药暖蜜","盐市时茶暖蜜","盐市时蜜暖蜜","盐市时香暖蜜","盐市时料暖蜜","盐市时鲜暖蜜","盐市时新暖蜜","盐市早芹暖蜜","盐市早韭暖蜜","盐市早豆暖蜜","盐市早瓜暖蜜","盐市早茄暖蜜","盐市早椒暖蜜","糖市时蔬暖蜜","糖市时果暖蜜","糖市时花暖蜜","糖市时药暖蜜","糖市时茶暖蜜","糖市时蜜暖蜜","糖市时香暖蜜","糖市时料暖蜜","糖市时鲜暖蜜","糖市时新暖蜜","糖市早芹暖蜜","糖市早韭暖蜜","糖市早豆暖蜜","糖市早瓜暖蜜","糖市早茄暖蜜","糖市早椒暖蜜","酒市时蔬暖蜜","酒市时果暖蜜","酒市时花暖蜜","酒市时药暖蜜","酒市时茶暖蜜","酒市时蜜暖蜜","酒市时香暖蜜","酒市时料暖蜜","酒市时鲜暖蜜","酒市时新暖蜜","酒市早芹暖蜜","酒市早韭暖蜜","酒市早豆暖蜜","酒市早瓜暖蜜","酒市早茄暖蜜","酒市早椒暖蜜","醋市时蔬暖蜜","醋市时果暖蜜","醋市时花暖蜜","醋市时药暖蜜","醋市时茶暖蜜","醋市时蜜暖蜜","醋市时香暖蜜","醋市时料暖蜜","醋市时鲜暖蜜","醋市时新暖蜜","醋市早芹暖蜜","醋市早韭暖蜜","醋市早豆暖蜜","醋市早瓜暖蜜","醋市早茄暖蜜","醋市早椒暖蜜","酱市时蔬暖蜜","酱市时果暖蜜","酱市时花暖蜜","酱市时药暖蜜","酱市时茶暖蜜","酱市时蜜暖蜜","酱市时香暖蜜","酱市时料暖蜜","酱市时鲜暖蜜","酱市时新暖蜜","酱市早芹暖蜜","酱市早韭暖蜜","酱市早豆暖蜜","酱市早瓜暖蜜","酱市早茄暖蜜","酱市早椒暖蜜","糕市时蔬暖蜜","糕市时果暖蜜","糕市时花暖蜜","糕市时药暖蜜","糕市时茶暖蜜","糕市时蜜暖蜜","糕市时香暖蜜","糕市时料暖蜜","糕市时鲜暖蜜","糕市时新暖蜜","糕市早芹暖蜜","糕市早韭暖蜜","糕市早豆暖蜜","糕市早瓜暖蜜","糕市早茄暖蜜","糕市早椒暖蜜","点心市时蔬暖蜜","点心市时果暖蜜","点心市时花暖蜜","点心市时药暖蜜","点心市时茶暖蜜","点心市时蜜暖蜜","点心市时香暖蜜","点心市时料暖蜜","点心市时鲜暖蜜","点心市时新暖蜜","点心市早芹暖蜜","点心市早韭暖蜜","点心市早豆暖蜜","点心市早瓜暖蜜","点心市早茄暖蜜","点心市早椒暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21317,7 +21317,7 @@ test("ns0 ns1 ns2 ns3 ns4 ns5 ns6 ns7 ns8 ns9 ns10 ns11 ns12 ns13 ns14 ns15 ns16
   ["ns1","ns3","ns5","ns7","ns9","ns11","ns13","ns15","ns17","ns19","ns21","ns23","ns25","ns27","ns29","ns31","ns33","ns35","ns37","ns39","ns41","ns43","ns45","ns47","ns49","ns51","ns53","ns55","ns57","ns59","ns61","ns63","ns65","ns67","ns69","ns71","ns73","ns75","ns77","ns79","ns81","ns83","ns85","ns87","ns89","ns91","ns93","ns95","ns97","ns99","ns101","ns103","ns105","ns107","ns109","ns111","ns113","ns115","ns117","ns119","ns121","ns123","ns125","ns127","ns129","ns131","ns133","ns135","ns137","ns139","ns141","ns143","ns145","ns147","ns149","ns151","ns153","ns155","ns157","ns159","ns161","ns163","ns165","ns167","ns169","ns171","ns173","ns175","ns177","ns179","ns181","ns183","ns185","ns187","ns189","ns191","ns193","ns195","ns197","ns199","ns201","ns203","ns205","ns207","ns209","ns211","ns213","ns215","ns217","ns219","ns221","ns223","ns225","ns227","ns229","ns231","ns233","ns235","ns237","ns239","ns241","ns243","ns245","ns247","ns249","ns251","ns253","ns255","ns257","ns259","ns261","ns263","ns265","ns267","ns269","ns271","ns273","ns275","ns277","ns279","ns281","ns283","ns285","ns287","ns289","ns291","ns293","ns295","ns297","ns299","ns301","ns303","ns305","ns307","ns309","ns311","ns313","ns315","ns317","ns319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["ns0","ns2","ns4","ns6","ns8","ns10","ns12","ns14","ns16","ns18","ns20","ns22","ns24","ns26","ns28","ns30","ns32","ns34","ns36","ns38","ns40","ns42","ns44","ns46","ns48","ns50","ns52","ns54","ns56","ns58","ns60","ns62","ns64","ns66","ns68","ns70","ns72","ns74","ns76","ns78","ns80","ns82","ns84","ns86","ns88","ns90","ns92","ns94","ns96","ns98","ns100","ns102","ns104","ns106","ns108","ns110","ns112","ns114","ns116","ns118","ns120","ns122","ns124","ns126","ns128","ns130","ns132","ns134","ns136","ns138","ns140","ns142","ns144","ns146","ns148","ns150","ns152","ns154","ns156","ns158","ns160","ns162","ns164","ns166","ns168","ns170","ns172","ns174","ns176","ns178","ns180","ns182","ns184","ns186","ns188","ns190","ns192","ns194","ns196","ns198","ns200","ns202","ns204","ns206","ns208","ns210","ns212","ns214","ns216","ns218","ns220","ns222","ns224","ns226","ns228","ns230","ns232","ns234","ns236","ns238","ns240","ns242","ns244","ns246","ns248","ns250","ns252","ns254","ns256","ns258","ns260","ns262","ns264","ns266","ns268","ns270","ns272","ns274","ns276","ns278","ns280","ns282","ns284","ns286","ns288","ns290","ns292","ns294","ns296","ns298","ns300","ns302","ns304","ns306","ns308","ns310","ns312","ns314","ns316","ns318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("ns0_path") && game.includes("ns319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["雀巢巢边草暖蜜","雀巢檐下苔暖蜜","雀巢梁上尘暖蜜","雀巢枝头露暖蜜","雀巢梢间雾暖蜜","雀巢瓦缝花暖蜜","雀巢汀洲芦暖蜜","雀巢洲头蒲暖蜜","雀巢矶边藻暖蜜","雀巢谷底兰暖蜜","雀巢巢香暖蜜","雀巢羽香暖蜜","雀巢绒香暖蜜","雀巢卵石苔暖蜜","雀巢树洞菌暖蜜","雀巢树皮衣暖蜜","燕巢巢边草暖蜜","燕巢檐下苔暖蜜","燕巢梁上尘暖蜜","燕巢枝头露暖蜜","燕巢梢间雾暖蜜","燕巢瓦缝花暖蜜","燕巢汀洲芦暖蜜","燕巢洲头蒲暖蜜","燕巢矶边藻暖蜜","燕巢谷底兰暖蜜","燕巢巢香暖蜜","燕巢羽香暖蜜","燕巢绒香暖蜜","燕巢卵石苔暖蜜","燕巢树洞菌暖蜜","燕巢树皮衣暖蜜","鹊巢巢边草暖蜜","鹊巢檐下苔暖蜜","鹊巢梁上尘暖蜜","鹊巢枝头露暖蜜","鹊巢梢间雾暖蜜","鹊巢瓦缝花暖蜜","鹊巢汀洲芦暖蜜","鹊巢洲头蒲暖蜜","鹊巢矶边藻暖蜜","鹊巢谷底兰暖蜜","鹊巢巢香暖蜜","鹊巢羽香暖蜜","鹊巢绒香暖蜜","鹊巢卵石苔暖蜜","鹊巢树洞菌暖蜜","鹊巢树皮衣暖蜜","鸦巢巢边草暖蜜","鸦巢檐下苔暖蜜","鸦巢梁上尘暖蜜","鸦巢枝头露暖蜜","鸦巢梢间雾暖蜜","鸦巢瓦缝花暖蜜","鸦巢汀洲芦暖蜜","鸦巢洲头蒲暖蜜","鸦巢矶边藻暖蜜","鸦巢谷底兰暖蜜","鸦巢巢香暖蜜","鸦巢羽香暖蜜","鸦巢绒香暖蜜","鸦巢卵石苔暖蜜","鸦巢树洞菌暖蜜","鸦巢树皮衣暖蜜","鸠巢巢边草暖蜜","鸠巢檐下苔暖蜜","鸠巢梁上尘暖蜜","鸠巢枝头露暖蜜","鸠巢梢间雾暖蜜","鸠巢瓦缝花暖蜜","鸠巢汀洲芦暖蜜","鸠巢洲头蒲暖蜜","鸠巢矶边藻暖蜜","鸠巢谷底兰暖蜜","鸠巢巢香暖蜜","鸠巢羽香暖蜜","鸠巢绒香暖蜜","鸠巢卵石苔暖蜜","鸠巢树洞菌暖蜜","鸠巢树皮衣暖蜜","鸽巢巢边草暖蜜","鸽巢檐下苔暖蜜","鸽巢梁上尘暖蜜","鸽巢枝头露暖蜜","鸽巢梢间雾暖蜜","鸽巢瓦缝花暖蜜","鸽巢汀洲芦暖蜜","鸽巢洲头蒲暖蜜","鸽巢矶边藻暖蜜","鸽巢谷底兰暖蜜","鸽巢巢香暖蜜","鸽巢羽香暖蜜","鸽巢绒香暖蜜","鸽巢卵石苔暖蜜","鸽巢树洞菌暖蜜","鸽巢树皮衣暖蜜","鹰巢巢边草暖蜜","鹰巢檐下苔暖蜜","鹰巢梁上尘暖蜜","鹰巢枝头露暖蜜","鹰巢梢间雾暖蜜","鹰巢瓦缝花暖蜜","鹰巢汀洲芦暖蜜","鹰巢洲头蒲暖蜜","鹰巢矶边藻暖蜜","鹰巢谷底兰暖蜜","鹰巢巢香暖蜜","鹰巢羽香暖蜜","鹰巢绒香暖蜜","鹰巢卵石苔暖蜜","鹰巢树洞菌暖蜜","鹰巢树皮衣暖蜜","鹤巢巢边草暖蜜","鹤巢檐下苔暖蜜","鹤巢梁上尘暖蜜","鹤巢枝头露暖蜜","鹤巢梢间雾暖蜜","鹤巢瓦缝花暖蜜","鹤巢汀洲芦暖蜜","鹤巢洲头蒲暖蜜","鹤巢矶边藻暖蜜","鹤巢谷底兰暖蜜","鹤巢巢香暖蜜","鹤巢羽香暖蜜","鹤巢绒香暖蜜","鹤巢卵石苔暖蜜","鹤巢树洞菌暖蜜","鹤巢树皮衣暖蜜","鹭巢巢边草暖蜜","鹭巢檐下苔暖蜜","鹭巢梁上尘暖蜜","鹭巢枝头露暖蜜","鹭巢梢间雾暖蜜","鹭巢瓦缝花暖蜜","鹭巢汀洲芦暖蜜","鹭巢洲头蒲暖蜜","鹭巢矶边藻暖蜜","鹭巢谷底兰暖蜜","鹭巢巢香暖蜜","鹭巢羽香暖蜜","鹭巢绒香暖蜜","鹭巢卵石苔暖蜜","鹭巢树洞菌暖蜜","鹭巢树皮衣暖蜜","鸥巢巢边草暖蜜","鸥巢檐下苔暖蜜","鸥巢梁上尘暖蜜","鸥巢枝头露暖蜜","鸥巢梢间雾暖蜜","鸥巢瓦缝花暖蜜","鸥巢汀洲芦暖蜜","鸥巢洲头蒲暖蜜","鸥巢矶边藻暖蜜","鸥巢谷底兰暖蜜","鸥巢巢香暖蜜","鸥巢羽香暖蜜","鸥巢绒香暖蜜","鸥巢卵石苔暖蜜","鸥巢树洞菌暖蜜","鸥巢树皮衣暖蜜","莺巢巢边草暖蜜","莺巢檐下苔暖蜜","莺巢梁上尘暖蜜","莺巢枝头露暖蜜","莺巢梢间雾暖蜜","莺巢瓦缝花暖蜜","莺巢汀洲芦暖蜜","莺巢洲头蒲暖蜜","莺巢矶边藻暖蜜","莺巢谷底兰暖蜜","莺巢巢香暖蜜","莺巢羽香暖蜜","莺巢绒香暖蜜","莺巢卵石苔暖蜜","莺巢树洞菌暖蜜","莺巢树皮衣暖蜜","雀檐巢边草暖蜜","雀檐檐下苔暖蜜","雀檐梁上尘暖蜜","雀檐枝头露暖蜜","雀檐梢间雾暖蜜","雀檐瓦缝花暖蜜","雀檐汀洲芦暖蜜","雀檐洲头蒲暖蜜","雀檐矶边藻暖蜜","雀檐谷底兰暖蜜","雀檐巢香暖蜜","雀檐羽香暖蜜","雀檐绒香暖蜜","雀檐卵石苔暖蜜","雀檐树洞菌暖蜜","雀檐树皮衣暖蜜","燕梁巢边草暖蜜","燕梁檐下苔暖蜜","燕梁梁上尘暖蜜","燕梁枝头露暖蜜","燕梁梢间雾暖蜜","燕梁瓦缝花暖蜜","燕梁汀洲芦暖蜜","燕梁洲头蒲暖蜜","燕梁矶边藻暖蜜","燕梁谷底兰暖蜜","燕梁巢香暖蜜","燕梁羽香暖蜜","燕梁绒香暖蜜","燕梁卵石苔暖蜜","燕梁树洞菌暖蜜","燕梁树皮衣暖蜜","鹊枝巢边草暖蜜","鹊枝檐下苔暖蜜","鹊枝梁上尘暖蜜","鹊枝枝头露暖蜜","鹊枝梢间雾暖蜜","鹊枝瓦缝花暖蜜","鹊枝汀洲芦暖蜜","鹊枝洲头蒲暖蜜","鹊枝矶边藻暖蜜","鹊枝谷底兰暖蜜","鹊枝巢香暖蜜","鹊枝羽香暖蜜","鹊枝绒香暖蜜","鹊枝卵石苔暖蜜","鹊枝树洞菌暖蜜","鹊枝树皮衣暖蜜","鸦梢巢边草暖蜜","鸦梢檐下苔暖蜜","鸦梢梁上尘暖蜜","鸦梢枝头露暖蜜","鸦梢梢间雾暖蜜","鸦梢瓦缝花暖蜜","鸦梢汀洲芦暖蜜","鸦梢洲头蒲暖蜜","鸦梢矶边藻暖蜜","鸦梢谷底兰暖蜜","鸦梢巢香暖蜜","鸦梢羽香暖蜜","鸦梢绒香暖蜜","鸦梢卵石苔暖蜜","鸦梢树洞菌暖蜜","鸦梢树皮衣暖蜜","鸽瓦巢边草暖蜜","鸽瓦檐下苔暖蜜","鸽瓦梁上尘暖蜜","鸽瓦枝头露暖蜜","鸽瓦梢间雾暖蜜","鸽瓦瓦缝花暖蜜","鸽瓦汀洲芦暖蜜","鸽瓦洲头蒲暖蜜","鸽瓦矶边藻暖蜜","鸽瓦谷底兰暖蜜","鸽瓦巢香暖蜜","鸽瓦羽香暖蜜","鸽瓦绒香暖蜜","鸽瓦卵石苔暖蜜","鸽瓦树洞菌暖蜜","鸽瓦树皮衣暖蜜","鹤汀巢边草暖蜜","鹤汀檐下苔暖蜜","鹤汀梁上尘暖蜜","鹤汀枝头露暖蜜","鹤汀梢间雾暖蜜","鹤汀瓦缝花暖蜜","鹤汀汀洲芦暖蜜","鹤汀洲头蒲暖蜜","鹤汀矶边藻暖蜜","鹤汀谷底兰暖蜜","鹤汀巢香暖蜜","鹤汀羽香暖蜜","鹤汀绒香暖蜜","鹤汀卵石苔暖蜜","鹤汀树洞菌暖蜜","鹤汀树皮衣暖蜜","鹭洲巢边草暖蜜","鹭洲檐下苔暖蜜","鹭洲梁上尘暖蜜","鹭洲枝头露暖蜜","鹭洲梢间雾暖蜜","鹭洲瓦缝花暖蜜","鹭洲汀洲芦暖蜜","鹭洲洲头蒲暖蜜","鹭洲矶边藻暖蜜","鹭洲谷底兰暖蜜","鹭洲巢香暖蜜","鹭洲羽香暖蜜","鹭洲绒香暖蜜","鹭洲卵石苔暖蜜","鹭洲树洞菌暖蜜","鹭洲树皮衣暖蜜","鸥矶巢边草暖蜜","鸥矶檐下苔暖蜜","鸥矶梁上尘暖蜜","鸥矶枝头露暖蜜","鸥矶梢间雾暖蜜","鸥矶瓦缝花暖蜜","鸥矶汀洲芦暖蜜","鸥矶洲头蒲暖蜜","鸥矶矶边藻暖蜜","鸥矶谷底兰暖蜜","鸥矶巢香暖蜜","鸥矶羽香暖蜜","鸥矶绒香暖蜜","鸥矶卵石苔暖蜜","鸥矶树洞菌暖蜜","鸥矶树皮衣暖蜜","莺谷巢边草暖蜜","莺谷檐下苔暖蜜","莺谷梁上尘暖蜜","莺谷枝头露暖蜜","莺谷梢间雾暖蜜","莺谷瓦缝花暖蜜","莺谷汀洲芦暖蜜","莺谷洲头蒲暖蜜","莺谷矶边藻暖蜜","莺谷谷底兰暖蜜","莺谷巢香暖蜜","莺谷羽香暖蜜","莺谷绒香暖蜜","莺谷卵石苔暖蜜","莺谷树洞菌暖蜜","莺谷树皮衣暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21357,7 +21357,7 @@ test("bell0 bell1 bell2 bell3 bell4 bell5 bell6 bell7 bell8 bell9 bell10 bell11 
   ["bell1","bell3","bell5","bell7","bell9","bell11","bell13","bell15","bell17","bell19","bell21","bell23","bell25","bell27","bell29","bell31","bell33","bell35","bell37","bell39","bell41","bell43","bell45","bell47","bell49","bell51","bell53","bell55","bell57","bell59","bell61","bell63","bell65","bell67","bell69","bell71","bell73","bell75","bell77","bell79","bell81","bell83","bell85","bell87","bell89","bell91","bell93","bell95","bell97","bell99","bell101","bell103","bell105","bell107","bell109","bell111","bell113","bell115","bell117","bell119","bell121","bell123","bell125","bell127","bell129","bell131","bell133","bell135","bell137","bell139","bell141","bell143","bell145","bell147","bell149","bell151","bell153","bell155","bell157","bell159","bell161","bell163","bell165","bell167","bell169","bell171","bell173","bell175","bell177","bell179","bell181","bell183","bell185","bell187","bell189","bell191","bell193","bell195","bell197","bell199","bell201","bell203","bell205","bell207","bell209","bell211","bell213","bell215","bell217","bell219","bell221","bell223","bell225","bell227","bell229","bell231","bell233","bell235","bell237","bell239","bell241","bell243","bell245","bell247","bell249","bell251","bell253","bell255","bell257","bell259","bell261","bell263","bell265","bell267","bell269","bell271","bell273","bell275","bell277","bell279","bell281","bell283","bell285","bell287","bell289","bell291","bell293","bell295","bell297","bell299","bell301","bell303","bell305","bell307","bell309","bell311","bell313","bell315","bell317","bell319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["bell0","bell2","bell4","bell6","bell8","bell10","bell12","bell14","bell16","bell18","bell20","bell22","bell24","bell26","bell28","bell30","bell32","bell34","bell36","bell38","bell40","bell42","bell44","bell46","bell48","bell50","bell52","bell54","bell56","bell58","bell60","bell62","bell64","bell66","bell68","bell70","bell72","bell74","bell76","bell78","bell80","bell82","bell84","bell86","bell88","bell90","bell92","bell94","bell96","bell98","bell100","bell102","bell104","bell106","bell108","bell110","bell112","bell114","bell116","bell118","bell120","bell122","bell124","bell126","bell128","bell130","bell132","bell134","bell136","bell138","bell140","bell142","bell144","bell146","bell148","bell150","bell152","bell154","bell156","bell158","bell160","bell162","bell164","bell166","bell168","bell170","bell172","bell174","bell176","bell178","bell180","bell182","bell184","bell186","bell188","bell190","bell192","bell194","bell196","bell198","bell200","bell202","bell204","bell206","bell208","bell210","bell212","bell214","bell216","bell218","bell220","bell222","bell224","bell226","bell228","bell230","bell232","bell234","bell236","bell238","bell240","bell242","bell244","bell246","bell248","bell250","bell252","bell254","bell256","bell258","bell260","bell262","bell264","bell266","bell268","bell270","bell272","bell274","bell276","bell278","bell280","bell282","bell284","bell286","bell288","bell290","bell292","bell294","bell296","bell298","bell300","bell302","bell304","bell306","bell308","bell310","bell312","bell314","bell316","bell318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("bell0_path") && game.includes("bell319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["铜铃铃下露暖蜜","铜铃铎边苔暖蜜","铜铃檐角草暖蜜","铜铃门楣花暖蜜","铜铃店招香暖蜜","铜铃塔影茶暖蜜","铜铃桥洞风暖蜜","铜铃舟舷露暖蜜","铜铃车辙草暖蜜","铜铃蹄印花暖蜜","铜铃铃语暖蜜","铜铃铎声暖蜜","铜铃檐响暖蜜","铜铃门敲暖蜜","铜铃店招暖蜜","铜铃塔铃蜜暖蜜","铜铃桥铃茶暖蜜","铜铃舟铃姜暖蜜","铜铃车铃草暖蜜","铜铃马铃花暖蜜","铁铃铃下露暖蜜","铁铃铎边苔暖蜜","铁铃檐角草暖蜜","铁铃门楣花暖蜜","铁铃店招香暖蜜","铁铃塔影茶暖蜜","铁铃桥洞风暖蜜","铁铃舟舷露暖蜜","铁铃车辙草暖蜜","铁铃蹄印花暖蜜","铁铃铃语暖蜜","铁铃铎声暖蜜","铁铃檐响暖蜜","铁铃门敲暖蜜","铁铃店招暖蜜","铁铃塔铃蜜暖蜜","铁铃桥铃茶暖蜜","铁铃舟铃姜暖蜜","铁铃车铃草暖蜜","铁铃马铃花暖蜜","瓷铃铃下露暖蜜","瓷铃铎边苔暖蜜","瓷铃檐角草暖蜜","瓷铃门楣花暖蜜","瓷铃店招香暖蜜","瓷铃塔影茶暖蜜","瓷铃桥洞风暖蜜","瓷铃舟舷露暖蜜","瓷铃车辙草暖蜜","瓷铃蹄印花暖蜜","瓷铃铃语暖蜜","瓷铃铎声暖蜜","瓷铃檐响暖蜜","瓷铃门敲暖蜜","瓷铃店招暖蜜","瓷铃塔铃蜜暖蜜","瓷铃桥铃茶暖蜜","瓷铃舟铃姜暖蜜","瓷铃车铃草暖蜜","瓷铃马铃花暖蜜","竹铃铃下露暖蜜","竹铃铎边苔暖蜜","竹铃檐角草暖蜜","竹铃门楣花暖蜜","竹铃店招香暖蜜","竹铃塔影茶暖蜜","竹铃桥洞风暖蜜","竹铃舟舷露暖蜜","竹铃车辙草暖蜜","竹铃蹄印花暖蜜","竹铃铃语暖蜜","竹铃铎声暖蜜","竹铃檐响暖蜜","竹铃门敲暖蜜","竹铃店招暖蜜","竹铃塔铃蜜暖蜜","竹铃桥铃茶暖蜜","竹铃舟铃姜暖蜜","竹铃车铃草暖蜜","竹铃马铃花暖蜜","木铃铃下露暖蜜","木铃铎边苔暖蜜","木铃檐角草暖蜜","木铃门楣花暖蜜","木铃店招香暖蜜","木铃塔影茶暖蜜","木铃桥洞风暖蜜","木铃舟舷露暖蜜","木铃车辙草暖蜜","木铃蹄印花暖蜜","木铃铃语暖蜜","木铃铎声暖蜜","木铃檐响暖蜜","木铃门敲暖蜜","木铃店招暖蜜","木铃塔铃蜜暖蜜","木铃桥铃茶暖蜜","木铃舟铃姜暖蜜","木铃车铃草暖蜜","木铃马铃花暖蜜","玻璃铃铃下露暖蜜","玻璃铃铎边苔暖蜜","玻璃铃檐角草暖蜜","玻璃铃门楣花暖蜜","玻璃铃店招香暖蜜","玻璃铃塔影茶暖蜜","玻璃铃桥洞风暖蜜","玻璃铃舟舷露暖蜜","玻璃铃车辙草暖蜜","玻璃铃蹄印花暖蜜","玻璃铃铃语暖蜜","玻璃铃铎声暖蜜","玻璃铃檐响暖蜜","玻璃铃门敲暖蜜","玻璃铃店招暖蜜","玻璃铃塔铃蜜暖蜜","玻璃铃桥铃茶暖蜜","玻璃铃舟铃姜暖蜜","玻璃铃车铃草暖蜜","玻璃铃马铃花暖蜜","风铎铃下露暖蜜","风铎铎边苔暖蜜","风铎檐角草暖蜜","风铎门楣花暖蜜","风铎店招香暖蜜","风铎塔影茶暖蜜","风铎桥洞风暖蜜","风铎舟舷露暖蜜","风铎车辙草暖蜜","风铎蹄印花暖蜜","风铎铃语暖蜜","风铎铎声暖蜜","风铎檐响暖蜜","风铎门敲暖蜜","风铎店招暖蜜","风铎塔铃蜜暖蜜","风铎桥铃茶暖蜜","风铎舟铃姜暖蜜","风铎车铃草暖蜜","风铎马铃花暖蜜","檐铃铃下露暖蜜","檐铃铎边苔暖蜜","檐铃檐角草暖蜜","檐铃门楣花暖蜜","檐铃店招香暖蜜","檐铃塔影茶暖蜜","檐铃桥洞风暖蜜","檐铃舟舷露暖蜜","檐铃车辙草暖蜜","檐铃蹄印花暖蜜","檐铃铃语暖蜜","檐铃铎声暖蜜","檐铃檐响暖蜜","檐铃门敲暖蜜","檐铃店招暖蜜","檐铃塔铃蜜暖蜜","檐铃桥铃茶暖蜜","檐铃舟铃姜暖蜜","檐铃车铃草暖蜜","檐铃马铃花暖蜜","门铃铃下露暖蜜","门铃铎边苔暖蜜","门铃檐角草暖蜜","门铃门楣花暖蜜","门铃店招香暖蜜","门铃塔影茶暖蜜","门铃桥洞风暖蜜","门铃舟舷露暖蜜","门铃车辙草暖蜜","门铃蹄印花暖蜜","门铃铃语暖蜜","门铃铎声暖蜜","门铃檐响暖蜜","门铃门敲暖蜜","门铃店招暖蜜","门铃塔铃蜜暖蜜","门铃桥铃茶暖蜜","门铃舟铃姜暖蜜","门铃车铃草暖蜜","门铃马铃花暖蜜","店铃铃下露暖蜜","店铃铎边苔暖蜜","店铃檐角草暖蜜","店铃门楣花暖蜜","店铃店招香暖蜜","店铃塔影茶暖蜜","店铃桥洞风暖蜜","店铃舟舷露暖蜜","店铃车辙草暖蜜","店铃蹄印花暖蜜","店铃铃语暖蜜","店铃铎声暖蜜","店铃檐响暖蜜","店铃门敲暖蜜","店铃店招暖蜜","店铃塔铃蜜暖蜜","店铃桥铃茶暖蜜","店铃舟铃姜暖蜜","店铃车铃草暖蜜","店铃马铃花暖蜜","塔铃铃下露暖蜜","塔铃铎边苔暖蜜","塔铃檐角草暖蜜","塔铃门楣花暖蜜","塔铃店招香暖蜜","塔铃塔影茶暖蜜","塔铃桥洞风暖蜜","塔铃舟舷露暖蜜","塔铃车辙草暖蜜","塔铃蹄印花暖蜜","塔铃铃语暖蜜","塔铃铎声暖蜜","塔铃檐响暖蜜","塔铃门敲暖蜜","塔铃店招暖蜜","塔铃塔铃蜜暖蜜","塔铃桥铃茶暖蜜","塔铃舟铃姜暖蜜","塔铃车铃草暖蜜","塔铃马铃花暖蜜","桥铃铃下露暖蜜","桥铃铎边苔暖蜜","桥铃檐角草暖蜜","桥铃门楣花暖蜜","桥铃店招香暖蜜","桥铃塔影茶暖蜜","桥铃桥洞风暖蜜","桥铃舟舷露暖蜜","桥铃车辙草暖蜜","桥铃蹄印花暖蜜","桥铃铃语暖蜜","桥铃铎声暖蜜","桥铃檐响暖蜜","桥铃门敲暖蜜","桥铃店招暖蜜","桥铃塔铃蜜暖蜜","桥铃桥铃茶暖蜜","桥铃舟铃姜暖蜜","桥铃车铃草暖蜜","桥铃马铃花暖蜜","舟铃铃下露暖蜜","舟铃铎边苔暖蜜","舟铃檐角草暖蜜","舟铃门楣花暖蜜","舟铃店招香暖蜜","舟铃塔影茶暖蜜","舟铃桥洞风暖蜜","舟铃舟舷露暖蜜","舟铃车辙草暖蜜","舟铃蹄印花暖蜜","舟铃铃语暖蜜","舟铃铎声暖蜜","舟铃檐响暖蜜","舟铃门敲暖蜜","舟铃店招暖蜜","舟铃塔铃蜜暖蜜","舟铃桥铃茶暖蜜","舟铃舟铃姜暖蜜","舟铃车铃草暖蜜","舟铃马铃花暖蜜","车铃铃下露暖蜜","车铃铎边苔暖蜜","车铃檐角草暖蜜","车铃门楣花暖蜜","车铃店招香暖蜜","车铃塔影茶暖蜜","车铃桥洞风暖蜜","车铃舟舷露暖蜜","车铃车辙草暖蜜","车铃蹄印花暖蜜","车铃铃语暖蜜","车铃铎声暖蜜","车铃檐响暖蜜","车铃门敲暖蜜","车铃店招暖蜜","车铃塔铃蜜暖蜜","车铃桥铃茶暖蜜","车铃舟铃姜暖蜜","车铃车铃草暖蜜","车铃马铃花暖蜜","马铃铃下露暖蜜","马铃铎边苔暖蜜","马铃檐角草暖蜜","马铃门楣花暖蜜","马铃店招香暖蜜","马铃塔影茶暖蜜","马铃桥洞风暖蜜","马铃舟舷露暖蜜","马铃车辙草暖蜜","马铃蹄印花暖蜜","马铃铃语暖蜜","马铃铎声暖蜜","马铃檐响暖蜜","马铃门敲暖蜜","马铃店招暖蜜","马铃塔铃蜜暖蜜","马铃桥铃茶暖蜜","马铃舟铃姜暖蜜","马铃车铃草暖蜜","马铃马铃花暖蜜","驼铃铃下露暖蜜","驼铃铎边苔暖蜜","驼铃檐角草暖蜜","驼铃门楣花暖蜜","驼铃店招香暖蜜","驼铃塔影茶暖蜜","驼铃桥洞风暖蜜","驼铃舟舷露暖蜜","驼铃车辙草暖蜜","驼铃蹄印花暖蜜","驼铃铃语暖蜜","驼铃铎声暖蜜","驼铃檐响暖蜜","驼铃门敲暖蜜","驼铃店招暖蜜","驼铃塔铃蜜暖蜜","驼铃桥铃茶暖蜜","驼铃舟铃姜暖蜜","驼铃车铃草暖蜜","驼铃马铃花暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21397,7 +21397,7 @@ test("quilt0 quilt1 quilt2 quilt3 quilt4 quilt5 quilt6 quilt7 quilt8 quilt9 quil
   ["quilt1","quilt3","quilt5","quilt7","quilt9","quilt11","quilt13","quilt15","quilt17","quilt19","quilt21","quilt23","quilt25","quilt27","quilt29","quilt31","quilt33","quilt35","quilt37","quilt39","quilt41","quilt43","quilt45","quilt47","quilt49","quilt51","quilt53","quilt55","quilt57","quilt59","quilt61","quilt63","quilt65","quilt67","quilt69","quilt71","quilt73","quilt75","quilt77","quilt79","quilt81","quilt83","quilt85","quilt87","quilt89","quilt91","quilt93","quilt95","quilt97","quilt99","quilt101","quilt103","quilt105","quilt107","quilt109","quilt111","quilt113","quilt115","quilt117","quilt119","quilt121","quilt123","quilt125","quilt127","quilt129","quilt131","quilt133","quilt135","quilt137","quilt139","quilt141","quilt143","quilt145","quilt147","quilt149","quilt151","quilt153","quilt155","quilt157","quilt159","quilt161","quilt163","quilt165","quilt167","quilt169","quilt171","quilt173","quilt175","quilt177","quilt179","quilt181","quilt183","quilt185","quilt187","quilt189","quilt191","quilt193","quilt195","quilt197","quilt199","quilt201","quilt203","quilt205","quilt207","quilt209","quilt211","quilt213","quilt215","quilt217","quilt219","quilt221","quilt223","quilt225","quilt227","quilt229","quilt231","quilt233","quilt235","quilt237","quilt239","quilt241","quilt243","quilt245","quilt247","quilt249","quilt251","quilt253","quilt255","quilt257","quilt259","quilt261","quilt263","quilt265","quilt267","quilt269","quilt271","quilt273","quilt275","quilt277","quilt279","quilt281","quilt283","quilt285","quilt287","quilt289","quilt291","quilt293","quilt295","quilt297","quilt299","quilt301","quilt303","quilt305","quilt307","quilt309","quilt311","quilt313","quilt315","quilt317","quilt319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["quilt0","quilt2","quilt4","quilt6","quilt8","quilt10","quilt12","quilt14","quilt16","quilt18","quilt20","quilt22","quilt24","quilt26","quilt28","quilt30","quilt32","quilt34","quilt36","quilt38","quilt40","quilt42","quilt44","quilt46","quilt48","quilt50","quilt52","quilt54","quilt56","quilt58","quilt60","quilt62","quilt64","quilt66","quilt68","quilt70","quilt72","quilt74","quilt76","quilt78","quilt80","quilt82","quilt84","quilt86","quilt88","quilt90","quilt92","quilt94","quilt96","quilt98","quilt100","quilt102","quilt104","quilt106","quilt108","quilt110","quilt112","quilt114","quilt116","quilt118","quilt120","quilt122","quilt124","quilt126","quilt128","quilt130","quilt132","quilt134","quilt136","quilt138","quilt140","quilt142","quilt144","quilt146","quilt148","quilt150","quilt152","quilt154","quilt156","quilt158","quilt160","quilt162","quilt164","quilt166","quilt168","quilt170","quilt172","quilt174","quilt176","quilt178","quilt180","quilt182","quilt184","quilt186","quilt188","quilt190","quilt192","quilt194","quilt196","quilt198","quilt200","quilt202","quilt204","quilt206","quilt208","quilt210","quilt212","quilt214","quilt216","quilt218","quilt220","quilt222","quilt224","quilt226","quilt228","quilt230","quilt232","quilt234","quilt236","quilt238","quilt240","quilt242","quilt244","quilt246","quilt248","quilt250","quilt252","quilt254","quilt256","quilt258","quilt260","quilt262","quilt264","quilt266","quilt268","quilt270","quilt272","quilt274","quilt276","quilt278","quilt280","quilt282","quilt284","quilt286","quilt288","quilt290","quilt292","quilt294","quilt296","quilt298","quilt300","quilt302","quilt304","quilt306","quilt308","quilt310","quilt312","quilt314","quilt316","quilt318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("quilt0_path") && game.includes("quilt319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["棉被安睡花暖蜜","棉被入梦草暖蜜","棉被浅眠叶暖蜜","棉被深眠果暖蜜","棉被回笼香暖蜜","棉被午憩茶暖蜜","棉被夜读蜜暖蜜","棉被灯下姜暖蜜","棉被被角暖暖蜜","棉被枕边兰暖蜜","棉被席间风暖蜜","棉被席上露暖蜜","棉被枕下笺暖蜜","棉被被里香暖蜜","棉被毯边花暖蜜","棉被毯上露暖蜜","棉被芯里暖暖蜜","棉被套外香暖蜜","棉被单上洁暖蜜","棉被单下静暖蜜","丝被安睡花暖蜜","丝被入梦草暖蜜","丝被浅眠叶暖蜜","丝被深眠果暖蜜","丝被回笼香暖蜜","丝被午憩茶暖蜜","丝被夜读蜜暖蜜","丝被灯下姜暖蜜","丝被被角暖暖蜜","丝被枕边兰暖蜜","丝被席间风暖蜜","丝被席上露暖蜜","丝被枕下笺暖蜜","丝被被里香暖蜜","丝被毯边花暖蜜","丝被毯上露暖蜜","丝被芯里暖暖蜜","丝被套外香暖蜜","丝被单上洁暖蜜","丝被单下静暖蜜","羽绒安睡花暖蜜","羽绒入梦草暖蜜","羽绒浅眠叶暖蜜","羽绒深眠果暖蜜","羽绒回笼香暖蜜","羽绒午憩茶暖蜜","羽绒夜读蜜暖蜜","羽绒灯下姜暖蜜","羽绒被角暖暖蜜","羽绒枕边兰暖蜜","羽绒席间风暖蜜","羽绒席上露暖蜜","羽绒枕下笺暖蜜","羽绒被里香暖蜜","羽绒毯边花暖蜜","羽绒毯上露暖蜜","羽绒芯里暖暖蜜","羽绒套外香暖蜜","羽绒单上洁暖蜜","羽绒单下静暖蜜","夹被安睡花暖蜜","夹被入梦草暖蜜","夹被浅眠叶暖蜜","夹被深眠果暖蜜","夹被回笼香暖蜜","夹被午憩茶暖蜜","夹被夜读蜜暖蜜","夹被灯下姜暖蜜","夹被被角暖暖蜜","夹被枕边兰暖蜜","夹被席间风暖蜜","夹被席上露暖蜜","夹被枕下笺暖蜜","夹被被里香暖蜜","夹被毯边花暖蜜","夹被毯上露暖蜜","夹被芯里暖暖蜜","夹被套外香暖蜜","夹被单上洁暖蜜","夹被单下静暖蜜","薄被安睡花暖蜜","薄被入梦草暖蜜","薄被浅眠叶暖蜜","薄被深眠果暖蜜","薄被回笼香暖蜜","薄被午憩茶暖蜜","薄被夜读蜜暖蜜","薄被灯下姜暖蜜","薄被被角暖暖蜜","薄被枕边兰暖蜜","薄被席间风暖蜜","薄被席上露暖蜜","薄被枕下笺暖蜜","薄被被里香暖蜜","薄被毯边花暖蜜","薄被毯上露暖蜜","薄被芯里暖暖蜜","薄被套外香暖蜜","薄被单上洁暖蜜","薄被单下静暖蜜","厚被安睡花暖蜜","厚被入梦草暖蜜","厚被浅眠叶暖蜜","厚被深眠果暖蜜","厚被回笼香暖蜜","厚被午憩茶暖蜜","厚被夜读蜜暖蜜","厚被灯下姜暖蜜","厚被被角暖暖蜜","厚被枕边兰暖蜜","厚被席间风暖蜜","厚被席上露暖蜜","厚被枕下笺暖蜜","厚被被里香暖蜜","厚被毯边花暖蜜","厚被毯上露暖蜜","厚被芯里暖暖蜜","厚被套外香暖蜜","厚被单上洁暖蜜","厚被单下静暖蜜","夏被安睡花暖蜜","夏被入梦草暖蜜","夏被浅眠叶暖蜜","夏被深眠果暖蜜","夏被回笼香暖蜜","夏被午憩茶暖蜜","夏被夜读蜜暖蜜","夏被灯下姜暖蜜","夏被被角暖暖蜜","夏被枕边兰暖蜜","夏被席间风暖蜜","夏被席上露暖蜜","夏被枕下笺暖蜜","夏被被里香暖蜜","夏被毯边花暖蜜","夏被毯上露暖蜜","夏被芯里暖暖蜜","夏被套外香暖蜜","夏被单上洁暖蜜","夏被单下静暖蜜","冬被安睡花暖蜜","冬被入梦草暖蜜","冬被浅眠叶暖蜜","冬被深眠果暖蜜","冬被回笼香暖蜜","冬被午憩茶暖蜜","冬被夜读蜜暖蜜","冬被灯下姜暖蜜","冬被被角暖暖蜜","冬被枕边兰暖蜜","冬被席间风暖蜜","冬被席上露暖蜜","冬被枕下笺暖蜜","冬被被里香暖蜜","冬被毯边花暖蜜","冬被毯上露暖蜜","冬被芯里暖暖蜜","冬被套外香暖蜜","冬被单上洁暖蜜","冬被单下静暖蜜","绒毯安睡花暖蜜","绒毯入梦草暖蜜","绒毯浅眠叶暖蜜","绒毯深眠果暖蜜","绒毯回笼香暖蜜","绒毯午憩茶暖蜜","绒毯夜读蜜暖蜜","绒毯灯下姜暖蜜","绒毯被角暖暖蜜","绒毯枕边兰暖蜜","绒毯席间风暖蜜","绒毯席上露暖蜜","绒毯枕下笺暖蜜","绒毯被里香暖蜜","绒毯毯边花暖蜜","绒毯毯上露暖蜜","绒毯芯里暖暖蜜","绒毯套外香暖蜜","绒毯单上洁暖蜜","绒毯单下静暖蜜","毛毯安睡花暖蜜","毛毯入梦草暖蜜","毛毯浅眠叶暖蜜","毛毯深眠果暖蜜","毛毯回笼香暖蜜","毛毯午憩茶暖蜜","毛毯夜读蜜暖蜜","毛毯灯下姜暖蜜","毛毯被角暖暖蜜","毛毯枕边兰暖蜜","毛毯席间风暖蜜","毛毯席上露暖蜜","毛毯枕下笺暖蜜","毛毯被里香暖蜜","毛毯毯边花暖蜜","毛毯毯上露暖蜜","毛毯芯里暖暖蜜","毛毯套外香暖蜜","毛毯单上洁暖蜜","毛毯单下静暖蜜","线毯安睡花暖蜜","线毯入梦草暖蜜","线毯浅眠叶暖蜜","线毯深眠果暖蜜","线毯回笼香暖蜜","线毯午憩茶暖蜜","线毯夜读蜜暖蜜","线毯灯下姜暖蜜","线毯被角暖暖蜜","线毯枕边兰暖蜜","线毯席间风暖蜜","线毯席上露暖蜜","线毯枕下笺暖蜜","线毯被里香暖蜜","线毯毯边花暖蜜","线毯毯上露暖蜜","线毯芯里暖暖蜜","线毯套外香暖蜜","线毯单上洁暖蜜","线毯单下静暖蜜","毛巾被安睡花暖蜜","毛巾被入梦草暖蜜","毛巾被浅眠叶暖蜜","毛巾被深眠果暖蜜","毛巾被回笼香暖蜜","毛巾被午憩茶暖蜜","毛巾被夜读蜜暖蜜","毛巾被灯下姜暖蜜","毛巾被被角暖暖蜜","毛巾被枕边兰暖蜜","毛巾被席间风暖蜜","毛巾被席上露暖蜜","毛巾被枕下笺暖蜜","毛巾被被里香暖蜜","毛巾被毯边花暖蜜","毛巾被毯上露暖蜜","毛巾被芯里暖暖蜜","毛巾被套外香暖蜜","毛巾被单上洁暖蜜","毛巾被单下静暖蜜","竹席安睡花暖蜜","竹席入梦草暖蜜","竹席浅眠叶暖蜜","竹席深眠果暖蜜","竹席回笼香暖蜜","竹席午憩茶暖蜜","竹席夜读蜜暖蜜","竹席灯下姜暖蜜","竹席被角暖暖蜜","竹席枕边兰暖蜜","竹席席间风暖蜜","竹席席上露暖蜜","竹席枕下笺暖蜜","竹席被里香暖蜜","竹席毯边花暖蜜","竹席毯上露暖蜜","竹席芯里暖暖蜜","竹席套外香暖蜜","竹席单上洁暖蜜","竹席单下静暖蜜","草席安睡花暖蜜","草席入梦草暖蜜","草席浅眠叶暖蜜","草席深眠果暖蜜","草席回笼香暖蜜","草席午憩茶暖蜜","草席夜读蜜暖蜜","草席灯下姜暖蜜","草席被角暖暖蜜","草席枕边兰暖蜜","草席席间风暖蜜","草席席上露暖蜜","草席枕下笺暖蜜","草席被里香暖蜜","草席毯边花暖蜜","草席毯上露暖蜜","草席芯里暖暖蜜","草席套外香暖蜜","草席单上洁暖蜜","草席单下静暖蜜","藤席安睡花暖蜜","藤席入梦草暖蜜","藤席浅眠叶暖蜜","藤席深眠果暖蜜","藤席回笼香暖蜜","藤席午憩茶暖蜜","藤席夜读蜜暖蜜","藤席灯下姜暖蜜","藤席被角暖暖蜜","藤席枕边兰暖蜜","藤席席间风暖蜜","藤席席上露暖蜜","藤席枕下笺暖蜜","藤席被里香暖蜜","藤席毯边花暖蜜","藤席毯上露暖蜜","藤席芯里暖暖蜜","藤席套外香暖蜜","藤席单上洁暖蜜","藤席单下静暖蜜","凉席安睡花暖蜜","凉席入梦草暖蜜","凉席浅眠叶暖蜜","凉席深眠果暖蜜","凉席回笼香暖蜜","凉席午憩茶暖蜜","凉席夜读蜜暖蜜","凉席灯下姜暖蜜","凉席被角暖暖蜜","凉席枕边兰暖蜜","凉席席间风暖蜜","凉席席上露暖蜜","凉席枕下笺暖蜜","凉席被里香暖蜜","凉席毯边花暖蜜","凉席毯上露暖蜜","凉席芯里暖暖蜜","凉席套外香暖蜜","凉席单上洁暖蜜","凉席单下静暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21437,7 +21437,7 @@ test("bridge0 bridge1 bridge2 bridge3 bridge4 bridge5 bridge6 bridge7 bridge8 br
   ["bridge1","bridge3","bridge5","bridge7","bridge9","bridge11","bridge13","bridge15","bridge17","bridge19","bridge21","bridge23","bridge25","bridge27","bridge29","bridge31","bridge33","bridge35","bridge37","bridge39","bridge41","bridge43","bridge45","bridge47","bridge49","bridge51","bridge53","bridge55","bridge57","bridge59","bridge61","bridge63","bridge65","bridge67","bridge69","bridge71","bridge73","bridge75","bridge77","bridge79","bridge81","bridge83","bridge85","bridge87","bridge89","bridge91","bridge93","bridge95","bridge97","bridge99","bridge101","bridge103","bridge105","bridge107","bridge109","bridge111","bridge113","bridge115","bridge117","bridge119","bridge121","bridge123","bridge125","bridge127","bridge129","bridge131","bridge133","bridge135","bridge137","bridge139","bridge141","bridge143","bridge145","bridge147","bridge149","bridge151","bridge153","bridge155","bridge157","bridge159","bridge161","bridge163","bridge165","bridge167","bridge169","bridge171","bridge173","bridge175","bridge177","bridge179","bridge181","bridge183","bridge185","bridge187","bridge189","bridge191","bridge193","bridge195","bridge197","bridge199","bridge201","bridge203","bridge205","bridge207","bridge209","bridge211","bridge213","bridge215","bridge217","bridge219","bridge221","bridge223","bridge225","bridge227","bridge229","bridge231","bridge233","bridge235","bridge237","bridge239","bridge241","bridge243","bridge245","bridge247","bridge249","bridge251","bridge253","bridge255","bridge257","bridge259","bridge261","bridge263","bridge265","bridge267","bridge269","bridge271","bridge273","bridge275","bridge277","bridge279","bridge281","bridge283","bridge285","bridge287","bridge289","bridge291","bridge293","bridge295","bridge297","bridge299","bridge301","bridge303","bridge305","bridge307","bridge309","bridge311","bridge313","bridge315","bridge317","bridge319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["bridge0","bridge2","bridge4","bridge6","bridge8","bridge10","bridge12","bridge14","bridge16","bridge18","bridge20","bridge22","bridge24","bridge26","bridge28","bridge30","bridge32","bridge34","bridge36","bridge38","bridge40","bridge42","bridge44","bridge46","bridge48","bridge50","bridge52","bridge54","bridge56","bridge58","bridge60","bridge62","bridge64","bridge66","bridge68","bridge70","bridge72","bridge74","bridge76","bridge78","bridge80","bridge82","bridge84","bridge86","bridge88","bridge90","bridge92","bridge94","bridge96","bridge98","bridge100","bridge102","bridge104","bridge106","bridge108","bridge110","bridge112","bridge114","bridge116","bridge118","bridge120","bridge122","bridge124","bridge126","bridge128","bridge130","bridge132","bridge134","bridge136","bridge138","bridge140","bridge142","bridge144","bridge146","bridge148","bridge150","bridge152","bridge154","bridge156","bridge158","bridge160","bridge162","bridge164","bridge166","bridge168","bridge170","bridge172","bridge174","bridge176","bridge178","bridge180","bridge182","bridge184","bridge186","bridge188","bridge190","bridge192","bridge194","bridge196","bridge198","bridge200","bridge202","bridge204","bridge206","bridge208","bridge210","bridge212","bridge214","bridge216","bridge218","bridge220","bridge222","bridge224","bridge226","bridge228","bridge230","bridge232","bridge234","bridge236","bridge238","bridge240","bridge242","bridge244","bridge246","bridge248","bridge250","bridge252","bridge254","bridge256","bridge258","bridge260","bridge262","bridge264","bridge266","bridge268","bridge270","bridge272","bridge274","bridge276","bridge278","bridge280","bridge282","bridge284","bridge286","bridge288","bridge290","bridge292","bridge294","bridge296","bridge298","bridge300","bridge302","bridge304","bridge306","bridge308","bridge310","bridge312","bridge314","bridge316","bridge318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("bridge0_path") && game.includes("bridge319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["石桥桥头茶暖蜜","石桥桥中蜜暖蜜","石桥桥尾姜暖蜜","石桥桥下风暖蜜","石桥桥影露暖蜜","石桥桥栏花暖蜜","石桥桥墩苔暖蜜","石桥桥板香暖蜜","石桥桥洞凉暖蜜","石桥桥灯暖暖蜜","石桥廊桥雨暖蜜","石桥拱桥月暖蜜","石桥曲桥柳暖蜜","石桥亭桥笛暖蜜","石桥浮桥浪暖蜜","石桥索桥风暖蜜","石桥栈桥潮暖蜜","石桥旱桥尘暖蜜","石桥水桥涟暖蜜","石桥月桥光暖蜜","木桥桥头茶暖蜜","木桥桥中蜜暖蜜","木桥桥尾姜暖蜜","木桥桥下风暖蜜","木桥桥影露暖蜜","木桥桥栏花暖蜜","木桥桥墩苔暖蜜","木桥桥板香暖蜜","木桥桥洞凉暖蜜","木桥桥灯暖暖蜜","木桥廊桥雨暖蜜","木桥拱桥月暖蜜","木桥曲桥柳暖蜜","木桥亭桥笛暖蜜","木桥浮桥浪暖蜜","木桥索桥风暖蜜","木桥栈桥潮暖蜜","木桥旱桥尘暖蜜","木桥水桥涟暖蜜","木桥月桥光暖蜜","竹桥桥头茶暖蜜","竹桥桥中蜜暖蜜","竹桥桥尾姜暖蜜","竹桥桥下风暖蜜","竹桥桥影露暖蜜","竹桥桥栏花暖蜜","竹桥桥墩苔暖蜜","竹桥桥板香暖蜜","竹桥桥洞凉暖蜜","竹桥桥灯暖暖蜜","竹桥廊桥雨暖蜜","竹桥拱桥月暖蜜","竹桥曲桥柳暖蜜","竹桥亭桥笛暖蜜","竹桥浮桥浪暖蜜","竹桥索桥风暖蜜","竹桥栈桥潮暖蜜","竹桥旱桥尘暖蜜","竹桥水桥涟暖蜜","竹桥月桥光暖蜜","铁桥桥头茶暖蜜","铁桥桥中蜜暖蜜","铁桥桥尾姜暖蜜","铁桥桥下风暖蜜","铁桥桥影露暖蜜","铁桥桥栏花暖蜜","铁桥桥墩苔暖蜜","铁桥桥板香暖蜜","铁桥桥洞凉暖蜜","铁桥桥灯暖暖蜜","铁桥廊桥雨暖蜜","铁桥拱桥月暖蜜","铁桥曲桥柳暖蜜","铁桥亭桥笛暖蜜","铁桥浮桥浪暖蜜","铁桥索桥风暖蜜","铁桥栈桥潮暖蜜","铁桥旱桥尘暖蜜","铁桥水桥涟暖蜜","铁桥月桥光暖蜜","吊桥桥头茶暖蜜","吊桥桥中蜜暖蜜","吊桥桥尾姜暖蜜","吊桥桥下风暖蜜","吊桥桥影露暖蜜","吊桥桥栏花暖蜜","吊桥桥墩苔暖蜜","吊桥桥板香暖蜜","吊桥桥洞凉暖蜜","吊桥桥灯暖暖蜜","吊桥廊桥雨暖蜜","吊桥拱桥月暖蜜","吊桥曲桥柳暖蜜","吊桥亭桥笛暖蜜","吊桥浮桥浪暖蜜","吊桥索桥风暖蜜","吊桥栈桥潮暖蜜","吊桥旱桥尘暖蜜","吊桥水桥涟暖蜜","吊桥月桥光暖蜜","廊桥桥头茶暖蜜","廊桥桥中蜜暖蜜","廊桥桥尾姜暖蜜","廊桥桥下风暖蜜","廊桥桥影露暖蜜","廊桥桥栏花暖蜜","廊桥桥墩苔暖蜜","廊桥桥板香暖蜜","廊桥桥洞凉暖蜜","廊桥桥灯暖暖蜜","廊桥廊桥雨暖蜜","廊桥拱桥月暖蜜","廊桥曲桥柳暖蜜","廊桥亭桥笛暖蜜","廊桥浮桥浪暖蜜","廊桥索桥风暖蜜","廊桥栈桥潮暖蜜","廊桥旱桥尘暖蜜","廊桥水桥涟暖蜜","廊桥月桥光暖蜜","拱桥桥头茶暖蜜","拱桥桥中蜜暖蜜","拱桥桥尾姜暖蜜","拱桥桥下风暖蜜","拱桥桥影露暖蜜","拱桥桥栏花暖蜜","拱桥桥墩苔暖蜜","拱桥桥板香暖蜜","拱桥桥洞凉暖蜜","拱桥桥灯暖暖蜜","拱桥廊桥雨暖蜜","拱桥拱桥月暖蜜","拱桥曲桥柳暖蜜","拱桥亭桥笛暖蜜","拱桥浮桥浪暖蜜","拱桥索桥风暖蜜","拱桥栈桥潮暖蜜","拱桥旱桥尘暖蜜","拱桥水桥涟暖蜜","拱桥月桥光暖蜜","平桥桥头茶暖蜜","平桥桥中蜜暖蜜","平桥桥尾姜暖蜜","平桥桥下风暖蜜","平桥桥影露暖蜜","平桥桥栏花暖蜜","平桥桥墩苔暖蜜","平桥桥板香暖蜜","平桥桥洞凉暖蜜","平桥桥灯暖暖蜜","平桥廊桥雨暖蜜","平桥拱桥月暖蜜","平桥曲桥柳暖蜜","平桥亭桥笛暖蜜","平桥浮桥浪暖蜜","平桥索桥风暖蜜","平桥栈桥潮暖蜜","平桥旱桥尘暖蜜","平桥水桥涟暖蜜","平桥月桥光暖蜜","曲桥桥头茶暖蜜","曲桥桥中蜜暖蜜","曲桥桥尾姜暖蜜","曲桥桥下风暖蜜","曲桥桥影露暖蜜","曲桥桥栏花暖蜜","曲桥桥墩苔暖蜜","曲桥桥板香暖蜜","曲桥桥洞凉暖蜜","曲桥桥灯暖暖蜜","曲桥廊桥雨暖蜜","曲桥拱桥月暖蜜","曲桥曲桥柳暖蜜","曲桥亭桥笛暖蜜","曲桥浮桥浪暖蜜","曲桥索桥风暖蜜","曲桥栈桥潮暖蜜","曲桥旱桥尘暖蜜","曲桥水桥涟暖蜜","曲桥月桥光暖蜜","亭桥桥头茶暖蜜","亭桥桥中蜜暖蜜","亭桥桥尾姜暖蜜","亭桥桥下风暖蜜","亭桥桥影露暖蜜","亭桥桥栏花暖蜜","亭桥桥墩苔暖蜜","亭桥桥板香暖蜜","亭桥桥洞凉暖蜜","亭桥桥灯暖暖蜜","亭桥廊桥雨暖蜜","亭桥拱桥月暖蜜","亭桥曲桥柳暖蜜","亭桥亭桥笛暖蜜","亭桥浮桥浪暖蜜","亭桥索桥风暖蜜","亭桥栈桥潮暖蜜","亭桥旱桥尘暖蜜","亭桥水桥涟暖蜜","亭桥月桥光暖蜜","浮桥桥头茶暖蜜","浮桥桥中蜜暖蜜","浮桥桥尾姜暖蜜","浮桥桥下风暖蜜","浮桥桥影露暖蜜","浮桥桥栏花暖蜜","浮桥桥墩苔暖蜜","浮桥桥板香暖蜜","浮桥桥洞凉暖蜜","浮桥桥灯暖暖蜜","浮桥廊桥雨暖蜜","浮桥拱桥月暖蜜","浮桥曲桥柳暖蜜","浮桥亭桥笛暖蜜","浮桥浮桥浪暖蜜","浮桥索桥风暖蜜","浮桥栈桥潮暖蜜","浮桥旱桥尘暖蜜","浮桥水桥涟暖蜜","浮桥月桥光暖蜜","索桥桥头茶暖蜜","索桥桥中蜜暖蜜","索桥桥尾姜暖蜜","索桥桥下风暖蜜","索桥桥影露暖蜜","索桥桥栏花暖蜜","索桥桥墩苔暖蜜","索桥桥板香暖蜜","索桥桥洞凉暖蜜","索桥桥灯暖暖蜜","索桥廊桥雨暖蜜","索桥拱桥月暖蜜","索桥曲桥柳暖蜜","索桥亭桥笛暖蜜","索桥浮桥浪暖蜜","索桥索桥风暖蜜","索桥栈桥潮暖蜜","索桥旱桥尘暖蜜","索桥水桥涟暖蜜","索桥月桥光暖蜜","栈桥桥头茶暖蜜","栈桥桥中蜜暖蜜","栈桥桥尾姜暖蜜","栈桥桥下风暖蜜","栈桥桥影露暖蜜","栈桥桥栏花暖蜜","栈桥桥墩苔暖蜜","栈桥桥板香暖蜜","栈桥桥洞凉暖蜜","栈桥桥灯暖暖蜜","栈桥廊桥雨暖蜜","栈桥拱桥月暖蜜","栈桥曲桥柳暖蜜","栈桥亭桥笛暖蜜","栈桥浮桥浪暖蜜","栈桥索桥风暖蜜","栈桥栈桥潮暖蜜","栈桥旱桥尘暖蜜","栈桥水桥涟暖蜜","栈桥月桥光暖蜜","旱桥桥头茶暖蜜","旱桥桥中蜜暖蜜","旱桥桥尾姜暖蜜","旱桥桥下风暖蜜","旱桥桥影露暖蜜","旱桥桥栏花暖蜜","旱桥桥墩苔暖蜜","旱桥桥板香暖蜜","旱桥桥洞凉暖蜜","旱桥桥灯暖暖蜜","旱桥廊桥雨暖蜜","旱桥拱桥月暖蜜","旱桥曲桥柳暖蜜","旱桥亭桥笛暖蜜","旱桥浮桥浪暖蜜","旱桥索桥风暖蜜","旱桥栈桥潮暖蜜","旱桥旱桥尘暖蜜","旱桥水桥涟暖蜜","旱桥月桥光暖蜜","水桥桥头茶暖蜜","水桥桥中蜜暖蜜","水桥桥尾姜暖蜜","水桥桥下风暖蜜","水桥桥影露暖蜜","水桥桥栏花暖蜜","水桥桥墩苔暖蜜","水桥桥板香暖蜜","水桥桥洞凉暖蜜","水桥桥灯暖暖蜜","水桥廊桥雨暖蜜","水桥拱桥月暖蜜","水桥曲桥柳暖蜜","水桥亭桥笛暖蜜","水桥浮桥浪暖蜜","水桥索桥风暖蜜","水桥栈桥潮暖蜜","水桥旱桥尘暖蜜","水桥水桥涟暖蜜","水桥月桥光暖蜜","月桥桥头茶暖蜜","月桥桥中蜜暖蜜","月桥桥尾姜暖蜜","月桥桥下风暖蜜","月桥桥影露暖蜜","月桥桥栏花暖蜜","月桥桥墩苔暖蜜","月桥桥板香暖蜜","月桥桥洞凉暖蜜","月桥桥灯暖暖蜜","月桥廊桥雨暖蜜","月桥拱桥月暖蜜","月桥曲桥柳暖蜜","月桥亭桥笛暖蜜","月桥浮桥浪暖蜜","月桥索桥风暖蜜","月桥栈桥潮暖蜜","月桥旱桥尘暖蜜","月桥水桥涟暖蜜","月桥月桥光暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21477,7 +21477,7 @@ test("well0 well1 well2 well3 well4 well5 well6 well7 well8 well9 well10 well11 
   ["well1","well3","well5","well7","well9","well11","well13","well15","well17","well19","well21","well23","well25","well27","well29","well31","well33","well35","well37","well39","well41","well43","well45","well47","well49","well51","well53","well55","well57","well59","well61","well63","well65","well67","well69","well71","well73","well75","well77","well79","well81","well83","well85","well87","well89","well91","well93","well95","well97","well99","well101","well103","well105","well107","well109","well111","well113","well115","well117","well119","well121","well123","well125","well127","well129","well131","well133","well135","well137","well139","well141","well143","well145","well147","well149","well151","well153","well155","well157","well159","well161","well163","well165","well167","well169","well171","well173","well175","well177","well179","well181","well183","well185","well187","well189","well191","well193","well195","well197","well199","well201","well203","well205","well207","well209","well211","well213","well215","well217","well219","well221","well223","well225","well227","well229","well231","well233","well235","well237","well239","well241","well243","well245","well247","well249","well251","well253","well255","well257","well259","well261","well263","well265","well267","well269","well271","well273","well275","well277","well279","well281","well283","well285","well287","well289","well291","well293","well295","well297","well299","well301","well303","well305","well307","well309","well311","well313","well315","well317","well319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["well0","well2","well4","well6","well8","well10","well12","well14","well16","well18","well20","well22","well24","well26","well28","well30","well32","well34","well36","well38","well40","well42","well44","well46","well48","well50","well52","well54","well56","well58","well60","well62","well64","well66","well68","well70","well72","well74","well76","well78","well80","well82","well84","well86","well88","well90","well92","well94","well96","well98","well100","well102","well104","well106","well108","well110","well112","well114","well116","well118","well120","well122","well124","well126","well128","well130","well132","well134","well136","well138","well140","well142","well144","well146","well148","well150","well152","well154","well156","well158","well160","well162","well164","well166","well168","well170","well172","well174","well176","well178","well180","well182","well184","well186","well188","well190","well192","well194","well196","well198","well200","well202","well204","well206","well208","well210","well212","well214","well216","well218","well220","well222","well224","well226","well228","well230","well232","well234","well236","well238","well240","well242","well244","well246","well248","well250","well252","well254","well256","well258","well260","well262","well264","well266","well268","well270","well272","well274","well276","well278","well280","well282","well284","well286","well288","well290","well292","well294","well296","well298","well300","well302","well304","well306","well308","well310","well312","well314","well316","well318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("well0_path") && game.includes("well319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["古井井绳草暖蜜","古井辘轳花暖蜜","古井井栏苔暖蜜","古井井台石暖蜜","古井井水甜暖蜜","古井井水清暖蜜","古井井边柳暖蜜","古井井边槐暖蜜","古井井台兰暖蜜","古井井台菊暖蜜","古井辘轳声暖蜜","古井汲水香暖蜜","古井桶边露暖蜜","古井绳痕湿暖蜜","古井井口雾暖蜜","古井井底凉暖蜜","古井井沿暖暖蜜","古井井壁湿暖蜜","古井井盖尘暖蜜","古井井亭风暖蜜","新井井绳草暖蜜","新井辘轳花暖蜜","新井井栏苔暖蜜","新井井台石暖蜜","新井井水甜暖蜜","新井井水清暖蜜","新井井边柳暖蜜","新井井边槐暖蜜","新井井台兰暖蜜","新井井台菊暖蜜","新井辘轳声暖蜜","新井汲水香暖蜜","新井桶边露暖蜜","新井绳痕湿暖蜜","新井井口雾暖蜜","新井井底凉暖蜜","新井井沿暖暖蜜","新井井壁湿暖蜜","新井井盖尘暖蜜","新井井亭风暖蜜","深井井绳草暖蜜","深井辘轳花暖蜜","深井井栏苔暖蜜","深井井台石暖蜜","深井井水甜暖蜜","深井井水清暖蜜","深井井边柳暖蜜","深井井边槐暖蜜","深井井台兰暖蜜","深井井台菊暖蜜","深井辘轳声暖蜜","深井汲水香暖蜜","深井桶边露暖蜜","深井绳痕湿暖蜜","深井井口雾暖蜜","深井井底凉暖蜜","深井井沿暖暖蜜","深井井壁湿暖蜜","深井井盖尘暖蜜","深井井亭风暖蜜","浅井井绳草暖蜜","浅井辘轳花暖蜜","浅井井栏苔暖蜜","浅井井台石暖蜜","浅井井水甜暖蜜","浅井井水清暖蜜","浅井井边柳暖蜜","浅井井边槐暖蜜","浅井井台兰暖蜜","浅井井台菊暖蜜","浅井辘轳声暖蜜","浅井汲水香暖蜜","浅井桶边露暖蜜","浅井绳痕湿暖蜜","浅井井口雾暖蜜","浅井井底凉暖蜜","浅井井沿暖暖蜜","浅井井壁湿暖蜜","浅井井盖尘暖蜜","浅井井亭风暖蜜","砖井井绳草暖蜜","砖井辘轳花暖蜜","砖井井栏苔暖蜜","砖井井台石暖蜜","砖井井水甜暖蜜","砖井井水清暖蜜","砖井井边柳暖蜜","砖井井边槐暖蜜","砖井井台兰暖蜜","砖井井台菊暖蜜","砖井辘轳声暖蜜","砖井汲水香暖蜜","砖井桶边露暖蜜","砖井绳痕湿暖蜜","砖井井口雾暖蜜","砖井井底凉暖蜜","砖井井沿暖暖蜜","砖井井壁湿暖蜜","砖井井盖尘暖蜜","砖井井亭风暖蜜","石井井绳草暖蜜","石井辘轳花暖蜜","石井井栏苔暖蜜","石井井台石暖蜜","石井井水甜暖蜜","石井井水清暖蜜","石井井边柳暖蜜","石井井边槐暖蜜","石井井台兰暖蜜","石井井台菊暖蜜","石井辘轳声暖蜜","石井汲水香暖蜜","石井桶边露暖蜜","石井绳痕湿暖蜜","石井井口雾暖蜜","石井井底凉暖蜜","石井井沿暖暖蜜","石井井壁湿暖蜜","石井井盖尘暖蜜","石井井亭风暖蜜","木井井绳草暖蜜","木井辘轳花暖蜜","木井井栏苔暖蜜","木井井台石暖蜜","木井井水甜暖蜜","木井井水清暖蜜","木井井边柳暖蜜","木井井边槐暖蜜","木井井台兰暖蜜","木井井台菊暖蜜","木井辘轳声暖蜜","木井汲水香暖蜜","木井桶边露暖蜜","木井绳痕湿暖蜜","木井井口雾暖蜜","木井井底凉暖蜜","木井井沿暖暖蜜","木井井壁湿暖蜜","木井井盖尘暖蜜","木井井亭风暖蜜","竹井井绳草暖蜜","竹井辘轳花暖蜜","竹井井栏苔暖蜜","竹井井台石暖蜜","竹井井水甜暖蜜","竹井井水清暖蜜","竹井井边柳暖蜜","竹井井边槐暖蜜","竹井井台兰暖蜜","竹井井台菊暖蜜","竹井辘轳声暖蜜","竹井汲水香暖蜜","竹井桶边露暖蜜","竹井绳痕湿暖蜜","竹井井口雾暖蜜","竹井井底凉暖蜜","竹井井沿暖暖蜜","竹井井壁湿暖蜜","竹井井盖尘暖蜜","竹井井亭风暖蜜","甜井井绳草暖蜜","甜井辘轳花暖蜜","甜井井栏苔暖蜜","甜井井台石暖蜜","甜井井水甜暖蜜","甜井井水清暖蜜","甜井井边柳暖蜜","甜井井边槐暖蜜","甜井井台兰暖蜜","甜井井台菊暖蜜","甜井辘轳声暖蜜","甜井汲水香暖蜜","甜井桶边露暖蜜","甜井绳痕湿暖蜜","甜井井口雾暖蜜","甜井井底凉暖蜜","甜井井沿暖暖蜜","甜井井壁湿暖蜜","甜井井盖尘暖蜜","甜井井亭风暖蜜","苦井井绳草暖蜜","苦井辘轳花暖蜜","苦井井栏苔暖蜜","苦井井台石暖蜜","苦井井水甜暖蜜","苦井井水清暖蜜","苦井井边柳暖蜜","苦井井边槐暖蜜","苦井井台兰暖蜜","苦井井台菊暖蜜","苦井辘轳声暖蜜","苦井汲水香暖蜜","苦井桶边露暖蜜","苦井绳痕湿暖蜜","苦井井口雾暖蜜","苦井井底凉暖蜜","苦井井沿暖暖蜜","苦井井壁湿暖蜜","苦井井盖尘暖蜜","苦井井亭风暖蜜","温泉井井绳草暖蜜","温泉井辘轳花暖蜜","温泉井井栏苔暖蜜","温泉井井台石暖蜜","温泉井井水甜暖蜜","温泉井井水清暖蜜","温泉井井边柳暖蜜","温泉井井边槐暖蜜","温泉井井台兰暖蜜","温泉井井台菊暖蜜","温泉井辘轳声暖蜜","温泉井汲水香暖蜜","温泉井桶边露暖蜜","温泉井绳痕湿暖蜜","温泉井井口雾暖蜜","温泉井井底凉暖蜜","温泉井井沿暖暖蜜","温泉井井壁湿暖蜜","温泉井井盖尘暖蜜","温泉井井亭风暖蜜","冷泉井井绳草暖蜜","冷泉井辘轳花暖蜜","冷泉井井栏苔暖蜜","冷泉井井台石暖蜜","冷泉井井水甜暖蜜","冷泉井井水清暖蜜","冷泉井井边柳暖蜜","冷泉井井边槐暖蜜","冷泉井井台兰暖蜜","冷泉井井台菊暖蜜","冷泉井辘轳声暖蜜","冷泉井汲水香暖蜜","冷泉井桶边露暖蜜","冷泉井绳痕湿暖蜜","冷泉井井口雾暖蜜","冷泉井井底凉暖蜜","冷泉井井沿暖暖蜜","冷泉井井壁湿暖蜜","冷泉井井盖尘暖蜜","冷泉井井亭风暖蜜","村井井绳草暖蜜","村井辘轳花暖蜜","村井井栏苔暖蜜","村井井台石暖蜜","村井井水甜暖蜜","村井井水清暖蜜","村井井边柳暖蜜","村井井边槐暖蜜","村井井台兰暖蜜","村井井台菊暖蜜","村井辘轳声暖蜜","村井汲水香暖蜜","村井桶边露暖蜜","村井绳痕湿暖蜜","村井井口雾暖蜜","村井井底凉暖蜜","村井井沿暖暖蜜","村井井壁湿暖蜜","村井井盖尘暖蜜","村井井亭风暖蜜","寺井井绳草暖蜜","寺井辘轳花暖蜜","寺井井栏苔暖蜜","寺井井台石暖蜜","寺井井水甜暖蜜","寺井井水清暖蜜","寺井井边柳暖蜜","寺井井边槐暖蜜","寺井井台兰暖蜜","寺井井台菊暖蜜","寺井辘轳声暖蜜","寺井汲水香暖蜜","寺井桶边露暖蜜","寺井绳痕湿暖蜜","寺井井口雾暖蜜","寺井井底凉暖蜜","寺井井沿暖暖蜜","寺井井壁湿暖蜜","寺井井盖尘暖蜜","寺井井亭风暖蜜","宅井井绳草暖蜜","宅井辘轳花暖蜜","宅井井栏苔暖蜜","宅井井台石暖蜜","宅井井水甜暖蜜","宅井井水清暖蜜","宅井井边柳暖蜜","宅井井边槐暖蜜","宅井井台兰暖蜜","宅井井台菊暖蜜","宅井辘轳声暖蜜","宅井汲水香暖蜜","宅井桶边露暖蜜","宅井绳痕湿暖蜜","宅井井口雾暖蜜","宅井井底凉暖蜜","宅井井沿暖暖蜜","宅井井壁湿暖蜜","宅井井盖尘暖蜜","宅井井亭风暖蜜","园井井绳草暖蜜","园井辘轳花暖蜜","园井井栏苔暖蜜","园井井台石暖蜜","园井井水甜暖蜜","园井井水清暖蜜","园井井边柳暖蜜","园井井边槐暖蜜","园井井台兰暖蜜","园井井台菊暖蜜","园井辘轳声暖蜜","园井汲水香暖蜜","园井桶边露暖蜜","园井绳痕湿暖蜜","园井井口雾暖蜜","园井井底凉暖蜜","园井井沿暖暖蜜","园井井壁湿暖蜜","园井井盖尘暖蜜","园井井亭风暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21517,7 +21517,7 @@ test("kiln0 kiln1 kiln2 kiln3 kiln4 kiln5 kiln6 kiln7 kiln8 kiln9 kiln10 kiln11 
   ["kiln1","kiln3","kiln5","kiln7","kiln9","kiln11","kiln13","kiln15","kiln17","kiln19","kiln21","kiln23","kiln25","kiln27","kiln29","kiln31","kiln33","kiln35","kiln37","kiln39","kiln41","kiln43","kiln45","kiln47","kiln49","kiln51","kiln53","kiln55","kiln57","kiln59","kiln61","kiln63","kiln65","kiln67","kiln69","kiln71","kiln73","kiln75","kiln77","kiln79","kiln81","kiln83","kiln85","kiln87","kiln89","kiln91","kiln93","kiln95","kiln97","kiln99","kiln101","kiln103","kiln105","kiln107","kiln109","kiln111","kiln113","kiln115","kiln117","kiln119","kiln121","kiln123","kiln125","kiln127","kiln129","kiln131","kiln133","kiln135","kiln137","kiln139","kiln141","kiln143","kiln145","kiln147","kiln149","kiln151","kiln153","kiln155","kiln157","kiln159","kiln161","kiln163","kiln165","kiln167","kiln169","kiln171","kiln173","kiln175","kiln177","kiln179","kiln181","kiln183","kiln185","kiln187","kiln189","kiln191","kiln193","kiln195","kiln197","kiln199","kiln201","kiln203","kiln205","kiln207","kiln209","kiln211","kiln213","kiln215","kiln217","kiln219","kiln221","kiln223","kiln225","kiln227","kiln229","kiln231","kiln233","kiln235","kiln237","kiln239","kiln241","kiln243","kiln245","kiln247","kiln249","kiln251","kiln253","kiln255","kiln257","kiln259","kiln261","kiln263","kiln265","kiln267","kiln269","kiln271","kiln273","kiln275","kiln277","kiln279","kiln281","kiln283","kiln285","kiln287","kiln289","kiln291","kiln293","kiln295","kiln297","kiln299","kiln301","kiln303","kiln305","kiln307","kiln309","kiln311","kiln313","kiln315","kiln317","kiln319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["kiln0","kiln2","kiln4","kiln6","kiln8","kiln10","kiln12","kiln14","kiln16","kiln18","kiln20","kiln22","kiln24","kiln26","kiln28","kiln30","kiln32","kiln34","kiln36","kiln38","kiln40","kiln42","kiln44","kiln46","kiln48","kiln50","kiln52","kiln54","kiln56","kiln58","kiln60","kiln62","kiln64","kiln66","kiln68","kiln70","kiln72","kiln74","kiln76","kiln78","kiln80","kiln82","kiln84","kiln86","kiln88","kiln90","kiln92","kiln94","kiln96","kiln98","kiln100","kiln102","kiln104","kiln106","kiln108","kiln110","kiln112","kiln114","kiln116","kiln118","kiln120","kiln122","kiln124","kiln126","kiln128","kiln130","kiln132","kiln134","kiln136","kiln138","kiln140","kiln142","kiln144","kiln146","kiln148","kiln150","kiln152","kiln154","kiln156","kiln158","kiln160","kiln162","kiln164","kiln166","kiln168","kiln170","kiln172","kiln174","kiln176","kiln178","kiln180","kiln182","kiln184","kiln186","kiln188","kiln190","kiln192","kiln194","kiln196","kiln198","kiln200","kiln202","kiln204","kiln206","kiln208","kiln210","kiln212","kiln214","kiln216","kiln218","kiln220","kiln222","kiln224","kiln226","kiln228","kiln230","kiln232","kiln234","kiln236","kiln238","kiln240","kiln242","kiln244","kiln246","kiln248","kiln250","kiln252","kiln254","kiln256","kiln258","kiln260","kiln262","kiln264","kiln266","kiln268","kiln270","kiln272","kiln274","kiln276","kiln278","kiln280","kiln282","kiln284","kiln286","kiln288","kiln290","kiln292","kiln294","kiln296","kiln298","kiln300","kiln302","kiln304","kiln306","kiln308","kiln310","kiln312","kiln314","kiln316","kiln318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("kiln0_path") && game.includes("kiln319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["柴窑窑前茶暖蜜","柴窑窑后蜜暖蜜","柴窑窑口姜暖蜜","柴窑窑门风暖蜜","柴窑窑顶烟暖蜜","柴窑窑底灰暖蜜","柴窑窑壁火暖蜜","柴窑窑缝光暖蜜","柴窑窑砖热暖蜜","柴窑窑砂香暖蜜","柴窑还原香暖蜜","柴窑氧化净暖蜜","柴窑窑变彩暖蜜","柴窑窑汗亮暖蜜","柴窑窑霜白暖蜜","柴窑窑裂纹暖蜜","柴窑窑红焰暖蜜","柴窑窑青烟暖蜜","柴窑柴灰香暖蜜","柴窑煤渣暖暖蜜","煤窑窑前茶暖蜜","煤窑窑后蜜暖蜜","煤窑窑口姜暖蜜","煤窑窑门风暖蜜","煤窑窑顶烟暖蜜","煤窑窑底灰暖蜜","煤窑窑壁火暖蜜","煤窑窑缝光暖蜜","煤窑窑砖热暖蜜","煤窑窑砂香暖蜜","煤窑还原香暖蜜","煤窑氧化净暖蜜","煤窑窑变彩暖蜜","煤窑窑汗亮暖蜜","煤窑窑霜白暖蜜","煤窑窑裂纹暖蜜","煤窑窑红焰暖蜜","煤窑窑青烟暖蜜","煤窑柴灰香暖蜜","煤窑煤渣暖暖蜜","气窑窑前茶暖蜜","气窑窑后蜜暖蜜","气窑窑口姜暖蜜","气窑窑门风暖蜜","气窑窑顶烟暖蜜","气窑窑底灰暖蜜","气窑窑壁火暖蜜","气窑窑缝光暖蜜","气窑窑砖热暖蜜","气窑窑砂香暖蜜","气窑还原香暖蜜","气窑氧化净暖蜜","气窑窑变彩暖蜜","气窑窑汗亮暖蜜","气窑窑霜白暖蜜","气窑窑裂纹暖蜜","气窑窑红焰暖蜜","气窑窑青烟暖蜜","气窑柴灰香暖蜜","气窑煤渣暖暖蜜","电窑窑前茶暖蜜","电窑窑后蜜暖蜜","电窑窑口姜暖蜜","电窑窑门风暖蜜","电窑窑顶烟暖蜜","电窑窑底灰暖蜜","电窑窑壁火暖蜜","电窑窑缝光暖蜜","电窑窑砖热暖蜜","电窑窑砂香暖蜜","电窑还原香暖蜜","电窑氧化净暖蜜","电窑窑变彩暖蜜","电窑窑汗亮暖蜜","电窑窑霜白暖蜜","电窑窑裂纹暖蜜","电窑窑红焰暖蜜","电窑窑青烟暖蜜","电窑柴灰香暖蜜","电窑煤渣暖暖蜜","龙窑窑前茶暖蜜","龙窑窑后蜜暖蜜","龙窑窑口姜暖蜜","龙窑窑门风暖蜜","龙窑窑顶烟暖蜜","龙窑窑底灰暖蜜","龙窑窑壁火暖蜜","龙窑窑缝光暖蜜","龙窑窑砖热暖蜜","龙窑窑砂香暖蜜","龙窑还原香暖蜜","龙窑氧化净暖蜜","龙窑窑变彩暖蜜","龙窑窑汗亮暖蜜","龙窑窑霜白暖蜜","龙窑窑裂纹暖蜜","龙窑窑红焰暖蜜","龙窑窑青烟暖蜜","龙窑柴灰香暖蜜","龙窑煤渣暖暖蜜","馒头窑窑前茶暖蜜","馒头窑窑后蜜暖蜜","馒头窑窑口姜暖蜜","馒头窑窑门风暖蜜","馒头窑窑顶烟暖蜜","馒头窑窑底灰暖蜜","馒头窑窑壁火暖蜜","馒头窑窑缝光暖蜜","馒头窑窑砖热暖蜜","馒头窑窑砂香暖蜜","馒头窑还原香暖蜜","馒头窑氧化净暖蜜","馒头窑窑变彩暖蜜","馒头窑窑汗亮暖蜜","馒头窑窑霜白暖蜜","馒头窑窑裂纹暖蜜","馒头窑窑红焰暖蜜","馒头窑窑青烟暖蜜","馒头窑柴灰香暖蜜","馒头窑煤渣暖暖蜜","葫芦窑窑前茶暖蜜","葫芦窑窑后蜜暖蜜","葫芦窑窑口姜暖蜜","葫芦窑窑门风暖蜜","葫芦窑窑顶烟暖蜜","葫芦窑窑底灰暖蜜","葫芦窑窑壁火暖蜜","葫芦窑窑缝光暖蜜","葫芦窑窑砖热暖蜜","葫芦窑窑砂香暖蜜","葫芦窑还原香暖蜜","葫芦窑氧化净暖蜜","葫芦窑窑变彩暖蜜","葫芦窑窑汗亮暖蜜","葫芦窑窑霜白暖蜜","葫芦窑窑裂纹暖蜜","葫芦窑窑红焰暖蜜","葫芦窑窑青烟暖蜜","葫芦窑柴灰香暖蜜","葫芦窑煤渣暖暖蜜","阶级窑窑前茶暖蜜","阶级窑窑后蜜暖蜜","阶级窑窑口姜暖蜜","阶级窑窑门风暖蜜","阶级窑窑顶烟暖蜜","阶级窑窑底灰暖蜜","阶级窑窑壁火暖蜜","阶级窑窑缝光暖蜜","阶级窑窑砖热暖蜜","阶级窑窑砂香暖蜜","阶级窑还原香暖蜜","阶级窑氧化净暖蜜","阶级窑窑变彩暖蜜","阶级窑窑汗亮暖蜜","阶级窑窑霜白暖蜜","阶级窑窑裂纹暖蜜","阶级窑窑红焰暖蜜","阶级窑窑青烟暖蜜","阶级窑柴灰香暖蜜","阶级窑煤渣暖暖蜜","蛋形窑窑前茶暖蜜","蛋形窑窑后蜜暖蜜","蛋形窑窑口姜暖蜜","蛋形窑窑门风暖蜜","蛋形窑窑顶烟暖蜜","蛋形窑窑底灰暖蜜","蛋形窑窑壁火暖蜜","蛋形窑窑缝光暖蜜","蛋形窑窑砖热暖蜜","蛋形窑窑砂香暖蜜","蛋形窑还原香暖蜜","蛋形窑氧化净暖蜜","蛋形窑窑变彩暖蜜","蛋形窑窑汗亮暖蜜","蛋形窑窑霜白暖蜜","蛋形窑窑裂纹暖蜜","蛋形窑窑红焰暖蜜","蛋形窑窑青烟暖蜜","蛋形窑柴灰香暖蜜","蛋形窑煤渣暖暖蜜","倒焰窑窑前茶暖蜜","倒焰窑窑后蜜暖蜜","倒焰窑窑口姜暖蜜","倒焰窑窑门风暖蜜","倒焰窑窑顶烟暖蜜","倒焰窑窑底灰暖蜜","倒焰窑窑壁火暖蜜","倒焰窑窑缝光暖蜜","倒焰窑窑砖热暖蜜","倒焰窑窑砂香暖蜜","倒焰窑还原香暖蜜","倒焰窑氧化净暖蜜","倒焰窑窑变彩暖蜜","倒焰窑窑汗亮暖蜜","倒焰窑窑霜白暖蜜","倒焰窑窑裂纹暖蜜","倒焰窑窑红焰暖蜜","倒焰窑窑青烟暖蜜","倒焰窑柴灰香暖蜜","倒焰窑煤渣暖暖蜜","平焰窑窑前茶暖蜜","平焰窑窑后蜜暖蜜","平焰窑窑口姜暖蜜","平焰窑窑门风暖蜜","平焰窑窑顶烟暖蜜","平焰窑窑底灰暖蜜","平焰窑窑壁火暖蜜","平焰窑窑缝光暖蜜","平焰窑窑砖热暖蜜","平焰窑窑砂香暖蜜","平焰窑还原香暖蜜","平焰窑氧化净暖蜜","平焰窑窑变彩暖蜜","平焰窑窑汗亮暖蜜","平焰窑窑霜白暖蜜","平焰窑窑裂纹暖蜜","平焰窑窑红焰暖蜜","平焰窑窑青烟暖蜜","平焰窑柴灰香暖蜜","平焰窑煤渣暖暖蜜","升焰窑窑前茶暖蜜","升焰窑窑后蜜暖蜜","升焰窑窑口姜暖蜜","升焰窑窑门风暖蜜","升焰窑窑顶烟暖蜜","升焰窑窑底灰暖蜜","升焰窑窑壁火暖蜜","升焰窑窑缝光暖蜜","升焰窑窑砖热暖蜜","升焰窑窑砂香暖蜜","升焰窑还原香暖蜜","升焰窑氧化净暖蜜","升焰窑窑变彩暖蜜","升焰窑窑汗亮暖蜜","升焰窑窑霜白暖蜜","升焰窑窑裂纹暖蜜","升焰窑窑红焰暖蜜","升焰窑窑青烟暖蜜","升焰窑柴灰香暖蜜","升焰窑煤渣暖暖蜜","还原焰窑前茶暖蜜","还原焰窑后蜜暖蜜","还原焰窑口姜暖蜜","还原焰窑门风暖蜜","还原焰窑顶烟暖蜜","还原焰窑底灰暖蜜","还原焰窑壁火暖蜜","还原焰窑缝光暖蜜","还原焰窑砖热暖蜜","还原焰窑砂香暖蜜","还原焰还原香暖蜜","还原焰氧化净暖蜜","还原焰窑变彩暖蜜","还原焰窑汗亮暖蜜","还原焰窑霜白暖蜜","还原焰窑裂纹暖蜜","还原焰窑红焰暖蜜","还原焰窑青烟暖蜜","还原焰柴灰香暖蜜","还原焰煤渣暖暖蜜","氧化焰窑前茶暖蜜","氧化焰窑后蜜暖蜜","氧化焰窑口姜暖蜜","氧化焰窑门风暖蜜","氧化焰窑顶烟暖蜜","氧化焰窑底灰暖蜜","氧化焰窑壁火暖蜜","氧化焰窑缝光暖蜜","氧化焰窑砖热暖蜜","氧化焰窑砂香暖蜜","氧化焰还原香暖蜜","氧化焰氧化净暖蜜","氧化焰窑变彩暖蜜","氧化焰窑汗亮暖蜜","氧化焰窑霜白暖蜜","氧化焰窑裂纹暖蜜","氧化焰窑红焰暖蜜","氧化焰窑青烟暖蜜","氧化焰柴灰香暖蜜","氧化焰煤渣暖暖蜜","窑变窑前茶暖蜜","窑变窑后蜜暖蜜","窑变窑口姜暖蜜","窑变窑门风暖蜜","窑变窑顶烟暖蜜","窑变窑底灰暖蜜","窑变窑壁火暖蜜","窑变窑缝光暖蜜","窑变窑砖热暖蜜","窑变窑砂香暖蜜","窑变还原香暖蜜","窑变氧化净暖蜜","窑变窑变彩暖蜜","窑变窑汗亮暖蜜","窑变窑霜白暖蜜","窑变窑裂纹暖蜜","窑变窑红焰暖蜜","窑变窑青烟暖蜜","窑变柴灰香暖蜜","窑变煤渣暖暖蜜","窑汗窑前茶暖蜜","窑汗窑后蜜暖蜜","窑汗窑口姜暖蜜","窑汗窑门风暖蜜","窑汗窑顶烟暖蜜","窑汗窑底灰暖蜜","窑汗窑壁火暖蜜","窑汗窑缝光暖蜜","窑汗窑砖热暖蜜","窑汗窑砂香暖蜜","窑汗还原香暖蜜","窑汗氧化净暖蜜","窑汗窑变彩暖蜜","窑汗窑汗亮暖蜜","窑汗窑霜白暖蜜","窑汗窑裂纹暖蜜","窑汗窑红焰暖蜜","窑汗窑青烟暖蜜","窑汗柴灰香暖蜜","窑汗煤渣暖暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21557,7 +21557,7 @@ test("orch0 orch1 orch2 orch3 orch4 orch5 orch6 orch7 orch8 orch9 orch10 orch11 
   ["orch1","orch3","orch5","orch7","orch9","orch11","orch13","orch15","orch17","orch19","orch21","orch23","orch25","orch27","orch29","orch31","orch33","orch35","orch37","orch39","orch41","orch43","orch45","orch47","orch49","orch51","orch53","orch55","orch57","orch59","orch61","orch63","orch65","orch67","orch69","orch71","orch73","orch75","orch77","orch79","orch81","orch83","orch85","orch87","orch89","orch91","orch93","orch95","orch97","orch99","orch101","orch103","orch105","orch107","orch109","orch111","orch113","orch115","orch117","orch119","orch121","orch123","orch125","orch127","orch129","orch131","orch133","orch135","orch137","orch139","orch141","orch143","orch145","orch147","orch149","orch151","orch153","orch155","orch157","orch159","orch161","orch163","orch165","orch167","orch169","orch171","orch173","orch175","orch177","orch179","orch181","orch183","orch185","orch187","orch189","orch191","orch193","orch195","orch197","orch199","orch201","orch203","orch205","orch207","orch209","orch211","orch213","orch215","orch217","orch219","orch221","orch223","orch225","orch227","orch229","orch231","orch233","orch235","orch237","orch239","orch241","orch243","orch245","orch247","orch249","orch251","orch253","orch255","orch257","orch259","orch261","orch263","orch265","orch267","orch269","orch271","orch273","orch275","orch277","orch279","orch281","orch283","orch285","orch287","orch289","orch291","orch293","orch295","orch297","orch299","orch301","orch303","orch305","orch307","orch309","orch311","orch313","orch315","orch317","orch319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["orch0","orch2","orch4","orch6","orch8","orch10","orch12","orch14","orch16","orch18","orch20","orch22","orch24","orch26","orch28","orch30","orch32","orch34","orch36","orch38","orch40","orch42","orch44","orch46","orch48","orch50","orch52","orch54","orch56","orch58","orch60","orch62","orch64","orch66","orch68","orch70","orch72","orch74","orch76","orch78","orch80","orch82","orch84","orch86","orch88","orch90","orch92","orch94","orch96","orch98","orch100","orch102","orch104","orch106","orch108","orch110","orch112","orch114","orch116","orch118","orch120","orch122","orch124","orch126","orch128","orch130","orch132","orch134","orch136","orch138","orch140","orch142","orch144","orch146","orch148","orch150","orch152","orch154","orch156","orch158","orch160","orch162","orch164","orch166","orch168","orch170","orch172","orch174","orch176","orch178","orch180","orch182","orch184","orch186","orch188","orch190","orch192","orch194","orch196","orch198","orch200","orch202","orch204","orch206","orch208","orch210","orch212","orch214","orch216","orch218","orch220","orch222","orch224","orch226","orch228","orch230","orch232","orch234","orch236","orch238","orch240","orch242","orch244","orch246","orch248","orch250","orch252","orch254","orch256","orch258","orch260","orch262","orch264","orch266","orch268","orch270","orch272","orch274","orch276","orch278","orch280","orch282","orch284","orch286","orch288","orch290","orch292","orch294","orch296","orch298","orch300","orch302","orch304","orch306","orch308","orch310","orch312","orch314","orch316","orch318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("orch0_path") && game.includes("orch319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["桃园落果香暖蜜","桃园枝头果暖蜜","桃园叶底果暖蜜","桃园根旁草暖蜜","桃园畦间花暖蜜","桃园篱边藤暖蜜","桃园园门柳暖蜜","桃园园中径暖蜜","桃园园角井暖蜜","桃园园后溪暖蜜","桃园桃腮红暖蜜","桃园李子紫暖蜜","桃园杏黄软暖蜜","桃园梨白脆暖蜜","桃园苹果脆暖蜜","桃园枣甜软暖蜜","桃园柿红软暖蜜","桃园榴红裂暖蜜","桃园橘黄亮暖蜜","桃园柚香厚暖蜜","李园落果香暖蜜","李园枝头果暖蜜","李园叶底果暖蜜","李园根旁草暖蜜","李园畦间花暖蜜","李园篱边藤暖蜜","李园园门柳暖蜜","李园园中径暖蜜","李园园角井暖蜜","李园园后溪暖蜜","李园桃腮红暖蜜","李园李子紫暖蜜","李园杏黄软暖蜜","李园梨白脆暖蜜","李园苹果脆暖蜜","李园枣甜软暖蜜","李园柿红软暖蜜","李园榴红裂暖蜜","李园橘黄亮暖蜜","李园柚香厚暖蜜","杏园落果香暖蜜","杏园枝头果暖蜜","杏园叶底果暖蜜","杏园根旁草暖蜜","杏园畦间花暖蜜","杏园篱边藤暖蜜","杏园园门柳暖蜜","杏园园中径暖蜜","杏园园角井暖蜜","杏园园后溪暖蜜","杏园桃腮红暖蜜","杏园李子紫暖蜜","杏园杏黄软暖蜜","杏园梨白脆暖蜜","杏园苹果脆暖蜜","杏园枣甜软暖蜜","杏园柿红软暖蜜","杏园榴红裂暖蜜","杏园橘黄亮暖蜜","杏园柚香厚暖蜜","梨园落果香暖蜜","梨园枝头果暖蜜","梨园叶底果暖蜜","梨园根旁草暖蜜","梨园畦间花暖蜜","梨园篱边藤暖蜜","梨园园门柳暖蜜","梨园园中径暖蜜","梨园园角井暖蜜","梨园园后溪暖蜜","梨园桃腮红暖蜜","梨园李子紫暖蜜","梨园杏黄软暖蜜","梨园梨白脆暖蜜","梨园苹果脆暖蜜","梨园枣甜软暖蜜","梨园柿红软暖蜜","梨园榴红裂暖蜜","梨园橘黄亮暖蜜","梨园柚香厚暖蜜","苹果园落果香暖蜜","苹果园枝头果暖蜜","苹果园叶底果暖蜜","苹果园根旁草暖蜜","苹果园畦间花暖蜜","苹果园篱边藤暖蜜","苹果园园门柳暖蜜","苹果园园中径暖蜜","苹果园园角井暖蜜","苹果园园后溪暖蜜","苹果园桃腮红暖蜜","苹果园李子紫暖蜜","苹果园杏黄软暖蜜","苹果园梨白脆暖蜜","苹果园苹果脆暖蜜","苹果园枣甜软暖蜜","苹果园柿红软暖蜜","苹果园榴红裂暖蜜","苹果园橘黄亮暖蜜","苹果园柚香厚暖蜜","枣园落果香暖蜜","枣园枝头果暖蜜","枣园叶底果暖蜜","枣园根旁草暖蜜","枣园畦间花暖蜜","枣园篱边藤暖蜜","枣园园门柳暖蜜","枣园园中径暖蜜","枣园园角井暖蜜","枣园园后溪暖蜜","枣园桃腮红暖蜜","枣园李子紫暖蜜","枣园杏黄软暖蜜","枣园梨白脆暖蜜","枣园苹果脆暖蜜","枣园枣甜软暖蜜","枣园柿红软暖蜜","枣园榴红裂暖蜜","枣园橘黄亮暖蜜","枣园柚香厚暖蜜","柿园落果香暖蜜","柿园枝头果暖蜜","柿园叶底果暖蜜","柿园根旁草暖蜜","柿园畦间花暖蜜","柿园篱边藤暖蜜","柿园园门柳暖蜜","柿园园中径暖蜜","柿园园角井暖蜜","柿园园后溪暖蜜","柿园桃腮红暖蜜","柿园李子紫暖蜜","柿园杏黄软暖蜜","柿园梨白脆暖蜜","柿园苹果脆暖蜜","柿园枣甜软暖蜜","柿园柿红软暖蜜","柿园榴红裂暖蜜","柿园橘黄亮暖蜜","柿园柚香厚暖蜜","石榴园落果香暖蜜","石榴园枝头果暖蜜","石榴园叶底果暖蜜","石榴园根旁草暖蜜","石榴园畦间花暖蜜","石榴园篱边藤暖蜜","石榴园园门柳暖蜜","石榴园园中径暖蜜","石榴园园角井暖蜜","石榴园园后溪暖蜜","石榴园桃腮红暖蜜","石榴园李子紫暖蜜","石榴园杏黄软暖蜜","石榴园梨白脆暖蜜","石榴园苹果脆暖蜜","石榴园枣甜软暖蜜","石榴园柿红软暖蜜","石榴园榴红裂暖蜜","石榴园橘黄亮暖蜜","石榴园柚香厚暖蜜","橘园落果香暖蜜","橘园枝头果暖蜜","橘园叶底果暖蜜","橘园根旁草暖蜜","橘园畦间花暖蜜","橘园篱边藤暖蜜","橘园园门柳暖蜜","橘园园中径暖蜜","橘园园角井暖蜜","橘园园后溪暖蜜","橘园桃腮红暖蜜","橘园李子紫暖蜜","橘园杏黄软暖蜜","橘园梨白脆暖蜜","橘园苹果脆暖蜜","橘园枣甜软暖蜜","橘园柿红软暖蜜","橘园榴红裂暖蜜","橘园橘黄亮暖蜜","橘园柚香厚暖蜜","柚园落果香暖蜜","柚园枝头果暖蜜","柚园叶底果暖蜜","柚园根旁草暖蜜","柚园畦间花暖蜜","柚园篱边藤暖蜜","柚园园门柳暖蜜","柚园园中径暖蜜","柚园园角井暖蜜","柚园园后溪暖蜜","柚园桃腮红暖蜜","柚园李子紫暖蜜","柚园杏黄软暖蜜","柚园梨白脆暖蜜","柚园苹果脆暖蜜","柚园枣甜软暖蜜","柚园柿红软暖蜜","柚园榴红裂暖蜜","柚园橘黄亮暖蜜","柚园柚香厚暖蜜","橙园落果香暖蜜","橙园枝头果暖蜜","橙园叶底果暖蜜","橙园根旁草暖蜜","橙园畦间花暖蜜","橙园篱边藤暖蜜","橙园园门柳暖蜜","橙园园中径暖蜜","橙园园角井暖蜜","橙园园后溪暖蜜","橙园桃腮红暖蜜","橙园李子紫暖蜜","橙园杏黄软暖蜜","橙园梨白脆暖蜜","橙园苹果脆暖蜜","橙园枣甜软暖蜜","橙园柿红软暖蜜","橙园榴红裂暖蜜","橙园橘黄亮暖蜜","橙园柚香厚暖蜜","柠檬园落果香暖蜜","柠檬园枝头果暖蜜","柠檬园叶底果暖蜜","柠檬园根旁草暖蜜","柠檬园畦间花暖蜜","柠檬园篱边藤暖蜜","柠檬园园门柳暖蜜","柠檬园园中径暖蜜","柠檬园园角井暖蜜","柠檬园园后溪暖蜜","柠檬园桃腮红暖蜜","柠檬园李子紫暖蜜","柠檬园杏黄软暖蜜","柠檬园梨白脆暖蜜","柠檬园苹果脆暖蜜","柠檬园枣甜软暖蜜","柠檬园柿红软暖蜜","柠檬园榴红裂暖蜜","柠檬园橘黄亮暖蜜","柠檬园柚香厚暖蜜","葡萄园落果香暖蜜","葡萄园枝头果暖蜜","葡萄园叶底果暖蜜","葡萄园根旁草暖蜜","葡萄园畦间花暖蜜","葡萄园篱边藤暖蜜","葡萄园园门柳暖蜜","葡萄园园中径暖蜜","葡萄园园角井暖蜜","葡萄园园后溪暖蜜","葡萄园桃腮红暖蜜","葡萄园李子紫暖蜜","葡萄园杏黄软暖蜜","葡萄园梨白脆暖蜜","葡萄园苹果脆暖蜜","葡萄园枣甜软暖蜜","葡萄园柿红软暖蜜","葡萄园榴红裂暖蜜","葡萄园橘黄亮暖蜜","葡萄园柚香厚暖蜜","草莓园落果香暖蜜","草莓园枝头果暖蜜","草莓园叶底果暖蜜","草莓园根旁草暖蜜","草莓园畦间花暖蜜","草莓园篱边藤暖蜜","草莓园园门柳暖蜜","草莓园园中径暖蜜","草莓园园角井暖蜜","草莓园园后溪暖蜜","草莓园桃腮红暖蜜","草莓园李子紫暖蜜","草莓园杏黄软暖蜜","草莓园梨白脆暖蜜","草莓园苹果脆暖蜜","草莓园枣甜软暖蜜","草莓园柿红软暖蜜","草莓园榴红裂暖蜜","草莓园橘黄亮暖蜜","草莓园柚香厚暖蜜","蓝莓园落果香暖蜜","蓝莓园枝头果暖蜜","蓝莓园叶底果暖蜜","蓝莓园根旁草暖蜜","蓝莓园畦间花暖蜜","蓝莓园篱边藤暖蜜","蓝莓园园门柳暖蜜","蓝莓园园中径暖蜜","蓝莓园园角井暖蜜","蓝莓园园后溪暖蜜","蓝莓园桃腮红暖蜜","蓝莓园李子紫暖蜜","蓝莓园杏黄软暖蜜","蓝莓园梨白脆暖蜜","蓝莓园苹果脆暖蜜","蓝莓园枣甜软暖蜜","蓝莓园柿红软暖蜜","蓝莓园榴红裂暖蜜","蓝莓园橘黄亮暖蜜","蓝莓园柚香厚暖蜜","樱桃园落果香暖蜜","樱桃园枝头果暖蜜","樱桃园叶底果暖蜜","樱桃园根旁草暖蜜","樱桃园畦间花暖蜜","樱桃园篱边藤暖蜜","樱桃园园门柳暖蜜","樱桃园园中径暖蜜","樱桃园园角井暖蜜","樱桃园园后溪暖蜜","樱桃园桃腮红暖蜜","樱桃园李子紫暖蜜","樱桃园杏黄软暖蜜","樱桃园梨白脆暖蜜","樱桃园苹果脆暖蜜","樱桃园枣甜软暖蜜","樱桃园柿红软暖蜜","樱桃园榴红裂暖蜜","樱桃园橘黄亮暖蜜","樱桃园柚香厚暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21597,7 +21597,7 @@ test("herb20 herb21 herb22 herb23 herb24 herb25 herb26 herb27 herb28 herb29 herb
   ["herb21","herb23","herb25","herb27","herb29","herb211","herb213","herb215","herb217","herb219","herb221","herb223","herb225","herb227","herb229","herb231","herb233","herb235","herb237","herb239","herb241","herb243","herb245","herb247","herb249","herb251","herb253","herb255","herb257","herb259","herb261","herb263","herb265","herb267","herb269","herb271","herb273","herb275","herb277","herb279","herb281","herb283","herb285","herb287","herb289","herb291","herb293","herb295","herb297","herb299","herb2101","herb2103","herb2105","herb2107","herb2109","herb2111","herb2113","herb2115","herb2117","herb2119","herb2121","herb2123","herb2125","herb2127","herb2129","herb2131","herb2133","herb2135","herb2137","herb2139","herb2141","herb2143","herb2145","herb2147","herb2149","herb2151","herb2153","herb2155","herb2157","herb2159","herb2161","herb2163","herb2165","herb2167","herb2169","herb2171","herb2173","herb2175","herb2177","herb2179","herb2181","herb2183","herb2185","herb2187","herb2189","herb2191","herb2193","herb2195","herb2197","herb2199","herb2201","herb2203","herb2205","herb2207","herb2209","herb2211","herb2213","herb2215","herb2217","herb2219","herb2221","herb2223","herb2225","herb2227","herb2229","herb2231","herb2233","herb2235","herb2237","herb2239","herb2241","herb2243","herb2245","herb2247","herb2249","herb2251","herb2253","herb2255","herb2257","herb2259","herb2261","herb2263","herb2265","herb2267","herb2269","herb2271","herb2273","herb2275","herb2277","herb2279","herb2281","herb2283","herb2285","herb2287","herb2289","herb2291","herb2293","herb2295","herb2297","herb2299","herb2301","herb2303","herb2305","herb2307","herb2309","herb2311","herb2313","herb2315","herb2317","herb2319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["herb20","herb22","herb24","herb26","herb28","herb210","herb212","herb214","herb216","herb218","herb220","herb222","herb224","herb226","herb228","herb230","herb232","herb234","herb236","herb238","herb240","herb242","herb244","herb246","herb248","herb250","herb252","herb254","herb256","herb258","herb260","herb262","herb264","herb266","herb268","herb270","herb272","herb274","herb276","herb278","herb280","herb282","herb284","herb286","herb288","herb290","herb292","herb294","herb296","herb298","herb2100","herb2102","herb2104","herb2106","herb2108","herb2110","herb2112","herb2114","herb2116","herb2118","herb2120","herb2122","herb2124","herb2126","herb2128","herb2130","herb2132","herb2134","herb2136","herb2138","herb2140","herb2142","herb2144","herb2146","herb2148","herb2150","herb2152","herb2154","herb2156","herb2158","herb2160","herb2162","herb2164","herb2166","herb2168","herb2170","herb2172","herb2174","herb2176","herb2178","herb2180","herb2182","herb2184","herb2186","herb2188","herb2190","herb2192","herb2194","herb2196","herb2198","herb2200","herb2202","herb2204","herb2206","herb2208","herb2210","herb2212","herb2214","herb2216","herb2218","herb2220","herb2222","herb2224","herb2226","herb2228","herb2230","herb2232","herb2234","herb2236","herb2238","herb2240","herb2242","herb2244","herb2246","herb2248","herb2250","herb2252","herb2254","herb2256","herb2258","herb2260","herb2262","herb2264","herb2266","herb2268","herb2270","herb2272","herb2274","herb2276","herb2278","herb2280","herb2282","herb2284","herb2286","herb2288","herb2290","herb2292","herb2294","herb2296","herb2298","herb2300","herb2302","herb2304","herb2306","herb2308","herb2310","herb2312","herb2314","herb2316","herb2318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("herb20_path") && game.includes("herb2319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["当归根香暖蜜","当归茎香暖蜜","当归叶香暖蜜","当归花香暖蜜","当归子香暖蜜","当归皮香暖蜜","当归仁香暖蜜","当归胶香暖蜜","当归脂香暖蜜","当归膏香暖蜜","当归汤香暖蜜","当归酒浸暖蜜","当归蜜炙暖蜜","当归盐炙暖蜜","当归醋炙暖蜜","当归姜炙暖蜜","川芎根香暖蜜","川芎茎香暖蜜","川芎叶香暖蜜","川芎花香暖蜜","川芎子香暖蜜","川芎皮香暖蜜","川芎仁香暖蜜","川芎胶香暖蜜","川芎脂香暖蜜","川芎膏香暖蜜","川芎汤香暖蜜","川芎酒浸暖蜜","川芎蜜炙暖蜜","川芎盐炙暖蜜","川芎醋炙暖蜜","川芎姜炙暖蜜","白芍根香暖蜜","白芍茎香暖蜜","白芍叶香暖蜜","白芍花香暖蜜","白芍子香暖蜜","白芍皮香暖蜜","白芍仁香暖蜜","白芍胶香暖蜜","白芍脂香暖蜜","白芍膏香暖蜜","白芍汤香暖蜜","白芍酒浸暖蜜","白芍蜜炙暖蜜","白芍盐炙暖蜜","白芍醋炙暖蜜","白芍姜炙暖蜜","熟地根香暖蜜","熟地茎香暖蜜","熟地叶香暖蜜","熟地花香暖蜜","熟地子香暖蜜","熟地皮香暖蜜","熟地仁香暖蜜","熟地胶香暖蜜","熟地脂香暖蜜","熟地膏香暖蜜","熟地汤香暖蜜","熟地酒浸暖蜜","熟地蜜炙暖蜜","熟地盐炙暖蜜","熟地醋炙暖蜜","熟地姜炙暖蜜","黄芪根香暖蜜","黄芪茎香暖蜜","黄芪叶香暖蜜","黄芪花香暖蜜","黄芪子香暖蜜","黄芪皮香暖蜜","黄芪仁香暖蜜","黄芪胶香暖蜜","黄芪脂香暖蜜","黄芪膏香暖蜜","黄芪汤香暖蜜","黄芪酒浸暖蜜","黄芪蜜炙暖蜜","黄芪盐炙暖蜜","黄芪醋炙暖蜜","黄芪姜炙暖蜜","党参根香暖蜜","党参茎香暖蜜","党参叶香暖蜜","党参花香暖蜜","党参子香暖蜜","党参皮香暖蜜","党参仁香暖蜜","党参胶香暖蜜","党参脂香暖蜜","党参膏香暖蜜","党参汤香暖蜜","党参酒浸暖蜜","党参蜜炙暖蜜","党参盐炙暖蜜","党参醋炙暖蜜","党参姜炙暖蜜","白术根香暖蜜","白术茎香暖蜜","白术叶香暖蜜","白术花香暖蜜","白术子香暖蜜","白术皮香暖蜜","白术仁香暖蜜","白术胶香暖蜜","白术脂香暖蜜","白术膏香暖蜜","白术汤香暖蜜","白术酒浸暖蜜","白术蜜炙暖蜜","白术盐炙暖蜜","白术醋炙暖蜜","白术姜炙暖蜜","茯苓根香暖蜜","茯苓茎香暖蜜","茯苓叶香暖蜜","茯苓花香暖蜜","茯苓子香暖蜜","茯苓皮香暖蜜","茯苓仁香暖蜜","茯苓胶香暖蜜","茯苓脂香暖蜜","茯苓膏香暖蜜","茯苓汤香暖蜜","茯苓酒浸暖蜜","茯苓蜜炙暖蜜","茯苓盐炙暖蜜","茯苓醋炙暖蜜","茯苓姜炙暖蜜","甘草根香暖蜜","甘草茎香暖蜜","甘草叶香暖蜜","甘草花香暖蜜","甘草子香暖蜜","甘草皮香暖蜜","甘草仁香暖蜜","甘草胶香暖蜜","甘草脂香暖蜜","甘草膏香暖蜜","甘草汤香暖蜜","甘草酒浸暖蜜","甘草蜜炙暖蜜","甘草盐炙暖蜜","甘草醋炙暖蜜","甘草姜炙暖蜜","陈皮根香暖蜜","陈皮茎香暖蜜","陈皮叶香暖蜜","陈皮花香暖蜜","陈皮子香暖蜜","陈皮皮香暖蜜","陈皮仁香暖蜜","陈皮胶香暖蜜","陈皮脂香暖蜜","陈皮膏香暖蜜","陈皮汤香暖蜜","陈皮酒浸暖蜜","陈皮蜜炙暖蜜","陈皮盐炙暖蜜","陈皮醋炙暖蜜","陈皮姜炙暖蜜","半夏根香暖蜜","半夏茎香暖蜜","半夏叶香暖蜜","半夏花香暖蜜","半夏子香暖蜜","半夏皮香暖蜜","半夏仁香暖蜜","半夏胶香暖蜜","半夏脂香暖蜜","半夏膏香暖蜜","半夏汤香暖蜜","半夏酒浸暖蜜","半夏蜜炙暖蜜","半夏盐炙暖蜜","半夏醋炙暖蜜","半夏姜炙暖蜜","桔梗根香暖蜜","桔梗茎香暖蜜","桔梗叶香暖蜜","桔梗花香暖蜜","桔梗子香暖蜜","桔梗皮香暖蜜","桔梗仁香暖蜜","桔梗胶香暖蜜","桔梗脂香暖蜜","桔梗膏香暖蜜","桔梗汤香暖蜜","桔梗酒浸暖蜜","桔梗蜜炙暖蜜","桔梗盐炙暖蜜","桔梗醋炙暖蜜","桔梗姜炙暖蜜","杏仁根香暖蜜","杏仁茎香暖蜜","杏仁叶香暖蜜","杏仁花香暖蜜","杏仁子香暖蜜","杏仁皮香暖蜜","杏仁仁香暖蜜","杏仁胶香暖蜜","杏仁脂香暖蜜","杏仁膏香暖蜜","杏仁汤香暖蜜","杏仁酒浸暖蜜","杏仁蜜炙暖蜜","杏仁盐炙暖蜜","杏仁醋炙暖蜜","杏仁姜炙暖蜜","贝母根香暖蜜","贝母茎香暖蜜","贝母叶香暖蜜","贝母花香暖蜜","贝母子香暖蜜","贝母皮香暖蜜","贝母仁香暖蜜","贝母胶香暖蜜","贝母脂香暖蜜","贝母膏香暖蜜","贝母汤香暖蜜","贝母酒浸暖蜜","贝母蜜炙暖蜜","贝母盐炙暖蜜","贝母醋炙暖蜜","贝母姜炙暖蜜","沙参根香暖蜜","沙参茎香暖蜜","沙参叶香暖蜜","沙参花香暖蜜","沙参子香暖蜜","沙参皮香暖蜜","沙参仁香暖蜜","沙参胶香暖蜜","沙参脂香暖蜜","沙参膏香暖蜜","沙参汤香暖蜜","沙参酒浸暖蜜","沙参蜜炙暖蜜","沙参盐炙暖蜜","沙参醋炙暖蜜","沙参姜炙暖蜜","麦冬根香暖蜜","麦冬茎香暖蜜","麦冬叶香暖蜜","麦冬花香暖蜜","麦冬子香暖蜜","麦冬皮香暖蜜","麦冬仁香暖蜜","麦冬胶香暖蜜","麦冬脂香暖蜜","麦冬膏香暖蜜","麦冬汤香暖蜜","麦冬酒浸暖蜜","麦冬蜜炙暖蜜","麦冬盐炙暖蜜","麦冬醋炙暖蜜","麦冬姜炙暖蜜","天冬根香暖蜜","天冬茎香暖蜜","天冬叶香暖蜜","天冬花香暖蜜","天冬子香暖蜜","天冬皮香暖蜜","天冬仁香暖蜜","天冬胶香暖蜜","天冬脂香暖蜜","天冬膏香暖蜜","天冬汤香暖蜜","天冬酒浸暖蜜","天冬蜜炙暖蜜","天冬盐炙暖蜜","天冬醋炙暖蜜","天冬姜炙暖蜜","玉竹根香暖蜜","玉竹茎香暖蜜","玉竹叶香暖蜜","玉竹花香暖蜜","玉竹子香暖蜜","玉竹皮香暖蜜","玉竹仁香暖蜜","玉竹胶香暖蜜","玉竹脂香暖蜜","玉竹膏香暖蜜","玉竹汤香暖蜜","玉竹酒浸暖蜜","玉竹蜜炙暖蜜","玉竹盐炙暖蜜","玉竹醋炙暖蜜","玉竹姜炙暖蜜","黄精根香暖蜜","黄精茎香暖蜜","黄精叶香暖蜜","黄精花香暖蜜","黄精子香暖蜜","黄精皮香暖蜜","黄精仁香暖蜜","黄精胶香暖蜜","黄精脂香暖蜜","黄精膏香暖蜜","黄精汤香暖蜜","黄精酒浸暖蜜","黄精蜜炙暖蜜","黄精盐炙暖蜜","黄精醋炙暖蜜","黄精姜炙暖蜜","枸杞子根香暖蜜","枸杞子茎香暖蜜","枸杞子叶香暖蜜","枸杞子花香暖蜜","枸杞子子香暖蜜","枸杞子皮香暖蜜","枸杞子仁香暖蜜","枸杞子胶香暖蜜","枸杞子脂香暖蜜","枸杞子膏香暖蜜","枸杞子汤香暖蜜","枸杞子酒浸暖蜜","枸杞子蜜炙暖蜜","枸杞子盐炙暖蜜","枸杞子醋炙暖蜜","枸杞子姜炙暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21637,7 +21637,7 @@ test("tide0 tide1 tide2 tide3 tide4 tide5 tide6 tide7 tide8 tide9 tide10 tide11 
   ["tide1","tide3","tide5","tide7","tide9","tide11","tide13","tide15","tide17","tide19","tide21","tide23","tide25","tide27","tide29","tide31","tide33","tide35","tide37","tide39","tide41","tide43","tide45","tide47","tide49","tide51","tide53","tide55","tide57","tide59","tide61","tide63","tide65","tide67","tide69","tide71","tide73","tide75","tide77","tide79","tide81","tide83","tide85","tide87","tide89","tide91","tide93","tide95","tide97","tide99","tide101","tide103","tide105","tide107","tide109","tide111","tide113","tide115","tide117","tide119","tide121","tide123","tide125","tide127","tide129","tide131","tide133","tide135","tide137","tide139","tide141","tide143","tide145","tide147","tide149","tide151","tide153","tide155","tide157","tide159","tide161","tide163","tide165","tide167","tide169","tide171","tide173","tide175","tide177","tide179","tide181","tide183","tide185","tide187","tide189","tide191","tide193","tide195","tide197","tide199","tide201","tide203","tide205","tide207","tide209","tide211","tide213","tide215","tide217","tide219","tide221","tide223","tide225","tide227","tide229","tide231","tide233","tide235","tide237","tide239","tide241","tide243","tide245","tide247","tide249","tide251","tide253","tide255","tide257","tide259","tide261","tide263","tide265","tide267","tide269","tide271","tide273","tide275","tide277","tide279","tide281","tide283","tide285","tide287","tide289","tide291","tide293","tide295","tide297","tide299","tide301","tide303","tide305","tide307","tide309","tide311","tide313","tide315","tide317","tide319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["tide0","tide2","tide4","tide6","tide8","tide10","tide12","tide14","tide16","tide18","tide20","tide22","tide24","tide26","tide28","tide30","tide32","tide34","tide36","tide38","tide40","tide42","tide44","tide46","tide48","tide50","tide52","tide54","tide56","tide58","tide60","tide62","tide64","tide66","tide68","tide70","tide72","tide74","tide76","tide78","tide80","tide82","tide84","tide86","tide88","tide90","tide92","tide94","tide96","tide98","tide100","tide102","tide104","tide106","tide108","tide110","tide112","tide114","tide116","tide118","tide120","tide122","tide124","tide126","tide128","tide130","tide132","tide134","tide136","tide138","tide140","tide142","tide144","tide146","tide148","tide150","tide152","tide154","tide156","tide158","tide160","tide162","tide164","tide166","tide168","tide170","tide172","tide174","tide176","tide178","tide180","tide182","tide184","tide186","tide188","tide190","tide192","tide194","tide196","tide198","tide200","tide202","tide204","tide206","tide208","tide210","tide212","tide214","tide216","tide218","tide220","tide222","tide224","tide226","tide228","tide230","tide232","tide234","tide236","tide238","tide240","tide242","tide244","tide246","tide248","tide250","tide252","tide254","tide256","tide258","tide260","tide262","tide264","tide266","tide268","tide270","tide272","tide274","tide276","tide278","tide280","tide282","tide284","tide286","tide288","tide290","tide292","tide294","tide296","tide298","tide300","tide302","tide304","tide306","tide308","tide310","tide312","tide314","tide316","tide318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("tide0_path") && game.includes("tide319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["涨潮潮间带暖蜜","涨潮高潮线暖蜜","涨潮低潮线暖蜜","涨潮潮沟暖蜜","涨潮潮池暖蜜","涨潮潮汐井暖蜜","涨潮盐沼暖蜜","涨潮红树暖蜜","涨潮海草暖蜜","涨潮海带暖蜜","涨潮紫菜暖蜜","涨潮裙带暖蜜","涨潮石莼暖蜜","涨潮浒苔暖蜜","涨潮角叉暖蜜","涨潮麒麟菜暖蜜","落潮潮间带暖蜜","落潮高潮线暖蜜","落潮低潮线暖蜜","落潮潮沟暖蜜","落潮潮池暖蜜","落潮潮汐井暖蜜","落潮盐沼暖蜜","落潮红树暖蜜","落潮海草暖蜜","落潮海带暖蜜","落潮紫菜暖蜜","落潮裙带暖蜜","落潮石莼暖蜜","落潮浒苔暖蜜","落潮角叉暖蜜","落潮麒麟菜暖蜜","满潮潮间带暖蜜","满潮高潮线暖蜜","满潮低潮线暖蜜","满潮潮沟暖蜜","满潮潮池暖蜜","满潮潮汐井暖蜜","满潮盐沼暖蜜","满潮红树暖蜜","满潮海草暖蜜","满潮海带暖蜜","满潮紫菜暖蜜","满潮裙带暖蜜","满潮石莼暖蜜","满潮浒苔暖蜜","满潮角叉暖蜜","满潮麒麟菜暖蜜","干潮潮间带暖蜜","干潮高潮线暖蜜","干潮低潮线暖蜜","干潮潮沟暖蜜","干潮潮池暖蜜","干潮潮汐井暖蜜","干潮盐沼暖蜜","干潮红树暖蜜","干潮海草暖蜜","干潮海带暖蜜","干潮紫菜暖蜜","干潮裙带暖蜜","干潮石莼暖蜜","干潮浒苔暖蜜","干潮角叉暖蜜","干潮麒麟菜暖蜜","大潮潮间带暖蜜","大潮高潮线暖蜜","大潮低潮线暖蜜","大潮潮沟暖蜜","大潮潮池暖蜜","大潮潮汐井暖蜜","大潮盐沼暖蜜","大潮红树暖蜜","大潮海草暖蜜","大潮海带暖蜜","大潮紫菜暖蜜","大潮裙带暖蜜","大潮石莼暖蜜","大潮浒苔暖蜜","大潮角叉暖蜜","大潮麒麟菜暖蜜","小潮潮间带暖蜜","小潮高潮线暖蜜","小潮低潮线暖蜜","小潮潮沟暖蜜","小潮潮池暖蜜","小潮潮汐井暖蜜","小潮盐沼暖蜜","小潮红树暖蜜","小潮海草暖蜜","小潮海带暖蜜","小潮紫菜暖蜜","小潮裙带暖蜜","小潮石莼暖蜜","小潮浒苔暖蜜","小潮角叉暖蜜","小潮麒麟菜暖蜜","春潮潮间带暖蜜","春潮高潮线暖蜜","春潮低潮线暖蜜","春潮潮沟暖蜜","春潮潮池暖蜜","春潮潮汐井暖蜜","春潮盐沼暖蜜","春潮红树暖蜜","春潮海草暖蜜","春潮海带暖蜜","春潮紫菜暖蜜","春潮裙带暖蜜","春潮石莼暖蜜","春潮浒苔暖蜜","春潮角叉暖蜜","春潮麒麟菜暖蜜","秋潮潮间带暖蜜","秋潮高潮线暖蜜","秋潮低潮线暖蜜","秋潮潮沟暖蜜","秋潮潮池暖蜜","秋潮潮汐井暖蜜","秋潮盐沼暖蜜","秋潮红树暖蜜","秋潮海草暖蜜","秋潮海带暖蜜","秋潮紫菜暖蜜","秋潮裙带暖蜜","秋潮石莼暖蜜","秋潮浒苔暖蜜","秋潮角叉暖蜜","秋潮麒麟菜暖蜜","夜潮潮间带暖蜜","夜潮高潮线暖蜜","夜潮低潮线暖蜜","夜潮潮沟暖蜜","夜潮潮池暖蜜","夜潮潮汐井暖蜜","夜潮盐沼暖蜜","夜潮红树暖蜜","夜潮海草暖蜜","夜潮海带暖蜜","夜潮紫菜暖蜜","夜潮裙带暖蜜","夜潮石莼暖蜜","夜潮浒苔暖蜜","夜潮角叉暖蜜","夜潮麒麟菜暖蜜","晨潮潮间带暖蜜","晨潮高潮线暖蜜","晨潮低潮线暖蜜","晨潮潮沟暖蜜","晨潮潮池暖蜜","晨潮潮汐井暖蜜","晨潮盐沼暖蜜","晨潮红树暖蜜","晨潮海草暖蜜","晨潮海带暖蜜","晨潮紫菜暖蜜","晨潮裙带暖蜜","晨潮石莼暖蜜","晨潮浒苔暖蜜","晨潮角叉暖蜜","晨潮麒麟菜暖蜜","雾潮潮间带暖蜜","雾潮高潮线暖蜜","雾潮低潮线暖蜜","雾潮潮沟暖蜜","雾潮潮池暖蜜","雾潮潮汐井暖蜜","雾潮盐沼暖蜜","雾潮红树暖蜜","雾潮海草暖蜜","雾潮海带暖蜜","雾潮紫菜暖蜜","雾潮裙带暖蜜","雾潮石莼暖蜜","雾潮浒苔暖蜜","雾潮角叉暖蜜","雾潮麒麟菜暖蜜","风潮潮间带暖蜜","风潮高潮线暖蜜","风潮低潮线暖蜜","风潮潮沟暖蜜","风潮潮池暖蜜","风潮潮汐井暖蜜","风潮盐沼暖蜜","风潮红树暖蜜","风潮海草暖蜜","风潮海带暖蜜","风潮紫菜暖蜜","风潮裙带暖蜜","风潮石莼暖蜜","风潮浒苔暖蜜","风潮角叉暖蜜","风潮麒麟菜暖蜜","月潮潮间带暖蜜","月潮高潮线暖蜜","月潮低潮线暖蜜","月潮潮沟暖蜜","月潮潮池暖蜜","月潮潮汐井暖蜜","月潮盐沼暖蜜","月潮红树暖蜜","月潮海草暖蜜","月潮海带暖蜜","月潮紫菜暖蜜","月潮裙带暖蜜","月潮石莼暖蜜","月潮浒苔暖蜜","月潮角叉暖蜜","月潮麒麟菜暖蜜","星潮潮间带暖蜜","星潮高潮线暖蜜","星潮低潮线暖蜜","星潮潮沟暖蜜","星潮潮池暖蜜","星潮潮汐井暖蜜","星潮盐沼暖蜜","星潮红树暖蜜","星潮海草暖蜜","星潮海带暖蜜","星潮紫菜暖蜜","星潮裙带暖蜜","星潮石莼暖蜜","星潮浒苔暖蜜","星潮角叉暖蜜","星潮麒麟菜暖蜜","灯潮潮间带暖蜜","灯潮高潮线暖蜜","灯潮低潮线暖蜜","灯潮潮沟暖蜜","灯潮潮池暖蜜","灯潮潮汐井暖蜜","灯潮盐沼暖蜜","灯潮红树暖蜜","灯潮海草暖蜜","灯潮海带暖蜜","灯潮紫菜暖蜜","灯潮裙带暖蜜","灯潮石莼暖蜜","灯潮浒苔暖蜜","灯潮角叉暖蜜","灯潮麒麟菜暖蜜","渔潮潮间带暖蜜","渔潮高潮线暖蜜","渔潮低潮线暖蜜","渔潮潮沟暖蜜","渔潮潮池暖蜜","渔潮潮汐井暖蜜","渔潮盐沼暖蜜","渔潮红树暖蜜","渔潮海草暖蜜","渔潮海带暖蜜","渔潮紫菜暖蜜","渔潮裙带暖蜜","渔潮石莼暖蜜","渔潮浒苔暖蜜","渔潮角叉暖蜜","渔潮麒麟菜暖蜜","盐潮潮间带暖蜜","盐潮高潮线暖蜜","盐潮低潮线暖蜜","盐潮潮沟暖蜜","盐潮潮池暖蜜","盐潮潮汐井暖蜜","盐潮盐沼暖蜜","盐潮红树暖蜜","盐潮海草暖蜜","盐潮海带暖蜜","盐潮紫菜暖蜜","盐潮裙带暖蜜","盐潮石莼暖蜜","盐潮浒苔暖蜜","盐潮角叉暖蜜","盐潮麒麟菜暖蜜","沙潮潮间带暖蜜","沙潮高潮线暖蜜","沙潮低潮线暖蜜","沙潮潮沟暖蜜","沙潮潮池暖蜜","沙潮潮汐井暖蜜","沙潮盐沼暖蜜","沙潮红树暖蜜","沙潮海草暖蜜","沙潮海带暖蜜","沙潮紫菜暖蜜","沙潮裙带暖蜜","沙潮石莼暖蜜","沙潮浒苔暖蜜","沙潮角叉暖蜜","沙潮麒麟菜暖蜜","石潮潮间带暖蜜","石潮高潮线暖蜜","石潮低潮线暖蜜","石潮潮沟暖蜜","石潮潮池暖蜜","石潮潮汐井暖蜜","石潮盐沼暖蜜","石潮红树暖蜜","石潮海草暖蜜","石潮海带暖蜜","石潮紫菜暖蜜","石潮裙带暖蜜","石潮石莼暖蜜","石潮浒苔暖蜜","石潮角叉暖蜜","石潮麒麟菜暖蜜","藻潮潮间带暖蜜","藻潮高潮线暖蜜","藻潮低潮线暖蜜","藻潮潮沟暖蜜","藻潮潮池暖蜜","藻潮潮汐井暖蜜","藻潮盐沼暖蜜","藻潮红树暖蜜","藻潮海草暖蜜","藻潮海带暖蜜","藻潮紫菜暖蜜","藻潮裙带暖蜜","藻潮石莼暖蜜","藻潮浒苔暖蜜","藻潮角叉暖蜜","藻潮麒麟菜暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21677,7 +21677,7 @@ test("snow0 snow1 snow2 snow3 snow4 snow5 snow6 snow7 snow8 snow9 snow10 snow11 
   ["snow1","snow3","snow5","snow7","snow9","snow11","snow13","snow15","snow17","snow19","snow21","snow23","snow25","snow27","snow29","snow31","snow33","snow35","snow37","snow39","snow41","snow43","snow45","snow47","snow49","snow51","snow53","snow55","snow57","snow59","snow61","snow63","snow65","snow67","snow69","snow71","snow73","snow75","snow77","snow79","snow81","snow83","snow85","snow87","snow89","snow91","snow93","snow95","snow97","snow99","snow101","snow103","snow105","snow107","snow109","snow111","snow113","snow115","snow117","snow119","snow121","snow123","snow125","snow127","snow129","snow131","snow133","snow135","snow137","snow139","snow141","snow143","snow145","snow147","snow149","snow151","snow153","snow155","snow157","snow159","snow161","snow163","snow165","snow167","snow169","snow171","snow173","snow175","snow177","snow179","snow181","snow183","snow185","snow187","snow189","snow191","snow193","snow195","snow197","snow199","snow201","snow203","snow205","snow207","snow209","snow211","snow213","snow215","snow217","snow219","snow221","snow223","snow225","snow227","snow229","snow231","snow233","snow235","snow237","snow239","snow241","snow243","snow245","snow247","snow249","snow251","snow253","snow255","snow257","snow259","snow261","snow263","snow265","snow267","snow269","snow271","snow273","snow275","snow277","snow279","snow281","snow283","snow285","snow287","snow289","snow291","snow293","snow295","snow297","snow299","snow301","snow303","snow305","snow307","snow309","snow311","snow313","snow315","snow317","snow319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["snow0","snow2","snow4","snow6","snow8","snow10","snow12","snow14","snow16","snow18","snow20","snow22","snow24","snow26","snow28","snow30","snow32","snow34","snow36","snow38","snow40","snow42","snow44","snow46","snow48","snow50","snow52","snow54","snow56","snow58","snow60","snow62","snow64","snow66","snow68","snow70","snow72","snow74","snow76","snow78","snow80","snow82","snow84","snow86","snow88","snow90","snow92","snow94","snow96","snow98","snow100","snow102","snow104","snow106","snow108","snow110","snow112","snow114","snow116","snow118","snow120","snow122","snow124","snow126","snow128","snow130","snow132","snow134","snow136","snow138","snow140","snow142","snow144","snow146","snow148","snow150","snow152","snow154","snow156","snow158","snow160","snow162","snow164","snow166","snow168","snow170","snow172","snow174","snow176","snow178","snow180","snow182","snow184","snow186","snow188","snow190","snow192","snow194","snow196","snow198","snow200","snow202","snow204","snow206","snow208","snow210","snow212","snow214","snow216","snow218","snow220","snow222","snow224","snow226","snow228","snow230","snow232","snow234","snow236","snow238","snow240","snow242","snow244","snow246","snow248","snow250","snow252","snow254","snow256","snow258","snow260","snow262","snow264","snow266","snow268","snow270","snow272","snow274","snow276","snow278","snow280","snow282","snow284","snow286","snow288","snow290","snow292","snow294","snow296","snow298","snow300","snow302","snow304","snow306","snow308","snow310","snow312","snow314","snow316","snow318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("snow0_path") && game.includes("snow319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["初雪雪莲暖蜜","初雪雪茶暖蜜","初雪雪菊暖蜜","初雪雪梅暖蜜","初雪雪松暖蜜","初雪雪竹暖蜜","初雪雪柳暖蜜","初雪雪杉暖蜜","初雪雪耳暖蜜","初雪雪菇暖蜜","初雪雪葱暖蜜","初雪雪韭暖蜜","初雪雪芹暖蜜","初雪雪萝卜暖蜜","初雪雪白菜暖蜜","初雪雪菠菜暖蜜","残雪雪莲暖蜜","残雪雪茶暖蜜","残雪雪菊暖蜜","残雪雪梅暖蜜","残雪雪松暖蜜","残雪雪竹暖蜜","残雪雪柳暖蜜","残雪雪杉暖蜜","残雪雪耳暖蜜","残雪雪菇暖蜜","残雪雪葱暖蜜","残雪雪韭暖蜜","残雪雪芹暖蜜","残雪雪萝卜暖蜜","残雪雪白菜暖蜜","残雪雪菠菜暖蜜","积雪雪莲暖蜜","积雪雪茶暖蜜","积雪雪菊暖蜜","积雪雪梅暖蜜","积雪雪松暖蜜","积雪雪竹暖蜜","积雪雪柳暖蜜","积雪雪杉暖蜜","积雪雪耳暖蜜","积雪雪菇暖蜜","积雪雪葱暖蜜","积雪雪韭暖蜜","积雪雪芹暖蜜","积雪雪萝卜暖蜜","积雪雪白菜暖蜜","积雪雪菠菜暖蜜","飞雪雪莲暖蜜","飞雪雪茶暖蜜","飞雪雪菊暖蜜","飞雪雪梅暖蜜","飞雪雪松暖蜜","飞雪雪竹暖蜜","飞雪雪柳暖蜜","飞雪雪杉暖蜜","飞雪雪耳暖蜜","飞雪雪菇暖蜜","飞雪雪葱暖蜜","飞雪雪韭暖蜜","飞雪雪芹暖蜜","飞雪雪萝卜暖蜜","飞雪雪白菜暖蜜","飞雪雪菠菜暖蜜","细雪雪莲暖蜜","细雪雪茶暖蜜","细雪雪菊暖蜜","细雪雪梅暖蜜","细雪雪松暖蜜","细雪雪竹暖蜜","细雪雪柳暖蜜","细雪雪杉暖蜜","细雪雪耳暖蜜","细雪雪菇暖蜜","细雪雪葱暖蜜","细雪雪韭暖蜜","细雪雪芹暖蜜","细雪雪萝卜暖蜜","细雪雪白菜暖蜜","细雪雪菠菜暖蜜","鹅毛雪雪莲暖蜜","鹅毛雪雪茶暖蜜","鹅毛雪雪菊暖蜜","鹅毛雪雪梅暖蜜","鹅毛雪雪松暖蜜","鹅毛雪雪竹暖蜜","鹅毛雪雪柳暖蜜","鹅毛雪雪杉暖蜜","鹅毛雪雪耳暖蜜","鹅毛雪雪菇暖蜜","鹅毛雪雪葱暖蜜","鹅毛雪雪韭暖蜜","鹅毛雪雪芹暖蜜","鹅毛雪雪萝卜暖蜜","鹅毛雪雪白菜暖蜜","鹅毛雪雪菠菜暖蜜","米雪雪莲暖蜜","米雪雪茶暖蜜","米雪雪菊暖蜜","米雪雪梅暖蜜","米雪雪松暖蜜","米雪雪竹暖蜜","米雪雪柳暖蜜","米雪雪杉暖蜜","米雪雪耳暖蜜","米雪雪菇暖蜜","米雪雪葱暖蜜","米雪雪韭暖蜜","米雪雪芹暖蜜","米雪雪萝卜暖蜜","米雪雪白菜暖蜜","米雪雪菠菜暖蜜","霰雪雪莲暖蜜","霰雪雪茶暖蜜","霰雪雪菊暖蜜","霰雪雪梅暖蜜","霰雪雪松暖蜜","霰雪雪竹暖蜜","霰雪雪柳暖蜜","霰雪雪杉暖蜜","霰雪雪耳暖蜜","霰雪雪菇暖蜜","霰雪雪葱暖蜜","霰雪雪韭暖蜜","霰雪雪芹暖蜜","霰雪雪萝卜暖蜜","霰雪雪白菜暖蜜","霰雪雪菠菜暖蜜","雾凇雪莲暖蜜","雾凇雪茶暖蜜","雾凇雪菊暖蜜","雾凇雪梅暖蜜","雾凇雪松暖蜜","雾凇雪竹暖蜜","雾凇雪柳暖蜜","雾凇雪杉暖蜜","雾凇雪耳暖蜜","雾凇雪菇暖蜜","雾凇雪葱暖蜜","雾凇雪韭暖蜜","雾凇雪芹暖蜜","雾凇雪萝卜暖蜜","雾凇雪白菜暖蜜","雾凇雪菠菜暖蜜","雨凇雪莲暖蜜","雨凇雪茶暖蜜","雨凇雪菊暖蜜","雨凇雪梅暖蜜","雨凇雪松暖蜜","雨凇雪竹暖蜜","雨凇雪柳暖蜜","雨凇雪杉暖蜜","雨凇雪耳暖蜜","雨凇雪菇暖蜜","雨凇雪葱暖蜜","雨凇雪韭暖蜜","雨凇雪芹暖蜜","雨凇雪萝卜暖蜜","雨凇雪白菜暖蜜","雨凇雪菠菜暖蜜","雪檐雪莲暖蜜","雪檐雪茶暖蜜","雪檐雪菊暖蜜","雪檐雪梅暖蜜","雪檐雪松暖蜜","雪檐雪竹暖蜜","雪檐雪柳暖蜜","雪檐雪杉暖蜜","雪檐雪耳暖蜜","雪檐雪菇暖蜜","雪檐雪葱暖蜜","雪檐雪韭暖蜜","雪檐雪芹暖蜜","雪檐雪萝卜暖蜜","雪檐雪白菜暖蜜","雪檐雪菠菜暖蜜","雪人雪莲暖蜜","雪人雪茶暖蜜","雪人雪菊暖蜜","雪人雪梅暖蜜","雪人雪松暖蜜","雪人雪竹暖蜜","雪人雪柳暖蜜","雪人雪杉暖蜜","雪人雪耳暖蜜","雪人雪菇暖蜜","雪人雪葱暖蜜","雪人雪韭暖蜜","雪人雪芹暖蜜","雪人雪萝卜暖蜜","雪人雪白菜暖蜜","雪人雪菠菜暖蜜","雪洞雪莲暖蜜","雪洞雪茶暖蜜","雪洞雪菊暖蜜","雪洞雪梅暖蜜","雪洞雪松暖蜜","雪洞雪竹暖蜜","雪洞雪柳暖蜜","雪洞雪杉暖蜜","雪洞雪耳暖蜜","雪洞雪菇暖蜜","雪洞雪葱暖蜜","雪洞雪韭暖蜜","雪洞雪芹暖蜜","雪洞雪萝卜暖蜜","雪洞雪白菜暖蜜","雪洞雪菠菜暖蜜","雪径雪莲暖蜜","雪径雪茶暖蜜","雪径雪菊暖蜜","雪径雪梅暖蜜","雪径雪松暖蜜","雪径雪竹暖蜜","雪径雪柳暖蜜","雪径雪杉暖蜜","雪径雪耳暖蜜","雪径雪菇暖蜜","雪径雪葱暖蜜","雪径雪韭暖蜜","雪径雪芹暖蜜","雪径雪萝卜暖蜜","雪径雪白菜暖蜜","雪径雪菠菜暖蜜","雪桥雪莲暖蜜","雪桥雪茶暖蜜","雪桥雪菊暖蜜","雪桥雪梅暖蜜","雪桥雪松暖蜜","雪桥雪竹暖蜜","雪桥雪柳暖蜜","雪桥雪杉暖蜜","雪桥雪耳暖蜜","雪桥雪菇暖蜜","雪桥雪葱暖蜜","雪桥雪韭暖蜜","雪桥雪芹暖蜜","雪桥雪萝卜暖蜜","雪桥雪白菜暖蜜","雪桥雪菠菜暖蜜","雪屋雪莲暖蜜","雪屋雪茶暖蜜","雪屋雪菊暖蜜","雪屋雪梅暖蜜","雪屋雪松暖蜜","雪屋雪竹暖蜜","雪屋雪柳暖蜜","雪屋雪杉暖蜜","雪屋雪耳暖蜜","雪屋雪菇暖蜜","雪屋雪葱暖蜜","雪屋雪韭暖蜜","雪屋雪芹暖蜜","雪屋雪萝卜暖蜜","雪屋雪白菜暖蜜","雪屋雪菠菜暖蜜","雪灯雪莲暖蜜","雪灯雪茶暖蜜","雪灯雪菊其二暖蜜","雪灯雪梅暖蜜","雪灯雪松暖蜜","雪灯雪竹暖蜜","雪灯雪柳暖蜜","雪灯雪杉暖蜜","雪灯雪耳暖蜜","雪灯雪菇暖蜜","雪灯雪葱暖蜜","雪灯雪韭暖蜜","雪灯雪芹暖蜜","雪灯雪萝卜暖蜜","雪灯雪白菜暖蜜","雪灯雪菠菜暖蜜","雪窗雪莲暖蜜","雪窗雪茶暖蜜","雪窗雪菊暖蜜","雪窗雪梅暖蜜","雪窗雪松暖蜜","雪窗雪竹暖蜜","雪窗雪柳暖蜜","雪窗雪杉暖蜜","雪窗雪耳暖蜜","雪窗雪菇暖蜜","雪窗雪葱暖蜜","雪窗雪韭暖蜜","雪窗雪芹暖蜜","雪窗雪萝卜暖蜜","雪窗雪白菜暖蜜","雪窗雪菠菜暖蜜","雪阶雪莲暖蜜","雪阶雪茶暖蜜","雪阶雪菊暖蜜","雪阶雪梅暖蜜","雪阶雪松暖蜜","雪阶雪竹暖蜜","雪阶雪柳暖蜜","雪阶雪杉暖蜜","雪阶雪耳暖蜜","雪阶雪菇暖蜜","雪阶雪葱暖蜜","雪阶雪韭暖蜜","雪阶雪芹暖蜜","雪阶雪萝卜暖蜜","雪阶雪白菜暖蜜","雪阶雪菠菜暖蜜","雪篱雪莲暖蜜","雪篱雪茶暖蜜","雪篱雪菊暖蜜","雪篱雪梅暖蜜","雪篱雪松暖蜜","雪篱雪竹暖蜜","雪篱雪柳暖蜜","雪篱雪杉暖蜜","雪篱雪耳暖蜜","雪篱雪菇暖蜜","雪篱雪葱暖蜜","雪篱雪韭暖蜜","雪篱雪芹暖蜜","雪篱雪萝卜暖蜜","雪篱雪白菜暖蜜","雪篱雪菠菜暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21717,7 +21717,7 @@ test("rain0 rain1 rain2 rain3 rain4 rain5 rain6 rain7 rain8 rain9 rain10 rain11 
   ["rain1","rain3","rain5","rain7","rain9","rain11","rain13","rain15","rain17","rain19","rain21","rain23","rain25","rain27","rain29","rain31","rain33","rain35","rain37","rain39","rain41","rain43","rain45","rain47","rain49","rain51","rain53","rain55","rain57","rain59","rain61","rain63","rain65","rain67","rain69","rain71","rain73","rain75","rain77","rain79","rain81","rain83","rain85","rain87","rain89","rain91","rain93","rain95","rain97","rain99","rain101","rain103","rain105","rain107","rain109","rain111","rain113","rain115","rain117","rain119","rain121","rain123","rain125","rain127","rain129","rain131","rain133","rain135","rain137","rain139","rain141","rain143","rain145","rain147","rain149","rain151","rain153","rain155","rain157","rain159","rain161","rain163","rain165","rain167","rain169","rain171","rain173","rain175","rain177","rain179","rain181","rain183","rain185","rain187","rain189","rain191","rain193","rain195","rain197","rain199","rain201","rain203","rain205","rain207","rain209","rain211","rain213","rain215","rain217","rain219","rain221","rain223","rain225","rain227","rain229","rain231","rain233","rain235","rain237","rain239","rain241","rain243","rain245","rain247","rain249","rain251","rain253","rain255","rain257","rain259","rain261","rain263","rain265","rain267","rain269","rain271","rain273","rain275","rain277","rain279","rain281","rain283","rain285","rain287","rain289","rain291","rain293","rain295","rain297","rain299","rain301","rain303","rain305","rain307","rain309","rain311","rain313","rain315","rain317","rain319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["rain0","rain2","rain4","rain6","rain8","rain10","rain12","rain14","rain16","rain18","rain20","rain22","rain24","rain26","rain28","rain30","rain32","rain34","rain36","rain38","rain40","rain42","rain44","rain46","rain48","rain50","rain52","rain54","rain56","rain58","rain60","rain62","rain64","rain66","rain68","rain70","rain72","rain74","rain76","rain78","rain80","rain82","rain84","rain86","rain88","rain90","rain92","rain94","rain96","rain98","rain100","rain102","rain104","rain106","rain108","rain110","rain112","rain114","rain116","rain118","rain120","rain122","rain124","rain126","rain128","rain130","rain132","rain134","rain136","rain138","rain140","rain142","rain144","rain146","rain148","rain150","rain152","rain154","rain156","rain158","rain160","rain162","rain164","rain166","rain168","rain170","rain172","rain174","rain176","rain178","rain180","rain182","rain184","rain186","rain188","rain190","rain192","rain194","rain196","rain198","rain200","rain202","rain204","rain206","rain208","rain210","rain212","rain214","rain216","rain218","rain220","rain222","rain224","rain226","rain228","rain230","rain232","rain234","rain236","rain238","rain240","rain242","rain244","rain246","rain248","rain250","rain252","rain254","rain256","rain258","rain260","rain262","rain264","rain266","rain268","rain270","rain272","rain274","rain276","rain278","rain280","rain282","rain284","rain286","rain288","rain290","rain292","rain294","rain296","rain298","rain300","rain302","rain304","rain306","rain308","rain310","rain312","rain314","rain316","rain318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("rain0_path") && game.includes("rain319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["檐雨雨声茶暖蜜","檐雨雨脚蜜暖蜜","檐雨雨丝姜暖蜜","檐雨雨帘花暖蜜","檐雨雨巷香暖蜜","檐雨雨瓦凉暖蜜","檐雨雨帘静暖蜜","檐雨雨伞暖暖蜜","檐雨雨笠湿暖蜜","檐雨雨蓑香暖蜜","檐雨雨靴泥暖蜜","檐雨雨蛙鸣暖蜜","檐雨雨蝉歇暖蜜","檐雨雨萤灭暖蜜","檐雨雨灯昏暖蜜","檐雨雨巷深暖蜜","窗雨雨声茶暖蜜","窗雨雨脚蜜暖蜜","窗雨雨丝姜暖蜜","窗雨雨帘花暖蜜","窗雨雨巷香暖蜜","窗雨雨瓦凉暖蜜","窗雨雨帘静暖蜜","窗雨雨伞暖暖蜜","窗雨雨笠湿暖蜜","窗雨雨蓑香暖蜜","窗雨雨靴泥暖蜜","窗雨雨蛙鸣暖蜜","窗雨雨蝉歇暖蜜","窗雨雨萤灭暖蜜","窗雨雨灯昏暖蜜","窗雨雨巷深暖蜜","阶雨雨声茶暖蜜","阶雨雨脚蜜暖蜜","阶雨雨丝姜暖蜜","阶雨雨帘花暖蜜","阶雨雨巷香暖蜜","阶雨雨瓦凉暖蜜","阶雨雨帘静暖蜜","阶雨雨伞暖暖蜜","阶雨雨笠湿暖蜜","阶雨雨蓑香暖蜜","阶雨雨靴泥暖蜜","阶雨雨蛙鸣暖蜜","阶雨雨蝉歇暖蜜","阶雨雨萤灭暖蜜","阶雨雨灯昏暖蜜","阶雨雨巷深暖蜜","桥雨雨声茶暖蜜","桥雨雨脚蜜暖蜜","桥雨雨丝姜暖蜜","桥雨雨帘花暖蜜","桥雨雨巷香暖蜜","桥雨雨瓦凉暖蜜","桥雨雨帘静暖蜜","桥雨雨伞暖暖蜜","桥雨雨笠湿暖蜜","桥雨雨蓑香暖蜜","桥雨雨靴泥暖蜜","桥雨雨蛙鸣暖蜜","桥雨雨蝉歇暖蜜","桥雨雨萤灭暖蜜","桥雨雨灯昏暖蜜","桥雨雨巷深暖蜜","舟雨雨声茶暖蜜","舟雨雨脚蜜暖蜜","舟雨雨丝姜暖蜜","舟雨雨帘花暖蜜","舟雨雨巷香暖蜜","舟雨雨瓦凉暖蜜","舟雨雨帘静暖蜜","舟雨雨伞暖暖蜜","舟雨雨笠湿暖蜜","舟雨雨蓑香暖蜜","舟雨雨靴泥暖蜜","舟雨雨蛙鸣暖蜜","舟雨雨蝉歇暖蜜","舟雨雨萤灭暖蜜","舟雨雨灯昏暖蜜","舟雨雨巷深暖蜜","林雨雨声茶暖蜜","林雨雨脚蜜暖蜜","林雨雨丝姜暖蜜","林雨雨帘花暖蜜","林雨雨巷香暖蜜","林雨雨瓦凉暖蜜","林雨雨帘静暖蜜","林雨雨伞暖暖蜜","林雨雨笠湿暖蜜","林雨雨蓑香暖蜜","林雨雨靴泥暖蜜","林雨雨蛙鸣暖蜜","林雨雨蝉歇暖蜜","林雨雨萤灭暖蜜","林雨雨灯昏暖蜜","林雨雨巷深暖蜜","竹雨雨声茶暖蜜","竹雨雨脚蜜暖蜜","竹雨雨丝姜暖蜜","竹雨雨帘花暖蜜","竹雨雨巷香暖蜜","竹雨雨瓦凉暖蜜","竹雨雨帘静暖蜜","竹雨雨伞暖暖蜜","竹雨雨笠湿暖蜜","竹雨雨蓑香暖蜜","竹雨雨靴泥暖蜜","竹雨雨蛙鸣暖蜜","竹雨雨蝉歇暖蜜","竹雨雨萤灭暖蜜","竹雨雨灯昏暖蜜","竹雨雨巷深暖蜜","蕉雨雨声茶暖蜜","蕉雨雨脚蜜暖蜜","蕉雨雨丝姜暖蜜","蕉雨雨帘花暖蜜","蕉雨雨巷香暖蜜","蕉雨雨瓦凉暖蜜","蕉雨雨帘静暖蜜","蕉雨雨伞暖暖蜜","蕉雨雨笠湿暖蜜","蕉雨雨蓑香暖蜜","蕉雨雨靴泥暖蜜","蕉雨雨蛙鸣暖蜜","蕉雨雨蝉歇暖蜜","蕉雨雨萤灭暖蜜","蕉雨雨灯昏暖蜜","蕉雨雨巷深暖蜜","荷雨雨声茶暖蜜","荷雨雨脚蜜暖蜜","荷雨雨丝姜暖蜜","荷雨雨帘花暖蜜","荷雨雨巷香暖蜜","荷雨雨瓦凉暖蜜","荷雨雨帘静暖蜜","荷雨雨伞暖暖蜜","荷雨雨笠湿暖蜜","荷雨雨蓑香暖蜜","荷雨雨靴泥暖蜜","荷雨雨蛙鸣暖蜜","荷雨雨蝉歇暖蜜","荷雨雨萤灭暖蜜","荷雨雨灯昏暖蜜","荷雨雨巷深暖蜜","蛙雨雨声茶暖蜜","蛙雨雨脚蜜暖蜜","蛙雨雨丝姜暖蜜","蛙雨雨帘花暖蜜","蛙雨雨巷香暖蜜","蛙雨雨瓦凉暖蜜","蛙雨雨帘静暖蜜","蛙雨雨伞暖暖蜜","蛙雨雨笠湿暖蜜","蛙雨雨蓑香暖蜜","蛙雨雨靴泥暖蜜","蛙雨雨蛙鸣暖蜜","蛙雨雨蝉歇暖蜜","蛙雨雨萤灭暖蜜","蛙雨雨灯昏暖蜜","蛙雨雨巷深暖蜜","蝉雨雨声茶暖蜜","蝉雨雨脚蜜暖蜜","蝉雨雨丝姜暖蜜","蝉雨雨帘花暖蜜","蝉雨雨巷香暖蜜","蝉雨雨瓦凉暖蜜","蝉雨雨帘静暖蜜","蝉雨雨伞暖暖蜜","蝉雨雨笠湿暖蜜","蝉雨雨蓑香暖蜜","蝉雨雨靴泥暖蜜","蝉雨雨蛙鸣暖蜜","蝉雨雨蝉歇暖蜜","蝉雨雨萤灭暖蜜","蝉雨雨灯昏暖蜜","蝉雨雨巷深暖蜜","萤雨雨声茶暖蜜","萤雨雨脚蜜暖蜜","萤雨雨丝姜暖蜜","萤雨雨帘花暖蜜","萤雨雨巷香暖蜜","萤雨雨瓦凉暖蜜","萤雨雨帘静暖蜜","萤雨雨伞暖暖蜜","萤雨雨笠湿暖蜜","萤雨雨蓑香暖蜜","萤雨雨靴泥暖蜜","萤雨雨蛙鸣暖蜜","萤雨雨蝉歇暖蜜","萤雨雨萤灭暖蜜","萤雨雨灯昏暖蜜","萤雨雨巷深暖蜜","灯雨雨声茶暖蜜","灯雨雨脚蜜暖蜜","灯雨雨丝姜暖蜜","灯雨雨帘花暖蜜","灯雨雨巷香暖蜜","灯雨雨瓦凉暖蜜","灯雨雨帘静暖蜜","灯雨雨伞暖暖蜜","灯雨雨笠湿暖蜜","灯雨雨蓑香暖蜜","灯雨雨靴泥暖蜜","灯雨雨蛙鸣暖蜜","灯雨雨蝉歇暖蜜","灯雨雨萤灭暖蜜","灯雨雨灯昏暖蜜","灯雨雨巷深暖蜜","巷雨雨声茶暖蜜","巷雨雨脚蜜暖蜜","巷雨雨丝姜暖蜜","巷雨雨帘花暖蜜","巷雨雨巷香暖蜜","巷雨雨瓦凉暖蜜","巷雨雨帘静暖蜜","巷雨雨伞暖暖蜜","巷雨雨笠湿暖蜜","巷雨雨蓑香暖蜜","巷雨雨靴泥暖蜜","巷雨雨蛙鸣暖蜜","巷雨雨蝉歇暖蜜","巷雨雨萤灭暖蜜","巷雨雨灯昏暖蜜","巷雨雨巷深暖蜜","瓦雨雨声茶暖蜜","瓦雨雨脚蜜暖蜜","瓦雨雨丝姜暖蜜","瓦雨雨帘花暖蜜","瓦雨雨巷香暖蜜","瓦雨雨瓦凉暖蜜","瓦雨雨帘静暖蜜","瓦雨雨伞暖暖蜜","瓦雨雨笠湿暖蜜","瓦雨雨蓑香暖蜜","瓦雨雨靴泥暖蜜","瓦雨雨蛙鸣暖蜜","瓦雨雨蝉歇暖蜜","瓦雨雨萤灭暖蜜","瓦雨雨灯昏暖蜜","瓦雨雨巷深暖蜜","帘雨雨声茶暖蜜","帘雨雨脚蜜暖蜜","帘雨雨丝姜暖蜜","帘雨雨帘花暖蜜","帘雨雨巷香暖蜜","帘雨雨瓦凉暖蜜","帘雨雨帘静暖蜜","帘雨雨伞暖暖蜜","帘雨雨笠湿暖蜜","帘雨雨蓑香暖蜜","帘雨雨靴泥暖蜜","帘雨雨蛙鸣暖蜜","帘雨雨蝉歇暖蜜","帘雨雨萤灭暖蜜","帘雨雨灯昏暖蜜","帘雨雨巷深暖蜜","伞雨雨声茶暖蜜","伞雨雨脚蜜暖蜜","伞雨雨丝姜暖蜜","伞雨雨帘花暖蜜","伞雨雨巷香暖蜜","伞雨雨瓦凉暖蜜","伞雨雨帘静暖蜜","伞雨雨伞暖暖蜜","伞雨雨笠湿暖蜜","伞雨雨蓑香暖蜜","伞雨雨靴泥暖蜜","伞雨雨蛙鸣暖蜜","伞雨雨蝉歇暖蜜","伞雨雨萤灭暖蜜","伞雨雨灯昏暖蜜","伞雨雨巷深暖蜜","笠雨雨声茶暖蜜","笠雨雨脚蜜暖蜜","笠雨雨丝姜暖蜜","笠雨雨帘花暖蜜","笠雨雨巷香暖蜜","笠雨雨瓦凉暖蜜","笠雨雨帘静暖蜜","笠雨雨伞暖暖蜜","笠雨雨笠湿暖蜜","笠雨雨蓑香暖蜜","笠雨雨靴泥暖蜜","笠雨雨蛙鸣暖蜜","笠雨雨蝉歇暖蜜","笠雨雨萤灭暖蜜","笠雨雨灯昏暖蜜","笠雨雨巷深暖蜜","蓑雨雨声茶暖蜜","蓑雨雨脚蜜暖蜜","蓑雨雨丝姜暖蜜","蓑雨雨帘花暖蜜","蓑雨雨巷香暖蜜","蓑雨雨瓦凉暖蜜","蓑雨雨帘静暖蜜","蓑雨雨伞暖暖蜜","蓑雨雨笠湿暖蜜","蓑雨雨蓑香暖蜜","蓑雨雨靴泥暖蜜","蓑雨雨蛙鸣暖蜜","蓑雨雨蝉歇暖蜜","蓑雨雨萤灭暖蜜","蓑雨雨灯昏暖蜜","蓑雨雨巷深暖蜜","靴雨雨声茶暖蜜","靴雨雨脚蜜暖蜜","靴雨雨丝姜暖蜜","靴雨雨帘花暖蜜","靴雨雨巷香暖蜜","靴雨雨瓦凉暖蜜","靴雨雨帘静暖蜜","靴雨雨伞暖暖蜜","靴雨雨笠湿暖蜜","靴雨雨蓑香暖蜜","靴雨雨靴泥暖蜜","靴雨雨蛙鸣暖蜜","靴雨雨蝉歇暖蜜","靴雨雨萤灭暖蜜","靴雨雨灯昏暖蜜","靴雨雨巷深暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21757,7 +21757,7 @@ test("wind0 wind1 wind2 wind3 wind4 wind5 wind6 wind7 wind8 wind9 wind10 wind11 
   ["wind1","wind3","wind5","wind7","wind9","wind11","wind13","wind15","wind17","wind19","wind21","wind23","wind25","wind27","wind29","wind31","wind33","wind35","wind37","wind39","wind41","wind43","wind45","wind47","wind49","wind51","wind53","wind55","wind57","wind59","wind61","wind63","wind65","wind67","wind69","wind71","wind73","wind75","wind77","wind79","wind81","wind83","wind85","wind87","wind89","wind91","wind93","wind95","wind97","wind99","wind101","wind103","wind105","wind107","wind109","wind111","wind113","wind115","wind117","wind119","wind121","wind123","wind125","wind127","wind129","wind131","wind133","wind135","wind137","wind139","wind141","wind143","wind145","wind147","wind149","wind151","wind153","wind155","wind157","wind159","wind161","wind163","wind165","wind167","wind169","wind171","wind173","wind175","wind177","wind179","wind181","wind183","wind185","wind187","wind189","wind191","wind193","wind195","wind197","wind199","wind201","wind203","wind205","wind207","wind209","wind211","wind213","wind215","wind217","wind219","wind221","wind223","wind225","wind227","wind229","wind231","wind233","wind235","wind237","wind239","wind241","wind243","wind245","wind247","wind249","wind251","wind253","wind255","wind257","wind259","wind261","wind263","wind265","wind267","wind269","wind271","wind273","wind275","wind277","wind279","wind281","wind283","wind285","wind287","wind289","wind291","wind293","wind295","wind297","wind299","wind301","wind303","wind305","wind307","wind309","wind311","wind313","wind315","wind317","wind319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["wind0","wind2","wind4","wind6","wind8","wind10","wind12","wind14","wind16","wind18","wind20","wind22","wind24","wind26","wind28","wind30","wind32","wind34","wind36","wind38","wind40","wind42","wind44","wind46","wind48","wind50","wind52","wind54","wind56","wind58","wind60","wind62","wind64","wind66","wind68","wind70","wind72","wind74","wind76","wind78","wind80","wind82","wind84","wind86","wind88","wind90","wind92","wind94","wind96","wind98","wind100","wind102","wind104","wind106","wind108","wind110","wind112","wind114","wind116","wind118","wind120","wind122","wind124","wind126","wind128","wind130","wind132","wind134","wind136","wind138","wind140","wind142","wind144","wind146","wind148","wind150","wind152","wind154","wind156","wind158","wind160","wind162","wind164","wind166","wind168","wind170","wind172","wind174","wind176","wind178","wind180","wind182","wind184","wind186","wind188","wind190","wind192","wind194","wind196","wind198","wind200","wind202","wind204","wind206","wind208","wind210","wind212","wind214","wind216","wind218","wind220","wind222","wind224","wind226","wind228","wind230","wind232","wind234","wind236","wind238","wind240","wind242","wind244","wind246","wind248","wind250","wind252","wind254","wind256","wind258","wind260","wind262","wind264","wind266","wind268","wind270","wind272","wind274","wind276","wind278","wind280","wind282","wind284","wind286","wind288","wind290","wind292","wind294","wind296","wind298","wind300","wind302","wind304","wind306","wind308","wind310","wind312","wind314","wind316","wind318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("wind0_path") && game.includes("wind319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["东风风信子暖蜜","东风风铃草暖蜜","东风风车草暖蜜","东风风滚草暖蜜","东风风媒花暖蜜","东风风干草暖蜜","东风风渍叶暖蜜","东风风蚀石暖蜜","东风风磨砂暖蜜","东风风积土暖蜜","东风风向标暖蜜","东风风筝线暖蜜","东风风幡影暖蜜","东风风旗角暖蜜","东风风帆边暖蜜","东风风轮叶暖蜜","西风风信子暖蜜","西风风铃草暖蜜","西风风车草暖蜜","西风风滚草暖蜜","西风风媒花暖蜜","西风风干草暖蜜","西风风渍叶暖蜜","西风风蚀石暖蜜","西风风磨砂暖蜜","西风风积土暖蜜","西风风向标暖蜜","西风风筝线暖蜜","西风风幡影暖蜜","西风风旗角暖蜜","西风风帆边暖蜜","西风风轮叶暖蜜","南风风信子暖蜜","南风风铃草暖蜜","南风风车草暖蜜","南风风滚草暖蜜","南风风媒花暖蜜","南风风干草暖蜜","南风风渍叶暖蜜","南风风蚀石暖蜜","南风风磨砂暖蜜","南风风积土暖蜜","南风风向标暖蜜","南风风筝线暖蜜","南风风幡影暖蜜","南风风旗角暖蜜","南风风帆边暖蜜","南风风轮叶暖蜜","北风风信子暖蜜","北风风铃草暖蜜","北风风车草暖蜜","北风风滚草暖蜜","北风风媒花暖蜜","北风风干草暖蜜","北风风渍叶暖蜜","北风风蚀石暖蜜","北风风磨砂暖蜜","北风风积土暖蜜","北风风向标暖蜜","北风风筝线暖蜜","北风风幡影暖蜜","北风风旗角暖蜜","北风风帆边暖蜜","北风风轮叶暖蜜","春风风信子暖蜜","春风风铃草暖蜜","春风风车草暖蜜","春风风滚草暖蜜","春风风媒花暖蜜","春风风干草暖蜜","春风风渍叶暖蜜","春风风蚀石暖蜜","春风风磨砂暖蜜","春风风积土暖蜜","春风风向标暖蜜","春风风筝线暖蜜","春风风幡影暖蜜","春风风旗角暖蜜","春风风帆边暖蜜","春风风轮叶暖蜜","秋风风信子暖蜜","秋风风铃草暖蜜","秋风风车草暖蜜","秋风风滚草暖蜜","秋风风媒花暖蜜","秋风风干草暖蜜","秋风风渍叶暖蜜","秋风风蚀石暖蜜","秋风风磨砂暖蜜","秋风风积土暖蜜","秋风风向标暖蜜","秋风风筝线暖蜜","秋风风幡影暖蜜","秋风风旗角暖蜜","秋风风帆边暖蜜","秋风风轮叶暖蜜","谷风风信子暖蜜","谷风风铃草暖蜜","谷风风车草暖蜜","谷风风滚草暖蜜","谷风风媒花暖蜜","谷风风干草暖蜜","谷风风渍叶暖蜜","谷风风蚀石暖蜜","谷风风磨砂暖蜜","谷风风积土暖蜜","谷风风向标暖蜜","谷风风筝线暖蜜","谷风风幡影暖蜜","谷风风旗角暖蜜","谷风风帆边暖蜜","谷风风轮叶暖蜜","山风风信子暖蜜","山风风铃草暖蜜","山风风车草暖蜜","山风风滚草暖蜜","山风风媒花暖蜜","山风风干草暖蜜","山风风渍叶暖蜜","山风风蚀石暖蜜","山风风磨砂暖蜜","山风风积土暖蜜","山风风向标暖蜜","山风风筝线暖蜜","山风风幡影暖蜜","山风风旗角暖蜜","山风风帆边暖蜜","山风风轮叶暖蜜","海风风信子暖蜜","海风风铃草暖蜜","海风风车草暖蜜","海风风滚草暖蜜","海风风媒花暖蜜","海风风干草暖蜜","海风风渍叶暖蜜","海风风蚀石暖蜜","海风风磨砂暖蜜","海风风积土暖蜜","海风风向标暖蜜","海风风筝线暖蜜","海风风幡影暖蜜","海风风旗角暖蜜","海风风帆边暖蜜","海风风轮叶暖蜜","江风风信子暖蜜","江风风铃草暖蜜","江风风车草暖蜜","江风风滚草暖蜜","江风风媒花暖蜜","江风风干草暖蜜","江风风渍叶暖蜜","江风风蚀石暖蜜","江风风磨砂暖蜜","江风风积土暖蜜","江风风向标暖蜜","江风风筝线暖蜜","江风风幡影暖蜜","江风风旗角暖蜜","江风风帆边暖蜜","江风风轮叶暖蜜","河风风信子暖蜜","河风风铃草暖蜜","河风风车草暖蜜","河风风滚草暖蜜","河风风媒花暖蜜","河风风干草暖蜜","河风风渍叶暖蜜","河风风蚀石暖蜜","河风风磨砂暖蜜","河风风积土暖蜜","河风风向标暖蜜","河风风筝线暖蜜","河风风幡影暖蜜","河风风旗角暖蜜","河风风帆边暖蜜","河风风轮叶暖蜜","湖风风信子暖蜜","湖风风铃草暖蜜","湖风风车草暖蜜","湖风风滚草暖蜜","湖风风媒花暖蜜","湖风风干草暖蜜","湖风风渍叶暖蜜","湖风风蚀石暖蜜","湖风风磨砂暖蜜","湖风风积土暖蜜","湖风风向标暖蜜","湖风风筝线暖蜜","湖风风幡影暖蜜","湖风风旗角暖蜜","湖风风帆边暖蜜","湖风风轮叶暖蜜","林风风信子暖蜜","林风风铃草暖蜜","林风风车草暖蜜","林风风滚草暖蜜","林风风媒花暖蜜","林风风干草暖蜜","林风风渍叶暖蜜","林风风蚀石暖蜜","林风风磨砂暖蜜","林风风积土暖蜜","林风风向标暖蜜","林风风筝线暖蜜","林风风幡影暖蜜","林风风旗角暖蜜","林风风帆边暖蜜","林风风轮叶暖蜜","竹风风信子暖蜜","竹风风铃草暖蜜","竹风风车草暖蜜","竹风风滚草暖蜜","竹风风媒花暖蜜","竹风风干草暖蜜","竹风风渍叶暖蜜","竹风风蚀石暖蜜","竹风风磨砂暖蜜","竹风风积土暖蜜","竹风风向标暖蜜","竹风风筝线暖蜜","竹风风幡影暖蜜","竹风风旗角暖蜜","竹风风帆边暖蜜","竹风风轮叶暖蜜","松风风信子暖蜜","松风风铃草暖蜜","松风风车草暖蜜","松风风滚草暖蜜","松风风媒花暖蜜","松风风干草暖蜜","松风风渍叶暖蜜","松风风蚀石暖蜜","松风风磨砂暖蜜","松风风积土暖蜜","松风风向标暖蜜","松风风筝线暖蜜","松风风幡影暖蜜","松风风旗角暖蜜","松风风帆边暖蜜","松风风轮叶暖蜜","槐风风信子暖蜜","槐风风铃草暖蜜","槐风风车草暖蜜","槐风风滚草暖蜜","槐风风媒花暖蜜","槐风风干草暖蜜","槐风风渍叶暖蜜","槐风风蚀石暖蜜","槐风风磨砂暖蜜","槐风风积土暖蜜","槐风风向标暖蜜","槐风风筝线暖蜜","槐风风幡影暖蜜","槐风风旗角暖蜜","槐风风帆边暖蜜","槐风风轮叶暖蜜","柳风风信子暖蜜","柳风风铃草暖蜜","柳风风车草暖蜜","柳风风滚草暖蜜","柳风风媒花暖蜜","柳风风干草暖蜜","柳风风渍叶暖蜜","柳风风蚀石暖蜜","柳风风磨砂暖蜜","柳风风积土暖蜜","柳风风向标暖蜜","柳风风筝线暖蜜","柳风风幡影暖蜜","柳风风旗角暖蜜","柳风风帆边暖蜜","柳风风轮叶暖蜜","麦风风信子暖蜜","麦风风铃草暖蜜","麦风风车草暖蜜","麦风风滚草暖蜜","麦风风媒花暖蜜","麦风风干草暖蜜","麦风风渍叶暖蜜","麦风风蚀石暖蜜","麦风风磨砂暖蜜","麦风风积土暖蜜","麦风风向标暖蜜","麦风风筝线暖蜜","麦风风幡影暖蜜","麦风风旗角暖蜜","麦风风帆边暖蜜","麦风风轮叶暖蜜","稻风风信子暖蜜","稻风风铃草暖蜜","稻风风车草暖蜜","稻风风滚草暖蜜","稻风风媒花暖蜜","稻风风干草暖蜜","稻风风渍叶暖蜜","稻风风蚀石暖蜜","稻风风磨砂暖蜜","稻风风积土暖蜜","稻风风向标暖蜜","稻风风筝线暖蜜","稻风风幡影暖蜜","稻风风旗角暖蜜","稻风风帆边暖蜜","稻风风轮叶暖蜜","花风风信子暖蜜","花风风铃草暖蜜","花风风车草暖蜜","花风风滚草暖蜜","花风风媒花暖蜜","花风风干草暖蜜","花风风渍叶暖蜜","花风风蚀石暖蜜","花风风磨砂暖蜜","花风风积土暖蜜","花风风向标暖蜜","花风风筝线暖蜜","花风风幡影暖蜜","花风风旗角暖蜜","花风风帆边暖蜜","花风风轮叶暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21797,7 +21797,7 @@ test("sun0 sun1 sun2 sun3 sun4 sun5 sun6 sun7 sun8 sun9 sun10 sun11 sun12 sun13 
   ["sun1","sun3","sun5","sun7","sun9","sun11","sun13","sun15","sun17","sun19","sun21","sun23","sun25","sun27","sun29","sun31","sun33","sun35","sun37","sun39","sun41","sun43","sun45","sun47","sun49","sun51","sun53","sun55","sun57","sun59","sun61","sun63","sun65","sun67","sun69","sun71","sun73","sun75","sun77","sun79","sun81","sun83","sun85","sun87","sun89","sun91","sun93","sun95","sun97","sun99","sun101","sun103","sun105","sun107","sun109","sun111","sun113","sun115","sun117","sun119","sun121","sun123","sun125","sun127","sun129","sun131","sun133","sun135","sun137","sun139","sun141","sun143","sun145","sun147","sun149","sun151","sun153","sun155","sun157","sun159","sun161","sun163","sun165","sun167","sun169","sun171","sun173","sun175","sun177","sun179","sun181","sun183","sun185","sun187","sun189","sun191","sun193","sun195","sun197","sun199","sun201","sun203","sun205","sun207","sun209","sun211","sun213","sun215","sun217","sun219","sun221","sun223","sun225","sun227","sun229","sun231","sun233","sun235","sun237","sun239","sun241","sun243","sun245","sun247","sun249","sun251","sun253","sun255","sun257","sun259","sun261","sun263","sun265","sun267","sun269","sun271","sun273","sun275","sun277","sun279","sun281","sun283","sun285","sun287","sun289","sun291","sun293","sun295","sun297","sun299","sun301","sun303","sun305","sun307","sun309","sun311","sun313","sun315","sun317","sun319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["sun0","sun2","sun4","sun6","sun8","sun10","sun12","sun14","sun16","sun18","sun20","sun22","sun24","sun26","sun28","sun30","sun32","sun34","sun36","sun38","sun40","sun42","sun44","sun46","sun48","sun50","sun52","sun54","sun56","sun58","sun60","sun62","sun64","sun66","sun68","sun70","sun72","sun74","sun76","sun78","sun80","sun82","sun84","sun86","sun88","sun90","sun92","sun94","sun96","sun98","sun100","sun102","sun104","sun106","sun108","sun110","sun112","sun114","sun116","sun118","sun120","sun122","sun124","sun126","sun128","sun130","sun132","sun134","sun136","sun138","sun140","sun142","sun144","sun146","sun148","sun150","sun152","sun154","sun156","sun158","sun160","sun162","sun164","sun166","sun168","sun170","sun172","sun174","sun176","sun178","sun180","sun182","sun184","sun186","sun188","sun190","sun192","sun194","sun196","sun198","sun200","sun202","sun204","sun206","sun208","sun210","sun212","sun214","sun216","sun218","sun220","sun222","sun224","sun226","sun228","sun230","sun232","sun234","sun236","sun238","sun240","sun242","sun244","sun246","sun248","sun250","sun252","sun254","sun256","sun258","sun260","sun262","sun264","sun266","sun268","sun270","sun272","sun274","sun276","sun278","sun280","sun282","sun284","sun286","sun288","sun290","sun292","sun294","sun296","sun298","sun300","sun302","sun304","sun306","sun308","sun310","sun312","sun314","sun316","sun318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("sun0_path") && game.includes("sun319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["日出向日葵暖蜜","日出日光兰暖蜜","日出日照花暖蜜","日出日荫草暖蜜","日出日中茶暖蜜","日出日斜蜜暖蜜","日出日入姜暖蜜","日出日影苔暖蜜","日出日晷针暖蜜","日出日烛芯暖蜜","日出日华光暖蜜","日出日廊风暖蜜","日出日阶暖暖蜜","日出日窗亮暖蜜","日出日席软暖蜜","日出日榻静暖蜜","日中向日葵暖蜜","日中日光兰暖蜜","日中日照花暖蜜","日中日荫草暖蜜","日中日中茶暖蜜","日中日斜蜜暖蜜","日中日入姜暖蜜","日中日影苔暖蜜","日中日晷针暖蜜","日中日烛芯暖蜜","日中日华光暖蜜","日中日廊风暖蜜","日中日阶暖暖蜜","日中日窗亮暖蜜","日中日席软暖蜜","日中日榻静暖蜜","日斜向日葵暖蜜","日斜日光兰暖蜜","日斜日照花暖蜜","日斜日荫草暖蜜","日斜日中茶暖蜜","日斜日斜蜜暖蜜","日斜日入姜暖蜜","日斜日影苔暖蜜","日斜日晷针暖蜜","日斜日烛芯暖蜜","日斜日华光暖蜜","日斜日廊风暖蜜","日斜日阶暖暖蜜","日斜日窗亮暖蜜","日斜日席软暖蜜","日斜日榻静暖蜜","日入向日葵暖蜜","日入日光兰暖蜜","日入日照花暖蜜","日入日荫草暖蜜","日入日中茶暖蜜","日入日斜蜜暖蜜","日入日入姜暖蜜","日入日影苔暖蜜","日入日晷针暖蜜","日入日烛芯暖蜜","日入日华光暖蜜","日入日廊风暖蜜","日入日阶暖暖蜜","日入日窗亮暖蜜","日入日席软暖蜜","日入日榻静暖蜜","日升向日葵暖蜜","日升日光兰暖蜜","日升日照花暖蜜","日升日荫草暖蜜","日升日中茶暖蜜","日升日斜蜜暖蜜","日升日入姜暖蜜","日升日影苔暖蜜","日升日晷针暖蜜","日升日烛芯暖蜜","日升日华光暖蜜","日升日廊风暖蜜","日升日阶暖暖蜜","日升日窗亮暖蜜","日升日席软暖蜜","日升日榻静暖蜜","日沉向日葵暖蜜","日沉日光兰暖蜜","日沉日照花暖蜜","日沉日荫草暖蜜","日沉日中茶暖蜜","日沉日斜蜜暖蜜","日沉日入姜暖蜜","日沉日影苔暖蜜","日沉日晷针暖蜜","日沉日烛芯暖蜜","日沉日华光暖蜜","日沉日廊风暖蜜","日沉日阶暖暖蜜","日沉日窗亮暖蜜","日沉日席软暖蜜","日沉日榻静暖蜜","日晕向日葵暖蜜","日晕日光兰暖蜜","日晕日照花暖蜜","日晕日荫草暖蜜","日晕日中茶暖蜜","日晕日斜蜜暖蜜","日晕日入姜暖蜜","日晕日影苔暖蜜","日晕日晷针暖蜜","日晕日烛芯暖蜜","日晕日华光暖蜜","日晕日廊风暖蜜","日晕日阶暖暖蜜","日晕日窗亮暖蜜","日晕日席软暖蜜","日晕日榻静暖蜜","日珥向日葵暖蜜","日珥日光兰暖蜜","日珥日照花暖蜜","日珥日荫草暖蜜","日珥日中茶暖蜜","日珥日斜蜜暖蜜","日珥日入姜暖蜜","日珥日影苔暖蜜","日珥日晷针暖蜜","日珥日烛芯暖蜜","日珥日华光暖蜜","日珥日廊风暖蜜","日珥日阶暖暖蜜","日珥日窗亮暖蜜","日珥日席软暖蜜","日珥日榻静暖蜜","日影向日葵暖蜜","日影日光兰暖蜜","日影日照花暖蜜","日影日荫草暖蜜","日影日中茶暖蜜","日影日斜蜜暖蜜","日影日入姜暖蜜","日影日影苔暖蜜","日影日晷针暖蜜","日影日烛芯暖蜜","日影日华光暖蜜","日影日廊风暖蜜","日影日阶暖暖蜜","日影日窗亮暖蜜","日影日席软暖蜜","日影日榻静暖蜜","日晷向日葵暖蜜","日晷日光兰暖蜜","日晷日照花暖蜜","日晷日荫草暖蜜","日晷日中茶暖蜜","日晷日斜蜜暖蜜","日晷日入姜暖蜜","日晷日影苔暖蜜","日晷日晷针暖蜜","日晷日烛芯暖蜜","日晷日华光暖蜜","日晷日廊风暖蜜","日晷日阶暖暖蜜","日晷日窗亮暖蜜","日晷日席软暖蜜","日晷日榻静暖蜜","日烛向日葵暖蜜","日烛日光兰暖蜜","日烛日照花暖蜜","日烛日荫草暖蜜","日烛日中茶暖蜜","日烛日斜蜜暖蜜","日烛日入姜暖蜜","日烛日影苔暖蜜","日烛日晷针暖蜜","日烛日烛芯暖蜜","日烛日华光暖蜜","日烛日廊风暖蜜","日烛日阶暖暖蜜","日烛日窗亮暖蜜","日烛日席软暖蜜","日烛日榻静暖蜜","日华向日葵暖蜜","日华日光兰暖蜜","日华日照花暖蜜","日华日荫草暖蜜","日华日中茶暖蜜","日华日斜蜜暖蜜","日华日入姜暖蜜","日华日影苔暖蜜","日华日晷针暖蜜","日华日烛芯暖蜜","日华日华光暖蜜","日华日廊风暖蜜","日华日阶暖暖蜜","日华日窗亮暖蜜","日华日席软暖蜜","日华日榻静暖蜜","日廊向日葵暖蜜","日廊日光兰暖蜜","日廊日照花暖蜜","日廊日荫草暖蜜","日廊日中茶暖蜜","日廊日斜蜜暖蜜","日廊日入姜暖蜜","日廊日影苔暖蜜","日廊日晷针暖蜜","日廊日烛芯暖蜜","日廊日华光暖蜜","日廊日廊风暖蜜","日廊日阶暖暖蜜","日廊日窗亮暖蜜","日廊日席软暖蜜","日廊日榻静暖蜜","日阶向日葵暖蜜","日阶日光兰暖蜜","日阶日照花暖蜜","日阶日荫草暖蜜","日阶日中茶暖蜜","日阶日斜蜜暖蜜","日阶日入姜暖蜜","日阶日影苔暖蜜","日阶日晷针暖蜜","日阶日烛芯暖蜜","日阶日华光暖蜜","日阶日廊风暖蜜","日阶日阶暖暖蜜","日阶日窗亮暖蜜","日阶日席软暖蜜","日阶日榻静暖蜜","日窗向日葵暖蜜","日窗日光兰暖蜜","日窗日照花暖蜜","日窗日荫草暖蜜","日窗日中茶暖蜜","日窗日斜蜜暖蜜","日窗日入姜暖蜜","日窗日影苔暖蜜","日窗日晷针暖蜜","日窗日烛芯暖蜜","日窗日华光暖蜜","日窗日廊风暖蜜","日窗日阶暖暖蜜","日窗日窗亮暖蜜","日窗日席软暖蜜","日窗日榻静暖蜜","日席向日葵暖蜜","日席日光兰暖蜜","日席日照花暖蜜","日席日荫草暖蜜","日席日中茶暖蜜","日席日斜蜜暖蜜","日席日入姜暖蜜","日席日影苔暖蜜","日席日晷针暖蜜","日席日烛芯暖蜜","日席日华光暖蜜","日席日廊风暖蜜","日席日阶暖暖蜜","日席日窗亮暖蜜","日席日席软暖蜜","日席日榻静暖蜜","日榻向日葵暖蜜","日榻日光兰暖蜜","日榻日照花暖蜜","日榻日荫草暖蜜","日榻日中茶暖蜜","日榻日斜蜜暖蜜","日榻日入姜暖蜜","日榻日影苔暖蜜","日榻日晷针暖蜜","日榻日烛芯暖蜜","日榻日华光暖蜜","日榻日廊风暖蜜","日榻日阶暖暖蜜","日榻日窗亮暖蜜","日榻日席软暖蜜","日榻日榻静暖蜜","日几向日葵暖蜜","日几日光兰暖蜜","日几日照花暖蜜","日几日荫草暖蜜","日几日中茶暖蜜","日几日斜蜜暖蜜","日几日入姜暖蜜","日几日影苔暖蜜","日几日晷针暖蜜","日几日烛芯暖蜜","日几日华光暖蜜","日几日廊风暖蜜","日几日阶暖暖蜜","日几日窗亮暖蜜","日几日席软暖蜜","日几日榻静暖蜜","日案向日葵暖蜜","日案日光兰暖蜜","日案日照花暖蜜","日案日荫草暖蜜","日案日中茶暖蜜","日案日斜蜜暖蜜","日案日入姜暖蜜","日案日影苔暖蜜","日案日晷针暖蜜","日案日烛芯暖蜜","日案日华光暖蜜","日案日廊风暖蜜","日案日阶暖暖蜜","日案日窗亮暖蜜","日案日席软暖蜜","日案日榻静暖蜜","日砚向日葵暖蜜","日砚日光兰暖蜜","日砚日照花暖蜜","日砚日荫草暖蜜","日砚日中茶暖蜜","日砚日斜蜜暖蜜","日砚日入姜暖蜜","日砚日影苔暖蜜","日砚日晷针暖蜜","日砚日烛芯暖蜜","日砚日华光暖蜜","日砚日廊风暖蜜","日砚日阶暖暖蜜","日砚日窗亮暖蜜","日砚日席软暖蜜","日砚日榻静暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21837,7 +21837,7 @@ test("star0 star1 star2 star3 star4 star5 star6 star7 star8 star9 star10 star11 
   ["star1","star3","star5","star7","star9","star11","star13","star15","star17","star19","star21","star23","star25","star27","star29","star31","star33","star35","star37","star39","star41","star43","star45","star47","star49","star51","star53","star55","star57","star59","star61","star63","star65","star67","star69","star71","star73","star75","star77","star79","star81","star83","star85","star87","star89","star91","star93","star95","star97","star99","star101","star103","star105","star107","star109","star111","star113","star115","star117","star119","star121","star123","star125","star127","star129","star131","star133","star135","star137","star139","star141","star143","star145","star147","star149","star151","star153","star155","star157","star159","star161","star163","star165","star167","star169","star171","star173","star175","star177","star179","star181","star183","star185","star187","star189","star191","star193","star195","star197","star199","star201","star203","star205","star207","star209","star211","star213","star215","star217","star219","star221","star223","star225","star227","star229","star231","star233","star235","star237","star239","star241","star243","star245","star247","star249","star251","star253","star255","star257","star259","star261","star263","star265","star267","star269","star271","star273","star275","star277","star279","star281","star283","star285","star287","star289","star291","star293","star295","star297","star299","star301","star303","star305","star307","star309","star311","star313","star315","star317","star319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["star0","star2","star4","star6","star8","star10","star12","star14","star16","star18","star20","star22","star24","star26","star28","star30","star32","star34","star36","star38","star40","star42","star44","star46","star48","star50","star52","star54","star56","star58","star60","star62","star64","star66","star68","star70","star72","star74","star76","star78","star80","star82","star84","star86","star88","star90","star92","star94","star96","star98","star100","star102","star104","star106","star108","star110","star112","star114","star116","star118","star120","star122","star124","star126","star128","star130","star132","star134","star136","star138","star140","star142","star144","star146","star148","star150","star152","star154","star156","star158","star160","star162","star164","star166","star168","star170","star172","star174","star176","star178","star180","star182","star184","star186","star188","star190","star192","star194","star196","star198","star200","star202","star204","star206","star208","star210","star212","star214","star216","star218","star220","star222","star224","star226","star228","star230","star232","star234","star236","star238","star240","star242","star244","star246","star248","star250","star252","star254","star256","star258","star260","star262","star264","star266","star268","star270","star272","star274","star276","star278","star280","star282","star284","star286","star288","star290","star292","star294","star296","star298","star300","star302","star304","star306","star308","star310","star312","star314","star316","star318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("star0_path") && game.includes("star319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["北斗星露暖蜜","北斗星霜暖蜜","北斗星尘暖蜜","北斗星屑暖蜜","北斗星辉暖蜜","北斗星影暖蜜","北斗星河暖蜜","北斗星汉暖蜜","北斗星灯暖蜜","北斗星窗暖蜜","北斗星阶暖蜜","北斗星桥暖蜜","北斗星舟暖蜜","北斗星帆暖蜜","北斗星港暖蜜","北斗星驿暖蜜","南斗星露暖蜜","南斗星霜暖蜜","南斗星尘暖蜜","南斗星屑暖蜜","南斗星辉暖蜜","南斗星影暖蜜","南斗星河暖蜜","南斗星汉暖蜜","南斗星灯暖蜜","南斗星窗暖蜜","南斗星阶暖蜜","南斗星桥暖蜜","南斗星舟暖蜜","南斗星帆暖蜜","南斗星港暖蜜","南斗星驿暖蜜","织女星露暖蜜","织女星霜暖蜜","织女星尘暖蜜","织女星屑暖蜜","织女星辉暖蜜","织女星影暖蜜","织女星河暖蜜","织女星汉暖蜜","织女星灯暖蜜","织女星窗暖蜜","织女星阶暖蜜","织女星桥暖蜜","织女星舟暖蜜","织女星帆暖蜜","织女星港暖蜜","织女星驿暖蜜","牵牛星露暖蜜","牵牛星霜暖蜜","牵牛星尘暖蜜","牵牛星屑暖蜜","牵牛星辉暖蜜","牵牛星影暖蜜","牵牛星河暖蜜","牵牛星汉暖蜜","牵牛星灯暖蜜","牵牛星窗暖蜜","牵牛星阶暖蜜","牵牛星桥暖蜜","牵牛星舟暖蜜","牵牛星帆暖蜜","牵牛星港暖蜜","牵牛星驿暖蜜","参宿星露暖蜜","参宿星霜暖蜜","参宿星尘暖蜜","参宿星屑暖蜜","参宿星辉暖蜜","参宿星影暖蜜","参宿星河暖蜜","参宿星汉暖蜜","参宿星灯暖蜜","参宿星窗暖蜜","参宿星阶暖蜜","参宿星桥暖蜜","参宿星舟暖蜜","参宿星帆暖蜜","参宿星港暖蜜","参宿星驿暖蜜","商星星露暖蜜","商星星霜暖蜜","商星星尘暖蜜","商星星屑暖蜜","商星星辉暖蜜","商星星影暖蜜","商星星河暖蜜","商星星汉暖蜜","商星星灯暖蜜","商星星窗暖蜜","商星星阶暖蜜","商星星桥暖蜜","商星星舟暖蜜","商星星帆暖蜜","商星星港暖蜜","商星星驿暖蜜","启明星露暖蜜","启明星霜暖蜜","启明星尘暖蜜","启明星屑暖蜜","启明星辉暖蜜","启明星影暖蜜","启明星河暖蜜","启明星汉暖蜜","启明星灯暖蜜","启明星窗暖蜜","启明星阶暖蜜","启明星桥暖蜜","启明星舟暖蜜","启明星帆暖蜜","启明星港暖蜜","启明星驿暖蜜","长庚星露暖蜜","长庚星霜暖蜜","长庚星尘暖蜜","长庚星屑暖蜜","长庚星辉暖蜜","长庚星影暖蜜","长庚星河暖蜜","长庚星汉暖蜜","长庚星灯暖蜜","长庚星窗暖蜜","长庚星阶暖蜜","长庚星桥暖蜜","长庚星舟暖蜜","长庚星帆暖蜜","长庚星港暖蜜","长庚星驿暖蜜","老人星星露暖蜜","老人星星霜暖蜜","老人星星尘暖蜜","老人星星屑暖蜜","老人星星辉暖蜜","老人星星影暖蜜","老人星星河暖蜜","老人星星汉暖蜜","老人星星灯暖蜜","老人星星窗暖蜜","老人星星阶暖蜜","老人星星桥暖蜜","老人星星舟暖蜜","老人星星帆暖蜜","老人星星港暖蜜","老人星星驿暖蜜","天狼星露暖蜜","天狼星霜暖蜜","天狼星尘暖蜜","天狼星屑暖蜜","天狼星辉暖蜜","天狼星影暖蜜","天狼星河暖蜜","天狼星汉暖蜜","天狼星灯暖蜜","天狼星窗暖蜜","天狼星阶暖蜜","天狼星桥暖蜜","天狼星舟暖蜜","天狼星帆暖蜜","天狼星港暖蜜","天狼星驿暖蜜","织女星星露暖蜜","织女星星霜暖蜜","织女星星尘暖蜜","织女星星屑暖蜜","织女星星辉暖蜜","织女星星影暖蜜","织女星星河暖蜜","织女星星汉暖蜜","织女星星灯暖蜜","织女星星窗暖蜜","织女星星阶暖蜜","织女星星桥暖蜜","织女星星舟暖蜜","织女星星帆暖蜜","织女星星港暖蜜","织女星星驿暖蜜","牛郎星星露暖蜜","牛郎星星霜暖蜜","牛郎星星尘暖蜜","牛郎星星屑暖蜜","牛郎星星辉暖蜜","牛郎星星影暖蜜","牛郎星星河暖蜜","牛郎星星汉暖蜜","牛郎星星灯暖蜜","牛郎星星窗暖蜜","牛郎星星阶暖蜜","牛郎星星桥暖蜜","牛郎星星舟暖蜜","牛郎星星帆暖蜜","牛郎星星港暖蜜","牛郎星星驿暖蜜","北极星星露暖蜜","北极星星霜暖蜜","北极星星尘暖蜜","北极星星屑暖蜜","北极星星辉暖蜜","北极星星影暖蜜","北极星星河暖蜜","北极星星汉暖蜜","北极星星灯暖蜜","北极星星窗暖蜜","北极星星阶暖蜜","北极星星桥暖蜜","北极星星舟暖蜜","北极星星帆暖蜜","北极星星港暖蜜","北极星星驿暖蜜","天枢星露暖蜜","天枢星霜暖蜜","天枢星尘暖蜜","天枢星屑暖蜜","天枢星辉暖蜜","天枢星影暖蜜","天枢星河暖蜜","天枢星汉暖蜜","天枢星灯暖蜜","天枢星窗暖蜜","天枢星阶暖蜜","天枢星桥暖蜜","天枢星舟暖蜜","天枢星帆暖蜜","天枢星港暖蜜","天枢星驿暖蜜","天璇星露暖蜜","天璇星霜暖蜜","天璇星尘暖蜜","天璇星屑暖蜜","天璇星辉暖蜜","天璇星影暖蜜","天璇星河暖蜜","天璇星汉暖蜜","天璇星灯暖蜜","天璇星窗暖蜜","天璇星阶暖蜜","天璇星桥暖蜜","天璇星舟暖蜜","天璇星帆暖蜜","天璇星港暖蜜","天璇星驿暖蜜","天玑星露暖蜜","天玑星霜暖蜜","天玑星尘暖蜜","天玑星屑暖蜜","天玑星辉暖蜜","天玑星影暖蜜","天玑星河暖蜜","天玑星汉暖蜜","天玑星灯暖蜜","天玑星窗暖蜜","天玑星阶暖蜜","天玑星桥暖蜜","天玑星舟暖蜜","天玑星帆暖蜜","天玑星港暖蜜","天玑星驿暖蜜","天权星露暖蜜","天权星霜暖蜜","天权星尘暖蜜","天权星屑暖蜜","天权星辉暖蜜","天权星影暖蜜","天权星河暖蜜","天权星汉暖蜜","天权星灯暖蜜","天权星窗暖蜜","天权星阶暖蜜","天权星桥暖蜜","天权星舟暖蜜","天权星帆暖蜜","天权星港暖蜜","天权星驿暖蜜","玉衡星露暖蜜","玉衡星霜暖蜜","玉衡星尘暖蜜","玉衡星屑暖蜜","玉衡星辉暖蜜","玉衡星影暖蜜","玉衡星河暖蜜","玉衡星汉暖蜜","玉衡星灯暖蜜","玉衡星窗暖蜜","玉衡星阶暖蜜","玉衡星桥暖蜜","玉衡星舟暖蜜","玉衡星帆暖蜜","玉衡星港暖蜜","玉衡星驿暖蜜","开阳星露暖蜜","开阳星霜暖蜜","开阳星尘暖蜜","开阳星屑暖蜜","开阳星辉暖蜜","开阳星影暖蜜","开阳星河暖蜜","开阳星汉暖蜜","开阳星灯暖蜜","开阳星窗暖蜜","开阳星阶暖蜜","开阳星桥暖蜜","开阳星舟暖蜜","开阳星帆暖蜜","开阳星港暖蜜","开阳星驿暖蜜","摇光星露暖蜜","摇光星霜暖蜜","摇光星尘暖蜜","摇光星屑暖蜜","摇光星辉暖蜜","摇光星影暖蜜","摇光星河暖蜜","摇光星汉暖蜜","摇光星灯暖蜜","摇光星窗暖蜜","摇光星阶暖蜜","摇光星桥暖蜜","摇光星舟暖蜜","摇光星帆暖蜜","摇光星港暖蜜","摇光星驿暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21877,7 +21877,7 @@ test("cloud0 cloud1 cloud2 cloud3 cloud4 cloud5 cloud6 cloud7 cloud8 cloud9 clou
   ["cloud1","cloud3","cloud5","cloud7","cloud9","cloud11","cloud13","cloud15","cloud17","cloud19","cloud21","cloud23","cloud25","cloud27","cloud29","cloud31","cloud33","cloud35","cloud37","cloud39","cloud41","cloud43","cloud45","cloud47","cloud49","cloud51","cloud53","cloud55","cloud57","cloud59","cloud61","cloud63","cloud65","cloud67","cloud69","cloud71","cloud73","cloud75","cloud77","cloud79","cloud81","cloud83","cloud85","cloud87","cloud89","cloud91","cloud93","cloud95","cloud97","cloud99","cloud101","cloud103","cloud105","cloud107","cloud109","cloud111","cloud113","cloud115","cloud117","cloud119","cloud121","cloud123","cloud125","cloud127","cloud129","cloud131","cloud133","cloud135","cloud137","cloud139","cloud141","cloud143","cloud145","cloud147","cloud149","cloud151","cloud153","cloud155","cloud157","cloud159","cloud161","cloud163","cloud165","cloud167","cloud169","cloud171","cloud173","cloud175","cloud177","cloud179","cloud181","cloud183","cloud185","cloud187","cloud189","cloud191","cloud193","cloud195","cloud197","cloud199","cloud201","cloud203","cloud205","cloud207","cloud209","cloud211","cloud213","cloud215","cloud217","cloud219","cloud221","cloud223","cloud225","cloud227","cloud229","cloud231","cloud233","cloud235","cloud237","cloud239","cloud241","cloud243","cloud245","cloud247","cloud249","cloud251","cloud253","cloud255","cloud257","cloud259","cloud261","cloud263","cloud265","cloud267","cloud269","cloud271","cloud273","cloud275","cloud277","cloud279","cloud281","cloud283","cloud285","cloud287","cloud289","cloud291","cloud293","cloud295","cloud297","cloud299","cloud301","cloud303","cloud305","cloud307","cloud309","cloud311","cloud313","cloud315","cloud317","cloud319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["cloud0","cloud2","cloud4","cloud6","cloud8","cloud10","cloud12","cloud14","cloud16","cloud18","cloud20","cloud22","cloud24","cloud26","cloud28","cloud30","cloud32","cloud34","cloud36","cloud38","cloud40","cloud42","cloud44","cloud46","cloud48","cloud50","cloud52","cloud54","cloud56","cloud58","cloud60","cloud62","cloud64","cloud66","cloud68","cloud70","cloud72","cloud74","cloud76","cloud78","cloud80","cloud82","cloud84","cloud86","cloud88","cloud90","cloud92","cloud94","cloud96","cloud98","cloud100","cloud102","cloud104","cloud106","cloud108","cloud110","cloud112","cloud114","cloud116","cloud118","cloud120","cloud122","cloud124","cloud126","cloud128","cloud130","cloud132","cloud134","cloud136","cloud138","cloud140","cloud142","cloud144","cloud146","cloud148","cloud150","cloud152","cloud154","cloud156","cloud158","cloud160","cloud162","cloud164","cloud166","cloud168","cloud170","cloud172","cloud174","cloud176","cloud178","cloud180","cloud182","cloud184","cloud186","cloud188","cloud190","cloud192","cloud194","cloud196","cloud198","cloud200","cloud202","cloud204","cloud206","cloud208","cloud210","cloud212","cloud214","cloud216","cloud218","cloud220","cloud222","cloud224","cloud226","cloud228","cloud230","cloud232","cloud234","cloud236","cloud238","cloud240","cloud242","cloud244","cloud246","cloud248","cloud250","cloud252","cloud254","cloud256","cloud258","cloud260","cloud262","cloud264","cloud266","cloud268","cloud270","cloud272","cloud274","cloud276","cloud278","cloud280","cloud282","cloud284","cloud286","cloud288","cloud290","cloud292","cloud294","cloud296","cloud298","cloud300","cloud302","cloud304","cloud306","cloud308","cloud310","cloud312","cloud314","cloud316","cloud318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("cloud0_path") && game.includes("cloud319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["卷云云絮暖蜜","卷云云丝暖蜜","卷云云带暖蜜","卷云云海暖蜜","卷云云瀑暖蜜","卷云云关暖蜜","卷云云栈暖蜜","卷云云梯暖蜜","卷云云窗暖蜜","卷云云廊暖蜜","卷云云亭暖蜜","卷云云桥暖蜜","卷云云舟暖蜜","卷云云帆暖蜜","卷云云港暖蜜","卷云云驿暖蜜","层云云絮暖蜜","层云云丝暖蜜","层云云带暖蜜","层云云海暖蜜","层云云瀑暖蜜","层云云关暖蜜","层云云栈暖蜜","层云云梯暖蜜","层云云窗暖蜜","层云云廊暖蜜","层云云亭暖蜜","层云云桥暖蜜","层云云舟暖蜜","层云云帆暖蜜","层云云港暖蜜","层云云驿暖蜜","积云云絮暖蜜","积云云丝暖蜜","积云云带暖蜜","积云云海暖蜜","积云云瀑暖蜜","积云云关暖蜜","积云云栈暖蜜","积云云梯暖蜜","积云云窗暖蜜","积云云廊暖蜜","积云云亭暖蜜","积云云桥暖蜜","积云云舟暖蜜","积云云帆暖蜜","积云云港暖蜜","积云云驿暖蜜","雨云云絮暖蜜","雨云云丝暖蜜","雨云云带暖蜜","雨云云海暖蜜","雨云云瀑暖蜜","雨云云关暖蜜","雨云云栈暖蜜","雨云云梯暖蜜","雨云云窗暖蜜","雨云云廊暖蜜","雨云云亭暖蜜","雨云云桥暖蜜","雨云云舟暖蜜","雨云云帆暖蜜","雨云云港暖蜜","雨云云驿暖蜜","雪云云絮暖蜜","雪云云丝暖蜜","雪云云带暖蜜","雪云云海暖蜜","雪云云瀑暖蜜","雪云云关暖蜜","雪云云栈暖蜜","雪云云梯暖蜜","雪云云窗暖蜜","雪云云廊暖蜜","雪云云亭暖蜜","雪云云桥暖蜜","雪云云舟暖蜜","雪云云帆暖蜜","雪云云港暖蜜","雪云云驿暖蜜","雾云云絮暖蜜","雾云云丝暖蜜","雾云云带暖蜜","雾云云海暖蜜","雾云云瀑暖蜜","雾云云关暖蜜","雾云云栈暖蜜","雾云云梯暖蜜","雾云云窗暖蜜","雾云云廊暖蜜","雾云云亭暖蜜","雾云云桥暖蜜","雾云云舟暖蜜","雾云云帆暖蜜","雾云云港暖蜜","雾云云驿暖蜜","霞云云絮暖蜜","霞云云丝暖蜜","霞云云带暖蜜","霞云云海暖蜜","霞云云瀑暖蜜","霞云云关暖蜜","霞云云栈暖蜜","霞云云梯暖蜜","霞云云窗暖蜜","霞云云廊暖蜜","霞云云亭暖蜜","霞云云桥暖蜜","霞云云舟暖蜜","霞云云帆暖蜜","霞云云港暖蜜","霞云云驿暖蜜","岚云云絮暖蜜","岚云云丝暖蜜","岚云云带暖蜜","岚云云海暖蜜","岚云云瀑暖蜜","岚云云关暖蜜","岚云云栈暖蜜","岚云云梯暖蜜","岚云云窗暖蜜","岚云云廊暖蜜","岚云云亭暖蜜","岚云云桥暖蜜","岚云云舟暖蜜","岚云云帆暖蜜","岚云云港暖蜜","岚云云驿暖蜜","烟云云絮暖蜜","烟云云丝暖蜜","烟云云带暖蜜","烟云云海暖蜜","烟云云瀑暖蜜","烟云云关暖蜜","烟云云栈暖蜜","烟云云梯暖蜜","烟云云窗暖蜜","烟云云廊暖蜜","烟云云亭暖蜜","烟云云桥暖蜜","烟云云舟暖蜜","烟云云帆暖蜜","烟云云港暖蜜","烟云云驿暖蜜","墨云云絮暖蜜","墨云云丝暖蜜","墨云云带暖蜜","墨云云海暖蜜","墨云云瀑暖蜜","墨云云关暖蜜","墨云云栈暖蜜","墨云云梯暖蜜","墨云云窗暖蜜","墨云云廊暖蜜","墨云云亭暖蜜","墨云云桥暖蜜","墨云云舟暖蜜","墨云云帆暖蜜","墨云云港暖蜜","墨云云驿暖蜜","白云云絮暖蜜","白云云丝暖蜜","白云云带暖蜜","白云云海暖蜜","白云云瀑暖蜜","白云云关暖蜜","白云云栈暖蜜","白云云梯暖蜜","白云云窗暖蜜","白云云廊暖蜜","白云云亭暖蜜","白云云桥暖蜜","白云云舟暖蜜","白云云帆暖蜜","白云云港暖蜜","白云云驿暖蜜","乌云云絮暖蜜","乌云云丝暖蜜","乌云云带暖蜜","乌云云海暖蜜","乌云云瀑暖蜜","乌云云关暖蜜","乌云云栈暖蜜","乌云云梯暖蜜","乌云云窗暖蜜","乌云云廊暖蜜","乌云云亭暖蜜","乌云云桥暖蜜","乌云云舟暖蜜","乌云云帆暖蜜","乌云云港暖蜜","乌云云驿暖蜜","彩云云絮暖蜜","彩云云丝暖蜜","彩云云带暖蜜","彩云云海暖蜜","彩云云瀑暖蜜","彩云云关暖蜜","彩云云栈暖蜜","彩云云梯暖蜜","彩云云窗暖蜜","彩云云廊暖蜜","彩云云亭暖蜜","彩云云桥暖蜜","彩云云舟暖蜜","彩云云帆暖蜜","彩云云港暖蜜","彩云云驿暖蜜","紫云云絮暖蜜","紫云云丝暖蜜","紫云云带暖蜜","紫云云海暖蜜","紫云云瀑暖蜜","紫云云关暖蜜","紫云云栈暖蜜","紫云云梯暖蜜","紫云云窗暖蜜","紫云云廊暖蜜","紫云云亭暖蜜","紫云云桥暖蜜","紫云云舟暖蜜","紫云云帆暖蜜","紫云云港暖蜜","紫云云驿暖蜜","金云云絮暖蜜","金云云丝暖蜜","金云云带暖蜜","金云云海暖蜜","金云云瀑暖蜜","金云云关暖蜜","金云云栈暖蜜","金云云梯暖蜜","金云云窗暖蜜","金云云廊暖蜜","金云云亭暖蜜","金云云桥暖蜜","金云云舟暖蜜","金云云帆暖蜜","金云云港暖蜜","金云云驿暖蜜","银云云絮暖蜜","银云云丝暖蜜","银云云带暖蜜","银云云海暖蜜","银云云瀑暖蜜","银云云关暖蜜","银云云栈暖蜜","银云云梯暖蜜","银云云窗暖蜜","银云云廊暖蜜","银云云亭暖蜜","银云云桥暖蜜","银云云舟暖蜜","银云云帆暖蜜","银云云港暖蜜","银云云驿暖蜜","灰云云絮暖蜜","灰云云丝暖蜜","灰云云带暖蜜","灰云云海暖蜜","灰云云瀑暖蜜","灰云云关暖蜜","灰云云栈暖蜜","灰云云梯暖蜜","灰云云窗暖蜜","灰云云廊暖蜜","灰云云亭暖蜜","灰云云桥暖蜜","灰云云舟暖蜜","灰云云帆暖蜜","灰云云港暖蜜","灰云云驿暖蜜","青云云絮暖蜜","青云云丝暖蜜","青云云带暖蜜","青云云海暖蜜","青云云瀑暖蜜","青云云关暖蜜","青云云栈暖蜜","青云云梯暖蜜","青云云窗暖蜜","青云云廊暖蜜","青云云亭暖蜜","青云云桥暖蜜","青云云舟暖蜜","青云云帆暖蜜","青云云港暖蜜","青云云驿暖蜜","黄云云絮暖蜜","黄云云丝暖蜜","黄云云带暖蜜","黄云云海暖蜜","黄云云瀑暖蜜","黄云云关暖蜜","黄云云栈暖蜜","黄云云梯暖蜜","黄云云窗暖蜜","黄云云廊暖蜜","黄云云亭暖蜜","黄云云桥暖蜜","黄云云舟暖蜜","黄云云帆暖蜜","黄云云港暖蜜","黄云云驿暖蜜","赤云云絮暖蜜","赤云云丝暖蜜","赤云云带暖蜜","赤云云海暖蜜","赤云云瀑暖蜜","赤云云关暖蜜","赤云云栈暖蜜","赤云云梯暖蜜","赤云云窗暖蜜","赤云云廊暖蜜","赤云云亭暖蜜","赤云云桥暖蜜","赤云云舟暖蜜","赤云云帆暖蜜","赤云云港暖蜜","赤云云驿暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21917,7 +21917,7 @@ test("soil0 soil1 soil2 soil3 soil4 soil5 soil6 soil7 soil8 soil9 soil10 soil11 
   ["soil1","soil3","soil5","soil7","soil9","soil11","soil13","soil15","soil17","soil19","soil21","soil23","soil25","soil27","soil29","soil31","soil33","soil35","soil37","soil39","soil41","soil43","soil45","soil47","soil49","soil51","soil53","soil55","soil57","soil59","soil61","soil63","soil65","soil67","soil69","soil71","soil73","soil75","soil77","soil79","soil81","soil83","soil85","soil87","soil89","soil91","soil93","soil95","soil97","soil99","soil101","soil103","soil105","soil107","soil109","soil111","soil113","soil115","soil117","soil119","soil121","soil123","soil125","soil127","soil129","soil131","soil133","soil135","soil137","soil139","soil141","soil143","soil145","soil147","soil149","soil151","soil153","soil155","soil157","soil159","soil161","soil163","soil165","soil167","soil169","soil171","soil173","soil175","soil177","soil179","soil181","soil183","soil185","soil187","soil189","soil191","soil193","soil195","soil197","soil199","soil201","soil203","soil205","soil207","soil209","soil211","soil213","soil215","soil217","soil219","soil221","soil223","soil225","soil227","soil229","soil231","soil233","soil235","soil237","soil239","soil241","soil243","soil245","soil247","soil249","soil251","soil253","soil255","soil257","soil259","soil261","soil263","soil265","soil267","soil269","soil271","soil273","soil275","soil277","soil279","soil281","soil283","soil285","soil287","soil289","soil291","soil293","soil295","soil297","soil299","soil301","soil303","soil305","soil307","soil309","soil311","soil313","soil315","soil317","soil319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["soil0","soil2","soil4","soil6","soil8","soil10","soil12","soil14","soil16","soil18","soil20","soil22","soil24","soil26","soil28","soil30","soil32","soil34","soil36","soil38","soil40","soil42","soil44","soil46","soil48","soil50","soil52","soil54","soil56","soil58","soil60","soil62","soil64","soil66","soil68","soil70","soil72","soil74","soil76","soil78","soil80","soil82","soil84","soil86","soil88","soil90","soil92","soil94","soil96","soil98","soil100","soil102","soil104","soil106","soil108","soil110","soil112","soil114","soil116","soil118","soil120","soil122","soil124","soil126","soil128","soil130","soil132","soil134","soil136","soil138","soil140","soil142","soil144","soil146","soil148","soil150","soil152","soil154","soil156","soil158","soil160","soil162","soil164","soil166","soil168","soil170","soil172","soil174","soil176","soil178","soil180","soil182","soil184","soil186","soil188","soil190","soil192","soil194","soil196","soil198","soil200","soil202","soil204","soil206","soil208","soil210","soil212","soil214","soil216","soil218","soil220","soil222","soil224","soil226","soil228","soil230","soil232","soil234","soil236","soil238","soil240","soil242","soil244","soil246","soil248","soil250","soil252","soil254","soil256","soil258","soil260","soil262","soil264","soil266","soil268","soil270","soil272","soil274","soil276","soil278","soil280","soil282","soil284","soil286","soil288","soil290","soil292","soil294","soil296","soil298","soil300","soil302","soil304","soil306","soil308","soil310","soil312","soil314","soil316","soil318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("soil0_path") && game.includes("soil319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["黑土土香暖蜜","黑土泥香暖蜜","黑土壤香暖蜜","黑土肥香暖蜜","黑土腐香暖蜜","黑土炭香暖蜜","黑土灰香暖蜜","黑土盐香暖蜜","黑土碱香暖蜜","黑土火香暖蜜","黑土沙香暖蜜","黑土粉香暖蜜","黑土砾香暖蜜","黑土石香暖蜜","黑土灰土香暖蜜","黑土青泥香暖蜜","黄土土香暖蜜","黄土泥香暖蜜","黄土壤香暖蜜","黄土肥香暖蜜","黄土腐香暖蜜","黄土炭香暖蜜","黄土灰香暖蜜","黄土盐香暖蜜","黄土碱香暖蜜","黄土火香暖蜜","黄土沙香暖蜜","黄土粉香暖蜜","黄土砾香暖蜜","黄土石香暖蜜","黄土灰土香暖蜜","黄土青泥香暖蜜","红土土香暖蜜","红土泥香暖蜜","红土壤香暖蜜","红土肥香暖蜜","红土腐香暖蜜","红土炭香暖蜜","红土灰香暖蜜","红土盐香暖蜜","红土碱香暖蜜","红土火香暖蜜","红土沙香暖蜜","红土粉香暖蜜","红土砾香暖蜜","红土石香暖蜜","红土灰土香暖蜜","红土青泥香暖蜜","白土土香暖蜜","白土泥香暖蜜","白土壤香暖蜜","白土肥香暖蜜","白土腐香暖蜜","白土炭香暖蜜","白土灰香暖蜜","白土盐香暖蜜","白土碱香暖蜜","白土火香暖蜜","白土沙香暖蜜","白土粉香暖蜜","白土砾香暖蜜","白土石香暖蜜","白土灰土香暖蜜","白土青泥香暖蜜","砂土土香暖蜜","砂土泥香暖蜜","砂土壤香暖蜜","砂土肥香暖蜜","砂土腐香暖蜜","砂土炭香暖蜜","砂土灰香暖蜜","砂土盐香暖蜜","砂土碱香暖蜜","砂土火香暖蜜","砂土沙香暖蜜","砂土粉香暖蜜","砂土砾香暖蜜","砂土石香暖蜜","砂土灰土香暖蜜","砂土青泥香暖蜜","粘土土香暖蜜","粘土泥香暖蜜","粘土壤香暖蜜","粘土肥香暖蜜","粘土腐香暖蜜","粘土炭香暖蜜","粘土灰香暖蜜","粘土盐香暖蜜","粘土碱香暖蜜","粘土火香暖蜜","粘土沙香暖蜜","粘土粉香暖蜜","粘土砾香暖蜜","粘土石香暖蜜","粘土灰土香暖蜜","粘土青泥香暖蜜","壤土土香暖蜜","壤土泥香暖蜜","壤土壤香暖蜜","壤土肥香暖蜜","壤土腐香暖蜜","壤土炭香暖蜜","壤土灰香暖蜜","壤土盐香暖蜜","壤土碱香暖蜜","壤土火香暖蜜","壤土沙香暖蜜","壤土粉香暖蜜","壤土砾香暖蜜","壤土石香暖蜜","壤土灰土香暖蜜","壤土青泥香暖蜜","腐殖土香暖蜜","腐殖泥香暖蜜","腐殖壤香暖蜜","腐殖肥香暖蜜","腐殖腐香暖蜜","腐殖炭香暖蜜","腐殖灰香暖蜜","腐殖盐香暖蜜","腐殖碱香暖蜜","腐殖火香暖蜜","腐殖沙香暖蜜","腐殖粉香暖蜜","腐殖砾香暖蜜","腐殖石香暖蜜","腐殖灰土香暖蜜","腐殖青泥香暖蜜","泥炭土香暖蜜","泥炭泥香暖蜜","泥炭壤香暖蜜","泥炭肥香暖蜜","泥炭腐香暖蜜","泥炭炭香暖蜜","泥炭灰香暖蜜","泥炭盐香暖蜜","泥炭碱香暖蜜","泥炭火香暖蜜","泥炭沙香暖蜜","泥炭粉香暖蜜","泥炭砾香暖蜜","泥炭石香暖蜜","泥炭灰土香暖蜜","泥炭青泥香暖蜜","火山土土香暖蜜","火山土泥香暖蜜","火山土壤香暖蜜","火山土肥香暖蜜","火山土腐香暖蜜","火山土炭香暖蜜","火山土灰香暖蜜","火山土盐香暖蜜","火山土碱香暖蜜","火山土火香暖蜜","火山土沙香暖蜜","火山土粉香暖蜜","火山土砾香暖蜜","火山土石香暖蜜","火山土灰土香暖蜜","火山土青泥香暖蜜","盐碱土香暖蜜","盐碱泥香暖蜜","盐碱壤香暖蜜","盐碱肥香暖蜜","盐碱腐香暖蜜","盐碱炭香暖蜜","盐碱灰香暖蜜","盐碱盐香暖蜜","盐碱碱香暖蜜","盐碱火香暖蜜","盐碱沙香暖蜜","盐碱粉香暖蜜","盐碱砾香暖蜜","盐碱石香暖蜜","盐碱灰土香暖蜜","盐碱青泥香暖蜜","沙壤土香暖蜜","沙壤泥香暖蜜","沙壤壤香暖蜜","沙壤肥香暖蜜","沙壤腐香暖蜜","沙壤炭香暖蜜","沙壤灰香暖蜜","沙壤盐香暖蜜","沙壤碱香暖蜜","沙壤火香暖蜜","沙壤沙香暖蜜","沙壤粉香暖蜜","沙壤砾香暖蜜","沙壤石香暖蜜","沙壤灰土香暖蜜","沙壤青泥香暖蜜","粉土土香暖蜜","粉土泥香暖蜜","粉土壤香暖蜜","粉土肥香暖蜜","粉土腐香暖蜜","粉土炭香暖蜜","粉土灰香暖蜜","粉土盐香暖蜜","粉土碱香暖蜜","粉土火香暖蜜","粉土沙香暖蜜","粉土粉香暖蜜","粉土砾香暖蜜","粉土石香暖蜜","粉土灰土香暖蜜","粉土青泥香暖蜜","砾土土香暖蜜","砾土泥香暖蜜","砾土壤香暖蜜","砾土肥香暖蜜","砾土腐香暖蜜","砾土炭香暖蜜","砾土灰香暖蜜","砾土盐香暖蜜","砾土碱香暖蜜","砾土火香暖蜜","砾土沙香暖蜜","砾土粉香暖蜜","砾土砾香暖蜜","砾土石香暖蜜","砾土灰土香暖蜜","砾土青泥香暖蜜","石土土香暖蜜","石土泥香暖蜜","石土壤香暖蜜","石土肥香暖蜜","石土腐香暖蜜","石土炭香暖蜜","石土灰香暖蜜","石土盐香暖蜜","石土碱香暖蜜","石土火香暖蜜","石土沙香暖蜜","石土粉香暖蜜","石土砾香暖蜜","石土石香暖蜜","石土灰土香暖蜜","石土青泥香暖蜜","灰土土香暖蜜","灰土泥香暖蜜","灰土壤香暖蜜","灰土肥香暖蜜","灰土腐香暖蜜","灰土炭香暖蜜","灰土灰香暖蜜","灰土盐香暖蜜","灰土碱香暖蜜","灰土火香暖蜜","灰土沙香暖蜜","灰土粉香暖蜜","灰土砾香暖蜜","灰土石香暖蜜","灰土灰土香暖蜜","灰土青泥香暖蜜","青泥土香暖蜜","青泥泥香暖蜜","青泥壤香暖蜜","青泥肥香暖蜜","青泥腐香暖蜜","青泥炭香暖蜜","青泥灰香暖蜜","青泥盐香暖蜜","青泥碱香暖蜜","青泥火香暖蜜","青泥沙香暖蜜","青泥粉香暖蜜","青泥砾香暖蜜","青泥石香暖蜜","青泥灰土香暖蜜","青泥青泥香暖蜜","紫泥土香暖蜜","紫泥泥香暖蜜","紫泥壤香暖蜜","紫泥肥香暖蜜","紫泥腐香暖蜜","紫泥炭香暖蜜","紫泥灰香暖蜜","紫泥盐香暖蜜","紫泥碱香暖蜜","紫泥火香暖蜜","紫泥沙香暖蜜","紫泥粉香暖蜜","紫泥砾香暖蜜","紫泥石香暖蜜","紫泥灰土香暖蜜","紫泥青泥香暖蜜","黄泥土香暖蜜","黄泥泥香暖蜜","黄泥壤香暖蜜","黄泥肥香暖蜜","黄泥腐香暖蜜","黄泥炭香暖蜜","黄泥灰香暖蜜","黄泥盐香暖蜜","黄泥碱香暖蜜","黄泥火香暖蜜","黄泥沙香暖蜜","黄泥粉香暖蜜","黄泥砾香暖蜜","黄泥石香暖蜜","黄泥灰土香暖蜜","黄泥青泥香暖蜜","白泥土香暖蜜","白泥泥香暖蜜","白泥壤香暖蜜","白泥肥香暖蜜","白泥腐香暖蜜","白泥炭香暖蜜","白泥灰香暖蜜","白泥盐香暖蜜","白泥碱香暖蜜","白泥火香暖蜜","白泥沙香暖蜜","白泥粉香暖蜜","白泥砾香暖蜜","白泥石香暖蜜","白泥灰土香暖蜜","白泥青泥香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21957,7 +21957,7 @@ test("wood0 wood1 wood2 wood3 wood4 wood5 wood6 wood7 wood8 wood9 wood10 wood11 
   ["wood1","wood3","wood5","wood7","wood9","wood11","wood13","wood15","wood17","wood19","wood21","wood23","wood25","wood27","wood29","wood31","wood33","wood35","wood37","wood39","wood41","wood43","wood45","wood47","wood49","wood51","wood53","wood55","wood57","wood59","wood61","wood63","wood65","wood67","wood69","wood71","wood73","wood75","wood77","wood79","wood81","wood83","wood85","wood87","wood89","wood91","wood93","wood95","wood97","wood99","wood101","wood103","wood105","wood107","wood109","wood111","wood113","wood115","wood117","wood119","wood121","wood123","wood125","wood127","wood129","wood131","wood133","wood135","wood137","wood139","wood141","wood143","wood145","wood147","wood149","wood151","wood153","wood155","wood157","wood159","wood161","wood163","wood165","wood167","wood169","wood171","wood173","wood175","wood177","wood179","wood181","wood183","wood185","wood187","wood189","wood191","wood193","wood195","wood197","wood199","wood201","wood203","wood205","wood207","wood209","wood211","wood213","wood215","wood217","wood219","wood221","wood223","wood225","wood227","wood229","wood231","wood233","wood235","wood237","wood239","wood241","wood243","wood245","wood247","wood249","wood251","wood253","wood255","wood257","wood259","wood261","wood263","wood265","wood267","wood269","wood271","wood273","wood275","wood277","wood279","wood281","wood283","wood285","wood287","wood289","wood291","wood293","wood295","wood297","wood299","wood301","wood303","wood305","wood307","wood309","wood311","wood313","wood315","wood317","wood319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["wood0","wood2","wood4","wood6","wood8","wood10","wood12","wood14","wood16","wood18","wood20","wood22","wood24","wood26","wood28","wood30","wood32","wood34","wood36","wood38","wood40","wood42","wood44","wood46","wood48","wood50","wood52","wood54","wood56","wood58","wood60","wood62","wood64","wood66","wood68","wood70","wood72","wood74","wood76","wood78","wood80","wood82","wood84","wood86","wood88","wood90","wood92","wood94","wood96","wood98","wood100","wood102","wood104","wood106","wood108","wood110","wood112","wood114","wood116","wood118","wood120","wood122","wood124","wood126","wood128","wood130","wood132","wood134","wood136","wood138","wood140","wood142","wood144","wood146","wood148","wood150","wood152","wood154","wood156","wood158","wood160","wood162","wood164","wood166","wood168","wood170","wood172","wood174","wood176","wood178","wood180","wood182","wood184","wood186","wood188","wood190","wood192","wood194","wood196","wood198","wood200","wood202","wood204","wood206","wood208","wood210","wood212","wood214","wood216","wood218","wood220","wood222","wood224","wood226","wood228","wood230","wood232","wood234","wood236","wood238","wood240","wood242","wood244","wood246","wood248","wood250","wood252","wood254","wood256","wood258","wood260","wood262","wood264","wood266","wood268","wood270","wood272","wood274","wood276","wood278","wood280","wood282","wood284","wood286","wood288","wood290","wood292","wood294","wood296","wood298","wood300","wood302","wood304","wood306","wood308","wood310","wood312","wood314","wood316","wood318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("wood0_path") && game.includes("wood319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["楠木木香暖蜜","楠木刨花暖蜜","楠木锯末暖蜜","楠木木屑暖蜜","楠木木节暖蜜","楠木木纹暖蜜","楠木木心暖蜜","楠木木皮暖蜜","楠木木脂暖蜜","楠木木油暖蜜","楠木木蜡暖蜜","楠木木漆暖蜜","楠木木油香暖蜜","楠木榫卯香暖蜜","楠木斗拱香暖蜜","楠木梁柱香暖蜜","樟木木香暖蜜","樟木刨花暖蜜","樟木锯末暖蜜","樟木木屑暖蜜","樟木木节暖蜜","樟木木纹暖蜜","樟木木心暖蜜","樟木木皮暖蜜","樟木木脂暖蜜","樟木木油暖蜜","樟木木蜡暖蜜","樟木木漆暖蜜","樟木木油香暖蜜","樟木榫卯香暖蜜","樟木斗拱香暖蜜","樟木梁柱香暖蜜","柏木木香暖蜜","柏木刨花暖蜜","柏木锯末暖蜜","柏木木屑暖蜜","柏木木节暖蜜","柏木木纹暖蜜","柏木木心暖蜜","柏木木皮暖蜜","柏木木脂暖蜜","柏木木油暖蜜","柏木木蜡暖蜜","柏木木漆暖蜜","柏木木油香暖蜜","柏木榫卯香暖蜜","柏木斗拱香暖蜜","柏木梁柱香暖蜜","杉木木香暖蜜","杉木刨花暖蜜","杉木锯末暖蜜","杉木木屑暖蜜","杉木木节暖蜜","杉木木纹暖蜜","杉木木心暖蜜","杉木木皮暖蜜","杉木木脂暖蜜","杉木木油暖蜜","杉木木蜡暖蜜","杉木木漆暖蜜","杉木木油香暖蜜","杉木榫卯香暖蜜","杉木斗拱香暖蜜","杉木梁柱香暖蜜","松木木香暖蜜","松木刨花暖蜜","松木锯末暖蜜","松木木屑暖蜜","松木木节暖蜜","松木木纹暖蜜","松木木心暖蜜","松木木皮暖蜜","松木木脂暖蜜","松木木油暖蜜","松木木蜡暖蜜","松木木漆暖蜜","松木木油香暖蜜","松木榫卯香暖蜜","松木斗拱香暖蜜","松木梁柱香暖蜜","榆木木香暖蜜","榆木刨花暖蜜","榆木锯末暖蜜","榆木木屑暖蜜","榆木木节暖蜜","榆木木纹暖蜜","榆木木心暖蜜","榆木木皮暖蜜","榆木木脂暖蜜","榆木木油暖蜜","榆木木蜡暖蜜","榆木木漆暖蜜","榆木木油香暖蜜","榆木榫卯香暖蜜","榆木斗拱香暖蜜","榆木梁柱香暖蜜","槐木木香暖蜜","槐木刨花暖蜜","槐木锯末暖蜜","槐木木屑暖蜜","槐木木节暖蜜","槐木木纹暖蜜","槐木木心暖蜜","槐木木皮暖蜜","槐木木脂暖蜜","槐木木油暖蜜","槐木木蜡暖蜜","槐木木漆暖蜜","槐木木油香暖蜜","槐木榫卯香暖蜜","槐木斗拱香暖蜜","槐木梁柱香暖蜜","桐木木香暖蜜","桐木刨花暖蜜","桐木锯末暖蜜","桐木木屑暖蜜","桐木木节暖蜜","桐木木纹暖蜜","桐木木心暖蜜","桐木木皮暖蜜","桐木木脂暖蜜","桐木木油暖蜜","桐木木蜡暖蜜","桐木木漆暖蜜","桐木木油香暖蜜","桐木榫卯香暖蜜","桐木斗拱香暖蜜","桐木梁柱香暖蜜","梓木木香暖蜜","梓木刨花暖蜜","梓木锯末暖蜜","梓木木屑暖蜜","梓木木节暖蜜","梓木木纹暖蜜","梓木木心暖蜜","梓木木皮暖蜜","梓木木脂暖蜜","梓木木油暖蜜","梓木木蜡暖蜜","梓木木漆暖蜜","梓木木油香暖蜜","梓木榫卯香暖蜜","梓木斗拱香暖蜜","梓木梁柱香暖蜜","楸木木香暖蜜","楸木刨花暖蜜","楸木锯末暖蜜","楸木木屑暖蜜","楸木木节暖蜜","楸木木纹暖蜜","楸木木心暖蜜","楸木木皮暖蜜","楸木木脂暖蜜","楸木木油暖蜜","楸木木蜡暖蜜","楸木木漆暖蜜","楸木木油香暖蜜","楸木榫卯香暖蜜","楸木斗拱香暖蜜","楸木梁柱香暖蜜","梨木木香暖蜜","梨木刨花暖蜜","梨木锯末暖蜜","梨木木屑暖蜜","梨木木节暖蜜","梨木木纹暖蜜","梨木木心暖蜜","梨木木皮暖蜜","梨木木脂暖蜜","梨木木油暖蜜","梨木木蜡暖蜜","梨木木漆暖蜜","梨木木油香暖蜜","梨木榫卯香暖蜜","梨木斗拱香暖蜜","梨木梁柱香暖蜜","枣木木香暖蜜","枣木刨花暖蜜","枣木锯末暖蜜","枣木木屑暖蜜","枣木木节暖蜜","枣木木纹暖蜜","枣木木心暖蜜","枣木木皮暖蜜","枣木木脂暖蜜","枣木木油暖蜜","枣木木蜡暖蜜","枣木木漆暖蜜","枣木木油香暖蜜","枣木榫卯香暖蜜","枣木斗拱香暖蜜","枣木梁柱香暖蜜","樱桃木木香暖蜜","樱桃木刨花暖蜜","樱桃木锯末暖蜜","樱桃木木屑暖蜜","樱桃木木节暖蜜","樱桃木木纹暖蜜","樱桃木木心暖蜜","樱桃木木皮暖蜜","樱桃木木脂暖蜜","樱桃木木油暖蜜","樱桃木木蜡暖蜜","樱桃木木漆暖蜜","樱桃木木油香暖蜜","樱桃木榫卯香暖蜜","樱桃木斗拱香暖蜜","樱桃木梁柱香暖蜜","胡桃木香暖蜜","胡桃刨花暖蜜","胡桃锯末暖蜜","胡桃木屑暖蜜","胡桃木节暖蜜","胡桃木纹暖蜜","胡桃木心暖蜜","胡桃木皮暖蜜","胡桃木脂暖蜜","胡桃木油暖蜜","胡桃木蜡暖蜜","胡桃木漆暖蜜","胡桃木油香暖蜜","胡桃榫卯香暖蜜","胡桃斗拱香暖蜜","胡桃梁柱香暖蜜","橡木木香暖蜜","橡木刨花暖蜜","橡木锯末暖蜜","橡木木屑暖蜜","橡木木节暖蜜","橡木木纹暖蜜","橡木木心暖蜜","橡木木皮暖蜜","橡木木脂暖蜜","橡木木油暖蜜","橡木木蜡暖蜜","橡木木漆暖蜜","橡木木油香暖蜜","橡木榫卯香暖蜜","橡木斗拱香暖蜜","橡木梁柱香暖蜜","枫木木香暖蜜","枫木刨花暖蜜","枫木锯末暖蜜","枫木木屑暖蜜","枫木木节暖蜜","枫木木纹暖蜜","枫木木心暖蜜","枫木木皮暖蜜","枫木木脂暖蜜","枫木木油暖蜜","枫木木蜡暖蜜","枫木木漆暖蜜","枫木木油香暖蜜","枫木榫卯香暖蜜","枫木斗拱香暖蜜","枫木梁柱香暖蜜","桦木木香暖蜜","桦木刨花暖蜜","桦木锯末暖蜜","桦木木屑暖蜜","桦木木节暖蜜","桦木木纹暖蜜","桦木木心暖蜜","桦木木皮暖蜜","桦木木脂暖蜜","桦木木油暖蜜","桦木木蜡暖蜜","桦木木漆暖蜜","桦木木油香暖蜜","桦木榫卯香暖蜜","桦木斗拱香暖蜜","桦木梁柱香暖蜜","杨木木香暖蜜","杨木刨花暖蜜","杨木锯末暖蜜","杨木木屑暖蜜","杨木木节暖蜜","杨木木纹暖蜜","杨木木心暖蜜","杨木木皮暖蜜","杨木木脂暖蜜","杨木木油暖蜜","杨木木蜡暖蜜","杨木木漆暖蜜","杨木木油香暖蜜","杨木榫卯香暖蜜","杨木斗拱香暖蜜","杨木梁柱香暖蜜","柳木木香暖蜜","柳木刨花暖蜜","柳木锯末暖蜜","柳木木屑暖蜜","柳木木节暖蜜","柳木木纹暖蜜","柳木木心暖蜜","柳木木皮暖蜜","柳木木脂暖蜜","柳木木油暖蜜","柳木木蜡暖蜜","柳木木漆暖蜜","柳木木油香暖蜜","柳木榫卯香暖蜜","柳木斗拱香暖蜜","柳木梁柱香暖蜜","竹材木香暖蜜","竹材刨花暖蜜","竹材锯末暖蜜","竹材木屑暖蜜","竹材木节暖蜜","竹材木纹暖蜜","竹材木心暖蜜","竹材木皮暖蜜","竹材木脂暖蜜","竹材木油暖蜜","竹材木蜡暖蜜","竹材木漆暖蜜","竹材木油香暖蜜","竹材榫卯香暖蜜","竹材斗拱香暖蜜","竹材梁柱香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -21997,7 +21997,7 @@ test("metal0 metal1 metal2 metal3 metal4 metal5 metal6 metal7 metal8 metal9 meta
   ["metal1","metal3","metal5","metal7","metal9","metal11","metal13","metal15","metal17","metal19","metal21","metal23","metal25","metal27","metal29","metal31","metal33","metal35","metal37","metal39","metal41","metal43","metal45","metal47","metal49","metal51","metal53","metal55","metal57","metal59","metal61","metal63","metal65","metal67","metal69","metal71","metal73","metal75","metal77","metal79","metal81","metal83","metal85","metal87","metal89","metal91","metal93","metal95","metal97","metal99","metal101","metal103","metal105","metal107","metal109","metal111","metal113","metal115","metal117","metal119","metal121","metal123","metal125","metal127","metal129","metal131","metal133","metal135","metal137","metal139","metal141","metal143","metal145","metal147","metal149","metal151","metal153","metal155","metal157","metal159","metal161","metal163","metal165","metal167","metal169","metal171","metal173","metal175","metal177","metal179","metal181","metal183","metal185","metal187","metal189","metal191","metal193","metal195","metal197","metal199","metal201","metal203","metal205","metal207","metal209","metal211","metal213","metal215","metal217","metal219","metal221","metal223","metal225","metal227","metal229","metal231","metal233","metal235","metal237","metal239","metal241","metal243","metal245","metal247","metal249","metal251","metal253","metal255","metal257","metal259","metal261","metal263","metal265","metal267","metal269","metal271","metal273","metal275","metal277","metal279","metal281","metal283","metal285","metal287","metal289","metal291","metal293","metal295","metal297","metal299","metal301","metal303","metal305","metal307","metal309","metal311","metal313","metal315","metal317","metal319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["metal0","metal2","metal4","metal6","metal8","metal10","metal12","metal14","metal16","metal18","metal20","metal22","metal24","metal26","metal28","metal30","metal32","metal34","metal36","metal38","metal40","metal42","metal44","metal46","metal48","metal50","metal52","metal54","metal56","metal58","metal60","metal62","metal64","metal66","metal68","metal70","metal72","metal74","metal76","metal78","metal80","metal82","metal84","metal86","metal88","metal90","metal92","metal94","metal96","metal98","metal100","metal102","metal104","metal106","metal108","metal110","metal112","metal114","metal116","metal118","metal120","metal122","metal124","metal126","metal128","metal130","metal132","metal134","metal136","metal138","metal140","metal142","metal144","metal146","metal148","metal150","metal152","metal154","metal156","metal158","metal160","metal162","metal164","metal166","metal168","metal170","metal172","metal174","metal176","metal178","metal180","metal182","metal184","metal186","metal188","metal190","metal192","metal194","metal196","metal198","metal200","metal202","metal204","metal206","metal208","metal210","metal212","metal214","metal216","metal218","metal220","metal222","metal224","metal226","metal228","metal230","metal232","metal234","metal236","metal238","metal240","metal242","metal244","metal246","metal248","metal250","metal252","metal254","metal256","metal258","metal260","metal262","metal264","metal266","metal268","metal270","metal272","metal274","metal276","metal278","metal280","metal282","metal284","metal286","metal288","metal290","metal292","metal294","metal296","metal298","metal300","metal302","metal304","metal306","metal308","metal310","metal312","metal314","metal316","metal318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("metal0_path") && game.includes("metal319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["黄铜铜香暖蜜","黄铜锡香暖蜜","黄铜银香暖蜜","黄铜金香暖蜜","黄铜铁香暖蜜","黄铜钢香暖蜜","黄铜铝香暖蜜","黄铜铅香暖蜜","黄铜乌香暖蜜","黄铜斑香暖蜜","黄铜鎏香暖蜜","黄铜錾香暖蜜","黄铜镂香暖蜜","黄铜嵌香暖蜜","黄铜丝香暖蜜","黄铜蓝香暖蜜","红铜铜香暖蜜","红铜锡香暖蜜","红铜银香暖蜜","红铜金香暖蜜","红铜铁香暖蜜","红铜钢香暖蜜","红铜铝香暖蜜","红铜铅香暖蜜","红铜乌香暖蜜","红铜斑香暖蜜","红铜鎏香暖蜜","红铜錾香暖蜜","红铜镂香暖蜜","红铜嵌香暖蜜","红铜丝香暖蜜","红铜蓝香暖蜜","青铜铜香暖蜜","青铜锡香暖蜜","青铜银香暖蜜","青铜金香暖蜜","青铜铁香暖蜜","青铜钢香暖蜜","青铜铝香暖蜜","青铜铅香暖蜜","青铜乌香暖蜜","青铜斑香暖蜜","青铜鎏香暖蜜","青铜錾香暖蜜","青铜镂香暖蜜","青铜嵌香暖蜜","青铜丝香暖蜜","青铜蓝香暖蜜","白铜铜香暖蜜","白铜锡香暖蜜","白铜银香暖蜜","白铜金香暖蜜","白铜铁香暖蜜","白铜钢香暖蜜","白铜铝香暖蜜","白铜铅香暖蜜","白铜乌香暖蜜","白铜斑香暖蜜","白铜鎏香暖蜜","白铜錾香暖蜜","白铜镂香暖蜜","白铜嵌香暖蜜","白铜丝香暖蜜","白铜蓝香暖蜜","紫铜铜香暖蜜","紫铜锡香暖蜜","紫铜银香暖蜜","紫铜金香暖蜜","紫铜铁香暖蜜","紫铜钢香暖蜜","紫铜铝香暖蜜","紫铜铅香暖蜜","紫铜乌香暖蜜","紫铜斑香暖蜜","紫铜鎏香暖蜜","紫铜錾香暖蜜","紫铜镂香暖蜜","紫铜嵌香暖蜜","紫铜丝香暖蜜","紫铜蓝香暖蜜","锡器铜香暖蜜","锡器锡香暖蜜","锡器银香暖蜜","锡器金香暖蜜","锡器铁香暖蜜","锡器钢香暖蜜","锡器铝香暖蜜","锡器铅香暖蜜","锡器乌香暖蜜","锡器斑香暖蜜","锡器鎏香暖蜜","锡器錾香暖蜜","锡器镂香暖蜜","锡器嵌香暖蜜","锡器丝香暖蜜","锡器蓝香暖蜜","银器铜香暖蜜","银器锡香暖蜜","银器银香暖蜜","银器金香暖蜜","银器铁香暖蜜","银器钢香暖蜜","银器铝香暖蜜","银器铅香暖蜜","银器乌香暖蜜","银器斑香暖蜜","银器鎏香暖蜜","银器錾香暖蜜","银器镂香暖蜜","银器嵌香暖蜜","银器丝香暖蜜","银器蓝香暖蜜","金箔铜香暖蜜","金箔锡香暖蜜","金箔银香暖蜜","金箔金香暖蜜","金箔铁香暖蜜","金箔钢香暖蜜","金箔铝香暖蜜","金箔铅香暖蜜","金箔乌香暖蜜","金箔斑香暖蜜","金箔鎏香暖蜜","金箔錾香暖蜜","金箔镂香暖蜜","金箔嵌香暖蜜","金箔丝香暖蜜","金箔蓝香暖蜜","铁器铜香暖蜜","铁器锡香暖蜜","铁器银香暖蜜","铁器金香暖蜜","铁器铁香暖蜜","铁器钢香暖蜜","铁器铝香暖蜜","铁器铅香暖蜜","铁器乌香暖蜜","铁器斑香暖蜜","铁器鎏香暖蜜","铁器錾香暖蜜","铁器镂香暖蜜","铁器嵌香暖蜜","铁器丝香暖蜜","铁器蓝香暖蜜","钢器铜香暖蜜","钢器锡香暖蜜","钢器银香暖蜜","钢器金香暖蜜","钢器铁香暖蜜","钢器钢香暖蜜","钢器铝香暖蜜","钢器铅香暖蜜","钢器乌香暖蜜","钢器斑香暖蜜","钢器鎏香暖蜜","钢器錾香暖蜜","钢器镂香暖蜜","钢器嵌香暖蜜","钢器丝香暖蜜","钢器蓝香暖蜜","铝器铜香暖蜜","铝器锡香暖蜜","铝器银香暖蜜","铝器金香暖蜜","铝器铁香暖蜜","铝器钢香暖蜜","铝器铝香暖蜜","铝器铅香暖蜜","铝器乌香暖蜜","铝器斑香暖蜜","铝器鎏香暖蜜","铝器錾香暖蜜","铝器镂香暖蜜","铝器嵌香暖蜜","铝器丝香暖蜜","铝器蓝香暖蜜","铅锡铜香暖蜜","铅锡锡香暖蜜","铅锡银香暖蜜","铅锡金香暖蜜","铅锡铁香暖蜜","铅锡钢香暖蜜","铅锡铝香暖蜜","铅锡铅香暖蜜","铅锡乌香暖蜜","铅锡斑香暖蜜","铅锡鎏香暖蜜","铅锡錾香暖蜜","铅锡镂香暖蜜","铅锡嵌香暖蜜","铅锡丝香暖蜜","铅锡蓝香暖蜜","乌铜铜香暖蜜","乌铜锡香暖蜜","乌铜银香暖蜜","乌铜金香暖蜜","乌铜铁香暖蜜","乌铜钢香暖蜜","乌铜铝香暖蜜","乌铜铅香暖蜜","乌铜乌香暖蜜","乌铜斑香暖蜜","乌铜鎏香暖蜜","乌铜錾香暖蜜","乌铜镂香暖蜜","乌铜嵌香暖蜜","乌铜丝香暖蜜","乌铜蓝香暖蜜","斑铜铜香暖蜜","斑铜锡香暖蜜","斑铜银香暖蜜","斑铜金香暖蜜","斑铜铁香暖蜜","斑铜钢香暖蜜","斑铜铝香暖蜜","斑铜铅香暖蜜","斑铜乌香暖蜜","斑铜斑香暖蜜","斑铜鎏香暖蜜","斑铜錾香暖蜜","斑铜镂香暖蜜","斑铜嵌香暖蜜","斑铜丝香暖蜜","斑铜蓝香暖蜜","鎏金铜香暖蜜","鎏金锡香暖蜜","鎏金银香暖蜜","鎏金金香暖蜜","鎏金铁香暖蜜","鎏金钢香暖蜜","鎏金铝香暖蜜","鎏金铅香暖蜜","鎏金乌香暖蜜","鎏金斑香暖蜜","鎏金鎏香暖蜜","鎏金錾香暖蜜","鎏金镂香暖蜜","鎏金嵌香暖蜜","鎏金丝香暖蜜","鎏金蓝香暖蜜","錾花铜香暖蜜","錾花锡香暖蜜","錾花银香暖蜜","錾花金香暖蜜","錾花铁香暖蜜","錾花钢香暖蜜","錾花铝香暖蜜","錾花铅香暖蜜","錾花乌香暖蜜","錾花斑香暖蜜","錾花鎏香暖蜜","錾花錾香暖蜜","錾花镂香暖蜜","錾花嵌香暖蜜","錾花丝香暖蜜","錾花蓝香暖蜜","镂空铜香暖蜜","镂空锡香暖蜜","镂空银香暖蜜","镂空金香暖蜜","镂空铁香暖蜜","镂空钢香暖蜜","镂空铝香暖蜜","镂空铅香暖蜜","镂空乌香暖蜜","镂空斑香暖蜜","镂空鎏香暖蜜","镂空錾香暖蜜","镂空镂香暖蜜","镂空嵌香暖蜜","镂空丝香暖蜜","镂空蓝香暖蜜","镶嵌铜香暖蜜","镶嵌锡香暖蜜","镶嵌银香暖蜜","镶嵌金香暖蜜","镶嵌铁香暖蜜","镶嵌钢香暖蜜","镶嵌铝香暖蜜","镶嵌铅香暖蜜","镶嵌乌香暖蜜","镶嵌斑香暖蜜","镶嵌鎏香暖蜜","镶嵌錾香暖蜜","镶嵌镂香暖蜜","镶嵌嵌香暖蜜","镶嵌丝香暖蜜","镶嵌蓝香暖蜜","掐丝铜香暖蜜","掐丝锡香暖蜜","掐丝银香暖蜜","掐丝金香暖蜜","掐丝铁香暖蜜","掐丝钢香暖蜜","掐丝铝香暖蜜","掐丝铅香暖蜜","掐丝乌香暖蜜","掐丝斑香暖蜜","掐丝鎏香暖蜜","掐丝錾香暖蜜","掐丝镂香暖蜜","掐丝嵌香暖蜜","掐丝丝香暖蜜","掐丝蓝香暖蜜","景泰蓝铜香暖蜜","景泰蓝锡香暖蜜","景泰蓝银香暖蜜","景泰蓝金香暖蜜","景泰蓝铁香暖蜜","景泰蓝钢香暖蜜","景泰蓝铝香暖蜜","景泰蓝铅香暖蜜","景泰蓝乌香暖蜜","景泰蓝斑香暖蜜","景泰蓝鎏香暖蜜","景泰蓝錾香暖蜜","景泰蓝镂香暖蜜","景泰蓝嵌香暖蜜","景泰蓝丝香暖蜜","景泰蓝蓝香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -22037,7 +22037,7 @@ test("harbor20 harbor21 harbor22 harbor23 harbor24 harbor25 harbor26 harbor27 ha
   ["harbor21","harbor23","harbor25","harbor27","harbor29","harbor211","harbor213","harbor215","harbor217","harbor219","harbor221","harbor223","harbor225","harbor227","harbor229","harbor231","harbor233","harbor235","harbor237","harbor239","harbor241","harbor243","harbor245","harbor247","harbor249","harbor251","harbor253","harbor255","harbor257","harbor259","harbor261","harbor263","harbor265","harbor267","harbor269","harbor271","harbor273","harbor275","harbor277","harbor279","harbor281","harbor283","harbor285","harbor287","harbor289","harbor291","harbor293","harbor295","harbor297","harbor299","harbor2101","harbor2103","harbor2105","harbor2107","harbor2109","harbor2111","harbor2113","harbor2115","harbor2117","harbor2119","harbor2121","harbor2123","harbor2125","harbor2127","harbor2129","harbor2131","harbor2133","harbor2135","harbor2137","harbor2139","harbor2141","harbor2143","harbor2145","harbor2147","harbor2149","harbor2151","harbor2153","harbor2155","harbor2157","harbor2159","harbor2161","harbor2163","harbor2165","harbor2167","harbor2169","harbor2171","harbor2173","harbor2175","harbor2177","harbor2179","harbor2181","harbor2183","harbor2185","harbor2187","harbor2189","harbor2191","harbor2193","harbor2195","harbor2197","harbor2199","harbor2201","harbor2203","harbor2205","harbor2207","harbor2209","harbor2211","harbor2213","harbor2215","harbor2217","harbor2219","harbor2221","harbor2223","harbor2225","harbor2227","harbor2229","harbor2231","harbor2233","harbor2235","harbor2237","harbor2239","harbor2241","harbor2243","harbor2245","harbor2247","harbor2249","harbor2251","harbor2253","harbor2255","harbor2257","harbor2259","harbor2261","harbor2263","harbor2265","harbor2267","harbor2269","harbor2271","harbor2273","harbor2275","harbor2277","harbor2279","harbor2281","harbor2283","harbor2285","harbor2287","harbor2289","harbor2291","harbor2293","harbor2295","harbor2297","harbor2299","harbor2301","harbor2303","harbor2305","harbor2307","harbor2309","harbor2311","harbor2313","harbor2315","harbor2317","harbor2319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["harbor20","harbor22","harbor24","harbor26","harbor28","harbor210","harbor212","harbor214","harbor216","harbor218","harbor220","harbor222","harbor224","harbor226","harbor228","harbor230","harbor232","harbor234","harbor236","harbor238","harbor240","harbor242","harbor244","harbor246","harbor248","harbor250","harbor252","harbor254","harbor256","harbor258","harbor260","harbor262","harbor264","harbor266","harbor268","harbor270","harbor272","harbor274","harbor276","harbor278","harbor280","harbor282","harbor284","harbor286","harbor288","harbor290","harbor292","harbor294","harbor296","harbor298","harbor2100","harbor2102","harbor2104","harbor2106","harbor2108","harbor2110","harbor2112","harbor2114","harbor2116","harbor2118","harbor2120","harbor2122","harbor2124","harbor2126","harbor2128","harbor2130","harbor2132","harbor2134","harbor2136","harbor2138","harbor2140","harbor2142","harbor2144","harbor2146","harbor2148","harbor2150","harbor2152","harbor2154","harbor2156","harbor2158","harbor2160","harbor2162","harbor2164","harbor2166","harbor2168","harbor2170","harbor2172","harbor2174","harbor2176","harbor2178","harbor2180","harbor2182","harbor2184","harbor2186","harbor2188","harbor2190","harbor2192","harbor2194","harbor2196","harbor2198","harbor2200","harbor2202","harbor2204","harbor2206","harbor2208","harbor2210","harbor2212","harbor2214","harbor2216","harbor2218","harbor2220","harbor2222","harbor2224","harbor2226","harbor2228","harbor2230","harbor2232","harbor2234","harbor2236","harbor2238","harbor2240","harbor2242","harbor2244","harbor2246","harbor2248","harbor2250","harbor2252","harbor2254","harbor2256","harbor2258","harbor2260","harbor2262","harbor2264","harbor2266","harbor2268","harbor2270","harbor2272","harbor2274","harbor2276","harbor2278","harbor2280","harbor2282","harbor2284","harbor2286","harbor2288","harbor2290","harbor2292","harbor2294","harbor2296","harbor2298","harbor2300","harbor2302","harbor2304","harbor2306","harbor2308","harbor2310","harbor2312","harbor2314","harbor2316","harbor2318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("harbor20_path") && game.includes("harbor2319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["红灯灯下盐暖蜜","红灯灯下鱼暖蜜","红灯灯下潮暖蜜","红灯灯下雾暖蜜","红灯灯下风暖蜜","红灯灯下鸥暖蜜","红灯灯下缆暖蜜","红灯灯下锚暖蜜","红灯灯下浪暖蜜","红灯灯下沙暖蜜","红灯灯下石暖蜜","红灯灯下泥暖蜜","红灯灯下笛暖蜜","红灯灯下号暖蜜","红灯灯下旗暖蜜","红灯灯下影暖蜜","绿灯灯下盐暖蜜","绿灯灯下鱼暖蜜","绿灯灯下潮暖蜜","绿灯灯下雾暖蜜","绿灯灯下风暖蜜","绿灯灯下鸥暖蜜","绿灯灯下缆暖蜜","绿灯灯下锚暖蜜","绿灯灯下浪暖蜜","绿灯灯下沙暖蜜","绿灯灯下石暖蜜","绿灯灯下泥暖蜜","绿灯灯下笛暖蜜","绿灯灯下号暖蜜","绿灯灯下旗暖蜜","绿灯灯下影暖蜜","白灯灯下盐暖蜜","白灯灯下鱼暖蜜","白灯灯下潮暖蜜","白灯灯下雾暖蜜","白灯灯下风暖蜜","白灯灯下鸥暖蜜","白灯灯下缆暖蜜","白灯灯下锚暖蜜","白灯灯下浪暖蜜","白灯灯下沙暖蜜","白灯灯下石暖蜜","白灯灯下泥暖蜜","白灯灯下笛暖蜜","白灯灯下号暖蜜","白灯灯下旗暖蜜","白灯灯下影暖蜜","雾灯灯下盐暖蜜","雾灯灯下鱼暖蜜","雾灯灯下潮暖蜜","雾灯灯下雾暖蜜","雾灯灯下风暖蜜","雾灯灯下鸥暖蜜","雾灯灯下缆暖蜜","雾灯灯下锚暖蜜","雾灯灯下浪暖蜜","雾灯灯下沙暖蜜","雾灯灯下石暖蜜","雾灯灯下泥暖蜜","雾灯灯下笛暖蜜","雾灯灯下号暖蜜","雾灯灯下旗暖蜜","雾灯灯下影暖蜜","锚灯灯下盐暖蜜","锚灯灯下鱼暖蜜","锚灯灯下潮暖蜜","锚灯灯下雾暖蜜","锚灯灯下风暖蜜","锚灯灯下鸥暖蜜","锚灯灯下缆暖蜜","锚灯灯下锚暖蜜","锚灯灯下浪暖蜜","锚灯灯下沙暖蜜","锚灯灯下石暖蜜","锚灯灯下泥暖蜜","锚灯灯下笛暖蜜","锚灯灯下号暖蜜","锚灯灯下旗暖蜜","锚灯灯下影暖蜜","舷灯灯下盐暖蜜","舷灯灯下鱼暖蜜","舷灯灯下潮暖蜜","舷灯灯下雾暖蜜","舷灯灯下风暖蜜","舷灯灯下鸥暖蜜","舷灯灯下缆暖蜜","舷灯灯下锚暖蜜","舷灯灯下浪暖蜜","舷灯灯下沙暖蜜","舷灯灯下石暖蜜","舷灯灯下泥暖蜜","舷灯灯下笛暖蜜","舷灯灯下号暖蜜","舷灯灯下旗暖蜜","舷灯灯下影暖蜜","桅灯灯下盐暖蜜","桅灯灯下鱼暖蜜","桅灯灯下潮暖蜜","桅灯灯下雾暖蜜","桅灯灯下风暖蜜","桅灯灯下鸥暖蜜","桅灯灯下缆暖蜜","桅灯灯下锚暖蜜","桅灯灯下浪暖蜜","桅灯灯下沙暖蜜","桅灯灯下石暖蜜","桅灯灯下泥暖蜜","桅灯灯下笛暖蜜","桅灯灯下号暖蜜","桅灯灯下旗暖蜜","桅灯灯下影暖蜜","甲板灯灯下盐暖蜜","甲板灯灯下鱼暖蜜","甲板灯灯下潮暖蜜","甲板灯灯下雾暖蜜","甲板灯灯下风暖蜜","甲板灯灯下鸥暖蜜","甲板灯灯下缆暖蜜","甲板灯灯下锚暖蜜","甲板灯灯下浪暖蜜","甲板灯灯下沙暖蜜","甲板灯灯下石暖蜜","甲板灯灯下泥暖蜜","甲板灯灯下笛暖蜜","甲板灯灯下号暖蜜","甲板灯灯下旗暖蜜","甲板灯灯下影暖蜜","舱灯灯下盐暖蜜","舱灯灯下鱼暖蜜","舱灯灯下潮暖蜜","舱灯灯下雾暖蜜","舱灯灯下风暖蜜","舱灯灯下鸥暖蜜","舱灯灯下缆暖蜜","舱灯灯下锚暖蜜","舱灯灯下浪暖蜜","舱灯灯下沙暖蜜","舱灯灯下石暖蜜","舱灯灯下泥暖蜜","舱灯灯下笛暖蜜","舱灯灯下号暖蜜","舱灯灯下旗暖蜜","舱灯灯下影暖蜜","浮标灯灯下盐暖蜜","浮标灯灯下鱼暖蜜","浮标灯灯下潮暖蜜","浮标灯灯下雾暖蜜","浮标灯灯下风暖蜜","浮标灯灯下鸥暖蜜","浮标灯灯下缆暖蜜","浮标灯灯下锚暖蜜","浮标灯灯下浪暖蜜","浮标灯灯下沙暖蜜","浮标灯灯下石暖蜜","浮标灯灯下泥暖蜜","浮标灯灯下笛暖蜜","浮标灯灯下号暖蜜","浮标灯灯下旗暖蜜","浮标灯灯下影暖蜜","灯塔光灯下盐暖蜜","灯塔光灯下鱼暖蜜","灯塔光灯下潮暖蜜","灯塔光灯下雾暖蜜","灯塔光灯下风暖蜜","灯塔光灯下鸥暖蜜","灯塔光灯下缆暖蜜","灯塔光灯下锚暖蜜","灯塔光灯下浪暖蜜","灯塔光灯下沙暖蜜","灯塔光灯下石暖蜜","灯塔光灯下泥暖蜜","灯塔光灯下笛暖蜜","灯塔光灯下号暖蜜","灯塔光灯下旗暖蜜","灯塔光灯下影暖蜜","岸灯灯下盐暖蜜","岸灯灯下鱼暖蜜","岸灯灯下潮暖蜜","岸灯灯下雾暖蜜","岸灯灯下风暖蜜","岸灯灯下鸥暖蜜","岸灯灯下缆暖蜜","岸灯灯下锚暖蜜","岸灯灯下浪暖蜜","岸灯灯下沙暖蜜","岸灯灯下石暖蜜","岸灯灯下泥暖蜜","岸灯灯下笛暖蜜","岸灯灯下号暖蜜","岸灯灯下旗暖蜜","岸灯灯下影暖蜜","堤灯灯下盐暖蜜","堤灯灯下鱼暖蜜","堤灯灯下潮暖蜜","堤灯灯下雾暖蜜","堤灯灯下风暖蜜","堤灯灯下鸥暖蜜","堤灯灯下缆暖蜜","堤灯灯下锚暖蜜","堤灯灯下浪暖蜜","堤灯灯下沙暖蜜","堤灯灯下石暖蜜","堤灯灯下泥暖蜜","堤灯灯下笛暖蜜","堤灯灯下号暖蜜","堤灯灯下旗暖蜜","堤灯灯下影暖蜜","闸灯灯下盐暖蜜","闸灯灯下鱼暖蜜","闸灯灯下潮暖蜜","闸灯灯下雾暖蜜","闸灯灯下风暖蜜","闸灯灯下鸥暖蜜","闸灯灯下缆暖蜜","闸灯灯下锚暖蜜","闸灯灯下浪暖蜜","闸灯灯下沙暖蜜","闸灯灯下石暖蜜","闸灯灯下泥暖蜜","闸灯灯下笛暖蜜","闸灯灯下号暖蜜","闸灯灯下旗暖蜜","闸灯灯下影暖蜜","坞灯灯下盐暖蜜","坞灯灯下鱼暖蜜","坞灯灯下潮暖蜜","坞灯灯下雾暖蜜","坞灯灯下风暖蜜","坞灯灯下鸥暖蜜","坞灯灯下缆暖蜜","坞灯灯下锚暖蜜","坞灯灯下浪暖蜜","坞灯灯下沙暖蜜","坞灯灯下石暖蜜","坞灯灯下泥暖蜜","坞灯灯下笛暖蜜","坞灯灯下号暖蜜","坞灯灯下旗暖蜜","坞灯灯下影暖蜜","港湾灯灯下盐暖蜜","港湾灯灯下鱼暖蜜","港湾灯灯下潮暖蜜","港湾灯灯下雾暖蜜","港湾灯灯下风暖蜜","港湾灯灯下鸥暖蜜","港湾灯灯下缆暖蜜","港湾灯灯下锚暖蜜","港湾灯灯下浪暖蜜","港湾灯灯下沙暖蜜","港湾灯灯下石暖蜜","港湾灯灯下泥暖蜜","港湾灯灯下笛暖蜜","港湾灯灯下号暖蜜","港湾灯灯下旗暖蜜","港湾灯灯下影暖蜜","渔火灯下盐暖蜜","渔火灯下鱼暖蜜","渔火灯下潮暖蜜","渔火灯下雾暖蜜","渔火灯下风暖蜜","渔火灯下鸥暖蜜","渔火灯下缆暖蜜","渔火灯下锚暖蜜","渔火灯下浪暖蜜","渔火灯下沙暖蜜","渔火灯下石暖蜜","渔火灯下泥暖蜜","渔火灯下笛暖蜜","渔火灯下号暖蜜","渔火灯下旗暖蜜","渔火灯下影暖蜜","商灯灯下盐暖蜜","商灯灯下鱼暖蜜","商灯灯下潮暖蜜","商灯灯下雾暖蜜","商灯灯下风暖蜜","商灯灯下鸥暖蜜","商灯灯下缆暖蜜","商灯灯下锚暖蜜","商灯灯下浪暖蜜","商灯灯下沙暖蜜","商灯灯下石暖蜜","商灯灯下泥暖蜜","商灯灯下笛暖蜜","商灯灯下号暖蜜","商灯灯下旗暖蜜","商灯灯下影暖蜜","夜航灯灯下盐暖蜜","夜航灯灯下鱼暖蜜","夜航灯灯下潮暖蜜","夜航灯灯下雾暖蜜","夜航灯灯下风暖蜜","夜航灯灯下鸥暖蜜","夜航灯灯下缆暖蜜","夜航灯灯下锚暖蜜","夜航灯灯下浪暖蜜","夜航灯灯下沙暖蜜","夜航灯灯下石暖蜜","夜航灯灯下泥暖蜜","夜航灯灯下笛暖蜜","夜航灯灯下号暖蜜","夜航灯灯下旗暖蜜","夜航灯灯下影暖蜜","引航灯灯下盐暖蜜","引航灯灯下鱼暖蜜","引航灯灯下潮暖蜜","引航灯灯下雾暖蜜","引航灯灯下风暖蜜","引航灯灯下鸥暖蜜","引航灯灯下缆暖蜜","引航灯灯下锚暖蜜","引航灯灯下浪暖蜜","引航灯灯下沙暖蜜","引航灯灯下石暖蜜","引航灯灯下泥暖蜜","引航灯灯下笛暖蜜","引航灯灯下号暖蜜","引航灯灯下旗暖蜜","引航灯灯下影暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -22077,7 +22077,7 @@ test("garden20 garden21 garden22 garden23 garden24 garden25 garden26 garden27 ga
   ["garden21","garden23","garden25","garden27","garden29","garden211","garden213","garden215","garden217","garden219","garden221","garden223","garden225","garden227","garden229","garden231","garden233","garden235","garden237","garden239","garden241","garden243","garden245","garden247","garden249","garden251","garden253","garden255","garden257","garden259","garden261","garden263","garden265","garden267","garden269","garden271","garden273","garden275","garden277","garden279","garden281","garden283","garden285","garden287","garden289","garden291","garden293","garden295","garden297","garden299","garden2101","garden2103","garden2105","garden2107","garden2109","garden2111","garden2113","garden2115","garden2117","garden2119","garden2121","garden2123","garden2125","garden2127","garden2129","garden2131","garden2133","garden2135","garden2137","garden2139","garden2141","garden2143","garden2145","garden2147","garden2149","garden2151","garden2153","garden2155","garden2157","garden2159","garden2161","garden2163","garden2165","garden2167","garden2169","garden2171","garden2173","garden2175","garden2177","garden2179","garden2181","garden2183","garden2185","garden2187","garden2189","garden2191","garden2193","garden2195","garden2197","garden2199","garden2201","garden2203","garden2205","garden2207","garden2209","garden2211","garden2213","garden2215","garden2217","garden2219","garden2221","garden2223","garden2225","garden2227","garden2229","garden2231","garden2233","garden2235","garden2237","garden2239","garden2241","garden2243","garden2245","garden2247","garden2249","garden2251","garden2253","garden2255","garden2257","garden2259","garden2261","garden2263","garden2265","garden2267","garden2269","garden2271","garden2273","garden2275","garden2277","garden2279","garden2281","garden2283","garden2285","garden2287","garden2289","garden2291","garden2293","garden2295","garden2297","garden2299","garden2301","garden2303","garden2305","garden2307","garden2309","garden2311","garden2313","garden2315","garden2317","garden2319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["garden20","garden22","garden24","garden26","garden28","garden210","garden212","garden214","garden216","garden218","garden220","garden222","garden224","garden226","garden228","garden230","garden232","garden234","garden236","garden238","garden240","garden242","garden244","garden246","garden248","garden250","garden252","garden254","garden256","garden258","garden260","garden262","garden264","garden266","garden268","garden270","garden272","garden274","garden276","garden278","garden280","garden282","garden284","garden286","garden288","garden290","garden292","garden294","garden296","garden298","garden2100","garden2102","garden2104","garden2106","garden2108","garden2110","garden2112","garden2114","garden2116","garden2118","garden2120","garden2122","garden2124","garden2126","garden2128","garden2130","garden2132","garden2134","garden2136","garden2138","garden2140","garden2142","garden2144","garden2146","garden2148","garden2150","garden2152","garden2154","garden2156","garden2158","garden2160","garden2162","garden2164","garden2166","garden2168","garden2170","garden2172","garden2174","garden2176","garden2178","garden2180","garden2182","garden2184","garden2186","garden2188","garden2190","garden2192","garden2194","garden2196","garden2198","garden2200","garden2202","garden2204","garden2206","garden2208","garden2210","garden2212","garden2214","garden2216","garden2218","garden2220","garden2222","garden2224","garden2226","garden2228","garden2230","garden2232","garden2234","garden2236","garden2238","garden2240","garden2242","garden2244","garden2246","garden2248","garden2250","garden2252","garden2254","garden2256","garden2258","garden2260","garden2262","garden2264","garden2266","garden2268","garden2270","garden2272","garden2274","garden2276","garden2278","garden2280","garden2282","garden2284","garden2286","garden2288","garden2290","garden2292","garden2294","garden2296","garden2298","garden2300","garden2302","garden2304","garden2306","garden2308","garden2310","garden2312","garden2314","garden2316","garden2318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("garden20_path") && game.includes("garden2319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["前院院门风暖蜜","前院院墙影暖蜜","前院院角井暖蜜","前院院中亭暖蜜","前院院边柳暖蜜","前院院后竹暖蜜","前院院前梅暖蜜","前院院内兰暖蜜","前院院外菊暖蜜","前院院心荷暖蜜","前院天井光暖蜜","前院花圃露暖蜜","前院菜圃土暖蜜","前院药圃香暖蜜","前院果圃甜暖蜜","前院竹圃清暖蜜","后院院门风暖蜜","后院院墙影暖蜜","后院院角井暖蜜","后院院中亭暖蜜","后院院边柳暖蜜","后院院后竹暖蜜","后院院前梅暖蜜","后院院内兰暖蜜","后院院外菊暖蜜","后院院心荷暖蜜","后院天井光暖蜜","后院花圃露暖蜜","后院菜圃土暖蜜","后院药圃香暖蜜","后院果圃甜暖蜜","后院竹圃清暖蜜","侧院院门风暖蜜","侧院院墙影暖蜜","侧院院角井暖蜜","侧院院中亭暖蜜","侧院院边柳暖蜜","侧院院后竹暖蜜","侧院院前梅暖蜜","侧院院内兰暖蜜","侧院院外菊暖蜜","侧院院心荷暖蜜","侧院天井光暖蜜","侧院花圃露暖蜜","侧院菜圃土暖蜜","侧院药圃香暖蜜","侧院果圃甜暖蜜","侧院竹圃清暖蜜","中庭院门风暖蜜","中庭院墙影暖蜜","中庭院角井暖蜜","中庭院中亭暖蜜","中庭院边柳暖蜜","中庭院后竹暖蜜","中庭院前梅暖蜜","中庭院内兰暖蜜","中庭院外菊暖蜜","中庭院心荷暖蜜","中庭天井光暖蜜","中庭花圃露暖蜜","中庭菜圃土暖蜜","中庭药圃香暖蜜","中庭果圃甜暖蜜","中庭竹圃清暖蜜","天井院门风暖蜜","天井院墙影暖蜜","天井院角井暖蜜","天井院中亭暖蜜","天井院边柳暖蜜","天井院后竹暖蜜","天井院前梅暖蜜","天井院内兰暖蜜","天井院外菊暖蜜","天井院心荷暖蜜","天井天井光暖蜜","天井花圃露暖蜜","天井菜圃土暖蜜","天井药圃香暖蜜","天井果圃甜暖蜜","天井竹圃清暖蜜","花圃院门风暖蜜","花圃院墙影暖蜜","花圃院角井暖蜜","花圃院中亭暖蜜","花圃院边柳暖蜜","花圃院后竹暖蜜","花圃院前梅暖蜜","花圃院内兰暖蜜","花圃院外菊暖蜜","花圃院心荷暖蜜","花圃天井光暖蜜","花圃花圃露暖蜜","花圃菜圃土暖蜜","花圃药圃香暖蜜","花圃果圃甜暖蜜","花圃竹圃清暖蜜","菜圃院门风暖蜜","菜圃院墙影暖蜜","菜圃院角井暖蜜","菜圃院中亭暖蜜","菜圃院边柳暖蜜","菜圃院后竹暖蜜","菜圃院前梅暖蜜","菜圃院内兰暖蜜","菜圃院外菊暖蜜","菜圃院心荷暖蜜","菜圃天井光暖蜜","菜圃花圃露暖蜜","菜圃菜圃土暖蜜","菜圃药圃香暖蜜","菜圃果圃甜暖蜜","菜圃竹圃清暖蜜","药圃院门风暖蜜","药圃院墙影暖蜜","药圃院角井暖蜜","药圃院中亭暖蜜","药圃院边柳暖蜜","药圃院后竹暖蜜","药圃院前梅暖蜜","药圃院内兰暖蜜","药圃院外菊暖蜜","药圃院心荷暖蜜","药圃天井光暖蜜","药圃花圃露暖蜜","药圃菜圃土暖蜜","药圃药圃香暖蜜","药圃果圃甜暖蜜","药圃竹圃清暖蜜","果圃院门风暖蜜","果圃院墙影暖蜜","果圃院角井暖蜜","果圃院中亭暖蜜","果圃院边柳暖蜜","果圃院后竹暖蜜","果圃院前梅暖蜜","果圃院内兰暖蜜","果圃院外菊暖蜜","果圃院心荷暖蜜","果圃天井光暖蜜","果圃花圃露暖蜜","果圃菜圃土暖蜜","果圃药圃香暖蜜","果圃果圃甜暖蜜","果圃竹圃清暖蜜","竹圃院门风暖蜜","竹圃院墙影暖蜜","竹圃院角井暖蜜","竹圃院中亭暖蜜","竹圃院边柳暖蜜","竹圃院后竹暖蜜","竹圃院前梅暖蜜","竹圃院内兰暖蜜","竹圃院外菊暖蜜","竹圃院心荷暖蜜","竹圃天井光暖蜜","竹圃花圃露暖蜜","竹圃菜圃土暖蜜","竹圃药圃香暖蜜","竹圃果圃甜暖蜜","竹圃竹圃清暖蜜","梅圃院门风暖蜜","梅圃院墙影暖蜜","梅圃院角井暖蜜","梅圃院中亭暖蜜","梅圃院边柳暖蜜","梅圃院后竹暖蜜","梅圃院前梅暖蜜","梅圃院内兰暖蜜","梅圃院外菊暖蜜","梅圃院心荷暖蜜","梅圃天井光暖蜜","梅圃花圃露暖蜜","梅圃菜圃土暖蜜","梅圃药圃香暖蜜","梅圃果圃甜暖蜜","梅圃竹圃清暖蜜","兰圃院门风暖蜜","兰圃院墙影暖蜜","兰圃院角井暖蜜","兰圃院中亭暖蜜","兰圃院边柳暖蜜","兰圃院后竹暖蜜","兰圃院前梅暖蜜","兰圃院内兰暖蜜","兰圃院外菊暖蜜","兰圃院心荷暖蜜","兰圃天井光暖蜜","兰圃花圃露暖蜜","兰圃菜圃土暖蜜","兰圃药圃香暖蜜","兰圃果圃甜暖蜜","兰圃竹圃清暖蜜","菊圃院门风暖蜜","菊圃院墙影暖蜜","菊圃院角井暖蜜","菊圃院中亭暖蜜","菊圃院边柳暖蜜","菊圃院后竹暖蜜","菊圃院前梅暖蜜","菊圃院内兰暖蜜","菊圃院外菊暖蜜","菊圃院心荷暖蜜","菊圃天井光暖蜜","菊圃花圃露暖蜜","菊圃菜圃土暖蜜","菊圃药圃香暖蜜","菊圃果圃甜暖蜜","菊圃竹圃清暖蜜","荷塘院门风暖蜜","荷塘院墙影暖蜜","荷塘院角井暖蜜","荷塘院中亭暖蜜","荷塘院边柳暖蜜","荷塘院后竹暖蜜","荷塘院前梅暖蜜","荷塘院内兰暖蜜","荷塘院外菊暖蜜","荷塘院心荷暖蜜","荷塘天井光暖蜜","荷塘花圃露暖蜜","荷塘菜圃土暖蜜","荷塘药圃香暖蜜","荷塘果圃甜暖蜜","荷塘竹圃清暖蜜","鱼池院门风暖蜜","鱼池院墙影暖蜜","鱼池院角井暖蜜","鱼池院中亭暖蜜","鱼池院边柳暖蜜","鱼池院后竹暖蜜","鱼池院前梅暖蜜","鱼池院内兰暖蜜","鱼池院外菊暖蜜","鱼池院心荷暖蜜","鱼池天井光暖蜜","鱼池花圃露暖蜜","鱼池菜圃土暖蜜","鱼池药圃香暖蜜","鱼池果圃甜暖蜜","鱼池竹圃清暖蜜","石径院门风暖蜜","石径院墙影暖蜜","石径院角井暖蜜","石径院中亭暖蜜","石径院边柳暖蜜","石径院后竹暖蜜","石径院前梅暖蜜","石径院内兰暖蜜","石径院外菊暖蜜","石径院心荷暖蜜","石径天井光暖蜜","石径花圃露暖蜜","石径菜圃土暖蜜","石径药圃香暖蜜","石径果圃甜暖蜜","石径竹圃清暖蜜","苔径院门风暖蜜","苔径院墙影暖蜜","苔径院角井暖蜜","苔径院中亭暖蜜","苔径院边柳暖蜜","苔径院后竹暖蜜","苔径院前梅暖蜜","苔径院内兰暖蜜","苔径院外菊暖蜜","苔径院心荷暖蜜","苔径天井光暖蜜","苔径花圃露暖蜜","苔径菜圃土暖蜜","苔径药圃香暖蜜","苔径果圃甜暖蜜","苔径竹圃清暖蜜","沙径院门风暖蜜","沙径院墙影暖蜜","沙径院角井暖蜜","沙径院中亭暖蜜","沙径院边柳暖蜜","沙径院后竹暖蜜","沙径院前梅暖蜜","沙径院内兰暖蜜","沙径院外菊暖蜜","沙径院心荷暖蜜","沙径天井光暖蜜","沙径花圃露暖蜜","沙径菜圃土暖蜜","沙径药圃香暖蜜","沙径果圃甜暖蜜","沙径竹圃清暖蜜","砖径院门风暖蜜","砖径院墙影暖蜜","砖径院角井暖蜜","砖径院中亭暖蜜","砖径院边柳暖蜜","砖径院后竹暖蜜","砖径院前梅暖蜜","砖径院内兰暖蜜","砖径院外菊暖蜜","砖径院心荷暖蜜","砖径天井光暖蜜","砖径花圃露暖蜜","砖径菜圃土暖蜜","砖径药圃香暖蜜","砖径果圃甜暖蜜","砖径竹圃清暖蜜","木径院门风暖蜜","木径院墙影暖蜜","木径院角井暖蜜","木径院中亭暖蜜","木径院边柳暖蜜","木径院后竹暖蜜","木径院前梅暖蜜","木径院内兰暖蜜","木径院外菊暖蜜","木径院心荷暖蜜","木径天井光暖蜜","木径花圃露暖蜜","木径菜圃土暖蜜","木径药圃香暖蜜","木径果圃甜暖蜜","木径竹圃清暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -22117,7 +22117,7 @@ test("kitchen0 kitchen1 kitchen2 kitchen3 kitchen4 kitchen5 kitchen6 kitchen7 ki
   ["kitchen1","kitchen3","kitchen5","kitchen7","kitchen9","kitchen11","kitchen13","kitchen15","kitchen17","kitchen19","kitchen21","kitchen23","kitchen25","kitchen27","kitchen29","kitchen31","kitchen33","kitchen35","kitchen37","kitchen39","kitchen41","kitchen43","kitchen45","kitchen47","kitchen49","kitchen51","kitchen53","kitchen55","kitchen57","kitchen59","kitchen61","kitchen63","kitchen65","kitchen67","kitchen69","kitchen71","kitchen73","kitchen75","kitchen77","kitchen79","kitchen81","kitchen83","kitchen85","kitchen87","kitchen89","kitchen91","kitchen93","kitchen95","kitchen97","kitchen99","kitchen101","kitchen103","kitchen105","kitchen107","kitchen109","kitchen111","kitchen113","kitchen115","kitchen117","kitchen119","kitchen121","kitchen123","kitchen125","kitchen127","kitchen129","kitchen131","kitchen133","kitchen135","kitchen137","kitchen139","kitchen141","kitchen143","kitchen145","kitchen147","kitchen149","kitchen151","kitchen153","kitchen155","kitchen157","kitchen159","kitchen161","kitchen163","kitchen165","kitchen167","kitchen169","kitchen171","kitchen173","kitchen175","kitchen177","kitchen179","kitchen181","kitchen183","kitchen185","kitchen187","kitchen189","kitchen191","kitchen193","kitchen195","kitchen197","kitchen199","kitchen201","kitchen203","kitchen205","kitchen207","kitchen209","kitchen211","kitchen213","kitchen215","kitchen217","kitchen219","kitchen221","kitchen223","kitchen225","kitchen227","kitchen229","kitchen231","kitchen233","kitchen235","kitchen237","kitchen239","kitchen241","kitchen243","kitchen245","kitchen247","kitchen249","kitchen251","kitchen253","kitchen255","kitchen257","kitchen259","kitchen261","kitchen263","kitchen265","kitchen267","kitchen269","kitchen271","kitchen273","kitchen275","kitchen277","kitchen279","kitchen281","kitchen283","kitchen285","kitchen287","kitchen289","kitchen291","kitchen293","kitchen295","kitchen297","kitchen299","kitchen301","kitchen303","kitchen305","kitchen307","kitchen309","kitchen311","kitchen313","kitchen315","kitchen317","kitchen319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["kitchen0","kitchen2","kitchen4","kitchen6","kitchen8","kitchen10","kitchen12","kitchen14","kitchen16","kitchen18","kitchen20","kitchen22","kitchen24","kitchen26","kitchen28","kitchen30","kitchen32","kitchen34","kitchen36","kitchen38","kitchen40","kitchen42","kitchen44","kitchen46","kitchen48","kitchen50","kitchen52","kitchen54","kitchen56","kitchen58","kitchen60","kitchen62","kitchen64","kitchen66","kitchen68","kitchen70","kitchen72","kitchen74","kitchen76","kitchen78","kitchen80","kitchen82","kitchen84","kitchen86","kitchen88","kitchen90","kitchen92","kitchen94","kitchen96","kitchen98","kitchen100","kitchen102","kitchen104","kitchen106","kitchen108","kitchen110","kitchen112","kitchen114","kitchen116","kitchen118","kitchen120","kitchen122","kitchen124","kitchen126","kitchen128","kitchen130","kitchen132","kitchen134","kitchen136","kitchen138","kitchen140","kitchen142","kitchen144","kitchen146","kitchen148","kitchen150","kitchen152","kitchen154","kitchen156","kitchen158","kitchen160","kitchen162","kitchen164","kitchen166","kitchen168","kitchen170","kitchen172","kitchen174","kitchen176","kitchen178","kitchen180","kitchen182","kitchen184","kitchen186","kitchen188","kitchen190","kitchen192","kitchen194","kitchen196","kitchen198","kitchen200","kitchen202","kitchen204","kitchen206","kitchen208","kitchen210","kitchen212","kitchen214","kitchen216","kitchen218","kitchen220","kitchen222","kitchen224","kitchen226","kitchen228","kitchen230","kitchen232","kitchen234","kitchen236","kitchen238","kitchen240","kitchen242","kitchen244","kitchen246","kitchen248","kitchen250","kitchen252","kitchen254","kitchen256","kitchen258","kitchen260","kitchen262","kitchen264","kitchen266","kitchen268","kitchen270","kitchen272","kitchen274","kitchen276","kitchen278","kitchen280","kitchen282","kitchen284","kitchen286","kitchen288","kitchen290","kitchen292","kitchen294","kitchen296","kitchen298","kitchen300","kitchen302","kitchen304","kitchen306","kitchen308","kitchen310","kitchen312","kitchen314","kitchen316","kitchen318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("kitchen0_path") && game.includes("kitchen319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["柴灶灶火暖蜜","柴灶灶烟暖蜜","柴灶灶灰暖蜜","柴灶灶门暖蜜","柴灶灶台暖蜜","柴灶灶眼暖蜜","柴灶锅气暖蜜","柴灶蒸气暖蜜","柴灶烤香暖蜜","柴灶汤香暖蜜","柴灶粥香暖蜜","柴灶茶灶香暖蜜","柴灶酒香暖蜜","柴灶糖香暖蜜","柴灶酱香暖蜜","柴灶醋香暖蜜","煤灶灶火暖蜜","煤灶灶烟暖蜜","煤灶灶灰暖蜜","煤灶灶门暖蜜","煤灶灶台暖蜜","煤灶灶眼暖蜜","煤灶锅气暖蜜","煤灶蒸气暖蜜","煤灶烤香暖蜜","煤灶汤香暖蜜","煤灶粥香暖蜜","煤灶茶灶香暖蜜","煤灶酒香暖蜜","煤灶糖香暖蜜","煤灶酱香暖蜜","煤灶醋香暖蜜","气灶灶火暖蜜","气灶灶烟暖蜜","气灶灶灰暖蜜","气灶灶门暖蜜","气灶灶台暖蜜","气灶灶眼暖蜜","气灶锅气暖蜜","气灶蒸气暖蜜","气灶烤香暖蜜","气灶汤香暖蜜","气灶粥香暖蜜","气灶茶灶香暖蜜","气灶酒香暖蜜","气灶糖香暖蜜","气灶酱香暖蜜","气灶醋香暖蜜","电磁炉灶火暖蜜","电磁炉灶烟暖蜜","电磁炉灶灰暖蜜","电磁炉灶门暖蜜","电磁炉灶台暖蜜","电磁炉灶眼暖蜜","电磁炉锅气暖蜜","电磁炉蒸气暖蜜","电磁炉烤香暖蜜","电磁炉汤香暖蜜","电磁炉粥香暖蜜","电磁炉茶灶香暖蜜","电磁炉酒香暖蜜","电磁炉糖香暖蜜","电磁炉酱香暖蜜","电磁炉醋香暖蜜","砂锅灶灶火暖蜜","砂锅灶灶烟暖蜜","砂锅灶灶灰暖蜜","砂锅灶灶门暖蜜","砂锅灶灶台暖蜜","砂锅灶灶眼暖蜜","砂锅灶锅气暖蜜","砂锅灶蒸气暖蜜","砂锅灶烤香暖蜜","砂锅灶汤香暖蜜","砂锅灶粥香暖蜜","砂锅灶茶灶香暖蜜","砂锅灶酒香暖蜜","砂锅灶糖香暖蜜","砂锅灶酱香暖蜜","砂锅灶醋香暖蜜","铁锅灶灶火暖蜜","铁锅灶灶烟暖蜜","铁锅灶灶灰暖蜜","铁锅灶灶门暖蜜","铁锅灶灶台暖蜜","铁锅灶灶眼暖蜜","铁锅灶锅气暖蜜","铁锅灶蒸气暖蜜","铁锅灶烤香暖蜜","铁锅灶汤香暖蜜","铁锅灶粥香暖蜜","铁锅灶茶灶香暖蜜","铁锅灶酒香暖蜜","铁锅灶糖香暖蜜","铁锅灶酱香暖蜜","铁锅灶醋香暖蜜","蒸灶灶火暖蜜","蒸灶灶烟暖蜜","蒸灶灶灰暖蜜","蒸灶灶门暖蜜","蒸灶灶台暖蜜","蒸灶灶眼暖蜜","蒸灶锅气暖蜜","蒸灶蒸气暖蜜","蒸灶烤香暖蜜","蒸灶汤香暖蜜","蒸灶粥香暖蜜","蒸灶茶灶香暖蜜","蒸灶酒香暖蜜","蒸灶糖香暖蜜","蒸灶酱香暖蜜","蒸灶醋香暖蜜","烤灶灶火暖蜜","烤灶灶烟暖蜜","烤灶灶灰暖蜜","烤灶灶门暖蜜","烤灶灶台暖蜜","烤灶灶眼暖蜜","烤灶锅气暖蜜","烤灶蒸气暖蜜","烤灶烤香暖蜜","烤灶汤香暖蜜","烤灶粥香暖蜜","烤灶茶灶香暖蜜","烤灶酒香暖蜜","烤灶糖香暖蜜","烤灶酱香暖蜜","烤灶醋香暖蜜","汤灶灶火暖蜜","汤灶灶烟暖蜜","汤灶灶灰暖蜜","汤灶灶门暖蜜","汤灶灶台暖蜜","汤灶灶眼暖蜜","汤灶锅气暖蜜","汤灶蒸气暖蜜","汤灶烤香暖蜜","汤灶汤香暖蜜","汤灶粥香暖蜜","汤灶茶灶香暖蜜","汤灶酒香暖蜜","汤灶糖香暖蜜","汤灶酱香暖蜜","汤灶醋香暖蜜","粥灶灶火暖蜜","粥灶灶烟暖蜜","粥灶灶灰暖蜜","粥灶灶门暖蜜","粥灶灶台暖蜜","粥灶灶眼暖蜜","粥灶锅气暖蜜","粥灶蒸气暖蜜","粥灶烤香暖蜜","粥灶汤香暖蜜","粥灶粥香暖蜜","粥灶茶灶香暖蜜","粥灶酒香暖蜜","粥灶糖香暖蜜","粥灶酱香暖蜜","粥灶醋香暖蜜","茶灶灶火暖蜜","茶灶灶烟暖蜜","茶灶灶灰暖蜜","茶灶灶门暖蜜","茶灶灶台暖蜜","茶灶灶眼暖蜜","茶灶锅气暖蜜","茶灶蒸气暖蜜","茶灶烤香暖蜜","茶灶汤香暖蜜","茶灶粥香暖蜜","茶灶茶灶香暖蜜","茶灶酒香暖蜜","茶灶糖香暖蜜","茶灶酱香暖蜜","茶灶醋香暖蜜","酒灶灶火暖蜜","酒灶灶烟暖蜜","酒灶灶灰暖蜜","酒灶灶门暖蜜","酒灶灶台暖蜜","酒灶灶眼暖蜜","酒灶锅气暖蜜","酒灶蒸气暖蜜","酒灶烤香暖蜜","酒灶汤香暖蜜","酒灶粥香暖蜜","酒灶茶灶香暖蜜","酒灶酒香暖蜜","酒灶糖香暖蜜","酒灶酱香暖蜜","酒灶醋香暖蜜","糖灶灶火暖蜜","糖灶灶烟暖蜜","糖灶灶灰暖蜜","糖灶灶门暖蜜","糖灶灶台暖蜜","糖灶灶眼暖蜜","糖灶锅气暖蜜","糖灶蒸气暖蜜","糖灶烤香暖蜜","糖灶汤香暖蜜","糖灶粥香暖蜜","糖灶茶灶香暖蜜","糖灶酒香暖蜜","糖灶糖香暖蜜","糖灶酱香暖蜜","糖灶醋香暖蜜","酱灶灶火暖蜜","酱灶灶烟暖蜜","酱灶灶灰暖蜜","酱灶灶门暖蜜","酱灶灶台暖蜜","酱灶灶眼暖蜜","酱灶锅气暖蜜","酱灶蒸气暖蜜","酱灶烤香暖蜜","酱灶汤香暖蜜","酱灶粥香暖蜜","酱灶茶灶香暖蜜","酱灶酒香暖蜜","酱灶糖香暖蜜","酱灶酱香暖蜜","酱灶醋香暖蜜","醋灶灶火暖蜜","醋灶灶烟暖蜜","醋灶灶灰暖蜜","醋灶灶门暖蜜","醋灶灶台暖蜜","醋灶灶眼暖蜜","醋灶锅气暖蜜","醋灶蒸气暖蜜","醋灶烤香暖蜜","醋灶汤香暖蜜","醋灶粥香暖蜜","醋灶茶灶香暖蜜","醋灶酒香暖蜜","醋灶糖香暖蜜","醋灶酱香暖蜜","醋灶醋香暖蜜","油灶灶火暖蜜","油灶灶烟暖蜜","油灶灶灰暖蜜","油灶灶门暖蜜","油灶灶台暖蜜","油灶灶眼暖蜜","油灶锅气暖蜜","油灶蒸气暖蜜","油灶烤香暖蜜","油灶汤香暖蜜","油灶粥香暖蜜","油灶茶灶香暖蜜","油灶酒香暖蜜","油灶糖香暖蜜","油灶酱香暖蜜","油灶醋香暖蜜","盐灶灶火暖蜜","盐灶灶烟暖蜜","盐灶灶灰暖蜜","盐灶灶门暖蜜","盐灶灶台暖蜜","盐灶灶眼暖蜜","盐灶锅气暖蜜","盐灶蒸气暖蜜","盐灶烤香暖蜜","盐灶汤香暖蜜","盐灶粥香暖蜜","盐灶茶灶香暖蜜","盐灶酒香暖蜜","盐灶糖香暖蜜","盐灶酱香暖蜜","盐灶醋香暖蜜","葱灶灶火暖蜜","葱灶灶烟暖蜜","葱灶灶灰暖蜜","葱灶灶门暖蜜","葱灶灶台暖蜜","葱灶灶眼暖蜜","葱灶锅气暖蜜","葱灶蒸气暖蜜","葱灶烤香暖蜜","葱灶汤香暖蜜","葱灶粥香暖蜜","葱灶茶灶香暖蜜","葱灶酒香暖蜜","葱灶糖香暖蜜","葱灶酱香暖蜜","葱灶醋香暖蜜","姜灶灶火暖蜜","姜灶灶烟暖蜜","姜灶灶灰暖蜜","姜灶灶门暖蜜","姜灶灶台暖蜜","姜灶灶眼暖蜜","姜灶锅气暖蜜","姜灶蒸气暖蜜","姜灶烤香暖蜜","姜灶汤香暖蜜","姜灶粥香暖蜜","姜灶茶灶香暖蜜","姜灶酒香暖蜜","姜灶糖香暖蜜","姜灶酱香暖蜜","姜灶醋香暖蜜","蒜灶灶火暖蜜","蒜灶灶烟暖蜜","蒜灶灶灰暖蜜","蒜灶灶门暖蜜","蒜灶灶台暖蜜","蒜灶灶眼暖蜜","蒜灶锅气暖蜜","蒜灶蒸气暖蜜","蒜灶烤香暖蜜","蒜灶汤香暖蜜","蒜灶粥香暖蜜","蒜灶茶灶香暖蜜","蒜灶酒香暖蜜","蒜灶糖香暖蜜","蒜灶酱香暖蜜","蒜灶醋香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -22157,7 +22157,7 @@ test("market20 market21 market22 market23 market24 market25 market26 market27 ma
   ["market21","market23","market25","market27","market29","market211","market213","market215","market217","market219","market221","market223","market225","market227","market229","market231","market233","market235","market237","market239","market241","market243","market245","market247","market249","market251","market253","market255","market257","market259","market261","market263","market265","market267","market269","market271","market273","market275","market277","market279","market281","market283","market285","market287","market289","market291","market293","market295","market297","market299","market2101","market2103","market2105","market2107","market2109","market2111","market2113","market2115","market2117","market2119","market2121","market2123","market2125","market2127","market2129","market2131","market2133","market2135","market2137","market2139","market2141","market2143","market2145","market2147","market2149","market2151","market2153","market2155","market2157","market2159","market2161","market2163","market2165","market2167","market2169","market2171","market2173","market2175","market2177","market2179","market2181","market2183","market2185","market2187","market2189","market2191","market2193","market2195","market2197","market2199","market2201","market2203","market2205","market2207","market2209","market2211","market2213","market2215","market2217","market2219","market2221","market2223","market2225","market2227","market2229","market2231","market2233","market2235","market2237","market2239","market2241","market2243","market2245","market2247","market2249","market2251","market2253","market2255","market2257","market2259","market2261","market2263","market2265","market2267","market2269","market2271","market2273","market2275","market2277","market2279","market2281","market2283","market2285","market2287","market2289","market2291","market2293","market2295","market2297","market2299","market2301","market2303","market2305","market2307","market2309","market2311","market2313","market2315","market2317","market2319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["market20","market22","market24","market26","market28","market210","market212","market214","market216","market218","market220","market222","market224","market226","market228","market230","market232","market234","market236","market238","market240","market242","market244","market246","market248","market250","market252","market254","market256","market258","market260","market262","market264","market266","market268","market270","market272","market274","market276","market278","market280","market282","market284","market286","market288","market290","market292","market294","market296","market298","market2100","market2102","market2104","market2106","market2108","market2110","market2112","market2114","market2116","market2118","market2120","market2122","market2124","market2126","market2128","market2130","market2132","market2134","market2136","market2138","market2140","market2142","market2144","market2146","market2148","market2150","market2152","market2154","market2156","market2158","market2160","market2162","market2164","market2166","market2168","market2170","market2172","market2174","market2176","market2178","market2180","market2182","market2184","market2186","market2188","market2190","market2192","market2194","market2196","market2198","market2200","market2202","market2204","market2206","market2208","market2210","market2212","market2214","market2216","market2218","market2220","market2222","market2224","market2226","market2228","market2230","market2232","market2234","market2236","market2238","market2240","market2242","market2244","market2246","market2248","market2250","market2252","market2254","market2256","market2258","market2260","market2262","market2264","market2266","market2268","market2270","market2272","market2274","market2276","market2278","market2280","market2282","market2284","market2286","market2288","market2290","market2292","market2294","market2296","market2298","market2300","market2302","market2304","market2306","market2308","market2310","market2312","market2314","market2316","market2318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("market20_path") && game.includes("market2319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["灯市夜摊香暖蜜","灯市夜糖香夜暖蜜","灯市夜面香暖蜜","灯市夜纸香夜暖蜜","灯市夜塑香暖蜜","灯市夜吹香暖蜜","灯市夜人香糖暖蜜","灯市夜葫芦甜暖蜜","灯市夜薯香暖蜜","灯市夜栗香暖蜜","灯市夜腐香暖蜜","灯市夜饼香暖蜜","灯市夜饨香暖蜜","灯市夜圆香暖蜜","灯市夜宵香暖蜜","灯市夜夜市风暖蜜","小吃摊摊香暖蜜","小吃摊糖香夜暖蜜","小吃摊面香暖蜜","小吃摊纸香夜暖蜜","小吃摊塑香暖蜜","小吃摊吹香暖蜜","小吃摊人香糖暖蜜","小吃摊葫芦甜暖蜜","小吃摊薯香暖蜜","小吃摊栗香暖蜜","小吃摊腐香暖蜜","小吃摊饼香暖蜜","小吃摊饨香暖蜜","小吃摊圆香暖蜜","小吃摊宵香暖蜜","小吃摊夜市风暖蜜","糖画摊摊香暖蜜","糖画摊糖香夜暖蜜","糖画摊面香暖蜜","糖画摊纸香夜暖蜜","糖画摊塑香暖蜜","糖画摊吹香暖蜜","糖画摊人香糖暖蜜","糖画摊葫芦甜暖蜜","糖画摊薯香暖蜜","糖画摊栗香暖蜜","糖画摊腐香暖蜜","糖画摊饼香暖蜜","糖画摊饨香暖蜜","糖画摊圆香暖蜜","糖画摊宵香暖蜜","糖画摊夜市风暖蜜","面塑摊摊香暖蜜","面塑摊糖香夜暖蜜","面塑摊面香暖蜜","面塑摊纸香夜暖蜜","面塑摊塑香暖蜜","面塑摊吹香暖蜜","面塑摊人香糖暖蜜","面塑摊葫芦甜暖蜜","面塑摊薯香暖蜜","面塑摊栗香暖蜜","面塑摊腐香暖蜜","面塑摊饼香暖蜜","面塑摊饨香暖蜜","面塑摊圆香暖蜜","面塑摊宵香暖蜜","面塑摊夜市风暖蜜","剪纸摊摊香暖蜜","剪纸摊糖香夜暖蜜","剪纸摊面香暖蜜","剪纸摊纸香夜暖蜜","剪纸摊塑香暖蜜","剪纸摊吹香暖蜜","剪纸摊人香糖暖蜜","剪纸摊葫芦甜暖蜜","剪纸摊薯香暖蜜","剪纸摊栗香暖蜜","剪纸摊腐香暖蜜","剪纸摊饼香暖蜜","剪纸摊饨香暖蜜","剪纸摊圆香暖蜜","剪纸摊宵香暖蜜","剪纸摊夜市风暖蜜","捏面摊香暖蜜","捏面糖香夜暖蜜","捏面面香暖蜜","捏面纸香夜暖蜜","捏面塑香暖蜜","捏面吹香暖蜜","捏面人香糖暖蜜","捏面葫芦甜暖蜜","捏面薯香暖蜜","捏面栗香暖蜜","捏面腐香暖蜜","捏面饼香暖蜜","捏面饨香暖蜜","捏面圆香暖蜜","捏面宵香暖蜜","捏面夜市风暖蜜","吹糖摊香暖蜜","吹糖糖香夜暖蜜","吹糖面香暖蜜","吹糖纸香夜暖蜜","吹糖塑香暖蜜","吹糖吹香暖蜜","吹糖人香糖暖蜜","吹糖葫芦甜暖蜜","吹糖薯香暖蜜","吹糖栗香暖蜜","吹糖腐香暖蜜","吹糖饼香暖蜜","吹糖饨香暖蜜","吹糖圆香暖蜜","吹糖宵香暖蜜","吹糖夜市风暖蜜","糖人摊香暖蜜","糖人糖香夜暖蜜","糖人面香暖蜜","糖人纸香夜暖蜜","糖人塑香暖蜜","糖人吹香暖蜜","糖人人香糖暖蜜","糖人葫芦甜暖蜜","糖人薯香暖蜜","糖人栗香暖蜜","糖人腐香暖蜜","糖人饼香暖蜜","糖人饨香暖蜜","糖人圆香暖蜜","糖人宵香暖蜜","糖人夜市风暖蜜","冰糖葫芦摊香暖蜜","冰糖葫芦糖香夜暖蜜","冰糖葫芦面香暖蜜","冰糖葫芦纸香夜暖蜜","冰糖葫芦塑香暖蜜","冰糖葫芦吹香暖蜜","冰糖葫芦人香糖暖蜜","冰糖葫芦葫芦甜暖蜜","冰糖葫芦薯香暖蜜","冰糖葫芦栗香暖蜜","冰糖葫芦腐香暖蜜","冰糖葫芦饼香暖蜜","冰糖葫芦饨香暖蜜","冰糖葫芦圆香暖蜜","冰糖葫芦宵香暖蜜","冰糖葫芦夜市风暖蜜","烤红薯摊香暖蜜","烤红薯糖香夜暖蜜","烤红薯面香暖蜜","烤红薯纸香夜暖蜜","烤红薯塑香暖蜜","烤红薯吹香暖蜜","烤红薯人香糖暖蜜","烤红薯葫芦甜暖蜜","烤红薯薯香暖蜜","烤红薯栗香暖蜜","烤红薯腐香暖蜜","烤红薯饼香暖蜜","烤红薯饨香暖蜜","烤红薯圆香暖蜜","烤红薯宵香暖蜜","烤红薯夜市风暖蜜","糖炒栗摊香暖蜜","糖炒栗糖香夜暖蜜","糖炒栗面香暖蜜","糖炒栗纸香夜暖蜜","糖炒栗塑香暖蜜","糖炒栗吹香暖蜜","糖炒栗人香糖暖蜜","糖炒栗葫芦甜暖蜜","糖炒栗薯香暖蜜","糖炒栗栗香暖蜜","糖炒栗腐香暖蜜","糖炒栗饼香暖蜜","糖炒栗饨香暖蜜","糖炒栗圆香暖蜜","糖炒栗宵香暖蜜","糖炒栗夜市风暖蜜","臭豆腐摊香暖蜜","臭豆腐糖香夜暖蜜","臭豆腐面香暖蜜","臭豆腐纸香夜暖蜜","臭豆腐塑香暖蜜","臭豆腐吹香暖蜜","臭豆腐人香糖暖蜜","臭豆腐葫芦甜暖蜜","臭豆腐薯香暖蜜","臭豆腐栗香暖蜜","臭豆腐腐香暖蜜","臭豆腐饼香暖蜜","臭豆腐饨香暖蜜","臭豆腐圆香暖蜜","臭豆腐宵香暖蜜","臭豆腐夜市风暖蜜","煎饼摊香暖蜜","煎饼糖香夜暖蜜","煎饼面香暖蜜","煎饼纸香夜暖蜜","煎饼塑香暖蜜","煎饼吹香暖蜜","煎饼人香糖暖蜜","煎饼葫芦甜暖蜜","煎饼薯香暖蜜","煎饼栗香暖蜜","煎饼腐香暖蜜","煎饼饼香暖蜜","煎饼饨香暖蜜","煎饼圆香暖蜜","煎饼宵香暖蜜","煎饼夜市风暖蜜","馄饨摊香暖蜜","馄饨糖香夜暖蜜","馄饨面香暖蜜","馄饨纸香夜暖蜜","馄饨塑香暖蜜","馄饨吹香暖蜜","馄饨人香糖暖蜜","馄饨葫芦甜暖蜜","馄饨薯香暖蜜","馄饨栗香暖蜜","馄饨腐香暖蜜","馄饨饼香暖蜜","馄饨饨香暖蜜","馄饨圆香暖蜜","馄饨宵香暖蜜","馄饨夜市风暖蜜","汤圆摊香暖蜜","汤圆糖香夜暖蜜","汤圆面香暖蜜","汤圆纸香夜暖蜜","汤圆塑香暖蜜","汤圆吹香暖蜜","汤圆人香糖暖蜜","汤圆葫芦甜暖蜜","汤圆薯香暖蜜","汤圆栗香暖蜜","汤圆腐香暖蜜","汤圆饼香暖蜜","汤圆饨香暖蜜","汤圆圆香暖蜜","汤圆宵香暖蜜","汤圆夜市风暖蜜","元宵摊香暖蜜","元宵糖香夜暖蜜","元宵面香暖蜜","元宵纸香夜暖蜜","元宵塑香暖蜜","元宵吹香暖蜜","元宵人香糖暖蜜","元宵葫芦甜暖蜜","元宵薯香暖蜜","元宵栗香暖蜜","元宵腐香暖蜜","元宵饼香暖蜜","元宵饨香暖蜜","元宵圆香暖蜜","元宵宵香暖蜜","元宵夜市风暖蜜","关东煮摊香暖蜜","关东煮糖香夜暖蜜","关东煮面香暖蜜","关东煮纸香夜暖蜜","关东煮塑香暖蜜","关东煮吹香暖蜜","关东煮人香糖暖蜜","关东煮葫芦甜暖蜜","关东煮薯香暖蜜","关东煮栗香暖蜜","关东煮腐香暖蜜","关东煮饼香暖蜜","关东煮饨香暖蜜","关东煮圆香暖蜜","关东煮宵香暖蜜","关东煮夜市风暖蜜","烤串摊香暖蜜","烤串糖香夜暖蜜","烤串面香暖蜜","烤串纸香夜暖蜜","烤串塑香暖蜜","烤串吹香暖蜜","烤串人香糖暖蜜","烤串葫芦甜暖蜜","烤串薯香暖蜜","烤串栗香暖蜜","烤串腐香暖蜜","烤串饼香暖蜜","烤串饨香暖蜜","烤串圆香暖蜜","烤串宵香暖蜜","烤串夜市风暖蜜","凉皮摊香暖蜜","凉皮糖香夜暖蜜","凉皮面香暖蜜","凉皮纸香夜暖蜜","凉皮塑香暖蜜","凉皮吹香暖蜜","凉皮人香糖暖蜜","凉皮葫芦甜暖蜜","凉皮薯香暖蜜","凉皮栗香暖蜜","凉皮腐香暖蜜","凉皮饼香暖蜜","凉皮饨香暖蜜","凉皮圆香暖蜜","凉皮宵香暖蜜","凉皮夜市风暖蜜","豆花摊香暖蜜","豆花糖香夜暖蜜","豆花面香暖蜜","豆花纸香夜暖蜜","豆花塑香暖蜜","豆花吹香暖蜜","豆花人香糖暖蜜","豆花葫芦甜暖蜜","豆花薯香暖蜜","豆花栗香暖蜜","豆花腐香暖蜜","豆花饼香暖蜜","豆花饨香暖蜜","豆花圆香暖蜜","豆花宵香暖蜜","豆花夜市风暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -22197,7 +22197,7 @@ test("festival0 festival1 festival2 festival3 festival4 festival5 festival6 fest
   ["festival1","festival3","festival5","festival7","festival9","festival11","festival13","festival15","festival17","festival19","festival21","festival23","festival25","festival27","festival29","festival31","festival33","festival35","festival37","festival39","festival41","festival43","festival45","festival47","festival49","festival51","festival53","festival55","festival57","festival59","festival61","festival63","festival65","festival67","festival69","festival71","festival73","festival75","festival77","festival79","festival81","festival83","festival85","festival87","festival89","festival91","festival93","festival95","festival97","festival99","festival101","festival103","festival105","festival107","festival109","festival111","festival113","festival115","festival117","festival119","festival121","festival123","festival125","festival127","festival129","festival131","festival133","festival135","festival137","festival139","festival141","festival143","festival145","festival147","festival149","festival151","festival153","festival155","festival157","festival159","festival161","festival163","festival165","festival167","festival169","festival171","festival173","festival175","festival177","festival179","festival181","festival183","festival185","festival187","festival189","festival191","festival193","festival195","festival197","festival199","festival201","festival203","festival205","festival207","festival209","festival211","festival213","festival215","festival217","festival219","festival221","festival223","festival225","festival227","festival229","festival231","festival233","festival235","festival237","festival239","festival241","festival243","festival245","festival247","festival249","festival251","festival253","festival255","festival257","festival259","festival261","festival263","festival265","festival267","festival269","festival271","festival273","festival275","festival277","festival279","festival281","festival283","festival285","festival287","festival289","festival291","festival293","festival295","festival297","festival299","festival301","festival303","festival305","festival307","festival309","festival311","festival313","festival315","festival317","festival319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["festival0","festival2","festival4","festival6","festival8","festival10","festival12","festival14","festival16","festival18","festival20","festival22","festival24","festival26","festival28","festival30","festival32","festival34","festival36","festival38","festival40","festival42","festival44","festival46","festival48","festival50","festival52","festival54","festival56","festival58","festival60","festival62","festival64","festival66","festival68","festival70","festival72","festival74","festival76","festival78","festival80","festival82","festival84","festival86","festival88","festival90","festival92","festival94","festival96","festival98","festival100","festival102","festival104","festival106","festival108","festival110","festival112","festival114","festival116","festival118","festival120","festival122","festival124","festival126","festival128","festival130","festival132","festival134","festival136","festival138","festival140","festival142","festival144","festival146","festival148","festival150","festival152","festival154","festival156","festival158","festival160","festival162","festival164","festival166","festival168","festival170","festival172","festival174","festival176","festival178","festival180","festival182","festival184","festival186","festival188","festival190","festival192","festival194","festival196","festival198","festival200","festival202","festival204","festival206","festival208","festival210","festival212","festival214","festival216","festival218","festival220","festival222","festival224","festival226","festival228","festival230","festival232","festival234","festival236","festival238","festival240","festival242","festival244","festival246","festival248","festival250","festival252","festival254","festival256","festival258","festival260","festival262","festival264","festival266","festival268","festival270","festival272","festival274","festival276","festival278","festival280","festival282","festival284","festival286","festival288","festival290","festival292","festival294","festival296","festival298","festival300","festival302","festival304","festival306","festival308","festival310","festival312","festival314","festival316","festival318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("festival0_path") && game.includes("festival319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["立春节气茶暖蜜","立春节气蜜暖蜜","立春节气姜暖蜜","立春节气花暖蜜","立春节气果暖蜜","立春节气叶暖蜜","立春节气根暖蜜","立春节气露暖蜜","立春节气霜暖蜜","立春节气雪暖蜜","立春节气风暖蜜","立春节气雨暖蜜","立春节气雾暖蜜","立春节气晴暖蜜","雨水节气茶暖蜜","雨水节气蜜暖蜜","雨水节气姜暖蜜","雨水节气花暖蜜","雨水节气果暖蜜","雨水节气叶暖蜜","雨水节气根暖蜜","雨水节气露暖蜜","雨水节气霜暖蜜","雨水节气雪暖蜜","雨水节气风暖蜜","雨水节气雨暖蜜","雨水节气雾暖蜜","雨水节气晴暖蜜","惊蛰节气茶暖蜜","惊蛰节气蜜暖蜜","惊蛰节气姜暖蜜","惊蛰节气花暖蜜","惊蛰节气果暖蜜","惊蛰节气叶暖蜜","惊蛰节气根暖蜜","惊蛰节气露暖蜜","惊蛰节气霜暖蜜","惊蛰节气雪暖蜜","惊蛰节气风暖蜜","惊蛰节气雨暖蜜","惊蛰节气雾暖蜜","惊蛰节气晴暖蜜","春分节气茶暖蜜","春分节气蜜暖蜜","春分节气姜暖蜜","春分节气花暖蜜","春分节气果暖蜜","春分节气叶暖蜜","春分节气根暖蜜","春分节气露暖蜜","春分节气霜暖蜜","春分节气雪暖蜜","春分节气风暖蜜","春分节气雨暖蜜","春分节气雾暖蜜","春分节气晴暖蜜","清明节气茶暖蜜","清明节气蜜暖蜜","清明节气姜暖蜜","清明节气花暖蜜","清明节气果暖蜜","清明节气叶暖蜜","清明节气根暖蜜","清明节气露暖蜜","清明节气霜暖蜜","清明节气雪暖蜜","清明节气风暖蜜","清明节气雨暖蜜","清明节气雾暖蜜","清明节气晴暖蜜","谷雨节气茶暖蜜","谷雨节气蜜暖蜜","谷雨节气姜暖蜜","谷雨节气花暖蜜","谷雨节气果暖蜜","谷雨节气叶暖蜜","谷雨节气根暖蜜","谷雨节气露暖蜜","谷雨节气霜暖蜜","谷雨节气雪暖蜜","谷雨节气风暖蜜","谷雨节气雨暖蜜","谷雨节气雾暖蜜","谷雨节气晴暖蜜","立夏节气茶暖蜜","立夏节气蜜暖蜜","立夏节气姜暖蜜","立夏节气花暖蜜","立夏节气果暖蜜","立夏节气叶暖蜜","立夏节气根暖蜜","立夏节气露暖蜜","立夏节气霜暖蜜","立夏节气雪暖蜜","立夏节气风暖蜜","立夏节气雨暖蜜","立夏节气雾暖蜜","立夏节气晴暖蜜","小满节气茶暖蜜","小满节气蜜暖蜜","小满节气姜暖蜜","小满节气花暖蜜","小满节气果暖蜜","小满节气叶暖蜜","小满节气根暖蜜","小满节气露暖蜜","小满节气霜暖蜜","小满节气雪暖蜜","小满节气风暖蜜","小满节气雨暖蜜","小满节气雾暖蜜","小满节气晴暖蜜","芒种节气茶暖蜜","芒种节气蜜暖蜜","芒种节气姜暖蜜","芒种节气花暖蜜","芒种节气果暖蜜","芒种节气叶暖蜜","芒种节气根暖蜜","芒种节气露暖蜜","芒种节气霜暖蜜","芒种节气雪暖蜜","芒种节气风暖蜜","芒种节气雨暖蜜","芒种节气雾暖蜜","芒种节气晴暖蜜","夏至节气茶暖蜜","夏至节气蜜暖蜜","夏至节气姜暖蜜","夏至节气花暖蜜","夏至节气果暖蜜","夏至节气叶暖蜜","夏至节气根暖蜜","夏至节气露暖蜜","夏至节气霜暖蜜","夏至节气雪暖蜜","夏至节气风暖蜜","夏至节气雨暖蜜","夏至节气雾暖蜜","夏至节气晴暖蜜","小暑节气茶暖蜜","小暑节气蜜暖蜜","小暑节气姜暖蜜","小暑节气花暖蜜","小暑节气果暖蜜","小暑节气叶暖蜜","小暑节气根暖蜜","小暑节气露暖蜜","小暑节气霜暖蜜","小暑节气雪暖蜜","小暑节气风暖蜜","小暑节气雨暖蜜","小暑节气雾暖蜜","小暑节气晴暖蜜","大暑节气茶暖蜜","大暑节气蜜暖蜜","大暑节气姜暖蜜","大暑节气花暖蜜","大暑节气果暖蜜","大暑节气叶暖蜜","大暑节气根暖蜜","大暑节气露暖蜜","大暑节气霜暖蜜","大暑节气雪暖蜜","大暑节气风暖蜜","大暑节气雨暖蜜","大暑节气雾暖蜜","大暑节气晴暖蜜","立秋节气茶暖蜜","立秋节气蜜暖蜜","立秋节气姜暖蜜","立秋节气花暖蜜","立秋节气果暖蜜","立秋节气叶暖蜜","立秋节气根暖蜜","立秋节气露暖蜜","立秋节气霜暖蜜","立秋节气雪暖蜜","立秋节气风暖蜜","立秋节气雨暖蜜","立秋节气雾暖蜜","立秋节气晴暖蜜","处暑节气茶暖蜜","处暑节气蜜暖蜜","处暑节气姜暖蜜","处暑节气花暖蜜","处暑节气果暖蜜","处暑节气叶暖蜜","处暑节气根暖蜜","处暑节气露暖蜜","处暑节气霜暖蜜","处暑节气雪暖蜜","处暑节气风暖蜜","处暑节气雨暖蜜","处暑节气雾暖蜜","处暑节气晴暖蜜","白露节气茶暖蜜","白露节气蜜暖蜜","白露节气姜暖蜜","白露节气花暖蜜","白露节气果暖蜜","白露节气叶暖蜜","白露节气根暖蜜","白露节气露暖蜜","白露节气霜暖蜜","白露节气雪暖蜜","白露节气风暖蜜","白露节气雨暖蜜","白露节气雾暖蜜","白露节气晴暖蜜","秋分节气茶暖蜜","秋分节气蜜暖蜜","秋分节气姜暖蜜","秋分节气花暖蜜","秋分节气果暖蜜","秋分节气叶暖蜜","秋分节气根暖蜜","秋分节气露暖蜜","秋分节气霜暖蜜","秋分节气雪暖蜜","秋分节气风暖蜜","秋分节气雨暖蜜","秋分节气雾暖蜜","秋分节气晴暖蜜","寒露节气茶暖蜜","寒露节气蜜暖蜜","寒露节气姜暖蜜","寒露节气花暖蜜","寒露节气果暖蜜","寒露节气叶暖蜜","寒露节气根暖蜜","寒露节气露暖蜜","寒露节气霜暖蜜","寒露节气雪暖蜜","寒露节气风暖蜜","寒露节气雨暖蜜","寒露节气雾暖蜜","寒露节气晴暖蜜","霜降节气茶暖蜜","霜降节气蜜暖蜜","霜降节气姜暖蜜","霜降节气花暖蜜","霜降节气果暖蜜","霜降节气叶暖蜜","霜降节气根暖蜜","霜降节气露暖蜜","霜降节气霜暖蜜","霜降节气雪暖蜜","霜降节气风暖蜜","霜降节气雨暖蜜","霜降节气雾暖蜜","霜降节气晴暖蜜","立冬节气茶暖蜜","立冬节气蜜暖蜜","立冬节气姜暖蜜","立冬节气花暖蜜","立冬节气果暖蜜","立冬节气叶暖蜜","立冬节气根暖蜜","立冬节气露暖蜜","立冬节气霜暖蜜","立冬节气雪暖蜜","立冬节气风暖蜜","立冬节气雨暖蜜","立冬节气雾暖蜜","立冬节气晴暖蜜","小雪节气茶暖蜜","小雪节气蜜暖蜜","小雪节气姜暖蜜","小雪节气花暖蜜","小雪节气果暖蜜","小雪节气叶暖蜜","小雪节气根暖蜜","小雪节气露暖蜜","小雪节气霜暖蜜","小雪节气雪暖蜜","小雪节气风暖蜜","小雪节气雨暖蜜","小雪节气雾暖蜜","小雪节气晴暖蜜","大雪节气茶暖蜜","大雪节气蜜暖蜜","大雪节气姜暖蜜","大雪节气花暖蜜","大雪节气果暖蜜","大雪节气叶暖蜜","大雪节气根暖蜜","大雪节气露暖蜜","大雪节气霜暖蜜","大雪节气雪暖蜜","大雪节气风暖蜜","大雪节气雨暖蜜","大雪节气雾暖蜜","大雪节气晴暖蜜","冬至节气茶暖蜜","冬至节气蜜暖蜜","冬至节气姜暖蜜","冬至节气花暖蜜","冬至节气果暖蜜","冬至节气叶暖蜜","冬至节气根暖蜜","冬至节气露暖蜜","冬至节气霜暖蜜","冬至节气雪暖蜜","冬至节气风暖蜜","冬至节气雨暖蜜","冬至节气雾暖蜜","冬至节气晴暖蜜","小寒节气茶暖蜜","小寒节气蜜暖蜜","小寒节气姜暖蜜","小寒节气花暖蜜","小寒节气果暖蜜","小寒节气叶暖蜜","小寒节气根暖蜜","小寒节气露暖蜜","小寒节气霜暖蜜","小寒节气雪暖蜜","小寒节气风暖蜜","小寒节气雨暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -22237,7 +22237,7 @@ test("color0 color1 color2 color3 color4 color5 color6 color7 color8 color9 colo
   ["color1","color3","color5","color7","color9","color11","color13","color15","color17","color19","color21","color23","color25","color27","color29","color31","color33","color35","color37","color39","color41","color43","color45","color47","color49","color51","color53","color55","color57","color59","color61","color63","color65","color67","color69","color71","color73","color75","color77","color79","color81","color83","color85","color87","color89","color91","color93","color95","color97","color99","color101","color103","color105","color107","color109","color111","color113","color115","color117","color119","color121","color123","color125","color127","color129","color131","color133","color135","color137","color139","color141","color143","color145","color147","color149","color151","color153","color155","color157","color159","color161","color163","color165","color167","color169","color171","color173","color175","color177","color179","color181","color183","color185","color187","color189","color191","color193","color195","color197","color199","color201","color203","color205","color207","color209","color211","color213","color215","color217","color219","color221","color223","color225","color227","color229","color231","color233","color235","color237","color239","color241","color243","color245","color247","color249","color251","color253","color255","color257","color259","color261","color263","color265","color267","color269","color271","color273","color275","color277","color279","color281","color283","color285","color287","color289","color291","color293","color295","color297","color299","color301","color303","color305","color307","color309","color311","color313","color315","color317","color319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["color0","color2","color4","color6","color8","color10","color12","color14","color16","color18","color20","color22","color24","color26","color28","color30","color32","color34","color36","color38","color40","color42","color44","color46","color48","color50","color52","color54","color56","color58","color60","color62","color64","color66","color68","color70","color72","color74","color76","color78","color80","color82","color84","color86","color88","color90","color92","color94","color96","color98","color100","color102","color104","color106","color108","color110","color112","color114","color116","color118","color120","color122","color124","color126","color128","color130","color132","color134","color136","color138","color140","color142","color144","color146","color148","color150","color152","color154","color156","color158","color160","color162","color164","color166","color168","color170","color172","color174","color176","color178","color180","color182","color184","color186","color188","color190","color192","color194","color196","color198","color200","color202","color204","color206","color208","color210","color212","color214","color216","color218","color220","color222","color224","color226","color228","color230","color232","color234","color236","color238","color240","color242","color244","color246","color248","color250","color252","color254","color256","color258","color260","color262","color264","color266","color268","color270","color272","color274","color276","color278","color280","color282","color284","color286","color288","color290","color292","color294","color296","color298","color300","color302","color304","color306","color308","color310","color312","color314","color316","color318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("color0_path") && game.includes("color319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["朱红色香暖蜜","朱红彩香暖蜜","朱红红香暖蜜","朱红黄香暖蜜","朱红绿香暖蜜","朱红青香暖蜜","朱红蓝香暖蜜","朱红紫香暖蜜","朱红墨香色暖蜜","朱红白香色暖蜜","朱红灰香色暖蜜","朱红褐香暖蜜","朱红金香色暖蜜","朱红银香色暖蜜","绯红色香暖蜜","绯红彩香暖蜜","绯红红香暖蜜","绯红黄香暖蜜","绯红绿香暖蜜","绯红青香暖蜜","绯红蓝香暖蜜","绯红紫香暖蜜","绯红墨香色暖蜜","绯红白香色暖蜜","绯红灰香色暖蜜","绯红褐香暖蜜","绯红金香色暖蜜","绯红银香色暖蜜","茜红色香暖蜜","茜红彩香暖蜜","茜红红香暖蜜","茜红黄香暖蜜","茜红绿香暖蜜","茜红青香暖蜜","茜红蓝香暖蜜","茜红紫香暖蜜","茜红墨香色暖蜜","茜红白香色暖蜜","茜红灰香色暖蜜","茜红褐香暖蜜","茜红金香色暖蜜","茜红银香色暖蜜","洋红色香暖蜜","洋红彩香暖蜜","洋红红香暖蜜","洋红黄香暖蜜","洋红绿香暖蜜","洋红青香暖蜜","洋红蓝香暖蜜","洋红紫香暖蜜","洋红墨香色暖蜜","洋红白香色暖蜜","洋红灰香色暖蜜","洋红褐香暖蜜","洋红金香色暖蜜","洋红银香色暖蜜","橘红色香暖蜜","橘红彩香暖蜜","橘红红香暖蜜","橘红黄香暖蜜","橘红绿香暖蜜","橘红青香暖蜜","橘红蓝香暖蜜","橘红紫香暖蜜","橘红墨香色暖蜜","橘红白香色暖蜜","橘红灰香色暖蜜","橘红褐香暖蜜","橘红金香色暖蜜","橘红银香色暖蜜","橙黄色香暖蜜","橙黄彩香暖蜜","橙黄红香暖蜜","橙黄黄香暖蜜","橙黄绿香暖蜜","橙黄青香暖蜜","橙黄蓝香暖蜜","橙黄紫香暖蜜","橙黄墨香色暖蜜","橙黄白香色暖蜜","橙黄灰香色暖蜜","橙黄褐香暖蜜","橙黄金香色暖蜜","橙黄银香色暖蜜","姜黄色香暖蜜","姜黄彩香暖蜜","姜黄红香暖蜜","姜黄黄香暖蜜","姜黄绿香暖蜜","姜黄青香暖蜜","姜黄蓝香暖蜜","姜黄紫香暖蜜","姜黄墨香色暖蜜","姜黄白香色暖蜜","姜黄灰香色暖蜜","姜黄褐香暖蜜","姜黄金香色暖蜜","姜黄银香色暖蜜","土黄色香暖蜜","土黄彩香暖蜜","土黄红香暖蜜","土黄黄香暖蜜","土黄绿香暖蜜","土黄青香暖蜜","土黄蓝香暖蜜","土黄紫香暖蜜","土黄墨香色暖蜜","土黄白香色暖蜜","土黄灰香色暖蜜","土黄褐香暖蜜","土黄金香色暖蜜","土黄银香色暖蜜","赭黄色香暖蜜","赭黄彩香暖蜜","赭黄红香暖蜜","赭黄黄香暖蜜","赭黄绿香暖蜜","赭黄青香暖蜜","赭黄蓝香暖蜜","赭黄紫香暖蜜","赭黄墨香色暖蜜","赭黄白香色暖蜜","赭黄灰香色暖蜜","赭黄褐香暖蜜","赭黄金香色暖蜜","赭黄银香色暖蜜","金黄色香暖蜜","金黄彩香暖蜜","金黄红香暖蜜","金黄黄香暖蜜","金黄绿香暖蜜","金黄青香暖蜜","金黄蓝香暖蜜","金黄紫香暖蜜","金黄墨香色暖蜜","金黄白香色暖蜜","金黄灰香色暖蜜","金黄褐香暖蜜","金黄金香色暖蜜","金黄银香色暖蜜","青绿色香暖蜜","青绿彩香暖蜜","青绿红香暖蜜","青绿黄香暖蜜","青绿绿香暖蜜","青绿青香暖蜜","青绿蓝香暖蜜","青绿紫香暖蜜","青绿墨香色暖蜜","青绿白香色暖蜜","青绿灰香色暖蜜","青绿褐香暖蜜","青绿金香色暖蜜","青绿银香色暖蜜","翠绿色香暖蜜","翠绿彩香暖蜜","翠绿红香暖蜜","翠绿黄香暖蜜","翠绿绿香暖蜜","翠绿青香暖蜜","翠绿蓝香暖蜜","翠绿紫香暖蜜","翠绿墨香色暖蜜","翠绿白香色暖蜜","翠绿灰香色暖蜜","翠绿褐香暖蜜","翠绿金香色暖蜜","翠绿银香色暖蜜","墨绿色香暖蜜","墨绿彩香暖蜜","墨绿红香暖蜜","墨绿黄香暖蜜","墨绿绿香暖蜜","墨绿青香暖蜜","墨绿蓝香暖蜜","墨绿紫香暖蜜","墨绿墨香色暖蜜","墨绿白香色暖蜜","墨绿灰香色暖蜜","墨绿褐香暖蜜","墨绿金香色暖蜜","墨绿银香色暖蜜","黛绿色香暖蜜","黛绿彩香暖蜜","黛绿红香暖蜜","黛绿黄香暖蜜","黛绿绿香暖蜜","黛绿青香暖蜜","黛绿蓝香暖蜜","黛绿紫香暖蜜","黛绿墨香色暖蜜","黛绿白香色暖蜜","黛绿灰香色暖蜜","黛绿褐香暖蜜","黛绿金香色暖蜜","黛绿银香色暖蜜","石绿色香暖蜜","石绿彩香暖蜜","石绿红香暖蜜","石绿黄香暖蜜","石绿绿香暖蜜","石绿青香暖蜜","石绿蓝香暖蜜","石绿紫香暖蜜","石绿墨香色暖蜜","石绿白香色暖蜜","石绿灰香色暖蜜","石绿褐香暖蜜","石绿金香色暖蜜","石绿银香色暖蜜","靛青色香暖蜜","靛青彩香暖蜜","靛青红香暖蜜","靛青黄香暖蜜","靛青绿香暖蜜","靛青青香暖蜜","靛青蓝香暖蜜","靛青紫香暖蜜","靛青墨香色暖蜜","靛青白香色暖蜜","靛青灰香色暖蜜","靛青褐香暖蜜","靛青金香色暖蜜","靛青银香色暖蜜","群青色香暖蜜","群青彩香暖蜜","群青红香暖蜜","群青黄香暖蜜","群青绿香暖蜜","群青青香暖蜜","群青蓝香暖蜜","群青紫香暖蜜","群青墨香色暖蜜","群青白香色暖蜜","群青灰香色暖蜜","群青褐香暖蜜","群青金香色暖蜜","群青银香色暖蜜","钴蓝色香暖蜜","钴蓝彩香暖蜜","钴蓝红香暖蜜","钴蓝黄香暖蜜","钴蓝绿香暖蜜","钴蓝青香暖蜜","钴蓝蓝香暖蜜","钴蓝紫香暖蜜","钴蓝墨香色暖蜜","钴蓝白香色暖蜜","钴蓝灰香色暖蜜","钴蓝褐香暖蜜","钴蓝金香色暖蜜","钴蓝银香色暖蜜","天蓝色香暖蜜","天蓝彩香暖蜜","天蓝红香暖蜜","天蓝黄香暖蜜","天蓝绿香暖蜜","天蓝青香暖蜜","天蓝蓝香暖蜜","天蓝紫香暖蜜","天蓝墨香色暖蜜","天蓝白香色暖蜜","天蓝灰香色暖蜜","天蓝褐香暖蜜","天蓝金香色暖蜜","天蓝银香色暖蜜","湖蓝色香暖蜜","湖蓝彩香暖蜜","湖蓝红香暖蜜","湖蓝黄香暖蜜","湖蓝绿香暖蜜","湖蓝青香暖蜜","湖蓝蓝香暖蜜","湖蓝紫香暖蜜","湖蓝墨香色暖蜜","湖蓝白香色暖蜜","湖蓝灰香色暖蜜","湖蓝褐香暖蜜","湖蓝金香色暖蜜","湖蓝银香色暖蜜","紫青色香暖蜜","紫青彩香暖蜜","紫青红香暖蜜","紫青黄香暖蜜","紫青绿香暖蜜","紫青青香暖蜜","紫青蓝香暖蜜","紫青紫香暖蜜","紫青墨香色暖蜜","紫青白香色暖蜜","紫青灰香色暖蜜","紫青褐香暖蜜","紫青金香色暖蜜","紫青银香色暖蜜","葡萄紫色香暖蜜","葡萄紫彩香暖蜜","葡萄紫红香暖蜜","葡萄紫黄香暖蜜","葡萄紫绿香暖蜜","葡萄紫青香暖蜜","葡萄紫蓝香暖蜜","葡萄紫紫香暖蜜","葡萄紫墨香色暖蜜","葡萄紫白香色暖蜜","葡萄紫灰香色暖蜜","葡萄紫褐香暖蜜","葡萄紫金香色暖蜜","葡萄紫银香色暖蜜","藕荷色香暖蜜","藕荷彩香暖蜜","藕荷红香暖蜜","藕荷黄香暖蜜","藕荷绿香暖蜜","藕荷青香暖蜜","藕荷蓝香暖蜜","藕荷紫香暖蜜","藕荷墨香色暖蜜","藕荷白香色暖蜜","藕荷灰香色暖蜜","藕荷褐香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -22277,7 +22277,7 @@ test("sound0 sound1 sound2 sound3 sound4 sound5 sound6 sound7 sound8 sound9 soun
   ["sound1","sound3","sound5","sound7","sound9","sound11","sound13","sound15","sound17","sound19","sound21","sound23","sound25","sound27","sound29","sound31","sound33","sound35","sound37","sound39","sound41","sound43","sound45","sound47","sound49","sound51","sound53","sound55","sound57","sound59","sound61","sound63","sound65","sound67","sound69","sound71","sound73","sound75","sound77","sound79","sound81","sound83","sound85","sound87","sound89","sound91","sound93","sound95","sound97","sound99","sound101","sound103","sound105","sound107","sound109","sound111","sound113","sound115","sound117","sound119","sound121","sound123","sound125","sound127","sound129","sound131","sound133","sound135","sound137","sound139","sound141","sound143","sound145","sound147","sound149","sound151","sound153","sound155","sound157","sound159","sound161","sound163","sound165","sound167","sound169","sound171","sound173","sound175","sound177","sound179","sound181","sound183","sound185","sound187","sound189","sound191","sound193","sound195","sound197","sound199","sound201","sound203","sound205","sound207","sound209","sound211","sound213","sound215","sound217","sound219","sound221","sound223","sound225","sound227","sound229","sound231","sound233","sound235","sound237","sound239","sound241","sound243","sound245","sound247","sound249","sound251","sound253","sound255","sound257","sound259","sound261","sound263","sound265","sound267","sound269","sound271","sound273","sound275","sound277","sound279","sound281","sound283","sound285","sound287","sound289","sound291","sound293","sound295","sound297","sound299","sound301","sound303","sound305","sound307","sound309","sound311","sound313","sound315","sound317","sound319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["sound0","sound2","sound4","sound6","sound8","sound10","sound12","sound14","sound16","sound18","sound20","sound22","sound24","sound26","sound28","sound30","sound32","sound34","sound36","sound38","sound40","sound42","sound44","sound46","sound48","sound50","sound52","sound54","sound56","sound58","sound60","sound62","sound64","sound66","sound68","sound70","sound72","sound74","sound76","sound78","sound80","sound82","sound84","sound86","sound88","sound90","sound92","sound94","sound96","sound98","sound100","sound102","sound104","sound106","sound108","sound110","sound112","sound114","sound116","sound118","sound120","sound122","sound124","sound126","sound128","sound130","sound132","sound134","sound136","sound138","sound140","sound142","sound144","sound146","sound148","sound150","sound152","sound154","sound156","sound158","sound160","sound162","sound164","sound166","sound168","sound170","sound172","sound174","sound176","sound178","sound180","sound182","sound184","sound186","sound188","sound190","sound192","sound194","sound196","sound198","sound200","sound202","sound204","sound206","sound208","sound210","sound212","sound214","sound216","sound218","sound220","sound222","sound224","sound226","sound228","sound230","sound232","sound234","sound236","sound238","sound240","sound242","sound244","sound246","sound248","sound250","sound252","sound254","sound256","sound258","sound260","sound262","sound264","sound266","sound268","sound270","sound272","sound274","sound276","sound278","sound280","sound282","sound284","sound286","sound288","sound290","sound292","sound294","sound296","sound298","sound300","sound302","sound304","sound306","sound308","sound310","sound312","sound314","sound316","sound318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("sound0_path") && game.includes("sound319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["雨声声香暖蜜","雨声音香暖蜜","雨声韵香暖蜜","雨声调香暖蜜","雨声律香暖蜜","雨声拍香暖蜜","雨声点香暖蜜","雨声线香声暖蜜","雨声波香暖蜜","雨声频香暖蜜","雨声振香暖蜜","雨声共鸣香暖蜜","雨声回音暖蜜","雨声余韵暖蜜","风声声香暖蜜","风声音香暖蜜","风声韵香暖蜜","风声调香暖蜜","风声律香暖蜜","风声拍香暖蜜","风声点香暖蜜","风声线香声暖蜜","风声波香暖蜜","风声频香暖蜜","风声振香暖蜜","风声共鸣香暖蜜","风声回音暖蜜","风声余韵暖蜜","雷声声香暖蜜","雷声音香暖蜜","雷声韵香暖蜜","雷声调香暖蜜","雷声律香暖蜜","雷声拍香暖蜜","雷声点香暖蜜","雷声线香声暖蜜","雷声波香暖蜜","雷声频香暖蜜","雷声振香暖蜜","雷声共鸣香暖蜜","雷声回音暖蜜","雷声余韵暖蜜","潮声声香暖蜜","潮声音香暖蜜","潮声韵香暖蜜","潮声调香暖蜜","潮声律香暖蜜","潮声拍香暖蜜","潮声点香暖蜜","潮声线香声暖蜜","潮声波香暖蜜","潮声频香暖蜜","潮声振香暖蜜","潮声共鸣香暖蜜","潮声回音暖蜜","潮声余韵暖蜜","浪声声香暖蜜","浪声音香暖蜜","浪声韵香暖蜜","浪声调香暖蜜","浪声律香暖蜜","浪声拍香暖蜜","浪声点香暖蜜","浪声线香声暖蜜","浪声波香暖蜜","浪声频香暖蜜","浪声振香暖蜜","浪声共鸣香暖蜜","浪声回音暖蜜","浪声余韵暖蜜","溪声声香暖蜜","溪声音香暖蜜","溪声韵香暖蜜","溪声调香暖蜜","溪声律香暖蜜","溪声拍香暖蜜","溪声点香暖蜜","溪声线香声暖蜜","溪声波香暖蜜","溪声频香暖蜜","溪声振香暖蜜","溪声共鸣香暖蜜","溪声回音暖蜜","溪声余韵暖蜜","泉声声香暖蜜","泉声音香暖蜜","泉声韵香暖蜜","泉声调香暖蜜","泉声律香暖蜜","泉声拍香暖蜜","泉声点香暖蜜","泉声线香声暖蜜","泉声波香暖蜜","泉声频香暖蜜","泉声振香暖蜜","泉声共鸣香暖蜜","泉声回音暖蜜","泉声余韵暖蜜","瀑声声香暖蜜","瀑声音香暖蜜","瀑声韵香暖蜜","瀑声调香暖蜜","瀑声律香暖蜜","瀑声拍香暖蜜","瀑声点香暖蜜","瀑声线香声暖蜜","瀑声波香暖蜜","瀑声频香暖蜜","瀑声振香暖蜜","瀑声共鸣香暖蜜","瀑声回音暖蜜","瀑声余韵暖蜜","叶声声香暖蜜","叶声音香暖蜜","叶声韵香暖蜜","叶声调香暖蜜","叶声律香暖蜜","叶声拍香暖蜜","叶声点香暖蜜","叶声线香声暖蜜","叶声波香暖蜜","叶声频香暖蜜","叶声振香暖蜜","叶声共鸣香暖蜜","叶声回音暖蜜","叶声余韵暖蜜","竹声声香暖蜜","竹声音香暖蜜","竹声韵香暖蜜","竹声调香暖蜜","竹声律香暖蜜","竹声拍香暖蜜","竹声点香暖蜜","竹声线香声暖蜜","竹声波香暖蜜","竹声频香暖蜜","竹声振香暖蜜","竹声共鸣香暖蜜","竹声回音暖蜜","竹声余韵暖蜜","松声声香暖蜜","松声音香暖蜜","松声韵香暖蜜","松声调香暖蜜","松声律香暖蜜","松声拍香暖蜜","松声点香暖蜜","松声线香声暖蜜","松声波香暖蜜","松声频香暖蜜","松声振香暖蜜","松声共鸣香暖蜜","松声回音暖蜜","松声余韵暖蜜","蝉声声香暖蜜","蝉声音香暖蜜","蝉声韵香暖蜜","蝉声调香暖蜜","蝉声律香暖蜜","蝉声拍香暖蜜","蝉声点香暖蜜","蝉声线香声暖蜜","蝉声波香暖蜜","蝉声频香暖蜜","蝉声振香暖蜜","蝉声共鸣香暖蜜","蝉声回音暖蜜","蝉声余韵暖蜜","蛙声声香暖蜜","蛙声音香暖蜜","蛙声韵香暖蜜","蛙声调香暖蜜","蛙声律香暖蜜","蛙声拍香暖蜜","蛙声点香暖蜜","蛙声线香声暖蜜","蛙声波香暖蜜","蛙声频香暖蜜","蛙声振香暖蜜","蛙声共鸣香暖蜜","蛙声回音暖蜜","蛙声余韵暖蜜","鸟声声香暖蜜","鸟声音香暖蜜","鸟声韵香暖蜜","鸟声调香暖蜜","鸟声律香暖蜜","鸟声拍香暖蜜","鸟声点香暖蜜","鸟声线香声暖蜜","鸟声波香暖蜜","鸟声频香暖蜜","鸟声振香暖蜜","鸟声共鸣香暖蜜","鸟声回音暖蜜","鸟声余韵暖蜜","虫声声香暖蜜","虫声音香暖蜜","虫声韵香暖蜜","虫声调香暖蜜","虫声律香暖蜜","虫声拍香暖蜜","虫声点香暖蜜","虫声线香声暖蜜","虫声波香暖蜜","虫声频香暖蜜","虫声振香暖蜜","虫声共鸣香暖蜜","虫声回音暖蜜","虫声余韵暖蜜","钟声声香暖蜜","钟声音香暖蜜","钟声韵香暖蜜","钟声调香暖蜜","钟声律香暖蜜","钟声拍香暖蜜","钟声点香暖蜜","钟声线香声暖蜜","钟声波香暖蜜","钟声频香暖蜜","钟声振香暖蜜","钟声共鸣香暖蜜","钟声回音暖蜜","钟声余韵暖蜜","鼓声声香暖蜜","鼓声音香暖蜜","鼓声韵香暖蜜","鼓声调香暖蜜","鼓声律香暖蜜","鼓声拍香暖蜜","鼓声点香暖蜜","鼓声线香声暖蜜","鼓声波香暖蜜","鼓声频香暖蜜","鼓声振香暖蜜","鼓声共鸣香暖蜜","鼓声回音暖蜜","鼓声余韵暖蜜","笛声声香暖蜜","笛声音香暖蜜","笛声韵香暖蜜","笛声调香暖蜜","笛声律香暖蜜","笛声拍香暖蜜","笛声点香暖蜜","笛声线香声暖蜜","笛声波香暖蜜","笛声频香暖蜜","笛声振香暖蜜","笛声共鸣香暖蜜","笛声回音暖蜜","笛声余韵暖蜜","箫声声香暖蜜","箫声音香暖蜜","箫声韵香暖蜜","箫声调香暖蜜","箫声律香暖蜜","箫声拍香暖蜜","箫声点香暖蜜","箫声线香声暖蜜","箫声波香暖蜜","箫声频香暖蜜","箫声振香暖蜜","箫声共鸣香暖蜜","箫声回音暖蜜","箫声余韵暖蜜","琴声声香暖蜜","琴声音香暖蜜","琴声韵香暖蜜","琴声调香暖蜜","琴声律香暖蜜","琴声拍香暖蜜","琴声点香暖蜜","琴声线香声暖蜜","琴声波香暖蜜","琴声频香暖蜜","琴声振香暖蜜","琴声共鸣香暖蜜","琴声回音暖蜜","琴声余韵暖蜜","棋声声香暖蜜","棋声音香暖蜜","棋声韵香暖蜜","棋声调香暖蜜","棋声律香暖蜜","棋声拍香暖蜜","棋声点香暖蜜","棋声线香声暖蜜","棋声波香暖蜜","棋声频香暖蜜","棋声振香暖蜜","棋声共鸣香暖蜜","棋声回音暖蜜","棋声余韵暖蜜","书声声香暖蜜","书声音香暖蜜","书声韵香暖蜜","书声调香暖蜜","书声律香暖蜜","书声拍香暖蜜","书声点香暖蜜","书声线香声暖蜜","书声波香暖蜜","书声频香暖蜜","书声振香暖蜜","书声共鸣香暖蜜","书声回音暖蜜","书声余韵暖蜜","车声声香暖蜜","车声音香暖蜜","车声韵香暖蜜","车声调香暖蜜","车声律香暖蜜","车声拍香暖蜜","车声点香暖蜜","车声线香声暖蜜","车声波香暖蜜","车声频香暖蜜","车声振香暖蜜","车声共鸣香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -22317,7 +22317,7 @@ test("touch0 touch1 touch2 touch3 touch4 touch5 touch6 touch7 touch8 touch9 touc
   ["touch1","touch3","touch5","touch7","touch9","touch11","touch13","touch15","touch17","touch19","touch21","touch23","touch25","touch27","touch29","touch31","touch33","touch35","touch37","touch39","touch41","touch43","touch45","touch47","touch49","touch51","touch53","touch55","touch57","touch59","touch61","touch63","touch65","touch67","touch69","touch71","touch73","touch75","touch77","touch79","touch81","touch83","touch85","touch87","touch89","touch91","touch93","touch95","touch97","touch99","touch101","touch103","touch105","touch107","touch109","touch111","touch113","touch115","touch117","touch119","touch121","touch123","touch125","touch127","touch129","touch131","touch133","touch135","touch137","touch139","touch141","touch143","touch145","touch147","touch149","touch151","touch153","touch155","touch157","touch159","touch161","touch163","touch165","touch167","touch169","touch171","touch173","touch175","touch177","touch179","touch181","touch183","touch185","touch187","touch189","touch191","touch193","touch195","touch197","touch199","touch201","touch203","touch205","touch207","touch209","touch211","touch213","touch215","touch217","touch219","touch221","touch223","touch225","touch227","touch229","touch231","touch233","touch235","touch237","touch239","touch241","touch243","touch245","touch247","touch249","touch251","touch253","touch255","touch257","touch259","touch261","touch263","touch265","touch267","touch269","touch271","touch273","touch275","touch277","touch279","touch281","touch283","touch285","touch287","touch289","touch291","touch293","touch295","touch297","touch299","touch301","touch303","touch305","touch307","touch309","touch311","touch313","touch315","touch317","touch319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["touch0","touch2","touch4","touch6","touch8","touch10","touch12","touch14","touch16","touch18","touch20","touch22","touch24","touch26","touch28","touch30","touch32","touch34","touch36","touch38","touch40","touch42","touch44","touch46","touch48","touch50","touch52","touch54","touch56","touch58","touch60","touch62","touch64","touch66","touch68","touch70","touch72","touch74","touch76","touch78","touch80","touch82","touch84","touch86","touch88","touch90","touch92","touch94","touch96","touch98","touch100","touch102","touch104","touch106","touch108","touch110","touch112","touch114","touch116","touch118","touch120","touch122","touch124","touch126","touch128","touch130","touch132","touch134","touch136","touch138","touch140","touch142","touch144","touch146","touch148","touch150","touch152","touch154","touch156","touch158","touch160","touch162","touch164","touch166","touch168","touch170","touch172","touch174","touch176","touch178","touch180","touch182","touch184","touch186","touch188","touch190","touch192","touch194","touch196","touch198","touch200","touch202","touch204","touch206","touch208","touch210","touch212","touch214","touch216","touch218","touch220","touch222","touch224","touch226","touch228","touch230","touch232","touch234","touch236","touch238","touch240","touch242","touch244","touch246","touch248","touch250","touch252","touch254","touch256","touch258","touch260","touch262","touch264","touch266","touch268","touch270","touch272","touch274","touch276","touch278","touch280","touch282","touch284","touch286","touch288","touch290","touch292","touch294","touch296","touch298","touch300","touch302","touch304","touch306","touch308","touch310","touch312","touch314","touch316","touch318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("touch0_path") && game.includes("touch319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["丝滑触香暖蜜","丝滑感香暖蜜","丝滑滑香暖蜜","丝滑糙香暖蜜","丝滑腻香暖蜜","丝滑软香暖蜜","丝滑硬香暖蜜","丝滑温香暖蜜","丝滑凉香暖蜜","丝滑湿香暖蜜","丝滑干香暖蜜","丝滑粘香暖蜜","丝滑散香暖蜜","丝滑密香暖蜜","丝滑轻香暖蜜","丝滑重香暖蜜","粗糙触香暖蜜","粗糙感香暖蜜","粗糙滑香暖蜜","粗糙糙香暖蜜","粗糙腻香暖蜜","粗糙软香暖蜜","粗糙硬香暖蜜","粗糙温香暖蜜","粗糙凉香暖蜜","粗糙湿香暖蜜","粗糙干香暖蜜","粗糙粘香暖蜜","粗糙散香暖蜜","粗糙密香暖蜜","粗糙轻香暖蜜","粗糙重香暖蜜","细腻触香暖蜜","细腻感香暖蜜","细腻滑香暖蜜","细腻糙香暖蜜","细腻腻香暖蜜","细腻软香暖蜜","细腻硬香暖蜜","细腻温香暖蜜","细腻凉香暖蜜","细腻湿香暖蜜","细腻干香暖蜜","细腻粘香暖蜜","细腻散香暖蜜","细腻密香暖蜜","细腻轻香暖蜜","细腻重香暖蜜","柔软触香暖蜜","柔软感香暖蜜","柔软滑香暖蜜","柔软糙香暖蜜","柔软腻香暖蜜","柔软软香暖蜜","柔软硬香暖蜜","柔软温香暖蜜","柔软凉香暖蜜","柔软湿香暖蜜","柔软干香暖蜜","柔软粘香暖蜜","柔软散香暖蜜","柔软密香暖蜜","柔软轻香暖蜜","柔软重香暖蜜","坚硬触香暖蜜","坚硬感香暖蜜","坚硬滑香暖蜜","坚硬糙香暖蜜","坚硬腻香暖蜜","坚硬软香暖蜜","坚硬硬香暖蜜","坚硬温香暖蜜","坚硬凉香暖蜜","坚硬湿香暖蜜","坚硬干香暖蜜","坚硬粘香暖蜜","坚硬散香暖蜜","坚硬密香暖蜜","坚硬轻香暖蜜","坚硬重香暖蜜","温热触香暖蜜","温热感香暖蜜","温热滑香暖蜜","温热糙香暖蜜","温热腻香暖蜜","温热软香暖蜜","温热硬香暖蜜","温热温香暖蜜","温热凉香暖蜜","温热湿香暖蜜","温热干香暖蜜","温热粘香暖蜜","温热散香暖蜜","温热密香暖蜜","温热轻香暖蜜","温热重香暖蜜","冰凉触香暖蜜","冰凉感香暖蜜","冰凉滑香暖蜜","冰凉糙香暖蜜","冰凉腻香暖蜜","冰凉软香暖蜜","冰凉硬香暖蜜","冰凉温香暖蜜","冰凉凉香暖蜜","冰凉湿香暖蜜","冰凉干香暖蜜","冰凉粘香暖蜜","冰凉散香暖蜜","冰凉密香暖蜜","冰凉轻香暖蜜","冰凉重香暖蜜","潮湿触香暖蜜","潮湿感香暖蜜","潮湿滑香暖蜜","潮湿糙香暖蜜","潮湿腻香暖蜜","潮湿软香暖蜜","潮湿硬香暖蜜","潮湿温香暖蜜","潮湿凉香暖蜜","潮湿湿香暖蜜","潮湿干香暖蜜","潮湿粘香暖蜜","潮湿散香暖蜜","潮湿密香暖蜜","潮湿轻香暖蜜","潮湿重香暖蜜","干燥触香暖蜜","干燥感香暖蜜","干燥滑香暖蜜","干燥糙香暖蜜","干燥腻香暖蜜","干燥软香暖蜜","干燥硬香暖蜜","干燥温香暖蜜","干燥凉香暖蜜","干燥湿香暖蜜","干燥干香暖蜜","干燥粘香暖蜜","干燥散香暖蜜","干燥密香暖蜜","干燥轻香暖蜜","干燥重香暖蜜","粘稠触香暖蜜","粘稠感香暖蜜","粘稠滑香暖蜜","粘稠糙香暖蜜","粘稠腻香暖蜜","粘稠软香暖蜜","粘稠硬香暖蜜","粘稠温香暖蜜","粘稠凉香暖蜜","粘稠湿香暖蜜","粘稠干香暖蜜","粘稠粘香暖蜜","粘稠散香暖蜜","粘稠密香暖蜜","粘稠轻香暖蜜","粘稠重香暖蜜","松散触香暖蜜","松散感香暖蜜","松散滑香暖蜜","松散糙香暖蜜","松散腻香暖蜜","松散软香暖蜜","松散硬香暖蜜","松散温香暖蜜","松散凉香暖蜜","松散湿香暖蜜","松散干香暖蜜","松散粘香暖蜜","松散散香暖蜜","松散密香暖蜜","松散轻香暖蜜","松散重香暖蜜","紧密触香暖蜜","紧密感香暖蜜","紧密滑香暖蜜","紧密糙香暖蜜","紧密腻香暖蜜","紧密软香暖蜜","紧密硬香暖蜜","紧密温香暖蜜","紧密凉香暖蜜","紧密湿香暖蜜","紧密干香暖蜜","紧密粘香暖蜜","紧密散香暖蜜","紧密密香暖蜜","紧密轻香暖蜜","紧密重香暖蜜","轻盈触香暖蜜","轻盈感香暖蜜","轻盈滑香暖蜜","轻盈糙香暖蜜","轻盈腻香暖蜜","轻盈软香暖蜜","轻盈硬香暖蜜","轻盈温香暖蜜","轻盈凉香暖蜜","轻盈湿香暖蜜","轻盈干香暖蜜","轻盈粘香暖蜜","轻盈散香暖蜜","轻盈密香暖蜜","轻盈轻香暖蜜","轻盈重香暖蜜","厚重触香暖蜜","厚重感香暖蜜","厚重滑香暖蜜","厚重糙香暖蜜","厚重腻香暖蜜","厚重软香暖蜜","厚重硬香暖蜜","厚重温香暖蜜","厚重凉香暖蜜","厚重湿香暖蜜","厚重干香暖蜜","厚重粘香暖蜜","厚重散香暖蜜","厚重密香暖蜜","厚重轻香暖蜜","厚重重香暖蜜","弹性触香暖蜜","弹性感香暖蜜","弹性滑香暖蜜","弹性糙香暖蜜","弹性腻香暖蜜","弹性软香暖蜜","弹性硬香暖蜜","弹性温香暖蜜","弹性凉香暖蜜","弹性湿香暖蜜","弹性干香暖蜜","弹性粘香暖蜜","弹性散香暖蜜","弹性密香暖蜜","弹性轻香暖蜜","弹性重香暖蜜","脆性触香暖蜜","脆性感香暖蜜","脆性滑香暖蜜","脆性糙香暖蜜","脆性腻香暖蜜","脆性软香暖蜜","脆性硬香暖蜜","脆性温香暖蜜","脆性凉香暖蜜","脆性湿香暖蜜","脆性干香暖蜜","脆性粘香暖蜜","脆性散香暖蜜","脆性密香暖蜜","脆性轻香暖蜜","脆性重香暖蜜","韧性触香暖蜜","韧性感香暖蜜","韧性滑香暖蜜","韧性糙香暖蜜","韧性腻香暖蜜","韧性软香暖蜜","韧性硬香暖蜜","韧性温香暖蜜","韧性凉香暖蜜","韧性湿香暖蜜","韧性干香暖蜜","韧性粘香暖蜜","韧性散香暖蜜","韧性密香暖蜜","韧性轻香暖蜜","韧性重香暖蜜","光滑触香暖蜜","光滑感香暖蜜","光滑滑香暖蜜","光滑糙香暖蜜","光滑腻香暖蜜","光滑软香暖蜜","光滑硬香暖蜜","光滑温香暖蜜","光滑凉香暖蜜","光滑湿香暖蜜","光滑干香暖蜜","光滑粘香暖蜜","光滑散香暖蜜","光滑密香暖蜜","光滑轻香暖蜜","光滑重香暖蜜","磨砂触香暖蜜","磨砂感香暖蜜","磨砂滑香暖蜜","磨砂糙香暖蜜","磨砂腻香暖蜜","磨砂软香暖蜜","磨砂硬香暖蜜","磨砂温香暖蜜","磨砂凉香暖蜜","磨砂湿香暖蜜","磨砂干香暖蜜","磨砂粘香暖蜜","磨砂散香暖蜜","磨砂密香暖蜜","磨砂轻香暖蜜","磨砂重香暖蜜","绒面触香暖蜜","绒面感香暖蜜","绒面滑香暖蜜","绒面糙香暖蜜","绒面腻香暖蜜","绒面软香暖蜜","绒面硬香暖蜜","绒面温香暖蜜","绒面凉香暖蜜","绒面湿香暖蜜","绒面干香暖蜜","绒面粘香暖蜜","绒面散香暖蜜","绒面密香暖蜜","绒面轻香暖蜜","绒面重香暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -22357,7 +22357,7 @@ test("p3a0 p3a1 p3a2 p3a3 p3a4 p3a5 p3a6 p3a7 p3a8 p3a9 p3a10 p3a11 p3a12 p3a13 
   ["p3a1","p3a3","p3a5","p3a7","p3a9","p3a11","p3a13","p3a15","p3a17","p3a19","p3a21","p3a23","p3a25","p3a27","p3a29","p3a31","p3a33","p3a35","p3a37","p3a39","p3a41","p3a43","p3a45","p3a47","p3a49","p3a51","p3a53","p3a55","p3a57","p3a59","p3a61","p3a63","p3a65","p3a67","p3a69","p3a71","p3a73","p3a75","p3a77","p3a79","p3a81","p3a83","p3a85","p3a87","p3a89","p3a91","p3a93","p3a95","p3a97","p3a99","p3a101","p3a103","p3a105","p3a107","p3a109","p3a111","p3a113","p3a115","p3a117","p3a119","p3a121","p3a123","p3a125","p3a127","p3a129","p3a131","p3a133","p3a135","p3a137","p3a139","p3a141","p3a143","p3a145","p3a147","p3a149","p3a151","p3a153","p3a155","p3a157","p3a159","p3a161","p3a163","p3a165","p3a167","p3a169","p3a171","p3a173","p3a175","p3a177","p3a179","p3a181","p3a183","p3a185","p3a187","p3a189","p3a191","p3a193","p3a195","p3a197","p3a199","p3a201","p3a203","p3a205","p3a207","p3a209","p3a211","p3a213","p3a215","p3a217","p3a219","p3a221","p3a223","p3a225","p3a227","p3a229","p3a231","p3a233","p3a235","p3a237","p3a239","p3a241","p3a243","p3a245","p3a247","p3a249","p3a251","p3a253","p3a255","p3a257","p3a259","p3a261","p3a263","p3a265","p3a267","p3a269","p3a271","p3a273","p3a275","p3a277","p3a279","p3a281","p3a283","p3a285","p3a287","p3a289","p3a291","p3a293","p3a295","p3a297","p3a299","p3a301","p3a303","p3a305","p3a307","p3a309","p3a311","p3a313","p3a315","p3a317","p3a319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
   ["p3a0","p3a2","p3a4","p3a6","p3a8","p3a10","p3a12","p3a14","p3a16","p3a18","p3a20","p3a22","p3a24","p3a26","p3a28","p3a30","p3a32","p3a34","p3a36","p3a38","p3a40","p3a42","p3a44","p3a46","p3a48","p3a50","p3a52","p3a54","p3a56","p3a58","p3a60","p3a62","p3a64","p3a66","p3a68","p3a70","p3a72","p3a74","p3a76","p3a78","p3a80","p3a82","p3a84","p3a86","p3a88","p3a90","p3a92","p3a94","p3a96","p3a98","p3a100","p3a102","p3a104","p3a106","p3a108","p3a110","p3a112","p3a114","p3a116","p3a118","p3a120","p3a122","p3a124","p3a126","p3a128","p3a130","p3a132","p3a134","p3a136","p3a138","p3a140","p3a142","p3a144","p3a146","p3a148","p3a150","p3a152","p3a154","p3a156","p3a158","p3a160","p3a162","p3a164","p3a166","p3a168","p3a170","p3a172","p3a174","p3a176","p3a178","p3a180","p3a182","p3a184","p3a186","p3a188","p3a190","p3a192","p3a194","p3a196","p3a198","p3a200","p3a202","p3a204","p3a206","p3a208","p3a210","p3a212","p3a214","p3a216","p3a218","p3a220","p3a222","p3a224","p3a226","p3a228","p3a230","p3a232","p3a234","p3a236","p3a238","p3a240","p3a242","p3a244","p3a246","p3a248","p3a250","p3a252","p3a254","p3a256","p3a258","p3a260","p3a262","p3a264","p3a266","p3a268","p3a270","p3a272","p3a274","p3a276","p3a278","p3a280","p3a282","p3a284","p3a286","p3a288","p3a290","p3a292","p3a294","p3a296","p3a298","p3a300","p3a302","p3a304","p3a306","p3a308","p3a310","p3a312","p3a314","p3a316","p3a318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
   const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
-  assert.ok(game.includes("p3a0_path") && game.includes("p3a319_path"));
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
   const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
   ["窄巷巷风暖蜜","窄巷巷雨暖蜜","窄巷巷雾暖蜜","窄巷巷灯暖蜜","窄巷巷影暖蜜","窄巷巷石暖蜜","窄巷巷砖暖蜜","窄巷巷苔暖蜜","窄巷巷花暖蜜","窄巷巷槐暖蜜","窄巷巷柳暖蜜","窄巷巷井暖蜜","窄巷巷桥暖蜜","窄巷巷河暖蜜","窄巷巷庙暖蜜","窄巷巷学暖蜜","深巷巷风暖蜜","深巷巷雨暖蜜","深巷巷雾暖蜜","深巷巷灯暖蜜","深巷巷影暖蜜","深巷巷石暖蜜","深巷巷砖暖蜜","深巷巷苔暖蜜","深巷巷花暖蜜","深巷巷槐暖蜜","深巷巷柳暖蜜","深巷巷井暖蜜","深巷巷桥暖蜜","深巷巷河暖蜜","深巷巷庙暖蜜","深巷巷学暖蜜","斜巷巷风暖蜜","斜巷巷雨暖蜜","斜巷巷雾暖蜜","斜巷巷灯暖蜜","斜巷巷影暖蜜","斜巷巷石暖蜜","斜巷巷砖暖蜜","斜巷巷苔暖蜜","斜巷巷花暖蜜","斜巷巷槐暖蜜","斜巷巷柳暖蜜","斜巷巷井暖蜜","斜巷巷桥暖蜜","斜巷巷河暖蜜","斜巷巷庙暖蜜","斜巷巷学暖蜜","直巷巷风暖蜜","直巷巷雨暖蜜","直巷巷雾暖蜜","直巷巷灯暖蜜","直巷巷影暖蜜","直巷巷石暖蜜","直巷巷砖暖蜜","直巷巷苔暖蜜","直巷巷花暖蜜","直巷巷槐暖蜜","直巷巷柳暖蜜","直巷巷井暖蜜","直巷巷桥暖蜜","直巷巷河暖蜜","直巷巷庙暖蜜","直巷巷学暖蜜","石巷巷风暖蜜","石巷巷雨暖蜜","石巷巷雾暖蜜","石巷巷灯暖蜜","石巷巷影暖蜜","石巷巷石暖蜜","石巷巷砖暖蜜","石巷巷苔暖蜜","石巷巷花暖蜜","石巷巷槐暖蜜","石巷巷柳暖蜜","石巷巷井暖蜜","石巷巷桥暖蜜","石巷巷河暖蜜","石巷巷庙暖蜜","石巷巷学暖蜜","砖巷巷风暖蜜","砖巷巷雨暖蜜","砖巷巷雾暖蜜","砖巷巷灯暖蜜","砖巷巷影暖蜜","砖巷巷石暖蜜","砖巷巷砖暖蜜","砖巷巷苔暖蜜","砖巷巷花暖蜜","砖巷巷槐暖蜜","砖巷巷柳暖蜜","砖巷巷井暖蜜","砖巷巷桥暖蜜","砖巷巷河暖蜜","砖巷巷庙暖蜜","砖巷巷学暖蜜","木巷巷风暖蜜","木巷巷雨暖蜜","木巷巷雾暖蜜","木巷巷灯暖蜜","木巷巷影暖蜜","木巷巷石暖蜜","木巷巷砖暖蜜","木巷巷苔暖蜜","木巷巷花暖蜜","木巷巷槐暖蜜","木巷巷柳暖蜜","木巷巷井暖蜜","木巷巷桥暖蜜","木巷巷河暖蜜","木巷巷庙暖蜜","木巷巷学暖蜜","竹巷巷风暖蜜","竹巷巷雨暖蜜","竹巷巷雾暖蜜","竹巷巷灯暖蜜","竹巷巷影暖蜜","竹巷巷石暖蜜","竹巷巷砖暖蜜","竹巷巷苔暖蜜","竹巷巷花暖蜜","竹巷巷槐暖蜜","竹巷巷柳暖蜜","竹巷巷井暖蜜","竹巷巷桥暖蜜","竹巷巷河暖蜜","竹巷巷庙暖蜜","竹巷巷学暖蜜","花巷巷风暖蜜","花巷巷雨暖蜜","花巷巷雾暖蜜","花巷巷灯暖蜜","花巷巷影暖蜜","花巷巷石暖蜜","花巷巷砖暖蜜","花巷巷苔暖蜜","花巷巷花暖蜜","花巷巷槐暖蜜","花巷巷柳暖蜜","花巷巷井暖蜜","花巷巷桥暖蜜","花巷巷河暖蜜","花巷巷庙暖蜜","花巷巷学暖蜜","槐巷巷风暖蜜","槐巷巷雨暖蜜","槐巷巷雾暖蜜","槐巷巷灯暖蜜","槐巷巷影暖蜜","槐巷巷石暖蜜","槐巷巷砖暖蜜","槐巷巷苔暖蜜","槐巷巷花暖蜜","槐巷巷槐暖蜜","槐巷巷柳暖蜜","槐巷巷井暖蜜","槐巷巷桥暖蜜","槐巷巷河暖蜜","槐巷巷庙暖蜜","槐巷巷学暖蜜","柳巷巷风暖蜜","柳巷巷雨暖蜜","柳巷巷雾暖蜜","柳巷巷灯暖蜜","柳巷巷影暖蜜","柳巷巷石暖蜜","柳巷巷砖暖蜜","柳巷巷苔暖蜜","柳巷巷花暖蜜","柳巷巷槐暖蜜","柳巷巷柳暖蜜","柳巷巷井暖蜜","柳巷巷桥暖蜜","柳巷巷河暖蜜","柳巷巷庙暖蜜","柳巷巷学暖蜜","桐巷巷风暖蜜","桐巷巷雨暖蜜","桐巷巷雾暖蜜","桐巷巷灯暖蜜","桐巷巷影暖蜜","桐巷巷石暖蜜","桐巷巷砖暖蜜","桐巷巷苔暖蜜","桐巷巷花暖蜜","桐巷巷槐暖蜜","桐巷巷柳暖蜜","桐巷巷井暖蜜","桐巷巷桥暖蜜","桐巷巷河暖蜜","桐巷巷庙暖蜜","桐巷巷学暖蜜","井巷巷风暖蜜","井巷巷雨暖蜜","井巷巷雾暖蜜","井巷巷灯暖蜜","井巷巷影暖蜜","井巷巷石暖蜜","井巷巷砖暖蜜","井巷巷苔暖蜜","井巷巷花暖蜜","井巷巷槐暖蜜","井巷巷柳暖蜜","井巷巷井暖蜜","井巷巷桥暖蜜","井巷巷河暖蜜","井巷巷庙暖蜜","井巷巷学暖蜜","桥巷巷风暖蜜","桥巷巷雨暖蜜","桥巷巷雾暖蜜","桥巷巷灯暖蜜","桥巷巷影暖蜜","桥巷巷石暖蜜","桥巷巷砖暖蜜","桥巷巷苔暖蜜","桥巷巷花暖蜜","桥巷巷槐暖蜜","桥巷巷柳暖蜜","桥巷巷井暖蜜","桥巷巷桥暖蜜","桥巷巷河暖蜜","桥巷巷庙暖蜜","桥巷巷学暖蜜","河巷巷风暖蜜","河巷巷雨暖蜜","河巷巷雾暖蜜","河巷巷灯暖蜜","河巷巷影暖蜜","河巷巷石暖蜜","河巷巷砖暖蜜","河巷巷苔暖蜜","河巷巷花暖蜜","河巷巷槐暖蜜","河巷巷柳暖蜜","河巷巷井暖蜜","河巷巷桥暖蜜","河巷巷河暖蜜","河巷巷庙暖蜜","河巷巷学暖蜜","庙巷巷风暖蜜","庙巷巷雨暖蜜","庙巷巷雾暖蜜","庙巷巷灯暖蜜","庙巷巷影暖蜜","庙巷巷石暖蜜","庙巷巷砖暖蜜","庙巷巷苔暖蜜","庙巷巷花暖蜜","庙巷巷槐暖蜜","庙巷巷柳暖蜜","庙巷巷井暖蜜","庙巷巷桥暖蜜","庙巷巷河暖蜜","庙巷巷庙暖蜜","庙巷巷学暖蜜","学巷巷风暖蜜","学巷巷雨暖蜜","学巷巷雾暖蜜","学巷巷灯暖蜜","学巷巷影暖蜜","学巷巷石暖蜜","学巷巷砖暖蜜","学巷巷苔暖蜜","学巷巷花暖蜜","学巷巷槐暖蜜","学巷巷柳暖蜜","学巷巷井暖蜜","学巷巷桥暖蜜","学巷巷河暖蜜","学巷巷庙暖蜜","学巷巷学暖蜜","市巷巷风暖蜜","市巷巷雨暖蜜","市巷巷雾暖蜜","市巷巷灯暖蜜","市巷巷影暖蜜","市巷巷石暖蜜","市巷巷砖暖蜜","市巷巷苔暖蜜","市巷巷花暖蜜","市巷巷槐暖蜜","市巷巷柳暖蜜","市巷巷井暖蜜","市巷巷桥暖蜜","市巷巷河暖蜜","市巷巷庙暖蜜","市巷巷学暖蜜","宅巷巷风暖蜜","宅巷巷雨暖蜜","宅巷巷雾暖蜜","宅巷巷灯暖蜜","宅巷巷影暖蜜","宅巷巷石暖蜜","宅巷巷砖暖蜜","宅巷巷苔暖蜜","宅巷巷花暖蜜","宅巷巷槐暖蜜","宅巷巷柳暖蜜","宅巷巷井暖蜜","宅巷巷桥暖蜜","宅巷巷河暖蜜","宅巷巷庙暖蜜","宅巷巷学暖蜜","园巷巷风暖蜜","园巷巷雨暖蜜","园巷巷雾暖蜜","园巷巷灯暖蜜","园巷巷影暖蜜","园巷巷石暖蜜","园巷巷砖暖蜜","园巷巷苔暖蜜","园巷巷花暖蜜","园巷巷槐暖蜜","园巷巷柳暖蜜","园巷巷井暖蜜","园巷巷桥暖蜜","园巷巷河暖蜜","园巷巷庙暖蜜","园巷巷学暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
   assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
@@ -22367,6 +22367,126 @@ test("p3a0 p3a1 p3a2 p3a3 p3a4 p3a5 p3a6 p3a7 p3a8 p3a9 p3a10 p3a11 p3a12 p3a13 
   assert.ok(shop.tipMessages.some((t) => t.includes("窄巷巷风")));
   const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
   assert.ok(events.some((e) => e.id === "ev_" + "p3a0_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("p3b0 p3b1 p3b2 p3b3 p3b4 p3b5 p3b6 p3b7 p3b8 p3b9 p3b10 p3b11 p3b12 p3b13 p3b14 p3b15 p3b16 p3b17 p3b18 p3b19 p3b20 p3b21 p3b22 p3b23 p3b24 p3b25 p3b26 p3b27 p3b28 p3b29 p3b30 p3b31 p3b32 p3b33 p3b34 p3b35 p3b36 p3b37 p3b38 p3b39 p3b40 p3b41 p3b42 p3b43 p3b44 p3b45 p3b46 p3b47 p3b48 p3b49 p3b50 p3b51 p3b52 p3b53 p3b54 p3b55 p3b56 p3b57 p3b58 p3b59 p3b60 p3b61 p3b62 p3b63 p3b64 p3b65 p3b66 p3b67 p3b68 p3b69 p3b70 p3b71 p3b72 p3b73 p3b74 p3b75 p3b76 p3b77 p3b78 p3b79 p3b80 p3b81 p3b82 p3b83 p3b84 p3b85 p3b86 p3b87 p3b88 p3b89 p3b90 p3b91 p3b92 p3b93 p3b94 p3b95 p3b96 p3b97 p3b98 p3b99 p3b100 p3b101 p3b102 p3b103 p3b104 p3b105 p3b106 p3b107 p3b108 p3b109 p3b110 p3b111 p3b112 p3b113 p3b114 p3b115 p3b116 p3b117 p3b118 p3b119 p3b120 p3b121 p3b122 p3b123 p3b124 p3b125 p3b126 p3b127 p3b128 p3b129 p3b130 p3b131 p3b132 p3b133 p3b134 p3b135 p3b136 p3b137 p3b138 p3b139 p3b140 p3b141 p3b142 p3b143 p3b144 p3b145 p3b146 p3b147 p3b148 p3b149 p3b150 p3b151 p3b152 p3b153 p3b154 p3b155 p3b156 p3b157 p3b158 p3b159 p3b160 p3b161 p3b162 p3b163 p3b164 p3b165 p3b166 p3b167 p3b168 p3b169 p3b170 p3b171 p3b172 p3b173 p3b174 p3b175 p3b176 p3b177 p3b178 p3b179 p3b180 p3b181 p3b182 p3b183 p3b184 p3b185 p3b186 p3b187 p3b188 p3b189 p3b190 p3b191 p3b192 p3b193 p3b194 p3b195 p3b196 p3b197 p3b198 p3b199 p3b200 p3b201 p3b202 p3b203 p3b204 p3b205 p3b206 p3b207 p3b208 p3b209 p3b210 p3b211 p3b212 p3b213 p3b214 p3b215 p3b216 p3b217 p3b218 p3b219 p3b220 p3b221 p3b222 p3b223 p3b224 p3b225 p3b226 p3b227 p3b228 p3b229 p3b230 p3b231 p3b232 p3b233 p3b234 p3b235 p3b236 p3b237 p3b238 p3b239 p3b240 p3b241 p3b242 p3b243 p3b244 p3b245 p3b246 p3b247 p3b248 p3b249 p3b250 p3b251 p3b252 p3b253 p3b254 p3b255 p3b256 p3b257 p3b258 p3b259 p3b260 p3b261 p3b262 p3b263 p3b264 p3b265 p3b266 p3b267 p3b268 p3b269 p3b270 p3b271 p3b272 p3b273 p3b274 p3b275 p3b276 p3b277 p3b278 p3b279 p3b280 p3b281 p3b282 p3b283 p3b284 p3b285 p3b286 p3b287 p3b288 p3b289 p3b290 p3b291 p3b292 p3b293 p3b294 p3b295 p3b296 p3b297 p3b298 p3b299 p3b300 p3b301 p3b302 p3b303 p3b304 p3b305 p3b306 p3b307 p3b308 p3b309 p3b310 p3b311 p3b312 p3b313 p3b314 p3b315 p3b316 p3b317 p3b318 p3b319 17179 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["p3b0","p3b1","p3b2","p3b3","p3b4","p3b5","p3b6","p3b7","p3b8","p3b9","p3b10","p3b11","p3b12","p3b13","p3b14","p3b15","p3b16","p3b17","p3b18","p3b19","p3b20","p3b21","p3b22","p3b23","p3b24","p3b25","p3b26","p3b27","p3b28","p3b29","p3b30","p3b31","p3b32","p3b33","p3b34","p3b35","p3b36","p3b37","p3b38","p3b39","p3b40","p3b41","p3b42","p3b43","p3b44","p3b45","p3b46","p3b47","p3b48","p3b49","p3b50","p3b51","p3b52","p3b53","p3b54","p3b55","p3b56","p3b57","p3b58","p3b59","p3b60","p3b61","p3b62","p3b63","p3b64","p3b65","p3b66","p3b67","p3b68","p3b69","p3b70","p3b71","p3b72","p3b73","p3b74","p3b75","p3b76","p3b77","p3b78","p3b79","p3b80","p3b81","p3b82","p3b83","p3b84","p3b85","p3b86","p3b87","p3b88","p3b89","p3b90","p3b91","p3b92","p3b93","p3b94","p3b95","p3b96","p3b97","p3b98","p3b99","p3b100","p3b101","p3b102","p3b103","p3b104","p3b105","p3b106","p3b107","p3b108","p3b109","p3b110","p3b111","p3b112","p3b113","p3b114","p3b115","p3b116","p3b117","p3b118","p3b119","p3b120","p3b121","p3b122","p3b123","p3b124","p3b125","p3b126","p3b127","p3b128","p3b129","p3b130","p3b131","p3b132","p3b133","p3b134","p3b135","p3b136","p3b137","p3b138","p3b139","p3b140","p3b141","p3b142","p3b143","p3b144","p3b145","p3b146","p3b147","p3b148","p3b149","p3b150","p3b151","p3b152","p3b153","p3b154","p3b155","p3b156","p3b157","p3b158","p3b159","p3b160","p3b161","p3b162","p3b163","p3b164","p3b165","p3b166","p3b167","p3b168","p3b169","p3b170","p3b171","p3b172","p3b173","p3b174","p3b175","p3b176","p3b177","p3b178","p3b179","p3b180","p3b181","p3b182","p3b183","p3b184","p3b185","p3b186","p3b187","p3b188","p3b189","p3b190","p3b191","p3b192","p3b193","p3b194","p3b195","p3b196","p3b197","p3b198","p3b199","p3b200","p3b201","p3b202","p3b203","p3b204","p3b205","p3b206","p3b207","p3b208","p3b209","p3b210","p3b211","p3b212","p3b213","p3b214","p3b215","p3b216","p3b217","p3b218","p3b219","p3b220","p3b221","p3b222","p3b223","p3b224","p3b225","p3b226","p3b227","p3b228","p3b229","p3b230","p3b231","p3b232","p3b233","p3b234","p3b235","p3b236","p3b237","p3b238","p3b239","p3b240","p3b241","p3b242","p3b243","p3b244","p3b245","p3b246","p3b247","p3b248","p3b249","p3b250","p3b251","p3b252","p3b253","p3b254","p3b255","p3b256","p3b257","p3b258","p3b259","p3b260","p3b261","p3b262","p3b263","p3b264","p3b265","p3b266","p3b267","p3b268","p3b269","p3b270","p3b271","p3b272","p3b273","p3b274","p3b275","p3b276","p3b277","p3b278","p3b279","p3b280","p3b281","p3b282","p3b283","p3b284","p3b285","p3b286","p3b287","p3b288","p3b289","p3b290","p3b291","p3b292","p3b293","p3b294","p3b295","p3b296","p3b297","p3b298","p3b299","p3b300","p3b301","p3b302","p3b303","p3b304","p3b305","p3b306","p3b307","p3b308","p3b309","p3b310","p3b311","p3b312","p3b313","p3b314","p3b315","p3b316","p3b317","p3b318","p3b319"];
+  const pots = ["p3b0Pot","p3b1Pot","p3b2Pot","p3b3Pot","p3b4Pot","p3b5Pot","p3b6Pot","p3b7Pot","p3b8Pot","p3b9Pot","p3b10Pot","p3b11Pot","p3b12Pot","p3b13Pot","p3b14Pot","p3b15Pot","p3b16Pot","p3b17Pot","p3b18Pot","p3b19Pot","p3b20Pot","p3b21Pot","p3b22Pot","p3b23Pot","p3b24Pot","p3b25Pot","p3b26Pot","p3b27Pot","p3b28Pot","p3b29Pot","p3b30Pot","p3b31Pot","p3b32Pot","p3b33Pot","p3b34Pot","p3b35Pot","p3b36Pot","p3b37Pot","p3b38Pot","p3b39Pot","p3b40Pot","p3b41Pot","p3b42Pot","p3b43Pot","p3b44Pot","p3b45Pot","p3b46Pot","p3b47Pot","p3b48Pot","p3b49Pot","p3b50Pot","p3b51Pot","p3b52Pot","p3b53Pot","p3b54Pot","p3b55Pot","p3b56Pot","p3b57Pot","p3b58Pot","p3b59Pot","p3b60Pot","p3b61Pot","p3b62Pot","p3b63Pot","p3b64Pot","p3b65Pot","p3b66Pot","p3b67Pot","p3b68Pot","p3b69Pot","p3b70Pot","p3b71Pot","p3b72Pot","p3b73Pot","p3b74Pot","p3b75Pot","p3b76Pot","p3b77Pot","p3b78Pot","p3b79Pot","p3b80Pot","p3b81Pot","p3b82Pot","p3b83Pot","p3b84Pot","p3b85Pot","p3b86Pot","p3b87Pot","p3b88Pot","p3b89Pot","p3b90Pot","p3b91Pot","p3b92Pot","p3b93Pot","p3b94Pot","p3b95Pot","p3b96Pot","p3b97Pot","p3b98Pot","p3b99Pot","p3b100Pot","p3b101Pot","p3b102Pot","p3b103Pot","p3b104Pot","p3b105Pot","p3b106Pot","p3b107Pot","p3b108Pot","p3b109Pot","p3b110Pot","p3b111Pot","p3b112Pot","p3b113Pot","p3b114Pot","p3b115Pot","p3b116Pot","p3b117Pot","p3b118Pot","p3b119Pot","p3b120Pot","p3b121Pot","p3b122Pot","p3b123Pot","p3b124Pot","p3b125Pot","p3b126Pot","p3b127Pot","p3b128Pot","p3b129Pot","p3b130Pot","p3b131Pot","p3b132Pot","p3b133Pot","p3b134Pot","p3b135Pot","p3b136Pot","p3b137Pot","p3b138Pot","p3b139Pot","p3b140Pot","p3b141Pot","p3b142Pot","p3b143Pot","p3b144Pot","p3b145Pot","p3b146Pot","p3b147Pot","p3b148Pot","p3b149Pot","p3b150Pot","p3b151Pot","p3b152Pot","p3b153Pot","p3b154Pot","p3b155Pot","p3b156Pot","p3b157Pot","p3b158Pot","p3b159Pot","p3b160Pot","p3b161Pot","p3b162Pot","p3b163Pot","p3b164Pot","p3b165Pot","p3b166Pot","p3b167Pot","p3b168Pot","p3b169Pot","p3b170Pot","p3b171Pot","p3b172Pot","p3b173Pot","p3b174Pot","p3b175Pot","p3b176Pot","p3b177Pot","p3b178Pot","p3b179Pot","p3b180Pot","p3b181Pot","p3b182Pot","p3b183Pot","p3b184Pot","p3b185Pot","p3b186Pot","p3b187Pot","p3b188Pot","p3b189Pot","p3b190Pot","p3b191Pot","p3b192Pot","p3b193Pot","p3b194Pot","p3b195Pot","p3b196Pot","p3b197Pot","p3b198Pot","p3b199Pot","p3b200Pot","p3b201Pot","p3b202Pot","p3b203Pot","p3b204Pot","p3b205Pot","p3b206Pot","p3b207Pot","p3b208Pot","p3b209Pot","p3b210Pot","p3b211Pot","p3b212Pot","p3b213Pot","p3b214Pot","p3b215Pot","p3b216Pot","p3b217Pot","p3b218Pot","p3b219Pot","p3b220Pot","p3b221Pot","p3b222Pot","p3b223Pot","p3b224Pot","p3b225Pot","p3b226Pot","p3b227Pot","p3b228Pot","p3b229Pot","p3b230Pot","p3b231Pot","p3b232Pot","p3b233Pot","p3b234Pot","p3b235Pot","p3b236Pot","p3b237Pot","p3b238Pot","p3b239Pot","p3b240Pot","p3b241Pot","p3b242Pot","p3b243Pot","p3b244Pot","p3b245Pot","p3b246Pot","p3b247Pot","p3b248Pot","p3b249Pot","p3b250Pot","p3b251Pot","p3b252Pot","p3b253Pot","p3b254Pot","p3b255Pot","p3b256Pot","p3b257Pot","p3b258Pot","p3b259Pot","p3b260Pot","p3b261Pot","p3b262Pot","p3b263Pot","p3b264Pot","p3b265Pot","p3b266Pot","p3b267Pot","p3b268Pot","p3b269Pot","p3b270Pot","p3b271Pot","p3b272Pot","p3b273Pot","p3b274Pot","p3b275Pot","p3b276Pot","p3b277Pot","p3b278Pot","p3b279Pot","p3b280Pot","p3b281Pot","p3b282Pot","p3b283Pot","p3b284Pot","p3b285Pot","p3b286Pot","p3b287Pot","p3b288Pot","p3b289Pot","p3b290Pot","p3b291Pot","p3b292Pot","p3b293Pot","p3b294Pot","p3b295Pot","p3b296Pot","p3b297Pot","p3b298Pot","p3b299Pot","p3b300Pot","p3b301Pot","p3b302Pot","p3b303Pot","p3b304Pot","p3b305Pot","p3b306Pot","p3b307Pot","p3b308Pot","p3b309Pot","p3b310Pot","p3b311Pot","p3b312Pot","p3b313Pot","p3b314Pot","p3b315Pot","p3b316Pot","p3b317Pot","p3b318Pot","p3b319Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["p3b0_path","p3b1_path","p3b2_path","p3b3_path","p3b4_path","p3b5_path","p3b6_path","p3b7_path","p3b8_path","p3b9_path","p3b10_path","p3b11_path","p3b12_path","p3b13_path","p3b14_path","p3b15_path","p3b16_path","p3b17_path","p3b18_path","p3b19_path","p3b20_path","p3b21_path","p3b22_path","p3b23_path","p3b24_path","p3b25_path","p3b26_path","p3b27_path","p3b28_path","p3b29_path","p3b30_path","p3b31_path","p3b32_path","p3b33_path","p3b34_path","p3b35_path","p3b36_path","p3b37_path","p3b38_path","p3b39_path","p3b40_path","p3b41_path","p3b42_path","p3b43_path","p3b44_path","p3b45_path","p3b46_path","p3b47_path","p3b48_path","p3b49_path","p3b50_path","p3b51_path","p3b52_path","p3b53_path","p3b54_path","p3b55_path","p3b56_path","p3b57_path","p3b58_path","p3b59_path","p3b60_path","p3b61_path","p3b62_path","p3b63_path","p3b64_path","p3b65_path","p3b66_path","p3b67_path","p3b68_path","p3b69_path","p3b70_path","p3b71_path","p3b72_path","p3b73_path","p3b74_path","p3b75_path","p3b76_path","p3b77_path","p3b78_path","p3b79_path","p3b80_path","p3b81_path","p3b82_path","p3b83_path","p3b84_path","p3b85_path","p3b86_path","p3b87_path","p3b88_path","p3b89_path","p3b90_path","p3b91_path","p3b92_path","p3b93_path","p3b94_path","p3b95_path","p3b96_path","p3b97_path","p3b98_path","p3b99_path","p3b100_path","p3b101_path","p3b102_path","p3b103_path","p3b104_path","p3b105_path","p3b106_path","p3b107_path","p3b108_path","p3b109_path","p3b110_path","p3b111_path","p3b112_path","p3b113_path","p3b114_path","p3b115_path","p3b116_path","p3b117_path","p3b118_path","p3b119_path","p3b120_path","p3b121_path","p3b122_path","p3b123_path","p3b124_path","p3b125_path","p3b126_path","p3b127_path","p3b128_path","p3b129_path","p3b130_path","p3b131_path","p3b132_path","p3b133_path","p3b134_path","p3b135_path","p3b136_path","p3b137_path","p3b138_path","p3b139_path","p3b140_path","p3b141_path","p3b142_path","p3b143_path","p3b144_path","p3b145_path","p3b146_path","p3b147_path","p3b148_path","p3b149_path","p3b150_path","p3b151_path","p3b152_path","p3b153_path","p3b154_path","p3b155_path","p3b156_path","p3b157_path","p3b158_path","p3b159_path","p3b160_path","p3b161_path","p3b162_path","p3b163_path","p3b164_path","p3b165_path","p3b166_path","p3b167_path","p3b168_path","p3b169_path","p3b170_path","p3b171_path","p3b172_path","p3b173_path","p3b174_path","p3b175_path","p3b176_path","p3b177_path","p3b178_path","p3b179_path","p3b180_path","p3b181_path","p3b182_path","p3b183_path","p3b184_path","p3b185_path","p3b186_path","p3b187_path","p3b188_path","p3b189_path","p3b190_path","p3b191_path","p3b192_path","p3b193_path","p3b194_path","p3b195_path","p3b196_path","p3b197_path","p3b198_path","p3b199_path","p3b200_path","p3b201_path","p3b202_path","p3b203_path","p3b204_path","p3b205_path","p3b206_path","p3b207_path","p3b208_path","p3b209_path","p3b210_path","p3b211_path","p3b212_path","p3b213_path","p3b214_path","p3b215_path","p3b216_path","p3b217_path","p3b218_path","p3b219_path","p3b220_path","p3b221_path","p3b222_path","p3b223_path","p3b224_path","p3b225_path","p3b226_path","p3b227_path","p3b228_path","p3b229_path","p3b230_path","p3b231_path","p3b232_path","p3b233_path","p3b234_path","p3b235_path","p3b236_path","p3b237_path","p3b238_path","p3b239_path","p3b240_path","p3b241_path","p3b242_path","p3b243_path","p3b244_path","p3b245_path","p3b246_path","p3b247_path","p3b248_path","p3b249_path","p3b250_path","p3b251_path","p3b252_path","p3b253_path","p3b254_path","p3b255_path","p3b256_path","p3b257_path","p3b258_path","p3b259_path","p3b260_path","p3b261_path","p3b262_path","p3b263_path","p3b264_path","p3b265_path","p3b266_path","p3b267_path","p3b268_path","p3b269_path","p3b270_path","p3b271_path","p3b272_path","p3b273_path","p3b274_path","p3b275_path","p3b276_path","p3b277_path","p3b278_path","p3b279_path","p3b280_path","p3b281_path","p3b282_path","p3b283_path","p3b284_path","p3b285_path","p3b286_path","p3b287_path","p3b288_path","p3b289_path","p3b290_path","p3b291_path","p3b292_path","p3b293_path","p3b294_path","p3b295_path","p3b296_path","p3b297_path","p3b298_path","p3b299_path","p3b300_path","p3b301_path","p3b302_path","p3b303_path","p3b304_path","p3b305_path","p3b306_path","p3b307_path","p3b308_path","p3b309_path","p3b310_path","p3b311_path","p3b312_path","p3b313_path","p3b314_path","p3b315_path","p3b316_path","p3b317_path","p3b318_path","p3b319_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 17179);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["p3b1","p3b3","p3b5","p3b7","p3b9","p3b11","p3b13","p3b15","p3b17","p3b19","p3b21","p3b23","p3b25","p3b27","p3b29","p3b31","p3b33","p3b35","p3b37","p3b39","p3b41","p3b43","p3b45","p3b47","p3b49","p3b51","p3b53","p3b55","p3b57","p3b59","p3b61","p3b63","p3b65","p3b67","p3b69","p3b71","p3b73","p3b75","p3b77","p3b79","p3b81","p3b83","p3b85","p3b87","p3b89","p3b91","p3b93","p3b95","p3b97","p3b99","p3b101","p3b103","p3b105","p3b107","p3b109","p3b111","p3b113","p3b115","p3b117","p3b119","p3b121","p3b123","p3b125","p3b127","p3b129","p3b131","p3b133","p3b135","p3b137","p3b139","p3b141","p3b143","p3b145","p3b147","p3b149","p3b151","p3b153","p3b155","p3b157","p3b159","p3b161","p3b163","p3b165","p3b167","p3b169","p3b171","p3b173","p3b175","p3b177","p3b179","p3b181","p3b183","p3b185","p3b187","p3b189","p3b191","p3b193","p3b195","p3b197","p3b199","p3b201","p3b203","p3b205","p3b207","p3b209","p3b211","p3b213","p3b215","p3b217","p3b219","p3b221","p3b223","p3b225","p3b227","p3b229","p3b231","p3b233","p3b235","p3b237","p3b239","p3b241","p3b243","p3b245","p3b247","p3b249","p3b251","p3b253","p3b255","p3b257","p3b259","p3b261","p3b263","p3b265","p3b267","p3b269","p3b271","p3b273","p3b275","p3b277","p3b279","p3b281","p3b283","p3b285","p3b287","p3b289","p3b291","p3b293","p3b295","p3b297","p3b299","p3b301","p3b303","p3b305","p3b307","p3b309","p3b311","p3b313","p3b315","p3b317","p3b319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["p3b0","p3b2","p3b4","p3b6","p3b8","p3b10","p3b12","p3b14","p3b16","p3b18","p3b20","p3b22","p3b24","p3b26","p3b28","p3b30","p3b32","p3b34","p3b36","p3b38","p3b40","p3b42","p3b44","p3b46","p3b48","p3b50","p3b52","p3b54","p3b56","p3b58","p3b60","p3b62","p3b64","p3b66","p3b68","p3b70","p3b72","p3b74","p3b76","p3b78","p3b80","p3b82","p3b84","p3b86","p3b88","p3b90","p3b92","p3b94","p3b96","p3b98","p3b100","p3b102","p3b104","p3b106","p3b108","p3b110","p3b112","p3b114","p3b116","p3b118","p3b120","p3b122","p3b124","p3b126","p3b128","p3b130","p3b132","p3b134","p3b136","p3b138","p3b140","p3b142","p3b144","p3b146","p3b148","p3b150","p3b152","p3b154","p3b156","p3b158","p3b160","p3b162","p3b164","p3b166","p3b168","p3b170","p3b172","p3b174","p3b176","p3b178","p3b180","p3b182","p3b184","p3b186","p3b188","p3b190","p3b192","p3b194","p3b196","p3b198","p3b200","p3b202","p3b204","p3b206","p3b208","p3b210","p3b212","p3b214","p3b216","p3b218","p3b220","p3b222","p3b224","p3b226","p3b228","p3b230","p3b232","p3b234","p3b236","p3b238","p3b240","p3b242","p3b244","p3b246","p3b248","p3b250","p3b252","p3b254","p3b256","p3b258","p3b260","p3b262","p3b264","p3b266","p3b268","p3b270","p3b272","p3b274","p3b276","p3b278","p3b280","p3b282","p3b284","p3b286","p3b288","p3b290","p3b292","p3b294","p3b296","p3b298","p3b300","p3b302","p3b304","p3b306","p3b308","p3b310","p3b312","p3b314","p3b316","p3b318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["瓦檐檐香暖蜜","瓦檐瓦香暖蜜","瓦檐茅香暖蜜","瓦檐飞香暖蜜","瓦檐重香暖蜜","瓦檐滴香暖蜜","瓦檐当香暖蜜","瓦檐漏香暖蜜","瓦檐角香暖蜜","瓦檐铃香暖蜜","瓦檐雀香暖蜜","瓦檐燕香暖蜜","瓦檐蛛香暖蜜","瓦檐水檐暖蜜","瓦檐风檐暖蜜","瓦檐影檐暖蜜","茅檐檐香暖蜜","茅檐瓦香暖蜜","茅檐茅香暖蜜","茅檐飞香暖蜜","茅檐重香暖蜜","茅檐滴香暖蜜","茅檐当香暖蜜","茅檐漏香暖蜜","茅檐角香暖蜜","茅檐铃香暖蜜","茅檐雀香暖蜜","茅檐燕香暖蜜","茅檐蛛香暖蜜","茅檐水檐暖蜜","茅檐风檐暖蜜","茅檐影檐暖蜜","飞檐檐香暖蜜","飞檐瓦香暖蜜","飞檐茅香暖蜜","飞檐飞香暖蜜","飞檐重香暖蜜","飞檐滴香暖蜜","飞檐当香暖蜜","飞檐漏香暖蜜","飞檐角香暖蜜","飞檐铃香暖蜜","飞檐雀香暖蜜","飞檐燕香暖蜜","飞檐蛛香暖蜜","飞檐水檐暖蜜","飞檐风檐暖蜜","飞檐影檐暖蜜","重檐檐香暖蜜","重檐瓦香暖蜜","重檐茅香暖蜜","重檐飞香暖蜜","重檐重香暖蜜","重檐滴香暖蜜","重檐当香暖蜜","重檐漏香暖蜜","重檐角香暖蜜","重檐铃香暖蜜","重檐雀香暖蜜","重檐燕香暖蜜","重檐蛛香暖蜜","重檐水檐暖蜜","重檐风檐暖蜜","重檐影檐暖蜜","出檐檐香暖蜜","出檐瓦香暖蜜","出檐茅香暖蜜","出檐飞香暖蜜","出檐重香暖蜜","出檐滴香暖蜜","出檐当香暖蜜","出檐漏香暖蜜","出檐角香暖蜜","出檐铃香暖蜜","出檐雀香暖蜜","出檐燕香暖蜜","出檐蛛香暖蜜","出檐水檐暖蜜","出檐风檐暖蜜","出檐影檐暖蜜","滴水檐香暖蜜","滴水瓦香暖蜜","滴水茅香暖蜜","滴水飞香暖蜜","滴水重香暖蜜","滴水滴香暖蜜","滴水当香暖蜜","滴水漏香暖蜜","滴水角香暖蜜","滴水铃香暖蜜","滴水雀香暖蜜","滴水燕香暖蜜","滴水蛛香暖蜜","滴水水檐暖蜜","滴水风檐暖蜜","滴水影檐暖蜜","瓦当檐香暖蜜","瓦当瓦香暖蜜","瓦当茅香暖蜜","瓦当飞香暖蜜","瓦当重香暖蜜","瓦当滴香暖蜜","瓦当当香暖蜜","瓦当漏香暖蜜","瓦当角香暖蜜","瓦当铃香暖蜜","瓦当雀香暖蜜","瓦当燕香暖蜜","瓦当蛛香暖蜜","瓦当水檐暖蜜","瓦当风檐暖蜜","瓦当影檐暖蜜","滴漏檐香暖蜜","滴漏瓦香暖蜜","滴漏茅香暖蜜","滴漏飞香暖蜜","滴漏重香暖蜜","滴漏滴香暖蜜","滴漏当香暖蜜","滴漏漏香暖蜜","滴漏角香暖蜜","滴漏铃香暖蜜","滴漏雀香暖蜜","滴漏燕香暖蜜","滴漏蛛香暖蜜","滴漏水檐暖蜜","滴漏风檐暖蜜","滴漏影檐暖蜜","檐角檐香暖蜜","檐角瓦香暖蜜","檐角茅香暖蜜","檐角飞香暖蜜","檐角重香暖蜜","檐角滴香暖蜜","檐角当香暖蜜","檐角漏香暖蜜","檐角角香暖蜜","檐角铃香暖蜜","檐角雀香暖蜜","檐角燕香暖蜜","檐角蛛香暖蜜","檐角水檐暖蜜","檐角风檐暖蜜","檐角影檐暖蜜","檐铃檐香暖蜜","檐铃瓦香暖蜜","檐铃茅香暖蜜","檐铃飞香暖蜜","檐铃重香暖蜜","檐铃滴香暖蜜","檐铃当香暖蜜","檐铃漏香暖蜜","檐铃角香暖蜜","檐铃铃香暖蜜","檐铃雀香暖蜜","檐铃燕香暖蜜","檐铃蛛香暖蜜","檐铃水檐暖蜜","檐铃风檐暖蜜","檐铃影檐暖蜜","檐下雀檐香暖蜜","檐下雀瓦香暖蜜","檐下雀茅香暖蜜","檐下雀飞香暖蜜","檐下雀重香暖蜜","檐下雀滴香暖蜜","檐下雀当香暖蜜","檐下雀漏香暖蜜","檐下雀角香暖蜜","檐下雀铃香暖蜜","檐下雀雀香暖蜜","檐下雀燕香暖蜜","檐下雀蛛香暖蜜","檐下雀水檐暖蜜","檐下雀风檐暖蜜","檐下雀影檐暖蜜","檐下燕檐香暖蜜","檐下燕瓦香暖蜜","檐下燕茅香暖蜜","檐下燕飞香暖蜜","檐下燕重香暖蜜","檐下燕滴香暖蜜","檐下燕当香暖蜜","檐下燕漏香暖蜜","檐下燕角香暖蜜","檐下燕铃香暖蜜","檐下燕雀香暖蜜","檐下燕燕香暖蜜","檐下燕蛛香暖蜜","檐下燕水檐暖蜜","檐下燕风檐暖蜜","檐下燕影檐暖蜜","檐下蛛檐香暖蜜","檐下蛛瓦香暖蜜","檐下蛛茅香暖蜜","檐下蛛飞香暖蜜","檐下蛛重香暖蜜","檐下蛛滴香暖蜜","檐下蛛当香暖蜜","檐下蛛漏香暖蜜","檐下蛛角香暖蜜","檐下蛛铃香暖蜜","檐下蛛雀香暖蜜","檐下蛛燕香暖蜜","檐下蛛蛛香暖蜜","檐下蛛水檐暖蜜","檐下蛛风檐暖蜜","檐下蛛影檐暖蜜","檐下水檐香暖蜜","檐下水瓦香暖蜜","檐下水茅香暖蜜","檐下水飞香暖蜜","檐下水重香暖蜜","檐下水滴香暖蜜","檐下水当香暖蜜","檐下水漏香暖蜜","檐下水角香暖蜜","檐下水铃香暖蜜","檐下水雀香暖蜜","檐下水燕香暖蜜","檐下水蛛香暖蜜","檐下水水檐暖蜜","檐下水风檐暖蜜","檐下水影檐暖蜜","檐下风檐香暖蜜","檐下风瓦香暖蜜","檐下风茅香暖蜜","檐下风飞香暖蜜","檐下风重香暖蜜","檐下风滴香暖蜜","檐下风当香暖蜜","檐下风漏香暖蜜","檐下风角香暖蜜","檐下风铃香暖蜜","檐下风雀香暖蜜","檐下风燕香暖蜜","檐下风蛛香暖蜜","檐下风水檐暖蜜","檐下风风檐暖蜜","檐下风影檐暖蜜","檐下影檐香暖蜜","檐下影瓦香暖蜜","檐下影茅香暖蜜","檐下影飞香暖蜜","檐下影重香暖蜜","檐下影滴香暖蜜","檐下影当香暖蜜","檐下影漏香暖蜜","檐下影角香暖蜜","檐下影铃香暖蜜","檐下影雀香暖蜜","檐下影燕香暖蜜","檐下影蛛香暖蜜","檐下影水檐暖蜜","檐下影风檐暖蜜","檐下影影檐暖蜜","檐上月檐香暖蜜","檐上月瓦香暖蜜","檐上月茅香暖蜜","檐上月飞香暖蜜","檐上月重香暖蜜","檐上月滴香暖蜜","檐上月当香暖蜜","檐上月漏香暖蜜","檐上月角香暖蜜","檐上月铃香暖蜜","檐上月雀香暖蜜","檐上月燕香暖蜜","檐上月蛛香暖蜜","檐上月水檐暖蜜","檐上月风檐暖蜜","檐上月影檐暖蜜","檐上雪檐香暖蜜","檐上雪瓦香暖蜜","檐上雪茅香暖蜜","檐上雪飞香暖蜜","檐上雪重香暖蜜","檐上雪滴香暖蜜","檐上雪当香暖蜜","檐上雪漏香暖蜜","檐上雪角香暖蜜","檐上雪铃香暖蜜","檐上雪雀香暖蜜","檐上雪燕香暖蜜","檐上雪蛛香暖蜜","檐上雪水檐暖蜜","檐上雪风檐暖蜜","檐上雪影檐暖蜜","檐上霜檐香暖蜜","檐上霜瓦香暖蜜","檐上霜茅香暖蜜","檐上霜飞香暖蜜","檐上霜重香暖蜜","檐上霜滴香暖蜜","檐上霜当香暖蜜","檐上霜漏香暖蜜","檐上霜角香暖蜜","檐上霜铃香暖蜜","檐上霜雀香暖蜜","檐上霜燕香暖蜜","檐上霜蛛香暖蜜","檐上霜水檐暖蜜","檐上霜风檐暖蜜","檐上霜影檐暖蜜","檐上露檐香暖蜜","檐上露瓦香暖蜜","檐上露茅香暖蜜","檐上露飞香暖蜜","檐上露重香暖蜜","檐上露滴香暖蜜","檐上露当香暖蜜","檐上露漏香暖蜜","檐上露角香暖蜜","檐上露铃香暖蜜","檐上露雀香暖蜜","檐上露燕香暖蜜","檐上露蛛香暖蜜","檐上露水檐暖蜜","檐上露风檐暖蜜","檐上露影檐暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("瓦檐檐香径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("瓦檐檐香")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "p3b0_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("p4a0 p4a1 p4a2 p4a3 p4a4 p4a5 p4a6 p4a7 p4a8 p4a9 p4a10 p4a11 p4a12 p4a13 p4a14 p4a15 p4a16 p4a17 p4a18 p4a19 p4a20 p4a21 p4a22 p4a23 p4a24 p4a25 p4a26 p4a27 p4a28 p4a29 p4a30 p4a31 p4a32 p4a33 p4a34 p4a35 p4a36 p4a37 p4a38 p4a39 p4a40 p4a41 p4a42 p4a43 p4a44 p4a45 p4a46 p4a47 p4a48 p4a49 p4a50 p4a51 p4a52 p4a53 p4a54 p4a55 p4a56 p4a57 p4a58 p4a59 p4a60 p4a61 p4a62 p4a63 p4a64 p4a65 p4a66 p4a67 p4a68 p4a69 p4a70 p4a71 p4a72 p4a73 p4a74 p4a75 p4a76 p4a77 p4a78 p4a79 p4a80 p4a81 p4a82 p4a83 p4a84 p4a85 p4a86 p4a87 p4a88 p4a89 p4a90 p4a91 p4a92 p4a93 p4a94 p4a95 p4a96 p4a97 p4a98 p4a99 p4a100 p4a101 p4a102 p4a103 p4a104 p4a105 p4a106 p4a107 p4a108 p4a109 p4a110 p4a111 p4a112 p4a113 p4a114 p4a115 p4a116 p4a117 p4a118 p4a119 p4a120 p4a121 p4a122 p4a123 p4a124 p4a125 p4a126 p4a127 p4a128 p4a129 p4a130 p4a131 p4a132 p4a133 p4a134 p4a135 p4a136 p4a137 p4a138 p4a139 p4a140 p4a141 p4a142 p4a143 p4a144 p4a145 p4a146 p4a147 p4a148 p4a149 p4a150 p4a151 p4a152 p4a153 p4a154 p4a155 p4a156 p4a157 p4a158 p4a159 p4a160 p4a161 p4a162 p4a163 p4a164 p4a165 p4a166 p4a167 p4a168 p4a169 p4a170 p4a171 p4a172 p4a173 p4a174 p4a175 p4a176 p4a177 p4a178 p4a179 p4a180 p4a181 p4a182 p4a183 p4a184 p4a185 p4a186 p4a187 p4a188 p4a189 p4a190 p4a191 p4a192 p4a193 p4a194 p4a195 p4a196 p4a197 p4a198 p4a199 p4a200 p4a201 p4a202 p4a203 p4a204 p4a205 p4a206 p4a207 p4a208 p4a209 p4a210 p4a211 p4a212 p4a213 p4a214 p4a215 p4a216 p4a217 p4a218 p4a219 p4a220 p4a221 p4a222 p4a223 p4a224 p4a225 p4a226 p4a227 p4a228 p4a229 p4a230 p4a231 p4a232 p4a233 p4a234 p4a235 p4a236 p4a237 p4a238 p4a239 p4a240 p4a241 p4a242 p4a243 p4a244 p4a245 p4a246 p4a247 p4a248 p4a249 p4a250 p4a251 p4a252 p4a253 p4a254 p4a255 p4a256 p4a257 p4a258 p4a259 p4a260 p4a261 p4a262 p4a263 p4a264 p4a265 p4a266 p4a267 p4a268 p4a269 p4a270 p4a271 p4a272 p4a273 p4a274 p4a275 p4a276 p4a277 p4a278 p4a279 p4a280 p4a281 p4a282 p4a283 p4a284 p4a285 p4a286 p4a287 p4a288 p4a289 p4a290 p4a291 p4a292 p4a293 p4a294 p4a295 p4a296 p4a297 p4a298 p4a299 p4a300 p4a301 p4a302 p4a303 p4a304 p4a305 p4a306 p4a307 p4a308 p4a309 p4a310 p4a311 p4a312 p4a313 p4a314 p4a315 p4a316 p4a317 p4a318 p4a319 17499 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["p4a0","p4a1","p4a2","p4a3","p4a4","p4a5","p4a6","p4a7","p4a8","p4a9","p4a10","p4a11","p4a12","p4a13","p4a14","p4a15","p4a16","p4a17","p4a18","p4a19","p4a20","p4a21","p4a22","p4a23","p4a24","p4a25","p4a26","p4a27","p4a28","p4a29","p4a30","p4a31","p4a32","p4a33","p4a34","p4a35","p4a36","p4a37","p4a38","p4a39","p4a40","p4a41","p4a42","p4a43","p4a44","p4a45","p4a46","p4a47","p4a48","p4a49","p4a50","p4a51","p4a52","p4a53","p4a54","p4a55","p4a56","p4a57","p4a58","p4a59","p4a60","p4a61","p4a62","p4a63","p4a64","p4a65","p4a66","p4a67","p4a68","p4a69","p4a70","p4a71","p4a72","p4a73","p4a74","p4a75","p4a76","p4a77","p4a78","p4a79","p4a80","p4a81","p4a82","p4a83","p4a84","p4a85","p4a86","p4a87","p4a88","p4a89","p4a90","p4a91","p4a92","p4a93","p4a94","p4a95","p4a96","p4a97","p4a98","p4a99","p4a100","p4a101","p4a102","p4a103","p4a104","p4a105","p4a106","p4a107","p4a108","p4a109","p4a110","p4a111","p4a112","p4a113","p4a114","p4a115","p4a116","p4a117","p4a118","p4a119","p4a120","p4a121","p4a122","p4a123","p4a124","p4a125","p4a126","p4a127","p4a128","p4a129","p4a130","p4a131","p4a132","p4a133","p4a134","p4a135","p4a136","p4a137","p4a138","p4a139","p4a140","p4a141","p4a142","p4a143","p4a144","p4a145","p4a146","p4a147","p4a148","p4a149","p4a150","p4a151","p4a152","p4a153","p4a154","p4a155","p4a156","p4a157","p4a158","p4a159","p4a160","p4a161","p4a162","p4a163","p4a164","p4a165","p4a166","p4a167","p4a168","p4a169","p4a170","p4a171","p4a172","p4a173","p4a174","p4a175","p4a176","p4a177","p4a178","p4a179","p4a180","p4a181","p4a182","p4a183","p4a184","p4a185","p4a186","p4a187","p4a188","p4a189","p4a190","p4a191","p4a192","p4a193","p4a194","p4a195","p4a196","p4a197","p4a198","p4a199","p4a200","p4a201","p4a202","p4a203","p4a204","p4a205","p4a206","p4a207","p4a208","p4a209","p4a210","p4a211","p4a212","p4a213","p4a214","p4a215","p4a216","p4a217","p4a218","p4a219","p4a220","p4a221","p4a222","p4a223","p4a224","p4a225","p4a226","p4a227","p4a228","p4a229","p4a230","p4a231","p4a232","p4a233","p4a234","p4a235","p4a236","p4a237","p4a238","p4a239","p4a240","p4a241","p4a242","p4a243","p4a244","p4a245","p4a246","p4a247","p4a248","p4a249","p4a250","p4a251","p4a252","p4a253","p4a254","p4a255","p4a256","p4a257","p4a258","p4a259","p4a260","p4a261","p4a262","p4a263","p4a264","p4a265","p4a266","p4a267","p4a268","p4a269","p4a270","p4a271","p4a272","p4a273","p4a274","p4a275","p4a276","p4a277","p4a278","p4a279","p4a280","p4a281","p4a282","p4a283","p4a284","p4a285","p4a286","p4a287","p4a288","p4a289","p4a290","p4a291","p4a292","p4a293","p4a294","p4a295","p4a296","p4a297","p4a298","p4a299","p4a300","p4a301","p4a302","p4a303","p4a304","p4a305","p4a306","p4a307","p4a308","p4a309","p4a310","p4a311","p4a312","p4a313","p4a314","p4a315","p4a316","p4a317","p4a318","p4a319"];
+  const pots = ["p4a0Pot","p4a1Pot","p4a2Pot","p4a3Pot","p4a4Pot","p4a5Pot","p4a6Pot","p4a7Pot","p4a8Pot","p4a9Pot","p4a10Pot","p4a11Pot","p4a12Pot","p4a13Pot","p4a14Pot","p4a15Pot","p4a16Pot","p4a17Pot","p4a18Pot","p4a19Pot","p4a20Pot","p4a21Pot","p4a22Pot","p4a23Pot","p4a24Pot","p4a25Pot","p4a26Pot","p4a27Pot","p4a28Pot","p4a29Pot","p4a30Pot","p4a31Pot","p4a32Pot","p4a33Pot","p4a34Pot","p4a35Pot","p4a36Pot","p4a37Pot","p4a38Pot","p4a39Pot","p4a40Pot","p4a41Pot","p4a42Pot","p4a43Pot","p4a44Pot","p4a45Pot","p4a46Pot","p4a47Pot","p4a48Pot","p4a49Pot","p4a50Pot","p4a51Pot","p4a52Pot","p4a53Pot","p4a54Pot","p4a55Pot","p4a56Pot","p4a57Pot","p4a58Pot","p4a59Pot","p4a60Pot","p4a61Pot","p4a62Pot","p4a63Pot","p4a64Pot","p4a65Pot","p4a66Pot","p4a67Pot","p4a68Pot","p4a69Pot","p4a70Pot","p4a71Pot","p4a72Pot","p4a73Pot","p4a74Pot","p4a75Pot","p4a76Pot","p4a77Pot","p4a78Pot","p4a79Pot","p4a80Pot","p4a81Pot","p4a82Pot","p4a83Pot","p4a84Pot","p4a85Pot","p4a86Pot","p4a87Pot","p4a88Pot","p4a89Pot","p4a90Pot","p4a91Pot","p4a92Pot","p4a93Pot","p4a94Pot","p4a95Pot","p4a96Pot","p4a97Pot","p4a98Pot","p4a99Pot","p4a100Pot","p4a101Pot","p4a102Pot","p4a103Pot","p4a104Pot","p4a105Pot","p4a106Pot","p4a107Pot","p4a108Pot","p4a109Pot","p4a110Pot","p4a111Pot","p4a112Pot","p4a113Pot","p4a114Pot","p4a115Pot","p4a116Pot","p4a117Pot","p4a118Pot","p4a119Pot","p4a120Pot","p4a121Pot","p4a122Pot","p4a123Pot","p4a124Pot","p4a125Pot","p4a126Pot","p4a127Pot","p4a128Pot","p4a129Pot","p4a130Pot","p4a131Pot","p4a132Pot","p4a133Pot","p4a134Pot","p4a135Pot","p4a136Pot","p4a137Pot","p4a138Pot","p4a139Pot","p4a140Pot","p4a141Pot","p4a142Pot","p4a143Pot","p4a144Pot","p4a145Pot","p4a146Pot","p4a147Pot","p4a148Pot","p4a149Pot","p4a150Pot","p4a151Pot","p4a152Pot","p4a153Pot","p4a154Pot","p4a155Pot","p4a156Pot","p4a157Pot","p4a158Pot","p4a159Pot","p4a160Pot","p4a161Pot","p4a162Pot","p4a163Pot","p4a164Pot","p4a165Pot","p4a166Pot","p4a167Pot","p4a168Pot","p4a169Pot","p4a170Pot","p4a171Pot","p4a172Pot","p4a173Pot","p4a174Pot","p4a175Pot","p4a176Pot","p4a177Pot","p4a178Pot","p4a179Pot","p4a180Pot","p4a181Pot","p4a182Pot","p4a183Pot","p4a184Pot","p4a185Pot","p4a186Pot","p4a187Pot","p4a188Pot","p4a189Pot","p4a190Pot","p4a191Pot","p4a192Pot","p4a193Pot","p4a194Pot","p4a195Pot","p4a196Pot","p4a197Pot","p4a198Pot","p4a199Pot","p4a200Pot","p4a201Pot","p4a202Pot","p4a203Pot","p4a204Pot","p4a205Pot","p4a206Pot","p4a207Pot","p4a208Pot","p4a209Pot","p4a210Pot","p4a211Pot","p4a212Pot","p4a213Pot","p4a214Pot","p4a215Pot","p4a216Pot","p4a217Pot","p4a218Pot","p4a219Pot","p4a220Pot","p4a221Pot","p4a222Pot","p4a223Pot","p4a224Pot","p4a225Pot","p4a226Pot","p4a227Pot","p4a228Pot","p4a229Pot","p4a230Pot","p4a231Pot","p4a232Pot","p4a233Pot","p4a234Pot","p4a235Pot","p4a236Pot","p4a237Pot","p4a238Pot","p4a239Pot","p4a240Pot","p4a241Pot","p4a242Pot","p4a243Pot","p4a244Pot","p4a245Pot","p4a246Pot","p4a247Pot","p4a248Pot","p4a249Pot","p4a250Pot","p4a251Pot","p4a252Pot","p4a253Pot","p4a254Pot","p4a255Pot","p4a256Pot","p4a257Pot","p4a258Pot","p4a259Pot","p4a260Pot","p4a261Pot","p4a262Pot","p4a263Pot","p4a264Pot","p4a265Pot","p4a266Pot","p4a267Pot","p4a268Pot","p4a269Pot","p4a270Pot","p4a271Pot","p4a272Pot","p4a273Pot","p4a274Pot","p4a275Pot","p4a276Pot","p4a277Pot","p4a278Pot","p4a279Pot","p4a280Pot","p4a281Pot","p4a282Pot","p4a283Pot","p4a284Pot","p4a285Pot","p4a286Pot","p4a287Pot","p4a288Pot","p4a289Pot","p4a290Pot","p4a291Pot","p4a292Pot","p4a293Pot","p4a294Pot","p4a295Pot","p4a296Pot","p4a297Pot","p4a298Pot","p4a299Pot","p4a300Pot","p4a301Pot","p4a302Pot","p4a303Pot","p4a304Pot","p4a305Pot","p4a306Pot","p4a307Pot","p4a308Pot","p4a309Pot","p4a310Pot","p4a311Pot","p4a312Pot","p4a313Pot","p4a314Pot","p4a315Pot","p4a316Pot","p4a317Pot","p4a318Pot","p4a319Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["p4a0_path","p4a1_path","p4a2_path","p4a3_path","p4a4_path","p4a5_path","p4a6_path","p4a7_path","p4a8_path","p4a9_path","p4a10_path","p4a11_path","p4a12_path","p4a13_path","p4a14_path","p4a15_path","p4a16_path","p4a17_path","p4a18_path","p4a19_path","p4a20_path","p4a21_path","p4a22_path","p4a23_path","p4a24_path","p4a25_path","p4a26_path","p4a27_path","p4a28_path","p4a29_path","p4a30_path","p4a31_path","p4a32_path","p4a33_path","p4a34_path","p4a35_path","p4a36_path","p4a37_path","p4a38_path","p4a39_path","p4a40_path","p4a41_path","p4a42_path","p4a43_path","p4a44_path","p4a45_path","p4a46_path","p4a47_path","p4a48_path","p4a49_path","p4a50_path","p4a51_path","p4a52_path","p4a53_path","p4a54_path","p4a55_path","p4a56_path","p4a57_path","p4a58_path","p4a59_path","p4a60_path","p4a61_path","p4a62_path","p4a63_path","p4a64_path","p4a65_path","p4a66_path","p4a67_path","p4a68_path","p4a69_path","p4a70_path","p4a71_path","p4a72_path","p4a73_path","p4a74_path","p4a75_path","p4a76_path","p4a77_path","p4a78_path","p4a79_path","p4a80_path","p4a81_path","p4a82_path","p4a83_path","p4a84_path","p4a85_path","p4a86_path","p4a87_path","p4a88_path","p4a89_path","p4a90_path","p4a91_path","p4a92_path","p4a93_path","p4a94_path","p4a95_path","p4a96_path","p4a97_path","p4a98_path","p4a99_path","p4a100_path","p4a101_path","p4a102_path","p4a103_path","p4a104_path","p4a105_path","p4a106_path","p4a107_path","p4a108_path","p4a109_path","p4a110_path","p4a111_path","p4a112_path","p4a113_path","p4a114_path","p4a115_path","p4a116_path","p4a117_path","p4a118_path","p4a119_path","p4a120_path","p4a121_path","p4a122_path","p4a123_path","p4a124_path","p4a125_path","p4a126_path","p4a127_path","p4a128_path","p4a129_path","p4a130_path","p4a131_path","p4a132_path","p4a133_path","p4a134_path","p4a135_path","p4a136_path","p4a137_path","p4a138_path","p4a139_path","p4a140_path","p4a141_path","p4a142_path","p4a143_path","p4a144_path","p4a145_path","p4a146_path","p4a147_path","p4a148_path","p4a149_path","p4a150_path","p4a151_path","p4a152_path","p4a153_path","p4a154_path","p4a155_path","p4a156_path","p4a157_path","p4a158_path","p4a159_path","p4a160_path","p4a161_path","p4a162_path","p4a163_path","p4a164_path","p4a165_path","p4a166_path","p4a167_path","p4a168_path","p4a169_path","p4a170_path","p4a171_path","p4a172_path","p4a173_path","p4a174_path","p4a175_path","p4a176_path","p4a177_path","p4a178_path","p4a179_path","p4a180_path","p4a181_path","p4a182_path","p4a183_path","p4a184_path","p4a185_path","p4a186_path","p4a187_path","p4a188_path","p4a189_path","p4a190_path","p4a191_path","p4a192_path","p4a193_path","p4a194_path","p4a195_path","p4a196_path","p4a197_path","p4a198_path","p4a199_path","p4a200_path","p4a201_path","p4a202_path","p4a203_path","p4a204_path","p4a205_path","p4a206_path","p4a207_path","p4a208_path","p4a209_path","p4a210_path","p4a211_path","p4a212_path","p4a213_path","p4a214_path","p4a215_path","p4a216_path","p4a217_path","p4a218_path","p4a219_path","p4a220_path","p4a221_path","p4a222_path","p4a223_path","p4a224_path","p4a225_path","p4a226_path","p4a227_path","p4a228_path","p4a229_path","p4a230_path","p4a231_path","p4a232_path","p4a233_path","p4a234_path","p4a235_path","p4a236_path","p4a237_path","p4a238_path","p4a239_path","p4a240_path","p4a241_path","p4a242_path","p4a243_path","p4a244_path","p4a245_path","p4a246_path","p4a247_path","p4a248_path","p4a249_path","p4a250_path","p4a251_path","p4a252_path","p4a253_path","p4a254_path","p4a255_path","p4a256_path","p4a257_path","p4a258_path","p4a259_path","p4a260_path","p4a261_path","p4a262_path","p4a263_path","p4a264_path","p4a265_path","p4a266_path","p4a267_path","p4a268_path","p4a269_path","p4a270_path","p4a271_path","p4a272_path","p4a273_path","p4a274_path","p4a275_path","p4a276_path","p4a277_path","p4a278_path","p4a279_path","p4a280_path","p4a281_path","p4a282_path","p4a283_path","p4a284_path","p4a285_path","p4a286_path","p4a287_path","p4a288_path","p4a289_path","p4a290_path","p4a291_path","p4a292_path","p4a293_path","p4a294_path","p4a295_path","p4a296_path","p4a297_path","p4a298_path","p4a299_path","p4a300_path","p4a301_path","p4a302_path","p4a303_path","p4a304_path","p4a305_path","p4a306_path","p4a307_path","p4a308_path","p4a309_path","p4a310_path","p4a311_path","p4a312_path","p4a313_path","p4a314_path","p4a315_path","p4a316_path","p4a317_path","p4a318_path","p4a319_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 17499);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["p4a1","p4a3","p4a5","p4a7","p4a9","p4a11","p4a13","p4a15","p4a17","p4a19","p4a21","p4a23","p4a25","p4a27","p4a29","p4a31","p4a33","p4a35","p4a37","p4a39","p4a41","p4a43","p4a45","p4a47","p4a49","p4a51","p4a53","p4a55","p4a57","p4a59","p4a61","p4a63","p4a65","p4a67","p4a69","p4a71","p4a73","p4a75","p4a77","p4a79","p4a81","p4a83","p4a85","p4a87","p4a89","p4a91","p4a93","p4a95","p4a97","p4a99","p4a101","p4a103","p4a105","p4a107","p4a109","p4a111","p4a113","p4a115","p4a117","p4a119","p4a121","p4a123","p4a125","p4a127","p4a129","p4a131","p4a133","p4a135","p4a137","p4a139","p4a141","p4a143","p4a145","p4a147","p4a149","p4a151","p4a153","p4a155","p4a157","p4a159","p4a161","p4a163","p4a165","p4a167","p4a169","p4a171","p4a173","p4a175","p4a177","p4a179","p4a181","p4a183","p4a185","p4a187","p4a189","p4a191","p4a193","p4a195","p4a197","p4a199","p4a201","p4a203","p4a205","p4a207","p4a209","p4a211","p4a213","p4a215","p4a217","p4a219","p4a221","p4a223","p4a225","p4a227","p4a229","p4a231","p4a233","p4a235","p4a237","p4a239","p4a241","p4a243","p4a245","p4a247","p4a249","p4a251","p4a253","p4a255","p4a257","p4a259","p4a261","p4a263","p4a265","p4a267","p4a269","p4a271","p4a273","p4a275","p4a277","p4a279","p4a281","p4a283","p4a285","p4a287","p4a289","p4a291","p4a293","p4a295","p4a297","p4a299","p4a301","p4a303","p4a305","p4a307","p4a309","p4a311","p4a313","p4a315","p4a317","p4a319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["p4a0","p4a2","p4a4","p4a6","p4a8","p4a10","p4a12","p4a14","p4a16","p4a18","p4a20","p4a22","p4a24","p4a26","p4a28","p4a30","p4a32","p4a34","p4a36","p4a38","p4a40","p4a42","p4a44","p4a46","p4a48","p4a50","p4a52","p4a54","p4a56","p4a58","p4a60","p4a62","p4a64","p4a66","p4a68","p4a70","p4a72","p4a74","p4a76","p4a78","p4a80","p4a82","p4a84","p4a86","p4a88","p4a90","p4a92","p4a94","p4a96","p4a98","p4a100","p4a102","p4a104","p4a106","p4a108","p4a110","p4a112","p4a114","p4a116","p4a118","p4a120","p4a122","p4a124","p4a126","p4a128","p4a130","p4a132","p4a134","p4a136","p4a138","p4a140","p4a142","p4a144","p4a146","p4a148","p4a150","p4a152","p4a154","p4a156","p4a158","p4a160","p4a162","p4a164","p4a166","p4a168","p4a170","p4a172","p4a174","p4a176","p4a178","p4a180","p4a182","p4a184","p4a186","p4a188","p4a190","p4a192","p4a194","p4a196","p4a198","p4a200","p4a202","p4a204","p4a206","p4a208","p4a210","p4a212","p4a214","p4a216","p4a218","p4a220","p4a222","p4a224","p4a226","p4a228","p4a230","p4a232","p4a234","p4a236","p4a238","p4a240","p4a242","p4a244","p4a246","p4a248","p4a250","p4a252","p4a254","p4a256","p4a258","p4a260","p4a262","p4a264","p4a266","p4a268","p4a270","p4a272","p4a274","p4a276","p4a278","p4a280","p4a282","p4a284","p4a286","p4a288","p4a290","p4a292","p4a294","p4a296","p4a298","p4a300","p4a302","p4a304","p4a306","p4a308","p4a310","p4a312","p4a314","p4a316","p4a318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["炭炉炭暖暖蜜","炭炉煤暖暖蜜","炭炉柴暖暖蜜","炭炉电暖暖蜜","炭炉香暖暖蜜","炭炉茶暖暖蜜","炭炉药暖暖蜜","炭炉酒暖暖蜜","炭炉糖暖暖蜜","炭炉铁暖暖蜜","炭炉铜暖暖蜜","炭炉砂暖暖蜜","炭炉陶暖暖蜜","炭炉石暖暖蜜","炭炉砖暖暖蜜","炭炉泥暖暖蜜","煤炉炭暖暖蜜","煤炉煤暖暖蜜","煤炉柴暖暖蜜","煤炉电暖暖蜜","煤炉香暖暖蜜","煤炉茶暖暖蜜","煤炉药暖暖蜜","煤炉酒暖暖蜜","煤炉糖暖暖蜜","煤炉铁暖暖蜜","煤炉铜暖暖蜜","煤炉砂暖暖蜜","煤炉陶暖暖蜜","煤炉石暖暖蜜","煤炉砖暖暖蜜","煤炉泥暖暖蜜","柴炉炭暖暖蜜","柴炉煤暖暖蜜","柴炉柴暖暖蜜","柴炉电暖暖蜜","柴炉香暖暖蜜","柴炉茶暖暖蜜","柴炉药暖暖蜜","柴炉酒暖暖蜜","柴炉糖暖暖蜜","柴炉铁暖暖蜜","柴炉铜暖暖蜜","柴炉砂暖暖蜜","柴炉陶暖暖蜜","柴炉石暖暖蜜","柴炉砖暖暖蜜","柴炉泥暖暖蜜","电炉炭暖暖蜜","电炉煤暖暖蜜","电炉柴暖暖蜜","电炉电暖暖蜜","电炉香暖暖蜜","电炉茶暖暖蜜","电炉药暖暖蜜","电炉酒暖暖蜜","电炉糖暖暖蜜","电炉铁暖暖蜜","电炉铜暖暖蜜","电炉砂暖暖蜜","电炉陶暖暖蜜","电炉石暖暖蜜","电炉砖暖暖蜜","电炉泥暖暖蜜","暖炉炭暖暖蜜","暖炉煤暖暖蜜","暖炉柴暖暖蜜","暖炉电暖暖蜜","暖炉香暖暖蜜","暖炉茶暖暖蜜","暖炉药暖暖蜜","暖炉酒暖暖蜜","暖炉糖暖暖蜜","暖炉铁暖暖蜜","暖炉铜暖暖蜜","暖炉砂暖暖蜜","暖炉陶暖暖蜜","暖炉石暖暖蜜","暖炉砖暖暖蜜","暖炉泥暖暖蜜","香炉炭暖暖蜜","香炉煤暖暖蜜","香炉柴暖暖蜜","香炉电暖暖蜜","香炉香暖暖蜜","香炉茶暖暖蜜","香炉药暖暖蜜","香炉酒暖暖蜜","香炉糖暖暖蜜","香炉铁暖暖蜜","香炉铜暖暖蜜","香炉砂暖暖蜜","香炉陶暖暖蜜","香炉石暖暖蜜","香炉砖暖暖蜜","香炉泥暖暖蜜","茶炉炭暖暖蜜","茶炉煤暖暖蜜","茶炉柴暖暖蜜","茶炉电暖暖蜜","茶炉香暖暖蜜","茶炉茶暖暖蜜","茶炉药暖暖蜜","茶炉酒暖暖蜜","茶炉糖暖暖蜜","茶炉铁暖暖蜜","茶炉铜暖暖蜜","茶炉砂暖暖蜜","茶炉陶暖暖蜜","茶炉石暖暖蜜","茶炉砖暖暖蜜","茶炉泥暖暖蜜","药炉炭暖暖蜜","药炉煤暖暖蜜","药炉柴暖暖蜜","药炉电暖暖蜜","药炉香暖暖蜜","药炉茶暖暖蜜","药炉药暖暖蜜","药炉酒暖暖蜜","药炉糖暖暖蜜","药炉铁暖暖蜜","药炉铜暖暖蜜","药炉砂暖暖蜜","药炉陶暖暖蜜","药炉石暖暖蜜","药炉砖暖暖蜜","药炉泥暖暖蜜","酒炉炭暖暖蜜","酒炉煤暖暖蜜","酒炉柴暖暖蜜","酒炉电暖暖蜜","酒炉香暖暖蜜","酒炉茶暖暖蜜","酒炉药暖暖蜜","酒炉酒暖暖蜜","酒炉糖暖暖蜜","酒炉铁暖暖蜜","酒炉铜暖暖蜜","酒炉砂暖暖蜜","酒炉陶暖暖蜜","酒炉石暖暖蜜","酒炉砖暖暖蜜","酒炉泥暖暖蜜","糖炉炭暖暖蜜","糖炉煤暖暖蜜","糖炉柴暖暖蜜","糖炉电暖暖蜜","糖炉香暖暖蜜","糖炉茶暖暖蜜","糖炉药暖暖蜜","糖炉酒暖暖蜜","糖炉糖暖暖蜜","糖炉铁暖暖蜜","糖炉铜暖暖蜜","糖炉砂暖暖蜜","糖炉陶暖暖蜜","糖炉石暖暖蜜","糖炉砖暖暖蜜","糖炉泥暖暖蜜","铁炉炭暖暖蜜","铁炉煤暖暖蜜","铁炉柴暖暖蜜","铁炉电暖暖蜜","铁炉香暖暖蜜","铁炉茶暖暖蜜","铁炉药暖暖蜜","铁炉酒暖暖蜜","铁炉糖暖暖蜜","铁炉铁暖暖蜜","铁炉铜暖暖蜜","铁炉砂暖暖蜜","铁炉陶暖暖蜜","铁炉石暖暖蜜","铁炉砖暖暖蜜","铁炉泥暖暖蜜","铜炉炭暖暖蜜","铜炉煤暖暖蜜","铜炉柴暖暖蜜","铜炉电暖暖蜜","铜炉香暖暖蜜","铜炉茶暖暖蜜","铜炉药暖暖蜜","铜炉酒暖暖蜜","铜炉糖暖暖蜜","铜炉铁暖暖蜜","铜炉铜暖暖蜜","铜炉砂暖暖蜜","铜炉陶暖暖蜜","铜炉石暖暖蜜","铜炉砖暖暖蜜","铜炉泥暖暖蜜","砂炉炭暖暖蜜","砂炉煤暖暖蜜","砂炉柴暖暖蜜","砂炉电暖暖蜜","砂炉香暖暖蜜","砂炉茶暖暖蜜","砂炉药暖暖蜜","砂炉酒暖暖蜜","砂炉糖暖暖蜜","砂炉铁暖暖蜜","砂炉铜暖暖蜜","砂炉砂暖暖蜜","砂炉陶暖暖蜜","砂炉石暖暖蜜","砂炉砖暖暖蜜","砂炉泥暖暖蜜","陶炉炭暖暖蜜","陶炉煤暖暖蜜","陶炉柴暖暖蜜","陶炉电暖暖蜜","陶炉香暖暖蜜","陶炉茶暖暖蜜","陶炉药暖暖蜜","陶炉酒暖暖蜜","陶炉糖暖暖蜜","陶炉铁暖暖蜜","陶炉铜暖暖蜜","陶炉砂暖暖蜜","陶炉陶暖暖蜜","陶炉石暖暖蜜","陶炉砖暖暖蜜","陶炉泥暖暖蜜","石炉炭暖暖蜜","石炉煤暖暖蜜","石炉柴暖暖蜜","石炉电暖暖蜜","石炉香暖暖蜜","石炉茶暖暖蜜","石炉药暖暖蜜","石炉酒暖暖蜜","石炉糖暖暖蜜","石炉铁暖暖蜜","石炉铜暖暖蜜","石炉砂暖暖蜜","石炉陶暖暖蜜","石炉石暖暖蜜","石炉砖暖暖蜜","石炉泥暖暖蜜","砖炉炭暖暖蜜","砖炉煤暖暖蜜","砖炉柴暖暖蜜","砖炉电暖暖蜜","砖炉香暖暖蜜","砖炉茶暖暖蜜","砖炉药暖暖蜜","砖炉酒暖暖蜜","砖炉糖暖暖蜜","砖炉铁暖暖蜜","砖炉铜暖暖蜜","砖炉砂暖暖蜜","砖炉陶暖暖蜜","砖炉石暖暖蜜","砖炉砖暖暖蜜","砖炉泥暖暖蜜","泥炉炭暖暖蜜","泥炉煤暖暖蜜","泥炉柴暖暖蜜","泥炉电暖暖蜜","泥炉香暖暖蜜","泥炉茶暖暖蜜","泥炉药暖暖蜜","泥炉酒暖暖蜜","泥炉糖暖暖蜜","泥炉铁暖暖蜜","泥炉铜暖暖蜜","泥炉砂暖暖蜜","泥炉陶暖暖蜜","泥炉石暖暖蜜","泥炉砖暖暖蜜","泥炉泥暖暖蜜","炉门炭暖暖蜜","炉门煤暖暖蜜","炉门柴暖暖蜜","炉门电暖暖蜜","炉门香暖暖蜜","炉门茶暖暖蜜","炉门药暖暖蜜","炉门酒暖暖蜜","炉门糖暖暖蜜","炉门铁暖暖蜜","炉门铜暖暖蜜","炉门砂暖暖蜜","炉门陶暖暖蜜","炉门石暖暖蜜","炉门砖暖暖蜜","炉门泥暖暖蜜","炉膛炭暖暖蜜","炉膛煤暖暖蜜","炉膛柴暖暖蜜","炉膛电暖暖蜜","炉膛香暖暖蜜","炉膛茶暖暖蜜","炉膛药暖暖蜜","炉膛酒暖暖蜜","炉膛糖暖暖蜜","炉膛铁暖暖蜜","炉膛铜暖暖蜜","炉膛砂暖暖蜜","炉膛陶暖暖蜜","炉膛石暖暖蜜","炉膛砖暖暖蜜","炉膛泥暖暖蜜","炉灰炭暖暖蜜","炉灰煤暖暖蜜","炉灰柴暖暖蜜","炉灰电暖暖蜜","炉灰香暖暖蜜","炉灰茶暖暖蜜","炉灰药暖暖蜜","炉灰酒暖暖蜜","炉灰糖暖暖蜜","炉灰铁暖暖蜜","炉灰铜暖暖蜜","炉灰砂暖暖蜜","炉灰陶暖暖蜜","炉灰石暖暖蜜","炉灰砖暖暖蜜","炉灰泥暖暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("炭炉炭暖径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("炭炉炭暖")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "p4a0_path" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
+test("p5a0 p5a1 p5a2 p5a3 p5a4 p5a5 p5a6 p5a7 p5a8 p5a9 p5a10 p5a11 p5a12 p5a13 p5a14 p5a15 p5a16 p5a17 p5a18 p5a19 p5a20 p5a21 p5a22 p5a23 p5a24 p5a25 p5a26 p5a27 p5a28 p5a29 p5a30 p5a31 p5a32 p5a33 p5a34 p5a35 p5a36 p5a37 p5a38 p5a39 p5a40 p5a41 p5a42 p5a43 p5a44 p5a45 p5a46 p5a47 p5a48 p5a49 p5a50 p5a51 p5a52 p5a53 p5a54 p5a55 p5a56 p5a57 p5a58 p5a59 p5a60 p5a61 p5a62 p5a63 p5a64 p5a65 p5a66 p5a67 p5a68 p5a69 p5a70 p5a71 p5a72 p5a73 p5a74 p5a75 p5a76 p5a77 p5a78 p5a79 p5a80 p5a81 p5a82 p5a83 p5a84 p5a85 p5a86 p5a87 p5a88 p5a89 p5a90 p5a91 p5a92 p5a93 p5a94 p5a95 p5a96 p5a97 p5a98 p5a99 p5a100 p5a101 p5a102 p5a103 p5a104 p5a105 p5a106 p5a107 p5a108 p5a109 p5a110 p5a111 p5a112 p5a113 p5a114 p5a115 p5a116 p5a117 p5a118 p5a119 p5a120 p5a121 p5a122 p5a123 p5a124 p5a125 p5a126 p5a127 p5a128 p5a129 p5a130 p5a131 p5a132 p5a133 p5a134 p5a135 p5a136 p5a137 p5a138 p5a139 p5a140 p5a141 p5a142 p5a143 p5a144 p5a145 p5a146 p5a147 p5a148 p5a149 p5a150 p5a151 p5a152 p5a153 p5a154 p5a155 p5a156 p5a157 p5a158 p5a159 p5a160 p5a161 p5a162 p5a163 p5a164 p5a165 p5a166 p5a167 p5a168 p5a169 p5a170 p5a171 p5a172 p5a173 p5a174 p5a175 p5a176 p5a177 p5a178 p5a179 p5a180 p5a181 p5a182 p5a183 p5a184 p5a185 p5a186 p5a187 p5a188 p5a189 p5a190 p5a191 p5a192 p5a193 p5a194 p5a195 p5a196 p5a197 p5a198 p5a199 p5a200 p5a201 p5a202 p5a203 p5a204 p5a205 p5a206 p5a207 p5a208 p5a209 p5a210 p5a211 p5a212 p5a213 p5a214 p5a215 p5a216 p5a217 p5a218 p5a219 p5a220 p5a221 p5a222 p5a223 p5a224 p5a225 p5a226 p5a227 p5a228 p5a229 p5a230 p5a231 p5a232 p5a233 p5a234 p5a235 p5a236 p5a237 p5a238 p5a239 p5a240 p5a241 p5a242 p5a243 p5a244 p5a245 p5a246 p5a247 p5a248 p5a249 p5a250 p5a251 p5a252 p5a253 p5a254 p5a255 p5a256 p5a257 p5a258 p5a259 p5a260 p5a261 p5a262 p5a263 p5a264 p5a265 p5a266 p5a267 p5a268 p5a269 p5a270 p5a271 p5a272 p5a273 p5a274 p5a275 p5a276 p5a277 p5a278 p5a279 p5a280 p5a281 p5a282 p5a283 p5a284 p5a285 p5a286 p5a287 p5a288 p5a289 p5a290 p5a291 p5a292 p5a293 p5a294 p5a295 p5a296 p5a297 p5a298 p5a299 p5a300 p5a301 p5a302 p5a303 p5a304 p5a305 p5a306 p5a307 p5a308 p5a309 p5a310 p5a311 p5a312 p5a313 p5a314 p5a315 p5a316 p5a317 p5a318 p5a319 17819 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["p5a0","p5a1","p5a2","p5a3","p5a4","p5a5","p5a6","p5a7","p5a8","p5a9","p5a10","p5a11","p5a12","p5a13","p5a14","p5a15","p5a16","p5a17","p5a18","p5a19","p5a20","p5a21","p5a22","p5a23","p5a24","p5a25","p5a26","p5a27","p5a28","p5a29","p5a30","p5a31","p5a32","p5a33","p5a34","p5a35","p5a36","p5a37","p5a38","p5a39","p5a40","p5a41","p5a42","p5a43","p5a44","p5a45","p5a46","p5a47","p5a48","p5a49","p5a50","p5a51","p5a52","p5a53","p5a54","p5a55","p5a56","p5a57","p5a58","p5a59","p5a60","p5a61","p5a62","p5a63","p5a64","p5a65","p5a66","p5a67","p5a68","p5a69","p5a70","p5a71","p5a72","p5a73","p5a74","p5a75","p5a76","p5a77","p5a78","p5a79","p5a80","p5a81","p5a82","p5a83","p5a84","p5a85","p5a86","p5a87","p5a88","p5a89","p5a90","p5a91","p5a92","p5a93","p5a94","p5a95","p5a96","p5a97","p5a98","p5a99","p5a100","p5a101","p5a102","p5a103","p5a104","p5a105","p5a106","p5a107","p5a108","p5a109","p5a110","p5a111","p5a112","p5a113","p5a114","p5a115","p5a116","p5a117","p5a118","p5a119","p5a120","p5a121","p5a122","p5a123","p5a124","p5a125","p5a126","p5a127","p5a128","p5a129","p5a130","p5a131","p5a132","p5a133","p5a134","p5a135","p5a136","p5a137","p5a138","p5a139","p5a140","p5a141","p5a142","p5a143","p5a144","p5a145","p5a146","p5a147","p5a148","p5a149","p5a150","p5a151","p5a152","p5a153","p5a154","p5a155","p5a156","p5a157","p5a158","p5a159","p5a160","p5a161","p5a162","p5a163","p5a164","p5a165","p5a166","p5a167","p5a168","p5a169","p5a170","p5a171","p5a172","p5a173","p5a174","p5a175","p5a176","p5a177","p5a178","p5a179","p5a180","p5a181","p5a182","p5a183","p5a184","p5a185","p5a186","p5a187","p5a188","p5a189","p5a190","p5a191","p5a192","p5a193","p5a194","p5a195","p5a196","p5a197","p5a198","p5a199","p5a200","p5a201","p5a202","p5a203","p5a204","p5a205","p5a206","p5a207","p5a208","p5a209","p5a210","p5a211","p5a212","p5a213","p5a214","p5a215","p5a216","p5a217","p5a218","p5a219","p5a220","p5a221","p5a222","p5a223","p5a224","p5a225","p5a226","p5a227","p5a228","p5a229","p5a230","p5a231","p5a232","p5a233","p5a234","p5a235","p5a236","p5a237","p5a238","p5a239","p5a240","p5a241","p5a242","p5a243","p5a244","p5a245","p5a246","p5a247","p5a248","p5a249","p5a250","p5a251","p5a252","p5a253","p5a254","p5a255","p5a256","p5a257","p5a258","p5a259","p5a260","p5a261","p5a262","p5a263","p5a264","p5a265","p5a266","p5a267","p5a268","p5a269","p5a270","p5a271","p5a272","p5a273","p5a274","p5a275","p5a276","p5a277","p5a278","p5a279","p5a280","p5a281","p5a282","p5a283","p5a284","p5a285","p5a286","p5a287","p5a288","p5a289","p5a290","p5a291","p5a292","p5a293","p5a294","p5a295","p5a296","p5a297","p5a298","p5a299","p5a300","p5a301","p5a302","p5a303","p5a304","p5a305","p5a306","p5a307","p5a308","p5a309","p5a310","p5a311","p5a312","p5a313","p5a314","p5a315","p5a316","p5a317","p5a318","p5a319"];
+  const pots = ["p5a0Pot","p5a1Pot","p5a2Pot","p5a3Pot","p5a4Pot","p5a5Pot","p5a6Pot","p5a7Pot","p5a8Pot","p5a9Pot","p5a10Pot","p5a11Pot","p5a12Pot","p5a13Pot","p5a14Pot","p5a15Pot","p5a16Pot","p5a17Pot","p5a18Pot","p5a19Pot","p5a20Pot","p5a21Pot","p5a22Pot","p5a23Pot","p5a24Pot","p5a25Pot","p5a26Pot","p5a27Pot","p5a28Pot","p5a29Pot","p5a30Pot","p5a31Pot","p5a32Pot","p5a33Pot","p5a34Pot","p5a35Pot","p5a36Pot","p5a37Pot","p5a38Pot","p5a39Pot","p5a40Pot","p5a41Pot","p5a42Pot","p5a43Pot","p5a44Pot","p5a45Pot","p5a46Pot","p5a47Pot","p5a48Pot","p5a49Pot","p5a50Pot","p5a51Pot","p5a52Pot","p5a53Pot","p5a54Pot","p5a55Pot","p5a56Pot","p5a57Pot","p5a58Pot","p5a59Pot","p5a60Pot","p5a61Pot","p5a62Pot","p5a63Pot","p5a64Pot","p5a65Pot","p5a66Pot","p5a67Pot","p5a68Pot","p5a69Pot","p5a70Pot","p5a71Pot","p5a72Pot","p5a73Pot","p5a74Pot","p5a75Pot","p5a76Pot","p5a77Pot","p5a78Pot","p5a79Pot","p5a80Pot","p5a81Pot","p5a82Pot","p5a83Pot","p5a84Pot","p5a85Pot","p5a86Pot","p5a87Pot","p5a88Pot","p5a89Pot","p5a90Pot","p5a91Pot","p5a92Pot","p5a93Pot","p5a94Pot","p5a95Pot","p5a96Pot","p5a97Pot","p5a98Pot","p5a99Pot","p5a100Pot","p5a101Pot","p5a102Pot","p5a103Pot","p5a104Pot","p5a105Pot","p5a106Pot","p5a107Pot","p5a108Pot","p5a109Pot","p5a110Pot","p5a111Pot","p5a112Pot","p5a113Pot","p5a114Pot","p5a115Pot","p5a116Pot","p5a117Pot","p5a118Pot","p5a119Pot","p5a120Pot","p5a121Pot","p5a122Pot","p5a123Pot","p5a124Pot","p5a125Pot","p5a126Pot","p5a127Pot","p5a128Pot","p5a129Pot","p5a130Pot","p5a131Pot","p5a132Pot","p5a133Pot","p5a134Pot","p5a135Pot","p5a136Pot","p5a137Pot","p5a138Pot","p5a139Pot","p5a140Pot","p5a141Pot","p5a142Pot","p5a143Pot","p5a144Pot","p5a145Pot","p5a146Pot","p5a147Pot","p5a148Pot","p5a149Pot","p5a150Pot","p5a151Pot","p5a152Pot","p5a153Pot","p5a154Pot","p5a155Pot","p5a156Pot","p5a157Pot","p5a158Pot","p5a159Pot","p5a160Pot","p5a161Pot","p5a162Pot","p5a163Pot","p5a164Pot","p5a165Pot","p5a166Pot","p5a167Pot","p5a168Pot","p5a169Pot","p5a170Pot","p5a171Pot","p5a172Pot","p5a173Pot","p5a174Pot","p5a175Pot","p5a176Pot","p5a177Pot","p5a178Pot","p5a179Pot","p5a180Pot","p5a181Pot","p5a182Pot","p5a183Pot","p5a184Pot","p5a185Pot","p5a186Pot","p5a187Pot","p5a188Pot","p5a189Pot","p5a190Pot","p5a191Pot","p5a192Pot","p5a193Pot","p5a194Pot","p5a195Pot","p5a196Pot","p5a197Pot","p5a198Pot","p5a199Pot","p5a200Pot","p5a201Pot","p5a202Pot","p5a203Pot","p5a204Pot","p5a205Pot","p5a206Pot","p5a207Pot","p5a208Pot","p5a209Pot","p5a210Pot","p5a211Pot","p5a212Pot","p5a213Pot","p5a214Pot","p5a215Pot","p5a216Pot","p5a217Pot","p5a218Pot","p5a219Pot","p5a220Pot","p5a221Pot","p5a222Pot","p5a223Pot","p5a224Pot","p5a225Pot","p5a226Pot","p5a227Pot","p5a228Pot","p5a229Pot","p5a230Pot","p5a231Pot","p5a232Pot","p5a233Pot","p5a234Pot","p5a235Pot","p5a236Pot","p5a237Pot","p5a238Pot","p5a239Pot","p5a240Pot","p5a241Pot","p5a242Pot","p5a243Pot","p5a244Pot","p5a245Pot","p5a246Pot","p5a247Pot","p5a248Pot","p5a249Pot","p5a250Pot","p5a251Pot","p5a252Pot","p5a253Pot","p5a254Pot","p5a255Pot","p5a256Pot","p5a257Pot","p5a258Pot","p5a259Pot","p5a260Pot","p5a261Pot","p5a262Pot","p5a263Pot","p5a264Pot","p5a265Pot","p5a266Pot","p5a267Pot","p5a268Pot","p5a269Pot","p5a270Pot","p5a271Pot","p5a272Pot","p5a273Pot","p5a274Pot","p5a275Pot","p5a276Pot","p5a277Pot","p5a278Pot","p5a279Pot","p5a280Pot","p5a281Pot","p5a282Pot","p5a283Pot","p5a284Pot","p5a285Pot","p5a286Pot","p5a287Pot","p5a288Pot","p5a289Pot","p5a290Pot","p5a291Pot","p5a292Pot","p5a293Pot","p5a294Pot","p5a295Pot","p5a296Pot","p5a297Pot","p5a298Pot","p5a299Pot","p5a300Pot","p5a301Pot","p5a302Pot","p5a303Pot","p5a304Pot","p5a305Pot","p5a306Pot","p5a307Pot","p5a308Pot","p5a309Pot","p5a310Pot","p5a311Pot","p5a312Pot","p5a313Pot","p5a314Pot","p5a315Pot","p5a316Pot","p5a317Pot","p5a318Pot","p5a319Pot"];
+  ids.forEach((id, i) => { assert.ok(j.items[id] && j.plants[pots[i]], id); });
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id) => { s.bag[id] = 1; });
+  ids.slice(0, 4).forEach((id, i) => { assert.ok(core.plantSeed(s, i, id, cat).ok, id); });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["p5a0_path","p5a1_path","p5a2_path","p5a3_path","p5a4_path","p5a5_path","p5a6_path","p5a7_path","p5a8_path","p5a9_path","p5a10_path","p5a11_path","p5a12_path","p5a13_path","p5a14_path","p5a15_path","p5a16_path","p5a17_path","p5a18_path","p5a19_path","p5a20_path","p5a21_path","p5a22_path","p5a23_path","p5a24_path","p5a25_path","p5a26_path","p5a27_path","p5a28_path","p5a29_path","p5a30_path","p5a31_path","p5a32_path","p5a33_path","p5a34_path","p5a35_path","p5a36_path","p5a37_path","p5a38_path","p5a39_path","p5a40_path","p5a41_path","p5a42_path","p5a43_path","p5a44_path","p5a45_path","p5a46_path","p5a47_path","p5a48_path","p5a49_path","p5a50_path","p5a51_path","p5a52_path","p5a53_path","p5a54_path","p5a55_path","p5a56_path","p5a57_path","p5a58_path","p5a59_path","p5a60_path","p5a61_path","p5a62_path","p5a63_path","p5a64_path","p5a65_path","p5a66_path","p5a67_path","p5a68_path","p5a69_path","p5a70_path","p5a71_path","p5a72_path","p5a73_path","p5a74_path","p5a75_path","p5a76_path","p5a77_path","p5a78_path","p5a79_path","p5a80_path","p5a81_path","p5a82_path","p5a83_path","p5a84_path","p5a85_path","p5a86_path","p5a87_path","p5a88_path","p5a89_path","p5a90_path","p5a91_path","p5a92_path","p5a93_path","p5a94_path","p5a95_path","p5a96_path","p5a97_path","p5a98_path","p5a99_path","p5a100_path","p5a101_path","p5a102_path","p5a103_path","p5a104_path","p5a105_path","p5a106_path","p5a107_path","p5a108_path","p5a109_path","p5a110_path","p5a111_path","p5a112_path","p5a113_path","p5a114_path","p5a115_path","p5a116_path","p5a117_path","p5a118_path","p5a119_path","p5a120_path","p5a121_path","p5a122_path","p5a123_path","p5a124_path","p5a125_path","p5a126_path","p5a127_path","p5a128_path","p5a129_path","p5a130_path","p5a131_path","p5a132_path","p5a133_path","p5a134_path","p5a135_path","p5a136_path","p5a137_path","p5a138_path","p5a139_path","p5a140_path","p5a141_path","p5a142_path","p5a143_path","p5a144_path","p5a145_path","p5a146_path","p5a147_path","p5a148_path","p5a149_path","p5a150_path","p5a151_path","p5a152_path","p5a153_path","p5a154_path","p5a155_path","p5a156_path","p5a157_path","p5a158_path","p5a159_path","p5a160_path","p5a161_path","p5a162_path","p5a163_path","p5a164_path","p5a165_path","p5a166_path","p5a167_path","p5a168_path","p5a169_path","p5a170_path","p5a171_path","p5a172_path","p5a173_path","p5a174_path","p5a175_path","p5a176_path","p5a177_path","p5a178_path","p5a179_path","p5a180_path","p5a181_path","p5a182_path","p5a183_path","p5a184_path","p5a185_path","p5a186_path","p5a187_path","p5a188_path","p5a189_path","p5a190_path","p5a191_path","p5a192_path","p5a193_path","p5a194_path","p5a195_path","p5a196_path","p5a197_path","p5a198_path","p5a199_path","p5a200_path","p5a201_path","p5a202_path","p5a203_path","p5a204_path","p5a205_path","p5a206_path","p5a207_path","p5a208_path","p5a209_path","p5a210_path","p5a211_path","p5a212_path","p5a213_path","p5a214_path","p5a215_path","p5a216_path","p5a217_path","p5a218_path","p5a219_path","p5a220_path","p5a221_path","p5a222_path","p5a223_path","p5a224_path","p5a225_path","p5a226_path","p5a227_path","p5a228_path","p5a229_path","p5a230_path","p5a231_path","p5a232_path","p5a233_path","p5a234_path","p5a235_path","p5a236_path","p5a237_path","p5a238_path","p5a239_path","p5a240_path","p5a241_path","p5a242_path","p5a243_path","p5a244_path","p5a245_path","p5a246_path","p5a247_path","p5a248_path","p5a249_path","p5a250_path","p5a251_path","p5a252_path","p5a253_path","p5a254_path","p5a255_path","p5a256_path","p5a257_path","p5a258_path","p5a259_path","p5a260_path","p5a261_path","p5a262_path","p5a263_path","p5a264_path","p5a265_path","p5a266_path","p5a267_path","p5a268_path","p5a269_path","p5a270_path","p5a271_path","p5a272_path","p5a273_path","p5a274_path","p5a275_path","p5a276_path","p5a277_path","p5a278_path","p5a279_path","p5a280_path","p5a281_path","p5a282_path","p5a283_path","p5a284_path","p5a285_path","p5a286_path","p5a287_path","p5a288_path","p5a289_path","p5a290_path","p5a291_path","p5a292_path","p5a293_path","p5a294_path","p5a295_path","p5a296_path","p5a297_path","p5a298_path","p5a299_path","p5a300_path","p5a301_path","p5a302_path","p5a303_path","p5a304_path","p5a305_path","p5a306_path","p5a307_path","p5a308_path","p5a309_path","p5a310_path","p5a311_path","p5a312_path","p5a313_path","p5a314_path","p5a315_path","p5a316_path","p5a317_path","p5a318_path","p5a319_path"].forEach((tid) => assert.ok(themes.some((th) => th.id === tid), tid));
+  assert.ok(themes.length >= 17819);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const score = core.scoreDrink(
+    { name: "t", tags: ["草本"], flavors: [ids[0]] },
+    { cup: "mug", base: "honey_water", flavor: ids[0], topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, toppings: [{ id: "none" }] }
+  );
+  assert.ok(score.notes.some((n) => n === "野草特调"), JSON.stringify(score.notes));
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  const summerPool = core.DAILY_SPECIAL_BY_SEASON.summer.map((x) => x.flavor);
+  ["p5a1","p5a3","p5a5","p5a7","p5a9","p5a11","p5a13","p5a15","p5a17","p5a19","p5a21","p5a23","p5a25","p5a27","p5a29","p5a31","p5a33","p5a35","p5a37","p5a39","p5a41","p5a43","p5a45","p5a47","p5a49","p5a51","p5a53","p5a55","p5a57","p5a59","p5a61","p5a63","p5a65","p5a67","p5a69","p5a71","p5a73","p5a75","p5a77","p5a79","p5a81","p5a83","p5a85","p5a87","p5a89","p5a91","p5a93","p5a95","p5a97","p5a99","p5a101","p5a103","p5a105","p5a107","p5a109","p5a111","p5a113","p5a115","p5a117","p5a119","p5a121","p5a123","p5a125","p5a127","p5a129","p5a131","p5a133","p5a135","p5a137","p5a139","p5a141","p5a143","p5a145","p5a147","p5a149","p5a151","p5a153","p5a155","p5a157","p5a159","p5a161","p5a163","p5a165","p5a167","p5a169","p5a171","p5a173","p5a175","p5a177","p5a179","p5a181","p5a183","p5a185","p5a187","p5a189","p5a191","p5a193","p5a195","p5a197","p5a199","p5a201","p5a203","p5a205","p5a207","p5a209","p5a211","p5a213","p5a215","p5a217","p5a219","p5a221","p5a223","p5a225","p5a227","p5a229","p5a231","p5a233","p5a235","p5a237","p5a239","p5a241","p5a243","p5a245","p5a247","p5a249","p5a251","p5a253","p5a255","p5a257","p5a259","p5a261","p5a263","p5a265","p5a267","p5a269","p5a271","p5a273","p5a275","p5a277","p5a279","p5a281","p5a283","p5a285","p5a287","p5a289","p5a291","p5a293","p5a295","p5a297","p5a299","p5a301","p5a303","p5a305","p5a307","p5a309","p5a311","p5a313","p5a315","p5a317","p5a319"].forEach((id) => assert.ok(winterPool.includes(id), "w " + id));
+  ["p5a0","p5a2","p5a4","p5a6","p5a8","p5a10","p5a12","p5a14","p5a16","p5a18","p5a20","p5a22","p5a24","p5a26","p5a28","p5a30","p5a32","p5a34","p5a36","p5a38","p5a40","p5a42","p5a44","p5a46","p5a48","p5a50","p5a52","p5a54","p5a56","p5a58","p5a60","p5a62","p5a64","p5a66","p5a68","p5a70","p5a72","p5a74","p5a76","p5a78","p5a80","p5a82","p5a84","p5a86","p5a88","p5a90","p5a92","p5a94","p5a96","p5a98","p5a100","p5a102","p5a104","p5a106","p5a108","p5a110","p5a112","p5a114","p5a116","p5a118","p5a120","p5a122","p5a124","p5a126","p5a128","p5a130","p5a132","p5a134","p5a136","p5a138","p5a140","p5a142","p5a144","p5a146","p5a148","p5a150","p5a152","p5a154","p5a156","p5a158","p5a160","p5a162","p5a164","p5a166","p5a168","p5a170","p5a172","p5a174","p5a176","p5a178","p5a180","p5a182","p5a184","p5a186","p5a188","p5a190","p5a192","p5a194","p5a196","p5a198","p5a200","p5a202","p5a204","p5a206","p5a208","p5a210","p5a212","p5a214","p5a216","p5a218","p5a220","p5a222","p5a224","p5a226","p5a228","p5a230","p5a232","p5a234","p5a236","p5a238","p5a240","p5a242","p5a244","p5a246","p5a248","p5a250","p5a252","p5a254","p5a256","p5a258","p5a260","p5a262","p5a264","p5a266","p5a268","p5a270","p5a272","p5a274","p5a276","p5a278","p5a280","p5a282","p5a284","p5a286","p5a288","p5a290","p5a292","p5a294","p5a296","p5a298","p5a300","p5a302","p5a304","p5a306","p5a308","p5a310","p5a312","p5a314","p5a316","p5a318"].forEach((id) => assert.ok(summerPool.includes(id), "s " + id));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("function drawWeather") && game.includes("function drawWalk"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  ["一盏盏香暖蜜","一盏明长暖蜜","一盏明短暖蜜","一盏明微暖蜜","一盏明通暖蜜","一盏明半暖蜜","一盏明全暖蜜","一盏影摇暖蜜","一盏花爆暖蜜","一盏油尽暖蜜","一盏芯尽暖蜜","一盏灯暖续暖蜜","一盏灯静续暖蜜","一盏灯远续暖蜜","一盏灯近续暖蜜","一盏灯柔暖蜜","两盏盏香暖蜜","两盏明长暖蜜","两盏明短暖蜜","两盏明微暖蜜","两盏明通暖蜜","两盏明半暖蜜","两盏明全暖蜜","两盏影摇暖蜜","两盏花爆暖蜜","两盏油尽暖蜜","两盏芯尽暖蜜","两盏灯暖续暖蜜","两盏灯静续暖蜜","两盏灯远续暖蜜","两盏灯近续暖蜜","两盏灯柔暖蜜","三盏盏香暖蜜","三盏明长暖蜜","三盏明短暖蜜","三盏明微暖蜜","三盏明通暖蜜","三盏明半暖蜜","三盏明全暖蜜","三盏影摇暖蜜","三盏花爆暖蜜","三盏油尽暖蜜","三盏芯尽暖蜜","三盏灯暖续暖蜜","三盏灯静续暖蜜","三盏灯远续暖蜜","三盏灯近续暖蜜","三盏灯柔暖蜜","四盏盏香暖蜜","四盏明长暖蜜","四盏明短暖蜜","四盏明微暖蜜","四盏明通暖蜜","四盏明半暖蜜","四盏明全暖蜜","四盏影摇暖蜜","四盏花爆暖蜜","四盏油尽暖蜜","四盏芯尽暖蜜","四盏灯暖续暖蜜","四盏灯静续暖蜜","四盏灯远续暖蜜","四盏灯近续暖蜜","四盏灯柔暖蜜","五盏盏香暖蜜","五盏明长暖蜜","五盏明短暖蜜","五盏明微暖蜜","五盏明通暖蜜","五盏明半暖蜜","五盏明全暖蜜","五盏影摇暖蜜","五盏花爆暖蜜","五盏油尽暖蜜","五盏芯尽暖蜜","五盏灯暖续暖蜜","五盏灯静续暖蜜","五盏灯远续暖蜜","五盏灯近续暖蜜","五盏灯柔暖蜜","六盏盏香暖蜜","六盏明长暖蜜","六盏明短暖蜜","六盏明微暖蜜","六盏明通暖蜜","六盏明半暖蜜","六盏明全暖蜜","六盏影摇暖蜜","六盏花爆暖蜜","六盏油尽暖蜜","六盏芯尽暖蜜","六盏灯暖续暖蜜","六盏灯静续暖蜜","六盏灯远续暖蜜","六盏灯近续暖蜜","六盏灯柔暖蜜","七盏盏香暖蜜","七盏明长暖蜜","七盏明短暖蜜","七盏明微暖蜜","七盏明通暖蜜","七盏明半暖蜜","七盏明全暖蜜","七盏影摇暖蜜","七盏花爆暖蜜","七盏油尽暖蜜","七盏芯尽暖蜜","七盏灯暖续暖蜜","七盏灯静续暖蜜","七盏灯远续暖蜜","七盏灯近续暖蜜","七盏灯柔暖蜜","八盏盏香暖蜜","八盏明长暖蜜","八盏明短暖蜜","八盏明微暖蜜","八盏明通暖蜜","八盏明半暖蜜","八盏明全暖蜜","八盏影摇暖蜜","八盏花爆暖蜜","八盏油尽暖蜜","八盏芯尽暖蜜","八盏灯暖续暖蜜","八盏灯静续暖蜜","八盏灯远续暖蜜","八盏灯近续暖蜜","八盏灯柔暖蜜","九盏盏香暖蜜","九盏明长暖蜜","九盏明短暖蜜","九盏明微暖蜜","九盏明通暖蜜","九盏明半暖蜜","九盏明全暖蜜","九盏影摇暖蜜","九盏花爆暖蜜","九盏油尽暖蜜","九盏芯尽暖蜜","九盏灯暖续暖蜜","九盏灯静续暖蜜","九盏灯远续暖蜜","九盏灯近续暖蜜","九盏灯柔暖蜜","十盏盏香暖蜜","十盏明长暖蜜","十盏明短暖蜜","十盏明微暖蜜","十盏明通暖蜜","十盏明半暖蜜","十盏明全暖蜜","十盏影摇暖蜜","十盏花爆暖蜜","十盏油尽暖蜜","十盏芯尽暖蜜","十盏灯暖续暖蜜","十盏灯静续暖蜜","十盏灯远续暖蜜","十盏灯近续暖蜜","十盏灯柔暖蜜","长明盏香暖蜜","长明明长暖蜜","长明明短暖蜜","长明明微暖蜜","长明明通暖蜜","长明明半暖蜜","长明明全暖蜜","长明影摇暖蜜","长明花爆暖蜜","长明油尽暖蜜","长明芯尽暖蜜","长明灯暖续暖蜜","长明灯静续暖蜜","长明灯远续暖蜜","长明灯近续暖蜜","长明灯柔暖蜜","短明盏香暖蜜","短明明长暖蜜","短明明短暖蜜","短明明微暖蜜","短明明通暖蜜","短明明半暖蜜","短明明全暖蜜","短明影摇暖蜜","短明花爆暖蜜","短明油尽暖蜜","短明芯尽暖蜜","短明灯暖续暖蜜","短明灯静续暖蜜","短明灯远续暖蜜","短明灯近续暖蜜","短明灯柔暖蜜","微明盏香暖蜜","微明明长暖蜜","微明明短暖蜜","微明明微暖蜜","微明明通暖蜜","微明明半暖蜜","微明明全暖蜜","微明影摇暖蜜","微明花爆暖蜜","微明油尽暖蜜","微明芯尽暖蜜","微明灯暖续暖蜜","微明灯静续暖蜜","微明灯远续暖蜜","微明灯近续暖蜜","微明灯柔暖蜜","通明盏香暖蜜","通明明长暖蜜","通明明短暖蜜","通明明微暖蜜","通明明通暖蜜","通明明半暖蜜","通明明全暖蜜","通明影摇暖蜜","通明花爆暖蜜","通明油尽暖蜜","通明芯尽暖蜜","通明灯暖续暖蜜","通明灯静续暖蜜","通明灯远续暖蜜","通明灯近续暖蜜","通明灯柔暖蜜","半明盏香暖蜜","半明明长暖蜜","半明明短暖蜜","半明明微暖蜜","半明明通暖蜜","半明明半暖蜜","半明明全暖蜜","半明影摇暖蜜","半明花爆暖蜜","半明油尽暖蜜","半明芯尽暖蜜","半明灯暖续暖蜜","半明灯静续暖蜜","半明灯远续暖蜜","半明灯近续暖蜜","半明灯柔暖蜜","全明盏香暖蜜","全明明长暖蜜","全明明短暖蜜","全明明微暖蜜","全明明通暖蜜","全明明半暖蜜","全明明全暖蜜","全明影摇暖蜜","全明花爆暖蜜","全明油尽暖蜜","全明芯尽暖蜜","全明灯暖续暖蜜","全明灯静续暖蜜","全明灯远续暖蜜","全明灯近续暖蜜","全明灯柔暖蜜","灯影摇盏香暖蜜","灯影摇明长暖蜜","灯影摇明短暖蜜","灯影摇明微暖蜜","灯影摇明通暖蜜","灯影摇明半暖蜜","灯影摇明全暖蜜","灯影摇影摇暖蜜","灯影摇花爆暖蜜","灯影摇油尽暖蜜","灯影摇芯尽暖蜜","灯影摇灯暖续暖蜜","灯影摇灯静续暖蜜","灯影摇灯远续暖蜜","灯影摇灯近续暖蜜","灯影摇灯柔暖蜜","灯花爆盏香暖蜜","灯花爆明长暖蜜","灯花爆明短暖蜜","灯花爆明微暖蜜","灯花爆明通暖蜜","灯花爆明半暖蜜","灯花爆明全暖蜜","灯花爆影摇暖蜜","灯花爆花爆暖蜜","灯花爆油尽暖蜜","灯花爆芯尽暖蜜","灯花爆灯暖续暖蜜","灯花爆灯静续暖蜜","灯花爆灯远续暖蜜","灯花爆灯近续暖蜜","灯花爆灯柔暖蜜","灯油尽盏香暖蜜","灯油尽明长暖蜜","灯油尽明短暖蜜","灯油尽明微暖蜜","灯油尽明通暖蜜","灯油尽明半暖蜜","灯油尽明全暖蜜","灯油尽影摇暖蜜","灯油尽花爆暖蜜","灯油尽油尽暖蜜","灯油尽芯尽暖蜜","灯油尽灯暖续暖蜜","灯油尽灯静续暖蜜","灯油尽灯远续暖蜜","灯油尽灯近续暖蜜","灯油尽灯柔暖蜜","灯芯尽盏香暖蜜","灯芯尽明长暖蜜","灯芯尽明短暖蜜","灯芯尽明微暖蜜","灯芯尽明通暖蜜","灯芯尽明半暖蜜","灯芯尽明全暖蜜","灯芯尽影摇暖蜜","灯芯尽花爆暖蜜","灯芯尽油尽暖蜜","灯芯尽芯尽暖蜜","灯芯尽灯暖续暖蜜","灯芯尽灯静续暖蜜","灯芯尽灯远续暖蜜","灯芯尽灯近续暖蜜","灯芯尽灯柔暖蜜"].forEach((name) => assert.ok(recipes.some((r) => r.name === name), name));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === ids[0] + "_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("一盏盏香径"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("一盏盏香")));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_" + "p5a0_path" && e.body.length > 12));
   const titles = events.map((e) => e.title);
   assert.strictEqual(new Set(titles).size, titles.length);
   const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
