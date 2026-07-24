@@ -1349,5 +1349,49 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_parsley",
+    "title": "欧芹一小把",
+    "body": "撒欧芹的店员来信：新剪的。给你一小把，别放太久。",
+    "effect": {
+      "items": {
+        "parsley": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tarragon",
+    "title": "龙蒿两枝",
+    "body": "泡龙蒿的旅人来信：新摘的。给你两枝，别放太久。",
+    "effect": {
+      "items": {
+        "tarragon": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_avocado",
+    "title": "牛油果两颗",
+    "body": "捣牛油果的厨子来信：刚熟的。给你两颗，别放太久。",
+    "effect": {
+      "items": {
+        "avocado": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_date_fruit",
+    "title": "椰枣一把",
+    "body": "煮椰枣的阿婆来信：新晒的。给你一把，别放太久。",
+    "effect": {
+      "items": {
+        "date_fruit": 3
+      },
+      "coins": 2
+    }
   }
 ]
