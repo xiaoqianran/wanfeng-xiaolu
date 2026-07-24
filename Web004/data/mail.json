@@ -118840,5 +118840,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_tide0",
+    "title": "涨潮潮间带两份",
+    "body": "采涨潮潮间带的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide0": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide1",
+    "title": "涨潮高潮线两份",
+    "body": "采涨潮高潮线的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide1": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide2",
+    "title": "涨潮低潮线两份",
+    "body": "采涨潮低潮线的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide2": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide3",
+    "title": "涨潮潮沟两份",
+    "body": "采涨潮潮沟的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide3": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide4",
+    "title": "涨潮潮池两份",
+    "body": "采涨潮潮池的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide4": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide5",
+    "title": "涨潮潮汐井两份",
+    "body": "采涨潮潮汐井的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide5": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide6",
+    "title": "涨潮盐沼两份",
+    "body": "采涨潮盐沼的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide6": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide7",
+    "title": "涨潮红树两份",
+    "body": "采涨潮红树的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide7": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide8",
+    "title": "涨潮海草两份",
+    "body": "采涨潮海草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide8": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide9",
+    "title": "涨潮海带两份",
+    "body": "采涨潮海带的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide9": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide10",
+    "title": "涨潮紫菜两份",
+    "body": "采涨潮紫菜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide10": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide11",
+    "title": "涨潮裙带两份",
+    "body": "采涨潮裙带的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide11": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide12",
+    "title": "涨潮石莼两份",
+    "body": "采涨潮石莼的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide12": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide13",
+    "title": "涨潮浒苔两份",
+    "body": "采涨潮浒苔的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide13": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide14",
+    "title": "涨潮角叉两份",
+    "body": "采涨潮角叉的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide14": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide15",
+    "title": "涨潮麒麟菜两份",
+    "body": "采涨潮麒麟菜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide15": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide16",
+    "title": "落潮潮间带两份",
+    "body": "采落潮潮间带的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide16": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide17",
+    "title": "落潮高潮线两份",
+    "body": "采落潮高潮线的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide17": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide18",
+    "title": "落潮低潮线两份",
+    "body": "采落潮低潮线的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide18": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide19",
+    "title": "落潮潮沟两份",
+    "body": "采落潮潮沟的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide19": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide20",
+    "title": "落潮潮池两份",
+    "body": "采落潮潮池的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide21",
+    "title": "落潮潮汐井两份",
+    "body": "采落潮潮汐井的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide22",
+    "title": "落潮盐沼两份",
+    "body": "采落潮盐沼的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide23",
+    "title": "落潮红树两份",
+    "body": "采落潮红树的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide24",
+    "title": "落潮海草两份",
+    "body": "采落潮海草的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide25",
+    "title": "落潮海带两份",
+    "body": "采落潮海带的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide26",
+    "title": "落潮紫菜两份",
+    "body": "采落潮紫菜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide27",
+    "title": "落潮裙带两份",
+    "body": "采落潮裙带的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide28",
+    "title": "落潮石莼两份",
+    "body": "采落潮石莼的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide29",
+    "title": "落潮浒苔两份",
+    "body": "采落潮浒苔的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide30",
+    "title": "落潮角叉两份",
+    "body": "采落潮角叉的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide30": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide31",
+    "title": "落潮麒麟菜两份",
+    "body": "采落潮麒麟菜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide31": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide32",
+    "title": "满潮潮间带两份",
+    "body": "采满潮潮间带的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide32": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide33",
+    "title": "满潮高潮线两份",
+    "body": "采满潮高潮线的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide33": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide34",
+    "title": "满潮低潮线两份",
+    "body": "采满潮低潮线的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide34": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide35",
+    "title": "满潮潮沟两份",
+    "body": "采满潮潮沟的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide35": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide36",
+    "title": "满潮潮池两份",
+    "body": "采满潮潮池的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide36": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide37",
+    "title": "满潮潮汐井两份",
+    "body": "采满潮潮汐井的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide37": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide38",
+    "title": "满潮盐沼两份",
+    "body": "采满潮盐沼的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide38": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide39",
+    "title": "满潮红树两份",
+    "body": "采满潮红树的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide39": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide40",
+    "title": "满潮海草两份",
+    "body": "采满潮海草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide40": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide41",
+    "title": "满潮海带两份",
+    "body": "采满潮海带的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide41": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide42",
+    "title": "满潮紫菜两份",
+    "body": "采满潮紫菜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide42": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide43",
+    "title": "满潮裙带两份",
+    "body": "采满潮裙带的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide43": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide44",
+    "title": "满潮石莼两份",
+    "body": "采满潮石莼的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide44": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide45",
+    "title": "满潮浒苔两份",
+    "body": "采满潮浒苔的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide45": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide46",
+    "title": "满潮角叉两份",
+    "body": "采满潮角叉的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide46": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide47",
+    "title": "满潮麒麟菜两份",
+    "body": "采满潮麒麟菜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide47": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide48",
+    "title": "干潮潮间带两份",
+    "body": "采干潮潮间带的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide48": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide49",
+    "title": "干潮高潮线两份",
+    "body": "采干潮高潮线的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide49": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide50",
+    "title": "干潮低潮线两份",
+    "body": "采干潮低潮线的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide50": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide51",
+    "title": "干潮潮沟两份",
+    "body": "采干潮潮沟的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide51": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide52",
+    "title": "干潮潮池两份",
+    "body": "采干潮潮池的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide52": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide53",
+    "title": "干潮潮汐井两份",
+    "body": "采干潮潮汐井的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide53": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide54",
+    "title": "干潮盐沼两份",
+    "body": "采干潮盐沼的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide54": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide55",
+    "title": "干潮红树两份",
+    "body": "采干潮红树的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide55": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide56",
+    "title": "干潮海草两份",
+    "body": "采干潮海草的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide56": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide57",
+    "title": "干潮海带两份",
+    "body": "采干潮海带的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide57": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide58",
+    "title": "干潮紫菜两份",
+    "body": "采干潮紫菜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide58": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide59",
+    "title": "干潮裙带两份",
+    "body": "采干潮裙带的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide59": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide60",
+    "title": "干潮石莼两份",
+    "body": "采干潮石莼的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide60": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide61",
+    "title": "干潮浒苔两份",
+    "body": "采干潮浒苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide61": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide62",
+    "title": "干潮角叉两份",
+    "body": "采干潮角叉的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide62": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide63",
+    "title": "干潮麒麟菜两份",
+    "body": "采干潮麒麟菜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide63": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide64",
+    "title": "大潮潮间带两份",
+    "body": "采大潮潮间带的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide64": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide65",
+    "title": "大潮高潮线两份",
+    "body": "采大潮高潮线的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide65": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide66",
+    "title": "大潮低潮线两份",
+    "body": "采大潮低潮线的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide66": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide67",
+    "title": "大潮潮沟两份",
+    "body": "采大潮潮沟的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide67": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide68",
+    "title": "大潮潮池两份",
+    "body": "采大潮潮池的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide68": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide69",
+    "title": "大潮潮汐井两份",
+    "body": "采大潮潮汐井的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide69": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide70",
+    "title": "大潮盐沼两份",
+    "body": "采大潮盐沼的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide70": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide71",
+    "title": "大潮红树两份",
+    "body": "采大潮红树的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide71": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide72",
+    "title": "大潮海草两份",
+    "body": "采大潮海草的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide72": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide73",
+    "title": "大潮海带两份",
+    "body": "采大潮海带的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide73": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide74",
+    "title": "大潮紫菜两份",
+    "body": "采大潮紫菜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide74": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide75",
+    "title": "大潮裙带两份",
+    "body": "采大潮裙带的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide75": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide76",
+    "title": "大潮石莼两份",
+    "body": "采大潮石莼的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide76": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide77",
+    "title": "大潮浒苔两份",
+    "body": "采大潮浒苔的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide77": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide78",
+    "title": "大潮角叉两份",
+    "body": "采大潮角叉的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide78": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide79",
+    "title": "大潮麒麟菜两份",
+    "body": "采大潮麒麟菜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide79": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide80",
+    "title": "小潮潮间带两份",
+    "body": "采小潮潮间带的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide80": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide81",
+    "title": "小潮高潮线两份",
+    "body": "采小潮高潮线的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide81": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide82",
+    "title": "小潮低潮线两份",
+    "body": "采小潮低潮线的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide82": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide83",
+    "title": "小潮潮沟两份",
+    "body": "采小潮潮沟的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide83": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide84",
+    "title": "小潮潮池两份",
+    "body": "采小潮潮池的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide84": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide85",
+    "title": "小潮潮汐井两份",
+    "body": "采小潮潮汐井的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide85": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide86",
+    "title": "小潮盐沼两份",
+    "body": "采小潮盐沼的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide86": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide87",
+    "title": "小潮红树两份",
+    "body": "采小潮红树的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide87": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide88",
+    "title": "小潮海草两份",
+    "body": "采小潮海草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide88": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide89",
+    "title": "小潮海带两份",
+    "body": "采小潮海带的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide89": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide90",
+    "title": "小潮紫菜两份",
+    "body": "采小潮紫菜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide90": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide91",
+    "title": "小潮裙带两份",
+    "body": "采小潮裙带的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide91": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide92",
+    "title": "小潮石莼两份",
+    "body": "采小潮石莼的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide92": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide93",
+    "title": "小潮浒苔两份",
+    "body": "采小潮浒苔的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide93": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide94",
+    "title": "小潮角叉两份",
+    "body": "采小潮角叉的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide94": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide95",
+    "title": "小潮麒麟菜两份",
+    "body": "采小潮麒麟菜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide95": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide96",
+    "title": "春潮潮间带两份",
+    "body": "采春潮潮间带的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide96": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide97",
+    "title": "春潮高潮线两份",
+    "body": "采春潮高潮线的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide97": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide98",
+    "title": "春潮低潮线两份",
+    "body": "采春潮低潮线的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide98": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide99",
+    "title": "春潮潮沟两份",
+    "body": "采春潮潮沟的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide99": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide100",
+    "title": "春潮潮池两份",
+    "body": "采春潮潮池的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide101",
+    "title": "春潮潮汐井两份",
+    "body": "采春潮潮汐井的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide102",
+    "title": "春潮盐沼两份",
+    "body": "采春潮盐沼的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide103",
+    "title": "春潮红树两份",
+    "body": "采春潮红树的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide104",
+    "title": "春潮海草两份",
+    "body": "采春潮海草的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide105",
+    "title": "春潮海带两份",
+    "body": "采春潮海带的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide106",
+    "title": "春潮紫菜两份",
+    "body": "采春潮紫菜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide107",
+    "title": "春潮裙带两份",
+    "body": "采春潮裙带的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide108",
+    "title": "春潮石莼两份",
+    "body": "采春潮石莼的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide109",
+    "title": "春潮浒苔两份",
+    "body": "采春潮浒苔的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide110",
+    "title": "春潮角叉两份",
+    "body": "采春潮角叉的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide111",
+    "title": "春潮麒麟菜两份",
+    "body": "采春潮麒麟菜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide112",
+    "title": "秋潮潮间带两份",
+    "body": "采秋潮潮间带的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide113",
+    "title": "秋潮高潮线两份",
+    "body": "采秋潮高潮线的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide114",
+    "title": "秋潮低潮线两份",
+    "body": "采秋潮低潮线的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide115",
+    "title": "秋潮潮沟两份",
+    "body": "采秋潮潮沟的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide116",
+    "title": "秋潮潮池两份",
+    "body": "采秋潮潮池的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide117",
+    "title": "秋潮潮汐井两份",
+    "body": "采秋潮潮汐井的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide118",
+    "title": "秋潮盐沼两份",
+    "body": "采秋潮盐沼的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide119",
+    "title": "秋潮红树两份",
+    "body": "采秋潮红树的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide120",
+    "title": "秋潮海草两份",
+    "body": "采秋潮海草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide121",
+    "title": "秋潮海带两份",
+    "body": "采秋潮海带的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide122",
+    "title": "秋潮紫菜两份",
+    "body": "采秋潮紫菜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide123",
+    "title": "秋潮裙带两份",
+    "body": "采秋潮裙带的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide124",
+    "title": "秋潮石莼两份",
+    "body": "采秋潮石莼的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide125",
+    "title": "秋潮浒苔两份",
+    "body": "采秋潮浒苔的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide126",
+    "title": "秋潮角叉两份",
+    "body": "采秋潮角叉的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide127",
+    "title": "秋潮麒麟菜两份",
+    "body": "采秋潮麒麟菜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide128",
+    "title": "夜潮潮间带两份",
+    "body": "采夜潮潮间带的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide129",
+    "title": "夜潮高潮线两份",
+    "body": "采夜潮高潮线的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide130",
+    "title": "夜潮低潮线两份",
+    "body": "采夜潮低潮线的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide131",
+    "title": "夜潮潮沟两份",
+    "body": "采夜潮潮沟的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide132",
+    "title": "夜潮潮池两份",
+    "body": "采夜潮潮池的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide133",
+    "title": "夜潮潮汐井两份",
+    "body": "采夜潮潮汐井的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide134",
+    "title": "夜潮盐沼两份",
+    "body": "采夜潮盐沼的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide135",
+    "title": "夜潮红树两份",
+    "body": "采夜潮红树的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide136",
+    "title": "夜潮海草两份",
+    "body": "采夜潮海草的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide137",
+    "title": "夜潮海带两份",
+    "body": "采夜潮海带的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide138",
+    "title": "夜潮紫菜两份",
+    "body": "采夜潮紫菜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide139",
+    "title": "夜潮裙带两份",
+    "body": "采夜潮裙带的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide140",
+    "title": "夜潮石莼两份",
+    "body": "采夜潮石莼的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide141",
+    "title": "夜潮浒苔两份",
+    "body": "采夜潮浒苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide142",
+    "title": "夜潮角叉两份",
+    "body": "采夜潮角叉的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide143",
+    "title": "夜潮麒麟菜两份",
+    "body": "采夜潮麒麟菜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide144",
+    "title": "晨潮潮间带两份",
+    "body": "采晨潮潮间带的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide145",
+    "title": "晨潮高潮线两份",
+    "body": "采晨潮高潮线的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide146",
+    "title": "晨潮低潮线两份",
+    "body": "采晨潮低潮线的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide147",
+    "title": "晨潮潮沟两份",
+    "body": "采晨潮潮沟的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide148",
+    "title": "晨潮潮池两份",
+    "body": "采晨潮潮池的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide149",
+    "title": "晨潮潮汐井两份",
+    "body": "采晨潮潮汐井的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide150",
+    "title": "晨潮盐沼两份",
+    "body": "采晨潮盐沼的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide151",
+    "title": "晨潮红树两份",
+    "body": "采晨潮红树的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide152",
+    "title": "晨潮海草两份",
+    "body": "采晨潮海草的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide153",
+    "title": "晨潮海带两份",
+    "body": "采晨潮海带的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide154",
+    "title": "晨潮紫菜两份",
+    "body": "采晨潮紫菜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide155",
+    "title": "晨潮裙带两份",
+    "body": "采晨潮裙带的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide156",
+    "title": "晨潮石莼两份",
+    "body": "采晨潮石莼的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide157",
+    "title": "晨潮浒苔两份",
+    "body": "采晨潮浒苔的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide158",
+    "title": "晨潮角叉两份",
+    "body": "采晨潮角叉的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide159",
+    "title": "晨潮麒麟菜两份",
+    "body": "采晨潮麒麟菜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide160",
+    "title": "雾潮潮间带两份",
+    "body": "采雾潮潮间带的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide161",
+    "title": "雾潮高潮线两份",
+    "body": "采雾潮高潮线的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide162",
+    "title": "雾潮低潮线两份",
+    "body": "采雾潮低潮线的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide163",
+    "title": "雾潮潮沟两份",
+    "body": "采雾潮潮沟的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide164",
+    "title": "雾潮潮池两份",
+    "body": "采雾潮潮池的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide165",
+    "title": "雾潮潮汐井两份",
+    "body": "采雾潮潮汐井的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide166",
+    "title": "雾潮盐沼两份",
+    "body": "采雾潮盐沼的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide167",
+    "title": "雾潮红树两份",
+    "body": "采雾潮红树的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide168",
+    "title": "雾潮海草两份",
+    "body": "采雾潮海草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide169",
+    "title": "雾潮海带两份",
+    "body": "采雾潮海带的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide170",
+    "title": "雾潮紫菜两份",
+    "body": "采雾潮紫菜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide171",
+    "title": "雾潮裙带两份",
+    "body": "采雾潮裙带的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide172",
+    "title": "雾潮石莼两份",
+    "body": "采雾潮石莼的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide173",
+    "title": "雾潮浒苔两份",
+    "body": "采雾潮浒苔的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide174",
+    "title": "雾潮角叉两份",
+    "body": "采雾潮角叉的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide175",
+    "title": "雾潮麒麟菜两份",
+    "body": "采雾潮麒麟菜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide176",
+    "title": "风潮潮间带两份",
+    "body": "采风潮潮间带的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide177",
+    "title": "风潮高潮线两份",
+    "body": "采风潮高潮线的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide178",
+    "title": "风潮低潮线两份",
+    "body": "采风潮低潮线的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide179",
+    "title": "风潮潮沟两份",
+    "body": "采风潮潮沟的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide180",
+    "title": "风潮潮池两份",
+    "body": "采风潮潮池的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide181",
+    "title": "风潮潮汐井两份",
+    "body": "采风潮潮汐井的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide182",
+    "title": "风潮盐沼两份",
+    "body": "采风潮盐沼的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide183",
+    "title": "风潮红树两份",
+    "body": "采风潮红树的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide184",
+    "title": "风潮海草两份",
+    "body": "采风潮海草的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide185",
+    "title": "风潮海带两份",
+    "body": "采风潮海带的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide186",
+    "title": "风潮紫菜两份",
+    "body": "采风潮紫菜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide187",
+    "title": "风潮裙带两份",
+    "body": "采风潮裙带的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide188",
+    "title": "风潮石莼两份",
+    "body": "采风潮石莼的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide189",
+    "title": "风潮浒苔两份",
+    "body": "采风潮浒苔的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide190",
+    "title": "风潮角叉两份",
+    "body": "采风潮角叉的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide191",
+    "title": "风潮麒麟菜两份",
+    "body": "采风潮麒麟菜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide192",
+    "title": "月潮潮间带两份",
+    "body": "采月潮潮间带的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide193",
+    "title": "月潮高潮线两份",
+    "body": "采月潮高潮线的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide194",
+    "title": "月潮低潮线两份",
+    "body": "采月潮低潮线的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide195",
+    "title": "月潮潮沟两份",
+    "body": "采月潮潮沟的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide196",
+    "title": "月潮潮池两份",
+    "body": "采月潮潮池的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide197",
+    "title": "月潮潮汐井两份",
+    "body": "采月潮潮汐井的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide198",
+    "title": "月潮盐沼两份",
+    "body": "采月潮盐沼的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide199",
+    "title": "月潮红树两份",
+    "body": "采月潮红树的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide200",
+    "title": "月潮海草两份",
+    "body": "采月潮海草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide201",
+    "title": "月潮海带两份",
+    "body": "采月潮海带的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide202",
+    "title": "月潮紫菜两份",
+    "body": "采月潮紫菜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide203",
+    "title": "月潮裙带两份",
+    "body": "采月潮裙带的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide204",
+    "title": "月潮石莼两份",
+    "body": "采月潮石莼的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide205",
+    "title": "月潮浒苔两份",
+    "body": "采月潮浒苔的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide206",
+    "title": "月潮角叉两份",
+    "body": "采月潮角叉的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide207",
+    "title": "月潮麒麟菜两份",
+    "body": "采月潮麒麟菜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide208",
+    "title": "星潮潮间带两份",
+    "body": "采星潮潮间带的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide209",
+    "title": "星潮高潮线两份",
+    "body": "采星潮高潮线的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide210",
+    "title": "星潮低潮线两份",
+    "body": "采星潮低潮线的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide211",
+    "title": "星潮潮沟两份",
+    "body": "采星潮潮沟的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide212",
+    "title": "星潮潮池两份",
+    "body": "采星潮潮池的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide213",
+    "title": "星潮潮汐井两份",
+    "body": "采星潮潮汐井的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide214",
+    "title": "星潮盐沼两份",
+    "body": "采星潮盐沼的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide215",
+    "title": "星潮红树两份",
+    "body": "采星潮红树的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide216",
+    "title": "星潮海草两份",
+    "body": "采星潮海草的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide217",
+    "title": "星潮海带两份",
+    "body": "采星潮海带的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide218",
+    "title": "星潮紫菜两份",
+    "body": "采星潮紫菜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide219",
+    "title": "星潮裙带两份",
+    "body": "采星潮裙带的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide220",
+    "title": "星潮石莼两份",
+    "body": "采星潮石莼的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide221",
+    "title": "星潮浒苔两份",
+    "body": "采星潮浒苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide222",
+    "title": "星潮角叉两份",
+    "body": "采星潮角叉的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide223",
+    "title": "星潮麒麟菜两份",
+    "body": "采星潮麒麟菜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide224",
+    "title": "灯潮潮间带两份",
+    "body": "采灯潮潮间带的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide225",
+    "title": "灯潮高潮线两份",
+    "body": "采灯潮高潮线的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide226",
+    "title": "灯潮低潮线两份",
+    "body": "采灯潮低潮线的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide227",
+    "title": "灯潮潮沟两份",
+    "body": "采灯潮潮沟的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide228",
+    "title": "灯潮潮池两份",
+    "body": "采灯潮潮池的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide229",
+    "title": "灯潮潮汐井两份",
+    "body": "采灯潮潮汐井的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide230",
+    "title": "灯潮盐沼两份",
+    "body": "采灯潮盐沼的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide231",
+    "title": "灯潮红树两份",
+    "body": "采灯潮红树的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide232",
+    "title": "灯潮海草两份",
+    "body": "采灯潮海草的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide233",
+    "title": "灯潮海带两份",
+    "body": "采灯潮海带的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide234",
+    "title": "灯潮紫菜两份",
+    "body": "采灯潮紫菜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide235",
+    "title": "灯潮裙带两份",
+    "body": "采灯潮裙带的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide236",
+    "title": "灯潮石莼两份",
+    "body": "采灯潮石莼的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide237",
+    "title": "灯潮浒苔两份",
+    "body": "采灯潮浒苔的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide238",
+    "title": "灯潮角叉两份",
+    "body": "采灯潮角叉的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide239",
+    "title": "灯潮麒麟菜两份",
+    "body": "采灯潮麒麟菜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide240",
+    "title": "渔潮潮间带两份",
+    "body": "采渔潮潮间带的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide241",
+    "title": "渔潮高潮线两份",
+    "body": "采渔潮高潮线的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide242",
+    "title": "渔潮低潮线两份",
+    "body": "采渔潮低潮线的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide243",
+    "title": "渔潮潮沟两份",
+    "body": "采渔潮潮沟的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide244",
+    "title": "渔潮潮池两份",
+    "body": "采渔潮潮池的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide245",
+    "title": "渔潮潮汐井两份",
+    "body": "采渔潮潮汐井的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide246",
+    "title": "渔潮盐沼两份",
+    "body": "采渔潮盐沼的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide247",
+    "title": "渔潮红树两份",
+    "body": "采渔潮红树的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide248",
+    "title": "渔潮海草两份",
+    "body": "采渔潮海草的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide249",
+    "title": "渔潮海带两份",
+    "body": "采渔潮海带的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide250",
+    "title": "渔潮紫菜两份",
+    "body": "采渔潮紫菜的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide251",
+    "title": "渔潮裙带两份",
+    "body": "采渔潮裙带的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide252",
+    "title": "渔潮石莼两份",
+    "body": "采渔潮石莼的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide253",
+    "title": "渔潮浒苔两份",
+    "body": "采渔潮浒苔的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide254",
+    "title": "渔潮角叉两份",
+    "body": "采渔潮角叉的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide255",
+    "title": "渔潮麒麟菜两份",
+    "body": "采渔潮麒麟菜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide256",
+    "title": "盐潮潮间带两份",
+    "body": "采盐潮潮间带的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide257",
+    "title": "盐潮高潮线两份",
+    "body": "采盐潮高潮线的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide258",
+    "title": "盐潮低潮线两份",
+    "body": "采盐潮低潮线的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide259",
+    "title": "盐潮潮沟两份",
+    "body": "采盐潮潮沟的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide260",
+    "title": "盐潮潮池两份",
+    "body": "采盐潮潮池的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide261",
+    "title": "盐潮潮汐井两份",
+    "body": "采盐潮潮汐井的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide262",
+    "title": "盐潮盐沼两份",
+    "body": "采盐潮盐沼的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide263",
+    "title": "盐潮红树两份",
+    "body": "采盐潮红树的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide264",
+    "title": "盐潮海草两份",
+    "body": "采盐潮海草的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide265",
+    "title": "盐潮海带两份",
+    "body": "采盐潮海带的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide266",
+    "title": "盐潮紫菜两份",
+    "body": "采盐潮紫菜的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide267",
+    "title": "盐潮裙带两份",
+    "body": "采盐潮裙带的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide268",
+    "title": "盐潮石莼两份",
+    "body": "采盐潮石莼的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide269",
+    "title": "盐潮浒苔两份",
+    "body": "采盐潮浒苔的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide270",
+    "title": "盐潮角叉两份",
+    "body": "采盐潮角叉的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide271",
+    "title": "盐潮麒麟菜两份",
+    "body": "采盐潮麒麟菜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide272",
+    "title": "沙潮潮间带两份",
+    "body": "采沙潮潮间带的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide273",
+    "title": "沙潮高潮线两份",
+    "body": "采沙潮高潮线的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide274",
+    "title": "沙潮低潮线两份",
+    "body": "采沙潮低潮线的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide275",
+    "title": "沙潮潮沟两份",
+    "body": "采沙潮潮沟的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide276",
+    "title": "沙潮潮池两份",
+    "body": "采沙潮潮池的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide277",
+    "title": "沙潮潮汐井两份",
+    "body": "采沙潮潮汐井的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide278",
+    "title": "沙潮盐沼两份",
+    "body": "采沙潮盐沼的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide279",
+    "title": "沙潮红树两份",
+    "body": "采沙潮红树的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide280",
+    "title": "沙潮海草两份",
+    "body": "采沙潮海草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide281",
+    "title": "沙潮海带两份",
+    "body": "采沙潮海带的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide282",
+    "title": "沙潮紫菜两份",
+    "body": "采沙潮紫菜的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide283",
+    "title": "沙潮裙带两份",
+    "body": "采沙潮裙带的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide284",
+    "title": "沙潮石莼两份",
+    "body": "采沙潮石莼的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide285",
+    "title": "沙潮浒苔两份",
+    "body": "采沙潮浒苔的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide286",
+    "title": "沙潮角叉两份",
+    "body": "采沙潮角叉的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide287",
+    "title": "沙潮麒麟菜两份",
+    "body": "采沙潮麒麟菜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide288",
+    "title": "石潮潮间带两份",
+    "body": "采石潮潮间带的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide289",
+    "title": "石潮高潮线两份",
+    "body": "采石潮高潮线的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide290",
+    "title": "石潮低潮线两份",
+    "body": "采石潮低潮线的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide291",
+    "title": "石潮潮沟两份",
+    "body": "采石潮潮沟的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide292",
+    "title": "石潮潮池两份",
+    "body": "采石潮潮池的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide293",
+    "title": "石潮潮汐井两份",
+    "body": "采石潮潮汐井的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide294",
+    "title": "石潮盐沼两份",
+    "body": "采石潮盐沼的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide295",
+    "title": "石潮红树两份",
+    "body": "采石潮红树的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide296",
+    "title": "石潮海草两份",
+    "body": "采石潮海草的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide297",
+    "title": "石潮海带两份",
+    "body": "采石潮海带的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide298",
+    "title": "石潮紫菜两份",
+    "body": "采石潮紫菜的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide299",
+    "title": "石潮裙带两份",
+    "body": "采石潮裙带的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide300",
+    "title": "石潮石莼两份",
+    "body": "采石潮石莼的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide301",
+    "title": "石潮浒苔两份",
+    "body": "采石潮浒苔的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide302",
+    "title": "石潮角叉两份",
+    "body": "采石潮角叉的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide303",
+    "title": "石潮麒麟菜两份",
+    "body": "采石潮麒麟菜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide304",
+    "title": "藻潮潮间带两份",
+    "body": "采藻潮潮间带的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide305",
+    "title": "藻潮高潮线两份",
+    "body": "采藻潮高潮线的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide306",
+    "title": "藻潮低潮线两份",
+    "body": "采藻潮低潮线的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide307",
+    "title": "藻潮潮沟两份",
+    "body": "采藻潮潮沟的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide308",
+    "title": "藻潮潮池两份",
+    "body": "采藻潮潮池的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide309",
+    "title": "藻潮潮汐井两份",
+    "body": "采藻潮潮汐井的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide310",
+    "title": "藻潮盐沼两份",
+    "body": "采藻潮盐沼的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide311",
+    "title": "藻潮红树两份",
+    "body": "采藻潮红树的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide312",
+    "title": "藻潮海草两份",
+    "body": "采藻潮海草的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide313",
+    "title": "藻潮海带两份",
+    "body": "采藻潮海带的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide314",
+    "title": "藻潮紫菜两份",
+    "body": "采藻潮紫菜的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide315",
+    "title": "藻潮裙带两份",
+    "body": "采藻潮裙带的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide316",
+    "title": "藻潮石莼两份",
+    "body": "采藻潮石莼的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide317",
+    "title": "藻潮浒苔两份",
+    "body": "采藻潮浒苔的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide318",
+    "title": "藻潮角叉两份",
+    "body": "采藻潮角叉的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tide319",
+    "title": "藻潮麒麟菜两份",
+    "body": "采藻潮麒麟菜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tide319": 2
+      },
+      "coins": 2
+    }
   }
 ]
