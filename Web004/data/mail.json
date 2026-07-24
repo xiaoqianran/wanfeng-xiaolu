@@ -171640,5 +171640,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_color0",
+    "title": "朱红色香两份",
+    "body": "采朱红色香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color0": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color1",
+    "title": "朱红彩香两份",
+    "body": "采朱红彩香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color1": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color2",
+    "title": "朱红红香两份",
+    "body": "采朱红红香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color2": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color3",
+    "title": "朱红黄香两份",
+    "body": "采朱红黄香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color3": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color4",
+    "title": "朱红绿香两份",
+    "body": "采朱红绿香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color4": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color5",
+    "title": "朱红青香两份",
+    "body": "采朱红青香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color5": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color6",
+    "title": "朱红蓝香两份",
+    "body": "采朱红蓝香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color6": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color7",
+    "title": "朱红紫香两份",
+    "body": "采朱红紫香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color7": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color8",
+    "title": "朱红墨香色两份",
+    "body": "采朱红墨香色的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color8": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color9",
+    "title": "朱红白香色两份",
+    "body": "采朱红白香色的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color9": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color10",
+    "title": "朱红灰香色两份",
+    "body": "采朱红灰香色的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color10": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color11",
+    "title": "朱红褐香两份",
+    "body": "采朱红褐香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color11": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color12",
+    "title": "朱红金香色两份",
+    "body": "采朱红金香色的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color12": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color13",
+    "title": "朱红银香色两份",
+    "body": "采朱红银香色的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color13": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color14",
+    "title": "绯红色香两份",
+    "body": "采绯红色香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color14": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color15",
+    "title": "绯红彩香两份",
+    "body": "采绯红彩香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color15": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color16",
+    "title": "绯红红香两份",
+    "body": "采绯红红香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color16": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color17",
+    "title": "绯红黄香两份",
+    "body": "采绯红黄香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color17": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color18",
+    "title": "绯红绿香两份",
+    "body": "采绯红绿香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color18": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color19",
+    "title": "绯红青香两份",
+    "body": "采绯红青香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color19": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color20",
+    "title": "绯红蓝香两份",
+    "body": "采绯红蓝香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color21",
+    "title": "绯红紫香两份",
+    "body": "采绯红紫香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color22",
+    "title": "绯红墨香色两份",
+    "body": "采绯红墨香色的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color23",
+    "title": "绯红白香色两份",
+    "body": "采绯红白香色的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color24",
+    "title": "绯红灰香色两份",
+    "body": "采绯红灰香色的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color25",
+    "title": "绯红褐香两份",
+    "body": "采绯红褐香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color26",
+    "title": "绯红金香色两份",
+    "body": "采绯红金香色的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color27",
+    "title": "绯红银香色两份",
+    "body": "采绯红银香色的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color28",
+    "title": "茜红色香两份",
+    "body": "采茜红色香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color29",
+    "title": "茜红彩香两份",
+    "body": "采茜红彩香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color30",
+    "title": "茜红红香两份",
+    "body": "采茜红红香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color30": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color31",
+    "title": "茜红黄香两份",
+    "body": "采茜红黄香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color31": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color32",
+    "title": "茜红绿香两份",
+    "body": "采茜红绿香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color32": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color33",
+    "title": "茜红青香两份",
+    "body": "采茜红青香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color33": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color34",
+    "title": "茜红蓝香两份",
+    "body": "采茜红蓝香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color34": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color35",
+    "title": "茜红紫香两份",
+    "body": "采茜红紫香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color35": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color36",
+    "title": "茜红墨香色两份",
+    "body": "采茜红墨香色的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color36": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color37",
+    "title": "茜红白香色两份",
+    "body": "采茜红白香色的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color37": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color38",
+    "title": "茜红灰香色两份",
+    "body": "采茜红灰香色的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color38": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color39",
+    "title": "茜红褐香两份",
+    "body": "采茜红褐香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color39": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color40",
+    "title": "茜红金香色两份",
+    "body": "采茜红金香色的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color40": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color41",
+    "title": "茜红银香色两份",
+    "body": "采茜红银香色的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color41": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color42",
+    "title": "洋红色香两份",
+    "body": "采洋红色香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color42": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color43",
+    "title": "洋红彩香两份",
+    "body": "采洋红彩香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color43": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color44",
+    "title": "洋红红香两份",
+    "body": "采洋红红香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color44": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color45",
+    "title": "洋红黄香两份",
+    "body": "采洋红黄香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color45": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color46",
+    "title": "洋红绿香两份",
+    "body": "采洋红绿香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color46": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color47",
+    "title": "洋红青香两份",
+    "body": "采洋红青香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color47": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color48",
+    "title": "洋红蓝香两份",
+    "body": "采洋红蓝香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color48": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color49",
+    "title": "洋红紫香两份",
+    "body": "采洋红紫香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color49": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color50",
+    "title": "洋红墨香色两份",
+    "body": "采洋红墨香色的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color50": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color51",
+    "title": "洋红白香色两份",
+    "body": "采洋红白香色的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color51": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color52",
+    "title": "洋红灰香色两份",
+    "body": "采洋红灰香色的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color52": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color53",
+    "title": "洋红褐香两份",
+    "body": "采洋红褐香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color53": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color54",
+    "title": "洋红金香色两份",
+    "body": "采洋红金香色的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color54": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color55",
+    "title": "洋红银香色两份",
+    "body": "采洋红银香色的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color55": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color56",
+    "title": "橘红色香两份",
+    "body": "采橘红色香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color56": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color57",
+    "title": "橘红彩香两份",
+    "body": "采橘红彩香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color57": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color58",
+    "title": "橘红红香两份",
+    "body": "采橘红红香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color58": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color59",
+    "title": "橘红黄香两份",
+    "body": "采橘红黄香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color59": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color60",
+    "title": "橘红绿香两份",
+    "body": "采橘红绿香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color60": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color61",
+    "title": "橘红青香两份",
+    "body": "采橘红青香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color61": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color62",
+    "title": "橘红蓝香两份",
+    "body": "采橘红蓝香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color62": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color63",
+    "title": "橘红紫香两份",
+    "body": "采橘红紫香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color63": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color64",
+    "title": "橘红墨香色两份",
+    "body": "采橘红墨香色的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color64": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color65",
+    "title": "橘红白香色两份",
+    "body": "采橘红白香色的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color65": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color66",
+    "title": "橘红灰香色两份",
+    "body": "采橘红灰香色的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color66": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color67",
+    "title": "橘红褐香两份",
+    "body": "采橘红褐香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color67": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color68",
+    "title": "橘红金香色两份",
+    "body": "采橘红金香色的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color68": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color69",
+    "title": "橘红银香色两份",
+    "body": "采橘红银香色的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color69": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color70",
+    "title": "橙黄色香两份",
+    "body": "采橙黄色香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color70": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color71",
+    "title": "橙黄彩香两份",
+    "body": "采橙黄彩香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color71": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color72",
+    "title": "橙黄红香两份",
+    "body": "采橙黄红香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color72": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color73",
+    "title": "橙黄黄香两份",
+    "body": "采橙黄黄香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color73": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color74",
+    "title": "橙黄绿香两份",
+    "body": "采橙黄绿香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color74": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color75",
+    "title": "橙黄青香两份",
+    "body": "采橙黄青香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color75": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color76",
+    "title": "橙黄蓝香两份",
+    "body": "采橙黄蓝香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color76": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color77",
+    "title": "橙黄紫香两份",
+    "body": "采橙黄紫香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color77": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color78",
+    "title": "橙黄墨香色两份",
+    "body": "采橙黄墨香色的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color78": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color79",
+    "title": "橙黄白香色两份",
+    "body": "采橙黄白香色的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color79": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color80",
+    "title": "橙黄灰香色两份",
+    "body": "采橙黄灰香色的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color80": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color81",
+    "title": "橙黄褐香两份",
+    "body": "采橙黄褐香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color81": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color82",
+    "title": "橙黄金香色两份",
+    "body": "采橙黄金香色的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color82": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color83",
+    "title": "橙黄银香色两份",
+    "body": "采橙黄银香色的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color83": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color84",
+    "title": "姜黄色香两份",
+    "body": "采姜黄色香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color84": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color85",
+    "title": "姜黄彩香两份",
+    "body": "采姜黄彩香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color85": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color86",
+    "title": "姜黄红香两份",
+    "body": "采姜黄红香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color86": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color87",
+    "title": "姜黄黄香两份",
+    "body": "采姜黄黄香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color87": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color88",
+    "title": "姜黄绿香两份",
+    "body": "采姜黄绿香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color88": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color89",
+    "title": "姜黄青香两份",
+    "body": "采姜黄青香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color89": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color90",
+    "title": "姜黄蓝香两份",
+    "body": "采姜黄蓝香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color90": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color91",
+    "title": "姜黄紫香两份",
+    "body": "采姜黄紫香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color91": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color92",
+    "title": "姜黄墨香色两份",
+    "body": "采姜黄墨香色的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color92": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color93",
+    "title": "姜黄白香色两份",
+    "body": "采姜黄白香色的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color93": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color94",
+    "title": "姜黄灰香色两份",
+    "body": "采姜黄灰香色的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color94": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color95",
+    "title": "姜黄褐香两份",
+    "body": "采姜黄褐香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color95": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color96",
+    "title": "姜黄金香色两份",
+    "body": "采姜黄金香色的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color96": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color97",
+    "title": "姜黄银香色两份",
+    "body": "采姜黄银香色的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color97": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color98",
+    "title": "土黄色香两份",
+    "body": "采土黄色香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color98": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color99",
+    "title": "土黄彩香两份",
+    "body": "采土黄彩香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color99": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color100",
+    "title": "土黄红香两份",
+    "body": "采土黄红香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color101",
+    "title": "土黄黄香两份",
+    "body": "采土黄黄香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color102",
+    "title": "土黄绿香两份",
+    "body": "采土黄绿香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color103",
+    "title": "土黄青香两份",
+    "body": "采土黄青香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color104",
+    "title": "土黄蓝香两份",
+    "body": "采土黄蓝香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color105",
+    "title": "土黄紫香两份",
+    "body": "采土黄紫香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color106",
+    "title": "土黄墨香色两份",
+    "body": "采土黄墨香色的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color107",
+    "title": "土黄白香色两份",
+    "body": "采土黄白香色的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color108",
+    "title": "土黄灰香色两份",
+    "body": "采土黄灰香色的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color109",
+    "title": "土黄褐香两份",
+    "body": "采土黄褐香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color110",
+    "title": "土黄金香色两份",
+    "body": "采土黄金香色的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color111",
+    "title": "土黄银香色两份",
+    "body": "采土黄银香色的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color112",
+    "title": "赭黄色香两份",
+    "body": "采赭黄色香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color113",
+    "title": "赭黄彩香两份",
+    "body": "采赭黄彩香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color114",
+    "title": "赭黄红香两份",
+    "body": "采赭黄红香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color115",
+    "title": "赭黄黄香两份",
+    "body": "采赭黄黄香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color116",
+    "title": "赭黄绿香两份",
+    "body": "采赭黄绿香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color117",
+    "title": "赭黄青香两份",
+    "body": "采赭黄青香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color118",
+    "title": "赭黄蓝香两份",
+    "body": "采赭黄蓝香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color119",
+    "title": "赭黄紫香两份",
+    "body": "采赭黄紫香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color120",
+    "title": "赭黄墨香色两份",
+    "body": "采赭黄墨香色的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color121",
+    "title": "赭黄白香色两份",
+    "body": "采赭黄白香色的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color122",
+    "title": "赭黄灰香色两份",
+    "body": "采赭黄灰香色的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color123",
+    "title": "赭黄褐香两份",
+    "body": "采赭黄褐香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color124",
+    "title": "赭黄金香色两份",
+    "body": "采赭黄金香色的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color125",
+    "title": "赭黄银香色两份",
+    "body": "采赭黄银香色的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color126",
+    "title": "金黄色香两份",
+    "body": "采金黄色香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color127",
+    "title": "金黄彩香两份",
+    "body": "采金黄彩香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color128",
+    "title": "金黄红香两份",
+    "body": "采金黄红香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color129",
+    "title": "金黄黄香两份",
+    "body": "采金黄黄香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color130",
+    "title": "金黄绿香两份",
+    "body": "采金黄绿香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color131",
+    "title": "金黄青香两份",
+    "body": "采金黄青香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color132",
+    "title": "金黄蓝香两份",
+    "body": "采金黄蓝香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color133",
+    "title": "金黄紫香两份",
+    "body": "采金黄紫香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color134",
+    "title": "金黄墨香色两份",
+    "body": "采金黄墨香色的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color135",
+    "title": "金黄白香色两份",
+    "body": "采金黄白香色的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color136",
+    "title": "金黄灰香色两份",
+    "body": "采金黄灰香色的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color137",
+    "title": "金黄褐香两份",
+    "body": "采金黄褐香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color138",
+    "title": "金黄金香色两份",
+    "body": "采金黄金香色的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color139",
+    "title": "金黄银香色两份",
+    "body": "采金黄银香色的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color140",
+    "title": "青绿色香两份",
+    "body": "采青绿色香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color141",
+    "title": "青绿彩香两份",
+    "body": "采青绿彩香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color142",
+    "title": "青绿红香两份",
+    "body": "采青绿红香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color143",
+    "title": "青绿黄香两份",
+    "body": "采青绿黄香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color144",
+    "title": "青绿绿香两份",
+    "body": "采青绿绿香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color145",
+    "title": "青绿青香两份",
+    "body": "采青绿青香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color146",
+    "title": "青绿蓝香两份",
+    "body": "采青绿蓝香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color147",
+    "title": "青绿紫香两份",
+    "body": "采青绿紫香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color148",
+    "title": "青绿墨香色两份",
+    "body": "采青绿墨香色的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color149",
+    "title": "青绿白香色两份",
+    "body": "采青绿白香色的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color150",
+    "title": "青绿灰香色两份",
+    "body": "采青绿灰香色的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color151",
+    "title": "青绿褐香两份",
+    "body": "采青绿褐香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color152",
+    "title": "青绿金香色两份",
+    "body": "采青绿金香色的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color153",
+    "title": "青绿银香色两份",
+    "body": "采青绿银香色的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color154",
+    "title": "翠绿色香两份",
+    "body": "采翠绿色香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color155",
+    "title": "翠绿彩香两份",
+    "body": "采翠绿彩香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color156",
+    "title": "翠绿红香两份",
+    "body": "采翠绿红香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color157",
+    "title": "翠绿黄香两份",
+    "body": "采翠绿黄香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color158",
+    "title": "翠绿绿香两份",
+    "body": "采翠绿绿香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color159",
+    "title": "翠绿青香两份",
+    "body": "采翠绿青香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color160",
+    "title": "翠绿蓝香两份",
+    "body": "采翠绿蓝香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color161",
+    "title": "翠绿紫香两份",
+    "body": "采翠绿紫香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color162",
+    "title": "翠绿墨香色两份",
+    "body": "采翠绿墨香色的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color163",
+    "title": "翠绿白香色两份",
+    "body": "采翠绿白香色的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color164",
+    "title": "翠绿灰香色两份",
+    "body": "采翠绿灰香色的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color165",
+    "title": "翠绿褐香两份",
+    "body": "采翠绿褐香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color166",
+    "title": "翠绿金香色两份",
+    "body": "采翠绿金香色的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color167",
+    "title": "翠绿银香色两份",
+    "body": "采翠绿银香色的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color168",
+    "title": "墨绿色香两份",
+    "body": "采墨绿色香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color169",
+    "title": "墨绿彩香两份",
+    "body": "采墨绿彩香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color170",
+    "title": "墨绿红香两份",
+    "body": "采墨绿红香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color171",
+    "title": "墨绿黄香两份",
+    "body": "采墨绿黄香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color172",
+    "title": "墨绿绿香两份",
+    "body": "采墨绿绿香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color173",
+    "title": "墨绿青香两份",
+    "body": "采墨绿青香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color174",
+    "title": "墨绿蓝香两份",
+    "body": "采墨绿蓝香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color175",
+    "title": "墨绿紫香两份",
+    "body": "采墨绿紫香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color176",
+    "title": "墨绿墨香色两份",
+    "body": "采墨绿墨香色的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color177",
+    "title": "墨绿白香色两份",
+    "body": "采墨绿白香色的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color178",
+    "title": "墨绿灰香色两份",
+    "body": "采墨绿灰香色的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color179",
+    "title": "墨绿褐香两份",
+    "body": "采墨绿褐香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color180",
+    "title": "墨绿金香色两份",
+    "body": "采墨绿金香色的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color181",
+    "title": "墨绿银香色两份",
+    "body": "采墨绿银香色的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color182",
+    "title": "黛绿色香两份",
+    "body": "采黛绿色香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color183",
+    "title": "黛绿彩香两份",
+    "body": "采黛绿彩香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color184",
+    "title": "黛绿红香两份",
+    "body": "采黛绿红香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color185",
+    "title": "黛绿黄香两份",
+    "body": "采黛绿黄香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color186",
+    "title": "黛绿绿香两份",
+    "body": "采黛绿绿香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color187",
+    "title": "黛绿青香两份",
+    "body": "采黛绿青香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color188",
+    "title": "黛绿蓝香两份",
+    "body": "采黛绿蓝香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color189",
+    "title": "黛绿紫香两份",
+    "body": "采黛绿紫香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color190",
+    "title": "黛绿墨香色两份",
+    "body": "采黛绿墨香色的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color191",
+    "title": "黛绿白香色两份",
+    "body": "采黛绿白香色的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color192",
+    "title": "黛绿灰香色两份",
+    "body": "采黛绿灰香色的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color193",
+    "title": "黛绿褐香两份",
+    "body": "采黛绿褐香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color194",
+    "title": "黛绿金香色两份",
+    "body": "采黛绿金香色的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color195",
+    "title": "黛绿银香色两份",
+    "body": "采黛绿银香色的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color196",
+    "title": "石绿色香两份",
+    "body": "采石绿色香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color197",
+    "title": "石绿彩香两份",
+    "body": "采石绿彩香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color198",
+    "title": "石绿红香两份",
+    "body": "采石绿红香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color199",
+    "title": "石绿黄香两份",
+    "body": "采石绿黄香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color200",
+    "title": "石绿绿香两份",
+    "body": "采石绿绿香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color201",
+    "title": "石绿青香两份",
+    "body": "采石绿青香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color202",
+    "title": "石绿蓝香两份",
+    "body": "采石绿蓝香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color203",
+    "title": "石绿紫香两份",
+    "body": "采石绿紫香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color204",
+    "title": "石绿墨香色两份",
+    "body": "采石绿墨香色的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color205",
+    "title": "石绿白香色两份",
+    "body": "采石绿白香色的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color206",
+    "title": "石绿灰香色两份",
+    "body": "采石绿灰香色的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color207",
+    "title": "石绿褐香两份",
+    "body": "采石绿褐香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color208",
+    "title": "石绿金香色两份",
+    "body": "采石绿金香色的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color209",
+    "title": "石绿银香色两份",
+    "body": "采石绿银香色的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color210",
+    "title": "靛青色香两份",
+    "body": "采靛青色香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color211",
+    "title": "靛青彩香两份",
+    "body": "采靛青彩香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color212",
+    "title": "靛青红香两份",
+    "body": "采靛青红香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color213",
+    "title": "靛青黄香两份",
+    "body": "采靛青黄香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color214",
+    "title": "靛青绿香两份",
+    "body": "采靛青绿香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color215",
+    "title": "靛青青香两份",
+    "body": "采靛青青香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color216",
+    "title": "靛青蓝香两份",
+    "body": "采靛青蓝香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color217",
+    "title": "靛青紫香两份",
+    "body": "采靛青紫香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color218",
+    "title": "靛青墨香色两份",
+    "body": "采靛青墨香色的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color219",
+    "title": "靛青白香色两份",
+    "body": "采靛青白香色的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color220",
+    "title": "靛青灰香色两份",
+    "body": "采靛青灰香色的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color221",
+    "title": "靛青褐香两份",
+    "body": "采靛青褐香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color222",
+    "title": "靛青金香色两份",
+    "body": "采靛青金香色的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color223",
+    "title": "靛青银香色两份",
+    "body": "采靛青银香色的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color224",
+    "title": "群青色香两份",
+    "body": "采群青色香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color225",
+    "title": "群青彩香两份",
+    "body": "采群青彩香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color226",
+    "title": "群青红香两份",
+    "body": "采群青红香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color227",
+    "title": "群青黄香两份",
+    "body": "采群青黄香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color228",
+    "title": "群青绿香两份",
+    "body": "采群青绿香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color229",
+    "title": "群青青香两份",
+    "body": "采群青青香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color230",
+    "title": "群青蓝香两份",
+    "body": "采群青蓝香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color231",
+    "title": "群青紫香两份",
+    "body": "采群青紫香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color232",
+    "title": "群青墨香色两份",
+    "body": "采群青墨香色的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color233",
+    "title": "群青白香色两份",
+    "body": "采群青白香色的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color234",
+    "title": "群青灰香色两份",
+    "body": "采群青灰香色的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color235",
+    "title": "群青褐香两份",
+    "body": "采群青褐香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color236",
+    "title": "群青金香色两份",
+    "body": "采群青金香色的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color237",
+    "title": "群青银香色两份",
+    "body": "采群青银香色的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color238",
+    "title": "钴蓝色香两份",
+    "body": "采钴蓝色香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color239",
+    "title": "钴蓝彩香两份",
+    "body": "采钴蓝彩香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color240",
+    "title": "钴蓝红香两份",
+    "body": "采钴蓝红香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color241",
+    "title": "钴蓝黄香两份",
+    "body": "采钴蓝黄香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color242",
+    "title": "钴蓝绿香两份",
+    "body": "采钴蓝绿香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color243",
+    "title": "钴蓝青香两份",
+    "body": "采钴蓝青香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color244",
+    "title": "钴蓝蓝香两份",
+    "body": "采钴蓝蓝香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color245",
+    "title": "钴蓝紫香两份",
+    "body": "采钴蓝紫香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color246",
+    "title": "钴蓝墨香色两份",
+    "body": "采钴蓝墨香色的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color247",
+    "title": "钴蓝白香色两份",
+    "body": "采钴蓝白香色的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color248",
+    "title": "钴蓝灰香色两份",
+    "body": "采钴蓝灰香色的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color249",
+    "title": "钴蓝褐香两份",
+    "body": "采钴蓝褐香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color250",
+    "title": "钴蓝金香色两份",
+    "body": "采钴蓝金香色的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color251",
+    "title": "钴蓝银香色两份",
+    "body": "采钴蓝银香色的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color252",
+    "title": "天蓝色香两份",
+    "body": "采天蓝色香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color253",
+    "title": "天蓝彩香两份",
+    "body": "采天蓝彩香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color254",
+    "title": "天蓝红香两份",
+    "body": "采天蓝红香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color255",
+    "title": "天蓝黄香两份",
+    "body": "采天蓝黄香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color256",
+    "title": "天蓝绿香两份",
+    "body": "采天蓝绿香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color257",
+    "title": "天蓝青香两份",
+    "body": "采天蓝青香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color258",
+    "title": "天蓝蓝香两份",
+    "body": "采天蓝蓝香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color259",
+    "title": "天蓝紫香两份",
+    "body": "采天蓝紫香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color260",
+    "title": "天蓝墨香色两份",
+    "body": "采天蓝墨香色的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color261",
+    "title": "天蓝白香色两份",
+    "body": "采天蓝白香色的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color262",
+    "title": "天蓝灰香色两份",
+    "body": "采天蓝灰香色的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color263",
+    "title": "天蓝褐香两份",
+    "body": "采天蓝褐香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color264",
+    "title": "天蓝金香色两份",
+    "body": "采天蓝金香色的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color265",
+    "title": "天蓝银香色两份",
+    "body": "采天蓝银香色的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color266",
+    "title": "湖蓝色香两份",
+    "body": "采湖蓝色香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color267",
+    "title": "湖蓝彩香两份",
+    "body": "采湖蓝彩香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color268",
+    "title": "湖蓝红香两份",
+    "body": "采湖蓝红香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color269",
+    "title": "湖蓝黄香两份",
+    "body": "采湖蓝黄香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color270",
+    "title": "湖蓝绿香两份",
+    "body": "采湖蓝绿香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color271",
+    "title": "湖蓝青香两份",
+    "body": "采湖蓝青香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color272",
+    "title": "湖蓝蓝香两份",
+    "body": "采湖蓝蓝香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color273",
+    "title": "湖蓝紫香两份",
+    "body": "采湖蓝紫香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color274",
+    "title": "湖蓝墨香色两份",
+    "body": "采湖蓝墨香色的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color275",
+    "title": "湖蓝白香色两份",
+    "body": "采湖蓝白香色的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color276",
+    "title": "湖蓝灰香色两份",
+    "body": "采湖蓝灰香色的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color277",
+    "title": "湖蓝褐香两份",
+    "body": "采湖蓝褐香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color278",
+    "title": "湖蓝金香色两份",
+    "body": "采湖蓝金香色的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color279",
+    "title": "湖蓝银香色两份",
+    "body": "采湖蓝银香色的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color280",
+    "title": "紫青色香两份",
+    "body": "采紫青色香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color281",
+    "title": "紫青彩香两份",
+    "body": "采紫青彩香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color282",
+    "title": "紫青红香两份",
+    "body": "采紫青红香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color283",
+    "title": "紫青黄香两份",
+    "body": "采紫青黄香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color284",
+    "title": "紫青绿香两份",
+    "body": "采紫青绿香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color285",
+    "title": "紫青青香两份",
+    "body": "采紫青青香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color286",
+    "title": "紫青蓝香两份",
+    "body": "采紫青蓝香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color287",
+    "title": "紫青紫香两份",
+    "body": "采紫青紫香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color288",
+    "title": "紫青墨香色两份",
+    "body": "采紫青墨香色的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color289",
+    "title": "紫青白香色两份",
+    "body": "采紫青白香色的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color290",
+    "title": "紫青灰香色两份",
+    "body": "采紫青灰香色的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color291",
+    "title": "紫青褐香两份",
+    "body": "采紫青褐香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color292",
+    "title": "紫青金香色两份",
+    "body": "采紫青金香色的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color293",
+    "title": "紫青银香色两份",
+    "body": "采紫青银香色的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color294",
+    "title": "葡萄紫色香两份",
+    "body": "采葡萄紫色香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color295",
+    "title": "葡萄紫彩香两份",
+    "body": "采葡萄紫彩香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color296",
+    "title": "葡萄紫红香两份",
+    "body": "采葡萄紫红香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color297",
+    "title": "葡萄紫黄香两份",
+    "body": "采葡萄紫黄香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color298",
+    "title": "葡萄紫绿香两份",
+    "body": "采葡萄紫绿香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color299",
+    "title": "葡萄紫青香两份",
+    "body": "采葡萄紫青香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color300",
+    "title": "葡萄紫蓝香两份",
+    "body": "采葡萄紫蓝香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color301",
+    "title": "葡萄紫紫香两份",
+    "body": "采葡萄紫紫香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color302",
+    "title": "葡萄紫墨香色两份",
+    "body": "采葡萄紫墨香色的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color303",
+    "title": "葡萄紫白香色两份",
+    "body": "采葡萄紫白香色的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color304",
+    "title": "葡萄紫灰香色两份",
+    "body": "采葡萄紫灰香色的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color305",
+    "title": "葡萄紫褐香两份",
+    "body": "采葡萄紫褐香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color306",
+    "title": "葡萄紫金香色两份",
+    "body": "采葡萄紫金香色的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color307",
+    "title": "葡萄紫银香色两份",
+    "body": "采葡萄紫银香色的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color308",
+    "title": "藕荷色香两份",
+    "body": "采藕荷色香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color309",
+    "title": "藕荷彩香两份",
+    "body": "采藕荷彩香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color310",
+    "title": "藕荷红香两份",
+    "body": "采藕荷红香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color311",
+    "title": "藕荷黄香两份",
+    "body": "采藕荷黄香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color312",
+    "title": "藕荷绿香两份",
+    "body": "采藕荷绿香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color313",
+    "title": "藕荷青香两份",
+    "body": "采藕荷青香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color314",
+    "title": "藕荷蓝香两份",
+    "body": "采藕荷蓝香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color315",
+    "title": "藕荷紫香两份",
+    "body": "采藕荷紫香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color316",
+    "title": "藕荷墨香色两份",
+    "body": "采藕荷墨香色的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color317",
+    "title": "藕荷白香色两份",
+    "body": "采藕荷白香色的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color318",
+    "title": "藕荷灰香色两份",
+    "body": "采藕荷灰香色的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_color319",
+    "title": "藕荷褐香两份",
+    "body": "采藕荷褐香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "color319": 2
+      },
+      "coins": 2
+    }
   }
 ]
