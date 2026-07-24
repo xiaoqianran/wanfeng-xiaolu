@@ -7159,6 +7159,118 @@
       "emoji": "🤍",
       "kind": "风味",
       "seed": "pyrethrumPot"
+    },
+    "sunflower_dwarf": {
+      "id": "sunflower_dwarf",
+      "name": "矮向日葵",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "sunflower_dwarfPot"
+    },
+    "sunflower_multi": {
+      "id": "sunflower_multi",
+      "name": "多头向日葵",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "sunflower_multiPot"
+    },
+    "sunflower_red": {
+      "id": "sunflower_red",
+      "name": "红向日葵",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "sunflower_redPot"
+    },
+    "jerusalem_artichoke": {
+      "id": "jerusalem_artichoke",
+      "name": "菊芋",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "jerusalem_artichokePot"
+    },
+    "sunchoke_flower": {
+      "id": "sunchoke_flower",
+      "name": "菊芋花",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "sunchoke_flowerPot"
+    },
+    "topinambur": {
+      "id": "topinambur",
+      "name": "洋姜",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "topinamburPot"
+    },
+    "dahlia_cactus": {
+      "id": "dahlia_cactus",
+      "name": "仙人掌大丽",
+      "emoji": "💗",
+      "kind": "风味",
+      "seed": "dahlia_cactusPot"
+    },
+    "dahlia_pompom": {
+      "id": "dahlia_pompom",
+      "name": "绒球大丽",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "dahlia_pompomPot"
+    },
+    "zinnia_dwarf": {
+      "id": "zinnia_dwarf",
+      "name": "矮百日草",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "zinnia_dwarfPot"
+    },
+    "zinnia_cactus": {
+      "id": "zinnia_cactus",
+      "name": "仙人掌百日",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "zinnia_cactusPot"
+    },
+    "cosmos_sulph": {
+      "id": "cosmos_sulph",
+      "name": "硫华菊",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "cosmos_sulphPot"
+    },
+    "cosmos_choco": {
+      "id": "cosmos_choco",
+      "name": "巧克力波斯",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "cosmos_chocoPot"
+    },
+    "tithonia": {
+      "id": "tithonia",
+      "name": "肿柄菊",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "tithoniaPot"
+    },
+    "mexican_sunflower": {
+      "id": "mexican_sunflower",
+      "name": "墨西哥向日葵",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "mexican_sunflowerPot"
+    },
+    "heliopsis": {
+      "id": "heliopsis",
+      "name": "假向日葵",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "heliopsisPot"
+    },
+    "inula_helenium": {
+      "id": "inula_helenium",
+      "name": "土木香欧",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "inula_heleniumPot"
     }
   },
   "plants": {
@@ -16605,6 +16717,182 @@
       ],
       "harvest": "pyrethrum",
       "days": 3
+    },
+    "sunflower_dwarfPot": {
+      "id": "sunflower_dwarfPot",
+      "name": "矮向日葵",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "sunflower_dwarf",
+      "days": 3
+    },
+    "sunflower_multiPot": {
+      "id": "sunflower_multiPot",
+      "name": "多头向日葵",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "sunflower_multi",
+      "days": 3
+    },
+    "sunflower_redPot": {
+      "id": "sunflower_redPot",
+      "name": "红向日葵",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "sunflower_red",
+      "days": 3
+    },
+    "jerusalem_artichokePot": {
+      "id": "jerusalem_artichokePot",
+      "name": "菊芋",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "jerusalem_artichoke",
+      "days": 4
+    },
+    "sunchoke_flowerPot": {
+      "id": "sunchoke_flowerPot",
+      "name": "菊芋花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "sunchoke_flower",
+      "days": 3
+    },
+    "topinamburPot": {
+      "id": "topinamburPot",
+      "name": "洋姜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "topinambur",
+      "days": 4
+    },
+    "dahlia_cactusPot": {
+      "id": "dahlia_cactusPot",
+      "name": "仙人掌大丽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💗"
+      ],
+      "harvest": "dahlia_cactus",
+      "days": 3
+    },
+    "dahlia_pompomPot": {
+      "id": "dahlia_pompomPot",
+      "name": "绒球大丽",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "dahlia_pompom",
+      "days": 3
+    },
+    "zinnia_dwarfPot": {
+      "id": "zinnia_dwarfPot",
+      "name": "矮百日草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "zinnia_dwarf",
+      "days": 3
+    },
+    "zinnia_cactusPot": {
+      "id": "zinnia_cactusPot",
+      "name": "仙人掌百日",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "zinnia_cactus",
+      "days": 3
+    },
+    "cosmos_sulphPot": {
+      "id": "cosmos_sulphPot",
+      "name": "硫华菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "cosmos_sulph",
+      "days": 3
+    },
+    "cosmos_chocoPot": {
+      "id": "cosmos_chocoPot",
+      "name": "巧克力波斯",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "cosmos_choco",
+      "days": 3
+    },
+    "tithoniaPot": {
+      "id": "tithoniaPot",
+      "name": "肿柄菊",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "tithonia",
+      "days": 3
+    },
+    "mexican_sunflowerPot": {
+      "id": "mexican_sunflowerPot",
+      "name": "墨西哥向日葵",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "mexican_sunflower",
+      "days": 3
+    },
+    "heliopsisPot": {
+      "id": "heliopsisPot",
+      "name": "假向日葵",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "heliopsis",
+      "days": 3
+    },
+    "inula_heleniumPot": {
+      "id": "inula_heleniumPot",
+      "name": "土木香欧",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "inula_helenium",
+      "days": 4
     }
   },
   "cups": [
@@ -24299,6 +24587,166 @@
       "tags": [
         "花香",
         "清爽"
+      ]
+    },
+    {
+      "id": "sunflower_dwarf",
+      "name": "矮向日葵",
+      "emoji": "🟡",
+      "need": "sunflower_dwarf",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "sunflower_multi",
+      "name": "多头向日葵",
+      "emoji": "🟡",
+      "need": "sunflower_multi",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "sunflower_red",
+      "name": "红向日葵",
+      "emoji": "🔴",
+      "need": "sunflower_red",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "jerusalem_artichoke",
+      "name": "菊芋",
+      "emoji": "🟡",
+      "need": "jerusalem_artichoke",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "sunchoke_flower",
+      "name": "菊芋花",
+      "emoji": "🟡",
+      "need": "sunchoke_flower",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "topinambur",
+      "name": "洋姜",
+      "emoji": "🟤",
+      "need": "topinambur",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "dahlia_cactus",
+      "name": "仙人掌大丽",
+      "emoji": "💗",
+      "need": "dahlia_cactus",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "dahlia_pompom",
+      "name": "绒球大丽",
+      "emoji": "💜",
+      "need": "dahlia_pompom",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "zinnia_dwarf",
+      "name": "矮百日草",
+      "emoji": "🔴",
+      "need": "zinnia_dwarf",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "zinnia_cactus",
+      "name": "仙人掌百日",
+      "emoji": "🧡",
+      "need": "zinnia_cactus",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "cosmos_sulph",
+      "name": "硫华菊",
+      "emoji": "🟡",
+      "need": "cosmos_sulph",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "cosmos_choco",
+      "name": "巧克力波斯",
+      "emoji": "🟤",
+      "need": "cosmos_choco",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "tithonia",
+      "name": "肿柄菊",
+      "emoji": "🧡",
+      "need": "tithonia",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "mexican_sunflower",
+      "name": "墨西哥向日葵",
+      "emoji": "🧡",
+      "need": "mexican_sunflower",
+      "tags": [
+        "花香",
+        "温暖"
+      ]
+    },
+    {
+      "id": "heliopsis",
+      "name": "假向日葵",
+      "emoji": "🟡",
+      "need": "heliopsis",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "inula_helenium",
+      "name": "土木香欧",
+      "emoji": "💛",
+      "need": "inula_helenium",
+      "tags": [
+        "花香",
+        "草本"
       ]
     }
   ],
@@ -35817,6 +36265,246 @@
         "honey",
         "tea_leaf",
         "mint"
+      ]
+    },
+    {
+      "name": "采矮向日葵的旅人",
+      "avatar": "🟡",
+      "wish": "矮向日葵或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "sunflower_dwarf",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采多头向日葵的药师",
+      "avatar": "🟡",
+      "wish": "多头向日葵或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "sunflower_multi",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采红向日葵的旅人",
+      "avatar": "🔴",
+      "wish": "红向日葵或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "sunflower_red",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "挖菊芋的药师",
+      "avatar": "🟡",
+      "wish": "菊芋或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "jerusalem_artichoke",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采菊芋花的旅人",
+      "avatar": "🟡",
+      "wish": "菊芋花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "sunchoke_flower",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖洋姜的药师",
+      "avatar": "🟤",
+      "wish": "洋姜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "topinambur",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采仙人掌大丽的旅人",
+      "avatar": "💗",
+      "wish": "仙人掌大丽或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "dahlia_cactus",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采绒球大丽的药师",
+      "avatar": "💜",
+      "wish": "绒球大丽或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "dahlia_pompom",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采矮百日草的旅人",
+      "avatar": "🔴",
+      "wish": "矮百日草或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "zinnia_dwarf",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采仙人掌百日的药师",
+      "avatar": "🧡",
+      "wish": "仙人掌百日或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "zinnia_cactus",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采硫华菊的旅人",
+      "avatar": "🟡",
+      "wish": "硫华菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "cosmos_sulph",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采巧克力波斯的药师",
+      "avatar": "🟤",
+      "wish": "巧克力波斯或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "cosmos_choco",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采肿柄菊的旅人",
+      "avatar": "🧡",
+      "wish": "肿柄菊或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "tithonia",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采墨西哥向日葵的药师",
+      "avatar": "🧡",
+      "wish": "墨西哥向日葵或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温暖"
+      ],
+      "flavors": [
+        "mexican_sunflower",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采假向日葵的旅人",
+      "avatar": "🟡",
+      "wish": "假向日葵或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "heliopsis",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采土木香欧的药师",
+      "avatar": "💛",
+      "wish": "土木香欧或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "inula_helenium",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
       ]
     }
   ],

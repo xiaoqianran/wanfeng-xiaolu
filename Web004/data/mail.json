@@ -8136,5 +8136,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_sunflower_dwarf",
+    "title": "矮向日葵两份",
+    "body": "采矮向日葵的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sunflower_dwarf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sunflower_multi",
+    "title": "多头向日葵两份",
+    "body": "采多头向日葵的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sunflower_multi": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sunflower_red",
+    "title": "红向日葵两份",
+    "body": "采红向日葵的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sunflower_red": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_jerusalem_artichoke",
+    "title": "菊芋两份",
+    "body": "挖菊芋的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "jerusalem_artichoke": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sunchoke_flower",
+    "title": "菊芋花两份",
+    "body": "采菊芋花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sunchoke_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_topinambur",
+    "title": "洋姜两份",
+    "body": "炖洋姜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "topinambur": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_dahlia_cactus",
+    "title": "仙人掌大丽两份",
+    "body": "采仙人掌大丽的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "dahlia_cactus": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_dahlia_pompom",
+    "title": "绒球大丽两份",
+    "body": "采绒球大丽的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "dahlia_pompom": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_zinnia_dwarf",
+    "title": "矮百日草两份",
+    "body": "采矮百日草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "zinnia_dwarf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_zinnia_cactus",
+    "title": "仙人掌百日两份",
+    "body": "采仙人掌百日的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "zinnia_cactus": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cosmos_sulph",
+    "title": "硫华菊两份",
+    "body": "采硫华菊的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cosmos_sulph": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cosmos_choco",
+    "title": "巧克力波斯两份",
+    "body": "采巧克力波斯的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cosmos_choco": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tithonia",
+    "title": "肿柄菊两份",
+    "body": "采肿柄菊的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tithonia": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mexican_sunflower",
+    "title": "墨西哥向日葵两份",
+    "body": "采墨西哥向日葵的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mexican_sunflower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_heliopsis",
+    "title": "假向日葵两份",
+    "body": "采假向日葵的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "heliopsis": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_inula_helenium",
+    "title": "土木香欧两份",
+    "body": "采土木香欧的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "inula_helenium": 2
+      },
+      "coins": 2
+    }
   }
 ]
