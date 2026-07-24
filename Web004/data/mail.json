@@ -1129,5 +1129,27 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_saffron",
+    "title": "藏红花几丝",
+    "body": "泡藏红花的阿婆来信：新收的。给你几丝，别放太久。",
+    "effect": {
+      "items": {
+        "saffron": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_walnut",
+    "title": "核桃一把",
+    "body": "砸核桃的爷爷来信：刚砸开的。给你一把，别放太久。",
+    "effect": {
+      "items": {
+        "walnut": 3
+      },
+      "coins": 2
+    }
   }
 ]

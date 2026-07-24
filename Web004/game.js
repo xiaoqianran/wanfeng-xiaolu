@@ -2049,6 +2049,39 @@ function renderJournal() {
         ctx.arc(x, y, 1.6, 0, Math.PI * 2);
         ctx.fill();
       }
+    } else if (themeId === "saffron_terrace") {
+      // warm terrace rail + orange-red saffron threads
+      ctx.strokeStyle = "rgba(120,90,60,0.4)";
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(0, h * 0.5);
+      ctx.lineTo(w, h * 0.5);
+      ctx.stroke();
+      ctx.strokeStyle = "rgba(220,100,40,0.55)";
+      ctx.lineWidth = 1;
+      for (let i = 0; i < 20; i++) {
+        const x = 20 + (i * 42 + Math.sin(time * 0.02 + i) * 3) % (w - 40);
+        const y = h * 0.3 + ((i * 13) % 40);
+        ctx.beginPath();
+        ctx.moveTo(x, y);
+        ctx.lineTo(x + 6 + Math.sin(time * 0.04 + i), y + 10);
+        ctx.stroke();
+      }
+    } else if (themeId === "walnut_path") {
+      // thick trunks + round brown walnuts
+      ctx.fillStyle = "rgba(60,45,30,0.28)";
+      for (let i = 0; i < 6; i++) {
+        const x = 50 + i * (w / 6);
+        ctx.fillRect(x - 5, h * 0.32, 10, h * 0.22);
+      }
+      ctx.fillStyle = "rgba(110,70,40,0.55)";
+      for (let i = 0; i < 16; i++) {
+        const x = 25 + (i * 52 + Math.sin(time * 0.02 + i) * 3) % (w - 45);
+        const y = h * 0.32 + ((i * 17) % 45);
+        ctx.beginPath();
+        ctx.arc(x, y, 4, 0, Math.PI * 2);
+        ctx.fill();
+      }
     }
   }
 
@@ -3038,14 +3071,14 @@ function renderJournal() {
     if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel" || flavorDef.id === "cardamom" || flavorDef.id === "ginger" || flavorDef.id === "calendula" || flavorDef.id === "chrysanthemum" || flavorDef.id === "hibiscus" || flavorDef.id === "plum" || flavorDef.id === "grape" || flavorDef.id === "mulberry" || flavorDef.id === "persimmon" || flavorDef.id === "fig" || flavorDef.id === "longan" || flavorDef.id === "hawthorn" || flavorDef.id === "pear" || flavorDef.id === "apricot" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame")) {
       score += 0.5; notes.push("秋日温甜");
     }
-    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube" || flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame")) {
+    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube" || flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron")) {
       score += 0.5; notes.push("冬日暖茶");
     }
     if (
       (cupDef && (cupDef.id === "mug" || cupDef.id === "warm" || cupDef.vibe === "温柔" || cupDef.vibe === "温暖")) ||
       (baseDef && (baseDef.id === "honey_water" || baseDef.id === "tea"))
     ) {
-      if (flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame") {
+      if (flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron") {
         score += 0.25; notes.push("甜点一角");
       }
     }
