@@ -2868,6 +2868,34 @@
       "emoji": "🟤",
       "kind": "风味",
       "seed": "dateFruitPot"
+    },
+    "hyssop": {
+      "id": "hyssop",
+      "name": "神香草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "hyssopPot"
+    },
+    "chervil": {
+      "id": "chervil",
+      "name": "香芹",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "chervilPot"
+    },
+    "sorrel": {
+      "id": "sorrel",
+      "name": "酸模",
+      "emoji": "🍋",
+      "kind": "风味",
+      "seed": "sorrelPot"
+    },
+    "lovage": {
+      "id": "lovage",
+      "name": "独活",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "lovagePot"
     }
   },
   "plants": {
@@ -5571,6 +5599,50 @@
       ],
       "harvest": "date_fruit",
       "days": 4
+    },
+    "hyssopPot": {
+      "id": "hyssopPot",
+      "name": "神香草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "hyssop",
+      "days": 3
+    },
+    "chervilPot": {
+      "id": "chervilPot",
+      "name": "香芹",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "chervil",
+      "days": 2
+    },
+    "sorrelPot": {
+      "id": "sorrelPot",
+      "name": "酸模",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍋"
+      ],
+      "harvest": "sorrel",
+      "days": 2
+    },
+    "lovagePot": {
+      "id": "lovagePot",
+      "name": "独活",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "lovage",
+      "days": 3
     }
   },
   "cups": [
@@ -7134,6 +7206,46 @@
       "need": "date_fruit",
       "tags": [
         "甜蜜",
+        "温暖"
+      ]
+    },
+    {
+      "id": "hyssop",
+      "name": "神香草",
+      "emoji": "💜",
+      "need": "hyssop",
+      "tags": [
+        "草本",
+        "花香"
+      ]
+    },
+    {
+      "id": "chervil",
+      "name": "香芹",
+      "emoji": "🌿",
+      "need": "chervil",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "sorrel",
+      "name": "酸模",
+      "emoji": "🍋",
+      "need": "sorrel",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "lovage",
+      "name": "独活",
+      "emoji": "🌿",
+      "need": "lovage",
+      "tags": [
+        "草本",
         "温暖"
       ]
     }
@@ -9457,6 +9569,67 @@
         "honey",
         "tea_leaf",
         "cocoa"
+      ]
+    },
+    {
+      "name": "泡神香草的修女",
+      "avatar": "💜",
+      "wish": "神香草或蜜，温柔花香，暖杯也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "hyssop",
+        "honey",
+        "lavender_bud",
+        "jasmine"
+      ]
+    },
+    {
+      "name": "点香芹的厨娘",
+      "avatar": "🌿",
+      "wish": "香芹或薄荷，清爽一点，装饰好看。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "chervil",
+        "mint",
+        "parsley",
+        "chive"
+      ],
+      "wantTopping": true
+    },
+    {
+      "name": "切酸模的厨子",
+      "avatar": "🍋",
+      "wish": "酸模或柠檬，清爽一点，气泡最好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "sorrel",
+        "lemon",
+        "mint",
+        "lime"
+      ]
+    },
+    {
+      "name": "炖独活的厨娘",
+      "avatar": "🍲",
+      "wish": "独活或蜜，温暖草本，暖杯也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "lovage",
+        "honey",
+        "tea_leaf",
+        "bay_leaf"
       ]
     }
   ],
