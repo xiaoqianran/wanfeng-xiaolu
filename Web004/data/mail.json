@@ -931,5 +931,27 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_dragonfruit",
+    "title": "火龙果两片",
+    "body": "切火龙果的店员来信：刚切开的。给你两片，别放太久。",
+    "effect": {
+      "items": {
+        "dragonfruit": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_guava",
+    "title": "番石榴两颗",
+    "body": "晒番石榴的阿婆来信：树上新摘的。给你两颗，别放太久。",
+    "effect": {
+      "items": {
+        "guava": 2
+      },
+      "coins": 2
+    }
   }
 ]
