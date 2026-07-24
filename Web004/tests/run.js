@@ -3358,5 +3358,58 @@ test("saffron walnut plantable 80 themes path_eighty", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("pistachio chestnut cinnamon clove 84 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  const ids = ["pistachio", "chestnut", "cinnamon", "clove"];
+  const pots = ["pistachioPot", "chestnutPot", "cinnamonPot", "clovePot"];
+  ids.forEach((id, i) => {
+    assert.ok(j.items[id] && j.plants[pots[i]], id);
+    assert.ok(j.flavors.some((f) => f.id === id), "flavor " + id);
+  });
+  assert.ok(j.customers.some((c) => c.name === "剥开心果的店员"));
+  assert.ok(j.customers.some((c) => c.name === "烤板栗的大叔"));
+  assert.ok(j.customers.some((c) => c.name === "磨肉桂的厨子"));
+  assert.ok(j.customers.some((c) => c.name === "点丁香的药师"));
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  ids.forEach((id, i) => {
+    s.bag[id] = 1;
+    assert.ok(core.plantSeed(s, i % 4, id, cat).ok, "plant " + id);
+  });
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  ["pistachio_lane", "chestnut_grove", "cinnamon_path", "clove_courtyard"].forEach((tid) => {
+    assert.ok(themes.some((th) => th.id === tid), tid);
+  });
+  assert.ok(themes.length >= 84);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  ids.forEach((id) => assert.ok(winterPool.includes(id), "winter " + id));
+  const score = core.scoreDrink(
+    { name: "烤板栗的大叔", tags: ["甜蜜", "温暖"], flavors: ["chestnut"] },
+    { cup: "mug", base: "honey_water", flavor: "chestnut", topping: "none" },
+    { cups: [{ id: "mug", vibe: "温柔" }], bases: j.bases, flavors: j.flavors, season: "winter" }
+  );
+  assert.ok(score.notes.some((n) => n === "甜点一角"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("pistachio_lane") && game.includes("clove_courtyard"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "开心果暖蜜"));
+  assert.ok(recipes.some((r) => r.name === "板栗暖茶"));
+  assert.ok(recipes.some((r) => r.name === "肉桂暖蜜"));
+  assert.ok(recipes.some((r) => r.name === "丁香暖茶"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "pistachio_walker"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "clove_walker"));
+  const shop = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "shop-config.json"), "utf8"));
+  assert.ok(shop.tipMessages.some((t) => t.includes("肉桂")));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("开心果短径") && man.includes("丁香香院"));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_clove_courtyard" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
