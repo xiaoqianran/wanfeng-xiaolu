@@ -1833,5 +1833,93 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_mullein",
+    "title": "毛蕊花两份",
+    "body": "采毛蕊花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mullein": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_plantain_leaf",
+    "title": "车前草两份",
+    "body": "采车前草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "plantain_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_selfheal",
+    "title": "夏枯草两份",
+    "body": "炖夏枯草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "selfheal": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_skullcap",
+    "title": "黄芩两份",
+    "body": "采黄芩的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "skullcap": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bee_balm",
+    "title": "美国薄荷两份",
+    "body": "采美国薄荷的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bee_balm": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_marshmallow",
+    "title": "药蜀葵两份",
+    "body": "采药蜀葵的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "marshmallow": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_linden",
+    "title": "椴树花两份",
+    "body": "采椴树花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "linden": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_goldenrod",
+    "title": "一枝黄花两份",
+    "body": "采一枝黄花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "goldenrod": 2
+      },
+      "coins": 2
+    }
   }
 ]

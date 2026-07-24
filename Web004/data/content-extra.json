@@ -3148,6 +3148,62 @@
       "emoji": "🍃",
       "kind": "风味",
       "seed": "lemon_verbenaPot"
+    },
+    "mullein": {
+      "id": "mullein",
+      "name": "毛蕊花",
+      "emoji": "💛",
+      "kind": "风味",
+      "seed": "mulleinPot"
+    },
+    "plantain_leaf": {
+      "id": "plantain_leaf",
+      "name": "车前草",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "plantain_leafPot"
+    },
+    "selfheal": {
+      "id": "selfheal",
+      "name": "夏枯草",
+      "emoji": "💜",
+      "kind": "风味",
+      "seed": "selfhealPot"
+    },
+    "skullcap": {
+      "id": "skullcap",
+      "name": "黄芩",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "skullcapPot"
+    },
+    "bee_balm": {
+      "id": "bee_balm",
+      "name": "美国薄荷",
+      "emoji": "❤️",
+      "kind": "风味",
+      "seed": "bee_balmPot"
+    },
+    "marshmallow": {
+      "id": "marshmallow",
+      "name": "药蜀葵",
+      "emoji": "🩷",
+      "kind": "风味",
+      "seed": "marshmallowPot"
+    },
+    "linden": {
+      "id": "linden",
+      "name": "椴树花",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "lindenPot"
+    },
+    "goldenrod": {
+      "id": "goldenrod",
+      "name": "一枝黄花",
+      "emoji": "✨",
+      "kind": "风味",
+      "seed": "goldenrodPot"
     }
   },
   "plants": {
@@ -6291,6 +6347,94 @@
       ],
       "harvest": "lemon_verbena",
       "days": 3
+    },
+    "mulleinPot": {
+      "id": "mulleinPot",
+      "name": "毛蕊花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💛"
+      ],
+      "harvest": "mullein",
+      "days": 4
+    },
+    "plantain_leafPot": {
+      "id": "plantain_leafPot",
+      "name": "车前草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "plantain_leaf",
+      "days": 3
+    },
+    "selfhealPot": {
+      "id": "selfhealPot",
+      "name": "夏枯草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💜"
+      ],
+      "harvest": "selfheal",
+      "days": 3
+    },
+    "skullcapPot": {
+      "id": "skullcapPot",
+      "name": "黄芩",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "skullcap",
+      "days": 4
+    },
+    "bee_balmPot": {
+      "id": "bee_balmPot",
+      "name": "美国薄荷",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "❤️"
+      ],
+      "harvest": "bee_balm",
+      "days": 3
+    },
+    "marshmallowPot": {
+      "id": "marshmallowPot",
+      "name": "药蜀葵",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🩷"
+      ],
+      "harvest": "marshmallow",
+      "days": 4
+    },
+    "lindenPot": {
+      "id": "lindenPot",
+      "name": "椴树花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "linden",
+      "days": 3
+    },
+    "goldenrodPot": {
+      "id": "goldenrodPot",
+      "name": "一枝黄花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "✨"
+      ],
+      "harvest": "goldenrod",
+      "days": 3
     }
   },
   "cups": [
@@ -8255,6 +8399,86 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "mullein",
+      "name": "毛蕊花",
+      "emoji": "💛",
+      "need": "mullein",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "plantain_leaf",
+      "name": "车前草",
+      "emoji": "🟢",
+      "need": "plantain_leaf",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "selfheal",
+      "name": "夏枯草",
+      "emoji": "💜",
+      "need": "selfheal",
+      "tags": [
+        "草本",
+        "花香"
+      ]
+    },
+    {
+      "id": "skullcap",
+      "name": "黄芩",
+      "emoji": "💙",
+      "need": "skullcap",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "bee_balm",
+      "name": "美国薄荷",
+      "emoji": "❤️",
+      "need": "bee_balm",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "marshmallow",
+      "name": "药蜀葵",
+      "emoji": "🩷",
+      "need": "marshmallow",
+      "tags": [
+        "花香",
+        "温柔"
+      ]
+    },
+    {
+      "id": "linden",
+      "name": "椴树花",
+      "emoji": "🤍",
+      "need": "linden",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "goldenrod",
+      "name": "一枝黄花",
+      "emoji": "✨",
+      "need": "goldenrod",
+      "tags": [
+        "花香",
+        "草本"
       ]
     }
   ],
@@ -11178,6 +11402,126 @@
         "honey",
         "lemon",
         "mint"
+      ]
+    },
+    {
+      "name": "采毛蕊花的药师",
+      "avatar": "💛",
+      "wish": "毛蕊花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "mullein",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采车前草的旅人",
+      "avatar": "🟢",
+      "wish": "车前草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "plantain_leaf",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "炖夏枯草的药师",
+      "avatar": "💜",
+      "wish": "夏枯草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "花香"
+      ],
+      "flavors": [
+        "selfheal",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采黄芩的药师",
+      "avatar": "💙",
+      "wish": "黄芩或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "skullcap",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采美国薄荷的旅人",
+      "avatar": "❤️",
+      "wish": "美国薄荷或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "bee_balm",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采药蜀葵的药师",
+      "avatar": "🩷",
+      "wish": "药蜀葵或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "温柔"
+      ],
+      "flavors": [
+        "marshmallow",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采椴树花的旅人",
+      "avatar": "🤍",
+      "wish": "椴树花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "linden",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采一枝黄花的药师",
+      "avatar": "✨",
+      "wish": "一枝黄花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "goldenrod",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
       ]
     }
   ],
