@@ -4,21 +4,21 @@
   "project_root": "/root/workspace/wk1",
   "game_root": "Web004",
   "current_branch": "master",
-  "current_round": 464,
+  "current_round": 467,
   "target_rounds": 1000,
-  "authentic_rounds_completed": 458,
-  "authentic_game_integrated_rounds": 323,
+  "authentic_rounds_completed": 461,
+  "authentic_game_integrated_rounds": 325,
   "template_spam_archived": true,
-  "current_milestone": "authentic rebuild A0466+",
-  "current_task_id": "A0466-next",
-  "last_completed_task_id": "A0465",
+  "current_milestone": "authentic rebuild A0469+",
+  "current_task_id": "A0469-next",
+  "last_completed_task_id": "A0468",
   "last_commit": "pending",
   "last_verified_build": "file:// Web004/index.html",
-  "last_test_summary": "198 passed, 0 failed",
+  "last_test_summary": "199 passed, 0 failed",
   "core_loop_status": "playable",
   "overall_status": "active",
   "blocked_items": [
-    "gap to 1000 authentic (~542) multi-session"
+    "gap to 1000 authentic (~539) multi-session"
   ],
   "known_failures": [
     "image_gen intermittent",
@@ -34,6 +34,6 @@
     "audio feedback",
     "UI polish"
   ],
-  "resume_instructions": "Continue A0466+. Spam DISABLED. Gap ~542. Themes 68. All three pillars active.",
-  "updated_at": "2026-07-24T00:08:22.459550+00:00"
+  "resume_instructions": "Continue A0469+. Spam DISABLED. Gap ~539. Themes 70. All three pillars active. Daily special pool expanded.",
+  "updated_at": "2026-07-24T00:10:26.817670+00:00"
 }
