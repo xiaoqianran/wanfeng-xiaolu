@@ -15241,6 +15241,1831 @@ function renderJournal() {
         ctx.fill();
       }
 
+    } else if (themeId === "loc0_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc1_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc2_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc3_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc4_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc5_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc6_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc7_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc8_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc9_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc10_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc11_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc12_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc13_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc14_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc15_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc16_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc17_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc18_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc19_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc20_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc21_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc22_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc23_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc24_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc25_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc26_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc27_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc28_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc29_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc30_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc31_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc32_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc33_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc34_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc35_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc36_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc37_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc38_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc39_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc40_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc41_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc42_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc43_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc44_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc45_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc46_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc47_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc48_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc49_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc50_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc51_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc52_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc53_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc54_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc55_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc56_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc57_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc58_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc59_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc60_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc61_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc62_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc63_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc64_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc65_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc66_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc67_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc68_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc69_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc70_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc71_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc72_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc73_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc74_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc75_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc76_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc77_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc78_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc79_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc80_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc81_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc82_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc83_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc84_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc85_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc86_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc87_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc88_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc89_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc90_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc91_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc92_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc93_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc94_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc95_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc96_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc97_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc98_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc99_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc100_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc101_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc102_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc103_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc104_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc105_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc106_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc107_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc108_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc109_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc110_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc111_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc112_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc113_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc114_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc115_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc116_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc117_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc118_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc119_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc120_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc121_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc122_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc123_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc124_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc125_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc126_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc127_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc128_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc129_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc130_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc131_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc132_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc133_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc134_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc135_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc136_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc137_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc138_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc139_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc140_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc141_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc142_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc143_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc144_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc145_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc146_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc147_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc148_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc149_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc150_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc151_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc152_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc153_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc154_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc155_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc156_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc157_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc158_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc159_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc160_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc161_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc162_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc163_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc164_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc165_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc166_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc167_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc168_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc169_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc170_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc171_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc172_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc173_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc174_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc175_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc176_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc177_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc178_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc179_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc180_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc181_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc182_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc183_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc184_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc185_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc186_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc187_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc188_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc189_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc190_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc191_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+    } else if (themeId === "loc192_path") {
+      ctx.fillStyle = "rgba(180,100,140,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc193_path") {
+      ctx.fillStyle = "rgba(100,160,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc194_path") {
+      ctx.fillStyle = "rgba(200,180,80,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc195_path") {
+      ctx.fillStyle = "rgba(100,130,180,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc196_path") {
+      ctx.fillStyle = "rgba(160,100,160,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc197_path") {
+      ctx.fillStyle = "rgba(210,140,90,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc198_path") {
+      ctx.fillStyle = "rgba(90,150,130,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+    } else if (themeId === "loc199_path") {
+      ctx.fillStyle = "rgba(190,120,100,0.5)";
+      for (let i = 0; i < 14; i++) {
+        const x = 24 + (i * 52 + Math.sin(time * 0.02 + i) * 2) % (w - 40);
+        const y = h * 0.32 + ((i * 13) % 42);
+        ctx.beginPath();
+        ctx.ellipse(x, y, 5, 3.5, 0.1 * (i % 3), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
     }
   }
 
@@ -16244,13 +18069,13 @@ function renderJournal() {
     if (season === "spring" && (flavorDef.id === "jasmine" || flavorDef.id === "lavender_bud" || flavorDef.id === "lilac" || flavorDef.id === "chamomile" || flavorDef.id === "honeysuckle" || flavorDef.id === "bergamot" || flavorDef.id === "violet" || flavorDef.id === "calendula" || flavorDef.id === "rose_petal" || flavorDef.id === "elderflower" || flavorDef.id === "loquat" || flavorDef.id === "vanilla" || baseDef.id === "floral_tea")) {
       score += 0.5; notes.push("春日花香");
     }
-    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || flavorDef.id === "litchi" || flavorDef.id === "olive" || flavorDef.id === "mango" || flavorDef.id === "pineapple" || flavorDef.id === "coconut" || flavorDef.id === "starfruit" || flavorDef.id === "passion_fruit" || flavorDef.id === "kiwi" || flavorDef.id === "dragonfruit" || flavorDef.id === "guava" || flavorDef.id === "cherry" || flavorDef.id === "apricot" || flavorDef.id === "grapefruit" || flavorDef.id === "tangerine" || flavorDef.id === "wax_apple" || flavorDef.id === "sugarcane" || flavorDef.id === "lemon" || flavorDef.id === "lime" || flavorDef.id === "cranberry" || flavorDef.id === "elderberry" || flavorDef.id === "honeydew" || flavorDef.id === "watermelon" || flavorDef.id === "cantaloupe" || flavorDef.id === "papaya" || flavorDef.id === "rambutan" || flavorDef.id === "jackfruit" || flavorDef.id === "oregano" || flavorDef.id === "chive" || flavorDef.id === "parsley" || flavorDef.id === "avocado" || flavorDef.id === "chervil" || flavorDef.id === "sorrel" || flavorDef.id === "verbena" || flavorDef.id === "savory" || flavorDef.id === "celery_seed" || flavorDef.id === "galangal" || flavorDef.id === "kaffir_lime" || flavorDef.id === "pandan" || flavorDef.id === "juniper" || flavorDef.id === "sumac" || flavorDef.id === "nigella" || flavorDef.id === "mustard_seed" || flavorDef.id === "wasabi" || flavorDef.id === "dandelion" || flavorDef.id === "nettle" || flavorDef.id === "borage" || flavorDef.id === "hops" || flavorDef.id === "heather" || flavorDef.id === "arnica" || flavorDef.id === "echinacea" || flavorDef.id === "feverfew" || flavorDef.id === "lemon_verbena" || flavorDef.id === "mullein" || flavorDef.id === "plantain_leaf" || flavorDef.id === "bee_balm" || flavorDef.id === "marshmallow" || flavorDef.id === "goldenrod" || flavorDef.id === "red_clover" || flavorDef.id === "white_clover" || flavorDef.id === "catnip" || flavorDef.id === "tansy" || flavorDef.id === "agrimony" || flavorDef.id === "milfoil" || flavorDef.id === "lady_mantle" || flavorDef.id === "speedwell" || flavorDef.id === "stitchwort" || flavorDef.id === "campion" || flavorDef.id === "silverweed" || flavorDef.id === "loosestrife" || flavorDef.id === "willowherb" || flavorDef.id === "bedstraw" || flavorDef.id === "cleavers" || flavorDef.id === "bugle" || flavorDef.id === "primrose" || flavorDef.id === "cowslip" || flavorDef.id === "oxeye" || flavorDef.id === "knapweed" || flavorDef.id === "scabious" || flavorDef.id === "nettle_seed" || flavorDef.id === "rowan" || flavorDef.id === "crabapple" || flavorDef.id === "serviceberry" || flavorDef.id === "elderflower_fresh" || flavorDef.id === "meadowsweet_fresh" || flavorDef.id === "wood_sorrel" || flavorDef.id === "wild_garlic" || flavorDef.id === "ramsons" || flavorDef.id === "jack_by_hedge" || flavorDef.id === "hedge_mustard" || flavorDef.id === "watercress" || flavorDef.id === "brooklime" || flavorDef.id === "cloudberry" || flavorDef.id === "lingonberry" || flavorDef.id === "bilberry" || flavorDef.id === "gooseberry" || flavorDef.id === "currant_red" || flavorDef.id === "currant_black" || flavorDef.id === "whitecurrant" || flavorDef.id === "sea_buckthorn" || flavorDef.id === "damson" || flavorDef.id === "greengage" || flavorDef.id === "mirabelle" || flavorDef.id === "saskatoon" || flavorDef.id === "chokeberry" || flavorDef.id === "yarrow_white" || flavorDef.id === "achillea_pink" || flavorDef.id === "cornflower" || flavorDef.id === "poppy_seed" || flavorDef.id === "flax_flower" || flavorDef.id === "chia_seed" || flavorDef.id === "sunflower_seed" || flavorDef.id === "fennel_pollen" || flavorDef.id === "fennel_frond" || flavorDef.id === "dill_pollen" || flavorDef.id === "celery_leaf" || flavorDef.id === "rooibos" || flavorDef.id === "honeybush" || flavorDef.id === "yerba_mate" || flavorDef.id === "guayusa" || flavorDef.id === "gardenia" || flavorDef.id === "magnolia" || flavorDef.id === "frangipani" || flavorDef.id === "plumeria" || flavorDef.id === "stephanotis" || flavorDef.id === "garden_phlox" || flavorDef.id === "osmanthus_fresh" || flavorDef.id === "galangal_fresh" || flavorDef.id === "ginger_flower" || flavorDef.id === "turmeric_fresh" || flavorDef.id === "cubeb" || flavorDef.id === "makrut_leaf" || flavorDef.id === "curry_leaf" || flavorDef.id === "holy_basil" || flavorDef.id === "thai_basil" || flavorDef.id === "lemon_basil" || flavorDef.id === "rambutan_fresh" || flavorDef.id === "lychee_fresh" || flavorDef.id === "mangosteen" || flavorDef.id === "durian_flower" || flavorDef.id === "tamarind" || flavorDef.id === "calamansi" || flavorDef.id === "fig_fresh" || flavorDef.id === "pomegranate_seed" || flavorDef.id === "cactus_pear" || flavorDef.id === "prickly_pear" || flavorDef.id === "sapodilla" || flavorDef.id === "soursop" || flavorDef.id === "cherimoya" || flavorDef.id === "feijoa" || flavorDef.id === "loquat_fresh" || flavorDef.id === "jujube_fresh" || flavorDef.id === "mulberry_white" || flavorDef.id === "mulberry_black" || flavorDef.id === "elderberry_fresh" || flavorDef.id === "bergamot_fresh" || flavorDef.id === "sudachi" || flavorDef.id === "kabosu" || flavorDef.id === "amanatsu" || flavorDef.id === "shiso_green" || flavorDef.id === "shiso_red" || flavorDef.id === "mitsuba" || flavorDef.id === "myoga" || flavorDef.id === "wasabi_leaf" || flavorDef.id === "sansho" || flavorDef.id === "kinome" || flavorDef.id === "gentian" || flavorDef.id === "arnica_montana" || flavorDef.id === "alpine_strawberry" || flavorDef.id === "bilberry_leaf" || flavorDef.id === "spruce_tip" || flavorDef.id === "olive_leaf" || flavorDef.id === "caper" || flavorDef.id === "zaatar" || flavorDef.id === "sumac_berry" || flavorDef.id === "orange_blossom" || flavorDef.id === "lavender_honey" || flavorDef.id === "thyme_honey" || flavorDef.id === "acacia_honey" || flavorDef.id === "manuka" || flavorDef.id === "bee_pollen" || flavorDef.id === "comb_honey" || flavorDef.id === "linden_honey" || flavorDef.id === "heather_honey_wild" || flavorDef.id === "wildflower_honey" || flavorDef.id === "clover_honey" || flavorDef.id === "eucalyptus_honey" || flavorDef.id === "mesquite" || flavorDef.id === "lucuma" || flavorDef.id === "camu_camu" || flavorDef.id === "acai" || flavorDef.id === "maqui" || flavorDef.id === "goji_fresh" || flavorDef.id === "amla" || flavorDef.id === "baobab" || flavorDef.id === "morinda" || flavorDef.id === "noni" || flavorDef.id === "cupuacu" || flavorDef.id === "matcha_ceremonial" || flavorDef.id === "sencha" || flavorDef.id === "gyokuro" || flavorDef.id === "bancha" || flavorDef.id === "kukicha" || flavorDef.id === "mugicha" || flavorDef.id === "barley_grass" || flavorDef.id === "wheatgrass" || flavorDef.id === "spirulina" || flavorDef.id === "chlorella" || flavorDef.id === "kelp" || flavorDef.id === "nori" || flavorDef.id === "hibiscus_fresh" || flavorDef.id === "chrysanthemum_fresh" || flavorDef.id === "peony" || flavorDef.id === "lotus_leaf_fresh" || flavorDef.id === "osmanthus_sugar" || flavorDef.id === "orchid_petal" || flavorDef.id === "bamboo_leaf_fresh" || flavorDef.id === "bamboo_shoot_fresh" || flavorDef.id === "safflower" || flavorDef.id === "calendula_fresh" || flavorDef.id === "pot_marigold" || flavorDef.id === "coreopsis" || flavorDef.id === "cosmos" || flavorDef.id === "zinnia" || flavorDef.id === "dahlia" || flavorDef.id === "gladiolus" || flavorDef.id === "iris" || flavorDef.id === "tulip" || flavorDef.id === "ranunculus" || flavorDef.id === "sweet_pea" || flavorDef.id === "nasturtium" || flavorDef.id === "morning_glory" || flavorDef.id === "clematis" || flavorDef.id === "wisteria_fresh" || flavorDef.id === "jasmine_sambac" || flavorDef.id === "gardenia_tea" || flavorDef.id === "boysenberry" || flavorDef.id === "loganberry" || flavorDef.id === "tayberry" || flavorDef.id === "marionberry" || flavorDef.id === "wineberry" || flavorDef.id === "salmonberry" || flavorDef.id === "thimbleberry" || flavorDef.id === "cloudberry_leaf" || flavorDef.id === "lovage_fresh" || flavorDef.id === "sweet_cicely" || flavorDef.id === "ramsons_flower" || flavorDef.id === "sea_kale" || flavorDef.id === "scurvygrass" || flavorDef.id === "marsh_samphire" || flavorDef.id === "agave_nectar" || flavorDef.id === "prickly_pear_pad" || flavorDef.id === "jojoba" || flavorDef.id === "mesquite_pod" || flavorDef.id === "creosote" || flavorDef.id === "desert_sage" || flavorDef.id === "yucca_flower" || flavorDef.id === "yerba_santa" || flavorDef.id === "cedron" || flavorDef.id === "muña" || flavorDef.id === "coca_leaf_tea" || flavorDef.id === "guarana" || flavorDef.id === "stevia_leaf" || flavorDef.id === "rooibos_green" || flavorDef.id === "honeybush_fresh" || flavorDef.id === "buchu" || flavorDef.id === "baobab_leaf" || flavorDef.id === "marula" || flavorDef.id === "kinkeliba" || flavorDef.id === "hibiscus_sab" || flavorDef.id === "pandan_fresh" || flavorDef.id === "lemongrass_fresh" || flavorDef.id === "galangal_leaf" || flavorDef.id === "torch_ginger" || flavorDef.id === "butterfly_pea" || flavorDef.id === "chrysanthemum_ind" || flavorDef.id === "tamarind_leaf" || flavorDef.id === "coconut_flower" || flavorDef.id === "bergamot_leaf" || flavorDef.id === "neroli" || flavorDef.id === "petitgrain" || flavorDef.id === "immortelle" || flavorDef.id === "helichrysum" || flavorDef.id === "cistus" || flavorDef.id === "spruce_beer" || flavorDef.id === "fireweed" || flavorDef.id === "fireweed_honey" || flavorDef.id === "crowberry" || flavorDef.id === "bearberry" || flavorDef.id === "labrador_violet" || flavorDef.id === "matcha_salt" || flavorDef.id === "sansho_leaf" || flavorDef.id === "shiso_flower" || flavorDef.id === "sakura_leaf" || flavorDef.id === "lavender_sugar" || flavorDef.id === "rose_water" || flavorDef.id === "orange_flower_water" || flavorDef.id === "almond_blossom" || flavorDef.id === "chestnut_flower" || flavorDef.id === "maesil" || flavorDef.id === "persimmon_leaf" || flavorDef.id === "pine_flower" || flavorDef.id === "tulsi" || flavorDef.id === "neem_flower" || flavorDef.id === "curry_blossom" || flavorDef.id === "ajwain_leaf" || flavorDef.id === "fenugreek_leaf" || flavorDef.id === "moringa" || flavorDef.id === "gotu_kola" || flavorDef.id === "brahmi" || flavorDef.id === "hibiscus_rosa" || flavorDef.id === "allspice_berry" || flavorDef.id === "annatto" || flavorDef.id === "epazote" || flavorDef.id === "papalo" || flavorDef.id === "hoja_santa" || flavorDef.id === "mexican_oregano" || flavorDef.id === "chile_flower" || flavorDef.id === "noni_leaf" || flavorDef.id === "ti_leaf" || flavorDef.id === "frangipani_tea" || flavorDef.id === "soursop_leaf" || flavorDef.id === "guava_leaf" || flavorDef.id === "passion_leaf" || flavorDef.id === "vanilla_orchid" || flavorDef.id === "longjing" || flavorDef.id === "biluochun" || flavorDef.id === "puer_raw" || flavorDef.id === "white_peony_tea" || flavorDef.id === "valerian_flower" || flavorDef.id === "hops_flower" || flavorDef.id === "meadowsweet_flower" || flavorDef.id === "yarrow_flower" || flavorDef.id === "nettle_seed_tea" || flavorDef.id === "silver_birch" || flavorDef.id === "copper_beech" || flavorDef.id === "hornbeam" || flavorDef.id === "field_maple" || flavorDef.id === "wild_service" || flavorDef.id === "guelder_rose" || flavorDef.id === "wayfaring" || flavorDef.id === "dogwood" || flavorDef.id === "spindle" || flavorDef.id === "buckthorn" || flavorDef.id === "privet" || flavorDef.id === "boxwood" || flavorDef.id === "bluebell_fresh" || flavorDef.id === "primula_veris" || flavorDef.id === "oxlip" || flavorDef.id === "cowslip_fresh" || flavorDef.id === "wood_anemone" || flavorDef.id === "wood_sorrel_pink" || flavorDef.id === "greater_stitchwort" || flavorDef.id === "red_campion" || flavorDef.id === "white_campion" || flavorDef.id === "ragged_robin" || flavorDef.id === "cuckooflower" || flavorDef.id === "lady_smock" || flavorDef.id === "garlic_mustard_fl" || flavorDef.id === "hedge_garlic_seed" || flavorDef.id === "jack_hedge_leaf" || flavorDef.id === "wild_mustard" || flavorDef.id === "meadow_buttercup" || flavorDef.id === "creeping_buttercup" || flavorDef.id === "lesser_celandine" || flavorDef.id === "marsh_marigold" || flavorDef.id === "globe_flower" || flavorDef.id === "columbine" || flavorDef.id === "monkshood" || flavorDef.id === "larkspur" || flavorDef.id === "delphinium" || flavorDef.id === "pasque_flower" || flavorDef.id === "anemone_coronaria" || flavorDef.id === "hepatic" || flavorDef.id === "clematis_vitalba" || flavorDef.id === "speedwell_germander" || flavorDef.id === "germander" || flavorDef.id === "betony_fresh" || flavorDef.id === "selfheal_fresh" || flavorDef.id === "woundwort" || flavorDef.id === "hedge_woundwort" || flavorDef.id === "marsh_woundwort" || flavorDef.id === "motherwort_fresh" || flavorDef.id === "scutellaria" || flavorDef.id === "bugle_fresh" || flavorDef.id === "alehoof" || flavorDef.id === "clary_sage" || flavorDef.id === "pineapple_sage" || flavorDef.id === "fruit_sage" || flavorDef.id === "white_sage" || flavorDef.id === "russian_sage" || flavorDef.id === "meadow_clary_fresh" || flavorDef.id === "wood_sage" || flavorDef.id === "jerusalem_sage" || flavorDef.id === "catmint" || flavorDef.id === "catnip_fresh" || flavorDef.id === "hyssop_fresh" || flavorDef.id === "anise_hyssop" || flavorDef.id === "korean_mint" || flavorDef.id === "agastache" || flavorDef.id === "lavender_spike" || flavorDef.id === "lavender_sto" || flavorDef.id === "thyme_lemon" || flavorDef.id === "thyme_orange" || flavorDef.id === "thyme_caraway" || flavorDef.id === "thyme_woolly" || flavorDef.id === "creeping_thyme" || flavorDef.id === "oregano_greek" || flavorDef.id === "oregano_italian" || flavorDef.id === "marjoram_sweet" || flavorDef.id === "savory_summer" || flavorDef.id === "basil_genovese" || flavorDef.id === "basil_cinnamon" || flavorDef.id === "basil_purple" || flavorDef.id === "basil_lettuce" || flavorDef.id === "mint_peppermint" || flavorDef.id === "mint_spearmint" || flavorDef.id === "mint_chocolate" || flavorDef.id === "mint_apple" || flavorDef.id === "mint_ginger" || flavorDef.id === "mint_orange" || flavorDef.id === "mint_lavender" || flavorDef.id === "mint_bergamot" || flavorDef.id === "mint_corsican" || flavorDef.id === "mint_water" || flavorDef.id === "melissa_fresh" || flavorDef.id === "lemon_balm_var" || flavorDef.id === "bee_balm_pink" || flavorDef.id === "bee_balm_purple" || flavorDef.id === "oregano_hop" || flavorDef.id === "dittany" || flavorDef.id === "dictamnus" || flavorDef.id === "burning_bush" || flavorDef.id === "chamomile_roman" || flavorDef.id === "chamomile_german" || flavorDef.id === "feverfew_fresh" || flavorDef.id === "tansy_fresh" || flavorDef.id === "yarrow_pink" || flavorDef.id === "yarrow_gold" || flavorDef.id === "arnica_fresh" || flavorDef.id === "calendula_offic" || flavorDef.id === "pot_marigold_dbl" || flavorDef.id === "tagetes" || flavorDef.id === "marigold_french" || flavorDef.id === "signet_marigold" || flavorDef.id === "costmary_fresh" || flavorDef.id === "elecampane_fresh" || flavorDef.id === "inula" || flavorDef.id === "eupatorium" || flavorDef.id === "echinacea_purp" || flavorDef.id === "echinacea_ang" || flavorDef.id === "echinacea_pall" || flavorDef.id === "rudbeckia" || flavorDef.id === "black_eyed_susan" || flavorDef.id === "coneflower_yellow" || flavorDef.id === "helenium" || flavorDef.id === "helenium_autumn" || flavorDef.id === "coreopsis_lance" || flavorDef.id === "coreopsis_tick" || flavorDef.id === "gaillardia" || flavorDef.id === "gaillardia_fan" || flavorDef.id === "ratibida" || flavorDef.id === "silphium" || flavorDef.id === "cup_plant" || flavorDef.id === "compass_plant" || flavorDef.id === "aster_novae" || flavorDef.id === "aster_novi" || flavorDef.id === "michaelmas" || flavorDef.id === "goldenrod_fresh" || flavorDef.id === "solidago" || flavorDef.id === "boltonia" || flavorDef.id === "erigeron" || flavorDef.id === "fleabane" || flavorDef.id === "daisy_oxeye" || flavorDef.id === "daisy_english" || flavorDef.id === "daisy_shasta" || flavorDef.id === "chrysanthemum_ind_fresh" || flavorDef.id === "chrysanthemum_mor" || flavorDef.id === "chrysanthemum_yej" || flavorDef.id === "tanacetum" || flavorDef.id === "pyrethrum" || flavorDef.id === "sunflower_dwarf" || flavorDef.id === "sunflower_multi" || flavorDef.id === "sunflower_red" || flavorDef.id === "sunchoke_flower" || flavorDef.id === "dahlia_cactus" || flavorDef.id === "dahlia_pompom" || flavorDef.id === "zinnia_dwarf" || flavorDef.id === "zinnia_cactus" || flavorDef.id === "cosmos_sulph" || flavorDef.id === "cosmos_choco" || flavorDef.id === "tithonia" || flavorDef.id === "mexican_sunflower" || flavorDef.id === "heliopsis" || flavorDef.id === "inula_helenium" || flavorDef.id === "verbena_bon" || flavorDef.id === "verbena_rig" || flavorDef.id === "lantana" || flavorDef.id === "lantana_white" || flavorDef.id === "phlox_pan" || flavorDef.id === "phlox_sub" || flavorDef.id === "phlox_drum" || flavorDef.id === "dianthus_chin" || flavorDef.id === "dianthus_barb" || flavorDef.id === "sweet_william" || flavorDef.id === "carnation" || flavorDef.id === "pinks" || flavorDef.id === "gypsophila" || flavorDef.id === "baby_breath" || flavorDef.id === "saponaria" || flavorDef.id === "soapwort_fresh" || flavorDef.id === "campanula" || flavorDef.id === "campanula_med" || flavorDef.id === "lobelia" || flavorDef.id === "lobelia_card" || flavorDef.id === "penstemon" || flavorDef.id === "penstemon_fox" || flavorDef.id === "digitalis" || flavorDef.id === "digitalis_lutea" || flavorDef.id === "snapdragon" || flavorDef.id === "snapdragon_dwarf" || flavorDef.id === "antirrhinum" || flavorDef.id === "linaria" || flavorDef.id === "toadflax" || flavorDef.id === "verbascum_chaix" || flavorDef.id === "mullein_white" || flavorDef.id === "mimulus" || flavorDef.id === "monkeyflower" || flavorDef.id === "collinsia" || flavorDef.id === "castilleja" || flavorDef.id === "paintbrush" || flavorDef.id === "orthocarpus" || flavorDef.id === "pedicularis" || flavorDef.id === "lousewort" || flavorDef.id === "euphrasia" || flavorDef.id === "eyebright" || flavorDef.id === "rhinanthus" || flavorDef.id === "yellow_rattle" || flavorDef.id === "melampyrum" || flavorDef.id === "cow_wheat" || flavorDef.id === "bartisia" || flavorDef.id === "cattleya" || flavorDef.id === "dendrobium" || flavorDef.id === "phalaenopsis" || flavorDef.id === "oncidium" || flavorDef.id === "vanda" || flavorDef.id === "paphiopedilum" || flavorDef.id === "miltonia" || flavorDef.id === "odontoglossum" || flavorDef.id === "brassia" || flavorDef.id === "epidendrum" || flavorDef.id === "ludisia" || flavorDef.id === "anoectochilus" || flavorDef.id === "gastrodia" || flavorDef.id === "bletilla" || flavorDef.id === "calanthe" || flavorDef.id === "boston_fern" || flavorDef.id === "bird_nest_fern" || flavorDef.id === "staghorn" || flavorDef.id === "holly_fern" || flavorDef.id === "autumn_fern" || flavorDef.id === "ostrich_fern" || flavorDef.id === "cinnamon_fern" || flavorDef.id === "bracken_tip" || flavorDef.id === "adder_tongue" || flavorDef.id === "miscanthus" || flavorDef.id === "pampas" || flavorDef.id === "fountain_grass" || flavorDef.id === "japanese_forest" || flavorDef.id === "carex_morrow" || flavorDef.id === "scirpus" || flavorDef.id === "typha_pollen" || flavorDef.id === "phragmites" || flavorDef.id === "bamboo_black" || flavorDef.id === "bamboo_golden" || flavorDef.id === "echeveria" || flavorDef.id === "sedum_morgan" || flavorDef.id === "sedum_spect" || flavorDef.id === "sempervivum" || flavorDef.id === "aeonium" || flavorDef.id === "crassula" || flavorDef.id === "kalanchoe" || flavorDef.id === "haworthia" || flavorDef.id === "agave_flower" || flavorDef.id === "yucca_filament" || flavorDef.id === "sansevieria" || flavorDef.id === "jade_plant" || flavorDef.id === "panda_plant" || flavorDef.id === "boysen_leaf" || flavorDef.id === "logan_leaf" || flavorDef.id === "tay_leaf" || flavorDef.id === "marion_leaf" || flavorDef.id === "wine_leaf" || flavorDef.id === "salmon_leaf" || flavorDef.id === "thimble_leaf" || flavorDef.id === "cloud_flower" || flavorDef.id === "huckleberry" || flavorDef.id === "huckle_leaf" || flavorDef.id === "salal" || flavorDef.id === "salal_leaf" || flavorDef.id === "oregon_grape" || flavorDef.id === "mahonia" || flavorDef.id === "barberry_red" || flavorDef.id === "barberry_leaf" || flavorDef.id === "currant_flower" || flavorDef.id === "goose_flower" || flavorDef.id === "josta" || flavorDef.id === "worcesterberry" || flavorDef.id === "juneberry" || flavorDef.id === "shadbush" || flavorDef.id === "chokecherry" || flavorDef.id === "bird_cherry" || flavorDef.id === "pin_cherry" || flavorDef.id === "sand_cherry" || flavorDef.id === "nanking_cherry" || flavorDef.id === "cornelian" || flavorDef.id === "honeyberry" || flavorDef.id === "hascap" || flavorDef.id === "clematis_arm" || flavorDef.id === "clematis_mon" || flavorDef.id === "clematis_tang" || flavorDef.id === "clematis_ori" || flavorDef.id === "akibia" || flavorDef.id === "akebia_flower" || flavorDef.id === "kiwi_hardy" || flavorDef.id === "kiwi_flower" || flavorDef.id === "actinidia" || flavorDef.id === "silver_vine" || flavorDef.id === "hop_fresh" || flavorDef.id === "hop_leaf" || flavorDef.id === "humulus" || flavorDef.id === "japanese_hop" || flavorDef.id === "grape_leaf_fresh" || flavorDef.id === "vine_tendril" || flavorDef.id === "muscadine" || flavorDef.id === "scuppernong" || flavorDef.id === "passiflora_inc" || flavorDef.id === "passiflora_cae" || flavorDef.id === "passiflora_ed" || flavorDef.id === "maypop" || flavorDef.id === "morning_glory_red" || flavorDef.id === "morning_glory_blue" || flavorDef.id === "ipomoea_bat" || flavorDef.id === "moonvine" || flavorDef.id === "cypress_vine" || flavorDef.id === "cardinal_climber" || flavorDef.id === "black_eyed_susan_vine" || flavorDef.id === "thunbergia" || flavorDef.id === "sweet_potato_leaf" || flavorDef.id === "dioscorea" || flavorDef.id === "luffa_flower" || flavorDef.id === "luffa_leaf" || flavorDef.id === "bitter_melon_fl" || flavorDef.id === "bitter_melon_leaf" || flavorDef.id === "squash_blossom" || flavorDef.id === "zucchini_flower" || flavorDef.id === "cucumber_flower" || flavorDef.id === "melon_flower" || flavorDef.id === "okra_flower" || flavorDef.id === "okra_leaf" || flavorDef.id === "hibiscus_escul" || flavorDef.id === "roselle_fresh" || flavorDef.id === "cotton_flower" || flavorDef.id === "cotton_leaf" || flavorDef.id === "kenaf" || flavorDef.id === "jute_leaf" || flavorDef.id === "flax_blue" || flavorDef.id === "flax_red" || flavorDef.id === "hemp_flower" || flavorDef.id === "nettle_fresh" || flavorDef.id === "dead_nettle" || flavorDef.id === "purple_dead_nettle" || flavorDef.id === "henbit" || flavorDef.id === "lamium" || flavorDef.id === "galeopsis" || flavorDef.id === "stachys_byz" || flavorDef.id === "alpine_rosemary" || flavorDef.id === "alpine_marjoram" || flavorDef.id === "alpine_chive" || flavorDef.id === "alpine_cilantro" || flavorDef.id === "alpine_dill" || flavorDef.id === "alpine_lovage" || flavorDef.id === "alpine_sorrel" || flavorDef.id === "coastal_thyme" || flavorDef.id === "coastal_sage" || flavorDef.id === "coastal_oregano" || flavorDef.id === "coastal_basil" || flavorDef.id === "coastal_mint" || flavorDef.id === "coastal_lavender" || flavorDef.id === "coastal_marjoram" || flavorDef.id === "coastal_tarragon" || flavorDef.id === "coastal_chive" || flavorDef.id === "coastal_parsley" || flavorDef.id === "coastal_cilantro" || flavorDef.id === "coastal_dill" || flavorDef.id === "coastal_sorrel" || flavorDef.id === "meadow_thyme" || flavorDef.id === "meadow_sage" || flavorDef.id === "meadow_oregano" || flavorDef.id === "meadow_basil" || flavorDef.id === "meadow_mint" || flavorDef.id === "meadow_lavender" || flavorDef.id === "meadow_marjoram" || flavorDef.id === "meadow_tarragon" || flavorDef.id === "meadow_chive" || flavorDef.id === "meadow_parsley" || flavorDef.id === "meadow_cilantro" || flavorDef.id === "meadow_dill" || flavorDef.id === "meadow_sorrel" || flavorDef.id === "woodland_thyme" || flavorDef.id === "woodland_sage" || flavorDef.id === "woodland_oregano" || flavorDef.id === "woodland_basil" || flavorDef.id === "woodland_mint" || flavorDef.id === "woodland_lavender" || flavorDef.id === "woodland_marjoram" || flavorDef.id === "woodland_tarragon" || flavorDef.id === "woodland_chive" || flavorDef.id === "woodland_parsley" || flavorDef.id === "woodland_cilantro" || flavorDef.id === "woodland_dill" || flavorDef.id === "woodland_fennel" || flavorDef.id === "woodland_lovage" || flavorDef.id === "woodland_sorrel" || flavorDef.id === "garden_thyme" || flavorDef.id === "garden_sage" || flavorDef.id === "garden_oregano" || flavorDef.id === "garden_basil" || flavorDef.id === "garden_mint" || flavorDef.id === "garden_lavender" || flavorDef.id === "garden_marjoram" || flavorDef.id === "garden_tarragon" || flavorDef.id === "garden_chive" || flavorDef.id === "garden_parsley" || flavorDef.id === "garden_cilantro" || flavorDef.id === "garden_dill" || flavorDef.id === "garden_fennel" || flavorDef.id === "garden_lovage" || flavorDef.id === "garden_sorrel" || flavorDef.id === "wild_thyme" || flavorDef.id === "wild_sage" || flavorDef.id === "wild_oregano" || flavorDef.id === "wild_basil" || flavorDef.id === "wild_mint" || flavorDef.id === "wild_lavender" || flavorDef.id === "wild_rosemary" || flavorDef.id === "wild_marjoram" || flavorDef.id === "wild_tarragon" || flavorDef.id === "wild_chive" || flavorDef.id === "wild_parsley" || flavorDef.id === "wild_cilantro" || flavorDef.id === "wild_dill" || flavorDef.id === "wild_fennel" || flavorDef.id === "wild_lovage" || flavorDef.id === "wild_sorrel" || flavorDef.id === "dwarf_thyme" || flavorDef.id === "dwarf_sage" || flavorDef.id === "dwarf_oregano" || flavorDef.id === "dwarf_basil" || flavorDef.id === "dwarf_mint" || flavorDef.id === "dwarf_lavender" || flavorDef.id === "dwarf_marjoram" || flavorDef.id === "dwarf_chive" || flavorDef.id === "dwarf_parsley" || flavorDef.id === "dwarf_cilantro" || flavorDef.id === "dwarf_dill" || flavorDef.id === "dwarf_fennel" || flavorDef.id === "dwarf_lovage" || flavorDef.id === "dwarf_sorrel" || flavorDef.id === "giant_oregano" || flavorDef.id === "giant_basil" || flavorDef.id === "giant_marjoram" || flavorDef.id === "giant_tarragon" || flavorDef.id === "giant_chive" || flavorDef.id === "giant_parsley" || flavorDef.id === "giant_cilantro" || flavorDef.id === "giant_dill" || flavorDef.id === "giant_lovage" || flavorDef.id === "giant_sorrel" || flavorDef.id === "variegated_thyme" || flavorDef.id === "variegated_oregano" || flavorDef.id === "variegated_basil" || flavorDef.id === "variegated_mint" || flavorDef.id === "variegated_lavender" || flavorDef.id === "variegated_marjoram" || flavorDef.id === "variegated_chive" || flavorDef.id === "variegated_parsley" || flavorDef.id === "variegated_cilantro" || flavorDef.id === "variegated_dill" || flavorDef.id === "variegated_sorrel" || flavorDef.id === "golden_thyme" || flavorDef.id === "golden_oregano" || flavorDef.id === "golden_basil" || flavorDef.id === "golden_mint" || flavorDef.id === "golden_lavender" || flavorDef.id === "golden_marjoram" || flavorDef.id === "golden_chive" || flavorDef.id === "golden_parsley" || flavorDef.id === "golden_cilantro" || flavorDef.id === "golden_dill" || flavorDef.id === "golden_sorrel" || flavorDef.id === "silver_thyme" || flavorDef.id === "silver_oregano" || flavorDef.id === "silver_basil" || flavorDef.id === "silver_mint" || flavorDef.id === "silver_lavender" || flavorDef.id === "silver_marjoram" || flavorDef.id === "silver_chive" || flavorDef.id === "silver_parsley" || flavorDef.id === "silver_cilantro" || flavorDef.id === "silver_dill" || flavorDef.id === "silver_sorrel" || flavorDef.id === "purple_thyme" || flavorDef.id === "purple_oregano" || flavorDef.id === "purple_basil" || flavorDef.id === "purple_mint" || flavorDef.id === "purple_lavender" || flavorDef.id === "purple_marjoram" || flavorDef.id === "purple_chive" || flavorDef.id === "purple_parsley" || flavorDef.id === "purple_cilantro" || flavorDef.id === "purple_dill" || flavorDef.id === "purple_sorrel" || flavorDef.id === "red_thyme" || flavorDef.id === "red_oregano" || flavorDef.id === "red_basil" || flavorDef.id === "red_mint" || flavorDef.id === "red_lavender" || flavorDef.id === "red_marjoram" || flavorDef.id === "red_chive" || flavorDef.id === "red_parsley" || flavorDef.id === "red_cilantro" || flavorDef.id === "red_dill" || flavorDef.id === "red_sorrel" || flavorDef.id === "white_thyme" || flavorDef.id === "white_oregano" || flavorDef.id === "white_basil" || flavorDef.id === "white_mint" || flavorDef.id === "white_lavender" || flavorDef.id === "white_marjoram" || flavorDef.id === "white_chive" || flavorDef.id === "white_parsley" || flavorDef.id === "white_cilantro" || flavorDef.id === "white_dill" || flavorDef.id === "white_sorrel" || flavorDef.id === "pink_thyme" || flavorDef.id === "pink_oregano" || flavorDef.id === "pink_basil" || flavorDef.id === "pink_mint" || flavorDef.id === "pink_lavender" || flavorDef.id === "pink_marjoram" || flavorDef.id === "pink_chive" || flavorDef.id === "pink_parsley" || flavorDef.id === "pink_cilantro" || flavorDef.id === "pink_dill" || flavorDef.id === "pink_sorrel" || flavorDef.id === "blue_thyme" || flavorDef.id === "blue_oregano" || flavorDef.id === "blue_basil" || flavorDef.id === "blue_mint" || flavorDef.id === "blue_lavender" || flavorDef.id === "blue_marjoram" || flavorDef.id === "blue_chive" || flavorDef.id === "blue_parsley" || flavorDef.id === "blue_cilantro" || flavorDef.id === "blue_dill" || flavorDef.id === "blue_sorrel" || flavorDef.id === "yellow_thyme" || flavorDef.id === "yellow_oregano" || flavorDef.id === "yellow_basil" || flavorDef.id === "yellow_mint" || flavorDef.id === "yellow_lavender" || flavorDef.id === "yellow_marjoram" || flavorDef.id === "yellow_chive" || flavorDef.id === "yellow_parsley" || flavorDef.id === "yellow_cilantro" || flavorDef.id === "yellow_dill" || flavorDef.id === "yellow_sorrel" || flavorDef.id === "orange_thyme" || flavorDef.id === "orange_oregano" || flavorDef.id === "orange_basil" || flavorDef.id === "orange_mint" || flavorDef.id === "orange_lavender" || flavorDef.id === "orange_marjoram" || flavorDef.id === "orange_chive" || flavorDef.id === "orange_parsley" || flavorDef.id === "orange_cilantro" || flavorDef.id === "orange_dill" || flavorDef.id === "orange_sorrel" || flavorDef.id === "fragrant_thyme" || flavorDef.id === "fragrant_sage" || flavorDef.id === "fragrant_oregano" || flavorDef.id === "fragrant_basil" || flavorDef.id === "fragrant_mint" || flavorDef.id === "fragrant_lavender" || flavorDef.id === "fragrant_rosemary" || flavorDef.id === "fragrant_marjoram" || flavorDef.id === "fragrant_tarragon" || flavorDef.id === "fragrant_chive" || flavorDef.id === "fragrant_parsley" || flavorDef.id === "fragrant_cilantro" || flavorDef.id === "fragrant_dill" || flavorDef.id === "fragrant_fennel" || flavorDef.id === "fragrant_lovage" || flavorDef.id === "fragrant_sorrel" || flavorDef.id === "edible_thyme" || flavorDef.id === "edible_sage" || flavorDef.id === "edible_oregano" || flavorDef.id === "edible_basil" || flavorDef.id === "edible_mint" || flavorDef.id === "edible_lavender" || flavorDef.id === "edible_rosemary" || flavorDef.id === "edible_marjoram" || flavorDef.id === "edible_tarragon" || flavorDef.id === "edible_chive" || flavorDef.id === "edible_parsley" || flavorDef.id === "edible_cilantro" || flavorDef.id === "edible_dill" || flavorDef.id === "edible_fennel" || flavorDef.id === "edible_lovage" || flavorDef.id === "edible_sorrel" || flavorDef.id === "apple_blossom" || flavorDef.id === "pear_blossom" || flavorDef.id === "peach_blossom" || flavorDef.id === "plum_blossom_fresh" || flavorDef.id === "cherry_blossom" || flavorDef.id === "apricot_blossom" || flavorDef.id === "quince_blossom" || flavorDef.id === "medlar_blossom" || flavorDef.id === "mulberry_flower" || flavorDef.id === "fig_leaf" || flavorDef.id === "pomegranate_flower" || flavorDef.id === "persimmon_flower" || flavorDef.id === "walnut_flower" || flavorDef.id === "hazel_catkin" || flavorDef.id === "chestnut_catkin" || flavorDef.id === "almond_fresh_bl" || flavorDef.id === "pistachio_flower" || flavorDef.id === "pecan_flower" || flavorDef.id === "macadamia_flower" || flavorDef.id === "cashew_flower" || flavorDef.id === "brazil_nut_fl" || flavorDef.id === "coconut_inflo" || flavorDef.id === "date_flower" || flavorDef.id === "olive_flower" || flavorDef.id === "avocado_flower" || flavorDef.id === "mango_flower" || flavorDef.id === "lychee_flower" || flavorDef.id === "longan_flower" || flavorDef.id === "rambutan_flower" || flavorDef.id === "mangosteen_flower" || flavorDef.id === "guava_flower" || flavorDef.id === "papaya_flower" || flavorDef.id === "pineapple_flower" || flavorDef.id === "banana_flower" || flavorDef.id === "plantain_flower" || flavorDef.id === "breadfruit_fl" || flavorDef.id === "jackfruit_fl" || flavorDef.id === "durian_fresh_fl" || flavorDef.id === "soursop_fl" || flavorDef.id === "cherimoya_fl" || flavorDef.id === "custard_apple_fl" || flavorDef.id === "r1_e58c97e5a283" || flavorDef.id === "r2_e58c97e5a283" || flavorDef.id === "r3_e58c97e5a283" || flavorDef.id === "r4_e58c97e5a283" || flavorDef.id === "r6_e58c97e5a283" || flavorDef.id === "r7_e58c97e5a283" || flavorDef.id === "r8_e58c97e5a283" || flavorDef.id === "r9_e58c97e5a283" || flavorDef.id === "r11_e58c97e5a283" || flavorDef.id === "r12_e58c97e5a283" || flavorDef.id === "r13_e58c97e5a283" || flavorDef.id === "r14_e58c97e5a283" || flavorDef.id === "r16_e58c97e5a283" || flavorDef.id === "r17_e58c97e5a283" || flavorDef.id === "r18_e58c97e5a283" || flavorDef.id === "r19_e58c97e5a283" || flavorDef.id === "r21_e58c97e5a283" || flavorDef.id === "r22_e58c97e5a283" || flavorDef.id === "r23_e58c97e5a283" || flavorDef.id === "r24_e58c97e5a283" || flavorDef.id === "r26_e58c97e5a283" || flavorDef.id === "r27_e58c97e5a283" || flavorDef.id === "r28_e58c97e5a283" || flavorDef.id === "r29_e58c97e5a283" || flavorDef.id === "r31_e58c97e5a283" || flavorDef.id === "r32_e58c97e5a283" || flavorDef.id === "r33_e58c97e5a283" || flavorDef.id === "r34_e58c97e5a283" || flavorDef.id === "r36_e58c97e5a283" || flavorDef.id === "r37_e58c97e5a283" || flavorDef.id === "r38_e58c97e5a283" || flavorDef.id === "r39_e58c97e5a283" || flavorDef.id === "r41_e58c97e5a283" || flavorDef.id === "r42_e58c97e5a283" || flavorDef.id === "r43_e58c97e5a283" || flavorDef.id === "r44_e58c97e5a283" || flavorDef.id === "r46_e58c97e5a283" || flavorDef.id === "r47_e58c97e5a283" || flavorDef.id === "r48_e58c97e5a283" || flavorDef.id === "r49_e58c97e5a283" || flavorDef.id === "r51_e58c97e5a283" || flavorDef.id === "r52_e58c97e5a283" || flavorDef.id === "r53_e58c97e5a283" || flavorDef.id === "r54_e58c97e5a283" || flavorDef.id === "r56_e58c97e5a283" || flavorDef.id === "r57_e58c97e5a283" || flavorDef.id === "r58_e58c97e5a283" || flavorDef.id === "r59_e58c97e5a283" || flavorDef.id === "r61_e58c97e5a283" || flavorDef.id === "r62_e58c97e5a283" || flavorDef.id === "r63_e58c97e5a283" || flavorDef.id === "r64_e58c97e5a283" || flavorDef.id === "r66_e58c97e5a283" || flavorDef.id === "r67_e58c97e5a283" || flavorDef.id === "r68_e58c97e5a283" || flavorDef.id === "r69_e58c97e5a283" || flavorDef.id === "r71_e58c97e5a283" || flavorDef.id === "r72_e58c97e5a283" || flavorDef.id === "r73_e58c97e5a283" || flavorDef.id === "r74_e58c97e5a283" || flavorDef.id === "r76_e58c97e5a283" || flavorDef.id === "r77_e58c97e5a283" || flavorDef.id === "r78_e58c97e5a283" || flavorDef.id === "r79_e58c97e5a283" || flavorDef.id === "r81_e58c97e5a283" || flavorDef.id === "r82_e58c97e5a283" || flavorDef.id === "r83_e58c97e5a283" || flavorDef.id === "r84_e58c97e5a283" || flavorDef.id === "r86_e58c97e5a283" || flavorDef.id === "r87_e58c97e5a283" || flavorDef.id === "r88_e58c97e5a283" || flavorDef.id === "r89_e58c97e5a283" || flavorDef.id === "r91_e58c97e5a283" || flavorDef.id === "r92_e58c97e5a283" || flavorDef.id === "r93_e58c97e5a283" || flavorDef.id === "r94_e58c97e5a283" || flavorDef.id === "r96_e58c97e5a283" || flavorDef.id === "r97_e58c97e5a283" || flavorDef.id === "r98_e58c97e5a283" || flavorDef.id === "r99_e58c97e5a283" || flavorDef.id === "r101_e58c97e5a283" || flavorDef.id === "r102_e58c97e5a283" || flavorDef.id === "r103_e58c97e5a283" || flavorDef.id === "r104_e58d97e5a283" || flavorDef.id === "r106_e58d97e5a283" || flavorDef.id === "r107_e58d97e5a283" || flavorDef.id === "r108_e58d97e5a283" || flavorDef.id === "r109_e58d97e5a283" || flavorDef.id === "r111_e58d97e5a283" || flavorDef.id === "r112_e58d97e5a283" || flavorDef.id === "r113_e58d97e5a283" || flavorDef.id === "r114_e58d97e5a283" || flavorDef.id === "r116_e58d97e5a283" || flavorDef.id === "r117_e58d97e5a283" || flavorDef.id === "r118_e58d97e5a283" || flavorDef.id === "r119_e58d97e5a283" || flavorDef.id === "r121_e58d97e5a283" || flavorDef.id === "r122_e58d97e5a283" || flavorDef.id === "r123_e58d97e5a283" || flavorDef.id === "r124_e58d97e5a283" || flavorDef.id === "r126_e58d97e5a283" || flavorDef.id === "r127_e58d97e5a283" || flavorDef.id === "r128_e58d97e5a283" || flavorDef.id === "r129_e58d97e5a283" || flavorDef.id === "r131_e58d97e5a283" || flavorDef.id === "r132_e58d97e5a283" || flavorDef.id === "r133_e58d97e5a283" || flavorDef.id === "r134_e58d97e5a283" || flavorDef.id === "r136_e58d97e5a283" || flavorDef.id === "r137_e58d97e5a283" || flavorDef.id === "r138_e58d97e5a283" || flavorDef.id === "r139_e58d97e5a283" || flavorDef.id === "r141_e58d97e5a283" || flavorDef.id === "r142_e58d97e5a283" || flavorDef.id === "r143_e58d97e5a283" || flavorDef.id === "r144_e58d97e5a283" || flavorDef.id === "r146_e58d97e5a283" || flavorDef.id === "r147_e58d97e5a283" || flavorDef.id === "r148_e58d97e5a283" || flavorDef.id === "r149_e58d97e5a283" || flavorDef.id === "r151_e58d97e5a283" || flavorDef.id === "r152_e58d97e5a283" || flavorDef.id === "r153_e58d97e5a283" || flavorDef.id === "r154_e58d97e5a283" || flavorDef.id === "r156_e58d97e5a283" || flavorDef.id === "r157_e58d97e5a283" || flavorDef.id === "r158_e58d97e5a283" || flavorDef.id === "r159_e58d97e5a283" || flavorDef.id === "r161_e58d97e5a283" || flavorDef.id === "r162_e58d97e5a283" || flavorDef.id === "r163_e58d97e5a283" || flavorDef.id === "r164_e58d97e5a283" || flavorDef.id === "r166_e58d97e5a283" || flavorDef.id === "r167_e58d97e5a283" || flavorDef.id === "r168_e58d97e5a283" || flavorDef.id === "r169_e58d97e5a283" || flavorDef.id === "r171_e58d97e5a283" || flavorDef.id === "r172_e58d97e5a283" || flavorDef.id === "r173_e58d97e5a283" || flavorDef.id === "r174_e58d97e5a283" || flavorDef.id === "r176_e58d97e5a283" || flavorDef.id === "r177_e58d97e5a283" || flavorDef.id === "r178_e58d97e5a283" || flavorDef.id === "r179_e58d97e5a283" || flavorDef.id === "r181_e58d97e5a283" || flavorDef.id === "r182_e58d97e5a283" || flavorDef.id === "r183_e58d97e5a283" || flavorDef.id === "r184_e58d97e5a283" || flavorDef.id === "r186_e58d97e5a283" || flavorDef.id === "r187_e58d97e5a283" || flavorDef.id === "r188_e58d97e5a283" || flavorDef.id === "r189_e58d97e5a283" || flavorDef.id === "r191_e58d97e5a283" || flavorDef.id === "r192_e58d97e5a283" || flavorDef.id === "r193_e58d97e5a283" || flavorDef.id === "r194_e58d97e5a283" || flavorDef.id === "r196_e58d97e5a283" || flavorDef.id === "r197_e58d97e5a283" || flavorDef.id === "r198_e58d97e5a283" || flavorDef.id === "r199_e58d97e5a283" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
+    if (season === "summer" && (flavorDef.id === "mint" || flavorDef.id === "rosemary" || flavorDef.id === "bluebell" || flavorDef.id === "matcha" || flavorDef.id === "perilla" || flavorDef.id === "thyme" || flavorDef.id === "dill" || flavorDef.id === "basil" || flavorDef.id === "lemongrass" || flavorDef.id === "coriander" || flavorDef.id === "lemon_balm" || flavorDef.id === "marjoram" || flavorDef.id === "hibiscus" || flavorDef.id === "elderflower" || flavorDef.id === "sea_lavender" || flavorDef.id === "mulberry" || flavorDef.id === "strawberry" || flavorDef.id === "blueberry" || flavorDef.id === "pomegranate" || flavorDef.id === "yangmei" || flavorDef.id === "litchi" || flavorDef.id === "olive" || flavorDef.id === "mango" || flavorDef.id === "pineapple" || flavorDef.id === "coconut" || flavorDef.id === "starfruit" || flavorDef.id === "passion_fruit" || flavorDef.id === "kiwi" || flavorDef.id === "dragonfruit" || flavorDef.id === "guava" || flavorDef.id === "cherry" || flavorDef.id === "apricot" || flavorDef.id === "grapefruit" || flavorDef.id === "tangerine" || flavorDef.id === "wax_apple" || flavorDef.id === "sugarcane" || flavorDef.id === "lemon" || flavorDef.id === "lime" || flavorDef.id === "cranberry" || flavorDef.id === "elderberry" || flavorDef.id === "honeydew" || flavorDef.id === "watermelon" || flavorDef.id === "cantaloupe" || flavorDef.id === "papaya" || flavorDef.id === "rambutan" || flavorDef.id === "jackfruit" || flavorDef.id === "oregano" || flavorDef.id === "chive" || flavorDef.id === "parsley" || flavorDef.id === "avocado" || flavorDef.id === "chervil" || flavorDef.id === "sorrel" || flavorDef.id === "verbena" || flavorDef.id === "savory" || flavorDef.id === "celery_seed" || flavorDef.id === "galangal" || flavorDef.id === "kaffir_lime" || flavorDef.id === "pandan" || flavorDef.id === "juniper" || flavorDef.id === "sumac" || flavorDef.id === "nigella" || flavorDef.id === "mustard_seed" || flavorDef.id === "wasabi" || flavorDef.id === "dandelion" || flavorDef.id === "nettle" || flavorDef.id === "borage" || flavorDef.id === "hops" || flavorDef.id === "heather" || flavorDef.id === "arnica" || flavorDef.id === "echinacea" || flavorDef.id === "feverfew" || flavorDef.id === "lemon_verbena" || flavorDef.id === "mullein" || flavorDef.id === "plantain_leaf" || flavorDef.id === "bee_balm" || flavorDef.id === "marshmallow" || flavorDef.id === "goldenrod" || flavorDef.id === "red_clover" || flavorDef.id === "white_clover" || flavorDef.id === "catnip" || flavorDef.id === "tansy" || flavorDef.id === "agrimony" || flavorDef.id === "milfoil" || flavorDef.id === "lady_mantle" || flavorDef.id === "speedwell" || flavorDef.id === "stitchwort" || flavorDef.id === "campion" || flavorDef.id === "silverweed" || flavorDef.id === "loosestrife" || flavorDef.id === "willowherb" || flavorDef.id === "bedstraw" || flavorDef.id === "cleavers" || flavorDef.id === "bugle" || flavorDef.id === "primrose" || flavorDef.id === "cowslip" || flavorDef.id === "oxeye" || flavorDef.id === "knapweed" || flavorDef.id === "scabious" || flavorDef.id === "nettle_seed" || flavorDef.id === "rowan" || flavorDef.id === "crabapple" || flavorDef.id === "serviceberry" || flavorDef.id === "elderflower_fresh" || flavorDef.id === "meadowsweet_fresh" || flavorDef.id === "wood_sorrel" || flavorDef.id === "wild_garlic" || flavorDef.id === "ramsons" || flavorDef.id === "jack_by_hedge" || flavorDef.id === "hedge_mustard" || flavorDef.id === "watercress" || flavorDef.id === "brooklime" || flavorDef.id === "cloudberry" || flavorDef.id === "lingonberry" || flavorDef.id === "bilberry" || flavorDef.id === "gooseberry" || flavorDef.id === "currant_red" || flavorDef.id === "currant_black" || flavorDef.id === "whitecurrant" || flavorDef.id === "sea_buckthorn" || flavorDef.id === "damson" || flavorDef.id === "greengage" || flavorDef.id === "mirabelle" || flavorDef.id === "saskatoon" || flavorDef.id === "chokeberry" || flavorDef.id === "yarrow_white" || flavorDef.id === "achillea_pink" || flavorDef.id === "cornflower" || flavorDef.id === "poppy_seed" || flavorDef.id === "flax_flower" || flavorDef.id === "chia_seed" || flavorDef.id === "sunflower_seed" || flavorDef.id === "fennel_pollen" || flavorDef.id === "fennel_frond" || flavorDef.id === "dill_pollen" || flavorDef.id === "celery_leaf" || flavorDef.id === "rooibos" || flavorDef.id === "honeybush" || flavorDef.id === "yerba_mate" || flavorDef.id === "guayusa" || flavorDef.id === "gardenia" || flavorDef.id === "magnolia" || flavorDef.id === "frangipani" || flavorDef.id === "plumeria" || flavorDef.id === "stephanotis" || flavorDef.id === "garden_phlox" || flavorDef.id === "osmanthus_fresh" || flavorDef.id === "galangal_fresh" || flavorDef.id === "ginger_flower" || flavorDef.id === "turmeric_fresh" || flavorDef.id === "cubeb" || flavorDef.id === "makrut_leaf" || flavorDef.id === "curry_leaf" || flavorDef.id === "holy_basil" || flavorDef.id === "thai_basil" || flavorDef.id === "lemon_basil" || flavorDef.id === "rambutan_fresh" || flavorDef.id === "lychee_fresh" || flavorDef.id === "mangosteen" || flavorDef.id === "durian_flower" || flavorDef.id === "tamarind" || flavorDef.id === "calamansi" || flavorDef.id === "fig_fresh" || flavorDef.id === "pomegranate_seed" || flavorDef.id === "cactus_pear" || flavorDef.id === "prickly_pear" || flavorDef.id === "sapodilla" || flavorDef.id === "soursop" || flavorDef.id === "cherimoya" || flavorDef.id === "feijoa" || flavorDef.id === "loquat_fresh" || flavorDef.id === "jujube_fresh" || flavorDef.id === "mulberry_white" || flavorDef.id === "mulberry_black" || flavorDef.id === "elderberry_fresh" || flavorDef.id === "bergamot_fresh" || flavorDef.id === "sudachi" || flavorDef.id === "kabosu" || flavorDef.id === "amanatsu" || flavorDef.id === "shiso_green" || flavorDef.id === "shiso_red" || flavorDef.id === "mitsuba" || flavorDef.id === "myoga" || flavorDef.id === "wasabi_leaf" || flavorDef.id === "sansho" || flavorDef.id === "kinome" || flavorDef.id === "gentian" || flavorDef.id === "arnica_montana" || flavorDef.id === "alpine_strawberry" || flavorDef.id === "bilberry_leaf" || flavorDef.id === "spruce_tip" || flavorDef.id === "olive_leaf" || flavorDef.id === "caper" || flavorDef.id === "zaatar" || flavorDef.id === "sumac_berry" || flavorDef.id === "orange_blossom" || flavorDef.id === "lavender_honey" || flavorDef.id === "thyme_honey" || flavorDef.id === "acacia_honey" || flavorDef.id === "manuka" || flavorDef.id === "bee_pollen" || flavorDef.id === "comb_honey" || flavorDef.id === "linden_honey" || flavorDef.id === "heather_honey_wild" || flavorDef.id === "wildflower_honey" || flavorDef.id === "clover_honey" || flavorDef.id === "eucalyptus_honey" || flavorDef.id === "mesquite" || flavorDef.id === "lucuma" || flavorDef.id === "camu_camu" || flavorDef.id === "acai" || flavorDef.id === "maqui" || flavorDef.id === "goji_fresh" || flavorDef.id === "amla" || flavorDef.id === "baobab" || flavorDef.id === "morinda" || flavorDef.id === "noni" || flavorDef.id === "cupuacu" || flavorDef.id === "matcha_ceremonial" || flavorDef.id === "sencha" || flavorDef.id === "gyokuro" || flavorDef.id === "bancha" || flavorDef.id === "kukicha" || flavorDef.id === "mugicha" || flavorDef.id === "barley_grass" || flavorDef.id === "wheatgrass" || flavorDef.id === "spirulina" || flavorDef.id === "chlorella" || flavorDef.id === "kelp" || flavorDef.id === "nori" || flavorDef.id === "hibiscus_fresh" || flavorDef.id === "chrysanthemum_fresh" || flavorDef.id === "peony" || flavorDef.id === "lotus_leaf_fresh" || flavorDef.id === "osmanthus_sugar" || flavorDef.id === "orchid_petal" || flavorDef.id === "bamboo_leaf_fresh" || flavorDef.id === "bamboo_shoot_fresh" || flavorDef.id === "safflower" || flavorDef.id === "calendula_fresh" || flavorDef.id === "pot_marigold" || flavorDef.id === "coreopsis" || flavorDef.id === "cosmos" || flavorDef.id === "zinnia" || flavorDef.id === "dahlia" || flavorDef.id === "gladiolus" || flavorDef.id === "iris" || flavorDef.id === "tulip" || flavorDef.id === "ranunculus" || flavorDef.id === "sweet_pea" || flavorDef.id === "nasturtium" || flavorDef.id === "morning_glory" || flavorDef.id === "clematis" || flavorDef.id === "wisteria_fresh" || flavorDef.id === "jasmine_sambac" || flavorDef.id === "gardenia_tea" || flavorDef.id === "boysenberry" || flavorDef.id === "loganberry" || flavorDef.id === "tayberry" || flavorDef.id === "marionberry" || flavorDef.id === "wineberry" || flavorDef.id === "salmonberry" || flavorDef.id === "thimbleberry" || flavorDef.id === "cloudberry_leaf" || flavorDef.id === "lovage_fresh" || flavorDef.id === "sweet_cicely" || flavorDef.id === "ramsons_flower" || flavorDef.id === "sea_kale" || flavorDef.id === "scurvygrass" || flavorDef.id === "marsh_samphire" || flavorDef.id === "agave_nectar" || flavorDef.id === "prickly_pear_pad" || flavorDef.id === "jojoba" || flavorDef.id === "mesquite_pod" || flavorDef.id === "creosote" || flavorDef.id === "desert_sage" || flavorDef.id === "yucca_flower" || flavorDef.id === "yerba_santa" || flavorDef.id === "cedron" || flavorDef.id === "muña" || flavorDef.id === "coca_leaf_tea" || flavorDef.id === "guarana" || flavorDef.id === "stevia_leaf" || flavorDef.id === "rooibos_green" || flavorDef.id === "honeybush_fresh" || flavorDef.id === "buchu" || flavorDef.id === "baobab_leaf" || flavorDef.id === "marula" || flavorDef.id === "kinkeliba" || flavorDef.id === "hibiscus_sab" || flavorDef.id === "pandan_fresh" || flavorDef.id === "lemongrass_fresh" || flavorDef.id === "galangal_leaf" || flavorDef.id === "torch_ginger" || flavorDef.id === "butterfly_pea" || flavorDef.id === "chrysanthemum_ind" || flavorDef.id === "tamarind_leaf" || flavorDef.id === "coconut_flower" || flavorDef.id === "bergamot_leaf" || flavorDef.id === "neroli" || flavorDef.id === "petitgrain" || flavorDef.id === "immortelle" || flavorDef.id === "helichrysum" || flavorDef.id === "cistus" || flavorDef.id === "spruce_beer" || flavorDef.id === "fireweed" || flavorDef.id === "fireweed_honey" || flavorDef.id === "crowberry" || flavorDef.id === "bearberry" || flavorDef.id === "labrador_violet" || flavorDef.id === "matcha_salt" || flavorDef.id === "sansho_leaf" || flavorDef.id === "shiso_flower" || flavorDef.id === "sakura_leaf" || flavorDef.id === "lavender_sugar" || flavorDef.id === "rose_water" || flavorDef.id === "orange_flower_water" || flavorDef.id === "almond_blossom" || flavorDef.id === "chestnut_flower" || flavorDef.id === "maesil" || flavorDef.id === "persimmon_leaf" || flavorDef.id === "pine_flower" || flavorDef.id === "tulsi" || flavorDef.id === "neem_flower" || flavorDef.id === "curry_blossom" || flavorDef.id === "ajwain_leaf" || flavorDef.id === "fenugreek_leaf" || flavorDef.id === "moringa" || flavorDef.id === "gotu_kola" || flavorDef.id === "brahmi" || flavorDef.id === "hibiscus_rosa" || flavorDef.id === "allspice_berry" || flavorDef.id === "annatto" || flavorDef.id === "epazote" || flavorDef.id === "papalo" || flavorDef.id === "hoja_santa" || flavorDef.id === "mexican_oregano" || flavorDef.id === "chile_flower" || flavorDef.id === "noni_leaf" || flavorDef.id === "ti_leaf" || flavorDef.id === "frangipani_tea" || flavorDef.id === "soursop_leaf" || flavorDef.id === "guava_leaf" || flavorDef.id === "passion_leaf" || flavorDef.id === "vanilla_orchid" || flavorDef.id === "longjing" || flavorDef.id === "biluochun" || flavorDef.id === "puer_raw" || flavorDef.id === "white_peony_tea" || flavorDef.id === "valerian_flower" || flavorDef.id === "hops_flower" || flavorDef.id === "meadowsweet_flower" || flavorDef.id === "yarrow_flower" || flavorDef.id === "nettle_seed_tea" || flavorDef.id === "silver_birch" || flavorDef.id === "copper_beech" || flavorDef.id === "hornbeam" || flavorDef.id === "field_maple" || flavorDef.id === "wild_service" || flavorDef.id === "guelder_rose" || flavorDef.id === "wayfaring" || flavorDef.id === "dogwood" || flavorDef.id === "spindle" || flavorDef.id === "buckthorn" || flavorDef.id === "privet" || flavorDef.id === "boxwood" || flavorDef.id === "bluebell_fresh" || flavorDef.id === "primula_veris" || flavorDef.id === "oxlip" || flavorDef.id === "cowslip_fresh" || flavorDef.id === "wood_anemone" || flavorDef.id === "wood_sorrel_pink" || flavorDef.id === "greater_stitchwort" || flavorDef.id === "red_campion" || flavorDef.id === "white_campion" || flavorDef.id === "ragged_robin" || flavorDef.id === "cuckooflower" || flavorDef.id === "lady_smock" || flavorDef.id === "garlic_mustard_fl" || flavorDef.id === "hedge_garlic_seed" || flavorDef.id === "jack_hedge_leaf" || flavorDef.id === "wild_mustard" || flavorDef.id === "meadow_buttercup" || flavorDef.id === "creeping_buttercup" || flavorDef.id === "lesser_celandine" || flavorDef.id === "marsh_marigold" || flavorDef.id === "globe_flower" || flavorDef.id === "columbine" || flavorDef.id === "monkshood" || flavorDef.id === "larkspur" || flavorDef.id === "delphinium" || flavorDef.id === "pasque_flower" || flavorDef.id === "anemone_coronaria" || flavorDef.id === "hepatic" || flavorDef.id === "clematis_vitalba" || flavorDef.id === "speedwell_germander" || flavorDef.id === "germander" || flavorDef.id === "betony_fresh" || flavorDef.id === "selfheal_fresh" || flavorDef.id === "woundwort" || flavorDef.id === "hedge_woundwort" || flavorDef.id === "marsh_woundwort" || flavorDef.id === "motherwort_fresh" || flavorDef.id === "scutellaria" || flavorDef.id === "bugle_fresh" || flavorDef.id === "alehoof" || flavorDef.id === "clary_sage" || flavorDef.id === "pineapple_sage" || flavorDef.id === "fruit_sage" || flavorDef.id === "white_sage" || flavorDef.id === "russian_sage" || flavorDef.id === "meadow_clary_fresh" || flavorDef.id === "wood_sage" || flavorDef.id === "jerusalem_sage" || flavorDef.id === "catmint" || flavorDef.id === "catnip_fresh" || flavorDef.id === "hyssop_fresh" || flavorDef.id === "anise_hyssop" || flavorDef.id === "korean_mint" || flavorDef.id === "agastache" || flavorDef.id === "lavender_spike" || flavorDef.id === "lavender_sto" || flavorDef.id === "thyme_lemon" || flavorDef.id === "thyme_orange" || flavorDef.id === "thyme_caraway" || flavorDef.id === "thyme_woolly" || flavorDef.id === "creeping_thyme" || flavorDef.id === "oregano_greek" || flavorDef.id === "oregano_italian" || flavorDef.id === "marjoram_sweet" || flavorDef.id === "savory_summer" || flavorDef.id === "basil_genovese" || flavorDef.id === "basil_cinnamon" || flavorDef.id === "basil_purple" || flavorDef.id === "basil_lettuce" || flavorDef.id === "mint_peppermint" || flavorDef.id === "mint_spearmint" || flavorDef.id === "mint_chocolate" || flavorDef.id === "mint_apple" || flavorDef.id === "mint_ginger" || flavorDef.id === "mint_orange" || flavorDef.id === "mint_lavender" || flavorDef.id === "mint_bergamot" || flavorDef.id === "mint_corsican" || flavorDef.id === "mint_water" || flavorDef.id === "melissa_fresh" || flavorDef.id === "lemon_balm_var" || flavorDef.id === "bee_balm_pink" || flavorDef.id === "bee_balm_purple" || flavorDef.id === "oregano_hop" || flavorDef.id === "dittany" || flavorDef.id === "dictamnus" || flavorDef.id === "burning_bush" || flavorDef.id === "chamomile_roman" || flavorDef.id === "chamomile_german" || flavorDef.id === "feverfew_fresh" || flavorDef.id === "tansy_fresh" || flavorDef.id === "yarrow_pink" || flavorDef.id === "yarrow_gold" || flavorDef.id === "arnica_fresh" || flavorDef.id === "calendula_offic" || flavorDef.id === "pot_marigold_dbl" || flavorDef.id === "tagetes" || flavorDef.id === "marigold_french" || flavorDef.id === "signet_marigold" || flavorDef.id === "costmary_fresh" || flavorDef.id === "elecampane_fresh" || flavorDef.id === "inula" || flavorDef.id === "eupatorium" || flavorDef.id === "echinacea_purp" || flavorDef.id === "echinacea_ang" || flavorDef.id === "echinacea_pall" || flavorDef.id === "rudbeckia" || flavorDef.id === "black_eyed_susan" || flavorDef.id === "coneflower_yellow" || flavorDef.id === "helenium" || flavorDef.id === "helenium_autumn" || flavorDef.id === "coreopsis_lance" || flavorDef.id === "coreopsis_tick" || flavorDef.id === "gaillardia" || flavorDef.id === "gaillardia_fan" || flavorDef.id === "ratibida" || flavorDef.id === "silphium" || flavorDef.id === "cup_plant" || flavorDef.id === "compass_plant" || flavorDef.id === "aster_novae" || flavorDef.id === "aster_novi" || flavorDef.id === "michaelmas" || flavorDef.id === "goldenrod_fresh" || flavorDef.id === "solidago" || flavorDef.id === "boltonia" || flavorDef.id === "erigeron" || flavorDef.id === "fleabane" || flavorDef.id === "daisy_oxeye" || flavorDef.id === "daisy_english" || flavorDef.id === "daisy_shasta" || flavorDef.id === "chrysanthemum_ind_fresh" || flavorDef.id === "chrysanthemum_mor" || flavorDef.id === "chrysanthemum_yej" || flavorDef.id === "tanacetum" || flavorDef.id === "pyrethrum" || flavorDef.id === "sunflower_dwarf" || flavorDef.id === "sunflower_multi" || flavorDef.id === "sunflower_red" || flavorDef.id === "sunchoke_flower" || flavorDef.id === "dahlia_cactus" || flavorDef.id === "dahlia_pompom" || flavorDef.id === "zinnia_dwarf" || flavorDef.id === "zinnia_cactus" || flavorDef.id === "cosmos_sulph" || flavorDef.id === "cosmos_choco" || flavorDef.id === "tithonia" || flavorDef.id === "mexican_sunflower" || flavorDef.id === "heliopsis" || flavorDef.id === "inula_helenium" || flavorDef.id === "verbena_bon" || flavorDef.id === "verbena_rig" || flavorDef.id === "lantana" || flavorDef.id === "lantana_white" || flavorDef.id === "phlox_pan" || flavorDef.id === "phlox_sub" || flavorDef.id === "phlox_drum" || flavorDef.id === "dianthus_chin" || flavorDef.id === "dianthus_barb" || flavorDef.id === "sweet_william" || flavorDef.id === "carnation" || flavorDef.id === "pinks" || flavorDef.id === "gypsophila" || flavorDef.id === "baby_breath" || flavorDef.id === "saponaria" || flavorDef.id === "soapwort_fresh" || flavorDef.id === "campanula" || flavorDef.id === "campanula_med" || flavorDef.id === "lobelia" || flavorDef.id === "lobelia_card" || flavorDef.id === "penstemon" || flavorDef.id === "penstemon_fox" || flavorDef.id === "digitalis" || flavorDef.id === "digitalis_lutea" || flavorDef.id === "snapdragon" || flavorDef.id === "snapdragon_dwarf" || flavorDef.id === "antirrhinum" || flavorDef.id === "linaria" || flavorDef.id === "toadflax" || flavorDef.id === "verbascum_chaix" || flavorDef.id === "mullein_white" || flavorDef.id === "mimulus" || flavorDef.id === "monkeyflower" || flavorDef.id === "collinsia" || flavorDef.id === "castilleja" || flavorDef.id === "paintbrush" || flavorDef.id === "orthocarpus" || flavorDef.id === "pedicularis" || flavorDef.id === "lousewort" || flavorDef.id === "euphrasia" || flavorDef.id === "eyebright" || flavorDef.id === "rhinanthus" || flavorDef.id === "yellow_rattle" || flavorDef.id === "melampyrum" || flavorDef.id === "cow_wheat" || flavorDef.id === "bartisia" || flavorDef.id === "cattleya" || flavorDef.id === "dendrobium" || flavorDef.id === "phalaenopsis" || flavorDef.id === "oncidium" || flavorDef.id === "vanda" || flavorDef.id === "paphiopedilum" || flavorDef.id === "miltonia" || flavorDef.id === "odontoglossum" || flavorDef.id === "brassia" || flavorDef.id === "epidendrum" || flavorDef.id === "ludisia" || flavorDef.id === "anoectochilus" || flavorDef.id === "gastrodia" || flavorDef.id === "bletilla" || flavorDef.id === "calanthe" || flavorDef.id === "boston_fern" || flavorDef.id === "bird_nest_fern" || flavorDef.id === "staghorn" || flavorDef.id === "holly_fern" || flavorDef.id === "autumn_fern" || flavorDef.id === "ostrich_fern" || flavorDef.id === "cinnamon_fern" || flavorDef.id === "bracken_tip" || flavorDef.id === "adder_tongue" || flavorDef.id === "miscanthus" || flavorDef.id === "pampas" || flavorDef.id === "fountain_grass" || flavorDef.id === "japanese_forest" || flavorDef.id === "carex_morrow" || flavorDef.id === "scirpus" || flavorDef.id === "typha_pollen" || flavorDef.id === "phragmites" || flavorDef.id === "bamboo_black" || flavorDef.id === "bamboo_golden" || flavorDef.id === "echeveria" || flavorDef.id === "sedum_morgan" || flavorDef.id === "sedum_spect" || flavorDef.id === "sempervivum" || flavorDef.id === "aeonium" || flavorDef.id === "crassula" || flavorDef.id === "kalanchoe" || flavorDef.id === "haworthia" || flavorDef.id === "agave_flower" || flavorDef.id === "yucca_filament" || flavorDef.id === "sansevieria" || flavorDef.id === "jade_plant" || flavorDef.id === "panda_plant" || flavorDef.id === "boysen_leaf" || flavorDef.id === "logan_leaf" || flavorDef.id === "tay_leaf" || flavorDef.id === "marion_leaf" || flavorDef.id === "wine_leaf" || flavorDef.id === "salmon_leaf" || flavorDef.id === "thimble_leaf" || flavorDef.id === "cloud_flower" || flavorDef.id === "huckleberry" || flavorDef.id === "huckle_leaf" || flavorDef.id === "salal" || flavorDef.id === "salal_leaf" || flavorDef.id === "oregon_grape" || flavorDef.id === "mahonia" || flavorDef.id === "barberry_red" || flavorDef.id === "barberry_leaf" || flavorDef.id === "currant_flower" || flavorDef.id === "goose_flower" || flavorDef.id === "josta" || flavorDef.id === "worcesterberry" || flavorDef.id === "juneberry" || flavorDef.id === "shadbush" || flavorDef.id === "chokecherry" || flavorDef.id === "bird_cherry" || flavorDef.id === "pin_cherry" || flavorDef.id === "sand_cherry" || flavorDef.id === "nanking_cherry" || flavorDef.id === "cornelian" || flavorDef.id === "honeyberry" || flavorDef.id === "hascap" || flavorDef.id === "clematis_arm" || flavorDef.id === "clematis_mon" || flavorDef.id === "clematis_tang" || flavorDef.id === "clematis_ori" || flavorDef.id === "akibia" || flavorDef.id === "akebia_flower" || flavorDef.id === "kiwi_hardy" || flavorDef.id === "kiwi_flower" || flavorDef.id === "actinidia" || flavorDef.id === "silver_vine" || flavorDef.id === "hop_fresh" || flavorDef.id === "hop_leaf" || flavorDef.id === "humulus" || flavorDef.id === "japanese_hop" || flavorDef.id === "grape_leaf_fresh" || flavorDef.id === "vine_tendril" || flavorDef.id === "muscadine" || flavorDef.id === "scuppernong" || flavorDef.id === "passiflora_inc" || flavorDef.id === "passiflora_cae" || flavorDef.id === "passiflora_ed" || flavorDef.id === "maypop" || flavorDef.id === "morning_glory_red" || flavorDef.id === "morning_glory_blue" || flavorDef.id === "ipomoea_bat" || flavorDef.id === "moonvine" || flavorDef.id === "cypress_vine" || flavorDef.id === "cardinal_climber" || flavorDef.id === "black_eyed_susan_vine" || flavorDef.id === "thunbergia" || flavorDef.id === "sweet_potato_leaf" || flavorDef.id === "dioscorea" || flavorDef.id === "luffa_flower" || flavorDef.id === "luffa_leaf" || flavorDef.id === "bitter_melon_fl" || flavorDef.id === "bitter_melon_leaf" || flavorDef.id === "squash_blossom" || flavorDef.id === "zucchini_flower" || flavorDef.id === "cucumber_flower" || flavorDef.id === "melon_flower" || flavorDef.id === "okra_flower" || flavorDef.id === "okra_leaf" || flavorDef.id === "hibiscus_escul" || flavorDef.id === "roselle_fresh" || flavorDef.id === "cotton_flower" || flavorDef.id === "cotton_leaf" || flavorDef.id === "kenaf" || flavorDef.id === "jute_leaf" || flavorDef.id === "flax_blue" || flavorDef.id === "flax_red" || flavorDef.id === "hemp_flower" || flavorDef.id === "nettle_fresh" || flavorDef.id === "dead_nettle" || flavorDef.id === "purple_dead_nettle" || flavorDef.id === "henbit" || flavorDef.id === "lamium" || flavorDef.id === "galeopsis" || flavorDef.id === "stachys_byz" || flavorDef.id === "alpine_rosemary" || flavorDef.id === "alpine_marjoram" || flavorDef.id === "alpine_chive" || flavorDef.id === "alpine_cilantro" || flavorDef.id === "alpine_dill" || flavorDef.id === "alpine_lovage" || flavorDef.id === "alpine_sorrel" || flavorDef.id === "coastal_thyme" || flavorDef.id === "coastal_sage" || flavorDef.id === "coastal_oregano" || flavorDef.id === "coastal_basil" || flavorDef.id === "coastal_mint" || flavorDef.id === "coastal_lavender" || flavorDef.id === "coastal_marjoram" || flavorDef.id === "coastal_tarragon" || flavorDef.id === "coastal_chive" || flavorDef.id === "coastal_parsley" || flavorDef.id === "coastal_cilantro" || flavorDef.id === "coastal_dill" || flavorDef.id === "coastal_sorrel" || flavorDef.id === "meadow_thyme" || flavorDef.id === "meadow_sage" || flavorDef.id === "meadow_oregano" || flavorDef.id === "meadow_basil" || flavorDef.id === "meadow_mint" || flavorDef.id === "meadow_lavender" || flavorDef.id === "meadow_marjoram" || flavorDef.id === "meadow_tarragon" || flavorDef.id === "meadow_chive" || flavorDef.id === "meadow_parsley" || flavorDef.id === "meadow_cilantro" || flavorDef.id === "meadow_dill" || flavorDef.id === "meadow_sorrel" || flavorDef.id === "woodland_thyme" || flavorDef.id === "woodland_sage" || flavorDef.id === "woodland_oregano" || flavorDef.id === "woodland_basil" || flavorDef.id === "woodland_mint" || flavorDef.id === "woodland_lavender" || flavorDef.id === "woodland_marjoram" || flavorDef.id === "woodland_tarragon" || flavorDef.id === "woodland_chive" || flavorDef.id === "woodland_parsley" || flavorDef.id === "woodland_cilantro" || flavorDef.id === "woodland_dill" || flavorDef.id === "woodland_fennel" || flavorDef.id === "woodland_lovage" || flavorDef.id === "woodland_sorrel" || flavorDef.id === "garden_thyme" || flavorDef.id === "garden_sage" || flavorDef.id === "garden_oregano" || flavorDef.id === "garden_basil" || flavorDef.id === "garden_mint" || flavorDef.id === "garden_lavender" || flavorDef.id === "garden_marjoram" || flavorDef.id === "garden_tarragon" || flavorDef.id === "garden_chive" || flavorDef.id === "garden_parsley" || flavorDef.id === "garden_cilantro" || flavorDef.id === "garden_dill" || flavorDef.id === "garden_fennel" || flavorDef.id === "garden_lovage" || flavorDef.id === "garden_sorrel" || flavorDef.id === "wild_thyme" || flavorDef.id === "wild_sage" || flavorDef.id === "wild_oregano" || flavorDef.id === "wild_basil" || flavorDef.id === "wild_mint" || flavorDef.id === "wild_lavender" || flavorDef.id === "wild_rosemary" || flavorDef.id === "wild_marjoram" || flavorDef.id === "wild_tarragon" || flavorDef.id === "wild_chive" || flavorDef.id === "wild_parsley" || flavorDef.id === "wild_cilantro" || flavorDef.id === "wild_dill" || flavorDef.id === "wild_fennel" || flavorDef.id === "wild_lovage" || flavorDef.id === "wild_sorrel" || flavorDef.id === "dwarf_thyme" || flavorDef.id === "dwarf_sage" || flavorDef.id === "dwarf_oregano" || flavorDef.id === "dwarf_basil" || flavorDef.id === "dwarf_mint" || flavorDef.id === "dwarf_lavender" || flavorDef.id === "dwarf_marjoram" || flavorDef.id === "dwarf_chive" || flavorDef.id === "dwarf_parsley" || flavorDef.id === "dwarf_cilantro" || flavorDef.id === "dwarf_dill" || flavorDef.id === "dwarf_fennel" || flavorDef.id === "dwarf_lovage" || flavorDef.id === "dwarf_sorrel" || flavorDef.id === "giant_oregano" || flavorDef.id === "giant_basil" || flavorDef.id === "giant_marjoram" || flavorDef.id === "giant_tarragon" || flavorDef.id === "giant_chive" || flavorDef.id === "giant_parsley" || flavorDef.id === "giant_cilantro" || flavorDef.id === "giant_dill" || flavorDef.id === "giant_lovage" || flavorDef.id === "giant_sorrel" || flavorDef.id === "variegated_thyme" || flavorDef.id === "variegated_oregano" || flavorDef.id === "variegated_basil" || flavorDef.id === "variegated_mint" || flavorDef.id === "variegated_lavender" || flavorDef.id === "variegated_marjoram" || flavorDef.id === "variegated_chive" || flavorDef.id === "variegated_parsley" || flavorDef.id === "variegated_cilantro" || flavorDef.id === "variegated_dill" || flavorDef.id === "variegated_sorrel" || flavorDef.id === "golden_thyme" || flavorDef.id === "golden_oregano" || flavorDef.id === "golden_basil" || flavorDef.id === "golden_mint" || flavorDef.id === "golden_lavender" || flavorDef.id === "golden_marjoram" || flavorDef.id === "golden_chive" || flavorDef.id === "golden_parsley" || flavorDef.id === "golden_cilantro" || flavorDef.id === "golden_dill" || flavorDef.id === "golden_sorrel" || flavorDef.id === "silver_thyme" || flavorDef.id === "silver_oregano" || flavorDef.id === "silver_basil" || flavorDef.id === "silver_mint" || flavorDef.id === "silver_lavender" || flavorDef.id === "silver_marjoram" || flavorDef.id === "silver_chive" || flavorDef.id === "silver_parsley" || flavorDef.id === "silver_cilantro" || flavorDef.id === "silver_dill" || flavorDef.id === "silver_sorrel" || flavorDef.id === "purple_thyme" || flavorDef.id === "purple_oregano" || flavorDef.id === "purple_basil" || flavorDef.id === "purple_mint" || flavorDef.id === "purple_lavender" || flavorDef.id === "purple_marjoram" || flavorDef.id === "purple_chive" || flavorDef.id === "purple_parsley" || flavorDef.id === "purple_cilantro" || flavorDef.id === "purple_dill" || flavorDef.id === "purple_sorrel" || flavorDef.id === "red_thyme" || flavorDef.id === "red_oregano" || flavorDef.id === "red_basil" || flavorDef.id === "red_mint" || flavorDef.id === "red_lavender" || flavorDef.id === "red_marjoram" || flavorDef.id === "red_chive" || flavorDef.id === "red_parsley" || flavorDef.id === "red_cilantro" || flavorDef.id === "red_dill" || flavorDef.id === "red_sorrel" || flavorDef.id === "white_thyme" || flavorDef.id === "white_oregano" || flavorDef.id === "white_basil" || flavorDef.id === "white_mint" || flavorDef.id === "white_lavender" || flavorDef.id === "white_marjoram" || flavorDef.id === "white_chive" || flavorDef.id === "white_parsley" || flavorDef.id === "white_cilantro" || flavorDef.id === "white_dill" || flavorDef.id === "white_sorrel" || flavorDef.id === "pink_thyme" || flavorDef.id === "pink_oregano" || flavorDef.id === "pink_basil" || flavorDef.id === "pink_mint" || flavorDef.id === "pink_lavender" || flavorDef.id === "pink_marjoram" || flavorDef.id === "pink_chive" || flavorDef.id === "pink_parsley" || flavorDef.id === "pink_cilantro" || flavorDef.id === "pink_dill" || flavorDef.id === "pink_sorrel" || flavorDef.id === "blue_thyme" || flavorDef.id === "blue_oregano" || flavorDef.id === "blue_basil" || flavorDef.id === "blue_mint" || flavorDef.id === "blue_lavender" || flavorDef.id === "blue_marjoram" || flavorDef.id === "blue_chive" || flavorDef.id === "blue_parsley" || flavorDef.id === "blue_cilantro" || flavorDef.id === "blue_dill" || flavorDef.id === "blue_sorrel" || flavorDef.id === "yellow_thyme" || flavorDef.id === "yellow_oregano" || flavorDef.id === "yellow_basil" || flavorDef.id === "yellow_mint" || flavorDef.id === "yellow_lavender" || flavorDef.id === "yellow_marjoram" || flavorDef.id === "yellow_chive" || flavorDef.id === "yellow_parsley" || flavorDef.id === "yellow_cilantro" || flavorDef.id === "yellow_dill" || flavorDef.id === "yellow_sorrel" || flavorDef.id === "orange_thyme" || flavorDef.id === "orange_oregano" || flavorDef.id === "orange_basil" || flavorDef.id === "orange_mint" || flavorDef.id === "orange_lavender" || flavorDef.id === "orange_marjoram" || flavorDef.id === "orange_chive" || flavorDef.id === "orange_parsley" || flavorDef.id === "orange_cilantro" || flavorDef.id === "orange_dill" || flavorDef.id === "orange_sorrel" || flavorDef.id === "fragrant_thyme" || flavorDef.id === "fragrant_sage" || flavorDef.id === "fragrant_oregano" || flavorDef.id === "fragrant_basil" || flavorDef.id === "fragrant_mint" || flavorDef.id === "fragrant_lavender" || flavorDef.id === "fragrant_rosemary" || flavorDef.id === "fragrant_marjoram" || flavorDef.id === "fragrant_tarragon" || flavorDef.id === "fragrant_chive" || flavorDef.id === "fragrant_parsley" || flavorDef.id === "fragrant_cilantro" || flavorDef.id === "fragrant_dill" || flavorDef.id === "fragrant_fennel" || flavorDef.id === "fragrant_lovage" || flavorDef.id === "fragrant_sorrel" || flavorDef.id === "edible_thyme" || flavorDef.id === "edible_sage" || flavorDef.id === "edible_oregano" || flavorDef.id === "edible_basil" || flavorDef.id === "edible_mint" || flavorDef.id === "edible_lavender" || flavorDef.id === "edible_rosemary" || flavorDef.id === "edible_marjoram" || flavorDef.id === "edible_tarragon" || flavorDef.id === "edible_chive" || flavorDef.id === "edible_parsley" || flavorDef.id === "edible_cilantro" || flavorDef.id === "edible_dill" || flavorDef.id === "edible_fennel" || flavorDef.id === "edible_lovage" || flavorDef.id === "edible_sorrel" || flavorDef.id === "apple_blossom" || flavorDef.id === "pear_blossom" || flavorDef.id === "peach_blossom" || flavorDef.id === "plum_blossom_fresh" || flavorDef.id === "cherry_blossom" || flavorDef.id === "apricot_blossom" || flavorDef.id === "quince_blossom" || flavorDef.id === "medlar_blossom" || flavorDef.id === "mulberry_flower" || flavorDef.id === "fig_leaf" || flavorDef.id === "pomegranate_flower" || flavorDef.id === "persimmon_flower" || flavorDef.id === "walnut_flower" || flavorDef.id === "hazel_catkin" || flavorDef.id === "chestnut_catkin" || flavorDef.id === "almond_fresh_bl" || flavorDef.id === "pistachio_flower" || flavorDef.id === "pecan_flower" || flavorDef.id === "macadamia_flower" || flavorDef.id === "cashew_flower" || flavorDef.id === "brazil_nut_fl" || flavorDef.id === "coconut_inflo" || flavorDef.id === "date_flower" || flavorDef.id === "olive_flower" || flavorDef.id === "avocado_flower" || flavorDef.id === "mango_flower" || flavorDef.id === "lychee_flower" || flavorDef.id === "longan_flower" || flavorDef.id === "rambutan_flower" || flavorDef.id === "mangosteen_flower" || flavorDef.id === "guava_flower" || flavorDef.id === "papaya_flower" || flavorDef.id === "pineapple_flower" || flavorDef.id === "banana_flower" || flavorDef.id === "plantain_flower" || flavorDef.id === "breadfruit_fl" || flavorDef.id === "jackfruit_fl" || flavorDef.id === "durian_fresh_fl" || flavorDef.id === "soursop_fl" || flavorDef.id === "cherimoya_fl" || flavorDef.id === "custard_apple_fl" || flavorDef.id === "r1_e58c97e5a283" || flavorDef.id === "r2_e58c97e5a283" || flavorDef.id === "r3_e58c97e5a283" || flavorDef.id === "r4_e58c97e5a283" || flavorDef.id === "r6_e58c97e5a283" || flavorDef.id === "r7_e58c97e5a283" || flavorDef.id === "r8_e58c97e5a283" || flavorDef.id === "r9_e58c97e5a283" || flavorDef.id === "r11_e58c97e5a283" || flavorDef.id === "r12_e58c97e5a283" || flavorDef.id === "r13_e58c97e5a283" || flavorDef.id === "r14_e58c97e5a283" || flavorDef.id === "r16_e58c97e5a283" || flavorDef.id === "r17_e58c97e5a283" || flavorDef.id === "r18_e58c97e5a283" || flavorDef.id === "r19_e58c97e5a283" || flavorDef.id === "r21_e58c97e5a283" || flavorDef.id === "r22_e58c97e5a283" || flavorDef.id === "r23_e58c97e5a283" || flavorDef.id === "r24_e58c97e5a283" || flavorDef.id === "r26_e58c97e5a283" || flavorDef.id === "r27_e58c97e5a283" || flavorDef.id === "r28_e58c97e5a283" || flavorDef.id === "r29_e58c97e5a283" || flavorDef.id === "r31_e58c97e5a283" || flavorDef.id === "r32_e58c97e5a283" || flavorDef.id === "r33_e58c97e5a283" || flavorDef.id === "r34_e58c97e5a283" || flavorDef.id === "r36_e58c97e5a283" || flavorDef.id === "r37_e58c97e5a283" || flavorDef.id === "r38_e58c97e5a283" || flavorDef.id === "r39_e58c97e5a283" || flavorDef.id === "r41_e58c97e5a283" || flavorDef.id === "r42_e58c97e5a283" || flavorDef.id === "r43_e58c97e5a283" || flavorDef.id === "r44_e58c97e5a283" || flavorDef.id === "r46_e58c97e5a283" || flavorDef.id === "r47_e58c97e5a283" || flavorDef.id === "r48_e58c97e5a283" || flavorDef.id === "r49_e58c97e5a283" || flavorDef.id === "r51_e58c97e5a283" || flavorDef.id === "r52_e58c97e5a283" || flavorDef.id === "r53_e58c97e5a283" || flavorDef.id === "r54_e58c97e5a283" || flavorDef.id === "r56_e58c97e5a283" || flavorDef.id === "r57_e58c97e5a283" || flavorDef.id === "r58_e58c97e5a283" || flavorDef.id === "r59_e58c97e5a283" || flavorDef.id === "r61_e58c97e5a283" || flavorDef.id === "r62_e58c97e5a283" || flavorDef.id === "r63_e58c97e5a283" || flavorDef.id === "r64_e58c97e5a283" || flavorDef.id === "r66_e58c97e5a283" || flavorDef.id === "r67_e58c97e5a283" || flavorDef.id === "r68_e58c97e5a283" || flavorDef.id === "r69_e58c97e5a283" || flavorDef.id === "r71_e58c97e5a283" || flavorDef.id === "r72_e58c97e5a283" || flavorDef.id === "r73_e58c97e5a283" || flavorDef.id === "r74_e58c97e5a283" || flavorDef.id === "r76_e58c97e5a283" || flavorDef.id === "r77_e58c97e5a283" || flavorDef.id === "r78_e58c97e5a283" || flavorDef.id === "r79_e58c97e5a283" || flavorDef.id === "r81_e58c97e5a283" || flavorDef.id === "r82_e58c97e5a283" || flavorDef.id === "r83_e58c97e5a283" || flavorDef.id === "r84_e58c97e5a283" || flavorDef.id === "r86_e58c97e5a283" || flavorDef.id === "r87_e58c97e5a283" || flavorDef.id === "r88_e58c97e5a283" || flavorDef.id === "r89_e58c97e5a283" || flavorDef.id === "r91_e58c97e5a283" || flavorDef.id === "r92_e58c97e5a283" || flavorDef.id === "r93_e58c97e5a283" || flavorDef.id === "r94_e58c97e5a283" || flavorDef.id === "r96_e58c97e5a283" || flavorDef.id === "r97_e58c97e5a283" || flavorDef.id === "r98_e58c97e5a283" || flavorDef.id === "r99_e58c97e5a283" || flavorDef.id === "r101_e58c97e5a283" || flavorDef.id === "r102_e58c97e5a283" || flavorDef.id === "r103_e58c97e5a283" || flavorDef.id === "r104_e58d97e5a283" || flavorDef.id === "r106_e58d97e5a283" || flavorDef.id === "r107_e58d97e5a283" || flavorDef.id === "r108_e58d97e5a283" || flavorDef.id === "r109_e58d97e5a283" || flavorDef.id === "r111_e58d97e5a283" || flavorDef.id === "r112_e58d97e5a283" || flavorDef.id === "r113_e58d97e5a283" || flavorDef.id === "r114_e58d97e5a283" || flavorDef.id === "r116_e58d97e5a283" || flavorDef.id === "r117_e58d97e5a283" || flavorDef.id === "r118_e58d97e5a283" || flavorDef.id === "r119_e58d97e5a283" || flavorDef.id === "r121_e58d97e5a283" || flavorDef.id === "r122_e58d97e5a283" || flavorDef.id === "r123_e58d97e5a283" || flavorDef.id === "r124_e58d97e5a283" || flavorDef.id === "r126_e58d97e5a283" || flavorDef.id === "r127_e58d97e5a283" || flavorDef.id === "r128_e58d97e5a283" || flavorDef.id === "r129_e58d97e5a283" || flavorDef.id === "r131_e58d97e5a283" || flavorDef.id === "r132_e58d97e5a283" || flavorDef.id === "r133_e58d97e5a283" || flavorDef.id === "r134_e58d97e5a283" || flavorDef.id === "r136_e58d97e5a283" || flavorDef.id === "r137_e58d97e5a283" || flavorDef.id === "r138_e58d97e5a283" || flavorDef.id === "r139_e58d97e5a283" || flavorDef.id === "r141_e58d97e5a283" || flavorDef.id === "r142_e58d97e5a283" || flavorDef.id === "r143_e58d97e5a283" || flavorDef.id === "r144_e58d97e5a283" || flavorDef.id === "r146_e58d97e5a283" || flavorDef.id === "r147_e58d97e5a283" || flavorDef.id === "r148_e58d97e5a283" || flavorDef.id === "r149_e58d97e5a283" || flavorDef.id === "r151_e58d97e5a283" || flavorDef.id === "r152_e58d97e5a283" || flavorDef.id === "r153_e58d97e5a283" || flavorDef.id === "r154_e58d97e5a283" || flavorDef.id === "r156_e58d97e5a283" || flavorDef.id === "r157_e58d97e5a283" || flavorDef.id === "r158_e58d97e5a283" || flavorDef.id === "r159_e58d97e5a283" || flavorDef.id === "r161_e58d97e5a283" || flavorDef.id === "r162_e58d97e5a283" || flavorDef.id === "r163_e58d97e5a283" || flavorDef.id === "r164_e58d97e5a283" || flavorDef.id === "r166_e58d97e5a283" || flavorDef.id === "r167_e58d97e5a283" || flavorDef.id === "r168_e58d97e5a283" || flavorDef.id === "r169_e58d97e5a283" || flavorDef.id === "r171_e58d97e5a283" || flavorDef.id === "r172_e58d97e5a283" || flavorDef.id === "r173_e58d97e5a283" || flavorDef.id === "r174_e58d97e5a283" || flavorDef.id === "r176_e58d97e5a283" || flavorDef.id === "r177_e58d97e5a283" || flavorDef.id === "r178_e58d97e5a283" || flavorDef.id === "r179_e58d97e5a283" || flavorDef.id === "r181_e58d97e5a283" || flavorDef.id === "r182_e58d97e5a283" || flavorDef.id === "r183_e58d97e5a283" || flavorDef.id === "r184_e58d97e5a283" || flavorDef.id === "r186_e58d97e5a283" || flavorDef.id === "r187_e58d97e5a283" || flavorDef.id === "r188_e58d97e5a283" || flavorDef.id === "r189_e58d97e5a283" || flavorDef.id === "r191_e58d97e5a283" || flavorDef.id === "r192_e58d97e5a283" || flavorDef.id === "r193_e58d97e5a283" || flavorDef.id === "r194_e58d97e5a283" || flavorDef.id === "r196_e58d97e5a283" || flavorDef.id === "r197_e58d97e5a283" || flavorDef.id === "r198_e58d97e5a283" || flavorDef.id === "r199_e58d97e5a283" || flavorDef.id === "loc1" || flavorDef.id === "loc2" || flavorDef.id === "loc3" || flavorDef.id === "loc5" || flavorDef.id === "loc6" || flavorDef.id === "loc7" || flavorDef.id === "loc9" || flavorDef.id === "loc10" || flavorDef.id === "loc11" || flavorDef.id === "loc13" || flavorDef.id === "loc14" || flavorDef.id === "loc15" || flavorDef.id === "loc17" || flavorDef.id === "loc18" || flavorDef.id === "loc19" || flavorDef.id === "loc21" || flavorDef.id === "loc22" || flavorDef.id === "loc23" || flavorDef.id === "loc25" || flavorDef.id === "loc26" || flavorDef.id === "loc27" || flavorDef.id === "loc29" || flavorDef.id === "loc30" || flavorDef.id === "loc31" || flavorDef.id === "loc33" || flavorDef.id === "loc34" || flavorDef.id === "loc35" || flavorDef.id === "loc37" || flavorDef.id === "loc38" || flavorDef.id === "loc39" || flavorDef.id === "loc41" || flavorDef.id === "loc42" || flavorDef.id === "loc43" || flavorDef.id === "loc45" || flavorDef.id === "loc46" || flavorDef.id === "loc47" || flavorDef.id === "loc49" || flavorDef.id === "loc50" || flavorDef.id === "loc51" || flavorDef.id === "loc53" || flavorDef.id === "loc54" || flavorDef.id === "loc55" || flavorDef.id === "loc57" || flavorDef.id === "loc58" || flavorDef.id === "loc59" || flavorDef.id === "loc61" || flavorDef.id === "loc62" || flavorDef.id === "loc63" || flavorDef.id === "loc65" || flavorDef.id === "loc66" || flavorDef.id === "loc67" || flavorDef.id === "loc69" || flavorDef.id === "loc70" || flavorDef.id === "loc71" || flavorDef.id === "loc73" || flavorDef.id === "loc74" || flavorDef.id === "loc75" || flavorDef.id === "loc77" || flavorDef.id === "loc78" || flavorDef.id === "loc79" || flavorDef.id === "loc81" || flavorDef.id === "loc82" || flavorDef.id === "loc83" || flavorDef.id === "loc85" || flavorDef.id === "loc86" || flavorDef.id === "loc87" || flavorDef.id === "loc89" || flavorDef.id === "loc90" || flavorDef.id === "loc91" || flavorDef.id === "loc93" || flavorDef.id === "loc94" || flavorDef.id === "loc95" || flavorDef.id === "loc97" || flavorDef.id === "loc98" || flavorDef.id === "loc99" || flavorDef.id === "loc101" || flavorDef.id === "loc102" || flavorDef.id === "loc103" || flavorDef.id === "loc105" || flavorDef.id === "loc106" || flavorDef.id === "loc107" || flavorDef.id === "loc109" || flavorDef.id === "loc110" || flavorDef.id === "loc111" || flavorDef.id === "loc113" || flavorDef.id === "loc114" || flavorDef.id === "loc115" || flavorDef.id === "loc117" || flavorDef.id === "loc118" || flavorDef.id === "loc119" || flavorDef.id === "loc121" || flavorDef.id === "loc122" || flavorDef.id === "loc123" || flavorDef.id === "loc125" || flavorDef.id === "loc126" || flavorDef.id === "loc127" || flavorDef.id === "loc129" || flavorDef.id === "loc130" || flavorDef.id === "loc131" || flavorDef.id === "loc133" || flavorDef.id === "loc134" || flavorDef.id === "loc135" || flavorDef.id === "loc137" || flavorDef.id === "loc138" || flavorDef.id === "loc139" || flavorDef.id === "loc141" || flavorDef.id === "loc142" || flavorDef.id === "loc143" || flavorDef.id === "loc145" || flavorDef.id === "loc146" || flavorDef.id === "loc147" || flavorDef.id === "loc149" || flavorDef.id === "loc150" || flavorDef.id === "loc151" || flavorDef.id === "loc153" || flavorDef.id === "loc154" || flavorDef.id === "loc155" || flavorDef.id === "loc157" || flavorDef.id === "loc158" || flavorDef.id === "loc159" || flavorDef.id === "loc161" || flavorDef.id === "loc162" || flavorDef.id === "loc163" || flavorDef.id === "loc165" || flavorDef.id === "loc166" || flavorDef.id === "loc167" || flavorDef.id === "loc169" || flavorDef.id === "loc170" || flavorDef.id === "loc171" || flavorDef.id === "loc173" || flavorDef.id === "loc174" || flavorDef.id === "loc175" || flavorDef.id === "loc177" || flavorDef.id === "loc178" || flavorDef.id === "loc179" || flavorDef.id === "loc181" || flavorDef.id === "loc182" || flavorDef.id === "loc183" || flavorDef.id === "loc185" || flavorDef.id === "loc186" || flavorDef.id === "loc187" || flavorDef.id === "loc189" || flavorDef.id === "loc190" || flavorDef.id === "loc191" || flavorDef.id === "loc193" || flavorDef.id === "loc194" || flavorDef.id === "loc195" || flavorDef.id === "loc197" || flavorDef.id === "loc198" || flavorDef.id === "loc199" || baseDef.id === "soda" || baseDef.id === "berry_soda")) {
       score += 0.5; notes.push("夏日清爽");
     }
     if (season === "autumn" && (flavorDef.id === "honey" || flavorDef.id === "peach" || flavorDef.id === "tea_leaf" || flavorDef.id === "fennel" || flavorDef.id === "cardamom" || flavorDef.id === "ginger" || flavorDef.id === "calendula" || flavorDef.id === "chrysanthemum" || flavorDef.id === "hibiscus" || flavorDef.id === "plum" || flavorDef.id === "grape" || flavorDef.id === "mulberry" || flavorDef.id === "persimmon" || flavorDef.id === "fig" || flavorDef.id === "longan" || flavorDef.id === "hawthorn" || flavorDef.id === "pear" || flavorDef.id === "apricot" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "chestnut" || flavorDef.id === "cinnamon" || flavorDef.id === "clove" || flavorDef.id === "pistachio")) {
       score += 0.5; notes.push("秋日温甜");
     }
-    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube" || flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron" || flavorDef.id === "pistachio" || flavorDef.id === "chestnut" || flavorDef.id === "cinnamon" || flavorDef.id === "clove" || flavorDef.id === "star_anise" || flavorDef.id === "nutmeg" || flavorDef.id === "goji" || flavorDef.id === "bay_leaf" || flavorDef.id === "tarragon" || flavorDef.id === "date_fruit" || flavorDef.id === "hyssop" || flavorDef.id === "lovage" || flavorDef.id === "anise_seed" || flavorDef.id === "turmeric" || flavorDef.id === "allspice" || flavorDef.id === "mace" || flavorDef.id === "caraway" || flavorDef.id === "cumin" || flavorDef.id === "fenugreek" || flavorDef.id === "ajwain" || flavorDef.id === "myrtle" || flavorDef.id === "chicory" || flavorDef.id === "nettle" || flavorDef.id === "yarrow" || flavorDef.id === "woodruff" || flavorDef.id === "valerian" || flavorDef.id === "meadowsweet" || flavorDef.id === "angelica" || flavorDef.id === "comfrey" || flavorDef.id === "selfheal" || flavorDef.id === "skullcap" || flavorDef.id === "linden" || flavorDef.id === "horehound" || flavorDef.id === "motherwort" || flavorDef.id === "betony" || flavorDef.id === "avens" || flavorDef.id === "tormentil" || flavorDef.id === "figwort" || flavorDef.id === "ground_ivy" || flavorDef.id === "self_heal_spike" || flavorDef.id === "teasel" || flavorDef.id === "burdock" || flavorDef.id === "hawthorn_berry" || flavorDef.id === "rosehip" || flavorDef.id === "sloe" || flavorDef.id === "wintercress" || flavorDef.id === "medlar" || flavorDef.id === "quince" || flavorDef.id === "aronia" || flavorDef.id === "flax_seed" || flavorDef.id === "hemp_seed" || flavorDef.id === "pumpkin_seed" || flavorDef.id === "sesame_black" || flavorDef.id === "sesame_white" || flavorDef.id === "lapacho" || flavorDef.id === "sassafras" || flavorDef.id === "birch_bark" || flavorDef.id === "pine_resin" || flavorDef.id === "tuberose" || flavorDef.id === "cardamom_green" || flavorDef.id === "cardamom_black" || flavorDef.id === "long_pepper" || flavorDef.id === "grains_of_paradise" || flavorDef.id === "cinnamon_leaf" || flavorDef.id === "clove_bud" || flavorDef.id === "allspice_leaf" || flavorDef.id === "reindeer_moss" || flavorDef.id === "iceland_moss" || flavorDef.id === "oak_moss" || flavorDef.id === "usnea" || flavorDef.id === "chaga" || flavorDef.id === "reishi" || flavorDef.id === "lion_mane" || flavorDef.id === "maitake" || flavorDef.id === "jackfruit_seed" || flavorDef.id === "rowan_jelly" || flavorDef.id === "quince_paste" || flavorDef.id === "yuzu_fresh" || flavorDef.id === "ponkan" || flavorDef.id === "dekopon" || flavorDef.id === "hassaku" || flavorDef.id === "yuzu_kosho" || flavorDef.id === "edelweiss" || flavorDef.id === "juniper_berry" || flavorDef.id === "fir_needle" || flavorDef.id === "myrtle_berry" || flavorDef.id === "mastic" || flavorDef.id === "saffron_crocus" || flavorDef.id === "buckwheat_honey" || flavorDef.id === "chestnut_honey" || flavorDef.id === "propolis" || flavorDef.id === "royal_jelly" || flavorDef.id === "mead_herb" || flavorDef.id === "cacao_nibs" || flavorDef.id === "cacao_husk" || flavorDef.id === "carob" || flavorDef.id === "maca" || flavorDef.id === "schisandra" || flavorDef.id === "hojicha" || flavorDef.id === "genmaicha" || flavorDef.id === "sobacha" || flavorDef.id === "job_tears" || flavorDef.id === "rose_hip_tea" || flavorDef.id === "camellia_fresh" || flavorDef.id === "lotus_seed_fresh" || flavorDef.id === "plum_blossom" || flavorDef.id === "wintersweet" || flavorDef.id === "ginkgo_leaf_fresh" || flavorDef.id === "ginkgo_nut_fresh" || flavorDef.id === "osmanthus_wine" || flavorDef.id === "crocus" || flavorDef.id === "snowdrop" || flavorDef.id === "crocus_yellow" || flavorDef.id === "hyacinth" || flavorDef.id === "daffodil" || flavorDef.id === "moonflower" || flavorDef.id === "magnolia_bark" || flavorDef.id === "eucommia" || flavorDef.id === "astragalus" || flavorDef.id === "codonopsis" || flavorDef.id === "rehmannia" || flavorDef.id === "polygonatum" || flavorDef.id === "ophiopogon" || flavorDef.id === "angelica_arch" || flavorDef.id === "wood_avense" || flavorDef.id === "ephedra" || flavorDef.id === "boldo" || flavorDef.id === "cupuacu_butter" || flavorDef.id === "sutherlandia" || flavorDef.id === "citron" || flavorDef.id === "bergamot_peel" || flavorDef.id === "labrador_tea" || flavorDef.id === "arctic_willow" || flavorDef.id === "kinako" || flavorDef.id === "kuromitsu" || flavorDef.id === "yuzu_peel" || flavorDef.id === "ume_blossom" || flavorDef.id === "vanilla_bean" || flavorDef.id === "tonka_bean" || flavorDef.id === "hazelnut_flower" || flavorDef.id === "omija" || flavorDef.id === "yuja" || flavorDef.id === "ssanghwa" || flavorDef.id === "jujube_tea" || flavorDef.id === "ginger_tea_kr" || flavorDef.id === "kava" || flavorDef.id === "tieguanyin" || flavorDef.id === "dahongpao" || flavorDef.id === "puer_ripe" || flavorDef.id === "shoumei" || flavorDef.id === "burdock_root" || flavorDef.id === "dandelion_root" || flavorDef.id === "chicory_root" || flavorDef.id === "holly_leaf" || flavorDef.id === "ivy_berry" || flavorDef.id === "mistletoe" || flavorDef.id === "yew_berry" || flavorDef.id === "aconite" || flavorDef.id === "helleborus" || flavorDef.id === "christmas_rose" || flavorDef.id === "black_horehound" || flavorDef.id === "white_horehound" || flavorDef.id === "skullcap_fresh" || flavorDef.id === "baikal_skullcap" || flavorDef.id === "ground_ivy_fresh" || flavorDef.id === "savory_winter" || flavorDef.id === "jerusalem_artichoke" || flavorDef.id === "topinambur" || flavorDef.id === "figwort_fresh" || flavorDef.id === "scrophularia" || flavorDef.id === "cymbidium" || flavorDef.id === "maidenhair" || flavorDef.id === "sword_fern" || flavorDef.id === "japanese_painted" || flavorDef.id === "royal_fern" || flavorDef.id === "sensitive_fern" || flavorDef.id === "fiddlehead" || flavorDef.id === "moonwort" || flavorDef.id === "blue_fescue" || flavorDef.id === "hakonechloa" || flavorDef.id === "carex_buch" || flavorDef.id === "juncus" || flavorDef.id === "bamboo_moso" || flavorDef.id === "arrow_bamboo" || flavorDef.id === "aloe_vera_fl" || flavorDef.id === "string_pearls" || flavorDef.id === "burros_tail" || flavorDef.id === "honeysuckle_blue" || flavorDef.id === "arctic_berry" || flavorDef.id === "schisandra_chin" || flavorDef.id === "schisandra_leaf" || flavorDef.id === "yam_leaf" || flavorDef.id === "chinese_yam" || flavorDef.id === "linseed_oil" || flavorDef.id === "nettle_root" || flavorDef.id === "alpine_thyme" || flavorDef.id === "alpine_sage" || flavorDef.id === "alpine_oregano" || flavorDef.id === "alpine_basil" || flavorDef.id === "alpine_mint" || flavorDef.id === "alpine_lavender" || flavorDef.id === "alpine_tarragon" || flavorDef.id === "alpine_parsley" || flavorDef.id === "alpine_fennel" || flavorDef.id === "coastal_rosemary" || flavorDef.id === "coastal_fennel" || flavorDef.id === "coastal_lovage" || flavorDef.id === "meadow_rosemary" || flavorDef.id === "meadow_fennel" || flavorDef.id === "meadow_lovage" || flavorDef.id === "woodland_rosemary" || flavorDef.id === "garden_rosemary" || flavorDef.id === "dwarf_rosemary" || flavorDef.id === "dwarf_tarragon" || flavorDef.id === "giant_thyme" || flavorDef.id === "giant_sage" || flavorDef.id === "giant_mint" || flavorDef.id === "giant_lavender" || flavorDef.id === "giant_rosemary" || flavorDef.id === "giant_fennel" || flavorDef.id === "variegated_sage" || flavorDef.id === "variegated_rosemary" || flavorDef.id === "variegated_tarragon" || flavorDef.id === "variegated_fennel" || flavorDef.id === "variegated_lovage" || flavorDef.id === "golden_sage" || flavorDef.id === "golden_rosemary" || flavorDef.id === "golden_tarragon" || flavorDef.id === "golden_fennel" || flavorDef.id === "golden_lovage" || flavorDef.id === "silver_sage" || flavorDef.id === "silver_rosemary" || flavorDef.id === "silver_tarragon" || flavorDef.id === "silver_fennel" || flavorDef.id === "silver_lovage" || flavorDef.id === "purple_sage" || flavorDef.id === "purple_rosemary" || flavorDef.id === "purple_tarragon" || flavorDef.id === "purple_fennel" || flavorDef.id === "purple_lovage" || flavorDef.id === "red_sage" || flavorDef.id === "red_rosemary" || flavorDef.id === "red_tarragon" || flavorDef.id === "red_fennel" || flavorDef.id === "red_lovage" || flavorDef.id === "white_rosemary" || flavorDef.id === "white_tarragon" || flavorDef.id === "white_fennel" || flavorDef.id === "white_lovage" || flavorDef.id === "pink_sage" || flavorDef.id === "pink_rosemary" || flavorDef.id === "pink_tarragon" || flavorDef.id === "pink_fennel" || flavorDef.id === "pink_lovage" || flavorDef.id === "blue_sage" || flavorDef.id === "blue_rosemary" || flavorDef.id === "blue_tarragon" || flavorDef.id === "blue_fennel" || flavorDef.id === "blue_lovage" || flavorDef.id === "yellow_sage" || flavorDef.id === "yellow_rosemary" || flavorDef.id === "yellow_tarragon" || flavorDef.id === "yellow_fennel" || flavorDef.id === "yellow_lovage" || flavorDef.id === "orange_sage" || flavorDef.id === "orange_rosemary" || flavorDef.id === "orange_tarragon" || flavorDef.id === "orange_fennel" || flavorDef.id === "orange_lovage" || flavorDef.id === "r0_e58c97e5a283" || flavorDef.id === "r5_e58c97e5a283" || flavorDef.id === "r10_e58c97e5a283" || flavorDef.id === "r15_e58c97e5a283" || flavorDef.id === "r20_e58c97e5a283" || flavorDef.id === "r25_e58c97e5a283" || flavorDef.id === "r30_e58c97e5a283" || flavorDef.id === "r35_e58c97e5a283" || flavorDef.id === "r40_e58c97e5a283" || flavorDef.id === "r45_e58c97e5a283" || flavorDef.id === "r50_e58c97e5a283" || flavorDef.id === "r55_e58c97e5a283" || flavorDef.id === "r60_e58c97e5a283" || flavorDef.id === "r65_e58c97e5a283" || flavorDef.id === "r70_e58c97e5a283" || flavorDef.id === "r75_e58c97e5a283" || flavorDef.id === "r80_e58c97e5a283" || flavorDef.id === "r85_e58c97e5a283" || flavorDef.id === "r90_e58c97e5a283" || flavorDef.id === "r95_e58c97e5a283" || flavorDef.id === "r100_e58c97e5a283" || flavorDef.id === "r105_e58d97e5a283" || flavorDef.id === "r110_e58d97e5a283" || flavorDef.id === "r115_e58d97e5a283" || flavorDef.id === "r120_e58d97e5a283" || flavorDef.id === "r125_e58d97e5a283" || flavorDef.id === "r130_e58d97e5a283" || flavorDef.id === "r135_e58d97e5a283" || flavorDef.id === "r140_e58d97e5a283" || flavorDef.id === "r145_e58d97e5a283" || flavorDef.id === "r150_e58d97e5a283" || flavorDef.id === "r155_e58d97e5a283" || flavorDef.id === "r160_e58d97e5a283" || flavorDef.id === "r165_e58d97e5a283" || flavorDef.id === "r170_e58d97e5a283" || flavorDef.id === "r175_e58d97e5a283" || flavorDef.id === "r180_e58d97e5a283" || flavorDef.id === "r185_e58d97e5a283" || flavorDef.id === "r190_e58d97e5a283" || flavorDef.id === "r195_e58d97e5a283")) {
+    if (season === "winter" && (baseDef.id === "tea" || baseDef.id === "honey_water" || flavorDef.id === "tea_leaf" || flavorDef.id === "yuzu" || flavorDef.id === "ginger" || flavorDef.id === "honey" || flavorDef.id === "pine_needle" || flavorDef.id === "chrysanthemum" || flavorDef.id === "kumquat" || flavorDef.id === "jujube" || flavorDef.id === "cocoa" || flavorDef.id === "vanilla" || flavorDef.id === "almond" || flavorDef.id === "hazelnut" || flavorDef.id === "maple_syrup" || flavorDef.id === "sesame" || flavorDef.id === "walnut" || flavorDef.id === "saffron" || flavorDef.id === "pistachio" || flavorDef.id === "chestnut" || flavorDef.id === "cinnamon" || flavorDef.id === "clove" || flavorDef.id === "star_anise" || flavorDef.id === "nutmeg" || flavorDef.id === "goji" || flavorDef.id === "bay_leaf" || flavorDef.id === "tarragon" || flavorDef.id === "date_fruit" || flavorDef.id === "hyssop" || flavorDef.id === "lovage" || flavorDef.id === "anise_seed" || flavorDef.id === "turmeric" || flavorDef.id === "allspice" || flavorDef.id === "mace" || flavorDef.id === "caraway" || flavorDef.id === "cumin" || flavorDef.id === "fenugreek" || flavorDef.id === "ajwain" || flavorDef.id === "myrtle" || flavorDef.id === "chicory" || flavorDef.id === "nettle" || flavorDef.id === "yarrow" || flavorDef.id === "woodruff" || flavorDef.id === "valerian" || flavorDef.id === "meadowsweet" || flavorDef.id === "angelica" || flavorDef.id === "comfrey" || flavorDef.id === "selfheal" || flavorDef.id === "skullcap" || flavorDef.id === "linden" || flavorDef.id === "horehound" || flavorDef.id === "motherwort" || flavorDef.id === "betony" || flavorDef.id === "avens" || flavorDef.id === "tormentil" || flavorDef.id === "figwort" || flavorDef.id === "ground_ivy" || flavorDef.id === "self_heal_spike" || flavorDef.id === "teasel" || flavorDef.id === "burdock" || flavorDef.id === "hawthorn_berry" || flavorDef.id === "rosehip" || flavorDef.id === "sloe" || flavorDef.id === "wintercress" || flavorDef.id === "medlar" || flavorDef.id === "quince" || flavorDef.id === "aronia" || flavorDef.id === "flax_seed" || flavorDef.id === "hemp_seed" || flavorDef.id === "pumpkin_seed" || flavorDef.id === "sesame_black" || flavorDef.id === "sesame_white" || flavorDef.id === "lapacho" || flavorDef.id === "sassafras" || flavorDef.id === "birch_bark" || flavorDef.id === "pine_resin" || flavorDef.id === "tuberose" || flavorDef.id === "cardamom_green" || flavorDef.id === "cardamom_black" || flavorDef.id === "long_pepper" || flavorDef.id === "grains_of_paradise" || flavorDef.id === "cinnamon_leaf" || flavorDef.id === "clove_bud" || flavorDef.id === "allspice_leaf" || flavorDef.id === "reindeer_moss" || flavorDef.id === "iceland_moss" || flavorDef.id === "oak_moss" || flavorDef.id === "usnea" || flavorDef.id === "chaga" || flavorDef.id === "reishi" || flavorDef.id === "lion_mane" || flavorDef.id === "maitake" || flavorDef.id === "jackfruit_seed" || flavorDef.id === "rowan_jelly" || flavorDef.id === "quince_paste" || flavorDef.id === "yuzu_fresh" || flavorDef.id === "ponkan" || flavorDef.id === "dekopon" || flavorDef.id === "hassaku" || flavorDef.id === "yuzu_kosho" || flavorDef.id === "edelweiss" || flavorDef.id === "juniper_berry" || flavorDef.id === "fir_needle" || flavorDef.id === "myrtle_berry" || flavorDef.id === "mastic" || flavorDef.id === "saffron_crocus" || flavorDef.id === "buckwheat_honey" || flavorDef.id === "chestnut_honey" || flavorDef.id === "propolis" || flavorDef.id === "royal_jelly" || flavorDef.id === "mead_herb" || flavorDef.id === "cacao_nibs" || flavorDef.id === "cacao_husk" || flavorDef.id === "carob" || flavorDef.id === "maca" || flavorDef.id === "schisandra" || flavorDef.id === "hojicha" || flavorDef.id === "genmaicha" || flavorDef.id === "sobacha" || flavorDef.id === "job_tears" || flavorDef.id === "rose_hip_tea" || flavorDef.id === "camellia_fresh" || flavorDef.id === "lotus_seed_fresh" || flavorDef.id === "plum_blossom" || flavorDef.id === "wintersweet" || flavorDef.id === "ginkgo_leaf_fresh" || flavorDef.id === "ginkgo_nut_fresh" || flavorDef.id === "osmanthus_wine" || flavorDef.id === "crocus" || flavorDef.id === "snowdrop" || flavorDef.id === "crocus_yellow" || flavorDef.id === "hyacinth" || flavorDef.id === "daffodil" || flavorDef.id === "moonflower" || flavorDef.id === "magnolia_bark" || flavorDef.id === "eucommia" || flavorDef.id === "astragalus" || flavorDef.id === "codonopsis" || flavorDef.id === "rehmannia" || flavorDef.id === "polygonatum" || flavorDef.id === "ophiopogon" || flavorDef.id === "angelica_arch" || flavorDef.id === "wood_avense" || flavorDef.id === "ephedra" || flavorDef.id === "boldo" || flavorDef.id === "cupuacu_butter" || flavorDef.id === "sutherlandia" || flavorDef.id === "citron" || flavorDef.id === "bergamot_peel" || flavorDef.id === "labrador_tea" || flavorDef.id === "arctic_willow" || flavorDef.id === "kinako" || flavorDef.id === "kuromitsu" || flavorDef.id === "yuzu_peel" || flavorDef.id === "ume_blossom" || flavorDef.id === "vanilla_bean" || flavorDef.id === "tonka_bean" || flavorDef.id === "hazelnut_flower" || flavorDef.id === "omija" || flavorDef.id === "yuja" || flavorDef.id === "ssanghwa" || flavorDef.id === "jujube_tea" || flavorDef.id === "ginger_tea_kr" || flavorDef.id === "kava" || flavorDef.id === "tieguanyin" || flavorDef.id === "dahongpao" || flavorDef.id === "puer_ripe" || flavorDef.id === "shoumei" || flavorDef.id === "burdock_root" || flavorDef.id === "dandelion_root" || flavorDef.id === "chicory_root" || flavorDef.id === "holly_leaf" || flavorDef.id === "ivy_berry" || flavorDef.id === "mistletoe" || flavorDef.id === "yew_berry" || flavorDef.id === "aconite" || flavorDef.id === "helleborus" || flavorDef.id === "christmas_rose" || flavorDef.id === "black_horehound" || flavorDef.id === "white_horehound" || flavorDef.id === "skullcap_fresh" || flavorDef.id === "baikal_skullcap" || flavorDef.id === "ground_ivy_fresh" || flavorDef.id === "savory_winter" || flavorDef.id === "jerusalem_artichoke" || flavorDef.id === "topinambur" || flavorDef.id === "figwort_fresh" || flavorDef.id === "scrophularia" || flavorDef.id === "cymbidium" || flavorDef.id === "maidenhair" || flavorDef.id === "sword_fern" || flavorDef.id === "japanese_painted" || flavorDef.id === "royal_fern" || flavorDef.id === "sensitive_fern" || flavorDef.id === "fiddlehead" || flavorDef.id === "moonwort" || flavorDef.id === "blue_fescue" || flavorDef.id === "hakonechloa" || flavorDef.id === "carex_buch" || flavorDef.id === "juncus" || flavorDef.id === "bamboo_moso" || flavorDef.id === "arrow_bamboo" || flavorDef.id === "aloe_vera_fl" || flavorDef.id === "string_pearls" || flavorDef.id === "burros_tail" || flavorDef.id === "honeysuckle_blue" || flavorDef.id === "arctic_berry" || flavorDef.id === "schisandra_chin" || flavorDef.id === "schisandra_leaf" || flavorDef.id === "yam_leaf" || flavorDef.id === "chinese_yam" || flavorDef.id === "linseed_oil" || flavorDef.id === "nettle_root" || flavorDef.id === "alpine_thyme" || flavorDef.id === "alpine_sage" || flavorDef.id === "alpine_oregano" || flavorDef.id === "alpine_basil" || flavorDef.id === "alpine_mint" || flavorDef.id === "alpine_lavender" || flavorDef.id === "alpine_tarragon" || flavorDef.id === "alpine_parsley" || flavorDef.id === "alpine_fennel" || flavorDef.id === "coastal_rosemary" || flavorDef.id === "coastal_fennel" || flavorDef.id === "coastal_lovage" || flavorDef.id === "meadow_rosemary" || flavorDef.id === "meadow_fennel" || flavorDef.id === "meadow_lovage" || flavorDef.id === "woodland_rosemary" || flavorDef.id === "garden_rosemary" || flavorDef.id === "dwarf_rosemary" || flavorDef.id === "dwarf_tarragon" || flavorDef.id === "giant_thyme" || flavorDef.id === "giant_sage" || flavorDef.id === "giant_mint" || flavorDef.id === "giant_lavender" || flavorDef.id === "giant_rosemary" || flavorDef.id === "giant_fennel" || flavorDef.id === "variegated_sage" || flavorDef.id === "variegated_rosemary" || flavorDef.id === "variegated_tarragon" || flavorDef.id === "variegated_fennel" || flavorDef.id === "variegated_lovage" || flavorDef.id === "golden_sage" || flavorDef.id === "golden_rosemary" || flavorDef.id === "golden_tarragon" || flavorDef.id === "golden_fennel" || flavorDef.id === "golden_lovage" || flavorDef.id === "silver_sage" || flavorDef.id === "silver_rosemary" || flavorDef.id === "silver_tarragon" || flavorDef.id === "silver_fennel" || flavorDef.id === "silver_lovage" || flavorDef.id === "purple_sage" || flavorDef.id === "purple_rosemary" || flavorDef.id === "purple_tarragon" || flavorDef.id === "purple_fennel" || flavorDef.id === "purple_lovage" || flavorDef.id === "red_sage" || flavorDef.id === "red_rosemary" || flavorDef.id === "red_tarragon" || flavorDef.id === "red_fennel" || flavorDef.id === "red_lovage" || flavorDef.id === "white_rosemary" || flavorDef.id === "white_tarragon" || flavorDef.id === "white_fennel" || flavorDef.id === "white_lovage" || flavorDef.id === "pink_sage" || flavorDef.id === "pink_rosemary" || flavorDef.id === "pink_tarragon" || flavorDef.id === "pink_fennel" || flavorDef.id === "pink_lovage" || flavorDef.id === "blue_sage" || flavorDef.id === "blue_rosemary" || flavorDef.id === "blue_tarragon" || flavorDef.id === "blue_fennel" || flavorDef.id === "blue_lovage" || flavorDef.id === "yellow_sage" || flavorDef.id === "yellow_rosemary" || flavorDef.id === "yellow_tarragon" || flavorDef.id === "yellow_fennel" || flavorDef.id === "yellow_lovage" || flavorDef.id === "orange_sage" || flavorDef.id === "orange_rosemary" || flavorDef.id === "orange_tarragon" || flavorDef.id === "orange_fennel" || flavorDef.id === "orange_lovage" || flavorDef.id === "r0_e58c97e5a283" || flavorDef.id === "r5_e58c97e5a283" || flavorDef.id === "r10_e58c97e5a283" || flavorDef.id === "r15_e58c97e5a283" || flavorDef.id === "r20_e58c97e5a283" || flavorDef.id === "r25_e58c97e5a283" || flavorDef.id === "r30_e58c97e5a283" || flavorDef.id === "r35_e58c97e5a283" || flavorDef.id === "r40_e58c97e5a283" || flavorDef.id === "r45_e58c97e5a283" || flavorDef.id === "r50_e58c97e5a283" || flavorDef.id === "r55_e58c97e5a283" || flavorDef.id === "r60_e58c97e5a283" || flavorDef.id === "r65_e58c97e5a283" || flavorDef.id === "r70_e58c97e5a283" || flavorDef.id === "r75_e58c97e5a283" || flavorDef.id === "r80_e58c97e5a283" || flavorDef.id === "r85_e58c97e5a283" || flavorDef.id === "r90_e58c97e5a283" || flavorDef.id === "r95_e58c97e5a283" || flavorDef.id === "r100_e58c97e5a283" || flavorDef.id === "r105_e58d97e5a283" || flavorDef.id === "r110_e58d97e5a283" || flavorDef.id === "r115_e58d97e5a283" || flavorDef.id === "r120_e58d97e5a283" || flavorDef.id === "r125_e58d97e5a283" || flavorDef.id === "r130_e58d97e5a283" || flavorDef.id === "r135_e58d97e5a283" || flavorDef.id === "r140_e58d97e5a283" || flavorDef.id === "r145_e58d97e5a283" || flavorDef.id === "r150_e58d97e5a283" || flavorDef.id === "r155_e58d97e5a283" || flavorDef.id === "r160_e58d97e5a283" || flavorDef.id === "r165_e58d97e5a283" || flavorDef.id === "r170_e58d97e5a283" || flavorDef.id === "r175_e58d97e5a283" || flavorDef.id === "r180_e58d97e5a283" || flavorDef.id === "r185_e58d97e5a283" || flavorDef.id === "r190_e58d97e5a283" || flavorDef.id === "r195_e58d97e5a283" || flavorDef.id === "loc0" || flavorDef.id === "loc4" || flavorDef.id === "loc8" || flavorDef.id === "loc12" || flavorDef.id === "loc16" || flavorDef.id === "loc20" || flavorDef.id === "loc24" || flavorDef.id === "loc28" || flavorDef.id === "loc32" || flavorDef.id === "loc36" || flavorDef.id === "loc40" || flavorDef.id === "loc44" || flavorDef.id === "loc48" || flavorDef.id === "loc52" || flavorDef.id === "loc56" || flavorDef.id === "loc60" || flavorDef.id === "loc64" || flavorDef.id === "loc68" || flavorDef.id === "loc72" || flavorDef.id === "loc76" || flavorDef.id === "loc80" || flavorDef.id === "loc84" || flavorDef.id === "loc88" || flavorDef.id === "loc92" || flavorDef.id === "loc96" || flavorDef.id === "loc100" || flavorDef.id === "loc104" || flavorDef.id === "loc108" || flavorDef.id === "loc112" || flavorDef.id === "loc116" || flavorDef.id === "loc120" || flavorDef.id === "loc124" || flavorDef.id === "loc128" || flavorDef.id === "loc132" || flavorDef.id === "loc136" || flavorDef.id === "loc140" || flavorDef.id === "loc144" || flavorDef.id === "loc148" || flavorDef.id === "loc152" || flavorDef.id === "loc156" || flavorDef.id === "loc160" || flavorDef.id === "loc164" || flavorDef.id === "loc168" || flavorDef.id === "loc172" || flavorDef.id === "loc176" || flavorDef.id === "loc180" || flavorDef.id === "loc184" || flavorDef.id === "loc188" || flavorDef.id === "loc192" || flavorDef.id === "loc196")) {
       score += 0.5; notes.push("冬日暖茶");
     }
     if (
