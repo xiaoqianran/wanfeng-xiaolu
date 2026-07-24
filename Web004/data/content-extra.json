@@ -6039,6 +6039,118 @@
       "emoji": "🟢",
       "kind": "风味",
       "seed": "nettle_seed_teaPot"
+    },
+    "silver_birch": {
+      "id": "silver_birch",
+      "name": "银白桦",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "silver_birchPot"
+    },
+    "copper_beech": {
+      "id": "copper_beech",
+      "name": "紫叶山毛榉",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "copper_beechPot"
+    },
+    "hornbeam": {
+      "id": "hornbeam",
+      "name": "鹅耳枥",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "hornbeamPot"
+    },
+    "field_maple": {
+      "id": "field_maple",
+      "name": "田野槭",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "field_maplePot"
+    },
+    "wild_service": {
+      "id": "wild_service",
+      "name": "野花楸",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "wild_servicePot"
+    },
+    "guelder_rose": {
+      "id": "guelder_rose",
+      "name": "欧洲荚蒾",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "guelder_rosePot"
+    },
+    "wayfaring": {
+      "id": "wayfaring",
+      "name": "绵毛荚蒾",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "wayfaringPot"
+    },
+    "dogwood": {
+      "id": "dogwood",
+      "name": "山茱萸",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "dogwoodPot"
+    },
+    "spindle": {
+      "id": "spindle",
+      "name": "卫矛",
+      "emoji": "🩷",
+      "kind": "风味",
+      "seed": "spindlePot"
+    },
+    "buckthorn": {
+      "id": "buckthorn",
+      "name": "鼠李",
+      "emoji": "⚫",
+      "kind": "风味",
+      "seed": "buckthornPot"
+    },
+    "privet": {
+      "id": "privet",
+      "name": "女贞",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "privetPot"
+    },
+    "boxwood": {
+      "id": "boxwood",
+      "name": "黄杨",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "boxwoodPot"
+    },
+    "holly_leaf": {
+      "id": "holly_leaf",
+      "name": "冬青叶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "holly_leafPot"
+    },
+    "ivy_berry": {
+      "id": "ivy_berry",
+      "name": "常春藤果",
+      "emoji": "⚫",
+      "kind": "风味",
+      "seed": "ivy_berryPot"
+    },
+    "mistletoe": {
+      "id": "mistletoe",
+      "name": "槲寄生",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "mistletoePot"
+    },
+    "yew_berry": {
+      "id": "yew_berry",
+      "name": "红豆杉",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "yew_berryPot"
     }
   },
   "plants": {
@@ -13725,6 +13837,182 @@
       ],
       "harvest": "nettle_seed_tea",
       "days": 3
+    },
+    "silver_birchPot": {
+      "id": "silver_birchPot",
+      "name": "银白桦",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "silver_birch",
+      "days": 3
+    },
+    "copper_beechPot": {
+      "id": "copper_beechPot",
+      "name": "紫叶山毛榉",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "copper_beech",
+      "days": 3
+    },
+    "hornbeamPot": {
+      "id": "hornbeamPot",
+      "name": "鹅耳枥",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "hornbeam",
+      "days": 3
+    },
+    "field_maplePot": {
+      "id": "field_maplePot",
+      "name": "田野槭",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "field_maple",
+      "days": 3
+    },
+    "wild_servicePot": {
+      "id": "wild_servicePot",
+      "name": "野花楸",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "wild_service",
+      "days": 3
+    },
+    "guelder_rosePot": {
+      "id": "guelder_rosePot",
+      "name": "欧洲荚蒾",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "guelder_rose",
+      "days": 3
+    },
+    "wayfaringPot": {
+      "id": "wayfaringPot",
+      "name": "绵毛荚蒾",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "wayfaring",
+      "days": 3
+    },
+    "dogwoodPot": {
+      "id": "dogwoodPot",
+      "name": "山茱萸",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "dogwood",
+      "days": 3
+    },
+    "spindlePot": {
+      "id": "spindlePot",
+      "name": "卫矛",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🩷"
+      ],
+      "harvest": "spindle",
+      "days": 3
+    },
+    "buckthornPot": {
+      "id": "buckthornPot",
+      "name": "鼠李",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚫"
+      ],
+      "harvest": "buckthorn",
+      "days": 3
+    },
+    "privetPot": {
+      "id": "privetPot",
+      "name": "女贞",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "privet",
+      "days": 3
+    },
+    "boxwoodPot": {
+      "id": "boxwoodPot",
+      "name": "黄杨",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "boxwood",
+      "days": 3
+    },
+    "holly_leafPot": {
+      "id": "holly_leafPot",
+      "name": "冬青叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "holly_leaf",
+      "days": 3
+    },
+    "ivy_berryPot": {
+      "id": "ivy_berryPot",
+      "name": "常春藤果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚫"
+      ],
+      "harvest": "ivy_berry",
+      "days": 3
+    },
+    "mistletoePot": {
+      "id": "mistletoePot",
+      "name": "槲寄生",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "mistletoe",
+      "days": 4
+    },
+    "yew_berryPot": {
+      "id": "yew_berryPot",
+      "name": "红豆杉",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "yew_berry",
+      "days": 4
     }
   },
   "cups": [
@@ -19819,6 +20107,166 @@
       "tags": [
         "草本",
         "清爽"
+      ]
+    },
+    {
+      "id": "silver_birch",
+      "name": "银白桦",
+      "emoji": "⚪",
+      "need": "silver_birch",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "copper_beech",
+      "name": "紫叶山毛榉",
+      "emoji": "🟤",
+      "need": "copper_beech",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "hornbeam",
+      "name": "鹅耳枥",
+      "emoji": "🟢",
+      "need": "hornbeam",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "field_maple",
+      "name": "田野槭",
+      "emoji": "🟢",
+      "need": "field_maple",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "wild_service",
+      "name": "野花楸",
+      "emoji": "🧡",
+      "need": "wild_service",
+      "tags": [
+        "果香",
+        "花香"
+      ]
+    },
+    {
+      "id": "guelder_rose",
+      "name": "欧洲荚蒾",
+      "emoji": "🔴",
+      "need": "guelder_rose",
+      "tags": [
+        "果香",
+        "花香"
+      ]
+    },
+    {
+      "id": "wayfaring",
+      "name": "绵毛荚蒾",
+      "emoji": "⚪",
+      "need": "wayfaring",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "dogwood",
+      "name": "山茱萸",
+      "emoji": "🔴",
+      "need": "dogwood",
+      "tags": [
+        "果香",
+        "草本"
+      ]
+    },
+    {
+      "id": "spindle",
+      "name": "卫矛",
+      "emoji": "🩷",
+      "need": "spindle",
+      "tags": [
+        "草本",
+        "花香"
+      ]
+    },
+    {
+      "id": "buckthorn",
+      "name": "鼠李",
+      "emoji": "⚫",
+      "need": "buckthorn",
+      "tags": [
+        "果香",
+        "草本"
+      ]
+    },
+    {
+      "id": "privet",
+      "name": "女贞",
+      "emoji": "⚪",
+      "need": "privet",
+      "tags": [
+        "花香",
+        "草本"
+      ]
+    },
+    {
+      "id": "boxwood",
+      "name": "黄杨",
+      "emoji": "🟢",
+      "need": "boxwood",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "holly_leaf",
+      "name": "冬青叶",
+      "emoji": "🟢",
+      "need": "holly_leaf",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "ivy_berry",
+      "name": "常春藤果",
+      "emoji": "⚫",
+      "need": "ivy_berry",
+      "tags": [
+        "果香",
+        "草本"
+      ]
+    },
+    {
+      "id": "mistletoe",
+      "name": "槲寄生",
+      "emoji": "🟢",
+      "need": "mistletoe",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "yew_berry",
+      "name": "红豆杉",
+      "emoji": "🔴",
+      "need": "yew_berry",
+      "tags": [
+        "果香",
+        "草本"
       ]
     }
   ],
@@ -28937,6 +29385,246 @@
         "honey",
         "tea_leaf",
         "mint"
+      ]
+    },
+    {
+      "name": "采银白桦的旅人",
+      "avatar": "⚪",
+      "wish": "银白桦或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "silver_birch",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采紫叶山毛榉的药师",
+      "avatar": "🟤",
+      "wish": "紫叶山毛榉或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "copper_beech",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鹅耳枥的旅人",
+      "avatar": "🟢",
+      "wish": "鹅耳枥或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "hornbeam",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采田野槭的药师",
+      "avatar": "🟢",
+      "wish": "田野槭或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "field_maple",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采野花楸的旅人",
+      "avatar": "🧡",
+      "wish": "野花楸或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "花香"
+      ],
+      "flavors": [
+        "wild_service",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采欧洲荚蒾的药师",
+      "avatar": "🔴",
+      "wish": "欧洲荚蒾或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "花香"
+      ],
+      "flavors": [
+        "guelder_rose",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采绵毛荚蒾的旅人",
+      "avatar": "⚪",
+      "wish": "绵毛荚蒾或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "wayfaring",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采山茱萸的药师",
+      "avatar": "🔴",
+      "wish": "山茱萸或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "草本"
+      ],
+      "flavors": [
+        "dogwood",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采卫矛的旅人",
+      "avatar": "🩷",
+      "wish": "卫矛或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "花香"
+      ],
+      "flavors": [
+        "spindle",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鼠李的药师",
+      "avatar": "⚫",
+      "wish": "鼠李或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "草本"
+      ],
+      "flavors": [
+        "buckthorn",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采女贞的旅人",
+      "avatar": "⚪",
+      "wish": "女贞或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "草本"
+      ],
+      "flavors": [
+        "privet",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采黄杨的药师",
+      "avatar": "🟢",
+      "wish": "黄杨或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "boxwood",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采冬青叶的旅人",
+      "avatar": "🟢",
+      "wish": "冬青叶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "holly_leaf",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采常春藤果的药师",
+      "avatar": "⚫",
+      "wish": "常春藤果或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "草本"
+      ],
+      "flavors": [
+        "ivy_berry",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采槲寄生的旅人",
+      "avatar": "🟢",
+      "wish": "槲寄生或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "mistletoe",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采红豆杉的药师",
+      "avatar": "🔴",
+      "wish": "红豆杉或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "草本"
+      ],
+      "flavors": [
+        "yew_berry",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
       ]
     }
   ],

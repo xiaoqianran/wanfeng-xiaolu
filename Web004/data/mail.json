@@ -6376,5 +6376,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_silver_birch",
+    "title": "银白桦两份",
+    "body": "采银白桦的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "silver_birch": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_copper_beech",
+    "title": "紫叶山毛榉两份",
+    "body": "采紫叶山毛榉的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "copper_beech": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_hornbeam",
+    "title": "鹅耳枥两份",
+    "body": "采鹅耳枥的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "hornbeam": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_field_maple",
+    "title": "田野槭两份",
+    "body": "采田野槭的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "field_maple": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wild_service",
+    "title": "野花楸两份",
+    "body": "采野花楸的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wild_service": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_guelder_rose",
+    "title": "欧洲荚蒾两份",
+    "body": "采欧洲荚蒾的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "guelder_rose": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wayfaring",
+    "title": "绵毛荚蒾两份",
+    "body": "采绵毛荚蒾的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wayfaring": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_dogwood",
+    "title": "山茱萸两份",
+    "body": "采山茱萸的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "dogwood": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_spindle",
+    "title": "卫矛两份",
+    "body": "采卫矛的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "spindle": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_buckthorn",
+    "title": "鼠李两份",
+    "body": "采鼠李的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "buckthorn": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_privet",
+    "title": "女贞两份",
+    "body": "采女贞的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "privet": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_boxwood",
+    "title": "黄杨两份",
+    "body": "采黄杨的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "boxwood": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_holly_leaf",
+    "title": "冬青叶两份",
+    "body": "采冬青叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "holly_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ivy_berry",
+    "title": "常春藤果两份",
+    "body": "采常春藤果的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "ivy_berry": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mistletoe",
+    "title": "槲寄生两份",
+    "body": "采槲寄生的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mistletoe": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_yew_berry",
+    "title": "红豆杉两份",
+    "body": "采红豆杉的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "yew_berry": 2
+      },
+      "coins": 2
+    }
   }
 ]
