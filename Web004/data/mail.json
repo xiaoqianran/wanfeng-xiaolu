@@ -5320,5 +5320,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_rooibos_green",
+    "title": "绿路易波士两份",
+    "body": "泡绿路易波士的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "rooibos_green": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_honeybush_fresh",
+    "title": "鲜蜜树两份",
+    "body": "采鲜蜜树的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "honeybush_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_buchu",
+    "title": "布枯两份",
+    "body": "采布枯的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "buchu": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sutherlandia",
+    "title": "南非政府草两份",
+    "body": "采南非政府草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sutherlandia": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_baobab_leaf",
+    "title": "猴面包叶两份",
+    "body": "采猴面包叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "baobab_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_marula",
+    "title": "马鲁拉两份",
+    "body": "采马鲁拉的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "marula": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kinkeliba",
+    "title": "金凯利巴两份",
+    "body": "泡金凯利巴的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kinkeliba": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_hibiscus_sab",
+    "title": "玫瑰茄两份",
+    "body": "采玫瑰茄的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "hibiscus_sab": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_pandan_fresh",
+    "title": "鲜班兰两份",
+    "body": "采鲜班兰的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "pandan_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lemongrass_fresh",
+    "title": "鲜香茅两份",
+    "body": "采鲜香茅的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "lemongrass_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_galangal_leaf",
+    "title": "高良姜叶两份",
+    "body": "采高良姜叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "galangal_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_torch_ginger",
+    "title": "火炬姜两份",
+    "body": "采火炬姜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "torch_ginger": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_butterfly_pea",
+    "title": "蝶豆花两份",
+    "body": "采蝶豆花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "butterfly_pea": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_chrysanthemum_ind",
+    "title": "印尼菊两份",
+    "body": "采印尼菊的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "chrysanthemum_ind": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tamarind_leaf",
+    "title": "罗望子叶两份",
+    "body": "采罗望子叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tamarind_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_coconut_flower",
+    "title": "椰花两份",
+    "body": "采椰花的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "coconut_flower": 2
+      },
+      "coins": 2
+    }
   }
 ]
