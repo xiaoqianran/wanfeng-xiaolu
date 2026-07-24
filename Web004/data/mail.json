@@ -164600,5 +164600,3525 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_market20",
+    "title": "灯市夜摊香两份",
+    "body": "采灯市夜摊香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market20": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market21",
+    "title": "灯市夜糖香夜两份",
+    "body": "采灯市夜糖香夜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market21": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market22",
+    "title": "灯市夜面香两份",
+    "body": "采灯市夜面香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market22": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market23",
+    "title": "灯市夜纸香夜两份",
+    "body": "采灯市夜纸香夜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market23": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market24",
+    "title": "灯市夜塑香两份",
+    "body": "采灯市夜塑香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market24": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market25",
+    "title": "灯市夜吹香两份",
+    "body": "采灯市夜吹香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market25": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market26",
+    "title": "灯市夜人香糖两份",
+    "body": "采灯市夜人香糖的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market26": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market27",
+    "title": "灯市夜葫芦甜两份",
+    "body": "采灯市夜葫芦甜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market27": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market28",
+    "title": "灯市夜薯香两份",
+    "body": "采灯市夜薯香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market28": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market29",
+    "title": "灯市夜栗香两份",
+    "body": "采灯市夜栗香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market29": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market210",
+    "title": "灯市夜腐香两份",
+    "body": "采灯市夜腐香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market211",
+    "title": "灯市夜饼香两份",
+    "body": "采灯市夜饼香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market212",
+    "title": "灯市夜饨香两份",
+    "body": "采灯市夜饨香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market213",
+    "title": "灯市夜圆香两份",
+    "body": "采灯市夜圆香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market214",
+    "title": "灯市夜宵香两份",
+    "body": "采灯市夜宵香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market215",
+    "title": "灯市夜夜市风两份",
+    "body": "采灯市夜夜市风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market216",
+    "title": "小吃摊摊香两份",
+    "body": "采小吃摊摊香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market217",
+    "title": "小吃摊糖香夜两份",
+    "body": "采小吃摊糖香夜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market218",
+    "title": "小吃摊面香两份",
+    "body": "采小吃摊面香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market219",
+    "title": "小吃摊纸香夜两份",
+    "body": "采小吃摊纸香夜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market220",
+    "title": "小吃摊塑香两份",
+    "body": "采小吃摊塑香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market221",
+    "title": "小吃摊吹香两份",
+    "body": "采小吃摊吹香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market222",
+    "title": "小吃摊人香糖两份",
+    "body": "采小吃摊人香糖的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market223",
+    "title": "小吃摊葫芦甜两份",
+    "body": "采小吃摊葫芦甜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market224",
+    "title": "小吃摊薯香两份",
+    "body": "采小吃摊薯香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market225",
+    "title": "小吃摊栗香两份",
+    "body": "采小吃摊栗香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market226",
+    "title": "小吃摊腐香两份",
+    "body": "采小吃摊腐香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market227",
+    "title": "小吃摊饼香两份",
+    "body": "采小吃摊饼香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market228",
+    "title": "小吃摊饨香两份",
+    "body": "采小吃摊饨香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market229",
+    "title": "小吃摊圆香两份",
+    "body": "采小吃摊圆香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market230",
+    "title": "小吃摊宵香两份",
+    "body": "采小吃摊宵香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market231",
+    "title": "小吃摊夜市风两份",
+    "body": "采小吃摊夜市风的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market232",
+    "title": "糖画摊摊香两份",
+    "body": "采糖画摊摊香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market233",
+    "title": "糖画摊糖香夜两份",
+    "body": "采糖画摊糖香夜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market234",
+    "title": "糖画摊面香两份",
+    "body": "采糖画摊面香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market235",
+    "title": "糖画摊纸香夜两份",
+    "body": "采糖画摊纸香夜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market236",
+    "title": "糖画摊塑香两份",
+    "body": "采糖画摊塑香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market237",
+    "title": "糖画摊吹香两份",
+    "body": "采糖画摊吹香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market238",
+    "title": "糖画摊人香糖两份",
+    "body": "采糖画摊人香糖的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market239",
+    "title": "糖画摊葫芦甜两份",
+    "body": "采糖画摊葫芦甜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market240",
+    "title": "糖画摊薯香两份",
+    "body": "采糖画摊薯香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market241",
+    "title": "糖画摊栗香两份",
+    "body": "采糖画摊栗香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market242",
+    "title": "糖画摊腐香两份",
+    "body": "采糖画摊腐香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market243",
+    "title": "糖画摊饼香两份",
+    "body": "采糖画摊饼香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market244",
+    "title": "糖画摊饨香两份",
+    "body": "采糖画摊饨香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market245",
+    "title": "糖画摊圆香两份",
+    "body": "采糖画摊圆香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market246",
+    "title": "糖画摊宵香两份",
+    "body": "采糖画摊宵香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market247",
+    "title": "糖画摊夜市风两份",
+    "body": "采糖画摊夜市风的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market248",
+    "title": "面塑摊摊香两份",
+    "body": "采面塑摊摊香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market249",
+    "title": "面塑摊糖香夜两份",
+    "body": "采面塑摊糖香夜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market250",
+    "title": "面塑摊面香两份",
+    "body": "采面塑摊面香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market251",
+    "title": "面塑摊纸香夜两份",
+    "body": "采面塑摊纸香夜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market252",
+    "title": "面塑摊塑香两份",
+    "body": "采面塑摊塑香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market253",
+    "title": "面塑摊吹香两份",
+    "body": "采面塑摊吹香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market254",
+    "title": "面塑摊人香糖两份",
+    "body": "采面塑摊人香糖的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market255",
+    "title": "面塑摊葫芦甜两份",
+    "body": "采面塑摊葫芦甜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market256",
+    "title": "面塑摊薯香两份",
+    "body": "采面塑摊薯香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market257",
+    "title": "面塑摊栗香两份",
+    "body": "采面塑摊栗香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market258",
+    "title": "面塑摊腐香两份",
+    "body": "采面塑摊腐香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market259",
+    "title": "面塑摊饼香两份",
+    "body": "采面塑摊饼香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market260",
+    "title": "面塑摊饨香两份",
+    "body": "采面塑摊饨香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market261",
+    "title": "面塑摊圆香两份",
+    "body": "采面塑摊圆香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market262",
+    "title": "面塑摊宵香两份",
+    "body": "采面塑摊宵香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market263",
+    "title": "面塑摊夜市风两份",
+    "body": "采面塑摊夜市风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market264",
+    "title": "剪纸摊摊香两份",
+    "body": "采剪纸摊摊香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market265",
+    "title": "剪纸摊糖香夜两份",
+    "body": "采剪纸摊糖香夜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market266",
+    "title": "剪纸摊面香两份",
+    "body": "采剪纸摊面香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market267",
+    "title": "剪纸摊纸香夜两份",
+    "body": "采剪纸摊纸香夜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market268",
+    "title": "剪纸摊塑香两份",
+    "body": "采剪纸摊塑香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market269",
+    "title": "剪纸摊吹香两份",
+    "body": "采剪纸摊吹香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market270",
+    "title": "剪纸摊人香糖两份",
+    "body": "采剪纸摊人香糖的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market271",
+    "title": "剪纸摊葫芦甜两份",
+    "body": "采剪纸摊葫芦甜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market272",
+    "title": "剪纸摊薯香两份",
+    "body": "采剪纸摊薯香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market273",
+    "title": "剪纸摊栗香两份",
+    "body": "采剪纸摊栗香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market274",
+    "title": "剪纸摊腐香两份",
+    "body": "采剪纸摊腐香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market275",
+    "title": "剪纸摊饼香两份",
+    "body": "采剪纸摊饼香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market276",
+    "title": "剪纸摊饨香两份",
+    "body": "采剪纸摊饨香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market277",
+    "title": "剪纸摊圆香两份",
+    "body": "采剪纸摊圆香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market278",
+    "title": "剪纸摊宵香两份",
+    "body": "采剪纸摊宵香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market279",
+    "title": "剪纸摊夜市风两份",
+    "body": "采剪纸摊夜市风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market280",
+    "title": "捏面摊香两份",
+    "body": "采捏面摊香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market281",
+    "title": "捏面糖香夜两份",
+    "body": "采捏面糖香夜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market282",
+    "title": "捏面面香两份",
+    "body": "采捏面面香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market283",
+    "title": "捏面纸香夜两份",
+    "body": "采捏面纸香夜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market284",
+    "title": "捏面塑香两份",
+    "body": "采捏面塑香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market285",
+    "title": "捏面吹香两份",
+    "body": "采捏面吹香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market286",
+    "title": "捏面人香糖两份",
+    "body": "采捏面人香糖的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market287",
+    "title": "捏面葫芦甜两份",
+    "body": "采捏面葫芦甜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market288",
+    "title": "捏面薯香两份",
+    "body": "采捏面薯香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market289",
+    "title": "捏面栗香两份",
+    "body": "采捏面栗香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market290",
+    "title": "捏面腐香两份",
+    "body": "采捏面腐香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market291",
+    "title": "捏面饼香两份",
+    "body": "采捏面饼香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market292",
+    "title": "捏面饨香两份",
+    "body": "采捏面饨香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market293",
+    "title": "捏面圆香两份",
+    "body": "采捏面圆香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market294",
+    "title": "捏面宵香两份",
+    "body": "采捏面宵香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market295",
+    "title": "捏面夜市风两份",
+    "body": "采捏面夜市风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market296",
+    "title": "吹糖摊香两份",
+    "body": "采吹糖摊香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market297",
+    "title": "吹糖糖香夜两份",
+    "body": "采吹糖糖香夜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market298",
+    "title": "吹糖面香两份",
+    "body": "采吹糖面香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market299",
+    "title": "吹糖纸香夜两份",
+    "body": "采吹糖纸香夜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2100",
+    "title": "吹糖塑香两份",
+    "body": "采吹糖塑香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2100": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2101",
+    "title": "吹糖吹香两份",
+    "body": "采吹糖吹香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2101": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2102",
+    "title": "吹糖人香糖两份",
+    "body": "采吹糖人香糖的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2102": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2103",
+    "title": "吹糖葫芦甜两份",
+    "body": "采吹糖葫芦甜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2103": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2104",
+    "title": "吹糖薯香两份",
+    "body": "采吹糖薯香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2104": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2105",
+    "title": "吹糖栗香两份",
+    "body": "采吹糖栗香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2105": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2106",
+    "title": "吹糖腐香两份",
+    "body": "采吹糖腐香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2106": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2107",
+    "title": "吹糖饼香两份",
+    "body": "采吹糖饼香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2107": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2108",
+    "title": "吹糖饨香两份",
+    "body": "采吹糖饨香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2108": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2109",
+    "title": "吹糖圆香两份",
+    "body": "采吹糖圆香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2109": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2110",
+    "title": "吹糖宵香两份",
+    "body": "采吹糖宵香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2110": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2111",
+    "title": "吹糖夜市风两份",
+    "body": "采吹糖夜市风的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2111": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2112",
+    "title": "糖人摊香两份",
+    "body": "采糖人摊香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2112": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2113",
+    "title": "糖人糖香夜两份",
+    "body": "采糖人糖香夜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2113": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2114",
+    "title": "糖人面香两份",
+    "body": "采糖人面香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2114": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2115",
+    "title": "糖人纸香夜两份",
+    "body": "采糖人纸香夜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2115": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2116",
+    "title": "糖人塑香两份",
+    "body": "采糖人塑香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2116": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2117",
+    "title": "糖人吹香两份",
+    "body": "采糖人吹香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2117": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2118",
+    "title": "糖人人香糖两份",
+    "body": "采糖人人香糖的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2118": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2119",
+    "title": "糖人葫芦甜两份",
+    "body": "采糖人葫芦甜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2119": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2120",
+    "title": "糖人薯香两份",
+    "body": "采糖人薯香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2120": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2121",
+    "title": "糖人栗香两份",
+    "body": "采糖人栗香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2121": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2122",
+    "title": "糖人腐香两份",
+    "body": "采糖人腐香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2122": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2123",
+    "title": "糖人饼香两份",
+    "body": "采糖人饼香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2123": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2124",
+    "title": "糖人饨香两份",
+    "body": "采糖人饨香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2124": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2125",
+    "title": "糖人圆香两份",
+    "body": "采糖人圆香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2125": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2126",
+    "title": "糖人宵香两份",
+    "body": "采糖人宵香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2126": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2127",
+    "title": "糖人夜市风两份",
+    "body": "采糖人夜市风的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2127": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2128",
+    "title": "冰糖葫芦摊香两份",
+    "body": "采冰糖葫芦摊香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2128": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2129",
+    "title": "冰糖葫芦糖香夜两份",
+    "body": "采冰糖葫芦糖香夜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2129": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2130",
+    "title": "冰糖葫芦面香两份",
+    "body": "采冰糖葫芦面香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2130": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2131",
+    "title": "冰糖葫芦纸香夜两份",
+    "body": "采冰糖葫芦纸香夜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2131": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2132",
+    "title": "冰糖葫芦塑香两份",
+    "body": "采冰糖葫芦塑香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2132": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2133",
+    "title": "冰糖葫芦吹香两份",
+    "body": "采冰糖葫芦吹香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2133": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2134",
+    "title": "冰糖葫芦人香糖两份",
+    "body": "采冰糖葫芦人香糖的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2134": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2135",
+    "title": "冰糖葫芦葫芦甜两份",
+    "body": "采冰糖葫芦葫芦甜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2135": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2136",
+    "title": "冰糖葫芦薯香两份",
+    "body": "采冰糖葫芦薯香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2136": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2137",
+    "title": "冰糖葫芦栗香两份",
+    "body": "采冰糖葫芦栗香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2137": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2138",
+    "title": "冰糖葫芦腐香两份",
+    "body": "采冰糖葫芦腐香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2138": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2139",
+    "title": "冰糖葫芦饼香两份",
+    "body": "采冰糖葫芦饼香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2139": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2140",
+    "title": "冰糖葫芦饨香两份",
+    "body": "采冰糖葫芦饨香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2140": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2141",
+    "title": "冰糖葫芦圆香两份",
+    "body": "采冰糖葫芦圆香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2141": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2142",
+    "title": "冰糖葫芦宵香两份",
+    "body": "采冰糖葫芦宵香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2142": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2143",
+    "title": "冰糖葫芦夜市风两份",
+    "body": "采冰糖葫芦夜市风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2143": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2144",
+    "title": "烤红薯摊香两份",
+    "body": "采烤红薯摊香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2144": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2145",
+    "title": "烤红薯糖香夜两份",
+    "body": "采烤红薯糖香夜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2145": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2146",
+    "title": "烤红薯面香两份",
+    "body": "采烤红薯面香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2146": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2147",
+    "title": "烤红薯纸香夜两份",
+    "body": "采烤红薯纸香夜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2147": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2148",
+    "title": "烤红薯塑香两份",
+    "body": "采烤红薯塑香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2148": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2149",
+    "title": "烤红薯吹香两份",
+    "body": "采烤红薯吹香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2149": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2150",
+    "title": "烤红薯人香糖两份",
+    "body": "采烤红薯人香糖的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2150": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2151",
+    "title": "烤红薯葫芦甜两份",
+    "body": "采烤红薯葫芦甜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2151": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2152",
+    "title": "烤红薯薯香两份",
+    "body": "采烤红薯薯香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2152": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2153",
+    "title": "烤红薯栗香两份",
+    "body": "采烤红薯栗香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2153": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2154",
+    "title": "烤红薯腐香两份",
+    "body": "采烤红薯腐香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2154": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2155",
+    "title": "烤红薯饼香两份",
+    "body": "采烤红薯饼香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2155": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2156",
+    "title": "烤红薯饨香两份",
+    "body": "采烤红薯饨香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2156": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2157",
+    "title": "烤红薯圆香两份",
+    "body": "采烤红薯圆香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2157": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2158",
+    "title": "烤红薯宵香两份",
+    "body": "采烤红薯宵香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2158": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2159",
+    "title": "烤红薯夜市风两份",
+    "body": "采烤红薯夜市风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2159": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2160",
+    "title": "糖炒栗摊香两份",
+    "body": "采糖炒栗摊香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2160": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2161",
+    "title": "糖炒栗糖香夜两份",
+    "body": "采糖炒栗糖香夜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2161": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2162",
+    "title": "糖炒栗面香两份",
+    "body": "采糖炒栗面香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2162": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2163",
+    "title": "糖炒栗纸香夜两份",
+    "body": "采糖炒栗纸香夜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2163": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2164",
+    "title": "糖炒栗塑香两份",
+    "body": "采糖炒栗塑香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2164": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2165",
+    "title": "糖炒栗吹香两份",
+    "body": "采糖炒栗吹香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2165": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2166",
+    "title": "糖炒栗人香糖两份",
+    "body": "采糖炒栗人香糖的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2166": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2167",
+    "title": "糖炒栗葫芦甜两份",
+    "body": "采糖炒栗葫芦甜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2167": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2168",
+    "title": "糖炒栗薯香两份",
+    "body": "采糖炒栗薯香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2168": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2169",
+    "title": "糖炒栗栗香两份",
+    "body": "采糖炒栗栗香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2169": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2170",
+    "title": "糖炒栗腐香两份",
+    "body": "采糖炒栗腐香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2170": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2171",
+    "title": "糖炒栗饼香两份",
+    "body": "采糖炒栗饼香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2171": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2172",
+    "title": "糖炒栗饨香两份",
+    "body": "采糖炒栗饨香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2172": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2173",
+    "title": "糖炒栗圆香两份",
+    "body": "采糖炒栗圆香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2173": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2174",
+    "title": "糖炒栗宵香两份",
+    "body": "采糖炒栗宵香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2174": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2175",
+    "title": "糖炒栗夜市风两份",
+    "body": "采糖炒栗夜市风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2175": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2176",
+    "title": "臭豆腐摊香两份",
+    "body": "采臭豆腐摊香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2176": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2177",
+    "title": "臭豆腐糖香夜两份",
+    "body": "采臭豆腐糖香夜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2177": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2178",
+    "title": "臭豆腐面香两份",
+    "body": "采臭豆腐面香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2178": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2179",
+    "title": "臭豆腐纸香夜两份",
+    "body": "采臭豆腐纸香夜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2179": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2180",
+    "title": "臭豆腐塑香两份",
+    "body": "采臭豆腐塑香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2180": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2181",
+    "title": "臭豆腐吹香两份",
+    "body": "采臭豆腐吹香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2181": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2182",
+    "title": "臭豆腐人香糖两份",
+    "body": "采臭豆腐人香糖的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2182": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2183",
+    "title": "臭豆腐葫芦甜两份",
+    "body": "采臭豆腐葫芦甜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2183": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2184",
+    "title": "臭豆腐薯香两份",
+    "body": "采臭豆腐薯香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2184": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2185",
+    "title": "臭豆腐栗香两份",
+    "body": "采臭豆腐栗香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2185": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2186",
+    "title": "臭豆腐腐香两份",
+    "body": "采臭豆腐腐香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2186": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2187",
+    "title": "臭豆腐饼香两份",
+    "body": "采臭豆腐饼香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2187": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2188",
+    "title": "臭豆腐饨香两份",
+    "body": "采臭豆腐饨香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2188": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2189",
+    "title": "臭豆腐圆香两份",
+    "body": "采臭豆腐圆香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2189": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2190",
+    "title": "臭豆腐宵香两份",
+    "body": "采臭豆腐宵香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2190": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2191",
+    "title": "臭豆腐夜市风两份",
+    "body": "采臭豆腐夜市风的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2191": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2192",
+    "title": "煎饼摊香两份",
+    "body": "采煎饼摊香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2192": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2193",
+    "title": "煎饼糖香夜两份",
+    "body": "采煎饼糖香夜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2193": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2194",
+    "title": "煎饼面香两份",
+    "body": "采煎饼面香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2194": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2195",
+    "title": "煎饼纸香夜两份",
+    "body": "采煎饼纸香夜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2195": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2196",
+    "title": "煎饼塑香两份",
+    "body": "采煎饼塑香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2196": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2197",
+    "title": "煎饼吹香两份",
+    "body": "采煎饼吹香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2197": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2198",
+    "title": "煎饼人香糖两份",
+    "body": "采煎饼人香糖的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2198": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2199",
+    "title": "煎饼葫芦甜两份",
+    "body": "采煎饼葫芦甜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2199": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2200",
+    "title": "煎饼薯香两份",
+    "body": "采煎饼薯香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2200": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2201",
+    "title": "煎饼栗香两份",
+    "body": "采煎饼栗香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2201": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2202",
+    "title": "煎饼腐香两份",
+    "body": "采煎饼腐香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2202": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2203",
+    "title": "煎饼饼香两份",
+    "body": "采煎饼饼香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2203": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2204",
+    "title": "煎饼饨香两份",
+    "body": "采煎饼饨香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2204": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2205",
+    "title": "煎饼圆香两份",
+    "body": "采煎饼圆香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2205": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2206",
+    "title": "煎饼宵香两份",
+    "body": "采煎饼宵香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2206": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2207",
+    "title": "煎饼夜市风两份",
+    "body": "采煎饼夜市风的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2207": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2208",
+    "title": "馄饨摊香两份",
+    "body": "采馄饨摊香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2208": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2209",
+    "title": "馄饨糖香夜两份",
+    "body": "采馄饨糖香夜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2209": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2210",
+    "title": "馄饨面香两份",
+    "body": "采馄饨面香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2210": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2211",
+    "title": "馄饨纸香夜两份",
+    "body": "采馄饨纸香夜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2211": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2212",
+    "title": "馄饨塑香两份",
+    "body": "采馄饨塑香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2212": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2213",
+    "title": "馄饨吹香两份",
+    "body": "采馄饨吹香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2213": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2214",
+    "title": "馄饨人香糖两份",
+    "body": "采馄饨人香糖的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2214": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2215",
+    "title": "馄饨葫芦甜两份",
+    "body": "采馄饨葫芦甜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2215": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2216",
+    "title": "馄饨薯香两份",
+    "body": "采馄饨薯香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2216": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2217",
+    "title": "馄饨栗香两份",
+    "body": "采馄饨栗香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2217": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2218",
+    "title": "馄饨腐香两份",
+    "body": "采馄饨腐香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2218": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2219",
+    "title": "馄饨饼香两份",
+    "body": "采馄饨饼香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2219": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2220",
+    "title": "馄饨饨香两份",
+    "body": "采馄饨饨香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2220": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2221",
+    "title": "馄饨圆香两份",
+    "body": "采馄饨圆香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2221": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2222",
+    "title": "馄饨宵香两份",
+    "body": "采馄饨宵香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2222": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2223",
+    "title": "馄饨夜市风两份",
+    "body": "采馄饨夜市风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2223": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2224",
+    "title": "汤圆摊香两份",
+    "body": "采汤圆摊香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2224": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2225",
+    "title": "汤圆糖香夜两份",
+    "body": "采汤圆糖香夜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2225": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2226",
+    "title": "汤圆面香两份",
+    "body": "采汤圆面香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2226": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2227",
+    "title": "汤圆纸香夜两份",
+    "body": "采汤圆纸香夜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2227": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2228",
+    "title": "汤圆塑香两份",
+    "body": "采汤圆塑香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2228": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2229",
+    "title": "汤圆吹香两份",
+    "body": "采汤圆吹香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2229": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2230",
+    "title": "汤圆人香糖两份",
+    "body": "采汤圆人香糖的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2230": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2231",
+    "title": "汤圆葫芦甜两份",
+    "body": "采汤圆葫芦甜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2231": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2232",
+    "title": "汤圆薯香两份",
+    "body": "采汤圆薯香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2232": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2233",
+    "title": "汤圆栗香两份",
+    "body": "采汤圆栗香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2233": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2234",
+    "title": "汤圆腐香两份",
+    "body": "采汤圆腐香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2234": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2235",
+    "title": "汤圆饼香两份",
+    "body": "采汤圆饼香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2235": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2236",
+    "title": "汤圆饨香两份",
+    "body": "采汤圆饨香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2236": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2237",
+    "title": "汤圆圆香两份",
+    "body": "采汤圆圆香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2237": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2238",
+    "title": "汤圆宵香两份",
+    "body": "采汤圆宵香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2238": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2239",
+    "title": "汤圆夜市风两份",
+    "body": "采汤圆夜市风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2239": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2240",
+    "title": "元宵摊香两份",
+    "body": "采元宵摊香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2240": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2241",
+    "title": "元宵糖香夜两份",
+    "body": "采元宵糖香夜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2241": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2242",
+    "title": "元宵面香两份",
+    "body": "采元宵面香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2242": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2243",
+    "title": "元宵纸香夜两份",
+    "body": "采元宵纸香夜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2243": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2244",
+    "title": "元宵塑香两份",
+    "body": "采元宵塑香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2244": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2245",
+    "title": "元宵吹香两份",
+    "body": "采元宵吹香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2245": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2246",
+    "title": "元宵人香糖两份",
+    "body": "采元宵人香糖的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2246": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2247",
+    "title": "元宵葫芦甜两份",
+    "body": "采元宵葫芦甜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2247": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2248",
+    "title": "元宵薯香两份",
+    "body": "采元宵薯香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2248": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2249",
+    "title": "元宵栗香两份",
+    "body": "采元宵栗香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2249": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2250",
+    "title": "元宵腐香两份",
+    "body": "采元宵腐香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2250": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2251",
+    "title": "元宵饼香两份",
+    "body": "采元宵饼香的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2251": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2252",
+    "title": "元宵饨香两份",
+    "body": "采元宵饨香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2252": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2253",
+    "title": "元宵圆香两份",
+    "body": "采元宵圆香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2253": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2254",
+    "title": "元宵宵香两份",
+    "body": "采元宵宵香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2254": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2255",
+    "title": "元宵夜市风两份",
+    "body": "采元宵夜市风的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2255": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2256",
+    "title": "关东煮摊香两份",
+    "body": "采关东煮摊香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2256": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2257",
+    "title": "关东煮糖香夜两份",
+    "body": "采关东煮糖香夜的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2257": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2258",
+    "title": "关东煮面香两份",
+    "body": "采关东煮面香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2258": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2259",
+    "title": "关东煮纸香夜两份",
+    "body": "采关东煮纸香夜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2259": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2260",
+    "title": "关东煮塑香两份",
+    "body": "采关东煮塑香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2260": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2261",
+    "title": "关东煮吹香两份",
+    "body": "采关东煮吹香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2261": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2262",
+    "title": "关东煮人香糖两份",
+    "body": "采关东煮人香糖的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2262": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2263",
+    "title": "关东煮葫芦甜两份",
+    "body": "采关东煮葫芦甜的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2263": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2264",
+    "title": "关东煮薯香两份",
+    "body": "采关东煮薯香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2264": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2265",
+    "title": "关东煮栗香两份",
+    "body": "采关东煮栗香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2265": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2266",
+    "title": "关东煮腐香两份",
+    "body": "采关东煮腐香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2266": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2267",
+    "title": "关东煮饼香两份",
+    "body": "采关东煮饼香的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2267": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2268",
+    "title": "关东煮饨香两份",
+    "body": "采关东煮饨香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2268": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2269",
+    "title": "关东煮圆香两份",
+    "body": "采关东煮圆香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2269": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2270",
+    "title": "关东煮宵香两份",
+    "body": "采关东煮宵香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2270": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2271",
+    "title": "关东煮夜市风两份",
+    "body": "采关东煮夜市风的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2271": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2272",
+    "title": "烤串摊香两份",
+    "body": "采烤串摊香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2272": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2273",
+    "title": "烤串糖香夜两份",
+    "body": "采烤串糖香夜的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2273": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2274",
+    "title": "烤串面香两份",
+    "body": "采烤串面香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2274": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2275",
+    "title": "烤串纸香夜两份",
+    "body": "采烤串纸香夜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2275": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2276",
+    "title": "烤串塑香两份",
+    "body": "采烤串塑香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2276": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2277",
+    "title": "烤串吹香两份",
+    "body": "采烤串吹香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2277": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2278",
+    "title": "烤串人香糖两份",
+    "body": "采烤串人香糖的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2278": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2279",
+    "title": "烤串葫芦甜两份",
+    "body": "采烤串葫芦甜的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2279": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2280",
+    "title": "烤串薯香两份",
+    "body": "采烤串薯香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2280": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2281",
+    "title": "烤串栗香两份",
+    "body": "采烤串栗香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2281": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2282",
+    "title": "烤串腐香两份",
+    "body": "采烤串腐香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2282": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2283",
+    "title": "烤串饼香两份",
+    "body": "采烤串饼香的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2283": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2284",
+    "title": "烤串饨香两份",
+    "body": "采烤串饨香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2284": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2285",
+    "title": "烤串圆香两份",
+    "body": "采烤串圆香的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2285": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2286",
+    "title": "烤串宵香两份",
+    "body": "采烤串宵香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2286": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2287",
+    "title": "烤串夜市风两份",
+    "body": "采烤串夜市风的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2287": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2288",
+    "title": "凉皮摊香两份",
+    "body": "采凉皮摊香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2288": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2289",
+    "title": "凉皮糖香夜两份",
+    "body": "采凉皮糖香夜的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2289": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2290",
+    "title": "凉皮面香两份",
+    "body": "采凉皮面香的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2290": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2291",
+    "title": "凉皮纸香夜两份",
+    "body": "采凉皮纸香夜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2291": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2292",
+    "title": "凉皮塑香两份",
+    "body": "采凉皮塑香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2292": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2293",
+    "title": "凉皮吹香两份",
+    "body": "采凉皮吹香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2293": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2294",
+    "title": "凉皮人香糖两份",
+    "body": "采凉皮人香糖的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2294": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2295",
+    "title": "凉皮葫芦甜两份",
+    "body": "采凉皮葫芦甜的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2295": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2296",
+    "title": "凉皮薯香两份",
+    "body": "采凉皮薯香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2296": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2297",
+    "title": "凉皮栗香两份",
+    "body": "采凉皮栗香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2297": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2298",
+    "title": "凉皮腐香两份",
+    "body": "采凉皮腐香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2298": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2299",
+    "title": "凉皮饼香两份",
+    "body": "采凉皮饼香的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2299": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2300",
+    "title": "凉皮饨香两份",
+    "body": "采凉皮饨香的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2300": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2301",
+    "title": "凉皮圆香两份",
+    "body": "采凉皮圆香的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2301": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2302",
+    "title": "凉皮宵香两份",
+    "body": "采凉皮宵香的书商来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2302": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2303",
+    "title": "凉皮夜市风两份",
+    "body": "采凉皮夜市风的陶工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2303": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2304",
+    "title": "豆花摊香两份",
+    "body": "采豆花摊香的花匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2304": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2305",
+    "title": "豆花糖香夜两份",
+    "body": "采豆花糖香夜的茶人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2305": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2306",
+    "title": "豆花面香两份",
+    "body": "采豆花面香的织工来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2306": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2307",
+    "title": "豆花纸香夜两份",
+    "body": "采豆花纸香夜的画师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2307": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2308",
+    "title": "豆花塑香两份",
+    "body": "采豆花塑香的渔人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2308": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2309",
+    "title": "豆花吹香两份",
+    "body": "采豆花吹香的牧人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2309": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2310",
+    "title": "豆花人香糖两份",
+    "body": "采豆花人香糖的邮差来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2310": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2311",
+    "title": "豆花葫芦甜两份",
+    "body": "采豆花葫芦甜的灯匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2311": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2312",
+    "title": "豆花薯香两份",
+    "body": "采豆花薯香的石匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2312": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2313",
+    "title": "豆花栗香两份",
+    "body": "采豆花栗香的织娘来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2313": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2314",
+    "title": "豆花腐香两份",
+    "body": "采豆花腐香的笛手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2314": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2315",
+    "title": "豆花饼香两份",
+    "body": "采豆花饼香的舟子来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2315": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2316",
+    "title": "豆花饨香两份",
+    "body": "采豆花饨香的樵夫来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2316": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2317",
+    "title": "豆花圆香两份",
+    "body": "采豆花圆香的酿手来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2317": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2318",
+    "title": "豆花宵香两份",
+    "body": "采豆花宵香的染匠来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2318": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_market2319",
+    "title": "豆花夜市风两份",
+    "body": "采豆花夜市风的香师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "market2319": 2
+      },
+      "coins": 2
+    }
   }
 ]
