@@ -4275,5 +4275,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_matcha_ceremonial",
+    "title": "抹茶礼两份",
+    "body": "点抹茶礼的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "matcha_ceremonial": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_hojicha",
+    "title": "焙茶两份",
+    "body": "泡焙茶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "hojicha": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_genmaicha",
+    "title": "玄米茶两份",
+    "body": "泡玄米茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "genmaicha": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sencha",
+    "title": "煎茶两份",
+    "body": "泡煎茶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sencha": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_gyokuro",
+    "title": "玉露两份",
+    "body": "泡玉露的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "gyokuro": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bancha",
+    "title": "番茶两份",
+    "body": "泡番茶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "bancha": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kukicha",
+    "title": "茎茶两份",
+    "body": "泡茎茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kukicha": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_mugicha",
+    "title": "麦茶两份",
+    "body": "泡麦茶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "mugicha": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sobacha",
+    "title": "荞麦茶两份",
+    "body": "泡荞麦茶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sobacha": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_job_tears",
+    "title": "薏米茶两份",
+    "body": "泡薏米茶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "job_tears": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_barley_grass",
+    "title": "大麦若叶两份",
+    "body": "采大麦若叶的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "barley_grass": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wheatgrass",
+    "title": "小麦草两份",
+    "body": "采小麦草的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wheatgrass": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_spirulina",
+    "title": "螺旋藻两份",
+    "body": "收螺旋藻的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "spirulina": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_chlorella",
+    "title": "小球藻两份",
+    "body": "收小球藻的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "chlorella": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_kelp",
+    "title": "海带两份",
+    "body": "采海带的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "kelp": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_nori",
+    "title": "紫菜两份",
+    "body": "采紫菜的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "nori": 2
+      },
+      "coins": 2
+    }
   }
 ]

@@ -4702,6 +4702,118 @@
       "emoji": "🤎",
       "kind": "风味",
       "seed": "cupuacuPot"
+    },
+    "matcha_ceremonial": {
+      "id": "matcha_ceremonial",
+      "name": "抹茶礼",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "matcha_ceremonialPot"
+    },
+    "hojicha": {
+      "id": "hojicha",
+      "name": "焙茶",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "hojichaPot"
+    },
+    "genmaicha": {
+      "id": "genmaicha",
+      "name": "玄米茶",
+      "emoji": "🟡",
+      "kind": "风味",
+      "seed": "genmaichaPot"
+    },
+    "sencha": {
+      "id": "sencha",
+      "name": "煎茶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "senchaPot"
+    },
+    "gyokuro": {
+      "id": "gyokuro",
+      "name": "玉露",
+      "emoji": "💚",
+      "kind": "风味",
+      "seed": "gyokuroPot"
+    },
+    "bancha": {
+      "id": "bancha",
+      "name": "番茶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "banchaPot"
+    },
+    "kukicha": {
+      "id": "kukicha",
+      "name": "茎茶",
+      "emoji": "🌿",
+      "kind": "风味",
+      "seed": "kukichaPot"
+    },
+    "mugicha": {
+      "id": "mugicha",
+      "name": "麦茶",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "mugichaPot"
+    },
+    "sobacha": {
+      "id": "sobacha",
+      "name": "荞麦茶",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "sobachaPot"
+    },
+    "job_tears": {
+      "id": "job_tears",
+      "name": "薏米茶",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "job_tearsPot"
+    },
+    "barley_grass": {
+      "id": "barley_grass",
+      "name": "大麦若叶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "barley_grassPot"
+    },
+    "wheatgrass": {
+      "id": "wheatgrass",
+      "name": "小麦草",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "wheatgrassPot"
+    },
+    "spirulina": {
+      "id": "spirulina",
+      "name": "螺旋藻",
+      "emoji": "💙",
+      "kind": "风味",
+      "seed": "spirulinaPot"
+    },
+    "chlorella": {
+      "id": "chlorella",
+      "name": "小球藻",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "chlorellaPot"
+    },
+    "kelp": {
+      "id": "kelp",
+      "name": "海带",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "kelpPot"
+    },
+    "nori": {
+      "id": "nori",
+      "name": "紫菜",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "noriPot"
     }
   },
   "plants": {
@@ -10287,6 +10399,182 @@
       ],
       "harvest": "cupuacu",
       "days": 3
+    },
+    "matcha_ceremonialPot": {
+      "id": "matcha_ceremonialPot",
+      "name": "抹茶礼",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "matcha_ceremonial",
+      "days": 3
+    },
+    "hojichaPot": {
+      "id": "hojichaPot",
+      "name": "焙茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "hojicha",
+      "days": 3
+    },
+    "genmaichaPot": {
+      "id": "genmaichaPot",
+      "name": "玄米茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟡"
+      ],
+      "harvest": "genmaicha",
+      "days": 3
+    },
+    "senchaPot": {
+      "id": "senchaPot",
+      "name": "煎茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "sencha",
+      "days": 3
+    },
+    "gyokuroPot": {
+      "id": "gyokuroPot",
+      "name": "玉露",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💚"
+      ],
+      "harvest": "gyokuro",
+      "days": 3
+    },
+    "banchaPot": {
+      "id": "banchaPot",
+      "name": "番茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "bancha",
+      "days": 3
+    },
+    "kukichaPot": {
+      "id": "kukichaPot",
+      "name": "茎茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🌿"
+      ],
+      "harvest": "kukicha",
+      "days": 3
+    },
+    "mugichaPot": {
+      "id": "mugichaPot",
+      "name": "麦茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "mugicha",
+      "days": 3
+    },
+    "sobachaPot": {
+      "id": "sobachaPot",
+      "name": "荞麦茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "sobacha",
+      "days": 3
+    },
+    "job_tearsPot": {
+      "id": "job_tearsPot",
+      "name": "薏米茶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "job_tears",
+      "days": 3
+    },
+    "barley_grassPot": {
+      "id": "barley_grassPot",
+      "name": "大麦若叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "barley_grass",
+      "days": 3
+    },
+    "wheatgrassPot": {
+      "id": "wheatgrassPot",
+      "name": "小麦草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "wheatgrass",
+      "days": 3
+    },
+    "spirulinaPot": {
+      "id": "spirulinaPot",
+      "name": "螺旋藻",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "💙"
+      ],
+      "harvest": "spirulina",
+      "days": 3
+    },
+    "chlorellaPot": {
+      "id": "chlorellaPot",
+      "name": "小球藻",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "chlorella",
+      "days": 3
+    },
+    "kelpPot": {
+      "id": "kelpPot",
+      "name": "海带",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "kelp",
+      "days": 3
+    },
+    "noriPot": {
+      "id": "noriPot",
+      "name": "紫菜",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "nori",
+      "days": 3
     }
   },
   "cups": [
@@ -14471,6 +14759,166 @@
       "tags": [
         "果香",
         "甜蜜"
+      ]
+    },
+    {
+      "id": "matcha_ceremonial",
+      "name": "抹茶礼",
+      "emoji": "🟢",
+      "need": "matcha_ceremonial",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "hojicha",
+      "name": "焙茶",
+      "emoji": "🟤",
+      "need": "hojicha",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "genmaicha",
+      "name": "玄米茶",
+      "emoji": "🟡",
+      "need": "genmaicha",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "sencha",
+      "name": "煎茶",
+      "emoji": "🟢",
+      "need": "sencha",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "gyokuro",
+      "name": "玉露",
+      "emoji": "💚",
+      "need": "gyokuro",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "bancha",
+      "name": "番茶",
+      "emoji": "🟢",
+      "need": "bancha",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "kukicha",
+      "name": "茎茶",
+      "emoji": "🌿",
+      "need": "kukicha",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "mugicha",
+      "name": "麦茶",
+      "emoji": "🟤",
+      "need": "mugicha",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "sobacha",
+      "name": "荞麦茶",
+      "emoji": "🟤",
+      "need": "sobacha",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "job_tears",
+      "name": "薏米茶",
+      "emoji": "⚪",
+      "need": "job_tears",
+      "tags": [
+        "草本",
+        "温柔"
+      ]
+    },
+    {
+      "id": "barley_grass",
+      "name": "大麦若叶",
+      "emoji": "🟢",
+      "need": "barley_grass",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "wheatgrass",
+      "name": "小麦草",
+      "emoji": "🟢",
+      "need": "wheatgrass",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "spirulina",
+      "name": "螺旋藻",
+      "emoji": "💙",
+      "need": "spirulina",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "chlorella",
+      "name": "小球藻",
+      "emoji": "🟢",
+      "need": "chlorella",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "kelp",
+      "name": "海带",
+      "emoji": "🟤",
+      "need": "kelp",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "nori",
+      "name": "紫菜",
+      "emoji": "🟣",
+      "need": "nori",
+      "tags": [
+        "草本",
+        "清爽"
       ]
     }
   ],
@@ -20724,6 +21172,246 @@
         "honey",
         "tea_leaf",
         "lavender_bud"
+      ]
+    },
+    {
+      "name": "点抹茶礼的旅人",
+      "avatar": "🟢",
+      "wish": "抹茶礼或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "matcha_ceremonial",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "泡焙茶的药师",
+      "avatar": "🟤",
+      "wish": "焙茶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "hojicha",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "泡玄米茶的旅人",
+      "avatar": "🟡",
+      "wish": "玄米茶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "genmaicha",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "泡煎茶的药师",
+      "avatar": "🟢",
+      "wish": "煎茶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "sencha",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "泡玉露的旅人",
+      "avatar": "💚",
+      "wish": "玉露或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "gyokuro",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "泡番茶的药师",
+      "avatar": "🟢",
+      "wish": "番茶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "bancha",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "泡茎茶的旅人",
+      "avatar": "🌿",
+      "wish": "茎茶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "kukicha",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "泡麦茶的药师",
+      "avatar": "🟤",
+      "wish": "麦茶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "mugicha",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "泡荞麦茶的旅人",
+      "avatar": "🟤",
+      "wish": "荞麦茶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "sobacha",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "泡薏米茶的药师",
+      "avatar": "⚪",
+      "wish": "薏米茶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温柔"
+      ],
+      "flavors": [
+        "job_tears",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采大麦若叶的旅人",
+      "avatar": "🟢",
+      "wish": "大麦若叶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "barley_grass",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采小麦草的药师",
+      "avatar": "🟢",
+      "wish": "小麦草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "wheatgrass",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "收螺旋藻的旅人",
+      "avatar": "💙",
+      "wish": "螺旋藻或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "spirulina",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "收小球藻的药师",
+      "avatar": "🟢",
+      "wish": "小球藻或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "chlorella",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采海带的旅人",
+      "avatar": "🟤",
+      "wish": "海带或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "kelp",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采紫菜的药师",
+      "avatar": "🟣",
+      "wish": "紫菜或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "nori",
+        "honey",
+        "tea_leaf",
+        "mint"
       ]
     }
   ],
