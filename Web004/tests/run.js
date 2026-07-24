@@ -3273,5 +3273,51 @@ test("almond hazelnut plantable dessert-corner 76 themes", () => {
   assert.ok(rr.includes("DISABLED"));
 });
 
+test("maple_syrup sesame plantable 78 themes", () => {
+  const j = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "content-extra.json"), "utf8"));
+  assert.ok(j.items.maple_syrup && j.plants.mapleSyrupPot);
+  assert.ok(j.items.sesame && j.plants.sesamePot);
+  assert.ok(j.flavors.some((f) => f.id === "maple_syrup"));
+  assert.ok(j.flavors.some((f) => f.id === "sesame"));
+  assert.ok(j.customers.some((c) => c.name === "煮枫糖的旅人"));
+  assert.ok(j.customers.some((c) => c.name === "烤芝麻的小贩"));
+  const cat = core.mergeCatalog({ items: j.items, plants: j.plants, flavors: j.flavors });
+  const s = core.defaultState();
+  s.bag.maple_syrup = 1;
+  s.bag.sesame = 1;
+  assert.ok(core.plantSeed(s, 0, "maple_syrup", cat).ok);
+  assert.ok(core.plantSeed(s, 1, "sesame", cat).ok);
+  const themes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "path-themes.json"), "utf8"));
+  assert.ok(themes.some((th) => th.id === "maple_sugar_path"));
+  assert.ok(themes.some((th) => th.id === "sesame_field"));
+  assert.ok(themes.length >= 78);
+  assert.strictEqual(new Set(themes.map((th) => th.id)).size, themes.length);
+  const winterPool = core.DAILY_SPECIAL_BY_SEASON.winter.map((x) => x.flavor);
+  assert.ok(winterPool.includes("maple_syrup") && winterPool.includes("sesame"));
+  const cups = [{ id: "mug", vibe: "温柔" }];
+  const bases = j.bases || [{ id: "honey_water" }];
+  const score = core.scoreDrink(
+    { name: "煮枫糖的旅人", tags: ["甜蜜"], flavors: ["maple_syrup"] },
+    { cup: "mug", base: "honey_water", flavor: "maple_syrup", topping: "none" },
+    { cups, bases, flavors: j.flavors, season: "autumn" }
+  );
+  assert.ok(score.notes.some((n) => n === "甜点一角"));
+  const game = fs.readFileSync(path.join(__dirname, "..", "game.js"), "utf8");
+  assert.ok(game.includes("maple_sugar_path") && game.includes("sesame_field"));
+  const recipes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "secret-recipes.json"), "utf8"));
+  assert.ok(recipes.some((r) => r.name === "枫糖暖蜜"));
+  assert.ok(recipes.some((r) => r.name === "芝麻暖茶"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "maple_walker"));
+  assert.ok(core.DEFAULT_ACHIEVEMENTS.some((a) => a.id === "sesame_walker"));
+  const man = fs.readFileSync(path.join(__dirname, "..", "..", "docs", "USER_MANUAL.md"), "utf8");
+  assert.ok(man.includes("枫糖慢径") && man.includes("芝麻田径"));
+  const events = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "evening-events.json"), "utf8"));
+  assert.ok(events.some((e) => e.id === "ev_sesame_field" && e.body.length > 12));
+  const titles = events.map((e) => e.title);
+  assert.strictEqual(new Set(titles).size, titles.length);
+  const rr = fs.readFileSync(path.join(__dirname, "..", "tools", "run-rounds.js"), "utf8");
+  assert.ok(rr.includes("DISABLED"));
+});
+
 console.log("\nResult: %d passed, %d failed", passed, failed);
 if (failed) process.exit(1);
