@@ -2644,6 +2644,20 @@
       "emoji": "🎋",
       "kind": "风味",
       "seed": "sugarcanePot"
+    },
+    "lemon": {
+      "id": "lemon",
+      "name": "柠檬",
+      "emoji": "🍋",
+      "kind": "风味",
+      "seed": "lemonPot"
+    },
+    "lime": {
+      "id": "lime",
+      "name": "青柠",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "limePot"
     }
   },
   "plants": {
@@ -4995,6 +5009,28 @@
       ],
       "harvest": "sugarcane",
       "days": 4
+    },
+    "lemonPot": {
+      "id": "lemonPot",
+      "name": "柠檬",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🍋"
+      ],
+      "harvest": "lemon",
+      "days": 2
+    },
+    "limePot": {
+      "id": "limePot",
+      "name": "青柠",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "lime",
+      "days": 2
     }
   },
   "cups": [
@@ -6239,6 +6275,26 @@
       "tags": [
         "甜蜜",
         "清爽"
+      ]
+    },
+    {
+      "id": "lemon",
+      "name": "柠檬",
+      "emoji": "🍋",
+      "need": "lemon",
+      "tags": [
+        "清爽",
+        "果香"
+      ]
+    },
+    {
+      "id": "lime",
+      "name": "青柠",
+      "emoji": "🟢",
+      "need": "lime",
+      "tags": [
+        "清爽",
+        "果香"
       ]
     }
   ],
@@ -8079,6 +8135,36 @@
         "honey",
         "mint",
         "lemon_balm"
+      ]
+    },
+    {
+      "name": "切柠檬片的店员",
+      "avatar": "🍋",
+      "wish": "柠檬或薄荷，清爽一点，气泡最好。",
+      "tags": [
+        "清爽",
+        "果香"
+      ],
+      "flavors": [
+        "lemon",
+        "mint",
+        "honey",
+        "grapefruit"
+      ]
+    },
+    {
+      "name": "挤青柠的调酒师",
+      "avatar": "🍸",
+      "wish": "青柠或薄荷，清爽一点，气泡最好。",
+      "tags": [
+        "清爽",
+        "果香"
+      ],
+      "flavors": [
+        "lime",
+        "mint",
+        "lemon",
+        "honey"
       ]
     }
   ],
