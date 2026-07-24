@@ -1,224 +1,32 @@
 {
   "current": "dusk",
   "palettes": {
-    "winter_0014": {
-      "sky": "#1a5f80",
-      "ground": "#8bc72e"
+    "dusk": {
+      "sky": "#c4a882",
+      "ground": "#5a6b4a"
     },
-    "winter_0034": {
-      "sky": "#400c80",
-      "ground": "#537603"
+    "spring": {
+      "sky": "#a8d4e8",
+      "ground": "#7a9b5a"
     },
-    "winter_0054": {
-      "sky": "#65b980",
-      "ground": "#1b24d8"
+    "summer": {
+      "sky": "#7eb8d4",
+      "ground": "#6a9a48"
     },
-    "winter_0074": {
-      "sky": "#8b6680",
-      "ground": "#e2d3ac"
+    "autumn": {
+      "sky": "#d4a878",
+      "ground": "#8a6a3a"
     },
-    "winter_0094": {
-      "sky": "#b11380",
-      "ground": "#aa8281"
-    },
-    "winter_0114": {
-      "sky": "#d6c080",
-      "ground": "#723156"
-    },
-    "winter_0134": {
-      "sky": "#fc6d80",
-      "ground": "#39e02b"
-    },
-    "winter_0154": {
-      "sky": "#221a81",
-      "ground": "#018f00"
-    },
-    "winter_0174": {
-      "sky": "#47c781",
-      "ground": "#c93dd4"
-    },
-    "winter_0194": {
-      "sky": "#6d7481",
-      "ground": "#90eca9"
-    },
-    "winter_0214": {
-      "sky": "#932181",
-      "ground": "#589b7e"
-    },
-    "winter_0234": {
-      "sky": "#b8ce81",
-      "ground": "#204a53"
-    },
-    "winter_0254": {
-      "sky": "#de7b81",
-      "ground": "#e7f927"
-    },
-    "winter_0274": {
-      "sky": "#042882",
-      "ground": "#afa7fc"
-    },
-    "winter_0294": {
-      "sky": "#29d582",
-      "ground": "#7756d1"
-    },
-    "winter_0314": {
-      "sky": "#4f8282",
-      "ground": "#3f05a6"
-    },
-    "winter_0334": {
-      "sky": "#752f82",
-      "ground": "#06b47b"
-    },
-    "winter_0354": {
-      "sky": "#9adc82",
-      "ground": "#ce634f"
-    },
-    "winter_0374": {
-      "sky": "#c08982",
-      "ground": "#961224"
-    },
-    "winter_0394": {
-      "sky": "#e63682",
-      "ground": "#5dc0f9"
-    },
-    "winter_0414": {
-      "sky": "#0be383",
-      "ground": "#256fce"
-    },
-    "winter_0434": {
-      "sky": "#319083",
-      "ground": "#ed1ea2"
-    },
-    "winter_0454": {
-      "sky": "#573d83",
-      "ground": "#b4cd77"
-    },
-    "winter_0474": {
-      "sky": "#7cea83",
-      "ground": "#7c7c4c"
-    },
-    "winter_0494": {
-      "sky": "#a29783",
-      "ground": "#442b21"
-    },
-    "winter_0514": {
-      "sky": "#c84483",
-      "ground": "#0bd9f6"
-    },
-    "winter_0534": {
-      "sky": "#edf183",
-      "ground": "#d388ca"
-    },
-    "winter_0554": {
-      "sky": "#139e84",
-      "ground": "#9b379f"
-    },
-    "winter_0574": {
-      "sky": "#394b84",
-      "ground": "#62e674"
-    },
-    "winter_0594": {
-      "sky": "#5ef884",
-      "ground": "#2a9549"
-    },
-    "winter_0614": {
-      "sky": "#84a584",
-      "ground": "#f2441d"
-    },
-    "winter_0634": {
-      "sky": "#aa5284",
-      "ground": "#b9f2f2"
-    },
-    "winter_0654": {
-      "sky": "#cfff84",
-      "ground": "#81a1c7"
-    },
-    "winter_0674": {
-      "sky": "#f5ac84",
-      "ground": "#49509c"
-    },
-    "winter_0694": {
-      "sky": "#1b5985",
-      "ground": "#10ff71"
-    },
-    "winter_0714": {
-      "sky": "#410685",
-      "ground": "#d8ae45"
-    },
-    "winter_0734": {
-      "sky": "#66b385",
-      "ground": "#a05d1a"
-    },
-    "winter_0754": {
-      "sky": "#8c6085",
-      "ground": "#680bef"
-    },
-    "winter_0774": {
-      "sky": "#b20d85",
-      "ground": "#2fbac4"
-    },
-    "winter_0794": {
-      "sky": "#d7ba85",
-      "ground": "#f76998"
-    },
-    "winter_0814": {
-      "sky": "#fd6785",
-      "ground": "#bf186d"
-    },
-    "winter_0834": {
-      "sky": "#231486",
-      "ground": "#86c742"
-    },
-    "winter_0854": {
-      "sky": "#48c186",
-      "ground": "#4e7617"
-    },
-    "winter_0874": {
-      "sky": "#6e6e86",
-      "ground": "#1624ec"
-    },
-    "winter_0894": {
-      "sky": "#941b86",
-      "ground": "#ddd3c0"
-    },
-    "winter_0914": {
-      "sky": "#b9c886",
-      "ground": "#a58295"
-    },
-    "winter_0934": {
-      "sky": "#df7586",
-      "ground": "#6d316a"
-    },
-    "winter_0954": {
-      "sky": "#052287",
-      "ground": "#34e03f"
-    },
-    "winter_0974": {
-      "sky": "#2acf87",
-      "ground": "#fc8f13"
-    },
-    "winter_0994": {
-      "sky": "#507c87",
-      "ground": "#c43de8"
-    },
-    "winter_1014": {
-      "sky": "#762987",
-      "ground": "#8becbd"
-    },
-    "winter_1034": {
-      "sky": "#9bd687",
-      "ground": "#539b92"
-    },
-    "winter_1054": {
-      "sky": "#c18387",
-      "ground": "#1b4a67"
+    "winter": {
+      "sky": "#b0c4d4",
+      "ground": "#6a7a7a"
     }
   },
   "stageBanners": {
-    "shop": "assets/shop/live_0972.jpg",
-    "ui": "assets/ui/live_0984.jpg",
-    "garden": "assets/garden/live_0996.jpg",
-    "album": "assets/album/live_1008.jpg",
-    "walk": "assets/walk/live_1020.jpg"
+    "ui": "assets/scenes/hero-dusk.jpg",
+    "album": "assets/album/diary-cover.jpg",
+    "walk": "assets/scenes/walk-path.jpg",
+    "garden": "assets/garden/windowsill.jpg",
+    "shop": "assets/shop/night-window.jpg"
   }
 }

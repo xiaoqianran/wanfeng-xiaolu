@@ -36,7 +36,7 @@
       <!-- 主页：小院 -->
       <section class="screen active" id="screen-home" data-screen="home">
         <div class="home-hero home-hero--art">
-          <img class="hero-art" src="assets/scenes/hero-dusk.jpg" alt="晚风小路黄昏景色" width="1100" height="240" />
+          <img class="hero-art" src="assets/scenes/hero-dusk.jpg" alt="晚风小路黄昏景色" width="1100" height="240" decoding="async" fetchpriority="high" onerror="this.onerror=null;this.src='assets/seasons/dusk.jpg'" />
           <div class="sky">
             <div class="sun"></div>
             <div class="cloud c1"></div>
@@ -431,10 +431,10 @@
     <img src="assets/seasons/winter.jpg" alt="" width="1" height="1" />
     <img src="assets/ui/achievements-badges.jpg" alt="" width="1" height="1" />
   </div>
-  <script src="js/core.js"></script>
-  <script src="js/content-extra.js"></script>
-  <script src="js/game-data.js"></script>
-  <script src="js/audio.js"></script>
-  <script src="game.js"></script>
+  <script src="js/core.js" defer></script>
+  <script src="js/content-extra.js" defer></script>
+  <script src="js/game-data.js" defer></script>
+  <script src="js/audio.js" defer></script>
+  <script src="game.js" defer></script>
 </body>
 </html>

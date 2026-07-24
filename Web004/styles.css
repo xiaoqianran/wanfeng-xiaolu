@@ -142,12 +142,16 @@ button:active { transform: scale(0.98); }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 0;
+  object-position: center;
+  z-index: 1;
+  display: block;
+  background: linear-gradient(180deg, #c4a882 0%, #e8dcc8 55%, #8a9a68 100%);
 }
 .home-hero--art .sky,
 .home-hero--art .yard {
   opacity: 0;
   pointer-events: none;
+  z-index: 0;
 }
 .scene-banner {
   width: 100%;

@@ -2,7 +2,10 @@
 /**
  * Sync data/*.json → shipped file:// JS bundles used by index.html
  * - js/content-extra.js  (WanfengExtra)
- * - js/game-data.js      (WanfengGameData: walk/garden/shop/ui/seasons/achievements/dialogues/recipes/journal)
+ * - js/game-data.js      (WanfengGameData)
+ *
+ * Runtime bundles are intentionally slimmed for browser parse/load cost
+ * (GitHub Pages / mobile). Full JSON under data/ remains the source of truth.
  */
 "use strict";
 
@@ -10,6 +13,15 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.join(__dirname, "..");
+
+// Soft caps keep first paint interactive while preserving variety.
+const CAPS = {
+  eveningEvents: 400,
+  recipes: 600,
+  mail: 300,
+  shopTips: 120,
+  pathThemes: 8000, // still many, but field-slimmed below
+};
 
 function readJson(rel, fallback) {
   const p = path.join(ROOT, rel);
@@ -32,8 +44,66 @@ function writeJs(rel, globalName, data) {
   return { path: rel, bytes: Buffer.byteLength(body) };
 }
 
+function tailCap(arr, n) {
+  if (!Array.isArray(arr)) return [];
+  if (arr.length <= n) return arr;
+  // keep head seeds + recent tail for variety
+  const head = Math.min(40, Math.floor(n / 5));
+  const tail = n - head;
+  return arr.slice(0, head).concat(arr.slice(-tail));
+}
+
+function slimTheme(t) {
+  if (!t || !t.id) return null;
+  const out = {
+    id: t.id,
+    name: t.name || t.id,
+    emoji: t.emoji || "🌿",
+    sky: t.sky,
+    ground: t.ground,
+    path: t.path,
+    bias: t.bias || undefined,
+  };
+  if (t.desc) out.desc = String(t.desc).slice(0, 48);
+  // drop ambient[] — walk uses walkCfg.ambient instead
+  return out;
+}
+
+function slimRecipe(r) {
+  if (!r) return null;
+  return {
+    id: r.id,
+    name: r.name,
+    cup: r.cup,
+    base: r.base,
+    flavor: r.flavor,
+    topping: r.topping || "none",
+  };
+}
+
+function slimEvent(e) {
+  if (!e) return null;
+  return {
+    id: e.id,
+    title: e.title,
+    body: e.body ? String(e.body).slice(0, 160) : "",
+  };
+}
+
+function slimMail(m) {
+  if (!m) return null;
+  return {
+    id: m.id,
+    title: m.title,
+    body: m.body ? String(m.body).slice(0, 120) : "",
+    effect: m.effect,
+  };
+}
+
 function slimContent(raw) {
   raw = raw || {};
+  // Keep catalog completeness for items/plants/flavors (gameplay), drop bulk pathThemes here
+  // (canonical path themes ship via game-data).
   return {
     items: raw.items || {},
     plants: raw.plants || {},
@@ -43,29 +113,77 @@ function slimContent(raw) {
     toppings: raw.toppings || [],
     customers: raw.customers || [],
     dialogues: raw.dialogues || [],
-    pathThemes: raw.pathThemes || [],
+    pathThemes: Array.isArray(raw.pathThemes) ? raw.pathThemes.slice(0, 80).map(slimTheme).filter(Boolean) : [],
     meta: raw.meta || {},
+  };
+}
+
+function slimSeasons(raw) {
+  raw = raw || {};
+  const palettes = raw.palettes || {};
+  const keys = ["dusk", "spring", "summer", "autumn", "winter"];
+  const slimPal = {};
+  keys.forEach((k) => {
+    if (palettes[k]) slimPal[k] = palettes[k];
+  });
+  const banners = raw.stageBanners || {};
+  const safe = (u, fb) =>
+    u && typeof u === "string" && !/live_\d+\.(jpg|png|webp)$/i.test(u) ? u : fb;
+  return {
+    current: raw.current || "dusk",
+    palettes: slimPal,
+    stageBanners: {
+      ui: safe(banners.ui, "assets/scenes/hero-dusk.jpg"),
+      album: safe(banners.album, "assets/album/diary-cover.jpg"),
+      walk: safe(banners.walk, "assets/scenes/walk-path.jpg"),
+      garden: safe(banners.garden, "assets/garden/windowsill.jpg"),
+      shop: safe(banners.shop, "assets/shop/night-window.jpg"),
+    },
   };
 }
 
 function main() {
   const content = slimContent(readJson("data/content-extra.json", {}));
+
+  let pathThemes = readJson("data/path-themes.json", []);
+  if (!Array.isArray(pathThemes)) pathThemes = pathThemes.themes || [];
+  pathThemes = tailCap(pathThemes.map(slimTheme).filter(Boolean), CAPS.pathThemes);
+
+  let recipes = readJson("data/secret-recipes.json", []);
+  if (!Array.isArray(recipes)) recipes = recipes.recipes || [];
+  recipes = tailCap(recipes.map(slimRecipe).filter(Boolean), CAPS.recipes);
+
+  let eveningEvents = readJson("data/evening-events.json", []);
+  if (!Array.isArray(eveningEvents)) eveningEvents = eveningEvents.events || [];
+  eveningEvents = tailCap(eveningEvents.map(slimEvent).filter(Boolean), CAPS.eveningEvents);
+
+  let mailRaw = readJson("data/mail.json", []);
+  let mail = Array.isArray(mailRaw) ? mailRaw : mailRaw.letters || [];
+  mail = tailCap(mail.map(slimMail).filter(Boolean), CAPS.mail);
+
+  const shop = readJson("data/shop-config.json", { tipMessages: [], perfectBonus: 2 });
+  if (Array.isArray(shop.tipMessages) && shop.tipMessages.length > CAPS.shopTips) {
+    shop.tipMessages = tailCap(shop.tipMessages, CAPS.shopTips);
+  }
+
   const gameData = {
     walk: readJson("data/walk-config.json", { spawnBias: {}, pathWidth: 3200, ambient: [] }),
     garden: readJson("data/garden-config.json", { potSlots: 4, careBonus: 1, messages: [] }),
-    shop: readJson("data/shop-config.json", { tipMessages: [], perfectBonus: 2 }),
+    shop,
     ui: readJson("data/ui-copy.json", { toasts: [], tips: [] }),
-    seasons: readJson("data/seasons.json", { current: "dusk", palettes: {} }),
+    seasons: slimSeasons(readJson("data/seasons.json", { current: "dusk", palettes: {} })),
     achievements: readJson("data/achievements.json", []),
     dialogues: readJson("data/dialogues.json", []),
     journal: readJson("data/journal-templates.json", []),
-    recipes: readJson("data/secret-recipes.json", []),
+    recipes,
     manifest: readJson("assets/manifest.json", { files: [], stages: {} }),
-    eveningEvents: readJson("data/evening-events.json", []),
-    pathThemes: readJson("data/path-themes.json", []),
-    mail: readJson("data/mail.json", []),
+    eveningEvents,
+    pathThemes,
+    mail,
     seasonTips: readJson("data/season-tips.json", {}),
     syncedAt: new Date().toISOString(),
+    runtimeSlim: true,
+    caps: CAPS,
   };
 
   const a = writeJs("js/content-extra.js", "WanfengExtra", content);
@@ -80,6 +198,9 @@ function main() {
     walkAmbient: (gameData.walk.ambient || []).length,
     achievements: (gameData.achievements || []).length,
     recipes: (gameData.recipes || []).length,
+    pathThemes: pathThemes.length,
+    eveningEvents: eveningEvents.length,
+    mail: mail.length,
     files: [a, b],
   };
   fs.writeFileSync(path.join(ROOT, "data", "sync-status.json"), JSON.stringify(summary, null, 2) + "\n");
@@ -88,4 +209,4 @@ function main() {
 }
 
 if (require.main === module) main();
-module.exports = { main, slimContent };
+module.exports = { main, slimContent, slimTheme, slimSeasons, CAPS };

@@ -347,14 +347,41 @@
     sfx("ui");
   }
 
+  function themesForPicker() {
+    // Never mount thousands of chips — that freezes the main thread.
+    const curId = state.pathThemeId;
+    const fav = state.favoritePathThemeId;
+    const byId = new Map(PATH_THEMES.map((t) => [t.id, t]));
+    const out = [];
+    const seen = new Set();
+    function push(th) {
+      if (!th || !th.id || seen.has(th.id)) return;
+      seen.add(th.id);
+      out.push(th);
+    }
+    // featured / early seeds
+    PATH_THEMES.slice(0, 16).forEach(push);
+    push(byId.get(curId));
+    push(byId.get(fav));
+    // recently touched
+    Object.keys(state._themesTouched || {}).slice(-12).forEach((id) => push(byId.get(id)));
+    // stable sample of the rest
+    const step = Math.max(1, Math.floor(PATH_THEMES.length / 28));
+    for (let i = 0; i < PATH_THEMES.length && out.length < 48; i += step) {
+      push(PATH_THEMES[i]);
+    }
+    return out;
+  }
+
   function renderThemePicker() {
     const box = document.getElementById("theme-picker");
     const desc = document.getElementById("theme-desc");
     if (!box) return;
     const cur = currentTheme();
     const fav = state.favoritePathThemeId;
-    box.innerHTML = "";
-    PATH_THEMES.forEach((th) => {
+    const list = themesForPicker();
+    const frag = document.createDocumentFragment();
+    list.forEach((th) => {
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "theme-chip" + (th.id === (cur && cur.id) ? " selected" : "");
@@ -383,8 +410,10 @@
           sfx("ui");
         }
       });
-      box.appendChild(btn);
+      frag.appendChild(btn);
     });
+    box.innerHTML = "";
+    box.appendChild(frag);
     if (desc) {
       const favName = fav && PATH_THEMES.find((t) => t.id === fav);
       desc.textContent =
@@ -692,10 +721,17 @@ function renderJournal() {
     if (walkRunning) resizeWalk();
   });
 
-  function loopWalk() {
+  let _walkLastDraw = 0;
+  function loopWalk(ts) {
     if (!walkRunning) return;
     updateWalk();
-    drawWalk();
+    // Cap draw rate ~30fps when reduceMotion, else ~60; still update logic every tick.
+    const st = Core.getSettings(state);
+    const minDt = st.reduceMotion ? 33 : 16;
+    if (!_walkLastDraw || (ts - _walkLastDraw) >= minDt) {
+      _walkLastDraw = ts || performance.now();
+      drawWalk();
+    }
     walkRaf = requestAnimationFrame(loopWalk);
   }
 
