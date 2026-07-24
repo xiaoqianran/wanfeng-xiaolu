@@ -5143,6 +5143,118 @@
       "emoji": "🟢",
       "kind": "风味",
       "seed": "ophiopogonPot"
+    },
+    "boysenberry": {
+      "id": "boysenberry",
+      "name": "波森莓",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "boysenberryPot"
+    },
+    "loganberry": {
+      "id": "loganberry",
+      "name": "罗甘莓",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "loganberryPot"
+    },
+    "tayberry": {
+      "id": "tayberry",
+      "name": "泰莓",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "tayberryPot"
+    },
+    "marionberry": {
+      "id": "marionberry",
+      "name": "马里恩莓",
+      "emoji": "🟣",
+      "kind": "风味",
+      "seed": "marionberryPot"
+    },
+    "wineberry": {
+      "id": "wineberry",
+      "name": "酒莓",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "wineberryPot"
+    },
+    "salmonberry": {
+      "id": "salmonberry",
+      "name": "鲑莓",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "salmonberryPot"
+    },
+    "thimbleberry": {
+      "id": "thimbleberry",
+      "name": "糙莓",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "thimbleberryPot"
+    },
+    "cloudberry_leaf": {
+      "id": "cloudberry_leaf",
+      "name": "云莓叶",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "cloudberry_leafPot"
+    },
+    "angelica_arch": {
+      "id": "angelica_arch",
+      "name": "欧当归",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "angelica_archPot"
+    },
+    "lovage_fresh": {
+      "id": "lovage_fresh",
+      "name": "鲜独活",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "lovage_freshPot"
+    },
+    "sweet_cicely": {
+      "id": "sweet_cicely",
+      "name": "欧洲没药",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "sweet_cicelyPot"
+    },
+    "wood_avense": {
+      "id": "wood_avense",
+      "name": "水杨梅根",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "wood_avensePot"
+    },
+    "ramsons_flower": {
+      "id": "ramsons_flower",
+      "name": "熊葱花",
+      "emoji": "🤍",
+      "kind": "风味",
+      "seed": "ramsons_flowerPot"
+    },
+    "sea_kale": {
+      "id": "sea_kale",
+      "name": "海甘蓝",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "sea_kalePot"
+    },
+    "scurvygrass": {
+      "id": "scurvygrass",
+      "name": "坏血病草",
+      "emoji": "⚪",
+      "kind": "风味",
+      "seed": "scurvygrassPot"
+    },
+    "marsh_samphire": {
+      "id": "marsh_samphire",
+      "name": "海蓬子",
+      "emoji": "🟢",
+      "kind": "风味",
+      "seed": "marsh_samphirePot"
     }
   },
   "plants": {
@@ -11421,6 +11533,182 @@
       ],
       "harvest": "ophiopogon",
       "days": 3
+    },
+    "boysenberryPot": {
+      "id": "boysenberryPot",
+      "name": "波森莓",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "boysenberry",
+      "days": 3
+    },
+    "loganberryPot": {
+      "id": "loganberryPot",
+      "name": "罗甘莓",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "loganberry",
+      "days": 3
+    },
+    "tayberryPot": {
+      "id": "tayberryPot",
+      "name": "泰莓",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "tayberry",
+      "days": 3
+    },
+    "marionberryPot": {
+      "id": "marionberryPot",
+      "name": "马里恩莓",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟣"
+      ],
+      "harvest": "marionberry",
+      "days": 3
+    },
+    "wineberryPot": {
+      "id": "wineberryPot",
+      "name": "酒莓",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "wineberry",
+      "days": 3
+    },
+    "salmonberryPot": {
+      "id": "salmonberryPot",
+      "name": "鲑莓",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "salmonberry",
+      "days": 3
+    },
+    "thimbleberryPot": {
+      "id": "thimbleberryPot",
+      "name": "糙莓",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "thimbleberry",
+      "days": 3
+    },
+    "cloudberry_leafPot": {
+      "id": "cloudberry_leafPot",
+      "name": "云莓叶",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "cloudberry_leaf",
+      "days": 3
+    },
+    "angelica_archPot": {
+      "id": "angelica_archPot",
+      "name": "欧当归",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "angelica_arch",
+      "days": 4
+    },
+    "lovage_freshPot": {
+      "id": "lovage_freshPot",
+      "name": "鲜独活",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "lovage_fresh",
+      "days": 3
+    },
+    "sweet_cicelyPot": {
+      "id": "sweet_cicelyPot",
+      "name": "欧洲没药",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "sweet_cicely",
+      "days": 3
+    },
+    "wood_avensePot": {
+      "id": "wood_avensePot",
+      "name": "水杨梅根",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "wood_avense",
+      "days": 4
+    },
+    "ramsons_flowerPot": {
+      "id": "ramsons_flowerPot",
+      "name": "熊葱花",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🤍"
+      ],
+      "harvest": "ramsons_flower",
+      "days": 3
+    },
+    "sea_kalePot": {
+      "id": "sea_kalePot",
+      "name": "海甘蓝",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "sea_kale",
+      "days": 3
+    },
+    "scurvygrassPot": {
+      "id": "scurvygrassPot",
+      "name": "坏血病草",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "⚪"
+      ],
+      "harvest": "scurvygrass",
+      "days": 3
+    },
+    "marsh_samphirePot": {
+      "id": "marsh_samphirePot",
+      "name": "海蓬子",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟢"
+      ],
+      "harvest": "marsh_samphire",
+      "days": 3
     }
   },
   "cups": [
@@ -16232,6 +16520,166 @@
       "name": "麦冬",
       "emoji": "🟢",
       "need": "ophiopogon",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "boysenberry",
+      "name": "波森莓",
+      "emoji": "🟣",
+      "need": "boysenberry",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "loganberry",
+      "name": "罗甘莓",
+      "emoji": "🔴",
+      "need": "loganberry",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "tayberry",
+      "name": "泰莓",
+      "emoji": "🔴",
+      "need": "tayberry",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "marionberry",
+      "name": "马里恩莓",
+      "emoji": "🟣",
+      "need": "marionberry",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "wineberry",
+      "name": "酒莓",
+      "emoji": "🔴",
+      "need": "wineberry",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "salmonberry",
+      "name": "鲑莓",
+      "emoji": "🧡",
+      "need": "salmonberry",
+      "tags": [
+        "果香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "thimbleberry",
+      "name": "糙莓",
+      "emoji": "🔴",
+      "need": "thimbleberry",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "cloudberry_leaf",
+      "name": "云莓叶",
+      "emoji": "🟢",
+      "need": "cloudberry_leaf",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "angelica_arch",
+      "name": "欧当归",
+      "emoji": "🤍",
+      "need": "angelica_arch",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "lovage_fresh",
+      "name": "鲜独活",
+      "emoji": "🟢",
+      "need": "lovage_fresh",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "sweet_cicely",
+      "name": "欧洲没药",
+      "emoji": "🤍",
+      "need": "sweet_cicely",
+      "tags": [
+        "草本",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "wood_avense",
+      "name": "水杨梅根",
+      "emoji": "🟤",
+      "need": "wood_avense",
+      "tags": [
+        "草本",
+        "温暖"
+      ]
+    },
+    {
+      "id": "ramsons_flower",
+      "name": "熊葱花",
+      "emoji": "🤍",
+      "need": "ramsons_flower",
+      "tags": [
+        "花香",
+        "清爽"
+      ]
+    },
+    {
+      "id": "sea_kale",
+      "name": "海甘蓝",
+      "emoji": "🟢",
+      "need": "sea_kale",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "scurvygrass",
+      "name": "坏血病草",
+      "emoji": "⚪",
+      "need": "scurvygrass",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "marsh_samphire",
+      "name": "海蓬子",
+      "emoji": "🟢",
+      "need": "marsh_samphire",
       "tags": [
         "草本",
         "清爽"
@@ -23430,6 +23878,246 @@
       ],
       "flavors": [
         "ophiopogon",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采波森莓的旅人",
+      "avatar": "🟣",
+      "wish": "波森莓或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "boysenberry",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采罗甘莓的药师",
+      "avatar": "🔴",
+      "wish": "罗甘莓或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "loganberry",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采泰莓的旅人",
+      "avatar": "🔴",
+      "wish": "泰莓或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "tayberry",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采马里恩莓的药师",
+      "avatar": "🟣",
+      "wish": "马里恩莓或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "marionberry",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采酒莓的旅人",
+      "avatar": "🔴",
+      "wish": "酒莓或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "wineberry",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采鲑莓的药师",
+      "avatar": "🧡",
+      "wish": "鲑莓或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "清爽"
+      ],
+      "flavors": [
+        "salmonberry",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采糙莓的旅人",
+      "avatar": "🔴",
+      "wish": "糙莓或蜜，慢慢喝也好。",
+      "tags": [
+        "果香",
+        "甜蜜"
+      ],
+      "flavors": [
+        "thimbleberry",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采云莓叶的药师",
+      "avatar": "🟢",
+      "wish": "云莓叶或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "cloudberry_leaf",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "炖欧当归的药师",
+      "avatar": "🤍",
+      "wish": "欧当归或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "angelica_arch",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采鲜独活的旅人",
+      "avatar": "🟢",
+      "wish": "鲜独活或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "lovage_fresh",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采欧洲没药的药师",
+      "avatar": "🤍",
+      "wish": "欧洲没药或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "甜蜜"
+      ],
+      "flavors": [
+        "sweet_cicely",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "炖水杨梅根的药师",
+      "avatar": "🟤",
+      "wish": "水杨梅根或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "温暖"
+      ],
+      "flavors": [
+        "wood_avense",
+        "honey",
+        "tea_leaf",
+        "lavender_bud"
+      ]
+    },
+    {
+      "name": "采熊葱花的旅人",
+      "avatar": "🤍",
+      "wish": "熊葱花或蜜，慢慢喝也好。",
+      "tags": [
+        "花香",
+        "清爽"
+      ],
+      "flavors": [
+        "ramsons_flower",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采海甘蓝的药师",
+      "avatar": "🟢",
+      "wish": "海甘蓝或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "sea_kale",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采坏血病草的旅人",
+      "avatar": "⚪",
+      "wish": "坏血病草或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "scurvygrass",
+        "honey",
+        "tea_leaf",
+        "mint"
+      ]
+    },
+    {
+      "name": "采海蓬子的药师",
+      "avatar": "🟢",
+      "wish": "海蓬子或蜜，慢慢喝也好。",
+      "tags": [
+        "草本",
+        "清爽"
+      ],
+      "flavors": [
+        "marsh_samphire",
         "honey",
         "tea_leaf",
         "mint"

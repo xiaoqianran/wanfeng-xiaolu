@@ -4968,5 +4968,181 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_boysenberry",
+    "title": "波森莓两份",
+    "body": "采波森莓的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "boysenberry": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_loganberry",
+    "title": "罗甘莓两份",
+    "body": "采罗甘莓的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "loganberry": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_tayberry",
+    "title": "泰莓两份",
+    "body": "采泰莓的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "tayberry": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_marionberry",
+    "title": "马里恩莓两份",
+    "body": "采马里恩莓的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "marionberry": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wineberry",
+    "title": "酒莓两份",
+    "body": "采酒莓的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wineberry": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_salmonberry",
+    "title": "鲑莓两份",
+    "body": "采鲑莓的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "salmonberry": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_thimbleberry",
+    "title": "糙莓两份",
+    "body": "采糙莓的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "thimbleberry": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_cloudberry_leaf",
+    "title": "云莓叶两份",
+    "body": "采云莓叶的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "cloudberry_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_angelica_arch",
+    "title": "欧当归两份",
+    "body": "炖欧当归的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "angelica_arch": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_lovage_fresh",
+    "title": "鲜独活两份",
+    "body": "采鲜独活的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "lovage_fresh": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sweet_cicely",
+    "title": "欧洲没药两份",
+    "body": "采欧洲没药的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sweet_cicely": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_wood_avense",
+    "title": "水杨梅根两份",
+    "body": "炖水杨梅根的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "wood_avense": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_ramsons_flower",
+    "title": "熊葱花两份",
+    "body": "采熊葱花的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "ramsons_flower": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_sea_kale",
+    "title": "海甘蓝两份",
+    "body": "采海甘蓝的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "sea_kale": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_scurvygrass",
+    "title": "坏血病草两份",
+    "body": "采坏血病草的旅人来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "scurvygrass": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_marsh_samphire",
+    "title": "海蓬子两份",
+    "body": "采海蓬子的药师来信：新摘的。给你两份，别放太久。",
+    "effect": {
+      "items": {
+        "marsh_samphire": 2
+      },
+      "coins": 2
+    }
   }
 ]
