@@ -2952,6 +2952,34 @@
       "emoji": "🟢",
       "kind": "风味",
       "seed": "kaffirLimePot"
+    },
+    "juniper": {
+      "id": "juniper",
+      "name": "杜松子",
+      "emoji": "🔵",
+      "kind": "风味",
+      "seed": "juniperPot"
+    },
+    "allspice": {
+      "id": "allspice",
+      "name": "多香果",
+      "emoji": "🟤",
+      "kind": "风味",
+      "seed": "allspicePot"
+    },
+    "mace": {
+      "id": "mace",
+      "name": "肉豆蔻衣",
+      "emoji": "🧡",
+      "kind": "风味",
+      "seed": "macePot"
+    },
+    "sumac": {
+      "id": "sumac",
+      "name": "盐肤木",
+      "emoji": "🔴",
+      "kind": "风味",
+      "seed": "sumacPot"
     }
   },
   "plants": {
@@ -5787,6 +5815,50 @@
       ],
       "harvest": "kaffir_lime",
       "days": 3
+    },
+    "juniperPot": {
+      "id": "juniperPot",
+      "name": "杜松子",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔵"
+      ],
+      "harvest": "juniper",
+      "days": 4
+    },
+    "allspicePot": {
+      "id": "allspicePot",
+      "name": "多香果",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🟤"
+      ],
+      "harvest": "allspice",
+      "days": 3
+    },
+    "macePot": {
+      "id": "macePot",
+      "name": "肉豆蔻衣",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🧡"
+      ],
+      "harvest": "mace",
+      "days": 4
+    },
+    "sumacPot": {
+      "id": "sumacPot",
+      "name": "盐肤木",
+      "emoji": [
+        "🌱",
+        "🌿",
+        "🔴"
+      ],
+      "harvest": "sumac",
+      "days": 3
     }
   },
   "cups": [
@@ -7468,6 +7540,46 @@
       "name": "卡菲尔青柠",
       "emoji": "🟢",
       "need": "kaffir_lime",
+      "tags": [
+        "清爽",
+        "果香"
+      ]
+    },
+    {
+      "id": "juniper",
+      "name": "杜松子",
+      "emoji": "🔵",
+      "need": "juniper",
+      "tags": [
+        "草本",
+        "清爽"
+      ]
+    },
+    {
+      "id": "allspice",
+      "name": "多香果",
+      "emoji": "🟤",
+      "need": "allspice",
+      "tags": [
+        "温暖",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "mace",
+      "name": "肉豆蔻衣",
+      "emoji": "🧡",
+      "need": "mace",
+      "tags": [
+        "温暖",
+        "甜蜜"
+      ]
+    },
+    {
+      "id": "sumac",
+      "name": "盐肤木",
+      "emoji": "🔴",
+      "need": "sumac",
       "tags": [
         "清爽",
         "果香"
@@ -9974,6 +10086,66 @@
         "mint",
         "lime",
         "lemon"
+      ]
+    },
+    {
+      "name": "采杜松的旅人",
+      "avatar": "🔵",
+      "wish": "杜松子或蜜，清爽一点，暖杯也好。",
+      "tags": [
+        "清爽",
+        "草本"
+      ],
+      "flavors": [
+        "juniper",
+        "honey",
+        "pine_needle",
+        "mint"
+      ]
+    },
+    {
+      "name": "磨多香果的厨子",
+      "avatar": "🟤",
+      "wish": "多香果或蜜，温暖甜蜜，暖杯最好。",
+      "tags": [
+        "温暖",
+        "甜蜜"
+      ],
+      "flavors": [
+        "allspice",
+        "honey",
+        "cinnamon",
+        "clove"
+      ]
+    },
+    {
+      "name": "撕肉豆蔻衣的糕点师",
+      "avatar": "🧁",
+      "wish": "肉豆蔻衣或蜜，温暖甜蜜，暖杯最好。",
+      "tags": [
+        "温暖",
+        "甜蜜"
+      ],
+      "flavors": [
+        "mace",
+        "honey",
+        "nutmeg",
+        "cocoa"
+      ]
+    },
+    {
+      "name": "撒盐肤木的厨子",
+      "avatar": "🔴",
+      "wish": "盐肤木或柠檬，清爽一点，装饰随意。",
+      "tags": [
+        "清爽",
+        "果香"
+      ],
+      "flavors": [
+        "sumac",
+        "lemon",
+        "honey",
+        "mint"
       ]
     }
   ],
