@@ -1305,5 +1305,49 @@
       },
       "coins": 2
     }
+  },
+  {
+    "id": "mail_goji",
+    "title": "枸杞一小把",
+    "body": "泡枸杞的爷爷来信：新晒的。给你一小把，别放太久。",
+    "effect": {
+      "items": {
+        "goji": 3
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_bay_leaf",
+    "title": "月桂两片",
+    "body": "炖月桂的厨子来信：新摘的。给你两片，别放太久。",
+    "effect": {
+      "items": {
+        "bay_leaf": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_oregano",
+    "title": "牛至一小把",
+    "body": "撒牛至的店员来信：新摘的。给你一小把，别放太久。",
+    "effect": {
+      "items": {
+        "oregano": 2
+      },
+      "coins": 2
+    }
+  },
+  {
+    "id": "mail_chive",
+    "title": "细香葱两把",
+    "body": "切细香葱的厨娘来信：新剪的。给你两把，别放太久。",
+    "effect": {
+      "items": {
+        "chive": 2
+      },
+      "coins": 2
+    }
   }
 ]
